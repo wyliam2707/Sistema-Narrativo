@@ -8,6 +8,7 @@ Os arquivos principais se dividem assim:
 - `resolucao-de-acoes.md` — como uma intenção se transforma em resultado real;
 - `agencia-de-personagens.md` — como personagens controlados pelo narrador pensam e agem por conta própria;
 - `narracao-e-escrita-padrao.md` — como a cena é escrita;
+- `protocolo-de-fechamento-de-capitulo.md` — como encerrar, consolidar e salvar um capítulo;
 - `organizacao-de-aventura.md` — como a campanha é registrada e retomada.
 
 Este arquivo responde:
@@ -450,11 +451,11 @@ Mostra o STATUS atual relevante.
 **Verifica a fonte**  
 Interrompe o avanço e exige consulta real aos arquivos pertinentes da aventura antes de continuar.
 
-**Fechar capítulo / Concluir capítulo**  
-Quando a aventura usa capítulos, encerra o jogo naquele ponto e inicia a consolidação definida em `organizacao-de-aventura.md`.
+**Salvar capítulo / Fechar capítulo / Fechar o capítulo / Concluir capítulo / Concluir o capítulo**  
+São comandos equivalentes. Quando a aventura usa capítulos, encerram a ficção no ponto atual e executam `protocolo-de-fechamento-de-capitulo.md`: consolidar o capítulo literário, salvar em `livro/` e atualizar as fontes de continuidade pertinentes.
 
 **Salvar estado**  
-Atualiza o savegame operacional quando a infraestrutura disponível permitir persistência.
+Atualiza apenas o savegame operacional quando a infraestrutura disponível permitir persistência. Não fecha nem consolida capítulo.
 
 ---
 
