@@ -11,6 +11,8 @@ aventuras/<nome-da-aventura>/
 ├── README.md
 ├── diretrizes/
 ├── personagens/
+├── mestre/
+│   └── viloes/
 ├── mundo/
 ├── relacionamento/
 ├── progressao/
@@ -48,7 +50,7 @@ Pode conter:
 Essas diretrizes pertencem à aventura e **não** ao sistema universal.
 
 ### `personagens/`
-Contém as fichas estáveis de personagens Centrais e Relevantes.
+Contém as fichas estáveis e normalmente apresentáveis ao jogador de personagens Centrais e Relevantes.
 
 A ficha responde principalmente:
 - quem é;
@@ -57,6 +59,31 @@ A ficha responde principalmente:
 - quais relações recorrentes da vida atual precisam ser acompanhadas.
 
 Ferimentos, cansaço, condições temporárias, favores, acessos e relações circunstanciais não pertencem automaticamente à ficha permanente.
+
+Antagonistas cuja ficha precise permanecer oculta durante o jogo não ficam aqui; usar `mestre/viloes/`.
+
+### `mestre/`
+Área reservada ao narrador para informação que deve existir de forma persistente sem ser apresentada ao jogador antes de ser descoberta na ficção.
+
+Ela **não é tecnicamente privada** para o proprietário do repositório. “Reservada” significa que o narrador ou outra IA não deve expor espontaneamente seu conteúdo durante o RPG.
+
+A subpasta padrão:
+
+```text
+mestre/viloes/
+```
+
+pode guardar fichas completas de antagonistas importantes, recorrentes ou poderosos quando suas capacidades, objetivos ou segredos precisarem de continuidade própria.
+
+Regras:
+- inimigos comuns não exigem arquivo individual;
+- um vilão importante pode receber ficha completa antes de aparecer diretamente;
+- o narrador pode consultar essa ficha durante a sessão;
+- informações ocultas não devem ser reveladas ao jogador até o protagonista descobri-las de forma plausível;
+- uma capacidade já definida não deve ser alterada retroativamente apenas para contrariar o jogador ou recuperar dificuldade perdida;
+- mudanças posteriores na ficha precisam nascer de acontecimentos reais da ficção.
+
+Se um antagonista deixar de exigir sigilo, sua ficha pode continuar em `mestre/viloes/` ou ser migrada para `personagens/` quando isso melhorar a organização.
 
 ### `mundo/`
 Contém regras e fatos específicos do cenário:
@@ -158,6 +185,8 @@ Local: telhado do laboratório
 Efeito ativo: nenhum
 ```
 
+Informação operacional que precise continuar secreta não deve ser colocada num `estado/atual.md` que a aventura trate como fonte apresentável ao jogador; mantê-la na área reservada do narrador quando necessário.
+
 ### `livro/`
 Contém o registro canônico consolidado do que realmente aconteceu, em capítulos ou outra forma narrativa definida pelas diretrizes da aventura.
 
@@ -210,7 +239,7 @@ O narrador deve mostrar/atualizar STATUS:
 
 Não repetir STATUS a cada ação se nada importante mudou.
 
-Para Figurantes, normalmente basta acompanhar narrativamente enquanto permanecerem na cena; não é necessário persistir cada detalhe.
+Para Figurantes e inimigos comuns, normalmente basta acompanhar narrativamente enquanto permanecerem na cena; não é necessário persistir cada detalhe nem criar arquivo individual.
 
 ## Quando alterar a ficha permanente
 
@@ -231,6 +260,8 @@ Isso não é progressão mecânica. É atualização de continuidade.
 Uma relação direcional deve ser alterada somente na ficha de quem mudou, e apenas quando aquele vínculo merecer acompanhamento recorrente. Relações circunstanciais podem continuar em `progressao/`.
 
 > **A ficha muda quando o personagem mudou, não porque a história decidiu premiá-lo.**
+
+Para fichas reservadas em `mestre/viloes/`, vale a mesma regra: não alterar capacidades estabelecidas apenas porque o jogador encontrou uma solução eficaz.
 
 ## O que entra na Progressão
 
@@ -259,6 +290,8 @@ Mas:
 
 pode merecer, mesmo que só volte a importar centenas de capítulos depois.
 
+Se Darek passar a exigir capacidades e objetivos próprios de forma persistente, o narrador pode criar sua ficha reservada em `mestre/viloes/` sem transformar todo inimigo menor em personagem arquivado.
+
 ## Fechamento de capítulo
 
 Ao encerrar um capítulo ou bloco canônico:
@@ -271,6 +304,7 @@ Ao encerrar um capítulo ou bloco canônico:
 6. Atualizar arquivos de `relacionamento/` quando houver evolução complexa importante de vínculos recorrentes.
 7. Sobrescrever `estado/atual.md` com o ponto exato de continuação.
 8. Remover do STATUS condições que já terminaram.
+9. Atualizar material em `mestre/` somente quando fatos ou consequências reais tiverem alterado aquilo que o narrador precisa acompanhar em segredo.
 
 ## Hierarquia de cânone
 
@@ -281,11 +315,14 @@ Como padrão recomendado:
 1. correção explícita mais recente do usuário;
 2. capítulos consolidados em `livro/`;
 3. diretrizes canônicas da aventura;
-4. personagens, mundo e relacionamentos consolidados;
-5. progressão narrativa vigente;
-6. cronologia;
-7. `estado/atual.md` para o estado operacional presente;
-8. material antigo ou rascunho apenas como referência.
+4. material reservado do narrador em `mestre/`, quando aplicável;
+5. personagens, mundo e relacionamentos consolidados;
+6. progressão narrativa vigente;
+7. cronologia;
+8. `estado/atual.md` para o estado operacional presente;
+9. material antigo ou rascunho apenas como referência.
+
+Material em `mestre/` pode definir verdades ainda desconhecidas pelo protagonista, mas não pode contradizer fatos já consolidados em fontes superiores nem ser reescrito retroativamente para vencer o jogador.
 
 `estado/atual.md` é autoridade sobre o **agora**, mas não pode contradizer um fato canônico sem que exista um acontecimento posterior que explique a mudança.
 
@@ -299,11 +336,14 @@ Para retomar uma campanha sem contexto anterior:
 2. ler o `README.md` da aventura;
 3. ler as diretrizes indicadas;
 4. ler as fichas dos personagens presentes ou centrais;
-5. consultar relações e mundo relevantes;
-6. consultar a Progressão relevante para personagens, locais e organizações envolvidos;
-7. ler a cronologia suficiente para entender a situação;
-8. ler `estado/atual.md`;
-9. consultar o último capítulo consolidado quando necessário;
-10. só então continuar a narrativa.
+5. consultar `mestre/` silenciosamente quando houver antagonistas ou segredos relevantes para a continuação;
+6. consultar relações e mundo relevantes;
+7. consultar a Progressão relevante para personagens, locais e organizações envolvidos;
+8. ler a cronologia suficiente para entender a situação;
+9. ler `estado/atual.md`;
+10. consultar o último capítulo consolidado quando necessário;
+11. só então continuar a narrativa.
+
+Ao consultar `mestre/`, outra IA deve usar a informação para manter continuidade **sem apresentá-la ao jogador como conhecimento do protagonista**.
 
 > **Nunca depender de “lembrar da conversa anterior” quando os arquivos da aventura existem.**
