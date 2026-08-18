@@ -1,13 +1,13 @@
 # Criação da Campanha
 
-Status geral: EM CRIAÇÃO
+Status geral: CONCLUÍDA
 
 1. Cenário: APROVADO
 2. Protagonista: APROVADO
 3. Personagens relevantes: APROVADO
 4. Início da história: APROVADO
 
-Revisão final: NÃO INICIADA
+Revisão final: CONCLUÍDA
 
 ## Pendências para revisão
 
@@ -16,3 +16,4 @@ Revisão final: NÃO INICIADA
 - Durante a criação conceitual, as fichas dos aliados podem já ser criadas usando o modelo oficial de Personagem Relevante, mantendo em branco os campos ainda não definidos para preenchimento posterior na revisão.
 - Inimigos importantes não precisam ser totalmente definidos durante a criação conceitual; podem ser desenvolvidos posteriormente pelo narrador quando passarem a importar diretamente na campanha.
 - Revisar o método de fichas para oficializar uma revisão em quatro blocos: 1) identidade e conceito; 2) capacidades; 3) recursos; 4) interpretação. O narrador pode propor uma base em cada bloco, mas deve apresentar, ajustar e obter aprovação do jogador antes de avançar. A ficha completa só deve ser consolidada e salva como APROVADO depois dos quatro blocos revisados.
+- Padronizar no protocolo onde o início aprovado da história deve ser armazenado. Neste exemplo ele foi consolidado em `mundo/inicio-da-historia.md`, enquanto o protocolo atual indica `estado/inicio.md`.
