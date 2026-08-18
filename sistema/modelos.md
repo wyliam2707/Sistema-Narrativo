@@ -17,7 +17,7 @@ PER: Perícia [+ ] / Perícia [+ ] / ...
 Poder [Fonte opcional] [ ] => uso / uso / especialização [ ]
 Poder [ ] => ...
 EQP: somente equipamentos recorrentes/relevantes
-REL: Pessoa [+/- ] / Pessoa [+/- ]
+REL: somente relações recorrentes da vida atual
 
 ## Personalidade e tendências
 - ...
@@ -34,6 +34,8 @@ REL: Pessoa [+/- ] / Pessoa [+/- ]
 
 A ficha Central pode ser mais descritiva porque precisa sustentar agência e continuidade por muito tempo.
 
+Relações circunstanciais que ainda podem voltar a importar, mas não pertencem à vida recorrente do personagem, devem ficar em `progressao/` em vez de ampliar indefinidamente `REL`.
+
 ## 2. Ficha — personagem Relevante
 
 ```text
@@ -48,7 +50,7 @@ ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
 PER: ...
 Poder [ ] => ...
 EQP: ...
-REL: ...
+REL: somente vínculos recorrentes quando necessário
 
 Objetivo/Tendência: uma ou poucas linhas quando necessário.
 ```
@@ -128,7 +130,60 @@ Status: canônico / planejado / rascunho
 
 Nunca tratar trajetória planejada como acontecimento já ocorrido.
 
-## 6. Cronologia
+Usar este modelo para relações recorrentes ou complexas. Uma pessoa circunstancial que apenas pode voltar a importar não precisa ganhar um arquivo aqui; pode ser registrada em Progressão.
+
+## 6. Progressão Narrativa — Evolução de Vida
+
+A Progressão não é XP nem lista de recompensas. Registra **consequências ainda vivas que podem voltar a produzir efeito**.
+
+Modelo recomendado:
+
+```text
+# Progressão Narrativa
+
+## Relações circunstanciais
+- Princesa Elara [+2] — ficou favorável após o resgate; fora da ficha porque não faz parte da vida atual.
+- Capitão dos Corvos [-2] — passou a odiar o personagem após a humilhação pública.
+
+## Acessos
+- Mercado de Armas de Karsk — acesso liberado.
+
+## Favores e dívidas
+- Rei Alaric — deve um favor importante.
+
+## Recursos ou apoios acionáveis
+- Corvos Cinzentos — aceitam contratos do personagem.
+
+## Posições / autoridade
+- ...
+
+## Restrições / perdas
+- ...
+
+## Ameaças ou promessas latentes
+- Trigon passou a considerar o personagem um inimigo pessoal.
+- Darek jurou vingança e continua vivo.
+```
+
+Não é obrigatório usar todos os subtítulos. Criar apenas os que realmente ajudam.
+
+Uma entrada deve responder, de forma compacta:
+
+```text
+Consequência: o que mudou.
+Origem: capítulo/cena, se útil.
+Estado: ainda válida / encerrada, apenas se houver ambiguidade.
+```
+
+O arquivo não precisa registrar toda consequência menor.
+
+> **Registrar somente o que ainda possui potencial causal futuro.**
+
+Quando uma relação circunstancial passa a integrar de fato a vida recorrente do personagem, ela pode sair da Progressão e passar a ser acompanhada em `REL` da ficha ou em `relacionamento/`.
+
+Quando um favor é usado, uma dívida é quitada, uma ameaça deixa de existir ou outra consequência perde qualquer futuro plausível, remover/arquivar a entrada; o fato histórico continua preservado em livro/cronologia.
+
+## 7. Cronologia
 
 ```text
 ## Capítulo / período
@@ -143,7 +198,9 @@ Conhecimento adquirido:
 
 O campo de conhecimento é importante para impedir metaconhecimento acidental.
 
-## 7. README de uma aventura
+> **Cronologia diz o que aconteceu. Progressão destaca o que ainda pode voltar a importar.**
+
+## 8. README de uma aventura
 
 ```text
 # Nome da Aventura
@@ -174,9 +231,10 @@ As diretrizes locais complementam ou alteram apenas o que declararem explicitame
 2. livro/capítulos consolidados;
 3. diretrizes;
 4. personagens/mundo/relacionamento;
-5. cronologia;
-6. estado atual;
-7. rascunhos antigos.
+5. progressão narrativa vigente;
+6. cronologia;
+7. estado atual;
+8. rascunhos antigos.
 
 ## Ponto atual
 Consultar: `estado/atual.md`
@@ -185,10 +243,12 @@ Consultar: `estado/atual.md`
 Nunca continuar apenas pela memória de outro chat; consultar as fontes desta aventura.
 ```
 
-## 8. Princípio de economia
+## 9. Princípio de economia
 
 Não preencher campos apenas porque o modelo existe.
 
 > **Registrar somente o que ajuda o narrador a decidir, lembrar ou manter continuidade.**
 
 Central recebe detalhe alto; Relevante recebe detalhe proporcional ao papel; Figurante recebe apenas o necessário para a cena.
+
+A Progressão segue a mesma regra: não guardar toda reação ou consequência menor, apenas aquilo que ainda pode ter vida futura.
