@@ -129,12 +129,14 @@ Exemplos:
 
 | Grau | Referência |
 |---|---|
-| **[+0]** | conhecimento básico |
-| **[+1]** | treinado |
+| **[+0]** | leigo / sem conhecimento ou treinamento relevante |
+| **[+1]** | básico / treinado |
 | **[+2]** | profissional |
 | **[+3]** | especialista |
 | **[+4]** | mestre |
 | **[+5]** | ápice daquela área |
+
+Uma perícia não listada normalmente é tratada como **[+0]** quando for necessário avaliar aquele campo. Escrever `[+0]` na ficha só é útil quando a ausência de formação precisa ficar explícita.
 
 A perícia mede **habilidade e eficácia dentro do campo**, não aumenta fisicamente o personagem.
 
