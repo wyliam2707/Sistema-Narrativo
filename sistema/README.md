@@ -717,25 +717,63 @@ Um Figurante pode ser muito mais poderoso que um personagem Central. A categoria
 
 ## 18. NPCs rápidos — modelo-base
 
-Para NPCs simples, usar ficha por exceção.
+Para NPCs simples, especialmente Figurantes e personagens de pouca importância, usar **ficha por modelo e exceção**.
 
 Formato:
 
 > **Função/Nome — Modelo [grau] | exceções**
 
+O nome do modelo representa a **natureza, espécie ou arquétipo** do personagem. O grau representa a escala-base de seus atributos. O nome não determina o grau.
+
+Assim, podem existir normalmente:
+
+> **Humano [0]**  
+> **Humano [1]**  
+> **Zumbi [0]**  
+> **Vampiro [1]**  
+> **Demônio [0]**  
+> **Demônio [3]**
+
 O valor do modelo preenche todos os atributos automaticamente. Só atributos diferentes precisam ser escritos.
 
+Além dos atributos, o modelo carrega automaticamente as **características básicas já estabelecidas para aquela natureza no cenário, cânone ou aventura**: comportamentos típicos, capacidades comuns, necessidades, hábitos, limitações e fraquezas que seriam esperadas daquele modelo.
+
+Isso evita criar uma ficha completa para cada criatura simples.
+
 Exemplo:
+
+> **Zumbi [0]**
+
+já representa um zumbi comum daquele cenário, com atributos-base em 0 e com as propriedades normalmente estabelecidas para zumbis naquele mundo.
+
+Da mesma forma:
+
+> **Vampiro [1]**
+
+representa um vampiro daquele cenário com atributos-base em 1, incluindo as características vampíricas básicas já definidas pelo mundo, sem precisar repetir cada fraqueza, hábito ou capacidade comum em sua ficha.
+
+O modelo **não inventa características universais** para uma espécie. O que ele carrega implicitamente vem do cenário, cânone ou regras já estabelecidas da aventura.
+
+Somente exceções importantes precisam ser escritas.
+
+Exemplo:
+
+> **Vampiro [1] | FOR [2] | resistente à luz solar**
+
+significa que ele segue o modelo vampírico normal daquele mundo, exceto pelas alterações declaradas.
+
+Outro exemplo:
 
 > **Guarda — Humano [1]**
 
 Significa:
 
-- FOR 1
-- AGI 1
-- RES 1
-- MEN 1
-- VON 1
+- natureza/modelo humano;
+- FOR 1;
+- AGI 1;
+- RES 1;
+- MEN 1;
+- VON 1.
 
 Outro exemplo:
 
@@ -743,6 +781,7 @@ Outro exemplo:
 
 Significa:
 
+- modelo demoníaco conforme o cenário;
 - base 3 em todos os atributos;
 - FOR 4;
 - VON 1.
@@ -751,7 +790,9 @@ Outras exceções/perícias podem ser acrescentadas apenas se forem importantes:
 
 > **Guarda — Humano [0] | Soldado [+2]**
 
-Quanto menor a importância do personagem, mais abstrata pode ser sua ficha.
+Quanto menor a importância do personagem, mais abstrata pode ser sua ficha. Personagens Centrais e Relevantes recebem ficha própria quando necessário.
+
+> **Modelo define o pacote-base. Exceções registram apenas o que foge dele.**
 
 ---
 
