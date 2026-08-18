@@ -355,7 +355,41 @@ Não manter entradas mortas apenas por completude histórica. O capítulo e a cr
 
 ---
 
-## 13. Regra prática para registrar
+## 13. Quando uma ameaça precisa de ficha própria
+
+Uma entrada de Progressão e uma ficha de antagonista cumprem funções diferentes.
+
+A Progressão registra **por que a ameaça continua causalmente viva**:
+
+> `Darek sobreviveu, passou a odiá-lo e jurou vingança.`
+
+Isso não obriga a criar uma ficha completa para Darek naquele momento.
+
+Enquanto ele for apenas uma consequência latente, a entrada pode bastar.
+
+Se Darek passar a exigir continuidade própria — capacidades estáveis, objetivos operacionais, recursos, segredos, planos ou participação recorrente — o narrador pode criar uma ficha reservada em:
+
+```text
+mestre/viloes/darek.md
+```
+
+A ficha responde **quem Darek é e o que pode fazer**. A Progressão continua respondendo **qual consequência da história mantém Darek relevante**.
+
+Por isso:
+
+- inimigo comum não recebe ficha apenas por existir;
+- ameaça latente pode permanecer somente na Progressão;
+- antagonista importante pode ter Progressão e ficha reservada ao mesmo tempo;
+- a ficha reservada não substitui o fato histórico que originou a ameaça;
+- poderes, resistências, recursos ou imunidades não devem ser acrescentados retroativamente apenas porque o jogador encontrou uma solução eficaz.
+
+Se a ameaça deixar de existir, a entrada de Progressão pode ser encerrada mesmo que a ficha histórica continue arquivada como referência.
+
+> **Progressão registra a consequência viva. A ficha do vilão registra o agente que pode agir sobre ela.**
+
+---
+
+## 14. Regra prática para registrar
 
 Ao final de uma cena, capítulo ou arco, perguntar:
 
@@ -380,7 +414,7 @@ Cada uma apenas preserva uma mudança real produzida pela história.
 
 ---
 
-## 14. Regra final
+## 15. Regra final
 
 > **Não existe XP.**
 >
@@ -395,6 +429,8 @@ Cada uma apenas preserva uma mudança real produzida pela história.
 > **Nem toda consequência é importante o bastante para ser persistida.**
 >
 > **Progressão registra aquilo que ainda pode voltar a produzir efeito.**
+>
+> **Uma ameaça latente não precisa de ficha; um antagonista que exija continuidade própria pode receber ficha reservada em `mestre/viloes/`.**
 >
 > **Um gancho é uma possibilidade causal, nunca uma obrigação de roteiro.**
 >
