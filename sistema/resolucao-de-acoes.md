@@ -656,6 +656,28 @@ Mas incapacitar alguém de modo preciso, controlando lesões e evitando dano exc
 
 > **Potência responde quanto pode ser feito. Competência e contexto ajudam a determinar como aquilo pode ser feito.**
 
+### Capacidades equivalentes não significam objetivos equivalentes
+
+Quando dois lados possuem capacidades próximas ou iguais, o narrador não deve presumir empate. Primeiro deve comparar o **objetivo**, o **método** e o **escopo real** de cada agente.
+
+Exemplos:
+
+- alguém tentando matar e alguém tentando conter sem ferir não estão executando a mesma tarefa;
+- alguém treinando e se limitando voluntariamente não está usando necessariamente o mesmo escopo de alguém tentando vencer a qualquer custo;
+- proteger outra pessoa enquanto luta acrescenta uma exigência que o oponente pode não possuir.
+
+Quem tenta preservar mais condições, cumprir mais objetivos simultâneos ou se limita voluntariamente pode estar em situação diferente mesmo com valores idênticos.
+
+Somente depois de considerar intenção, escopo, método, capacidades, condições, posição, preparação, informação, equipamento e demais circunstâncias relevantes pode existir uma **equivalência real**.
+
+### Desempate favorável ao protagonista
+
+Se, depois de toda essa análise, a situação continuar **genuinamente equivalente** — sem vantagem causal relevante para qualquer lado — o desempate favorece o protagonista controlado pelo jogador.
+
+> **Em equivalência real, o protagonista leva a vantagem.**
+
+Isso não permite ignorar uma superioridade real do oponente, anular uma consequência estabelecida ou transformar uma tentativa impossível em sucesso. É apenas o critério final quando a própria ficção não oferece motivo suficiente para distinguir os lados.
+
 ---
 
 ## 23. Quando devolver o controle
