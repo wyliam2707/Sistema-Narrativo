@@ -34,6 +34,8 @@ aventuras/<nome-da-campanha>/
 ├── criacao.md
 ├── diretrizes/
 ├── personagens/
+├── mestre/
+│   └── viloes/
 ├── mundo/
 ├── relacionamento/
 ├── progressao/
@@ -41,6 +43,10 @@ aventuras/<nome-da-campanha>/
 ├── estado/
 └── livro/
 ```
+
+`mestre/` é uma área reservada ao narrador. Ela pode conter informações que precisam existir de forma persistente sem serem apresentadas ao jogador durante a sessão. `mestre/viloes/` é o local padrão para fichas ocultas de antagonistas importantes quando forem necessárias.
+
+Essa área não é tecnicamente privada para o proprietário do repositório; “reservada” significa apenas que o narrador ou outra IA não deve revelar espontaneamente seu conteúdo durante o RPG.
 
 Em sistemas de armazenamento que não preservam pastas vazias, as pastas podem ser materializadas conforme seus primeiros arquivos forem criados.
 
@@ -100,6 +106,8 @@ Estados recomendados:
 Ao final de cada etapa, atualizar também `criacao.md`.
 
 Isso permite interromper a conversa e retomar depois sem refazer o processo.
+
+Fichas reservadas em `mestre/viloes/` seguem uma exceção: não passam por aprovação aberta do jogador, porque isso revelaria informações que devem permanecer ocultas. A regra específica aparece adiante.
 
 ---
 
@@ -244,6 +252,22 @@ Se uma adaptação específica já foi declarada — idade diferente, fase espec
 
 Preservar identidade, personalidade, poderes e relações essenciais conforme o grau de fidelidade escolhido.
 
+### Criação conceitual mínima de aliados
+
+Durante esta etapa, pode ser suficiente definir apenas **a quantidade de aliados relevantes e seus nomes**.
+
+Se isso for tudo que o jogador quiser decidir naquele momento:
+
+1. criar `personagens/<nome>.md` usando o modelo oficial de Personagem Relevante;
+2. preencher somente o que já foi realmente estabelecido;
+3. deixar os demais campos em branco;
+4. não inventar aparência, personalidade, história, capacidades ou recursos apenas para completar a ficha;
+5. desenvolver esses elementos durante a revisão posterior.
+
+Se o jogador disser `decida você`, `faça por mim` ou delegar de forma equivalente, o narrador pode propor esses detalhes, mas eles continuam sujeitos ao fluxo normal de revisão e aprovação.
+
+> **Nome definido pode bastar para fechar a criação conceitual de um aliado. Detalhe faltante não precisa ser inventado antes da revisão.**
+
 ### Fechar o elenco inicial
 
 Depois de identificar os personagens óbvios, perguntar:
@@ -261,11 +285,23 @@ O narrador continua livre para criar depois:
 - ameaças;
 - novos personagens.
 
-Esses personagens futuros não precisam ser previstos no protocolo. Se ganharem importância durante a campanha, podem ser promovidos para Relevantes ou Centrais e receber ficha apropriada.
+Esses personagens futuros não precisam ser previstos no protocolo.
+
+Inimigos comuns normalmente permanecem Figurantes e **não exigem ficha persistente**. Basta usar o modelo rápido e as exceções necessárias durante a cena.
+
+Um antagonista importante, recorrente ou poderoso pode receber ficha completa quando passar a importar. Se suas capacidades, objetivos ou segredos não devem ser revelados ao jogador, armazenar a ficha em:
+
+```text
+mestre/viloes/<nome>.md
+```
+
+Essa ficha pode ser criada pelo narrador sem ser apresentada ao jogador. Sempre que for prático, capacidades ocultas relevantes devem ser definidas antes de entrarem diretamente em conflito com o protagonista.
+
+Depois de estabelecida, a ficha não pode ser alterada apenas para contrariar uma solução válida, restaurar dificuldade ou proteger a trama.
 
 ### Fichas estruturais nesta fase
 
-Para cada personagem Central ou Relevante do elenco inicial, criar `personagens/<nome>.md` usando a estrutura final de ficha.
+Para cada personagem Central ou Relevante **do elenco inicial apresentável ao jogador**, criar `personagens/<nome>.md` usando a estrutura final de ficha.
 
 Preencher tudo que já for conhecido conceitualmente e deixar os campos ainda não definidos **em branco**.
 
@@ -280,6 +316,8 @@ Status: PENDENTE DE REVISÃO
 ```
 
 A ficha conceitual pode conter identidade, descrição, `TRAÇOS`, personalidade, história, desejos, medos e outras informações já consolidadas. A mecânica será revisada depois.
+
+Fichas reservadas em `mestre/viloes/` usam o modelo próprio definido em `sistema/modelos.md` e não entram neste fluxo de aprovação aberta.
 
 Atualizar `criacao.md`:
 
@@ -366,6 +404,8 @@ Durante toda a revisão:
 - explicar números brevemente quando isso ajudar;
 - depois da correção, reapresentar o bloco normalizado para aprovação.
 
+Fichas reservadas do narrador não são apresentadas nesta revisão. Elas obedecem às regras de `mestre/viloes/` e ao princípio de não revelar informação oculta.
+
 ---
 
 ## 10. Revisão do cenário
@@ -393,9 +433,9 @@ O cenário passa a ser fonte válida da aventura.
 
 Na **criação conceitual**, o protagonista continua sendo criado antes do elenco relevante.
 
-Na **revisão das fichas**, a ordem é diferente:
+Na **revisão das fichas apresentáveis ao jogador**, a ordem é diferente:
 
-> **Personagens relevantes/NPCs primeiro → protagonista por último.**
+> **Personagens relevantes/NPCs visíveis primeiro → protagonista por último.**
 
 O protagonista fica por último para impedir que seus valores sirvam como referência inconsciente para calibrar os demais personagens.
 
@@ -408,6 +448,8 @@ Cada personagem deve ser avaliado por aquilo que ele próprio representa.
 A ficha não precisa ser justa, simétrica ou possuir quantidade semelhante de valores altos.
 
 Nenhum personagem precisa possuir um `[5]`.
+
+Fichas ocultas em `mestre/viloes/` ficam fora dessa ordem de revisão, porque não são exibidas ao jogador.
 
 ---
 
@@ -432,6 +474,8 @@ A mesma lógica vale para atributos, perícias, poderes e especializações quan
 
 Valores altos não são distribuídos por necessidade de equilíbrio de grupo, importância narrativa ou comparação com o protagonista.
 
+A mesma calibração conservadora vale para antagonistas reservados ao narrador. Sigilo não justifica valores inflados.
+
 ---
 
 ## 13. Método de revisão de uma ficha
@@ -441,6 +485,8 @@ Revisar **um personagem por vez**.
 Fluxo padrão:
 
 > **Abrir ficha → preservar consolidado → localizar pendências → revisar bloco por bloco → apresentar ficha completa → aprovação → salvar como APROVADO → próximo personagem.**
+
+Esse fluxo se aplica às fichas apresentáveis ao jogador. Fichas reservadas em `mestre/viloes/` não passam pela apresentação final e seguem a regra específica da Seção 14.
 
 ### Conteúdo conceitual
 
@@ -526,7 +572,7 @@ Não inventar conteúdo apenas para completar visualmente uma ficha.
 
 ---
 
-## 14. Personagens canônicos e NPCs na revisão
+## 14. Personagens canônicos, NPCs e antagonistas ocultos na revisão
 
 Para personagens canônicos, licenciados ou já conhecidos, o narrador pode propor o conteúdo com base em:
 
@@ -539,7 +585,7 @@ A revisão deve ocorrer **bloco por bloco, do topo da ficha para baixo**.
 
 O narrador não deve transformar a revisão em uma recriação espontânea do personagem.
 
-Para NPCs originais criados pelo narrador, aplicar o mesmo método com base no conceito já estabelecido.
+Para NPCs originais criados pelo narrador e apresentáveis ao jogador, aplicar o mesmo método com base no conceito já estabelecido.
 
 Cada proposta continua apenas:
 
@@ -551,11 +597,42 @@ até a ficha completa ser aprovada.
 
 > **Ficha proposta não é ficha aprovada.**
 
+### Inimigos comuns
+
+Inimigos comuns normalmente são Figurantes.
+
+Eles não precisam receber arquivo individual nem entrar na revisão de fichas. O narrador usa apenas o modelo rápido e as exceções necessárias para a cena.
+
+Se um inimigo sobreviver, reaparecer ou ganhar importância real, ele pode então receber ficha adequada.
+
+### Antagonistas reservados ao narrador
+
+Um antagonista importante, recorrente ou poderoso pode receber ficha completa em:
+
+```text
+mestre/viloes/<nome>.md
+```
+
+Usar o modelo `Ficha reservada — antagonista importante` de `sistema/modelos.md`.
+
+Essa ficha:
+
+- não é apresentada ao jogador para aprovação;
+- pode conter capacidades, objetivos, limites e segredos ainda desconhecidos;
+- deve respeitar a mesma calibração mecânica do restante do sistema;
+- deve ser consultada pelo narrador quando o antagonista agir;
+- não pode ser reescrita retroativamente apenas para neutralizar o protagonista, recuperar dificuldade ou proteger o roteiro;
+- só deve mudar quando acontecimentos reais da ficção justificarem a mudança.
+
+Sempre que for prático, definir capacidades ocultas relevantes antes de usá-las diretamente contra o protagonista.
+
+> **O narrador pode esconder a informação; não pode mudar a realidade depois de descobrir a solução do jogador.**
+
 ---
 
 ## 15. Revisão do protagonista — sempre por último entre as fichas
 
-Somente depois de todas as fichas iniciais de personagens relevantes/NPCs terem sido revisadas, abrir a ficha do protagonista.
+Somente depois de todas as fichas iniciais de personagens relevantes/NPCs **apresentáveis ao jogador** terem sido revisadas, abrir a ficha do protagonista.
 
 O conceito já consolidado deve ser preservado.
 
@@ -576,11 +653,13 @@ A mesma regra vale nos dois sentidos:
 
 > **NPCs não são balanceados com o protagonista, e o protagonista não é balanceado com os NPCs.**
 
+Fichas ocultas de antagonistas não servem como régua para o protagonista e não são comparadas a ele durante a revisão.
+
 ---
 
 ## 16. Aprovação final de cada ficha
 
-Quando todos os blocos de uma personagem estiverem revisados, apresentar **a ficha completa** ao jogador.
+Quando todos os blocos de uma personagem **apresentável ao jogador** estiverem revisados, apresentar **a ficha completa** ao jogador.
 
 Enquanto essa leitura final não for aprovada, manter:
 
@@ -601,6 +680,15 @@ Status: APROVADO
 4. seguir para a próxima ficha.
 
 Não carregar correções descartadas, explicações de conversa ou versões intermediárias para a ficha final.
+
+Fichas reservadas em `mestre/viloes/` são a exceção. Elas usam:
+
+```text
+Status: CANÔNICO DO MESTRE
+Visibilidade: MESTRE
+```
+
+e não são exibidas ao jogador para aprovação.
 
 ---
 
@@ -662,6 +750,8 @@ Revisão final: CONCLUÍDA
 
 `criacao.md` pode permanecer como histórico do processo, mas não substitui os arquivos canônicos aprovados.
 
+Fichas reservadas de antagonistas não impedem o encerramento da criação e não precisam existir antecipadamente. O narrador pode criá-las depois, quando algum antagonista realmente passar a exigir continuidade própria.
+
 A partir daqui a aventura está pronta para jogar.
 
 > **Só começar a primeira cena depois que a revisão estiver concluída.**
@@ -707,7 +797,7 @@ perguntas úteis → organizar → PENDENTE DE REVISÃO
 conceito + ficha estrutural → PENDENTE DE REVISÃO
 ↓
 3. PERSONAGENS RELEVANTES
-elenco + fichas estruturais → PENDENTE DE REVISÃO
+elenco; aliados podem começar só com nomes + fichas estruturais vazias → PENDENTE DE REVISÃO
 ↓
 4. INÍCIO DA HISTÓRIA
 situação inicial concreta → PENDENTE DE REVISÃO
@@ -715,7 +805,7 @@ situação inicial concreta → PENDENTE DE REVISÃO
 REVISÃO
 cenário
 ↓
-fichas dos personagens relevantes/NPCs, uma por vez
+fichas dos personagens relevantes/NPCs visíveis, uma por vez
 ↓
 ficha do protagonista POR ÚLTIMO
 ↓
@@ -726,10 +816,14 @@ APROVAR ARQUIVOS
 criar estado/atual.md
 ↓
 COMEÇAR A CAMPANHA
+
+DURANTE A CAMPANHA
+inimigo comum → modelo rápido, sem arquivo obrigatório
+antagonista importante/recorrente/poderoso → ficha opcional em mestre/viloes/, reservada ao narrador
 ```
 
 ---
 
 ## Regra final
 
-> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar sem recriar, calibrar cada personagem por si mesmo e começar assim que houver uma base sólida aprovada.**
+> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar sem recriar, calibrar cada personagem por si mesmo e começar assim que houver uma base sólida aprovada. Inimigos comuns não exigem burocracia; antagonistas ocultos podem ter continuidade própria sem entregar seus segredos ao jogador.**
