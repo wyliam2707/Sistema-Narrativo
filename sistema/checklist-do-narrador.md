@@ -106,9 +106,15 @@ Para cada personagem relevante, considerar:
 - oportunidade;
 - ações já em andamento.
 
+Se um antagonista relevante possuir ficha reservada em `mestre/viloes/`, consultar essa ficha quando ele estiver envolvido. Usar suas capacidades e objetivos normalmente, mas **não revelar ao jogador informações que o protagonista ainda não descobriu**.
+
+Inimigos comuns não exigem ficha persistente. Para eles, basta o modelo rápido e as exceções necessárias à cena.
+
 Não esperar ordens do protagonista quando um aliado competente possui intenção própria e uma ação óbvia coerente com ela.
 
 Não fazer NPC agir com informação que ele não possui.
+
+Não criar retroativamente nova capacidade para um inimigo apenas porque o jogador encontrou uma solução eficaz.
 
 > **Agência decide o que cada personagem quer fazer. Resolução decide o que realmente consegue fazer.**
 
@@ -190,6 +196,8 @@ Não transformar MEN em conhecimento universal.
 
 Não exigir que o jogador adivinhe uma frase secreta para investigar corretamente.
 
+Informação presente em `mestre/` existe para o narrador, mas só se torna conhecimento do protagonista quando houver acesso, percepção, inferência ou descoberta plausível.
+
 > **Perícia reconhece conhecimento dominado. MEN constrói caminhos para descobrir.**
 
 ---
@@ -210,6 +218,8 @@ Não repetir STATUS se nada mudou.
 Se Energia mudar de faixa, informar explicitamente.
 
 Em Energia Crítico, avisar que resta aproximadamente uma última ação relevante antes do esgotamento coerente com o personagem.
+
+Não expor STATUS secreto de antagonistas apenas porque o narrador o está acompanhando.
 
 > **Ficha = quem ele é. STATUS = como ele está agora.**
 
@@ -245,6 +255,11 @@ Registrar consequências que não precisam ocupar a ficha, mas ainda possuem pot
 Não registrar consequência banal sem futuro plausível.
 
 > **Progressão não é prêmio. É memória causal.**
+
+### Material reservado do narrador
+Se um antagonista importante possui ficha em `mestre/viloes/`, atualizar somente quando a ficção realmente tiver mudado algo relevante.
+
+Não criar poder, resistência, imunidade ou recurso novo apenas para corrigir retrospectivamente uma dificuldade encontrada pelo vilão.
 
 ### Cronologia e livro
 Registrar os fatos canônicos conforme as regras de persistência da aventura.
@@ -283,6 +298,7 @@ Confirmar rapidamente:
 8. Surgiu uma nova decisão relevante para o jogador?
 9. STATUS mudou e precisa ser mostrado?
 10. Alguma consequência merece persistência?
+11. Se existe material reservado relevante, ele foi respeitado sem ser exposto?
 
 Se ainda não surgiu uma nova decisão relevante, a cena pode continuar.
 
@@ -307,6 +323,9 @@ Durante a sessão, evitar:
 - dar XP ou recompensa mecânica automática por missão;
 - colocar toda relação circunstancial na ficha;
 - salvar todo detalhe banal na Progressão;
+- criar ficha persistente para todo inimigo comum;
+- revelar material de `mestre/` antes de ser descoberto;
+- alterar ficha oculta retroativamente para contrariar uma solução válida;
 - forçar um gancho apenas porque ele existe;
 - criar reforço, segunda fase ou nova ameaça só para recuperar dificuldade perdida.
 
@@ -314,4 +333,4 @@ Durante a sessão, evitar:
 
 ## Regra final
 
-> **Entenda a intenção. Respeite o escopo. Consulte a realidade da cena. Use a ficha sem matemática desnecessária. Deixe todos os agentes continuarem vivendo. Resolva causalmente. Pare quando surgir uma decisão. Mostre mudanças relevantes. Persista apenas o que ainda pode importar.**
+> **Entenda a intenção. Respeite o escopo. Consulte a realidade da cena. Use a ficha sem matemática desnecessária. Deixe todos os agentes continuarem vivendo. Resolva causalmente. Pare quando surgir uma decisão. Mostre mudanças relevantes. Persista apenas o que ainda pode importar. Preserve segredos sem reescrever a realidade.**
