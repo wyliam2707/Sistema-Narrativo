@@ -2,7 +2,7 @@
 
 Este documento define **como criar uma nova campanha** usando o Sistema Narrativo.
 
-O objetivo é evitar formulários longos, não perder decisões durante a conversa e separar claramente **criação conceitual** de **revisão mecânica**.
+O objetivo é evitar formulários longos, não perder decisões durante a conversa e separar claramente **criação conceitual** de **revisão e conversão mecânica**.
 
 > **Primeiro construímos a campanha conceitualmente. Depois revisamos e aplicamos as regras. Só então começamos a jogar.**
 
@@ -67,7 +67,7 @@ Revisão final: NÃO INICIADA
 
 Durante as quatro etapas conceituais:
 
-- fazer **uma pergunta por vez**;
+- fazer **uma pergunta por vez**, exceto quando um pequeno bloco puder ser respondido de forma mais eficiente;
 - não pedir informação que já possa ser inferida das respostas anteriores;
 - não transformar a criação em questionário enciclopédico;
 - se o jogador disser `decida você`, escolher uma opção coerente e continuar;
@@ -80,7 +80,7 @@ Durante as quatro etapas conceituais:
 
 ## 4. Regra de salvamento e revisão
 
-Cada etapa passa por este fluxo:
+Cada etapa conceitual passa por este fluxo:
 
 > **Perguntar → Construir → Organizar → Salvar como PENDENTE DE REVISÃO → Próxima etapa**
 
@@ -143,13 +143,13 @@ Status: PENDENTE DE REVISÃO
 1. Cenário: PENDENTE DE REVISÃO
 ```
 
-5. seguir para a Etapa 2 sem iniciar ainda a revisão mecânica.
+5. seguir para a Etapa 2 sem iniciar ainda a revisão.
 
 ---
 
 ## 6. Etapa 2 — Protagonista
 
-Objetivo: criar **o protagonista como pessoa e conceito**, ainda sem convertê-lo para números.
+Objetivo: criar **o protagonista como pessoa e conceito**, ainda sem calibrar sua ficha numérica.
 
 Começar pela identidade, não pela mecânica.
 
@@ -172,15 +172,33 @@ Não perguntar sobre cada detalhe biográfico se ele não for necessário para c
 
 Quando o jogador fornecer uma imagem, ela pode ser usada para construir a descrição visual do personagem. O arquivo deve guardar a **descrição consolidada**, não depender exclusivamente da imagem para que outra IA compreenda a aparência.
 
+### Ficha estrutural desde o começo
+
+O arquivo do protagonista deve usar, desde esta etapa, a estrutura final de ficha sempre que ela já for conhecida.
+
+Preencher apenas o que já foi definido conceitualmente. Campos mecânicos ainda desconhecidos permanecem **em branco**.
+
+> **Nunca usar `[0]` para representar informação desconhecida. Zero é um valor mecânico real.**
+
+Campos conceituais podem incluir, quando relevantes:
+
+- identidade;
+- descrição;
+- `TRAÇOS` permanentes não numéricos;
+- personalidade e tendências;
+- história consolidada;
+- desejos/objetivos atuais;
+- medos/limites relevantes.
+
 ### O que NÃO fazer nesta etapa
 
-Ainda não definir:
+Ainda não calibrar:
 
 - FOR, AGI, RES, MEN ou VON;
 - graus de perícia;
 - graus de poderes;
-- custos ou economia mecânica;
-- ficha numérica completa.
+- relações numéricas ainda não estabelecidas;
+- ficha mecânica completa.
 
 Esses elementos pertencem à revisão posterior.
 
@@ -189,13 +207,13 @@ Esses elementos pertencem à revisão posterior.
 Quando o conceito do protagonista estiver suficiente:
 
 1. organizar o conceito em `personagens/<nome>.md`;
-2. marcar:
+2. manter a estrutura da ficha, deixando em branco o que ainda não foi definido;
+3. marcar:
 
 ```text
 Status: PENDENTE DE REVISÃO
 ```
 
-3. manter apenas o conceito narrativo nesta fase;
 4. atualizar `criacao.md`:
 
 ```text
@@ -245,26 +263,23 @@ O narrador continua livre para criar depois:
 
 Esses personagens futuros não precisam ser previstos no protocolo. Se ganharem importância durante a campanha, podem ser promovidos para Relevantes ou Centrais e receber ficha apropriada.
 
-### Arquivos nesta fase
+### Fichas estruturais nesta fase
 
-Para cada personagem do elenco inicial, criar `personagens/<nome>.md` com o conceito disponível e:
+Para cada personagem Central ou Relevante do elenco inicial, criar `personagens/<nome>.md` usando a estrutura final de ficha.
+
+Preencher tudo que já for conhecido conceitualmente e deixar os campos ainda não definidos **em branco**.
+
+Não inventar valores apenas para preencher a ficha.
+
+> **Campo desconhecido fica em branco. `[0]` continua sendo um valor real, nunca um marcador de pendência.**
+
+Cada arquivo permanece:
 
 ```text
 Status: PENDENTE DE REVISÃO
 ```
 
-Nesta fase, uma ficha de personagem canônico pode ser mínima, por exemplo:
-
-```text
-# Ravena
-Status: PENDENTE DE REVISÃO
-Importância: Central
-Base: canônica flexível
-Adaptações:
-- 26 anos
-```
-
-Não é obrigatório aplicar ainda os valores numéricos do sistema.
+A ficha conceitual pode conter identidade, descrição, `TRAÇOS`, personalidade, história, desejos, medos e outras informações já consolidadas. A mecânica será revisada depois.
 
 Atualizar `criacao.md`:
 
@@ -278,16 +293,19 @@ Depois seguir para a Etapa 4.
 
 ## 8. Etapa 4 — Início da história
 
-Objetivo: definir **a situação necessária para começar a primeira cena**, não planejar a campanha inteira.
+Objetivo: definir **a situação concreta necessária para começar a primeira cena**, como o início real da história, sem planejar a campanha inteira.
 
-Perguntar uma coisa por vez apenas sobre o que for necessário, por exemplo:
+A base deve responder apenas ao que importa para abrir a campanha, por exemplo:
 
 - onde a história começa;
-- situação imediata do protagonista;
+- como está a vida dos personagens imediatamente antes da abertura;
 - por que os personagens entram em contato;
-- acontecimento imediatamente anterior relevante;
+- qual necessidade, interesse ou acontecimento dispara esse contato;
+- o que cada personagem sabe naquele momento;
 - o que está acontecendo quando a cena abre;
 - ponto exato em que o jogador recebe controle.
+
+O narrador pode apresentar uma **base consolidada para revisão**, o jogador ajusta, e a base é reapresentada até aprovação.
 
 Não exigir:
 
@@ -297,6 +315,8 @@ Não exigir:
 - resultado planejado do romance;
 - solução antecipada dos conflitos;
 - arcos fechados antes de jogar.
+
+Quando houver romance, pode existir um **tema ou tensão inicial**, mas isso não deve predeterminar sentimentos, escolhas ou resultados futuros.
 
 > **A criação precisa definir o começo, não decidir o futuro.**
 
@@ -335,6 +355,17 @@ A revisão serve para:
 
 > **Conceito primeiro. Mecânica depois.**
 
+> **Revisar não significa recriar.**
+
+Durante toda a revisão:
+
+- preservar exatamente o que já foi consolidado;
+- não reescrever ou embelezar conteúdo aprovado sem necessidade;
+- localizar apenas o que ainda está pendente;
+- apresentar blocos curtos;
+- explicar números brevemente quando isso ajudar;
+- depois da correção, reapresentar o bloco normalizado para aprovação.
+
 ---
 
 ## 10. Revisão do cenário
@@ -358,70 +389,251 @@ O cenário passa a ser fonte válida da aventura.
 
 ---
 
-## 11. Revisão do protagonista
+## 11. Ordem obrigatória da revisão das fichas
 
-Para o protagonista do jogador, a aplicação mecânica deve ser feita com participação direta dele.
+Na **criação conceitual**, o protagonista continua sendo criado antes do elenco relevante.
 
-Perguntar uma categoria por vez, por exemplo:
+Na **revisão das fichas**, a ordem é diferente:
 
-1. definir atributos;
-2. definir perícias;
-3. definir poderes;
-4. definir equipamento recorrente, se houver;
-5. definir relações iniciais recorrentes, se houver.
+> **Personagens relevantes/NPCs primeiro → protagonista por último.**
 
-A ordem pode ser adaptada se o conceito exigir.
+O protagonista fica por último para impedir que seus valores sirvam como referência inconsciente para calibrar os demais personagens.
 
-Depois, montar a ficha completa no formato do sistema e apresentá-la ao jogador.
+Cada personagem deve ser avaliado por aquilo que ele próprio representa.
 
-A ficha continua:
+> **Nunca usar outra ficha como régua mecânica.**
+
+> **Nunca aumentar ou reduzir uma capacidade para balancear um personagem com outro.**
+
+A ficha não precisa ser justa, simétrica ou possuir quantidade semelhante de valores altos.
+
+Nenhum personagem precisa possuir um `[5]`.
+
+---
+
+## 12. Regra de calibração mecânica
+
+A escala do sistema deve ser aplicada de forma conservadora.
+
+Se houver dúvida real entre dois graus adjacentes, usar o menor.
+
+Exemplos:
+
+```text
+dúvida entre [2] e [3] → usar [2]
+dúvida entre [3] e [4] → usar [3]
+```
+
+A mesma lógica vale para atributos, perícias, poderes e especializações quando aplicável.
+
+> **Na dúvida, arredondar para baixo.**
+
+`[5]` continua reservado para algo que realmente represente o ápice daquela escala.
+
+Valores altos não são distribuídos por necessidade de equilíbrio de grupo, importância narrativa ou comparação com o protagonista.
+
+---
+
+## 13. Método de revisão de uma ficha
+
+Revisar **um personagem por vez**.
+
+Fluxo padrão:
+
+> **Abrir ficha → preservar consolidado → localizar pendências → revisar bloco por bloco → apresentar ficha completa → aprovação → salvar como APROVADO → próximo personagem.**
+
+### Conteúdo conceitual
+
+Revisar primeiro todo o conceito:
+
+- identidade;
+- descrição;
+- `TRAÇOS`, se houver;
+- personalidade e tendências;
+- história consolidada;
+- desejos/objetivos atuais;
+- medos/limites relevantes.
+
+Se o conteúdo já existir, apresentá-lo como está para aprovação ou correção.
+
+Se estiver em branco, perguntar ou propor conforme o tipo de personagem.
+
+Somente depois de todo o conceito estar revisado iniciar os valores mecânicos.
+
+### Blocos mecânicos simples
+
+Campos simples e ordenados podem ser apresentados juntos.
+
+Exemplo:
+
+```text
+ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+```
+
+O jogador pode responder de forma compacta, e o narrador normaliza para o formato do sistema.
+
+Quando o narrador estiver propondo os valores, pode incluir **uma linha breve de explicação por item** para facilitar a revisão.
+
+### Perícias
+
+Apresentar o bloco de perícias junto.
+
+Para personagens canônicos ou NPCs, propor apenas perícias relevantes ao personagem, sem criar uma lista enciclopédica.
+
+Perícias não listadas continuam em `+0` quando necessárias pelas regras gerais do sistema.
+
+### Poderes
+
+Poderes podem exigir revisão iterativa.
+
+O jogador pode descrever em linguagem comum ou abreviada; o narrador deve normalizar para a sintaxe do sistema e reapresentar para correção.
+
+Quando uma lista estiver aberta, perguntar se existe mais algum poder antes de fechar o bloco.
+
+Sempre que possível, manter **um poder completo por linha**, incluindo suas especializações.
+
+Exemplo:
+
+```text
+Alma Astral [3] => Projeção [3] / Manifestação [3] / Contenção [3] / Telecinese [2] / Voo [2]
+```
+
+### Equipamento e recursos
+
+Registrar apenas equipamento recorrente ou recursos persistentes que realmente importem para a personagem.
+
+Não inventar itens para preencher o campo.
+
+Instalações, laboratórios, oficinas ou recursos fixos podem ser registrados de forma descritiva quando fizerem parte permanente das capacidades disponíveis ao personagem.
+
+### Relações
+
+Revisar também `REL` antes de fechar a ficha.
+
+Registrar apenas relações **atuais, recorrentes e estabelecidas**.
+
+Personagens canônicos podem receber proposta baseada em suas relações conhecidas e nas adaptações da campanha.
+
+Sentimentos, romances ou relações planejadas para acontecer no futuro **não entram antecipadamente em `REL`**.
+
+> **A relação nasce ou muda quando isso acontece na ficção.**
+
+### Campos irrelevantes
+
+Se um campo não possuir importância real para aquela personagem, ele pode permanecer vazio.
+
+Não inventar conteúdo apenas para completar visualmente uma ficha.
+
+---
+
+## 14. Personagens canônicos e NPCs na revisão
+
+Para personagens canônicos, licenciados ou já conhecidos, o narrador pode propor o conteúdo com base em:
+
+- identidade canônica escolhida;
+- continuidade definida para a campanha;
+- adaptações já aprovadas;
+- conceito consolidado daquela personagem.
+
+A revisão deve ocorrer **bloco por bloco, do topo da ficha para baixo**.
+
+O narrador não deve transformar a revisão em uma recriação espontânea do personagem.
+
+Para NPCs originais criados pelo narrador, aplicar o mesmo método com base no conceito já estabelecido.
+
+Cada proposta continua apenas:
 
 ```text
 Status: PENDENTE DE REVISÃO
 ```
 
-até o jogador aprovar o conjunto.
-
-Só então marcar:
-
-```text
-Status: APROVADO
-```
-
----
-
-## 12. Revisão dos personagens relevantes
-
-Para personagens canônicos ou conhecidos, o narrador pode **propor a ficha mecânica completa** com base no conceito e no grau de fidelidade escolhido.
-
-Apresentar para revisão do jogador.
-
-O jogador pode corrigir antes da aprovação.
-
-Para NPCs originais criados pelo narrador, o narrador também pode propor a ficha quando ela for necessária para agência e resolução.
-
-Nenhuma proposta automática se torna definitiva apenas porque foi escrita.
+até a ficha completa ser aprovada.
 
 > **Ficha proposta não é ficha aprovada.**
 
-Quando aprovada, marcar cada arquivo como:
+---
+
+## 15. Revisão do protagonista — sempre por último entre as fichas
+
+Somente depois de todas as fichas iniciais de personagens relevantes/NPCs terem sido revisadas, abrir a ficha do protagonista.
+
+O conceito já consolidado deve ser preservado.
+
+Não perguntar novamente aquilo que já foi decidido.
+
+A participação do jogador é direta na definição dos blocos ainda pendentes, normalmente:
+
+1. atributos;
+2. perícias;
+3. poderes;
+4. equipamento ou recursos recorrentes;
+5. relações iniciais recorrentes;
+6. qualquer outro campo realmente necessário.
+
+O narrador pode organizar, normalizar sintaxe e apontar incoerências com as regras, mas não deve recalibrar o protagonista para aproximá-lo dos NPCs já revisados.
+
+A mesma regra vale nos dois sentidos:
+
+> **NPCs não são balanceados com o protagonista, e o protagonista não é balanceado com os NPCs.**
+
+---
+
+## 16. Aprovação final de cada ficha
+
+Quando todos os blocos de uma personagem estiverem revisados, apresentar **a ficha completa** ao jogador.
+
+Enquanto essa leitura final não for aprovada, manter:
+
+```text
+Status: PENDENTE DE REVISÃO
+```
+
+Depois da aprovação explícita:
+
+1. consolidar somente a versão aceita;
+2. salvar o arquivo;
+3. mudar para:
 
 ```text
 Status: APROVADO
 ```
 
+4. seguir para a próxima ficha.
+
+Não carregar correções descartadas, explicações de conversa ou versões intermediárias para a ficha final.
+
 ---
 
-## 13. Revisão do início da história
+## 17. Revisão do início da história
 
-Depois que cenário e fichas estiverem aprovados, revisar `estado/inicio.md` para garantir que o começo é coerente com:
+Depois que cenário e fichas estiverem aprovados, revisar `estado/inicio.md` como **o começo concreto da história**.
+
+Apresentar a base consolidada, ajustar com o jogador e reapresentar até aprovação.
+
+Verificar se o início é coerente com:
 
 - capacidades reais dos personagens;
 - relações estabelecidas;
 - cenário;
 - localização;
 - informação disponível;
+- motivações atuais;
 - tom da campanha.
+
+O início pode estabelecer:
+
+- motivo do primeiro encontro;
+- vantagem ou problema inicial;
+- interesse ou curiosidade;
+- tema de um romance;
+- tensão dramática inicial.
+
+Mas não deve determinar antecipadamente:
+
+- sentimentos futuros;
+- escolhas dos personagens;
+- resultado do romance;
+- solução da campanha.
 
 Depois da aprovação:
 
@@ -431,7 +643,7 @@ Depois da aprovação:
 
 ---
 
-## 14. Encerramento da criação
+## 18. Encerramento da criação
 
 Quando tudo estiver aprovado, `criacao.md` deve ficar aproximadamente assim:
 
@@ -456,7 +668,7 @@ A partir daqui a aventura está pronta para jogar.
 
 ---
 
-## 15. Retomar uma criação interrompida
+## 19. Retomar uma criação interrompida
 
 Se uma campanha já possui `criacao.md` com `Status geral: EM CRIAÇÃO`, não iniciar outra criação e não presumir que a aventura já está pronta para jogar.
 
@@ -473,11 +685,13 @@ Exemplo:
 
 Nesse caso, retomar pela Etapa 3.
 
+Se a criação conceitual já terminou e a revisão foi interrompida, localizar qual ficha ou bloco ainda está pendente e continuar dali, sem recomeçar as fichas já aprovadas.
+
 > **Não perguntar ao jogador onde parou quando o próprio arquivo de criação consegue responder.**
 
 ---
 
-## 16. Resumo operacional
+## 20. Resumo operacional
 
 ```text
 NOVA CAMPANHA
@@ -487,19 +701,25 @@ Perguntar nome
 Criar pasta + criacao.md
 ↓
 1. CENÁRIO
-perguntas uma a uma → organizar → PENDENTE DE REVISÃO
+perguntas úteis → organizar → PENDENTE DE REVISÃO
 ↓
 2. PROTAGONISTA
-conceito apenas → organizar → PENDENTE DE REVISÃO
+conceito + ficha estrutural → PENDENTE DE REVISÃO
 ↓
 3. PERSONAGENS RELEVANTES
-definir elenco → criar arquivos conceituais → PENDENTE DE REVISÃO
+elenco + fichas estruturais → PENDENTE DE REVISÃO
 ↓
 4. INÍCIO DA HISTÓRIA
-definir apenas o começo → organizar → PENDENTE DE REVISÃO
+situação inicial concreta → PENDENTE DE REVISÃO
 ↓
 REVISÃO
-cenário → protagonista + mecânica → NPCs + mecânica → início
+cenário
+↓
+fichas dos personagens relevantes/NPCs, uma por vez
+↓
+ficha do protagonista POR ÚLTIMO
+↓
+início da história
 ↓
 APROVAR ARQUIVOS
 ↓
@@ -508,6 +728,8 @@ criar estado/atual.md
 COMEÇAR A CAMPANHA
 ```
 
+---
+
 ## Regra final
 
-> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar com o jogador, aplicar a mecânica e começar assim que houver uma base sólida.**
+> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar sem recriar, calibrar cada personagem por si mesmo e começar assim que houver uma base sólida aprovada.**
