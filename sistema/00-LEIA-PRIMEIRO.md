@@ -5,12 +5,13 @@ Este diretório contém **regras universais e padrões de operação**. Ele deve
 ## Ordem de leitura
 
 1. `sistema/README.md` — regras mecânicas e linguagem de ficha.
-2. `sistema/agencia-de-personagens.md` — como personagens pensam, escolhem e agem por conta própria.
-3. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
-4. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
-5. `sistema/organizacao-de-aventura.md` — como criar, consultar e salvar uma aventura.
-6. `sistema/modelos.md` — modelos de ficha, status e arquivos de campanha.
-7. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
+2. `sistema/modo-rpg.md` — como jogador e narrador interagem durante a sessão: controle, ritmo de avanço, interrupções, combate, STATUS e comandos.
+3. `sistema/agencia-de-personagens.md` — como personagens pensam, escolhem e agem por conta própria.
+4. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
+5. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
+6. `sistema/organizacao-de-aventura.md` — como criar, consultar e salvar uma aventura.
+7. `sistema/modelos.md` — modelos de ficha, status e arquivos de campanha.
+8. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
 
 ## Separação obrigatória
 
@@ -19,6 +20,7 @@ Contém:
 - regras universais;
 - sintaxe de atributos, perícias e poderes;
 - princípios de resolução;
+- protocolo de jogo entre jogador e narrador;
 - regras de agência;
 - modelo narrativo e literário padrão;
 - método genérico de organização e persistência.
@@ -33,7 +35,20 @@ Contém apenas dados daquela história:
 - estado atual;
 - capítulos ou registro canônico do que aconteceu.
 
-> **O sistema ensina como criar e operar. A aventura contém o que foi criado e o que aconteceu.**
+> **O sistema ensina como criar, jogar e operar. A aventura contém o que foi criado e o que aconteceu.**
+
+## Três camadas que não devem ser confundidas
+
+### Sistema de resolução
+Determina o que capacidades significam e como consequências são julgadas.
+
+### Modo RPG
+Determina quem controla cada decisão e como a história avança durante o jogo.
+
+### Narração e persistência
+Determinam como a cena é escrita e como os acontecimentos são registrados para continuidade.
+
+Essas três camadas trabalham juntas, mas uma não substitui a outra.
 
 ## Herança narrativa
 
@@ -50,6 +65,8 @@ O narrador não deve decidir primeiro o que a trama precisa que aconteça e depo
 A ordem correta é:
 
 > **Sistema + ficha + história + relações + estado atual + circunstância → decisão dos personagens → consequência → nova história.**
+
+Durante o RPG, o jogador mantém controle sobre as decisões voluntárias de seu personagem, enquanto o narrador controla o mundo e interpreta os demais personagens segundo suas próprias fichas, histórias e objetivos.
 
 A aventura nasce dessas decisões.
 
