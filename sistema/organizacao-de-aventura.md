@@ -18,6 +18,7 @@ aventuras/<nome-da-aventura>/
 ├── progressao/
 ├── cronologia/
 ├── estado/
+│   ├── inicio.md
 │   └── atual.md
 └── livro/
 ```
@@ -95,6 +96,8 @@ Contém regras e fatos específicos do cenário:
 - limitações específicas;
 - fatos que personagens podem descobrir.
 
+O ponto inicial da história não pertence a `mundo/`. A situação concreta aprovada antes da primeira cena fica em `estado/inicio.md`.
+
 Uma regra específica do mundo não deve ser promovida automaticamente a regra universal do sistema.
 
 ### `relacionamento/`
@@ -160,6 +163,21 @@ A diferença principal é:
 
 > **Cronologia registra o que aconteceu. Progressão destaca o que ainda continua causalmente vivo.**
 
+### `estado/inicio.md`
+É o **marco inicial aprovado** da aventura.
+
+Guarda a situação concreta exatamente antes da primeira cena:
+- onde os personagens estavam;
+- qual situação imediata existia;
+- qual era o objetivo ou gatilho inicial;
+- qual era o ponto em que o jogador receberia controle.
+
+Depois que a campanha começa, `estado/inicio.md` não acompanha o avanço da história e não deve ser sobrescrito a cada capítulo. Ele permanece como referência canônica do ponto de partida.
+
+Se uma correção de continuidade alterar retroativamente o próprio começo da campanha, corrigir `estado/inicio.md` de forma explícita; fora disso, tratá-lo como marco histórico estável.
+
+> **`estado/inicio.md` responde “onde esta história começou?”.**
+
 ### `estado/atual.md`
 É o **savegame operacional** da aventura.
 
@@ -186,6 +204,8 @@ Efeito ativo: nenhum
 ```
 
 Informação operacional que precise continuar secreta não deve ser colocada num `estado/atual.md` que a aventura trate como fonte apresentável ao jogador; mantê-la na área reservada do narrador quando necessário.
+
+> **`estado/atual.md` responde “onde esta história está agora?”.**
 
 ### `livro/`
 Contém o registro canônico consolidado do que realmente aconteceu, em capítulos ou outra forma narrativa definida pelas diretrizes da aventura.
@@ -306,6 +326,8 @@ Ao encerrar um capítulo ou bloco canônico:
 8. Remover do STATUS condições que já terminaram.
 9. Atualizar material em `mestre/` somente quando fatos ou consequências reais tiverem alterado aquilo que o narrador precisa acompanhar em segredo.
 
+`estado/inicio.md` **não é atualizado no fechamento normal de capítulo**. Ele continua preservando o ponto inicial aprovado da campanha.
+
 ## Hierarquia de cânone
 
 Cada aventura deve definir sua própria hierarquia no `README.md`.
@@ -321,6 +343,8 @@ Como padrão recomendado:
 7. cronologia;
 8. `estado/atual.md` para o estado operacional presente;
 9. material antigo ou rascunho apenas como referência.
+
+`estado/inicio.md` é a referência canônica específica para reconstruir o **ponto de partida aprovado** da campanha. Ele não compete com `estado/atual.md` sobre o presente e não deve ser usado para desfazer acontecimentos posteriores.
 
 Material em `mestre/` pode definir verdades ainda desconhecidas pelo protagonista, mas não pode contradizer fatos já consolidados em fontes superiores nem ser reescrito retroativamente para vencer o jogador.
 
@@ -342,7 +366,8 @@ Para retomar uma campanha sem contexto anterior:
 8. ler a cronologia suficiente para entender a situação;
 9. ler `estado/atual.md`;
 10. consultar o último capítulo consolidado quando necessário;
-11. só então continuar a narrativa.
+11. consultar `estado/inicio.md` apenas quando for necessário reconstruir ou conferir o ponto de partida original;
+12. só então continuar a narrativa.
 
 Ao consultar `mestre/`, outra IA deve usar a informação para manter continuidade **sem apresentá-la ao jogador como conhecimento do protagonista**.
 
