@@ -154,9 +154,20 @@ O campo de conhecimento é importante para impedir metaconhecimento acidental.
 ## Personagens centrais
 - ...
 
+## Modelo narrativo
+Base herdada: `sistema/narracao-e-escrita-padrao.md`
+Referência de calibração: `sistema/exemplo-de-estilo.md`
+
+Exceções desta aventura:
+- nenhuma; ou
+- listar somente aquilo que realmente muda em relação ao padrão.
+
 ## Como narrar
 Ler antes:
-- diretrizes/...
+- `sistema/narracao-e-escrita-padrao.md`;
+- diretrizes específicas desta aventura, se existirem.
+
+As diretrizes locais complementam ou alteram apenas o que declararem explicitamente. Todo o restante continua herdado do modelo narrativo padrão.
 
 ## Hierarquia de cânone
 1. correção explícita mais recente;
