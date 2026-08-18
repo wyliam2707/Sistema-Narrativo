@@ -122,6 +122,8 @@ Podem:
 - agir fora da presença do protagonista;
 - cometer erros coerentes com aquilo que sabem e com quem são.
 
+Quando um antagonista relevante possuir ficha reservada em `mestre/viloes/`, essa ficha é uma fonte válida para o narrador decidir suas capacidades, objetivos, limites e ações. Ela **não é uma fonte de conhecimento automático para o jogador ou para o protagonista**.
+
 ---
 
 ## 5. Fluxo de ação
@@ -257,6 +259,14 @@ A ordem nasce de:
 - reação;
 - consequência da resolução anterior.
 
+### Inimigos comuns
+
+Inimigos comuns normalmente são Figurantes e **não precisam de ficha persistente**.
+
+O narrador pode usar apenas o modelo rápido e as exceções relevantes para a cena. Não é necessário criar arquivo para cada bandido, guarda, capanga ou criatura menor.
+
+Se um adversário ganhar importância, recorrência ou complexidade suficiente, pode receber ficha própria depois. Quando essa ficha precisar permanecer oculta, usar `mestre/viloes/`.
+
 ### O inimigo não espera
 
 Se uma ação demora o suficiente para permitir interferência, adversários capazes podem agir durante ela.
@@ -326,13 +336,15 @@ COND: braço esquerdo quebrado
 
 Não repetir depois de toda ação se nada mudou.
 
+STATUS reservado de antagonistas não deve ser mostrado apenas porque o narrador o está acompanhando.
+
 ### Comando do jogador
 
 Quando o jogador disser:
 
 > **Status, narrador.**
 
-mostrar o estado atual relevante mesmo que nada tenha acabado de mudar.
+mostrar o estado atual relevante **que o jogador pode legitimamente conhecer** mesmo que nada tenha acabado de mudar.
 
 ---
 
@@ -390,6 +402,10 @@ O personagem só pode agir diretamente sobre informação que possua ou consiga 
 
 Da mesma forma, NPCs não conhecem automaticamente ações ou planos do protagonista apenas porque o narrador os conhece.
 
+Informações armazenadas em `mestre/` são conhecimento do narrador. Elas só se tornam conhecimento do protagonista por acesso, percepção, investigação, revelação ou inferência plausível dentro da ficção.
+
+> **O narrador pode saber o segredo sem narrá-lo.**
+
 ---
 
 ## 16. Preparação e criatividade
@@ -411,6 +427,8 @@ O narrador não deve criar retroativamente:
 apenas para restaurar uma dificuldade que a preparação removeu.
 
 A mesma lógica vale para NPCs inteligentes usando informações que realmente possuam.
+
+Se um antagonista possui ficha reservada, ela também está sujeita a esta regra: o sigilo da ficha não permite modificá-la depois para escapar de uma preparação bem-sucedida do jogador.
 
 ---
 
@@ -446,10 +464,10 @@ Uma aventura pode definir outro formato.
 ### Comandos universais recomendados
 
 **Status, narrador**  
-Mostra o STATUS atual relevante.
+Mostra o STATUS atual relevante e legitimamente acessível ao jogador.
 
 **Verifica a fonte**  
-Interrompe o avanço e exige consulta real aos arquivos pertinentes da aventura antes de continuar.
+Interrompe o avanço e exige consulta real aos arquivos pertinentes da aventura antes de continuar. Se existir material reservado relevante em `mestre/`, o narrador deve consultá-lo sem revelar seu conteúdo indevidamente.
 
 **Salvar capítulo / Fechar capítulo / Fechar o capítulo / Concluir capítulo / Concluir o capítulo**  
 São comandos equivalentes. Quando a aventura usa capítulos, encerram a ficção no ponto atual e executam `protocolo-de-fechamento-de-capitulo.md`: consolidar o capítulo literário, salvar em `livro/` e atualizar as fontes de continuidade pertinentes.
@@ -477,10 +495,12 @@ A correção não deve ser transformada em acontecimento narrativo.
 
 Ao consolidar a campanha, atualizar a fonte apropriada para que outro chat não dependa da correção ter ocorrido numa conversa anterior.
 
+Uma correção que afete material reservado deve ser aplicada ali sem expor outros segredos não relacionados.
+
 ---
 
 ## 21. Regra final do modo RPG
 
 > **O jogador não escreve sozinho a história. O narrador também não.**
 >
-> **O jogador decide seu personagem. O narrador interpreta o mundo e os demais personagens. A resolução determina limites, efeitos e consequências. A história nasce quando todos têm direito de agir e o resultado real é respeitado.**
+> **O jogador decide seu personagem. O narrador interpreta o mundo e os demais personagens. A resolução determina limites, efeitos e consequências. A história nasce quando todos têm direito de agir e o resultado real é respeitado. Segredos podem permanecer ocultos; a realidade não pode ser reescrita retroativamente por conveniência.**
