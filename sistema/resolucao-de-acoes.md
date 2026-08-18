@@ -348,7 +348,7 @@ A resolução para se algo mudar qualitativamente, por exemplo:
 
 - surge uma arma capaz de ameaçar a barreira;
 - o campo começa a falhar;
-- a manutenção passa a consumir Energia de forma relevante;
+- a manutenção passa a exigir capacidade de forma relevante;
 - alguém ataca por dentro da proteção;
 - um aliado fora do campo fica em perigo;
 - os inimigos mudam de tática.
@@ -394,17 +394,185 @@ Isso não significa conceder `turno` automático a todos.
 
 Exemplo:
 
-> O personagem usa magia para conter um inimigo.
+> O personagem usa magia para conter A.
 
-Outro adversário pode tentar interrompê-lo se realmente tiver oportunidade.
+Enquanto a contenção começa:
 
-Mas um humano comum pode não ter tempo de responder a alguém com velocidade extrema.
+- B pode sacar uma arma;
+- C pode começar a correr;
+- um aliado pode continuar tratando um ferido;
+- outro aliado pode continuar perseguindo alguém.
+
+Se B sacar a arma e C começar a fugir, essas ações podem criar uma interferência relevante e devolver o controle ao jogador.
+
+Mas devolver o controle **não apaga nem congela o que os outros estavam fazendo**.
 
 > **O sistema pergunta quem realmente consegue interferir naquela resolução, não de quem seria o próximo turno.**
 
 ---
 
-## 14. Resoluções compostas
+## 14. A cena não congela
+
+Não existem turnos como unidade fundamental da cena.
+
+Cada agente pode ter uma intenção, ação ou efeito já em andamento. Quando uma reação relevante devolve o controle ao jogador, essas ações continuam existindo até serem:
+
+- concluídas;
+- abandonadas;
+- interrompidas;
+- neutralizadas;
+- tornadas impossíveis;
+- substituídas por uma nova decisão do próprio agente.
+
+Exemplo:
+
+> O jogador começa a conter A. B puxa uma arma. C começa a correr.
+
+A cena para na reação relevante e volta ao jogador.
+
+O jogador declara:
+
+> `Levanto uma proteção contra o disparo.`
+
+A nova intenção entra numa cena que já está em movimento:
+
+- A continua lidando com a contenção;
+- B continua o disparo iniciado;
+- C continua correndo porque ninguém o impediu.
+
+A resolução seguinte considera todos esses fluxos ativos conforme suas capacidades e oportunidades.
+
+> **Interferência relevante devolve o controle. Devolver o controle não congela os demais agentes.**
+
+---
+
+## 15. Aliados seguem agindo
+
+Aliados obedecem às mesmas regras de continuidade da cena.
+
+Se um aliado já estava:
+
+- perseguindo alguém;
+- tratando um ferido;
+- segurando uma porta;
+- protegendo uma saída;
+- mantendo uma barreira;
+- executando um plano próprio;
+
+não precisa receber nova ordem a cada resolução.
+
+Ele continua enquanto sua intenção, agência e situação permanecerem válidas.
+
+Uma nova ameaça pode fazê-lo reagir segundo sua própria ficha, personalidade, conhecimento e prioridades.
+
+> **Aliados não congelam esperando o protagonista decidir novamente.**
+
+---
+
+## 16. Perceber não significa poder interferir
+
+Um personagem pode perceber perfeitamente um acontecimento e ainda assim não estar livre para responder a ele.
+
+Exemplo:
+
+> O personagem está contendo A e protegendo-se de B. Ele vê C correr para a saída.
+
+Perceber C não cria automaticamente uma terceira resposta disponível.
+
+O narrador deve verificar se o personagem possui **capacidade, oportunidade e liberdade suficientes** para interferir em C sem comprometer aquilo que já está fazendo.
+
+> **Perceber uma ameaça não significa estar livre para responder a ela.**
+
+---
+
+## 17. Capacidade comprometida
+
+Não existe limite abstrato de ações simultâneas.
+
+Existe **capacidade comprometida**.
+
+Quanto mais uma ação se aproxima do limite real do personagem, menos margem sobra para sustentar outras exigências que dependam da mesma capacidade.
+
+Exemplo:
+
+> `Contenção [3]` contra um alvo de nível semelhante, resistindo com tudo.
+
+Se manter a contenção já exige praticamente toda a capacidade relevante, acrescentar outra magia complexa pode ser impossível ou comprometer a primeira.
+
+Em contraste:
+
+> `Contenção [5]` contra um humano comum [0].
+
+Se a contenção exige esforço insignificante, pode sobrar grande margem para conversar, mover-se ou executar outras ações compatíveis.
+
+> **Capacidade excedente permite simultaneidade. Capacidade comprometida limita simultaneidade.**
+
+Não usar porcentagens ou pontos de ação. Julgar narrativamente a relação entre:
+
+- capacidade disponível;
+- oposição;
+- intensidade;
+- dificuldade;
+- concentração;
+- STATUS;
+- outras exigências simultâneas.
+
+---
+
+## 18. Capacidades diferentes podem coexistir
+
+Duas ações não competem automaticamente apenas porque acontecem ao mesmo tempo.
+
+O narrador deve identificar **qual capacidade cada exigência realmente compromete**.
+
+Exemplos:
+
+- usar FOR no limite pode impedir outra tarefa física que exija a mesma força;
+- uma magia que exige MEN/VON no limite pode impedir outra magia complexa;
+- esforço físico intenso pode ainda permitir falar;
+- concentração mágica pode ainda permitir algum deslocamento simples;
+- observar algo pode ser possível mesmo enquanto outra capacidade está sendo usada.
+
+Isso continua dependendo da compatibilidade física e narrativa da situação.
+
+> **A simultaneidade depende das capacidades realmente disputadas, não da quantidade de ações declaradas.**
+
+---
+
+## 19. Duração não é sustentação
+
+Um efeito continuar existindo não significa que o personagem precisa continuar gastando capacidade para mantê-lo.
+
+Separar três conceitos:
+
+### Ativação
+O esforço necessário para produzir o efeito.
+
+### Duração
+Quanto tempo o efeito continua existindo depois de criado.
+
+### Sustentação
+Se o personagem precisa continuar comprometendo alguma capacidade enquanto o efeito permanece.
+
+Exemplo:
+
+> Uma Ampliação é ativada e dura alguns minutos.
+
+Se o efeito é autossustentado, depois da ativação ele permanece sem ocupar continuamente a atenção do personagem.
+
+O mesmo pode acontecer com uma Contenção: ela pode ser criada, prender o alvo e continuar existindo por sua duração própria.
+
+Outra Contenção pode exigir concentração permanente. Nesse caso, ela continua comprometendo capacidade enquanto for mantida.
+
+> **Duração, por si só, não implica sustentação.**
+
+Um efeito só compromete capacidade depois da ativação quando sua natureza, descrição ou regra específica exigir manutenção.
+
+O custo operacional e a recuperação de `ENERGIA` seguem as regras próprias de Energia em `README.md`; não se presume gasto contínuo apenas porque um efeito de duração ainda está ativo.
+
+---
+
+## 20. Resoluções compostas
 
 Quando o jogador acrescenta uma condição à própria ação, o narrador resolve o conjunto inteiro.
 
@@ -415,11 +583,12 @@ Exemplo:
 Agora a resolução envolve simultaneamente:
 
 - capacidade de evitar o ataque;
-- capacidade de continuar sustentando a contenção;
+- capacidade de continuar sustentando a contenção, se ela exigir sustentação;
 - pressão exercida pelo alvo contido;
 - funcionamento do poder;
 - ferimentos e condições atuais;
-- intensidade e velocidade do ataque.
+- intensidade e velocidade do ataque;
+- capacidade já comprometida por outras ações em andamento.
 
 Resultados coerentes podem incluir:
 
@@ -435,7 +604,7 @@ Não existe regra automática de `duas ações = penalidade`.
 
 ---
 
-## 15. Combate e não combate usam o mesmo motor
+## 21. Combate e não combate usam o mesmo motor
 
 Não existe um motor de resolução separado para combate.
 
@@ -467,7 +636,7 @@ Da mesma forma, `Campo de Força [5]` contra armas comuns não exige resolução
 
 ---
 
-## 16. Diferença de capacidade precisa existir na ficção
+## 22. Diferença de capacidade precisa existir na ficção
 
 Os valores não são decoração.
 
@@ -489,7 +658,7 @@ Mas incapacitar alguém de modo preciso, controlando lesões e evitando dano exc
 
 ---
 
-## 17. Quando devolver o controle
+## 23. Quando devolver o controle
 
 Depois de uma resolução, o narrador devolve o controle quando surge uma nova decisão significativa.
 
@@ -503,15 +672,18 @@ Isso ocorre especialmente quando:
 - uma nova informação pode mudar a prioridade;
 - surge conflito de vontade;
 - continuar exige escolher outro método;
-- o personagem precisa decidir entre objetivos incompatíveis.
+- o personagem precisa decidir entre objetivos incompatíveis;
+- uma reação relevante de outro agente cria uma nova decisão.
 
 Não devolver o controle apenas porque ocorreu uma pequena reação que já cabe dentro do fluxo.
 
 Não continuar atravessando uma escolha que pertence ao jogador.
 
+Ao devolver o controle, preservar todas as ações, intenções e efeitos que ainda estejam plausivelmente em andamento.
+
 ---
 
-## 18. Regra final
+## 24. Regra final
 
 > **A intenção orienta a narrativa.**
 >
@@ -521,6 +693,12 @@ Não continuar atravessando uma escolha que pertence ao jogador.
 >
 > **A oposição e a circunstância podem alterar o fluxo.**
 >
+> **A cena não congela quando o controle muda de mãos.**
+>
+> **Capacidade comprometida define quanto um personagem ainda pode fazer simultaneamente.**
+>
+> **Duração não implica sustentação.**
+>
 > **A resolução determina o que realmente acontece.**
 >
-> **Quando a situação muda o suficiente para exigir outra escolha, começa uma nova resolução.**
+> **Quando a situação muda o suficiente para exigir outra escolha, começa uma nova resolução sem apagar o que já estava em andamento.**
