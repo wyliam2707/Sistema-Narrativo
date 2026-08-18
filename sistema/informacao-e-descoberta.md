@@ -17,9 +17,9 @@ Ele complementa:
 
 O narrador deve distinguir as seguintes etapas:
 
-> **Existência → Acesso → Percepção → Interpretação → Inferência → Confirmação**
+> **Existência → Acesso → Percepção → Interpretação → Hipótese → Investigação → Confirmação**
 
-Nem toda descoberta precisa passar explicitamente por todas elas, mas elas respondem a perguntas diferentes.
+Nem toda descoberta precisa passar explicitamente por todas elas. Uma competência elevada pode eliminar etapas já dominadas pelo personagem, enquanto uma investigação pode exigir várias decisões, tempo e métodos diferentes.
 
 ### Existência
 A informação, evidência, objeto, sinal ou acontecimento realmente existe no mundo?
@@ -57,18 +57,17 @@ Podem importar:
 ### Interpretação
 O personagem entende o significado do que percebeu?
 
-Exemplo:
+Um leigo pode ver marcas no chão. Um ocultista pode reconhecer que são restos de um círculo ritual. Um especialista maior pode perceber que o círculo era de contenção, não de invocação.
 
-Um leigo vê marcas no chão.
+### Hipótese
+O personagem conecta o que já sabe e formula uma ou mais explicações plausíveis.
 
-Um ocultista pode reconhecer que são restos de um círculo ritual.
+Uma hipótese não é automaticamente verdade conhecida.
 
-Um especialista maior pode perceber que o círculo era de contenção, não de invocação.
+### Investigação
+O personagem escolhe como reduzir a incerteza: examinar, testar, comparar, pesquisar, observar, coletar, perguntar ou usar outra capacidade.
 
-### Inferência
-O personagem conecta informações já disponíveis e chega a uma hipótese ou conclusão plausível.
-
-MEN elevado, conhecimento e perícias podem tornar essas conexões muito melhores.
+Cada nova investigação pode consumir tempo, recursos e uma nova decisão do jogador.
 
 ### Confirmação
 Uma hipótese se torna fato conhecido quando existe evidência suficiente, teste, observação, testemunho, poder ou outra fonte capaz de confirmá-la.
@@ -108,19 +107,17 @@ O narrador deve entregar automaticamente:
 - inconsistências grosseiras para alguém daquele nível de experiência;
 - implicações básicas que seriam praticamente instantâneas para aquela mente.
 
-Exemplos:
-
-### Médico
+### Exemplo — Médico
 Um `Médico [+5]` olha para uma pessoa com sinais clínicos claros de choque.
 
 O jogador não precisa dizer `uso Medicina` para perceber algo que um profissional daquele nível reconheceria imediatamente.
 
-### Investigador
+### Exemplo — Investigador
 Um `Investigador [+5]` entra numa cena em que uma evidência importante está claramente fora do padrão.
 
 Se a discrepância é evidente para alguém daquela competência, o narrador deve mencioná-la.
 
-### Sentidos especiais
+### Exemplo — Sentidos especiais
 Um personagem com sentidos sobrenaturais pode perceber automaticamente um odor, ruído, aura ou presença que esteja dentro do funcionamento normal da capacidade.
 
 > **Competência passiva deve aparecer na ficção sem depender de o jogador lembrar o narrador da própria ficha.**
@@ -194,9 +191,7 @@ O narrador consulta as capacidades relevantes sem exigir que o jogador formule:
 
 A ficha serve para resolver a ação, não para limitar a linguagem do jogador.
 
-Da mesma forma, diferentes métodos podem alcançar informações semelhantes por caminhos diferentes.
-
-Exemplo:
+Diferentes métodos podem alcançar informações semelhantes por caminhos diferentes.
 
 A causa de uma morte pode ser investigada por:
 
@@ -211,43 +206,74 @@ Cada método possui acesso, precisão, tempo e limitações próprios.
 
 ---
 
-## 7. Grau de competência altera profundidade, não a existência da pista
+## 7. Perícia representa conhecimento já conquistado
 
-Quando duas pessoas observam a mesma evidência, podem extrair quantidades diferentes de informação.
+Perícia não funciona apenas como um bônus para uma tentativa. Ela representa **repertório, padrões e procedimentos que o personagem já aprendeu antes da cena**.
 
-Exemplo: símbolo parcialmente apagado no chão.
+Por isso, dentro do próprio domínio, uma perícia pode eliminar etapas de percepção, interpretação e investigação.
 
-### Leigo
-> Há marcas geométricas estranhas no piso.
+> **Quanto maior a perícia, mais adiante o personagem pode começar na cadeia de descoberta dentro daquele campo.**
 
-### Ocultismo [+2]
-> Parece ter sido parte de um ritual.
+Isso não é uma tabela rígida de etapas. A familiaridade, a dificuldade do caso e a qualidade das evidências continuam importando.
 
-### Ocultismo [+4]
-> A estrutura se parece com um círculo de contenção danificado.
+### Exemplo — cadáver suspeito
 
-### Ocultismo [+5], com contexto suficiente
-> A disposição indica que algo estava sendo mantido dentro do círculo, e a ruptura ocorreu de dentro para fora.
+Considere um cadáver cuja causa real da morte foi cianeto e cujos sinais são compatíveis com conhecimento médico disponível.
 
-O especialista não recebe automaticamente nomes, datas ou autores que a evidência não permite identificar.
+#### Médico [+0]
+Possui conhecimento básico, mas ainda não repertório suficiente para fechar uma direção apenas olhando.
 
-> **Mais competência produz leitura mais profunda da mesma realidade.**
+Após uma inspeção inicial pode trabalhar com várias hipóteses plausíveis, por exemplo:
+
+- intoxicação;
+- reação aguda;
+- problema cardíaco;
+- asfixia.
+
+Precisa examinar, comparar sinais ou realizar testes para eliminar possibilidades e obter uma direção confiável.
+
+> **[+0] não é ignorância. É conhecimento suficiente para formular possibilidades, mas ainda insuficiente para eliminar muitas delas sem investigação.**
+
+#### Médico [+1]
+Pode reconhecer cedo que alguns sinais tornam envenenamento a hipótese principal.
+
+> `Provavelmente foi envenenamento.`
+
+Ele já eliminou uma etapa que o [+0] precisaria investigar.
+
+#### Médico [+2] / [+3]
+Pode reconhecer o mecanismo provável, restringir a investigação e sugerir uma família ou grupo pequeno de compostos.
+
+> `Parece um agente que interfere desta forma no organismo. Eu procuraria esta família de toxinas.`
+
+#### Médico [+4] / [+5]
+Em um caso conhecido e com sinais suficientes, pode reconhecer um padrão altamente específico quase imediatamente.
+
+Pode examinar rapidamente, realizar uma ou duas verificações compatíveis com a situação e concluir:
+
+> `Cianeto.`
+
+Nesse nível, a descoberta pode fazer parte da própria descrição inicial da cena quando aquilo realmente seria rotineiro para alguém daquela competência.
+
+> **Perícia baixa gera possibilidades. Perícia alta elimina possibilidades antes mesmo de novos exames.**
 
 ---
 
-## 8. MEN não é conhecimento universal
+## 8. MEN constrói conhecimento por análise
 
-MEN representa raciocínio, percepção, análise e capacidade de conectar informações quando apropriado.
+MEN representa raciocínio, percepção geral, análise, capacidade de testar hipóteses e conectar informações.
 
 MEN alto pode permitir:
 
 - identificar padrões;
 - perceber inconsistências;
 - eliminar hipóteses incompatíveis;
-- fazer cálculos rapidamente;
+- escolher testes mais informativos;
+- interpretar resultados rapidamente;
 - conectar fatos distantes;
 - prever consequências plausíveis;
-- formular hipóteses melhores.
+- formular novas hipóteses;
+- aprender durante o próprio problema.
 
 MEN não concede automaticamente:
 
@@ -258,13 +284,118 @@ MEN não concede automaticamente:
 - informação secreta;
 - conhecimento do narrador.
 
-Quando uma conclusão depende de conhecimento especializado, a perícia, história ou outra fonte apropriada continua relevante.
+> **MEN não substitui repertório especializado. Ele permite construir um caminho até respostas que o personagem ainda não domina.**
 
-> **MEN ajuda a pensar com o que o personagem sabe. Não decide sozinho o que ele sabe.**
+### Exemplo — MEN [5] sem Medicina relevante
+
+O personagem olha para o mesmo cadáver.
+
+MEN [5] pode fazer o narrador entregar uma direção imediata compatível com as evidências:
+
+> `A morte não parece natural. Alguns sinais não combinam bem com uma causa comum.`
+
+Isso não significa que o personagem saiba que foi cianeto.
+
+O jogador pode então decidir investigar.
+
+Uma sequência possível seria:
+
+1. examinar o corpo com mais cuidado;
+2. perceber sinais compatíveis com intoxicação;
+3. escolher coletar uma amostra;
+4. realizar ou solicitar análise;
+5. comparar resultados com compostos conhecidos;
+6. restringir a família química;
+7. realizar novo teste ou pesquisa;
+8. confirmar cianeto.
+
+Esse processo pode ocupar várias resoluções, escolhas do jogador e tempo de jogo — talvez horas ou um dia, dependendo dos recursos e do caso.
+
+> **MEN encontra direções e constrói conclusões. O jogador ainda precisa decidir percorrer o caminho quando a resposta exige investigação.**
 
 ---
 
-## 9. Poderes de informação obedecem ao próprio escopo
+## 9. Perícia e MEN não se somam
+
+Quando MEN e uma perícia se aplicam ao mesmo problema, seus valores não são somados.
+
+Cada um responde a uma pergunta diferente.
+
+> **Perícia:** quanto deste problema o personagem já conhece e reconhece?
+>
+> **MEN:** quão bem ele analisa, conecta, testa e descobre a partir do que possui?
+
+Assim:
+
+### MEN baixo + perícia baixa
+O personagem precisa trabalhar desde cedo na cadeia e pode levar tempo para distinguir hipóteses.
+
+### MEN alto + perícia baixa
+Ainda começa com pouco repertório especializado, mas trabalha excepcionalmente bem com os dados que obtém.
+
+Pode escolher testes melhores, eliminar hipóteses rapidamente e construir conhecimento novo com eficiência.
+
+### MEN baixo + perícia alta
+Reconhece com grande rapidez aquilo que já pertence ao próprio domínio.
+
+Quando encontra algo genuinamente novo, porém, pode ter menos facilidade para extrapolar além do repertório dominado.
+
+### MEN alto + perícia alta
+Representa um **gênio trabalhando dentro da própria especialidade**.
+
+A perícia elimina o caminho conhecido. MEN aprofunda, conecta e investiga aquilo que ainda é desconhecido.
+
+Esse personagem pode não apenas reconhecer `cianeto`, mas também perceber relações, inconsistências, vias de administração ou hipóteses adicionais que outro especialista talvez não formulasse tão rapidamente — desde que as evidências sustentem essas conclusões.
+
+> **Perícia sabe. MEN descobre. Juntos, podem inovar.**
+
+---
+
+## 10. Tempo é consequência real da diferença de competência
+
+Duas fichas podem chegar à mesma verdade por caminhos muito diferentes.
+
+Isso não torna as capacidades equivalentes na cena.
+
+Um `Médico [+5]` pode reconhecer cianeto em segundos ou minutos.
+
+Um personagem com `MEN [5]` e pouca Medicina pode chegar à mesma conclusão após:
+
+- uma primeira suspeita;
+- uma decisão de investigar;
+- exames;
+- coleta de amostra;
+- análise de laboratório;
+- comparação;
+- novas escolhas;
+- horas ou um dia de trabalho.
+
+Descobrir agora e descobrir amanhã são resultados narrativamente diferentes.
+
+> **Perícia especializada reduz etapas, tempo e recursos necessários dentro de seu domínio. MEN torna as etapas restantes mais inteligentes e eficientes.**
+
+---
+
+## 11. A dificuldade e a novidade ainda importam
+
+Perícia elevada não significa conhecimento sobrenatural de qualquer coisa relacionada ao campo.
+
+Um `Médico [+5]` pode reconhecer imediatamente um veneno conhecido com sinais característicos.
+
+Diante de uma toxina alienígena inédita, ele talvez reconheça apenas:
+
+- que existe um agente tóxico;
+- qual sistema do corpo está sendo afetado;
+- que o comportamento lembra determinada família;
+- quais exames seriam úteis.
+
+Ele começa muito mais adiante do que um leigo, mas ainda precisa investigar o que ninguém conhecia antes.
+
+> **A perícia elimina etapas de conhecimento dominado; não inventa conhecimento que o campo ainda não possui.**
+
+---
+
+## 12. Poderes de informação obedecem ao próprio escopo
 
 Poderes como:
 
@@ -297,7 +428,7 @@ Detecção de magia pode revelar presença mágica sem necessariamente explicar 
 
 ---
 
-## 10. Investigação não deve depender de uma única frase secreta
+## 13. Investigação não deve depender de uma única frase secreta
 
 O narrador não deve exigir que o jogador adivinhe exatamente a pergunta, objeto ou procedimento que tinha em mente para a história continuar.
 
@@ -315,7 +446,7 @@ O escopo da investigação continua limitado pela intenção declarada.
 
 ---
 
-## 11. Uma investigação válida deve mover a situação
+## 14. Uma investigação válida deve mover a situação
 
 Quando existe informação relevante e o personagem aplica um método plausível, o resultado não deve ser um bloqueio vazio por arbitrariedade.
 
@@ -341,7 +472,7 @@ O personagem examina uma cena de homicídio, mas não possui recursos para ident
 
 Ele ainda pode descobrir:
 
-> O sangue junto à janela não pertence à vítima.
+> `O sangue junto à janela não pertence à vítima.`
 
 A resposta final continua aberta, mas a situação avançou.
 
@@ -349,7 +480,7 @@ A resposta final continua aberta, mas a situação avançou.
 
 ---
 
-## 12. Falha de investigação também deve ser informativa
+## 15. Falha de investigação também deve ser informativa
 
 Quando uma tentativa não consegue obter o que o personagem queria, o narrador deve, quando plausível, mostrar por quê.
 
@@ -369,7 +500,7 @@ Não inventar pistas falsas apenas para punir uma resolução ruim, salvo quando
 
 ---
 
-## 13. Informação falsa precisa ter causa
+## 16. Informação falsa precisa ter causa
 
 O narrador pode apresentar informação incorreta quando houver uma razão ficcional real, por exemplo:
 
@@ -396,7 +527,7 @@ O segundo exige fundamento muito maior.
 
 ---
 
-## 14. Conhecimento pertence a cada personagem
+## 17. Conhecimento pertence a cada personagem
 
 O narrador deve acompanhar separadamente o que cada personagem plausivelmente sabe.
 
@@ -417,7 +548,7 @@ O conhecimento do jogador também não é conhecimento automático do protagonis
 
 ---
 
-## 15. Compartilhar informação muda a cena
+## 18. Compartilhar informação muda a cena
 
 Quando um personagem conta algo a outro, entrega um documento, mostra uma gravação ou demonstra uma evidência, o segundo passa a ter acesso àquela informação — mas sua interpretação pode ser diferente.
 
@@ -435,7 +566,7 @@ Isso reforça a importância de personagens com competências diferentes.
 
 ---
 
-## 16. Segredos e mistérios precisam existir antes da solução
+## 19. Segredos e mistérios precisam existir antes da solução
 
 O narrador não deve decidir retroativamente a verdade de um mistério apenas para encaixar a teoria mais conveniente.
 
@@ -449,25 +580,33 @@ Não criar uma nova camada secreta apenas para impedir que a investigação func
 
 ---
 
-## 17. Regra prática — automático ou ativo?
+## 20. Regra prática — automático ou ativo?
 
 Antes de decidir se deve entregar uma informação automaticamente, o narrador pergunta:
 
-> **Isso seria imediatamente evidente para este personagem, com estes sentidos, esta competência, nesta posição e neste momento?**
+> **Isso seria imediatamente evidente para este personagem, com estes sentidos, esta perícia, este MEN, nesta posição e neste momento?**
 
 Se **sim**, informar sem exigir declaração específica.
 
-Se **não**, perguntar internamente:
+Ao usar perícia, considerar especialmente:
+
+> **Este conhecimento já faz parte do repertório daquele grau de competência?**
+
+Se sim, a perícia pode eliminar etapas e entregar reconhecimento automático.
+
+Se não, perguntar:
 
 > **É possível obter essa informação escolhendo um método, foco, tempo, recurso ou acesso adicional?**
 
 Se sim, ela pertence a uma investigação ativa.
 
+MEN pode fornecer boas direções e tornar essa investigação mais eficiente, mas não deve substituir automaticamente as decisões e o tempo necessários para construir conhecimento especializado que o personagem ainda não possui.
+
 Se não existe caminho plausível com as capacidades e fontes disponíveis, a informação continua desconhecida.
 
 ---
 
-## 18. Regra final
+## 21. Regra final
 
 > **O mundo contém fatos.**
 >
@@ -475,8 +614,12 @@ Se não existe caminho plausível com as capacidades e fontes disponíveis, a in
 >
 > **Os sentidos determinam o que pode ser percebido.**
 >
-> **A ficha determina quanto pode ser reconhecido, interpretado e conectado.**
+> **A perícia representa o conhecimento já conquistado e pode eliminar etapas dentro de seu domínio.**
 >
-> **A investigação cria novos acessos e novas evidências.**
+> **MEN analisa, testa, conecta e constrói conhecimento a partir das informações disponíveis.**
+>
+> **Perícia e MEN não se somam; cada um atua no próprio componente da descoberta.**
+>
+> **A investigação cria novos acessos, evidências e escolhas ao longo do tempo.**
 >
 > **Conclusões só podem ir até onde as informações realmente sustentam.**
