@@ -66,6 +66,30 @@ Nunca inventar campanhas que não estejam em `aventuras/`.
 
 ---
 
+## Comandos administrativos
+
+Operações de manutenção que podem destruir dados ficam separadas do fluxo normal de jogo.
+
+Para apagar definitivamente uma campanha, consultar:
+
+` sistema/comandos-administrativos.md `
+
+O comando definido é:
+
+```text
+APAGAR CAMPANHA: <nome exato da campanha>
+```
+
+A exclusão nunca é imediata: o sistema deve localizar a campanha e exigir depois a confirmação exata:
+
+```text
+CONFIRMAR EXCLUSÃO: <nome exato da campanha>
+```
+
+Nenhuma operação de exclusão pode atingir `sistema/`, a raiz do repositório ou outra campanha.
+
+---
+
 ## Continuidade
 
 Para iniciar ou continuar qualquer aventura, as fontes persistentes da campanha prevalecem sobre memória vaga de conversas anteriores.
