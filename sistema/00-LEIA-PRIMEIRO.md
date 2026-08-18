@@ -2,6 +2,19 @@
 
 Este diretório contém **regras universais e padrões de operação**. Ele deve permitir que um novo narrador — humano ou IA — entenda o sistema sem depender de outra conversa.
 
+## Entrada do sistema
+
+Quando o repositório for usado para iniciar um RPG, a primeira decisão é sempre:
+
+> **Nova campanha ou continuar uma campanha existente?**
+
+- **Nova campanha:** usar `sistema/protocolo-de-criacao.md`.
+- **Continuar:** listar as campanhas realmente existentes em `aventuras/`, deixar o jogador escolher e carregar a aventura a partir de seus próprios arquivos.
+
+Se uma aventura escolhida possuir `criacao.md` ainda em andamento, retomar a criação do ponto registrado em vez de iniciar a narrativa.
+
+Não pedir ao jogador para repetir informações que os arquivos já conseguem fornecer.
+
 ## Ordem de leitura
 
 1. `sistema/README.md` — regras mecânicas, escala, atributos, perícias, poderes, Vida, Energia e linguagem de ficha.
@@ -13,9 +26,10 @@ Este diretório contém **regras universais e padrões de operação**. Ele deve
 7. `sistema/checklist-do-narrador.md` — referência operacional curta para aplicar as regras durante a sessão sem reler todos os documentos a cada resolução.
 8. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
 9. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
-10. `sistema/organizacao-de-aventura.md` — como criar, consultar e salvar uma aventura.
-11. `sistema/modelos.md` — modelos de ficha, STATUS, Progressão e arquivos de campanha.
-12. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
+10. `sistema/protocolo-de-criacao.md` — processo de nova campanha: nome, quatro etapas conceituais, salvamento pendente de revisão e conversão mecânica posterior.
+11. `sistema/organizacao-de-aventura.md` — como consultar, organizar e salvar uma aventura.
+12. `sistema/modelos.md` — modelos de ficha, STATUS, Progressão e arquivos de campanha.
+13. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
 
 ## Separação obrigatória
 
@@ -28,12 +42,14 @@ Contém:
 - protocolo de jogo entre jogador e narrador;
 - regras de agência;
 - regras de progressão narrativa e consequências persistentes;
+- protocolo de criação de novas campanhas;
 - checklist operacional do narrador;
 - modelo narrativo e literário padrão;
 - método genérico de organização e persistência.
 
 ### `aventuras/<nome>/`
 Contém apenas dados daquela história:
+- criação e revisão, enquanto a campanha estiver sendo montada;
 - personagens concretos;
 - mundo e regras específicas;
 - relações;
@@ -78,6 +94,20 @@ A unidade fundamental do jogo não é o turno. É a resolução.
 Não existe XP ou recompensa mecânica automática por missão. A campanha progride por consequências: relações latentes, acessos, favores, recursos, posições, restrições, inimigos, promessas e outros efeitos duradouros que ainda tenham potencial causal.
 
 > **Progressão não significa ficar mais forte. Significa acumular história que ainda pode voltar a importar.**
+
+### Criação de campanha
+`protocolo-de-criacao.md` determina **como transformar uma ideia em uma aventura pronta para jogar**.
+
+A criação usa quatro etapas conceituais:
+
+1. Cenário;
+2. Protagonista;
+3. Personagens relevantes;
+4. Início da história.
+
+Cada etapa é salva como `PENDENTE DE REVISÃO`. A aplicação de atributos, perícias, poderes e demais conceitos numéricos acontece somente na revisão posterior.
+
+> **Conceito primeiro. Mecânica depois.**
 
 ### Checklist operacional
 `checklist-do-narrador.md` resume as regras já estabelecidas em uma sequência de consulta rápida durante a sessão.
