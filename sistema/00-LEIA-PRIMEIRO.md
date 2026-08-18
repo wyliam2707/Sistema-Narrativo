@@ -9,11 +9,12 @@ Este diretório contém **regras universais e padrões de operação**. Ele deve
 3. `sistema/informacao-e-descoberta.md` — como fatos existem, são percebidos, interpretados, investigados e transformados em conhecimento.
 4. `sistema/modo-rpg.md` — como jogador e narrador interagem durante a sessão: controle, ritmo de avanço, interrupções, STATUS e comandos.
 5. `sistema/agencia-de-personagens.md` — como personagens pensam, escolhem e agem por conta própria.
-6. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
-7. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
-8. `sistema/organizacao-de-aventura.md` — como criar, consultar e salvar uma aventura.
-9. `sistema/modelos.md` — modelos de ficha, STATUS e arquivos de campanha.
-10. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
+6. `sistema/progressao-narrativa.md` — como consequências duradouras, acessos, favores, relações latentes, ameaças e ganchos persistem sem XP ou progressão automática de poder.
+7. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
+8. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
+9. `sistema/organizacao-de-aventura.md` — como criar, consultar e salvar uma aventura.
+10. `sistema/modelos.md` — modelos de ficha, STATUS, Progressão e arquivos de campanha.
+11. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
 
 ## Separação obrigatória
 
@@ -25,6 +26,7 @@ Contém:
 - regras de informação, percepção e descoberta;
 - protocolo de jogo entre jogador e narrador;
 - regras de agência;
+- regras de progressão narrativa e consequências persistentes;
 - modelo narrativo e literário padrão;
 - método genérico de organização e persistência.
 
@@ -33,6 +35,7 @@ Contém apenas dados daquela história:
 - personagens concretos;
 - mundo e regras específicas;
 - relações;
+- progressões narrativas e consequências ainda vivas;
 - exceções ou complementos de narração daquela aventura;
 - cronologia;
 - estado atual;
@@ -55,7 +58,7 @@ A declaração do jogador é intenção, não resultado garantido.
 ### Informação e descoberta
 `informacao-e-descoberta.md` determina **o que existe para ser descoberto, o que cada personagem consegue perceber, como interpreta evidências e até onde suas conclusões podem ir**.
 
-> **Existência → Acesso → Percepção → Interpretação → Inferência → Confirmação.**
+> **Existência → Acesso → Percepção → Interpretação → Hipótese → Investigação → Confirmação.**
 
 Capacidade não cria informação inexistente. Competência aprofunda a leitura daquilo que realmente está disponível.
 
@@ -66,6 +69,13 @@ A unidade fundamental do jogo não é o turno. É a resolução.
 
 ### Agência
 `agencia-de-personagens.md` determina **como personagens controlados pelo narrador escolhem suas próprias intenções** segundo ficha, personalidade, história, conhecimento, relações, objetivos e STATUS.
+
+### Progressão narrativa
+`progressao-narrativa.md` determina **quais consequências continuam vivas depois da cena e podem voltar a alterar possibilidades futuras**.
+
+Não existe XP ou recompensa mecânica automática por missão. A campanha progride por consequências: relações latentes, acessos, favores, recursos, posições, restrições, inimigos, promessas e outros efeitos duradouros que ainda tenham potencial causal.
+
+> **Progressão não significa ficar mais forte. Significa acumular história que ainda pode voltar a importar.**
 
 ### Narração e persistência
 Determinam **como a cena é escrita** e **como os acontecimentos são registrados** para continuidade.
@@ -104,6 +114,7 @@ O registro persistente da aventura deve permitir reconstruir:
 - o que já aconteceu;
 - o que cada personagem plausivelmente sabe;
 - quais relações mudaram;
+- quais consequências antigas ainda podem voltar a importar;
 - como todos estão no momento atual;
 - quais exceções de narração valem naquela campanha.
 
