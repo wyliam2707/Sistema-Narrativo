@@ -400,9 +400,10 @@ Durante toda a revisão:
 - preservar exatamente o que já foi consolidado;
 - não reescrever ou embelezar conteúdo aprovado sem necessidade;
 - localizar apenas o que ainda está pendente;
-- apresentar blocos curtos;
+- apresentar somente o campo ou bloco que está sendo revisado naquele momento;
 - explicar números brevemente quando isso ajudar;
-- depois da correção, reapresentar o bloco normalizado para aprovação.
+- depois da correção, reapresentar o campo ou bloco normalizado para aprovação;
+- só avançar ao próximo campo ou bloco depois da confirmação do jogador.
 
 Fichas reservadas do narrador não são apresentadas nesta revisão. Elas obedecem às regras de `mestre/viloes/` e ao princípio de não revelar informação oculta.
 
@@ -478,65 +479,51 @@ A mesma calibração conservadora vale para antagonistas reservados ao narrador.
 
 ---
 
-## 13. Método de revisão de uma ficha
+## 13. Dois métodos de revisão de ficha
 
 Revisar **um personagem por vez**.
 
-Fluxo padrão:
+Existem dois métodos diferentes conforme quem controla o personagem:
 
-> **Abrir ficha → preservar consolidado → localizar pendências → revisar bloco por bloco → apresentar ficha completa → aprovação → salvar como APROVADO → próximo personagem.**
+- **personagem controlado pelo jogador:** revisão campo por campo, com três blocos mecânicos próprios;
+- **demais personagens apresentáveis ao jogador:** revisão em quatro blocos maiores.
 
-Esse fluxo se aplica às fichas apresentáveis ao jogador. Fichas reservadas em `mestre/viloes/` não passam pela apresentação final e seguem a regra específica da Seção 14.
+Em ambos os casos, a regra é:
 
-### Conteúdo conceitual
+> **Apresentar → corrigir se necessário → reapresentar normalizado → obter aprovação → só então avançar.**
 
-Revisar primeiro todo o conceito:
+A ficha completa só é apresentada depois que todos os campos ou blocos tiverem sido revisados.
 
-- identidade;
-- descrição;
-- `TRAÇOS`, se houver;
-- personalidade e tendências;
-- história consolidada;
-- desejos/objetivos atuais;
-- medos/limites relevantes.
+Fichas reservadas em `mestre/viloes/` não entram nesses métodos de aprovação aberta.
 
-Se o conteúdo já existir, apresentá-lo como está para aprovação ou correção.
+### 13.1. Personagem controlado pelo jogador — campo por campo
 
-Se estiver em branco, perguntar ou propor conforme o tipo de personagem.
+A ficha do personagem do jogador deve ser revisada com controle fino.
 
-Somente depois de todo o conceito estar revisado iniciar os valores mecânicos.
+Campos simples são apresentados **individualmente**, um de cada vez. O narrador não deve misturar o próximo campo antes da aprovação do atual.
 
-### Blocos mecânicos simples
+A ordem recomendada segue a própria ficha:
 
-Campos simples e ordenados podem ser apresentados juntos.
+1. nome/identidade, quando ainda houver algo a revisar;
+2. idade;
+3. conceito;
+4. descrição;
+5. `TRAÇOS`;
+6. **ATRIBUTOS** — bloco único com `FOR`, `AGI`, `RES`, `MEN` e `VON`;
+7. **PERÍCIAS** — bloco único com todas as perícias relevantes;
+8. **PODERES** — bloco único com todos os poderes e especializações;
+9. `EQP`;
+10. `REL`;
+11. personalidade e tendências;
+12. desejos/objetivos atuais;
+13. medos/limites relevantes;
+14. história consolidada relevante.
 
-Exemplo:
+Se um campo já estiver plenamente definido, apresentá-lo como está para confirmação; não reabrir sua criação sem necessidade.
 
-```text
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
-```
+Nos blocos de ATRIBUTOS, PERÍCIAS e PODERES, o jogador pode responder de forma compacta. O narrador normaliza a sintaxe e reapresenta o **bloco inteiro** antes de pedir aprovação.
 
-O jogador pode responder de forma compacta, e o narrador normaliza para o formato do sistema.
-
-Quando o narrador estiver propondo os valores, pode incluir **uma linha breve de explicação por item** para facilitar a revisão.
-
-### Perícias
-
-Apresentar o bloco de perícias junto.
-
-Para personagens canônicos ou NPCs, propor apenas perícias relevantes ao personagem, sem criar uma lista enciclopédica.
-
-Perícias não listadas continuam em `+0` quando necessárias pelas regras gerais do sistema.
-
-### Poderes
-
-Poderes podem exigir revisão iterativa.
-
-O jogador pode descrever em linguagem comum ou abreviada; o narrador deve normalizar para a sintaxe do sistema e reapresentar para correção.
-
-Quando uma lista estiver aberta, perguntar se existe mais algum poder antes de fechar o bloco.
-
-Sempre que possível, manter **um poder completo por linha**, incluindo suas especializações.
+Para PODERES, manter sempre que possível um poder completo por linha, incluindo suas especializações.
 
 Exemplo:
 
@@ -544,31 +531,39 @@ Exemplo:
 Alma Astral [3] => Projeção [3] / Manifestação [3] / Contenção [3] / Telecinese [2] / Voo [2]
 ```
 
-### Equipamento e recursos
+> **No personagem do jogador, campo simples é uma revisão; ATRIBUTOS, PERÍCIAS e PODERES são três blocos próprios.**
 
-Registrar apenas equipamento recorrente ou recursos persistentes que realmente importem para a personagem.
+### 13.2. Demais personagens apresentáveis — quatro blocos
 
-Não inventar itens para preencher o campo.
+Personagens relevantes, NPCs originais, canônicos ou licenciados que serão apresentados ao jogador usam uma revisão mais compacta em **quatro blocos**:
 
-Instalações, laboratórios, oficinas ou recursos fixos podem ser registrados de forma descritiva quando fizerem parte permanente das capacidades disponíveis ao personagem.
+**Bloco 1 — Identidade e conceito**
+- nome;
+- idade;
+- conceito;
+- descrição;
+- `TRAÇOS`.
 
-### Relações
+**Bloco 2 — Capacidades**
+- atributos;
+- perícias;
+- poderes e especializações.
 
-Revisar também `REL` antes de fechar a ficha.
+**Bloco 3 — Recursos**
+- `EQP` e recursos recorrentes;
+- `REL` atual e recorrente.
 
-Registrar apenas relações **atuais, recorrentes e estabelecidas**.
+**Bloco 4 — Interpretação**
+- personalidade e tendências;
+- desejos/objetivos atuais;
+- medos/limites relevantes;
+- história consolidada relevante.
 
-Personagens canônicos podem receber proposta baseada em suas relações conhecidas e nas adaptações da campanha.
+O narrador pode propor uma base para qualquer bloco, inclusive quando o jogador delegou a criação, mas deve apresentar, ajustar e obter aprovação do jogador **antes de avançar ao bloco seguinte**.
 
-Sentimentos, romances ou relações planejadas para acontecer no futuro **não entram antecipadamente em `REL`**.
+Se algum campo dentro do bloco não possuir importância real, ele pode permanecer vazio. Não inventar conteúdo apenas para completar visualmente a ficha.
 
-> **A relação nasce ou muda quando isso acontece na ficção.**
-
-### Campos irrelevantes
-
-Se um campo não possuir importância real para aquela personagem, ele pode permanecer vazio.
-
-Não inventar conteúdo apenas para completar visualmente uma ficha.
+> **Outros personagens são revisados em quatro blocos; o personagem do jogador recebe revisão mais fina.**
 
 ---
 
@@ -581,7 +576,7 @@ Para personagens canônicos, licenciados ou já conhecidos, o narrador pode prop
 - adaptações já aprovadas;
 - conceito consolidado daquela personagem.
 
-A revisão deve ocorrer **bloco por bloco, do topo da ficha para baixo**.
+A proposta deve respeitar os **quatro blocos** da Seção 13.2.
 
 O narrador não deve transformar a revisão em uma recriação espontânea do personagem.
 
@@ -636,16 +631,11 @@ Somente depois de todas as fichas iniciais de personagens relevantes/NPCs **apre
 
 O conceito já consolidado deve ser preservado.
 
-Não perguntar novamente aquilo que já foi decidido.
+Não perguntar novamente aquilo que já foi decidido sem necessidade. Em vez disso, apresentar cada campo já consolidado para confirmação conforme o método da Seção 13.1.
 
-A participação do jogador é direta na definição dos blocos ainda pendentes, normalmente:
+A revisão do protagonista segue obrigatoriamente:
 
-1. atributos;
-2. perícias;
-3. poderes;
-4. equipamento ou recursos recorrentes;
-5. relações iniciais recorrentes;
-6. qualquer outro campo realmente necessário.
+> **campos simples um por vez → ATRIBUTOS como bloco → PERÍCIAS como bloco → PODERES como bloco → demais campos simples um por vez → ficha completa.**
 
 O narrador pode organizar, normalizar sintaxe e apontar incoerências com as regras, mas não deve recalibrar o protagonista para aproximá-lo dos NPCs já revisados.
 
@@ -659,7 +649,7 @@ Fichas ocultas de antagonistas não servem como régua para o protagonista e nã
 
 ## 16. Aprovação final de cada ficha
 
-Quando todos os blocos de uma personagem **apresentável ao jogador** estiverem revisados, apresentar **a ficha completa** ao jogador.
+Quando todos os campos ou blocos de uma personagem **apresentável ao jogador** estiverem revisados, apresentar **a ficha completa consolidada** ao jogador.
 
 Enquanto essa leitura final não for aprovada, manter:
 
@@ -775,7 +765,7 @@ Exemplo:
 
 Nesse caso, retomar pela Etapa 3.
 
-Se a criação conceitual já terminou e a revisão foi interrompida, localizar qual ficha ou bloco ainda está pendente e continuar dali, sem recomeçar as fichas já aprovadas.
+Se a criação conceitual já terminou e a revisão foi interrompida, localizar qual personagem e qual **campo ou bloco** ainda estão pendentes e continuar dali, sem recomeçar partes já aprovadas.
 
 > **Não perguntar ao jogador onde parou quando o próprio arquivo de criação consegue responder.**
 
@@ -805,9 +795,11 @@ situação inicial concreta → PENDENTE DE REVISÃO
 REVISÃO
 cenário
 ↓
-fichas dos personagens relevantes/NPCs visíveis, uma por vez
+personagens relevantes/NPCs visíveis → 4 blocos por personagem
 ↓
-ficha do protagonista POR ÚLTIMO
+protagonista POR ÚLTIMO → campos simples individualmente; ATRIBUTOS, PERÍCIAS e PODERES como blocos
+↓
+ficha completa → aprovação final
 ↓
 início da história
 ↓
@@ -826,4 +818,4 @@ antagonista importante/recorrente/poderoso → ficha opcional em mestre/viloes/,
 
 ## Regra final
 
-> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar sem recriar, calibrar cada personagem por si mesmo e começar assim que houver uma base sólida aprovada. Inimigos comuns não exigem burocracia; antagonistas ocultos podem ter continuidade própria sem entregar seus segredos ao jogador.**
+> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar sem recriar, calibrar cada personagem por si mesmo e começar assim que houver uma base sólida aprovada. O personagem do jogador recebe revisão campo por campo, com ATRIBUTOS, PERÍCIAS e PODERES como blocos próprios; os demais personagens apresentáveis são revisados em quatro blocos. Inimigos comuns não exigem burocracia; antagonistas ocultos podem ter continuidade própria sem entregar seus segredos ao jogador.**
