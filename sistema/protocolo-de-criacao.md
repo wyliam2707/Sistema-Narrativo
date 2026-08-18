@@ -26,33 +26,65 @@ Antes de qualquer pergunta de cenário, perguntar:
 
 > **Qual será o nome da campanha?**
 
-Assim que o nome for definido, criar a estrutura da aventura em:
+Assim que o nome for definido, criar **imediatamente a estrutura completa da aventura**, já materializada por arquivos `README.md` em todas as pastas estruturais:
 
 ```text
 aventuras/<nome-da-campanha>/
 ├── README.md
 ├── criacao.md
 ├── diretrizes/
+│   └── README.md
 ├── personagens/
+│   └── README.md
 ├── mestre/
+│   ├── README.md
 │   └── viloes/
+│       └── README.md
 ├── mundo/
+│   └── README.md
 ├── relacionamento/
+│   └── README.md
 ├── progressao/
+│   └── README.md
 ├── cronologia/
+│   └── README.md
 ├── estado/
+│   └── README.md
 └── livro/
+    └── README.md
 ```
+
+Git não preserva diretórios vazios. Por isso, **não esperar a primeira utilização de cada pasta**: o `README.md` estrutural deve existir desde o começo e manter a estrutura visível e compreensível para outro chat ou outra IA.
+
+Cada `README.md` estrutural deve ser curto e explicar:
+
+- a função daquela pasta;
+- que tipo de informação pertence ali;
+- o que não deve ser colocado ali quando existir risco de confusão;
+- qualquer regra especial de visibilidade ou persistência daquela área.
+
+Funções mínimas esperadas:
+
+- `diretrizes/` — regras específicas de narração e funcionamento daquela campanha;
+- `personagens/` — fichas apresentáveis de personagens Centrais e Relevantes;
+- `mestre/` — material persistente reservado ao narrador;
+- `mestre/viloes/` — fichas ocultas de antagonistas importantes quando necessárias;
+- `mundo/` — cenário, locais, organizações e fatos estáveis do mundo;
+- `relacionamento/` — vínculos recorrentes ou complexos que precisem de acompanhamento próprio;
+- `progressao/` — consequências duradouras ainda causalmente vivas;
+- `cronologia/` — índice objetivo do que aconteceu e de mudanças relevantes de conhecimento;
+- `estado/` — `inicio.md` como marco inicial aprovado e `atual.md` como savegame operacional mutável;
+- `livro/` — capítulos ou outro registro narrativo canônico consolidado.
 
 `mestre/` é uma área reservada ao narrador. Ela pode conter informações que precisam existir de forma persistente sem serem apresentadas ao jogador durante a sessão. `mestre/viloes/` é o local padrão para fichas ocultas de antagonistas importantes quando forem necessárias.
 
 Essa área não é tecnicamente privada para o proprietário do repositório; “reservada” significa apenas que o narrador ou outra IA não deve revelar espontaneamente seu conteúdo durante o RPG.
 
-Em sistemas de armazenamento que não preservam pastas vazias, as pastas podem ser materializadas conforme seus primeiros arquivos forem criados.
-
 Criar imediatamente `criacao.md` para registrar o andamento.
 
-Modelo inicial:
+O `README.md` da raiz da aventura também existe desde o começo. Durante a criação ele pode ser apenas uma porta de entrada curta indicando que a campanha está em montagem e apontando para `criacao.md`; depois da aprovação final ele deve ser atualizado com a entrada completa da campanha.
+
+Modelo inicial de `criacao.md`:
 
 ```text
 # Criação da Campanha
@@ -66,6 +98,8 @@ Status geral: EM CRIAÇÃO
 
 Revisão final: NÃO INICIADA
 ```
+
+> **A estrutura nasce junto com a campanha. Pasta estrutural sem conteúdo próprio ainda mantém seu `README.md` explicando para que existe.**
 
 ---
 
@@ -717,7 +751,7 @@ Depois da aprovação:
 
 1. marcar `estado/inicio.md` como `APROVADO`;
 2. criar `estado/atual.md` com o ponto operacional exato em que a campanha começa;
-3. preparar o `README.md` da aventura como porta de entrada da campanha.
+3. atualizar o `README.md` da raiz da aventura, criado no início, para que passe de porta de entrada provisória a porta de entrada completa da campanha.
 
 ---
 
@@ -739,6 +773,8 @@ Revisão final: CONCLUÍDA
 ```
 
 `criacao.md` pode permanecer como histórico do processo, mas não substitui os arquivos canônicos aprovados.
+
+Os `README.md` estruturais permanecem em suas respectivas pastas durante toda a campanha. Eles descrevem a função da pasta e não devem ser apagados apenas porque outros arquivos passaram a existir ali.
 
 Fichas reservadas de antagonistas não impedem o encerramento da criação e não precisam existir antecipadamente. O narrador pode criá-las depois, quando algum antagonista realmente passar a exigir continuidade própria.
 
@@ -778,7 +814,7 @@ NOVA CAMPANHA
 ↓
 Perguntar nome
 ↓
-Criar pasta + criacao.md
+Criar estrutura completa + README.md em cada pasta estrutural + criacao.md
 ↓
 1. CENÁRIO
 perguntas úteis → organizar → PENDENTE DE REVISÃO
@@ -805,17 +841,18 @@ início da história
 ↓
 APROVAR ARQUIVOS
 ↓
-criar estado/atual.md
+criar estado/atual.md + atualizar README.md da raiz da aventura
 ↓
 COMEÇAR A CAMPANHA
 
 DURANTE A CAMPANHA
 inimigo comum → modelo rápido, sem arquivo obrigatório
 antagonista importante/recorrente/poderoso → ficha opcional em mestre/viloes/, reservada ao narrador
+README.md estrutural → permanece explicando a função da pasta
 ```
 
 ---
 
 ## Regra final
 
-> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar sem recriar, calibrar cada personagem por si mesmo e começar assim que houver uma base sólida aprovada. O personagem do jogador recebe revisão campo por campo, com ATRIBUTOS, PERÍCIAS e PODERES como blocos próprios; os demais personagens apresentáveis são revisados em quatro blocos. Inimigos comuns não exigem burocracia; antagonistas ocultos podem ter continuidade própria sem entregar seus segredos ao jogador.**
+> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar sem recriar, calibrar cada personagem por si mesmo e começar assim que houver uma base sólida aprovada. A estrutura completa da campanha, com um `README.md` explicativo em cada pasta estrutural, nasce assim que o nome é definido. O personagem do jogador recebe revisão campo por campo, com ATRIBUTOS, PERÍCIAS e PODERES como blocos próprios; os demais personagens apresentáveis são revisados em quatro blocos. Inimigos comuns não exigem burocracia; antagonistas ocultos podem ter continuidade própria sem entregar seus segredos ao jogador.**
