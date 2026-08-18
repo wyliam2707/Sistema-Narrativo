@@ -2,22 +2,49 @@
 
 Estes modelos existem para tornar a criação de aventuras consistente e rápida.
 
+## Regra durante a criação
+
+Durante a criação conceitual, preencher somente o que já foi realmente definido.
+
+Campos ainda desconhecidos permanecem **em branco** até a revisão correspondente.
+
+> **Nunca usar `[0]` para representar algo ainda não definido. Zero é um valor mecânico real.**
+
+Enquanto a ficha ainda estiver sendo construída ou revisada, usar:
+
+```text
+Status: PENDENTE DE REVISÃO
+```
+
+Somente depois da aprovação explícita do jogador mudar para:
+
+```text
+Status: APROVADO
+```
+
+`TRAÇOS` pode ser usado para verdades permanentes e não numéricas relevantes ao personagem, quando existirem.
+
 ## 1. Ficha — personagem Central
 
 ```text
 # Nome
 
+Status: PENDENTE DE REVISÃO
 Importância: Central
-Idade: ...
-Conceito: ...
-Descrição: aparência breve | personalidade em palavras-chave
+
+Idade:
+Conceito:
+Descrição:
+
+TRAÇOS:
+- ...
 
 ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
-PER: Perícia [+ ] / Perícia [+ ] / ...
+PER:
 Poder [Fonte opcional] [ ] => uso / uso / especialização [ ]
 Poder [ ] => ...
-EQP: somente equipamentos recorrentes/relevantes
-REL: somente relações recorrentes da vida atual
+EQP:
+REL:
 
 ## Personalidade e tendências
 - ...
@@ -34,6 +61,8 @@ REL: somente relações recorrentes da vida atual
 
 A ficha Central pode ser mais descritiva porque precisa sustentar agência e continuidade por muito tempo.
 
+Não preencher `TRAÇOS`, `EQP`, `REL`, poderes ou qualquer outro campo apenas para completar visualmente a ficha.
+
 Relações circunstanciais que ainda podem voltar a importar, mas não pertencem à vida recorrente do personagem, devem ficar em `progressao/` em vez de ampliar indefinidamente `REL`.
 
 ## 2. Ficha — personagem Relevante
@@ -41,21 +70,38 @@ Relações circunstanciais que ainda podem voltar a importar, mas não pertencem
 ```text
 # Nome
 
+Status: PENDENTE DE REVISÃO
 Importância: Relevante
-Idade: ...
-Conceito: ...
-Descrição: aparência breve | personalidade breve
+
+Idade:
+Conceito:
+Descrição:
+
+TRAÇOS:
+- ...
 
 ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
-PER: ...
+PER:
 Poder [ ] => ...
-EQP: ...
-REL: somente vínculos recorrentes quando necessário
+EQP:
+REL:
 
-Objetivo/Tendência: uma ou poucas linhas quando necessário.
+## Personalidade e tendências
+- ...
+
+## Desejos/objetivos atuais
+- ...
+
+## Medos/limites relevantes
+- ...
+
+## História consolidada relevante
+- ...
 ```
 
-Adicionar detalhes apenas quando passarem a importar.
+Adicionar apenas o detalhe necessário ao papel real do personagem.
+
+Uma ficha Relevante pode permanecer mais curta que uma Central. Se algum bloco não for importante, deixá-lo vazio em vez de inventar conteúdo.
 
 ## 3. Figurante
 
