@@ -10,7 +10,7 @@ Campos ainda desconhecidos permanecem **em branco** até a revisão corresponden
 
 > **Nunca usar `[0]` para representar algo ainda não definido. Zero é um valor mecânico real.**
 
-Enquanto a ficha ainda estiver sendo construída ou revisada, usar:
+Enquanto uma ficha apresentável ao jogador ainda estiver sendo construída ou revisada, usar:
 
 ```text
 Status: PENDENTE DE REVISÃO
@@ -21,6 +21,8 @@ Somente depois da aprovação explícita do jogador mudar para:
 ```text
 Status: APROVADO
 ```
+
+Essa exigência de aprovação não se aplica a fichas reservadas do narrador em `mestre/viloes/`, porque apresentá-las ao jogador destruiria o sigilo. Essas fichas seguem a regra própria definida abaixo.
 
 ## TRAÇOS
 
@@ -129,9 +131,102 @@ Adicionar apenas o detalhe necessário ao papel real do personagem.
 
 Uma ficha Relevante pode permanecer mais curta que uma Central. Se algum bloco não for importante, deixá-lo vazio em vez de inventar conteúdo.
 
-## 3. Figurante
+### Criação conceitual mínima de aliados
 
-Figurantes não precisam de arquivo individual na maioria dos casos.
+Durante a criação conceitual, pode ser suficiente definir apenas **quantidade e nomes** dos aliados relevantes.
+
+Nesse caso, criar os arquivos com a estrutura oficial e preencher somente aquilo que já foi realmente estabelecido. Todo o restante permanece em branco até a revisão.
+
+Exemplo:
+
+```text
+# Lucia James
+
+Status: PENDENTE DE REVISÃO
+Importância: Relevante
+
+Idade:
+Conceito:
+Descrição:
+
+TRAÇOS:
+
+ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+PER:
+Poder:
+EQP:
+REL:
+```
+
+O narrador não deve inventar aparência, personalidade, história, capacidades ou recursos apenas para completar a ficha, salvo quando o jogador delegar explicitamente essa criação.
+
+## 3. Ficha reservada — antagonista importante
+
+Um antagonista importante, recorrente ou poderoso pode receber ficha completa sem ser apresentado ao jogador.
+
+Armazenar em:
+
+```text
+mestre/viloes/<nome>.md
+```
+
+Modelo recomendado:
+
+```text
+# Nome
+
+Status: CANÔNICO DO MESTRE
+Visibilidade: MESTRE
+Importância: Relevante | Central
+
+Idade:
+Conceito:
+Descrição:
+
+TRAÇOS:
+- ...
+
+ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+PER:
+Poder [ ] => ...
+EQP:
+REL:
+
+## Personalidade e tendências
+- ...
+
+## Desejos/objetivos atuais
+- ...
+
+## Medos/limites relevantes
+- ...
+
+## História consolidada relevante
+- ...
+
+## Segredos ainda não descobertos
+- ...
+```
+
+`CANÔNICO DO MESTRE` significa que a ficha é uma verdade operacional reservada ao narrador. Ela não passa pelo fluxo `PENDENTE DE REVISÃO → APROVADO`, porque isso exigiria revelar o conteúdo ao jogador.
+
+O narrador deve definir apenas o que realmente precisa existir. Não é necessário preencher todos os campos.
+
+Sempre que for prático, capacidades ocultas relevantes devem ser definidas **antes** de serem usadas diretamente contra o protagonista.
+
+Depois de estabelecida, a ficha não pode ganhar poderes, resistências, imunidades ou recursos retroativos apenas para contrariar uma solução válida, restaurar dificuldade ou proteger a trama.
+
+Mudanças posteriores precisam nascer de acontecimentos reais da ficção.
+
+Informações desta ficha só entram na narração como conhecimento do jogador quando o protagonista as descobrir de forma plausível.
+
+> **Ficha oculta preserva segredo; não autoriza improvisar vantagem retroativa.**
+
+## 4. Figurante / inimigo comum
+
+Figurantes e inimigos comuns **não precisam de arquivo individual** na maioria dos casos.
+
+Usar apenas o mínimo necessário para a cena.
 
 Exemplos:
 
@@ -145,7 +240,13 @@ Invocação — Demônio [3] | FOR [4] | VON [1]
 
 O modelo-base define todos os atributos. Só registrar exceções.
 
-## 4. STATUS atual
+Esse registro pode existir apenas durante a resolução da cena; não precisa ser salvo em `personagens/`, `mestre/viloes/` ou outro arquivo persistente.
+
+Se um inimigo inicialmente comum sobreviver, voltar a aparecer ou ganhar importância real, ele pode então receber ficha Relevante ou ficha reservada de antagonista.
+
+Poder por si só não obriga a criar arquivo. O critério é a necessidade de continuidade e detalhe.
+
+## 5. STATUS atual
 
 ```text
 # Estado Atual
@@ -174,7 +275,9 @@ Local: ...
 
 `Crítico` em ENERGIA significa: resta aproximadamente **uma última ação relevante** antes de esgotamento, falta de recurso ou colapso coerente com o personagem.
 
-## 5. Relação complexa
+Informações de STATUS que devam permanecer secretas para o jogador não devem ser expostas em uma fonte tratada como apresentável ao jogador.
+
+## 6. Relação complexa
 
 ```text
 # Personagem A & Personagem B
@@ -204,7 +307,7 @@ Nunca tratar trajetória planejada como acontecimento já ocorrido.
 
 Usar este modelo para relações recorrentes ou complexas. Uma pessoa circunstancial que apenas pode voltar a importar não precisa ganhar um arquivo aqui; pode ser registrada em Progressão.
 
-## 6. Progressão Narrativa — Evolução de Vida
+## 7. Progressão Narrativa — Evolução de Vida
 
 A Progressão não é XP nem lista de recompensas. Registra **consequências ainda vivas que podem voltar a produzir efeito**.
 
@@ -255,7 +358,7 @@ Quando uma relação circunstancial passa a integrar de fato a vida recorrente d
 
 Quando um favor é usado, uma dívida é quitada, uma ameaça deixa de existir ou outra consequência perde qualquer futuro plausível, remover/arquivar a entrada; o fato histórico continua preservado em livro/cronologia.
 
-## 7. Cronologia
+## 8. Cronologia
 
 ```text
 ## Capítulo / período
@@ -272,7 +375,7 @@ O campo de conhecimento é importante para impedir metaconhecimento acidental.
 
 > **Cronologia diz o que aconteceu. Progressão destaca o que ainda pode voltar a importar.**
 
-## 8. README de uma aventura
+## 9. README de uma aventura
 
 ```text
 # Nome da Aventura
@@ -302,25 +405,29 @@ As diretrizes locais complementam ou alteram apenas o que declararem explicitame
 1. correção explícita mais recente;
 2. livro/capítulos consolidados;
 3. diretrizes;
-4. personagens/mundo/relacionamento;
-5. progressão narrativa vigente;
-6. cronologia;
-7. estado atual;
-8. rascunhos antigos.
+4. material reservado do narrador em `mestre/`, quando aplicável;
+5. personagens/mundo/relacionamento;
+6. progressão narrativa vigente;
+7. cronologia;
+8. estado atual;
+9. rascunhos antigos.
 
 ## Ponto atual
 Consultar: `estado/atual.md`
 
 ## Regra de continuidade
 Nunca continuar apenas pela memória de outro chat; consultar as fontes desta aventura.
+Ao consultar `mestre/`, usar a informação sem revelá-la ao jogador antes de ser descoberta na ficção.
 ```
 
-## 9. Princípio de economia
+## 10. Princípio de economia
 
 Não preencher campos apenas porque o modelo existe.
 
 > **Registrar somente o que ajuda o narrador a decidir, lembrar ou manter continuidade.**
 
-Central recebe detalhe alto; Relevante recebe detalhe proporcional ao papel; Figurante recebe apenas o necessário para a cena.
+Central recebe detalhe alto; Relevante recebe detalhe proporcional ao papel; Figurante e inimigo comum recebem apenas o necessário para a cena.
+
+Antagonista reservado recebe ficha completa somente quando continuidade, poder, recorrência ou segredo realmente justificarem esse trabalho.
 
 A Progressão segue a mesma regra: não guardar toda reação ou consequência menor, apenas aquilo que ainda pode ter vida futura.
