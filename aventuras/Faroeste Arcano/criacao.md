@@ -5,7 +5,7 @@ Status geral: EM CRIAÇÃO
 1. Cenário: PENDENTE DE REVISÃO
 2. Protagonista: PENDENTE DE REVISÃO
 3. Personagens relevantes: PENDENTE DE REVISÃO
-4. Início da história: NÃO INICIADO
+4. Início da história: PENDENTE DE REVISÃO
 
 Revisão final: NÃO INICIADA
 
@@ -13,3 +13,5 @@ Revisão final: NÃO INICIADA
 
 - Lúcio Marco deverá ser desenvolvido futuramente como vilão, quando passar a importar diretamente na campanha.
 - Após concluir este exemplo, revisar o protocolo do sistema para oficializar que, durante a criação conceitual dos aliados, pode bastar definir apenas a quantidade e os nomes; os demais detalhes ficam para a revisão das fichas.
+- Durante a criação conceitual, as fichas dos aliados podem já ser criadas usando o modelo oficial de Personagem Relevante, mantendo em branco os campos ainda não definidos para preenchimento posterior na revisão.
+- Inimigos importantes não precisam ser totalmente definidos durante a criação conceitual; podem ser desenvolvidos posteriormente pelo narrador quando passarem a importar diretamente na campanha.
