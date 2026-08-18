@@ -3,6 +3,22 @@
 Status: PENDENTE DE REVISÃO
 Importância: Relevante
 
-Aliado de Dik Vigarista. Amigo e companheiro de caça de recompensas.
+Idade:
+Conceito: Aliado de Dik Vigarista; amigo e companheiro de caça de recompensas.
+Descrição:
 
-Demais detalhes serão definidos durante a revisão da ficha.
+TRAÇOS:
+
+ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+PER:
+Poder [ ] =>
+EQP:
+REL:
+
+## Personalidade e tendências
+
+## Desejos/objetivos atuais
+
+## Medos/limites relevantes
+
+## História consolidada relevante
