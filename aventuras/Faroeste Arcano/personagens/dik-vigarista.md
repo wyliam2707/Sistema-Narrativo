@@ -9,8 +9,13 @@ Descrição: Homem comum, 1,80 m de altura e 90 kg, aparência marcada pelo sol,
 
 TRAÇOS:
 
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+ATR: FOR [0] | AGI [0] | RES [1] | MEN [0] | VON [0]
 PER:
+- Atirador [+3]
+- Rastrear [+2]
+- Cavalgar [+2]
+- Briga [+1]
+
 EQP:
 REL:
 
