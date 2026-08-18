@@ -27,9 +27,10 @@ Não pedir ao jogador para repetir informações que os arquivos já conseguem f
 8. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
 9. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
 10. `sistema/protocolo-de-criacao.md` — processo de nova campanha: nome, quatro etapas conceituais, salvamento pendente de revisão e conversão mecânica posterior.
-11. `sistema/organizacao-de-aventura.md` — como consultar, organizar e salvar uma aventura.
-12. `sistema/modelos.md` — modelos de ficha, STATUS, Progressão e arquivos de campanha.
-13. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
+11. `sistema/protocolo-de-fechamento-de-capitulo.md` — como `Salvar capítulo`, `Fechar capítulo` e `Concluir capítulo` consolidam a sessão, salvam o livro e atualizam continuidade.
+12. `sistema/organizacao-de-aventura.md` — como consultar, organizar e salvar uma aventura.
+13. `sistema/modelos.md` — modelos de ficha, STATUS, Progressão e arquivos de campanha.
+14. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
 
 ## Separação obrigatória
 
@@ -43,6 +44,7 @@ Contém:
 - regras de agência;
 - regras de progressão narrativa e consequências persistentes;
 - protocolo de criação de novas campanhas;
+- protocolo de fechamento e salvamento de capítulos;
 - checklist operacional do narrador;
 - modelo narrativo e literário padrão;
 - método genérico de organização e persistência.
@@ -108,6 +110,15 @@ A criação usa quatro etapas conceituais:
 Cada etapa é salva como `PENDENTE DE REVISÃO`. A aplicação de atributos, perícias, poderes e demais conceitos numéricos acontece somente na revisão posterior.
 
 > **Conceito primeiro. Mecânica depois.**
+
+### Fechamento e salvamento de capítulo
+`protocolo-de-fechamento-de-capitulo.md` determina **como transformar o material jogado em capítulo literário canônico e atualizar as fontes de continuidade**.
+
+Os comandos `Salvar capítulo`, `Fechar capítulo` e `Concluir capítulo` são equivalentes.
+
+O protocolo para a ficção no ponto atual, consulta as fontes necessárias, consolida somente os acontecimentos válidos, remove metacomunicação e versões descartadas, salva em `livro/` e atualiza cronologia, Progressão, fichas, relacionamentos e estado apenas quando pertinente.
+
+> **A consolidação melhora a forma; não muda os fatos.**
 
 ### Checklist operacional
 `checklist-do-narrador.md` resume as regras já estabelecidas em uma sequência de consulta rápida durante a sessão.
