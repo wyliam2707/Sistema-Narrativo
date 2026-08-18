@@ -10,11 +10,12 @@ Este diretório contém **regras universais e padrões de operação**. Ele deve
 4. `sistema/modo-rpg.md` — como jogador e narrador interagem durante a sessão: controle, ritmo de avanço, interrupções, STATUS e comandos.
 5. `sistema/agencia-de-personagens.md` — como personagens pensam, escolhem e agem por conta própria.
 6. `sistema/progressao-narrativa.md` — como consequências duradouras, acessos, favores, relações latentes, ameaças e ganchos persistem sem XP ou progressão automática de poder.
-7. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
-8. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
-9. `sistema/organizacao-de-aventura.md` — como criar, consultar e salvar uma aventura.
-10. `sistema/modelos.md` — modelos de ficha, STATUS, Progressão e arquivos de campanha.
-11. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
+7. `sistema/checklist-do-narrador.md` — referência operacional curta para aplicar as regras durante a sessão sem reler todos os documentos a cada resolução.
+8. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
+9. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
+10. `sistema/organizacao-de-aventura.md` — como criar, consultar e salvar uma aventura.
+11. `sistema/modelos.md` — modelos de ficha, STATUS, Progressão e arquivos de campanha.
+12. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
 
 ## Separação obrigatória
 
@@ -27,6 +28,7 @@ Contém:
 - protocolo de jogo entre jogador e narrador;
 - regras de agência;
 - regras de progressão narrativa e consequências persistentes;
+- checklist operacional do narrador;
 - modelo narrativo e literário padrão;
 - método genérico de organização e persistência.
 
@@ -76,6 +78,11 @@ A unidade fundamental do jogo não é o turno. É a resolução.
 Não existe XP ou recompensa mecânica automática por missão. A campanha progride por consequências: relações latentes, acessos, favores, recursos, posições, restrições, inimigos, promessas e outros efeitos duradouros que ainda tenham potencial causal.
 
 > **Progressão não significa ficar mais forte. Significa acumular história que ainda pode voltar a importar.**
+
+### Checklist operacional
+`checklist-do-narrador.md` resume as regras já estabelecidas em uma sequência de consulta rápida durante a sessão.
+
+Ele não substitui os arquivos completos nem cria exceções. Em caso de dúvida, prevalece a regra detalhada do documento correspondente.
 
 ### Narração e persistência
 Determinam **como a cena é escrita** e **como os acontecimentos são registrados** para continuidade.
