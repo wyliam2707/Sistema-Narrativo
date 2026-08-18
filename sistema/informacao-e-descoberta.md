@@ -216,37 +216,55 @@ Por isso, dentro do próprio domínio, uma perícia pode eliminar etapas de perc
 
 Isso não é uma tabela rígida de etapas. A familiaridade, a dificuldade do caso e a qualidade das evidências continuam importando.
 
+### Grau [+0] — sem conhecimento especializado relevante
+
+`[+0]` representa um personagem **leigo naquele campo**. Ele não recebe automaticamente hipóteses técnicas, procedimentos profissionais ou reconhecimento especializado por causa daquela perícia.
+
+Pode perceber o que qualquer pessoa perceberia e pode investigar usando MEN, recursos, instruções, pesquisa ou ajuda de terceiros, mas a perícia [+0] não oferece vantagem técnica própria.
+
+> **[+0] é ausência de formação relevante naquele domínio.**
+
 ### Exemplo — cadáver suspeito
 
 Considere um cadáver cuja causa real da morte foi cianeto e cujos sinais são compatíveis com conhecimento médico disponível.
 
 #### Médico [+0]
-Possui conhecimento básico, mas ainda não repertório suficiente para fechar uma direção apenas olhando.
+É leigo em Medicina.
 
-Após uma inspeção inicial pode trabalhar com várias hipóteses plausíveis, por exemplo:
+Pode perceber sinais gerais — o cadáver, coloração incomum, ausência de ferimentos evidentes — mas não recebe uma lista médica de hipóteses apenas por olhar.
+
+Se possuir MEN elevado, pode perceber que a morte parece estranha e decidir investigar, mas terá de construir o caminho por exames, pesquisa, testes ou ajuda especializada.
+
+#### Médico [+1]
+Possui conhecimento básico suficiente para formular algumas hipóteses técnicas plausíveis após uma inspeção.
+
+Por exemplo:
 
 - intoxicação;
 - reação aguda;
 - problema cardíaco;
 - asfixia.
 
-Precisa examinar, comparar sinais ou realizar testes para eliminar possibilidades e obter uma direção confiável.
+Ainda precisa de exames ou sinais adicionais para eliminar possibilidades e obter uma direção confiável.
 
-> **[+0] não é ignorância. É conhecimento suficiente para formular possibilidades, mas ainda insuficiente para eliminar muitas delas sem investigação.**
+> **[+1] já sabe quais possibilidades procurar, mas ainda precisa investigar para distingui-las.**
 
-#### Médico [+1]
-Pode reconhecer cedo que alguns sinais tornam envenenamento a hipótese principal.
+#### Médico [+2]
+Pode priorizar cedo uma hipótese principal quando os sinais sustentam isso.
 
 > `Provavelmente foi envenenamento.`
 
-Ele já eliminou uma etapa que o [+0] precisaria investigar.
+Ainda pode precisar de exames para identificar mecanismo ou substância.
 
-#### Médico [+2] / [+3]
-Pode reconhecer o mecanismo provável, restringir a investigação e sugerir uma família ou grupo pequeno de compostos.
+#### Médico [+3]
+Pode reconhecer o mecanismo provável, restringir bastante a investigação e sugerir uma família ou grupo pequeno de compostos.
 
 > `Parece um agente que interfere desta forma no organismo. Eu procuraria esta família de toxinas.`
 
-#### Médico [+4] / [+5]
+#### Médico [+4]
+Pode restringir o caso a poucas possibilidades específicas e escolher quase imediatamente os testes capazes de confirmar qual delas é a correta.
+
+#### Médico [+5]
 Em um caso conhecido e com sinais suficientes, pode reconhecer um padrão altamente específico quase imediatamente.
 
 Pode examinar rapidamente, realizar uma ou duas verificações compatíveis com a situação e concluir:
@@ -255,7 +273,7 @@ Pode examinar rapidamente, realizar uma ou duas verificações compatíveis com 
 
 Nesse nível, a descoberta pode fazer parte da própria descrição inicial da cena quando aquilo realmente seria rotineiro para alguém daquela competência.
 
-> **Perícia baixa gera possibilidades. Perícia alta elimina possibilidades antes mesmo de novos exames.**
+> **Perícia baixa precisa explorar possibilidades. Perícia alta elimina possibilidades antes mesmo de novos exames.**
 
 ---
 
@@ -359,7 +377,7 @@ Isso não torna as capacidades equivalentes na cena.
 
 Um `Médico [+5]` pode reconhecer cianeto em segundos ou minutos.
 
-Um personagem com `MEN [5]` e pouca Medicina pode chegar à mesma conclusão após:
+Um personagem com `MEN [5]` e pouca ou nenhuma Medicina pode chegar à mesma conclusão após:
 
 - uma primeira suspeita;
 - uma decisão de investigar;
@@ -613,6 +631,8 @@ Se não existe caminho plausível com as capacidades e fontes disponíveis, a in
 > **A situação determina o que está acessível.**
 >
 > **Os sentidos determinam o que pode ser percebido.**
+>
+> **Perícia [+0] significa ausência de formação relevante naquele domínio.**
 >
 > **A perícia representa o conhecimento já conquistado e pode eliminar etapas dentro de seu domínio.**
 >
