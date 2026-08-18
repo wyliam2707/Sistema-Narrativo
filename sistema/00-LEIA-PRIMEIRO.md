@@ -6,13 +6,14 @@ Este diretório contém **regras universais e padrões de operação**. Ele deve
 
 1. `sistema/README.md` — regras mecânicas, escala, atributos, perícias, poderes, Vida, Energia e linguagem de ficha.
 2. `sistema/resolucao-de-acoes.md` — como uma intenção vira resultado: escopo, fluxo, interferência, oposição, limites, efeito e nova situação.
-3. `sistema/modo-rpg.md` — como jogador e narrador interagem durante a sessão: controle, ritmo de avanço, interrupções, STATUS e comandos.
-4. `sistema/agencia-de-personagens.md` — como personagens pensam, escolhem e agem por conta própria.
-5. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
-6. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
-7. `sistema/organizacao-de-aventura.md` — como criar, consultar e salvar uma aventura.
-8. `sistema/modelos.md` — modelos de ficha, STATUS e arquivos de campanha.
-9. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
+3. `sistema/informacao-e-descoberta.md` — como fatos existem, são percebidos, interpretados, investigados e transformados em conhecimento.
+4. `sistema/modo-rpg.md` — como jogador e narrador interagem durante a sessão: controle, ritmo de avanço, interrupções, STATUS e comandos.
+5. `sistema/agencia-de-personagens.md` — como personagens pensam, escolhem e agem por conta própria.
+6. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
+7. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
+8. `sistema/organizacao-de-aventura.md` — como criar, consultar e salvar uma aventura.
+9. `sistema/modelos.md` — modelos de ficha, STATUS e arquivos de campanha.
+10. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
 
 ## Separação obrigatória
 
@@ -21,6 +22,7 @@ Contém:
 - regras universais;
 - sintaxe de atributos, perícias e poderes;
 - motor universal de resolução de ações;
+- regras de informação, percepção e descoberta;
 - protocolo de jogo entre jogador e narrador;
 - regras de agência;
 - modelo narrativo e literário padrão;
@@ -49,6 +51,13 @@ Contém apenas dados daquela história:
 A declaração do jogador é intenção, não resultado garantido.
 
 > **Intenção → Escopo → Ficha/STATUS/Cena → Execução → Efeito real → Nova situação.**
+
+### Informação e descoberta
+`informacao-e-descoberta.md` determina **o que existe para ser descoberto, o que cada personagem consegue perceber, como interpreta evidências e até onde suas conclusões podem ir**.
+
+> **Existência → Acesso → Percepção → Interpretação → Inferência → Confirmação.**
+
+Capacidade não cria informação inexistente. Competência aprofunda a leitura daquilo que realmente está disponível.
 
 ### Modo RPG
 `modo-rpg.md` determina **quem controla cada decisão, quando a cena avança e quando o controle retorna ao jogador**.
