@@ -22,7 +22,33 @@ Somente depois da aprovação explícita do jogador mudar para:
 Status: APROVADO
 ```
 
-`TRAÇOS` pode ser usado para verdades permanentes e não numéricas relevantes ao personagem, quando existirem.
+## TRAÇOS
+
+`TRAÇOS` registram verdades permanentes ou estáveis sobre um personagem que importam para a ficção, mas não precisam de graduação numérica.
+
+Exemplos:
+
+- Não envelhece.
+- Não precisa respirar.
+- Corpo artificial.
+- Herança demoníaca.
+- Não pode mentir.
+
+Um TRAÇO não possui grau oculto e não é somado a atributos, perícias ou poderes.
+
+Se uma característica representa capacidade ativa, potência, resistência ou algo que precise ser comparado em escala, ela deve ser registrada como atributo, perícia ou poder.
+
+Exemplos:
+
+- `Herança demoníaca` pode ser TRAÇO.
+- `Empatia [3]` é Poder.
+- `RES [4]` é atributo.
+
+Um TRAÇO pode influenciar diretamente a ficção quando sua própria natureza resolve a questão. Um personagem com `Não precisa respirar`, por exemplo, não começa a sufocar debaixo d'água.
+
+TRAÇOS não devem duplicar desnecessariamente capacidades que já estejam descritas mecanicamente.
+
+> **TRAÇO = verdade qualitativa estável. Atributo, perícia ou poder = capacidade graduada.**
 
 ## 1. Ficha — personagem Central
 
