@@ -2,7 +2,7 @@
 
 Status geral: EM CRIAÇÃO
 
-1. Cenário: PENDENTE DE REVISÃO
+1. Cenário: APROVADO
 2. Protagonista: PENDENTE DE REVISÃO
 3. Personagens relevantes: PENDENTE DE REVISÃO
 4. Início da história: PENDENTE DE REVISÃO
