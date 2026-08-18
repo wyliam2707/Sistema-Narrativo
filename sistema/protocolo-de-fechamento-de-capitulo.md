@@ -52,6 +52,7 @@ Normalmente isso inclui:
 - `README.md` da aventura;
 - diretrizes narrativas específicas;
 - fichas dos personagens envolvidos;
+- material reservado em `mestre/`, **somente quando for relevante para os acontecimentos consolidados**;
 - mundo e regras específicas relevantes;
 - relacionamentos relevantes;
 - `progressao/`;
@@ -59,6 +60,8 @@ Normalmente isso inclui:
 - `estado/atual.md`.
 
 Não é necessário reler arquivos sem relação com o capítulo apenas por formalidade.
+
+Ao consultar `mestre/`, separar o que o narrador sabe daquilo que os personagens realmente descobriram. Informação oculta não entra no capítulo apenas porque existe na ficha reservada.
 
 Quando existir conflito, seguir a hierarquia de cânone da aventura e a correção explícita mais recente do jogador.
 
@@ -77,7 +80,8 @@ Remover da versão literária:
 - tentativas descartadas;
 - versões substituídas de uma mesma ação;
 - repetições produzidas pela dinâmica do RPG;
-- STATUS e mecânica visível, salvo quando sua consequência existir naturalmente na narrativa.
+- STATUS e mecânica visível, salvo quando sua consequência existir naturalmente na narrativa;
+- informação reservada do narrador que nenhum personagem tenha descoberto ou que não pertença legitimamente ao ponto de vista literário adotado.
 
 Preservar:
 
@@ -173,6 +177,17 @@ Alterar ficha somente se a própria ficção mudou de forma estável o personage
 
 Não conceder XP, aumento automático ou recompensa mecânica por ter concluído o capítulo.
 
+### `mestre/`
+Atualizar somente quando acontecimentos reais alterarem informação que o narrador precisa acompanhar em segredo.
+
+Exemplos:
+- um antagonista reservado foi ferido de forma duradoura;
+- perdeu ou ganhou um recurso de forma estabelecida na ficção;
+- mudou de objetivo por causa de um acontecimento real;
+- uma capacidade antes oculta foi revelada e precisa ter seu estado de conhecimento atualizado.
+
+Não adicionar retroativamente nova capacidade ou proteção apenas porque o protagonista encontrou uma solução eficaz.
+
 ### `relacionamento/`
 Atualizar quando um vínculo recorrente e complexo realmente mudou de forma relevante.
 
@@ -191,7 +206,9 @@ Sobrescrever com o ponto exato em que o capítulo terminou:
 
 Remover do STATUS aquilo que já terminou.
 
-> **Livro guarda o que aconteceu. Cronologia facilita consulta. Progressão guarda o que ainda pode voltar. Estado atual guarda exatamente onde continuar.**
+Se alguma informação operacional precisa permanecer oculta do jogador, não a exponha apenas para completar `estado/atual.md`; mantenha-a na área reservada adequada.
+
+> **Livro guarda o que aconteceu. Cronologia facilita consulta. Progressão guarda o que ainda pode voltar. Estado atual guarda exatamente onde continuar. Material do mestre preserva o que precisa continuar verdadeiro sem ser revelado antes da hora.**
 
 ---
 
@@ -204,12 +221,14 @@ Após salvar, informar de forma curta:
 - quais arquivos de continuidade foram atualizados;
 - se existe algum ponto que precise de revisão do jogador.
 
+Ao informar os arquivos atualizados, não revelar conteúdo reservado do narrador. Se `mestre/` tiver sido atualizado, basta registrar que a continuidade reservada foi mantida quando isso puder ser dito sem entregar segredo.
+
 O jogador pode então corrigir o capítulo.
 
 Se houver correção:
 
 1. alterar o mesmo capítulo;
-2. atualizar também cronologia, Progressão, ficha, relacionamento ou estado quando a correção afetar esses arquivos;
+2. atualizar também cronologia, Progressão, ficha, relacionamento, material reservado ou estado quando a correção afetar esses arquivos;
 3. não manter simultaneamente duas versões contraditórias como canônicas.
 
 Não iniciar automaticamente um novo capítulo na mesma resposta do comando de salvamento. O jogador continua quando desejar.
