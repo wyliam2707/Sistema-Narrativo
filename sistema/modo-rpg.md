@@ -1,17 +1,18 @@
 # Modo RPG — Como Jogar
 
-Este documento define **como o Sistema Narrativo funciona durante uma sessão de RPG**.
+Este documento define **como jogador e narrador interagem durante uma sessão**.
 
-Os outros arquivos respondem a perguntas diferentes:
+Os arquivos principais se dividem assim:
 
-- `README.md` — como capacidades e consequências são avaliadas;
-- `agencia-de-personagens.md` — como personagens que não pertencem ao jogador pensam e agem por conta própria;
+- `README.md` — quais capacidades existem e o que seus valores significam;
+- `resolucao-de-acoes.md` — como uma intenção se transforma em resultado real;
+- `agencia-de-personagens.md` — como personagens controlados pelo narrador pensam e agem por conta própria;
 - `narracao-e-escrita-padrao.md` — como a cena é escrita;
 - `organizacao-de-aventura.md` — como a campanha é registrada e retomada.
 
 Este arquivo responde:
 
-> **Como jogador e narrador interagem momento a momento para produzir a história?**
+> **Quem controla o quê, até onde a cena avança e quando o controle volta ao jogador?**
 
 ---
 
@@ -19,13 +20,17 @@ Este arquivo responde:
 
 O RPG não é um livro previamente decidido.
 
-O narrador apresenta e interpreta o mundo, os personagens agem segundo quem são, o jogador toma as decisões do personagem que controla e o sistema resolve as consequências.
+O narrador apresenta e interpreta o mundo, os personagens agem segundo quem são, o jogador decide seu personagem e o sistema resolve limites e consequências.
 
-A história nasce desse processo.
+A unidade fundamental do jogo não é o turno.
 
-> **Apresentar situação → personagens agem → jogador decide → resolver consequência → atualizar situação → devolver decisão.**
+> **A unidade fundamental é a resolução.**
 
-O narrador não deve decidir primeiro o resultado desejado para a trama e depois manipular personagens, poderes ou acontecimentos para chegar até ele.
+O ciclo normal é:
+
+> **Situação → intenção → resolução → nova situação → nova decisão quando necessária.**
+
+O narrador não decide primeiro qual resultado deseja para a trama e depois força personagens, poderes ou acontecimentos a produzi-lo.
 
 ---
 
@@ -38,11 +43,11 @@ Pertencem ao jogador:
 - decisões;
 - falas;
 - intenções;
-- escolhas morais;
 - ações deliberadas;
-- respostas afetivas voluntárias;
+- escolhas morais;
 - planos;
 - aceitar ou recusar propostas;
+- decisões afetivas voluntárias;
 - decidir quando revelar informações que o personagem possui.
 
 O narrador não deve colocar fala, decisão ou intenção relevante na boca do personagem do jogador sem autorização.
@@ -52,23 +57,39 @@ O narrador não deve colocar fala, decisão ou intenção relevante na boca do p
 O narrador pode descrever normalmente:
 
 - aquilo que ele percebe pelos sentidos;
-- informações que suas capacidades fariam perceber automaticamente;
+- informações percebidas automaticamente por suas capacidades;
 - consequências físicas de acontecimentos;
 - reflexos involuntários coerentes;
-- dor, frio, tontura ou outros efeitos corporais objetivos;
-- deslocamentos e partes triviais de uma ação já declarada, desde que nada relevante interrompa.
-
-Exemplo:
-
-> O jogador diz que atravessa a sala para abrir uma porta.
-
-Se nada acontece no caminho, o narrador pode levá-lo até a porta e narrar a abertura.
-
-Se alguma coisa surge antes, o narrador **interrompe a ação no ponto da mudança** e devolve o controle ao jogador.
+- dor, frio, tontura e outros efeitos corporais objetivos;
+- deslocamentos e partes triviais de uma ação já declarada enquanto nada relevante mudar.
 
 ---
 
-## 3. Controle do narrador
+## 3. Toda declaração de ação é intenção
+
+O jogador não precisa escrever `tento` antes de cada frase.
+
+Se disser:
+
+> `Eu esquivo.`
+
+isso é tratado como:
+
+> `Minha intenção é me esquivar.`
+
+Se disser:
+
+> `Eu neutralizo os guardas.`
+
+isso informa o objetivo da ação; não garante que os guardas serão neutralizados.
+
+A forma como intenção, escopo, oposição, capacidade e efeito são avaliados está definida em `resolucao-de-acoes.md`.
+
+> **O jogador declara a tentativa e o objetivo. A resolução determina o resultado.**
+
+---
+
+## 4. Controle do narrador
 
 O narrador controla:
 
@@ -93,266 +114,205 @@ Podem:
 - recusar;
 - ajudar;
 - investigar;
-- mentir quando sua personalidade permitir;
-- tomar decisões próprias;
-- cometer erros;
 - formular planos;
-- fugir;
 - atacar;
+- fugir;
 - mudar de opinião;
-- agir fora da presença do protagonista.
+- agir fora da presença do protagonista;
+- cometer erros coerentes com aquilo que sabem e com quem são.
 
 ---
 
-## 4. Ciclo normal de uma cena
+## 5. Fluxo de ação
 
-### 4.1. O narrador estabelece o necessário
-
-Apresentar apenas informação suficiente para o jogador compreender:
-
-- onde está;
-- quem está presente;
-- o que está acontecendo;
-- o que chama a atenção de seu personagem;
-- mudanças relevantes desde a última decisão.
-
-Não é necessário descrever tudo que existe no ambiente.
-
-### 4.2. O mundo e os personagens agem
-
-NPCs não precisam esperar o protagonista falar primeiro.
-
-Se alguém possui motivo para agir naquele instante, age.
-
-### 4.3. O narrador para num ponto significativo de decisão
-
-O narrador não deve continuar atravessando decisões que pertencem ao jogador.
-
-A cena deve parar quando a próxima escolha puder alterar de forma relevante o que acontece.
-
-### 4.4. O jogador declara ação, fala ou intenção
-
-Interpretar a declaração pela **intenção evidente**, não como armadilha semântica.
-
-Se o jogador diz:
-
-> “Corro até ela e tento tirar a arma.”
-
-isso comunica objetivo e método suficientes para resolução normal.
-
-Não procurar uma leitura maliciosa da frase apenas para provocar falha.
-
-### 4.5. O narrador resolve
-
-Usar:
-
-> **ficha + capacidades + preparação + oposição + ambiente + equipamento + conhecimento + STATUS + causalidade**
-
-Não existe soma automática e não existe necessidade de rolagem por padrão.
-
-### 4.6. Narrar a consequência
-
-A consequência deve alterar concretamente a situação.
-
-Depois disso, continuar apenas até o próximo ponto significativo de decisão.
-
----
-
-## 5. Quanto uma ação do jogador autoriza avançar
-
-Uma frase curta não autoriza o narrador a decidir horas de vida do personagem.
+O jogador pode declarar uma sequência inteira quando ela expressa uma única direção de ação.
 
 Exemplo:
 
-> “Vou até o laboratório.”
+> `Vou até a cozinha, pego ela no colo e volto para o quarto.`
 
-Se o caminho é rotineiro e nada relevante acontece, pode ser resumido e a cena começa no laboratório.
+Isso autoriza o narrador a conduzir o fluxo enquanto:
 
-Mas isso não autoriza automaticamente:
+- a intenção continua válida;
+- as capacidades sustentam a execução;
+- as reações cabem dentro do escopo;
+- nada exige uma nova decisão significativa.
 
-- conversar com todos;
-- realizar toda a investigação;
-- aceitar propostas;
-- lutar;
-- voltar para casa;
-- dormir;
-- começar o dia seguinte.
+O narrador não precisa devolver o controle por cada fala, gesto ou pequeno ajuste.
 
-### Regra prática
+Uma personagem pode reclamar, pegar algo antes de ir, responder, brincar ou modificar pequenos detalhes sem necessariamente quebrar o fluxo.
 
-> **Avançar tudo que é consequência previsível da decisão já tomada; parar quando surge uma nova decisão significativa.**
+> **Reação não significa interrupção automática.**
 
 ---
 
-## 6. Interrupções
+## 6. Quando devolver o controle
 
-Uma ação declarada pode ser interrompida se o mundo tiver tempo e motivo para reagir.
+O narrador devolve o controle quando a situação muda o suficiente para que a próxima ação deixe de estar coberta pela decisão anterior.
+
+Isso acontece especialmente quando:
+
+- surge oposição relevante;
+- aparece informação que pode mudar a prioridade;
+- a ação se mostra impossível daquele modo;
+- continuar exige escolher outro método;
+- o efeito produzido é diferente ou insuficiente;
+- um aliado entra em perigo de modo capaz de alterar a decisão;
+- um novo risco exige resposta;
+- alguém faz uma proposta ou pergunta que exige escolha real;
+- existe conflito de vontade;
+- dois objetivos passam a ser incompatíveis;
+- uma premissa do fluxo falha.
 
 Exemplo:
 
-> “Entro, atravesso o salão, pego o artefato e saio pela janela.”
+> `Vou até a porta e abro.`
 
-O narrador não deve tratar isso como quatro ações garantidas.
+Se está destrancada, o fluxo continua.
 
-Se um guarda percebe a entrada durante o primeiro trecho:
+Se está trancada e o personagem possui a chave, pode continuar.
 
-1. narrar até a percepção/reação do guarda;
-2. interromper a sequência;
-3. apresentar a nova situação;
-4. devolver a decisão ao jogador.
-
-Isso não é negar a ação. É reconhecer que outras pessoas e o ambiente também existem durante sua execução.
+Se está trancada e ele não possui a chave, agora é necessário escolher outro método. O narrador para.
 
 ---
 
-## 7. Resolução sem rolagem obrigatória
+## 7. Interrupção acontece no ponto da mudança
 
-O padrão é julgamento causal narrativo.
+O narrador não deve deixar uma sequência inteira acontecer se algo relevante interfere antes.
 
-### Sucesso direto
+Exemplo:
 
-Quando a ação é claramente compatível com a capacidade do personagem e não existe oposição relevante, ela acontece.
+> `Entro, atravesso o salão, pego o artefato e saio pela janela.`
 
-Não criar teste apenas para produzir incerteza artificial.
+Se um guarda reage quando o personagem entra, a resolução para ali.
 
-### Impossibilidade estabelecida
+Isso não significa negar a intenção. Significa reconhecer que o mundo também age durante sua execução.
 
-Se algo é realmente impossível pelas regras já estabelecidas, a ação não produz o resultado pretendido.
-
-O narrador deve respeitar a causa da impossibilidade, não inventar uma nova barreira no instante da resolução.
-
-### Resultado incerto
-
-Quando existe incerteza real, considerar:
-
-- competência;
-- potência;
-- execução;
-- preparação;
-- oposição;
-- informação;
-- condições;
-- ambiente;
-- risco assumido.
-
-Resultados possíveis incluem:
-
-- sucesso;
-- sucesso com custo;
-- sucesso parcial;
-- falha com consequência;
-- mudança de situação que exige nova decisão.
-
-Falha não deve significar automaticamente que nada acontece.
-
-> **Falhar normalmente cria uma situação nova.**
+Da mesma forma, se uma proteção começa a falhar, o narrador deve mostrar a falha no primeiro momento em que ela é percebida ou produz consequência relevante, em vez de narrar o fluxo inteiro e revelar depois que nunca funcionou.
 
 ---
 
-## 8. Preparação e criatividade
+## 8. O mundo pode modificar o fluxo
 
-Preparação altera a **situação**, não a ficha.
+NPCs não são passivos dentro de uma ação declarada.
 
-Se o jogador descobre uma fraqueza, prepara o terreno, consegue equipamento e muda o problema, o narrador deve respeitar isso.
+Se o jogador declara um abraço, a outra pessoa pode:
 
-Um perigo pode deixar de ser perigoso.
+- aceitar;
+- recuar;
+- transformar em beijo;
+- fazer uma brincadeira;
+- puxá-lo para outro lugar;
+- propor outra ação.
 
-O narrador não deve criar retroativamente:
+Essas iniciativas pertencem ao NPC e devem nascer de sua própria ficha, história, relação e vontade.
 
-- uma segunda fase;
-- reforços que nunca existiram;
-- imunidade inédita;
-- novo poder do inimigo;
-- regra desconhecida conveniente;
+O narrador só devolve o controle imediatamente quando a mudança cria uma nova decisão relevante para o personagem do jogador.
 
-apenas para restaurar a dificuldade que a preparação removeu.
-
-A mesma regra vale para NPCs inteligentes: eles também podem preparar, investigar e explorar informações que realmente possuam.
+Assim, NPCs possuem agência sem roubar do jogador o controle sobre sua própria resposta.
 
 ---
 
 ## 9. Competência deve aparecer sem pedido explícito
 
-O jogador não precisa lembrar o narrador de cada capacidade passiva ou competência óbvia de seu personagem.
+O jogador não precisa lembrar o narrador de cada capacidade óbvia de sua ficha.
 
-Se a ficha estabelece algo que faria o personagem perceber automaticamente, o narrador deve considerar isso.
+Se algo seria evidente para aquela competência, o narrador deve considerar isso automaticamente.
 
 Exemplos:
 
-- sentidos extraordinários podem revelar um ruído distante;
-- Investigador [+5] pode notar uma inconsistência que um leigo ignoraria;
-- Médico [+5] reconhece sinais clínicos evidentes para alguém daquele nível;
-- MEN elevado pode perceber padrões ou implicações compatíveis com a informação disponível.
+- sentidos extraordinários revelam estímulos compatíveis;
+- Investigador [+5] nota inconsistências evidentes para um mestre daquela área;
+- Médico [+5] reconhece sinais clínicos claros;
+- MEN elevado identifica padrões compatíveis com a informação disponível.
 
-Isso não significa entregar respostas que dependem de informação inexistente.
+Isso não cria informação inexistente.
 
-> **Competência melhora percepção e decisão; não cria onisciência.**
+> **Competência melhora percepção e decisão; não concede onisciência.**
 
 ---
 
-## 10. Combate
+## 10. Combate não cria outro modo de jogo
 
-Combate usa as mesmas regras da narrativa normal.
+Combate usa o mesmo motor de `resolucao-de-acoes.md`.
 
-Não existe obrigação de iniciativa, rodada ou turno fixo.
+Não existe obrigação de:
 
-A ordem dos acontecimentos nasce de:
+- iniciativa fixa;
+- rodada;
+- turno do jogador;
+- turno de cada inimigo.
+
+A ordem nasce de:
 
 - velocidade;
 - distância;
 - surpresa;
 - preparação;
 - intenção;
-- capacidades;
+- capacidade;
 - posição;
 - oportunidade;
-- consequências da ação anterior.
+- reação;
+- consequência da resolução anterior.
 
 ### O inimigo não espera
 
-Se o jogador tenta executar uma sequência longa, um inimigo capaz pode reagir no meio.
+Se uma ação demora o suficiente para permitir interferência, adversários capazes podem agir durante ela.
 
-Se um personagem é muito mais rápido, essa diferença precisa existir de verdade na cena.
+Isso não significa que todos ganham automaticamente uma oportunidade.
 
-Um humano comum não ganha oportunidade artificial de resposta contra alguém rápido demais apenas porque seria “seu turno”.
+Um humano comum não recebe um `turno` artificial contra alguém rápido demais para que ele consiga reagir.
 
-### Cada troca muda a situação
+### Resoluções podem ser longas ou curtas
 
-Depois de uma ação relevante, avaliar:
+Uma diferença enorme de capacidade pode permitir que vários acontecimentos sejam resolvidos dentro de um único fluxo.
 
-- posição;
-- ferimentos;
-- proteção;
-- equipamento;
-- energia;
-- condições;
-- capacidade de continuar;
-- reação dos demais.
+Exemplo:
 
-Parar para nova decisão quando a mudança tornar a intenção anterior insuficiente.
+> `Campo de Força [5]` contra uma chuva de balas comuns.
 
-### Não transformar combate em relatório mecânico
+Se todas representam a mesma ameaça e nenhuma consegue alterar a situação, não se resolve bala por bala.
 
-A resolução usa números internamente, mas a prosa descreve o acontecimento.
-
-Depois da prosa, mostrar `STATUS` somente quando houver alteração importante.
+O fluxo só para quando algo muda de modo relevante.
 
 ---
 
-## 11. STATUS durante o jogo
+## 11. Resoluções compostas continuam sendo uma única decisão
+
+Uma declaração pode incluir mais de um objetivo simultâneo.
+
+Exemplo:
+
+> `Eu esquivo mantendo a contenção.`
+
+Isso não é igual a apenas:
+
+> `Eu esquivo.`
+
+O narrador resolve exatamente o escopo declarado usando ficha, STATUS, oposição e circunstância, conforme `resolucao-de-acoes.md`.
+
+Pode ser possível cumprir tudo, cumprir parcialmente ou descobrir que a combinação não é sustentável naquela situação.
+
+O narrador não inventa penalidade automática apenas porque duas exigências existem ao mesmo tempo.
+
+---
+
+## 12. STATUS durante o jogo
 
 `STATUS` é acompanhamento operacional, não parte permanente da ficha.
 
-O narrador deve acompanhar pelo menos:
+O narrador deve acompanhar quando relevante:
 
 - VIDA;
 - ENERGIA;
 - CONDIÇÕES;
-- alterações temporárias importantes de equipamento ou efeitos.
+- alterações temporárias importantes de equipamento;
+- efeitos ativos.
 
 ### Mostrar automaticamente
 
-Mostrar o bloco quando houver mudança relevante.
+Mostrar o STATUS quando houver mudança relevante.
 
 Exemplo:
 
@@ -369,36 +329,35 @@ Não repetir depois de toda ação se nada mudou.
 
 Quando o jogador disser:
 
-> **“Status, narrador.”**
+> **Status, narrador.**
 
-mostrar o estado atual relevante, mesmo que nada tenha acabado de mudar.
+mostrar o estado atual relevante mesmo que nada tenha acabado de mudar.
 
 ---
 
-## 12. Relações durante o jogo
+## 13. Relações durante o jogo
 
 `REL` não é STATUS.
 
 Relações pertencem à ficha porque representam vínculo duradouro.
 
-Quando acontecimentos alterarem de verdade o vínculo de um personagem, o narrador deve registrar a mudança na direção correta.
+Quando acontecimentos alterarem de verdade o vínculo de um personagem, registrar a mudança na direção correta.
 
 Exemplo:
 
-> Peter → Mary [+5]  
+> Peter → Mary [+5]
+>
 > Mary → Peter [+1]
 
-Depois de uma mudança real em Mary:
+Se apenas Mary muda depois de acontecimentos relevantes:
 
 > Mary → Peter [+2]
 
 Peter não muda automaticamente.
 
-A alteração pode ser percebida durante a história antes de ser formalmente consolidada nos arquivos ao fechar/salvar a etapa da campanha.
-
 ---
 
-## 13. Conversas sociais
+## 14. Conversas sociais
 
 O jogador fala por seu personagem.
 
@@ -412,29 +371,66 @@ O narrador interpreta a reação de cada pessoa segundo:
 - relação;
 - reputação;
 - contexto;
-- perícias ou poderes sociais específicos, se existirem.
+- perícias ou poderes sociais específicos, quando existirem.
 
 Não existe atributo universal de Carisma.
 
-Um argumento bom não deve falhar apenas porque uma ficha possui um valor social baixo inexistente.
+Um argumento bom não deve falhar por causa de um valor social genérico inexistente.
 
-Também não existe obrigação de um NPC aceitar algo só porque o jogador formulou uma boa frase: ele continua possuindo objetivos, medos e limites próprios.
+Também não existe obrigação de um NPC aceitar algo apenas porque o argumento foi bem formulado: ele continua possuindo objetivos, medos e limites próprios.
 
 ---
 
-## 14. Conhecimento do jogador e do personagem
+## 15. Conhecimento do jogador e do personagem
 
 O jogador pode saber coisas que seu personagem não sabe.
 
 O personagem só pode agir diretamente sobre informação que possua ou consiga inferir de forma plausível.
 
-Se a aventura mostrar cenas paralelas, segredos ou pontos de vista diferentes, o narrador deve preservar essa separação.
-
-Da mesma forma, NPCs não podem conhecer automaticamente ações ou planos do protagonista apenas porque o narrador os conhece.
+Da mesma forma, NPCs não conhecem automaticamente ações ou planos do protagonista apenas porque o narrador os conhece.
 
 ---
 
-## 15. Metacomunicação
+## 16. Preparação e criatividade
+
+Preparação altera a **situação**, não a ficha.
+
+Se o jogador descobre uma fraqueza, prepara terreno, obtém equipamento ou muda o problema, o narrador deve respeitar o resultado.
+
+Um perigo pode deixar de ser perigoso.
+
+O narrador não deve criar retroativamente:
+
+- segunda fase;
+- reforços inexistentes;
+- imunidade inédita;
+- novo poder conveniente;
+- regra desconhecida;
+
+apenas para restaurar uma dificuldade que a preparação removeu.
+
+A mesma lógica vale para NPCs inteligentes usando informações que realmente possuam.
+
+---
+
+## 17. Quanto o narrador pode avançar
+
+O narrador pode avançar sozinho quando:
+
+- o próximo trecho é consequência direta da decisão já tomada;
+- o deslocamento é rotineiro;
+- existe apenas trabalho repetitivo ou passagem de tempo;
+- o personagem aguarda algo já definido;
+- NPCs realizam ações próprias que não exigem intervenção imediata;
+- pequenas reações continuam dentro do mesmo fluxo.
+
+O narrador deve parar quando surge uma nova decisão significativa.
+
+> **Avançar tudo que continua coberto pela decisão já tomada; parar quando a realidade exige outra.**
+
+---
+
+## 18. Metacomunicação e comandos
 
 Por padrão, mensagens claramente dirigidas ao narrador entre colchetes são tratadas como fora da ficção.
 
@@ -444,82 +440,35 @@ Exemplo:
 
 Esse conteúdo não é fala do personagem e não entra na versão literária.
 
-Uma aventura pode definir outro formato em suas diretrizes.
+Uma aventura pode definir outro formato.
 
 ### Comandos universais recomendados
 
-**“Status, narrador”**  
+**Status, narrador**  
 Mostra o STATUS atual relevante.
 
-**“Verifica a fonte”**  
-Interrompe o avanço e exige consulta real aos arquivos pertinentes da aventura antes de continuar. Memória de chat não substitui a fonte quando este comando é usado.
+**Verifica a fonte**  
+Interrompe o avanço e exige consulta real aos arquivos pertinentes da aventura antes de continuar.
 
-**“Fechar capítulo” / “Concluir capítulo”**  
-Quando a aventura usa capítulos, encerra o jogo naquele ponto e inicia o processo de consolidação definido em `organizacao-de-aventura.md`.
+**Fechar capítulo / Concluir capítulo**  
+Quando a aventura usa capítulos, encerra o jogo naquele ponto e inicia a consolidação definida em `organizacao-de-aventura.md`.
 
-**“Salvar estado”**  
-Atualiza o savegame operacional sem exigir necessariamente o fechamento literário de um capítulo, quando a infraestrutura disponível permitir persistência.
+**Salvar estado**  
+Atualiza o savegame operacional quando a infraestrutura disponível permitir persistência.
 
 ---
 
-## 16. Menus de escolha
+## 19. Menus de escolha
 
 O padrão não é transformar o RPG em múltipla escolha.
 
 O narrador deve terminar a cena num ponto em que o jogador possa agir livremente.
 
-Pode apresentar possibilidades quando isso ajuda a esclarecer uma situação complexa, mas elas são **exemplos**, nunca a lista completa do que o jogador pode fazer.
-
-Evitar encerrar toda resposta com:
-
-> A) atacar  
-> B) conversar  
-> C) fugir
-
-salvo quando a aventura pedir explicitamente esse formato.
+Pode mencionar possibilidades quando isso esclarece uma situação complexa, mas elas são exemplos, não a lista completa de ações possíveis.
 
 ---
 
-## 17. Personagens não devem perder autonomia em romance ou amizade
-
-Um vínculo forte não transforma NPC em seguidor automático.
-
-Mesmo `REL [+5]` não significa:
-
-- obediência cega;
-- concordância permanente;
-- perda de objetivos próprios;
-- incapacidade de ficar irritado;
-- incapacidade de esconder algo coerentemente;
-- incapacidade de agir sozinho.
-
-A relação altera o peso emocional das decisões, não elimina a pessoa que decide.
-
----
-
-## 18. Quando o narrador deve avançar sozinho
-
-O narrador pode avançar sem pedir nova decisão quando:
-
-- o resultado é consequência direta de algo já escolhido;
-- a passagem é rotina sem decisão relevante;
-- o personagem está apenas aguardando algo já definido;
-- deslocamento não contém acontecimento significativo;
-- recuperação ou trabalho repetitivo pode ser resumido;
-- NPCs estão realizando ações próprias que não exigem intervenção imediata do jogador.
-
-Deve parar quando:
-
-- surge risco novo;
-- aparece informação que pode mudar a escolha;
-- alguém faz uma proposta relevante;
-- a ação do jogador é interrompida;
-- existe conflito de intenção;
-- a próxima etapa exige decisão voluntária do personagem do jogador.
-
----
-
-## 19. Correções durante a sessão
+## 20. Correções durante a sessão
 
 Se o jogador corrigir um fato, capacidade, interpretação ou continuidade fora da ficção, a correção mais recente passa a orientar a sessão.
 
@@ -529,8 +478,8 @@ Ao consolidar a campanha, atualizar a fonte apropriada para que outro chat não 
 
 ---
 
-## 20. Regra final do modo RPG
+## 21. Regra final do modo RPG
 
 > **O jogador não escreve sozinho a história. O narrador também não.**
 >
-> **O jogador decide seu personagem. O narrador interpreta o mundo e os demais personagens. O sistema resolve limites e consequências. A história é aquilo que sobra depois que todos tiveram direito de agir.**
+> **O jogador decide seu personagem. O narrador interpreta o mundo e os demais personagens. A resolução determina limites, efeitos e consequências. A história nasce quando todos têm direito de agir e o resultado real é respeitado.**
