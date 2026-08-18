@@ -1,7 +1,9 @@
 # Personagens
 
-Esta pasta guarda as fichas dos personagens da campanha.
+Esta pasta guarda as fichas dos personagens da campanha que podem ser tratadas como fontes normais e apresentáveis ao jogador.
 
-Pode conter protagonista, personagens relevantes, NPCs importantes e vilões que passem a ter importância recorrente.
+Pode conter o protagonista, personagens relevantes e NPCs importantes cuja ficha não precise permanecer oculta.
 
-Personagens menores não precisam receber ficha própria até isso se tornar necessário.
+Personagens menores e inimigos comuns não precisam receber ficha própria.
+
+Antagonistas importantes cuja ficha precise permanecer reservada ao narrador devem ficar em `mestre/viloes/`, não nesta pasta.
