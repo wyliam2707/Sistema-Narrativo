@@ -490,7 +490,7 @@ Graus menores não devem imitar automaticamente esse resultado.
 
 **ENERGIA não é mana.**
 
-Ela representa a **reserva operacional/estamina** do personagem na cena: esforço, desgaste e recursos que limitam por quanto tempo ele consegue continuar atuando.
+ENERGIA pertence ao **STATUS atual**, não à ficha permanente. Ela representa a **reserva operacional/estamina** do personagem na cena: esforço, desgaste e recursos que limitam por quanto tempo ele consegue continuar atuando.
 
 Estados:
 
@@ -612,11 +612,11 @@ não significa `-2 AGI`.
 
 Significa que ações que dependem daquele braço estão prejudicadas ou impossíveis até que a condição seja resolvida.
 
-Para personagens Centrais/Relevantes, condições importantes podem ser registradas em:
+Para personagens Centrais/Relevantes, condições importantes pertencem ao **STATUS atual** e podem ser registradas em:
 
 > **COND:** ...
 
-Para Figurantes, normalmente basta considerar a condição na própria cena.
+Elas não devem ser gravadas na ficha permanente apenas por estarem ativas. Para Figurantes, normalmente basta considerar a condição na própria cena.
 
 ---
 
@@ -802,14 +802,15 @@ Formato recomendado para personagens Centrais ou Relevantes:
 
 > **Nome:** ... | **Idade:** ... | **Conceito:** ...  
 > **Descrição:** poucas palavras físicas | poucas palavras mentais/comportamentais  
+> **TRAÇOS:** ... *(se houver)*  
 > **ATR:** FOR ... | AGI ... | RES ... | MEN ... | VON ...  
 > **PER:** ... / ... / ...  
 > **Poder [Fonte] [grau] => usos / especializações**  
 > **Poder [grau] => usos / especializações**  
 > **EQP:** ... *(se relevante)*  
-> **ENERGIA:** Pleno / Metade / Limite / Crítico *(quando relevante)*  
-> **COND:** ... *(se houver)*  
 > **REL:** ...
+
+A ficha permanente registra **quem o personagem é e quais capacidades estáveis possui**. `VIDA`, `ENERGIA`, `COND`, efeitos ativos, localização e outras alterações temporárias pertencem ao **STATUS atual**, normalmente persistido em `estado/atual.md`, e não à ficha permanente.
 
 A ficha deve permanecer curta. Não preencher campos que não tenham utilidade narrativa.
 
