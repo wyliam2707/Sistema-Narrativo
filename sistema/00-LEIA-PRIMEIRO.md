@@ -53,6 +53,7 @@ Contém:
 Contém apenas dados daquela história:
 - criação e revisão, enquanto a campanha estiver sendo montada;
 - personagens concretos;
+- material reservado do narrador em `mestre/`, quando existir;
 - mundo e regras específicas;
 - relações;
 - progressões narrativas e consequências ainda vivas;
@@ -60,6 +61,8 @@ Contém apenas dados daquela história:
 - cronologia;
 - estado atual;
 - capítulos ou registro canônico do que aconteceu.
+
+`mestre/` pode conter fichas e informações que outra IA precisa conhecer para manter a continuidade, mas que **não devem ser apresentadas ao jogador como conhecimento do protagonista** antes de serem descobertas na ficção.
 
 > **O sistema ensina como criar, resolver, jogar e operar. A aventura contém o que foi criado e o que aconteceu.**
 
@@ -90,6 +93,8 @@ A unidade fundamental do jogo não é o turno. É a resolução.
 ### Agência
 `agencia-de-personagens.md` determina **como personagens controlados pelo narrador escolhem suas próprias intenções** segundo ficha, personalidade, história, conhecimento, relações, objetivos e STATUS.
 
+Antagonistas reservados ao narrador continuam sujeitos à mesma agência e às mesmas regras. O sigilo de sua ficha não permite alterar retroativamente capacidades para contrariar o jogador.
+
 ### Progressão narrativa
 `progressao-narrativa.md` determina **quais consequências continuam vivas depois da cena e podem voltar a alterar possibilidades futuras**.
 
@@ -109,6 +114,8 @@ A criação usa quatro etapas conceituais:
 
 Cada etapa é salva como `PENDENTE DE REVISÃO`. A aplicação de atributos, perícias, poderes e demais conceitos numéricos acontece somente na revisão posterior.
 
+Aliados relevantes podem começar apenas com nomes e fichas estruturais ainda vazias. Inimigos comuns não precisam de arquivo individual. Antagonistas importantes podem receber ficha reservada em `mestre/viloes/` quando isso passar a ser necessário.
+
 > **Conceito primeiro. Mecânica depois.**
 
 ### Fechamento e salvamento de capítulo
@@ -117,6 +124,8 @@ Cada etapa é salva como `PENDENTE DE REVISÃO`. A aplicação de atributos, per
 Os comandos `Salvar capítulo`, `Fechar capítulo` e `Concluir capítulo` são equivalentes.
 
 O protocolo para a ficção no ponto atual, consulta as fontes necessárias, consolida somente os acontecimentos válidos, remove metacomunicação e versões descartadas, salva em `livro/` e atualiza cronologia, Progressão, fichas, relacionamentos e estado apenas quando pertinente.
+
+Quando material reservado do narrador for relevante, ele pode ser consultado e atualizado sem expor ao livro ou ao jogador informações que não foram descobertas na ficção.
 
 > **A consolidação melhora a forma; não muda os fatos.**
 
@@ -159,12 +168,15 @@ Ao continuar uma aventura em outro chat ou com outra IA, não dependa de memóri
 O registro persistente da aventura deve permitir reconstruir:
 - quem cada personagem é;
 - o que cada um pode fazer;
+- quais antagonistas ou segredos reservados ao narrador ainda estão ativos, quando existirem;
 - o que já aconteceu;
 - o que cada personagem plausivelmente sabe;
 - quais relações mudaram;
 - quais consequências antigas ainda podem voltar a importar;
 - como todos estão no momento atual;
 - quais exceções de narração valem naquela campanha.
+
+Ao consultar `mestre/`, separar rigorosamente **o que o narrador sabe** daquilo que o protagonista pode saber.
 
 ## Prioridade
 
