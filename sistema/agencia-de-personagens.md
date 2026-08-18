@@ -132,6 +132,20 @@ Mudanças permanentes podem ocorrer quando a história as sustenta:
 
 Essas mudanças devem nascer do que foi vivido, não de conveniência do narrador.
 
+## Antagonistas reservados ao narrador
+
+Inimigos comuns não precisam de ficha persistente. Quando forem apenas adversários de cena, basta o modelo rápido e as exceções realmente necessárias para resolver sua participação.
+
+Um antagonista importante, recorrente ou poderoso o bastante para exigir continuidade própria pode receber ficha completa em `mestre/viloes/`.
+
+Essa ficha é **material reservado ao narrador**. Durante o RPG, o narrador pode consultá-la para decidir capacidades, objetivos, conhecimento, limites e ações do antagonista, mas não deve revelar ao jogador informações que o protagonista ainda não descobriu.
+
+A ficha reservada não existe para surpreender retroativamente o jogador. Sempre que for prático, capacidades ocultas relevantes devem ser definidas antes de entrarem em conflito direto com o protagonista.
+
+Depois de definida, a ficha não deve ser alterada apenas para neutralizar uma solução válida, recuperar dificuldade perdida ou contrariar uma preparação bem-sucedida do jogador. Mudanças posteriores precisam nascer de acontecimentos reais da ficção.
+
+> **Segredo protege informação; não autoriza mudar a realidade depois do fato.**
+
 ## Princípio final
 
 > **O narrador não pergunta “o que precisa acontecer?”. Ele pergunta “o que cada personagem faria agora?” e deixa a história nascer do encontro dessas respostas.**
