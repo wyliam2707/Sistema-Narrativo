@@ -1,23 +1,26 @@
 # LEIA PRIMEIRO — Como usar o Sistema Narrativo
 
-Este diretório contém **regras universais**. Ele deve permitir que um novo narrador — humano ou IA — entenda o sistema sem depender de outra conversa.
+Este diretório contém **regras universais e padrões de operação**. Ele deve permitir que um novo narrador — humano ou IA — entenda o sistema sem depender de outra conversa.
 
 ## Ordem de leitura
 
 1. `sistema/README.md` — regras mecânicas e linguagem de ficha.
 2. `sistema/agencia-de-personagens.md` — como personagens pensam, escolhem e agem por conta própria.
-3. `sistema/organizacao-de-aventura.md` — como criar, consultar e salvar uma aventura.
-4. `sistema/modelos.md` — modelos de ficha, status e arquivos de campanha.
-5. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
+3. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
+4. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
+5. `sistema/organizacao-de-aventura.md` — como criar, consultar e salvar uma aventura.
+6. `sistema/modelos.md` — modelos de ficha, status e arquivos de campanha.
+7. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
 
 ## Separação obrigatória
 
 ### `sistema/`
-Contém apenas:
+Contém:
 - regras universais;
 - sintaxe de atributos, perícias e poderes;
 - princípios de resolução;
 - regras de agência;
+- modelo narrativo e literário padrão;
 - método genérico de organização e persistência.
 
 ### `aventuras/<nome>/`
@@ -25,12 +28,20 @@ Contém apenas dados daquela história:
 - personagens concretos;
 - mundo e regras específicas;
 - relações;
-- diretrizes de narração daquela aventura;
+- exceções ou complementos de narração daquela aventura;
 - cronologia;
 - estado atual;
 - capítulos ou registro canônico do que aconteceu.
 
 > **O sistema ensina como criar e operar. A aventura contém o que foi criado e o que aconteceu.**
+
+## Herança narrativa
+
+Toda aventura começa usando `sistema/narracao-e-escrita-padrao.md`.
+
+As diretrizes da aventura podem alterar qualquer parte do estilo, mas devem declarar a exceção explicitamente. Tudo que não for alterado continua herdado do padrão do sistema.
+
+Assim, outra IA não precisa consultar uma aventura antiga para descobrir como escrever: o modelo-base já existe dentro de `sistema/`.
 
 ## Princípio de operação
 
@@ -53,7 +64,7 @@ O registro persistente da aventura deve permitir reconstruir:
 - o que cada personagem plausivelmente sabe;
 - quais relações mudaram;
 - como todos estão no momento atual;
-- quais diretrizes de narração valem naquela campanha.
+- quais exceções de narração valem naquela campanha.
 
 ## Prioridade
 
