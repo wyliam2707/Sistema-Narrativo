@@ -52,6 +52,96 @@ TRAÇOS não devem duplicar desnecessariamente capacidades que já estejam descr
 
 > **TRAÇO = verdade qualitativa estável. Atributo, perícia ou poder = capacidade graduada.**
 
+## Regra de revisão das fichas apresentáveis
+
+O modelo de arquivo é o mesmo, mas o **método de revisão muda conforme quem controla o personagem**.
+
+### Personagem controlado pelo jogador
+
+Revisar com controle fino, seguindo a ficha de cima para baixo.
+
+Campos simples são apresentados **um por vez** e precisam ser aprovados antes de avançar.
+
+Três conjuntos são tratados como blocos próprios:
+
+```text
+ATRIBUTOS = FOR | AGI | RES | MEN | VON
+PERÍCIAS = todas as perícias relevantes
+PODERES = todos os poderes e especializações
+```
+
+Fluxo recomendado:
+
+```text
+nome/identidade
+↓
+idade
+↓
+conceito
+↓
+descrição
+↓
+TRAÇOS
+↓
+ATRIBUTOS — bloco
+↓
+PERÍCIAS — bloco
+↓
+PODERES — bloco
+↓
+EQP
+↓
+REL
+↓
+personalidade e tendências
+↓
+desejos/objetivos atuais
+↓
+medos/limites relevantes
+↓
+história consolidada relevante
+↓
+ficha completa para aprovação final
+```
+
+Se um campo já estiver definido, apresentá-lo como está para confirmação em vez de recriá-lo.
+
+Nos blocos de ATRIBUTOS, PERÍCIAS e PODERES, reapresentar o bloco inteiro normalizado antes de pedir aprovação.
+
+> **No personagem do jogador, cada campo simples é uma etapa; ATRIBUTOS, PERÍCIAS e PODERES são blocos próprios.**
+
+### Demais personagens apresentáveis ao jogador
+
+Revisar em **quatro blocos**:
+
+**Bloco 1 — Identidade e conceito**
+- nome;
+- idade;
+- conceito;
+- descrição;
+- `TRAÇOS`.
+
+**Bloco 2 — Capacidades**
+- atributos;
+- perícias;
+- poderes e especializações.
+
+**Bloco 3 — Recursos**
+- `EQP` e recursos recorrentes;
+- `REL` atual e recorrente.
+
+**Bloco 4 — Interpretação**
+- personalidade e tendências;
+- desejos/objetivos atuais;
+- medos/limites relevantes;
+- história consolidada relevante.
+
+O narrador pode propor uma base para cada bloco, mas deve obter aprovação antes de avançar para o próximo.
+
+Depois dos quatro blocos, apresentar a ficha completa para aprovação final.
+
+Fichas reservadas em `mestre/viloes/` não passam por revisão aberta.
+
 ## 1. Ficha — personagem Central
 
 ```text
