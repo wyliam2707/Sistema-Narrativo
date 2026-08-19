@@ -465,7 +465,62 @@ O campo de conhecimento é importante para impedir metaconhecimento acidental.
 
 > **Cronologia diz o que aconteceu. Progressão destaca o que ainda pode voltar a importar.**
 
-## 9. README de uma aventura
+## 9. README estrutural de pasta
+
+Toda pasta estrutural da aventura deve nascer com um `README.md` curto, mesmo que ainda não possua nenhum outro arquivo.
+
+Modelo base:
+
+```text
+# Nome da Pasta
+
+Esta pasta guarda [função principal].
+
+Usar para:
+- ...
+- ...
+
+Não usar para:
+- ...
+
+Regra especial, se houver: ...
+```
+
+O texto pode ser ainda mais curto quando a função for óbvia, mas deve permitir que outra IA compreenda a estrutura sem depender da conversa que criou a campanha.
+
+Conteúdo mínimo esperado por pasta:
+
+```text
+diretrizes/       → regras específicas de narração e funcionamento da campanha
+personagens/      → fichas apresentáveis de personagens Centrais e Relevantes
+mestre/           → material persistente reservado ao narrador
+mestre/viloes/    → fichas ocultas de antagonistas importantes
+mundo/            → cenário, locais, organizações e fatos estáveis
+relacionamento/   → vínculos recorrentes ou complexos com acompanhamento próprio
+progressao/       → consequências duradouras ainda causalmente vivas
+cronologia/       → índice objetivo dos acontecimentos e mudanças de conhecimento
+estado/           → inicio.md estável + atual.md mutável
+livro/            → capítulos ou registro narrativo canônico consolidado
+```
+
+Esses `README.md` permanecem quando novos arquivos são adicionados. Eles descrevem **a função da pasta**, não os acontecimentos da campanha.
+
+> **Pasta estrutural sem conteúdo ainda possui identidade e finalidade por meio de seu README.**
+
+## 10. README de uma aventura
+
+Durante a criação, a raiz pode usar uma versão provisória:
+
+```text
+# Nome da Aventura
+
+Status: EM CRIAÇÃO
+
+Criação e revisão em andamento.
+Consultar: `criacao.md`
+```
+
+Depois da aprovação final, atualizar para algo como:
 
 ```text
 # Nome da Aventura
@@ -502,6 +557,9 @@ As diretrizes locais complementam ou alteram apenas o que declararem explicitame
 8. estado atual;
 9. rascunhos antigos.
 
+## Ponto inicial
+Consultar: `estado/inicio.md`
+
 ## Ponto atual
 Consultar: `estado/atual.md`
 
@@ -510,7 +568,7 @@ Nunca continuar apenas pela memória de outro chat; consultar as fontes desta av
 Ao consultar `mestre/`, usar a informação sem revelá-la ao jogador antes de ser descoberta na ficção.
 ```
 
-## 10. Princípio de economia
+## 11. Princípio de economia
 
 Não preencher campos apenas porque o modelo existe.
 
@@ -521,3 +579,5 @@ Central recebe detalhe alto; Relevante recebe detalhe proporcional ao papel; Fig
 Antagonista reservado recebe ficha completa somente quando continuidade, poder, recorrência ou segredo realmente justificarem esse trabalho.
 
 A Progressão segue a mesma regra: não guardar toda reação ou consequência menor, apenas aquilo que ainda pode ter vida futura.
+
+Os `README.md` estruturais são exceção apenas no sentido de existência: eles são sempre criados para materializar e explicar a estrutura, mas devem continuar curtos e não virar depósitos de conteúdo da campanha.
