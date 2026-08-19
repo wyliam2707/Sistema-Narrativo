@@ -31,6 +31,13 @@ As diretrizes abaixo complementam apenas o que foi definido para esta aventura.
 - O avanço da pesquisa deve ser compatível com a escala do problema e permitir convivência cotidiana prolongada entre Corvin e Ravena: refeições, estudo paralelo, rotinas, saídas, visitas, pequenos conflitos, humor, intimidade e mudanças graduais na relação.
 - O mistério não deve ser artificialmente estendido, mas também não deve ser resolvido por conveniência narrativa. A solução final, se existir, deve exigir tempo, comparação de fontes, experiência prática e acontecimentos relevantes da campanha.
 
+## Regra operacional — lacunas de conhecimento do jogador
+- Quando o jogador indicar algo entre colchetes ou de forma genérica porque Corvin plausivelmente saberia ou poderia comentar, mas o jogador humano não tem como conhecer aquele detalhe específico, o narrador deve preencher o conteúdo de forma coerente com o mundo, as fichas, o cânone da campanha e o contexto da cena.
+- Exemplos: conteúdo de uma reportagem, nome de uma música ou artista plausível, detalhe cotidiano sobre Gotham ou os Titãs, informação histórica comum a Corvin, pequeno fato social ou cultural que não dependa de uma decisão secreta do jogador.
+- O narrador não deve obrigar o jogador a inventar detalhes que ele não tem como saber só para manter o fluxo da cena.
+- Ao preencher essas lacunas, o narrador deve evitar criar fatos exagerados, comprometedores ou que alterem o rumo da campanha sem necessidade. O objetivo é sustentar a plausibilidade e a conversa, não inserir uma reviravolta escondida.
+- O preenchimento nunca autoriza o narrador a decidir por Corvin uma escolha voluntária, opinião importante, intenção, sentimento ou ação que pertença ao controle do JOGADOR HUMANO.
+
 ## Atmosfera
 - Contraste entre o isolamento gótico do Castelo dos Corvos e o universo amplo de heróis, magia, crime e fenômenos sobrenaturais.
 
