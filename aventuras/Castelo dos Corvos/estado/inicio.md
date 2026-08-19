@@ -1,6 +1,6 @@
 # Início da História
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 
 ## Situação inicial
 - Corvin Blackwood vive no Castelo dos Corvos e, no começo da campanha, não conhece Ravena pessoalmente.
