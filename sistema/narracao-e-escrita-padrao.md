@@ -8,11 +8,29 @@ Ele foi criado para que uma aventura nova possa ser narrada com consistência me
 
 Toda aventura criada com este sistema **herda este modelo por padrão**.
 
-Uma aventura pode alterar tom, ponto de vista, formato de diálogo ou qualquer outra escolha estilística em suas próprias `diretrizes/`, mas somente aquilo que for explicitamente alterado deixa de seguir este modelo.
+O arquivo local padrão é:
 
-> **Se a aventura não disser diferente, use este arquivo.**
+```text
+diretrizes/narracao.md
+```
+
+Ele registra a direção narrativa escolhida para aquela campanha durante a criação: gênero ou combinação de gêneros, tom, foco, ritmo, humor, romance/intimidade, atmosfera, ênfases e outras escolhas relevantes.
+
+Uma aventura pode alterar tom, ponto de vista, formato de diálogo ou qualquer outra escolha estilística em suas próprias diretrizes, mas somente aquilo que for explicitamente alterado deixa de seguir este modelo.
+
+> **Primeiro aplicar este modelo; depois aplicar `diretrizes/narracao.md` da campanha. O que não for alterado continua herdado.**
 
 O estilo pertence à camada de narração. As regras de resolução continuam definidas pelos demais arquivos de `sistema/`.
+
+### Direção narrativa não é cenário
+
+`diretrizes/narracao.md` responde **como a história deve ser sentida e narrada**.
+
+`mundo/cenario.md` responde **que mundo existe e como ele funciona**.
+
+Uma mesma realidade pode sustentar histórias muito diferentes. Um cenário de fantasia urbana, por exemplo, pode ser usado para investigação sombria, comédia romântica, romance adulto, aventura de ação ou combinações entre esses focos sem que as leis do mundo precisem mudar.
+
+O narrador deve respeitar a direção narrativa sem forçar acontecimentos artificiais apenas para lembrar o gênero. Uma comédia romântica não exige piada em toda cena; um romance não exige atração em toda interação; terror não exige ameaça constante.
 
 ---
 
@@ -30,6 +48,8 @@ Prioridades:
 6. beleza da prosa sem excesso ornamental.
 
 A prosa deve ser **elegante e acessível**, visual quando necessário e econômica quando o momento pedir velocidade.
+
+A direção narrativa local pode mudar a intensidade, leveza, sensualidade, humor, tensão, ritmo ou foco da experiência sem substituir as regras de agência, causalidade e continuidade.
 
 ---
 
@@ -118,6 +138,8 @@ Usar quando relevante:
 - presença física.
 
 A atmosfera nasce do lugar e da situação. Nem toda cena precisa ser sombria, intensa ou solene.
+
+Quando `diretrizes/narracao.md` definir uma atmosfera específica, selecionar detalhes que a sustentem de forma natural, sem repetir mecanicamente os mesmos elementos em toda cena.
 
 ---
 
@@ -274,6 +296,8 @@ Elas servem para mostrar:
 
 Não criar perigo apenas porque uma sequência ficou tranquila.
 
+Se a direção narrativa valorizar cotidiano, romance, humor ou convivência, essas cenas podem ocupar mais espaço sem precisar justificar sua existência por um perigo externo.
+
 ---
 
 ## 10. Romance e vínculos
@@ -296,6 +320,8 @@ O valor `REL` ajuda o narrador a interpretar o vínculo, mas a natureza da rela�
 
 Personagens continuam possuindo vontade própria dentro de relações amorosas, familiares, amistosas ou hostis.
 
+Uma campanha pode tornar romance, sensualidade ou intimidade parte central da direção narrativa em `diretrizes/narracao.md`. Isso aumenta o espaço e a atenção dados a esses elementos, mas não remove agência, causalidade, personalidade ou direito de recusa e iniciativa dos personagens.
+
 ---
 
 ## 11. Humor
@@ -312,6 +338,8 @@ Pode ser:
 - acidental.
 
 Não dar a todos os personagens o mesmo tipo de piada.
+
+Se a campanha for uma comédia ou comédia romântica, humor pode aparecer com maior frequência, mas não precisa transformar toda fala ou toda cena em piada.
 
 ---
 
@@ -346,6 +374,8 @@ Resumir quando importa apenas saber que algo aconteceu:
 
 Uma passagem resumida pode interromper-se e voltar à dramatização no instante em que algo passa a importar.
 
+A direção narrativa local ajuda a decidir o que merece ser vivido em detalhe. Em romance, por exemplo, uma conversa íntima pode merecer dramatização onde uma campanha de ação resumiria o mesmo intervalo.
+
 ---
 
 ## 13. Quebra de cena
@@ -362,12 +392,13 @@ Não é obrigatório em toda transição.
 
 ## 14. Narração durante o RPG
 
-Durante o jogo, manter o mesmo estilo geral de prosa, mas respeitar a agência do jogador e a diferença entre aquilo que o narrador sabe e aquilo que o jogador pode perceber.
+Durante o jogo, aplicar o modelo universal e `diretrizes/narracao.md` da campanha, respeitando a agência do jogador e a diferença entre aquilo que o narrador sabe e aquilo que o jogador pode perceber.
 
 O narrador deve:
 
 - controlar mundo e personagens que não pertencem ao jogador;
 - permitir agência real aos personagens Centrais e Relevantes;
+- respeitar o tom, foco e ritmo locais sem forçar acontecimentos artificiais para cumprir gênero;
 - identificar toda fala direta com `[Nome] — ...`;
 - não revelar pensamentos diretos de NPCs durante o RPG ao vivo;
 - usar `[Nome, pensa] — ...` apenas para pensamento do personagem controlado pelo jogador que tenha sido declarado ou autorizado por ele;
@@ -399,6 +430,7 @@ Ao transformar material jogado em capítulo:
 - preservar quem sabia o quê em cada momento;
 - tratar todos os personagens como pessoas da história, não como `PC` e `NPC`;
 - manter a agência demonstrada durante o jogo;
+- preservar a direção narrativa específica da campanha;
 - identificar todas as falas diretas com `[Nome] — ...`;
 - quando houver pensamento direto, usar `[Nome, pensa] — ...`;
 - permitir pensamentos de qualquer personagem quando forem coerentes com a cena e acrescentarem interioridade sem mudar os fatos.
@@ -448,7 +480,8 @@ Evitar por padrão:
 - quebrar personalidade apenas para alcançar um resultado planejado;
 - criar reviravolta apenas porque uma solução do jogador foi eficiente;
 - revelar pensamentos de NPCs no RPG ao vivo;
-- omitir a identificação de quem falou ou pensou quando o trecho for diálogo ou pensamento direto.
+- omitir a identificação de quem falou ou pensou quando o trecho for diálogo ou pensamento direto;
+- transformar gênero em obrigação mecânica, como inserir piada, romance, ameaça ou sensualidade em toda cena apenas porque aparecem nas diretrizes.
 
 ---
 
@@ -456,6 +489,6 @@ Evitar por padrão:
 
 Se houver dúvida sobre como escrever uma cena, usar esta sequência:
 
-> **ver o mundo pelos olhos do personagem → escolher os detalhes que importam → deixar as pessoas agirem como elas mesmas → mostrar a consequência → parar ou avançar conforme exista decisão significativa.**
+> **ler `diretrizes/narracao.md` → ver o mundo pelos olhos do personagem → escolher os detalhes que importam → deixar as pessoas agirem como elas mesmas → mostrar a consequência → parar ou avançar conforme exista decisão significativa.**
 
-O arquivo `sistema/exemplo-de-estilo.md` fornece uma amostra neutra deste padrão em funcionamento.
+O arquivo `sistema/exemplo-de-estilo.md` fornece uma amostra neutra do padrão universal em funcionamento. A campanha aplica sua direção narrativa local sobre essa base.
