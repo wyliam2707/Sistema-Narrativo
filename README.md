@@ -6,7 +6,7 @@ Este repositório separa **o motor do RPG** dos **dados de cada aventura**.
 
 - `sistema/` — regras universais, linguagem de fichas, agência de personagens, criação e operação de aventuras.
 - `aventuras/` — cada aventura concreta, com personagens, mundo, relações, Progressão, estado atual, cronologia, diretrizes e história canônica.
-- `exemplo-pratico/` — campanha demonstrativa fechada, usada apenas como referência de aplicação do sistema.
+- `exemplo/` — campanha demonstrativa fechada, usada apenas como referência de aplicação do sistema.
 
 ## Regra fundamental
 
@@ -39,7 +39,7 @@ CONSULTAR EXEMPLO PRÁTICO
 
 Ao receber esse comando, o narrador ou IA deve:
 
-1. abrir `exemplo-pratico/README.md`;
+1. abrir `exemplo/README.md`;
 2. seguir a ordem de consulta indicada ali;
 3. usar os arquivos apenas como referência de estrutura e aplicação das regras;
 4. não listar o exemplo como campanha existente em `aventuras/`;
@@ -57,7 +57,7 @@ Abrir:
 
 O protocolo começa perguntando o nome da campanha, cria sua estrutura em `aventuras/<nome>/` e conduz quatro etapas conceituais:
 
-1. Cenário;
+1. Direção narrativa e Cenário;
 2. Protagonista;
 3. Personagens relevantes;
 4. Início da história.
