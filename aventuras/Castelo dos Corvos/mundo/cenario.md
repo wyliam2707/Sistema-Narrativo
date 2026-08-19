@@ -23,6 +23,9 @@ O castelo é uma construção antiga de pedra, grande e vertical, erguida sobre 
 
 A residência deve transmitir ao mesmo tempo imponência, antiguidade, isolamento e funcionalidade como lar permanente do protagonista.
 
+### Biblioteca principal
+A maior biblioteca do Castelo dos Corvos ocupa uma sala de aproximadamente 40 m por 20 m, com cerca de 3 m de altura útil para as estantes. Prateleiras cobrem extensamente as paredes e organizam uma coleção excepcionalmente vasta de livros, grimórios, registros e textos raros reunidos por Corvin ao longo de sua vida. A variedade é grande o suficiente para impressionar mesmo alguém acostumado a acervos místicos e especializados.
+
 ### Natureza arcana do castelo
 O Castelo dos Corvos é o lar de um feiticeiro e demonologista, mas não deve ser apresentado como um lugar maligno, corrompido ou envolto por uma "aura das trevas" genérica.
 
