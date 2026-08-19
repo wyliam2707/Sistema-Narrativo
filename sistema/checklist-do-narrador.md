@@ -92,7 +92,7 @@ Um efeito pode continuar existindo sem continuar ocupando capacidade se sua natu
 
 ## 5. Quem mais pode agir?
 
-NPCs e aliados são agentes da história.
+Todos os personagens presentes continuam sendo agentes da história.
 
 Para cada personagem relevante, considerar:
 
@@ -121,11 +121,11 @@ Inimigos comuns não exigem ficha persistente. Para eles, basta o modelo rápido
 
 Não esperar ordens do protagonista quando um aliado competente possui intenção própria e uma ação óbvia coerente com ela.
 
-Não fazer NPC agir com informação que ele não possui.
+Não fazer nenhum personagem agir com informação que ele não possui.
 
 Não criar retroativamente nova capacidade para um inimigo apenas porque o jogador encontrou uma solução eficaz.
 
-Durante o RPG ao vivo, o narrador pode usar os pensamentos internos de NPCs para decidir suas ações, mas **não os mostra diretamente ao jogador**. Mostrar somente fala, gesto, expressão, ação ou outro sinal perceptível.
+Durante o RPG ao vivo, a IA pode usar internamente os pensamentos de `NPC`, `JOGADOR IA` e `JOGADOR EVENTUAL IA` para decidir suas ações, mas **não os mostra diretamente ao jogador humano por padrão**. Mostrar somente fala, gesto, expressão, ação ou outro sinal perceptível.
 
 Toda fala direta deve permanecer identificada:
 
@@ -133,13 +133,13 @@ Toda fala direta deve permanecer identificada:
 [Nome] — Fala.
 ```
 
-Pensamento direto durante a sessão só pertence ao personagem controlado pelo jogador e usa:
+Pensamento direto durante a sessão só pode aparecer para o personagem com `CONTROLE: JOGADOR HUMANO`, quando declarado ou autorizado pelo jogador humano, e usa:
 
 ```text
 [Nome, pensa] — Pensamento.
 ```
 
-> **Agência decide o que cada personagem quer fazer. Resolução decide o que realmente consegue fazer. A interioridade dos NPCs continua do lado do narrador durante a sessão.**
+> **Agência decide o que cada personagem quer fazer. Resolução decide o que realmente consegue fazer. A interioridade de NPCs, Jogadores IA e Jogadores Eventuais IA permanece oculta ao jogador humano por padrão durante a sessão.**
 
 ---
 
@@ -221,7 +221,7 @@ Não exigir que o jogador adivinhe uma frase secreta para investigar corretament
 
 Informação presente em `mestre/` existe para o narrador, mas só se torna conhecimento do protagonista quando houver acesso, percepção, inferência ou descoberta plausível.
 
-Pensamentos internos de NPCs também não se tornam informação do protagonista apenas porque o narrador os conhece.
+Pensamentos internos de `NPC`, `JOGADOR IA` ou `JOGADOR EVENTUAL IA` também não se tornam informação do protagonista apenas porque a IA os conhece.
 
 > **Perícia reconhece conhecimento dominado. MEN constrói caminhos para descobrir.**
 
@@ -319,7 +319,7 @@ Confirmar rapidamente:
 2. O escopo foi respeitado?
 3. A situação anterior continuou existindo?
 4. Ficha, STATUS e capacidades foram aplicados sem soma cega?
-5. NPCs e aliados agiram segundo a própria agência?
+5. Os demais agentes agiram segundo a própria agência e o próprio `CONTROLE`?
 6. Informação usada por cada agente era realmente conhecida?
 7. A resolução produziu um efeito causal claro?
 8. Surgiu uma nova decisão relevante para o jogador?
@@ -327,8 +327,8 @@ Confirmar rapidamente:
 10. Alguma consequência merece persistência?
 11. Se existe material reservado relevante, ele foi respeitado sem ser exposto?
 12. Toda fala direta está identificada com `[Nome] — ...`?
-13. Nenhum pensamento direto de NPC foi revelado durante o RPG ao vivo?
-14. Se apareceu pensamento do personagem do jogador, ele foi declarado/autorizado e marcado como `[Nome, pensa] — ...`?
+13. Nenhum pensamento direto de `NPC`, `JOGADOR IA` ou `JOGADOR EVENTUAL IA` foi revelado ao jogador humano durante o RPG ao vivo?
+14. Se apareceu pensamento do personagem com `CONTROLE: JOGADOR HUMANO`, ele foi declarado/autorizado e marcado como `[Nome, pensa] — ...`?
 15. Algum Jogador IA precisava tomar decisão própria?
 16. Algum Jogador Eventual IA deveria estar ativo nesta situação?
 17. A decisão de personagem jogado pela IA usou apenas conhecimento legítimo dele?
@@ -345,7 +345,7 @@ Durante a sessão, evitar:
 
 - transformar afirmação do jogador em sucesso automático;
 - inventar dificuldade para proteger o roteiro;
-- congelar NPCs enquanto o jogador decide;
+- congelar os demais agentes enquanto o jogador decide;
 - usar iniciativa ou turnos como regra fundamental;
 - somar atributo + perícia + poder automaticamente;
 - transformar MEN em onisciência;
@@ -358,8 +358,8 @@ Durante a sessão, evitar:
 - salvar todo detalhe banal na Progressão;
 - criar ficha persistente para todo inimigo comum;
 - revelar material de `mestre/` antes de ser descoberto;
-- revelar pensamento direto de NPC durante o RPG ao vivo;
-- inventar pensamento voluntário para o personagem do jogador;
+- revelar pensamento direto de `NPC`, `JOGADOR IA` ou `JOGADOR EVENTUAL IA` ao jogador humano durante o RPG ao vivo;
+- inventar pensamento voluntário para o personagem com `CONTROLE: JOGADOR HUMANO`;
 - escrever fala direta sem identificar quem falou;
 - alterar ficha oculta retroativamente para contrariar uma solução válida;
 - forçar um gancho apenas porque ele existe;
@@ -369,4 +369,4 @@ Durante a sessão, evitar:
 
 ## Regra final
 
-> **Entenda a intenção. Respeite o escopo. Consulte a realidade da cena. Use a ficha sem matemática desnecessária. Deixe todos os agentes continuarem vivendo. Resolva causalmente. Preserve a mente dos NPCs durante o jogo ao vivo. Identifique quem fala. Pare quando surgir uma decisão. Mostre mudanças relevantes. Persista apenas o que ainda pode importar. Preserve segredos sem reescrever a realidade.**
+> **Entenda a intenção. Respeite o escopo. Consulte a realidade da cena. Use a ficha sem matemática desnecessária. Deixe todos os agentes continuarem vivendo. Resolva causalmente. Preserve a interioridade de NPCs, Jogadores IA e Jogadores Eventuais IA durante o jogo ao vivo. Identifique quem fala. Pare quando surgir uma decisão. Mostre mudanças relevantes. Persista apenas o que ainda pode importar. Preserve segredos sem reescrever a realidade.**
