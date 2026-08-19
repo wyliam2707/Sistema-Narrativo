@@ -11,7 +11,8 @@ aventuras/<nome-da-aventura>/
 ├── README.md
 ├── criacao.md
 ├── diretrizes/
-│   └── README.md
+│   ├── README.md
+│   └── narracao.md
 ├── personagens/
 │   └── README.md
 ├── mestre/
@@ -33,6 +34,8 @@ aventuras/<nome-da-aventura>/
 └── livro/
     └── README.md
 ```
+
+Os `README.md` estruturais são criados junto com a campanha. `diretrizes/narracao.md` é criado e preenchido durante a Etapa 1 do protocolo, quando a direção narrativa da campanha é definida; `estado/inicio.md` e `estado/atual.md` surgem conforme o fluxo de criação e revisão.
 
 Git não preserva diretórios vazios. Por isso, os `README.md` estruturais são parte da organização padrão e **devem ser criados junto com a campanha**, não apenas quando a pasta receber seu primeiro conteúdo real.
 
@@ -61,20 +64,49 @@ Deve informar:
 Durante a criação, o `README.md` da raiz pode ser provisório e apenas indicar que a campanha está em montagem e apontar para `criacao.md`. Depois da aprovação final, deve ser atualizado para a porta de entrada completa da campanha.
 
 ### `diretrizes/`
-Define **como aquela aventura deve ser narrada**.
+Define **como aquela aventura deve ser sentida, narrada e conduzida em termos de estilo local**.
 
-Pode conter:
-- tom;
+O arquivo padrão é:
+
+```text
+diretrizes/narracao.md
+```
+
+Ele nasce da Etapa 1 — Direção narrativa e Cenário — e registra somente o que realmente importa para aquela campanha, por exemplo:
+
+- gênero ou combinação de gêneros;
+- tom principal e tons secundários;
+- foco narrativo;
 - ritmo;
-- pessoa/ponto de vista;
-- tamanho médio das cenas;
-- comandos especiais do jogador;
-- regras de conversão para livro;
-- limites ou escolhas estilísticas.
+- presença e natureza do humor;
+- romance e intimidade, quando relevantes;
+- atmosfera;
+- elementos a enfatizar;
+- elementos a evitar ou moderar;
+- exceções ao modelo narrativo universal.
+
+A lista não é obrigatória nem fechada. Uma campanha pode ser, por exemplo, comédia romântica, romance adulto, terror sobrenatural com romance, faroeste clássico ou qualquer combinação descrita pelo jogador.
 
 Essas diretrizes pertencem à aventura e **não** ao sistema universal.
 
-O `diretrizes/README.md` deve explicar essa função mesmo que nenhuma exceção específica tenha sido criada ainda.
+O `diretrizes/README.md` explica a função da pasta. `diretrizes/narracao.md` contém a direção narrativa concreta da campanha.
+
+Toda aventura continua herdando `sistema/narracao-e-escrita-padrao.md`; `diretrizes/narracao.md` especifica a experiência local e substitui apenas aquilo que declarar de forma diferente.
+
+### Separação entre `diretrizes/` e `mundo/`
+
+Usar esta distinção:
+
+> **Diretrizes dizem como a história deve ser narrada. Mundo diz o que existe na história.**
+
+Exemplo:
+
+```text
+mundo/cenario.md: magia é pública e cotidiana.
+diretrizes/narracao.md: magia cotidiana deve aparecer naturalmente, sem espetáculo obrigatório a cada uso.
+```
+
+Não duplicar automaticamente o mesmo texto nos dois lugares.
 
 ### `personagens/`
 Contém as fichas estáveis e normalmente apresentáveis ao jogador de personagens Centrais e Relevantes.
@@ -125,6 +157,8 @@ Contém regras e fatos específicos do cenário:
 - tecnologia;
 - limitações específicas;
 - fatos que personagens podem descobrir.
+
+`mundo/cenario.md` deve se concentrar na realidade do mundo. Tom literário, ritmo, tratamento de romance, humor ou outras escolhas de experiência pertencem a `diretrizes/narracao.md`.
 
 O ponto inicial da história não pertence a `mundo/`. A situação concreta aprovada antes da primeira cena fica em `estado/inicio.md`.
 
@@ -395,7 +429,7 @@ Para retomar uma campanha sem contexto anterior:
 1. ler o sistema universal;
 2. ler o `README.md` da aventura;
 3. consultar os `README.md` estruturais das áreas que forem necessárias para compreender onde cada informação está;
-4. ler as diretrizes indicadas;
+4. ler `diretrizes/narracao.md` e outras diretrizes indicadas;
 5. ler as fichas dos personagens presentes ou centrais;
 6. consultar `mestre/` silenciosamente quando houver antagonistas ou segredos relevantes para a continuação;
 7. consultar relações e mundo relevantes;
