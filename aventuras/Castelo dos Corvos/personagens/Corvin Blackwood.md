@@ -31,6 +31,11 @@ CONTROLE: JOGADOR HUMANO
 - Socialmente contido por padrão, mas paquerador quando sente atração ou encontra motivo para isso.
 
 ## História
+- O interesse de Corvin pelo oculto começou quando encontrou um antigo livro sobre magia.
+- A descoberta despertou uma curiosidade que rapidamente se transformou em estudo sério e contínuo.
+- Ao longo das décadas, passou a viajar pelo mundo procurando, comprando, recuperando e reunindo outros textos raros e perigosos.
+- Sua coleção e seus estudos se expandiram para magia em geral, demonologia, runas, forja, encantamento e outros ramos do conhecimento arcano.
+- O acúmulo de livros, artefatos e conhecimento transformou a pesquisa do sobrenatural em uma das linhas centrais de sua vida.
 
 ## Desejos e objetivos atuais
 
