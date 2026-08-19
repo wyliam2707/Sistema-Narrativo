@@ -132,6 +132,30 @@ Mudanças permanentes podem ocorrer quando a história as sustenta:
 
 Essas mudanças devem nascer do que foi vivido, não de conveniência do narrador.
 
+## Interioridade e apresentação
+
+Personagens controlados pelo narrador possuem pensamentos, dúvidas, desejos e interpretações próprias. Essa interioridade faz parte da agência e pode ser usada internamente pelo narrador para decidir o que cada personagem fará.
+
+Durante o **RPG ao vivo**, porém, a interioridade direta desses personagens não é mostrada ao jogador. O narrador não escreve:
+
+```text
+[NPC, pensa] — ...
+```
+
+em uma sessão normal.
+
+O jogador conhece o estado interno dos demais apenas pelo que seu personagem pode perceber: falas, ações, expressões, hesitações, postura, comportamento e outras evidências plausíveis.
+
+Pensamento direto durante a sessão fica reservado ao personagem controlado pelo jogador, quando o próprio jogador o declara ou autoriza, no formato:
+
+```text
+[Nome, pensa] — Pensamento.
+```
+
+No **livro consolidado**, a regra muda: pensamentos de qualquer personagem podem aparecer explicitamente quando forem coerentes com a cena e com o ponto de vista literário adotado. Isso aprofunda a personagem, mas não autoriza inventar retroativamente decisões, fatos, conhecimentos ou segredos.
+
+> **Agência exige que NPCs tenham vida interior. RPG ao vivo não exige que o jogador tenha acesso direto a ela.**
+
 ## Antagonistas reservados ao narrador
 
 Inimigos comuns não precisam de ficha persistente. Quando forem apenas adversários de cena, basta o modelo rápido e as exceções realmente necessárias para resolver sua participação.
