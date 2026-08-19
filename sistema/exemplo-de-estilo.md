@@ -4,7 +4,7 @@ Este arquivo existe apenas para **calibrar a forma da escrita**. Personagens, ce
 
 O objetivo é demonstrar ritmo, terceira pessoa próxima, descrição seletiva, diálogo explícito, subtexto, ação clara e passagem entre dramatização e resumo.
 
-Este trecho representa uma **forma literária consolidada**. Por isso, pensamentos explícitos podem pertencer a qualquer personagem quando fizer sentido. Durante o RPG ao vivo, pensamentos diretos de personagens controlados pelo narrador permanecem ocultos.
+Este trecho representa uma **forma literária consolidada**. Por isso, pensamentos explícitos podem pertencer a qualquer personagem quando fizer sentido. Durante o RPG ao vivo, pensamentos diretos de NPCs, Jogadores IA e Jogadores Eventuais IA permanecem ocultos ao jogador humano por padrão.
 
 Formato demonstrado:
 
