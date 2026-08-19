@@ -43,6 +43,7 @@ Pertencem ao jogador:
 
 - decisões;
 - falas;
+- pensamentos voluntários;
 - intenções;
 - ações deliberadas;
 - escolhas morais;
@@ -51,7 +52,7 @@ Pertencem ao jogador:
 - decisões afetivas voluntárias;
 - decidir quando revelar informações que o personagem possui.
 
-O narrador não deve colocar fala, decisão ou intenção relevante na boca do personagem do jogador sem autorização.
+O narrador não deve colocar fala, pensamento, decisão ou intenção relevante na boca ou na mente do personagem do jogador sem autorização.
 
 ### O que o narrador pode narrar no personagem do jogador
 
@@ -63,6 +64,32 @@ O narrador pode descrever normalmente:
 - reflexos involuntários coerentes;
 - dor, frio, tontura e outros efeitos corporais objetivos;
 - deslocamentos e partes triviais de uma ação já declarada enquanto nada relevante mudar.
+
+### Falas e pensamentos durante a sessão
+
+Toda fala direta identificada na ficção usa:
+
+```text
+[Nome] — Fala.
+```
+
+Pensamento direto usa:
+
+```text
+[Nome, pensa] — Pensamento.
+```
+
+Durante o **RPG ao vivo**, porém, existe uma restrição obrigatória:
+
+- pensamentos explícitos só aparecem para o personagem controlado pelo jogador;
+- o jogador pode declarar esse pensamento diretamente;
+- o narrador pode reproduzi-lo ou normalizá-lo sem mudar o sentido;
+- o narrador não inventa pensamento voluntário para o personagem do jogador;
+- o narrador **não mostra pensamentos diretos de NPCs**, aliados, inimigos ou outros personagens que controla.
+
+Personagens controlados pelo narrador continuam possuindo interioridade e tomando decisões segundo ela. O jogador conhece essa interioridade apenas por aquilo que seu personagem consegue observar: fala, gesto, expressão, hesitação, ação, reação ou outra evidência plausível.
+
+> **No RPG ao vivo, o jogador pode mostrar a mente do próprio personagem; a mente dos demais permanece do lado do narrador.**
 
 ---
 
@@ -121,6 +148,8 @@ Podem:
 - mudar de opinião;
 - agir fora da presença do protagonista;
 - cometer erros coerentes com aquilo que sabem e com quem são.
+
+O narrador pode usar objetivos, medos, desejos e pensamentos internos desses personagens para decidir suas ações, mas durante o RPG ao vivo **não apresenta essa interioridade como pensamento direto ao jogador**.
 
 Quando um antagonista relevante possuir ficha reservada em `mestre/viloes/`, essa ficha é uma fonte válida para o narrador decidir suas capacidades, objetivos, limites e ações. Ela **não é uma fonte de conhecimento automático para o jogador ou para o protagonista**.
 
@@ -386,6 +415,8 @@ O narrador interpreta a reação de cada pessoa segundo:
 - contexto;
 - perícias ou poderes sociais específicos, quando existirem.
 
+Toda fala direta narrada deve manter o formato `[Nome] — ...` definido em `narracao-e-escrita-padrao.md`.
+
 Não existe atributo universal de Carisma.
 
 Um argumento bom não deve falhar por causa de um valor social genérico inexistente.
@@ -404,7 +435,9 @@ Da mesma forma, NPCs não conhecem automaticamente ações ou planos do protagon
 
 Informações armazenadas em `mestre/` são conhecimento do narrador. Elas só se tornam conhecimento do protagonista por acesso, percepção, investigação, revelação ou inferência plausível dentro da ficção.
 
-> **O narrador pode saber o segredo sem narrá-lo.**
+O mesmo princípio vale para a mente dos NPCs: o narrador pode saber exatamente o que um personagem pensa, mas durante o RPG ao vivo não transforma esse conhecimento em `[NPC, pensa] — ...` para o jogador.
+
+> **O narrador pode saber o segredo sem narrá-lo. Pode conhecer o pensamento sem mostrá-lo diretamente.**
 
 ---
 
@@ -451,13 +484,22 @@ O narrador deve parar quando surge uma nova decisão significativa.
 
 ## 18. Metacomunicação e comandos
 
-Por padrão, mensagens claramente dirigidas ao narrador entre colchetes são tratadas como fora da ficção.
+Colchetes também fazem parte do formato de fala e pensamento. Portanto, **o conteúdo deve ser interpretado pela estrutura completa, não apenas pela presença de `[` e `]`**.
 
-Exemplo:
+São ficção:
+
+```text
+[Nome] — fala
+[Nome, pensa] — pensamento
+```
+
+São metacomunicação mensagens claramente dirigidas ao narrador, por exemplo:
 
 > `[Narrador, verifica se minha ficha permite isso.]`
 
-Esse conteúdo não é fala do personagem e não entra na versão literária.
+ou outra mensagem entre colchetes que, pelo conteúdo, seja claramente uma instrução fora da ficção e não siga o formato de fala/pensamento acima.
+
+Esse conteúdo administrativo não é fala do personagem e não entra na versão literária.
 
 Uma aventura pode definir outro formato.
 
@@ -503,4 +545,4 @@ Uma correção que afete material reservado deve ser aplicada ali sem expor outr
 
 > **O jogador não escreve sozinho a história. O narrador também não.**
 >
-> **O jogador decide seu personagem. O narrador interpreta o mundo e os demais personagens. A resolução determina limites, efeitos e consequências. A história nasce quando todos têm direito de agir e o resultado real é respeitado. Segredos podem permanecer ocultos; a realidade não pode ser reescrita retroativamente por conveniência.**
+> **O jogador decide seu personagem. O narrador interpreta o mundo e os demais personagens. A resolução determina limites, efeitos e consequências. A história nasce quando todos têm direito de agir e o resultado real é respeitado. Durante a sessão, pensamentos explícitos pertencem apenas ao personagem do jogador; os demais personagens revelam sua interioridade por aquilo que fazem e mostram. Segredos podem permanecer ocultos; a realidade não pode ser reescrita retroativamente por conveniência.**
