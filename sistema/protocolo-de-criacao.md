@@ -270,6 +270,7 @@ Começar pela identidade, não pela mecânica.
 Perguntar uma coisa por vez conforme necessário, normalmente seguindo algo próximo de:
 
 - nome;
+- quem o controla;
 - aparência física;
 - imagem de referência, quando fornecida;
 - idade real e aparente, quando diferentes;
@@ -279,6 +280,14 @@ Perguntar uma coisa por vez conforme necessário, normalmente seguindo algo pró
 - história essencial;
 - trajetória de vida ou ocupações importantes;
 - situação e motivação atuais.
+
+Para um protagonista controlado pelo usuário, registrar normalmente:
+
+```text
+CONTROLE: JOGADOR HUMANO
+```
+
+Se a campanha possuir outro arranjo de controle, o usuário pode defini-lo explicitamente.
 
 Não perguntar sobre cada detalhe biográfico se ele não for necessário para compreender o personagem.
 
@@ -297,6 +306,7 @@ Preencher apenas o que já foi definido conceitualmente. Campos mecânicos ainda
 Campos conceituais podem incluir, quando relevantes:
 
 - identidade;
+- `CONTROLE`;
 - descrição;
 - `TRAÇOS` permanentes não numéricos;
 - personalidade e tendências;
@@ -314,37 +324,76 @@ Ainda não calibrar:
 - relações numéricas ainda não estabelecidas;
 - ficha mecânica completa.
 
-Esses elementos pertencem à revisão posterior.
+`CONTROLE` não é valor mecânico. Ele pode ser definido desde a criação porque determina quem possui o ciclo de decisão do personagem.
+
+Esses elementos mecânicos pertencem à revisão posterior.
 
 ### Fechamento da etapa
 
 Quando o conceito do protagonista estiver suficiente:
 
 1. organizar o conceito em `personagens/<nome>.md`;
-2. manter a estrutura da ficha, deixando em branco o que ainda não foi definido;
-3. marcar:
+2. registrar o `CONTROLE` já definido;
+3. manter a estrutura da ficha, deixando em branco o que ainda não foi definido;
+4. marcar:
 
 ```text
 Status: PENDENTE DE REVISÃO
 ```
 
-4. atualizar `criacao.md`:
+5. atualizar `criacao.md`:
 
 ```text
 2. Protagonista: PENDENTE DE REVISÃO
 ```
 
-5. seguir para a Etapa 3.
+6. seguir para a Etapa 3.
 
 ---
 
 ## 7. Etapa 3 — Personagens relevantes
 
-Objetivo: definir **qual é o elenco inicial que merece acompanhamento como Central ou Relevante**.
+Objetivo: definir **qual é o elenco inicial que merece acompanhamento como Central ou Relevante e como cada personagem será controlado**.
 
 O protocolo não precisa perguntar ao jogador por todo personagem óbvio de um cenário conhecido.
 
 Quando o universo escolhido já indicar personagens naturalmente relevantes, o narrador pode identificá-los e propor sua inclusão.
+
+### Controle dos personagens relevantes
+
+Ao apresentar ou consolidar os nomes do elenco inicial, apresentar também uma proposta de `CONTROLE` ao lado de cada nome quando isso ajudar.
+
+Exemplo:
+
+```text
+Ravena — JOGADOR IA
+Robin — JOGADOR EVENTUAL IA
+Estelar — NPC
+Mutano — NPC
+```
+
+O usuário pode revisar e mudar essas categorias durante a criação e novamente durante a revisão da ficha.
+
+Categorias válidas para fichas apresentáveis em `personagens/`:
+
+```text
+CONTROLE: JOGADOR HUMANO
+CONTROLE: JOGADOR IA
+CONTROLE: JOGADOR EVENTUAL IA
+CONTROLE: NPC
+```
+
+`JOGADOR IA` significa que a IA joga permanentemente com aquele personagem, mantendo sua função de jogadora separada da função de narradora.
+
+`JOGADOR EVENTUAL IA` significa que o usuário já autorizou a IA a assumir temporariamente aquele personagem como jogadora quando a própria campanha produzir uma situação que justifique agência operacional de jogador. Depois que essa categoria estiver aprovada, a IA decide quando ativar ou desativar o modo eventual e **não precisa pedir nova autorização a cada cena**.
+
+Quando um Jogador Eventual IA não está ativo como jogador, funciona normalmente como NPC.
+
+`NPC` não pode ser ativado como Jogador Eventual IA. Para isso, seu campo `CONTROLE` precisa primeiro ser alterado com aprovação do usuário.
+
+Somente personagens com ficha em `personagens/` podem receber `JOGADOR EVENTUAL IA`. Figurantes, inimigos comuns e antagonistas reservados em `mestre/viloes/` não entram nesse mecanismo diretamente.
+
+> **O usuário decide quem a IA pode jogar. Depois de autorizado como Jogador Eventual IA, a IA decide quando usar essa função.**
 
 ### Personagens canônicos ou licenciados
 
@@ -360,19 +409,20 @@ Preservar identidade, personalidade, poderes e relações essenciais conforme o 
 
 ### Criação conceitual mínima de aliados
 
-Durante esta etapa, pode ser suficiente definir apenas **a quantidade de aliados relevantes e seus nomes**.
+Durante esta etapa, pode ser suficiente definir apenas **a quantidade, os nomes e a categoria de controle proposta** dos aliados relevantes.
 
 Se isso for tudo que o jogador quiser decidir naquele momento:
 
 1. criar `personagens/<nome>.md` usando o modelo oficial de Personagem Relevante;
-2. preencher somente o que já foi realmente estabelecido;
-3. deixar os demais campos em branco;
-4. não inventar aparência, personalidade, história, capacidades ou recursos apenas para completar a ficha;
-5. desenvolver esses elementos durante a revisão posterior.
+2. preencher nome, importância e `CONTROLE` quando já definidos;
+3. preencher somente o restante que já foi realmente estabelecido;
+4. deixar os demais campos em branco;
+5. não inventar aparência, personalidade, história, capacidades ou recursos apenas para completar a ficha;
+6. desenvolver esses elementos durante a revisão posterior.
 
-Se o jogador disser `decida você`, `faça por mim` ou delegar de forma equivalente, o narrador pode propor esses detalhes, mas eles continuam sujeitos ao fluxo normal de revisão e aprovação.
+Se o jogador disser `decida você`, `faça por mim` ou delegar de forma equivalente, o narrador pode propor esses detalhes, inclusive o `CONTROLE`, mas eles continuam sujeitos ao fluxo normal de revisão e aprovação.
 
-> **Nome definido pode bastar para fechar a criação conceitual de um aliado. Detalhe faltante não precisa ser inventado antes da revisão.**
+> **Nome e controle podem bastar para fechar a criação conceitual de um aliado. Detalhe faltante não precisa ser inventado antes da revisão.**
 
 ### Fechar o elenco inicial
 
@@ -409,6 +459,8 @@ Depois de estabelecida, a ficha não pode ser alterada apenas para contrariar um
 
 Para cada personagem Central ou Relevante **do elenco inicial apresentável ao jogador**, criar `personagens/<nome>.md` usando a estrutura final de ficha.
 
+Registrar `CONTROLE` junto da identidade funcional da ficha.
+
 Preencher tudo que já for conhecido conceitualmente e deixar os campos ainda não definidos **em branco**.
 
 Não inventar valores apenas para preencher a ficha.
@@ -421,9 +473,9 @@ Cada arquivo permanece:
 Status: PENDENTE DE REVISÃO
 ```
 
-A ficha conceitual pode conter identidade, descrição, `TRAÇOS`, personalidade, história, desejos, medos e outras informações já consolidadas. A mecânica será revisada depois.
+A ficha conceitual pode conter identidade, `CONTROLE`, descrição, `TRAÇOS`, personalidade, história, desejos, medos e outras informações já consolidadas. A mecânica será revisada depois.
 
-Fichas reservadas em `mestre/viloes/` usam o modelo próprio definido em `sistema/modelos.md` e não entram neste fluxo de aprovação aberta.
+Fichas reservadas em `mestre/viloes/` usam o modelo próprio definido em `sistema/modelos.md` e não entram neste fluxo de aprovação aberta nem no mecanismo de Jogador Eventual IA.
 
 Atualizar `criacao.md`:
 
@@ -494,6 +546,7 @@ A revisão serve para:
 - corrigir conceitos;
 - confirmar o que será canônico;
 - confirmar a direção narrativa desejada;
+- confirmar `CONTROLE` dos personagens apresentáveis;
 - aplicar atributos, perícias, poderes e demais regras;
 - verificar coerência entre direção narrativa, cenário e personagens;
 - preparar o estado inicial real da campanha.
@@ -623,10 +676,12 @@ Revisar **um personagem por vez**.
 
 Existem dois métodos diferentes conforme quem controla o personagem:
 
-- **personagem controlado pelo jogador:** revisão campo por campo, com três blocos mecânicos próprios;
+- **personagem controlado pelo jogador humano:** revisão campo por campo, com três blocos mecânicos próprios;
 - **demais personagens apresentáveis ao jogador:** revisão em quatro blocos maiores.
 
-Em ambos os casos, a regra é:
+Em ambos os casos, `CONTROLE` deve ser confirmado antes da mecânica.
+
+A regra é:
 
 > **Apresentar → corrigir se necessário → reapresentar normalizado → obter aprovação → só então avançar.**
 
@@ -634,28 +689,29 @@ A ficha completa só é apresentada depois que todos os campos ou blocos tiverem
 
 Fichas reservadas em `mestre/viloes/` não entram nesses métodos de aprovação aberta.
 
-### 13.1. Personagem controlado pelo jogador — campo por campo
+### 13.1. Personagem controlado pelo jogador humano — campo por campo
 
-A ficha do personagem do jogador deve ser revisada com controle fino.
+A ficha do personagem do jogador humano deve ser revisada com controle fino.
 
 Campos simples são apresentados **individualmente**, um de cada vez. O narrador não deve misturar o próximo campo antes da aprovação do atual.
 
 A ordem recomendada segue a própria ficha:
 
 1. nome/identidade, quando ainda houver algo a revisar;
-2. idade;
-3. conceito;
-4. descrição;
-5. `TRAÇOS`;
-6. **ATRIBUTOS** — bloco único com `FOR`, `AGI`, `RES`, `MEN` e `VON`;
-7. **PERÍCIAS** — bloco único com todas as perícias relevantes;
-8. **PODERES** — bloco único com todos os poderes e especializações;
-9. `EQP`;
-10. `REL`;
-11. personalidade e tendências;
-12. desejos/objetivos atuais;
-13. medos/limites relevantes;
-14. história consolidada relevante.
+2. `CONTROLE`;
+3. idade;
+4. conceito;
+5. descrição;
+6. `TRAÇOS`;
+7. **ATRIBUTOS** — bloco único com `FOR`, `AGI`, `RES`, `MEN` e `VON`;
+8. **PERÍCIAS** — bloco único com todas as perícias relevantes;
+9. **PODERES** — bloco único com todos os poderes e especializações;
+10. `EQP`;
+11. `REL`;
+12. personalidade e tendências;
+13. desejos/objetivos atuais;
+14. medos/limites relevantes;
+15. história consolidada relevante.
 
 Se um campo já estiver plenamente definido, apresentá-lo como está para confirmação; não reabrir sua criação sem necessidade.
 
@@ -669,7 +725,7 @@ Exemplo:
 Alma Astral [3] => Projeção [3] / Manifestação [3] / Contenção [3] / Telecinese [2] / Voo [2]
 ```
 
-> **No personagem do jogador, campo simples é uma revisão; ATRIBUTOS, PERÍCIAS e PODERES são três blocos próprios.**
+> **No personagem do jogador humano, campo simples é uma revisão; ATRIBUTOS, PERÍCIAS e PODERES são três blocos próprios.**
 
 ### 13.2. Demais personagens apresentáveis — quatro blocos
 
@@ -677,6 +733,8 @@ Personagens relevantes, NPCs originais, canônicos ou licenciados que serão apr
 
 **Bloco 1 — Identidade e conceito**
 - nome;
+- importância;
+- `CONTROLE`;
 - idade;
 - conceito;
 - descrição;
@@ -699,9 +757,11 @@ Personagens relevantes, NPCs originais, canônicos ou licenciados que serão apr
 
 O narrador pode propor uma base para qualquer bloco, inclusive quando o jogador delegou a criação, mas deve apresentar, ajustar e obter aprovação do jogador **antes de avançar ao bloco seguinte**.
 
+No Bloco 1, o usuário pode alterar livremente a proposta de `CONTROLE`. Essa escolha define quem terá o ciclo de decisão daquele personagem durante a campanha.
+
 Se algum campo dentro do bloco não possuir importância real, ele pode permanecer vazio. Não inventar conteúdo apenas para completar visualmente a ficha.
 
-> **Outros personagens são revisados em quatro blocos; o personagem do jogador recebe revisão mais fina.**
+> **Outros personagens são revisados em quatro blocos; o personagem do jogador humano recebe revisão mais fina.**
 
 ---
 
@@ -712,7 +772,8 @@ Para personagens canônicos, licenciados ou já conhecidos, o narrador pode prop
 - identidade canônica escolhida;
 - continuidade definida para a campanha;
 - adaptações já aprovadas;
-- conceito consolidado daquela personagem.
+- conceito consolidado daquela personagem;
+- função de controle desejada na campanha.
 
 A proposta deve respeitar os **quatro blocos** da Seção 13.2.
 
@@ -755,7 +816,8 @@ Essa ficha:
 - deve respeitar a mesma calibração mecânica do restante do sistema;
 - deve ser consultada pelo narrador quando o antagonista agir;
 - não pode ser reescrita retroativamente apenas para neutralizar o protagonista, recuperar dificuldade ou proteger o roteiro;
-- só deve mudar quando acontecimentos reais da ficção justificarem a mudança.
+- só deve mudar quando acontecimentos reais da ficção justificarem a mudança;
+- não participa do mecanismo de Jogador Eventual IA enquanto permanecer em `mestre/viloes/`.
 
 Sempre que for prático, definir capacidades ocultas relevantes antes de usá-las diretamente contra o protagonista.
 
@@ -774,6 +836,8 @@ Não perguntar novamente aquilo que já foi decidido sem necessidade. Em vez dis
 A revisão do protagonista segue obrigatoriamente:
 
 > **campos simples um por vez → ATRIBUTOS como bloco → PERÍCIAS como bloco → PODERES como bloco → demais campos simples um por vez → ficha completa.**
+
+`CONTROLE` é um dos primeiros campos simples e normalmente será `JOGADOR HUMANO` quando o protagonista pertence ao usuário.
 
 O narrador pode organizar, normalizar sintaxe e apontar incoerências com as regras, mas não deve recalibrar o protagonista para aproximá-lo dos NPCs já revisados.
 
@@ -805,7 +869,10 @@ Depois da aprovação explícita:
 Status: APROVADO
 ```
 
-4. seguir para a próxima ficha.
+4. considerar também aprovado o `CONTROLE` registrado na ficha;
+5. seguir para a próxima ficha.
+
+Para `JOGADOR EVENTUAL IA`, essa aprovação já autoriza a IA a decidir futuras ativações e desativações sem pedir permissão novamente para cada cena. Mudar depois a categoria de `CONTROLE` continua exigindo decisão explícita do usuário.
 
 Não carregar correções descartadas, explicações de conversa ou versões intermediárias para a ficha final.
 
@@ -830,6 +897,7 @@ Verificar se o início é coerente com:
 
 - direção narrativa e tom escolhidos;
 - capacidades reais dos personagens;
+- categorias de `CONTROLE` definidas;
 - relações estabelecidas;
 - cenário;
 - localização;
@@ -930,10 +998,10 @@ em que mundo? → mundo/cenario.md
 ambos → PENDENTE DE REVISÃO
 ↓
 2. PROTAGONISTA
-conceito + ficha estrutural → PENDENTE DE REVISÃO
+conceito + CONTROLE + ficha estrutural → PENDENTE DE REVISÃO
 ↓
 3. PERSONAGENS RELEVANTES
-elenco; aliados podem começar só com nomes + fichas estruturais vazias → PENDENTE DE REVISÃO
+elenco + proposta de CONTROLE; aliados podem começar só com nomes/controle + fichas estruturais vazias → PENDENTE DE REVISÃO
 ↓
 4. INÍCIO DA HISTÓRIA
 situação inicial concreta → PENDENTE DE REVISÃO
@@ -943,9 +1011,9 @@ diretrizes/narracao.md
 ↓
 mundo/cenario.md
 ↓
-personagens relevantes/NPCs visíveis → 4 blocos por personagem
+personagens relevantes/NPCs visíveis → 4 blocos por personagem; CONTROLE no Bloco 1
 ↓
-protagonista POR ÚLTIMO → campos simples individualmente; ATRIBUTOS, PERÍCIAS e PODERES como blocos
+protagonista POR ÚLTIMO → CONTROLE e campos simples individualmente; ATRIBUTOS, PERÍCIAS e PODERES como blocos
 ↓
 ficha completa → aprovação final
 ↓
@@ -958,6 +1026,9 @@ criar estado/atual.md + atualizar README.md da raiz da aventura
 COMEÇAR A CAMPANHA
 
 DURANTE A CAMPANHA
+JOGADOR IA → IA joga permanentemente conforme ficha, conhecimento, diretrizes e situação
+JOGADOR EVENTUAL IA → IA decide quando ativar/desativar; sem nova autorização por cena após aprovação da ficha
+NPC → permanece sob narrador; só vira eventual se CONTROLE for alterado com aprovação do usuário
 inimigo comum → modelo rápido, sem arquivo obrigatório
 antagonista importante/recorrente/poderoso → ficha opcional em mestre/viloes/, reservada ao narrador
 README.md estrutural → permanece explicando a função da pasta
@@ -967,4 +1038,4 @@ README.md estrutural → permanece explicando a função da pasta
 
 ## Regra final
 
-> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É primeiro descobrir que tipo de história o jogador quer viver e em que mundo ela acontece, fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar sem recriar, calibrar cada personagem por si mesmo e começar assim que houver uma base sólida aprovada. A direção narrativa fica em `diretrizes/narracao.md`; a realidade do mundo fica em `mundo/cenario.md`. A estrutura completa da campanha, com um `README.md` explicativo em cada pasta estrutural, nasce assim que o nome é definido. O personagem do jogador recebe revisão campo por campo, com ATRIBUTOS, PERÍCIAS e PODERES como blocos próprios; os demais personagens apresentáveis são revisados em quatro blocos. Inimigos comuns não exigem burocracia; antagonistas ocultos podem ter continuidade própria sem entregar seus segredos ao jogador.**
+> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É primeiro descobrir que tipo de história o jogador quer viver e em que mundo ela acontece, fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar sem recriar, calibrar cada personagem por si mesmo e começar assim que houver uma base sólida aprovada. A direção narrativa fica em `diretrizes/narracao.md`; a realidade do mundo fica em `mundo/cenario.md`. A estrutura completa da campanha, com um `README.md` explicativo em cada pasta estrutural, nasce assim que o nome é definido. As fichas em `personagens/` também registram `CONTROLE`, permitindo distinguir Jogador Humano, Jogador IA, Jogador Eventual IA e NPC. O usuário decide essa categoria; depois de um personagem ser aprovado como Jogador Eventual IA, a IA decide quando ativar ou desativar seu ciclo próprio de jogador. O personagem do jogador humano recebe revisão campo por campo, com ATRIBUTOS, PERÍCIAS e PODERES como blocos próprios; os demais personagens apresentáveis são revisados em quatro blocos. Inimigos comuns não exigem burocracia; antagonistas ocultos podem ter continuidade própria sem entregar seus segredos ao jogador.**
