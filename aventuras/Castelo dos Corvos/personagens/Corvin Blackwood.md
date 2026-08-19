@@ -65,6 +65,8 @@ ATR: FOR [1] | AGI [0] | RES [2] | MEN [5] | VON [4]
 - Medicina [+1]
 
 ## PODERES
+- Magia [3] => Geral / Demonologia [5] / Invocação [5] / Proteção [4] / Runas [4] / Portal [3] / Cura [2]
+- Regeneração [2] => Si mesmo
 
 ## EQP
 - Patrimônio confortável, sem escala financeira absurda.
