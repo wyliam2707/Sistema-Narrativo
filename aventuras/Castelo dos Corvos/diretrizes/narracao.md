@@ -1,6 +1,6 @@
 # Diretrizes de Narração — Castelo dos Corvos
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 
 Esta campanha herda `sistema/narracao-e-escrita-padrao.md`.
 As diretrizes abaixo complementam apenas o que foi definido para esta aventura.
