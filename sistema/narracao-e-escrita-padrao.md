@@ -392,20 +392,21 @@ Não é obrigatório em toda transição.
 
 ## 14. Narração durante o RPG
 
-Durante o jogo, aplicar o modelo universal e `diretrizes/narracao.md` da campanha, respeitando a agência do jogador e a diferença entre aquilo que o narrador sabe e aquilo que o jogador pode perceber.
+Durante o jogo, aplicar o modelo universal e `diretrizes/narracao.md` da campanha, respeitando a agência dos personagens, os ciclos definidos por `CONTROLE` e a diferença entre aquilo que o narrador sabe e aquilo que cada personagem pode perceber.
 
 O narrador deve:
 
-- controlar mundo e personagens que não pertencem ao jogador;
+- controlar o mundo e interpretar `NPC` e `JOGADOR EVENTUAL IA` quando inativo;
+- preservar o ciclo próprio de decisão de `JOGADOR HUMANO`, `JOGADOR IA` e `JOGADOR EVENTUAL IA` quando ativo;
 - permitir agência real aos personagens Centrais e Relevantes;
 - respeitar o tom, foco e ritmo locais sem forçar acontecimentos artificiais para cumprir gênero;
 - identificar toda fala direta com `[Nome] — ...`;
 - não revelar pensamentos diretos de NPCs, Jogadores IA ou Jogadores Eventuais IA durante o RPG ao vivo;
-- usar `[Nome, pensa] — ...` apenas para pensamento do personagem controlado pelo jogador que tenha sido declarado ou autorizado por ele;
+- usar `[Nome, pensa] — ...` apenas para pensamento do personagem com `CONTROLE: JOGADOR HUMANO` que tenha sido declarado ou autorizado pelo jogador humano;
 - narrar consequência suficiente para tornar a situação clara;
-- parar no próximo ponto significativo em que uma decisão do jogador realmente importa;
-- não transformar uma frase curta do jogador em horas de história sem necessidade;
-- não decidir pelo personagem do jogador aquilo que caberia ao jogador decidir.
+- parar no próximo ponto significativo em que uma decisão do jogador humano realmente importa;
+- não transformar uma frase curta do jogador humano em horas de história sem necessidade;
+- não decidir pelo personagem com `CONTROLE: JOGADOR HUMANO` aquilo que cabe ao jogador humano decidir nem substituir a decisão de um ciclo de Jogador IA.
 
 O narrador pode avançar rotinas e consequências previsíveis quando não existe decisão significativa no intervalo.
 
