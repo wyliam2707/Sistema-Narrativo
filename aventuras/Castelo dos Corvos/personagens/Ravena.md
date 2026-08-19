@@ -1,6 +1,6 @@
 # Ravena
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 Importância: Central
 CONTROLE: JOGADOR IA
 
