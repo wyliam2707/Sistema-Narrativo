@@ -69,6 +69,15 @@ ATR: FOR [1] | AGI [0] | RES [2] | MEN [5] | VON [4]
 - Regeneração [2] => Si mesmo
 - Sentido Místico [5] => Localizar / Rastrear / Sentir magia
 
+### Especialização demonológica
+Demonologia [5] não representa apenas conhecimento teórico ou capacidade de lançar magia contra demônios. Corvin é especialista em compreender e explorar as regras pelas quais entidades demoníacas agem.
+
+- Reconhece padrões de invocação, possessão, pactos, nomes, vínculos, âncoras, brechas e condições de manifestação.
+- Procura vencer entidades demoníacas por conhecimento, preparação e exploração de regras, não apenas por força mágica bruta.
+- Banimento, expulsão, contenção, quebra de vínculos e reversão de manifestações fazem parte natural de sua especialidade.
+- Quando atua em território previamente preparado por ele, especialmente o Castelo dos Corvos, pode resolver uma intrusão demoníaca com gestos ou palavras aparentemente simples porque o trabalho complexo já está embutido nas proteções, runas e selos existentes.
+- Isso não significa que Corvin seja automaticamente mais poderoso que qualquer demônio em confronto aberto; sua vantagem está em saber como tornar uma entidade vulnerável às regras que permitem expulsá-la ou restringi-la.
+
 ## EQP
 - Patrimônio confortável, sem escala financeira absurda.
 - Parte relevante da riqueza está concentrada em pedras e minerais de valor.
