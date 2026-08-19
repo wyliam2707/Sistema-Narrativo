@@ -50,10 +50,24 @@ REL:
 - Corvin Blackwood: no início da história ainda não o conhece pessoalmente e vai ao Castelo dos Corvos em busca de um livro relacionado a Trigon. O romance é eixo da campanha, mas a relação começa do zero.
 
 ## Personalidade e tendências
+- Reservada, controlada, distante e bastante privada.
+- Tem dificuldade em permitir proximidade emocional, mas quando confia em alguém desenvolve vínculos fortes e é extremamente leal.
+- Seu autocontrole não elimina seus desejos ou emoções; ele é uma disciplina necessária para conviver com sua natureza e seus poderes.
 
 ## Desejos/objetivos atuais
 - No início da campanha, procura um livro relacionado a Trigon que acredita estar na coleção de Corvin Blackwood.
+- Quer compreender se o livro representa um perigo real e impedir que Trigon ou sua influência ganhem espaço sobre sua vida.
+- Deseja continuar escolhendo quem quer ser, em vez de aceitar o destino imposto por sua herança demoníaca.
+- Em um nível profundamente pessoal, deseja a possibilidade de uma vida comum: dançar por prazer, namorar, construir um lar e talvez ter filhos, sem que sua herança ou seus conflitos sobrenaturais determinem cada aspecto de sua existência.
 
 ## Medos/limites relevantes
+- Perder o controle das próprias emoções ou poderes.
+- Permitir que Trigon ganhe influência sobre ela.
+- Colocar pessoas próximas em perigo por causa de sua natureza ou de conflitos sobrenaturais ligados a ela.
+- Sua tendência a manter distância emocional também funciona como mecanismo de proteção.
 
 ## História consolidada relevante
+- Rachel Roth nasceu de mãe humana e de Trigon.
+- Passou grande parte da vida treinando controle emocional e artes místicas para dominar a própria natureza e recusar o destino demoníaco pretendido para ela.
+- Tornou-se heroína e integrante central dos Titãs.
+- Trigon continua sendo uma presença perigosa e recorrente em sua história, mesmo quando não está fisicamente presente.
