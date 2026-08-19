@@ -10,16 +10,20 @@ Isso é uma possibilidade narrativa, não um evento obrigatório. A reação dep
 ## Regra do território
 Dentro do Castelo dos Corvos, Trigon é uma visita indesejada em território preparado por Corvin.
 
-- O castelo possui proteções, runas, selos e âncoras construídos por um especialista em Demonologia [5], Proteção [4] e Runas [4].
+- O castelo possui proteções, runas, selos e âncoras construídos por um especialista com Demonologia [5], Proteção [4] e Runas [4].
+- Demonologia [5] é escala de poder, não apenas conhecimento. Contra fenômenos propriamente demonológicos, Corvin pode aplicar efeitos de potência [5] quando usa a escola correta para a ameaça.
 - Uma tentativa de influência ou manifestação de Trigon pode ser percebida e combatida como uma intrusão sobrenatural.
-- Corvin não precisa superar o poder total de Trigon para neutralizar a situação.
-- O objetivo normal de Corvin é impedir, limitar ou encerrar a forma concreta pela qual Trigon está tentando atuar: fechar a porta aberta, romper uma âncora, negar uma condição de manifestação, desfazer um vínculo ou expulsar uma projeção.
-- Dependendo da forma da intrusão, algumas palavras, um gesto ou a ativação de um selo podem bastar, porque o trabalho mágico complexo já existe no castelo.
+- Corvin não precisa superar Trigon em poder global para neutralizar uma forma concreta de atuação, mas também não deve ter sua Demonologia [5] reduzida a truques ou simples perícia.
+- O objetivo normal de Corvin é identificar qual solução demonológica realmente funciona e então aplicá-la com a escala de poder correspondente: fechar a porta aberta, romper uma âncora, negar uma condição de manifestação, desfazer um vínculo, ferir uma manifestação, conter, banir ou expulsar.
+- Dependendo da forma da intrusão, algumas palavras, um gesto ou a ativação de um selo podem bastar porque o trabalho mágico complexo já existe no castelo e foi preparado por alguém capaz de operar demonologia em grau ápice.
 
 ## Abordagem demonológica de Corvin
-Corvin não trata confrontos demoníacos como disputas obrigatórias de força bruta. Sua especialidade é descobrir e explorar as regras que tornam a presença de uma entidade possível.
+Corvin domina o sistema pelo qual demônios, possessões, invocações, pactos, dimensões e manifestações funcionam. Isso lhe dá tanto precisão quanto potência.
 
 Ele pode resolver uma ameaça demoníaca por diferentes caminhos, conforme a situação:
+- identificar exatamente o que pode ferir ou enfraquecer a entidade;
+- escolher a barreira, selo, fórmula, material, vínculo ou feitiço correto contra aquele demônio específico;
+- aplicar banimento, contenção, ruptura, ataque especializado ou expulsão em escala [5] quando o efeito for demonológico;
 - enganar a entidade ou levá-la a aceitar uma premissa falsa;
 - negociar uma troca, pacto temporário ou condição que torne a continuação da intrusão desvantajosa;
 - explorar nomes, juramentos, vínculos, regras de convocação ou condições de manifestação;
@@ -31,7 +35,7 @@ Ele pode resolver uma ameaça demoníaca por diferentes caminhos, conforme a sit
 - usar informação, preparação ou terceiros como forma de dissuasão;
 - criar uma situação em que uma entidade ou força comparável represente custo suficiente para fazer o invasor recuar.
 
-A vitória demonológica de Corvin pode ser simplesmente fazer com que o demônio conclua que permanecer não vale o preço. Isso não exige que Corvin seja tão poderoso quanto a entidade enfrentada.
+Uma vitória demonológica de Corvin pode ser elegante e indireta, mas também pode envolver força mágica real. Se ele conhece a fraqueza correta e dispõe do meio adequado, Demonologia [5] dá a ele capacidade de explorar essa fraqueza em escala ápice.
 
 ## Conflito por procuração e política demoníaca
 Uma das ferramentas mais perigosas de Corvin é transformar a atenção de um senhor demoníaco em vulnerabilidade política.
@@ -50,20 +54,26 @@ Esse tipo de manobra pode:
 Essas soluções nunca são gratuitas. A outra entidade possui vontade e objetivos próprios, e qualquer acordo pode criar novas obrigações ou problemas. Corvin é especialista em usar essa política sobrenatural a seu favor, não em controlar senhores demoníacos.
 
 ## Invocações como peça estratégica
-Invocação [5] não deve ser tratada como “Corvin aperta um botão e ganha um monstro obediente”. O grau representa excelência em trazer entidades ao tabuleiro sob condições demonológicas complexas.
+Invocação [5] também é escala de poder. Corvin pode executar convocações muito acima do comum quando dispõe das condições adequadas.
 
-Com preparação adequada, Corvin pode convocar criaturas, emissários, rivais ou potências suficientemente relevantes para:
+Com preparação suficiente, Corvin pode convocar criaturas, emissários, rivais ou potências suficientemente relevantes para:
 - alterar o equilíbrio de uma negociação;
 - ameaçar uma fronteira, recurso ou interesse de Trigon;
 - criar uma segunda crise que force Trigon a dividir atenção;
 - fornecer conhecimento, autoridade, testemunho ou contrapeso dentro de regras infernais;
+- confrontar ou ferir uma manifestação quando a criatura certa for uma resposta adequada;
 - tornar uma investida contra Ravena ou contra o castelo mais custosa do que vale a pena.
 
-Quanto maior a entidade, maior a importância de nomes, condições, selos, contratos, vínculos, materiais, terreno preparado e consequências. O objetivo não é criar um servo mais forte que Trigon, mas introduzir no sistema uma variável que Trigon não possa ignorar.
+Quanto maior a entidade, maior a importância de nomes, condições, selos, contratos, vínculos, materiais, terreno preparado e consequências. O grau [5] mede o alcance da invocação que Corvin pode executar; não transforma automaticamente a criatura invocada em escrava obediente.
+
+## Regra de escala
+- Magia [3] é a capacidade mágica geral de Corvin.
+- Demonologia [5] é uma escola de poder em grau ápice. Dentro de problemas demonológicos, ela pode fornecer conhecimento aplicado, escolha da técnica correta e potência mágica [5].
+- MEN [5] ajuda Corvin a descobrir qual solução usar, mas não é a fonte da potência de Demonologia [5].
+- Invocação [5] permite colocar no tabuleiro criaturas ou forças de escala extrema quando as condições da invocação são satisfeitas.
+- Preparação pode transformar uma diferença enorme de poder global em uma situação vencível. Encontrar a vulnerabilidade certa, preparar o campo, escolher o feitiço correto ou convocar a oposição adequada pode permitir que Corvin cause dano real, contenha ou derrote uma manifestação muito acima de sua Magia [3] geral.
 
 ## Limite de interpretação
-Não tratar isso como prova de que Corvin é globalmente mais poderoso que Trigon. É vantagem de conhecimento, preparação, território, negociação, inteligência e especialização demonológica aplicada à forma concreta da intrusão.
+Demonologia [5] não significa que Corvin seja globalmente mais poderoso que Trigon em todos os contextos. Significa que Corvin é ápice nessa escola específica e deve ser tratado como tal.
 
-Demonologia [5] é ápice dentro da especialidade: Corvin pode fazer uma entidade muito mais poderosa em força bruta andar em círculos dentro das próprias regras, desde que exista uma regra, vínculo, condição ou mecanismo real para explorar.
-
-Se Trigon estiver plenamente presente, sem depender de uma brecha, vínculo, projeção ou condição que Corvin possa explorar, o problema muda de escala. A especialidade de Corvin continua relevante, mas não transforma automaticamente um confronto direto em vitória.
+Se houver uma solução demonológica capaz de ferir, conter, redirecionar, banir ou explorar Trigon, Corvin tem competência e potência de grau [5] para tentar executá-la. O desafio passa a ser descobrir a solução correta, satisfazer suas condições e sobreviver às consequências — não reduzir Demonologia [5] a mera esperteza.
