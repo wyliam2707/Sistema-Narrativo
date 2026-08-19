@@ -41,8 +41,16 @@ PODERES:
 - Cinto de Utilidades [2] => Geral
 
 EQP:
+- Uniforme de Nightwing: proteção balística equivalente a RES [3]; proteção contra os demais tipos de dano equivalente a RES [2].
+- Par de bastões de escrima.
+- Cinto de utilidades com equipamentos portáteis diversos.
+- Comunicadores e recursos de vigilância compatíveis com sua atuação.
+- Acesso aos recursos operacionais dos Titãs quando estiver atuando com a equipe.
+
 REL:
-- Titãs: membro recorrente da equipe.
+- Titãs: veterano da equipe e uma de suas principais lideranças.
+- Batman / Bruce Wayne: antigo mentor e figura familiar central em sua formação.
+- Família Batman: vínculos duradouros com os demais membros da Bat-Família.
 
 ## Personalidade e tendências
 
