@@ -1,6 +1,6 @@
 # Nightwing
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 Importância: Relevante
 CONTROLE: JOGADOR IA
 
@@ -53,9 +53,24 @@ REL:
 - Família Batman: vínculos duradouros com os demais membros da Bat-Família.
 
 ## Personalidade e tendências
+- Confiante, sociável e mais caloroso que Batman, sem deixar de ser disciplinado e muito responsável.
+- Procura liderar por confiança, vínculo e exemplo, não apenas por controle.
+- Em situações extremas pode recorrer ao pragmatismo frio aprendido durante sua formação com Bruce.
 
 ## Desejos/objetivos atuais
+- Proteger os Titãs e as pessoas sob sua responsabilidade.
+- Manter uma identidade heroica própria, sem viver à sombra de Batman.
+- Ser extremamente eficaz sem se tornar tão controlador, sombrio ou solitário quanto Bruce.
 
 ## Medos/limites relevantes
+- Falhar com pessoas que dependem dele.
+- Transformar liderança em controle excessivo.
+- Perder companheiros por decisões suas.
+- Tornar-se parecido demais com Batman nos aspectos que deliberadamente rejeitou.
 
 ## História consolidada relevante
+- Nasceu em uma família de acrobatas circenses e perdeu os pais ainda jovem.
+- Foi acolhido por Bruce Wayne, treinado por Batman e tornou-se o primeiro Robin.
+- Cresceu, deixou a identidade de Robin e construiu uma identidade própria como Nightwing.
+- Os Titãs se tornaram parte importante de sua independência, de seus vínculos pessoais e de seu desenvolvimento como líder.
+- Sua vida amorosa está aberta no início da campanha; não existe relacionamento atual predeterminado com Estelar, Barbara Gordon ou outra personagem.
