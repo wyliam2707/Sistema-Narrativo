@@ -13,6 +13,18 @@ O mundo da campanha não precisa ser justo, simétrico ou mecanicamente equilibr
 
 Quando um personagem possui uma capacidade em grau [5], ela deve ser tratada como ápice real dentro daquela capacidade. Não reduzir seu efeito para preservar equilíbrio narrativo com outra ficha.
 
+## Escalas independentes dentro de uma equipe
+Pertencer à mesma equipe não cria uma base comum de poder.
+
+- Cada personagem conserva sua própria escala, capacidades, limites e especializações.
+- Não ajustar fichas para que todos os integrantes de uma equipe tenham números semelhantes, funções equivalentes ou potencial de combate comparável.
+- A presença de personagens muito mais poderosos não exige elevar artificialmente os demais.
+- A presença de personagens menos poderosos não exige reduzir os mais fortes.
+- O valor de um integrante pode vir de combate, investigação, estratégia, tecnologia, magia, mobilidade, liderança, preparação ou qualquer outra capacidade relevante; essas funções não precisam ter a mesma escala numérica.
+- Uma equipe pode funcionar justamente porque reúne personagens de escalas profundamente diferentes.
+
+A Liga da Justiça é a referência conceitual: seus integrantes não precisam compartilhar a mesma base de poder para pertencer à mesma equipe. Cada um deve ser representado pelo que realmente é, e não recalibrado para ficar próximo dos demais.
+
 ## Poder individual e cooperação
 Precisar de aliados para garantir uma vitória contra uma ameaça extrema não torna um personagem individualmente mais fraco.
 
