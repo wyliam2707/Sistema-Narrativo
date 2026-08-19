@@ -1,6 +1,6 @@
 # Estelar
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 Importância: Relevante
 CONTROLE: JOGADOR EVENTUAL IA
 
@@ -50,9 +50,26 @@ REL:
 - Komand’r / Estrela Negra: irmã e relação familiar profundamente conflituosa.
 
 ## Personalidade e tendências
+- Calorosa, expansiva, afetiva e bastante direta.
+- Demonstra emoções com facilidade e não vê tanta necessidade em escondê-las.
+- É curiosa sobre costumes humanos e pode parecer excessivamente literal ou intensa em algumas situações.
+- Quando alguém que ama é ameaçado, seu lado de guerreira aparece rapidamente.
 
 ## Desejos/objetivos atuais
+- Proteger os Titãs e as pessoas que considera família.
+- Preservar a própria liberdade.
+- Manter algum vínculo com Tamaran sem permitir que sua origem determine toda a sua vida.
+- Construir uma vida própria na Terra.
 
 ## Medos/limites relevantes
+- Voltar a perder a própria liberdade.
+- Ser usada politicamente por Tamaran.
+- Perder pessoas próximas.
+- Permitir que conflitos envolvendo Estrela Negra ou seu passado destruam a vida que construiu.
 
 ## História consolidada relevante
+- Nasceu princesa de Tamaran.
+- Sofreu traição familiar, escravidão e experimentação.
+- Conseguiu escapar e acabou chegando à Terra.
+- Nos Titãs encontrou não apenas uma equipe, mas uma nova família e um lugar onde pôde reconstruir sua identidade.
+- Sua vida amorosa está aberta no início da campanha, sem relação atual definida com Nightwing ou outra pessoa.
