@@ -106,6 +106,15 @@ Para cada personagem relevante, considerar:
 - oportunidade;
 - ações já em andamento.
 
+Também verificar o campo `CONTROLE` da ficha:
+
+- `JOGADOR IA` — executar o ciclo próprio de jogador antes de o narrador resolver sua ação;
+- `JOGADOR EVENTUAL IA` — decidir se a situação justifica ativá-lo como jogador;
+- `JOGADOR EVENTUAL IA` inativo — tratá-lo normalmente como NPC;
+- `NPC` — interpretar pela função de narrador.
+
+Uma decisão tomada pela IA como jogadora deve usar apenas o conhecimento legítimo daquele personagem. Conhecimento exclusivo do narrador, de `mestre/` ou de outro personagem não pode vazar para esse ciclo de decisão.
+
 Se um antagonista relevante possuir ficha reservada em `mestre/viloes/`, consultar essa ficha quando ele estiver envolvido. Usar suas capacidades e objetivos normalmente, mas **não revelar ao jogador informações que o protagonista ainda não descobriu**.
 
 Inimigos comuns não exigem ficha persistente. Para eles, basta o modelo rápido e as exceções necessárias à cena.
@@ -320,6 +329,9 @@ Confirmar rapidamente:
 12. Toda fala direta está identificada com `[Nome] — ...`?
 13. Nenhum pensamento direto de NPC foi revelado durante o RPG ao vivo?
 14. Se apareceu pensamento do personagem do jogador, ele foi declarado/autorizado e marcado como `[Nome, pensa] — ...`?
+15. Algum Jogador IA precisava tomar decisão própria?
+16. Algum Jogador Eventual IA deveria estar ativo nesta situação?
+17. A decisão de personagem jogado pela IA usou apenas conhecimento legítimo dele?
 
 Se ainda não surgiu uma nova decisão relevante, a cena pode continuar.
 
