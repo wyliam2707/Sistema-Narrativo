@@ -5,80 +5,95 @@ Status: EM JOGO
 ## Capítulos consolidados
 - `../livro/capitulo-01-a-visitante.md` — **Capítulo 1 — A Visitante**.
 - `../livro/capitulo-02-a-hospede.md` — **Capítulo 2 — A Hóspede**.
-- O Capítulo 2 começa com Ravena na Torre dos Titãs buscando seus pertences e termina depois dos testes de invocação na biblioteca, quando Corvin leva uma amostra de veneno demoníaco ao laboratório de alquimia e Ravena retoma a pesquisa sobre Trigon.
+- `../livro/capitulo-03-rotinas-questionaveis.md` — **Capítulo 3 — Rotinas Questionáveis**.
 
-## Continuidade desde o fim do Capítulo 2
-- Corvin refinou a pequena amostra de veneno do escorpião demoníaco no laboratório de alquimia e produziu uma tinta escura e estável para pesquisa e inscrições futuras, preservando a natureza tóxica da substância.
-- Ravena continuou pesquisando Trigon em ritmo lento e realista: leitura, comparação de autores, hipóteses parciais e descarte de linhas fracas, sem descoberta revolucionária ou solução definitiva.
-- Naquela noite, Corvin preparou jantar para os dois, com música baixa e uma vela sobre a mesa. A conversa permaneceu deliberadamente cotidiana e leve, incluindo música, dança, notícias e comentários sobre os Titãs.
-- Corvin demonstrou curiosidade normal sobre os amigos de Ravena. Ela falou deles com afeto contido e reconheceu que os considera família.
-- Depois do jantar, Corvin mostrou a Ravena o solar no topo do castelo: área parcialmente fechada por paredes e teto de vidro, plantas, cadeiras, três pufes negros, espaço para observar as estrelas e piso aquecido por runas. Os dois permaneceram ali em silêncio por algum tempo, ouvindo a chuva fina.
-- Ravena foi para o próprio quarto; Corvin depois fez o mesmo.
-- Na manhã seguinte, Corvin acordou por volta de 6h30, preparou café também para Ravena e saiu para uma corrida básica pelo bosque. Retornou perto de 7h30, ainda com roupa de academia, e depois reapareceu mais tarde com aparência mais elegante e despojada.
-- Corvin voltou à biblioteca para continuar estudando o Senhor dos Insetos. Ravena também permaneceu pesquisando, sem ser pressionada ou interrompida desnecessariamente.
-- No almoço, Corvin avisou que sairia durante a tarde para buscar uma encomenda de livros atrasada e talvez voltasse depois do jantar. Evitou explicar o destino em detalhes.
-- Depois do almoço, Corvin se teleportou para longe com um efeito claramente mais forte e exigente do que seus deslocamentos comuns dentro do castelo.
+## STATUS
+### Corvin Blackwood
+- Vida: Ileso.
+- Energia: normal.
+- Condições: nenhuma relevante.
+- Localização: solar do Castelo dos Corvos, acomodado em um dos grandes pufes.
 
-## Saída de Corvin e tratado de Ifrid
-- O destino de Corvin foi um ponto de encontro extradimensional em uma ruína abandonada.
-- Um contato demoníaco/senhor local que lhe devia um favor entregou o item combinado: um tratado linguístico do plano de Ifrid, Senhor do Fogo.
-- O tratado cobre gramática, estrutura ritual, formas antigas e variações regionais. Para Corvin, sua utilidade principal é compreender runas e textos de Ifrid; ele já possui cerca de cinco livros daquele domínio que dependem desse conhecimento linguístico.
-- O volume é grosso, antigo, revestido de couro preto e marcado por letras vermelhas.
-- Durante o encontro, Corvin pediu ao contato que lembrasse Tarshar de uma dívida antiga: Tarshar prometeu quatro guardas do inferno a Corvin como parte de um acordo anterior.
-- Esse acordo anterior nasceu quando Tarshar contratou Corvin para investigar tráfico de madeira da alma em suas terras e prometeu protegê-lo caso o responsável fosse descoberto, além de fornecer os quatro guardas. O traficante descoberto era o próprio Corvin, fato que o contato achou particularmente divertido.
-- Corvin pediu que Tarshar entre em contato antes de cumprir a parte dos guardas. Corvin quer os vínculos necessários para poder invocá-los quando precisar, não quatro demônios aparecendo fisicamente sem aviso no castelo.
-- Corvin também ofereceu ao contato uma amostra de 5 ml da tinta de escorpião do abismo produzida no dia anterior.
-- Os dois formalizaram com aperto de mão um acordo de intermediação: o contato testa a amostra e, se conseguir comprador, fica com 30% da venda e repassa 70% a Corvin, sem favores adicionais ocultos.
-- Corvin perguntou sobre as fronteiras de Trigon. O contato informou que estão estáveis, porém tensas: sem guerra aberta ou grande perda territorial, mas com sondagens e pequenas pressões nas bordas ocidentais e algum reforço de posições por Trigon.
-- Corvin tratou essa tensão como possível oportunidade comercial futura, mas recusou criar uma dívida apenas para receber avisos sobre mudanças nas fronteiras.
-- O tempo naquele domínio passa de forma diferente do lado de fora. Corvin retornou ao castelo já à noite.
+### Ravena
+- Vida: Ilesa.
+- Energia: normal.
+- Condições: nenhuma relevante.
+- Localização: solar do Castelo dos Corvos, em outro pufe, mantendo alguma distância de Corvin.
 
-## Ponto operacional atual — RETOMADA
-- Corvin acabou de voltar ao Castelo dos Corvos com o tratado de Ifrid sob o braço.
-- Ele entrou na biblioteca carregando o volume de couro preto com letras vermelhas.
-- Ravena está na biblioteca, em sua pesquisa, e pode perceber a chegada de Corvin e a natureza incomum do livro conforme suas capacidades e o que estiver acessível à cena.
-- **A continuação deve partir exatamente daqui.** Nada narrado depois desta entrada na biblioteca na versão anterior da sessão é considerado válido para a retomada, salvo se o jogador voltar a declarar ou confirmar esses acontecimentos.
+## Ponto operacional atual — fim do Capítulo 3
+- É noite.
+- Corvin tomou banho depois de retornar de sua viagem extradimensional e foi para o solar.
+- Ravena apareceu no solar sem livros nas mãos.
+- Corvin comentou que talvez dormisse ali, sob as estrelas.
+- Ravena entrou, escolheu outro dos pufes e respondeu que já viu lugares piores para dormir.
+- **Última fala canônica:** `[Ravena] — Embora eu ainda não tenha decidido se isso é contemplação ou preguiça sofisticada.`
+- A continuação deve partir exatamente depois dessa fala.
+- Nada ocorrido depois desse ponto em versões descartadas ou antes do comando de salvamento deve ser tratado como cânone futuro.
 
-## Regras operacionais relevantes
-- Corvin possui `CONTROLE: JOGADOR HUMANO`. O narrador não decide suas falas, pensamentos voluntários, intenções, escolhas ou ações deliberadas além do que o jogador declarar.
-- Ravena possui `CONTROLE: JOGADOR IA` e deve agir como jogadora autônoma, formulando iniciativas próprias segundo ficha, personalidade, conhecimento, relações, objetivos, STATUS e situação.
-- Os Titãs aprovados como `JOGADOR EVENTUAL IA` podem ser ativados pela IA quando a situação justificar ciclo próprio de jogador. Eles podem agir juntos ou separadamente e não compartilham conhecimento automaticamente.
-- A função de narrador, a função de Jogadora IA de Ravena e os ciclos eventuais dos Titãs devem permanecer operacionalmente separados, inclusive quanto ao conhecimento de cada agente.
-- Todo uso de magia de Corvin é tratado como Magia comum [3] por padrão, a menos que o jogador declare explicitamente outra especialização ou a própria descrição torne a especialização inequívoca.
-- As proteções do Castelo dos Corvos restringem teleporte não autorizado pelo interior.
-- O ponto autorizado de portal para Ravena fica na sala e já foi testado com sucesso.
-- A biblioteca permanece fora de qualquer ponto de teleporte autorizado para Ravena.
-- Nenhum livro da biblioteca pode sair do castelo sem autorização de Corvin; as próprias proteções da casa tentam impedir retiradas não autorizadas.
-- No jogo ao vivo, pensamentos de Ravena e dos Titãs permanecem ocultos do jogador humano. Na consolidação literária, pensamentos podem ser desenvolvidos quando coerentes com o cânone e com o ponto de vista adotado.
+## Continuidade consolidada do Capítulo 3
+- Corvin refinou o veneno do escorpião demoníaco em uma tinta escura, estável e tóxica.
+- Ravena continuou a pesquisa sobre Trigon em ritmo lento, comparando autores e hipóteses sem chegar a solução definitiva.
+- Corvin e Ravena compartilharam jantar, conversa cotidiana sobre música, dança, silêncio e os Titãs, e depois permaneceram algum tempo no solar durante a chuva.
+- Na manhã seguinte, Corvin acordou cedo, preparou café, fez sua corrida pelo bosque e depois retornou à biblioteca; Ravena seguiu pesquisando.
+- Após o almoço, Corvin saiu para um encontro extradimensional por meio de teleporte mais exigente que seus deslocamentos comuns.
+- O encontro ocorreu em uma ruína abandonada com um senhor local/velho conhecido que devia um favor a Corvin.
+- Corvin recebeu um raro tratado linguístico de Ifrid, grosso, antigo, em couro preto com letras vermelhas.
+- O tratado cobre gramática, estrutura ritual, formas antigas e variações regionais e permitirá a Corvin interpretar melhor oito ou nove livros de sua coleção ligados a Ifrid.
+- Corvin pediu ao contato que lembrasse Tarshar da dívida formal de quatro guardas do inferno e que Tarshar entre em contato antes de qualquer entrega.
+- A dívida nasceu de um acordo em que Tarshar contratou Corvin para investigar tráfico de madeira da alma; o traficante era o próprio Corvin.
+- Corvin entregou ao contato 5 ml da tinta de escorpião do abismo. O acordo de intermediação é 70% para Corvin e 30% para o contato se houver venda, sem favores ocultos.
+- Corvin soube que as fronteiras ocidentais de Trigon estão estáveis, porém tensas, com sondagens de dois senhores menores e reforços limitados, sem guerra aberta conhecida.
+- O tempo no domínio visitado corre de forma diferente; Corvin retornou ao castelo já à noite.
+- Ravena estava na biblioteca quando ele voltou.
+- Corvin colocou o tratado na extremidade da mesa mais distante dela e perguntou se ela já havia comido.
+- Ravena já tinha preparado e comido algo simples.
+- Depois que Corvin comeu e voltou, contou apenas que cobrou um favor de um amigo/velho conhecido porque precisava de um dicionário de Ifrid.
+- Ravena sabe que Corvin possui oito ou nove livros em Ifrid e que esse tipo de tratado não costuma sair de certas coleções particulares.
+- Corvin não proibiu Ravena de consultar o tratado, mas recomendou cuidado para não invocar um demônio de fogo na biblioteca.
+- O tratado permanece na biblioteca, na borda distante da mesa onde Corvin o deixou.
 
-## Conhecimento atual
-- Ravena sabe que Corvin possui uma grande coleção demonológica e aceita ajudá-la dentro das regras da biblioteca.
-- Ravena sabe que um estudo sério sobre Trigon pode levar semanas ou meses e que Corvin não está pressionando por uma conclusão rápida.
-- Ravena considera a hipótese de o vínculo com Trigon funcionar como ponte bidirecional, mas foi advertida contra transformá-la em plano de ataque antes de compreender melhor o problema.
-- Ravena sabe que Corvin criou para ela uma passagem autorizada específica no castelo e que o restante das proteções continua ativo.
-- Ravena sabe qual é o quarto de Corvin e conhece o corredor dos quartos de hóspedes.
-- Ravena viu Corvin convocar e dispensar dois servos demoníacos menores e percebeu que ambos demonstraram medo dele.
-- Ravena passou uma noite e uma manhã inteiras no castelo, incluindo jantar, conversa cotidiana, tempo no solar, café da manhã e nova rotina de pesquisa.
-- Ravena sabe que Corvin saiu naquela tarde para buscar uma encomenda de livros e que o teleporte usado para partir pareceu muito mais exigente que seus deslocamentos normais.
-- Ravena ainda não recebeu explicação sobre a origem exata do tratado que Corvin acaba de trazer, porque a retomada ocorre antes dessa conversa.
-- Corvin percebe desejo e atração por Ravena e continua discreto em como demonstra isso.
-- Corvin agora sabe que as fronteiras ocidentais de Trigon estão sob tensão e pequenas sondagens, sem guerra aberta conhecida.
-- Corvin sabe que o contato demoníaco aceitou intermediar uma possível venda da tinta de escorpião do abismo mediante divisão 70/30.
-- Corvin espera que Tarshar seja lembrado da dívida dos quatro guardas e que entre em contato antes de qualquer cumprimento material.
+## Conhecimento separado
+### Ravena sabe
+- Corvin possui extensa coleção demonológica e aceita sua pesquisa dentro das regras da casa.
+- O estudo sério sobre Trigon pode levar semanas ou meses.
+- O vínculo com Trigon pode funcionar como uma ponte bidirecional, mas isso permanece hipótese em estudo e não um plano confirmado.
+- Corvin criou para ela um ponto autorizado de portal na sala; o restante do castelo mantém restrições.
+- Corvin saiu naquela tarde para buscar uma encomenda por um teleporte incomumente exigente.
+- O livro trazido é um dicionário/tratado raro de Ifrid obtido ao cobrar favor de um velho conhecido/amigo.
+- Corvin possui oito ou nove livros ligados a Ifrid que dependem desse conhecimento linguístico.
+- O tratado é peça que normalmente não sai de certas coleções particulares.
+- Ravena não sabe sobre Tarshar, o acordo da tinta de escorpião nem a informação das fronteiras de Trigon, salvo se Corvin decidir contar futuramente.
+
+### Corvin sabe
+- As bordas ocidentais de Trigon estão estáveis, porém tensas, com pequenas sondagens e reforços limitados.
+- O contato possui 5 ml da tinta de escorpião do abismo e pode procurar compradores no acordo 70/30.
+- Tarshar deve ser lembrado da dívida dos quatro guardas e deverá entrar em contato antes do cumprimento.
+- Corvin sente atração física e interesse pessoal por Ravena; antes de ela entrar no solar, reconheceu para si que fazia tempo que não tinha visita, considerou a possibilidade de lucrar caso ações de Ravena gerem problemas para Trigon e também pensou na beleza dela.
 
 ## Relações atuais
-- Corvin ↔ Ravena: cooperação, hospitalidade, confiança prática em formação e convivência cotidiana crescente.
-- Ravena está instalada como hóspede temporária no castelo durante a pesquisa.
+- Corvin ↔ Ravena: cooperação, hospitalidade, confiança prática e conforto cotidiano em crescimento.
+- Ravena continua hospedada temporariamente no castelo durante a pesquisa.
 - Corvin → Ravena: atração física e interesse pessoal presentes.
 - Ravena → Corvin: curiosidade, conforto prático e abertura à convivência; nenhum vínculo romântico assumido ou confirmado.
-- Ravena mantém vínculo ativo com os Titãs e aceitou manter contato com os amigos durante sua estadia.
-- Dick/Nightwing demonstrou cautela em relação a Corvin e ao castelo, mas sabe que Ravena está ali voluntariamente.
+- Ravena mantém vínculo ativo com os Titãs e aceitou manter contato com eles.
+- Dick/Nightwing sabe que Ravena está no castelo voluntariamente e mantém cautela em relação a Corvin.
 
-## Livro e cenas paralelas
-- `../livro/README.md` determina que Corvin e Ravena são protagonistas literários centrais.
-- Cenas relevantes de Ravena e dos Titãs fora da presença de Corvin devem aparecer no livro quando preservarem contexto, conhecimento, decisões ou consequências importantes.
-- Os Titãs podem ser mostrados juntos ou separadamente conforme sua agência real e o que cada um legitimamente sabe.
-- Cenas paralelas entram no livro para preservar cânone e contexto, não para preencher espaço ou inventar ações que não aconteceram.
+## Pendências com potencial causal
+- Tarshar e os quatro guardas do inferno.
+- Possível venda da tinta de escorpião do abismo.
+- Tratado de Ifrid e os oito ou nove livros ainda parcialmente inacessíveis sem seu estudo.
+- Tensão nas fronteiras de Trigon, conhecida por Corvin e ainda não por Ravena.
+- Pesquisa lenta de Ravena sobre Trigon.
+- Evolução da convivência entre Corvin, Ravena e, quando organicamente justificável, os Titãs como agentes próprios.
+
+## Regras operacionais relevantes
+- Corvin possui `CONTROLE: JOGADOR HUMANO`; o narrador não decide falas, pensamentos, intenções ou ações voluntárias novas por ele.
+- Ravena possui `CONTROLE: JOGADOR IA` e deve agir autonomamente segundo personalidade, conhecimento, objetivos e situação.
+- Titãs aprovados como `JOGADOR EVENTUAL IA` podem ativar ciclos próprios quando houver motivo causal, juntos ou separadamente, sem compartilhamento automático de conhecimento.
+- No jogo ao vivo, pensamentos de Ravena e dos Titãs permanecem ocultos. Na versão literária consolidada, interioridade pode aparecer quando coerente com o cânone.
+- Todo uso de magia de Corvin é `Magia [3]` por padrão, salvo especialização explicitamente declarada ou inequivocamente exigida pela ação.
+- As proteções do castelo restringem teleporte não autorizado e retirada de livros.
+- O ponto autorizado de portal de Ravena fica na sala; a biblioteca não é ponto autorizado.
 
 ## Continuidade
 Usar como fontes principais:
@@ -89,4 +104,7 @@ Usar como fontes principais:
 - `../livro/README.md`
 - `../livro/capitulo-01-a-visitante.md`
 - `../livro/capitulo-02-a-hospede.md`
+- `../livro/capitulo-03-rotinas-questionaveis.md`
+- `../cronologia/README.md`
+- `../progressao/README.md`
 - material reservado em `../mestre/` apenas quando pertinente ao narrador.
