@@ -44,8 +44,15 @@ Regra da Metamorfose:
 - Garfield mantém sua própria mente e identidade, mas pode acessar e utilizar os instintos naturais da espécie assumida.
 
 EQP:
+- Uniforme dos Titãs.
+- Comunicador dos Titãs.
+- Acesso aos recursos e instalações dos Titãs quando estiver atuando com a equipe.
+- Não depende de equipamento para realizar suas metamorfoses.
+
 REL:
-- Titãs: membro recorrente da equipe.
+- Titãs: sua principal equipe e família escolhida.
+- Patrulha do Destino: grupo importante de sua vida anterior aos Titãs.
+- Rita Farr / Elasti-Girl e Steve Dayton: figuras familiares centrais de sua história.
 
 ## Personalidade e tendências
 
