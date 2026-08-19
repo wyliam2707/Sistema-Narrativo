@@ -6,6 +6,7 @@ CONTROLE: JOGADOR IA
 
 Idade:
 Conceito: Estelar, integrante recorrente dos Titãs nesta continuidade híbrida da campanha.
+Fidelidade: base canônica adaptada — preservar identidade, personalidade, origem, capacidades e relações essenciais da personagem, permitindo adaptações necessárias à continuidade própria da campanha e ao cenário híbrido Marvel/DC.
 Descrição:
 
 TRAÇOS:
