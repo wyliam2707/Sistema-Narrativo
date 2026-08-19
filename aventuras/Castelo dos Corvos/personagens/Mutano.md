@@ -1,6 +1,6 @@
 # Mutano
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 Importância: Relevante
 CONTROLE: JOGADOR EVENTUAL IA
 
@@ -55,10 +55,23 @@ REL:
 - Rita Farr / Elasti-Girl e Steve Dayton: figuras familiares centrais de sua história.
 
 ## Personalidade e tendências
+- Brincalhão, extrovertido e irreverente, frequentemente usando humor para aliviar tensão e também para lidar com a própria dor.
+- Apesar da postura descontraída, sabe ficar sério quando a situação exige.
+- É bastante leal aos amigos e aos grupos que considera família.
 
 ## Desejos/objetivos atuais
+- Continuar fazendo parte dos Titãs.
+- Proteger sua família escolhida.
+- Viver sem ser definido apenas por sua aparência incomum ou por seu passado traumático.
 
 ## Medos/limites relevantes
+- Perder pessoas próximas.
+- Ser tratado como monstro ou aberração.
+- Perder o controle de uma transformação em situação extrema.
+- Voltar a ficar sozinho.
 
 ## História consolidada relevante
-
+- Garfield sofreu a alteração biológica que lhe deu sua fisiologia verde e seus poderes metamórficos.
+- Passou pela Patrulha do Destino antes de consolidar sua vida com os Titãs.
+- Nos Titãs encontrou vínculos duradouros e construiu uma identidade própria como herói.
+- Relações românticas específicas permanecem em aberto no início da campanha.
