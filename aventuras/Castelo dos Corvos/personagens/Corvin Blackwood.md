@@ -1,6 +1,6 @@
 # Corvin Blackwood
 
-Status: EM ANDAMENTO
+Status: PENDENTE DE REVISÃO
 
 CONTROLE: JOGADOR HUMANO
 
@@ -29,6 +29,7 @@ CONTROLE: JOGADOR HUMANO
 - Estudioso, com forte inclinação para pesquisa, leitura e compreensão do sobrenatural.
 - Focado em seus objetivos e persistente quando decide perseguir alguma coisa.
 - Socialmente contido por padrão, mas paquerador quando sente atração ou encontra motivo para isso.
+- Tem o hábito de se envolver nos problemas dos outros, mesmo que prefira não admitir que se importa.
 
 ## História
 - O interesse de Corvin pelo oculto começou quando encontrou um antigo livro sobre magia.
@@ -46,6 +47,7 @@ CONTROLE: JOGADOR HUMANO
 - Sua motivação recorrente é a descoberta: encontrar algo que ainda não conhece e incorporá-lo aos próprios estudos.
 
 ## Medos e limites relevantes
+- Nenhum medo, fraqueza pessoal ou limite moral específico foi estabelecido como definidor do personagem neste estágio.
 
 ## ATRIBUTOS
 
