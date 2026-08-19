@@ -41,6 +41,13 @@ PODERES:
 - Interface Tecnológica [4] => Conectar / Invadir / Controlar sistemas
 - Engenhosidade [3] => Criar robôs / Peças cibernéticas / Ideias inovadoras
 
+Regra da Engenhosidade:
+- Engenhosidade não cria tecnologia gratuitamente: projetos e construções relevantes podem consumir Energia.
+- Uma criação avulsa ou improvisada para uso imediato, como montar rapidamente um drone específico para a situação, pode exigir um custo alto de Energia; em uma criação relevante, esse custo pode chegar a aproximadamente metade do recurso disponível, conforme a escala e a dificuldade.
+- Quando Victor dispõe de tempo, materiais e infraestrutura para desenvolver o projeto com calma, o custo imediato cai. Um projeto que leve dias ou cerca de uma semana pode se tornar um recurso preparado e persistente.
+- Depois de construído e preparado, o uso normal desse recurso exige no máximo um pequeno custo de Energia quando houver esforço ativo dos sistemas de Victor; operar um aparelho autônomo pode não exigir custo contínuo.
+- O narrador considera escala, complexidade, materiais, tempo de construção e condições da cena antes de definir o custo de Energia.
+
 EQP:
 REL:
 - Titãs: membro recorrente da equipe.
