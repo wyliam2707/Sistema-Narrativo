@@ -67,6 +67,7 @@ ATR: FOR [1] | AGI [0] | RES [2] | MEN [5] | VON [4]
 ## PODERES
 - Magia [3] => Geral / Demonologia [5] / Invocação [5] / Proteção [4] / Runas [4] / Portal [3] / Cura [2]
 - Regeneração [2] => Si mesmo
+- Sentido Místico [5] => Localizar / Rastrear / Sentir magia
 
 ## EQP
 - Patrimônio confortável, sem escala financeira absurda.
