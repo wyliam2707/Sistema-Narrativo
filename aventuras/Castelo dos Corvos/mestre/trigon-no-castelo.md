@@ -30,6 +30,22 @@ Ele pode resolver uma ameaça demoníaca por diferentes caminhos, conforme a sit
 
 A vitória demonológica de Corvin pode ser simplesmente fazer com que o demônio conclua que permanecer não vale o preço. Isso não exige que Corvin seja tão poderoso quanto a entidade enfrentada.
 
+## Conflito por procuração e política demoníaca
+Uma das ferramentas mais perigosas de Corvin é transformar a atenção de um senhor demoníaco em vulnerabilidade política.
+
+Exemplo conceitual: se Trigon está excessivamente focado na Terra, Corvin pode procurar outro senhor, rival ou potência com interesses incompatíveis e oferecer informação, acesso, oportunidade ou uma troca que torne atraente avançar sobre território, influência ou recursos de Trigon enquanto ele está distraído.
+
+A lógica não é ordenar que uma entidade igualmente poderosa lute por Corvin. Corvin cria incentivos e deixa que interesses antigos façam o restante. Uma frase como “já que Trigon está tão ocupado olhando para a Terra, talvez este seja um excelente momento para ampliar suas fronteiras” pode ser mais eficaz do que qualquer ataque direto, desde que Corvin tenha algo real para colocar na negociação.
+
+Esse tipo de manobra pode:
+- obrigar Trigon a dividir atenção e recursos;
+- criar um conflito interno ou territorial em seus próprios domínios;
+- tornar a perseguição de Ravena ou a tentativa de entrar no castelo secundária diante de uma ameaça maior;
+- permitir que Corvin feche a brecha enquanto Trigon reage ao problema criado;
+- gerar dívidas, favores, inimigos e consequências futuras para Corvin.
+
+Essas soluções nunca são gratuitas. A outra entidade possui vontade e objetivos próprios, e qualquer acordo pode criar novas obrigações ou problemas. Corvin é especialista em usar essa política sobrenatural a seu favor, não em controlar senhores demoníacos.
+
 ## Limite de interpretação
 Não tratar isso como prova de que Corvin é globalmente mais poderoso que Trigon. É vantagem de conhecimento, preparação, território, negociação e especialização demonológica aplicada à forma concreta da intrusão.
 
