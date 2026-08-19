@@ -52,6 +52,38 @@ TRAÇOS não devem duplicar desnecessariamente capacidades que já estejam descr
 
 > **TRAÇO = verdade qualitativa estável. Atributo, perícia ou poder = capacidade graduada.**
 
+## CONTROLE
+
+Toda ficha apresentável em `personagens/` pode registrar quem possui o ciclo de decisão daquele personagem.
+
+Usar um dos valores:
+
+```text
+CONTROLE: JOGADOR HUMANO
+CONTROLE: JOGADOR IA
+CONTROLE: JOGADOR EVENTUAL IA
+CONTROLE: NPC
+```
+
+Significado:
+
+- `JOGADOR HUMANO` — decisões voluntárias pertencem ao usuário que joga aquele personagem;
+- `JOGADOR IA` — a IA joga permanentemente com aquele personagem, separando sua função de jogadora da função de narradora;
+- `JOGADOR EVENTUAL IA` — a IA está autorizada a assumir temporariamente o personagem como jogadora quando houver uma situação que justifique agência operacional própria;
+- `NPC` — o personagem permanece sob interpretação normal do narrador e não recebe ciclo próprio de jogador.
+
+`JOGADOR EVENTUAL IA` é uma **categoria permanente da ficha**, não um estado momentâneo. Depois que essa categoria é aprovada pelo usuário, a IA decide sozinha quando ativar ou desativar o modo de jogador eventual durante a campanha. Não é necessário pedir nova autorização a cada cena.
+
+Quando o modo eventual está inativo, o personagem funciona normalmente como NPC. Quando está ativo, a IA toma decisões por ele como jogadora, usando sua ficha, conhecimento próprio, relações, objetivos, STATUS, situação concreta e diretrizes da campanha. Ao terminar o núcleo de decisão que justificou a ativação, a IA pode devolvê-lo ao funcionamento normal de NPC.
+
+Somente personagens com ficha em `personagens/` podem usar `JOGADOR EVENTUAL IA`. Figurantes, inimigos comuns e fichas reservadas em `mestre/viloes/` não são promovidos diretamente.
+
+Um personagem marcado como `NPC` só passa a ser elegível para uso eventual se o campo `CONTROLE` for alterado para `JOGADOR EVENTUAL IA` com aprovação do usuário. A promoção não muda a ficha por si só; ela depende de uma categoria de controle já autorizada.
+
+A categoria pode ser proposta durante a criação e revisada pelo usuário junto da identidade do personagem. Alterar `CONTROLE` muda quem joga com o personagem e, por isso, deve ser uma decisão explícita do usuário.
+
+> **O usuário decide quem pode ser Jogador IA ou Jogador Eventual IA. Depois de autorizado como Eventual, a IA decide quando usar essa função.**
+
 ## Modelo de `diretrizes/narracao.md`
 
 Toda campanha define sua direção narrativa durante a Etapa 1 da criação. O arquivo padrão é:
@@ -142,7 +174,9 @@ Status: APROVADO
 
 O modelo de arquivo é o mesmo, mas o **método de revisão muda conforme quem controla o personagem**.
 
-### Personagem controlado pelo jogador
+O campo `CONTROLE` faz parte da identidade funcional da ficha e deve ser revisado antes da mecânica.
+
+### Personagem controlado pelo jogador humano
 
 Revisar com controle fino, seguindo a ficha de cima para baixo.
 
@@ -160,6 +194,8 @@ Fluxo recomendado:
 
 ```text
 nome/identidade
+↓
+CONTROLE
 ↓
 idade
 ↓
@@ -194,7 +230,7 @@ Se um campo já estiver definido, apresentá-lo como está para confirmação em
 
 Nos blocos de ATRIBUTOS, PERÍCIAS e PODERES, reapresentar o bloco inteiro normalizado antes de pedir aprovação.
 
-> **No personagem do jogador, cada campo simples é uma etapa; ATRIBUTOS, PERÍCIAS e PODERES são blocos próprios.**
+> **No personagem do jogador humano, cada campo simples é uma etapa; ATRIBUTOS, PERÍCIAS e PODERES são blocos próprios.**
 
 ### Demais personagens apresentáveis ao jogador
 
@@ -202,6 +238,8 @@ Revisar em **quatro blocos**:
 
 **Bloco 1 — Identidade e conceito**
 - nome;
+- importância;
+- `CONTROLE`;
 - idade;
 - conceito;
 - descrição;
@@ -222,11 +260,11 @@ Revisar em **quatro blocos**:
 - medos/limites relevantes;
 - história consolidada relevante.
 
-O narrador pode propor uma base para cada bloco, mas deve obter aprovação antes de avançar para o próximo.
+O narrador pode propor uma base para cada bloco, inclusive o `CONTROLE`, mas deve obter aprovação antes de avançar para o próximo.
 
 Depois dos quatro blocos, apresentar a ficha completa para aprovação final.
 
-Fichas reservadas em `mestre/viloes/` não passam por revisão aberta.
+Fichas reservadas em `mestre/viloes/` não passam por revisão aberta e não usam o mecanismo de Jogador Eventual IA.
 
 ## 1. Ficha — personagem Central
 
@@ -235,6 +273,7 @@ Fichas reservadas em `mestre/viloes/` não passam por revisão aberta.
 
 Status: PENDENTE DE REVISÃO
 Importância: Central
+CONTROLE: JOGADOR HUMANO | JOGADOR IA | JOGADOR EVENTUAL IA | NPC
 
 Idade:
 Conceito:
@@ -276,6 +315,7 @@ Relações circunstanciais que ainda podem voltar a importar, mas não pertencem
 
 Status: PENDENTE DE REVISÃO
 Importância: Relevante
+CONTROLE: JOGADOR IA | JOGADOR EVENTUAL IA | NPC
 
 Idade:
 Conceito:
@@ -309,7 +349,7 @@ Uma ficha Relevante pode permanecer mais curta que uma Central. Se algum bloco n
 
 ### Criação conceitual mínima de aliados
 
-Durante a criação conceitual, pode ser suficiente definir apenas **quantidade e nomes** dos aliados relevantes.
+Durante a criação conceitual, pode ser suficiente definir apenas **quantidade, nomes e categoria de controle proposta** dos aliados relevantes.
 
 Nesse caso, criar os arquivos com a estrutura oficial e preencher somente aquilo que já foi realmente estabelecido. Todo o restante permanece em branco até a revisão.
 
@@ -320,6 +360,7 @@ Exemplo:
 
 Status: PENDENTE DE REVISÃO
 Importância: Relevante
+CONTROLE: NPC
 
 Idade:
 Conceito:
@@ -333,6 +374,8 @@ Poder:
 EQP:
 REL:
 ```
+
+O narrador pode propor `CONTROLE`, mas o usuário pode revisar e mudar essa categoria antes de aprovar a ficha.
 
 O narrador não deve inventar aparência, personalidade, história, capacidades ou recursos apenas para completar a ficha, salvo quando o jogador delegar explicitamente essa criação.
 
