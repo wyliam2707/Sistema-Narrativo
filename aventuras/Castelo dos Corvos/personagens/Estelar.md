@@ -28,10 +28,16 @@ TRAÇOS:
 - Assimilação de idiomas por contato: pode adquirir conhecimento linguístico por contato físico.
 - Vontade e resiliência emocional: sobreviveu a exílio, escravidão e experimentação sem perder sua capacidade de criar vínculos e agir com compaixão.
 
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+ATR: FOR [3] | AGI [1] | RES [3] | MEN [0] | VON [3]
 PER:
+- Combate [+3]
+- Cultura Tamaraniana [+4]
+- Sobrevivência [+2] — ambientes alienígenas e espaciais.
+- Etiqueta [+2] — protocolo e costumes da realeza tamaraniana.
 
 PODERES:
+- Energia Tamaraniana [3] => Starbolts / Voo / Absorção Solar
+- Assimilação Linguística [1] => Contato físico
 
 EQP:
 REL:
