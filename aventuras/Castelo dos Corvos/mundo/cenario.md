@@ -1,6 +1,6 @@
 # Cenário — Castelo dos Corvos
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 
 ## Continuidade
 A campanha acontece em uma continuidade própria de fanfic na qual elementos dos universos Marvel e DC coexistem.
