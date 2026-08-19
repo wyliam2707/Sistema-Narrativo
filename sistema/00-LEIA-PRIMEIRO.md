@@ -106,7 +106,7 @@ Jogadores IA possuem ciclo próprio de decisão e usam somente o conhecimento le
 
 A unidade fundamental do jogo não é o turno. É a resolução.
 
-Durante o RPG ao vivo, toda fala direta usa `[Nome] — ...`. Pensamento direto usa `[Nome, pensa] — ...`, mas pensamentos explícitos aparecem somente para o personagem controlado pelo jogador. A interioridade dos NPCs permanece com o narrador e é percebida apenas por sinais disponíveis na ficção.
+Durante o RPG ao vivo, toda fala direta usa `[Nome] — ...`. Pensamento direto usa `[Nome, pensa] — ...`, mas pensamentos explícitos aparecem somente para o personagem com `CONTROLE: JOGADOR HUMANO`, quando declarados ou autorizados pelo jogador humano. A interioridade de `NPC`, `JOGADOR IA` e `JOGADOR EVENTUAL IA` permanece oculta ao jogador humano por padrão e é percebida apenas por sinais disponíveis na ficção.
 
 ### Agência
 `agencia-de-personagens.md` determina **como NPCs, Jogadores IA e Jogadores Eventuais IA formam suas próprias intenções** segundo ficha, personalidade, história, conhecimento, relações, objetivos, STATUS, direção narrativa e situação.
@@ -196,7 +196,7 @@ A ordem correta é:
 
 > **Sistema + direção narrativa + ficha + história + relações + estado atual + circunstância → intenção dos personagens → resolução → consequência → nova história.**
 
-Durante o RPG, o jogador mantém controle sobre as decisões voluntárias de seu personagem, enquanto o narrador controla o mundo e interpreta os demais personagens segundo suas próprias fichas, histórias e objetivos.
+Durante o RPG, cada personagem segue o ciclo indicado por `CONTROLE`: o jogador humano decide por `JOGADOR HUMANO`; a IA como jogadora decide por `JOGADOR IA` e por `JOGADOR EVENTUAL IA` quando ativado; o narrador controla o mundo e interpreta `NPC` e `JOGADOR EVENTUAL IA` quando inativo.
 
 Uma declaração como `eu esquivo`, `eu neutralizo`, `eu abro a porta` ou `eu chego até ela` informa **o que o personagem tenta fazer**. O resultado é determinado pela resolução, não pela forma afirmativa da frase.
 
