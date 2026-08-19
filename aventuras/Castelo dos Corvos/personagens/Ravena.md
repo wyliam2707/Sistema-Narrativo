@@ -17,12 +17,13 @@ PODERES:
 
 EQP:
 REL:
-- Corvin Blackwood: par romântico central da campanha; situação inicial da relação ainda não definida.
+- Corvin Blackwood: par romântico central da campanha; no início da história ainda não o conhece pessoalmente e vai ao Castelo dos Corvos em busca de um livro relacionado a Trigon.
 - Titãs: integrante central da equipe nesta continuidade.
 
 ## Personalidade e tendências
 
 ## Desejos/objetivos atuais
+- No início da campanha, procura um livro relacionado a Trigon que acredita estar na coleção de Corvin Blackwood.
 
 ## Medos/limites relevantes
 
