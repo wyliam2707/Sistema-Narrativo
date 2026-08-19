@@ -8,7 +8,7 @@ Os demais arquivos respondem a perguntas diferentes:
 
 - `README.md` — quais capacidades existem e o que seus valores significam;
 - `modo-rpg.md` — quem controla cada decisão e quando o controle volta ao jogador;
-- `agencia-de-personagens.md` — como personagens controlados pelo narrador escolhem suas próprias ações;
+- `agencia-de-personagens.md` — como personagens formam suas próprias intenções segundo agência e `CONTROLE`;
 - `narracao-e-escrita-padrao.md` — como o resultado aparece em prosa.
 
 > **A intenção define para onde a ação tenta ir. A ficha e a situação determinam até onde ela realmente chega.**
@@ -39,7 +39,7 @@ O jogador não precisa escrever `tento` antes de cada ação.
 
 > **Intenção não garante resolução.**
 
-O jogador controla o que seu personagem tenta fazer. O narrador resolve o que realmente acontece usando as capacidades e a situação estabelecida.
+Quem possui o ciclo de decisão controla o que o personagem tenta fazer. O narrador resolve o que realmente acontece usando as capacidades e a situação estabelecida.
 
 ---
 
