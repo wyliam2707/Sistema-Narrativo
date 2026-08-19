@@ -24,3 +24,4 @@ A consolidação literária melhora a forma, mas não altera os fatos ocorridos 
 ## Capítulos
 - [Capítulo 1 — A Visitante](capitulo-01-a-visitante.md)
 - [Capítulo 2 — A Hóspede](capitulo-02-a-hospede.md)
+- [Capítulo 3 — Rotinas Questionáveis](capitulo-03-rotinas-questionaveis.md)
