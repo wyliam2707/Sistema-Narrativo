@@ -2,7 +2,7 @@
 
 Status: PENDENTE DE REVISÃO
 Importância: Relevante
-CONTROLE: JOGADOR IA
+CONTROLE: JOGADOR EVENTUAL IA
 
 Idade:
 Conceito: Estelar, integrante recorrente dos Titãs nesta continuidade híbrida da campanha.
