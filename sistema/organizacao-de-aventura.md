@@ -117,6 +117,8 @@ A ficha responde principalmente:
 - quais capacidades possui;
 - quais relações recorrentes da vida atual precisam ser acompanhadas.
 
+O campo `CONTROLE` é metadado estrutural da ficha: define quem possui o ciclo de decisão daquele personagem e não é atributo mecânico.
+
 Ferimentos, cansaço, condições temporárias, favores, acessos e relações circunstanciais não pertencem automaticamente à ficha permanente.
 
 Antagonistas cuja ficha precise permanecer oculta durante o jogo não ficam aqui; usar `mestre/viloes/`.
@@ -342,6 +344,8 @@ Só deve ser alterada quando a própria ficção realmente mudou o personagem, p
 - uma relação circunstancial passou a integrar de fato a vida recorrente do personagem.
 
 Isso não é progressão mecânica. É atualização de continuidade.
+
+O campo `CONTROLE` é exceção a essa lógica de evolução ficcional: ele não muda por acontecimentos normais da história e só deve ser alterado por decisão explícita do usuário.
 
 Uma relação direcional deve ser alterada somente na ficha de quem mudou, e apenas quando aquele vínculo merecer acompanhamento recorrente. Relações circunstanciais podem continuar em `progressao/`.
 
