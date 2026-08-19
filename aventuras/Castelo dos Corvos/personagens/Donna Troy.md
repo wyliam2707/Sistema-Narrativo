@@ -40,12 +40,15 @@ PER:
 
 PODERES:
 - Fator de Cura [2] => Si mesma
-- Armamento Mágico [1] => Espada / Arco / Contenção
+- Armamento Mágico [1] => Espada [3] / Arco [2] / Contenção
 
 Regra do Armamento Mágico:
 - Donna possui algumas armas amazonas encantadas que podem causar dano mágico em vez de depender apenas de dano físico convencional.
 - Essas armas não dependem de munição consumível comum; quando uma arma exige projéteis, como o arco, o próprio encantamento supre o disparo necessário.
-- Espada, arco e recursos de contenção continuam sendo armas e ferramentas: o grau [1] representa a propriedade mágica adicional, não substitui a perícia de Donna no uso de armas.
+- Espada, arco e recursos de contenção continuam sendo armas e ferramentas usadas por Donna; sua perícia define o domínio técnico, enquanto a especialização indicada representa a escala efetiva daquele uso.
+- Espada [3] representa o dano efetivo do golpe quando Donna a usa, coerente com sua FOR [3].
+- Arco [2] representa o dano efetivo do disparo quando Donna o usa, coerente com sua AGI [2].
+- Contenção permanece no grau-base [1] quando não houver valor próprio indicado.
 
 EQP:
 - Traje de combate amazona.
