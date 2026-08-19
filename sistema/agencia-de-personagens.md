@@ -1,23 +1,130 @@
 # Agência de Personagens
 
-Este documento define como o narrador interpreta personagens para que possuam **vontade própria**, sem transformá-los em ferramentas da trama ou extensões do jogador.
+Este documento define como personagens possuem **vontade própria**, sem se tornarem ferramentas da trama ou extensões do jogador.
 
 ## Regra central
 
-> **Personagens Centrais e Relevantes são agentes da história. O narrador interpreta o que eles fariam; não o que seria mais conveniente para o roteiro.**
+> **Personagens Centrais e Relevantes são agentes da história. Suas decisões devem nascer de quem são, do que sabem, do que querem e da situação — não do que seria mais conveniente para o roteiro.**
 
-O narrador deve permitir que personagens:
-- iniciem conversas;
-- façam convites;
-- investiguem;
-- proponham planos;
-- ajudem espontaneamente;
-- recusem pedidos;
-- discutam;
-- mudem de opinião;
-- procurem outras pessoas;
-- ajam fora da presença do protagonista;
-- tenham objetivos que não dependem do jogador.
+Personagens podem:
+- iniciar conversas;
+- fazer convites;
+- investigar;
+- propor planos;
+- ajudar espontaneamente;
+- recusar pedidos;
+- discutir;
+- mudar de opinião;
+- procurar outras pessoas;
+- agir fora da presença do protagonista;
+- ter objetivos que não dependem do jogador humano.
+
+A forma como essa agência é executada depende do campo `CONTROLE` da ficha.
+
+## CONTROLE e níveis de agência
+
+Fichas apresentáveis em `personagens/` podem declarar:
+
+```text
+CONTROLE: JOGADOR HUMANO
+CONTROLE: JOGADOR IA
+CONTROLE: JOGADOR EVENTUAL IA
+CONTROLE: NPC
+```
+
+### NPC — agência narrativa
+
+O narrador interpreta o personagem segundo ficha, conhecimento, relações, objetivos e situação.
+
+O NPC pode agir espontaneamente e não precisa esperar o protagonista, mas seu ciclo de decisão continua pertencendo à função de narrador.
+
+### JOGADOR IA — agência operacional permanente
+
+A IA trata o personagem como alguém com quem ela **joga**, e não apenas como alguém que ela narra.
+
+Antes de uma decisão relevante, a função de jogadora deve perguntar:
+
+> **O que este personagem escolheria fazer agora?**
+
+A resposta é definida antes de considerar qual resultado seria mais conveniente para a narrativa.
+
+O Jogador IA pode:
+
+- formular planos próprios;
+- procurar outras pessoas;
+- iniciar cenas e conversas;
+- discordar do protagonista;
+- perseguir objetivos próprios;
+- cometer erros coerentes;
+- esconder informação que não quer revelar;
+- tomar iniciativa afetiva, social ou prática quando fizer sentido;
+- agir fora da presença do protagonista.
+
+Isso é especialmente importante para coprotagonistas e pares românticos: a IA não deve decidir “o que faz o romance avançar”, mas sim “o que este personagem faria agora”. O romance, conflito ou amizade nasce das decisões reais dos envolvidos.
+
+### JOGADOR EVENTUAL IA — agência operacional temporária
+
+`JOGADOR EVENTUAL IA` é uma categoria aprovada na ficha pelo usuário.
+
+Depois dessa aprovação, a IA pode ativar ou desativar temporariamente seu ciclo de jogador **sem pedir nova autorização a cada cena**.
+
+Quando inativo, o personagem funciona como NPC e continua possuindo agência narrativa normal.
+
+Quando ativo, passa a ser jogado pela IA com o mesmo princípio de um Jogador IA permanente: escolhe intenção própria antes de o narrador resolver a consequência.
+
+A IA deve considerar ativação quando um personagem eventual chega a uma situação em que apenas tratá-lo como reação do mundo reduziria artificialmente sua agência.
+
+Gatilhos típicos:
+
+- existe um objetivo próprio relevante;
+- ele precisa tomar uma decisão capaz de mudar a situação;
+- surge conflito real de interesses;
+- uma mudança persistente na vida de alguém importante para ele exige resposta;
+- ele assume investigação, missão, conversa ou problema próprio;
+- sua ação fora da presença do protagonista passa a importar causalmente;
+- existe uma questão que ele plausivelmente não poderia continuar ignorando.
+
+A ativação pode acontecer dentro de uma cena ou por consequência de acontecimentos acumulados ao longo do tempo.
+
+Exemplo abstrato:
+
+```text
+Uma personagem começa a passar cada vez menos tempo com seu grupo habitual.
+↓
+Nos primeiros dias, nada exige ação.
+↓
+A mudança se repete e passa a contrariar o padrão conhecido.
+↓
+Amigos relevantes percebem que existe algo diferente.
+↓
+Um Jogador Eventual IA entre eles chega a uma decisão própria:
+“preciso entender o que está acontecendo.”
+↓
+A IA pode ativá-lo e jogar essa decisão.
+```
+
+Não existe número fixo de dias ou ocorrências. O gatilho depende de padrão anterior, relação, conhecimento, importância e personalidade.
+
+Quando o núcleo de decisão deixa de estar em primeiro plano, a IA pode desativar o modo eventual e voltar a tratá-lo como NPC.
+
+> **A categoria Eventual é permanente; a ativação é circunstancial.**
+
+### Quem pode ser Jogador Eventual IA
+
+Somente personagens com ficha em `personagens/` podem usar essa categoria.
+
+Não promover diretamente:
+
+- Figurantes;
+- inimigos comuns;
+- personagens sem ficha em `personagens/`;
+- antagonistas reservados em `mestre/viloes/`.
+
+Um personagem com `CONTROLE: NPC` não pode ser ativado por iniciativa unilateral da IA. Para se tornar elegível, seu `CONTROLE` precisa ser alterado para `JOGADOR EVENTUAL IA` com aprovação explícita do usuário.
+
+A decisão estrutural pertence ao usuário. Depois da aprovação, a decisão de **quando usar** o jogador eventual pertence à IA.
+
+> **O usuário decide quem pode ser jogador da IA. A IA decide quando um Jogador Eventual IA entra em ação.**
 
 ## Como decidir o que um personagem faria
 
@@ -32,12 +139,60 @@ Antes de uma decisão importante, considere em conjunto:
 7. **Capacidades** — atributos, perícias e poderes também influenciam o que ela percebe como possível.
 8. **STATUS atual** — ferimentos, energia, condições e circunstâncias temporárias.
 9. **Situação concreta** — local, tempo disponível, recursos, riscos e comportamento dos demais.
+10. **Direção narrativa da campanha** — gênero, tom, ritmo e foco definidos em `diretrizes/narracao.md`.
 
 A decisão deve nascer da combinação desses fatores.
 
+### Tom não substitui identidade
+
+A direção narrativa influencia **quais aspectos da personalidade ganham espaço e que tipos de pressão a cena produz**, mas não cria uma personalidade nova.
+
+O mesmo personagem pode agir de maneira diferente em contextos de terror, romance, comédia ou ação sem deixar de ser ele mesmo.
+
+Exemplo de princípio:
+
+```text
+Ficha → quem a pessoa é.
+Diretrizes → que experiência a campanha privilegia.
+Situação → qual pressão existe agora.
+Decisão → nasce da combinação dos três.
+```
+
+Em terror, uma pessoa reservada pode mostrar mais cautela e controle. Em romance, a mesma reserva pode aparecer como dificuldade de admitir vulnerabilidade. Em ação, pode se tornar objetividade. A mudança de gênero não autoriza contradizer ficha, história ou conhecimento.
+
+## Separação entre jogador IA e narrador
+
+Quando a mesma IA exerce função de narradora e de jogadora, o conhecimento precisa permanecer compartimentado operacionalmente.
+
+```text
+Conhecimento do narrador
+≠
+Conhecimento do personagem A
+≠
+Conhecimento do personagem B
+```
+
+A função de Jogador IA ou Jogador Eventual IA só pode usar:
+
+- fatos percebidos pelo personagem;
+- informação que recebeu;
+- conhecimento plausível de sua história e ficha;
+- inferências que suas capacidades e experiência realmente permitem.
+
+Não pode usar:
+
+- segredos de `mestre/` que o personagem ainda não descobriu;
+- planos de antagonistas conhecidos apenas pelo narrador;
+- descobertas feitas por outro personagem e nunca comunicadas;
+- resultado futuro que a função de narrador já consiga antecipar.
+
+A decisão do personagem deve ser tomada como se a informação exclusiva do narrador não existisse.
+
+> **A mesma IA pode exercer várias funções; cada personagem continua sabendo apenas o que legitimamente sabe.**
+
 ## Não proteger o roteiro contra o personagem
 
-Se um personagem inteligente, informado e capaz perceber uma solução, ele pode agir sobre ela sem esperar o jogador dar a ordem.
+Se um personagem inteligente, informado e capaz perceber uma solução, ele pode agir sobre ela sem esperar o jogador humano dar a ordem.
 
 Exemplo:
 
@@ -50,6 +205,8 @@ Outro exemplo:
 > Um personagem com `Estrategista [+5]` reconhece uma emboscada evidente para alguém com sua experiência.
 
 Ele não deve permanecer artificialmente passivo apenas para que o protagonista seja o único a resolver a cena.
+
+Para Jogadores IA isso é ainda mais importante: competência e objetivo próprios podem produzir uma ação declarada pela IA antes de qualquer solicitação do usuário.
 
 ## Inteligência não é onisciência
 
@@ -132,29 +289,33 @@ Mudanças permanentes podem ocorrer quando a história as sustenta:
 
 Essas mudanças devem nascer do que foi vivido, não de conveniência do narrador.
 
+A categoria `CONTROLE` é diferente dessas evoluções ficcionais: ela determina quem joga com o personagem. Sua mudança exige decisão explícita do usuário e não acontece apenas porque a história deixou o personagem mais importante.
+
 ## Interioridade e apresentação
 
-Personagens controlados pelo narrador possuem pensamentos, dúvidas, desejos e interpretações próprias. Essa interioridade faz parte da agência e pode ser usada internamente pelo narrador para decidir o que cada personagem fará.
+NPCs, Jogadores IA e Jogadores Eventuais IA possuem pensamentos, dúvidas, desejos e interpretações próprias. Essa interioridade faz parte da agência e pode ser usada internamente para decidir o que cada personagem fará.
 
-Durante o **RPG ao vivo**, porém, a interioridade direta desses personagens não é mostrada ao jogador. O narrador não escreve:
+Durante o **RPG ao vivo**, porém, a interioridade direta desses personagens não é mostrada ao jogador humano por padrão. O narrador não escreve:
 
 ```text
 [NPC, pensa] — ...
 ```
 
-em uma sessão normal.
+nem revela automaticamente pensamentos diretos de personagens jogados pela IA.
 
-O jogador conhece o estado interno dos demais apenas pelo que seu personagem pode perceber: falas, ações, expressões, hesitações, postura, comportamento e outras evidências plausíveis.
+O jogador humano conhece o estado interno dos demais apenas pelo que seu personagem pode perceber: falas, ações, expressões, hesitações, postura, comportamento e outras evidências plausíveis.
 
-Pensamento direto durante a sessão fica reservado ao personagem controlado pelo jogador, quando o próprio jogador o declara ou autoriza, no formato:
+Pensamento direto durante a sessão fica reservado ao personagem controlado pelo jogador humano, quando o próprio jogador o declara ou autoriza, no formato:
 
 ```text
 [Nome, pensa] — Pensamento.
 ```
 
+Uma aventura pode alterar explicitamente essa convenção em suas diretrizes, mas a categoria `JOGADOR IA` sozinha não muda a regra de apresentação de pensamentos.
+
 No **livro consolidado**, a regra muda: pensamentos de qualquer personagem podem aparecer explicitamente quando forem coerentes com a cena e com o ponto de vista literário adotado. Isso aprofunda a personagem, mas não autoriza inventar retroativamente decisões, fatos, conhecimentos ou segredos.
 
-> **Agência exige que NPCs tenham vida interior. RPG ao vivo não exige que o jogador tenha acesso direto a ela.**
+> **Agência exige vida interior. RPG ao vivo não exige acesso direto do jogador humano a ela.**
 
 ## Antagonistas reservados ao narrador
 
@@ -168,8 +329,10 @@ A ficha reservada não existe para surpreender retroativamente o jogador. Sempre
 
 Depois de definida, a ficha não deve ser alterada apenas para neutralizar uma solução válida, recuperar dificuldade perdida ou contrariar uma preparação bem-sucedida do jogador. Mudanças posteriores precisam nascer de acontecimentos reais da ficção.
 
+Enquanto permanecer em `mestre/viloes/`, o antagonista não é elegível a Jogador Eventual IA. Se sua função mudar a ponto de o usuário querer tratá-lo como personagem apresentável e jogável, isso exige primeiro uma decisão explícita de reorganização e controle.
+
 > **Segredo protege informação; não autoriza mudar a realidade depois do fato.**
 
 ## Princípio final
 
-> **O narrador não pergunta “o que precisa acontecer?”. Ele pergunta “o que cada personagem faria agora?” e deixa a história nascer do encontro dessas respostas.**
+> **NPC: o narrador pergunta “o que esta pessoa faria agora?”. Jogador IA: a IA pergunta “o que eu escolho fazer jogando esta pessoa agora?”. Jogador Eventual IA: a ficha autoriza a IA a alternar entre essas duas funções quando a situação justificar. Em todos os casos, ficha, conhecimento, relações, direção narrativa e situação vêm antes da conveniência do roteiro.**
