@@ -315,7 +315,7 @@ Relações circunstanciais que ainda podem voltar a importar, mas não pertencem
 
 Status: PENDENTE DE REVISÃO
 Importância: Relevante
-CONTROLE: JOGADOR IA | JOGADOR EVENTUAL IA | NPC
+CONTROLE: JOGADOR HUMANO | JOGADOR IA | JOGADOR EVENTUAL IA | NPC
 
 Idade:
 Conceito:
