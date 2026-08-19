@@ -24,6 +24,13 @@ As diretrizes abaixo complementam apenas o que foi definido para esta aventura.
 - A narração pode ser sensual e sugestiva, mas evita descrição pornográfica explícita.
 - O interesse romântico deve ter agência própria, desejos, limites e capacidade de contrariar o protagonista.
 
+## Ritmo da investigação e convivência
+- A investigação de Ravena sobre Trigon é um problema antigo, complexo e de longo prazo. Ela não deve encontrar uma resposta definitiva em poucos dias apenas por ter acesso à biblioteca de Corvin.
+- Os primeiros dias e semanas devem produzir principalmente peças parciais: contexto, autores em conflito, hipóteses, pistas, falsos caminhos, lacunas e perguntas melhores.
+- Descobertas importantes podem acontecer, mas não devem encerrar cedo a motivação para Ravena permanecer no castelo.
+- O avanço da pesquisa deve ser compatível com a escala do problema e permitir convivência cotidiana prolongada entre Corvin e Ravena: refeições, estudo paralelo, rotinas, saídas, visitas, pequenos conflitos, humor, intimidade e mudanças graduais na relação.
+- O mistério não deve ser artificialmente estendido, mas também não deve ser resolvido por conveniência narrativa. A solução final, se existir, deve exigir tempo, comparação de fontes, experiência prática e acontecimentos relevantes da campanha.
+
 ## Atmosfera
 - Contraste entre o isolamento gótico do Castelo dos Corvos e o universo amplo de heróis, magia, crime e fenômenos sobrenaturais.
 
