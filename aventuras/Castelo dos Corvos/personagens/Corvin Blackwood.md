@@ -6,7 +6,7 @@ CONTROLE: JOGADOR HUMANO
 
 ## Identidade
 - Nome: Corvin Blackwood
-- Idade real: 120 anos.
+- Idade real: 210 anos.
 - Idade aparente: 26 anos.
 - Natureza: humano imortal da raça dos Antigos.
 - Vocação: feiticeiro e demonologista.
