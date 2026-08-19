@@ -3,7 +3,7 @@
 Status geral: EM CRIAÇÃO
 
 1. Direção narrativa e cenário: PENDENTE DE REVISÃO
-   - Diretrizes narrativas: PENDENTE DE REVISÃO
+   - Diretrizes narrativas: APROVADO
    - Cenário: PENDENTE DE REVISÃO
 2. Protagonista: PENDENTE DE REVISÃO
 3. Personagens relevantes: PENDENTE DE REVISÃO
