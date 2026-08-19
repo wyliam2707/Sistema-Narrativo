@@ -1,9 +1,22 @@
 # Castelo dos Corvos
 
-Status: EM CRIAÇÃO
+Status: EM JOGO
 
-Esta campanha está sendo montada pelo protocolo de criação do Sistema Narrativo.
+Campanha de romance adulto, comédia leve e investigação em uma continuidade híbrida Marvel/DC.
 
-Consulte `criacao.md` para o andamento das quatro etapas conceituais e da revisão final.
+## Fontes principais
+- Direção narrativa: `diretrizes/narracao.md`
+- Cenário: `mundo/cenario.md`
+- Fichas: `personagens/`
+- Início aprovado: `estado/inicio.md`
+- Estado operacional atual: `estado/atual.md`
+- Continuidade objetiva: `cronologia/`
+- Consequências duradouras: `progressao/`
+- Relações recorrentes: `relacionamento/`
+- Registro narrativo consolidado: `livro/`
 
-Enquanto a criação não estiver concluída, este arquivo funciona apenas como porta de entrada provisória da campanha.
+## Área reservada ao narrador
+- `mestre/`
+- `mestre/viloes/`
+
+O arquivo `criacao.md` permanece apenas como histórico do processo de criação concluído.
