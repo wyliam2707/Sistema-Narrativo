@@ -78,6 +78,15 @@ Demonologia [5] não representa apenas conhecimento teórico ou capacidade de la
 - Quando atua em território previamente preparado por ele, especialmente o Castelo dos Corvos, pode resolver uma intrusão demoníaca com gestos ou palavras aparentemente simples porque o trabalho complexo já está embutido nas proteções, runas e selos existentes.
 - Isso não significa que Corvin seja automaticamente mais poderoso que qualquer demônio em confronto aberto; sua vantagem está em saber como tornar uma entidade vulnerável às regras que permitem expulsá-la ou restringi-la.
 
+### Ética e prática demonológica
+- Corvin não é um cultista maligno e não trata demônios como divindades ou mestres. Ele os estuda como entidades, potências, ecologias e sistemas de regras sobrenaturais.
+- Não faz pactos para receber poder pessoal nem aceita dependência voluntária de um senhor demoníaco como fonte de sua magia.
+- Quando negocia com uma entidade, a relação é instrumental: troca informação, acesso, favores, condições ou vantagens específicas, procurando manter sua autonomia.
+- Sua especialidade inclui compreender como o poder de uma dimensão pode ser acessado, conduzido, desviado ou aproveitado sem que isso implique submissão automática ao governante daquele domínio.
+- Pode estabelecer ligações mágicas com uma dimensão, plano ou fonte de energia sem necessariamente ligar-se ao seu senhor, desde que conheça as regras, âncoras e condições que tornam essa conexão possível.
+- Para Corvin, conhecer a diferença entre uma dimensão e quem a governa é parte essencial da demonologia: um senhor pode controlar grande parte de um domínio sem ser sinônimo absoluto de toda energia, espaço ou lei existente nele.
+- Sua prática favorece independência, engenharia de vínculos, negociação, redirecionamento de forças e exploração de brechas, em vez de devoção ou barganhas de poder pessoal.
+
 ## EQP
 - Patrimônio confortável, sem escala financeira absurda.
 - Parte relevante da riqueza está concentrada em pedras e minerais de valor.
