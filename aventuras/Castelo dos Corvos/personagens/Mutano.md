@@ -18,6 +18,14 @@ TRAÇOS:
 - Personalidade brincalhona e extrovertida, sem reduzir o personagem a mero alívio cômico.
 - Forte vínculo com os Titãs.
 
+## Capacidades canônicas consolidadas
+- Metamorfose animal ampla: pode assumir praticamente qualquer forma animal à vontade; as formas mantêm a coloração verde característica.
+- Escala variável: pode assumir animais de tamanhos muito diferentes, incluindo criaturas grandes, pequenas, extintas e formas extraordinárias coerentes com seu histórico canônico.
+- Capacidades físicas da forma: ao assumir uma forma animal, recebe as capacidades coerentes daquela forma, como força, voo, natação, sentidos, mobilidade e resistência.
+- Conexão com vida animal: sua natureza metamorfa mantém uma ligação excepcional com formas e características da vida animal.
+- Biologia metamorfa extraordinária: sua fisiologia alterada permite transformações muito além de uma simples mudança estética e pode sustentar adaptações corporais extremas.
+- Experiência com os Titãs: é um veterano consolidado da equipe e possui experiência prática de combate e operações heroicas em grupo.
+
 ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
 PER:
 
