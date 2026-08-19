@@ -107,7 +107,7 @@ Pensamento direto, quando usado, deve ficar no formato:
 [Nome, pensa] — Pensamento.
 ```
 
-Durante o RPG ao vivo, pensamentos explícitos de NPCs permanecem ocultos. **No livro consolidado**, pensamentos de qualquer personagem podem aparecer quando fizerem sentido literário e forem coerentes com o cânone.
+Durante o RPG ao vivo, pensamentos explícitos de NPCs, Jogadores IA e Jogadores Eventuais IA permanecem ocultos ao jogador humano por padrão. **No livro consolidado**, pensamentos de qualquer personagem — incluindo NPCs, Jogadores IA e Jogadores Eventuais IA — podem aparecer quando fizerem sentido literário e forem coerentes com o cânone.
 
 Isso não autoriza inventar motivação decisiva, informação secreta, conhecimento ou escolha que contradiga o que realmente aconteceu.
 
@@ -133,7 +133,7 @@ Reconstruir os acontecimentos usando:
 - organizar diálogos para leitura sem perder a identificação `[Nome] — ...`;
 - resumir passagem de tempo sem importância dramática;
 - dramatizar acontecimentos cuja fala, reação ou subtexto realmente importam;
-- explicitar pensamentos de qualquer personagem no livro quando isso aprofunda a cena sem alterar os fatos, usando `[Nome, pensa] — ...`.
+- explicitar pensamentos de qualquer personagem no livro, inclusive personagens jogados pela IA, quando isso aprofunda a cena sem alterar os fatos, usando `[Nome, pensa] — ...`.
 
 Não é permitido:
 
