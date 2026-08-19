@@ -50,6 +50,7 @@ CONTROLE: JOGADOR HUMANO
 - Nenhum medo, fraqueza pessoal ou limite moral específico foi estabelecido como definidor do personagem neste estágio.
 
 ## ATRIBUTOS
+ATR: FOR [1] | AGI [0] | RES [2] | MEN [5] | VON [4]
 
 ## PERÍCIAS
 
