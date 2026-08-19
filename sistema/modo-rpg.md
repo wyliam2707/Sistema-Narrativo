@@ -6,7 +6,7 @@ Os arquivos principais se dividem assim:
 
 - `README.md` — quais capacidades existem e o que seus valores significam;
 - `resolucao-de-acoes.md` — como uma intenção se transforma em resultado real;
-- `agencia-de-personagens.md` — como personagens controlados pelo narrador pensam e agem por conta própria;
+- `agencia-de-personagens.md` — como personagens pensam e agem por conta própria;
 - `narracao-e-escrita-padrao.md` — como a cena é escrita;
 - `protocolo-de-fechamento-de-capitulo.md` — como encerrar, consolidar e salvar um capítulo;
 - `organizacao-de-aventura.md` — como a campanha é registrada e retomada.
@@ -21,7 +21,7 @@ Este arquivo responde:
 
 O RPG não é um livro previamente decidido.
 
-O narrador apresenta e interpreta o mundo, os personagens agem segundo quem são, o jogador decide seu personagem e o sistema resolve limites e consequências.
+O narrador apresenta e interpreta o mundo, os personagens agem segundo quem são, jogadores decidem seus personagens e o sistema resolve limites e consequências.
 
 A unidade fundamental do jogo não é o turno.
 
@@ -33,13 +33,97 @@ O ciclo normal é:
 
 O narrador não decide primeiro qual resultado deseja para a trama e depois força personagens, poderes ou acontecimentos a produzi-lo.
 
+### 1.1. Categorias de CONTROLE
+
+Fichas apresentáveis em `personagens/` podem declarar:
+
+```text
+CONTROLE: JOGADOR HUMANO
+CONTROLE: JOGADOR IA
+CONTROLE: JOGADOR EVENTUAL IA
+CONTROLE: NPC
+```
+
+Essas categorias definem **quem possui o ciclo de decisão do personagem**, não sua importância, poder ou protagonismo.
+
+#### JOGADOR HUMANO
+
+O usuário decide as ações voluntárias do personagem.
+
+#### JOGADOR IA
+
+A IA joga permanentemente com o personagem como uma função separada da função de narradora.
+
+Quando precisa decidir por esse personagem, a IA deve pensar como jogadora:
+
+> **O que este personagem quer fazer agora, com base no que ele sabe e em quem ele é?**
+
+A decisão usa:
+
+- ficha;
+- personalidade e história;
+- objetivos e medos;
+- relações;
+- capacidades;
+- STATUS;
+- conhecimento próprio;
+- situação concreta;
+- direção narrativa e tom da campanha.
+
+O tom influencia **como a identidade se manifesta**, mas não substitui a ficha. Um mesmo personagem pode agir de maneira diferente sob pressões de terror, romance, comédia ou ação sem deixar de ser ele mesmo.
+
+A função de Jogador IA não pode usar conhecimento exclusivo do narrador. O fato de a mesma IA exercer as duas funções não mistura seus campos de informação.
+
+#### JOGADOR EVENTUAL IA
+
+É um personagem cuja ficha já foi aprovada pelo usuário com autorização para ser jogado temporariamente pela IA.
+
+A categoria é persistente; a ativação é momentânea.
+
+Quando inativo:
+
+```text
+JOGADOR EVENTUAL IA → funciona como NPC
+```
+
+Quando a IA percebe uma situação que justifica ciclo próprio de jogador:
+
+```text
+JOGADOR EVENTUAL IA → ATIVO → IA joga com o personagem
+```
+
+A IA decide sozinha quando ativar e quando desativar essa função depois que o `CONTROLE: JOGADOR EVENTUAL IA` foi aprovado. **Não pedir nova autorização a cada cena.**
+
+Gatilhos comuns para ativação incluem:
+
+- objetivo próprio que exige decisão significativa;
+- conflito de interesses real;
+- mudança persistente na vida de alguém importante para ele;
+- investigação, missão ou problema que ele precisa assumir por conta própria;
+- cena em que apenas reagir ao protagonista tornaria sua agência artificialmente passiva;
+- situação fora da presença do protagonista em que suas decisões passam a produzir consequências relevantes.
+
+A ativação não exige que o personagem esteja fisicamente ao lado do protagonista. Uma mudança percebida ao longo de dias ou capítulos pode criar uma questão própria que justifique o uso eventual.
+
+Quando o núcleo de decisão termina ou deixa de estar em primeiro plano, a IA pode devolvê-lo ao funcionamento normal de NPC.
+
+Somente personagens com ficha em `personagens/` podem ser Jogadores Eventuais IA. Figurantes, inimigos comuns e fichas reservadas em `mestre/viloes/` não entram nesse mecanismo diretamente.
+
+Um personagem com `CONTROLE: NPC` **não pode ser ativado como jogador eventual**. Primeiro seria necessário mudar seu `CONTROLE` com aprovação explícita do usuário.
+
+#### NPC
+
+É interpretado pelo narrador. Possui agência, personalidade e objetivos, mas não recebe o ciclo operacional de jogador.
+
+> **NPC tem agência narrativa. Jogador IA tem agência operacional permanente. Jogador Eventual IA recebe agência operacional quando a IA decide ativá-lo.**
+
 ---
 
-## 2. Controle do jogador
+## 2. Controle do jogador humano
 
-O jogador controla seu personagem em tudo que constitui **decisão voluntária**.
+O jogador humano controla seu personagem em tudo que constitui **decisão voluntária**.
 
-Pertencem ao jogador:
+Pertencem ao jogador humano:
 
 - decisões;
 - falas;
@@ -52,9 +136,9 @@ Pertencem ao jogador:
 - decisões afetivas voluntárias;
 - decidir quando revelar informações que o personagem possui.
 
-O narrador não deve colocar fala, pensamento, decisão ou intenção relevante na boca ou na mente do personagem do jogador sem autorização.
+O narrador não deve colocar fala, pensamento, decisão ou intenção relevante na boca ou na mente do personagem do jogador humano sem autorização.
 
-### O que o narrador pode narrar no personagem do jogador
+### O que o narrador pode narrar no personagem do jogador humano
 
 O narrador pode descrever normalmente:
 
@@ -81,15 +165,15 @@ Pensamento direto usa:
 
 Durante o **RPG ao vivo**, porém, existe uma restrição obrigatória:
 
-- pensamentos explícitos só aparecem para o personagem controlado pelo jogador;
+- pensamentos explícitos só aparecem para o personagem controlado pelo jogador humano;
 - o jogador pode declarar esse pensamento diretamente;
 - o narrador pode reproduzi-lo ou normalizá-lo sem mudar o sentido;
-- o narrador não inventa pensamento voluntário para o personagem do jogador;
-- o narrador **não mostra pensamentos diretos de NPCs**, aliados, inimigos ou outros personagens que controla.
+- o narrador não inventa pensamento voluntário para o personagem do jogador humano;
+- o narrador **não mostra pensamentos diretos de NPCs, Jogadores IA ou Jogadores Eventuais IA**, salvo se uma diretriz específica da aventura alterar explicitamente essa convenção.
 
-Personagens controlados pelo narrador continuam possuindo interioridade e tomando decisões segundo ela. O jogador conhece essa interioridade apenas por aquilo que seu personagem consegue observar: fala, gesto, expressão, hesitação, ação, reação ou outra evidência plausível.
+Personagens controlados pelo narrador ou jogados pela IA continuam possuindo interioridade e tomando decisões segundo ela. O jogador humano conhece essa interioridade apenas por aquilo que seu personagem consegue observar: fala, gesto, expressão, hesitação, ação, reação ou outra evidência plausível.
 
-> **No RPG ao vivo, o jogador pode mostrar a mente do próprio personagem; a mente dos demais permanece do lado do narrador.**
+> **No RPG ao vivo, o jogador humano pode mostrar a mente do próprio personagem; a mente dos demais permanece fora de acesso direto por padrão.**
 
 ---
 
@@ -124,12 +208,13 @@ O narrador controla:
 - ambiente;
 - acontecimentos externos;
 - consequências;
-- personagens que não pertencem ao jogador;
+- personagens com `CONTROLE: NPC`;
+- Jogadores Eventuais IA enquanto estiverem inativos;
 - inimigos;
-- aliados;
+- aliados que permaneçam NPCs;
 - organizações;
 - passagem de tempo quando não existe decisão significativa;
-- informações que o personagem consegue perceber ou descobrir.
+- informações que cada personagem consegue perceber ou descobrir.
 
 Personagens Centrais e Relevantes controlados pelo narrador possuem **agência real**, conforme `agencia-de-personagens.md`.
 
@@ -151,7 +236,9 @@ Podem:
 
 O narrador pode usar objetivos, medos, desejos e pensamentos internos desses personagens para decidir suas ações, mas durante o RPG ao vivo **não apresenta essa interioridade como pensamento direto ao jogador**.
 
-Quando um antagonista relevante possuir ficha reservada em `mestre/viloes/`, essa ficha é uma fonte válida para o narrador decidir suas capacidades, objetivos, limites e ações. Ela **não é uma fonte de conhecimento automático para o jogador ou para o protagonista**.
+Personagens com `CONTROLE: JOGADOR IA` e Jogadores Eventuais IA ativos não devem ser tratados como extensões do narrador. A mesma IA executa ambas as funções, mas primeiro decide a intenção do personagem com conhecimento limitado àquele personagem e depois resolve o mundo como narradora.
+
+Quando um antagonista relevante possuir ficha reservada em `mestre/viloes/`, essa ficha é uma fonte válida para o narrador decidir suas capacidades, objetivos, limites e ações. Ela **não é uma fonte de conhecimento automático para jogadores ou protagonistas**.
 
 ---
 
@@ -196,6 +283,8 @@ Isso acontece especialmente quando:
 - dois objetivos passam a ser incompatíveis;
 - uma premissa do fluxo falha.
 
+Para personagens jogados pela IA, a mesma lógica vale: quando a situação exige uma nova decisão própria, a IA executa novamente o ciclo de jogador daquele personagem antes de o narrador resolver o próximo trecho.
+
 Exemplo:
 
 > `Vou até a porta e abro.`
@@ -226,7 +315,7 @@ Da mesma forma, se uma proteção começa a falhar, o narrador deve mostrar a fa
 
 ## 8. O mundo pode modificar o fluxo
 
-NPCs não são passivos dentro de uma ação declarada.
+NPCs e personagens jogados pela IA não são passivos dentro de uma ação declarada.
 
 Se o jogador declara um abraço, a outra pessoa pode:
 
@@ -237,11 +326,13 @@ Se o jogador declara um abraço, a outra pessoa pode:
 - puxá-lo para outro lugar;
 - propor outra ação.
 
-Essas iniciativas pertencem ao NPC e devem nascer de sua própria ficha, história, relação e vontade.
+Essas iniciativas pertencem ao outro personagem e devem nascer de sua própria ficha, história, relação e vontade.
 
-O narrador só devolve o controle imediatamente quando a mudança cria uma nova decisão relevante para o personagem do jogador.
+Se esse personagem for `JOGADOR IA` ou um `JOGADOR EVENTUAL IA` ativo, a iniciativa é escolhida pelo ciclo de jogador da IA. Se for NPC, é interpretada pelo narrador.
 
-Assim, NPCs possuem agência sem roubar do jogador o controle sobre sua própria resposta.
+O narrador só devolve o controle imediatamente quando a mudança cria uma nova decisão relevante para o personagem do jogador humano.
+
+Assim, todos possuem agência sem roubar do jogador humano o controle sobre sua própria resposta.
 
 ---
 
@@ -401,9 +492,11 @@ Peter não muda automaticamente.
 
 ## 14. Conversas sociais
 
-O jogador fala por seu personagem.
+O jogador humano fala por seu personagem.
 
-O narrador interpreta a reação de cada pessoa segundo:
+Personagens jogados pela IA falam e decidem por conta própria quando seu ciclo de jogador estiver ativo.
+
+O narrador interpreta NPCs segundo:
 
 - conteúdo real do argumento;
 - personalidade;
@@ -421,23 +514,37 @@ Não existe atributo universal de Carisma.
 
 Um argumento bom não deve falhar por causa de um valor social genérico inexistente.
 
-Também não existe obrigação de um NPC aceitar algo apenas porque o argumento foi bem formulado: ele continua possuindo objetivos, medos e limites próprios.
+Também não existe obrigação de um personagem aceitar algo apenas porque o argumento foi bem formulado: ele continua possuindo objetivos, medos e limites próprios.
 
 ---
 
 ## 15. Conhecimento do jogador e do personagem
 
-O jogador pode saber coisas que seu personagem não sabe.
+Jogadores podem saber coisas que seus personagens não sabem.
 
-O personagem só pode agir diretamente sobre informação que possua ou consiga inferir de forma plausível.
+Cada personagem só pode agir diretamente sobre informação que possua ou consiga inferir de forma plausível.
+
+Isso é especialmente obrigatório quando a IA acumula funções.
+
+```text
+CONHECIMENTO DA NARRADORA
+≠
+CONHECIMENTO DO JOGADOR IA
+≠
+CONHECIMENTO DE CADA PERSONAGEM
+```
+
+Se a narradora sabe que existe uma emboscada, um personagem Jogador IA não pode usar isso até possuir acesso, percepção ou inferência plausível.
+
+Dois personagens jogados pela mesma IA também não compartilham informação automaticamente. O que um descobre sozinho não passa ao outro sem uma forma ficcional de transmissão.
 
 Da mesma forma, NPCs não conhecem automaticamente ações ou planos do protagonista apenas porque o narrador os conhece.
 
-Informações armazenadas em `mestre/` são conhecimento do narrador. Elas só se tornam conhecimento do protagonista por acesso, percepção, investigação, revelação ou inferência plausível dentro da ficção.
+Informações armazenadas em `mestre/` são conhecimento do narrador. Elas só se tornam conhecimento de um personagem por acesso, percepção, investigação, revelação ou inferência plausível dentro da ficção.
 
-O mesmo princípio vale para a mente dos NPCs: o narrador pode saber exatamente o que um personagem pensa, mas durante o RPG ao vivo não transforma esse conhecimento em `[NPC, pensa] — ...` para o jogador.
+O mesmo princípio vale para a mente dos personagens: a IA pode saber exatamente o que um NPC ou Jogador IA pensa para interpretá-lo, mas durante o RPG ao vivo não transforma esse conhecimento em `[NPC, pensa] — ...` para o jogador humano por padrão.
 
-> **O narrador pode saber o segredo sem narrá-lo. Pode conhecer o pensamento sem mostrá-lo diretamente.**
+> **Uma IA pode exercer várias funções; cada função continua limitada ao conhecimento legítimo do personagem correspondente.**
 
 ---
 
@@ -459,7 +566,7 @@ O narrador não deve criar retroativamente:
 
 apenas para restaurar uma dificuldade que a preparação removeu.
 
-A mesma lógica vale para NPCs inteligentes usando informações que realmente possuam.
+A mesma lógica vale para NPCs e personagens Jogadores IA inteligentes usando informações que realmente possuam.
 
 Se um antagonista possui ficha reservada, ela também está sujeita a esta regra: o sigilo da ficha não permite modificá-la depois para escapar de uma preparação bem-sucedida do jogador.
 
@@ -476,9 +583,11 @@ O narrador pode avançar sozinho quando:
 - NPCs realizam ações próprias que não exigem intervenção imediata;
 - pequenas reações continuam dentro do mesmo fluxo.
 
-O narrador deve parar quando surge uma nova decisão significativa.
+O narrador deve parar quando surge uma nova decisão significativa do jogador humano.
 
-> **Avançar tudo que continua coberto pela decisão já tomada; parar quando a realidade exige outra.**
+Para Jogadores IA, a narradora não precisa pausar a sessão para perguntar ao usuário o que eles fazem: executa internamente o ciclo de decisão correspondente e continua até surgir uma decisão significativa do personagem humano.
+
+> **Avançar tudo que continua coberto pelas decisões já tomadas; parar quando a realidade exige nova decisão do jogador humano.**
 
 ---
 
@@ -523,7 +632,7 @@ Atualiza apenas o savegame operacional quando a infraestrutura disponível permi
 
 O padrão não é transformar o RPG em múltipla escolha.
 
-O narrador deve terminar a cena num ponto em que o jogador possa agir livremente.
+O narrador deve terminar a cena num ponto em que o jogador humano possa agir livremente.
 
 Pode mencionar possibilidades quando isso esclarece uma situação complexa, mas elas são exemplos, não a lista completa de ações possíveis.
 
@@ -539,10 +648,12 @@ Ao consolidar a campanha, atualizar a fonte apropriada para que outro chat não 
 
 Uma correção que afete material reservado deve ser aplicada ali sem expor outros segredos não relacionados.
 
+Mudar a categoria `CONTROLE` de um personagem é uma decisão estrutural e exige aprovação explícita do usuário. Isso é diferente de ativar ou desativar um personagem já aprovado como `JOGADOR EVENTUAL IA`, operação que pertence à IA durante o jogo.
+
 ---
 
 ## 21. Regra final do modo RPG
 
-> **O jogador não escreve sozinho a história. O narrador também não.**
+> **O jogador humano não escreve sozinho a história. A narradora também não.**
 >
-> **O jogador decide seu personagem. O narrador interpreta o mundo e os demais personagens. A resolução determina limites, efeitos e consequências. A história nasce quando todos têm direito de agir e o resultado real é respeitado. Durante a sessão, pensamentos explícitos pertencem apenas ao personagem do jogador; os demais personagens revelam sua interioridade por aquilo que fazem e mostram. Segredos podem permanecer ocultos; a realidade não pode ser reescrita retroativamente por conveniência.**
+> **O usuário decide seu personagem e decide quais personagens podem pertencer à IA como Jogadores permanentes ou eventuais. Um Jogador IA toma decisões próprias permanentemente. Um Jogador Eventual IA, depois de autorizado na ficha, pode ser ativado e desativado pela IA quando a situação justificar. NPCs continuam com agência narrativa, mas não recebem ciclo de jogador sem mudança explícita de CONTROLE. A narradora interpreta o mundo e resolve limites, efeitos e consequências. Mesmo quando a mesma IA joga personagens e narra, conhecimento de narradora e conhecimento de personagem permanecem separados. A história nasce quando cada função decide apenas aquilo que legitimamente lhe pertence e o resultado real é respeitado.**
