@@ -1,6 +1,6 @@
 # Corvin Blackwood
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 
 CONTROLE: JOGADOR HUMANO
 
