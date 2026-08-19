@@ -75,8 +75,9 @@ Demonologia [5] não representa apenas conhecimento teórico ou capacidade de la
 - Reconhece padrões de invocação, possessão, pactos, nomes, vínculos, âncoras, brechas e condições de manifestação.
 - Procura vencer entidades demoníacas por conhecimento, preparação e exploração de regras, não apenas por força mágica bruta.
 - Banimento, expulsão, contenção, quebra de vínculos e reversão de manifestações fazem parte natural de sua especialidade.
+- Pode redirecionar uma manifestação, alterar o alvo de uma possessão, devolver uma força ao vínculo que a originou ou induzir uma entidade a agir dentro de uma regra que acaba prejudicando seus próprios interesses, desde que exista uma estrutura demonológica real que permita a manobra.
 - Quando atua em território previamente preparado por ele, especialmente o Castelo dos Corvos, pode resolver uma intrusão demoníaca com gestos ou palavras aparentemente simples porque o trabalho complexo já está embutido nas proteções, runas e selos existentes.
-- Isso não significa que Corvin seja automaticamente mais poderoso que qualquer demônio em confronto aberto; sua vantagem está em saber como tornar uma entidade vulnerável às regras que permitem expulsá-la ou restringi-la.
+- Isso não significa que Corvin seja automaticamente mais poderoso que qualquer demônio em confronto aberto; sua vantagem está em saber como tornar uma entidade vulnerável às próprias regras que tornam sua presença possível.
 
 ### Ética e prática demonológica
 - Corvin não é um cultista maligno e não trata demônios como divindades ou mestres. Ele os estuda como entidades, potências, ecologias e sistemas de regras sobrenaturais.
@@ -86,6 +87,16 @@ Demonologia [5] não representa apenas conhecimento teórico ou capacidade de la
 - Pode estabelecer ligações mágicas com uma dimensão, plano ou fonte de energia sem necessariamente ligar-se ao seu senhor, desde que conheça as regras, âncoras e condições que tornam essa conexão possível.
 - Para Corvin, conhecer a diferença entre uma dimensão e quem a governa é parte essencial da demonologia: um senhor pode controlar grande parte de um domínio sem ser sinônimo absoluto de toda energia, espaço ou lei existente nele.
 - Sua prática favorece independência, engenharia de vínculos, negociação, redirecionamento de forças e exploração de brechas, em vez de devoção ou barganhas de poder pessoal.
+
+### Escala, preparo e assimetria
+- Magia [3] representa a capacidade mágica geral de Corvin. Fora de suas especializações ele é um feiticeiro poderoso, mas não um ápice universal de magia.
+- Demonologia [5] representa nível ápice dentro dessa capacidade específica. A comparação com referências de grau [5] vale para domínio da especialidade, não para força destrutiva bruta: Corvin não precisa ter mais energia que Trigon para fazê-lo andar em círculos dentro das próprias regras demonológicas.
+- MEN [5] é parte importante desse estilo. Corvin combina conhecimento técnico, leitura de situação, planejamento, engano, contratos, geopolítica sobrenatural e preparo para produzir soluções assimétricas.
+- Uma vitória pode consistir em fazer uma entidade possuir o alvo errado, alimentar o vínculo errado, aceitar uma condição mal formulada, desperdiçar poder contra uma defesa preparada ou descobrir tarde demais que sua própria regra foi usada contra ela.
+- Invocação [5] permite que Corvin, especialmente no campo demonológico, trabalhe com convocações de escala muito elevada quando dispõe de preparação, nomes, vínculos, materiais, condições e conhecimento suficientes.
+- Uma criatura invocada não se torna automaticamente serva obediente. Quanto mais poderosa a entidade, mais importantes são condições, limites, barganhas, contenção e consequências.
+- Com preparação adequada, Corvin pode trazer ao tabuleiro entidades ou forças poderosas o bastante para mudar o cálculo estratégico de um senhor como Trigon, irritá-lo, obrigá-lo a dividir atenção ou fazê-lo hesitar, sem que isso signifique que a invocação venceria Trigon em combate direto.
+- O princípio é o mesmo de um combatente inferior em poder bruto que derrota um adversário muito mais forte por informação, preparo e escolha correta do campo: a ficha mede o que Corvin domina, não garante vitória automática contra qualquer entidade.
 
 ## EQP
 - Patrimônio confortável, sem escala financeira absurda.
