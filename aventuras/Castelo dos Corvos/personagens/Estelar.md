@@ -18,6 +18,16 @@ TRAÇOS:
 - Princesa de Tamaran.
 - Personalidade calorosa e expansiva, mas com temperamento forte e postura feroz quando ameaçada.
 
+## Capacidades canônicas consolidadas
+- Força e velocidade super-humanas: sua natureza tamaraniana lhe concede capacidades físicas muito acima das humanas.
+- Voo: uma de suas capacidades fundamentais e recorrentes.
+- Starbolts / projeção de energia: pode disparar rajadas de energia ofensiva.
+- Energia ligada ao sol: seus poderes tamaranianos são alimentados por energia solar.
+- Guerreira tamaraniana: possui treinamento de combate e forte identidade ligada à cultura guerreira de Tamaran.
+- Experiência espacial: como princesa alienígena e veterana de conflitos extraterrestres, possui experiência com Tamaran, outras civilizações e ambientes fora da Terra.
+- Assimilação de idiomas por contato: pode adquirir conhecimento linguístico por contato físico.
+- Vontade e resiliência emocional: sobreviveu a exílio, escravidão e experimentação sem perder sua capacidade de criar vínculos e agir com compaixão.
+
 ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
 PER:
 
