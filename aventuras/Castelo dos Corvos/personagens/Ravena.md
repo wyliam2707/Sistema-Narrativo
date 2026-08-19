@@ -40,9 +40,14 @@ PODERES:
 - Magia [3] => Geral / Portal [4] / Disparo
 
 EQP:
+- Traje e manto usuais de Ravena.
+- Acesso aos recursos dos Titãs quando estiver atuando com a equipe.
+- Nenhum equipamento pessoal é necessário para usar seus poderes.
+
 REL:
-- Corvin Blackwood: par romântico central da campanha; no início da história ainda não o conhece pessoalmente e vai ao Castelo dos Corvos em busca de um livro relacionado a Trigon.
-- Titãs: integrante central da equipe nesta continuidade.
+- Titãs: sua equipe e principal grupo de vínculos recorrentes.
+- Trigon: pai e origem de sua herança demoníaca; relação perigosa e conflituosa.
+- Corvin Blackwood: no início da história ainda não o conhece pessoalmente e vai ao Castelo dos Corvos em busca de um livro relacionado a Trigon. O romance é eixo da campanha, mas a relação começa do zero.
 
 ## Personalidade e tendências
 
