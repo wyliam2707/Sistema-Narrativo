@@ -26,10 +26,20 @@ TRAÇOS:
 - Biologia metamorfa extraordinária: sua fisiologia alterada permite transformações muito além de uma simples mudança estética e pode sustentar adaptações corporais extremas.
 - Experiência com os Titãs: é um veterano consolidado da equipe e possui experiência prática de combate e operações heroicas em grupo.
 
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+ATR: FOR [0] | AGI [0] | RES [0] | MEN [0] | VON [2]
 PER:
+- Combate [+2]
+- Animais [+4]
+- Atuação [+2]
 
 PODERES:
+- Metamorfose Animal [2] => Formas pequenas [0] / Formas médias [1] / Formas grandes [2] / Formas extintas [3]
+
+Regra da Metamorfose:
+- Ao assumir uma forma animal, FOR, AGI e RES mudam de acordo com as capacidades coerentes daquele animal.
+- O grau da categoria da forma é o limite máximo que cada atributo físico da forma pode alcançar; ele não transforma automaticamente todos os atributos naquele valor.
+- Formas pequenas têm limite [0], formas médias limite [1], formas grandes limite [2] e formas extintas limite [3].
+- Capacidades próprias da forma, como voo, natação, sentidos especiais e modos de locomoção, são concedidas quando forem naturais e coerentes com o animal assumido.
 
 EQP:
 REL:
