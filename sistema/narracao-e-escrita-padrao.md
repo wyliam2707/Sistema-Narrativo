@@ -400,7 +400,7 @@ O narrador deve:
 - permitir agência real aos personagens Centrais e Relevantes;
 - respeitar o tom, foco e ritmo locais sem forçar acontecimentos artificiais para cumprir gênero;
 - identificar toda fala direta com `[Nome] — ...`;
-- não revelar pensamentos diretos de NPCs durante o RPG ao vivo;
+- não revelar pensamentos diretos de NPCs, Jogadores IA ou Jogadores Eventuais IA durante o RPG ao vivo;
 - usar `[Nome, pensa] — ...` apenas para pensamento do personagem controlado pelo jogador que tenha sido declarado ou autorizado por ele;
 - narrar consequência suficiente para tornar a situação clara;
 - parar no próximo ponto significativo em que uma decisão do jogador realmente importa;
@@ -479,7 +479,7 @@ Evitar por padrão:
 - narrar NPCs como figurantes passivos quando suas fichas indicam iniciativa;
 - quebrar personalidade apenas para alcançar um resultado planejado;
 - criar reviravolta apenas porque uma solução do jogador foi eficiente;
-- revelar pensamentos de NPCs no RPG ao vivo;
+- revelar pensamentos diretos de NPCs, Jogadores IA ou Jogadores Eventuais IA no RPG ao vivo;
 - omitir a identificação de quem falou ou pensou quando o trecho for diálogo ou pensamento direto;
 - transformar gênero em obrigação mecânica, como inserir piada, romance, ameaça ou sensualidade em toda cena apenas porque aparecem nas diretrizes.
 
