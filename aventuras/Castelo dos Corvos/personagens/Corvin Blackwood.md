@@ -6,6 +6,7 @@ CONTROLE: JOGADOR HUMANO
 
 ## Identidade
 - Nome: Corvin Blackwood
+- Idade real: 120 anos.
 
 ## Descrição
 - Altura: 1,90 m.
