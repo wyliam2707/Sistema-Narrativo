@@ -53,6 +53,13 @@ CONTROLE: JOGADOR HUMANO
 ATR: FOR [1] | AGI [0] | RES [2] | MEN [5] | VON [4]
 
 ## PERÍCIAS
+- Ocultista [+5] — grimórios, magia, demonologia, runas e conhecimento sobrenatural.
+- Pesquisador [+5] — localizar, comparar, interpretar e investigar textos e fontes antigas.
+- Ferreiro [+4] — forja e trabalho prático com metais e minerais.
+- Explorador [+3] — expedições, ruínas, locais remotos e busca de artefatos.
+- Etiqueta [+2] — etiqueta social, dança, costumes formais e conduta em ambientes sociais.
+- Esportes [+2] — condicionamento, práticas atléticas e atividades físicas gerais.
+- Combate [+1] — treinamento básico em esgrima e luta corpo a corpo.
 
 ## PODERES
 
