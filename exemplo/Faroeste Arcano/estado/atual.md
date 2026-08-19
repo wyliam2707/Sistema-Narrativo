@@ -10,7 +10,7 @@ O gado roubado permanece no cercado improvisado do acampamento.
 
 O grupo saiu do confronto sem ferimentos relevantes registrados.
 
-Um dos ladrões sobreviveu ferido no ombro, se rendeu e está sob controle do grupo.
+Um dos ladrões permaneceu consciente, ferido no ombro, se rendeu e está sob controle do grupo.
 
 Durante o interrogatório, ele revelou:
 
