@@ -42,6 +42,11 @@ PODERES:
 - Fator de Cura [2] => Si mesma
 - Armamento Mágico [1] => Espada / Arco / Contenção
 
+Regra do Armamento Mágico:
+- Donna possui algumas armas amazonas encantadas que podem causar dano mágico em vez de depender apenas de dano físico convencional.
+- Essas armas não dependem de munição consumível comum; quando uma arma exige projéteis, como o arco, o próprio encantamento supre o disparo necessário.
+- Espada, arco e recursos de contenção continuam sendo armas e ferramentas: o grau [1] representa a propriedade mágica adicional, não substitui a perícia de Donna no uso de armas.
+
 EQP:
 REL:
 - Titãs: membro recorrente da equipe.
