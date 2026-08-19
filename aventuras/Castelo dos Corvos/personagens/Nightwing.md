@@ -17,6 +17,16 @@ TRAÇOS:
 - Combatente humano sem poderes inatos.
 - Forte experiência em liderança e trabalho de equipe.
 
+## Capacidades canônicas consolidadas
+- Acrobacia de elite: formação circense desde criança, com capacidade ginástica excepcional e agilidade no limite humano.
+- Combate corpo a corpo: artista marcial excepcional, treinado por Batman e com enorme experiência prática.
+- Armas de combate: domínio dos bastões de escrima e de equipamentos personalizados.
+- Investigação e dedução: capacidade investigativa muito elevada, derivada de sua formação com Batman e de experiência própria.
+- Furtividade e infiltração: movimentação silenciosa, entrada em locais protegidos e atuação como vigilante urbano.
+- Condicionamento físico excepcional: força, reflexos, coordenação e resistência construídos por treinamento, não por poderes.
+- Liderança e tática: veterano acostumado a coordenar equipes e tomar decisões durante operações.
+- Experiência de vigilante: conhecimento prático de crime, patrulha urbana, perseguição, observação e operações clandestinas.
+
 ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
 PER:
 
