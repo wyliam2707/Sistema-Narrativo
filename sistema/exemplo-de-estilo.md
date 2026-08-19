@@ -4,6 +4,15 @@ Este arquivo existe apenas para **calibrar a forma da escrita**. Personagens, ce
 
 O objetivo é demonstrar ritmo, terceira pessoa próxima, descrição seletiva, diálogo explícito, subtexto, ação clara e passagem entre dramatização e resumo.
 
+Este trecho representa uma **forma literária consolidada**. Por isso, pensamentos explícitos podem pertencer a qualquer personagem quando fizer sentido. Durante o RPG ao vivo, pensamentos diretos de personagens controlados pelo narrador permanecem ocultos.
+
+Formato demonstrado:
+
+```text
+[Nome] — fala
+[Nome, pensa] — pensamento
+```
+
 ---
 
 # CAPÍTULO EXEMPLO
@@ -43,7 +52,7 @@ Helena olhou para a porta dos fundos.
 
 Fechada.
 
-[Helena] - Raul?
+[Helena] — Raul?
 
 O ruído parou.
 
@@ -55,13 +64,13 @@ Uma mão apareceu primeiro.
 
 Depois Raul ergueu a cabeça do outro lado, ainda ajoelhado.
 
-[Raul] - Se você gritar, vou considerar ofensivo.
+[Raul] — Se você gritar, vou considerar ofensivo.
 
 Helena fechou os olhos por um instante.
 
-[Helena] - Eu estava decidindo entre gritar e bater em você.
+[Helena] — Eu estava decidindo entre gritar e bater em você.
 
-[Raul] - Prefiro o grito.
+[Raul] — Prefiro o grito.
 
 Ele voltou a olhar para alguma coisa no chão.
 
@@ -75,27 +84,29 @@ Linhas finas ocupavam o concreto entre peças, cabos e parafusos. Não estavam p
 
 Helena ficou imóvel.
 
-[Helena] - Você tocou nisso?
+[Helena] — Você tocou nisso?
 
 Raul ergueu uma chave de boca.
 
-[Raul] - Tecnicamente.
+[Raul] — Tecnicamente.
+
+[Helena, pensa] — Ótimo. Claro que ele tinha tocado.
 
 Ela olhou para ele.
 
 Raul abaixou a ferramenta.
 
-[Raul] - Uma vez.
+[Raul] — Uma vez.
 
-[Helena] - Com a chave?
+[Helena] — Com a chave?
 
-[Raul] - Eu não sabia que era magia quando comecei.
+[Raul] — Eu não sabia que era magia quando comecei.
 
-[Helena] - E depois que soube?
+[Helena] — E depois que soube?
 
 Ele pensou.
 
-[Raul] - Aí eu parei de bater.
+[Raul] — Aí eu parei de bater.
 
 Helena respirou pelo nariz.
 
@@ -113,7 +124,7 @@ Muito pouco.
 
 Sempre para dentro.
 
-[Helena] - Afaste-se.
+[Helena] — Afaste-se.
 
 Raul obedeceu antes de perguntar.
 
@@ -131,9 +142,9 @@ Como uma mudança de altitude sem movimento.
 
 Ela retirou a mão.
 
-[Raul] - Ruim?
+[Raul] — Ruim?
 
-[Helena] - Ainda não sei.
+[Helena] — Ainda não sei.
 
 Os olhos dela acompanharam novamente as linhas.
 
@@ -143,21 +154,21 @@ Outra não.
 
 Helena franziu a testa.
 
-[Helena] - Você moveu alguma coisa daqui?
+[Helena] — Você moveu alguma coisa daqui?
 
-[Raul] - O carro.
+[Raul] — O carro.
 
 Ela olhou para a vaga vazia.
 
-[Helena] - Que carro?
+[Helena] — Que carro?
 
-[Raul] - O que estava em cima disso.
+[Raul] — O que estava em cima disso.
 
 Silêncio.
 
 Helena voltou lentamente o rosto para ele.
 
-[Raul] - Em minha defesa, o cliente queria o carro hoje.
+[Raul] — Em minha defesa, o cliente queria o carro hoje.
 
 A linha mais externa do círculo se acendeu.
 
@@ -169,11 +180,11 @@ Só uma luz branca, fina demais para iluminar a oficina.
 
 Helena já estava de pé.
 
-[Helena] - Raul.
+[Helena] — Raul.
 
-[Raul] - Sim.
+[Raul] — Sim.
 
-[Helena] - Agora você pode gritar.
+[Helena] — Agora você pode gritar.
 
 O chão abriu.
 
@@ -193,13 +204,13 @@ O metal gemeu.
 
 Os pés escorregaram alguns centímetros.
 
-[Raul] - Eu posso ajudar!
+[Raul] — Eu posso ajudar!
 
-[Helena] - Ótimo!
+[Helena] — Ótimo!
 
 Ela puxou outra vez.
 
-[Helena] - Comece não caindo!
+[Helena] — Comece não caindo!
 
 Raul encontrou apoio no armário.
 
@@ -221,15 +232,15 @@ Uma música alegre demais para a situação.
 
 Raul sentou no chão.
 
-[Raul] - Então...
+[Raul] — Então...
 
 Helena olhou para o círculo apagado.
 
-[Raul] - Ainda quer me bater?
+[Raul] — Ainda quer me bater?
 
 Ela continuou olhando.
 
-[Helena] - Mais do que antes.
+[Helena] — Mais do que antes.
 
 * * *
 
@@ -263,13 +274,13 @@ A partir dali, a conversa deixou de ser resumo.
 
 Helena ampliou a imagem.
 
-[Helena] - Quem é essa mulher?
+[Helena] — Quem é essa mulher?
 
 Raul se inclinou para ver.
 
 O rosto dele mudou.
 
-[Raul] - Eu conheço ela.
+[Raul] — Eu conheço ela.
 
 Helena esperou.
 
