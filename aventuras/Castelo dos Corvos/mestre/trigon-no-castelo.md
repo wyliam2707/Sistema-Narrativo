@@ -66,12 +66,26 @@ Com preparação suficiente, Corvin pode convocar criaturas, emissários, rivais
 
 Quanto maior a entidade, maior a importância de nomes, condições, selos, contratos, vínculos, materiais, terreno preparado e consequências. O grau [5] mede o alcance da invocação que Corvin pode executar; não transforma automaticamente a criatura invocada em escrava obediente.
 
+## Preparação de armas e cooperação tática
+Corvin não precisa ser o melhor combatente do grupo para que sua Demonologia [5] seja decisiva em um confronto físico.
+
+- Ele pode identificar a vulnerabilidade exata de uma entidade e preparar uma arma, foco, selo ou artefato para explorar essa vulnerabilidade.
+- Runas, proteções, materiais adequados, fórmulas demonológicas e encantamentos podem ser combinados em um objeto preparado especificamente para um alvo.
+- Uma adaga, espada, projétil, corrente, selo ou outro instrumento aparentemente simples pode tornar-se extremamente perigoso para uma entidade específica se carregar a combinação correta de efeito demonológico e preparação.
+- O poder da solução vem do preparo de Corvin e da escala da magia aplicada ao objeto; não exige que o próprio Corvin seja quem melhor sabe golpear com ele.
+- Se outro aliado for muito superior em combate, pode ser mais eficaz entregar a essa pessoa a arma correta enquanto Corvin mantém a entidade distraída, sustenta barreiras, controla vínculos, fecha rotas de fuga, interfere em invocações ou executa o restante do ritual.
+- Isso permite estratégias em que Corvin é o arquiteto da vulnerabilidade e outro personagem é o executor físico do golpe decisivo.
+
+Exemplo conceitual: Corvin pode passar semanas preparando a arma certa para ferir Trigon ou uma manifestação específica dele, descobrir exatamente quando e onde ela precisa atingir e criar a abertura necessária; ainda assim, pode decidir que um combatente muito melhor deve empunhá-la enquanto ele mantém Trigon ocupado com magia, invocações e manipulação das regras do confronto.
+
+O resultado não reduz Demonologia [5]. Ao contrário: demonstra que o poder de Corvin inclui transformar conhecimento, magia e preparação em uma ferramenta que torna possível a outra pessoa fazer algo que normalmente não conseguiria.
+
 ## Regra de escala
 - Magia [3] é a capacidade mágica geral de Corvin.
 - Demonologia [5] é uma escola de poder em grau ápice. Dentro de problemas demonológicos, ela pode fornecer conhecimento aplicado, escolha da técnica correta e potência mágica [5].
 - MEN [5] ajuda Corvin a descobrir qual solução usar, mas não é a fonte da potência de Demonologia [5].
 - Invocação [5] permite colocar no tabuleiro criaturas ou forças de escala extrema quando as condições da invocação são satisfeitas.
-- Preparação pode transformar uma diferença enorme de poder global em uma situação vencível. Encontrar a vulnerabilidade certa, preparar o campo, escolher o feitiço correto ou convocar a oposição adequada pode permitir que Corvin cause dano real, contenha ou derrote uma manifestação muito acima de sua Magia [3] geral.
+- Preparação pode transformar uma diferença enorme de poder global em uma situação vencível. Encontrar a vulnerabilidade certa, preparar o campo, escolher o feitiço correto, construir a arma adequada ou convocar a oposição certa pode permitir que Corvin cause dano real, contenha ou derrote uma manifestação muito acima de sua Magia [3] geral.
 
 ## Assimetria e relação com Trigon
 O mundo da campanha não é obrigado a ser justo, simétrico ou mecanicamente equilibrado entre personagens. Capacidades podem criar confrontos extremamente desfavoráveis para um lado quando a especialização correta encontra o alvo certo.
