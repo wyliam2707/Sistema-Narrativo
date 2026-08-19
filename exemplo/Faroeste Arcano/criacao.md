@@ -28,3 +28,15 @@ Revisão final: CONCLUÍDA
 ## Pendências para revisão
 
 Nenhuma pendência metodológica registrada neste exemplo.
+
+## Ajuste posterior de controle
+
+Após a conclusão da criação, o sistema passou a registrar explicitamente quem possui o ciclo de decisão de cada personagem.
+
+Controle atual aprovado:
+
+- Dik Vigarista — JOGADOR HUMANO
+- Adan Stanfor — JOGADOR EVENTUAL IA
+- Lucia James — JOGADOR EVENTUAL IA
+
+Este ajuste não altera conceito, mecânica, história ou relações dos personagens.
