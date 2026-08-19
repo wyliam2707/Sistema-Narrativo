@@ -2,6 +2,7 @@
 
 Status: APROVADO
 Importância: Central
+CONTROLE: JOGADOR HUMANO
 
 Idade: 32 anos
 Conceito: Caçador de recompensas humano
