@@ -1,6 +1,6 @@
 # Donna Troy
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 Importância: Relevante
 CONTROLE: JOGADOR EVENTUAL IA
 
@@ -62,10 +62,27 @@ REL:
 - Themyscira / Amazonas: povo, cultura e formação que moldaram Donna.
 
 ## Personalidade e tendências
+- Serena, responsável e bastante madura.
+- Afetuosa e protetora com pessoas próximas, sem perder firmeza quando precisa assumir liderança.
+- Tem forte disciplina amazona, mas não é rígida ou distante.
+- Costuma funcionar como uma presença estabilizadora dentro dos Titãs.
 
 ## Desejos/objetivos atuais
+- Proteger os Titãs e as pessoas que considera família.
+- Honrar sua formação amazona sem viver apenas à sombra de Diana ou de Themyscira.
+- Manter uma identidade própria como Donna Troy.
+- Construir uma vida pessoal além de deveres heroicos e responsabilidades.
 
 ## Medos/limites relevantes
+- Falhar com pessoas que confiam nela.
+- Perder alguém por hesitar quando deveria agir.
+- Ser definida apenas como discípula, substituta ou extensão de outra heroína.
+- Permitir que responsabilidade e dever ocupem toda a sua vida.
 
 ## História consolidada relevante
-
+- Donna foi criada entre as Amazonas de Themyscira.
+- Recebeu formação de guerreira e teve Diana como importante figura de mentoria.
+- Tornou-se heroína ainda jovem e adotou a identidade de Wonder Girl antes de construir uma identidade própria.
+- Foi uma das integrantes históricas dos Titãs e desenvolveu vínculos duradouros com a equipe.
+- Com o tempo, consolidou-se como guerreira, heroína e líder por mérito próprio.
+- Sua vida amorosa está aberta no início da campanha, sem relacionamento atual previamente definido.
