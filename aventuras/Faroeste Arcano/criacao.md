@@ -2,7 +2,9 @@
 
 Status geral: CONCLUÍDA
 
-1. Cenário: APROVADO
+1. Direção narrativa e cenário: APROVADO
+   - Diretrizes narrativas: APROVADO
+   - Cenário: APROVADO
 2. Protagonista: APROVADO
 3. Personagens relevantes: APROVADO
 4. Início da história: APROVADO
@@ -21,6 +23,7 @@ Revisão final: CONCLUÍDA
 - O início aprovado da história deve ser armazenado em `estado/inicio.md`. Esse arquivo preserva o ponto de partida aprovado da campanha e não deve ser sobrescrito conforme a história avança; `estado/atual.md` continua sendo o savegame operacional mutável. O exemplo foi corrigido para seguir esse padrão.
 - Toda campanha deve criar, junto com sua estrutura inicial, um `README.md` curto em cada pasta estrutural. Esses arquivos materializam as pastas no Git, explicam sua finalidade para outras IAs e permanecem como legenda da organização mesmo depois que a pasta recebe conteúdo real. O protocolo, a organização de aventura e os modelos foram atualizados para tornar isso padrão.
 - Falas e pensamentos foram padronizados. Toda fala direta usa `[Personagem] — fala`. Durante o RPG ao vivo, pensamento explícito aparece somente para o personagem controlado pelo jogador e usa `[Personagem, pensa] — pensamento`; pensamentos de NPCs permanecem internos ao narrador e são percebidos apenas por sinais da ficção. No livro consolidado, pensamentos de qualquer personagem podem aparecer nesse mesmo formato quando forem coerentes com a cena e não alterarem o cânone. O Capítulo 1 foi corrigido para identificar todas as falas.
+- A Etapa 1 da criação foi ampliada para `Direção narrativa e Cenário`. Primeiro se define que tipo de história o jogador quer viver — gênero ou combinação, tom, foco, ritmo, humor, romance/intimidade, atmosfera e demais escolhas que realmente importarem — e isso é salvo em `diretrizes/narracao.md`. Separadamente, `mundo/cenario.md` guarda apenas a realidade do mundo. O Faroeste Arcano foi reorganizado para servir de exemplo dessa separação.
 
 ## Pendências para revisão
 
