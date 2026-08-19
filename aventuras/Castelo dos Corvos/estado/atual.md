@@ -11,6 +11,7 @@ Status: EM JOGO
 - Corvin analisou discretamente o vínculo demonológico de Ravena com Trigon usando Demonologia [5]: o vínculo existe e é profundo, mas não há intrusão ativa de Trigon neste momento.
 - Corvin ofereceu hospedagem no castelo enquanto Ravena estuda. Ela aceitou ficar ao menos durante a pesquisa.
 - Corvin advertiu que um estudo sério pode levar meses e que Ravena deve avisar os Titãs para evitar que interpretem sua ausência como desaparecimento e iniciem uma operação de resgate no castelo.
+- Ao perguntar quanto poderia contar sobre Corvin aos amigos, Ravena recebeu autorização para dizer o que quisesse: Corvin não se considera escondido, apenas recluso.
 - O controle está com o JOGADOR HUMANO após essa observação de Corvin.
 
 ## Regras operacionais relevantes
@@ -19,6 +20,7 @@ Status: EM JOGO
 ## Conhecimento atual
 - Corvin conhece Ravena publicamente pelos Titãs e agora teve o primeiro contato pessoal com ela.
 - Ravena sabe que Corvin possui uma extensa coleção demonológica e que ele aceita ajudá-la dentro das regras da biblioteca.
+- Ravena sabe que Corvin não exige segredo sobre sua identidade ou sobre ela estar hospedada no castelo; ele se define como recluso, não oculto.
 - Ravena está começando a perceber que o vínculo com Trigon pode funcionar como ponte bidirecional, mas Corvin a advertiu contra conclusões e ações precipitadas.
 
 ## Relações atuais
