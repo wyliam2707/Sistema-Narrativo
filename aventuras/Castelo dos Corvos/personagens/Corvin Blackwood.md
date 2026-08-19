@@ -8,7 +8,7 @@ CONTROLE: JOGADOR HUMANO
 - Nome: Corvin Blackwood
 - Idade real: 120 anos.
 - Idade aparente: 26 anos.
-- Natureza: humano imortal pertencente a uma antiga raça.
+- Natureza: humano imortal da raça dos Antigos.
 - Vocação: feiticeiro e demonologista.
 
 ## Descrição
@@ -20,7 +20,9 @@ CONTROLE: JOGADOR HUMANO
 - A referência visual usa roupas escuras em camadas, sobretudo longo, couro, luvas e botas, criando uma aparência entre aristocrata gótico, caçador e guerreiro antigo adaptado ao mundo moderno.
 
 ## TRAÇOS
-- Imortalidade ligada à sua natureza racial.
+- Antigo: pertence a uma antiga linhagem humana cujos membros não envelhecem.
+- Imortalidade por idade: não envelhece biologicamente.
+- Afinidade mágica inata: os Antigos possuem grande afinidade natural com magia. A expressão mecânica dessa afinidade será definida apenas na revisão.
 
 ## Personalidade e tendências
 
