@@ -2,6 +2,7 @@
 
 Status: APROVADO
 Importância: Relevante
+CONTROLE: JOGADOR EVENTUAL IA
 
 Idade: 35
 Conceito: Caçador de recompensas; amigo e companheiro de Dik Vigarista.
