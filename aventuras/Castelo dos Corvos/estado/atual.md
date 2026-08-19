@@ -12,15 +12,20 @@ Status: EM JOGO
 - Corvin ofereceu hospedagem no castelo enquanto Ravena estuda. Ela aceitou ficar ao menos durante a pesquisa.
 - Corvin advertiu que um estudo sério pode levar meses e que Ravena deve avisar os Titãs para evitar que interpretem sua ausência como desaparecimento e iniciem uma operação de resgate no castelo.
 - Ao perguntar quanto poderia contar sobre Corvin aos amigos, Ravena recebeu autorização para dizer o que quisesse: Corvin não se considera escondido, apenas recluso.
-- O controle está com o JOGADOR HUMANO após essa observação de Corvin.
+- Corvin explicou que Ravena não conseguirá se teleportar livremente pelo interior do castelo, e que a biblioteca em particular não será liberada para entrada direta por portal.
+- Corvin pretende preparar na sala uma área autorizada de entrada e saída por teleporte, um ponto em que as proteções da casa não tentarão bloquear a passagem de Ravena.
+- O controle está com o JOGADOR HUMANO após essa explicação de Corvin.
 
 ## Regras operacionais relevantes
 - Todo uso de magia de Corvin é tratado como Magia comum [3] por padrão, a menos que o jogador declare explicitamente outra especialização.
+- As proteções do Castelo dos Corvos restringem teleporte não autorizado pelo interior; pontos específicos podem ser liberados por Corvin.
+- A biblioteca permanece fora de qualquer ponto de teleporte autorizado para Ravena.
 
 ## Conhecimento atual
 - Corvin conhece Ravena publicamente pelos Titãs e agora teve o primeiro contato pessoal com ela.
 - Ravena sabe que Corvin possui uma extensa coleção demonológica e que ele aceita ajudá-la dentro das regras da biblioteca.
 - Ravena sabe que Corvin não exige segredo sobre sua identidade ou sobre ela estar hospedada no castelo; ele se define como recluso, não oculto.
+- Ravena sabe que não poderá usar teleporte livremente pelo castelo e que Corvin pretende criar um ponto específico, na sala, para entrada e saída autorizadas.
 - Ravena está começando a perceber que o vínculo com Trigon pode funcionar como ponte bidirecional, mas Corvin a advertiu contra conclusões e ações precipitadas.
 
 ## Relações atuais
