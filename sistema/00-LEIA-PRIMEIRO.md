@@ -26,10 +26,10 @@ Não pedir ao jogador para repetir informações que os arquivos já conseguem f
 7. `sistema/checklist-do-narrador.md` — referência operacional curta para aplicar as regras durante a sessão sem reler todos os documentos a cada resolução.
 8. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
 9. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
-10. `sistema/protocolo-de-criacao.md` — processo de nova campanha: nome, estrutura completa, quatro etapas conceituais, salvamento pendente de revisão e conversão mecânica posterior.
+10. `sistema/protocolo-de-criacao.md` — processo de nova campanha: nome, estrutura completa, direção narrativa e cenário, personagens, início, revisão e conversão mecânica posterior.
 11. `sistema/protocolo-de-fechamento-de-capitulo.md` — como `Salvar capítulo`, `Fechar capítulo` e `Concluir capítulo` consolidam a sessão, salvam o livro e atualizam continuidade.
 12. `sistema/organizacao-de-aventura.md` — como consultar, organizar e salvar uma aventura.
-13. `sistema/modelos.md` — modelos de ficha, STATUS, Progressão, READMEs estruturais e arquivos de campanha.
+13. `sistema/modelos.md` — modelos de direção narrativa, ficha, STATUS, Progressão, READMEs estruturais e arquivos de campanha.
 14. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
 
 ## Separação obrigatória
@@ -52,12 +52,13 @@ Contém:
 ### `aventuras/<nome>/`
 Contém apenas dados daquela história:
 - criação e revisão, enquanto a campanha estiver sendo montada;
+- direção narrativa específica em `diretrizes/narracao.md`;
 - personagens concretos;
 - material reservado do narrador em `mestre/`, quando existir;
 - mundo e regras específicas;
 - relações;
 - progressões narrativas e consequências ainda vivas;
-- exceções ou complementos de narração daquela aventura;
+- outras exceções ou complementos de narração daquela aventura;
 - cronologia;
 - estado atual;
 - capítulos ou registro canônico do que aconteceu.
@@ -113,10 +114,19 @@ Não existe XP ou recompensa mecânica automática por missão. A campanha progr
 
 A criação usa quatro etapas conceituais:
 
-1. Cenário;
+1. Direção narrativa e Cenário;
 2. Protagonista;
 3. Personagens relevantes;
 4. Início da história.
+
+A primeira etapa separa duas perguntas:
+
+```text
+Que tipo de história o jogador quer viver? → diretrizes/narracao.md
+Em que mundo essa história acontece?       → mundo/cenario.md
+```
+
+Gênero e tom não são opções fechadas. O jogador pode combinar livremente comédia, romance, romance adulto, terror, ação, investigação, faroeste, drama ou qualquer outra direção desejada.
 
 Assim que o nome da campanha é definido, a estrutura completa é criada com `README.md` em cada pasta estrutural e `criacao.md` para acompanhar o processo.
 
@@ -124,7 +134,7 @@ Cada etapa é salva como `PENDENTE DE REVISÃO`. A aplicação de atributos, per
 
 Aliados relevantes podem começar apenas com nomes e fichas estruturais ainda vazias. Inimigos comuns não precisam de arquivo individual. Antagonistas importantes podem receber ficha reservada em `mestre/viloes/` quando isso passar a ser necessário.
 
-> **Conceito primeiro. Mecânica depois.**
+> **Direção narrativa primeiro. Mundo e conceito depois. Mecânica por último.**
 
 ### Fechamento e salvamento de capítulo
 `protocolo-de-fechamento-de-capitulo.md` determina **como transformar o material jogado em capítulo literário canônico e atualizar as fontes de continuidade**.
@@ -153,9 +163,11 @@ Essas camadas trabalham juntas, mas uma não substitui a outra.
 
 Toda aventura começa usando `sistema/narracao-e-escrita-padrao.md`.
 
+Durante a criação, `diretrizes/narracao.md` registra a direção narrativa específica escolhida para aquela campanha. Esse arquivo pode definir gênero, combinação de gêneros, tom, foco, ritmo, humor, romance/intimidade, atmosfera, ênfases ou outras escolhas locais.
+
 As diretrizes da aventura podem alterar qualquer parte do estilo, mas devem declarar a exceção explicitamente. Tudo que não for alterado continua herdado do padrão do sistema.
 
-Assim, outra IA não precisa consultar uma aventura antiga para descobrir como escrever: o modelo-base já existe dentro de `sistema/`.
+Assim, outra IA não precisa consultar uma aventura antiga para descobrir como escrever: primeiro lê o modelo-base e depois a direção narrativa da campanha atual.
 
 ## Princípio de operação
 
@@ -163,7 +175,7 @@ O narrador não deve decidir primeiro o que a trama precisa que aconteça e depo
 
 A ordem correta é:
 
-> **Sistema + ficha + história + relações + estado atual + circunstância → intenção dos personagens → resolução → consequência → nova história.**
+> **Sistema + direção narrativa + ficha + história + relações + estado atual + circunstância → intenção dos personagens → resolução → consequência → nova história.**
 
 Durante o RPG, o jogador mantém controle sobre as decisões voluntárias de seu personagem, enquanto o narrador controla o mundo e interpreta os demais personagens segundo suas próprias fichas, histórias e objetivos.
 
@@ -176,6 +188,7 @@ A aventura nasce dessas decisões e consequências.
 Ao continuar uma aventura em outro chat ou com outra IA, não dependa de memória de conversa anterior. Consulte os arquivos da aventura.
 
 O registro persistente da aventura deve permitir reconstruir:
+- que tipo de história deve ser narrada e com qual tom;
 - quem cada personagem é;
 - o que cada um pode fazer;
 - quais antagonistas ou segredos reservados ao narrador ainda estão ativos, quando existirem;
@@ -187,6 +200,8 @@ O registro persistente da aventura deve permitir reconstruir:
 - quais exceções de narração valem naquela campanha.
 
 Os `README.md` estruturais ajudam a localizar rapidamente cada tipo de informação, mas a continuidade factual continua pertencendo aos arquivos canônicos correspondentes.
+
+Ao carregar uma campanha, consultar `diretrizes/narracao.md` antes de narrar novas cenas.
 
 Ao consultar `mestre/`, separar rigorosamente **o que o narrador sabe** daquilo que o protagonista pode saber.
 
