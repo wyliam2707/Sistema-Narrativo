@@ -61,3 +61,4 @@ CONTROLE: JOGADOR HUMANO
 - Castelo dos Corvos: grande residência isolada e principal base de Corvin.
 
 ## REL
+- Ravena: conhece apenas por televisão, jornais e aparições públicas ligadas aos Titãs; no início da campanha ainda não houve contato pessoal entre os dois.
