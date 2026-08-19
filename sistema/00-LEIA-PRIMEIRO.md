@@ -94,6 +94,8 @@ Capacidade não cria informação inexistente. Competência aprofunda a leitura 
 
 A unidade fundamental do jogo não é o turno. É a resolução.
 
+Durante o RPG ao vivo, toda fala direta usa `[Nome] — ...`. Pensamento direto usa `[Nome, pensa] — ...`, mas pensamentos explícitos aparecem somente para o personagem controlado pelo jogador. A interioridade dos NPCs permanece com o narrador e é percebida apenas por sinais disponíveis na ficção.
+
 ### Agência
 `agencia-de-personagens.md` determina **como personagens controlados pelo narrador escolhem suas próprias intenções** segundo ficha, personalidade, história, conhecimento, relações, objetivos e STATUS.
 
@@ -131,7 +133,9 @@ Os comandos `Salvar capítulo`, `Fechar capítulo` e `Concluir capítulo` são e
 
 O protocolo para a ficção no ponto atual, consulta as fontes necessárias, consolida somente os acontecimentos válidos, remove metacomunicação e versões descartadas, salva em `livro/` e atualiza cronologia, Progressão, fichas, relacionamentos e estado apenas quando pertinente.
 
-Quando material reservado do narrador for relevante, ele pode ser consultado e atualizado sem expor ao livro ou ao jogador informações que não foram descobertas na ficção.
+No livro consolidado, falas continuam identificadas como `[Nome] — ...`, enquanto pensamentos de qualquer personagem podem aparecer como `[Nome, pensa] — ...` quando forem coerentes com a cena e não alterarem o cânone.
+
+Quando material reservado do narrador for relevante, ele pode ser consultado e atualizado sem expor ao livro ou ao jogador informações que não foram descobertas na ficção ou que não pertençam legitimamente ao ponto de vista literário adotado.
 
 > **A consolidação melhora a forma; não muda os fatos.**
 
