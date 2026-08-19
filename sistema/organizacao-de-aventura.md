@@ -4,24 +4,46 @@ Este documento ensina como transformar as regras universais de `sistema/` em uma
 
 ## Estrutura recomendada
 
-Cada campanha deve ficar em uma pasta própria:
+Cada campanha deve ficar em uma pasta própria e nascer com toda a sua estrutura materializada por `README.md`:
 
 ```text
 aventuras/<nome-da-aventura>/
 ├── README.md
+├── criacao.md
 ├── diretrizes/
+│   └── README.md
 ├── personagens/
+│   └── README.md
 ├── mestre/
+│   ├── README.md
 │   └── viloes/
+│       └── README.md
 ├── mundo/
+│   └── README.md
 ├── relacionamento/
+│   └── README.md
 ├── progressao/
+│   └── README.md
 ├── cronologia/
+│   └── README.md
 ├── estado/
+│   ├── README.md
 │   ├── inicio.md
 │   └── atual.md
 └── livro/
+    └── README.md
 ```
+
+Git não preserva diretórios vazios. Por isso, os `README.md` estruturais são parte da organização padrão e **devem ser criados junto com a campanha**, não apenas quando a pasta receber seu primeiro conteúdo real.
+
+Cada `README.md` estrutural deve ser curto e suficiente para outra IA entender:
+
+- a função da pasta;
+- o que deve ser armazenado ali;
+- o que não pertence ali quando houver risco de confusão;
+- regras especiais de visibilidade, cânone ou persistência daquela área.
+
+Esses arquivos permanecem mesmo depois que a pasta ganha outros conteúdos. Eles funcionam como legenda permanente da estrutura.
 
 ## Função de cada pasta
 
@@ -35,6 +57,8 @@ Deve informar:
 - hierarquia de cânone;
 - quais diretrizes devem ser lidas antes de narrar;
 - onde está o estado atual.
+
+Durante a criação, o `README.md` da raiz pode ser provisório e apenas indicar que a campanha está em montagem e apontar para `criacao.md`. Depois da aprovação final, deve ser atualizado para a porta de entrada completa da campanha.
 
 ### `diretrizes/`
 Define **como aquela aventura deve ser narrada**.
@@ -50,6 +74,8 @@ Pode conter:
 
 Essas diretrizes pertencem à aventura e **não** ao sistema universal.
 
+O `diretrizes/README.md` deve explicar essa função mesmo que nenhuma exceção específica tenha sido criada ainda.
+
 ### `personagens/`
 Contém as fichas estáveis e normalmente apresentáveis ao jogador de personagens Centrais e Relevantes.
 
@@ -62,6 +88,8 @@ A ficha responde principalmente:
 Ferimentos, cansaço, condições temporárias, favores, acessos e relações circunstanciais não pertencem automaticamente à ficha permanente.
 
 Antagonistas cuja ficha precise permanecer oculta durante o jogo não ficam aqui; usar `mestre/viloes/`.
+
+O `personagens/README.md` deve deixar essa separação explícita.
 
 ### `mestre/`
 Área reservada ao narrador para informação que deve existir de forma persistente sem ser apresentada ao jogador antes de ser descoberta na ficção.
@@ -85,6 +113,8 @@ Regras:
 - mudanças posteriores na ficha precisam nascer de acontecimentos reais da ficção.
 
 Se um antagonista deixar de exigir sigilo, sua ficha pode continuar em `mestre/viloes/` ou ser migrada para `personagens/` quando isso melhorar a organização.
+
+`mestre/README.md` e `mestre/viloes/README.md` devem existir desde a criação da campanha para lembrar outra IA de que essa área é reservada e de como usá-la sem vazar metaconhecimento.
 
 ### `mundo/`
 Contém regras e fatos específicos do cenário:
@@ -207,6 +237,8 @@ Informação operacional que precise continuar secreta não deve ser colocada nu
 
 > **`estado/atual.md` responde “onde esta história está agora?”.**
 
+O `estado/README.md` deve explicar desde o começo a diferença entre `inicio.md` e `atual.md`.
+
 ### `livro/`
 Contém o registro canônico consolidado do que realmente aconteceu, em capítulos ou outra forma narrativa definida pelas diretrizes da aventura.
 
@@ -328,6 +360,8 @@ Ao encerrar um capítulo ou bloco canônico:
 
 `estado/inicio.md` **não é atualizado no fechamento normal de capítulo**. Ele continua preservando o ponto inicial aprovado da campanha.
 
+Os `README.md` estruturais também não são registros de sessão e normalmente não precisam mudar em cada fechamento. Atualizá-los apenas quando a própria função ou organização da pasta mudar.
+
 ## Hierarquia de cânone
 
 Cada aventura deve definir sua própria hierarquia no `README.md`.
@@ -352,22 +386,25 @@ Material em `mestre/` pode definir verdades ainda desconhecidas pelo protagonist
 
 `progressao/` é autoridade prática sobre consequências ainda vivas, mas não pode inventar fatos que não existam no livro, cronologia ou demais fontes canônicas.
 
+Os `README.md` estruturais descrevem **organização**, não acontecimentos. Eles não têm prioridade para contradizer conteúdo canônico; sua função é orientar onde cada tipo de informação deve ser encontrado.
+
 ## Continuação em outro chat
 
 Para retomar uma campanha sem contexto anterior:
 
 1. ler o sistema universal;
 2. ler o `README.md` da aventura;
-3. ler as diretrizes indicadas;
-4. ler as fichas dos personagens presentes ou centrais;
-5. consultar `mestre/` silenciosamente quando houver antagonistas ou segredos relevantes para a continuação;
-6. consultar relações e mundo relevantes;
-7. consultar a Progressão relevante para personagens, locais e organizações envolvidos;
-8. ler a cronologia suficiente para entender a situação;
-9. ler `estado/atual.md`;
-10. consultar o último capítulo consolidado quando necessário;
-11. consultar `estado/inicio.md` apenas quando for necessário reconstruir ou conferir o ponto de partida original;
-12. só então continuar a narrativa.
+3. consultar os `README.md` estruturais das áreas que forem necessárias para compreender onde cada informação está;
+4. ler as diretrizes indicadas;
+5. ler as fichas dos personagens presentes ou centrais;
+6. consultar `mestre/` silenciosamente quando houver antagonistas ou segredos relevantes para a continuação;
+7. consultar relações e mundo relevantes;
+8. consultar a Progressão relevante para personagens, locais e organizações envolvidos;
+9. ler a cronologia suficiente para entender a situação;
+10. ler `estado/atual.md`;
+11. consultar o último capítulo consolidado quando necessário;
+12. consultar `estado/inicio.md` apenas quando for necessário reconstruir ou conferir o ponto de partida original;
+13. só então continuar a narrativa.
 
 Ao consultar `mestre/`, outra IA deve usar a informação para manter continuidade **sem apresentá-la ao jogador como conhecimento do protagonista**.
 
