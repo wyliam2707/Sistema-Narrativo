@@ -95,6 +95,22 @@ Preservar:
 - ferimentos, perdas, ganhos e alterações do mundo;
 - ordem causal dos acontecimentos.
 
+Toda fala direta preservada no livro deve ficar identificada no formato:
+
+```text
+[Nome] — Fala.
+```
+
+Pensamento direto, quando usado, deve ficar no formato:
+
+```text
+[Nome, pensa] — Pensamento.
+```
+
+Durante o RPG ao vivo, pensamentos explícitos de NPCs permanecem ocultos. **No livro consolidado**, pensamentos de qualquer personagem podem aparecer quando fizerem sentido literário e forem coerentes com o cânone.
+
+Isso não autoriza inventar motivação decisiva, informação secreta, conhecimento ou escolha que contradiga o que realmente aconteceu.
+
 > **Correção fora da história altera o cânone; não vira cena dentro do livro.**
 
 ---
@@ -114,18 +130,23 @@ Reconstruir os acontecimentos usando:
 - melhorar transições;
 - condensar ações repetitivas;
 - transformar descrição mecânica em prosa natural;
-- organizar diálogos para leitura;
+- organizar diálogos para leitura sem perder a identificação `[Nome] — ...`;
 - resumir passagem de tempo sem importância dramática;
-- dramatizar acontecimentos cuja fala, reação ou subtexto realmente importam.
+- dramatizar acontecimentos cuja fala, reação ou subtexto realmente importam;
+- explicitar pensamentos de qualquer personagem no livro quando isso aprofunda a cena sem alterar os fatos, usando `[Nome, pensa] — ...`.
 
 Não é permitido:
 
 - inventar acontecimentos para preencher lacunas;
 - alterar a decisão do jogador;
-- criar pensamentos decisivos não estabelecidos para o personagem do jogador;
+- criar pensamento decisivo não estabelecido para o personagem do jogador apenas para justificar retroativamente uma ação;
+- inventar pensamento de NPC que introduza fato, plano, segredo ou conhecimento não sustentado pelas fontes da aventura;
 - mudar resultado mecânico ou causal já resolvido;
 - antecipar acontecimentos do capítulo seguinte;
-- introduzir retroativamente poderes, relações ou regras para tornar a cena mais elegante.
+- introduzir retroativamente poderes, relações ou regras para tornar a cena mais elegante;
+- remover a identificação de quem falou ou pensou quando o trecho for fala ou pensamento direto.
+
+O livro pode oferecer interioridade de personagens que não estava disponível ao jogador durante a sessão. Essa interioridade deve funcionar como recurso literário, não como desculpa para reescrever o cânone.
 
 > **A consolidação melhora a forma, não reescreve os fatos.**
 
@@ -257,6 +278,6 @@ Nesse caso, interpretar o comando como pedido para executar o **método equivale
 
 ## 11. Regra final
 
-> **Salvar capítulo = parar a ficção, consultar as fontes, consolidar somente o que realmente aconteceu, escrever na forma literária correta, atualizar continuidade e deixar um ponto exato para retomar.**
+> **Salvar capítulo = parar a ficção, consultar as fontes, consolidar somente o que realmente aconteceu, escrever na forma literária correta, manter falas e pensamentos identificados, atualizar continuidade e deixar um ponto exato para retomar.**
 
 > **`Salvar capítulo`, `Fechar capítulo` e `Concluir capítulo` significam a mesma coisa.**
