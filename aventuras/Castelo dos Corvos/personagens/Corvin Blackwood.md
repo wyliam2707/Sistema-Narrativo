@@ -59,7 +59,10 @@ ATR: FOR [1] | AGI [0] | RES [2] | MEN [5] | VON [4]
 - Explorador [+3] — expedições, ruínas, locais remotos e busca de artefatos.
 - Etiqueta [+2] — etiqueta social, dança, costumes formais e conduta em ambientes sociais.
 - Esportes [+2] — condicionamento, práticas atléticas e atividades físicas gerais.
+- Artista [+2]
 - Combate [+1] — treinamento básico em esgrima e luta corpo a corpo.
+- Sedução [+1]
+- Medicina [+1]
 
 ## PODERES
 
