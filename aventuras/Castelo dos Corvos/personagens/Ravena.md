@@ -1,6 +1,6 @@
 # Ravena
 
-Status: EM ANDAMENTO
+Status: PENDENTE DE REVISÃO
 Importância: Central
 CONTROLE: JOGADOR IA
 
@@ -18,6 +18,7 @@ PODERES:
 EQP:
 REL:
 - Corvin Blackwood: par romântico central da campanha; situação inicial da relação ainda não definida.
+- Titãs: integrante central da equipe nesta continuidade.
 
 ## Personalidade e tendências
 
