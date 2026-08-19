@@ -91,14 +91,33 @@ A declaração do jogador é intenção, não resultado garantido.
 Capacidade não cria informação inexistente. Competência aprofunda a leitura daquilo que realmente está disponível.
 
 ### Modo RPG
-`modo-rpg.md` determina **quem controla cada decisão, quando a cena avança e quando o controle retorna ao jogador**.
+`modo-rpg.md` determina **quem possui o ciclo de decisão de cada personagem, quando a cena avança e quando o controle retorna ao jogador humano**.
+
+As fichas podem usar:
+
+```text
+JOGADOR HUMANO
+JOGADOR IA
+JOGADOR EVENTUAL IA
+NPC
+```
+
+Jogadores IA possuem ciclo próprio de decisão e usam somente o conhecimento legítimo do personagem que controlam. Jogadores Eventuais IA alternam entre funcionamento de NPC e ciclo de jogador conforme as regras de `modo-rpg.md`.
 
 A unidade fundamental do jogo não é o turno. É a resolução.
 
 Durante o RPG ao vivo, toda fala direta usa `[Nome] — ...`. Pensamento direto usa `[Nome, pensa] — ...`, mas pensamentos explícitos aparecem somente para o personagem controlado pelo jogador. A interioridade dos NPCs permanece com o narrador e é percebida apenas por sinais disponíveis na ficção.
 
 ### Agência
-`agencia-de-personagens.md` determina **como personagens controlados pelo narrador escolhem suas próprias intenções** segundo ficha, personalidade, história, conhecimento, relações, objetivos e STATUS.
+`agencia-de-personagens.md` determina **como NPCs, Jogadores IA e Jogadores Eventuais IA formam suas próprias intenções** segundo ficha, personalidade, história, conhecimento, relações, objetivos, STATUS, direção narrativa e situação.
+
+A diferença está em quem executa o ciclo de decisão:
+
+```text
+NPC → narrador
+Jogador IA → IA como jogadora
+Jogador Eventual IA → IA como jogadora quando ativado
+```
 
 Antagonistas reservados ao narrador continuam sujeitos à mesma agência e às mesmas regras. O sigilo de sua ficha não permite alterar retroativamente capacidades para contrariar o jogador.
 
