@@ -71,7 +71,8 @@ A ficha usa apenas cinco atributos universais:
 - **MEN — Mente:** raciocínio, percepção, análise, cálculo, precisão mental e controle de efeitos mentais/mágicos quando apropriado.
 - **VON — Vontade:** determinação, resistência mental, capacidade de continuar sob pressão, sustentar ou impor efeitos quando isso depender de força de vontade.
 
-Não existe atributo universal de Poder e não existe atributo universal de Controle.
+Não existe atributo mecânico universal de Poder nem de Controle.
+O campo estrutural `CONTROLE` da ficha define quem possui o ciclo de decisão do personagem e não é um atributo mecânico.
 
 ### Potência e execução são coisas diferentes
 
