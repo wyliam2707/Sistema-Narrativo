@@ -19,6 +19,16 @@ TRAÇOS:
 - Forte identidade ligada ao conflito entre humanidade e máquina.
 - Veterano dos Titãs.
 
+## Capacidades canônicas consolidadas
+- Força e resistência super-humanas: o corpo reconstruído permite capacidades físicas muito além das humanas.
+- Tecnologia integrada: seus sistemas avançados fazem parte permanente do corpo, não sendo apenas equipamento vestido.
+- Interface e controle tecnológico: consegue conectar-se a computadores, redes e outros sistemas tecnológicos, interagindo com eles de forma direta.
+- Armamento interno: possui sistemas ofensivos e pode produzir disparos de energia por meio de seu corpo cibernético.
+- Teleporte: sua tecnologia integrada permite deslocamento por teletransporte em aplicações coerentes com a versão adotada na campanha.
+- Intelecto excepcional: Victor possui grande capacidade intelectual e tecnológica independentemente dos implantes.
+- Sensores, comunicação e processamento: seus sistemas ampliam análise de dados, comunicação e percepção tecnológica.
+- Experiência de combate e operações heroicas: é veterano dos Titãs e possui longa experiência usando seus sistemas em campo.
+
 ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
 PER:
 
