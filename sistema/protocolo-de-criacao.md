@@ -22,7 +22,7 @@ Se o jogador escolher **nova campanha**, iniciar este protocolo.
 
 ## 2. Nome da campanha vem primeiro
 
-Antes de qualquer pergunta de cenário, perguntar:
+Antes de qualquer pergunta de criação, perguntar:
 
 > **Qual será o nome da campanha?**
 
@@ -65,7 +65,7 @@ Cada `README.md` estrutural deve ser curto e explicar:
 
 Funções mínimas esperadas:
 
-- `diretrizes/` — regras específicas de narração e funcionamento daquela campanha;
+- `diretrizes/` — direção narrativa e regras específicas de narração e funcionamento daquela campanha;
 - `personagens/` — fichas apresentáveis de personagens Centrais e Relevantes;
 - `mestre/` — material persistente reservado ao narrador;
 - `mestre/viloes/` — fichas ocultas de antagonistas importantes quando necessárias;
@@ -91,7 +91,9 @@ Modelo inicial de `criacao.md`:
 
 Status geral: EM CRIAÇÃO
 
-1. Cenário: NÃO INICIADO
+1. Direção narrativa e cenário: NÃO INICIADO
+   - Diretrizes narrativas: NÃO INICIADO
+   - Cenário: NÃO INICIADO
 2. Protagonista: NÃO INICIADO
 3. Personagens relevantes: NÃO INICIADO
 4. Início da história: NÃO INICIADO
@@ -113,6 +115,8 @@ Durante as quatro etapas conceituais:
 - se o jogador disser `decida você`, escolher uma opção coerente e continuar;
 - parar de perguntar quando já houver informação suficiente para aquela etapa;
 - detalhes menores podem ser criados durante a própria campanha quando passarem a importar.
+
+As opções apresentadas ao jogador são **exemplos, nunca uma lista fechada**. O jogador pode combinar gêneros, tons e focos livremente.
 
 > **Perguntar apenas aquilo que o jogador realmente precisa decidir.**
 
@@ -147,18 +151,68 @@ Fichas reservadas em `mestre/viloes/` seguem uma exceção: não passam por apro
 
 # AS QUATRO ETAPAS CONCEITUAIS
 
-## 5. Etapa 1 — Cenário
+## 5. Etapa 1 — Direção narrativa e Cenário
 
-Objetivo: definir **o suficiente do mundo e da proposta para sustentar os personagens e a história inicial**.
+Objetivo: definir **que tipo de história o jogador quer viver e em que mundo essa história acontece**.
+
+A etapa possui duas partes relacionadas, mas salva cada uma no lugar correto:
+
+```text
+Direção narrativa → diretrizes/narracao.md
+Cenário           → mundo/cenario.md
+```
+
+### 5.1. Direção narrativa — que tipo de história queremos?
+
+Começar pela experiência desejada. Uma pergunta inicial útil é:
+
+> **Que tipo de história você quer viver?**
+
+Exemplos possíveis incluem aventura, drama, comédia, comédia romântica, romance, romance adulto ou erótico, terror, investigação, ação, sobrevivência, política, faroeste ou qualquer combinação descrita pelo jogador.
+
+A lista é apenas ilustrativa. Não transformar gênero em menu fechado.
+
+Conforme a resposta, perguntar somente o que ainda for necessário para entender a direção. Podem importar:
+
+- gênero ou combinação de gêneros;
+- tom principal e tons secundários;
+- foco narrativo;
+- ritmo desejado;
+- presença e natureza do humor;
+- romance e intimidade, quando relevantes;
+- atmosfera;
+- elementos que devem receber mais espaço;
+- elementos que devem ser evitados ou usados com moderação;
+- exceções ao modelo narrativo universal.
+
+Nem todo campo precisa ser perguntado ou preenchido.
+
+Exemplo: se o jogador disser `comédia romântica adulta leve`, o narrador já possui gênero, tom e parte do foco. Deve perguntar apenas o que realmente faltar para começar a campanha.
+
+Outro exemplo:
+
+```text
+Gênero principal: romance adulto
+Tom secundário: comédia romântica
+Ambientação: fantasia urbana
+Ritmo: cotidiano com momentos intensos
+```
+
+Essas informações pertencem a `diretrizes/narracao.md`, não a `mundo/cenario.md`.
+
+### 5.2. Cenário — em que mundo essa história acontece?
+
+Depois ou em conjunto com a direção narrativa, definir o suficiente do mundo para sustentar os personagens e a abertura.
 
 Perguntar uma coisa por vez conforme necessário. Exemplos de informação que podem importar:
 
 - universo ou tipo de cenário;
-- gênero;
-- foco da campanha;
-- tom;
 - local principal;
 - época, se relevante;
+- tecnologia;
+- magia ou sobrenatural;
+- regras específicas do mundo;
+- organizações ou estruturas essenciais à premissa;
 - se for fanfic, grau de fidelidade ao cânone;
 - adaptações gerais desejadas;
 - elementos obrigatórios já declarados pelo jogador.
@@ -167,13 +221,27 @@ Não perguntar detalhes sem utilidade imediata apenas para preencher o mundo.
 
 Se o jogador escolher um universo conhecido, o narrador pode usar seu conhecimento para preencher detalhes secundários e deve perguntar apenas quando existir uma escolha de adaptação que realmente importe.
 
+### Separação obrigatória entre direção e mundo
+
+`diretrizes/narracao.md` responde principalmente:
+
+> **Como esta campanha deve ser sentida e narrada?**
+
+`mundo/cenario.md` responde principalmente:
+
+> **Que mundo existe e como ele funciona?**
+
+Não duplicar automaticamente o mesmo texto nos dois arquivos.
+
+Uma informação pode influenciar ambos, mas deve ser registrada segundo sua função. `Magia é pública` é fato de cenário. `Magia cotidiana não deve ser narrada como espetáculo toda vez que aparece` é diretriz narrativa.
+
 ### Fechamento da etapa
 
-Quando houver cenário suficiente:
+Quando houver direção narrativa e cenário suficientes:
 
-1. consolidar as decisões;
+1. criar ou atualizar `diretrizes/narracao.md`;
 2. criar ou atualizar `mundo/cenario.md`;
-3. marcar no arquivo:
+3. marcar ambos como:
 
 ```text
 Status: PENDENTE DE REVISÃO
@@ -182,10 +250,14 @@ Status: PENDENTE DE REVISÃO
 4. atualizar em `criacao.md`:
 
 ```text
-1. Cenário: PENDENTE DE REVISÃO
+1. Direção narrativa e cenário: PENDENTE DE REVISÃO
+   - Diretrizes narrativas: PENDENTE DE REVISÃO
+   - Cenário: PENDENTE DE REVISÃO
 ```
 
 5. seguir para a Etapa 2 sem iniciar ainda a revisão.
+
+Se o jogador não desejar nenhuma exceção especial de estilo além do padrão universal, `diretrizes/narracao.md` ainda pode existir de forma mínima, registrando a direção geral escolhida e que o restante é herdado do sistema.
 
 ---
 
@@ -415,14 +487,15 @@ Ainda não iniciar a primeira cena.
 
 ## 9. Só revisar depois das quatro etapas
 
-Depois que Cenário, Protagonista, Personagens relevantes e Início da história estiverem organizados, iniciar a revisão.
+Depois que Direção narrativa e Cenário, Protagonista, Personagens relevantes e Início da história estiverem organizados, iniciar a revisão.
 
 A revisão serve para:
 
 - corrigir conceitos;
 - confirmar o que será canônico;
+- confirmar a direção narrativa desejada;
 - aplicar atributos, perícias, poderes e demais regras;
-- verificar coerência entre cenário e personagens;
+- verificar coerência entre direção narrativa, cenário e personagens;
 - preparar o estado inicial real da campanha.
 
 > **Conceito primeiro. Mecânica depois.**
@@ -443,9 +516,32 @@ Fichas reservadas do narrador não são apresentadas nesta revisão. Elas obedec
 
 ---
 
-## 10. Revisão do cenário
+## 10. Revisão da direção narrativa e do cenário
 
-Apresentar `mundo/cenario.md` ao jogador de forma organizada.
+A revisão da Etapa 1 acontece em duas partes, na mesma ordem em que a campanha será interpretada.
+
+### Diretrizes narrativas
+
+Apresentar `diretrizes/narracao.md` ao jogador.
+
+O jogador pode:
+
+- aprovar;
+- corrigir;
+- combinar ou separar tons;
+- alterar foco ou ritmo;
+- acrescentar ou remover ênfases;
+- alterar qualquer escolha local de narração.
+
+Depois da confirmação, marcar:
+
+```text
+Status: APROVADO
+```
+
+### Cenário
+
+Depois, apresentar `mundo/cenario.md` ao jogador de forma organizada.
 
 O jogador pode:
 
@@ -460,7 +556,15 @@ Depois da confirmação, marcar:
 Status: APROVADO
 ```
 
-O cenário passa a ser fonte válida da aventura.
+Atualizar `criacao.md`:
+
+```text
+1. Direção narrativa e cenário: APROVADO
+   - Diretrizes narrativas: APROVADO
+   - Cenário: APROVADO
+```
+
+A partir daí, `diretrizes/narracao.md` define a direção narrativa local e `mundo/cenario.md` define a realidade do mundo.
 
 ---
 
@@ -718,19 +822,19 @@ e não são exibidas ao jogador para aprovação.
 
 ## 17. Revisão do início da história
 
-Depois que cenário e fichas estiverem aprovados, revisar `estado/inicio.md` como **o começo concreto da história**.
+Depois que direção narrativa, cenário e fichas estiverem aprovados, revisar `estado/inicio.md` como **o começo concreto da história**.
 
 Apresentar a base consolidada, ajustar com o jogador e reapresentar até aprovação.
 
 Verificar se o início é coerente com:
 
+- direção narrativa e tom escolhidos;
 - capacidades reais dos personagens;
 - relações estabelecidas;
 - cenário;
 - localização;
 - informação disponível;
-- motivações atuais;
-- tom da campanha.
+- motivações atuais.
 
 O início pode estabelecer:
 
@@ -751,7 +855,7 @@ Depois da aprovação:
 
 1. marcar `estado/inicio.md` como `APROVADO`;
 2. criar `estado/atual.md` com o ponto operacional exato em que a campanha começa;
-3. atualizar o `README.md` da raiz da aventura, criado no início, para que passe de porta de entrada provisória a porta de entrada completa da campanha.
+3. atualizar o `README.md` da raiz da aventura para apontar para `diretrizes/narracao.md`, `mundo/cenario.md`, estado e demais fontes necessárias.
 
 ---
 
@@ -764,7 +868,9 @@ Quando tudo estiver aprovado, `criacao.md` deve ficar aproximadamente assim:
 
 Status geral: CONCLUÍDA
 
-1. Cenário: APROVADO
+1. Direção narrativa e cenário: APROVADO
+   - Diretrizes narrativas: APROVADO
+   - Cenário: APROVADO
 2. Protagonista: APROVADO
 3. Personagens relevantes: APROVADOS
 4. Início da história: APROVADO
@@ -793,15 +899,17 @@ Ler `criacao.md`, localizar a primeira etapa ainda não concluída ou a revisão
 Exemplo:
 
 ```text
-1. Cenário: PENDENTE DE REVISÃO
+1. Direção narrativa e cenário: PENDENTE DE REVISÃO
+   - Diretrizes narrativas: APROVADO
+   - Cenário: PENDENTE DE REVISÃO
 2. Protagonista: PENDENTE DE REVISÃO
 3. Personagens relevantes: EM ANDAMENTO
 4. Início da história: NÃO INICIADO
 ```
 
-Nesse caso, retomar pela Etapa 3.
+Nesse caso, a parte conceitual já avançou até a Etapa 3, mas a revisão futura ainda deverá resolver o cenário pendente sem reabrir as diretrizes já aprovadas.
 
-Se a criação conceitual já terminou e a revisão foi interrompida, localizar qual personagem e qual **campo ou bloco** ainda estão pendentes e continuar dali, sem recomeçar partes já aprovadas.
+Se a criação conceitual já terminou e a revisão foi interrompida, localizar qual arquivo, personagem e qual **campo ou bloco** ainda estão pendentes e continuar dali, sem recomeçar partes já aprovadas.
 
 > **Não perguntar ao jogador onde parou quando o próprio arquivo de criação consegue responder.**
 
@@ -816,8 +924,10 @@ Perguntar nome
 ↓
 Criar estrutura completa + README.md em cada pasta estrutural + criacao.md
 ↓
-1. CENÁRIO
-perguntas úteis → organizar → PENDENTE DE REVISÃO
+1. DIREÇÃO NARRATIVA E CENÁRIO
+que tipo de história? → diretrizes/narracao.md
+em que mundo? → mundo/cenario.md
+ambos → PENDENTE DE REVISÃO
 ↓
 2. PROTAGONISTA
 conceito + ficha estrutural → PENDENTE DE REVISÃO
@@ -829,7 +939,9 @@ elenco; aliados podem começar só com nomes + fichas estruturais vazias → PEN
 situação inicial concreta → PENDENTE DE REVISÃO
 ↓
 REVISÃO
-cenário
+diretrizes/narracao.md
+↓
+mundo/cenario.md
 ↓
 personagens relevantes/NPCs visíveis → 4 blocos por personagem
 ↓
@@ -855,4 +967,4 @@ README.md estrutural → permanece explicando a função da pasta
 
 ## Regra final
 
-> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar sem recriar, calibrar cada personagem por si mesmo e começar assim que houver uma base sólida aprovada. A estrutura completa da campanha, com um `README.md` explicativo em cada pasta estrutural, nasce assim que o nome é definido. O personagem do jogador recebe revisão campo por campo, com ATRIBUTOS, PERÍCIAS e PODERES como blocos próprios; os demais personagens apresentáveis são revisados em quatro blocos. Inimigos comuns não exigem burocracia; antagonistas ocultos podem ter continuidade própria sem entregar seus segredos ao jogador.**
+> **Criar uma campanha não é preencher uma ficha gigante antes de jogar. É primeiro descobrir que tipo de história o jogador quer viver e em que mundo ela acontece, fazer poucas perguntas úteis, preservar cada etapa, organizar o conceito, revisar sem recriar, calibrar cada personagem por si mesmo e começar assim que houver uma base sólida aprovada. A direção narrativa fica em `diretrizes/narracao.md`; a realidade do mundo fica em `mundo/cenario.md`. A estrutura completa da campanha, com um `README.md` explicativo em cada pasta estrutural, nasce assim que o nome é definido. O personagem do jogador recebe revisão campo por campo, com ATRIBUTOS, PERÍCIAS e PODERES como blocos próprios; os demais personagens apresentáveis são revisados em quatro blocos. Inimigos comuns não exigem burocracia; antagonistas ocultos podem ter continuidade própria sem entregar seus segredos ao jogador.**
