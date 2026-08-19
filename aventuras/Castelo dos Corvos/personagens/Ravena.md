@@ -28,10 +28,16 @@ TRAÇOS:
 - Herança demoníaca de Trigon: fonte de potencial sobrenatural excepcional, acompanhada de risco de corrupção, perda de controle ou manifestação de aspectos sombrios.
 - Conhecimento do sobrenatural: formação e experiência significativas com magia, demônios, fenômenos espirituais e dimensões sobrenaturais.
 
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+ATR: FOR [0] | AGI [0] | RES [1] | MEN [1] | VON [5]
 PER:
+- Ocultista [+4]
+- Meditação [+5]
+- Combate [+2]
 
 PODERES:
+- Empatia [3] => Sentir emoções / Absorver dor / Manipular emoções
+- Alma Astral [4] => Manifestação / Telecinese / Contenção / Voo / Deslocamento dimensional
+- Magia [3] => Geral / Portal [4] / Disparo
 
 EQP:
 REL:
