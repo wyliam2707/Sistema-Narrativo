@@ -50,6 +50,13 @@ Conhecimento do narrador ou do jogador não deve entrar automaticamente na consc
 
 A mudança de ponto de vista pode acontecer entre cenas ou quando a aventura permitir, mas não deve produzir metaconhecimento acidental.
 
+Existe uma diferença obrigatória entre **RPG ao vivo** e **livro consolidado**:
+
+- durante o RPG ao vivo, a narração não entra diretamente nos pensamentos de personagens controlados pelo narrador; o jogador percebe esses personagens por falas, ações, expressões e outros sinais acessíveis ao seu personagem;
+- no livro consolidado, pensamentos explícitos de qualquer personagem podem aparecer quando fizerem sentido para a cena e para o ponto de vista literário adotado.
+
+O livro pode oferecer interioridade mais ampla que a sessão, mas não deve transformar isso em alternância caótica de ponto de vista nem inventar fatos que contradigam o cânone.
+
 ---
 
 ## 3. Parágrafos e ritmo
@@ -128,21 +135,52 @@ O sobrenatural, tecnologia, poderes e regras do mundo devem existir naturalmente
 
 ---
 
-## 6. Diálogo
+## 6. Falas e marcação de personagem
+
+Toda fala direta usa identificação explícita do personagem.
 
 Formato padrão:
 
 ```text
-[Nome] - Fala.
+[Nome] — Fala.
 ```
 
-Quando necessário:
+Exemplo:
 
 ```text
-[Nome, pensamento] - Pensamento.
+[Helena] — Não toque nisso.
 ```
 
-O nome explícito evita ambiguidade e ajuda a manter vozes distintas durante RPG longo.
+O nome explícito evita ambiguidade, facilita campanhas longas e preserva a identidade de quem falou quando a sessão for consolidada em livro.
+
+Não substituir esse padrão por diálogo sem identificação apenas por preferência literária, salvo quando uma aventura declarar explicitamente outra convenção em `diretrizes/`.
+
+### Pensamento direto
+
+Quando um pensamento aparecer de forma direta, usar:
+
+```text
+[Nome, pensa] — Pensamento.
+```
+
+O marcador canônico é `pensa`.
+
+Não usar `[Nome, pensamento]`, aspas internas ou travessão sem identificação como substitutos do formato padrão quando se tratar de pensamento direto explicitado.
+
+### Diferença entre RPG e livro
+
+Durante o **RPG ao vivo**:
+
+- falas de qualquer personagem usam `[Nome] — ...`;
+- pensamentos diretos só podem aparecer para o personagem controlado pelo jogador;
+- o narrador não escreve `[NPC, pensa] — ...` nem revela diretamente a interioridade de NPCs;
+- NPCs continuam pensando e decidindo segundo sua agência, mas isso aparece ao jogador apenas por sinais acessíveis na ficção.
+
+No **livro consolidado**:
+
+- falas continuam usando `[Nome] — ...`;
+- pensamentos diretos podem aparecer para qualquer personagem no formato `[Nome, pensa] — ...` quando isso acrescentar algo à cena;
+- pensamentos não devem ser usados para inventar decisões, fatos ou segredos que contradigam o que realmente aconteceu.
 
 ### Voz individual
 
@@ -183,6 +221,12 @@ Mostrar pensamentos quando eles:
 Evitar transformar cada ação em explicação psicológica.
 
 Quando uma emoção já está clara pelo comportamento, não é necessário repeti-la em pensamento e depois explicá-la novamente na narração.
+
+Durante o RPG ao vivo, o narrador **não usa acesso direto à mente de NPCs como recurso narrativo para o jogador**. Pode saber o que eles pensam para interpretá-los, mas mostra apenas comportamento, fala e sinais perceptíveis.
+
+O personagem controlado pelo jogador só recebe pensamento explícito quando o próprio jogador o declarou ou autorizou. O narrador não inventa pensamentos voluntários para ele.
+
+No livro consolidado, pensamentos de qualquer personagem podem ser explicitados quando coerentes com a cena. Essa liberdade literária serve para aprofundar personagens, não para alterar decisões já tomadas ou revelar gratuitamente informação reservada que não pertença ao ponto de vista adotado.
 
 ---
 
@@ -318,12 +362,15 @@ Não é obrigatório em toda transição.
 
 ## 14. Narração durante o RPG
 
-Durante o jogo, manter o mesmo estilo geral de prosa, mas respeitar a agência do jogador.
+Durante o jogo, manter o mesmo estilo geral de prosa, mas respeitar a agência do jogador e a diferença entre aquilo que o narrador sabe e aquilo que o jogador pode perceber.
 
 O narrador deve:
 
 - controlar mundo e personagens que não pertencem ao jogador;
 - permitir agência real aos personagens Centrais e Relevantes;
+- identificar toda fala direta com `[Nome] — ...`;
+- não revelar pensamentos diretos de NPCs durante o RPG ao vivo;
+- usar `[Nome, pensa] — ...` apenas para pensamento do personagem controlado pelo jogador que tenha sido declarado ou autorizado por ele;
 - narrar consequência suficiente para tornar a situação clara;
 - parar no próximo ponto significativo em que uma decisão do jogador realmente importa;
 - não transformar uma frase curta do jogador em horas de história sem necessidade;
@@ -351,9 +398,16 @@ Ao transformar material jogado em capítulo:
 - reconstruir transições;
 - preservar quem sabia o quê em cada momento;
 - tratar todos os personagens como pessoas da história, não como `PC` e `NPC`;
-- manter a agência demonstrada durante o jogo.
+- manter a agência demonstrada durante o jogo;
+- identificar todas as falas diretas com `[Nome] — ...`;
+- quando houver pensamento direto, usar `[Nome, pensa] — ...`;
+- permitir pensamentos de qualquer personagem quando forem coerentes com a cena e acrescentarem interioridade sem mudar os fatos.
 
 A versão literária não deve parecer uma sessão transcrita.
+
+O livro pode explicitar interioridade que permaneceu oculta durante o RPG ao vivo, inclusive de NPCs, desde que isso não invente acontecimento, decisão, conhecimento ou segredo incompatível com o cânone e com o ponto de vista literário adotado.
+
+Não inventar pensamentos decisivos do personagem do jogador para justificar retroativamente uma ação. Quando sua motivação não foi estabelecida, preservar a ambiguidade em vez de fabricar uma razão.
 
 Formato padrão de capítulo:
 
@@ -392,7 +446,9 @@ Evitar por padrão:
 - usar poderes como lista de comandos;
 - narrar NPCs como figurantes passivos quando suas fichas indicam iniciativa;
 - quebrar personalidade apenas para alcançar um resultado planejado;
-- criar reviravolta apenas porque uma solução do jogador foi eficiente.
+- criar reviravolta apenas porque uma solução do jogador foi eficiente;
+- revelar pensamentos de NPCs no RPG ao vivo;
+- omitir a identificação de quem falou ou pensou quando o trecho for diálogo ou pensamento direto.
 
 ---
 
