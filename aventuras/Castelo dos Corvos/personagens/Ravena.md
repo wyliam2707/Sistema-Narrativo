@@ -6,6 +6,7 @@ CONTROLE: JOGADOR IA
 
 Idade: 24 anos.
 Conceito: Ravena dos Titãs, em versão adulta, definida como par romântico central de Corvin Blackwood.
+Fidelidade: base canônica adaptada — preservar identidade, personalidade, origem, poderes e relações essenciais da personagem, permitindo adaptações necessárias à continuidade própria da campanha, à idade de 24 anos, ao romance com Corvin e ao cenário híbrido Marvel/DC.
 Descrição:
 
 TRAÇOS:
