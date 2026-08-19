@@ -48,8 +48,18 @@ Regra do Armamento Mágico:
 - Espada, arco e recursos de contenção continuam sendo armas e ferramentas: o grau [1] representa a propriedade mágica adicional, não substitui a perícia de Donna no uso de armas.
 
 EQP:
+- Traje de combate amazona.
+- Armamento mágico pessoal:
+  - Espada encantada, capaz de causar dano mágico.
+  - Arco mágico, que não depende de munição física comum.
+  - Recurso mágico de contenção.
+- Comunicador dos Titãs.
+- Acesso aos recursos dos Titãs e, quando apropriado, de Themyscira.
+
 REL:
-- Titãs: membro recorrente da equipe.
+- Titãs: equipe veterana e uma de suas principais famílias escolhidas.
+- Diana / Mulher-Maravilha: importante figura de mentoria e vínculo amazona.
+- Themyscira / Amazonas: povo, cultura e formação que moldaram Donna.
 
 ## Personalidade e tendências
 
