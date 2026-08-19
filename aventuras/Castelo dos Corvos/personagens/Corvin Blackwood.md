@@ -70,14 +70,16 @@ ATR: FOR [1] | AGI [0] | RES [2] | MEN [5] | VON [4]
 - Sentido Místico [5] => Localizar / Rastrear / Sentir magia
 
 ### Especialização demonológica
-Demonologia [5] não representa apenas conhecimento teórico ou capacidade de lançar magia contra demônios. Corvin é especialista em compreender e explorar as regras pelas quais entidades demoníacas agem.
+Demonologia [5] é uma especialização de PODER, não uma perícia. Dentro do campo demonológico, Corvin opera na escala plena de grau [5]. Isso inclui tanto domínio técnico quanto potência mágica quando aplicada por meios demonológicos.
 
-- Reconhece padrões de invocação, possessão, pactos, nomes, vínculos, âncoras, brechas e condições de manifestação.
-- Procura vencer entidades demoníacas por conhecimento, preparação e exploração de regras, não apenas por força mágica bruta.
-- Banimento, expulsão, contenção, quebra de vínculos e reversão de manifestações fazem parte natural de sua especialidade.
-- Pode redirecionar uma manifestação, alterar o alvo de uma possessão, devolver uma força ao vínculo que a originou ou induzir uma entidade a agir dentro de uma regra que acaba prejudicando seus próprios interesses, desde que exista uma estrutura demonológica real que permita a manobra.
+- Sabe reconhecer exatamente o que fere, restringe, bane ou enfraquece diferentes demônios e entidades relacionadas.
+- Sabe quais barreiras, selos, círculos, nomes, fórmulas, frequências mágicas, materiais, vínculos e condições são adequados contra cada tipo de ameaça.
+- Pode produzir efeitos demonológicos de força bruta em escala [5] quando o efeito pertence de fato a essa escola: banimentos, contenções, rupturas, ataques especializados, inversões de vínculo, expulsões e outras aplicações equivalentes.
+- Pode redirecionar uma manifestação, alterar o alvo de uma possessão, devolver uma força ao vínculo que a originou ou induzir uma entidade a agir dentro de uma regra que prejudique seus próprios interesses, desde que exista uma estrutura demonológica real que permita a manobra.
+- Pode usar o próprio poder, natureza, vínculo ou regra de uma entidade contra ela quando entende como esse mecanismo funciona.
+- Sabe escolher qual criatura, força, plano ou recurso demonológico invocar contra determinado adversário, usando Invocação [5] como parte natural dessa escola quando apropriado.
 - Quando atua em território previamente preparado por ele, especialmente o Castelo dos Corvos, pode resolver uma intrusão demoníaca com gestos ou palavras aparentemente simples porque o trabalho complexo já está embutido nas proteções, runas e selos existentes.
-- Isso não significa que Corvin seja automaticamente mais poderoso que qualquer demônio em confronto aberto; sua vantagem está em saber como tornar uma entidade vulnerável às próprias regras que tornam sua presença possível.
+- Demonologia [5] não significa vitória automática contra qualquer demônio, mas significa que, se a solução está dentro do domínio demonológico, Corvin possui poder de grau ápice para executá-la.
 
 ### Ética e prática demonológica
 - Corvin não é um cultista maligno e não trata demônios como divindades ou mestres. Ele os estuda como entidades, potências, ecologias e sistemas de regras sobrenaturais.
@@ -89,14 +91,14 @@ Demonologia [5] não representa apenas conhecimento teórico ou capacidade de la
 - Sua prática favorece independência, engenharia de vínculos, negociação, redirecionamento de forças e exploração de brechas, em vez de devoção ou barganhas de poder pessoal.
 
 ### Escala, preparo e assimetria
-- Magia [3] representa a capacidade mágica geral de Corvin. Fora de suas especializações ele é um feiticeiro poderoso, mas não um ápice universal de magia.
-- Demonologia [5] representa nível ápice dentro dessa capacidade específica. A comparação com referências de grau [5] vale para domínio da especialidade, não para força destrutiva bruta: Corvin não precisa ter mais energia que Trigon para fazê-lo andar em círculos dentro das próprias regras demonológicas.
-- MEN [5] é parte importante desse estilo. Corvin combina conhecimento técnico, leitura de situação, planejamento, engano, contratos, geopolítica sobrenatural e preparo para produzir soluções assimétricas.
-- Uma vitória pode consistir em fazer uma entidade possuir o alvo errado, alimentar o vínculo errado, aceitar uma condição mal formulada, desperdiçar poder contra uma defesa preparada ou descobrir tarde demais que sua própria regra foi usada contra ela.
-- Invocação [5] permite que Corvin, especialmente no campo demonológico, trabalhe com convocações de escala muito elevada quando dispõe de preparação, nomes, vínculos, materiais, condições e conhecimento suficientes.
+- Magia [3] representa a capacidade mágica geral de Corvin. Fora de suas especializações ele é um feiticeiro poderoso, mas de escala bem mais comum que sua demonologia.
+- Demonologia [5] representa escala de poder ápice dentro dessa escola. Ela não é reduzida a conhecimento, truque ou vantagem circunstancial: Corvin pode exercer potência [5] quando lança magia demonológica apropriada.
+- MEN [5] não substitui Demonologia [5]; ele permite que Corvin escolha com extrema competência qual aplicação de seu poder é a mais eficaz, combinando conhecimento, leitura de situação, planejamento, engano, contratos, geopolítica sobrenatural e preparo.
+- Uma vitória pode ser direta, com uma contenção ou banimento de enorme potência, ou assimétrica, fazendo uma entidade possuir o alvo errado, alimentar o vínculo errado, aceitar uma condição ruim, desperdiçar poder contra uma defesa preparada ou sofrer o retorno de sua própria regra.
+- Invocação [5] permite que Corvin trabalhe com convocações de escala muito elevada quando dispõe de preparação, nomes, vínculos, materiais, condições e conhecimento suficientes.
 - Uma criatura invocada não se torna automaticamente serva obediente. Quanto mais poderosa a entidade, mais importantes são condições, limites, barganhas, contenção e consequências.
-- Com preparação adequada, Corvin pode trazer ao tabuleiro entidades ou forças poderosas o bastante para mudar o cálculo estratégico de um senhor como Trigon, irritá-lo, obrigá-lo a dividir atenção ou fazê-lo hesitar, sem que isso signifique que a invocação venceria Trigon em combate direto.
-- O princípio é o mesmo de um combatente inferior em poder bruto que derrota um adversário muito mais forte por informação, preparo e escolha correta do campo: a ficha mede o que Corvin domina, não garante vitória automática contra qualquer entidade.
+- Com preparação adequada, Corvin pode trazer ao tabuleiro entidades ou forças poderosas o bastante para ameaçar seriamente interesses de um senhor como Trigon, forçá-lo a reagir ou até criar condições para feri-lo, contê-lo ou derrotar uma manifestação específica.
+- Assim como um combatente muito inferior em poder bruto pode derrotar um adversário superior quando possui a vulnerabilidade, o plano e os recursos certos, preparação pode permitir que Corvin use seu grau [5] de forma decisiva contra entidades que, em termos globais, sejam mais poderosas que ele.
 
 ## EQP
 - Patrimônio confortável, sem escala financeira absurda.
