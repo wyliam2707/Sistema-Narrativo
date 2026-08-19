@@ -31,10 +31,16 @@ TRAÇOS:
 - Formação de Themyscira: humana criada como Amazona, com Diana como figura importante de mentoria em sua história.
 - Voo não faz parte de suas capacidades padrão nesta adaptação.
 
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+ATR: FOR [3] | AGI [2] | RES [4] | MEN [0] | VON [3]
 PER:
+- Combate [+5]
+- Liderança [+3]
+- Cultura Amazona [+4]
+- Armas [+4] — armas tradicionais amazonas.
 
 PODERES:
+- Fator de Cura [2] => Si mesma
+- Armamento Mágico [1] => Espada / Arco / Contenção
 
 EQP:
 REL:
