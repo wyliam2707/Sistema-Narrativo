@@ -20,6 +20,17 @@ TRAÇOS:
 - Veterana dos Titãs.
 - Forte senso de compaixão, responsabilidade e liderança.
 
+## Capacidades canônicas consolidadas
+- Força super-humana.
+- Resistência e durabilidade super-humanas.
+- Agilidade super-humana.
+- Fator de cura.
+- Combate amazona de alto nível.
+- Armamento mágico.
+- Experiência heroica e liderança, construída por sua longa trajetória com os Titãs e sua formação amazona.
+- Formação de Themyscira: humana criada como Amazona, com Diana como figura importante de mentoria em sua história.
+- Voo não faz parte de suas capacidades padrão nesta adaptação.
+
 ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
 PER:
 
