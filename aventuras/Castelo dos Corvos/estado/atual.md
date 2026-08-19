@@ -17,9 +17,10 @@ Status: EM JOGO
 - Corvin advertiu Ravena para não tentar sair com nenhum livro: as proteções da casa tentariam impedir a retirada e o resultado seria desagradável.
 - Corvin também pediu que ela não desorganize a coleção, pois manter a biblioteca ordenada já é um problema logístico significativo.
 - Durante essa conversa, Corvin percebeu em si uma atração física e pessoal inesperada por Ravena. A naturalidade dela diante de demônios, magia e de um castelo isolado o deixou animado de uma forma que ele prefere não demonstrar.
-- Corvin encerrou a conversa com um sorriso brincalhão e saiu da biblioteca para preparar comida. Apesar da imortalidade por idade, ele continua tendo necessidades físicas normais, incluindo fome.
-- Ravena permanece na biblioteca com os livros e anotações enquanto Corvin segue para a cozinha.
-- O controle permanece com o JOGADOR HUMANO, com Corvin a caminho da cozinha.
+- Corvin saiu da biblioteca para preparar almoço. Ao notar que fazia muito tempo que não tinha companhia para uma refeição, decidiu pôr dois lugares à mesa de jantar.
+- Depois de preparar o almoço e colocar dois pratos na sala de jantar, Corvin voltou à biblioteca para procurar Ravena.
+- Ravena permanece pesquisando na biblioteca quando Corvin retorna.
+- O controle permanece com o JOGADOR HUMANO no momento em que Corvin chega até ela.
 
 ## Regras operacionais relevantes
 - Todo uso de magia de Corvin é tratado como Magia comum [3] por padrão, a menos que o jogador declare explicitamente outra especialização.
@@ -35,6 +36,7 @@ Status: EM JOGO
 - Ravena sabe que os livros não podem ser retirados do castelo e que as proteções do local fazem cumprir essa regra.
 - Ravena está começando a perceber que o vínculo com Trigon pode funcionar como ponte bidirecional, mas Corvin a advertiu contra conclusões e ações precipitadas.
 - Corvin percebeu que sente desejo e atração por Ravena, mas ainda não demonstrou isso de forma intencional.
+- Corvin percebeu que a presença de Ravena torna uma refeição compartilhada algo incomum em sua rotina reclusa.
 
 ## Relações atuais
 - Corvin ↔ Ravena: primeiro contato; cooperação inicial baseada na pesquisa e em regras claras de hospitalidade.
