@@ -6,7 +6,7 @@
 - Adan apoiou Dik à distância com o rifle arcano.
 - Lucia contornou o acampamento e atacou pela retaguarda.
 - O bando foi derrotado e o gado roubado permaneceu sob controle do grupo.
-- Um dos ladrões sobreviveu ferido e se rendeu.
+- Um dos ladrões permaneceu consciente, ferido, e se rendeu.
 - Durante o interrogatório, o prisioneiro revelou que o gado seria levado para Passo do Corvo.
 - O comprador é Silas Boone, que compra gado roubado e altera as marcas antes da revenda.
 - Boone espera o grupo de ladrões amanhã no fim da tarde, por meio de dois homens enviados a uma garganta antes de Passo do Corvo.
