@@ -49,8 +49,14 @@ Regra da Engenhosidade:
 - O narrador considera escala, complexidade, materiais, tempo de construção e condições da cena antes de definir o custo de Energia.
 
 EQP:
+- O corpo cibernético é parte de Victor e não é tratado como equipamento separado.
+- Acesso às instalações, oficinas, sistemas e recursos tecnológicos dos Titãs.
+- Equipamentos construídos por Engenhosidade podem se tornar recursos persistentes após serem efetivamente projetados e construídos.
+- Esses recursos preparados devem ser registrados individualmente quando passarem a fazer parte do equipamento recorrente de Victor.
+
 REL:
-- Titãs: membro recorrente da equipe.
+- Titãs: sua principal equipe e um dos vínculos centrais de sua vida.
+- Silas Stone: pai de Victor e figura central em sua transformação em Ciborgue; relação importante e historicamente complicada.
 
 ## Personalidade e tendências
 
