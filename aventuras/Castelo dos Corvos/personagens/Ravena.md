@@ -5,11 +5,17 @@ Importância: Central
 CONTROLE: JOGADOR IA
 
 Idade: 24 anos.
-Conceito: Ravena dos Titãs, em versão adulta, definida como par romântico central de Corvin Blackwood.
+Conceito: Ravena dos Titãs, em versão adulta, filha de Trigon e de mãe humana, heroína mística que controla cuidadosamente suas emoções e sua herança demoníaca; nesta continuidade, é o par romântico central de Corvin Blackwood.
 Fidelidade: base canônica adaptada — preservar identidade, personalidade, origem, poderes e relações essenciais da personagem, permitindo adaptações necessárias à continuidade própria da campanha, à idade de 24 anos, ao romance com Corvin e ao cenário híbrido Marvel/DC.
+
 Descrição:
+- Aparência reconhecível da Ravena canônica em versão adulta.
+- Estética sombria e mística, sem obrigar a campanha a uma representação visual específica de quadrinhos, animação ou série.
 
 TRAÇOS:
+- Herança demoníaca de Trigon.
+- Disciplina emocional desenvolvida para controlar a própria natureza e seus poderes.
+- Natureza mística ligada a Azarath e aos Titãs.
 
 ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
 PER:
@@ -29,4 +35,3 @@ REL:
 ## Medos/limites relevantes
 
 ## História consolidada relevante
-
