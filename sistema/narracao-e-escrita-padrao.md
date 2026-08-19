@@ -72,7 +72,7 @@ A mudança de ponto de vista pode acontecer entre cenas ou quando a aventura per
 
 Existe uma diferença obrigatória entre **RPG ao vivo** e **livro consolidado**:
 
-- durante o RPG ao vivo, a narração não entra diretamente nos pensamentos de personagens controlados pelo narrador; o jogador percebe esses personagens por falas, ações, expressões e outros sinais acessíveis ao seu personagem;
+- durante o RPG ao vivo, pensamentos diretos só aparecem para o personagem com `CONTROLE: JOGADOR HUMANO`, quando declarados ou autorizados pelo jogador humano. A narração não entra diretamente nos pensamentos de `NPC`, `JOGADOR IA` ou `JOGADOR EVENTUAL IA`; o jogador humano percebe esses personagens por falas, ações, expressões e outros sinais acessíveis ao seu personagem;
 - no livro consolidado, pensamentos explícitos de qualquer personagem podem aparecer quando fizerem sentido para a cena e para o ponto de vista literário adotado.
 
 O livro pode oferecer interioridade mais ampla que a sessão, mas não deve transformar isso em alternância caótica de ponto de vista nem inventar fatos que contradigam o cânone.
@@ -194,9 +194,9 @@ Não usar `[Nome, pensamento]`, aspas internas ou travessão sem identificação
 Durante o **RPG ao vivo**:
 
 - falas de qualquer personagem usam `[Nome] — ...`;
-- pensamentos diretos só podem aparecer para o personagem controlado pelo jogador;
-- o narrador não escreve `[NPC, pensa] — ...` nem revela diretamente a interioridade de NPCs;
-- NPCs continuam pensando e decidindo segundo sua agência, mas isso aparece ao jogador apenas por sinais acessíveis na ficção.
+- pensamentos diretos só podem aparecer para o personagem com `CONTROLE: JOGADOR HUMANO`, quando declarados ou autorizados pelo próprio jogador;
+- o narrador não escreve pensamentos diretos de `NPC`, `JOGADOR IA` ou `JOGADOR EVENTUAL IA`, salvo se uma diretriz específica da aventura alterar explicitamente essa convenção;
+- esses personagens continuam pensando e decidindo segundo sua agência, mas isso aparece ao jogador humano apenas por sinais acessíveis na ficção.
 
 No **livro consolidado**:
 
@@ -244,9 +244,9 @@ Evitar transformar cada ação em explicação psicológica.
 
 Quando uma emoção já está clara pelo comportamento, não é necessário repeti-la em pensamento e depois explicá-la novamente na narração.
 
-Durante o RPG ao vivo, o narrador **não usa acesso direto à mente de NPCs como recurso narrativo para o jogador**. Pode saber o que eles pensam para interpretá-los, mas mostra apenas comportamento, fala e sinais perceptíveis.
+Durante o RPG ao vivo, a IA pode usar internamente a mente de `NPC`, `JOGADOR IA` e `JOGADOR EVENTUAL IA` para decidir suas ações, mas **não apresenta essa interioridade diretamente ao jogador humano por padrão**. Mostra apenas comportamento, fala e sinais perceptíveis.
 
-O personagem controlado pelo jogador só recebe pensamento explícito quando o próprio jogador o declarou ou autorizou. O narrador não inventa pensamentos voluntários para ele.
+O personagem com `CONTROLE: JOGADOR HUMANO` só recebe pensamento explícito quando o próprio jogador o declarou ou autorizou. O narrador não inventa pensamentos voluntários para ele.
 
 No livro consolidado, pensamentos de qualquer personagem podem ser explicitados quando coerentes com a cena. Essa liberdade literária serve para aprofundar personagens, não para alterar decisões já tomadas ou revelar gratuitamente informação reservada que não pertença ao ponto de vista adotado.
 
