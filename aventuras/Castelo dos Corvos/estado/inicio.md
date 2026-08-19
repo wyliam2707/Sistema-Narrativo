@@ -1,6 +1,6 @@
 # Início da História
 
-Status: EM ANDAMENTO
+Status: PENDENTE DE REVISÃO
 
 ## Situação inicial
 - Corvin Blackwood vive no Castelo dos Corvos e, no começo da campanha, não conhece Ravena pessoalmente.
@@ -11,4 +11,5 @@ Status: EM ANDAMENTO
 ## Abertura da primeira cena
 - Local: Castelo dos Corvos.
 - Motivo do contato: Ravena procura um livro sobre Trigon.
-- Ponto exato de abertura e momento em que o jogador recebe controle: ainda a definir.
+- A cena começa com Ravena chegando ao Castelo dos Corvos.
+- Corvin recebe controle a partir do momento em que a chegada dela passa a exigir uma reação sua.
