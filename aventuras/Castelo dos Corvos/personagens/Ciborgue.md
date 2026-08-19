@@ -29,10 +29,17 @@ TRAÇOS:
 - Sensores, comunicação e processamento: seus sistemas ampliam análise de dados, comunicação e percepção tecnológica.
 - Experiência de combate e operações heroicas: é veterano dos Titãs e possui longa experiência usando seus sistemas em campo.
 
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+ATR: FOR [3] | AGI [0] | RES [3] | MEN [3] | VON [2]
 PER:
+- Tecnologia [+5]
+- Engenharia [+4]
+- Combate [+3]
+- Investigação [+2]
 
 PODERES:
+- Sistemas Cibernéticos [3] => Armamento / Disparo / Sensores / Comunicação / Processamento / Teleporte [1]
+- Interface Tecnológica [4] => Conectar / Invadir / Controlar sistemas
+- Engenhosidade [3] => Criar robôs / Peças cibernéticas / Ideias inovadoras
 
 EQP:
 REL:
