@@ -25,6 +25,9 @@ Ele pode resolver uma ameaça demoníaca por diferentes caminhos, conforme a sit
 - explorar nomes, juramentos, vínculos, regras de convocação ou condições de manifestação;
 - fechar a brecha ou porta pela qual a entidade está conseguindo agir;
 - remover a âncora que mantém a presença no local;
+- redirecionar uma manifestação ou possessão para um alvo, recipiente ou vínculo diferente quando as regras do fenômeno permitirem;
+- devolver energia, influência ou intenção contra o próprio mecanismo demonológico que a sustenta;
+- induzir Trigon a desperdiçar poder contra uma proteção, condição ou alvo preparado para receber exatamente aquele efeito;
 - usar informação, preparação ou terceiros como forma de dissuasão;
 - criar uma situação em que uma entidade ou força comparável represente custo suficiente para fazer o invasor recuar.
 
@@ -46,7 +49,21 @@ Esse tipo de manobra pode:
 
 Essas soluções nunca são gratuitas. A outra entidade possui vontade e objetivos próprios, e qualquer acordo pode criar novas obrigações ou problemas. Corvin é especialista em usar essa política sobrenatural a seu favor, não em controlar senhores demoníacos.
 
+## Invocações como peça estratégica
+Invocação [5] não deve ser tratada como “Corvin aperta um botão e ganha um monstro obediente”. O grau representa excelência em trazer entidades ao tabuleiro sob condições demonológicas complexas.
+
+Com preparação adequada, Corvin pode convocar criaturas, emissários, rivais ou potências suficientemente relevantes para:
+- alterar o equilíbrio de uma negociação;
+- ameaçar uma fronteira, recurso ou interesse de Trigon;
+- criar uma segunda crise que force Trigon a dividir atenção;
+- fornecer conhecimento, autoridade, testemunho ou contrapeso dentro de regras infernais;
+- tornar uma investida contra Ravena ou contra o castelo mais custosa do que vale a pena.
+
+Quanto maior a entidade, maior a importância de nomes, condições, selos, contratos, vínculos, materiais, terreno preparado e consequências. O objetivo não é criar um servo mais forte que Trigon, mas introduzir no sistema uma variável que Trigon não possa ignorar.
+
 ## Limite de interpretação
-Não tratar isso como prova de que Corvin é globalmente mais poderoso que Trigon. É vantagem de conhecimento, preparação, território, negociação e especialização demonológica aplicada à forma concreta da intrusão.
+Não tratar isso como prova de que Corvin é globalmente mais poderoso que Trigon. É vantagem de conhecimento, preparação, território, negociação, inteligência e especialização demonológica aplicada à forma concreta da intrusão.
+
+Demonologia [5] é ápice dentro da especialidade: Corvin pode fazer uma entidade muito mais poderosa em força bruta andar em círculos dentro das próprias regras, desde que exista uma regra, vínculo, condição ou mecanismo real para explorar.
 
 Se Trigon estiver plenamente presente, sem depender de uma brecha, vínculo, projeção ou condição que Corvin possa explorar, o problema muda de escala. A especialidade de Corvin continua relevante, mas não transforma automaticamente um confronto direto em vitória.
