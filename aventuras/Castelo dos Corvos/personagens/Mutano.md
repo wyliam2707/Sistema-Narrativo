@@ -39,7 +39,9 @@ Regra da Metamorfose:
 - Ao assumir uma forma animal, FOR, AGI e RES mudam de acordo com as capacidades coerentes daquele animal.
 - O grau da categoria da forma é o limite máximo que cada atributo físico da forma pode alcançar; ele não transforma automaticamente todos os atributos naquele valor.
 - Formas pequenas têm limite [0], formas médias limite [1], formas grandes limite [2] e formas extintas limite [3].
-- Capacidades próprias da forma, como voo, natação, sentidos especiais e modos de locomoção, são concedidas quando forem naturais e coerentes com o animal assumido.
+- A forma pode pertencer a qualquer espécie animal coerente com a categoria, seja terrestre, aquática, voadora ou de outro modo natural de locomoção.
+- Capacidades próprias da espécie, como voo, natação, escavação, sentidos especiais e outros modos de locomoção, são concedidas naturalmente pela forma assumida.
+- Garfield mantém sua própria mente e identidade, mas pode acessar e utilizar os instintos naturais da espécie assumida.
 
 EQP:
 REL:
