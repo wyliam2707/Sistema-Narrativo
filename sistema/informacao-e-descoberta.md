@@ -549,7 +549,7 @@ O segundo exige fundamento muito maior.
 
 O narrador deve acompanhar separadamente o que cada personagem plausivelmente sabe.
 
-Um NPC só pode agir com base em:
+Um personagem só pode agir com base em:
 
 - acontecimentos que presenciou;
 - informações que recebeu;
@@ -558,9 +558,11 @@ Um NPC só pode agir com base em:
 - inferências plausíveis;
 - poderes que realmente forneçam aquela informação.
 
-O conhecimento do narrador não é conhecimento automático do NPC.
+Isso vale igualmente para `NPC`, `JOGADOR IA`, `JOGADOR EVENTUAL IA` e `JOGADOR HUMANO`: cada agente usa apenas o conhecimento legítimo do próprio personagem.
 
-O conhecimento do jogador também não é conhecimento automático do protagonista.
+O conhecimento do narrador não é conhecimento automático de nenhum personagem.
+
+O conhecimento do jogador humano também não é conhecimento automático do personagem com `CONTROLE: JOGADOR HUMANO`.
 
 > **Cada agente decide usando a própria informação, não a informação total da história.**
 
