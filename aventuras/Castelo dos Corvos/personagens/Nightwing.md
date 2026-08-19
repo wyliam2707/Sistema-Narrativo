@@ -27,10 +27,18 @@ TRAÇOS:
 - Liderança e tática: veterano acostumado a coordenar equipes e tomar decisões durante operações.
 - Experiência de vigilante: conhecimento prático de crime, patrulha urbana, perseguição, observação e operações clandestinas.
 
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+ATR: FOR [1] | AGI [0] | RES [0] | MEN [0] | VON [0]
 PER:
+- Acrobata [+5]
+- Combate [+4]
+- Investigador [+4]
+- Furtividade [+4]
+- Tática [+4]
+- Liderança [+4]
+- Armas [+4] — bastões de escrima e armas de combate similares.
 
 PODERES:
+- Cinto de Utilidades [2] => Geral
 
 EQP:
 REL:
