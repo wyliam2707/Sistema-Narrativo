@@ -2,7 +2,7 @@
 
 Status: APROVADO
 Importância: Relevante
-CONTROLE: JOGADOR IA
+CONTROLE: JOGADOR EVENTUAL IA
 
 Idade: 27 anos.
 Conceito: Victor Stone / Ciborgue, antigo atleta transformado em ciborgue após um acidente catastrófico; seu corpo foi reconstruído com tecnologia avançada, tornando-o um dos principais especialistas tecnológicos e combatentes pesados dos Titãs.
@@ -29,7 +29,7 @@ TRAÇOS:
 - Sensores, comunicação e processamento: seus sistemas ampliam análise de dados, comunicação e percepção tecnológica.
 - Experiência de combate e operações heroicas: é veterano dos Titãs e possui longa experiência usando seus sistemas em campo.
 
-ATR: FOR [3] | AGI [0] | RES [3] | MEN [3] | VON [2]
+ATR: FOR [2] | AGI [0] | RES [3] | MEN [3] | VON [2]
 PER:
 - Tecnologia [+5]
 - Engenharia [+4]
