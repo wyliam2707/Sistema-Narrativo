@@ -73,6 +73,10 @@ ATR: FOR [1] | AGI [0] | RES [2] | MEN [5] | VON [4]
 - Patrimônio confortável, sem escala financeira absurda.
 - Parte relevante da riqueza está concentrada em pedras e minerais de valor.
 - Castelo dos Corvos: grande residência isolada e principal base de Corvin.
+- Forja própria no Castelo dos Corvos.
+- Laboratório de alquimia.
+- Biblioteca particular de grande porte, com extensa coleção de livros e textos arcanos.
+- Roupa de combate com runas de proteção: proteção física equivalente a RES [3] e proteção contra magia equivalente a [4]. Corvin a utiliza apenas quando considera necessário.
 
 ## REL
 - Ravena: conhece apenas por televisão, jornais e aparições públicas ligadas aos Titãs; no início da campanha ainda não houve contato pessoal entre os dois.
