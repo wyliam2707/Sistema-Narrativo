@@ -21,7 +21,7 @@ TRAÇOS:
 ## Capacidades canônicas consolidadas
 - Força e velocidade super-humanas: sua natureza tamaraniana lhe concede capacidades físicas muito acima das humanas.
 - Voo: uma de suas capacidades fundamentais e recorrentes.
-- Starbolts / projeção de energia: pode disparar rajadas de energia ofensiva.
+- Disparo / projeção de energia: pode disparar rajadas de energia ofensiva.
 - Energia ligada ao sol: seus poderes tamaranianos são alimentados por energia solar.
 - Guerreira tamaraniana: possui treinamento de combate e forte identidade ligada à cultura guerreira de Tamaran.
 - Experiência espacial: como princesa alienígena e veterana de conflitos extraterrestres, possui experiência com Tamaran, outras civilizações e ambientes fora da Terra.
@@ -36,8 +36,9 @@ PER:
 - Etiqueta [+2] — protocolo e costumes da realeza tamaraniana.
 
 PODERES:
-- Energia Tamaraniana [3] => Starbolts / Voo / Absorção Solar
+- Energia Tamaraniana [3] => Disparo / Voo / Absorção Solar
 - Assimilação Linguística [1] => Contato físico
+- Regeneração [1] => Si mesmo
 
 EQP:
 - Traje tamaraniano adaptado para combate e voo.
