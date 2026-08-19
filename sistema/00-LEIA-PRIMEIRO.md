@@ -26,10 +26,10 @@ Não pedir ao jogador para repetir informações que os arquivos já conseguem f
 7. `sistema/checklist-do-narrador.md` — referência operacional curta para aplicar as regras durante a sessão sem reler todos os documentos a cada resolução.
 8. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
 9. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
-10. `sistema/protocolo-de-criacao.md` — processo de nova campanha: nome, quatro etapas conceituais, salvamento pendente de revisão e conversão mecânica posterior.
+10. `sistema/protocolo-de-criacao.md` — processo de nova campanha: nome, estrutura completa, quatro etapas conceituais, salvamento pendente de revisão e conversão mecânica posterior.
 11. `sistema/protocolo-de-fechamento-de-capitulo.md` — como `Salvar capítulo`, `Fechar capítulo` e `Concluir capítulo` consolidam a sessão, salvam o livro e atualizam continuidade.
 12. `sistema/organizacao-de-aventura.md` — como consultar, organizar e salvar uma aventura.
-13. `sistema/modelos.md` — modelos de ficha, STATUS, Progressão e arquivos de campanha.
+13. `sistema/modelos.md` — modelos de ficha, STATUS, Progressão, READMEs estruturais e arquivos de campanha.
 14. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
 
 ## Separação obrigatória
@@ -61,6 +61,10 @@ Contém apenas dados daquela história:
 - cronologia;
 - estado atual;
 - capítulos ou registro canônico do que aconteceu.
+
+A estrutura de uma nova aventura nasce completa: cada pasta estrutural deve possuir desde o começo um `README.md` curto explicando sua função. Isso materializa as pastas no Git e permite que outra IA compreenda a organização mesmo antes de existirem arquivos de conteúdo dentro delas.
+
+Esses `README.md` estruturais permanecem como legenda da organização. Eles não substituem fichas, estado, cronologia, Progressão ou capítulos e não devem virar depósitos de acontecimentos da campanha.
 
 `mestre/` pode conter fichas e informações que outra IA precisa conhecer para manter a continuidade, mas que **não devem ser apresentadas ao jogador como conhecimento do protagonista** antes de serem descobertas na ficção.
 
@@ -111,6 +115,8 @@ A criação usa quatro etapas conceituais:
 2. Protagonista;
 3. Personagens relevantes;
 4. Início da história.
+
+Assim que o nome da campanha é definido, a estrutura completa é criada com `README.md` em cada pasta estrutural e `criacao.md` para acompanhar o processo.
 
 Cada etapa é salva como `PENDENTE DE REVISÃO`. A aplicação de atributos, perícias, poderes e demais conceitos numéricos acontece somente na revisão posterior.
 
@@ -175,6 +181,8 @@ O registro persistente da aventura deve permitir reconstruir:
 - quais consequências antigas ainda podem voltar a importar;
 - como todos estão no momento atual;
 - quais exceções de narração valem naquela campanha.
+
+Os `README.md` estruturais ajudam a localizar rapidamente cada tipo de informação, mas a continuidade factual continua pertencendo aos arquivos canônicos correspondentes.
 
 Ao consultar `mestre/`, separar rigorosamente **o que o narrador sabe** daquilo que o protagonista pode saber.
 
