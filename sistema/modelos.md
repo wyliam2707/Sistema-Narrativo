@@ -52,6 +52,92 @@ TRAÇOS não devem duplicar desnecessariamente capacidades que já estejam descr
 
 > **TRAÇO = verdade qualitativa estável. Atributo, perícia ou poder = capacidade graduada.**
 
+## Modelo de `diretrizes/narracao.md`
+
+Toda campanha define sua direção narrativa durante a Etapa 1 da criação. O arquivo padrão é:
+
+```text
+diretrizes/narracao.md
+```
+
+Ele deve registrar **como aquela campanha deve ser sentida e narrada**, sem transformar preferências locais em regras universais do sistema.
+
+Modelo flexível:
+
+```text
+# Diretrizes de Narração — Nome da Campanha
+
+Status: PENDENTE DE REVISÃO
+
+Esta campanha herda `sistema/narracao-e-escrita-padrao.md`.
+As diretrizes abaixo complementam ou alteram apenas o que estiver explicitamente definido.
+
+## Tipo de história
+- gênero principal: ...
+- gêneros ou tons secundários: ...
+
+## Tom
+- ...
+
+## Foco narrativo
+- ...
+
+## Ritmo
+- ...
+
+## Humor
+- ...
+
+## Romance e intimidade
+- ...
+
+## Atmosfera
+- ...
+
+## Elementos a enfatizar
+- ...
+
+## Elementos a evitar ou moderar
+- ...
+
+## Exceções ao padrão universal
+- nenhuma; ou
+- ...
+```
+
+**Não é obrigatório preencher todos os campos.** Criar apenas os que realmente ajudam a definir a experiência desejada.
+
+Gênero não é lista fechada. O jogador pode definir qualquer combinação, por exemplo:
+
+```text
+comédia romântica adulta
+romance erótico + drama
+terror sobrenatural com romance
+aventura cômica
+faroeste clássico
+fantasia política + romance
+```
+
+A direção narrativa não substitui o cenário.
+
+```text
+diretrizes/narracao.md → como a história deve ser narrada
+mundo/cenario.md       → que mundo existe e como funciona
+```
+
+Exemplo:
+
+```text
+mundo/cenario.md: magia é pública.
+diretrizes/narracao.md: magia cotidiana não recebe tratamento de espetáculo obrigatório.
+```
+
+Depois da revisão explícita do jogador, mudar o status para:
+
+```text
+Status: APROVADO
+```
+
 ## Regra de revisão das fichas apresentáveis
 
 O modelo de arquivo é o mesmo, mas o **método de revisão muda conforme quem controla o personagem**.
@@ -491,7 +577,7 @@ O texto pode ser ainda mais curto quando a função for óbvia, mas deve permiti
 Conteúdo mínimo esperado por pasta:
 
 ```text
-diretrizes/       → regras específicas de narração e funcionamento da campanha
+diretrizes/       → direção narrativa e regras específicas da campanha
 personagens/      → fichas apresentáveis de personagens Centrais e Relevantes
 mestre/           → material persistente reservado ao narrador
 mestre/viloes/    → fichas ocultas de antagonistas importantes
@@ -533,16 +619,14 @@ Depois da aprovação final, atualizar para algo como:
 
 ## Modelo narrativo
 Base herdada: `sistema/narracao-e-escrita-padrao.md`
+Direção local: `diretrizes/narracao.md`
 Referência de calibração: `sistema/exemplo-de-estilo.md`
-
-Exceções desta aventura:
-- nenhuma; ou
-- listar somente aquilo que realmente muda em relação ao padrão.
 
 ## Como narrar
 Ler antes:
 - `sistema/narracao-e-escrita-padrao.md`;
-- diretrizes específicas desta aventura, se existirem.
+- `diretrizes/narracao.md`;
+- outras diretrizes específicas desta aventura, se existirem.
 
 As diretrizes locais complementam ou alteram apenas o que declararem explicitamente. Todo o restante continua herdado do modelo narrativo padrão.
 
