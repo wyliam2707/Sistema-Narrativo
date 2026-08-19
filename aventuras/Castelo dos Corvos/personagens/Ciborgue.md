@@ -1,6 +1,6 @@
 # Ciborgue
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 Importância: Relevante
 CONTROLE: JOGADOR IA
 
@@ -59,10 +59,27 @@ REL:
 - Silas Stone: pai de Victor e figura central em sua transformação em Ciborgue; relação importante e historicamente complicada.
 
 ## Personalidade e tendências
+- Inteligente, pragmático e bastante direto.
+- Costuma analisar problemas de forma técnica, mas não trata as pessoas como variáveis.
+- Usa humor de forma mais seca que Mutano e tende a demonstrar afeto por atitudes práticas.
+- Mantém forte senso de responsabilidade com a equipe.
 
 ## Desejos/objetivos atuais
+- Continuar sendo Victor Stone, não apenas “Ciborgue”.
+- Usar sua condição e sua inteligência para proteger os Titãs e melhorar a vida das pessoas.
+- Desenvolver novas tecnologias sem permitir que elas definam toda a sua identidade.
+- Ter uma vida pessoal real fora de missões, oficinas e sistemas.
 
 ## Medos/limites relevantes
+- Perder ainda mais de sua humanidade física ou emocional.
+- Ser reduzido a uma máquina, ferramenta ou sistema de armas.
+- Perder o controle sobre seus próprios sistemas.
+- Falhar com pessoas que dependem dele por confiar demais em uma solução técnica.
 
 ## História consolidada relevante
-
+- Victor Stone era um atleta talentoso antes do acidente que destruiu grande parte de seu corpo.
+- Silas Stone utilizou tecnologia avançada para salvar sua vida, reconstruindo-o como Ciborgue.
+- A transformação alterou profundamente a relação de Victor com o próprio corpo e com o pai.
+- Com o tempo, tornou-se herói e integrante veterano dos Titãs.
+- Sua experiência fez dele tanto um combatente pesado quanto um dos principais especialistas tecnológicos da equipe.
+- Sua vida amorosa está aberta no início da campanha, sem relacionamento atual previamente definido.
