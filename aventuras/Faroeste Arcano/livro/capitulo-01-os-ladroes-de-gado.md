@@ -10,37 +10,37 @@ Os três pararam.
 
 Ela desmontou, examinou marcas na areia e apontou para uma formação rochosa adiante. Uma coluna fina de fumaça subia detrás das pedras.
 
-— Se as marcas estiverem certas, levaram pelo menos vinte cabeças por aqui. Tem quatro cavalos diferentes... talvez mais.
+[Lucia] — Se as marcas estiverem certas, levaram pelo menos vinte cabeças por aqui. Tem quatro cavalos diferentes... talvez mais.
 
 Adan estreitou os olhos na direção da fumaça.
 
-— Então encontramos eles.
+[Adan] — Então encontramos eles.
 
 O vento mudou por alguns segundos. Trouxe cheiro de carne assando e, muito ao longe, o mugido abafado de gado.
 
 Lucia indicou uma pequena elevação à esquerda.
 
-— Se subirmos ali a pé, talvez dê para olhar o acampamento sem aparecer no horizonte.
+[Lucia] — Se subirmos ali a pé, talvez dê para olhar o acampamento sem aparecer no horizonte.
 
 Adan olhou para Dik.
 
-— Ou a gente continua cavalgando e descobre quantos são quando começarem a atirar na gente.
+[Adan] — Ou a gente continua cavalgando e descobre quantos são quando começarem a atirar na gente.
 
 Fez uma pausa.
 
-— Você costuma gostar da segunda opção.
+[Adan] — Você costuma gostar da segunda opção.
 
 Dik soltou um resmungo.
 
-— Vou fazer como vocês querem dessa vez. Mas que fique claro que perde toda a graça.
+[Dik] — Vou fazer como vocês querem dessa vez. Mas que fique claro que perde toda a graça.
 
 Adan abriu um sorriso torto.
 
-— Vou anotar a data.
+[Adan] — Vou anotar a data.
 
 Lucia já desmontava.
 
-— Pode reclamar o caminho inteiro. Só reclama baixo.
+[Lucia] — Pode reclamar o caminho inteiro. Só reclama baixo.
 
 Os três deixaram os cavalos protegidos atrás das pedras e subiram a pé. Lucia conduziu o grupo até a crista, abafando os passos com magia.
 
@@ -50,23 +50,23 @@ Havia uma fogueira no centro, duas barracas, uma carroça e um cercado improvisa
 
 Adan observou por alguns segundos.
 
-— Cinco que a gente vê.
+[Adan] — Cinco que a gente vê.
 
 Lucia apontou para a barraca.
 
-— E pelo menos mais um ali dentro.
+[Lucia] — E pelo menos mais um ali dentro.
 
 Adan olhou para Dik.
 
-— Pronto. Fizemos do jeito inteligente. Agora você pode estragar.
+[Adan] — Pronto. Fizemos do jeito inteligente. Agora você pode estragar.
 
 Dik pegou as armas e começou a descer pela lateral da elevação.
 
-— Bom, já que insistem, vou até eles furtivamente. Quando me notarem, eu atiro.
+[Dik] — Bom, já que insistem, vou até eles furtivamente. Quando me notarem, eu atiro.
 
 Adan acompanhou a descida com os olhos.
 
-— Isso é você sendo furtivo?
+[Adan] — Isso é você sendo furtivo?
 
 Lucia mandou que ele calasse a boca.
 
@@ -78,7 +78,7 @@ Por um instante, olhou para o lado errado.
 
 Depois encontrou Dik.
 
-— Ei!
+[Vigia] — Ei!
 
 Era o que Dik esperava.
 
@@ -86,7 +86,7 @@ O revólver arcano saiu do coldre. O primeiro disparo cortou o ar e atingiu o vi
 
 O acampamento explodiu em movimento.
 
-— Caçadores!
+[Bandido] — Caçadores!
 
 Um homem correu para uma arma. Outro se jogou atrás da carroça. A barraca se abriu e dois homens saíram de uma vez.
 
@@ -98,15 +98,17 @@ Outro passou alto.
 
 Os dois homens que tinham saído da barraca começaram a abrir pelos lados, tentando cercá-lo.
 
-— Eles estão tentando cercar você! — gritou Adan do alto.
+Adan gritou do alto.
+
+[Adan] — Eles estão tentando cercar você!
 
 Dik escolheu o homem da esquerda e disparou. O bandido foi atingido na lateral do tronco e caiu atrás de um arbusto seco.
 
-— Atira no outro!
+[Dik] — Atira no outro!
 
 O rifle de Adan respondeu quase imediatamente. O segundo homem foi atingido perto da coxa e caiu atrás de uma pedra.
 
-— Esse era o outro? — gritou Adan.
+[Adan] — Esse era o outro?
 
 Um clarão explodiu contra a cobertura de Dik antes que ele respondesse.
 
@@ -128,7 +130,7 @@ Atrás da carroça.
 
 Um dos bandidos percebeu tarde demais.
 
-— Merda—
+[Bandido] — Merda—
 
 O disparo dela veio quase sem som, e o homem caiu de lado.
 
@@ -136,7 +138,7 @@ O último bandido atrás da carroça perdeu a coragem. Abandonou a cobertura e c
 
 Adan gritou:
 
-— Esse é seu, Dik!
+[Adan] — Esse é seu, Dik!
 
 Dik girou o revólver e atirou.
 
@@ -152,59 +154,59 @@ Um dos ladrões ainda estava consciente: o homem que Dik havia atingido no ombro
 
 Ele olhou para Dik, depois para a arma, e levantou lentamente a mão vazia.
 
-— Chega.
+[Prisioneiro] — Chega.
 
 Adan aproximou-se.
 
-— Parece que sobrou um que sabe contar.
+[Adan] — Parece que sobrou um que sabe contar.
 
 Dik manteve o revólver apontado.
 
-— Então, amigo... por que não conta uma história? Para onde ia esse gado?
+[Dik] — Então, amigo... por que não conta uma história? Para onde ia esse gado?
 
 O homem avaliou os companheiros caídos pelo acampamento e decidiu falar.
 
-— Passo do Corvo.
+[Prisioneiro] — Passo do Corvo.
 
 Adan apoiou o rifle no ombro.
 
-— Tem comprador lá?
+[Adan] — Tem comprador lá?
 
-— Tem. Um sujeito chamado Silas Boone. Compra gado sem fazer pergunta e muda a marca antes de revender. A gente só levava até ele.
+[Prisioneiro] — Tem. Um sujeito chamado Silas Boone. Compra gado sem fazer pergunta e muda a marca antes de revender. A gente só levava até ele.
 
 Lucia se aproximou.
 
-— Quanto tempo até alguém esperar vocês?
+[Lucia] — Quanto tempo até alguém esperar vocês?
 
 O homem hesitou.
 
 Dik ergueu ligeiramente o revólver.
 
-— A parte interessante da história.
+[Dik] — A parte interessante da história.
 
-— Amanhã. Amanhã no fim da tarde. Boone manda dois homens encontrar a gente numa garganta antes de Passo do Corvo. Se a gente não aparecer, ele vai saber que aconteceu alguma coisa.
+[Prisioneiro] — Amanhã. Amanhã no fim da tarde. Boone manda dois homens encontrar a gente numa garganta antes de Passo do Corvo. Se a gente não aparecer, ele vai saber que aconteceu alguma coisa.
 
 Adan olhou para Dik.
 
-— Então temos gado roubado, um comprador e um encontro marcado.
+[Adan] — Então temos gado roubado, um comprador e um encontro marcado.
 
 Lucia cruzou os braços.
 
-— E um homem que pode nos dizer exatamente onde é essa garganta.
+[Lucia] — E um homem que pode nos dizer exatamente onde é essa garganta.
 
 O prisioneiro olhou para os três.
 
-— Posso. Posso mostrar. Só não me matem.
+[Prisioneiro] — Posso. Posso mostrar. Só não me matem.
 
 Dik abaixou o revólver apenas o suficiente para deixar claro que a conversa havia terminado, não a ameaça.
 
 Lucia recolheu as armas espalhadas pelo acampamento. Adan passou os olhos pelos homens caídos, pelo gado e pelo horizonte.
 
-— Começamos procurando ladrão de gado. Agora temos comprador, ponto de encontro e prazo.
+[Adan] — Começamos procurando ladrão de gado. Agora temos comprador, ponto de encontro e prazo.
 
 Lucia encarou o prisioneiro.
 
-— E alguém que conhece o caminho.
+[Lucia] — E alguém que conhece o caminho.
 
 O vento atravessou o acampamento, levando a fumaça da fogueira para longe.
 
