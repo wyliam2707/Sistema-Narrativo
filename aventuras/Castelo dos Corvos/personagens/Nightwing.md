@@ -2,7 +2,7 @@
 
 Status: APROVADO
 Importância: Relevante
-CONTROLE: JOGADOR IA
+CONTROLE: JOGADOR EVENTUAL IA
 
 Idade: 28 anos.
 Conceito: Richard “Dick” Grayson / Nightwing, antigo acrobata de circo, primeiro Robin de Batman e posteriormente herói independente; veterano dos Titãs e liderança natural da equipe nesta continuidade híbrida da campanha.
@@ -27,7 +27,7 @@ TRAÇOS:
 - Liderança e tática: veterano acostumado a coordenar equipes e tomar decisões durante operações.
 - Experiência de vigilante: conhecimento prático de crime, patrulha urbana, perseguição, observação e operações clandestinas.
 
-ATR: FOR [1] | AGI [0] | RES [0] | MEN [0] | VON [0]
+ATR: FOR [1] | AGI [1] | RES [0] | MEN [0] | VON [0]
 PER:
 - Acrobata [+5]
 - Combate [+4]
@@ -41,7 +41,7 @@ PODERES:
 - Cinto de Utilidades [2] => Geral
 
 EQP:
-- Uniforme de Nightwing: proteção balística equivalente a RES [3]; proteção contra os demais tipos de dano equivalente a RES [2].
+- Uniforme de Nightwing: proteção balística equivalente a RES [2]; proteção contra os demais tipos de dano equivalente a RES [1].
 - Par de bastões de escrima.
 - Cinto de utilidades com equipamentos portáteis diversos.
 - Comunicadores e recursos de vigilância compatíveis com sua atuação.
