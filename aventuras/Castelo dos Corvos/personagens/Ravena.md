@@ -17,6 +17,17 @@ TRAÇOS:
 - Disciplina emocional desenvolvida para controlar a própria natureza e seus poderes.
 - Natureza mística ligada a Azarath e aos Titãs.
 
+## Capacidades canônicas consolidadas
+- Empatia sobrenatural: percebe emoções e estados emocionais de outras pessoas e pode, em determinadas aplicações, influenciar ou manipular emoções.
+- Disciplina emocional e mental: treinamento profundo para dominar as próprias emoções e impedir que sua herança demoníaca assuma o controle.
+- Artes místicas: praticante real de magia e das artes místicas.
+- Teleporte e deslocamento dimensional: capacidade de atravessar espaço e, quando apropriado, dimensões por meios sobrenaturais.
+- Alma Astral / Soul-Self: pode exteriorizar uma manifestação da própria alma, tratada como componente próprio e central de seus poderes.
+- Poder ofensivo místico: consegue projetar poder sobrenatural ofensivamente.
+- Voo: capacidade recorrente da personagem, associada à sua natureza e poderes sobrenaturais.
+- Herança demoníaca de Trigon: fonte de potencial sobrenatural excepcional, acompanhada de risco de corrupção, perda de controle ou manifestação de aspectos sombrios.
+- Conhecimento do sobrenatural: formação e experiência significativas com magia, demônios, fenômenos espirituais e dimensões sobrenaturais.
+
 ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
 PER:
 
