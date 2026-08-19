@@ -25,6 +25,10 @@ CONTROLE: JOGADOR HUMANO
 - Afinidade mágica inata: os Antigos possuem grande afinidade natural com magia. A expressão mecânica dessa afinidade será definida apenas na revisão.
 
 ## Personalidade e tendências
+- Calmo e centrado, raramente se deixando levar por impulsos sem motivo.
+- Estudioso, com forte inclinação para pesquisa, leitura e compreensão do sobrenatural.
+- Focado em seus objetivos e persistente quando decide perseguir alguma coisa.
+- Socialmente contido por padrão, mas paquerador quando sente atração ou encontra motivo para isso.
 
 ## História
 
