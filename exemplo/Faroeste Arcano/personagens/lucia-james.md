@@ -2,6 +2,7 @@
 
 Status: APROVADO
 Importância: Relevante
+CONTROLE: JOGADOR EVENTUAL IA
 
 Idade: 28
 Conceito: Caçadora de recompensas especializada em rastreamento e abordagem furtiva; aliada de Dik Vigarista.
