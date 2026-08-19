@@ -6,6 +6,7 @@ CONTROLE: JOGADOR IA
 
 Idade:
 Conceito: Mutano, integrante recorrente dos Titãs nesta continuidade híbrida da campanha.
+Fidelidade: base canônica adaptada — preservar identidade, personalidade, origem, capacidades e relações essenciais do personagem, permitindo adaptações necessárias à continuidade própria da campanha e ao cenário híbrido Marvel/DC.
 Descrição:
 
 TRAÇOS:
