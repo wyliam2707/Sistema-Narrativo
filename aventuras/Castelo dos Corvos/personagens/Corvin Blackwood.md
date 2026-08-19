@@ -36,8 +36,14 @@ CONTROLE: JOGADOR HUMANO
 - Ao longo das décadas, passou a viajar pelo mundo procurando, comprando, recuperando e reunindo outros textos raros e perigosos.
 - Sua coleção e seus estudos se expandiram para magia em geral, demonologia, runas, forja, encantamento e outros ramos do conhecimento arcano.
 - O acúmulo de livros, artefatos e conhecimento transformou a pesquisa do sobrenatural em uma das linhas centrais de sua vida.
+- Ao longo dos anos acumulou uma riqueza confortável, mas não extraordinária, com parte relevante de seu patrimônio concentrada em pedras e minerais de valor.
+- É proprietário e residente do Castelo dos Corvos, sua grande propriedade isolada nas montanhas.
 
 ## Desejos e objetivos atuais
+- Não possui uma grande ambição ou missão central no momento.
+- Passa boa parte dos dias estudando sua coleção e aprofundando seus conhecimentos.
+- Alterna períodos de isolamento no castelo com viagens e explorações de novos locais em busca de grimórios, textos raros e outras fontes de conhecimento arcano.
+- Sua motivação recorrente é a descoberta: encontrar algo que ainda não conhece e incorporá-lo aos próprios estudos.
 
 ## Medos e limites relevantes
 
@@ -48,5 +54,8 @@ CONTROLE: JOGADOR HUMANO
 ## PODERES
 
 ## EQP
+- Patrimônio confortável, sem escala financeira absurda.
+- Parte relevante da riqueza está concentrada em pedras e minerais de valor.
+- Castelo dos Corvos: grande residência isolada e principal base de Corvin.
 
 ## REL
