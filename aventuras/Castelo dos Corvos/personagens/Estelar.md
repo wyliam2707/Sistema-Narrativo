@@ -40,8 +40,14 @@ PODERES:
 - Assimilação Linguística [1] => Contato físico
 
 EQP:
+- Traje tamaraniano adaptado para combate e voo.
+- Comunicador dos Titãs.
+- Acesso aos recursos e instalações dos Titãs quando estiver atuando com a equipe.
+
 REL:
-- Titãs: membro recorrente da equipe.
+- Titãs: sua principal equipe e uma das bases de sua vida na Terra.
+- Tamaran: seu mundo natal e parte central de sua identidade.
+- Komand’r / Estrela Negra: irmã e relação familiar profundamente conflituosa.
 
 ## Personalidade e tendências
 
