@@ -73,6 +73,20 @@ Quanto maior a entidade, maior a importância de nomes, condições, selos, cont
 - Invocação [5] permite colocar no tabuleiro criaturas ou forças de escala extrema quando as condições da invocação são satisfeitas.
 - Preparação pode transformar uma diferença enorme de poder global em uma situação vencível. Encontrar a vulnerabilidade certa, preparar o campo, escolher o feitiço correto ou convocar a oposição adequada pode permitir que Corvin cause dano real, contenha ou derrote uma manifestação muito acima de sua Magia [3] geral.
 
+## Assimetria e relação com Trigon
+O mundo da campanha não é obrigado a ser justo, simétrico ou mecanicamente equilibrado entre personagens. Capacidades podem criar confrontos extremamente desfavoráveis para um lado quando a especialização correta encontra o alvo certo.
+
+Corvin é exatamente esse tipo de problema para Trigon. Trigon pode ser uma potência muito maior em escala global, mas Corvin possui uma escola de poder [5] dedicada justamente ao sistema que entidades como Trigon utilizam. Isso significa que iniciar uma guerra pessoal contra Corvin não é uma decisão trivial para Trigon.
+
+Se a relação entre Corvin e Ravena evoluir romanticamente a ponto de Corvin se tornar, na prática, o “genro” de Trigon, Trigon não deve tratá-lo como um humano inconveniente que pode simplesmente esmagar. Ele deve reconhecer que atacar Corvin pode significar enfrentar alguém capaz de:
+- encontrar vulnerabilidades demonológicas reais em suas manifestações e domínios;
+- preparar contramedidas específicas em escala [5];
+- manipular regras, vínculos e condições que Trigon normalmente usa contra outros;
+- trazer rivais, entidades ou forças capazes de criar problemas sérios em outros pontos do tabuleiro;
+- transformar uma agressão direta em uma guerra longa, cara e imprevisível.
+
+Isso não garante que Corvin venceria uma guerra total contra Trigon. Significa que Trigon tem motivos racionais para pensar duas vezes antes de começar uma, porque mesmo uma vitória pode custar muito mais do que o objetivo vale.
+
 ## Limite de interpretação
 Demonologia [5] não significa que Corvin seja globalmente mais poderoso que Trigon em todos os contextos. Significa que Corvin é ápice nessa escola específica e deve ser tratado como tal.
 
