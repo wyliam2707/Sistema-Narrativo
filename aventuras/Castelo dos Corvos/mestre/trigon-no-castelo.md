@@ -105,3 +105,13 @@ Isso não garante que Corvin venceria uma guerra total contra Trigon. Significa 
 Demonologia [5] não significa que Corvin seja globalmente mais poderoso que Trigon em todos os contextos. Significa que Corvin é ápice nessa escola específica e deve ser tratado como tal.
 
 Se houver uma solução demonológica capaz de ferir, conter, redirecionar, banir ou explorar Trigon, Corvin tem competência e potência de grau [5] para tentar executá-la. O desafio passa a ser descobrir a solução correta, satisfazer suas condições e sobreviver às consequências — não reduzir Demonologia [5] a mera esperteza.
+
+## Continuidade estabelecida no Capítulo 6
+- Tarshar informou, sob um novo pacto demonológico sem mentira deliberada sobre o acordo, que Trigon vinha procurando métodos antigos de **fixação de manifestações** e formas de impedir que uma presença já estabelecida encerrasse voluntariamente a própria manifestação.
+- Tarshar afirmou que Trigon procurou primeiro **Azhur-Khal**, arquivista antigo ligado a manifestação, possessão, ancoragem e passagem entre planos.
+- Tarshar também relatou que Trigon perguntou se uma **ligação preexistente entre duas entidades** poderia servir como âncora quando apenas uma delas estivesse manifestada no plano.
+- Tarshar declarou não saber quem seriam as duas entidades. Essa limitação deve ser preservada; não transformar a pista em conhecimento automático sobre o plano exato de Trigon.
+- A informação é canônica como relato honesto de Tarshar, mas continua sendo uma peça de investigação, não uma solução pronta. Não antecipar conclusão sobre a ligação de Ravena com Trigon sem pesquisa, teste ou nova confirmação.
+- Ravena ouviu essa informação escondida durante a comunicação e sabe da pista sobre Azhur-Khal e a possível função de vínculos preexistentes como âncoras.
+- Corvin e Ravena ainda não sabem se Trigon encontrou o que procurava, que resposta Azhur-Khal deu, se a técnica funciona no vínculo específico de Ravena ou qual objetivo final Trigon pretende alcançar com isso.
+- A pesquisa de Corvin avançou apenas até a hipótese de que **referência espiritual persistente não implica necessariamente trânsito bidirecional**. A possível assimetria continua incompleta e não deve ser tratada como solução confirmada.
