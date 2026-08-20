@@ -86,6 +86,11 @@ A IA deve operar conscientemente em três papéis distintos durante a campanha, 
 - Ao preencher essas lacunas, o narrador deve evitar criar fatos exagerados, comprometedores ou que alterem o rumo da campanha sem necessidade. O objetivo é sustentar a plausibilidade e a conversa, não inserir uma reviravolta escondida.
 - O preenchimento nunca autoriza o narrador a decidir por Corvin uma escolha voluntária, opinião importante, intenção, sentimento ou ação que pertença ao controle do JOGADOR HUMANO.
 
+## Recursos e forma de pagamento de Corvin
+- Corvin prefere manter e movimentar valor em **pedras preciosas, metais preciosos e ouro**, e não em papel-moeda como recurso principal.
+- Em negociações relevantes de Corvin, quando o jogador disser apenas "dinheiro" sem especificar a forma, interpretar por padrão como ouro, metal precioso, pedras de valor ou combinação equivalente, conforme o contexto.
+- Isso não impede uso pontual de moeda moderna quando necessário para despesas cotidianas, mas o patrimônio e os pagamentos relevantes de Corvin não devem ser narrados automaticamente como maços de notas, transferências bancárias comuns ou papel-moeda.
+
 ## Atmosfera
 - Contraste entre o isolamento gótico do Castelo dos Corvos e o universo amplo de heróis, magia, crime e fenômenos sobrenaturais.
 
