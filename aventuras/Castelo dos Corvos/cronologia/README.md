@@ -5,107 +5,62 @@ Esta pasta mantém um índice objetivo dos acontecimentos de `Castelo dos Corvos
 Ela serve à continuidade e não substitui os capítulos literários de `livro/`, as fichas de `personagens/` nem o savegame operacional de `estado/`.
 
 ## Capítulo 3 — Rotinas Questionáveis
-- Corvin refinou o veneno do escorpião demoníaco em tinta escura, estável e tóxica.
-- Ravena prosseguiu a pesquisa sobre Trigon de forma lenta, comparativa e sem descoberta definitiva.
-- Corvin e Ravena compartilharam jantar, conversa cotidiana sobre música, dança, silêncio e os Titãs, seguido de um período tranquilo no solar durante a chuva.
-- Na manhã seguinte, Corvin manteve sua rotina de café e corrida; ambos voltaram depois ao trabalho paralelo na biblioteca.
-- Após o almoço, Corvin saiu por teleporte para um encontro extradimensional numa ruína abandonada.
-- Um senhor local que lhe devia favor entregou um tratado linguístico de Ifrid em couro preto e letras vermelhas.
-- Corvin pediu que Tarshar fosse lembrado da dívida de quatro guardas do inferno e que entrasse em contato antes de qualquer entrega.
-- A dívida de Tarshar deriva de um antigo acordo ligado a tráfico de madeira da alma; o traficante investigado era o próprio Corvin.
-- Corvin entregou 5 ml de tinta de escorpião do abismo ao contato e fechou acordo de intermediação 70/30, sem favores ocultos.
-- Corvin recebeu informação de que as fronteiras ocidentais de Trigon estão estáveis, porém tensas, com pequenas sondagens de dois senhores menores e reforços limitados por Trigon.
-- Corvin retornou ao castelo já à noite e revelou a Ravena apenas que o volume era um dicionário/tratado de Ifrid obtido ao cobrar favor de um velho conhecido/amigo; ela sabe que ele possui oito ou nove livros ligados a Ifrid e que o tratado é peça difícil de retirar de coleções particulares.
-- Corvin deixou o tratado na borda distante da mesa da biblioteca, sem proibir Ravena de consultá-lo, mas recomendando cuidado com possíveis invocações de demônios de fogo.
-- Depois de banho, Corvin foi ao solar; Ravena apareceu pouco depois e escolheu outro pufe. O capítulo termina quando ela chama a situação de possível "contemplação ou preguiça sofisticada".
+- Corvin refinou veneno de escorpião demoníaco em tinta comercial e fechou acordo de intermediação 70/30 para uma amostra de 5 ml.
+- Obteve um raro tratado linguístico de Ifrid e informação sobre tensão nas fronteiras ocidentais de Trigon.
+- Ravena continuou pesquisa lenta e independente sobre Trigon.
+- O capítulo terminou no solar, com ambos em pufes separados sob as estrelas.
 
 ## Capítulo 4 — Nada Romântico Ainda
-- A conversa no solar continuou depois do fim do Capítulo 3. Corvin ofereceu a Ravena um dos grandes pufes para dormir sob as estrelas; ela aceitou.
-- Ravena adormeceu primeiro em um pufe separado. Corvin adormeceu algum tempo depois, também no solar, sem intimidade física entre os dois.
-- Às 6h30, Corvin acordou antes de Ravena e escureceu por magia os vidros do solar para bloquear a claridade da manhã enquanto ela continuava dormindo.
-- Corvin trocou de roupa para correr, preparou café, ovos e bacon, comeu e deixou um segundo prato coberto para Ravena antes de sair para uma corrida pelo bosque.
-- Ravena acordou depois, percebeu que o teto havia sido escurecido, encontrou o café da manhã deixado para ela e comeu. Corvin retornou cerca de uma hora depois.
-- Corvin escolheu uma sala de trabalho próxima ao laboratório, em vez da biblioteca, e realizou quatro invocações de escorpiões demoníacos de nível [2], coletando veneno de quatro espécimes diferentes.
-- Ele passou o dia refinando as amostras, interrompendo o trabalho apenas para almoço e jantar, e produziu um pequeno lote estável, escuro, espesso e tóxico de tinta de escorpião do abismo destinado à venda.
-- Ravena continuou pesquisando Trigon. Encontrou mais duas referências que tratam vínculos de sangue como âncoras, mas uma descreve a ligação como territorial e a outra como espiritual; nenhuma forneceu resposta definitiva.
-- Ravena sabe que a tinta é um produto de fluxo de caixa, que Corvin pretende vendê-la por meio do mesmo velho contato e que existe mercado para ela em certos locais. Corvin recusou explicar quais locais, chamando isso de segredo comercial.
-- Corvin afirmou que evita dívidas e favores devidos porque esse tipo de obrigação costuma terminar mal.
-- Depois do trabalho, Corvin convidou Ravena para comer fora. Ele esclareceu diretamente que, por enquanto, seria apenas jantar e "nada romântico ainda"; Ravena percebeu e devolveu a palavra "ainda", mas aceitou a saída sem transformá-la em encontro assumido.
-- Ambos trocaram de roupa por versões casuais e Corvin abriu um portal para uma rua próxima ao destino em Gotham.
-- O destino escolhido foi um restaurante conhecido de Corvin, em frente a uma boate. Corvin disse que comeriam primeiro e decidiriam depois se fariam algo além do jantar.
-- Corvin pediu chope e a especialidade da casa, costela assada com batatas e molho; Ravena pediu água com gás e filé com legumes.
-- Enquanto esperavam a comida, mantiveram a conversa deliberadamente em temas comuns, especialmente música e dança. Ravena comentou que prefere dançar sem coreografia, com espaço e sem expectativas específicas, porque assim consegue esquecer o resto por algumas horas.
-- O capítulo termina no restaurante, antes da comida chegar, com a boate ainda visível do outro lado da rua e nenhuma decisão tomada sobre ir até ela depois do jantar.
+- Corvin e Ravena dormiram no solar em pufes separados; pela manhã Corvin escureceu os vidros para não acordá-la.
+- Corvin produziu novo lote de tinta de escorpião e Ravena continuou pesquisando vínculos/âncoras.
+- Corvin convidou Ravena para jantar fora e explicitou que seria “nada romântico ainda”.
+- O capítulo terminou no restaurante em Gotham, antes da comida chegar, com uma boate do outro lado da rua.
 
 ## Capítulo 5 — Um Segundo a Mais
-- Ainda no restaurante, Corvin convidou Ravena para mostrar como ela dança depois do jantar. Ravena aceitou e o provocou sobre sua capacidade de se adaptar a um estilo menos formal.
-- Dick enviou uma mensagem de checagem depois de alguns dias de pouco contato. Por sugestão de Corvin, Ravena respondeu que estava bem, jantando em Gotham e que passaria na Torre no dia seguinte. Dick aceitou a resposta sem interrogatório adicional.
-- Corvin e Ravena terminaram o jantar, Corvin pagou a conta e os dois foram à boate em frente. Ravena dançou de forma livre e ajudou Corvin a abandonar a busca por regras rígidas; ele permaneceu até ela decidir que era hora de ir embora.
-- A noite terminou sem beijo ou declaração romântica, mas com olhares prolongados, conforto mútuo e uma aproximação evidente. Ravena disse que tinha gostado da noite antes de ambos voltarem ao castelo por portal.
-- Na manhã seguinte, Corvin correu, tomou café e usou o tratado de Ifrid para avançar parcialmente na leitura de textos sobre títulos, fórmulas de contato e entidades do Reino de Ifrit; nenhum resultado de alto nível ficou completo.
-- Ravena cumpriu a promessa feita a Dick e foi à Torre dos Titãs. Conversou com Dick sobre a pesquisa e admitiu que a estadia no castelo poderia durar dias ou semanas. Kory também conversou com ela e perguntou diretamente se ela estava feliz no castelo. Ravena respondeu que estava confortável.
-- Ravena separou e levou mais roupas e objetos pessoais para o castelo. Isso não foi definido como mudança permanente, mas tornou a estadia temporária mais longa e concreta.
-- Enquanto Ravena estava fora, Corvin invocou um demônio de grau [3] para treino de combate. A criatura reconheceu o nome Blackwood, estabelecendo em cena que Corvin possui alguma reputação entre demônios e círculos ocultos, embora esse reconhecimento não seja universal.
-- Durante o treino, Trigon enviou uma requisição formal de comunicação ao castelo, sem tentar violar as proteções. Corvin aceitou a conversa.
-- Trigon tentou comprar a neutralidade de Corvin em relação à pesquisa de Ravena, oferecendo acesso a conhecimento/arquivos demonológicos e promessas de poder. Queria que Corvin retirasse a mão caso a pesquisa de Ravena se transformasse em arma contra ele.
-- Corvin não aceitou neutralidade. Disse que deixaria o "investimento" render e sugeriu que, se surgisse informação realmente perigosa para Trigon, poderia vendê-la ao próprio Trigon ou a algum vizinho interessado em guerra. Trigon encerrou a comunicação sem hostilidade aberta e deixou a possibilidade de negociação futura em aberto.
-- Depois, Corvin iniciou pesquisa própria sobre como tornar uma manifestação de Trigon vulnerável. Organizou o problema em três linhas — manifestação, política e vínculo — e começou a considerar uma quarta hipótese: tornar a ligação com Ravena assimétrica, como uma porta que só abre em um sentido. Isso permanece teoria incompleta.
-- Corvin decidiu não interferir diretamente na pesquisa de Ravena nem entregar conclusões prontas. Passou a usar o plano aparentemente cômico de "dar um chute em Trigon" como cobertura para realizar testes legítimos sobre manifestação e vínculo sem revelar a Ravena o objetivo adicional de ajudá-la indiretamente.
-- Depois de Ravena retornar ao castelo e retomar a própria pesquisa na biblioteca, Corvin mostrou a ela o plano de "chutar Trigon" e, ainda ali na biblioteca, contou que Trigon havia procurado por ele, explicou a proposta de neutralidade e relatou sua resposta sobre esperar o "investimento" render e talvez vender informação a Trigon ou a um vizinho. Só depois dessa conversa começaram os testes com Ravena.
-- Com consentimento de Ravena para os testes sob a justificativa do "chute", Corvin observou sua assinatura em repouso, magia comum, portal, Alma Astral e meditação. As observações sugerem, sem confirmar, que a ligação demoníaca profunda pode ser estrutural/espiritual e ter componente dimensional, mais do que ser apenas energética.
-- Corvin não construiu bota, greva ou arma física. A pesquisa da tarde permaneceu teórica, voltada a materiais, runas e princípios capazes de fixar uma manifestação, impedir retirada imediata e fazer dano físico repercutir na forma que a sustenta.
-- Ravena continuou sua própria pesquisa separadamente e pode aproveitar observações que considere úteis, sem saber do objetivo oculto de Corvin de ajudá-la sem conduzir suas conclusões.
-- No jantar, a comunicação de Trigon já era assunto conhecido por Ravena; os dois apenas voltaram a brincar sobre o pai dela, sobre a ideia de Corvin "chutá-lo" e sobre como seria abrir outra comunicação.
-- A conversa voltou ao humor e ao flerte. Corvin chamou Ravena de "bela bruxa" e brincou que Trigon ficaria furioso se a visse sentada no colo dele durante uma chamada. Ravena respondeu que, se algum dia sentasse no colo de Corvin, esperava que Trigon não fosse o motivo.
-- Corvin imaginou a cena, olhou para Ravena, engoliu em seco e tentou se esconder atrás de um comentário sobre o vinho. Ravena percebeu a reação externa, provocou-o e sustentou o olhar por um segundo a mais. O capítulo termina exatamente aí, durante o jantar no castelo.
+- Corvin e Ravena terminaram o jantar e foram dançar; a aproximação cresceu sem beijo ou declaração formal.
+- Ravena visitou os Titãs e trouxe mais roupas/objetos para o castelo, sem definir mudança permanente.
+- Corvin foi contatado por Trigon, que tentou comprar sua neutralidade em relação à pesquisa de Ravena; Corvin recusou.
+- Corvin iniciou pesquisa própria sobre manifestação, política, vínculo e possível assimetria da conexão de Ravena com Trigon.
+- Ravena soube da ligação de Trigon ainda na biblioteca, antes dos testes.
+- Testes com repouso, magia, Portal, Alma Astral e meditação sugeriram componente estrutural/espiritual na ligação, sem solução definitiva.
+- No jantar, Ravena disse que, se algum dia sentasse no colo de Corvin, esperava que Trigon não fosse o motivo. Corvin reagiu e ela sustentou o olhar por um segundo a mais.
 
 ## Capítulo 6 — Contrato é Contrato
-- Depois do jantar, Corvin lavou a louça e Ravena ajudou a fechar a cozinha; os dois foram depois ao solar e ocuparam pufes separados sob as estrelas.
-- Corvin explicou que contou a Ravena sobre a ligação de Trigon porque não queria que ela descobrisse por terceiros uma negociação em que ela própria era o assunto. Ravena valorizou a transparência sem exigir relatórios sobre os demais negócios demonológicos dele.
-- Corvin contou a história do antigo roubo de madeira das almas: ele era o ladrão que depois foi contratado pela própria vítima para investigar o crime, usou o contrato para se proteger das consequências da investigação, vendeu a madeira, protegeu a identidade do comprador e mais tarde trocou a fofoca humilhante com um rival por um favor. Ravena agora conhece essa história, mas não recebeu automaticamente nomes, termos comerciais reservados ou outros segredos infernais não ditos.
-- A conversa revelou a Ravena que o demônio daquela velha investigação ainda devia a Corvin quatro vínculos de Guardas do Abismo como pagamento. Corvin explicou que pretendia manter alguns vínculos e possivelmente negociar outros, não deixar as criaturas soltas pelo castelo.
-- Antes do almoço da manhã seguinte, Corvin levou Ravena à sala de treino usada no dia anterior, que possui um grande espelho. Pediu que ela permanecesse dentro de um círculo de sal e ferro fora do campo de visão para ouvir a comunicação sem ser percebida.
-- Corvin abriu a comunicação pelo espelho usando o antigo contrato em couro com fita vermelha. Tarshar apareceu do outro lado e confirmou a dívida, ainda ressentido pelo fato de Corvin ter sido o próprio ladrão que investigou.
-- Corvin ofereceu reduzir a dívida de quatro para três Guardas do Abismo em troca de informação relevante sobre Trigon. A negociação foi ampliada: se Tarshar conseguir um exemplar adequado de um livro sobre os métodos de fixação de manifestações que interessaram Trigon, um dos três Guardas poderá ser substituído por um Felguard.
-- Corvin ofereceu devolver o contrato antigo e propôs selar os novos termos por um aperto de mão antigo, sem mentiras sobre o acordo. Corvin e Tarshar fizeram contato direto através da borda do espelho e firmaram um vínculo demonológico inquebrável, forma antiga de contrato que exige contato físico direto.
-- Corvin devolveu imediatamente o contrato antigo a Tarshar, embora o novo pacto já bastasse para prender ambos aos termos aceitos.
-- Tarshar informou, sob o novo pacto, que Trigon vinha procurando métodos antigos para fixar manifestações e impedir que uma projeção encerrasse voluntariamente a própria presença depois de estabelecida.
-- Tarshar afirmou que Trigon procurou primeiro Azhur-Khal, um arquivista antigo ligado a conhecimento sobre manifestação, possessão, ancoragem e passagem entre planos. Também relatou que Trigon perguntou se uma ligação já existente entre duas entidades poderia servir como âncora mesmo quando apenas uma estivesse manifestada no plano. Tarshar declarou não saber quem seriam as duas entidades.
-- A informação de Tarshar é uma fonte relevante, não uma solução automaticamente confirmada. Ravena ouviu tudo escondida e reconheceu a proximidade entre a pista e os testes já feitos, mas decidiu continuar pesquisando sem moldar todas as conclusões para caber nela.
-- Corvin tentou acrescentar informalmente um prazo de fim de semana depois do aperto de mão; Tarshar recusou transformar isso em cláusula retroativa, embora tenha dito que tentaria cumprir a entrega até o fim da semana se nada excepcional impedisse. Esse prazo não faz parte do pacto.
-- Depois da comunicação, Corvin lembrou a Ravena que Trigon não é burro e pode saber o tipo de material que ela tem acesso no castelo. Os dois concordaram em comparar a pesquisa independente dela com o eventual livro obtido por Tarshar, se ele conseguir o exemplar.
-- Corvin passou os dois dias seguintes produzindo tinta de escorpião para venda. Não houve ameaça relevante ao castelo durante esse período; a quantidade adicional produzida não foi quantificada em cena.
-- Ravena avançou a pesquisa por fontes independentes: encontrou referências a vínculos preexistentes como referência entre planos, a âncoras externas sustentando manifestações e a custo/instabilidade ligados à resistência da âncora. Ela manteve essas linhas como hipóteses, não respostas.
-- Corvin pediu para ver a pesquisa de Ravena e a refinou sem entregar conclusões diretamente. Onde percebeu erro ou excesso de generalização, deixou livros e páginas capazes de mostrar o problema; onde viu sustentação, deixou fontes correspondentes. Também incorporou à própria investigação os dados dela que ajudavam sua hipótese de assimetria.
-- A pesquisa paralela de Corvin ganhou uma formulação mais precisa, ainda não confirmada: uma referência espiritual persistente não implica necessariamente trânsito bidirecional, o que pode servir de base futura para investigar assimetria do vínculo.
-- Ravena percebeu que Corvin havia escolhido deliberadamente os livros para fazê-la encontrar os próprios erros. Corvin explicou que entregar uma resposta valiosa poderia criar dívida, enquanto "esquecer" o livro certo numa mesa preservava a descoberta como dela. Ravena aceitou o método e disse preferir entender por conta própria.
-- Ravena lembrou Corvin de que ele já reduzira o próprio pagamento em um Guarda do Abismo para obter informação sobre Trigon que seria útil à pesquisa dela. Corvin manteve a desculpa de que tudo servia apenas ao plano de "chutar Trigon".
-- O capítulo termina na cozinha: Corvin foi preparar o almoço e Ravena apareceu à porta com uma anotação na mão, perguntando se o plano final exige apenas um chute em Trigon ou uma sequência inteira.
+- Corvin contou a Ravena a história do roubo de madeira das almas e da investigação em que o próprio ladrão foi contratado pela vítima.
+- Revelou a antiga dívida de quatro Guardas do Abismo e convidou Ravena a assistir à cobrança escondida por círculo de sal e ferro.
+- Corvin renegociou a dívida com Tarshar para três vínculos em troca de informação sobre Trigon; se Tarshar obtiver um livro adequado, um Guard poderá ser substituído por um Felguard.
+- O acordo foi selado por aperto de mão demonológico inquebrável; o prazo de fim de semana não entrou no pacto.
+- Tarshar revelou que Trigon procura métodos de fixação de manifestações e perguntou sobre usar uma ligação preexistente como âncora; citou Azhur-Khal como arquivista relevante.
+- Corvin e Ravena passaram dois dias em pesquisa/trabalho paralelos. Corvin passou a ajudar indiretamente com livros e páginas, sem entregar respostas prontas.
+- O capítulo terminou na cozinha, com Ravena perguntando se o plano de “chutar Trigon” exigiria um chute ou uma sequência inteira.
 
 ## Capítulo 7 — Duzentos e Dez
-- Corvin decidiu manter os dois dias seguintes simples: café, corrida, trabalho, almoço, jantar e descanso, com pesquisa própria sobre Trigon, experimentos de encantamento no laboratório e início da forja de uma adaga de banimento.
-- A adaga permanece incompleta. O objetivo atual é criar uma lâmina capaz de negar permanência, romper âncoras ou condições de manifestação e servir como instrumento de banimento, não apenas causar dano adicional a demônios.
-- Durante esses dois dias, Corvin manteve aproximação suave e constante com Ravena por meio de conversas, flerte, refeições e ajuda indireta à pesquisa, continuando a deixar livros e páginas úteis sem entregar conclusões prontas.
-- Na Torre dos Titãs, Victor encontrou por acaso uma fotografia autêntica da inauguração de uma ala de museu em Gotham em 1916. O homem na imagem corresponde praticamente ao rosto atual de Corvin.
-- Victor mostrou a fotografia a Dick. Dick investigou registros públicos e financeiros e encontrou um padrão de negócios pouco convencional: intermediações, aquisições raras, consultorias e trocas em que Corvin parece ganhar a vida negociando acesso, informação, objetos e oportunidades difíceis de precificar. Não encontrou prova direta de crime ou de vítimas humanas.
-- Dick, Victor, Kory, Garfield e Donna discutiram a descoberta em cena própria. Consideraram a hipótese de Corvin não envelhecer e, sem tratar controle mental como fato, levantaram a possibilidade de influência sobrenatural sobre Ravena como questão de segurança.
-- No terceiro dia, Corvin avisou que sairia para trabalhar e brincou que não haveria demônios. Perguntou se Ravena queria algo de fora; ela escolheu chocolate.
-- Corvin negociou com um milionário humano um item capaz de prolongar sua vida por alguns anos. Recebeu valor em ouro/metais/pedras e um livro antigo de interesse principalmente histórico para Corvin. Não houve culto, pacto ou evento demonológico nessa negociação.
-- Enquanto Corvin estava fora, Dick chamou Ravena à Torre para conversar. Os Titãs mostraram a fotografia e os registros encontrados. Ravena afirmou que está no castelo voluntariamente, que Corvin não usou magia, sugestão, influência mental ou pacto sobre ela e que continua lá porque quer.
-- Dick declarou que quer conhecer Corvin pessoalmente; Kory também. Victor demonstrou interesse em conhecê-lo e Garfield quer conhecer especialmente o castelo. Ravena proibiu visita surpresa e disse que falaria primeiro com Corvin.
-- Corvin voltou no fim da tarde, trouxe o chocolate e guardou o livro novo. Ravena mostrou a fotografia de 1916 e perguntou se era ele. Corvin confirmou.
-- Corvin descreveu a noite da inauguração como uma lembrança comum: conhecia o curador Arthur Bell, ajudara a obter algumas peças históricas, recordava a patrona Eleanor Whitmore, o prefeito, champanhe ruim, um quarteto que repetiu música e uma discussão de catalogação. A fotografia é canônica como registro real de Corvin em 1916.
-- Ravena perguntou a idade de Corvin. Ele acabou esclarecendo que tem **210 anos**, não envelhece biologicamente e pertence à linhagem humana dos Antigos. Não é imortal por pacto demoníaco e ainda pode ser morto por dano.
-- Corvin explicou que a condição dos Antigos parece ligada a uma característica hereditária possivelmente recessiva, embora ele não possa afirmar que não existam outros. Ele encontrou apenas informações dispersas e nada conclusivo sobre outros membros vivos da linhagem.
-- Ravena agora sabe que a linhagem de Corvin também inclui afinidade mágica inata: ele percebe estruturas mágicas com grande facilidade e consegue compreender muito de uma manifestação apenas observando o que realmente está acessível aos seus sentidos.
-- Corvin confirmou que percebe a ligação de Ravena com Trigon desde o primeiro encontro e ainda a percebe. Descreveu-a, por metáfora, como algo semelhante a um "endereço que nunca deixa de existir": uma estrutura espiritual persistente que não acompanha simplesmente mudanças espaciais.
-- Corvin explicou que Portal altera fortemente a assinatura espacial de Ravena sem apagar essa camada; Alma Astral a torna mais evidente; meditação reduz ruído e facilita observação. Desde a chegada de Ravena ao castelo ele não percebeu mudança estrutural não provocada na ligação.
-- Ravena pediu que Corvin a avise imediatamente caso perceba mudança na conexão. Corvin concordou e disse que, se Trigon tentar visitar/invadir sua casa, ele próprio o colocará para fora.
-- A conversa no solar tornou-se mais pessoal. Corvin contou que teve alguém no começo de sua longa vida, mas que o tempo pesa e que seu modo de vida — castelo, demônios e negociações sobrenaturais — tornou relações duradouras difíceis. Ravena não transformou isso em promessa, mas observou que saber como uma história anterior terminou não define necessariamente a próxima.
-- Corvin explicou que nunca havia contado a idade porque Ravena nunca perguntou e porque apresentar-se dizendo ter 210 anos seria um começo social ruim. Ravena aceitou que ele não havia mentido; ela simplesmente não fizera a pergunta.
-- Ao falar sobre os Antigos, Corvin explicou que não envelhecer não significa ser invulnerável e que pessoas que se sentem imortais frequentemente morrem ao testar demais essa condição, especialmente quando possuem curiosidade natural por fenômenos mágicos.
-- Corvin contou uma história de cerca de 170 anos atrás: explorou uma ruína terrestre de um culto antigo, atravessou armadilhas físicas e mágicas, encontrou livros sobreviventes e um demônio preso que insistia em oferecer três desejos.
-- Corvin usou o primeiro desejo para tornar uma garrafa impossível de abrir ou destruir e o segundo para obrigar o demônio a entrar nela. Nunca usou o terceiro desejo. A garrafa, ainda contendo o demônio e o desejo pendente, foi enterrada num canto da própria ruína e continua como potencial pendência antiga.
-- No fim da conversa, Ravena revelou que Dick e Victor haviam investigado os negócios de Corvin e que os Titãs discutiram a possibilidade de influência sobrenatural apenas como hipótese de segurança. Ela repetiu que garantiu estar ali voluntariamente.
-- Ravena contou que Dick e Kory querem conhecer Corvin e que os demais também demonstraram interesse. Corvin aceitou receber visitas e disse que eles podem usar o acesso/"porta" mágica já preparado para Ravena ou serem trazidos por portal. A referência à "porta" é à runa/permissão de Portal de Ravena, não à porta física do castelo.
-- O capítulo termina no solar. Ravena pega o telefone e diz que vai avisar aos Titãs que Corvin aceitou a visita. **Nenhuma mensagem foi enviada em cena ainda e nenhum horário foi combinado.**
+- Corvin manteve dois dias de rotina, pesquisa e forja, iniciando uma adaga de banimento ainda incompleta.
+- Victor encontrou uma fotografia autêntica de Corvin numa inauguração de museu em Gotham em 1916.
+- Dick investigou registros públicos/financeiros e encontrou negócios pouco convencionais, sem prova direta de crime ou vítimas humanas.
+- Dick, Victor, Kory, Garfield e Donna discutiram a situação; influência/controle mental foi tratado apenas como hipótese de segurança.
+- Enquanto Corvin negociava com um milionário humano um item capaz de prolongar sua vida por alguns anos em troca de ouro/metais/pedras e um livro histórico, Ravena foi à Torre.
+- Ravena afirmou aos Titãs que está no castelo voluntariamente e sem magia, sugestão, pacto ou coerção de Corvin.
+- Ravena mostrou a fotografia a Corvin. Ele confirmou ser o homem da imagem, contou detalhes da inauguração e revelou ter 210 anos.
+- Corvin explicou que é um Antigo: não envelhece biologicamente, mas pode ser morto; considera plausível uma herança recessiva e não sabe se existem outros Antigos vivos.
+- Ravena soube da afinidade mágica inata da linhagem.
+- Corvin descreveu a ligação dela com Trigon como estrutura espiritual persistente, semelhante a um “endereço que nunca deixa de existir”; Ravena pediu aviso caso a conexão mude sem que ela provoque a alteração.
+- Corvin falou sobre relações antigas e contou uma história de cerca de 170 anos atrás em que aprisionou um demônio numa garrafa impossível de abrir ou destruir, deixando o terceiro desejo sem uso e a garrafa enterrada na ruína.
+- Ravena contou que os Titãs queriam conhecê-lo. Corvin aceitou receber visitas e autorizou que ela os trouxesse pelo acesso rúnico de Portal da sala.
+- O capítulo terminou no solar, antes de Ravena enviar a confirmação final da visita.
+
+## Capítulo 8 — Banquete para Sete
+- Corvin aproximou o pufe do de Ravena e pediu dicas sobre receber os Titãs. Ficaram definidos limites simples: áreas comuns e seguras, nada de cofre/seção restrita, nada que morda, roube almas ou represente risco desnecessário.
+- Corvin decidiu dormir novamente no solar e convidou Ravena a ficar; ela aceitou. Ele disse que cansou de esconder o próprio interesse. Os dois dormiram em pufes próximos, sem intimidade física maior.
+- Na manhã seguinte, Corvin acordou às 6h30, escureceu os vidros para não acordar Ravena, tomou café, correu e voltou às 8h.
+- Corvin convidou Dick, Donna, Victor, Kory e Garfield para almoço e chamou a refeição de “banquete”. Ravena recomendou preparar comida para cerca de dez adultos com fome e informou que Garfield não come carne.
+- Ravena decidiu buscar os Titãs pelo ponto rúnico autorizado da sala, preservando as proteções do castelo.
+- Corvin convidou Ravena para fazer compras. Entre aproximadamente 8h e 10h, os dois passaram por vários países comprando pães, queijos, legumes, frutas, especiarias, doces e ingredientes; as compras foram enviadas por Portal ao ponto rúnico autorizado da sala, nunca diretamente para a cozinha.
+- Ao retornar, Ravena classificou a manhã como “um encontro muito mal disfarçado”. Corvin respondeu que havia resolvido parar de esconder, mas ainda podia tentar disfarçar.
+- Os dois organizaram juntos o salão de jantar. Ravena escolheu sentar-se ao lado de Corvin e disse que também preferia ficar perto dele.
+- Corvin e Ravena combinaram roupa casual arrumada; brincaram sobre não transformar a visita em pedido de noivado e sobre evitar terno completo, vestido longo e caixa de veludo.
+- Perto do meio-dia, Ravena abriu Portal pela runa autorizada da sala e trouxe Dick, Donna, Victor, Kory e Garfield. Nenhuma proteção foi violada.
+- Corvin recebeu cada visitante formalmente com `Etiqueta [2]`, conduziu-os à sala de jantar, pediu que se sentassem e os serviu pessoalmente como anfitrião.
+- Pelo `Sentido Místico [5]`, Corvin distinguiu corretamente a natureza geral dos visitantes: Dick essencialmente humano/não mágico; Victor tecnológico e não arcano; Kory alienígena/solar e não mágica; Garfield metamorfo biológico; Donna sem grande assinatura mágica pessoal, embora armamentos amazonas encantados possam ser perceptíveis; Ravena continua sendo a presença magicamente mais complexa.
+- Corvin não percebeu, naquele momento, estrutura evidente de possessão, pacto ativo ou controle mental mágico sobre os visitantes.
+- O capítulo termina com todos à mesa, já servidos. Dick diz que a parte estranha é eles já saberem algumas coisas sobre Corvin enquanto Corvin provavelmente sabe pouco sobre eles além do que Ravena contou. Corvin ainda não respondeu.
