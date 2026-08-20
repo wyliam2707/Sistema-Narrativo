@@ -39,6 +39,7 @@ CONTROLE: JOGADOR HUMANO
 - O acúmulo de livros, artefatos e conhecimento transformou a pesquisa do sobrenatural em uma das linhas centrais de sua vida.
 - Ao longo dos anos acumulou uma riqueza confortável, mas não extraordinária, com parte relevante de seu patrimônio concentrada em pedras e minerais de valor.
 - É proprietário e residente do Castelo dos Corvos, sua grande propriedade isolada nas montanhas.
+- **Reputação demonológica:** décadas de atuação, invocação e negociação fizeram o nome Blackwood circular entre parte dos demônios, invocadores e círculos ocultos. Alguns reconhecem Corvin como demonologista perigoso, especialista e negociador experiente; esse reconhecimento não é universal e não concede a essas criaturas conhecimento automático sobre sua vida, planos ou capacidades específicas.
 
 ## Desejos e objetivos atuais
 - Não possui uma grande ambição ou missão central no momento.
