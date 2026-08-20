@@ -68,6 +68,7 @@ ATR: FOR [1] | AGI [0] | RES [2] | MEN [5] | VON [4]
 - Magia [3] => Geral / Demonologia [5] / Invocação [5] / Proteção [4] / Runas [4] / Portal [3] / Cura [2]
 - Regeneração [2] => Si mesmo
 - Sentido Místico [5] => Localizar / Rastrear / Sentir magia
+- **Operação permanente:** Corvin mantém `Sentido Místico [5]` ativo por padrão. O narrador deve considerar automaticamente percepções mágicas compatíveis com esse poder sem exigir que o jogador declare nova ativação a cada cena. Isso não concede conhecimento que não esteja acessível ao sentido nem substitui investigação quando interpretação adicional for necessária.
 
 ### Especialização demonológica
 Demonologia [5] é uma especialização de PODER, não uma perícia. Dentro do campo demonológico, Corvin opera na escala plena de grau [5]. Isso inclui tanto domínio técnico quanto potência mágica quando aplicada por meios demonológicos.
