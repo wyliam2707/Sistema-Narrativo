@@ -126,6 +126,135 @@ A decisão estrutural pertence ao usuário. Depois da aprovação, a decisão de
 
 > **O usuário decide quem pode ser jogador da IA. A IA decide quando um Jogador Eventual IA entra em ação.**
 
+## Ciclo autônomo — a vida não para fora da câmera
+
+`JOGADOR IA` não existe apenas quando está diante do personagem do jogador humano. Ele possui **agenda, relações, rotina, necessidades, compromissos e objetivos que continuam existindo fora da cena principal**.
+
+> **A câmera acompanha a história; ela não liga nem desliga a vida dos outros jogadores.**
+
+Por isso, o narrador não deve tratar a presença do protagonista como condição para que um Jogador IA tome decisões. Um coprotagonista pode, por iniciativa própria:
+
+- sair para resolver assunto pessoal;
+- trabalhar, estudar, treinar ou cumprir uma obrigação;
+- telefonar ou mandar mensagem para familiares, amigos e aliados;
+- aceitar ou recusar convites;
+- visitar alguém;
+- ser chamado para uma missão ou problema externo;
+- procurar informação em outro lugar;
+- passar tempo com pessoas importantes de sua vida;
+- retornar depois porque decidiu retornar;
+- mudar seus planos sem pedir que o protagonista primeiro provoque essa mudança.
+
+A mesma lógica vale para `JOGADOR EVENTUAL IA`: personagens importantes fora da cena não devem ficar indefinidamente congelados só porque a narrativa está acompanhando outro núcleo.
+
+### Quando executar o ciclo autônomo
+
+A IA deve revisar ativamente a vida dos Jogadores IA e dos Jogadores Eventuais IA relevantes quando ocorrer pelo menos uma destas situações:
+
+- mudança de dia;
+- passagem de várias horas;
+- salto temporal;
+- transição importante de cena;
+- personagem relevante permanece fora da câmera por tempo significativo;
+- rotina habitual foi interrompida;
+- contato esperado não aconteceu;
+- objetivo, obrigação ou relação relevante teve tempo plausível para produzir ação;
+- o protagonista passa muito tempo absorvendo a narrativa e os demais jogadores correm risco de virar espectadores.
+
+Não existe intervalo universal de horas ou dias. A frequência depende da vida concreta do personagem.
+
+Uma pessoa que fala diariamente com a família pode tornar um dia inteiro de silêncio significativo. Outra pode passar uma semana sem contato sem que isso represente nada. O sistema deve usar **padrão anterior, proximidade, personalidade, compromissos e circunstância**, não um relógio arbitrário.
+
+> **Silêncio prolongado em uma relação próxima precisa ser uma consequência plausível, não o resultado automático de o narrador ter esquecido os outros personagens.**
+
+### Ciclo de verificação
+
+Antes de consolidar uma passagem relevante de tempo, a IA deve perguntar separadamente para cada Jogador IA importante:
+
+1. **O que ele queria fazer durante esse intervalo?**
+2. **Que obrigações, hábitos ou necessidades continuam existindo?**
+3. **Quem faz parte da vida dele além do protagonista?**
+4. **Alguém plausivelmente entraria em contato com ele?**
+5. **Ele próprio teria motivo para procurar alguém?**
+6. **Algum objetivo pessoal avançaria mesmo sem participação do protagonista?**
+7. **Ele teria motivo para sair da cena, do local ou do núcleo atual?**
+8. **Se o protagonista não existisse nesta história, o que este personagem faria agora?**
+
+A última pergunta é o **teste da câmera**.
+
+Se existe uma resposta concreta e coerente, o personagem deve poder agir sobre ela. Não fazê-lo apenas para mantê-lo disponível ao protagonista é perda de agência.
+
+### Jogadores Eventuais e relações próximas
+
+Quando personagens com `CONTROLE: JOGADOR EVENTUAL IA` possuem vínculo familiar, amizade forte, parceria, responsabilidade profissional ou outro relacionamento ativo com um Jogador IA, a passagem de tempo deve ser avaliada também pelo ponto de vista deles.
+
+Exemplos de gatilhos legítimos:
+
+- alguém deixa de aparecer onde normalmente apareceria;
+- permanece vários dias em outro lugar sem o padrão habitual de contato;
+- muda rotina de forma perceptível;
+- passa a conviver intensamente com uma pessoa nova;
+- deixa uma obrigação pendente;
+- existe preocupação, curiosidade, saudade, necessidade prática ou simples hábito social suficiente para motivar contato.
+
+Isso não significa que família ou amigos precisam interromper toda cena. Significa que eles **também jogam**.
+
+Podem mandar uma mensagem banal, ligar, fazer convite, pedir ajuda, provocar, marcar encontro, aparecer pessoalmente ou decidir não interferir. A escolha precisa nascer deles.
+
+### Inação também pode ser uma decisão
+
+O ciclo autônomo não obriga a criar acontecimentos o tempo inteiro.
+
+Um Jogador IA pode decidir:
+
+- continuar estudando;
+- descansar;
+- não ligar para ninguém naquele dia;
+- ficar onde está;
+- adiar uma obrigação;
+- respeitar o espaço de outra pessoa;
+- passar horas sem produzir nenhum evento relevante.
+
+A diferença é operacional:
+
+> **“Nada aconteceu porque ninguém foi considerado” é falha de agência. “Nada aconteceu porque os agentes, considerados individualmente, não tinham motivo para agir” é resultado válido.**
+
+### Cenas paralelas e consequência fora da câmera
+
+Uma ação autônoma relevante não precisa acontecer diante do protagonista humano para ser canônica.
+
+Quando útil, o narrador pode:
+
+- mostrar uma cena paralela;
+- resolver a ação fora da câmera e apresentar depois sua consequência perceptível;
+- registrar o acontecimento para continuidade;
+- no livro consolidado, incluir a cena pelo ponto de vista do personagem que realmente a viveu.
+
+A apresentação nunca autoriza vazamento de conhecimento. O protagonista humano só sabe o que recebeu, percebeu ou descobriu legitimamente.
+
+### Romance não suspende vida própria
+
+Essa regra é especialmente importante em histórias de romance.
+
+Um interesse romântico não deve ficar permanentemente disponível na casa, quarto, castelo, nave ou base do protagonista apenas porque a relação está avançando.
+
+Ele continua possuindo:
+
+- amigos;
+- família;
+- trabalho;
+- responsabilidades;
+- hobbies;
+- missões;
+- lugares próprios;
+- vontade de ficar sozinho;
+- razões para sair;
+- razões para voltar.
+
+O retorno voluntário pode ser emocionalmente mais significativo do que permanência automática.
+
+> **Proximidade ganha peso quando o personagem poderia ir embora, viver a própria vida e ainda assim escolhe voltar.**
+
 ## Como decidir o que um personagem faria
 
 Antes de uma decisão importante, considere em conjunto:
