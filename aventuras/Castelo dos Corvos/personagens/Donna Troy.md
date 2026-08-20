@@ -47,7 +47,7 @@ Regra do Armamento Mágico:
 - Essas armas não dependem de munição consumível comum; quando uma arma exige projéteis, como o arco, o próprio encantamento supre o disparo necessário.
 - Espada, arco e recursos de contenção continuam sendo armas e ferramentas usadas por Donna; sua perícia define o domínio técnico, enquanto a especialização indicada representa a escala efetiva daquele uso.
 - Espada [3] representa o dano efetivo do golpe quando Donna a usa, coerente com sua FOR [3].
-- Arco [2] representa o dano efetivo do disparo quando Donna o usa, coerente com sua AGI [2].
+- Arco [2] representa o dano efetivo do disparo quando Donna a usa, coerente com sua AGI [2].
 - Contenção permanece no grau-base [1] quando não houver valor próprio indicado.
 
 EQP:
@@ -58,11 +58,13 @@ EQP:
   - Recurso mágico de contenção.
 - Comunicador dos Titãs.
 - Acesso aos recursos dos Titãs e, quando apropriado, de Themyscira.
+- **Óleo de Corvin para aço amazona:** frasco recebido no Capítulo 9. No teste observado, duas gotas restauraram a aparência da espada e uma gota de sangue demoníaco queimou/desapareceu ao tocar a lâmina tratada. Não tratar como aumento universal automático contra toda criatura sobrenatural; efeitos além do observado exigem contexto/teste.
 
 REL:
 - Titãs: equipe veterana e uma de suas principais famílias escolhidas.
 - Diana / Mulher-Maravilha: importante figura de mentoria e vínculo amazona.
 - Themyscira / Amazonas: povo, cultura e formação que moldaram Donna.
+- Corvin Blackwood: conheceu pessoalmente no Capítulo 9; recebeu dele o óleo para a espada e testemunhou o pacto com Trigon e o noivado de Corvin com Ravena.
 
 ## Personalidade e tendências
 - Serena, responsável e bastante madura.
@@ -89,3 +91,4 @@ REL:
 - Foi uma das integrantes históricas dos Titãs e desenvolveu vínculos duradouros com a equipe.
 - Com o tempo, consolidou-se como guerreira, heroína e líder por mérito próprio.
 - Sua vida amorosa está aberta no início da campanha, sem relacionamento atual previamente definido.
+- No Capítulo 9, conheceu Corvin pessoalmente, permitiu que ele demonstrasse o óleo em sua espada, ficou com o frasco e foi testemunha do noivado de Ravena.
