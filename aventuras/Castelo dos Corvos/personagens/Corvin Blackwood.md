@@ -44,11 +44,13 @@ CONTROLE: JOGADOR HUMANO
 - **Reputação demonológica:** décadas de atuação, invocação e negociação fizeram o nome Blackwood circular entre parte dos demônios, invocadores e círculos ocultos. Alguns reconhecem Corvin como demonologista perigoso, especialista e negociador experiente; esse reconhecimento não é universal e não concede a essas criaturas conhecimento automático sobre sua vida, planos ou capacidades específicas.
 - No Capítulo 9, apresentou-se pessoalmente aos Titãs como mago, estudioso de demonologia sem culto, explorador/pesquisador e comerciante de objetos, livros, informação e acessos não convencionais.
 - No mesmo capítulo, firmou com Trigon um pacto demonológico de neutralidade limitada por aperto de mão e, depois, pediu Rachel Roth/Ravena em casamento diante dos Titãs. Ravena aceitou.
+- No Capítulo 10, explicou aos Titãs e a Ravena que o pacto/noivado foram improvisados a partir de uma sequência de oportunidades, limpou qualquer resíduo funcional detectável da chamada anterior de Trigon e, na manhã seguinte, teve com Ravena o primeiro beijo romântico real entre os dois. Ravena tomou a iniciativa e conduziu o beijo; Corvin depois beijou a testa dela.
 
 ## Desejos e objetivos atuais
 - Mantém forte motivação de descoberta: encontrar algo que ainda não conhece e incorporá-lo aos próprios estudos.
 - Continua pesquisando Trigon, manifestação, ancoragem e possíveis assimetrias para seus próprios fins, agora respeitando um pacto de neutralidade limitada.
 - Continua a forja da adaga de banimento e outras linhas de pesquisa sem solução pronta.
+- Continua traduzindo os livros de Ifrid com auxílio do tratado linguístico raro.
 - O noivado com Ravena é vínculo real e voluntário; o futuro da relação continua aberto às escolhas dos dois.
 
 ## Medos e limites relevantes
@@ -116,7 +118,7 @@ Demonologia [5] é uma especialização de PODER, não uma perícia. Dentro do c
 - Roupa de combate com runas de proteção: proteção física equivalente a RES [3] e proteção contra magia equivalente a [4]. Corvin a utiliza apenas quando considera necessário.
 
 ## REL
-- **Ravena / Rachel Roth:** noiva de Corvin desde o Capítulo 9. Corvin pediu Rachel em casamento diante de Dick, Victor, Kory, Donna e Garfield, deixando explícito que não exigia amor, residência permanente ou permanência contra a vontade dela. Ravena aceitou casar-se e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade.
+- **Ravena / Rachel Roth:** noiva de Corvin desde o Capítulo 9. Corvin pediu Rachel em casamento diante de Dick, Victor, Kory, Donna e Garfield, deixando explícito que não exigia amor, residência permanente ou permanência contra a vontade dela. Ravena aceitou casar-se e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. No Capítulo 10 ocorreu o primeiro beijo romântico real entre os dois, iniciado e conduzido por Ravena; Corvin depois beijou sua testa.
 - **Casa Blackwood ↔ Ravena:** Ravena é membro reconhecido da Casa por consentimento bilateral contínuo. Pode entrar, sair, permanecer ausente e retornar livremente. O vínculo termina se Corvin ou Ravena retirar voluntariamente o próprio consentimento.
 - **Trigon:** pacto formal de neutralidade limitada selado por aperto de mão no Capítulo 9. Enquanto Ravena permanecer membro reconhecido da Casa Blackwood, Trigon fica submetido às restrições específicas acordadas sobre o vínculo com ela; Corvin, em troca, mantém neutralidade conforme os termos pronunciados, sem obrigação de impedir ações independentes de Ravena e preservando pesquisa própria.
-- **Titãs:** Dick, Victor, Kory, Donna e Garfield conheceram Corvin pessoalmente no Capítulo 9, visitaram áreas relevantes do castelo, receberam presentes e testemunharam tanto o pacto com Trigon quanto o noivado.
+- **Titãs:** Dick, Victor, Kory, Donna e Garfield conheceram Corvin pessoalmente no Capítulo 9, visitaram áreas relevantes do castelo, receberam presentes e testemunharam tanto o pacto com Trigon quanto o noivado. No Capítulo 10, Dick e Victor retornaram para casa à noite; Kory, Donna e Garfield aceitaram passar a noite no castelo.
