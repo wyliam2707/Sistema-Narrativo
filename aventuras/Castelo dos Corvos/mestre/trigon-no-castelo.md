@@ -115,3 +115,34 @@ Se houver uma solução demonológica capaz de ferir, conter, redirecionar, bani
 - Ravena ouviu essa informação escondida durante a comunicação e sabe da pista sobre Azhur-Khal e a possível função de vínculos preexistentes como âncoras.
 - Corvin e Ravena ainda não sabem se Trigon encontrou o que procurava, que resposta Azhur-Khal deu, se a técnica funciona no vínculo específico de Ravena ou qual objetivo final Trigon pretende alcançar com isso.
 - A pesquisa de Corvin avançou apenas até a hipótese de que **referência espiritual persistente não implica necessariamente trânsito bidirecional**. A possível assimetria continua incompleta e não deve ser tratada como solução confirmada.
+
+## Continuidade estabelecida no Capítulo 9
+- O anel de viajante planar dado por Corvin a Ravena produziu alteração perceptível suficiente para chamar a atenção de Trigon. Trigon contatou **Corvin diretamente** por uma runa de comunicação no solar; não utilizou Ravena como canal.
+- Corvin colocou Ravena e os Titãs fora do campo visual da projeção e, usando Demonologia [5] e as proteções do castelo, restringiu a percepção de Trigon ao canal autorizado. Trigon acreditou estar falando apenas com Corvin; Ravena e os Titãs ouviram tudo.
+- Durante a comunicação, Corvin mencionou um duque da fronteira leste. Trigon reagiu de forma perceptível. Isso confirma apenas relevância política da referência; não criar automaticamente relação, guerra, aliança ou fraqueza não estabelecida.
+- Corvin testou uma teoria quase descartada falando como se pretendesse usar o vínculo espiritual como âncora de manifestação, transferir a âncora para algo sob seu controle e depois cortar a referência original. Trigon evitou declarar a hipótese impossível e reagiu de forma suficientemente significativa para manter a teoria viva. **A teoria continua não confirmada.**
+- Corvin e Trigon negociaram e selaram por **aperto de mão demonológico antigo** um pacto de neutralidade limitada. O rito fixa somente os termos pronunciados e aceitos; não admite cláusulas retroativas.
+
+### Pacto Corvin–Trigon — termos canônicos
+Enquanto Ravena/Rachel Roth for **membro reconhecido da Casa Blackwood por consentimento contínuo dela e de Corvin**:
+- Ravena pode entrar, sair, permanecer ausente e retornar livremente.
+- Ausência física não encerra o vínculo com a Casa.
+- O vínculo termina quando Ravena ou Corvin retirar voluntariamente o próprio consentimento.
+- Trigon pode conversar, negociar, argumentar, oferecer razões e tentar persuadir Ravena a deixar a Casa por vontade própria.
+- Trigon **não pode** produzir essa decisão por compulsão, alteração sobrenatural da vontade ou uso do vínculo Ravena–Trigon.
+- Trigon **não pode usar o vínculo** para influenciar Ravena, alterá-la, possuí-la, observá-la através dele, atravessar por ela ou manifestar-se através dela.
+- Trigon **não pode fortalecer, enfraquecer, redirecionar ou modificar** o vínculo Ravena–Trigon durante a vigência da condição.
+- Corvin mantém **neutralidade** no conflito direto Ravena–Trigon: não fornece sua Demonologia, pesquisas, armas, artefatos ou recursos a Ravena com a finalidade específica de atacar Trigon.
+- Corvin **não é obrigado a impedir** ações, pesquisas ou decisões que Ravena execute por conta própria.
+- Corvin permanece livre para pesquisar Trigon, suas manifestações, domínios, regras e vulnerabilidades **para os próprios fins**.
+- Quando o vínculo de Ravena com a Casa Blackwood terminar por retirada voluntária de consentimento de qualquer um dos dois, as obrigações recíprocas terminam.
+
+### Estado atual do pacto
+- Depois da comunicação com Trigon, Corvin pediu Ravena/Rachel Roth em casamento diante de Dick Grayson, Victor Stone, Koriand’r, Donna Troy e Garfield Logan.
+- O pedido foi explícito: Corvin não exigiu amor, residência física permanente, vida conjunta obrigatória ou permanência contra a vontade dela; perguntou se `Rachel Roth` aceitava casar-se e fazer parte da Casa Blackwood enquanto essa fosse sua vontade.
+- Ravena aceitou o noivado e aceitou fazer parte da Casa Blackwood enquanto essa continuar sendo sua escolha.
+- Corvin colocou o anel de viajante planar no dedo dela após o aceite.
+- Portanto, **a condição do pacto está atualmente satisfeita e o pacto está ativo**.
+- Ravena não é vinculada magicamente ao pacto como parte contratante: ela não apertou a mão de Trigon nem assumiu obrigação perante ele. O que ativa o pacto é a condição factual de ela ser membro reconhecido da Casa por consentimento bilateral.
+- Corvin e Ravena podem, qualquer um deles, retirar voluntariamente o consentimento ao vínculo com a Casa; se isso ocorrer, atualizar imediatamente o estado do pacto.
+- Trigon deve obedecer aos termos enquanto a condição permanecer. Qualquer tentativa deliberada de contornar o texto por meio do próprio vínculo deve ser tratada como possível violação real do rito, não como liberdade automática para interpretar contra o espírito das palavras fixadas.
