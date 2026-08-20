@@ -43,11 +43,13 @@ EQP:
 - Traje e manto usuais de Ravena.
 - Acesso aos recursos dos Titãs quando estiver atuando com a equipe.
 - Nenhum equipamento pessoal é necessário para usar seus poderes.
+- **Anel de viajante planar:** presente de Corvin. Ajuda a limpar rastros/resíduos de travessias, fechar passagens atrás da usuária e manter uma referência de retorno durante projeções ou viagens espirituais/planares. Não corta automaticamente o vínculo com Trigon e não concede imunidade absoluta a rastreamento, ancoragem ou interferência.
 
 REL:
 - Titãs: sua equipe e principal grupo de vínculos recorrentes.
-- Trigon: pai e origem de sua herança demoníaca; relação perigosa e conflituosa.
-- Corvin Blackwood: no início da história ainda não o conhece pessoalmente e vai ao Castelo dos Corvos em busca de um livro relacionado a Trigon. O romance é eixo da campanha, mas a relação começa do zero.
+- Trigon: pai e origem de sua herança demoníaca; relação perigosa e conflituosa. Um pacto firmado entre Corvin e Trigon limita o uso e modificação do vínculo Ravena–Trigon enquanto Ravena permanecer membro reconhecido da Casa Blackwood por consentimento mútuo.
+- **Corvin Blackwood:** noivo de Ravena desde o Capítulo 9. Ravena aceitou casar-se com ele e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. O vínculo é voluntário, não exige residência permanente, amor declarado, submissão ou permanência contra sua vontade; qualquer um dos dois pode retirar o próprio consentimento.
+- **Casa Blackwood:** Ravena é membro reconhecido por consentimento bilateral contínuo. Pode entrar, sair, permanecer ausente e retornar livremente; ausência física não encerra o vínculo.
 
 ## Personalidade e tendências
 - Reservada, controlada, distante e bastante privada.
@@ -55,10 +57,11 @@ REL:
 - Seu autocontrole não elimina seus desejos ou emoções; ele é uma disciplina necessária para conviver com sua natureza e seus poderes.
 
 ## Desejos/objetivos atuais
-- No início da campanha, procura um livro relacionado a Trigon que acredita estar na coleção de Corvin Blackwood.
-- Quer compreender se o livro representa um perigo real e impedir que Trigon ou sua influência ganhem espaço sobre sua vida.
+- Continua investigando Trigon de forma lenta, cuidadosa e independente, sem solução pronta.
+- Quer compreender se as pistas sobre manifestação, ancoragem e o vínculo com Trigon representam perigo real e impedir que ele ou sua influência determinem sua vida.
 - Deseja continuar escolhendo quem quer ser, em vez de aceitar o destino imposto por sua herança demoníaca.
 - Em um nível profundamente pessoal, deseja a possibilidade de uma vida comum: dançar por prazer, namorar, construir um lar e talvez ter filhos, sem que sua herança ou seus conflitos sobrenaturais determinem cada aspecto de sua existência.
+- O noivado com Corvin não encerra essa autonomia; o futuro da relação continua dependente das escolhas dos dois.
 
 ## Medos/limites relevantes
 - Perder o controle das próprias emoções ou poderes.
@@ -71,3 +74,6 @@ REL:
 - Passou grande parte da vida treinando controle emocional e artes místicas para dominar a própria natureza e recusar o destino demoníaco pretendido para ela.
 - Tornou-se heroína e integrante central dos Titãs.
 - Trigon continua sendo uma presença perigosa e recorrente em sua história, mesmo quando não está fisicamente presente.
+- Foi ao Castelo dos Corvos inicialmente em busca de um livro relacionado a Trigon e permaneceu por escolha própria enquanto aprofundava pesquisa e convivência com Corvin.
+- No Capítulo 9, ouviu escondida com os Titãs uma negociação direta entre Corvin e Trigon. Corvin e Trigon firmaram por aperto de mão um pacto de neutralidade limitada que protege Ravena de usos específicos do vínculo enquanto ela permanecer membro reconhecido da Casa Blackwood.
+- Ainda no Capítulo 9, diante de Dick, Victor, Kory, Donna e Garfield, Corvin pediu `Rachel Roth` em casamento deixando explícito que não exigia amor, residência permanente ou permanência contra sua vontade. Ravena aceitou o noivado e o vínculo voluntário com a Casa Blackwood.
