@@ -10,6 +10,7 @@ CONTROLE: JOGADOR HUMANO
 - Idade aparente: 26 anos.
 - Natureza: humano imortal da raça dos Antigos.
 - Vocação: feiticeiro e demonologista.
+- Nascimento revelado em cena: Inverness, Escócia, 1816.
 
 ## Descrição
 - Altura: 1,90 m.
@@ -41,12 +42,14 @@ CONTROLE: JOGADOR HUMANO
 - Ao longo dos anos acumulou uma riqueza confortável, mas não extraordinária, com parte relevante de seu patrimônio concentrada em pedras e minerais de valor.
 - É proprietário e residente do Castelo dos Corvos, sua grande propriedade isolada nas montanhas.
 - **Reputação demonológica:** décadas de atuação, invocação e negociação fizeram o nome Blackwood circular entre parte dos demônios, invocadores e círculos ocultos. Alguns reconhecem Corvin como demonologista perigoso, especialista e negociador experiente; esse reconhecimento não é universal e não concede a essas criaturas conhecimento automático sobre sua vida, planos ou capacidades específicas.
+- No Capítulo 9, apresentou-se pessoalmente aos Titãs como mago, estudioso de demonologia sem culto, explorador/pesquisador e comerciante de objetos, livros, informação e acessos não convencionais.
+- No mesmo capítulo, firmou com Trigon um pacto demonológico de neutralidade limitada por aperto de mão e, depois, pediu Rachel Roth/Ravena em casamento diante dos Titãs. Ravena aceitou.
 
 ## Desejos e objetivos atuais
-- Não possui uma grande ambição ou missão central no momento.
-- Passa boa parte dos dias estudando sua coleção e aprofundando seus conhecimentos.
-- Alterna períodos de isolamento no castelo com viagens e explorações de novos locais em busca de grimórios, textos raros e outras fontes de conhecimento arcano.
-- Sua motivação recorrente é a descoberta: encontrar algo que ainda não conhece e incorporá-lo aos próprios estudos.
+- Mantém forte motivação de descoberta: encontrar algo que ainda não conhece e incorporá-lo aos próprios estudos.
+- Continua pesquisando Trigon, manifestação, ancoragem e possíveis assimetrias para seus próprios fins, agora respeitando um pacto de neutralidade limitada.
+- Continua a forja da adaga de banimento e outras linhas de pesquisa sem solução pronta.
+- O noivado com Ravena é vínculo real e voluntário; o futuro da relação continua aberto às escolhas dos dois.
 
 ## Medos e limites relevantes
 - Nenhum medo, fraqueza pessoal ou limite moral específico foi estabelecido como definidor do personagem neste estágio.
@@ -113,4 +116,7 @@ Demonologia [5] é uma especialização de PODER, não uma perícia. Dentro do c
 - Roupa de combate com runas de proteção: proteção física equivalente a RES [3] e proteção contra magia equivalente a [4]. Corvin a utiliza apenas quando considera necessário.
 
 ## REL
-- Ravena: conhece apenas por televisão, jornais e aparições públicas ligadas aos Titãs; no início da campanha ainda não houve contato pessoal entre os dois.
+- **Ravena / Rachel Roth:** noiva de Corvin desde o Capítulo 9. Corvin pediu Rachel em casamento diante de Dick, Victor, Kory, Donna e Garfield, deixando explícito que não exigia amor, residência permanente ou permanência contra a vontade dela. Ravena aceitou casar-se e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade.
+- **Casa Blackwood ↔ Ravena:** Ravena é membro reconhecido da Casa por consentimento bilateral contínuo. Pode entrar, sair, permanecer ausente e retornar livremente. O vínculo termina se Corvin ou Ravena retirar voluntariamente o próprio consentimento.
+- **Trigon:** pacto formal de neutralidade limitada selado por aperto de mão no Capítulo 9. Enquanto Ravena permanecer membro reconhecido da Casa Blackwood, Trigon fica submetido às restrições específicas acordadas sobre o vínculo com ela; Corvin, em troca, mantém neutralidade conforme os termos pronunciados, sem obrigação de impedir ações independentes de Ravena e preservando pesquisa própria.
+- **Titãs:** Dick, Victor, Kory, Donna e Garfield conheceram Corvin pessoalmente no Capítulo 9, visitaram áreas relevantes do castelo, receberam presentes e testemunharam tanto o pacto com Trigon quanto o noivado.
