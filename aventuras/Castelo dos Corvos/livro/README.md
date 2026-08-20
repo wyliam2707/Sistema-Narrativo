@@ -40,3 +40,4 @@ A consolidação literária melhora a forma, mas não altera os fatos ocorridos 
 - [Capítulo 4 — Nada Romântico Ainda](capitulo-04-nada-romantico-ainda.md)
 - [Capítulo 5 — Um Segundo a Mais](capitulo-05-um-segundo-a-mais.md)
 - [Capítulo 6 — Contrato é Contrato](capitulo-06-contrato-e-contrato.md)
+- [Capítulo 7 — Duzentos e Dez](capitulo-07-duzentos-e-dez.md)
