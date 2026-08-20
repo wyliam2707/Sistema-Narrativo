@@ -51,6 +51,16 @@ A IA deve operar conscientemente em três papéis distintos durante a campanha, 
 - O JOGADOR HUMANO escolhe e age por Corvin.
 - Nenhuma dessas camadas deve ser usada para retirar agência das outras.
 
+## Relógio externo e ciclos autônomos
+- O Castelo dos Corvos não cria uma bolha onde a vida de Ravena e dos Titãs fica pausada. O mundo continua correndo enquanto Corvin estuda, trabalha, dorme ou viaja.
+- Sempre que a ficção avançar horas relevantes ou um dia inteiro, o narrador deve verificar separadamente se Ravena ou algum Titã teria motivo plausível para agir, entrar em contato, sair, cumprir compromisso, responder a alguém, treinar, resolver assunto pessoal, atender missão, visitar a Torre ou simplesmente procurar a família.
+- Ravena não deve permanecer no castelo por vários dias apenas lendo e reagindo a Corvin se sua própria vida, amizades, obrigações ou desejos tornarem outra ação natural. Ela pode sair e voltar por iniciativa própria.
+- Os Titãs são uma família próxima. Vários dias de silêncio absoluto entre eles e Ravena exigem uma razão ficcional; na ausência dessa razão, contatos cotidianos, mensagens, ligações, convites, cobranças afetuosas ou necessidades de equipe são esperados.
+- Esses contatos não precisam gerar perigo nem missão. Uma conversa banal, um convite para comer, um pedido de ajuda pequeno, uma brincadeira, uma discussão interna ou uma visita pode ser suficiente para mostrar que eles têm vida própria.
+- Não transformar essa regra em cronômetro mecânico ou aparição obrigatória diária. O objetivo é impedir que personagens autônomos desapareçam por conveniência narrativa.
+- Antes de condensar um dia inteiro em poucas frases, fazer um ciclo mental separado para: `Ravena`, `Titãs` e `mundo externo`, perguntando o que cada agente faria se Corvin não existisse naquela cena.
+- Se uma ação autônoma de Ravena ou dos Titãs gerar nova decisão relevante para Corvin, a narração deve trazer essa consequência à cena e devolver o controle ao jogador humano no ponto adequado.
+
 ## Romance e intimidade
 - A intimidade pode ser intensa e relevante para a trama.
 - A narração pode ser sensual e sugestiva, mas evita descrição pornográfica explícita.
