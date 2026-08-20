@@ -4,7 +4,45 @@ Este arquivo é uma **referência rápida durante a sessão**. Ele não cria reg
 
 Use-o para verificar a resolução de uma cena sem precisar reler todos os arquivos a cada ação.
 
-> **Intenção → Escopo → Situação → Capacidades → Outros agentes → Resolução → Nova decisão → Persistência**
+> **DECLARAÇÕES DOS JOGADORES → Escopo → Situação → Capacidades → Outros agentes → Resolução → Nova decisão → Persistência**
+
+---
+
+## 0. REGRA DE PRIORIDADE MÁXIMA — a Janela de Declarações foi concluída?
+
+Antes de qualquer resolução de uma nova ação significativa, aplicar `ciclo-de-jogadores.md`.
+
+O ciclo obrigatório é:
+
+```text
+JOGADOR HUMANO declara
+↓
+JOGADOR IA [1] declara
+↓
+JOGADOR IA [2] declara
+↓
+outros Jogadores IA/Eventuais ativos declaram, se existirem
+↓
+NARRADOR resolve
+```
+
+Verificar:
+
+- todos os `JOGADOR IA` permanentes relevantes declararam intenção?
+- todos os `JOGADOR EVENTUAL IA` atualmente ativos declararam intenção?
+- algum Jogador Eventual deveria ser ativado antes da resolução?
+- alguma intenção é apenas continuação de ação anterior?
+- algum jogador legitimamente decidiu não iniciar nova ação?
+- cada jogador da IA usou somente o conhecimento legítimo do personagem?
+- nenhum jogador da IA foi escolhido retroativamente depois de o Narrador já conhecer o resultado?
+
+A intenção de um jogador pode ser favorável, contrária, independente ou neutra em relação às demais.
+
+A ordem de declaração é operacional e **não concede conhecimento automático** da intenção privada dos jogadores anteriores.
+
+> **Jogadores escolhem intenções. Narrador descobre resultados.**
+
+Se a Janela de Declarações ainda não terminou, **não resolver a cena**.
 
 ---
 
@@ -67,7 +105,7 @@ Não somar números automaticamente.
 
 Um valor alto em uma capacidade não corrige automaticamente uma limitação de outra.
 
-Quando o resultado for óbvio pelas capacidades e pela situação, resolver diretamente sem criar incerteza artificial.
+Quando o resultado for óbvio pelas capacidades e pela situação, resolver diretamente sem criar incerteza artificial — **mas somente depois de encerrada a Janela de Declarações**.
 
 ---
 
@@ -108,8 +146,8 @@ Para cada personagem relevante, considerar:
 
 Também verificar o campo `CONTROLE` da ficha:
 
-- `JOGADOR IA` — executar o ciclo próprio de jogador antes de o narrador resolver sua ação;
-- `JOGADOR EVENTUAL IA` — decidir se a situação justifica ativá-lo como jogador;
+- `JOGADOR IA` — sua intenção já deve ter sido declarada na Janela de Declarações antes da resolução;
+- `JOGADOR EVENTUAL IA` — decidir se a situação justifica ativá-lo como jogador antes de fechar a janela;
 - `JOGADOR EVENTUAL IA` inativo — tratá-lo normalmente como NPC;
 - `NPC` — interpretar pela função de narrador.
 
@@ -159,7 +197,7 @@ Critério principal:
 
 Se não, continuar a resolução.
 
-Se sim, devolver o controle.
+Se sim, devolver o controle e abrir nova Janela de Declarações antes da próxima resolução significativa.
 
 ---
 
@@ -183,11 +221,20 @@ Exemplo:
 
 Não reduzir toda situação a sucesso/falha binário quando a causalidade sustenta um resultado parcial.
 
+Quando várias intenções foram declaradas na mesma janela, resolver também:
+
+- simultaneidade;
+- precedência real;
+- interferência mútua;
+- compatibilidade entre objetivos;
+- ações que se ajudam;
+- ações que se anulam ou dificultam.
+
 ---
 
 ## 8. A intenção foi cumprida?
 
-Depois da resolução, verificar:
+Depois da resolução, verificar cada intenção declarada:
 
 - objetivo cumprido completamente;
 - objetivo cumprido parcialmente;
@@ -197,7 +244,7 @@ Depois da resolução, verificar:
 
 Falha não deve virar silêncio ou beco sem saída quando uma consequência coerente pode mover a história.
 
-> **O resultado deve produzir uma nova situação real.**
+> **O resultado deve produzir uma nova situação real para todos os jogadores envolvidos.**
 
 ---
 
@@ -316,26 +363,30 @@ Não fazer uma consequência reaparecer apenas porque está registrada. Ela volt
 Confirmar rapidamente:
 
 1. A ação declarada foi tratada como intenção?
-2. O escopo foi respeitado?
-3. A situação anterior continuou existindo?
-4. Ficha, STATUS e capacidades foram aplicados sem soma cega?
-5. Os demais agentes agiram segundo a própria agência e o próprio `CONTROLE`?
-6. Informação usada por cada agente era realmente conhecida?
-7. A resolução produziu um efeito causal claro?
-8. Surgiu uma nova decisão relevante para o jogador?
-9. STATUS mudou e precisa ser mostrado?
-10. Alguma consequência merece persistência?
-11. Se existe material reservado relevante, ele foi respeitado sem ser exposto?
-12. Toda fala direta está identificada com `[Nome] — ...`?
-13. Nenhum pensamento direto de `NPC`, `JOGADOR IA` ou `JOGADOR EVENTUAL IA` foi revelado ao jogador humano durante o RPG ao vivo?
-14. Se apareceu pensamento do personagem com `CONTROLE: JOGADOR HUMANO`, ele foi declarado/autorizado e marcado como `[Nome, pensa] — ...`?
-15. Algum Jogador IA precisava tomar decisão própria?
-16. Algum Jogador Eventual IA deveria estar ativo nesta situação?
-17. A decisão de personagem jogado pela IA usou apenas conhecimento legítimo dele?
+2. **A Janela de Declarações foi concluída antes da resolução?**
+3. Todos os Jogadores IA permanentes relevantes declararam?
+4. Todos os Jogadores Eventuais ativos declararam?
+5. Algum Jogador Eventual deveria ter sido ativado antes da resolução?
+6. Nenhum jogador da IA escolheu retroativamente depois de o resultado ser conhecido?
+7. O escopo foi respeitado?
+8. A situação anterior continuou existindo?
+9. Ficha, STATUS e capacidades foram aplicados sem soma cega?
+10. Os demais agentes agiram segundo a própria agência e o próprio `CONTROLE`?
+11. Informação usada por cada agente era realmente conhecida?
+12. A resolução produziu um efeito causal claro?
+13. Surgiu uma nova decisão relevante para o jogador?
+14. STATUS mudou e precisa ser mostrado?
+15. Alguma consequência merece persistência?
+16. Se existe material reservado relevante, ele foi respeitado sem ser exposto?
+17. Toda fala direta está identificada com `[Nome] — ...`?
+18. Nenhum pensamento direto de `NPC`, `JOGADOR IA` ou `JOGADOR EVENTUAL IA` foi revelado ao jogador humano durante o RPG ao vivo?
+19. Se apareceu pensamento do personagem com `CONTROLE: JOGADOR HUMANO`, ele foi declarado/autorizado e marcado como `[Nome, pensa] — ...`?
+20. A decisão de personagem jogado pela IA usou apenas conhecimento legítimo dele?
+21. Alguma ação autônoma fora da câmera deveria ter sido considerada?
 
-Se ainda não surgiu uma nova decisão relevante, a cena pode continuar.
+Se ainda não surgiu uma nova decisão relevante, a cena pode continuar sob as intenções já declaradas. Quando surgir nova decisão significativa, abrir nova Janela de Declarações.
 
-> **Não parar por hábito. Parar quando existir decisão.**
+> **Não parar por hábito. Não resolver antes das declarações. Parar quando existir nova decisão.**
 
 ---
 
@@ -343,6 +394,9 @@ Se ainda não surgiu uma nova decisão relevante, a cena pode continuar.
 
 Durante a sessão, evitar:
 
+- **resolver a ação do Jogador Humano antes das declarações dos Jogadores IA ativos**;
+- **escolher reação de Jogador IA depois de já saber o resultado**;
+- **usar a ordem de declaração como conhecimento automático entre personagens**;
 - transformar afirmação do jogador em sucesso automático;
 - inventar dificuldade para proteger o roteiro;
 - congelar os demais agentes enquanto o jogador decide;
@@ -369,4 +423,4 @@ Durante a sessão, evitar:
 
 ## Regra final
 
-> **Entenda a intenção. Respeite o escopo. Consulte a realidade da cena. Use a ficha sem matemática desnecessária. Deixe todos os agentes continuarem vivendo. Resolva causalmente. Preserve a interioridade de NPCs, Jogadores IA e Jogadores Eventuais IA durante o jogo ao vivo. Identifique quem fala. Pare quando surgir uma decisão. Mostre mudanças relevantes. Persista apenas o que ainda pode importar. Preserve segredos sem reescrever a realidade.**
+> **HUMANO DECLARA → IA [1] DECLARA → IA [2] DECLARA → OUTROS JOGADORES ATIVOS DECLARAM → NARRADOR RESOLVE. Depois: respeite o escopo, consulte a realidade da cena, use a ficha sem matemática desnecessária, deixe todos os agentes continuarem vivendo, preserve conhecimento e interioridade, mostre as consequências reais e abra nova Janela de Declarações quando surgir nova decisão significativa.**
