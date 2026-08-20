@@ -48,12 +48,13 @@ Status: EM JOGO
 - Corvin não aceitou. Disse que esperaria o "investimento" render e sugeriu que uma descoberta futura poderia ser vendida ao próprio Trigon ou a algum vizinho disposto a iniciar conflito. Trigon deixou a possibilidade de negociação futura aberta e encerrou a comunicação sem tentar permanecer no castelo.
 - Depois, Corvin pesquisou Trigon por conta própria e organizou quatro linhas: manifestação, política, vínculo e a hipótese ainda embrionária de tornar a conexão de Ravena com Trigon uma passagem assimétrica/"porta de um lado só".
 - Corvin não quer interferir na pesquisa pessoal de Ravena. Ele decidiu usar o plano verdadeiro porém cômico de "dar um chute em Trigon" como cobertura para testar como uma manifestação poderia ser fixada e, ao mesmo tempo, recolher informações que possam ajudá-la indiretamente sem revelar esse objetivo.
+- Depois de Ravena retornar ao castelo, organizar as coisas trazidas da Torre e voltar à biblioteca, Corvin mostrou a ela o plano de "chutar Trigon". Ainda na biblioteca, antes dos testes, contou que Trigon o procurara, explicou em linhas gerais a proposta para comprar sua neutralidade e relatou a própria resposta sobre esperar o "investimento" render e talvez vender informação a Trigon ou a algum vizinho.
 - Ravena consentiu em participar dos testes acreditando na justificativa apresentada: Corvin precisa compreender como a presença de Trigon se manifesta para torná-la fisicamente atingível.
 - Corvin observou Ravena com `Sentido Místico [5]` em repouso, magia comum, Portal, Alma Astral e meditação. A leitura sugere, sem confirmação definitiva, que a camada demoníaca profunda pode ser estrutural/espiritual e possuir componente dimensional, em vez de ser apenas energia.
 - Ravena não recebeu uma conclusão pronta; ela continua a própria pesquisa de forma independente e pode utilizar observações que ela mesma considere relevantes.
 - Corvin **não está construindo uma bota, greva ou arma física**. A expressão "chutar Trigon" é cobertura e também objetivo humorístico literal; a pesquisa real atual é sobre fixar manifestação, impedir retirada e permitir que dano físico tenha consequência na manifestação.
 - Antes do jantar Corvin fez a comida, esperou Ravena e foi chamá-la quando ela ficou presa na pesquisa. Ravena percebeu que já era hora e foi jantar com ele.
-- Durante o jantar Corvin revelou a Ravena que Trigon o procurou e explicou em linhas gerais a tentativa de comprar sua neutralidade e sua própria resposta. Ravena agora sabe que houve a negociação.
+- Durante o jantar, Ravena **já sabia** da comunicação de Trigon e da tentativa de comprar a neutralidade de Corvin. Os dois apenas retomaram o assunto em tom leve e brincaram sobre Trigon, novas comunicações e o plano de chutá-lo.
 
 ## Conhecimento separado
 ### Ravena sabe
