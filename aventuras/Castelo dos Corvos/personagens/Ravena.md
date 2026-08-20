@@ -43,31 +43,35 @@ EQP:
 - Traje e manto usuais de Ravena.
 - Acesso aos recursos dos Titãs quando estiver atuando com a equipe.
 - Nenhum equipamento pessoal é necessário para usar seus poderes.
-- **Anel de viajante planar:** presente de Corvin. Ajuda a limpar rastros/resíduos de travessias, fechar passagens atrás da usuária e manter uma referência de retorno durante projeções ou viagens espirituais/planares. Não corta automaticamente o vínculo com Trigon e não concede imunidade absoluta a rastreamento, ancoragem ou interferência.
+- **Anel de viajante planar:** presente de Corvin e símbolo usado no noivado. Ajuda a limpar rastros/resíduos de travessias, fechar passagens atrás da usuária e manter uma referência de retorno durante projeções ou viagens espirituais/planares. Não corta automaticamente o vínculo com Trigon e não concede imunidade absoluta a rastreamento, ancoragem ou interferência.
+- **Reconhecimento da Casa Blackwood:** no Capítulo 11, Ravena assinou `Rachel Roth Blackwood` no livro mágico/dinástico **Casa Blackwood**. As proteções do Castelo dos Corvos passaram a reconhecê-la como membro da Casa, permitindo uso de seus poderes e `Portal [4]` sem as restrições anteriores aplicadas a visitantes, inclusive em todos os cômodos e no cofre fortificado. Isso não torna os objetos perigosos seguros, não concede conhecimento automático sobre eles e não foi estabelecido como casamento civil ou mudança legal de nome.
 
 REL:
-- Titãs: sua equipe e principal grupo de vínculos recorrentes.
+- Titãs: sua equipe e principal grupo de vínculos recorrentes. Continua saindo do castelo para compromissos, reuniões, treino e vida própria com eles.
 - Trigon: pai e origem de sua herança demoníaca; relação perigosa e conflituosa. Um pacto firmado entre Corvin e Trigon limita o uso e modificação do vínculo Ravena–Trigon enquanto Ravena permanecer membro reconhecido da Casa Blackwood por consentimento mútuo.
-- **Corvin Blackwood:** noivo de Ravena desde o Capítulo 9. Ravena aceitou casar-se com ele e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. O vínculo é voluntário, não exige residência permanente, amor declarado, submissão ou permanência contra sua vontade; qualquer um dos dois pode retirar o próprio consentimento. No Capítulo 10, Ravena tomou a iniciativa do primeiro beijo romântico real entre os dois e o conduziu no próprio ritmo; Corvin depois beijou sua testa.
-- **Casa Blackwood:** Ravena é membro reconhecido por consentimento bilateral contínuo. Pode entrar, sair, permanecer ausente e retornar livremente; ausência física não encerra o vínculo.
+- **Corvin Blackwood:** noivo de Ravena desde o Capítulo 9. Ravena aceitou casar-se com ele e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. O vínculo é voluntário, não exige residência permanente, amor declarado, submissão ou permanência contra sua vontade; qualquer um dos dois pode retirar o próprio consentimento. No Capítulo 10, Ravena tomou a iniciativa do primeiro beijo romântico real entre os dois. No Capítulo 11, disse diretamente a Corvin que gosta dele, quer continuar com ele, quer continuar beijando-o e descobrir no que a relação vai se transformar. Os dois combinaram comunicação direta sobre limites e continuam dormindo em quartos separados.
+- **Casa Blackwood:** Ravena é membro reconhecido por consentimento bilateral contínuo para efeito do pacto com Trigon e também, desde o Capítulo 11, membro reconhecido magicamente pelas proteções da própria Casa após assinar `Rachel Roth Blackwood` no livro da família. Pode entrar, sair, permanecer ausente e retornar livremente; ausência física não encerra o vínculo do pacto.
 
 ## Personalidade e tendências
 - Reservada, controlada, distante e bastante privada.
 - Tem dificuldade em permitir proximidade emocional, mas quando confia em alguém desenvolve vínculos fortes e é extremamente leal.
 - Seu autocontrole não elimina seus desejos ou emoções; ele é uma disciplina necessária para conviver com sua natureza e seus poderes.
+- No relacionamento com Corvin, aceitou um modelo de comunicação direta: quando quiser parar, recuar, aproximar-se mais ou precisar de distância, pretende dizer de forma explícita em vez de depender de indiretas.
 
 ## Desejos/objetivos atuais
 - Continua investigando Trigon de forma lenta, cuidadosa e independente, sem solução pronta.
 - Quer compreender se as pistas sobre manifestação, ancoragem e o vínculo com Trigon representam perigo real e impedir que ele ou sua influência determinem sua vida.
 - Deseja continuar escolhendo quem quer ser, em vez de aceitar o destino imposto por sua herança demoníaca.
 - Em um nível profundamente pessoal, deseja a possibilidade de uma vida comum: dançar por prazer, namorar, construir um lar e talvez ter filhos, sem que sua herança ou seus conflitos sobrenaturais determinem cada aspecto de sua existência.
-- O noivado com Corvin não encerra essa autonomia; o futuro da relação continua dependente das escolhas dos dois.
+- Quer continuar explorando a relação com Corvin sem prometer um futuro que ainda não conhece.
+- O noivado com Corvin não encerra sua autonomia; o futuro da relação continua dependente das escolhas dos dois.
 
 ## Medos/limites relevantes
 - Perder o controle das próprias emoções ou poderes.
 - Permitir que Trigon ganhe influência sobre ela.
 - Colocar pessoas próximas em perigo por causa de sua natureza ou de conflitos sobrenaturais ligados a ela.
 - Sua tendência a manter distância emocional também funciona como mecanismo de proteção.
+- Reconhecimento mágico da Casa não equivale a autorização afetiva automática: fronteiras pessoais continuam sendo decididas por Ravena e Corvin por comunicação direta.
 
 ## História consolidada relevante
 - Rachel Roth nasceu de mãe humana e de Trigon.
@@ -78,5 +82,11 @@ REL:
 - No Capítulo 9, ouviu escondida com os Titãs uma negociação direta entre Corvin e Trigon. Corvin e Trigon firmaram por aperto de mão um pacto de neutralidade limitada que protege Ravena de usos específicos do vínculo enquanto ela permanecer membro reconhecido da Casa Blackwood.
 - Ainda no Capítulo 9, diante de Dick, Victor, Kory, Donna e Garfield, Corvin pediu `Rachel Roth` em casamento deixando explícito que não exigia amor, residência permanente ou permanência contra sua vontade. Ravena aceitou o noivado e o vínculo voluntário com a Casa Blackwood.
 - No Capítulo 10, Ravena ouviu a explicação de Corvin sobre como a negociação com Trigon foi construída sobre assimetria de informação e avaliação errada das pessoas envolvidas. Depois da comemoração, Kory, Donna e Garfield passaram a noite no castelo enquanto Dick e Victor retornaram.
-- Na manhã seguinte, durante a corrida de Corvin, Ravena disse em privado a Kory e Donna que está bem com a decisão do noivado e que gosta de Corvin “bastante”. Corvin não estava presente e não conhece automaticamente essa declaração.
+- Na manhã seguinte, durante a corrida de Corvin, Ravena disse em privado a Kory e Donna que está bem com a decisão do noivado e que gosta de Corvin “bastante”. Corvin não estava presente nessa conversa.
 - Ainda naquela manhã, na biblioteca, Ravena tomou a iniciativa de corrigir o “protocolo” e deu em Corvin o primeiro beijo romântico real entre os dois, conduzindo o contato no próprio ritmo antes de voltar à pesquisa.
+- No Capítulo 11, Corvin explicou que se afastava para não cruzar limites por conta própria. Ravena respondeu que há diferença entre ele decidir por ela e ela própria abrir a porta; os dois voltaram a se beijar sob essa regra.
+- Mais tarde, no solar, Ravena disse diretamente a Corvin que gosta dele, quer continuar ali por querer estar com ele, quer continuar beijando-o e descobrir o futuro da relação. Também afirmou que não aceitou o noivado apenas por causa do pacto.
+- Ravena e Corvin combinaram que afastamento físico, mudança de residência ou conflito futuro não precisam significar retirada automática do consentimento de pertencer à Casa, desde que ela genuinamente ainda queira manter esse pertencimento e Corvin também mantenha o próprio consentimento.
+- Uma encomenda de Corvin trouxe um livro secundário sobre viajantes, contratos e referências persistentes entre planos. Ravena o encontrou sozinha antes de catalogação e identificou três referências potencialmente úteis; Corvin não plantou o material nem indicou a passagem, preservando a distinção entre descoberta independente e ajuda deliberada contra Trigon.
+- No fim do Capítulo 11, Ravena assinou `Rachel Roth Blackwood` no livro **Casa Blackwood**, passou a ser reconhecida magicamente pelas proteções do castelo como membro pleno para uso de seus poderes em todos os cômodos e testou com sucesso Portal para dentro e para fora do cofre fortificado.
+- Depois disso, deixou o castelo por Portal para cumprir compromissos com os Titãs na Torre.
