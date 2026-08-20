@@ -696,6 +696,80 @@ Ela olhou para Corvin.
 
 [Ravena] — Mas tudo bem.
 
+Corvin deixou as folhas entre os dois por mais um instante.
+
+[Corvin] — Ele me ligou mais cedo para falar de você...
+
+A mão de Ravena parou sobre uma das páginas.
+
+A mudança nela foi imediata, embora controlada.
+
+[Ravena] — Trigon falou com você?
+
+O livro diante dela deixou de importar por alguns segundos.
+
+[Ravena] — Aqui? Como?
+
+Corvin explicou a requisição formal de comunicação, a maneira como Trigon respeitara as proteções e a conversa que se seguira.
+
+[Corvin] — Queria me convencer a não te ajudar. Tinha uma proposta bem interessante... quase me convenceu.
+
+Ravena sustentou o olhar.
+
+[Corvin] — Brincadeira. Mas ele continua rabugento como sempre.
+
+[Ravena] — Algum dia essa sua noção de humor vai acabar muito mal.
+
+Ainda assim, a pergunta importante veio logo depois.
+
+[Ravena] — O que ele ofereceu?
+
+[Corvin] — Uma biblioteca inteira. E aquela ladainha de poder ilimitado... blá, blá, blá...
+
+Ravena quase revirou os olhos com a última parte, mas a biblioteca era outra coisa.
+
+[Ravena] — Então ele fez a lição de casa.
+
+Corvin contou o preço: neutralidade. Se a pesquisa dela começasse a se transformar em arma, ele deveria retirar a mão; talvez até deixá-la seguir para uma conclusão errada em vez de corrigi-la.
+
+Depois contou a própria resposta.
+
+[Corvin] — Falei para ele que esperaria o investimento render. Quem sabe, se você achar uma forma de feri-lo, eu venda para ele... ou para algum vizinho disposto a iniciar uma guerra contra ele.
+
+Ravena ficou em silêncio por alguns segundos.
+
+[Ravena] — Você me chamou de investimento na frente de Trigon.
+
+A ideia pareceu incomodá-la menos do que deveria.
+
+Talvez porque ela conhecesse suficientemente bem o pai para imaginar a reação.
+
+[Ravena] — Isso provavelmente irritou ele mais do que deveria.
+
+Depois ficou séria.
+
+[Ravena] — Quando você falou em vender a informação para ele... estava blefando?
+
+A resposta de Corvin veio simples.
+
+[Corvin] — Bom, se eu pretendesse vender alguma coisa, nós não estaríamos tendo essa conversa.
+
+Uma pausa.
+
+[Corvin] — Apesar de que algumas descobertas ficam melhor na mão de quem tem força para usá-las.
+
+Ravena aceitou isso sem dificuldade.
+
+Heroísmo tinha ensinado a mesma coisa de outras formas. Descobrir uma fraqueza e ser a melhor pessoa para explorá-la eram questões diferentes.
+
+Corvin empurrou outra vez as folhas do plano para ela.
+
+[Corvin] — Por hora, meu plano é esse.
+
+Ravena olhou de novo para o título.
+
+**Como dar um chute em Trigon.**
+
 O que se seguiu pareceu, para ela, uma sequência de testes necessários para transformar uma manifestação de Trigon em algo suficientemente real para receber força física.
 
 E era isso também.
@@ -844,63 +918,7 @@ Uma pausa.
 
 [Ravena] — Com você ele aparentemente encontrou tempo para telefonar e tentar comprar sua neutralidade.
 
-Corvin enfim contou a parte que ela ainda não sabia.
-
-A proposta.
-
-Uma biblioteca inteira, em essência. Conhecimento. A velha propaganda de poder ilimitado.
-
-[Corvin] — Blá, blá, blá...
-
-Ravena quase revirou os olhos.
-
-[Ravena] — “Poder ilimitado.” Isso realmente parece com ele.
-
-Mas a biblioteca não era pequena coisa.
-
-Ela entendeu imediatamente que Trigon escolhera a moeda certa.
-
-[Ravena] — Então ele fez a lição de casa.
-
-Corvin explicou que o preço era neutralidade. Talvez deixar Ravena chegar a uma conclusão errada. Talvez parar de ajudar no momento em que pesquisa virasse arma.
-
-Depois contou a resposta.
-
-Esperar o investimento render.
-
-Talvez vender a informação para Trigon.
-
-Talvez para algum vizinho disposto a começar guerra.
-
-Ravena ficou em silêncio por alguns segundos.
-
-[Ravena] — Você me chamou de investimento na frente de Trigon.
-
-A ideia pareceu incomodá-la menos do que deveria.
-
-Talvez porque ela conhecesse suficientemente bem o pai para imaginar a reação.
-
-[Ravena] — Isso provavelmente irritou ele mais do que deveria.
-
-Depois ficou séria.
-
-Quis saber se Corvin realmente venderia uma descoberta dela.
-
-A resposta veio simples.
-
-[Corvin] — Bom, se eu pretendesse vender alguma coisa, nós não estaríamos tendo essa conversa.
-
-Ele apoiou o talher.
-
-[Corvin] — Apesar de que algumas descobertas ficam melhor na mão de quem tem força para usá-las.
-
-Ravena aceitou isso sem dificuldade.
-
-Heroísmo tinha ensinado a mesma coisa de outras formas.
-
-Descobrir uma fraqueza e ser a melhor pessoa para explorá-la eram questões diferentes.
-
-Corvin então voltou ao assunto do silêncio de Trigon.
+Corvin retomou a provocação.
 
 [Corvin] — Não. Se eu invocasse uma comunicação com ele, ele ia ficar me xingando o tempo todo... ou reclamando.
 
