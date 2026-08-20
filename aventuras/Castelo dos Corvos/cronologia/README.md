@@ -20,7 +20,11 @@ Ela serve à continuidade e não substitui os capítulos literários de `livro/`
 - Depois de banho, Corvin foi ao solar; Ravena apareceu pouco depois e escolheu outro pufe. O capítulo termina quando ela chama a situação de possível "contemplação ou preguiça sofisticada".
 
 ## Capítulo 4 — Nada Romântico Ainda
-- A noite no solar terminou sem novo acontecimento decisivo e a história avançou para o dia seguinte.
+- A conversa no solar continuou depois do fim do Capítulo 3. Corvin ofereceu a Ravena um dos grandes pufes para dormir sob as estrelas; ela aceitou.
+- Ravena adormeceu primeiro em um pufe separado. Corvin adormeceu algum tempo depois, também no solar, sem intimidade física entre os dois.
+- Às 6h30, Corvin acordou antes de Ravena e escureceu por magia os vidros do solar para bloquear a claridade da manhã enquanto ela continuava dormindo.
+- Corvin trocou de roupa para correr, preparou café, ovos e bacon, comeu e deixou um segundo prato coberto para Ravena antes de sair para uma corrida pelo bosque.
+- Ravena acordou depois, percebeu que o teto havia sido escurecido, encontrou o café da manhã deixado para ela e comeu. Corvin retornou cerca de uma hora depois.
 - Corvin escolheu uma sala de trabalho próxima ao laboratório, em vez da biblioteca, e realizou quatro invocações de escorpiões demoníacos de nível [2], coletando veneno de quatro espécimes diferentes.
 - Ele passou o dia refinando as amostras, interrompendo o trabalho apenas para almoço e jantar, e produziu um pequeno lote estável, escuro, espesso e tóxico de tinta de escorpião do abismo destinado à venda.
 - Ravena continuou pesquisando Trigon. Encontrou mais duas referências que tratam vínculos de sangue como âncoras, mas uma descreve a ligação como territorial e a outra como espiritual; nenhuma forneceu resposta definitiva.
