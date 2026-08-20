@@ -33,8 +33,13 @@ Status: EM JOGO
 - **A continuação deve partir exatamente daqui.**
 
 ## Continuidade consolidada do Capítulo 4
-- Depois do fim do Capítulo 3, a noite no solar terminou sem novo acontecimento decisivo e a história avançou para o dia seguinte.
-- Corvin não foi para a biblioteca. Escolheu uma sala de trabalho próxima ao laboratório e invocou quatro escorpiões demoníacos de nível [2], um por vez, coletando veneno de quatro espécimes diferentes.
+- Depois da última fala do Capítulo 3 no solar, Corvin respondeu que contemplação e preguiça sofisticada podiam ser as duas coisas.
+- Corvin ofereceu a Ravena um dos grandes pufes para dormir sob as estrelas. Ravena aceitou e se acomodou em um pufe separado.
+- Ravena adormeceu primeiro; Corvin adormeceu algum tempo depois. Os dois passaram a noite no solar em pufes separados, sem intimidade física.
+- Às 6h30, Corvin acordou antes dela, escureceu por magia os vidros do solar para bloquear a claridade da manhã e deixou Ravena continuar dormindo.
+- Corvin foi ao quarto, colocou roupa de corrida, preparou café, ovos e bacon, comeu e deixou um segundo prato coberto para Ravena antes de sair para correr no bosque.
+- Ravena acordou depois, percebeu os vidros escurecidos, encontrou o café da manhã deixado para ela e comeu. Corvin retornou cerca de uma hora depois.
+- Em vez de ir para a biblioteca, Corvin escolheu uma sala de trabalho próxima ao laboratório e invocou quatro escorpiões demoníacos de nível [2], um por vez, coletando veneno de quatro espécimes diferentes.
 - Passou praticamente todo o dia refinando as amostras, parando apenas para almoço e jantar.
 - Produziu um pequeno lote comercial de tinta de escorpião do abismo: escura, espessa, estável e tóxica. O lote permanece com Corvin e ainda não foi entregue ao contato.
 - Ravena prosseguiu a pesquisa sobre Trigon. Duas novas referências tratam vínculos de sangue como âncoras, mas uma os descreve como conexão territorial e a outra como ligação espiritual; não houve resposta definitiva.
@@ -60,6 +65,7 @@ Status: EM JOGO
 - Corvin evita dívidas e favores devidos.
 - Corvin às vezes sai para dançar e normalmente faz isso sozinho.
 - A saída atual foi apresentada por Corvin como jantar casual, "nada romântico ainda".
+- Ravena percebeu que os vidros do solar foram escurecidos enquanto ela dormia e que Corvin deixou café da manhã preparado para ela antes de sair para correr.
 - Ravena não sabe sobre Tarshar, os termos 70/30 da negociação da tinta nem a informação das fronteiras de Trigon, salvo se Corvin decidir contar futuramente.
 
 ### Corvin sabe
@@ -68,14 +74,14 @@ Status: EM JOGO
 - Corvin produziu um novo pequeno lote comercial de tinta a partir de quatro escorpiões demoníacos e pretende vendê-lo pelo mesmo contato; o lote ainda está sob sua posse.
 - Tarshar deve ser lembrado da dívida dos quatro guardas e deverá entrar em contato antes do cumprimento.
 - Ravena encontrou duas novas referências divergentes sobre a natureza dos vínculos de sangue como âncoras e considera que a pesquisa ainda lhe dá mais perguntas do que respostas.
-- Ravena aceitou sair para jantar e não rejeitou a possibilidade implícita contida no "ainda", mas nenhum vínculo romântico foi assumido.
+- Ravena aceitou sair para jantar e percebeu a possibilidade implícita contida no "ainda", mas nenhum vínculo romântico foi assumido.
 
 ## Relações atuais
 - Corvin ↔ Ravena: cooperação, hospitalidade, confiança prática e conforto cotidiano em crescimento.
 - Ravena continua hospedada temporariamente no castelo durante a pesquisa.
 - Corvin → Ravena: atração física e interesse pessoal presentes.
 - Ravena → Corvin: curiosidade, conforto prático e abertura à convivência; nenhum relacionamento romântico assumido ou confirmado.
-- A convivência agora inclui uma primeira saída social dos dois fora do castelo, explicitamente apresentada como não romântica por enquanto.
+- A convivência já incluiu uma noite dormindo no mesmo solar em pufes separados, café da manhã preparado por Corvin e uma primeira saída social dos dois fora do castelo. Nenhum desses fatos, isoladamente, estabelece relacionamento romântico.
 - Ravena mantém vínculo ativo com os Titãs e aceitou manter contato com eles.
 - Dick/Nightwing sabe que Ravena está no castelo voluntariamente e mantém cautela em relação a Corvin.
 
@@ -95,6 +101,7 @@ Status: EM JOGO
 - Ravena possui `CONTROLE: JOGADOR IA` e deve agir autonomamente segundo personalidade, conhecimento, objetivos e situação.
 - Titãs aprovados como `JOGADOR EVENTUAL IA` podem ativar ciclos próprios quando houver motivo causal, juntos ou separadamente, sem compartilhamento automático de conhecimento.
 - No jogo ao vivo, pensamentos de Ravena e dos Titãs permanecem ocultos. Na versão literária consolidada, interioridade pode aparecer quando coerente com o cânone.
+- A consolidação em livro deve seguir o estilo literário adulto, sensual, emocional e introspectivo definido em `../livro/README.md`, evitando formato de resumo técnico.
 - Todo uso de magia de Corvin é `Magia [3]` por padrão, salvo especialização explicitamente declarada ou inequivocamente exigida pela ação.
 - As proteções do castelo restringem teleporte não autorizado e retirada de livros.
 - O ponto autorizado de portal de Ravena fica na sala; a biblioteca não é ponto autorizado.
