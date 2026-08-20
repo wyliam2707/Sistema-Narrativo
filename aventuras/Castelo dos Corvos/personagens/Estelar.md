@@ -44,11 +44,13 @@ EQP:
 - Traje tamaraniano adaptado para combate e voo.
 - Comunicador dos Titãs.
 - Acesso aos recursos e instalações dos Titãs quando estiver atuando com a equipe.
+- **Brincos solares:** presente de Corvin no Capítulo 9, originário de uma civilização já extinta. As pedras amarelas absorvem luz/radiação solar e depois emitem a mesma radiação, permitindo que Kory use a energia armazenada como reserva compatível com sua fisiologia. Antes de serem entregues, estavam sem exposição direta ao sol havia cerca de cinquenta anos.
 
 REL:
 - Titãs: sua principal equipe e uma das bases de sua vida na Terra.
 - Tamaran: seu mundo natal e parte central de sua identidade.
 - Komand’r / Estrela Negra: irmã e relação familiar profundamente conflituosa.
+- Corvin Blackwood: conheceu pessoalmente no Capítulo 9, recebeu dele os brincos solares e testemunhou o pacto com Trigon e o noivado de Corvin com Ravena.
 
 ## Personalidade e tendências
 - Calorosa, expansiva, afetiva e bastante direta.
@@ -74,3 +76,4 @@ REL:
 - Conseguiu escapar e acabou chegando à Terra.
 - Nos Titãs encontrou não apenas uma equipe, mas uma nova família e um lugar onde pôde reconstruir sua identidade.
 - Sua vida amorosa está aberta no início da campanha, sem relação atual definida com Nightwing ou outra pessoa.
+- No Capítulo 9, conheceu Corvin pessoalmente, recebeu os brincos solares e foi testemunha do noivado de Ravena.
