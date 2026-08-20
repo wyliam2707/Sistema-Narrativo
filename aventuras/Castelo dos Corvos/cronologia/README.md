@@ -18,3 +18,17 @@ Ela serve à continuidade e não substitui os capítulos literários de `livro/`
 - Corvin retornou ao castelo já à noite e revelou a Ravena apenas que o volume era um dicionário/tratado de Ifrid obtido ao cobrar favor de um velho conhecido/amigo; ela sabe que ele possui oito ou nove livros ligados a Ifrid e que o tratado é peça difícil de retirar de coleções particulares.
 - Corvin deixou o tratado na borda distante da mesa da biblioteca, sem proibir Ravena de consultá-lo, mas recomendando cuidado com possíveis invocações de demônios de fogo.
 - Depois de banho, Corvin foi ao solar; Ravena apareceu pouco depois e escolheu outro pufe. O capítulo termina quando ela chama a situação de possível "contemplação ou preguiça sofisticada".
+
+## Capítulo 4 — Nada Romântico Ainda
+- A noite no solar terminou sem novo acontecimento decisivo e a história avançou para o dia seguinte.
+- Corvin escolheu uma sala de trabalho próxima ao laboratório, em vez da biblioteca, e realizou quatro invocações de escorpiões demoníacos de nível [2], coletando veneno de quatro espécimes diferentes.
+- Ele passou o dia refinando as amostras, interrompendo o trabalho apenas para almoço e jantar, e produziu um pequeno lote estável, escuro, espesso e tóxico de tinta de escorpião do abismo destinado à venda.
+- Ravena continuou pesquisando Trigon. Encontrou mais duas referências que tratam vínculos de sangue como âncoras, mas uma descreve a ligação como territorial e a outra como espiritual; nenhuma forneceu resposta definitiva.
+- Ravena sabe que a tinta é um produto de fluxo de caixa, que Corvin pretende vendê-la por meio do mesmo velho contato e que existe mercado para ela em certos locais. Corvin recusou explicar quais locais, chamando isso de segredo comercial.
+- Corvin afirmou que evita dívidas e favores devidos porque esse tipo de obrigação costuma terminar mal.
+- Depois do trabalho, Corvin convidou Ravena para comer fora. Ele esclareceu diretamente que, por enquanto, seria apenas jantar e "nada romântico ainda"; Ravena percebeu e devolveu a palavra "ainda", mas aceitou a saída sem transformá-la em encontro assumido.
+- Ambos trocaram de roupa por versões casuais e Corvin abriu um portal para uma rua próxima ao destino em Gotham.
+- O destino escolhido foi um restaurante conhecido de Corvin, em frente a uma boate. Corvin disse que comeriam primeiro e decidiriam depois se fariam algo além do jantar.
+- Corvin pediu chope e a especialidade da casa, costela assada com batatas e molho; Ravena pediu água com gás e filé com legumes.
+- Enquanto esperavam a comida, mantiveram a conversa deliberadamente em temas comuns, especialmente música e dança. Ravena comentou que prefere dançar sem coreografia, com espaço e sem expectativas específicas, porque assim consegue esquecer o resto por algumas horas.
+- O capítulo termina no restaurante, antes da comida chegar, com a boate ainda visível do outro lado da rua e nenhuma decisão tomada sobre ir até ela depois do jantar.
