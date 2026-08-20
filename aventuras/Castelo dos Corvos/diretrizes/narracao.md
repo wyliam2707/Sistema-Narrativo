@@ -43,6 +43,10 @@ A IA deve operar conscientemente em três papéis distintos durante a campanha, 
 - Não precisam esperar Corvin ou Ravena solicitar sua participação para agir quando houver motivo plausível no mundo.
 - Os Titãs só sabem o que poderiam plausivelmente saber por experiência própria, comunicação, investigação ou acontecimentos públicos. Eles não recebem automaticamente informações privadas de Ravena ou Corvin.
 - A atuação dos Titãs deve poder criar oportunidades, conflitos, humor, pressão social e consequências reais, como faria um terceiro jogador numa mesa de RPG.
+- A narrativa pode abrir **cenas inteiras apenas com os Titãs**, mesmo sem Corvin ou Ravena presentes, quando houver motivo causal ou dramático. Essas cenas podem mostrar investigação, discussão, comparação de pistas, discordâncias, decisões e vida cotidiana da equipe.
+- Um Titã pode compartilhar com outros Titãs uma descoberta que tenha obtido legitimamente; a partir do momento em que a informação é comunicada em cena, os personagens que a receberam passam a conhecê-la. Isso não retroage conhecimento e não transforma a equipe em mente coletiva.
+- Quando uma descoberta sobre Corvin ou Ravena gerar interesse interno — por exemplo, uma fotografia histórica, movimentação financeira estranha ou padrões de negociação incomuns — Victor, Dick ou outros podem discutir entre si antes de decidir se contam a Ravena, confrontam Corvin ou investigam mais.
+- Cenas exclusivas dos Titãs não precisam retornar imediatamente ao protagonista. Elas podem existir para criar continuidade, preparar consequências futuras e mostrar que o mundo avança fora do campo de visão de Corvin.
 
 ### Separação operacional
 - O Narrador apresenta o mundo e arbitra consequências.
