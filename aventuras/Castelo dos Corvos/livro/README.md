@@ -42,3 +42,4 @@ A consolidação literária melhora a forma, mas não altera os fatos ocorridos 
 - [Capítulo 6 — Contrato é Contrato](capitulo-06-contrato-e-contrato.md)
 - [Capítulo 7 — Duzentos e Dez](capitulo-07-duzentos-e-dez.md)
 - [Capítulo 8 — Banquete para Sete](capitulo-08-banquete-para-sete.md)
+- [Capítulo 9 — Membro da Casa](capitulo-09-membro-da-casa.md)
