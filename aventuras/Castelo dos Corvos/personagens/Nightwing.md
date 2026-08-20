@@ -46,11 +46,13 @@ EQP:
 - Cinto de utilidades com equipamentos portáteis diversos.
 - Comunicadores e recursos de vigilância compatíveis com sua atuação.
 - Acesso aos recursos operacionais dos Titãs quando estiver atuando com a equipe.
+- **Anel de recuperação de Corvin:** presente recebido no Capítulo 9. Vincula os três primeiros objetos que Dick guardar enquanto estiver com o anel no dedo. Para recuperar um objeto vinculado, basta tentar pegá-lo no lugar onde normalmente o guardaria. O tamanho não possui limite simples estabelecido. Se o objeto tiver sido destruído, retorna destruído. Para trocar a seleção, o anel deve ser retirado por uma hora e então configurado novamente.
 
 REL:
 - Titãs: veterano da equipe e uma de suas principais lideranças.
 - Batman / Bruce Wayne: antigo mentor e figura familiar central em sua formação.
 - Família Batman: vínculos duradouros com os demais membros da Bat-Família.
+- Corvin Blackwood: conheceu pessoalmente no Capítulo 9 durante a primeira visita ao Castelo dos Corvos; testemunhou o pacto com Trigon e o noivado de Corvin com Ravena.
 
 ## Personalidade e tendências
 - Confiante, sociável e mais caloroso que Batman, sem deixar de ser disciplinado e muito responsável.
@@ -74,3 +76,4 @@ REL:
 - Cresceu, deixou a identidade de Robin e construiu uma identidade própria como Nightwing.
 - Os Titãs se tornaram parte importante de sua independência, de seus vínculos pessoais e de seu desenvolvimento como líder.
 - Sua vida amorosa está aberta no início da campanha; não existe relacionamento atual predeterminado com Estelar, Barbara Gordon ou outra personagem.
+- No Capítulo 9, conheceu Corvin pessoalmente, visitou o castelo, recebeu o anel de recuperação e foi testemunha do noivado de Ravena.
