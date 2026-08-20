@@ -48,7 +48,7 @@ EQP:
 REL:
 - Titãs: sua equipe e principal grupo de vínculos recorrentes.
 - Trigon: pai e origem de sua herança demoníaca; relação perigosa e conflituosa. Um pacto firmado entre Corvin e Trigon limita o uso e modificação do vínculo Ravena–Trigon enquanto Ravena permanecer membro reconhecido da Casa Blackwood por consentimento mútuo.
-- **Corvin Blackwood:** noivo de Ravena desde o Capítulo 9. Ravena aceitou casar-se com ele e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. O vínculo é voluntário, não exige residência permanente, amor declarado, submissão ou permanência contra sua vontade; qualquer um dos dois pode retirar o próprio consentimento.
+- **Corvin Blackwood:** noivo de Ravena desde o Capítulo 9. Ravena aceitou casar-se com ele e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. O vínculo é voluntário, não exige residência permanente, amor declarado, submissão ou permanência contra sua vontade; qualquer um dos dois pode retirar o próprio consentimento. No Capítulo 10, Ravena tomou a iniciativa do primeiro beijo romântico real entre os dois e o conduziu no próprio ritmo; Corvin depois beijou sua testa.
 - **Casa Blackwood:** Ravena é membro reconhecido por consentimento bilateral contínuo. Pode entrar, sair, permanecer ausente e retornar livremente; ausência física não encerra o vínculo.
 
 ## Personalidade e tendências
@@ -77,3 +77,6 @@ REL:
 - Foi ao Castelo dos Corvos inicialmente em busca de um livro relacionado a Trigon e permaneceu por escolha própria enquanto aprofundava pesquisa e convivência com Corvin.
 - No Capítulo 9, ouviu escondida com os Titãs uma negociação direta entre Corvin e Trigon. Corvin e Trigon firmaram por aperto de mão um pacto de neutralidade limitada que protege Ravena de usos específicos do vínculo enquanto ela permanecer membro reconhecido da Casa Blackwood.
 - Ainda no Capítulo 9, diante de Dick, Victor, Kory, Donna e Garfield, Corvin pediu `Rachel Roth` em casamento deixando explícito que não exigia amor, residência permanente ou permanência contra sua vontade. Ravena aceitou o noivado e o vínculo voluntário com a Casa Blackwood.
+- No Capítulo 10, Ravena ouviu a explicação de Corvin sobre como a negociação com Trigon foi construída sobre assimetria de informação e avaliação errada das pessoas envolvidas. Depois da comemoração, Kory, Donna e Garfield passaram a noite no castelo enquanto Dick e Victor retornaram.
+- Na manhã seguinte, durante a corrida de Corvin, Ravena disse em privado a Kory e Donna que está bem com a decisão do noivado e que gosta de Corvin “bastante”. Corvin não estava presente e não conhece automaticamente essa declaração.
+- Ainda naquela manhã, na biblioteca, Ravena tomou a iniciativa de corrigir o “protocolo” e deu em Corvin o primeiro beijo romântico real entre os dois, conduzindo o contato no próprio ritmo antes de voltar à pesquisa.
