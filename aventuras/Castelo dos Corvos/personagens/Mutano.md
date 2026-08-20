@@ -48,11 +48,13 @@ EQP:
 - Comunicador dos Titãs.
 - Acesso aos recursos e instalações dos Titãs quando estiver atuando com a equipe.
 - Não depende de equipamento para realizar suas metamorfoses.
+- **Bracelete metamorfo de couro:** presente de Corvin no Capítulo 9. Acompanha as transformações, permite que Garfield fale normalmente em formas animais e oferece resistência contra tentativas externas de impor uma forma diferente. Ravena tentou transformá-lo de tigre em rato e falhou. Isso não deve ser tratado como imunidade absoluta contra toda magia, entidade ou efeito de transformação.
 
 REL:
 - Titãs: sua principal equipe e família escolhida.
 - Patrulha do Destino: grupo importante de sua vida anterior aos Titãs.
 - Rita Farr / Elasti-Girl e Steve Dayton: figuras familiares centrais de sua história.
+- Corvin Blackwood: conheceu pessoalmente no Capítulo 9, recebeu dele o bracelete metamorfo e testemunhou o pacto com Trigon e o noivado de Corvin com Ravena.
 
 ## Personalidade e tendências
 - Brincalhão, extrovertido e irreverente, frequentemente usando humor para aliviar tensão e também para lidar com a própria dor.
@@ -75,3 +77,4 @@ REL:
 - Passou pela Patrulha do Destino antes de consolidar sua vida com os Titãs.
 - Nos Titãs encontrou vínculos duradouros e construiu uma identidade própria como herói.
 - Relações românticas específicas permanecem em aberto no início da campanha.
+- No Capítulo 9, conheceu Corvin pessoalmente, recebeu o bracelete, descobriu que pode falar em forma de tigre usando-o e foi testemunha do noivado de Ravena.
