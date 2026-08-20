@@ -32,6 +32,7 @@ CONTROLE: JOGADOR HUMANO
 - Focado em seus objetivos e persistente quando decide perseguir alguma coisa.
 - Socialmente contido por padrão, mas paquerador quando sente atração ou encontra motivo para isso.
 - Tem o hábito de se envolver nos problemas dos outros, mesmo que prefira não admitir que se importa.
+- Em assuntos afetivos, prefere comunicação direta a indiretas. No Capítulo 11 explicou a Ravena que passa tempo demais profissionalmente analisando contexto e ambiguidades e que não quer fazer o mesmo para adivinhar fronteiras do relacionamento.
 
 ## História
 - O interesse de Corvin pelo oculto começou quando encontrou um antigo livro sobre magia.
@@ -45,16 +46,19 @@ CONTROLE: JOGADOR HUMANO
 - No Capítulo 9, apresentou-se pessoalmente aos Titãs como mago, estudioso de demonologia sem culto, explorador/pesquisador e comerciante de objetos, livros, informação e acessos não convencionais.
 - No mesmo capítulo, firmou com Trigon um pacto demonológico de neutralidade limitada por aperto de mão e, depois, pediu Rachel Roth/Ravena em casamento diante dos Titãs. Ravena aceitou.
 - No Capítulo 10, explicou aos Titãs e a Ravena que o pacto/noivado foram improvisados a partir de uma sequência de oportunidades, limpou qualquer resíduo funcional detectável da chamada anterior de Trigon e, na manhã seguinte, teve com Ravena o primeiro beijo romântico real entre os dois. Ravena tomou a iniciativa e conduziu o beijo; Corvin depois beijou a testa dela.
+- No Capítulo 11, disse diretamente a Ravena que gosta dela e revelou que a última vez em que gostou de alguém “de verdade” havia sido há mais de 180 anos. Os dois combinaram comunicação explícita sobre passos para frente ou para trás no relacionamento.
+- Ainda no Capítulo 11, registrou Ravena no livro mágico/dinástico **Casa Blackwood**. Ela assinou `Rachel Roth Blackwood`, e as proteções do castelo passaram a reconhecê-la como membro pleno para uso de poderes e deslocamento dentro da propriedade.
 
 ## Desejos e objetivos atuais
 - Mantém forte motivação de descoberta: encontrar algo que ainda não conhece e incorporá-lo aos próprios estudos.
 - Continua pesquisando Trigon, manifestação, ancoragem e possíveis assimetrias para seus próprios fins, agora respeitando um pacto de neutralidade limitada.
-- Continua a forja da adaga de banimento e outras linhas de pesquisa sem solução pronta.
+- Continua a forja da adaga de banimento; no Capítulo 11 descreveu a peça como quase pronta, embora ainda incompleta e sem teste final.
 - Continua traduzindo os livros de Ifrid com auxílio do tratado linguístico raro.
 - O noivado com Ravena é vínculo real e voluntário; o futuro da relação continua aberto às escolhas dos dois.
 
 ## Medos e limites relevantes
 - Nenhum medo, fraqueza pessoal ou limite moral específico foi estabelecido como definidor do personagem neste estágio.
+- No relacionamento com Ravena, Corvin estabeleceu para si a regra de não cruzar fronteiras de intimidade por presunção. Prefere que mudanças de limite sejam ditas diretamente por qualquer um dos dois.
 
 ## ATRIBUTOS
 ATR: FOR [1] | AGI [0] | RES [2] | MEN [5] | VON [4]
@@ -115,10 +119,11 @@ Demonologia [5] é uma especialização de PODER, não uma perícia. Dentro do c
 - Forja própria no Castelo dos Corvos.
 - Laboratório de alquimia.
 - Biblioteca particular de grande porte, com extensa coleção de livros e textos arcanos.
+- Livro mágico/dinástico **Casa Blackwood**, guardado no cofre fortificado; registra membros reconhecidos perante as proteções da Casa. No Capítulo 11, Ravena assinou `Rachel Roth Blackwood` abaixo da assinatura de Corvin.
 - Roupa de combate com runas de proteção: proteção física equivalente a RES [3] e proteção contra magia equivalente a [4]. Corvin a utiliza apenas quando considera necessário.
 
 ## REL
-- **Ravena / Rachel Roth:** noiva de Corvin desde o Capítulo 9. Corvin pediu Rachel em casamento diante de Dick, Victor, Kory, Donna e Garfield, deixando explícito que não exigia amor, residência permanente ou permanência contra a vontade dela. Ravena aceitou casar-se e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. No Capítulo 10 ocorreu o primeiro beijo romântico real entre os dois, iniciado e conduzido por Ravena; Corvin depois beijou sua testa.
-- **Casa Blackwood ↔ Ravena:** Ravena é membro reconhecido da Casa por consentimento bilateral contínuo. Pode entrar, sair, permanecer ausente e retornar livremente. O vínculo termina se Corvin ou Ravena retirar voluntariamente o próprio consentimento.
+- **Ravena / Rachel Roth:** noiva de Corvin desde o Capítulo 9. Corvin pediu Rachel em casamento diante de Dick, Victor, Kory, Donna e Garfield, deixando explícito que não exigia amor, residência permanente ou permanência contra a vontade dela. Ravena aceitou casar-se e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. No Capítulo 10 ocorreu o primeiro beijo romântico real entre os dois, iniciado e conduzido por Ravena. No Capítulo 11 ambos disseram diretamente que gostam um do outro; Ravena afirmou que quer continuar com ele, continuar beijando-o e descobrir no que a relação vai se transformar. Os dois combinaram comunicação direta sobre limites e continuam dormindo em quartos separados.
+- **Casa Blackwood ↔ Ravena:** Ravena é membro reconhecido da Casa por consentimento bilateral contínuo para efeito do pacto com Trigon. Além disso, desde o Capítulo 11 está registrada no livro **Casa Blackwood** como `Rachel Roth Blackwood`, o que faz as proteções do castelo reconhecerem sua magia e permitirem uso de poderes/Portal em todos os cômodos, inclusive o cofre. Isso não foi estabelecido como casamento civil ou mudança legal de nome.
 - **Trigon:** pacto formal de neutralidade limitada selado por aperto de mão no Capítulo 9. Enquanto Ravena permanecer membro reconhecido da Casa Blackwood, Trigon fica submetido às restrições específicas acordadas sobre o vínculo com ela; Corvin, em troca, mantém neutralidade conforme os termos pronunciados, sem obrigação de impedir ações independentes de Ravena e preservando pesquisa própria.
-- **Titãs:** Dick, Victor, Kory, Donna e Garfield conheceram Corvin pessoalmente no Capítulo 9, visitaram áreas relevantes do castelo, receberam presentes e testemunharam tanto o pacto com Trigon quanto o noivado. No Capítulo 10, Dick e Victor retornaram para casa à noite; Kory, Donna e Garfield aceitaram passar a noite no castelo.
+- **Titãs:** Dick, Victor, Kory, Donna e Garfield conheceram Corvin pessoalmente no Capítulo 9, visitaram áreas relevantes do castelo, receberam presentes e testemunharam tanto o pacto com Trigon quanto o noivado. Dick e Victor saíram na noite seguinte; Kory, Donna e Garfield passaram a noite e depois também deixaram o castelo.
