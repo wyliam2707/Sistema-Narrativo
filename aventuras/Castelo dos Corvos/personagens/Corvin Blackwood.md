@@ -22,7 +22,8 @@ CONTROLE: JOGADOR HUMANO
 ## TRAÇOS
 - Antigo: pertence a uma antiga linhagem humana cujos membros não envelhecem.
 - Imortalidade por idade: não envelhece biologicamente.
-- Afinidade mágica inata: os Antigos possuem grande afinidade natural com magia. A expressão mecânica dessa afinidade será definida apenas na revisão.
+- Afinidade mágica inata: os Antigos possuem percepção e compreensão intuitiva excepcionais de fenômenos mágicos. Em Corvin, essa afinidade se expressa junto de `Sentido Místico [5]`, MEN [5] e seu conhecimento ocultista: ao observar magia ativa, vínculos, assinaturas ou estruturas sobrenaturais acessíveis aos seus sentidos, ele tende a reconhecer rapidamente sua natureza, funcionamento geral e relações evidentes, inclusive conexões mágicas entre entidades quando elas deixam assinatura perceptível.
+- Essa compreensão intuitiva não é onisciência: não revela fatos escondidos que não estejam presentes na manifestação observada, não fornece automaticamente nomes, história ou intenção e não substitui pesquisa quando o fenômeno exige contexto, comparação de fontes ou conhecimento especializado.
 
 ## Personalidade e tendências
 - Calmo e centrado, raramente se deixando levar por impulsos sem motivo.
