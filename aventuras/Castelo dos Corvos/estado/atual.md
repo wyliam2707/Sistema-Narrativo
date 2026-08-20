@@ -6,84 +6,88 @@ Status: EM JOGO
 - `../livro/capitulo-01-a-visitante.md` — **Capítulo 1 — A Visitante**.
 - `../livro/capitulo-02-a-hospede.md` — **Capítulo 2 — A Hóspede**.
 - `../livro/capitulo-03-rotinas-questionaveis.md` — **Capítulo 3 — Rotinas Questionáveis**.
+- `../livro/capitulo-04-nada-romantico-ainda.md` — **Capítulo 4 — Nada Romântico Ainda**.
 
 ## STATUS
 ### Corvin Blackwood
 - Vida: Ileso.
 - Energia: normal.
 - Condições: nenhuma relevante.
-- Localização: solar do Castelo dos Corvos, acomodado em um dos grandes pufes.
+- Localização: restaurante em Gotham, sentado à mesa com Ravena.
 
 ### Ravena
 - Vida: Ilesa.
 - Energia: normal.
 - Condições: nenhuma relevante.
-- Localização: solar do Castelo dos Corvos, em outro pufe, mantendo alguma distância de Corvin.
+- Localização: mesmo restaurante em Gotham, sentada à mesa com Corvin.
 
-## Ponto operacional atual — fim do Capítulo 3
-- É noite.
-- Corvin tomou banho depois de retornar de sua viagem extradimensional e foi para o solar.
-- Ravena apareceu no solar sem livros nas mãos.
-- Corvin comentou que talvez dormisse ali, sob as estrelas.
-- Ravena entrou, escolheu outro dos pufes e respondeu que já viu lugares piores para dormir.
-- **Última fala canônica:** `[Ravena] — Embora eu ainda não tenha decidido se isso é contemplação ou preguiça sofisticada.`
-- A continuação deve partir exatamente depois dessa fala.
-- Nada ocorrido depois desse ponto em versões descartadas ou antes do comando de salvamento deve ser tratado como cânone futuro.
+## Ponto operacional atual — fim do Capítulo 4
+- É noite em Gotham.
+- Corvin e Ravena estão em um restaurante que Corvin já frequentava antes, em frente a uma boate.
+- Os pedidos já foram feitos: Corvin pediu chope e costela assada com batatas e molho da casa; Ravena pediu água com gás e filé com legumes.
+- As bebidas já chegaram; a comida ainda não chegou.
+- A conversa está deliberadamente centrada em temas cotidianos, principalmente música e dança.
+- Ravena comentou que prefere dançar sem coreografia, com música boa, espaço e sem expectativa de fazer algo específico, porque assim é mais fácil esquecer o resto por algumas horas.
+- A boate continua visível do outro lado da rua.
+- Corvin disse antes de entrarem que comeriam primeiro e depois decidiriam o que fazer; nenhuma decisão de ir à boate foi tomada ainda.
+- **A continuação deve partir exatamente daqui.**
 
-## Continuidade consolidada do Capítulo 3
-- Corvin refinou o veneno do escorpião demoníaco em uma tinta escura, estável e tóxica.
-- Ravena continuou a pesquisa sobre Trigon em ritmo lento, comparando autores e hipóteses sem chegar a solução definitiva.
-- Corvin e Ravena compartilharam jantar, conversa cotidiana sobre música, dança, silêncio e os Titãs, e depois permaneceram algum tempo no solar durante a chuva.
-- Na manhã seguinte, Corvin acordou cedo, preparou café, fez sua corrida pelo bosque e depois retornou à biblioteca; Ravena seguiu pesquisando.
-- Após o almoço, Corvin saiu para um encontro extradimensional por meio de teleporte mais exigente que seus deslocamentos comuns.
-- O encontro ocorreu em uma ruína abandonada com um senhor local/velho conhecido que devia um favor a Corvin.
-- Corvin recebeu um raro tratado linguístico de Ifrid, grosso, antigo, em couro preto com letras vermelhas.
-- O tratado cobre gramática, estrutura ritual, formas antigas e variações regionais e permitirá a Corvin interpretar melhor oito ou nove livros de sua coleção ligados a Ifrid.
-- Corvin pediu ao contato que lembrasse Tarshar da dívida formal de quatro guardas do inferno e que Tarshar entre em contato antes de qualquer entrega.
-- A dívida nasceu de um acordo em que Tarshar contratou Corvin para investigar tráfico de madeira da alma; o traficante era o próprio Corvin.
-- Corvin entregou ao contato 5 ml da tinta de escorpião do abismo. O acordo de intermediação é 70% para Corvin e 30% para o contato se houver venda, sem favores ocultos.
-- Corvin soube que as fronteiras ocidentais de Trigon estão estáveis, porém tensas, com sondagens de dois senhores menores e reforços limitados, sem guerra aberta conhecida.
-- O tempo no domínio visitado corre de forma diferente; Corvin retornou ao castelo já à noite.
-- Ravena estava na biblioteca quando ele voltou.
-- Corvin colocou o tratado na extremidade da mesa mais distante dela e perguntou se ela já havia comido.
-- Ravena já tinha preparado e comido algo simples.
-- Depois que Corvin comeu e voltou, contou apenas que cobrou um favor de um amigo/velho conhecido porque precisava de um dicionário de Ifrid.
-- Ravena sabe que Corvin possui oito ou nove livros em Ifrid e que esse tipo de tratado não costuma sair de certas coleções particulares.
-- Corvin não proibiu Ravena de consultar o tratado, mas recomendou cuidado para não invocar um demônio de fogo na biblioteca.
-- O tratado permanece na biblioteca, na borda distante da mesa onde Corvin o deixou.
+## Continuidade consolidada do Capítulo 4
+- Depois do fim do Capítulo 3, a noite no solar terminou sem novo acontecimento decisivo e a história avançou para o dia seguinte.
+- Corvin não foi para a biblioteca. Escolheu uma sala de trabalho próxima ao laboratório e invocou quatro escorpiões demoníacos de nível [2], um por vez, coletando veneno de quatro espécimes diferentes.
+- Passou praticamente todo o dia refinando as amostras, parando apenas para almoço e jantar.
+- Produziu um pequeno lote comercial de tinta de escorpião do abismo: escura, espessa, estável e tóxica. O lote permanece com Corvin e ainda não foi entregue ao contato.
+- Ravena prosseguiu a pesquisa sobre Trigon. Duas novas referências tratam vínculos de sangue como âncoras, mas uma os descreve como conexão territorial e a outra como ligação espiritual; não houve resposta definitiva.
+- Ravena sabe que Corvin pretende vender o novo lote pelo mesmo velho contato, que a tinta é usada em certos locais e que ele a produz como fluxo de caixa. Ela não sabe quais são esses mercados porque Corvin classificou isso como segredo comercial.
+- Corvin afirmou que não gosta de fazer dívidas nem ficar devendo favores porque esse tipo de obrigação costuma terminar mal.
+- Corvin convidou Ravena para comer fora. Quando ela perguntou quanto deveria se arrumar, ele esclareceu: `[Corvin] — Por hora é só comer fora. Nada romântico ainda...`
+- Ravena percebeu a escolha da palavra e respondeu `[Ravena] — “Ainda.”`, mas aceitou a saída como jantar casual.
+- Ambos trocaram de roupa por versões discretas e casuais.
+- Corvin abriu um portal para uma rua próxima ao destino em Gotham.
+- O restaurante escolhido fica em frente a uma boate. Corvin frequenta o lugar ocasionalmente e também já contou anteriormente a Ravena que às vezes sai para dançar sozinho.
+- Ravena observou que naquela noite pelo menos a parte de ele estar sozinho havia mudado.
+- Durante a espera pela comida, os dois conversaram sobre música e estilos de dança sem trazer Trigon para o centro da conversa.
 
 ## Conhecimento separado
 ### Ravena sabe
 - Corvin possui extensa coleção demonológica e aceita sua pesquisa dentro das regras da casa.
 - O estudo sério sobre Trigon pode levar semanas ou meses.
 - O vínculo com Trigon pode funcionar como uma ponte bidirecional, mas isso permanece hipótese em estudo e não um plano confirmado.
-- Corvin criou para ela um ponto autorizado de portal na sala; o restante do castelo mantém restrições.
-- Corvin saiu naquela tarde para buscar uma encomenda por um teleporte incomumente exigente.
-- O livro trazido é um dicionário/tratado raro de Ifrid obtido ao cobrar favor de um velho conhecido/amigo.
-- Corvin possui oito ou nove livros ligados a Ifrid que dependem desse conhecimento linguístico.
-- O tratado é peça que normalmente não sai de certas coleções particulares.
-- Ravena não sabe sobre Tarshar, o acordo da tinta de escorpião nem a informação das fronteiras de Trigon, salvo se Corvin decidir contar futuramente.
+- As duas referências mais recentes divergem entre uma interpretação territorial e outra espiritual dos vínculos de sangue como âncoras.
+- Corvin possui um tratado raro de Ifrid e oito ou nove livros ligados a esse domínio.
+- Corvin produz tinta de escorpião do abismo a partir de veneno demoníaco e pretende vendê-la pelo mesmo velho contato usado anteriormente; ele trata essa atividade como fluxo de caixa.
+- Corvin considera o destino/mercado específico da tinta um segredo comercial.
+- Corvin evita dívidas e favores devidos.
+- Corvin às vezes sai para dançar e normalmente faz isso sozinho.
+- A saída atual foi apresentada por Corvin como jantar casual, "nada romântico ainda".
+- Ravena não sabe sobre Tarshar, os termos 70/30 da negociação da tinta nem a informação das fronteiras de Trigon, salvo se Corvin decidir contar futuramente.
 
 ### Corvin sabe
 - As bordas ocidentais de Trigon estão estáveis, porém tensas, com pequenas sondagens e reforços limitados.
-- O contato possui 5 ml da tinta de escorpião do abismo e pode procurar compradores no acordo 70/30.
+- O contato possui 5 ml da amostra anterior da tinta de escorpião do abismo sob acordo 70/30.
+- Corvin produziu um novo pequeno lote comercial de tinta a partir de quatro escorpiões demoníacos e pretende vendê-lo pelo mesmo contato; o lote ainda está sob sua posse.
 - Tarshar deve ser lembrado da dívida dos quatro guardas e deverá entrar em contato antes do cumprimento.
-- Corvin sente atração física e interesse pessoal por Ravena; antes de ela entrar no solar, reconheceu para si que fazia tempo que não tinha visita, considerou a possibilidade de lucrar caso ações de Ravena gerem problemas para Trigon e também pensou na beleza dela.
+- Ravena encontrou duas novas referências divergentes sobre a natureza dos vínculos de sangue como âncoras e considera que a pesquisa ainda lhe dá mais perguntas do que respostas.
+- Ravena aceitou sair para jantar e não rejeitou a possibilidade implícita contida no "ainda", mas nenhum vínculo romântico foi assumido.
 
 ## Relações atuais
 - Corvin ↔ Ravena: cooperação, hospitalidade, confiança prática e conforto cotidiano em crescimento.
 - Ravena continua hospedada temporariamente no castelo durante a pesquisa.
 - Corvin → Ravena: atração física e interesse pessoal presentes.
-- Ravena → Corvin: curiosidade, conforto prático e abertura à convivência; nenhum vínculo romântico assumido ou confirmado.
+- Ravena → Corvin: curiosidade, conforto prático e abertura à convivência; nenhum relacionamento romântico assumido ou confirmado.
+- A convivência agora inclui uma primeira saída social dos dois fora do castelo, explicitamente apresentada como não romântica por enquanto.
 - Ravena mantém vínculo ativo com os Titãs e aceitou manter contato com eles.
 - Dick/Nightwing sabe que Ravena está no castelo voluntariamente e mantém cautela em relação a Corvin.
 
 ## Pendências com potencial causal
 - Tarshar e os quatro guardas do inferno.
-- Possível venda da tinta de escorpião do abismo.
+- Teste e possível venda da amostra anterior de tinta no acordo 70/30.
+- Novo lote comercial de tinta de escorpião do abismo ainda com Corvin, destinado ao mesmo contato.
 - Tratado de Ifrid e os oito ou nove livros ainda parcialmente inacessíveis sem seu estudo.
 - Tensão nas fronteiras de Trigon, conhecida por Corvin e ainda não por Ravena.
-- Pesquisa lenta de Ravena sobre Trigon.
+- Pesquisa lenta de Ravena sobre Trigon e a divergência atual entre interpretação territorial e espiritual dos vínculos.
+- Jantar em andamento em Gotham.
+- Possibilidade de irem à boate em frente ao restaurante depois da refeição; nenhuma decisão foi tomada.
 - Evolução da convivência entre Corvin, Ravena e, quando organicamente justificável, os Titãs como agentes próprios.
 
 ## Regras operacionais relevantes
@@ -105,6 +109,7 @@ Usar como fontes principais:
 - `../livro/capitulo-01-a-visitante.md`
 - `../livro/capitulo-02-a-hospede.md`
 - `../livro/capitulo-03-rotinas-questionaveis.md`
+- `../livro/capitulo-04-nada-romantico-ainda.md`
 - `../cronologia/README.md`
 - `../progressao/README.md`
 - material reservado em `../mestre/` apenas quando pertinente ao narrador.
