@@ -10,6 +10,7 @@ Status: EM JOGO
 - `../livro/capitulo-05-um-segundo-a-mais.md` — **Capítulo 5 — Um Segundo a Mais**.
 - `../livro/capitulo-06-contrato-e-contrato.md` — **Capítulo 6 — Contrato é Contrato**.
 - `../livro/capitulo-07-duzentos-e-dez.md` — **Capítulo 7 — Duzentos e Dez**.
+- `../livro/capitulo-08-banquete-para-sete.md` — **Capítulo 8 — Banquete para Sete**.
 
 ## STATUS
 ### Corvin Blackwood
@@ -17,139 +18,120 @@ Status: EM JOGO
 - Energia: normal.
 - Condições: nenhuma relevante.
 - Efeitos ativos: `Sentido Místico [5]` permanece ativo por padrão.
-- Localização: Castelo dos Corvos, solar, durante conversa noturna com Ravena.
+- Localização: Castelo dos Corvos, sala de jantar, sentado à mesa ao lado de Ravena.
 
 ### Ravena
 - Vida: Ilesa.
 - Energia: normal.
 - Condições: nenhuma relevante.
-- Localização: Castelo dos Corvos, solar, com o telefone na mão.
+- Localização: Castelo dos Corvos, sala de jantar, sentada ao lado de Corvin.
 
-## Ponto operacional atual — fim do Capítulo 7
-- É noite no solar do Castelo dos Corvos. Corvin e Ravena estão em pufes próximos, depois de uma longa conversa com chá sob as estrelas.
-- Ravena contou a Corvin que Victor encontrou uma fotografia autêntica dele numa inauguração de museu em Gotham em 1916 e que Dick investigou seus negócios públicos/financeiros.
-- Ravena já confrontou Corvin sobre a foto. Corvin confirmou que era ele e contou que tem **210 anos**, não envelhece biologicamente e pertence à linhagem humana dos Antigos.
-- Ravena sabe que a condição é inata, não fruto de pacto demoníaco; Corvin ainda pode ser morto por dano.
-- Ravena sabe que Corvin considera a característica possivelmente recessiva e não sabe se existem outros Antigos vivos.
-- Corvin explicou a afinidade mágica da linhagem e descreveu como percebe atualmente a ligação de Ravena com Trigon.
-- Ravena pediu que Corvin a avise se perceber alteração não provocada na ligação; ele concordou.
-- Ravena contou que os Titãs discutiram possibilidade de influência/controle mental apenas como hipótese de segurança e que ela garantiu estar no castelo voluntariamente e sem coerção mágica de Corvin.
-- Dick e Kory querem conhecer Corvin; Victor demonstrou interesse e Garfield quer conhecer especialmente o castelo.
-- Corvin aceitou receber os Titãs. Disse que eles podem ser trazidos por Portal usando o acesso/runa já autorizado de Ravena.
-- A expressão de Corvin de que Ravena já possui a "porta da casa" refere-se ao **acesso mágico/runa de Portal** que permite a ela entrar e sair do castelo, não à porta física.
-- Ravena pegou o telefone e disse: `[Ravena] — Vou avisar que você aceitou.`
-- **Nenhuma mensagem aos Titãs foi enviada em cena ainda, nenhum horário foi combinado e a continuação deve partir exatamente desse ponto.**
+### Titãs presentes
+- Dick Grayson / Nightwing: ileso, sala de jantar.
+- Donna Troy: ilesa, sala de jantar.
+- Victor Stone / Ciborgue: ileso, sala de jantar.
+- Kory / Estelar: ilesa, sala de jantar.
+- Garfield Logan / Mutano: ileso, sala de jantar.
 
-## Continuidade consolidada do Capítulo 7
-- Corvin tentou manter dois dias de rotina simples: café, corrida, pesquisa, laboratório, forja, almoço, jantar e sono.
-- Durante esses dois dias, continuou a própria investigação sobre Trigon, fez pesquisa de encantamentos e começou a forjar uma **adaga de banimento**. A arma ainda está incompleta.
-- O objetivo da adaga é atingir condições de manifestação/âncoras e negar permanência, não apenas causar dano adicional a demônios.
-- Corvin manteve aproximação suave e constante com Ravena por meio de conversa, flerte, refeições e ajuda indireta à pesquisa. Continuou indicando livros sem entregar respostas prontas.
-- Victor encontrou por acaso uma fotografia autenticada de 1916 na qual Corvin aparece com o mesmo rosto atual.
-- Victor mostrou a foto a Dick. Dick investigou registros públicos e descobriu um padrão de negócios muito pouco convencional, envolvendo intermediações, objetos raros, acesso, informação, consultorias e ativos difíceis de precificar. Não encontrou prova direta de crime ou de vítimas humanas.
-- Dick, Victor, Kory, Garfield e Donna discutiram a situação em cena exclusiva dos Titãs. Levantaram controle mental/influência apenas como possibilidade de segurança, não como conclusão.
-- No terceiro dia, Corvin saiu para um negócio humano e prometeu que não haveria demônios. Ravena pediu chocolate quando ele ofereceu trazer algo de fora.
-- Corvin negociou um item capaz de prolongar a vida de um milionário por alguns anos em troca de ouro/metais/pedras de valor e um livro antigo de interesse principalmente histórico. Não houve pacto, culto ou incidente demonológico.
-- Corvin trouxe o chocolate pedido ao retornar no fim da tarde.
-- Enquanto Corvin estava fora, Dick chamou Ravena à Torre. Os Titãs mostraram a foto e os dados encontrados; Ravena afirmou estar hospedada voluntariamente e negou magia sem permissão, sugestão, influência mental ou pacto imposto por Corvin.
-- Ravena proibiu visita surpresa e prometeu falar primeiro com Corvin.
-- Ao voltar, Corvin confirmou a foto de 1916 e contou detalhes da inauguração: ala de História e Antiguidades, curador Arthur Bell, patrona Eleanor Whitmore, peças históricas que ajudou a obter, champanhe ruim, quarteto repetindo música e uma discussão de catalogação.
-- Corvin acabou esclarecendo sua idade exata como **210 anos**.
-- Corvin explicou que os Antigos não envelhecem, mas ainda podem morrer, e que a linhagem parece possuir forte afinidade mágica e curiosidade por fenômenos sobrenaturais.
-- Corvin não tem confirmação de outros Antigos vivos; encontrou apenas informações dispersas e considera possível que a característica seja recessiva.
-- Corvin descreveu a conexão de Ravena com Trigon, no estado atual, como uma estrutura profunda e persistente, semelhante metaforicamente a um "endereço que nunca deixa de existir". Ela não parece uma porta permanentemente aberta nem uma corrente física.
-- Portal altera fortemente a assinatura espacial de Ravena, mas essa camada profunda persiste; Alma Astral a torna mais evidente; meditação reduz ruído e facilita a observação.
-- Desde que Ravena chegou ao castelo, Corvin não percebeu mudança estrutural não provocada nessa ligação. A ligação de Trigon para Corvin foi contato externo e não alteração observada em Ravena.
-- Ravena pediu que Corvin a avise se a ligação mudar; Corvin concordou e afirmou que expulsaria Trigon caso ele tentasse visitar/invadir sua casa.
-- A conversa tornou-se pessoal. Corvin contou que teve alguém no início de sua longa vida, mas que o peso do tempo e seu modo de vida tornaram vínculos duradouros difíceis. Não existe nome ou detalhe adicional estabelecido sobre essa pessoa.
-- Ravena observou que saber como uma história anterior terminou não significa saber como a próxima termina; isso não constitui declaração ou promessa de relacionamento.
-- Corvin explicou que nunca contou a idade porque Ravena nunca perguntou e porque não considera "tenho 210 anos" uma apresentação social útil. Ravena aceitou que ele não mentiu sobre isso.
-- Corvin contou uma história de aproximadamente 170 anos atrás sobre uma ruína terrestre de culto antigo: atravessou armadilhas, recuperou alguns livros e encontrou um demônio preso oferecendo três desejos.
-- Primeiro desejo: uma garrafa não poderia ser aberta nem destruída. Segundo: o demônio deveria entrar nela. O terceiro desejo nunca foi feito.
-- A garrafa contendo o demônio foi enterrada num canto da própria ruína. A localização exata não foi redefinida em cena e o terceiro desejo continua pendente.
-- Corvin considera que hoje possui poder suficiente para colocar a criatura de volta na garrafa caso ela escape, mas isso não altera retroativamente o estado atual do objeto.
+## Ponto operacional atual — fim do Capítulo 8
+- É perto do meio-dia no Castelo dos Corvos.
+- Dick, Donna, Victor, Kory e Garfield chegaram ao castelo como convidados, trazidos por Ravena através do **ponto rúnico autorizado de Portal na sala**. Não houve violação das proteções.
+- Corvin os recebeu individualmente usando `Etiqueta [2]`, conduziu o grupo à sala de jantar, pediu que se sentassem e começou a servi-los pessoalmente como anfitrião.
+- Ravena escolheu sentar-se ao lado de Corvin e disse antes da chegada que também preferia ficar perto dele.
+- Todos já estão sentados e servidos.
+- Dick iniciou a primeira conversa mais direta: disse que a parte estranha é os Titãs já saberem algumas coisas sobre Corvin enquanto Corvin provavelmente sabe pouco sobre eles além do que Ravena contou.
+- **Corvin ainda não respondeu. A continuação deve partir exatamente dessa fala de Dick.**
+
+## Continuidade consolidada do Capítulo 8
+- Depois do fim do Capítulo 7, Corvin mudou para um pufe mais próximo de Ravena no solar e pediu dicas sobre receber os Titãs.
+- Ravena explicou tendências gerais dos amigos: Dick observa e pergunta, Victor tende à curiosidade técnica, Kory responde bem à franqueza, Donna é tranquila mas perceptiva e Garfield provavelmente tocará em alguma coisa.
+- Corvin estabeleceu limites de visita: nada de cofre/seção restrita e nada que morda, roube almas ou represente risco imprudente.
+- Corvin decidiu dormir novamente no solar e convidou Ravena a ficar. Ela aceitou.
+- Quando Ravena percebeu que Corvin a observava, ele disse: **“Cansei de esconder.”** Ela não recuou nem transformou isso em definição formal.
+- Os dois dormiram em pufes próximos sob as estrelas, sem beijo ou intimidade física maior.
+- Na manhã seguinte, Corvin acordou às 6h30, escureceu os vidros do solar para não acordar Ravena, tomou café, correu pelo bosque e voltou às 8h.
+- Corvin convidou os cinco Titãs para o almoço e chamou a refeição de “banquete”.
+- Ravena estimou comida para cerca de dez adultos com fome e avisou que Garfield não come carne.
+- Corvin perguntou se os Titãs viriam pelo portão ou por Portal. Ravena escolheu buscá-los e trazê-los pela runa autorizada da sala.
+- Corvin convidou Ravena para fazer compras. Entre aproximadamente 8h e 10h, os dois passaram por vários países buscando ingredientes e alimentos.
+- As compras foram enviadas por Portal apenas ao **ponto rúnico autorizado da sala**; nenhuma comida foi teleportada diretamente para a cozinha.
+- Ao voltar, Ravena disse: **“Foi um encontro. Muito mal disfarçado.”** Corvin respondeu que havia resolvido parar de esconder, mas ainda podia tentar disfarçar.
+- Os dois organizaram o salão de jantar juntos.
+- Corvin disse que preferia que Ravena se sentasse ao lado dele, mas deixou a escolha com ela. Ravena escolheu esse lugar e disse que também preferia ficar perto dele.
+- Corvin e Ravena combinaram roupa casual arrumada e brincaram sobre não transformar a visita em pedido de noivado, terno completo, vestido longo ou caixa de veludo.
+- Perto do meio-dia, Ravena trouxe Dick, Donna, Victor, Kory e Garfield pelo Portal autorizado da sala.
+- Corvin recebeu o grupo formalmente, sem transformar a visita em cerimônia rígida.
+- O banquete inclui opções vegetarianas de verdade para Garfield, além de pratos variados para os demais convidados.
+
+## Percepção atual de Corvin sobre os Titãs
+Aplicar `Sentido Místico [5]` e a afinidade inata dos Antigos sem transformar percepção em onisciência.
+
+- **Dick / Nightwing:** Corvin reconhece publicamente o herói e sabe que é um humano altamente treinado ligado aos Titãs. Pelo Sentido Místico, não percebe assinatura mágica pessoal relevante.
+- **Victor / Ciborgue:** Corvin reconhece o herói e sua natureza cibernética. A complexidade de Victor é tecnológica, não mágica; `Sentido Místico` não revela especificações internas dos sistemas.
+- **Kory / Estelar:** Corvin reconhece a heroína alienígena tamaraniana e sabe publicamente de suas capacidades gerais. Sua energia é alienígena/solar, não uma estrutura mágica legível como feitiço.
+- **Garfield / Mutano:** Corvin reconhece o metamorfo e sabe publicamente que assume formas animais. A transformação nesta continuidade é biológica, não mágica.
+- **Donna Troy:** Corvin reconhece a heroína amazona/Titã. Donna em si não apresenta grande assinatura mágica pessoal obrigatória; armamentos amazonas encantados, se presentes, podem ser percebidos como objetos mágicos.
+- **Ravena:** continua sendo a presença magicamente mais complexa do grupo. Corvin conhece sua assinatura e a linha-base da ligação com Trigon.
+- No momento da entrada, Corvin não percebeu estrutura evidente de possessão, pacto ativo, coerção ou controle mental mágico sobre os visitantes. Isso não prova ausência absoluta de qualquer fenômeno oculto; apenas descreve o que está acessível aos sentidos dele agora.
 
 ## Conhecimento separado
 ### Ravena sabe
-- Corvin tem 210 anos e é o homem da fotografia de 1916.
-- Corvin pertence à linhagem humana dos Antigos e não envelhece biologicamente; isso não veio de pacto demoníaco.
-- Corvin ainda pode morrer por dano e não se apresentou como invulnerável.
-- A condição parece possivelmente recessiva; Corvin não sabe se existem outros Antigos vivos.
-- Corvin possui afinidade inata para perceber e compreender estruturas mágicas acessíveis aos sentidos, sem onisciência.
-- Corvin percebe a ligação dela com Trigon desde o primeiro encontro e consegue notar mudanças relevantes na assinatura.
-- Corvin descreveu a conexão atual com Trigon como estrutura espiritual persistente, metaforicamente um "endereço que nunca deixa de existir".
-- Desde que chegou ao castelo, Corvin não observou mudança estrutural não provocada nessa ligação.
-- Corvin prometeu avisá-la caso perceba alteração.
-- Ravena sabe que Corvin teve alguém no início de sua longa vida, mas não recebeu nome, época exata ou detalhes desse relacionamento.
-- Ravena conhece a história da garrafa indestrutível/inabrível com um demônio preso e terceiro desejo pendente, enterrada numa ruína de aproximadamente 170 anos atrás.
-- Ravena sabe que Victor encontrou a foto e que Dick investigou os negócios de Corvin.
-- Ravena sabe que os Titãs levantaram controle mental/influência como hipótese de segurança; ela respondeu que está no castelo por vontade própria e que Corvin não a controla.
-- Ravena sabe que Dick, Kory, Victor e Garfield demonstraram interesse em conhecer Corvin/castelo.
-- Ravena sabe que Corvin aceitou receber os Titãs.
-- Ravena continua conhecendo a informação sobre Trigon, Azhur-Khal e fixação de manifestações obtida na negociação anterior.
-- Ravena continua sem conhecer automaticamente os termos 70/30 da tinta, a informação das fronteiras ocidentais de Trigon, a hipótese privada completa de Corvin sobre uma porta de um lado só ou o nome Tarshar se ele não for revelado em fala futura.
+- Corvin tem 210 anos, é um Antigo, não envelhece biologicamente e ainda pode ser morto.
+- A linhagem parece possivelmente recessiva e possui afinidade mágica inata.
+- Corvin percebe a ligação dela com Trigon e prometeu avisar se notar mudança não provocada.
+- Corvin teve alguém no início de sua longa vida, mas não revelou detalhes suficientes para criar outro personagem canônico.
+- Ravena conhece a história da garrafa impossível de abrir/destruir com demônio preso e terceiro desejo não usado.
+- Ravena sabe da fotografia de 1916, da investigação dos Titãs e da hipótese de segurança sobre influência mental.
+- Ravena sabe que Corvin aceitou a visita e agora seus amigos estão no castelo.
+- Ravena conhece Azhur-Khal, a pista sobre fixação de manifestações e o pacto que ouviu escondida, mas continua sem conhecer automaticamente os termos 70/30 da tinta, a tensão nas fronteiras ocidentais de Trigon, a hipótese privada completa de assimetria ou o nome Tarshar se não tiver sido dito diretamente a ela.
 
 ### Corvin sabe
-- Victor encontrou uma fotografia dele de 1916 e os Titãs investigaram parte de seus negócios públicos/financeiros.
-- Dick e os demais consideraram a possibilidade de controle mental/influência sobre Ravena como hipótese de segurança.
-- Ravena afirmou aos Titãs que está no castelo por vontade própria e que Corvin não usou magia ou coerção sobre ela.
-- Dick e Kory querem conhecê-lo; Victor e Garfield também demonstraram interesse.
-- Corvin aceitou a visita, mas ainda não existe data ou horário estabelecido.
-- Corvin continua sabendo sobre as fronteiras ocidentais de Trigon, o pacto com Tarshar, Azhur-Khal, a pesquisa paralela e a hipótese de assimetria; Ravena não recebeu automaticamente as partes ainda ocultas.
-- Corvin iniciou a adaga de banimento e ainda precisa completar forja/encantamento.
-- Corvin sabe onde/como deixou a antiga garrafa na ruína de aproximadamente 170 anos atrás dentro dos limites do que sua própria memória permite; a campanha não definiu coordenadas modernas exatas.
+- Victor encontrou a fotografia de 1916 e Dick investigou parte de seus registros públicos/financeiros.
+- Os Titãs levantaram influência/controle mental apenas como hipótese de segurança; Ravena afirmou estar no castelo por vontade própria.
+- Dick, Donna, Victor, Kory e Garfield agora estão fisicamente no castelo como convidados.
+- Corvin conhece publicamente os Titãs em graus compatíveis com a fama deles, mas não conhece fichas, pensamentos, medos, histórias privadas ou capacidades exatas sem que tenham sido observadas/reveladas.
+- Corvin continua sabendo sobre o pacto com Tarshar, fronteiras de Trigon, Azhur-Khal, adaga de banimento e hipótese privada de assimetria.
 
 ### Titãs sabem
-- Victor e Dick sabem que a foto de 1916 é autêntica e que o rosto corresponde fortemente ao de Corvin atual.
-- Dick, Victor, Kory, Garfield e Donna sabem que os negócios públicos de Corvin parecem pouco convencionais e difíceis de classificar.
-- Eles não têm prova de que Corvin seja criminoso, demonologista, imortal ou controlador mental a partir da investigação por si só.
-- Ravena disse diretamente a eles que está no castelo voluntariamente e que Corvin não usou magia sem permissão, sugestão, influência mental ou pacto para mantê-la lá.
-- Eles ainda **não sabem** que Corvin confirmou ter 210 anos, ser um Antigo ou os detalhes da conversa no solar, porque Ravena ainda não voltou a falar com eles depois da revelação.
-- Eles ainda **não sabem** que Corvin aceitou a visita, porque a mensagem ainda não foi enviada em cena.
+- A fotografia de 1916 é autêntica e corresponde fortemente ao rosto atual de Corvin.
+- Os negócios públicos/financeiros de Corvin parecem incomuns e difíceis de classificar.
+- Ravena declarou diretamente que está hospedada no castelo por vontade própria e sem coerção mágica de Corvin.
+- Corvin os convidou para almoço e os recebeu normalmente no castelo.
+- Eles ainda **não sabem automaticamente** que Corvin confirmou ter 210 anos ou ser um Antigo, a menos que Ravena conte ou Corvin revele em cena futura.
 - Eles não conhecem automaticamente Trigon procurando Corvin, Tarshar, Azhur-Khal, o pacto dos Guardas, a pesquisa secreta de Corvin ou as fronteiras demoníacas.
 
 ## Relações atuais
-- Corvin ↔ Ravena: cooperação, hospitalidade, confiança prática, intimidade cotidiana, humor privado, flerte e abertura pessoal em crescimento.
-- Ravena continua hospedada temporariamente no castelo por escolha própria, com acesso autorizado de Portal, e trouxe roupas/objetos sem declarar mudança permanente.
-- Corvin → Ravena: atração e interesse pessoal claros; mantém aproximação suave e constante e continua ajudando a pesquisa sem tomar a descoberta das mãos dela.
-- Ravena → Corvin: conforto, confiança prática, curiosidade e abertura crescente; ela agora conhece idade, linhagem e parte importante do passado dele, mas nenhum relacionamento foi assumido.
-- Não existe beijo, namoro formal, promessa ou compromisso romântico estabelecido.
-- Ravena mantém vínculo ativo com os Titãs e não suspende sua vida externa por estar no castelo.
-- Os Titãs passaram de preocupação abstrata para intenção concreta de conhecer Corvin, mas não estão em postura de ataque ou resgate.
+- Corvin ↔ Ravena: cooperação, confiança prática, intimidade cotidiana, humor privado, flerte explícito e abertura emocional crescente.
+- Ravena continua hospedada por escolha própria, com acesso autorizado de Portal.
+- Corvin declarou que cansou de esconder o interesse; Ravena permaneceu próxima e classificou a manhã de compras como um encontro muito mal disfarçado.
+- Não existe beijo, namoro formal, promessa, noivado ou mudança permanente de residência estabelecida.
+- Ravena mantém vínculo ativo com os Titãs.
+- Corvin ↔ Titãs: primeiro encontro presencial em andamento, começando por hospitalidade e conversa em vez de confronto.
 
 ## Pendências com potencial causal
-- Ravena ainda precisa efetivamente avisar os Titãs que Corvin aceitou a visita.
-- Definir quando e quais Titãs irão ao castelo; nenhuma visita está marcada ainda.
-- Continuação da investigação/curiosidade dos Titãs sobre Corvin e como reagirão à confirmação da idade/linhagem se Ravena decidir contar.
-- Continuação da forja e encantamento da adaga de banimento.
-- Cumprimento do novo pacto de Tarshar: três vínculos demoníacos, com possibilidade de um Felguard substituir um dos Guardas se o livro relevante for obtido.
-- Eventual obtenção do livro sobre fixação de manifestações ligada ao interesse recente de Trigon.
-- Possível investigação futura sobre Azhur-Khal.
-- Pesquisa independente de Ravena sobre Trigon.
-- Pesquisa secreta/paralela de Corvin sobre manifestação, política, vínculo e possível assimetria da conexão de Ravena.
-- Observação contínua da ligação Ravena–Trigon pelo `Sentido Místico [5]` de Corvin e o acordo de aviso imediato em caso de mudança.
-- Garrafa antiga enterrada numa ruína com demônio preso e terceiro desejo não utilizado.
-- Teste/venda da amostra anterior de tinta no acordo 70/30 e venda da produção comercial adicional.
-- Continuação da tradução dos textos de Ifrid.
+- Responder à fala de Dick e desenvolver a primeira conversa real entre Corvin e os Titãs.
+- Possível revelação aos Titãs da idade/linhagem de Corvin.
+- Continuação da forja/encantamento da adaga de banimento.
+- Cumprimento do pacto de Tarshar e possível obtenção do livro/Felguard.
+- Pesquisa sobre Azhur-Khal e fixação de manifestações.
+- Pesquisa independente de Ravena sobre Trigon e pesquisa paralela de Corvin sobre assimetria.
+- Observação contínua da ligação Ravena–Trigon pelo `Sentido Místico [5]`.
+- Garrafa antiga enterrada com demônio preso e terceiro desejo pendente.
+- Venda da tinta de escorpião e continuação da tradução dos textos de Ifrid.
 - Tensão nas fronteiras de Trigon, conhecida por Corvin e não por Ravena.
-- Possibilidade de nova negociação entre Trigon e Corvin.
-- Evolução da convivência/atração entre Corvin e Ravena sem relacionamento formal assumido.
 
 ## Regras operacionais relevantes
 - Corvin possui `CONTROLE: JOGADOR HUMANO`; o narrador não decide falas, pensamentos, intenções ou ações voluntárias novas por ele.
-- Ravena possui `CONTROLE: JOGADOR IA` e deve agir autonomamente segundo personalidade, conhecimento, objetivos e situação.
-- Titãs aprovados como `JOGADOR EVENTUAL IA` podem ativar ciclos próprios quando houver motivo causal, juntos ou separadamente, sem compartilhamento automático de conhecimento.
-- Aplicar `sistema/ciclo-de-jogadores.md` como regra de prioridade máxima: todos os jogadores ativos declaram antes da resolução da nova janela significativa.
-- No jogo ao vivo, pensamentos de Ravena e dos Titãs permanecem ocultos. Na versão literária consolidada, interioridade pode aparecer quando coerente com o cânone.
-- A consolidação em livro deve seguir o estilo literário adulto, sensual, emocional e introspectivo definido em `../livro/README.md`.
-- Todo uso de magia de Corvin é `Magia [3]` por padrão, salvo especialização explicitamente declarada ou inequivocamente exigida pela ação.
-- `Sentido Místico [5]` de Corvin permanece ativo por padrão e deve ser considerado automaticamente, sem conceder conhecimento inacessível nem substituir investigação/interpretação.
-- A afinidade inata dos Antigos facilita percepção/compreensão de estruturas mágicas realmente observáveis, mas não concede onisciência, nomes, intenções ou história escondida sem evidência.
-- As proteções do castelo restringem teleporte não autorizado e retirada de livros.
-- O acesso de Portal de Ravena é autorização mágica específica. Referências à "porta da casa" nesse contexto significam esse acesso/runa, não a porta física.
-- Nos negócios relevantes de Corvin, riqueza/pagamento material deve ser tratado preferencialmente como ouro, metais preciosos, pedras e outros valores duráveis; papel-moeda não é o padrão patrimonial dele.
-- Separar rigorosamente conhecimento de ficha/narrador do que cada personagem realmente sabe.
-- Pacto demonológico antigo por aperto de mão, quando conscientemente firmado nos termos aceitos, exige contato físico direto e cria vínculo inquebrável entre as partes. Não inventar termos retroativos que não existiam no momento do aperto.
+- Ravena possui `CONTROLE: JOGADOR IA`.
+- Titãs aprovados como `JOGADOR EVENTUAL IA` podem agir autonomamente quando ativados, juntos ou separados, sem mente coletiva.
+- Aplicar `sistema/ciclo-de-jogadores.md`: jogadores ativos declaram intenções antes da resolução da janela significativa.
+- Pensamentos de Ravena/Titãs permanecem ocultos no jogo ao vivo; a versão literária pode usar interioridade coerente.
+- `Sentido Místico [5]` de Corvin permanece ativo por padrão.
+- Afinidade mágica dos Antigos facilita leitura de estruturas observáveis, mas não concede nomes, intenções ou fatos escondidos.
+- As proteções do castelo restringem teleporte/Portal não autorizado.
+- **O ponto autorizado de Portal de Ravena é a runa da sala.** Portais não devem ser abertos arbitrariamente no solar, cozinha, biblioteca ou outros cômodos.
+- Separar rigorosamente fatos de ficha/narrador do conhecimento adquirido em ficção.
+- Pacto demonológico antigo por aperto de mão exige contato físico direto e fixa apenas os termos aceitos no momento do pacto.
 
 ## Continuidade
 Usar como fontes principais:
@@ -165,3 +147,4 @@ Usar como fontes principais:
 - `../livro/capitulo-05-um-segundo-a-mais.md`
 - `../livro/capitulo-06-contrato-e-contrato.md`
 - `../livro/capitulo-07-duzentos-e-dez.md`
+- `../livro/capitulo-08-banquete-para-sete.md`
