@@ -28,7 +28,7 @@ Ela serve à continuidade e não substitui os capítulos literários de `livro/`
 ## Capítulo 6 — Contrato é Contrato
 - Corvin contou a Ravena a história do roubo de madeira das almas e da investigação em que o próprio ladrão foi contratado pela vítima.
 - Revelou a antiga dívida de quatro Guardas do Abismo e convidou Ravena a assistir à cobrança escondida por círculo de sal e ferro.
-- Corvin renegociou a dívida com Tarshar para três vínculos em troca de informação sobre Trigon; se Tarshar obtiver um livro adequado, um Guard poderá ser substituído por um Felguard.
+- Corvin renegociou a dívida com Tarshar para três vínculos em troca de informação sobre Trigon; se Tarshar conseguir um livro adequado sobre fixação de manifestações, um dos três Guardas poderá ser substituído por um Felguard.
 - O acordo foi selado por aperto de mão demonológico inquebrável; o prazo de fim de semana não entrou no pacto.
 - Tarshar revelou que Trigon procura métodos de fixação de manifestações e perguntou sobre usar uma ligação preexistente como âncora; citou Azhur-Khal como arquivista relevante.
 - Corvin e Ravena passaram dois dias em pesquisa/trabalho paralelos. Corvin passou a ajudar indiretamente com livros e páginas, sem entregar respostas prontas.
@@ -87,3 +87,26 @@ Ela serve à continuidade e não substitui os capítulos literários de `livro/`
 - Ravena não recuou, tocou a camisa dele, disse **“Vamos corrigir a ordem”** e tomou a iniciativa do primeiro beijo romântico entre os dois.
 - Corvin deixou Ravena conduzir o beijo pelo tempo que desejasse. Quando ela encerrou e disse **“Protocolo corrigido”**, Corvin beijou sua testa e voltou ao livro de Ifrid sorrindo.
 - O capítulo termina na biblioteca: Corvin e Ravena novamente diante de seus livros, agora noivos e depois do primeiro beijo, sem avanço adicional da pesquisa, da saída dos hóspedes ou do relacionamento.
+
+## Capítulo 11 — Sem Indiretas
+- Corvin abandonou temporariamente o manual de Ifrid e foi para a forja para gastar energia. Ravena o seguiu depois de alguns minutos.
+- Corvin explicou que se afastara para não cruzar limites que havia jurado não cruzar por conta própria. Ravena deixou claro que valorizava o limite, mas distinguiu entre ele decidir por ela e ela própria “abrir a porta”; os dois se beijaram novamente, com Corvin acompanhando o ritmo que ela escolheu.
+- Corvin passou a manhã na forja e fez progresso real na adaga de banimento. A lâmina continua incompleta, mas está **quase pronta, bem quase mesmo**; Ravena pediu para assistir ao teste quando Corvin considerá-la realmente pronta.
+- Kory, Donna e Garfield concluíram a estadia e deixaram o castelo. Dick e Victor já haviam saído na noite anterior.
+- Corvin e Ravena passaram por rotina doméstica comum: almoço, louça, trabalho separado, jantar, nova louça e uma noite no solar.
+- No solar, Corvin disse diretamente que gosta de Ravena e revelou que a última vez em que gostou de alguém “de verdade” foi há mais de 180 anos; também explicou que não lida bem com indiretas porque passa tempo demais profissionalmente analisando palavras, contexto e múltiplas interpretações.
+- Ravena respondeu diretamente que gosta de Corvin, quer continuar ali porque quer estar com ele, quer continuar beijando-o e descobrir no que a relação vai se transformar. Disse também que não aceitou o noivado apenas por causa do pacto e que teria dito não se não o quisesse em sua vida.
+- Os dois combinaram comunicação explícita sobre fronteiras: se Ravena quiser parar, distância ou mais proximidade, dirá; Corvin deve fazer o mesmo e perguntar em vez de interpretar por semanas.
+- Ravena se deitou ao lado de Corvin no solar; os dois ficaram de mãos dadas olhando as estrelas, sem avançar além do que haviam combinado.
+- Corvin e Ravena discutiram uma possibilidade prática para o pacto: se no futuro ela sair do castelo, morar fora, estiver irritada ou até acreditar que não pretende voltar, isso não precisa significar retirada do consentimento de pertencer à Casa. A condição só continua se ela **genuinamente** ainda quiser ser membro; trocar palavras não enganaria o pacto se a vontade real tivesse mudado.
+- Corvin descreveu essa separação entre distância, conflito, afeto e pertencimento como um tipo de “brecha” humana difícil para um demônio avaliar. Ravena concordou com o princípio sem tratar a incapacidade de Trigon como certeza absoluta.
+- Nos dias seguintes, a rotina continuou com quartos separados, trabalho próprio, refeições conjuntas e beijos sem necessidade de justificativa ritual.
+- Uma encomenda de Corvin trouxe livros e materiais. Um volume fino de capa cinzenta, ainda não catalogado, tratava de viajantes, contratos e referências persistentes entre planos; Ravena o encontrou sozinha e identificou três referências potencialmente úteis. Corvin não havia plantado o livro nem indicado a passagem; depois apenas fez uma brincadeira silenciosa sobre o pacto de neutralidade. O achado não cria automaticamente uma brecha para ajuda deliberada contra Trigon.
+- Quando Ravena se preparava para ir à Torre dos Titãs por compromissos próprios, Corvin a levou ao cofre e mostrou um livro chamado **Casa Blackwood**, guardado na sala fortificada.
+- Na última página do livro estava a assinatura de Corvin. Ele pediu que Ravena escrevesse o nome real dela com Blackwood no final e explicou que isso a tornaria oficialmente, perante a própria Casa, membro reconhecido com liberdade para usar seus poderes dentro do castelo como ele usa os seus.
+- Ravena assinou **Rachel Roth Blackwood**. Essa assinatura é um reconhecimento mágico/dinástico da Casa e não foi estabelecida como casamento civil ou mudança legal de nome.
+- As proteções do Castelo dos Corvos passaram a reconhecer Ravena como membro pleno da Casa em vez de visitante autorizada. Ela testou `Portal [4]` e conseguiu entrar e sair do cofre fortificado sem que as proteções do castelo a bloqueassem.
+- Corvin confirmou que a autorização vale para **todos os cômodos da Casa**, inclusive cofre, biblioteca, laboratório, forja, quarto de Ravena e quarto de Corvin. Isso substitui a antiga limitação que a obrigava a usar apenas o ponto rúnico da sala para Portais internos/entrada e saída pelo castelo.
+- Corvin apresentou ouro, joias e itens menores do depósito como “patrimônio de família” e brincou para que Ravena não o deixasse pobre antes do primeiro aniversário de casamento.
+- Ravena observou que, com as barreiras mágicas deixando de limitar seus deslocamentos dentro da Casa, o acordo de comunicação direta sobre fronteiras pessoais ficou ainda mais importante. Disse que não pretendia aparecer no quarto de Corvin sem avisar; ele respondeu que um aviso desses no meio da noite seria fácil de entender.
+- Ravena partiu para a Torre. O capítulo termina com Corvin sozinho na biblioteca, novamente diante do manual de Ifrid.
