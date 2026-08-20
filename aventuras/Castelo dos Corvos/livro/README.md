@@ -6,6 +6,18 @@ O conteúdo aqui deve conter apenas a versão válida da ficção, sem metacomun
 
 A consolidação literária melhora a forma, mas não altera os fatos ocorridos no jogo.
 
+## Estilo literário obrigatório
+- O capítulo salvo deve ser escrito como **romance adulto**, não como resumo da sessão, relatório de acontecimentos ou sequência técnica de ações.
+- O gênero pede uma narração sensual, emocional e intimista, próxima de um romance erótico adulto, sem precisar transformar toda cena em sexo e sem recorrer a descrição pornográfica explícita.
+- A prosa deve usar interioridade, sensações, atmosfera, silêncio, proximidade física, olhares, voz, cheiro, calor, roupa, postura, pequenos gestos e subtexto quando esses elementos forem pertinentes à cena.
+- Cenas cotidianas — café, pesquisa, cozinhar, trabalhar, caminhar, trocar de roupa, jantar, ouvir música — devem poder carregar intimidade, atração, estranheza, conforto ou tensão entre personagens sem precisar de grandes acontecimentos.
+- Informações técnicas sobre magia, pesquisa, negócios ou mundo devem surgir integradas à experiência dos personagens. Evitar transformar páginas do romance em relatório de laboratório, inventário, explicação de sistema ou resumo administrativo.
+- A narração pode desacelerar nos momentos emocionalmente importantes. Não condensar automaticamente uma cena apenas porque ela não contém combate, descoberta ou decisão de grande escala.
+- Corvin e Ravena devem ser percebidos como homem e mulher adultos além de seus papéis sobrenaturais. A atração pode aparecer por consciência corporal, atenção involuntária, comparação, desejo, desconforto, curiosidade e subtexto, desde que respeite o estágio real da relação.
+- O texto pode ser quase erótico antes de existir intimidade física: a tensão pode estar em um olhar que dura um instante a mais, numa mudança de roupa, na proximidade, na voz, em dividir silêncio ou perceber o outro em situação cotidiana.
+- Não acelerar o romance para justificar o tom. Sensualidade literária não equivale a vínculo romântico confirmado, consentimento presumido ou decisão emocional já tomada.
+- Evitar prosa no padrão repetitivo “X fez isso. Y fez aquilo. Depois aconteceu aquilo”. A ordem causal continua clara, mas deve ser convertida em cena, ritmo, ponto de vista e experiência subjetiva.
+
 ## Regra de protagonismo na versão literária
 - Corvin e Ravena devem ser tratados como protagonistas centrais da obra.
 - Na consolidação em livro, ambos podem ter falas, foco narrativo e pensamentos internos quando isso enriquecer a cena e permanecer coerente com o que foi estabelecido no jogo.
