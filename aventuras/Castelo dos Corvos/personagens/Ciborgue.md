@@ -53,10 +53,12 @@ EQP:
 - Acesso às instalações, oficinas, sistemas e recursos tecnológicos dos Titãs.
 - Equipamentos construídos por Engenhosidade podem se tornar recursos persistentes após serem efetivamente projetados e construídos.
 - Esses recursos preparados devem ser registrados individualmente quando passarem a fazer parte do equipamento recorrente de Victor.
+- **Amostras da liga de Corvin:** quatro pequenas pedras/componentes e uma amostra do metal final, recebidas como presente no Capítulo 9 para análise. Uma das pedras entra em combustão em contato com água; a liga final ainda reage a líquidos, mas de forma muito menos intensa. A identidade exata dos componentes ainda não foi estabelecida.
 
 REL:
 - Titãs: sua principal equipe e um dos vínculos centrais de sua vida.
 - Silas Stone: pai de Victor e figura central em sua transformação em Ciborgue; relação importante e historicamente complicada.
+- Corvin Blackwood: conheceu pessoalmente no Capítulo 9, recebeu material para análise e testemunhou o pacto com Trigon e o noivado de Corvin com Ravena.
 
 ## Personalidade e tendências
 - Inteligente, pragmático e bastante direto.
@@ -69,6 +71,7 @@ REL:
 - Usar sua condição e sua inteligência para proteger os Titãs e melhorar a vida das pessoas.
 - Desenvolver novas tecnologias sem permitir que elas definam toda a sua identidade.
 - Ter uma vida pessoal real fora de missões, oficinas e sistemas.
+- Analisar com segurança as amostras recebidas de Corvin quando houver tempo e infraestrutura adequados.
 
 ## Medos/limites relevantes
 - Perder ainda mais de sua humanidade física ou emocional.
@@ -83,3 +86,4 @@ REL:
 - Com o tempo, tornou-se herói e integrante veterano dos Titãs.
 - Sua experiência fez dele tanto um combatente pesado quanto um dos principais especialistas tecnológicos da equipe.
 - Sua vida amorosa está aberta no início da campanha, sem relacionamento atual previamente definido.
+- No Capítulo 9, conheceu Corvin pessoalmente, analisou superficialmente a liga experimental da forja, recebeu amostras e foi testemunha do noivado de Ravena.
