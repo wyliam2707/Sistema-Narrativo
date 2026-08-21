@@ -110,3 +110,23 @@ Ela serve à continuidade e não substitui os capítulos literários de `livro/`
 - Corvin apresentou ouro, joias e itens menores do depósito como “patrimônio de família” e brincou para que Ravena não o deixasse pobre antes do primeiro aniversário de casamento.
 - Ravena observou que, com as barreiras mágicas deixando de limitar seus deslocamentos dentro da Casa, o acordo de comunicação direta sobre fronteiras pessoais ficou ainda mais importante. Disse que não pretendia aparecer no quarto de Corvin sem avisar; ele respondeu que um aviso desses no meio da noite seria fácil de entender.
 - Ravena partiu para a Torre. O capítulo termina com Corvin sozinho na biblioteca, novamente diante do manual de Ifrid.
+
+## Capítulo 12 — Três Contra o Alvo
+- Na Torre, Ravena participou de reunião e treino comuns. Nenhuma crise de Trigon foi detectada; o pacto permaneceu estável.
+- Victor apresentou análise preliminar das quatro pedras/componentes e da liga de Corvin: certos materiais mudam de comportamento com temperatura/umidade; a pedra avisada reage violentamente com água; a liga final é muito mais estável e distribui a reação. Victor ainda não sabe exatamente o que Corvin fez e quer continuar investigando.
+- Kory confirmou que os brincos solares funcionam depois de carregados ao sol; Victor observou emissão compatível com a absorção tamaraniana.
+- Garfield testou o bracelete em formas de tigre, falcão e cachorro pequeno e manteve fala humana em todas.
+- Ravena confirmou aos Titãs que ela e Corvin já tiveram um beijo romântico real.
+- Ravena contou que assinou o livro **Casa Blackwood** como `Rachel Roth Blackwood`, esclareceu que não houve mudança legal de nome e informou que as proteções do castelo agora reconhecem sua magia em todos os cômodos, inclusive o cofre; os cinco Titãs passaram a saber disso.
+- Ravena voltou diretamente à biblioteca do castelo por Portal, usando o reconhecimento da Casa.
+- Depois de conversar sobre o dia, Corvin anunciou treino ofensivo e levou Ravena a um canto isolado de um plano astral morto.
+- Corvin protegeu Ravena com uma barreira e criou com `Invocação [5]` dois construtos puramente mágicos de treino em escala física extrema, com defesa, deslocamento, regeneração e sensores capazes de pressioná-lo seriamente.
+- Corvin enfrentou os dois construtos sozinho usando sua magia e `Demonologia [5]`, sofreu dano temporário, regenerou-se e encerrou o treino destruindo os núcleos mágicos das invocações.
+- Corvin esclareceu que, numa luta real, poderia colocar as duas invocações **ao lado dele**, resumindo a configuração como “três contra o alvo”.
+- Corvin lembrou Ravena de que ainda possui vínculos e recursos externos adicionais, incluindo os Guardas do Abismo e a possibilidade de Felguard, e disse que por isso ameaças feitas em nome da Casa Blackwood raramente são vazias. Ravena passou a compreender melhor por que Trigon prefere negociar a iniciar uma briga direta.
+- De volta ao castelo, Corvin admitiu que estava se exibindo particularmente para Ravena naquele dia. Os dois se beijaram na cozinha.
+- Nos dois dias seguintes, mantiveram rotina comum. Para Corvin, “rotina” inclui pesquisa ativa e contínua sobre vínculo Ravena–Trigon, manifestação, ancoragem, banimento, retorno planar, uso possível da Casa como referência de recuperação, adaga, Ifrid e outras linhas abertas; não significa espera passiva por Trigon.
+- Corvin pode deixar livros e anotações abertos pela casa enquanto trabalha. Ravena pode ou não perceber e aproveitar algo por iniciativa própria; isso não equivale automaticamente a entrega deliberada de pesquisa contra Trigon.
+- No fim de semana, Corvin convidou Ravena para uma noite simples de dança em Praga. Eles dançaram, beberam, comeram comida de rua e voltaram juntos.
+- Ao fim da noite, Ravena usou “casa” espontaneamente para se referir ao Castelo dos Corvos.
+- Corvin levou os dois por Portal ao corredor entre os quartos, acompanhou Ravena até a porta dela, trocou um último beijo e disse boa-noite. Ravena entrou no próprio quarto; Corvin foi para o dele. O capítulo termina exatamente aí.
