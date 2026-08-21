@@ -11,6 +11,7 @@ CONTROLE: JOGADOR HUMANO
 - Natureza: humano imortal da raça dos Antigos.
 - Vocação: feiticeiro e demonologista.
 - Nascimento revelado em cena: Inverness, Escócia, 1816.
+- Título sobrenatural/institucional: **Duque de Blackwood / Senhor de Blackwood**, reconhecido dentro da tradição e dos acordos do Domínio Blackwood; isso não implica automaticamente título civil humano moderno.
 
 ## Descrição
 - Altura: 1,90 m.
@@ -22,8 +23,8 @@ CONTROLE: JOGADOR HUMANO
 
 ## TRAÇOS
 - Antigo: pertence a uma antiga linhagem humana cujos membros não envelhecem.
-- Imortalidade por idade: não envelhece biologicamente.
-- Afinidade mágica inata: os Antigos possuem percepção e compreensão intuitiva excepcionais de fenômenos mágicos. Em Corvin, essa afinidade se expressa junto de `Sentido Místico [5]`, MEN [5] e seu conhecimento ocultista: ao observar magia ativa, vínculos, assinaturas ou estruturas sobrenaturais acessíveis aos seus sentidos, ele tende a reconhecer rapidamente sua natureza, funcionamento geral e relações evidentes, inclusive conexões mágicas entre entidades quando elas deixam assinatura perceptível.
+- Imortalidade por idade: não envelhece biologicamente, mas pode ser morto.
+- Afinidade mágica inata: os Antigos possuem percepção e compreensão intuitiva excepcionais de fenômenos mágicos. Em Corvin, essa afinidade se expressa junto de `Sentido Místico [5]`, MEN [5] e seu conhecimento ocultista: ao observar magia ativa, vínculos, assinaturas ou estruturas sobrenaturais acessíveis aos seus sentidos, ele tende a reconhecer rapidamente sua natureza, funcionamento geral e relações evidentes.
 - Essa compreensão intuitiva não é onisciência: não revela fatos escondidos que não estejam presentes na manifestação observada, não fornece automaticamente nomes, história ou intenção e não substitui pesquisa quando o fenômeno exige contexto, comparação de fontes ou conhecimento especializado.
 
 ## Personalidade e tendências
@@ -34,36 +35,51 @@ CONTROLE: JOGADOR HUMANO
 - Socialmente contido por padrão, mas paquerador quando sente atração ou encontra motivo para isso.
 - Tem o hábito de se envolver nos problemas dos outros, mesmo que prefira não admitir que se importa.
 - Em assuntos afetivos, prefere comunicação direta a indiretas. No Capítulo 11 explicou a Ravena que passa tempo demais profissionalmente analisando contexto e ambiguidades e que não quer fazer o mesmo para adivinhar fronteiras do relacionamento.
+- Tem gosto antigo por etiqueta, títulos e gestos formais, mas no cotidiano frequentemente os usa com humor. No Capítulo 13 passou a brincar com Ravena chamando-a de “Duquesa” antes do casamento, com reverências rápidas seguidas de beijos.
 
 ## História
 - O interesse de Corvin pelo oculto começou quando encontrou um antigo livro sobre magia.
-- A descoberta despertou uma curiosidade que rapidamente se transformou em estudo sério e contínuo.
-- Ao longo das décadas, passou a viajar pelo mundo procurando, comprando, recuperando e reunindo outros textos raros e perigosos.
+- A descoberta despertou curiosidade que rapidamente se transformou em estudo sério e contínuo.
+- Quando tinha por volta de **20 anos**, Corvin ainda era um jovem mago Antigo viajando pelo mundo, sem posição Blackwood e sem a estrutura que teria depois.
+- **Marta Blackwood**, também uma Antiga e possuidora de percepção mágica excepcional equivalente a `Sentido Místico [5]`, percebeu a natureza de Corvin, reconheceu outro Antigo e o levou para a Casa Blackwood.
+- Marta ensinou a Corvin a tradição da Casa e parte fundamental da demonologia que ele desenvolveria ao longo da vida.
+- Corvin e Marta tornaram-se um casal e depois se casaram. Marta era o último membro vivo da linhagem original Blackwood.
+- Corvin foi reconhecido como sucessor e assumiu como **Senhor/Duque de Blackwood** ainda durante a vida de Marta; quando ela morreu, ele já ocupava a posição havia cerca de seis anos.
+- Marta morreu em combate quando Corvin estava perto dos 30 anos. Essa perda ensinou a ele de forma direta que não envelhecer e ser impossível de matar são coisas diferentes.
+- Marta foi o último grande amor de Corvin antes de Ravena. No Capítulo 13 ele explicou a Ravena que ela não substitui Marta: o que sentiu por Marta pertence a Marta e o que sente por Ravena pertence a Ravena.
+- Corvin não fundou a Casa Blackwood e não conhece necessariamente sua idade real. A Casa é muito mais antiga que ele e sua história pode conter lacunas que o próprio Corvin não sabe preencher.
+- Ao longo das décadas, passou a viajar pelo mundo e por outros contextos sobrenaturais procurando, comprando, recuperando e reunindo textos raros e perigosos.
 - Sua coleção e seus estudos se expandiram para magia em geral, demonologia, runas, forja, encantamento e outros ramos do conhecimento arcano.
 - O acúmulo de livros, artefatos e conhecimento transformou a pesquisa do sobrenatural em uma das linhas centrais de sua vida.
-- Ao longo dos anos acumulou uma riqueza confortável, mas não extraordinária, com parte relevante de seu patrimônio concentrada em pedras e minerais de valor.
-- É proprietário e residente do Castelo dos Corvos, sua grande propriedade isolada nas montanhas.
-- **Reputação demonológica:** décadas de atuação, invocação e negociação fizeram o nome Blackwood circular entre parte dos demônios, invocadores e círculos ocultos. Alguns reconhecem Corvin como demonologista perigoso, especialista e negociador experiente; esse reconhecimento não é universal e não concede a essas criaturas conhecimento automático sobre sua vida, planos ou capacidades específicas.
+- Ao longo dos anos acumulou riqueza confortável, com parte relevante do patrimônio em pedras e minerais de valor.
+- É residente do Castelo dos Corvos, principal base atual da Casa Blackwood.
+- **Reputação demonológica:** décadas de atuação, invocação e negociação fizeram o nome Blackwood circular entre parte dos demônios, invocadores, cortes e círculos ocultos. Alguns reconhecem Corvin como demonologista perigoso, especialista, comerciante e negociador experiente; esse reconhecimento não é universal.
+- **Comércio Blackwood:** a Casa quase não opera comercialmente na Terra. O mundo humano funciona principalmente como base, fonte ocasional de materiais e ponto de aquisição conveniente; boa parte dos negócios de Corvin é sobrenatural ou extraplanar.
 - No Capítulo 9, apresentou-se pessoalmente aos Titãs como mago, estudioso de demonologia sem culto, explorador/pesquisador e comerciante de objetos, livros, informação e acessos não convencionais.
 - No mesmo capítulo, firmou com Trigon um pacto demonológico de neutralidade limitada por aperto de mão e, depois, pediu Rachel Roth/Ravena em casamento diante dos Titãs. Ravena aceitou.
 - No Capítulo 10, explicou aos Titãs e a Ravena que o pacto/noivado foram improvisados a partir de uma sequência de oportunidades, limpou qualquer resíduo funcional detectável da chamada anterior de Trigon e, na manhã seguinte, teve com Ravena o primeiro beijo romântico real entre os dois. Ravena tomou a iniciativa e conduziu o beijo; Corvin depois beijou a testa dela.
 - No Capítulo 11, disse diretamente a Ravena que gosta dela e revelou que a última vez em que gostou de alguém “de verdade” havia sido há mais de 180 anos. Os dois combinaram comunicação explícita sobre passos para frente ou para trás no relacionamento.
 - Ainda no Capítulo 11, registrou Ravena no livro mágico/dinástico **Casa Blackwood**. Ela assinou `Rachel Roth Blackwood`, e as proteções do castelo passaram a reconhecê-la como membro pleno para uso de poderes e deslocamento dentro da propriedade.
-- No Capítulo 12, levou Ravena a um plano astral morto para assistir a um treino ofensivo real. Criou com `Invocação [5]` dois construtos puramente mágicos de escala física extrema, enfrentou os dois simultaneamente e depois explicou que, numa luta real, poderia colocá-los ao lado dele — “três contra o alvo” — além de ainda possuir vínculos externos que podem ser mobilizados.
-- Ainda no Capítulo 12, Corvin e Ravena passaram dois dias de rotina doméstica e pesquisa e depois tiveram uma noite simples de dança em Praga. Ao voltar, acompanharam-se até o corredor entre os quartos e mantiveram a rotina de dormir separados.
+- No Capítulo 12, levou Ravena a um plano astral morto para assistir a um treino ofensivo real. Criou com `Invocação [5]` dois construtos puramente mágicos de escala física extrema, enfrentou os dois simultaneamente e depois explicou que, numa luta real, poderia colocá-los ao lado dele — “três contra o alvo” — além de vínculos externos mobilizáveis.
+- Ainda no Capítulo 12, Corvin e Ravena passaram dois dias de rotina doméstica e pesquisa e depois tiveram uma noite simples de dança em Praga. Ao voltar, mantiveram a rotina de quartos separados.
+- No Capítulo 13, Corvin concluiu uma entrega comercial de dois frascos especiais e doze comuns de tinta de escorpião. Exigiu consentimento do cambion sob selo da verdade antes da entrega e incluiu na variante especial uma contingência secreta de neutralização conhecida apenas por ele.
+- No mesmo capítulo, revelou a Ravena a dimensão institucional da Casa: `Rachel Roth Blackwood` já é **Senhora Blackwood / Senhora da Casa**, e após casamento será **Duquesa de Blackwood** dentro da tradição sobrenatural. Corvin mostrou a ela o grande livro administrativo `BLACKWOOD` e permitiu que estudasse a história e a estrutura da Casa por conta própria.
+- Ainda no Capítulo 13, contou a Ravena a história de Marta e a própria entrada na Casa Blackwood.
+- Na quarta-feira seguinte, aceitou que Ravena escolhesse e conduzisse um segundo encontro de dança. No retorno, Ravena o convidou para entrar no quarto dela, conduziu explicitamente o avanço de intimidade e pediu que ele ficasse. Os dois tiveram sua primeira noite íntima e dormiram juntos pela primeira vez.
+- Na manhã seguinte, Corvin perdeu a corrida habitual porque permaneceu com Ravena. Depois retornou ao próprio quarto por Portal para se vestir e desceu para preparar café.
 
 ## Desejos e objetivos atuais
 - Mantém forte motivação de descoberta: encontrar algo que ainda não conhece e incorporá-lo aos próprios estudos.
-- Continua pesquisando Trigon, manifestação, ancoragem e possíveis assimetrias para seus próprios fins, agora respeitando um pacto de neutralidade limitada.
+- Continua pesquisando Trigon, manifestação, ancoragem e possíveis assimetrias para seus próprios fins, respeitando o pacto de neutralidade limitada.
 - **Contingência anti-manifestação:** quer descobrir como usar a adaga de banimento ou outro meio para cortar/romper um vínculo, expulsar uma manifestação de volta ao plano de origem e impedir que uma vantagem temporária do pacto seja sua única defesa.
 - **Recuperação de Ravena:** pesquisa se o reconhecimento de Ravena pela Casa Blackwood pode servir como referência/âncora para puxá-la de volta caso ela seja deslocada, arrastada ou aprisionada sobrenaturalmente em outro plano. Isso permanece hipótese de pesquisa, não capacidade confirmada.
-- Continua a forja da adaga de banimento; no Capítulo 11 descreveu a peça como quase pronta, embora ainda incompleta e sem teste final.
+- Continua a forja da adaga de banimento; a peça segue quase pronta, incompleta e sem teste final.
 - Continua traduzindo os livros de Ifrid com auxílio do tratado linguístico raro.
-- O noivado com Ravena é vínculo real e voluntário; o futuro da relação continua aberto às escolhas dos dois.
+- O noivado com Ravena é vínculo real e voluntário; a intimidade avançou no Capítulo 13, mas o futuro da relação continua aberto às escolhas dos dois.
 
 ## Medos e limites relevantes
 - Nenhum medo, fraqueza pessoal ou limite moral específico foi estabelecido como definidor do personagem neste estágio.
-- No relacionamento com Ravena, Corvin estabeleceu para si a regra de não cruzar fronteiras de intimidade por presunção. Prefere que mudanças de limite sejam ditas diretamente por qualquer um dos dois.
+- No relacionamento com Ravena, Corvin mantém a regra de não cruzar fronteiras de intimidade por presunção. No Capítulo 13 deixou Ravena conduzir explicitamente o avanço e permaneceu quando ela pediu.
 
 ## ATRIBUTOS
 ATR: FOR [1] | AGI [0] | RES [2] | MEN [5] | VON [4]
@@ -121,15 +137,18 @@ Demonologia [5] é uma especialização de PODER, não uma perícia. Dentro do c
 ## EQP
 - Patrimônio confortável, sem escala financeira absurda.
 - Parte relevante da riqueza está concentrada em pedras e minerais de valor.
-- Castelo dos Corvos: grande residência isolada e principal base de Corvin.
+- Castelo dos Corvos: grande residência isolada e principal base atual da Casa Blackwood.
+- **Domínio Blackwood:** o castelo e as terras vinculadas a ele possuem reconhecimento sobrenatural como domínio da Casa por uma rede antiga de tratados, pactos, hospitalidade e direitos. Isso não é equivalente a país humano moderno.
 - Forja própria no Castelo dos Corvos.
 - Laboratório de alquimia.
 - Biblioteca particular de grande porte, com extensa coleção de livros e textos arcanos.
 - Livro mágico/dinástico **Casa Blackwood**, guardado no cofre fortificado; registra membros reconhecidos perante as proteções da Casa. No Capítulo 11, Ravena assinou `Rachel Roth Blackwood` abaixo da assinatura de Corvin.
+- Grande livro administrativo/histórico `BLACKWOOD`, compilado há cerca de duzentos anos e contendo referências/cópias muito mais antigas sobre domínio, títulos, contratos, conselhos, comércio e genealogia.
 - Roupa de combate com runas de proteção: proteção física equivalente a RES [3] e proteção contra magia equivalente a [4]. Corvin a utiliza apenas quando considera necessário.
 
 ## REL
-- **Ravena / Rachel Roth:** noiva de Corvin desde o Capítulo 9. Corvin pediu Rachel em casamento diante de Dick, Victor, Kory, Donna e Garfield, deixando explícito que não exigia amor, residência permanente ou permanência contra a vontade dela. Ravena aceitou casar-se e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. No Capítulo 10 ocorreu o primeiro beijo romântico real entre os dois, iniciado e conduzido por Ravena. No Capítulo 11 ambos disseram diretamente que gostam um do outro; Ravena afirmou que quer continuar com ele, continuar beijando-o e descobrir no que a relação vai se transformar. No Capítulo 12 passaram por rotina doméstica mais natural e tiveram uma noite simples de dança em Praga. Ravena chamou o castelo de “casa” espontaneamente ao fim da noite. Os dois mantêm comunicação direta sobre limites e continuam dormindo em quartos separados.
-- **Casa Blackwood ↔ Ravena:** Ravena é membro reconhecido da Casa por consentimento bilateral contínuo para efeito do pacto com Trigon. Além disso, desde o Capítulo 11 está registrada no livro **Casa Blackwood** como `Rachel Roth Blackwood`, o que faz as proteções do castelo reconhecerem sua magia e permitirem uso de poderes/Portal em todos os cômodos, inclusive o cofre. Isso não foi estabelecido como casamento civil ou mudança legal de nome.
-- **Trigon:** pacto formal de neutralidade limitada selado por aperto de mão no Capítulo 9. Enquanto Ravena permanecer membro reconhecido da Casa Blackwood, Trigon fica submetido às restrições específicas acordadas sobre o vínculo com ela; Corvin, em troca, mantém neutralidade conforme os termos pronunciados, sem obrigação de impedir ações independentes de Ravena e preservando pesquisa própria e preparação de contingências próprias.
-- **Titãs:** Dick, Victor, Kory, Donna e Garfield conheceram Corvin pessoalmente no Capítulo 9, visitaram áreas relevantes do castelo, receberam presentes e testemunharam tanto o pacto com Trigon quanto o noivado. No Capítulo 12, Ravena contou a eles que assinou `Rachel Roth Blackwood`, que o castelo a reconhece em todos os cômodos e que ela e Corvin já se beijaram romanticamente.
+- **Ravena / Rachel Roth:** noiva de Corvin desde o Capítulo 9. Corvin pediu Rachel em casamento diante de Dick, Victor, Kory, Donna e Garfield, deixando explícito que não exigia amor, residência permanente ou permanência contra a vontade dela. Ravena aceitou casar-se e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. No Capítulo 10 ocorreu o primeiro beijo romântico real entre os dois, iniciado e conduzido por Ravena. No Capítulo 11 ambos disseram diretamente que gostam um do outro e combinaram comunicação direta sobre limites. No Capítulo 12 tiveram uma noite simples de dança em Praga. No Capítulo 13, após um segundo encontro escolhido por Ravena, ela abriu a porta do próprio quarto, convidou Corvin a entrar, declarou explicitamente que queria que ele continuasse e pediu que ficasse. Os dois tiveram a primeira noite íntima e dormiram juntos pela primeira vez. Continuam noivos, não casados; não foi estabelecida mudança permanente de quarto.
+- **Casa Blackwood ↔ Ravena:** Ravena é membro reconhecido da Casa por consentimento bilateral contínuo para efeito do pacto e está registrada como `Rachel Roth Blackwood`. No Capítulo 13 passou a atuar também como **Senhora Blackwood / Senhora da Casa**, com autoridade administrativa ordinária; após o casamento, será **Duquesa de Blackwood** dentro da tradição sobrenatural.
+- **Marta Blackwood:** primeira grande relação amorosa de Corvin, Antiga, última da linhagem original, pessoa que o trouxe para a Casa e parte central de sua formação demonológica. Foi esposa de Corvin e morreu em combate quando ele estava perto dos 30. Marta não é modelo/substituta de Ravena; Corvin separa explicitamente as duas relações.
+- **Trigon:** pacto formal de neutralidade limitada selado por aperto de mão no Capítulo 9. Enquanto Ravena permanecer membro reconhecido da Casa Blackwood, Trigon fica submetido às restrições específicas acordadas sobre o vínculo com ela; Corvin, em troca, mantém neutralidade conforme os termos pronunciados, sem obrigação de impedir ações independentes de Ravena e preservando pesquisa própria e preparação de contingências.
+- **Titãs:** Dick, Victor, Kory, Donna e Garfield conheceram Corvin pessoalmente no Capítulo 9. No Capítulo 13 Ravena contou a eles sobre o Ducado/Domínio Blackwood, a antiguidade mínima documentada da Casa e sua futura posição de Duquesa; Dick iniciou investigação histórica independente sobre a Casa.
