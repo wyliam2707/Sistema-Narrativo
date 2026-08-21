@@ -187,7 +187,7 @@ Se uma Proteção Mágica terminou, ela simplesmente deixa de aparecer em Efeito
 
 STATUS não guarda histórico.
 
-Fatos antigos pertencem à cronologia, à progressão ou à história consolidada quando continuarem relevantes por outros motivos.
+O que aconteceu permanece no Livro. Se um fato passado continua causalmente vivo, pertence à Progressão; se alterou de forma estável o personagem, pode ser consolidado na ficha.
 
 ## Autoridade sobre o STATUS
 
