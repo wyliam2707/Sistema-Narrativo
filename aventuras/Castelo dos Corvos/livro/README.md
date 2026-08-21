@@ -45,3 +45,4 @@ A consolidação literária melhora a forma, mas não altera os fatos ocorridos 
 - [Capítulo 9 — Membro da Casa](capitulo-09-membro-da-casa.md)
 - [Capítulo 10 — Protocolo Corrigido](capitulo-10-protocolo-corrigido.md)
 - [Capítulo 11 — Sem Indiretas](capitulo-11-sem-indiretas.md)
+- [Capítulo 12 — Três Contra o Alvo](capitulo-12-tres-contra-o-alvo.md)
