@@ -1,77 +1,179 @@
 # Escalas de Capacidade
 
-Status: EM REVISÃO
+Status: APROVADO
 
-Este arquivo consolida as escalas numéricas usadas na definição de personagens.
+Este arquivo define as escalas numéricas usadas na construção de personagens.
 
-## Escala universal de atributos e poderes — 0 a 5
+As três escalas do sistema respondem a perguntas diferentes:
 
-A mesma escala conceitual é usada para atributos e poderes.
+```text
+ATRIBUTO → qual capacidade o personagem possui?
+PERÍCIA  → quão eficazmente ele atua dentro de um campo aprendido?
+PODER    → qual capacidade extraordinária ele possui e em que escala?
+```
+
+Atributos e perícias não são somados automaticamente. Cada um descreve uma dimensão diferente do personagem.
+
+---
+
+## 1. Escala de atributos — [0] a [5]
+
+Atributos usam a seguinte escala:
 
 | Grau | Referência narrativa |
 |---|---|
-| **0** | Humano |
-| **1** | Além do humano |
-| **2** | Super-humano claro |
-| **3** | Poderoso |
-| **4** | Extremo |
-| **5** | Ápice daquela capacidade |
+| **[0]** | Patamar humano |
+| **[1]** | Além do humano |
+| **[2]** | Super-humano |
+| **[3]** | Poderoso |
+| **[4]** | Extremo |
+| **[5]** | Ápice daquela capacidade |
 
-O grau não é uma medida física exata.
+`[0]` representa todo o patamar humano natural daquela capacidade, não apenas uma pessoa humana média.
 
-Não existe obrigação de converter, por exemplo, `FOR [3]` em toneladas ou `Sentidos [4]` em uma distância fixa.
+Diferenças importantes entre humanos continuam existindo dentro de `[0]`, por meio de perícias, conceito, treinamento, experiência, circunstância e outras características pertinentes.
 
-O número informa o grau de excepcionalidade daquela capacidade dentro de sua própria categoria.
+O atributo passa para `[1]` quando a própria capacidade ultrapassa de forma real o patamar humano.
 
-Exemplos herdados da regra antiga:
+O grau não é uma medida física exata. Não existe obrigação de converter capacidades em toneladas, quilômetros por hora ou outra unidade rígida.
 
-- `FOR [5]` = força em patamar extremo de referência, como Superman/Hulk;
-- `Cura [5]` = cura em patamar igualmente extremo, se o conceito do poder permitir;
-- `Sentidos Ampliados [5]` = percepção em escala extrema;
-- `Portal [5]` = capacidade de portais em escala extrema.
+> **O grau informa em que patamar daquela capacidade o personagem opera.**
+
+`[5]` representa o ápice da escala e deve ser tratado narrativamente como tal.
 
 > **5 sempre precisa parecer 5.**
 
-Duas capacidades no mesmo grau não fazem a mesma coisa. Elas apenas ocupam posição semelhante de excepcionalidade dentro das próprias categorias.
+---
 
-## Escala de perícias — +0 a +5
+## 2. Natureza não é grau
 
-Perícias usam uma escala própria:
+Natureza e grau são informações diferentes.
+
+`Humano`, `Vampiro`, `Demônio` ou outro modelo descreve o que o personagem é.
+
+`[0]`, `[1]`, `[2]`, `[3]`, `[4]` ou `[5]` descreve o patamar de uma capacidade.
+
+Por isso, um modelo humano pode possuir capacidades acima de `[0]` quando a própria ficção justificar isso.
+
+---
+
+## 3. Escala de perícias — [+0] a [+5]
+
+Perícias representam conhecimento adquirido, treinamento, experiência e domínio prático dentro de um campo.
 
 | Grau | Referência |
 |---|---|
-| **[+0]** | leigo / sem conhecimento ou treinamento relevante |
-| **[+1]** | básico / treinado |
+| **[+0]** | cotidiano / conhecimento comum plausível |
+| **[+1]** | treinado / formação inicial ou prática real |
 | **[+2]** | profissional |
 | **[+3]** | especialista |
 | **[+4]** | mestre |
 | **[+5]** | ápice daquela área |
 
-O sinal `+` diferencia visualmente perícias das capacidades graduadas na escala universal.
+Toda perícia não registrada na ficha é considerada implicitamente `[+0]` quando precisar ser avaliada.
 
-Uma perícia não listada é normalmente tratada como `[+0]` quando for necessário avaliar aquele campo.
+`[+0]` não significa ausência absoluta de conhecimento. Representa aquilo que uma pessoa comum daquele cenário poderia plausivelmente saber, reconhecer ou improvisar sem treinamento especializado.
 
-## Zero é um valor real
+Exemplo: `Medicina [+0]` pode permitir cuidados cotidianos, um curativo simples ou uma tentativa básica de conter sangramento, mas não concede diagnóstico avançado, cirurgia ou conhecimento técnico especializado.
 
-Durante criação ou revisão, um campo ainda desconhecido deve ficar em branco.
+Da mesma forma, `[+0]` não autoriza uma versão simples de qualquer tarefa especializada. Uma pessoa comum não pilota um caça, realiza uma cirurgia ou executa um ritual complexo apenas porque aquela perícia existe implicitamente em `[+0]`.
 
-> **Nunca usar `[0]` ou `[+0]` como marcador de informação ainda não definida.**
+O sinal `+` diferencia visualmente perícias das demais capacidades graduadas.
 
-`[0]` e `[+0]` possuem significado mecânico próprio.
+---
 
-## Calibração conservadora
+## 4. Relação entre atributo e perícia
 
-Quando houver dúvida real entre dois graus adjacentes durante a conversão de uma capacidade, usar o menor.
+O atributo descreve a capacidade disponível.
+
+A perícia descreve a eficácia adquirida para empregar essa capacidade dentro de um campo específico.
+
+> **Atributo não fornece repertório. Perícia não cria capacidade.**
 
 Exemplos:
 
 ```text
-dúvida entre [2] e [3] → [2]
-dúvida entre [3] e [4] → [3]
+CORPO [5]
+Luta [+1]
 ```
 
-A mesma lógica vale para atributos, perícias, poderes e especializações quando aplicável.
+Representa potência física extrema com técnica de combate apenas básica.
 
-`[5]` permanece reservado ao verdadeiro ápice da categoria.
+```text
+CORPO [0]
+Luta [+5]
+```
 
-A regra completa de conversão está em `calibracao.md`.
+Representa corpo humano com domínio marcial extremo.
+
+Da mesma forma:
+
+```text
+MENTE [5]
+Engenharia [+0]
+```
+
+representa uma mente de capacidade extraordinária, capaz de compreender, analisar e aprender muito rapidamente, mas sem possuir automaticamente conhecimento avançado de engenharia.
+
+```text
+MENTE [5]
+Engenharia [+5]
+```
+
+combina capacidade cognitiva extrema com domínio extremo daquele campo.
+
+Atributo e perícia não são somados automaticamente.
+
+---
+
+## 5. Escala de poderes — [1] a [5]
+
+Poderes representam capacidades extraordinárias que não pertencem naturalmente ao patamar humano comum.
+
+Por isso, poderes usam apenas:
+
+```text
+[1] [2] [3] [4] [5]
+```
+
+> **Poder [0] não existe.**
+
+Se o personagem não possui determinada capacidade extraordinária, o poder simplesmente não aparece na ficha.
+
+`Teleporte [0]`, `Telecinese [0]`, `Invisibilidade [0]` ou equivalentes são registros inválidos.
+
+O grau do poder descreve sua potência ou escala dentro do conceito daquela capacidade.
+
+| Grau | Referência narrativa |
+|---|---|
+| **[1]** | primeiro patamar realmente extraordinário |
+| **[2]** | super-humano significativo |
+| **[3]** | poderoso |
+| **[4]** | extremo |
+| **[5]** | ápice daquela capacidade |
+
+O grau de um poder não representa automaticamente técnica, conhecimento ou controle refinado sobre ele. Essas dimensões dependem da ficha, das perícias, dos atributos e da natureza concreta da ação.
+
+Duas capacidades no mesmo grau não fazem a mesma coisa. Elas apenas operam em patamares equivalentes dentro das próprias categorias.
+
+---
+
+## 6. Zero é um valor real
+
+Durante criação ou revisão, um campo ainda desconhecido deve permanecer em branco.
+
+> **Nunca usar `[0]` ou `[+0]` como marcador de informação ainda não definida.**
+
+`[0]` é um valor real de atributo.
+
+`[+0]` é um valor real de perícia.
+
+Poderes não possuem grau `[0]`.
+
+---
+
+## 7. Calibração
+
+Este arquivo define o significado das escalas.
+
+As regras para escolher qual grau uma capacidade recebe durante criação ou conversão pertencem a `calibracao.md`.
