@@ -119,23 +119,25 @@ Cada personagem continua sendo avaliado isoladamente conforme `calibracao.md`.
 
 ## Organização dos arquivos na campanha
 
-Personagens jogáveis persistentes ficam normalmente em:
+Na preparação inicial da campanha, o JOGADOR HUMANO cria apenas a área dos personagens jogáveis:
 
 ```text
 personagens/
 ```
 
-Isso inclui personagens sob `JOGADOR HUMANO` e `JOGADOR IA`.
+Nela ficam os personagens sob `JOGADOR HUMANO` e `JOGADOR IA`.
 
-NPCs pertencem ao mundo administrado pelo NARRADOR.
+NPCs pertencem ao mundo administrado pelo NARRADOR e **não precisam ser preparados pelo jogador**.
 
 Um NPC simples pode existir apenas durante a cena e não precisa receber arquivo persistente.
 
-Quando um NPC acumular informação que precise sobreviver entre cenas — capacidades, relações, desavenças, objetivos, conhecimento, pactos, recursos, obrigações ou outros ganchos relevantes — sua ficha pode ser registrada no mundo da campanha, normalmente em:
+Quando um NPC acumular informação que precise sobreviver entre cenas — capacidades, relações, desavenças, objetivos, conhecimento, pactos, recursos, obrigações ou outros ganchos relevantes — cabe ao **NARRADOR** criar e manter sua ficha no mundo da campanha, normalmente em:
 
 ```text
 mundo/npcs/
 ```
+
+A pasta `mundo/npcs/` não precisa existir no início da campanha. O NARRADOR pode criá-la somente quando surgir o primeiro NPC que realmente exija persistência própria.
 
 Ter arquivo persistente não altera automaticamente a Importância nem o `CONTROLE` do personagem.
 
