@@ -46,3 +46,4 @@ A consolidação literária melhora a forma, mas não altera os fatos ocorridos 
 - [Capítulo 10 — Protocolo Corrigido](capitulo-10-protocolo-corrigido.md)
 - [Capítulo 11 — Sem Indiretas](capitulo-11-sem-indiretas.md)
 - [Capítulo 12 — Três Contra o Alvo](capitulo-12-tres-contra-o-alvo.md)
+- [Capítulo 13 — Senhora da Casa](capitulo-13-senhora-da-casa.md)
