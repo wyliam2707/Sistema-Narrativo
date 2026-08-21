@@ -14,58 +14,58 @@ Status: EM JOGO
 - `../livro/capitulo-09-membro-da-casa.md` — **Capítulo 9 — Membro da Casa**.
 - `../livro/capitulo-10-protocolo-corrigido.md` — **Capítulo 10 — Protocolo Corrigido**.
 - `../livro/capitulo-11-sem-indiretas.md` — **Capítulo 11 — Sem Indiretas**.
+- `../livro/capitulo-12-tres-contra-o-alvo.md` — **Capítulo 12 — Três Contra o Alvo**.
 
 ## STATUS
 ### Corvin Blackwood
 - Vida: Ileso.
-- Energia: normal.
+- Energia: normal após recuperação do treino e da noite fora.
 - Condições: nenhuma relevante.
-- Efeitos ativos: `Sentido Místico [5]` permanece ativo por padrão; pacto demonológico com Trigon ativo enquanto Ravena permanecer membro reconhecido da Casa Blackwood.
-- Localização: Castelo dos Corvos, biblioteca.
-- Situação imediata: Ravena acabou de partir para a Torre dos Titãs. Corvin voltou sozinho ao manual/livros de Ifrid. Nenhuma nova descoberta de tradução foi resolvida depois da partida dela.
+- Efeitos ativos: `Sentido Místico [5]` permanece ativo por padrão; pacto demonológico com Trigon ativo enquanto Ravena permanecer membro reconhecido da Casa Blackwood por consentimento bilateral real.
+- Localização: próprio quarto no Castelo dos Corvos.
+- Situação imediata: voltou de uma noite dançando com Ravena em Praga, acompanhou-a até a porta do quarto dela, disse boa-noite e foi para o próprio quarto. Nenhuma nova ação depois disso foi resolvida.
 
 ### Ravena / Rachel Roth
 - Vida: Ilesa.
 - Energia: normal.
 - Condições: nenhuma relevante.
 - Efeitos ativos: membro reconhecido da Casa Blackwood por consentimento bilateral contínuo para efeito do pacto; usa o anel de viajante planar; registrada magicamente no livro **Casa Blackwood** como `Rachel Roth Blackwood`; as proteções do castelo a reconhecem como membro para uso de poderes/Portal em todos os cômodos.
-- Localização: Torre dos Titãs, após sair do castelo para compromissos próprios.
-- Situação imediata: fora do castelo por escolha própria; não retirou consentimento de pertencer à Casa e o pacto continua ativo.
+- Localização: próprio quarto no Castelo dos Corvos.
+- Situação imediata: terminou a noite de dança com Corvin, beijou-o na despedida e entrou no próprio quarto. Os dois continuam dormindo em quartos separados.
 
 ### Titãs
-- Dick Grayson / Nightwing: fora do Castelo dos Corvos; vida própria/compromissos ativos.
-- Victor Stone / Ciborgue: fora do castelo; mantém quatro componentes e uma amostra da liga final para análise.
-- Kory / Estelar: encerrou a estadia e deixou o castelo.
-- Donna Troy: encerrou a estadia e deixou o castelo.
-- Garfield Logan / Mutano: encerrou a estadia e deixou o castelo.
-- Ravena foi chamada à Torre para reunião, pendências e provável treino; nenhum perigo apocalíptico foi estabelecido nessa chamada.
+- Dick, Victor, Kory, Donna e Garfield estão fora do castelo, mantendo rotina e compromissos próprios.
+- Victor continua analisando quatro componentes e a amostra da liga final dada por Corvin.
+- Kory mantém os brincos solares; Garfield mantém o bracelete metamorfo; os testes iniciais foram positivos conforme descrito abaixo.
 
-## Ponto operacional atual — fim do Capítulo 11
-- Alguns dias se passaram desde o primeiro beijo e o fim do Capítulo 10.
-- Corvin e Ravena continuam noivos e dormindo em quartos separados.
-- Ambos já disseram diretamente que gostam um do outro; Ravena disse a Corvin que quer continuar com ele, continuar beijando-o e descobrir no que a relação vai se transformar.
-- Os dois combinaram comunicação direta sobre fronteiras: parar, recuar, aproximar-se mais ou precisar de distância deve ser dito de modo claro, sem exigir leitura de indiretas.
-- Corvin passou um dia relevante na forja. A adaga de banimento está **quase pronta, bem quase mesmo**, mas ainda incompleta e sem teste final.
-- Ravena encontrou por iniciativa própria um livro cinzento ainda não catalogado entre encomendas de Corvin. O volume contém relatos sobre viajantes, contratos e referências persistentes entre planos e cita três textos potencialmente úteis. Corvin não plantou o livro nem indicou a passagem; o achado não é automaticamente ajuda deliberada contra Trigon.
-- Antes de Ravena sair para a Torre, Corvin a levou ao cofre fortificado e mostrou o livro mágico/dinástico **Casa Blackwood**.
-- Ravena assinou `Rachel Roth Blackwood`. A assinatura faz a própria Casa reconhecê-la magicamente como membro; não foi estabelecida como casamento civil ou mudança legal de nome.
-- Ravena testou `Portal [4]` e entrou/saiu do cofre sem ser bloqueada pelas proteções.
-- Corvin confirmou que o reconhecimento vale para **todos os cômodos da Casa**, inclusive biblioteca, laboratório, forja, cofre, quarto de Ravena e quarto de Corvin.
-- A antiga limitação que obrigava Ravena a usar apenas o ponto rúnico autorizado da sala para Portal foi superada pelo reconhecimento da Casa para ela. Visitantes e outras pessoas continuam sujeitos às proteções normais.
-- Corvin apresentou ouro, joias e itens menores do depósito como patrimônio de família e brincou para que Ravena não o deixasse pobre antes do primeiro aniversário de casamento.
-- Ravena observou que, como as barreiras mágicas não restringem mais seu acesso aos cômodos, o acordo pessoal de comunicação direta sobre fronteiras fica ainda mais importante.
-- Ravena abriu Portal e partiu para a Torre. Corvin voltou ao livro de Ifrid.
-- **A continuação deve partir exatamente daí. Não avançar automaticamente a pesquisa, a missão/reunião dos Titãs, a adaga ou o retorno de Ravena.**
+## Ponto operacional atual — fim do Capítulo 12
+- Ravena passou um dia na Torre dos Titãs depois do fim do Capítulo 11 e voltou diretamente à biblioteca usando o reconhecimento mágico da Casa.
+- Corvin e Ravena continuam noivos, com afeto recíproco, beijos recorrentes e acordo de comunicação direta sobre limites.
+- Continuam dormindo em quartos separados.
+- Corvin mostrou a Ravena um treino ofensivo real num canto isolado de um plano astral morto.
+- Para o treino, Corvin criou com `Invocação [5]` dois construtos puramente mágicos de escala física extrema, comparável a Superman, com capacidades de defesa, deslocamento, regeneração e leitura de ataques adequadas a um treino de alto nível.
+- Corvin enfrentou os dois construtos sozinho para manter a própria capacidade afiada e depois esclareceu que, numa luta real, poderia colocá-los **ao lado dele**, formando “três contra o alvo”.
+- Corvin também lembrou Ravena de que ainda possui vínculos e recursos externos, incluindo os Guardas do Abismo e a possível substituição por um Felguard. Ravena agora entende melhor por que a expressão “Casa Blackwood” pode representar mais do que Corvin sozinho.
+- O treino terminou sem ferimento duradouro. Corvin ficou exausto, regenerou o dano e voltou ao castelo com Ravena.
+- Nos dois dias seguintes houve rotina comum: corrida, refeições, pesquisa, trabalho, forja, convivência, contato de Ravena com a própria vida e noites no solar.
+- “Rotina de Corvin” deve ser interpretada como trabalho ativo contínuo, não ociosidade: pesquisa sobre vínculo Ravena–Trigon, manifestação, ancoragem, banimento, retorno planar, formas de expulsar uma manifestação e possibilidade de usar a ligação de Ravena com a Casa como referência/âncora de recuperação, além de adaga, Ifrid, negócios e demais linhas correntes.
+- Essa pesquisa não produz automaticamente descoberta diária. Pode gerar hipóteses, testes, referências, páginas marcadas, livros abertos e avanços pequenos ou nulos.
+- Corvin pode deixar livros, anotações ou diagramas abertos pela casa porque pretende voltar a eles. Ravena pode ou não perceber e usar algo por iniciativa própria. O narrador não deve transformar todo material deixado à vista em pista conveniente.
+- Pela neutralidade do pacto, há diferença entre Corvin deixar casualmente material de sua própria pesquisa aberto e selecionar deliberadamente conteúdo para entregar a Ravena com finalidade específica contra Trigon.
+- No fim de semana, Corvin convidou Ravena para dançar em Praga. Foi uma noite simples em uma boate, seguida de comida de rua e retorno ao castelo.
+- Ravena chamou o Castelo dos Corvos de “casa” espontaneamente ao final da noite.
+- O capítulo terminou depois de Corvin acompanhá-la até a porta do quarto; ambos disseram boa-noite e seguiram para quartos separados.
 
-## Continuidade relacional consolidada do Capítulo 11
-- Depois do primeiro beijo do capítulo anterior, Corvin foi para a forja para se afastar e não cruzar limites por conta própria.
-- Ravena o seguiu. Corvin explicou seu limite; Ravena respondeu que valorizava o limite, mas havia diferença entre ele decidir por ela e ela própria abrir a porta. Ela deu abertura explícita e os dois se beijaram novamente.
-- No almoço e no jantar, a convivência foi comum/doméstica. Houve beijo casual durante a louça, trabalho separado e rotina sem emergência.
-- No solar, Corvin disse que gosta de Ravena e revelou que não gostava de alguém “de verdade” havia mais de 180 anos.
-- Ravena respondeu diretamente que gosta de Corvin, quer continuar ali por querer estar com ele, quer continuar beijando-o e descobrir no que a relação vai se transformar. Disse que o noivado não foi aceito apenas por causa do pacto.
-- Eles combinaram um sistema simples: quando um quiser avançar, parar ou recuar, diz. Se houver dúvida, pergunta.
-- Ravena se deitou ao lado de Corvin no solar; ficaram de mãos dadas olhando as estrelas e depois foram para quartos separados.
-- Corvin e Ravena discutiram afastamento futuro: sair do castelo, mudar de residência, estar irritada ou dizer que não pretende voltar não precisa significar retirar o consentimento de pertencer à Casa. Isso só vale se o pertencimento continuar sendo vontade real dela e Corvin mantiver o próprio consentimento; não é truque verbal contra o pacto.
+## Capítulo 12 — conhecimento adquirido pelos Titãs
+- Ravena contou aos cinco Titãs que ela e Corvin já tiveram um beijo romântico real.
+- Ravena contou que assinou o registro mágico **Casa Blackwood** como `Rachel Roth Blackwood`.
+- Ela esclareceu que isso não foi mudança legal de nome.
+- Os Titãs sabem agora que as proteções do castelo a reconhecem como membro em todos os cômodos, inclusive o cofre, e que ela testou Portal para dentro do cofre com sucesso.
+- Os Titãs ouviram a brincadeira de Corvin, relatada por Ravena, sobre não vender artefatos mágicos sem aviso e não deixá-lo pobre antes do primeiro aniversário.
+- Victor informou a Ravena que a análise da liga continua preliminar: certos componentes se comportam de forma estranha sob mudanças de temperatura/umidade; a pedra avisada reage violentamente com água; a liga final é muito mais estável e distribui a reação.
+- Victor pediu que Ravena dissesse a Corvin que ainda não sabe exatamente o que ele fez, mas quer descobrir.
+- Kory testou os brincos solares e confirmou funcionamento prático depois de carregados ao sol; Victor observou emissão compatível com a absorção tamaraniana.
+- Garfield testou o bracelete em formas de tigre, falcão e cachorro pequeno e manteve fala humana em todas.
 
 ## Pacto Corvin–Trigon — termos ativos
 - Selado por aperto de mão demonológico antigo e direto; somente termos pronunciados/aceitos entram no pacto.
@@ -79,35 +79,37 @@ Status: EM JOGO
   - Trigon não pode fortalecer, enfraquecer, redirecionar ou modificar esse vínculo;
   - Corvin mantém neutralidade no conflito direto Ravena–Trigon e não fornece sua Demonologia, pesquisas, armas, artefatos ou recursos a Ravena com a finalidade específica de atacar Trigon;
   - Corvin não é obrigado a impedir ações independentes de Ravena;
-  - Corvin pode continuar pesquisando Trigon, manifestações, domínios e vulnerabilidades para seus próprios fins.
-- A assinatura `Rachel Roth Blackwood` no livro da Casa **não altera os termos do pacto**; ela cria reconhecimento mágico interno do castelo. O pacto continua dependendo de consentimento bilateral real.
+  - Corvin pode continuar pesquisando Trigon, manifestações, domínios e vulnerabilidades para seus próprios fins e preparando contingências próprias.
+- A assinatura `Rachel Roth Blackwood` no livro da Casa não altera os termos do pacto; ela cria reconhecimento mágico interno do castelo. O pacto continua dependendo de consentimento bilateral real.
 
 ## Conhecimento separado
 ### Ravena sabe
 - Conhece integralmente os termos do pacto Corvin–Trigon e a leitura estratégica explicada por Corvin.
-- Sabe que Corvin não gostava de alguém “de verdade” havia mais de 180 anos e que ele prefere comunicação afetiva direta.
-- Sabe que Corvin gosta dela.
-- Sabe que pode usar seus poderes e Portal em todos os cômodos do Castelo dos Corvos como membro reconhecido da Casa, inclusive no cofre fortificado.
-- Sabe que Corvin chamou ouro, joias e itens menores do depósito de patrimônio de família.
-- Conhece o livro cinzento e as três referências encontradas por iniciativa própria.
+- Sabe que Corvin pesquisa de forma contínua e metódica, inclusive contingências ligadas a Trigon, manifestação, banimento e retorno planar.
+- Sabe que Corvin consegue criar com `Invocação [5]` pelo menos dois construtos puramente mágicos de treino em escala extrema e que, numa luta real, pode usá-los ao lado dele.
+- Sabe que Corvin possui outros vínculos/recursos que podem entrar em campo, inclusive Guardas do Abismo e a possibilidade de Felguard conforme o acordo com Tarshar.
+- Sabe que o nome “Casa Blackwood” pode representar uma ameaça coletiva/preparada, não apenas Corvin individualmente.
+- Sabe que pode usar seus poderes e Portal em todos os cômodos do Castelo dos Corvos, inclusive no cofre.
+- Sabe que Corvin gosta dela, quer comunicação direta e não está simplesmente esperando Trigon agir.
 
 ### Corvin sabe
 - Sabe diretamente que Ravena gosta dele, quer continuar com ele, continuar beijando-o e descobrir o futuro da relação.
 - Sabe que Ravena aceitou o acordo de comunicação direta sobre limites.
 - Sabe que Ravena assinou `Rachel Roth Blackwood` e que as proteções a reconhecem como membro.
-- Sabe que Ravena testou com sucesso Portal para dentro/fora do cofre.
-- Sabe que Ravena saiu para a Torre por compromissos próprios e não retirou consentimento de pertencer à Casa.
-- A antiga conversa privada em que Ravena disse a Kory e Donna que gosta dele “bastante” continua desconhecida para Corvin como evento específico, embora o conteúdo afetivo já tenha sido dito diretamente por Ravena a ele depois.
+- Sabe que Ravena pode Portal para qualquer cômodo do castelo, inclusive o cofre.
+- Ravena contou a ele os resultados preliminares de Victor, o funcionamento dos brincos de Kory e o teste do bracelete de Garfield.
+- Corvin não estava presente na conversa dos Titãs sobre o beijo ou sobre a assinatura; não sabe automaticamente as reações individuais além do que Ravena lhe contar.
 
 ### Titãs sabem
-- Dick, Victor, Kory, Donna e Garfield sabem do pacto, do noivado e da primeira visita ao castelo.
-- Kory e Donna sabem da declaração privada anterior de Ravena de que gosta bastante de Corvin.
-- Não sabem automaticamente da conversa íntima do Capítulo 11, do acordo de comunicação direta, do livro cinzento, da assinatura `Rachel Roth Blackwood` ou do novo acesso mágico pleno ao castelo, a menos que Ravena ou Corvin conte.
+- Sabem do pacto, do noivado, da idade de Corvin e da primeira visita ao castelo.
+- Sabem agora que Ravena e Corvin já se beijaram romanticamente.
+- Sabem agora da assinatura `Rachel Roth Blackwood`, do reconhecimento mágico pleno do castelo e do acesso de Ravena ao cofre por Portal.
+- Não sabem automaticamente do treino astral, da demonstração dos dois construtos, da explicação “três contra o alvo”, da noite em Praga ou das linhas específicas da rotina de pesquisa de Corvin, a menos que alguém conte.
 
 ## Relações atuais
-- Corvin ↔ Ravena: **noivos; afeto e atração explicitamente recíprocos; beijos recorrentes; comunicação direta sobre limites**. Continuam dormindo em quartos separados. Não estão casados.
+- Corvin ↔ Ravena: **noivos; afeto e atração explicitamente recíprocos; beijos recorrentes; comunicação direta sobre limites; convivência doméstica estável e primeiro encontro simples fora do castelo neste estágio**. Continuam dormindo em quartos separados. Não estão casados.
 - Ravena ↔ Casa Blackwood: membro por consentimento bilateral para o pacto e membro registrado magicamente no livro da Casa; acesso mágico pleno aos cômodos do castelo enquanto esse reconhecimento permanecer válido.
-- Ravena ↔ Titãs: vínculo ativo e vida independente preservada; atualmente está na Torre por compromisso próprio.
+- Ravena ↔ Titãs: vínculo ativo e vida independente preservada.
 - Corvin ↔ Titãs: confiança prática maior após a primeira visita, sem eliminar prudência individual.
 - Corvin ↔ Trigon: pacto formal de neutralidade limitada ativo; antiga chamada encerrada e limpa, sem canal residual detectável.
 
@@ -117,13 +119,12 @@ Status: EM JOGO
 - Continuação da tradução dos textos de Ifrid.
 - As três referências do livro cinzento encontradas por Ravena.
 - Cumprimento do pacto com Tarshar e possível obtenção do livro/Felguard.
-- Pesquisa sobre Azhur-Khal, manifestação, fixação e ancoragem.
-- Pesquisa independente de Ravena e pesquisa própria de Corvin, respeitando a neutralidade do pacto.
+- Pesquisa sobre Azhur-Khal, manifestação, fixação, ancoragem, banimento e formas de retorno/expulsão planar.
+- Pesquisa de Corvin sobre possível uso da Casa como referência/âncora para recuperar Ravena caso ela seja deslocada ou arrastada sobrenaturalmente; hipótese ainda não comprovada.
 - Observação contínua da ligação Ravena–Trigon pelo `Sentido Místico [5]`.
-- Análise de Victor das amostras.
+- Análise completa de Victor das amostras.
 - Garrafa antiga enterrada com demônio preso e terceiro desejo pendente.
 - Consequências sociais/práticas do noivado; casamento ainda não aconteceu.
-- Retorno futuro de Ravena ao castelo não está agendado em cena; ela continua livre para sair e voltar por escolha própria.
 
 ## Regras operacionais relevantes
 - Corvin possui `CONTROLE: JOGADOR HUMANO`; o narrador não decide falas, pensamentos, intenções ou ações voluntárias novas por ele.
@@ -134,4 +135,5 @@ Status: EM JOGO
 - `Sentido Místico [5]` de Corvin permanece ativo por padrão.
 - Afinidade mágica dos Antigos facilita leitura de estruturas observáveis, mas não concede nomes, intenções ou fatos escondidos.
 - Acesso mágico pleno de Ravena ao castelo não equivale a consentimento pessoal para intimidade; o acordo direto de fronteiras permanece separado das permissões da Casa.
-- O reconhecimento da Casa não torna objetos perigosos seguros nem concede autoridade ou conhecimento automático sobre conteúdos do cofre.
+- Reconhecimento da Casa não torna objetos perigosos seguros nem concede autoridade ou conhecimento automático sobre conteúdos do cofre.
+- “Corvin segue a rotina” inclui trabalho contínuo de pesquisa e preparação coerente com `Demonologia [5]`; não interpretar como espera passiva por Trigon.
