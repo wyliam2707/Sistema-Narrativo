@@ -1,6 +1,6 @@
 # Progressão
 
-Status: EM REVISÃO
+Status: APROVADO
 
 Progressão registra consequências estabelecidas que continuam causalmente vivas.
 
@@ -117,6 +117,50 @@ A possibilidade de Darek agir contra o personagem pode ser usada pelo OPOSITOR q
 Nem toda Progressão é oposição.
 
 Um favor ainda devido, um acesso ainda válido ou uma promessa favorável continuam sendo Progressão mesmo sem fornecer qualquer pressão ao OPOSITOR.
+
+## Autoridade sobre Progressão
+
+Progressão só registra consequências já estabelecidas pela ficção.
+
+Nenhum papel pode criar uma consequência persistente apenas porque ela seria interessante, conveniente ou útil para a trama.
+
+### JOGADOR / JOGADOR IA
+
+Podem declarar ações e decisões capazes de produzir consequências futuras.
+
+Não podem transformar unilateralmente uma intenção em fato persistente.
+
+### OPOSITOR
+
+Pode apontar consequências existentes e apresentá-las como pressão quando houver causa, oportunidade e meios coerentes.
+
+Não pode inventar retroativamente uma Progressão para justificar oposição.
+
+### NARRADOR
+
+Determina, pela ficção e pelas regras de resolução, quando uma consequência foi realmente estabelecida, alterada ou encerrada.
+
+### PERSISTÊNCIA
+
+Registra, atualiza ou remove a entrada depois que o fato já foi estabelecido.
+
+> **NARRADOR estabelece o fato. PERSISTÊNCIA registra o fato. OPOSITOR pode explorar o fato.**
+
+Exemplo:
+
+```text
+[JOGADOR]
+Quero convencer o rei a me dever um favor.
+
+Isso ainda é intenção.
+
+Se a cena for resolvida e o rei realmente assumir a obrigação:
+
+PROGRESSÃO:
+- Rei Alaric deve um favor importante.
+```
+
+O mesmo princípio vale para oposição: uma ameaça, hostilidade, promessa, investigação ou outra consequência só entra na Progressão quando já existir como fato da ficção.
 
 ## Entrada, mudança e saída
 
