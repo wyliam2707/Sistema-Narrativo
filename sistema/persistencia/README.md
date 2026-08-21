@@ -16,11 +16,14 @@ Esta pasta deverá concentrar, progressivamente:
 
 - estado atual e STATUS;
 - progressão causal;
-- conhecimento persistente;
 - atualização de fichas;
 - salvamento de capítulo;
 - distinção entre livro, estado, progressão e material reservado;
 - regras de correção e substituição de cânone.
+
+Conhecimento relevante consolidado não constitui uma camada separada de Persistência. Quando precisar continuar disponível para interpretar um personagem, ele pertence ao campo `Conhecimento atual relevante` da ficha.
+
+O Livro preserva como e quando uma descoberta aconteceu. A Progressão só registra consequências causalmente vivas que tenham surgido dessa descoberta.
 
 ## Arquivos antigos ainda em uso
 
@@ -41,7 +44,7 @@ Cada camada guarda uma coisa diferente:
 Livro       → o que aconteceu.
 Progressão  → o que ainda pode causar consequência futura.
 STATUS      → onde e como continuar exatamente agora.
-Ficha       → o que mudou de forma estável no personagem.
+Ficha       → o que mudou de forma estável no personagem e o que precisa permanecer disponível para interpretá-lo.
 Mestre      → o que precisa continuar verdadeiro sem ser revelado antes da hora.
 ```
 
