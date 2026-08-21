@@ -103,7 +103,7 @@ No segundo caso, todos os valores já foram mecanicamente definidos.
 
 ## IMPORTÂNCIA
 
-`IMPORTÂNCIA` indica o peso estrutural do personagem para a história e serve principalmente para orientar quando a agência individual deve ser assumida pelos papéis de jogador.
+`IMPORTÂNCIA` indica o peso estrutural do personagem para a história e ajuda a organizar como sua agência pode ser tratada na campanha.
 
 Ela **não** determina:
 
@@ -113,7 +113,8 @@ Ela **não** determina:
 - perícias;
 - poderes;
 - dificuldade;
-- proteção narrativa.
+- proteção narrativa;
+- `CONTROLE` automático para personagens não Centrais.
 
 As categorias são:
 
@@ -136,17 +137,35 @@ Normalmente a campanha possui no máximo dois personagens Centrais:
 
 O JOGADOR IA dedicado existe exclusivamente para seu personagem Central.
 
+Personagens Centrais possuem agência própria de jogador e não ficam sob controle normal do NARRADOR.
+
 ### Relevante
 
 É um personagem estruturalmente importante para a campanha, mas que não pertence ao núcleo central.
 
-Personagens Relevantes ficam a cargo do `JOGADOR IA EVENTUAL` quando sua agência individual for útil na situação.
+Um personagem Relevante pode permanecer:
 
-Uma única IA EVENTUAL pode assumir todos os Relevantes ativos ao mesmo tempo.
+```text
+CONTROLE: NPC
+```
+
+sob uso normal do NARRADOR, ou pode usar:
+
+```text
+CONTROLE: JOGADOR IA EVENTUAL
+```
+
+quando essa função tiver sido definida para ele.
+
+> **Ser Relevante não transforma automaticamente o personagem em JOGADOR IA EVENTUAL.**
+
+A Importância descreve seu peso estrutural. O `CONTROLE` registra quem possui normalmente sua autoridade de decisão.
+
+Quando houver personagens sob `JOGADOR IA EVENTUAL`, uma única IA EVENTUAL pode assumir todos os personagens ativos dessa categoria ao mesmo tempo.
 
 ### Figurante
 
-É todo personagem que não precisa de agência individual própria no ciclo.
+É um personagem sem papel estrutural central ou relevante para a campanha naquele momento.
 
 Figurantes permanecem normalmente como `NPC`, sob uso do NARRADOR.
 
@@ -161,6 +180,8 @@ Se o `JOGADOR IA EVENTUAL` entender que um Figurante deveria se tornar Relevante
 Sem aprovação, a classificação permanece como está.
 
 Uma promoção aprovada não altera automaticamente nenhuma outra parte da ficha. Atributos, perícias, poderes, recursos e demais informações continuam iguais. Novos campos de descrição podem ser acrescentados depois apenas se forem úteis para continuidade.
+
+> **Na dúvida, manter a classificação atual.**
 
 ## CONTROLE
 
@@ -187,11 +208,15 @@ Ele informa como o personagem participa normalmente do ciclo e quem possui autor
 
 ### JOGADOR IA EVENTUAL
 
-É usado pelos personagens Relevantes. Uma mesma IA EVENTUAL pode assumir simultaneamente todos os Relevantes que precisarem de agência própria naquela situação.
+É uma categoria de controle possível para personagens não Centrais quando essa agência própria tiver sido definida para eles.
+
+Uma mesma IA EVENTUAL pode assumir simultaneamente todos os personagens dessa categoria que precisarem de agência própria naquela situação.
+
+Um personagem não recebe esse `CONTROLE` apenas por ser Relevante. A classificação precisa estar registrada na ficha conforme as regras operacionais da campanha.
 
 ### NPC
 
-É personagem de uso normal do NARRADOR. Inclui figurantes, civis, monstros, inimigos, criaturas e demais personagens sem jogador próprio.
+É personagem de uso normal do NARRADOR. Inclui figurantes, civis, monstros, inimigos, criaturas, aliados, antagonistas recorrentes e também personagens Relevantes que permaneçam sob autoridade normal do NARRADOR.
 
 ## OPOSITOR não é um tipo de CONTROLE
 
@@ -308,9 +333,31 @@ REL:
 
 Campos sem utilidade real podem ser omitidos ou permanecer vazios.
 
+## Informação reservada do NARRADOR
+
+Quando uma ficha pertencente ao mundo precisar guardar uma verdade que não pode ser apresentada ao jogador, ela pode incluir uma seção reservada como:
+
+```text
+## Informação reservada do NARRADOR
+- identidade oculta;
+- plano ainda não descoberto;
+- conhecimento secreto;
+- pacto desconhecido;
+- capacidade ou limitação que ainda não foi revelada;
+- outro fato consolidado que precise permanecer secreto.
+```
+
+Essa seção é opcional e só deve existir quando houver informação realmente estabelecida que precise ser preservada em sigilo.
+
+Ela não autoriza criar fatos retroativamente para contrariar uma ação válida, restaurar dificuldade ou proteger a trama.
+
+A informação pode ser secreta para os personagens e para o jogador, mas continua sendo uma verdade já estabelecida da campanha.
+
 ## Ficha reservada
 
 Quando um personagem precisa de continuidade sem revelar suas capacidades ou segredos ao jogador, pode usar a mesma linguagem de ficha em uma área reservada da aventura.
+
+A ficha reservada pode usar `## Informação reservada do NARRADOR` quando isso for útil.
 
 A ficha reservada preserva segredo; não autoriza alterar capacidades retroativamente apenas para contrariar uma solução válida.
 
