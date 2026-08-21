@@ -44,6 +44,12 @@ Este arquivo registra fatos históricos/estruturais já aprovados sobre a Casa B
 - Documentos antigos podem usar grafias, traduções, selos ou títulos predecessores que depois sejam reconhecidos como Blackwood.
 - Dick/Nightwing iniciou no Capítulo 13 investigação histórica independente e encontrou apenas rastros preliminares, ainda sem prova conclusiva.
 - A descoberta futura deve continuar vindo como rastro histórico fragmentado, não como resposta completa de uma única fonte.
+- **Revelado no Capítulo 14:** a melhor reconstrução de Corvin indica que a Casa sofreu uma quase dizimação há mais de **1.500 anos**, aproximadamente na faixa em que começam os registros oficiais contínuos. O material anterior está excessivamente fragmentado ou foi destruído.
+- Isso não estabelece automaticamente quem atacou, por quê, nem se houve um único evento. Pode ter sido guerra, sequência de conflitos, sucessão catastrófica ou outra causa; continuar tratando a causa como aberta até surgir evidência real.
+- Os registros cruzados por Corvin indicam que Blackwood historicamente não foi composta apenas por magos. Houve membros sem magia, demonologistas e alguns Antigos. Em períodos mais recentes anteriores a Corvin, com exceção de Marta, muitos membros eram humanos comuns com influência, riqueza ou poder social.
+- Corvin investigou as mortes de quase todos os Blackwoods que conseguiu rastrear. Muitas se relacionam a contratos de retaliação ou ao cumprimento de obrigações mal estipuladas. Isso reforça a ambiguidade central da Casa: **os contratos preservam a instituição e também podem consumir seus membros**.
+- Corvin considera plausível que alguns contratos antigos protejam a continuidade da Casa enquanto ao menos um Blackwood reconhecido sobreviver. Isso explicaria por que uma quase destruição não encerrou a Casa e por que eliminar o último membro poderia ativar custos de retaliação. **Essa é uma hipótese histórica fundamentada, não uma cláusula universal confirmada de todos os contratos.**
+- **Avanço de Dick no Capítulo 14:** encontrou rastros externos possivelmente datáveis de aproximadamente 1.700–1.800 anos: tradução próxima de “Casa do Bosque Negro”, símbolo semelhante a versões posteriores do selo Blackwood e referência a uma instituição garantidora de passagem entre territórios sobrenaturais. Nada disso ainda prova identidade, continuidade ou data de fundação.
 
 ## O livro `BLACKWOOD`
 - O volume é um **registro administrativo, jurídico, genealógico e institucional**, não uma autobiografia completa da Casa.
@@ -74,6 +80,9 @@ Este arquivo registra fatos históricos/estruturais já aprovados sobre a Casa B
 - Se o casamento ocorrer dentro da tradição da Casa, ela passa a ser **Duquesa de Blackwood**. Isso é posição institucional do Domínio Blackwood, não necessariamente título civil reconhecido por governos humanos.
 - No Capítulo 13, a descoberta deixou de ser planejamento e entrou em cânone conhecido por Ravena e Titãs: Quilliam Varr a tratou como Senhora Blackwood, Corvin explicou o título ducal e Ravena assinou sua primeira renovação administrativa em nome da Casa.
 - Corvin orientou Ravena a não assinar sem revisão assuntos ligados a território, entrada/invasão, nova obrigação extraordinária ou matéria muito exótica quando ela não dominar o tema.
+- **Capítulo 14:** Corvin explicitou a Ravena que o reconhecimento dela como Blackwood não é prêmio, cláusula do noivado nem condição dependente de continuar romanticamente com ele. Mesmo que um dia a relação termine, ela pode continuar sendo Blackwood enquanto quiser genuinamente pertencer à Casa e o reconhecimento/consentimento correspondente permanecer válido.
+- Uma motivação central de Corvin para colocá-la na continuidade da Casa também foi revelada: se ele morrer tentando protegê-la, quis garantir que a Casa continue a protegê-la depois da morte dele.
+- Isso não transforma a Casa em proteção automática absoluta contra qualquer ameaça nem estabelece mecanismo novo não demonstrado. Significa que direitos, reconhecimento, contratos e proteções ligados à condição de membro não dependem da presença física de Corvin enquanto as regras específicas aplicáveis continuarem válidas.
 
 ## Reputação sobrenatural
 - A Casa Blackwood possui reputação entre **certos demônios antigos, negociadores, cortes, conselhos e lordes infernais**.
@@ -93,19 +102,23 @@ Este arquivo registra fatos históricos/estruturais já aprovados sobre a Casa B
 ## Marta Blackwood — cânone consolidado
 - **Marta Blackwood** foi o primeiro grande amor de Corvin.
 - Marta era uma **Antiga**, assim como Corvin, e possuía percepção mágica excepcional, equivalente a `Sentido Místico [5]`.
+- Marta possuía **`Demonologia [3]`**: era uma demonologista competente e forte, mas não equivalente ao domínio [5] que Corvin desenvolveria mais tarde.
 - Quando Corvin tinha por volta de **20 anos**, ele ainda era apenas um jovem mago Antigo viajando pelo mundo, sem a posição, os contatos e a estrutura que teria depois.
 - Marta percebeu a natureza dele, reconheceu outro Antigo e **o levou para a Casa Blackwood**.
 - Corvin não nasceu Blackwood e não fundou a Casa; foi acolhido/introduzido por Marta.
 - Marta ensinou a Corvin a tradição Blackwood e parte fundamental da demonologia que ele desenvolveria ao longo da vida.
 - A relação entre os dois cresceu; Marta tornou-se o primeiro amor verdadeiro de Corvin e **os dois se casaram**.
-- Marta era o último membro vivo da **linhagem original Blackwood**.
+- Marta era o último membro vivo da **linhagem original Blackwood** e, quando conheceu Corvin, a última pessoa então reconhecida como Blackwood pela Casa.
 - Corvin foi reconhecido como sucessor e assumiu como **Senhor/Duque de Blackwood ainda durante a vida de Marta**.
 - Quando Marta morreu, Corvin já era Senhor/Duque havia aproximadamente **seis anos**.
 - Marta morreu em combate quando Corvin tinha aproximadamente **30 anos**. A morte foi externa, não velhice; Antigos não envelhecem biologicamente.
+- **Capítulo 14:** Corvin revelou que investigou a morte de Marta por mais de trinta anos e não encontrou conspiração ou causa oculta relevante além do que já parecia ser: um contrato para combate e um inimigo mais forte.
 - Marta não deve ser tratada como “versão anterior de Ravena”. Personalidade, aparência, relação e papel devem ser próprios.
 - Corvin declarou diretamente a Ravena no Capítulo 13: **o que sentia por Marta pertence a Marta; o que sente por Ravena pertence a Ravena**.
+- No fim do Capítulo 14, **sozinho**, Corvin levou ao solar uma fotografia antiga tirada no castelo — ele, Marta morena, quatro criados e várias outras pessoas — e disse à memória dela que realmente havia seguido em frente, encontrado outra pessoa e finalmente podia deixá-la ir. Depois teleportou a fotografia de volta ao depósito e adormeceu no solar.
+- Ravena **não presenciou essa despedida e não sabe automaticamente que ela aconteceu**.
 - A Casa ter escolhido/acolhido Corvin antes dele ser o atual Blackwood estabelece um precedente importante: **Blackwood não precisa significar apenas sangue; a Casa pode reconhecer pertencimento real.**
-- A história básica de Marta acima já foi revelada a Ravena no Capítulo 13. Os Titãs conhecem apenas o nome Marta como fim da genealogia, salvo futura comunicação de Ravena.
+- A história básica de Marta foi revelada a Ravena no Capítulo 13; no Capítulo 14 ela também soube de `Demonologia [3]`, da investigação de mais de trinta anos e da ausência de causa oculta relevante encontrada por Corvin. Os Titãs não recebem essas informações automaticamente.
 
 ## Corvin, Marta e a motivação inicial para ajudar Ravena
 - Quando Ravena chegou ao Castelo dos Corvos, Corvin já sabia em linhas gerais quem ela era: Titã, filha de Trigon, poderosa e potencialmente perigosa.
@@ -115,31 +128,39 @@ Este arquivo registra fatos históricos/estruturais já aprovados sobre a Casa B
 - Corvin, sem planejar casamento nem `Rachel Roth Blackwood`, acabou fazendo algo semelhante ao oferecer a Ravena livro, biblioteca, abrigo, respostas e espaço para pesquisar.
 - Frase temática de referência interna: **Marta ajudou Corvin antes de ele ser Blackwood. Corvin ajudou Ravena antes de imaginar que ela também seria.**
 - Essa simetria não significa repetição romântica nem substituição de Marta por Ravena; é uma repetição do princípio de acolhimento da Casa.
+- O Capítulo 14 aprofunda o paralelo sem apagar a diferença: Corvin não só acolheu Ravena, como preparou uma continuidade institucional que continua a protegê-la mesmo na hipótese de sua própria morte. Isso decorre tanto da lógica Blackwood quanto da aversão pessoal de Corvin a perder alguém novamente por falta de preparação.
 
-## Quanto Ravena descobriu pelo livro
-- O alvo preferido de algo como **30% da verdade total da Casa** foi atingido no Capítulo 13.
-- Ravena entende agora a camada administrativa e institucional: domínio, licenças, votos específicos, representação, contratos de reciprocidade, hospitalidade, títulos e parte da genealogia.
+## Quanto Ravena descobriu pelo livro e pela convivência
+- O alvo preferido de algo como **30% da verdade total da Casa** foi atingido no Capítulo 13 pelo livro `BLACKWOOD` e pelas explicações de Corvin.
+- Ravena entende a camada administrativa e institucional: domínio, licenças, votos específicos, representação, contratos de reciprocidade, hospitalidade, títulos e parte da genealogia.
 - Sabe que a Casa possui pelo menos cerca de 1.600 anos de história documentada naquele volume.
 - Notou que a genealogia termina em Marta Blackwood e que Corvin não aparece como continuação clara.
-- Corvin explicou depois a parte pessoal Marta → Corvin, mas Ravena **não sabe** a origem da Casa, data de fundação, todos os pactos, motivos históricos, contatos, depósitos ou a extensão total das obrigações antigas.
-- O livro deve continuar servindo para fazer Ravena encontrar perguntas e conexões por conta própria, não como catálogo infinito de soluções.
+- Corvin explicou a parte pessoal Marta → Corvin.
+- **Capítulo 14 acrescentou conhecimento oral de Corvin:** quase dizimação há mais de 1.500 anos; registros anteriores fragmentados/destruídos; composição histórica variada da Casa; mortes de membros ligadas a contratos; investigação prolongada da morte de Marta; hipótese de continuidade enquanto houver Blackwood reconhecido; pertencimento de Ravena independente do romance; motivação de protegê-la mesmo após eventual morte de Corvin.
+- Ravena ainda **não sabe** origem da Casa, data de fundação, todos os pactos, motivos históricos, contatos, depósitos, extensão total das obrigações antigas ou a causa real da ruptura histórica.
+- O livro e a investigação devem continuar servindo para produzir perguntas e conexões, não catálogo infinito de soluções.
 
-## Forma de revelar em jogo — estado após Capítulo 13
+## Forma de revelar em jogo — estado após Capítulo 14
 - Já ocorreram:
   1. visitante demoníaco chama Ravena de “Senhora Blackwood”;
   2. Ravena percebe que pode receber assuntos simples da Casa na ausência de Corvin;
   3. o livro `BLACKWOOD` revela a camada administrativa e cerca de 1.600 anos de registros;
   4. Ravena encontra Marta no fim da genealogia e percebe a lacuna para Corvin;
   5. Corvin explica Marta quando perguntado;
-  6. Dick inicia investigação externa e encontra primeiros rastros inconclusivos.
+  6. Dick inicia investigação externa e encontra primeiros rastros inconclusivos;
+  7. Dick encontra rastros possivelmente mais antigos, na faixa de 1.700–1.800 anos, ainda sem prova;
+  8. Corvin revela a Ravena sua própria reconstrução da ruptura histórica, composição da Casa e mortes ligadas a contratos;
+  9. Corvin revela que Ravena permanece Blackwood independentemente da continuidade do romance e que sua inclusão serve também como proteção/continuidade caso ele morra;
+  10. Corvin faz em privado a despedida emocional de Marta; Ravena não sabe disso.
 - Permanecem para futuro, quando causais:
-  1. Dick pode encontrar registros ainda mais antigos/externos ao livro;
+  1. Dick pode confirmar ou refutar a ligação da “Casa do Bosque Negro” com Blackwood;
   2. um demônio antigo pode reconhecer selo/título/protocolo histórico de forma que ensine algo novo aos personagens;
   3. referências a conselhos, contratos e promessas antigas podem começar a se conectar;
-  4. Trigon, bem mais adiante, pode descobrir/entender a profundidade política de `Rachel Roth Blackwood`.
-- Corvin pode descobrir fatos sobre a própria Casa junto com Ravena/Titãs. Não presumir que ele sabe tudo só por ser Demonologista [5].
+  4. a causa real da quase destruição Blackwood pode ou não ser descoberta, mas não deve surgir por conveniência;
+  5. Trigon, bem mais adiante, pode descobrir/entender a profundidade política de `Rachel Roth Blackwood`.
+- Corvin pode descobrir fatos sobre a própria Casa junto com Ravena/Titãs. Não presumir que ele sabe tudo só por ser Demonologista [5] ou Pesquisador [5].
 - O mistério da Casa deve recompensar investigação e convivência, não funcionar como fonte infinita de soluções convenientes.
 
 ## Regra de continuidade
-- Quando a campanha tocar Casa Blackwood, Marta, Domínio Blackwood, títulos, conselhos, contratos, hospitalidade, fronteiras ou a razão inicial de Corvin ajudar Ravena, consultar este arquivo antes de improvisar.
+- Quando a campanha tocar Casa Blackwood, Marta, Domínio Blackwood, títulos, conselhos, contratos, hospitalidade, fronteiras, ruptura histórica, continuidade da Casa ou a razão inicial de Corvin ajudar/proteger Ravena, consultar este arquivo antes de improvisar.
 - Se o jogador aparentar contradizer ou esquecer um desses pontos, **lembrar de forma breve e não punitiva antes de consolidar nova continuidade**, a menos que ele deixe claro que deseja retconar o fato anterior.
