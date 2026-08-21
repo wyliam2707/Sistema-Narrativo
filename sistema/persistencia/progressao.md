@@ -18,7 +18,7 @@ STATUS
 PROGRESSÃO
 → o que aconteceu e continua causalmente vivo.
 
-CRONOLOGIA / LIVRO
+LIVRO
 → o que aconteceu no passado, mesmo quando já não produz consequência futura.
 ```
 
@@ -53,7 +53,7 @@ A pergunta prática é:
 
 Se sim, pode pertencer à Progressão.
 
-Se não, o acontecimento pode permanecer apenas no Livro ou na Cronologia.
+Se não, o acontecimento permanece apenas no Livro.
 
 ## Forma de registro
 
