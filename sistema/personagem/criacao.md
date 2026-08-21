@@ -1,6 +1,6 @@
 # Criação e Revisão de Personagens
 
-Status: EM REVISÃO
+Status: APROVADO
 
 Este arquivo define a criação de um personagem como entidade do sistema.
 
@@ -63,16 +63,20 @@ Enquanto o conceito ainda está sendo construído, não atribuir automaticamente
 
 Esses elementos entram na etapa de conversão mecânica.
 
-## Criação mínima de personagem Relevante
+## Criação mínima
 
-Um personagem Relevante não precisa nascer completo.
+Qualquer personagem pode nascer com uma ficha mínima.
 
 Em uma campanha, pode ser suficiente inicialmente registrar:
 
 - nome;
-- importância;
+- importância, quando já definida;
 - `CONTROLE`, quando já decidido;
 - qualquer conceito realmente estabelecido.
+
+Importância não determina tamanho, formato ou quantidade de detalhe da ficha.
+
+Um personagem Central, Relevante, Figurante ou NPC pode ter apenas poucas linhas ou um dossiê extenso, conforme a necessidade real de interpretação e continuidade.
 
 Não inventar aparência, personalidade, história, capacidades ou recursos apenas para completar visualmente a ficha.
 
@@ -87,11 +91,13 @@ Quando o conceito estiver suficientemente claro:
 3. identificar perícias reais;
 4. identificar poderes e repertórios;
 5. identificar TRAÇOS qualitativos;
-6. identificar equipamento recorrente importante;
+6. identificar RECURSOS recorrentes importantes;
 7. identificar relações recorrentes que realmente pertencem à ficha;
 8. converter para a sintaxe do sistema;
 9. aplicar `calibracao.md`;
 10. normalizar a ficha sem acrescentar conteúdo inexistente.
+
+Todos os personagens usam as mesmas mecânicas e as mesmas escalas. NPC não possui sistema próprio de atributos, perícias, poderes, traços, relações ou recursos.
 
 ## Ordem das fichas iniciais de uma campanha
 
@@ -100,14 +106,38 @@ Durante criação conceitual, o protagonista pode ser definido antes dos demais.
 Durante a revisão mecânica das fichas apresentáveis ao jogador, a ordem recomendada é:
 
 ```text
-Personagens relevantes/NPCs visíveis
+Personagens relevantes / NPCs visíveis
 ↓
 Protagonista por último
 ```
 
 A finalidade é evitar que os valores do protagonista sejam usados como régua inconsciente para calibrar o restante do elenco.
 
+Essa ordem é uma proteção de processo. Ela **não autoriza comparação mecânica nem balanceamento entre fichas**.
+
 Cada personagem continua sendo avaliado isoladamente conforme `calibracao.md`.
+
+## Organização dos arquivos na campanha
+
+Personagens jogáveis persistentes ficam normalmente em:
+
+```text
+personagens/
+```
+
+Isso inclui personagens sob `JOGADOR HUMANO` e `JOGADOR IA`.
+
+NPCs pertencem ao mundo administrado pelo NARRADOR.
+
+Um NPC simples pode existir apenas durante a cena e não precisa receber arquivo persistente.
+
+Quando um NPC acumular informação que precise sobreviver entre cenas — capacidades, relações, desavenças, objetivos, conhecimento, pactos, recursos, obrigações ou outros ganchos relevantes — sua ficha pode ser registrada no mundo da campanha, normalmente em:
+
+```text
+mundo/npcs/
+```
+
+Ter arquivo persistente não altera automaticamente a Importância nem o `CONTROLE` do personagem.
 
 ## Revisão do personagem controlado pelo jogador humano
 
@@ -124,7 +154,7 @@ Ordem recomendada:
 7. ATRIBUTOS como um bloco;
 8. PERÍCIAS como um bloco;
 9. PODERES como um bloco;
-10. EQP;
+10. RECURSOS;
 11. REL;
 12. personalidade e tendências;
 13. desejos/objetivos;
@@ -136,9 +166,9 @@ Se um campo já estiver definido, apresentá-lo como está para confirmação em
 
 Nos blocos de ATRIBUTOS, PERÍCIAS e PODERES, normalizar a sintaxe e reapresentar o bloco inteiro antes de considerar a revisão concluída.
 
-## Revisão dos demais personagens apresentáveis
+## Revisão em blocos
 
-Personagens relevantes, NPCs originais ou personagens canônicos apresentados ao jogador podem ser revisados em quatro blocos.
+Quando for útil revisar um personagem de forma mais compacta, usar quatro blocos.
 
 ### Bloco 1 — Identidade e conceito
 
@@ -157,9 +187,9 @@ Personagens relevantes, NPCs originais ou personagens canônicos apresentados ao
 - poderes;
 - especializações.
 
-### Bloco 3 — Recursos
+### Bloco 3 — Recursos e relações
 
-- EQP e recursos recorrentes;
+- RECURSOS recorrentes;
 - REL atual e recorrente.
 
 ### Bloco 4 — Interpretação
@@ -167,6 +197,7 @@ Personagens relevantes, NPCs originais ou personagens canônicos apresentados ao
 - personalidade e tendências;
 - desejos/objetivos;
 - medos/limites;
+- conhecimento atual relevante;
 - história consolidada relevante.
 
 Não inventar campos sem utilidade apenas para completar os quatro blocos.
