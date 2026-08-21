@@ -48,7 +48,7 @@ EQP:
 - Comunicador dos Titãs.
 - Acesso aos recursos e instalações dos Titãs quando estiver atuando com a equipe.
 - Não depende de equipamento para realizar suas metamorfoses.
-- **Bracelete metamorfo de couro:** presente de Corvin no Capítulo 9. Acompanha as transformações, permite que Garfield fale normalmente em formas animais e oferece resistência contra tentativas externas de impor uma forma diferente. Ravena tentou transformá-lo de tigre em rato e falhou. Isso não deve ser tratado como imunidade absoluta contra toda magia, entidade ou efeito de transformação.
+- **Bracelete metamorfo de couro:** presente de Corvin no Capítulo 9. Acompanha as transformações, permite que Garfield fale normalmente em formas animais e oferece resistência contra tentativas externas de impor uma forma diferente. Ravena tentou transformá-lo de tigre em rato e falhou. No Capítulo 12, Garfield confirmou fala funcional nas formas de tigre, falcão e cachorro pequeno. Isso não deve ser tratado como imunidade absoluta contra toda magia, entidade ou efeito de transformação.
 
 REL:
 - Titãs: sua principal equipe e família escolhida.
@@ -72,9 +72,16 @@ REL:
 - Perder o controle de uma transformação em situação extrema.
 - Voltar a ficar sozinho.
 
+## Conhecimento atual relevante
+- Sabe do pacto Corvin–Trigon, do noivado e das informações gerais já reveladas sobre Corvin.
+- No Capítulo 12, Ravena confirmou aos cinco Titãs que ela e Corvin já tiveram um beijo romântico real.
+- Sabe que Ravena assinou `Rachel Roth Blackwood`, que isso não é mudança legal de nome e que o castelo reconhece seus poderes em todos os cômodos, inclusive o cofre; sabe que Ravena testou Portal para dentro dele.
+- Não sabe automaticamente do treino astral de Corvin ou da explicação “três contra o alvo”.
+
 ## História consolidada relevante
 - Garfield sofreu a alteração biológica que lhe deu sua fisiologia verde e seus poderes metamórficos.
 - Passou pela Patrulha do Destino antes de consolidar sua vida com os Titãs.
 - Nos Titãs encontrou vínculos duradouros e construiu uma identidade própria como herói.
 - Relações românticas específicas permanecem em aberto no início da campanha.
 - No Capítulo 9, conheceu Corvin pessoalmente, recebeu o bracelete, descobriu que pode falar em forma de tigre usando-o e foi testemunha do noivado de Ravena.
+- No Capítulo 12, testou novamente o bracelete em formas diferentes e recebeu de Ravena a atualização sobre o beijo e o reconhecimento mágico pleno dela pela Casa Blackwood.
