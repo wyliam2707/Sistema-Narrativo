@@ -70,6 +70,13 @@ REL:
 - Perder companheiros por decisões suas.
 - Tornar-se parecido demais com Batman nos aspectos que deliberadamente rejeitou.
 
+## Conhecimento atual relevante
+- Sabe do pacto Corvin–Trigon, do noivado e da idade/natureza geral de Corvin já reveladas ao grupo.
+- No Capítulo 12, Ravena confirmou que ela e Corvin já tiveram um beijo romântico real.
+- No Capítulo 12, Ravena contou que assinou o registro mágico **Casa Blackwood** como `Rachel Roth Blackwood`, esclareceu que não houve mudança legal de nome e informou que as proteções do castelo agora reconhecem seus poderes em todos os cômodos, inclusive o cofre.
+- Sabe que Ravena testou Portal para dentro do cofre com sucesso.
+- Não sabe automaticamente do treino astral de Corvin, da explicação “três contra o alvo” ou das linhas específicas de pesquisa privada de Corvin.
+
 ## História consolidada relevante
 - Nasceu em uma família de acrobatas circenses e perdeu os pais ainda jovem.
 - Foi acolhido por Bruce Wayne, treinado por Batman e tornou-se o primeiro Robin.
@@ -77,3 +84,4 @@ REL:
 - Os Titãs se tornaram parte importante de sua independência, de seus vínculos pessoais e de seu desenvolvimento como líder.
 - Sua vida amorosa está aberta no início da campanha; não existe relacionamento atual predeterminado com Estelar, Barbara Gordon ou outra personagem.
 - No Capítulo 9, conheceu Corvin pessoalmente, visitou o castelo, recebeu o anel de recuperação e foi testemunha do noivado de Ravena.
+- No Capítulo 12, recebeu de Ravena a atualização sobre o beijo e sobre o reconhecimento mágico pleno dela pela Casa Blackwood.
