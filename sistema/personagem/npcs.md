@@ -1,157 +1,212 @@
-# NPCs, Importância e Modelos Rápidos
+# NPCs
 
-Status: EM REVISÃO
+Status: APROVADO
 
-A importância narrativa determina **quanto detalhe precisa ser acompanhado**, não quanto poder, resistência ou proteção de roteiro um personagem possui.
+NPC não é uma categoria mecânica diferente. Todos os personagens usam as mesmas regras, escalas e estruturas de `ATRIBUTOS`, `PERÍCIAS`, `PODERES`, `TRAÇOS`, `RELAÇÕES` e `RECURSOS`.
 
-## Categorias de importância
+A diferença está em **quem controla o personagem** e em **quanto vale a pena registrar para garantir continuidade**.
 
-### Central
+## Controle normal
 
-Personagem nuclear da história.
-
-Acompanhar com alta continuidade:
-
-- personalidade;
-- relações;
-- capacidades;
-- equipamentos recorrentes;
-- mudanças estáveis;
-- consequências relevantes.
-
-STATUS temporário continua fora da ficha permanente.
-
-### Relevante
-
-Personagem recorrente ou importante para cenas e arcos.
-
-Usar ficha curta ou completa conforme a necessidade real de continuidade.
-
-### Figurante
-
-Personagem de cena ou baixa importância.
-
-Usar apenas a informação necessária para resolver e narrar sua participação.
-
-> **Importância não altera poder, chance de sucesso, resistência nem realidade do mundo.**
-
-Um Figurante pode ser muito mais poderoso que um personagem Central. A categoria apenas determina o nível de detalhe acompanhado.
-
-## Modelo rápido — modelo e exceção
-
-Para NPCs simples, especialmente Figurantes, usar:
+Um NPC possui:
 
 ```text
-Função/Nome — Modelo [grau] | exceções
+CONTROLE: NPC
 ```
 
-O nome do modelo representa natureza, espécie ou arquétipo.
+Sua autoridade normal pertence ao `NARRADOR`.
 
-O grau representa a escala-base dos atributos.
+Isso vale para:
 
-Exemplos válidos:
+- civis;
+- comerciantes;
+- guardas;
+- monstros;
+- inimigos;
+- aliados circunstanciais;
+- antagonistas recorrentes;
+- entidades muito poderosas.
 
-```text
-Humano [0]
-Humano [1]
-Zumbi [0]
-Vampiro [1]
-Demônio [0]
-Demônio [3]
-```
+Um NPC pode ser mais poderoso, mais antigo ou mais importante que um personagem Central e ainda continuar sendo NPC.
 
-O nome do modelo não determina automaticamente o grau.
+## OPOSITOR e delegação temporária
 
-## O que o modelo preenche
+`OPOSITOR` não é uma categoria de `CONTROLE`.
 
-O valor do modelo preenche todos os atributos automaticamente.
+O OPOSITOR pode propor problemas, pressões, interrupções e ações hostis usando elementos legítimos da ficção. O `NARRADOR` julga se a proposta é plausível e coerente.
+
+Quando apropriado, o NARRADOR pode delegar temporariamente um NPC ao OPOSITOR para executar aquela oposição.
 
 Exemplo:
 
 ```text
-Guarda — Humano [1]
+Assassino de Trigon
+Importância: Figurante
+CONTROLE: NPC
 ```
 
-significa:
+O NARRADOR pode aprovar a entrada do assassino na cena e entregá-lo temporariamente ao OPOSITOR durante o confronto.
+
+Isso não altera a ficha. O personagem continua `CONTROLE: NPC`.
+
+## Importância não cria mecânica própria
+
+NPCs podem ser `Relevantes` ou `Figurantes` conforme sua função estrutural na campanha.
+
+A importância não modifica atributos, perícias, poderes, resistência, chance de sucesso ou qualquer outra regra mecânica.
+
+Ela também não determina o tamanho da ficha.
+
+Um Figurante pode ter uma ficha extensa se isso for útil. Um Relevante pode ter poucas linhas se isso for suficiente.
+
+A quantidade de aparições, sozinha, não muda a importância de um NPC.
+
+## Ficha rápida
+
+NPCs simples não usam modelos especiais como `Humano [1]`, `Demônio [3]` ou qualquer regra que preencha automaticamente todos os atributos.
+
+Uma ficha rápida registra apenas o que realmente precisa ser conhecido para aquele NPC funcionar.
+
+Exemplo:
 
 ```text
-FOR [1]
-AGI [1]
+Guarda
+Importância: Figurante
+CONTROLE: NPC
+
+PER:
+Soldado [+1]
+
+PODERES:
+Arsenal [1] => Dano
+```
+
+Tudo que não precisa ser destacado pode permanecer sem registro específico.
+
+Se o personagem possuir uma capacidade excepcional, ela é registrada normalmente pelas mesmas regras usadas por qualquer outro personagem:
+
+```text
+Guarda
+Importância: Figurante
+CONTROLE: NPC
+
+ATR:
 RES [1]
-MEN [1]
-VON [1]
+
+PER:
+Soldado [+1]
+
+PODERES:
+Arsenal [1] => Dano
 ```
 
-Somente valores diferentes precisam ser escritos.
+## NPCs poderosos
 
-Exemplo:
+Poder narrativo ou mecânico não exige uma ficha maior.
+
+Um NPC extremamente poderoso pode possuir uma ficha operacional curta, desde que ela contenha tudo que precisa ser resolvido em jogo.
+
+Exemplo conceitual:
 
 ```text
-Invocação — Demônio [3] | FOR [4] | VON [1]
+Trigon
+Importância: Relevante
+CONTROLE: NPC
+
+TRAÇOS:
+- Entidade demoníaca extraplanar.
+- Senhor de domínio demoníaco próprio.
+
+ATR:
+FOR [4] | AGI [2] | RES [4] | MEN [4] | VON [5]
+
+PER:
+Demonologia [+4]
+Manipulação [+4]
+
+PODERES:
+Poder Demoníaco [5] => Geral / Dano / Proteção / Movimento / Manifestação / Influência
+Magia [4] => Geral / Portal / Invocação / Contenção
+Domínio [4] => Geral
+
+RECURSOS:
+Domínio de Trigon => exércitos demoníacos, servos, fortalezas, conhecimento antigo
 ```
 
-significa base 3 em todos os atributos, com FOR 4 e VON 1 como exceções.
+A ficha curta não reduz o poder do personagem. Ela apenas evita registrar informação que não é necessária para operação ou continuidade.
 
-## Características implícitas do modelo
+## Vitória não é poder bruto
 
-Além dos atributos, um modelo pode carregar características básicas **já estabelecidas para aquela natureza no cenário, cânone ou aventura**.
+Todos os personagens usam as mesmas escalas, mas isso não significa que confrontos sejam simétricos.
+
+Um personagem pode vencer alguém muito superior em força, resistência ou potência geral por meio de percepção, perícia, especialização, preparação, relações, recursos ou exploração correta de uma vulnerabilidade.
+
+> **Capacidade de vencer não é a mesma coisa que poder bruto.**
+
+Um personagem especializado não precisa receber atributos maiores apenas para enfrentar um adversário mais poderoso.
+
+## Persistência
+
+Um NPC simples pode existir somente durante a cena e nunca receber arquivo persistente.
+
+Criar um registro persistente quando houver informação que valha a pena preservar entre cenas, por exemplo:
+
+- relações recorrentes;
+- desavenças;
+- promessas e pactos;
+- objetivos próprios;
+- conhecimento relevante;
+- recursos estabelecidos;
+- limitações;
+- consequências ainda ativas;
+- mudanças que possam afetar decisões futuras.
+
+Ter um arquivo persistente não altera `Importância` nem `CONTROLE`.
+
+## Onde registrar NPCs persistentes
+
+NPCs persistentes pertencem ao **mundo da campanha**, não à pasta de personagens jogáveis.
+
+Estrutura recomendada:
+
+```text
+aventuras/<campanha>/
+├── personagens/
+│   ├── Personagem do Jogador.md
+│   └── Personagem da IA.md
+│
+└── mundo/
+    ├── README.md
+    ├── cenario.md
+    └── npcs/
+        ├── Trigon.md
+        └── Outro NPC.md
+```
+
+`personagens/` fica reservado aos personagens efetivamente jogáveis sob `JOGADOR HUMANO` ou `JOGADOR IA`.
+
+`mundo/npcs/` guarda NPCs que precisam de continuidade própria dentro da campanha.
+
+## Ganchos para o OPOSITOR
+
+Uma ficha persistente de NPC deve preservar fatos que possam gerar pressão futura quando existirem de verdade na ficção.
 
 Isso pode incluir:
 
-- comportamentos típicos;
-- necessidades;
-- hábitos;
-- capacidades comuns;
+- relações tensas;
+- interesses conflitantes;
+- obrigações;
+- pactos;
+- recursos vulneráveis;
 - limitações;
-- fraquezas.
+- inimigos;
+- desavenças ainda não resolvidas.
 
-O modelo não cria propriedades universais para uma espécie.
+Esses elementos não são acontecimentos pré-programados. São apenas fatos disponíveis para o OPOSITOR explorar quando fizer sentido.
 
-Exemplo:
+O OPOSITOR pode propor uma complicação a partir deles, mas não pode inventar conhecimento, recursos, fraquezas ou preparações que o personagem não possua.
 
-```text
-Vampiro [1]
-```
-
-usa as propriedades vampíricas já definidas naquele cenário específico.
-
-Se naquele mundo vampiros não queimam ao sol, o modelo não inventa essa fraqueza.
-
-## Exceções
-
-Somente o que foge do modelo precisa ser declarado.
-
-```text
-Vampiro [1] | FOR [2] | resistente à luz solar
-```
-
-significa que o personagem segue o modelo vampírico daquele mundo, exceto pelas alterações expressas.
-
-Perícias e recursos importantes podem ser adicionados:
-
-```text
-Guarda — Humano [0] | Soldado [+2] | rifle / colete
-```
-
-## Figurantes não exigem arquivo persistente
-
-Um Figurante ou inimigo comum normalmente pode existir apenas durante a cena.
-
-Não é necessário criar um arquivo individual em `personagens/` ou `mestre/viloes/` apenas porque ele participou de uma resolução.
-
-Se sobreviver, reaparecer, ganhar importância ou passar a exigir continuidade própria, ele pode receber uma ficha Relevante ou reservada posteriormente.
-
-> **Poder por si só não exige ficha persistente. Continuidade e necessidade de detalhe é que exigem.**
-
-## Antagonistas importantes
-
-Um antagonista importante, recorrente ou poderoso pode receber ficha completa quando suas capacidades, objetivos, limites ou segredos precisarem existir de forma estável.
-
-Se a ficha precisar permanecer oculta, armazená-la na área reservada da aventura.
-
-Uma ficha oculta já estabelecida não pode ganhar poderes, imunidades ou recursos retroativos apenas para neutralizar uma solução válida do protagonista.
-
-Mudanças posteriores precisam nascer de acontecimentos reais da ficção.
+O NARRADOR continua julgando a validade da proposta.
 
 ## Calibração
 
