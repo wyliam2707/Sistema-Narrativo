@@ -63,6 +63,7 @@ REL:
 - Proteger os Titãs e as pessoas sob sua responsabilidade.
 - Manter uma identidade heroica própria, sem viver à sombra de Batman.
 - Ser extremamente eficaz sem se tornar tão controlador, sombrio ou solitário quanto Bruce.
+- **Investigar historicamente a Casa Blackwood:** após as revelações do Capítulo 13, abriu uma linha de investigação própria para localizar rastros externos da Casa anteriores ao nascimento de Corvin. Não tem conclusão ainda.
 
 ## Medos/limites relevantes
 - Falhar com pessoas que dependem dele.
@@ -73,8 +74,12 @@ REL:
 ## Conhecimento atual relevante
 - Sabe do pacto Corvin–Trigon, do noivado e da idade/natureza geral de Corvin já reveladas ao grupo.
 - No Capítulo 12, Ravena confirmou que ela e Corvin já tiveram um beijo romântico real.
-- No Capítulo 12, Ravena contou que assinou o registro mágico **Casa Blackwood** como `Rachel Roth Blackwood`, esclareceu que não houve mudança legal de nome e informou que as proteções do castelo agora reconhecem seus poderes em todos os cômodos, inclusive o cofre.
-- Sabe que Ravena testou Portal para dentro do cofre com sucesso.
+- Sabe que Ravena assinou `Rachel Roth Blackwood`, que isso não é mudança legal de nome e que o castelo reconhece seus poderes em todos os cômodos, inclusive o cofre; sabe que ela testou Portal para dentro dele.
+- No Capítulo 13, Ravena contou aos Titãs que a Casa Blackwood constitui um **Ducado/Domínio sobrenatural reconhecido**, que Corvin é Duque de Blackwood e que ela será Duquesa se o casamento ocorrer dentro da tradição.
+- Sabe que o livro `BLACKWOOD` contém registros/cópias autenticadas de aproximadamente **1.600 anos atrás** e que a genealogia daquela edição termina em **Marta Blackwood**, sem explicar documentalmente Corvin.
+- Iniciou pesquisa histórica e encontrou apenas rastros preliminares: referência possivelmente relacionada ao nome, um selo semelhante e menção arquivística a uma “Casa do Bosque Negro”. Nada disso ainda prova continuidade ou data mais antiga.
+- Não sabe automaticamente a história pessoal de Marta contada depois em privado por Corvin a Ravena.
+- Não sabe automaticamente da primeira noite íntima de Corvin e Ravena.
 - Não sabe automaticamente do treino astral de Corvin, da explicação “três contra o alvo” ou das linhas específicas de pesquisa privada de Corvin.
 
 ## História consolidada relevante
@@ -85,3 +90,4 @@ REL:
 - Sua vida amorosa está aberta no início da campanha; não existe relacionamento atual predeterminado com Estelar, Barbara Gordon ou outra personagem.
 - No Capítulo 9, conheceu Corvin pessoalmente, visitou o castelo, recebeu o anel de recuperação e foi testemunha do noivado de Ravena.
 - No Capítulo 12, recebeu de Ravena a atualização sobre o beijo e sobre o reconhecimento mágico pleno dela pela Casa Blackwood.
+- No Capítulo 13, recebeu de Ravena informações sobre o Ducado/Domínio Blackwood, a antiguidade mínima documentada e a genealogia terminando em Marta; respondeu abrindo investigação histórica independente, ainda sem resultado conclusivo.
