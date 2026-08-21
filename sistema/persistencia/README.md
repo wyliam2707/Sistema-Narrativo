@@ -16,7 +16,6 @@ Esta pasta deverá concentrar, progressivamente:
 
 - estado atual e STATUS;
 - progressão causal;
-- cronologia;
 - conhecimento persistente;
 - atualização de fichas;
 - salvamento de capítulo;
@@ -26,7 +25,11 @@ Esta pasta deverá concentrar, progressivamente:
 ## Arquivos antigos ainda em uso
 
 - `../protocolo-de-fechamento-de-capitulo.md` — protocolo atual de salvamento e fechamento de capítulo.
-- Regras de estado, progressão e cronologia ainda existentes em documentos de sistema e estruturas de aventura permanecem válidas até migração específica.
+- Regras antigas de estado, progressão, cronologia e organização ainda existentes em documentos de sistema permanecem como fontes de migração até revisão específica.
+
+A nova arquitetura não exige uma camada separada de Cronologia.
+
+Quando for necessário consultar quando ou em que ordem algo aconteceu, a fonte histórica é o Livro. Um índice ou resumo cronológico pode ser criado como ferramenta opcional em campanhas muito longas, mas não constitui camada obrigatória nem fonte separada de cânone.
 
 ## Princípio
 
@@ -36,9 +39,8 @@ Cada camada guarda uma coisa diferente:
 
 ```text
 Livro       → o que aconteceu.
-Cronologia  → consulta rápida do que aconteceu.
 Progressão  → o que ainda pode causar consequência futura.
-Estado      → onde continuar exatamente agora.
+STATUS      → onde e como continuar exatamente agora.
 Ficha       → o que mudou de forma estável no personagem.
 Mestre      → o que precisa continuar verdadeiro sem ser revelado antes da hora.
 ```
