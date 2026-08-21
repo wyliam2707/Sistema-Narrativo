@@ -84,6 +84,12 @@ REL:
 - Ser definida apenas como discípula, substituta ou extensão de outra heroína.
 - Permitir que responsabilidade e dever ocupem toda a sua vida.
 
+## Conhecimento atual relevante
+- Sabe do pacto Corvin–Trigon, do noivado e das informações gerais já reveladas sobre Corvin.
+- No Capítulo 12, Ravena confirmou aos cinco Titãs que ela e Corvin já tiveram um beijo romântico real.
+- Sabe que Ravena assinou `Rachel Roth Blackwood`, que isso não é mudança legal de nome e que o castelo reconhece seus poderes em todos os cômodos, inclusive o cofre; sabe que Ravena testou Portal para dentro dele.
+- Não sabe automaticamente do treino astral de Corvin ou da explicação “três contra o alvo”.
+
 ## História consolidada relevante
 - Donna foi criada entre as Amazonas de Themyscira.
 - Recebeu formação de guerreira e teve Diana como importante figura de mentoria.
@@ -92,3 +98,4 @@ REL:
 - Com o tempo, consolidou-se como guerreira, heroína e líder por mérito próprio.
 - Sua vida amorosa está aberta no início da campanha, sem relacionamento atual previamente definido.
 - No Capítulo 9, conheceu Corvin pessoalmente, permitiu que ele demonstrasse o óleo em sua espada, ficou com o frasco e foi testemunha do noivado de Ravena.
+- No Capítulo 12, recebeu de Ravena a atualização sobre o beijo e sobre o reconhecimento mágico pleno dela pela Casa Blackwood.
