@@ -53,7 +53,7 @@ EQP:
 - Acesso às instalações, oficinas, sistemas e recursos tecnológicos dos Titãs.
 - Equipamentos construídos por Engenhosidade podem se tornar recursos persistentes após serem efetivamente projetados e construídos.
 - Esses recursos preparados devem ser registrados individualmente quando passarem a fazer parte do equipamento recorrente de Victor.
-- **Amostras da liga de Corvin:** quatro pequenas pedras/componentes e uma amostra do metal final, recebidas como presente no Capítulo 9 para análise. Uma das pedras entra em combustão em contato com água; a liga final ainda reage a líquidos, mas de forma muito menos intensa. A identidade exata dos componentes ainda não foi estabelecida.
+- **Amostras da liga de Corvin:** quatro pequenas pedras/componentes e uma amostra do metal final, recebidas como presente no Capítulo 9 para análise. No Capítulo 12, Victor confirmou apenas resultados preliminares: alguns componentes mudam de comportamento sob variações de temperatura/umidade; a pedra avisada reage violentamente com água; a liga final é muito mais estável e distribui a reação. A identidade exata dos componentes e o processo completo continuam desconhecidos.
 
 REL:
 - Titãs: sua principal equipe e um dos vínculos centrais de sua vida.
@@ -71,13 +71,19 @@ REL:
 - Usar sua condição e sua inteligência para proteger os Titãs e melhorar a vida das pessoas.
 - Desenvolver novas tecnologias sem permitir que elas definam toda a sua identidade.
 - Ter uma vida pessoal real fora de missões, oficinas e sistemas.
-- Analisar com segurança as amostras recebidas de Corvin quando houver tempo e infraestrutura adequados.
+- Continuar analisando com segurança as amostras de Corvin; no Capítulo 12 afirmou que ainda não sabe exatamente o que Corvin fez, mas quer descobrir.
 
 ## Medos/limites relevantes
 - Perder ainda mais de sua humanidade física ou emocional.
 - Ser reduzido a uma máquina, ferramenta ou sistema de armas.
 - Perder o controle sobre seus próprios sistemas.
 - Falhar com pessoas que dependem dele por confiar demais em uma solução técnica.
+
+## Conhecimento atual relevante
+- Sabe do pacto Corvin–Trigon, do noivado e das informações gerais já reveladas sobre Corvin.
+- No Capítulo 12, Ravena confirmou que ela e Corvin já tiveram um beijo romântico real.
+- Sabe que Ravena assinou `Rachel Roth Blackwood`, que isso não é mudança legal de nome e que o castelo reconhece seus poderes em todos os cômodos, inclusive o cofre; sabe que ela testou Portal para dentro dele.
+- Não sabe automaticamente do treino astral de Corvin ou da explicação “três contra o alvo”.
 
 ## História consolidada relevante
 - Victor Stone era um atleta talentoso antes do acidente que destruiu grande parte de seu corpo.
@@ -87,3 +93,4 @@ REL:
 - Sua experiência fez dele tanto um combatente pesado quanto um dos principais especialistas tecnológicos da equipe.
 - Sua vida amorosa está aberta no início da campanha, sem relacionamento atual previamente definido.
 - No Capítulo 9, conheceu Corvin pessoalmente, analisou superficialmente a liga experimental da forja, recebeu amostras e foi testemunha do noivado de Ravena.
+- No Capítulo 12, apresentou a Ravena os primeiros resultados técnicos das amostras e recebeu dela a atualização sobre o beijo e o reconhecimento mágico pleno pela Casa Blackwood.
