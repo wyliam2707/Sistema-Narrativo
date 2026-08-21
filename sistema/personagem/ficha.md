@@ -1,10 +1,10 @@
 # Ficha de Personagem
 
-Status: EM REVISÃO
+Status: APROVADO
 
 A ficha é o **dossiê consolidado do personagem**: registra quem ele é, o que consegue fazer e as informações que precisam permanecer disponíveis para interpretação e continuidade.
 
-Ela não precisa ser curta. Precisa ser organizada e conter apenas informação útil para decisão, interpretação, capacidade ou continuidade.
+Ela não precisa ser curta. Precisa ser organizada e conter informação útil para decisão, interpretação, capacidade ou continuidade.
 
 ## Ficha não é STATUS
 
@@ -79,7 +79,9 @@ REL:
 ## História consolidada relevante
 ```
 
-Personagens Centrais ou controlados por IA podem possuir blocos narrativos extensos quando isso for necessário para manter interpretação e continuidade consistentes.
+Essa ordem é apenas uma referência estética. **Qualquer personagem pode ter uma ficha de qualquer tamanho ou formato**, independentemente de sua Importância.
+
+Um Figurante pode possuir dez páginas de informação se isso for útil. Um Relevante pode ter apenas três linhas se isso for suficiente.
 
 ## Campo desconhecido fica em branco
 
@@ -99,6 +101,67 @@ No segundo caso, todos os valores já foram mecanicamente definidos.
 
 > **Zero é valor real, nunca marcador de pendência.**
 
+## IMPORTÂNCIA
+
+`IMPORTÂNCIA` indica o peso estrutural do personagem para a história e serve principalmente para orientar quando a agência individual deve ser assumida pelos papéis de jogador.
+
+Ela **não** determina:
+
+- tamanho da ficha;
+- quantidade obrigatória de informações;
+- atributos;
+- perícias;
+- poderes;
+- dificuldade;
+- proteção narrativa.
+
+As categorias são:
+
+```text
+Importância: Central
+Importância: Relevante
+Importância: Figurante
+```
+
+### Central
+
+É parte do núcleo jogável da campanha.
+
+Normalmente a campanha possui no máximo dois personagens Centrais:
+
+```text
+1 JOGADOR HUMANO
+1 JOGADOR IA dedicado
+```
+
+O JOGADOR IA dedicado existe exclusivamente para seu personagem Central.
+
+### Relevante
+
+É um personagem estruturalmente importante para a campanha, mas que não pertence ao núcleo central.
+
+Personagens Relevantes ficam a cargo do `JOGADOR IA EVENTUAL` quando sua agência individual for útil na situação.
+
+Uma única IA EVENTUAL pode assumir todos os Relevantes ativos ao mesmo tempo.
+
+### Figurante
+
+É todo personagem que não precisa de agência individual própria no ciclo.
+
+Figurantes permanecem normalmente como `NPC`, sob uso do NARRADOR.
+
+A frequência de aparição não altera essa classificação. Um entregador, guarda, comerciante ou outro NPC pode aparecer repetidamente durante toda a campanha e continuar Figurante.
+
+### Importância é quase fixa
+
+IMPORTÂNCIA representa função estrutural na campanha e não deve subir ou descer apenas porque um personagem apareceu mais vezes ou ganhou momentaneamente destaque.
+
+Se o `JOGADOR IA EVENTUAL` entender que um Figurante deveria se tornar Relevante, ou que um Relevante deveria se tornar Central, ele **deve perguntar ao JOGADOR HUMANO antes da promoção**.
+
+Sem aprovação, a classificação permanece como está.
+
+Uma promoção aprovada não altera automaticamente nenhuma outra parte da ficha. Atributos, perícias, poderes, recursos e demais informações continuam iguais. Novos campos de descrição podem ser acrescentados depois apenas se forem úteis para continuidade.
+
 ## CONTROLE
 
 A ficha pode registrar:
@@ -112,33 +175,31 @@ CONTROLE: NPC
 
 `CONTROLE` é metadado estrutural e não atributo mecânico.
 
-Ele informa como o personagem participa do ciclo e quem possui autoridade normal para suas decisões.
+Ele informa como o personagem participa normalmente do ciclo e quem possui autoridade usual sobre suas decisões.
 
 ### JOGADOR HUMANO
 
-É o personagem do jogador humano.
+É o personagem Central do jogador humano.
 
 ### JOGADOR IA
 
-É um personagem com uma IA dedicada exclusivamente a ele. É apropriado para coprotagonistas, parceiros românticos ou personagens cuja agência individual precisa ser preservada de forma contínua.
+É o personagem Central com uma IA dedicada exclusivamente a ele. É apropriado para coprotagonista, parceiro romântico ou outro personagem cuja agência individual precisa ser preservada continuamente.
 
 ### JOGADOR IA EVENTUAL
 
-É um personagem que pode receber agência própria quando for importante para a campanha. Uma mesma IA eventual pode controlar simultaneamente todos os personagens eventuais ativos.
+É usado pelos personagens Relevantes. Uma mesma IA EVENTUAL pode assumir simultaneamente todos os Relevantes que precisarem de agência própria naquela situação.
 
 ### NPC
 
-É um personagem de uso normal do NARRADOR. Inclui figurantes, civis, monstros, inimigos, criaturas e demais personagens sem jogador próprio.
+É personagem de uso normal do NARRADOR. Inclui figurantes, civis, monstros, inimigos, criaturas e demais personagens sem jogador próprio.
 
-### OPOSITOR não é um tipo de CONTROLE
+## OPOSITOR não é um tipo de CONTROLE
 
-O OPOSITOR não possui uma categoria permanente de personagens.
+O OPOSITOR não possui uma categoria permanente de personagem.
 
-Sua função é propor problemas e apresentar oposição.
+Sua função é **gerar problemas e apresentar oposição**.
 
-Ele pode sugerir a entrada de NPCs, forças, ameaças ou outros elementos capazes de produzir oposição. O NARRADOR julga se essa proposta é válida e coerente com a ficção.
-
-Se aprovada, o NARRADOR pode disponibilizar esses elementos ao OPOSITOR para uso naquela oposição.
+Ele pode propor a entrada de NPCs, forças, ameaças, interrupções ou outros elementos capazes de produzir oposição. O NARRADOR julga se a proposta é válida e coerente com a ficção.
 
 Exemplo:
 
@@ -148,14 +209,17 @@ Trigon envia dois assassinos.
 
 NARRADOR:
 Julga se Trigon pode fazer isso e se a entrada desses assassinos é coerente.
-
-Se aprovado:
-Os assassinos podem ser usados pelo OPOSITOR na oposição da cena.
 ```
 
-Os assassinos continuam sendo `NPC`; não passam a ter `CONTROLE: OPOSITOR`.
+Se a proposta for aceita, os assassinos continuam sendo `NPC`, mas o NARRADOR pode **delegá-los temporariamente ao OPOSITOR** para que ele jogue com eles durante aquela oposição.
 
-As regras operacionais dessas categorias pertencem a `../personas/` e ao ciclo do sistema. Esta área apenas registra o valor aprovado na ficha.
+Quando a delegação termina, eles continuam sendo NPCs. Não existe `CONTROLE: OPOSITOR` na ficha.
+
+O mesmo vale para qualquer NPC já existente. O OPOSITOR pode propor usar um entregador para interromper uma cena, um guarda para bloquear uma passagem ou um monstro para atacar; o NARRADOR julga a validade e, quando apropriado, executa o NPC ou o delega temporariamente ao OPOSITOR.
+
+> **O OPOSITOR provoca e argumenta pela oposição. O NARRADOR julga e pode disponibilizar NPCs para executá-la.**
+
+As regras operacionais detalhadas dessas categorias pertencem a `../personas/` e ao ciclo do sistema. Esta área apenas registra a estrutura da ficha.
 
 ## RECURSOS
 
@@ -180,12 +244,6 @@ Ter um castelo não significa automaticamente possuir toda instalação que venh
 
 Novos RECURSOS podem ser adicionados naturalmente quando forem estabelecidos e passarem a ter utilidade real.
 
-Exemplo:
-
-```text
-Castelo dos Corvos => Forja antiga, Biblioteca imensa, Laboratório de alquimia, Sala de tango, Sala de treino, Solar, 5 quartos
-```
-
 Não é necessário grande evento mecânico para atualizar essa linha. A ficha apenas passa a refletir o que já existe.
 
 RECURSOS não possuem Patamar por padrão e não concedem bônus automáticos. Eles estabelecem meios, infraestrutura, acesso e possibilidades concretas.
@@ -208,54 +266,15 @@ RECURSOS também não anulam limites físicos ou ficcionais. Se novas instalaç�
 
 > **RECURSOS registram apenas o que foi efetivamente estabelecido e pode ser útil depois.**
 
-## Estrutura recomendada — personagem Central
+## Modelo-base de ficha
+
+O sistema não exige modelos diferentes para Central, Relevante ou Figurante. O mesmo formato pode ser expandido ou reduzido livremente conforme a necessidade real.
 
 ```text
 # Nome
 
 Status: PENDENTE DE REVISÃO
-Importância: Central
-CONTROLE: ...
-
-Idade:
-Conceito:
-Descrição:
-
-TRAÇOS:
-- ...
-
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
-PER:
-PODERES:
-- Poder [Fonte opcional] [ ] => uso / uso / especialização [ ]
-RECURSOS:
-REL:
-
-## Personalidade e tendências
-- ...
-
-## Desejos/objetivos atuais
-- ...
-
-## Medos/limites relevantes
-- ...
-
-## Conhecimento atual relevante
-- ...
-
-## História consolidada relevante
-- somente fatos necessários para interpretar o personagem e preservar continuidade
-```
-
-Uma ficha Central pode ser extensa porque precisa sustentar agência e continuidade por muito tempo.
-
-## Estrutura recomendada — personagem Relevante
-
-```text
-# Nome
-
-Status: PENDENTE DE REVISÃO
-Importância: Relevante
+Importância: ...
 CONTROLE: ...
 
 Idade:
@@ -274,10 +293,10 @@ REL:
 ## Personalidade e tendências
 - ...
 
-## Desejos/objetivos atuais
+## Desejos / objetivos atuais
 - ...
 
-## Medos/limites relevantes
+## Medos / limites relevantes
 - ...
 
 ## Conhecimento atual relevante
@@ -287,54 +306,11 @@ REL:
 - ...
 ```
 
-A ficha Relevante pode ser mais curta quando menos informação for necessária para interpretá-la corretamente.
+Campos sem utilidade real podem ser omitidos ou permanecer vazios.
 
-Se um campo não possui utilidade real, ele pode permanecer vazio.
+## Ficha reservada
 
-## Ficha reservada de antagonista importante
-
-Quando um antagonista importante precisa de continuidade sem revelar suas capacidades ao jogador, pode usar a mesma linguagem de ficha em área reservada da aventura.
-
-Modelo:
-
-```text
-# Nome
-
-Status: CANÔNICO DO MESTRE
-Visibilidade: MESTRE
-Importância: Relevante | Central
-
-Idade:
-Conceito:
-Descrição:
-
-TRAÇOS:
-- ...
-
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
-PER:
-PODERES:
-RECURSOS:
-REL:
-
-## Personalidade e tendências
-- ...
-
-## Desejos/objetivos atuais
-- ...
-
-## Medos/limites relevantes
-- ...
-
-## Conhecimento atual relevante
-- ...
-
-## História consolidada relevante
-- ...
-
-## Segredos ainda não descobertos
-- ...
-```
+Quando um personagem precisa de continuidade sem revelar suas capacidades ou segredos ao jogador, pode usar a mesma linguagem de ficha em uma área reservada da aventura.
 
 A ficha reservada preserva segredo; não autoriza alterar capacidades retroativamente apenas para contrariar uma solução válida.
 
@@ -352,7 +328,7 @@ Somente depois da aprovação explícita da ficha consolidada mudar para:
 Status: APROVADO
 ```
 
-Fichas reservadas do Narrador usam seu próprio estado canônico e não passam por aprovação aberta quando isso revelaria segredos.
+Fichas reservadas do NARRADOR podem usar estado canônico próprio quando uma aprovação aberta revelaria segredos.
 
 ## Alterações posteriores
 
@@ -360,7 +336,7 @@ A ficha não recebe XP ou melhorias automáticas por missão ou capítulo.
 
 Se a ficção alterar de verdade o personagem — por transformação permanente, aquisição real de uma capacidade, perda estrutural, mudança estável de identidade ou equivalente — a parte mecânica da ficha pode ser atualizada para representar a nova realidade.
 
-As partes narrativas da ficha também podem ser atualizadas quando novos objetivos, conhecimentos, relações, limites ou fatos consolidados passarem a ser necessários para interpretar corretamente o personagem.
+As partes narrativas também podem ser atualizadas quando novos objetivos, conhecimentos, relações, limites ou fatos consolidados passarem a ser necessários para interpretar corretamente o personagem.
 
 > **A ficha acompanha quem o personagem é e o que precisa ser lembrado para interpretá-lo corretamente.**
 
