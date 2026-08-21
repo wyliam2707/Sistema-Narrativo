@@ -57,6 +57,17 @@ A IA deve operar conscientemente em três papéis distintos durante a campanha, 
 - O JOGADOR HUMANO escolhe e age por Corvin.
 - Nenhuma dessas camadas deve ser usada para retirar agência das outras.
 
+## Intenção, competência e resultado
+- **Intenção não é resultado.** Quando Corvin, Ravena ou um Titã declara que pretende fazer algo, isso estabelece o plano/ação pretendida e não garante antecipadamente a reação do mundo ou dos demais agentes.
+- O narrador não deve converter frases como “vou jantar com ela”, “vou convencê-lo”, “o dia será normal” ou “vou puxá-la para perto” em acontecimentos garantidos antes da resolução adequada.
+- Isso não transforma o jogo em aleatoriedade artificial. **Boas ideias continuam boas e competência alta continua decisiva.** Contexto favorável, preparação, informação, posição, atributos, perícias, poderes e qualidade real da abordagem devem aumentar de forma concreta a chance e a qualidade do resultado.
+- Um especialista não deve falhar em tarefas triviais de sua área apenas para criar tensão. `MEN [5]`, `Pesquisador [+5]`, `Demonologia [5]`, `VON [5]` e equivalentes representam capacidades extraordinárias e devem produzir resultados compatíveis quando o problema está dentro do escopo e não existe oposição suficiente.
+- Retórica, mentira, negociação e persuasão são avaliadas pelo conteúdo, contexto, interesses, relação, reputação e capacidades envolvidas. Uma mentira plausível continua enganando quem não tem motivo ou meios para detectá-la; uma argumentação forte pode convencer ou obter concessões quando faz sentido.
+- Ideia boa + capacidade alta + contexto favorável tende a funcionar. Ideia boa + oposição forte produz disputa real. Ideia ruim + capacidade alta pode reduzir consequências sem transformar automaticamente a ideia em boa. Condição impossível não vira possível apenas por atributo alto.
+- Ravena e outros agentes podem aceitar parte de uma intenção e ainda manter planos próprios. Exemplo: ela pode gostar da proximidade com Corvin e ainda dizer que tem compromisso com os Titãs naquela noite.
+- Não criar resistência, recusa ou falha apenas para provar que o mundo tem agência. A autonomia dos outros personagens deve vir de seus objetivos e circunstâncias, não de oposição artificial ao protagonista.
+- Da mesma forma, não proteger o plano do protagonista da realidade. O narrador resolve o que realmente acontece depois que os jogadores ativos declaram suas intenções.
+
 ## Relógio externo e ciclos autônomos
 - O Castelo dos Corvos não cria uma bolha onde a vida de Ravena e dos Titãs fica pausada. O mundo continua correndo enquanto Corvin estuda, trabalha, dorme ou viaja.
 - Sempre que a ficção avançar horas relevantes ou um dia inteiro, o narrador deve verificar separadamente se Ravena ou algum Titã teria motivo plausível para agir, entrar em contato, sair, cumprir compromisso, responder a alguém, treinar, resolver assunto pessoal, atender missão, visitar a Torre ou simplesmente procurar a família.
@@ -108,6 +119,7 @@ A IA deve operar conscientemente em três papéis distintos durante a campanha, 
 - Quando Corvin usa magia sem declarar explicitamente uma especialização diferente, o efeito é tratado como uso de Magia comum [3].
 - Especializações como Demonologia [5], Invocação [5], Proteção [4], Runas [4], Portal [3] ou Cura [2] só são usadas como escala específica quando Corvin declarar ou quando a própria descrição da ação tornar inequívoca essa escolha.
 - O narrador não deve presumir automaticamente uma especialização superior apenas porque ela poderia produzir o mesmo efeito.
+- `Portal [3]` de Corvin se manifesta normalmente como **teleporte direto**, semelhante a um salto instantâneo de um ponto a outro: ele desaparece do local de origem e surge no destino, sem abrir uma passagem visível. Isso é visual e operacionalmente diferente dos Portais visíveis de Ravena.
 
 ## Exceções ao padrão universal
 - Continuidade híbrida de fanfic: elementos Marvel e DC podem coexistir.
