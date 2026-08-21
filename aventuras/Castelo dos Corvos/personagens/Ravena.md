@@ -49,15 +49,15 @@ EQP:
 REL:
 - Titãs: sua equipe e principal grupo de vínculos recorrentes. Continua saindo do castelo para compromissos, reuniões, treino e vida própria com eles.
 - Trigon: pai e origem de sua herança demoníaca; relação perigosa e conflituosa. Um pacto firmado entre Corvin e Trigon limita o uso e modificação do vínculo Ravena–Trigon enquanto Ravena permanecer membro reconhecido da Casa Blackwood por consentimento mútuo.
-- **Corvin Blackwood:** noivo de Ravena desde o Capítulo 9. Ravena aceitou casar-se com ele e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. O vínculo é voluntário e não exige residência permanente, submissão ou permanência contra sua vontade. No Capítulo 10, Ravena tomou a iniciativa do primeiro beijo romântico real. No Capítulo 11, disse diretamente que gosta dele, quer continuar com ele, continuar beijando-o e descobrir no que a relação vai se transformar. No Capítulo 12, a convivência se tornou mais natural, com beijos casuais e uma noite simples de dança em Praga; Ravena chamou o Castelo dos Corvos de “casa”. No Capítulo 13, após um segundo encontro de dança escolhido por ela, Ravena abriu a porta do próprio quarto, convidou Corvin a entrar, declarou de forma explícita que queria que ele continuasse e pediu que ficasse. Os dois tiveram a primeira noite de intimidade física e dormiram juntos pela primeira vez. Os quartos continuam existindo como espaços pessoais; não foi estabelecida mudança permanente de dormitório.
-- **Casa Blackwood:** Ravena é membro reconhecido por consentimento bilateral contínuo para efeito do pacto com Trigon e membro reconhecido magicamente pelas proteções da própria Casa após assinar `Rachel Roth Blackwood`. No Capítulo 13 passou a compreender que essa posição também é social e institucional: já é **Senhora Blackwood / Senhora da Casa**, pode praticar atos administrativos ordinários e será **Duquesa de Blackwood** se o casamento ocorrer dentro da tradição da Casa.
+- **Corvin Blackwood:** noivo de Ravena desde o Capítulo 9. Ravena aceitou casar-se com ele e fazer parte da Casa Blackwood enquanto essa continuar sendo sua vontade. O vínculo é voluntário e não exige residência permanente, submissão ou permanência contra sua vontade. No Capítulo 10, Ravena tomou a iniciativa do primeiro beijo romântico real. No Capítulo 11, disse diretamente que gosta dele, quer continuar com ele, continuar beijando-o e descobrir no que a relação vai se transformar. No Capítulo 12, a convivência se tornou mais natural, com beijos casuais e uma noite simples de dança em Praga; Ravena chamou o Castelo dos Corvos de “casa”. No Capítulo 13, após um segundo encontro de dança escolhido por ela, Ravena abriu a porta do próprio quarto, convidou Corvin a entrar, declarou de forma explícita que queria que ele continuasse e pediu que ficasse. Os dois tiveram a primeira noite de intimidade física e dormiram juntos pela primeira vez. No Capítulo 14, a convivência confirmou que essa intimidade não criou obrigação de dormir juntos todas as noites; os quartos continuam existindo como espaços pessoais.
+- **Casa Blackwood:** Ravena é membro reconhecido por consentimento bilateral contínuo para efeito do pacto com Trigon e membro reconhecido magicamente pelas proteções da própria Casa após assinar `Rachel Roth Blackwood`. No Capítulo 13 passou a compreender que essa posição também é social e institucional: já é **Senhora Blackwood / Senhora da Casa**, pode praticar atos administrativos ordinários e será **Duquesa de Blackwood** se o casamento ocorrer dentro da tradição da Casa. No Capítulo 14, Corvin explicitou que o pertencimento dela à Casa não é prêmio ou condição romântica: mesmo que o relacionamento entre os dois termine, Ravena continua Blackwood enquanto quiser genuinamente continuar pertencendo e o reconhecimento correspondente permanecer válido.
 
 ## Personalidade e tendências
 - Reservada, controlada, distante e bastante privada.
 - Tem dificuldade em permitir proximidade emocional, mas quando confia em alguém desenvolve vínculos fortes e é extremamente leal.
 - Seu autocontrole não elimina seus desejos ou emoções; ele é uma disciplina necessária para conviver com sua natureza e seus poderes.
 - No relacionamento com Corvin, usa comunicação direta: quando quiser parar, recuar, aproximar-se mais ou precisar de distância, pretende dizer de forma explícita em vez de depender de indiretas. No Capítulo 13 aplicou essa regra diretamente durante a primeira noite íntima.
-- Mantém vida própria com os Titãs mesmo convivendo com Corvin; o romance não substitui equipe, treino, obrigações ou amizades.
+- Mantém vida própria com os Titãs mesmo convivendo com Corvin; o romance não substitui equipe, treino, obrigações ou amizades. No Capítulo 14 passou um dia inteiro na Torre por iniciativa própria enquanto Corvin trabalhava fora.
 - Começou a demonstrar curiosidade espontânea por alquimia e forja ao observar Corvin trabalhando. Ainda não iniciou treinamento formal.
 
 ## Desejos/objetivos atuais
@@ -66,7 +66,7 @@ REL:
 - Deseja continuar escolhendo quem quer ser, em vez de aceitar o destino imposto por sua herança demoníaca.
 - Em nível profundamente pessoal, deseja a possibilidade de uma vida comum: dançar por prazer, namorar, construir um lar e talvez ter filhos, sem que sua herança ou seus conflitos sobrenaturais determinem cada aspecto de sua existência.
 - Quer continuar explorando a relação com Corvin sem transformar o noivado em obrigação de cumprir um roteiro predefinido.
-- Quer compreender melhor a Casa Blackwood da qual passou a fazer parte, inclusive sua história, domínio, títulos e responsabilidades.
+- Quer compreender melhor a Casa Blackwood da qual passou a fazer parte, inclusive sua história, domínio, títulos, responsabilidades e a ruptura histórica anterior aos registros contínuos.
 - O noivado com Corvin não encerra sua autonomia; o futuro da relação continua dependente das escolhas dos dois.
 
 ## Medos/limites relevantes
@@ -76,6 +76,7 @@ REL:
 - Sua tendência a manter distância emocional também funciona como mecanismo de proteção.
 - Reconhecimento mágico da Casa não equivale a autorização afetiva automática: fronteiras pessoais continuam sendo decididas por Ravena e Corvin por comunicação direta.
 - Autoridade administrativa Blackwood não equivale a competência ilimitada. Ravena decidiu que não assinará o que não compreender e deixará assuntos de território, invasão, novas obrigações extraordinárias ou matéria muito exótica para revisão de Corvin quando necessário.
+- No Capítulo 14, deixou claro a Corvin que não aceita a ideia de ele tratar morrer por ela como plano desejável, mesmo compreendendo a contingência de proteção que ele preparou.
 
 ## Conhecimento atual relevante
 - Conhece os termos do pacto Corvin–Trigon e sabe que a proteção depende de pertencimento real e consentimento bilateral contínuo.
@@ -90,11 +91,21 @@ REL:
 - Sabe que a Casa Blackwood quase não faz negócios na Terra e que boa parte da atividade comercial de Corvin é extraplanar; a Terra funciona mais como base e fonte ocasional de insumos/mercadorias.
 - Sabe que a genealogia da edição do livro `BLACKWOOD` termina em **Marta Blackwood** e não explica documentalmente a transição para Corvin.
 - Sabe, por Corvin, que Marta Blackwood era uma Antiga como ele, último membro vivo da linhagem original, encontrou Corvin quando ele tinha cerca de 20 anos, trouxe-o para a Casa e lhe ensinou demonologia e tradição Blackwood.
+- Sabe agora que Marta possuía `Demonologia [3]`, era uma demonologista competente e forte, mas não invulnerável.
 - Sabe que Marta foi o primeiro grande amor de Corvin e esposa dele; Corvin já era Senhor/Duque havia cerca de seis anos quando Marta morreu em combate, com ele perto dos 30.
+- Sabe que Corvin investigou a morte de Marta por mais de trinta anos e não encontrou conspiração relevante além de um contrato para combate e um inimigo mais forte.
 - Sabe que Corvin não a vê como substituta de Marta. Ele declarou diretamente que o que sentiu por Marta pertence a Marta e o que sente por Ravena pertence a Ravena.
-- Sabe que Dick iniciou investigação histórica independente sobre a Casa e encontrou apenas rastros preliminares, sem conclusão.
+- **Não sabe** que, no fim do Capítulo 14, Corvin fez sozinho uma despedida privada à fotografia de Marta e declarou que finalmente podia deixá-la ir.
+- Sabe que Dick iniciou investigação histórica independente sobre a Casa. No Capítulo 14, Dick mostrou a ela rastros possivelmente de 1.700–1.800 anos, incluindo tradução próxima de “Casa do Bosque Negro”, símbolo semelhante ao selo Blackwood e referência a uma instituição garantidora de passagem territorial; tudo continua hipótese.
+- Sabe, por Corvin, que a melhor reconstrução histórica dele aponta para uma quase dizimação da Casa há mais de 1.500 anos, aproximadamente no período em que começam os registros oficiais contínuos; material anterior está muito fragmentado ou destruído.
+- Sabe que a Casa historicamente incluiu pessoas sem magia, demonologistas e alguns Antigos; em períodos recentes anteriores a Corvin, com exceção de Marta, muitos membros eram humanos comuns com influência e poder social.
+- Sabe que Corvin investigou as mortes de quase todos os Blackwoods rastreáveis e que muitas se relacionam a contratos de retaliação ou obrigações mal estipuladas.
+- Sabe que Corvin considera plausível que alguns contratos antigos preservem a continuidade da Casa enquanto ao menos um Blackwood reconhecido sobreviver; entende isso como hipótese fundada, não regra universal confirmada.
+- Sabe que seu próprio pertencimento Blackwood não depende de permanecer romanticamente com Corvin.
+- Sabe que Corvin a colocou na continuidade da Casa também para que, se ele morrer tentando protegê-la, Blackwood continue a protegê-la em sua ausência.
 - Conhece os resultados preliminares de Victor sobre a liga, o teste bem-sucedido dos brincos solares de Kory e os testes de fala do bracelete de Garfield.
 - Sabe que livros e anotações de Corvin podem permanecer abertos pela casa como parte normal do trabalho dele; isso não garante respostas úteis nem significa que tenham sido deixados para ela.
+- Uma das referências do livro cinzento levou a fonte secundária que confirma em termos gerais a existência de práticas de **referência persistente entre planos**. Isso não confirma aplicação contra Trigon nem resolve o vínculo.
 
 ## História consolidada relevante
 - Rachel Roth nasceu de mãe humana e de Trigon.
@@ -115,3 +126,6 @@ REL:
 - Corvin declarou que Ravena não substitui Marta e que o sentimento por cada uma pertence à própria relação. Ravena respondeu que não quer ocupar o lugar de Marta, mas construir o próprio lugar.
 - Na quarta-feira seguinte, Ravena escolheu e conduziu um segundo encontro de dança. No retorno, abriu a porta do próprio quarto, convidou Corvin a entrar e conduziu de forma explícita a progressão de intimidade. Pediu que ele ficasse; os dois dormiram juntos pela primeira vez.
 - Na manhã seguinte, Corvin perdeu a corrida habitual porque permaneceu com Ravena. Depois de algum tempo juntos, ele retornou ao próprio quarto por Portal para se vestir e desceu para preparar café. O Capítulo 13 termina nesse ponto.
+- No Capítulo 14, Ravena retomou a própria vida na Torre dos Titãs enquanto Corvin passou o dia em negócios. Treinou, almoçou com os amigos, avançou modestamente a pesquisa do livro cinzento e recebeu de Dick novos rastros históricos Blackwood ainda inconclusivos.
+- Naquela noite, Corvin explicou a Ravena sua reconstrução da quase destruição da Casa, a diversidade histórica de seus membros, as mortes ligadas a contratos e sua investigação de décadas sobre Marta.
+- Corvin também deixou claro que Ravena continua Blackwood independentemente do romance e revelou que a inseriu na continuidade da Casa para que, se ele morrer protegendo-a, a proteção Blackwood continue existindo. Ravena compreendeu a lógica, mas deixou claro que prefere Corvin vivo.
