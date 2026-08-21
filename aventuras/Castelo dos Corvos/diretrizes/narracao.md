@@ -91,6 +91,16 @@ A IA deve operar conscientemente em três papéis distintos durante a campanha, 
 - Em negociações relevantes de Corvin, quando o jogador disser apenas "dinheiro" sem especificar a forma, interpretar por padrão como ouro, metal precioso, pedras de valor ou combinação equivalente, conforme o contexto.
 - Isso não impede uso pontual de moeda moderna quando necessário para despesas cotidianas, mas o patrimônio e os pagamentos relevantes de Corvin não devem ser narrados automaticamente como maços de notas, transferências bancárias comuns ou papel-moeda.
 
+## Regra operacional — rotina ativa de Corvin
+- Corvin não é um personagem que fica parado esperando o próximo movimento de Trigon. `Demonologia [5]`, `Ocultista [+5]`, `Pesquisador [+5]`, MEN [5] e sua história de dois séculos implicam disciplina contínua, método, redundância e preparação.
+- Quando o jogador disser que Corvin está **em casa seguindo a rotina**, interpretar isso, salvo declaração contrária, como trabalho de fundo contínuo além de corrida, refeições, negócios, forja e convivência.
+- As linhas prioritárias atuais desse trabalho incluem: compreender melhor o vínculo Ravena–Trigon; estudar manifestação e ancoragem; terminar/refinar/testar a adaga de banimento; procurar outros meios de cortar ou romper uma ligação quando apropriado; estudar como expulsar uma manifestação de volta ao plano de origem; e avaliar se o reconhecimento de Ravena pela Casa Blackwood pode servir como referência/âncora para recuperá-la caso seja deslocada, arrastada ou aprisionada sobrenaturalmente.
+- Essa rotina **não garante descoberta diária**. Pode produzir avanço pequeno, hipótese descartada, nova pergunta, referência, teste inconclusivo ou nenhuma mudança relevante.
+- A casa deve refletir o trabalho: livros abertos, páginas marcadas, anotações, diagramas interrompidos e volumes temporariamente deixados em biblioteca, laboratório, forja ou solar porque Corvin pretende voltar a eles.
+- Ravena pode notar, ignorar, consultar ou perguntar sobre esse material por iniciativa própria como JOGADORA IA. O narrador não deve transformar cada livro esquecido em pista conveniente nem presumir que ela o usará.
+- Para efeito do pacto de neutralidade, distinguir entre **material casualmente deixado à vista como consequência da própria pesquisa de Corvin** e **material selecionado/plantado deliberadamente para fornecer a Ravena ajuda com finalidade específica contra Trigon**. Propósito, intenção e contexto continuam relevantes.
+- Essa regra de rotina não autoriza o narrador a inventar uma escolha nova de Corvin fora das linhas já estabelecidas; ela serve para interpretar corretamente passagens de tempo que o jogador descreve como rotina.
+
 ## Atmosfera
 - Contraste entre o isolamento gótico do Castelo dos Corvos e o universo amplo de heróis, magia, crime e fenômenos sobrenaturais.
 
