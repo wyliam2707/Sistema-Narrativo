@@ -16,7 +16,27 @@ Atributos e perícias não são somados automaticamente. Cada um descreve uma di
 
 ---
 
-## 1. Escala de atributos — [0] a [5]
+## 1. PATAMAR não é linear
+
+As escalas do sistema são **qualitativas e não lineares**.
+
+Cada avanço representa um salto progressivamente maior dentro daquela capacidade. Subir de `[3]` para `[4]` não significa apenas acrescentar um pouco mais, e `[5]` não é apenas mais um ponto acima de `[4]`.
+
+Os graus altos devem carregar peso narrativo compatível com aquilo que representam:
+
+- `[3]` já descreve uma capacidade excepcional ou poderosa;
+- `[4]` representa um nível extremo e raro;
+- `[5]` representa o ápice da capacidade, próximo de uma referência máxima daquela área.
+
+> **Se `[3]` já descreve corretamente a capacidade, não usar `[4]`. Se `[4]` já basta, não usar `[5]`.**
+
+Essa regra não existe para equilibrar personagens. Ela preserva o significado da escala.
+
+As regras completas para escolher e calibrar os graus pertencem a `calibracao.md`.
+
+---
+
+## 2. Escala de atributos — [0] a [5]
 
 Atributos usam a seguinte escala:
 
@@ -45,30 +65,32 @@ O grau não é uma medida física exata. Não existe obrigação de converter ca
 
 ---
 
-## 2. Natureza não é grau
+## 3. Natureza não é grau
 
 Natureza e grau são informações diferentes.
 
-`Humano`, `Vampiro`, `Demônio` ou outro modelo descreve o que o personagem é.
+`Humano`, `Vampiro`, `Demônio` ou outra natureza descreve o que o personagem é.
 
-`[0]`, `[1]`, `[2]`, `[3]`, `[4]` ou `[5]` descreve o patamar de uma capacidade.
+`[0]`, `[1]`, `[2]`, `[3]`, `[4]` ou `[5]` descreve o patamar de uma capacidade específica.
 
-Por isso, um modelo humano pode possuir capacidades acima de `[0]` quando a própria ficção justificar isso.
+Por isso, um personagem humano pode possuir capacidades acima de `[0]` quando a própria ficção justificar isso.
+
+A natureza do personagem não preenche automaticamente seus atributos nem determina um grau único para todas as capacidades.
 
 ---
 
-## 3. Escala de perícias — [+0] a [+5]
+## 4. Escala de perícias — [+0] a [+5]
 
 Perícias representam conhecimento adquirido, treinamento, experiência e domínio prático dentro de um campo.
 
 | Grau | Referência |
 |---|---|
 | **[+0]** | cotidiano / conhecimento comum plausível |
-| **[+1]** | treinado / formação inicial ou prática real |
-| **[+2]** | profissional |
-| **[+3]** | especialista |
-| **[+4]** | mestre |
-| **[+5]** | ápice daquela área |
+| **[+1]** | treinado / formação ou prática real |
+| **[+2]** | forte competência profissional |
+| **[+3]** | excepcional / claramente fora da curva |
+| **[+4]** | extraordinário / entre os melhores |
+| **[+5]** | ápice / referência máxima daquela área |
 
 Toda perícia não registrada na ficha é considerada implicitamente `[+0]` quando precisar ser avaliada.
 
@@ -82,7 +104,7 @@ O sinal `+` diferencia visualmente perícias das demais capacidades graduadas.
 
 ---
 
-## 4. Relação entre atributo e perícia
+## 5. Relação entre atributo e perícia
 
 O atributo descreve a capacidade disponível.
 
@@ -93,44 +115,46 @@ A perícia descreve a eficácia adquirida para empregar essa capacidade dentro d
 Exemplos:
 
 ```text
-CORPO [5]
+FOR [5]
 Luta [+1]
 ```
 
 Representa potência física extrema com técnica de combate apenas básica.
 
 ```text
-CORPO [0]
+FOR [0]
 Luta [+5]
 ```
 
-Representa corpo humano com domínio marcial extremo.
+Representa força dentro do patamar humano com domínio marcial de ápice.
 
 Da mesma forma:
 
 ```text
-MENTE [5]
+MEN [5]
 Engenharia [+0]
 ```
 
-representa uma mente de capacidade extraordinária, capaz de compreender, analisar e aprender muito rapidamente, mas sem possuir automaticamente conhecimento avançado de engenharia.
+representa uma mente em grau ápice, capaz de perceber, analisar, raciocinar e aprender em escala compatível com esse atributo, mas sem possuir automaticamente conhecimento avançado de engenharia.
 
 ```text
-MENTE [5]
+MEN [5]
 Engenharia [+5]
 ```
 
-combina capacidade cognitiva extrema com domínio extremo daquele campo.
+combina capacidade cognitiva de ápice com domínio de ápice naquele campo.
 
 Atributo e perícia não são somados automaticamente.
 
 ---
 
-## 5. Escala de poderes — [1] a [5]
+## 6. Escala de poderes — [1] a [5]
 
 Poderes representam capacidades extraordinárias que não pertencem naturalmente ao patamar humano comum.
 
-Por isso, poderes usam apenas:
+A fonte pode ser sobrenatural, biológica, tecnológica ou qualquer outra compatível com o conceito do personagem. Uma armadura, arsenal, veículo ou sistema tecnológico pode ser registrado como PODER quando funciona como capacidade incorporada e estável do personagem.
+
+Poderes usam apenas:
 
 ```text
 [1] [2] [3] [4] [5]
@@ -158,7 +182,7 @@ Duas capacidades no mesmo grau não fazem a mesma coisa. Elas apenas operam em p
 
 ---
 
-## 6. Zero é um valor real
+## 7. Zero é um valor real
 
 Durante criação ou revisão, um campo ainda desconhecido deve permanecer em branco.
 
@@ -172,7 +196,7 @@ Poderes não possuem grau `[0]`.
 
 ---
 
-## 7. Calibração
+## 8. Calibração
 
 Este arquivo define o significado das escalas.
 
