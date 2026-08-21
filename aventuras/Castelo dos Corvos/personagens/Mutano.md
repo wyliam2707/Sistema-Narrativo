@@ -76,6 +76,12 @@ REL:
 - Sabe do pacto Corvin–Trigon, do noivado e das informações gerais já reveladas sobre Corvin.
 - No Capítulo 12, Ravena confirmou aos cinco Titãs que ela e Corvin já tiveram um beijo romântico real.
 - Sabe que Ravena assinou `Rachel Roth Blackwood`, que isso não é mudança legal de nome e que o castelo reconhece seus poderes em todos os cômodos, inclusive o cofre; sabe que Ravena testou Portal para dentro dele.
+- No Capítulo 13, Ravena contou aos Titãs que a Casa Blackwood constitui um **Ducado/Domínio sobrenatural reconhecido**, que Corvin é Duque de Blackwood e que ela será Duquesa após o casamento dentro da tradição.
+- Sabe que o livro `BLACKWOOD` possui registros/cópias autenticadas de aproximadamente **1.600 anos atrás** e que a genealogia da edição termina em **Marta Blackwood**.
+- Foi Garfield quem criou imediatamente a brincadeira **“Vossa Trevosidade”** ao saber que Ravena será futura Duquesa de Blackwood.
+- Sabe que Dick iniciou investigação histórica independente sobre a Casa.
+- Não sabe automaticamente a história pessoal de Marta contada depois em privado por Corvin a Ravena.
+- Não sabe automaticamente da primeira noite íntima de Corvin e Ravena.
 - Não sabe automaticamente do treino astral de Corvin ou da explicação “três contra o alvo”.
 
 ## História consolidada relevante
@@ -85,3 +91,4 @@ REL:
 - Relações românticas específicas permanecem em aberto no início da campanha.
 - No Capítulo 9, conheceu Corvin pessoalmente, recebeu o bracelete, descobriu que pode falar em forma de tigre usando-o e foi testemunha do noivado de Ravena.
 - No Capítulo 12, testou novamente o bracelete em formas diferentes e recebeu de Ravena a atualização sobre o beijo e o reconhecimento mágico pleno dela pela Casa Blackwood.
+- No Capítulo 13, recebeu de Ravena a atualização sobre o Ducado/Domínio Blackwood, a antiguidade mínima documentada e a futura posição de Duquesa; reagiu com a brincadeira “Vossa Trevosidade”.
