@@ -43,9 +43,9 @@ PODERES:
 
 Regra da Engenhosidade:
 - Engenhosidade não cria tecnologia gratuitamente: projetos e construções relevantes podem consumir Energia.
-- Uma criação avulsa ou improvisada para uso imediato, como montar rapidamente um drone específico para a situação, pode exigir um custo alto de Energia; em uma criação relevante, esse custo pode chegar a aproximadamente metade do recurso disponível, conforme a escala e a dificuldade.
-- Quando Victor dispõe de tempo, materiais e infraestrutura para desenvolver o projeto com calma, o custo imediato cai. Um projeto que leve dias ou cerca de uma semana pode se tornar um recurso preparado e persistente.
-- Depois de construído e preparado, o uso normal desse recurso exige no máximo um pequeno custo de Energia quando houver esforço ativo dos sistemas de Victor; operar um aparelho autônomo pode não exigir custo contínuo.
+- Uma criação avulsa ou improvisada para uso imediato pode exigir custo alto de Energia; em uma criação relevante, esse custo pode chegar a aproximadamente metade do recurso disponível, conforme escala e dificuldade.
+- Quando Victor dispõe de tempo, materiais e infraestrutura, o custo imediato cai. Um projeto que leve dias ou cerca de uma semana pode se tornar um recurso preparado e persistente.
+- Depois de construído e preparado, o uso normal desse recurso exige no máximo pequeno custo de Energia quando houver esforço ativo dos sistemas de Victor; operar aparelho autônomo pode não exigir custo contínuo.
 - O narrador considera escala, complexidade, materiais, tempo de construção e condições da cena antes de definir o custo de Energia.
 
 EQP:
@@ -83,6 +83,12 @@ REL:
 - Sabe do pacto Corvin–Trigon, do noivado e das informações gerais já reveladas sobre Corvin.
 - No Capítulo 12, Ravena confirmou que ela e Corvin já tiveram um beijo romântico real.
 - Sabe que Ravena assinou `Rachel Roth Blackwood`, que isso não é mudança legal de nome e que o castelo reconhece seus poderes em todos os cômodos, inclusive o cofre; sabe que ela testou Portal para dentro dele.
+- No Capítulo 13, Ravena contou aos Titãs que a Casa Blackwood constitui um **Ducado/Domínio sobrenatural reconhecido**, que Corvin é Duque de Blackwood e que ela será Duquesa após o casamento dentro da tradição.
+- Sabe que o livro `BLACKWOOD` contém registros/cópias autenticadas de aproximadamente **1.600 anos atrás** e que a genealogia da edição termina em **Marta Blackwood**, sem explicar documentalmente Corvin.
+- Sabe em termos gerais que o Domínio possui fronteiras/recognhecimento sobrenatural; durante a conversa, Victor perguntou se essas fronteiras eram espaciais ou dependiam de reconhecimento mágico e ouviu de Ravena que aparentemente envolvem ambos.
+- Sabe que Dick iniciou investigação histórica independente sobre a Casa.
+- Não sabe automaticamente a história pessoal de Marta contada depois em privado por Corvin a Ravena.
+- Não sabe automaticamente da primeira noite íntima de Corvin e Ravena.
 - Não sabe automaticamente do treino astral de Corvin ou da explicação “três contra o alvo”.
 
 ## História consolidada relevante
@@ -94,3 +100,4 @@ REL:
 - Sua vida amorosa está aberta no início da campanha, sem relacionamento atual previamente definido.
 - No Capítulo 9, conheceu Corvin pessoalmente, analisou superficialmente a liga experimental da forja, recebeu amostras e foi testemunha do noivado de Ravena.
 - No Capítulo 12, apresentou a Ravena os primeiros resultados técnicos das amostras e recebeu dela a atualização sobre o beijo e o reconhecimento mágico pleno pela Casa Blackwood.
+- No Capítulo 13, recebeu de Ravena informações sobre o Ducado/Domínio Blackwood, a antiguidade mínima documentada e a futura posição de Duquesa de Ravena; não participou das revelações privadas posteriores sobre Marta.
