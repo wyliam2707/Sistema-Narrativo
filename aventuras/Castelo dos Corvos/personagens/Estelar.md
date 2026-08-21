@@ -44,7 +44,7 @@ EQP:
 - Traje tamaraniano adaptado para combate e voo.
 - Comunicador dos Titãs.
 - Acesso aos recursos e instalações dos Titãs quando estiver atuando com a equipe.
-- **Brincos solares:** presente de Corvin no Capítulo 9, originário de uma civilização já extinta. As pedras amarelas absorvem luz/radiação solar e depois emitem a mesma radiação, permitindo que Kory use a energia armazenada como reserva compatível com sua fisiologia. Antes de serem entregues, estavam sem exposição direta ao sol havia cerca de cinquenta anos.
+- **Brincos solares:** presente de Corvin no Capítulo 9, originário de uma civilização já extinta. As pedras amarelas absorvem luz/radiação solar e depois emitem a mesma radiação, permitindo que Kory use a energia armazenada como reserva compatível com sua fisiologia. No Capítulo 12, depois de carregados ao sol, os brincos funcionaram bem em uso prático; Victor observou emissão em faixa compatível com a absorção tamaraniana.
 
 REL:
 - Titãs: sua principal equipe e uma das bases de sua vida na Terra.
@@ -70,6 +70,12 @@ REL:
 - Perder pessoas próximas.
 - Permitir que conflitos envolvendo Estrela Negra ou seu passado destruam a vida que construiu.
 
+## Conhecimento atual relevante
+- Sabe do pacto Corvin–Trigon, do noivado e das informações gerais já reveladas sobre Corvin.
+- No Capítulo 12, Ravena confirmou aos cinco Titãs que ela e Corvin já tiveram um beijo romântico real.
+- Sabe que Ravena assinou `Rachel Roth Blackwood`, que isso não é mudança legal de nome e que as proteções do castelo reconhecem seus poderes em todos os cômodos, inclusive o cofre; sabe que Ravena testou Portal para dentro dele.
+- Não sabe automaticamente do treino astral de Corvin ou da explicação “três contra o alvo”.
+
 ## História consolidada relevante
 - Nasceu princesa de Tamaran.
 - Sofreu traição familiar, escravidão e experimentação.
@@ -77,3 +83,4 @@ REL:
 - Nos Titãs encontrou não apenas uma equipe, mas uma nova família e um lugar onde pôde reconstruir sua identidade.
 - Sua vida amorosa está aberta no início da campanha, sem relação atual definida com Nightwing ou outra pessoa.
 - No Capítulo 9, conheceu Corvin pessoalmente, recebeu os brincos solares e foi testemunha do noivado de Ravena.
+- No Capítulo 12, testou com sucesso os brincos carregados ao sol e recebeu de Ravena a atualização sobre o beijo e sobre o reconhecimento mágico pleno dela pela Casa Blackwood.
