@@ -1,224 +1,463 @@
-# Ciclo de Jogadores — REGRA DE PRIORIDADE MÁXIMA
+# Ciclo de Jogadores e Personas — REGRA DE PRIORIDADE MÁXIMA
 
 Status: REGRA UNIVERSAL — PRIORIDADE MÁXIMA DE OPERAÇÃO
 
-Este documento define a ordem obrigatória entre **declaração de intenção** e **resolução narrativa** sempre que uma sessão possuir mais de um jogador operacional, humano ou IA.
+Este documento define a ordem obrigatória entre **declarações de jogadores**, **pressão do Opositor** e **resolução do Narrador**.
 
-> **Nenhum resultado é narrado antes de todos os jogadores ativos terem declarado sua intenção para a mesma janela de resolução.**
+As definições individuais de cada função ficam em [`personas/`](personas/README.md).
 
-Esta regra existe para impedir que um `JOGADOR IA` ou `JOGADOR EVENTUAL IA` vire um NPC reativo que só escolhe depois que o narrador já conhece o resultado da ação do protagonista.
+> **Nenhum resultado é narrado antes de todos os slots operacionais relevantes terem sido considerados.**
 
-## Regra central
+---
 
-Quando uma ação do `JOGADOR HUMANO` abre uma nova unidade significativa de resolução, inicia-se uma **Janela de Declarações**.
+## 1. Papéis operacionais
+
+Existem cinco papéis no ciclo:
+
+1. `JOGADOR HUMANO` — controlado pela pessoa.
+2. `JOGADOR IA` — persona permanente da IA para personagem autônomo.
+3. `JOGADOR IA EVENTUAL` — persona da IA para personagens previamente autorizados e ativados conforme a situação.
+4. `OPOSITOR` — persona da IA responsável por pressão, resistência, conflito e adversidade causal.
+5. `NARRADOR` — persona neutra que arbitra o conjunto e descreve o resultado.
+
+A IA executa quatro personas: `JOGADOR IA`, `JOGADOR IA EVENTUAL`, `OPOSITOR` e `NARRADOR`.
+
+O `JOGADOR HUMANO` não é persona da IA.
+
+---
+
+## 2. Regra central
+
+Quando uma ação abre uma nova unidade significativa de resolução, inicia-se uma **Janela de Declarações e Pressão**.
 
 A ordem padrão é:
 
 ```text
-JOGADOR HUMANO declara
+JOGADOR HUMANO declara intenção
 ↓
-JOGADOR IA [1] declara
+JOGADOR IA declara intenção
 ↓
-JOGADOR IA [2] declara
+JOGADOR IA EVENTUAL é obrigatoriamente avaliado; personagens ativos declaram
 ↓
-(outros Jogadores IA/Eventuais ativos, se existirem, declaram)
+OPOSITOR declara pressão/oposição ou ausência de pressão relevante
 ↓
 NARRADOR resolve o conjunto
 ↓
 NOVA SITUAÇÃO
 ↓
-novo ciclo quando houver nova decisão significativa
+novo ciclo quando surgir nova decisão significativa
 ```
 
-Em campanhas com apenas um Jogador IA, usa-se apenas esse slot. Em campanhas com mais jogadores da IA, todos os jogadores operacionais ativos entram antes da resolução.
+Com vários Jogadores IA ou Eventuais, todos os agentes operacionais relevantes são considerados antes do Opositor.
 
-`JOGADOR EVENTUAL IA` só entra como jogador na janela quando estiver ativado conforme `agencia-de-personagens.md`. Quando inativo, continua sendo tratado como NPC pelo narrador.
+---
 
-## Declaração vem antes do resultado
+## 3. Nenhum slot pode ser esquecido
 
-Cada jogador declara **o que pretende fazer**, não o que consegue fazer.
-
-A declaração pode ser:
-
-- favorável à intenção de outro jogador;
-- contrária;
-- independente;
-- neutra;
-- continuação de uma intenção já em andamento;
-- nenhuma nova ação relevante naquele intervalo.
-
-Exemplos válidos:
-
-```text
-JOGADOR IA [1] — ajuda o personagem humano a conter a criatura.
-```
-
-```text
-JOGADOR IA [1] — tenta impedir o personagem humano de fechar o portal.
-```
-
-```text
-JOGADOR IA [1] — continua pesquisando e não interfere.
-```
-
-```text
-JOGADOR IA [2] — nenhum membro deste núcleo possui motivo para iniciar nova ação; mantém as ações já em andamento.
-```
-
-A neutralidade ou a inação continuam sendo decisões válidas **quando resultam de avaliação real do jogador**, e não de esquecimento.
-
-## O Narrador não pode resolver antecipadamente
-
-Enquanto a Janela de Declarações estiver aberta, a função de Narrador pode apenas:
-
-- esclarecer a situação já conhecida;
-- identificar quais jogadores estão ativos;
-- verificar qual informação cada jogador legitimamente possui;
-- receber as intenções.
-
-A função de Narrador **não pode**:
-
-- decidir se a ação humana deu certo antes da declaração dos Jogadores IA;
-- produzir consequência e só depois escolher uma reação conveniente para um Jogador IA;
-- escolher a intenção de um Jogador IA com base no resultado futuro da resolução;
-- usar informação exclusiva de `mestre/` para orientar a declaração de um personagem que não a conhece.
-
-> **Jogadores escolhem intenções. Narrador descobre resultados.**
-
-## Declarações são sequenciais na operação, mas podem ser simultâneas na ficção
-
-A ordem de declaração existe para organizar a execução do sistema. Ela não cria automaticamente turnos, iniciativa ou vantagem temporal dentro da ficção.
-
-Por padrão, as intenções pertencem à mesma janela temporal e podem ser simultâneas.
-
-O Jogador IA [2] não recebe conhecimento mágico da intenção privada do Jogador IA [1] apenas porque sua declaração veio depois na operação. Cada jogador só pode considerar:
-
-- fatos que seu personagem já conhecia;
-- ações ou falas que seriam perceptíveis naquele instante;
-- comunicação legítima entre os personagens;
-- inferências plausíveis pelas capacidades e circunstâncias.
-
-Se uma intenção for secreta, interna, preparada fora de vista ou ainda não perceptível, os jogadores seguintes devem decidir como se não a conhecessem.
-
-> **Ordem de declaração não é ordem automática de conhecimento.**
-
-## Resolução conjunta
-
-Depois que todos os jogadores ativos declararem, o Narrador resolve o conjunto usando:
-
-- escopo de cada intenção;
-- simultaneidade ou precedência real da ficção;
-- capacidades;
-- posição;
-- distância;
-- preparação;
-- oposição;
-- interferência entre intenções;
-- ambiente;
-- informação disponível;
-- STATUS;
-- efeitos já em andamento.
-
-A resolução pode produzir:
-
-- sucesso de várias intenções ao mesmo tempo;
-- sucesso de uma e impedimento de outra;
-- resultados parciais;
-- interferência mútua;
-- mudança de prioridade;
-- nova informação;
-- nova decisão necessária.
-
-Só depois disso o Narrador apresenta a cena resultante.
-
-## Não é economia de ações nem turno rígido
-
-Esta regra **não cria uma ação por personagem por rodada**.
-
-Uma intenção pode continuar por vários ciclos.
+A ausência de ação continua sendo declaração válida.
 
 Exemplos:
 
-- alguém mantém uma barreira enquanto outro personagem executa várias ações dentro do mesmo período;
-- um Jogador IA continua pesquisando durante sucessivos ciclos sem precisar inventar nova atividade;
-- um Jogador Eventual IA conduz uma investigação fora da câmera que permanece em andamento;
-- uma conversa pode conter várias falas dentro de uma intenção social já estabelecida até surgir nova decisão relevante.
+```text
+JOGADOR IA — mantém a própria rotina e não interfere.
+```
 
-A Janela de Declarações serve para garantir agência antes da resolução, não para fragmentar a ficção em microturnos.
+```text
+JOGADOR IA EVENTUAL — nenhum personagem eventual possui motivo suficiente para ativação nesta janela.
+```
 
-## Quando abrir uma nova Janela de Declarações
+```text
+OPOSITOR — nenhuma pressão relevante além das condições já estabelecidas.
+```
 
-Abrir nova janela quando:
+A regra existe para distinguir:
 
-- o Jogador Humano declara nova ação significativa;
-- uma resolução anterior cria nova decisão significativa;
-- informação nova pode mudar intenções;
-- surge oposição relevante;
-- uma intenção em andamento deixa de cobrir a situação;
-- um Jogador IA precisa reconsiderar seu plano;
-- um Jogador Eventual IA é ativado por mudança causal relevante;
-- ocorre transição temporal ou de cena que exige novas intenções.
+> **“Nada aconteceu porque a função foi considerada e não havia motivo para agir”**
 
-Não é necessário abrir uma nova janela para cada microgesto, passo, gole, frase de continuidade ou detalhe já coberto por uma intenção existente.
+ de
 
-## Jogadores fora da cena principal
+> **“Nada aconteceu porque a IA esqueceu de considerar a função”.**
 
-Um Jogador IA não precisa estar fisicamente presente para participar do ciclo da campanha.
+---
 
-Se possui uma ação relevante em andamento fora da câmera, sua declaração pode ser sobre esse outro núcleo.
+## 4. Jogadores declaram intenção, não resultado
+
+Cada jogador declara **o que pretende fazer**, não o que necessariamente conseguirá fazer.
+
+A declaração pode ser:
+
+- favorável a outro jogador;
+- contrária;
+- independente;
+- neutra;
+- continuação de intenção anterior;
+- nenhuma nova ação relevante.
+
+Exemplos:
+
+```text
+JOGADOR IA — ajuda o personagem humano a conter a criatura.
+```
+
+```text
+JOGADOR IA — aceita ficar próxima, mas pretende sair depois para cumprir um compromisso.
+```
+
+```text
+JOGADOR IA EVENTUAL — continua a investigação fora da câmera.
+```
+
+Uma intenção ampla pode continuar por várias ações enquanto não surgir nova decisão significativa.
+
+---
+
+## 5. Intenção não apaga competência
+
+Separar intenção de resultado não transforma toda ação em incerteza artificial.
+
+Ao resolver, capacidades e contexto continuam decisivos.
+
+Uma intenção sustentada por:
+
+- boa estratégia;
+- preparação;
+- informação correta;
+- atributo alto;
+- perícia alta;
+- poder adequado;
+- vantagem concreta;
+- contexto favorável;
+- pouca oposição relevante;
+
+normalmente possui alta chance de produzir o resultado desejado.
+
+> **Boa ideia continua sendo boa. Competência alta continua sendo competência alta.**
+
+O sistema não cria falha aleatória apenas para provar que a intenção não era garantia.
+
+Da mesma forma, capacidade alta não transforma automaticamente uma ideia inviável em solução nem atravessa impossibilidade sem mecanismo causal.
+
+---
+
+## 6. Jogador IA declara antes de conhecer o resultado
+
+O `JOGADOR IA` escolhe como personagem autônomo.
+
+Não pode:
+
+- esperar o Narrador revelar se a ação humana deu certo para só então decidir;
+- escolher a reação que melhor ajuda o roteiro;
+- contrariar apenas para criar dificuldade;
+- concordar apenas para agradar o protagonista;
+- usar informação exclusiva do Narrador ou do Opositor.
+
+> **Jogador IA escolhe intenção como personagem, não como roteirista.**
+
+---
+
+## 7. Jogador IA Eventual sempre é avaliado
+
+`JOGADOR IA EVENTUAL` continua sendo categoria aprovada na ficha.
+
+A cada janela significativa, a persona Eventual precisa ao menos verificar se existe motivo para ativação.
+
+Quando nenhum personagem precisa ser ativado:
+
+```text
+JOGADOR IA EVENTUAL — nenhum eventual entra nesta janela.
+```
+
+Quando ativado, o personagem declara intenção antes do Opositor e do Narrador.
+
+Mais de um Eventual pode estar ativo. Eles não formam mente coletiva e mantêm conhecimento separado.
+
+---
+
+## 8. Opositor entra antes do resultado
+
+Depois das declarações dos jogadores, o `OPOSITOR` avalia a situação.
+
+Ele pode declarar duas formas de pressão:
+
+### Pressão impessoal do mundo
+
+Exemplos:
+
+- preço;
+- clima;
+- logística;
+- burocracia;
+- distância;
+- disponibilidade;
+- mercado;
+- terreno;
+- legislação;
+- limitações materiais;
+- consequências naturais de fatos anteriores.
+
+### Oposição intencional
+
+Exemplos:
+
+- rival;
+- antagonista;
+- facção;
+- concorrente;
+- emboscada;
+- sabotagem;
+- espionagem;
+- chantagem;
+- pressão política;
+- exploração de cláusula;
+- manipulação de preço ou fornecimento.
+
+O Opositor pode usar qualquer gancho causal legítimo para iniciar, ampliar ou preparar conflito.
+
+---
+
+## 9. Travas do Opositor
+
+Para oposição intencional, deve respeitar:
+
+```text
+CONHECIMENTO + MOTIVO + MEIOS
+```
+
+O agente precisa saber o suficiente, querer interferir e possuir capacidade/oportunidade para fazê-lo.
+
+Para pressão impessoal, a condição precisa ser plausível e coerente com o mundo.
+
+O Opositor pode preencher elementos ainda abertos da ficção, mas não pode reescrever retroativamente fatos estabelecidos só para derrotar um plano eficaz.
+
+> **Explorar espaço em aberto é permitido. Reescrever o passado para criar dificuldade não é.**
+
+---
+
+## 10. Oposição pode ser preparada antes do impacto
+
+O Opositor pode declarar ações que ainda não produzem consequência visível.
 
 Exemplo:
 
 ```text
-JOGADOR HUMANO — continua o jantar.
-JOGADOR IA [1] — continua a conversa no restaurante.
-JOGADOR IA [2] — fora dali, decide telefonar para o Jogador IA [1] porque o padrão de contato do grupo foi interrompido.
-NARRADOR — resolve o intervalo e apresenta o telefone tocando no momento causalmente adequado.
+OPOSITOR — uma facção começa a mapear discretamente fornecedores usados pelos personagens.
 ```
 
-Isso não significa forçar um acontecimento externo em todo ciclo. Significa que o jogador fora da câmera foi **considerado** antes da resolução.
+Mais tarde, essa preparação pode justificar interferência real.
 
-## Relação com o Ciclo Autônomo
+Isso é preferível a inventar retroativamente que o antagonista já sabia tudo.
 
-`agencia-de-personagens.md` define que a vida dos jogadores continua fora da câmera.
+---
 
-Esta regra acrescenta uma garantia operacional:
+## 11. Opositor não precisa criar dificuldade
 
-> **quando existe uma janela de resolução, os jogadores ativos declaram antes do Narrador resolver; quando existe passagem relevante de tempo, os jogadores fora da câmera também precisam ser considerados antes de o Narrador concluir que nada aconteceu.**
+O slot do Opositor é obrigatório; a adversidade não é.
 
-Assim, a agência possui duas proteções complementares:
+Declaração válida:
 
 ```text
-Ciclo Autônomo → ninguém deixa de viver porque saiu da câmera.
-Ciclo de Jogadores → ninguém escolhe só depois que o Narrador já conhece o resultado.
+OPOSITOR — nenhuma pressão relevante. Não há agente com conhecimento, motivo e meios para interferir, e o mundo não impõe obstáculo significativo nesta janela.
 ```
 
-## Prioridade
+Uma rotina pode permanecer rotina.
+Uma compra pode ser simples.
+Uma boa preparação pode eliminar quase toda a dificuldade.
+
+O sistema não reequilibra artificialmente a cena contra personagens competentes.
+
+---
+
+## 12. O Narrador só resolve depois
+
+Enquanto a janela estiver aberta, o Narrador pode esclarecer fatos já conhecidos e organizar os agentes, mas não pode resolver antecipadamente.
+
+Depois das declarações, resolve usando:
+
+- escopo das intenções;
+- simultaneidade ou precedência real;
+- atributos;
+- perícias;
+- poderes;
+- preparação;
+- posição;
+- distância;
+- recursos;
+- informação;
+- STATUS;
+- oposição declarada;
+- ambiente;
+- consequências já em andamento;
+- continuidade.
+
+> **Jogadores escolhem. Opositor pressiona. Narrador resolve.**
+
+---
+
+## 13. Narrador não cria oposição retroativa
+
+Depois do slot do Opositor, o Narrador não pode inventar nova dificuldade apenas porque percebeu que o plano dos jogadores funcionaria muito bem.
+
+Não pode acrescentar durante a resolução, sem declaração prévia:
+
+- emboscada;
+- sabotagem;
+- escassez inesperada;
+- tempestade conveniente;
+- rival oculto;
+- cláusula criada na hora;
+- resistência social arbitrária;
+- falha logística destinada apenas a impedir sucesso.
+
+Se uma nova pressão surgir legitimamente como consequência da própria resolução, ela cria **nova situação** e abre nova janela antes de ser desenvolvida como oposição significativa.
+
+---
+
+## 14. Narrador não protege planos
+
+O Narrador também não transforma automaticamente intenção em fato.
+
+Se o Jogador Humano declara:
+
+```text
+Vou jantar com ela, depois iremos ao solar e passaremos a noite juntos.
+```
+
+isso define um plano do personagem.
+
+O Jogador IA pode possuir compromisso próprio.
+O Eventual pode iniciar ação causalmente relevante.
+O Opositor pode declarar pressão legítima.
+
+O Narrador resolve o conjunto.
+
+> **Não proteger o plano da realidade e não sabotá-lo artificialmente são a mesma neutralidade vista de lados opostos.**
+
+---
+
+## 15. Declarações sequenciais não concedem conhecimento
+
+A ordem do ciclo é operacional, não telepática.
+
+Um personagem não conhece intenção secreta declarada por outro apenas porque seu slot veio depois.
+
+Cada agente usa somente:
+
+- fatos que já conhecia;
+- ações/falas perceptíveis;
+- comunicação legítima;
+- inferências plausíveis por suas capacidades.
+
+O mesmo vale para agentes do Opositor.
+
+> **Ordem de declaração não é ordem automática de conhecimento.**
+
+---
+
+## 16. Informação secreta e apresentação
+
+Algumas declarações podem permanecer ocultas do Jogador Humano.
+
+Especialmente:
+
+- intenção secreta de outro personagem;
+- ação fora da câmera ainda desconhecida;
+- preparação de antagonista;
+- espionagem não detectada;
+- oposição cuja revelação anteciparia informação indevida.
+
+A declaração continua existindo operacionalmente antes da resolução.
+
+O Narrador mostra apenas o que se tornou perceptível ou foi descoberto legitimamente.
+
+---
+
+## 17. Não é economia rígida de ações
+
+A regra não cria “uma ação por personagem por turno”.
+
+Uma intenção pode persistir por vários ciclos.
+
+Exemplos:
+
+- manter uma barreira;
+- continuar pesquisa;
+- conduzir investigação longa;
+- seguir um plano comercial;
+- sustentar conversa enquanto não surge nova escolha significativa.
+
+A janela existe para preservar agência e causalidade, não para fragmentar a ficção em microturnos.
+
+---
+
+## 18. Quando abrir nova janela
+
+Abrir nova janela quando:
+
+- Jogador Humano declara nova ação significativa;
+- Jogador IA precisa reconsiderar;
+- Eventual é ativado;
+- nova informação pode mudar intenções;
+- surge nova pressão relevante;
+- uma intenção anterior deixa de cobrir a situação;
+- resolução produz nova decisão significativa;
+- passagem de tempo ou transição de cena exige nova avaliação dos agentes.
+
+Não abrir nova janela para cada passo, gole, frase curta ou microgesto já coberto pela intenção existente.
+
+---
+
+## 19. Jogadores fora da câmera
+
+Jogador IA e Eventuais não deixam de existir fora da cena principal.
+
+Em passagens relevantes de tempo, suas rotinas, objetivos e relações precisam ser considerados antes de concluir o intervalo.
+
+O Opositor também deve considerar pressões ou preparações que possam avançar fora da câmera.
+
+Isso não obriga a criar evento em todo intervalo.
+
+> **Fora da câmera não significa congelado.**
+
+---
+
+## 20. Relação com `agencia-de-personagens.md`
+
+`agencia-de-personagens.md` continua definindo autonomia, conhecimento e ciclo de vida dos personagens.
+
+Este arquivo define a ordem operacional obrigatória para que essa agência seja exercida sem mistura de funções.
+
+As definições detalhadas das personas ficam em `sistema/personas/`.
+
+---
+
+## 21. Prioridade
 
 Esta é uma **regra de prioridade máxima do sistema**.
 
-Se outro documento usar uma formulação simplificada como:
+Qualquer formulação resumida como:
 
 ```text
 Situação → intenção → resolução
 ```
 
-ela deve ser interpretada, em sessões com múltiplos jogadores operacionais, como:
+em sessão com múltiplas funções deve ser entendida como:
 
 ```text
-Situação
-→ declaração do Jogador Humano
-→ declarações dos Jogadores IA/Eventuais ativos
-→ resolução do Narrador
-→ nova situação
+SITUAÇÃO
+→ JOGADOR HUMANO
+→ JOGADOR IA
+→ JOGADOR IA EVENTUAL
+→ OPOSITOR
+→ NARRADOR
+→ NOVA SITUAÇÃO
 ```
 
-Nenhuma regra de ritmo, avanço automático, resolução direta ou economia narrativa autoriza o Narrador a pular a Janela de Declarações quando existe uma nova decisão significativa de jogadores operacionais.
+A única prioridade superior é uma correção ou instrução explícita mais recente do usuário.
 
-A única prioridade superior é uma **correção ou instrução explícita mais recente do usuário**.
+---
 
 ## Regra final
 
-> **HUMANO DECLARA → IA [1] DECLARA → IA [2] DECLARA → OUTROS JOGADORES ATIVOS DECLARAM → NARRADOR RESOLVE.**
+> **HUMANO DECLARA → IA DECLARA → EVENTUAL É AVALIADO/DECLARA → OPOSITOR DECLARA → NARRADOR RESOLVE.**
 >
-> **Nenhum jogador da IA escolhe depois de conhecer o resultado que deveria ajudar a produzir.**
+> **Nenhuma função é esquecida. Nenhuma oposição é inventada depois. Nenhum plano é protegido do mundo. Nenhuma competência real é apagada para fabricar incerteza.**
