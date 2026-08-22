@@ -339,6 +339,26 @@ Se o mesmo monstro possui apenas um pequeno olho vulnerável, precisão e técni
 
 ---
 
+## 10. O jogador define o mecanismo da própria ação
+
+Quando uma intenção pode ser realizada por mecanismos diferentes, o NARRADOR não escolhe pelo JOGADOR qual efeito, Poder ou configuração será usada.
+
+O NARRADOR pergunta primeiro como o personagem pretende realizar aquilo.
+
+Exemplo:
+
+`JOGADOR → quero prender o alvo.`
+
+`NARRADOR → como pretende fazer isso?`
+
+O JOGADOR então pode declarar, por exemplo, que tentará `Imobilizar` diretamente, criar uma `Invocação` que capture o alvo ou usar outro mecanismo permitido por sua ficha.
+
+Depois da escolha, o NARRADOR aplica as regras correspondentes, identifica oposição e consequência.
+
+> **O JOGADOR escolhe como sua peça tenta agir. O NARRADOR resolve o mecanismo escolhido; não escolhe o mecanismo por ele.**
+
+---
+
 ## Síntese operacional
 
 O NARRADOR pode ler uma ação por estas dimensões, sem transformá-las em novas estatísticas:
