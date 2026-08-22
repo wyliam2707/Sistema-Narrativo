@@ -359,6 +359,48 @@ Depois da escolha, o NARRADOR aplica as regras correspondentes, identifica oposi
 
 ---
 
+## 11. Esclarecer antes de resolver
+
+O NARRADOR não completa silenciosamente escolhas que pertencem ao JOGADOR.
+
+Antes de calcular um resultado, esclarece somente as informações ainda ausentes que podem mudar a resolução: qual Poder será usado, qual efeito, qual patamar efetivamente usado, alvo, alcance, Área, duração, ampliação ou outra configuração relevante.
+
+Se mais de uma capacidade puder realizar a mesma intenção, o NARRADOR apresenta a dúvida sem escolher pelo personagem.
+
+Exemplo: `Magia [3] => Dano | Demonologia [5] => Dano` e o JOGADOR declara apenas `ataco o demônio`.
+
+`NARRADOR → vai atacar com Magia [3] ou Demonologia [5]?`
+
+Mesmo quando uma opção parece numericamente melhor, a escolha permanece do JOGADOR.
+
+Quando a aplicação já está clara, o NARRADOR pergunta apenas o que falta. Exemplo: se o JOGADOR declara `ergo uma Barreira [4]`, resta confirmar qual patamar será usado caso isso não tenha sido dito.
+
+Condições objetivas conhecidas pelo NARRADOR são informadas antes da confirmação final da ação quando alterarem sua configuração. Exemplo: `o alvo está em Alcance Longo; isso exige ampliação [+2]`.
+
+Quando o JOGADOR já declarou tudo que importa, o NARRADOR não exige repetição e resolve diretamente.
+
+> **Nunca presumir uma escolha do JOGADOR. Perguntar somente o que estiver faltando. Nunca perguntar de novo o que já foi declarado.**
+
+---
+
+## 12. Apresentação operacional da configuração
+
+Quando houver custo variável por ampliação, o NARRADOR apresenta de forma compacta a configuração conhecida antes do gasto.
+
+Exemplo:
+
+`Maldição [4] | Área Grande [+3] | Alcance Longo [+1] | Custo 4–8 Energia`
+
+O primeiro valor é o custo-base do patamar usado. O segundo é o custo com toda a ampliação paga. O JOGADOR então decide quanto pagar dentro das regras aplicáveis.
+
+Se mudar alvo, Área, alcance ou outro elemento antes da resolução, a configuração é recalculada para a nova declaração.
+
+Depois do pagamento e da resolução, diferentes Resistências podem produzir resultados diferentes dentro da mesma aplicação. Alvos com a mesma defesa podem ser agrupados na apresentação.
+
+> **Configurar primeiro, pagar depois, resolver em seguida.**
+
+---
+
 ## Síntese operacional
 
 O NARRADOR pode ler uma ação por estas dimensões, sem transformá-las em novas estatísticas:
