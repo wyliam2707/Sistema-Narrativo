@@ -14,7 +14,43 @@ Os nomes concretos dependem da categoria e da natureza do efeito.
 
 > **Não criar uma categoria só porque o tema existe. Criar uma tabela apenas quando ela mede uma consequência que as escalas atuais não conseguem representar.**
 
+## Base de manifestação
+
+Cada efeito possui uma manifestação-base. Ela descreve como o efeito funciona normalmente antes de qualquer ampliação.
+
+A leitura segue, quando aplicável:
+
+`Efeito — Alcance / Alvos / Área ou Tamanho / Duração / Efetivo máximo [nível disponível]`
+
+A base não determina sozinha o Resultado. O Resultado continua vindo da resolução contra a oposição aplicável.
+
+Alterar alcance, quantidade de alvos, área/tamanho ou duração além da base pertence às regras de ampliação e custo.
+
+> **Base do efeito = como ele normalmente se manifesta. Resultado = intensidade que ele consegue produzir contra a oposição. Ampliações = mudanças opcionais nessa manifestação.**
+
+## Dano
+
+A base de Dano depende da forma real pela qual ele é entregue.
+
+`Dano [soco/espada/luta] — Próximo / 1 alvo / Pontual / Instantâneo / Efetivo máximo [nível disponível]`
+
+`Dano [disparo] — Médio / 1 alvo / Pontual / Instantâneo / Efetivo máximo [nível disponível]`
+
+O Resultado de Dano é o Dano aplicado pela regra normal de combate e dano.
+
+## Cura
+
+Base de uso:
+
+`Cura — Toque / 1 alvo / Pontual / Instantâneo / Efetivo máximo [nível disponível]`
+
+O Resultado de Cura é a quantidade de VIDA recuperada pela regra normal de cura.
+
 ## Sentidos — supressão
+
+Base de uso:
+
+`Sentidos — Médio / 1 alvo / Pontual / Cena / Efetivo máximo [nível do efeito]`
 
 A escala começa prejudicando um sentido específico. Depois de sua supressão funcional completa, resultados maiores espalham a interferência para os demais sentidos.
 
@@ -30,6 +66,10 @@ Não existe “mais que totalmente cego”. Depois da supressão completa do sen
 
 ## Controle
 
+Base de uso:
+
+`Controle — Médio / 1 alvo / Pontual / Cena / Efetivo máximo [nível do efeito]`
+
 `[2] Influenciar` | `[4] Induzir` | `[8] Comandar` | `[16] Dominar` | `[32] Controle absoluto`
 
 - `[2] Influenciar` — a influência pesa fortemente, mas o alvo ainda decide.
@@ -42,6 +82,10 @@ A intensidade não expande o repertório. Um Poder de sugestão não se transfor
 
 ## Mobilidade
 
+Base de uso:
+
+`Mobilidade / Imobilizar — Médio / 1 alvo / Pontual / Cena / Efetivo máximo [nível do efeito]`
+
 `[2] Dificultar` | `[4] Restringir` | `[8] Imobilizar` | `[16] Conter` | `[32] Aprisionar`
 
 - `[2] Dificultar` — mover-se continua possível, mas exige esforço ou perde eficiência.
@@ -51,6 +95,10 @@ A intensidade não expande o repertório. Um Poder de sugestão não se transfor
 - `[32] Aprisionar` — contenção total dentro da natureza do efeito, exigindo solução ou disputa compatível para escapar.
 
 ## Supressão
+
+Base de uso:
+
+`Supressão — Médio / 1 alvo / Pontual / Cena / Efetivo máximo [nível do efeito]`
 
 A mesma régua serve para reduzir Atributos e Poderes.
 
@@ -67,6 +115,10 @@ Quando aplicada a um Poder, `[0]` significa que o Poder está funcionalmente sup
 A defesa contra a Supressão vem daquilo que realmente sustenta a capacidade. Pode ser o próprio Poder, um Atributo coerente ou outra proteção aplicável. Usa-se o maior valor aplicável, sem soma automática.
 
 ## Proteção — Barreira
+
+Base de uso:
+
+`Proteção/Barreira — Si mesmo / 1 alvo / Pontual / Cena / Efetivo máximo [nível da Proteção]`
 
 Barreira funciona como uma camada independente de proteção.
 
@@ -104,7 +156,7 @@ Base de uso:
 
 `[2] Indício` | `[4] Revelar` | `[8] Compreender` | `[16] Aprofundar` | `[32] Devassar`
 
-- `[2] Indício` — obtém uma pista útil, mas incompleta.
+- `[2] Indício` — obtém uma pista útil, mas incompleta. Em espionagem ou busca de uma pessoa, pode indicar apenas presença, direção ou estado geral muito básico.
 - `[4] Revelar` — identifica a informação principal, ainda com detalhes ausentes. Em espionagem ou busca de uma pessoa, pode revelar, por exemplo, localização e estado geral de saúde quando isso estiver dentro do repertório.
 - `[8] Compreender` — obtém informação funcionalmente completa sobre o objetivo investigado.
 - `[16] Aprofundar` — revela relações, causas, contexto e detalhes ocultos relevantes.
@@ -127,6 +179,10 @@ Possuir o foco permite estabelecer o mecanismo quando o repertório realmente co
 > **O foco torna a leitura possível. O Resultado determina quanto é descoberto.**
 
 ## Invocação
+
+Base de uso:
+
+`Invocação — Médio / 1 criação / Tamanho Humano / Cena / Efetivo máximo [nível da Invocação]`
 
 Invocação cria uma entidade ou objeto dentro do repertório real do Poder. O patamar determina a configuração máxima da criação; não obriga a usar toda a potência disponível.
 
@@ -188,6 +244,10 @@ A relação entre o patamar total de Invocação, o patamar usado na criação e
 
 ## Transformação
 
+Base de uso:
+
+`Transformação — Si mesmo / 1 alvo / Pontual / Cena / Efetivo máximo [nível da Transformação]`
+
 Transformação usa a mesma lógica de configuração de Invocação quando redefine a própria forma física, mas aplica a configuração sobre `FOR`, `AGI` e `RES` do alvo transformado.
 
 Quando o personagem transforma voluntariamente a si mesmo, `FOR`, `AGI` e `RES` da forma anterior deixam de ser usados e partem de `[0]`. A Transformação então redefine esses três Atributos conforme sua configuração.
@@ -214,11 +274,15 @@ Transformar outra criatura não produz “percentuais de transformação”. A m
 
 Contra uma Transformação imposta, usa-se como resistência o maior valor aplicável entre `RES`, `VON` ou outra proteção/Poder coerente.
 
-Na Transformação voluntária sobre si mesmo, a defesa contra a própria mudança é `[0]` e a condição de alcance é `Si mesmo [-2]`.
+Na Transformação voluntária sobre si mesmo, a defesa contra a própria mudança é `[0]`.
 
-A duração e as demais dimensões da forma pertencem à Consolidação.
+A duração e as demais dimensões da forma usam como ponto de partida a base da Transformação e podem ser ampliadas quando necessário.
 
 ## Sono
+
+Base de uso:
+
+`Sono — Médio / 1 alvo / Pontual / Cena / Efetivo máximo [nível do efeito]`
 
 Sono usa a mesma arquitetura de aprofundamento dos Sentidos.
 
@@ -236,6 +300,10 @@ A duração é independente. Um Sono `[8]` que dure uma semana pode ser narrativ
 
 ## Ilusão
 
+Base de uso:
+
+`Ilusão — Médio / 1 alvo ou elemento / Pontual / Cena / Efetivo máximo [nível do efeito]`
+
 `[2] Distorcer` | `[4] Ocultar ou Criar` | `[8] Substituir` | `[16] Construir Cena` | `[32] Realidade Ilusória`
 
 - `[2] Distorcer` — altera uma percepção existente sem removê-la completamente.
@@ -248,9 +316,11 @@ Ilusão também pode ser aplicada à memória quando o repertório do Poder perm
 
 `Sentidos` reduz ou elimina a capacidade de perceber. `Ilusão` altera aquilo que é percebido.
 
-Duração e persistência pertencem à Consolidação.
-
 ## Emoção
+
+Base de uso:
+
+`Emoção — Médio / 1 alvo / Pontual / Cena / Efetivo máximo [nível do efeito]`
 
 Emoção usa a mesma arquitetura de Ilusão, aplicada ao estado emocional.
 
@@ -264,32 +334,56 @@ Emoção usa a mesma arquitetura de Ilusão, aplicada ao estado emocional.
 
 Emoção altera o que o alvo sente. Controle altera ou impõe o que ele faz.
 
-Duração e persistência pertencem à Consolidação.
-
 ## Deslocar
 
 Deslocar é o efeito fundamental para mudar posição ou estabelecer passagem entre posições. A natureza do Poder determina como isso acontece.
 
-`Telecinese → move fisicamente` | `Teleporte → transporta instantaneamente` | `Portal → conecta posições` | `Banimento → desloca para outro plano`
+`Telecinese → move fisicamente` | `Teleporte → transporta instantaneamente` | `Portal → conecta posições` | `Banimento → desloca para outra posição ou plano`
 
-O Poder produz intensidade como em uma disputa. A oposição vem de quem ou do que realmente impede o deslocamento: `FOR`, `RES`, `VON`, ancoragem, Poder, proteção dimensional ou outro mecanismo coerente.
+As formas possuem bases diferentes porque o modo de manifestação muda.
 
-O resultado acumulado é aplicado às dimensões necessárias da Consolidação, especialmente alcance/distância e duração.
+### Telecinese
 
-A intenção define primeiro o requisito necessário. Ex.: levantar alguém no ar pode exigir apenas o alcance necessário para a cena; o excedente pode sustentar duração. Transportar alguém até uma base distante exige alcançar a escala de distância correspondente e pode ter duração instantânea.
+`Telecinese — Médio / 1 alvo / Pontual / Instantâneo / Efetivo máximo [nível do efeito]`
 
-O repertório continua limitando o uso. Excedente de Telecinese não permite banimento planar se o Poder não possui essa capacidade.
+O Resultado determina quanto deslocamento físico o efeito consegue produzir contra a resistência aplicável.
 
-Quando uma entidade externa interfere, ela pode oferecer Resistência e também agir durante as janelas de aplicação.
+### Teleporte
 
-> **A Resistência reduz o Progresso por aplicação. O tempo necessário para acumular Progresso cria oportunidades reais de reação.**
+`Teleporte — Toque / 1 alvo / Pontual / Instantâneo / Efetivo máximo [nível do efeito]`
+
+A distância alcançada é lida pelo Resultado:
+
+`[0] Local` | `[2] Cidade` | `[4] Estado/Região` | `[8] País` | `[16] Planeta` | `[32] Planar`
+
+### Portal
+
+`Portal — Próximo / 1 portal / Tamanho Humano / Instantâneo / Efetivo máximo [nível do efeito]`
+
+A distância entre as posições conectadas é lida pelo Resultado:
+
+`[0] Local` | `[2] Cidade` | `[4] Estado/Região` | `[8] País` | `[16] Planeta` | `[32] Planar`
+
+### Banimento
+
+`Banimento — Médio / 1 alvo / Pontual / Instantâneo / Efetivo máximo [nível do efeito]`
+
+A distância do deslocamento é lida pelo Resultado:
+
+`[0] Local` | `[2] Cidade` | `[4] Estado/Região` | `[8] País` | `[16] Planeta` | `[32] Planar`
+
+A oposição vem de quem ou do que realmente impede o deslocamento: `FOR`, `RES`, `VON`, ancoragem, Poder, proteção dimensional ou outro mecanismo coerente.
+
+O repertório continua limitando o uso. Um Resultado suficiente para distância Planar não permite banimento planar se o Poder não possui essa capacidade.
+
+> **Alcance = chegar até o alvo. Distância = até onde o efeito o desloca ou conecta.**
 
 ## Consolidação
 
-As tabelas acima definem **o que acontece**.
+As tabelas acima definem **o que acontece** e cada base define **como o efeito normalmente se manifesta**.
 
-`consolidacao.md` define **em que escala o efeito se manifesta**, incluindo:
+`consolidacao.md` detalha as ampliações dessas manifestações, incluindo:
 
-`Duração` | `Alvos` | `Alcance/Distância` | `Área/Tamanho`
+`Duração` | `Alvos` | `Alcance` | `Área/Tamanho`
 
-A Consolidação também define ampliação, custo adicional em Energia, redução de Efeito efetivo quando parte da ampliação não é paga e resistência de efeitos persistentes até serem rompidos.
+A Consolidação também define custo adicional em Energia e redução de Efeito efetivo quando parte da ampliação não é paga.
