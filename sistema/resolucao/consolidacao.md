@@ -83,21 +83,26 @@ Exemplo: uma Cura com `4 alvos` pode escolher quatro aliados específicos e paga
 
 Área mede quanto espaço contínuo o efeito ocupa. Tamanho usa a mesma régua quando o que importa é a dimensão física de uma criação, objeto ou alvo.
 
-`[0] Pontual` — uma pessoa, objeto ou espaço mínimo coerente.
+`Pontual/Humano [base] → +0` | `Pequena → +1` | `Média → +2` | `Grande → +3` | `Enorme → +4` | `Massiva → +5`
 
-`[2] Pequena` — alguns metros ou parte de um cômodo.
+Referência ficcional:
 
-`[4] Média` — um cômodo inteiro ou pequena construção.
+- `Pontual/Humano` — uma pessoa, objeto ou espaço mínimo coerente;
+- `Pequena` — uma sala;
+- `Média` — uma casa;
+- `Grande` — um lote;
+- `Enorme` — um prédio;
+- `Massiva` — um castelo, complexo ou equivalente.
 
-`[8] Grande` — prédio ou grande área local.
-
-`[16] Massiva` — quarteirão, complexo, castelo ou equivalente.
+Cada passo acima da Área/Tamanho-base custa `+1 Energia`. Usar uma escala menor que a base não reduz o custo.
 
 Área e Alvos não são a mesma coisa.
 
 > **Alvos escolhe quem é afetado. Área afeta todos dentro dela.**
 
 Assim, quatro inimigos separados podem exigir `4 alvos`. Uma explosão em Área afeta todos que estiverem dentro dela, inclusive aliados, salvo quando a própria natureza do Poder estabelecer outra coisa.
+
+> **Área/Tamanho mede escala física. Cada degrau acima da base custa +1 Energia.**
 
 ## 6. Duração
 
@@ -113,7 +118,7 @@ Regras específicas podem estabelecer outra duração-base. Nesse caso, somente 
 
 Cada dimensão usa seus próprios degraus aprovados. O custo adicional é contado pelos passos usados acima da manifestação-base.
 
-Para `Alcance` e `Alvos`, cada passo acima da base gera diretamente `carga +1`.
+Para `Alcance`, `Alvos` e `Área/Tamanho`, cada passo acima da base gera diretamente `carga +1`.
 
 Quando mais de uma dimensão é ampliada, suas cargas se acumulam.
 
