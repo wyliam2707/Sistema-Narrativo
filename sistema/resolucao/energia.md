@@ -86,15 +86,15 @@ Se a Reserva não tiver espaço para toda a carga, apenas a quantidade necessár
 
 Quando for útil mostrar tudo de forma compacta, usa-se uma única linha:
 
-`Energia [10/100] - Bateria [40/40] - Descanso [5m:+45 / 2h:+45]`
+`Energia [10/100] - Bateria [40/40] - Descanso [45]-[45]`
 
 `Energia [atual/máxima]` mostra a Reserva própria atual e máxima.
 
 `Bateria [atual/máxima]` mostra a carga externa disponível.
 
-`Descanso [5m:X / 2h:Y]` mostra quanto ainda pode ser recuperado em cada tipo de descanso. O valor de `5m` corresponde à metade recuperável do gasto recente; o valor de `2h` corresponde ao desgaste profundo que exige descanso prolongado.
+`Descanso [X]-[Y]` mostra quanto ainda pode ser recuperado em cada camada de descanso. O primeiro valor corresponde à parcela recuperável pelo fôlego de aproximadamente 5 minutos; o segundo corresponde ao desgaste profundo recuperável após aproximadamente 1 a 2 horas.
 
-Depois de usar o fôlego curto, sua parcela cai para zero. Exemplo: `Energia [55/100] - Bateria [40/40] - Descanso [5m:+0 / 2h:+45]`.
+Depois de usar o fôlego curto, sua parcela cai para zero. Exemplo: `Energia [55/100] - Bateria [40/40] - Descanso [0]-[45]`.
 
 Quando o descanso prolongado é concluído e não existem novos gastos pendentes, ambos os valores retornam a zero.
 
