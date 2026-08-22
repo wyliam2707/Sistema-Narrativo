@@ -14,6 +14,7 @@ Isso vale independentemente de quem identificou o erro:
 
 ```text
 MESTRE / NARRADOR
+JOGADOR HUMANO
 JOGADOR IA
 JOGADOR IA EVENTUAL
 OPOSITOR
@@ -24,16 +25,64 @@ Todos podem apontar inconsistências, erros ou possíveis correções.
 
 Nenhum deles pode substituir unilateralmente um fato já estabelecido.
 
-> **Sem aprovação do JOGADOR HUMANO, não existe correção de cânone.**
+> **Sem confirmação do JOGADOR HUMANO, não existe correção de cânone.**
+
+## Discussão da correção
+
+Uma correção não precisa ser decidida sem debate.
+
+Todas as personas envolvidas podem apresentar sua opinião quando possuírem um ponto de vista lógico, factual ou estrutural relevante para a questão.
+
+Isso inclui:
+
+```text
+MESTRE / NARRADOR
+→ pode explicar continuidade, fatos do mundo, informação reservada e consequências conhecidas.
+
+JOGADOR HUMANO
+→ pode apresentar sua lembrança, intenção original, interpretação e preferência sobre a correção.
+
+JOGADOR IA
+→ pode defender a coerência das ações, conhecimentos e decisões de seu personagem.
+
+JOGADOR IA EVENTUAL
+→ pode fazer o mesmo pelos personagens que estiver representando.
+
+OPOSITOR
+→ pode apontar contradições, consequências ou problemas lógicos relevantes para a consistência da situação.
+```
+
+A discussão existe para tornar a correção mais bem fundamentada, não para transformar a decisão em votação.
+
+Argumentos devem se apoiar, quando possível, em:
+
+- fatos já estabelecidos;
+- ações realmente realizadas;
+- capítulos do Livro;
+- fichas;
+- STATUS;
+- Progressão;
+- regras do mundo;
+- material reservado válido;
+- lógica causal e temporal da situação;
+- intenção explicitamente registrada quando ela for relevante.
+
+Nenhuma persona possui poder de veto automático sobre a opinião das outras.
+
+O JOGADOR HUMANO pode considerar todos os argumentos, pedir ajuste da proposta e decidir qual versão será aceita como cânone.
+
+> **Todos podem argumentar. O JOGADOR HUMANO confirma.**
 
 O fluxo é:
 
 ```text
 1. Alguém identifica uma inconsistência ou erro.
 2. O MESTRE / NARRADOR apresenta claramente o fato atual e a correção proposta.
-3. O JOGADOR HUMANO aprova, recusa ou ajusta.
-4. Somente após aprovação a correção substitui a versão anterior.
-5. A PERSISTÊNCIA atualiza todos os registros realmente afetados.
+3. As personas que possuírem argumento lógico relevante podem apresentar seus pontos de vista.
+4. A proposta pode ser ajustada durante a discussão.
+5. O JOGADOR HUMANO aprova, recusa ou define o ajuste final.
+6. Somente após confirmação do JOGADOR HUMANO a correção substitui a versão anterior.
+7. A PERSISTÊNCIA atualiza todos os registros realmente afetados.
 ```
 
 ## Correção não é acontecimento ficcional
@@ -97,21 +146,27 @@ Deve explicar de forma suficiente:
 - qual correção propõe;
 - quais consequências conhecidas podem ser afetadas.
 
+Pode argumentar em favor ou contra uma proposta usando fatos disponíveis ao MESTRE / NARRADOR, inclusive material reservado quando isso puder ser feito sem revelar além do necessário.
+
 Não pode aplicar silenciosamente a correção.
 
 ### JOGADOR IA e JOGADOR IA EVENTUAL
 
-Podem apontar inconsistências ou sugerir correções quando perceberem conflito com fatos já estabelecidos.
+Podem apontar inconsistências, sugerir correções e defender interpretações coerentes com a agência, conhecimento e ações de seus personagens.
+
+Podem discordar da proposta do MESTRE / NARRADOR ou de outra persona quando possuírem fundamento lógico ou factual.
 
 Não podem alterar unilateralmente o cânone.
 
 ### OPOSITOR
 
-Pode apontar contradições relevantes para uma resolução ou para a coerência da campanha.
+Pode apontar contradições relevantes para uma resolução ou para a coerência da campanha e apresentar argumentos sobre consequências lógicas de cada alternativa.
 
 Não pode usar correção como forma de introduzir retroativamente obstáculo, recurso, preparação, capacidade ou vantagem.
 
 ### JOGADOR HUMANO
+
+Pode propor correções diretamente e participar de toda discussão sobre elas.
 
 Possui autoridade final sobre toda correção de cânone.
 
@@ -127,6 +182,8 @@ RECUSAR
 AJUSTAR
 → a proposta é modificada até existir uma versão aceita.
 ```
+
+A aprovação não precisa concordar com a primeira proposta apresentada. O JOGADOR HUMANO pode adotar uma versão construída a partir dos argumentos apresentados durante a discussão.
 
 ## Propagação da correção
 
@@ -177,6 +234,8 @@ Ações de JOGADOR HUMANO, JOGADOR IA e JOGADOR IA EVENTUAL não podem ser alter
 
 Se uma ação foi registrada incorretamente no Livro, a correção deve restaurar aquilo que realmente foi declarado e estabelecido durante o jogo.
 
+Quando houver divergência real sobre o que uma ação significava, as personas envolvidas podem apresentar argumentos e evidências antes da decisão final do JOGADOR HUMANO.
+
 Uma correção não autoriza o MESTRE / NARRADOR a escolher uma ação diferente para um personagem de jogador.
 
 ## Correção e material reservado
@@ -191,7 +250,7 @@ Diferença:
 
 ```text
 FATO CANÔNICO RESERVADO
-→ correção exige aprovação do JOGADOR HUMANO.
+→ correção exige confirmação do JOGADOR HUMANO.
 
 PLANO
 → pode mudar enquanto ainda não foi executado.
@@ -200,7 +259,9 @@ POSSIBILIDADE
 → pode ser descartada ou substituída livremente.
 ```
 
-A aprovação de uma correção reservada deve ser apresentada sem revelar além do necessário quando houver segredo que ainda precise permanecer protegido durante a campanha.
+A discussão sobre uma correção reservada pode ocorrer sem revelar além do necessário. O MESTRE / NARRADOR pode explicar que existe fundamento reservado relevante, mas não deve entregar automaticamente um segredo que a campanha ainda precise preservar.
+
+Mesmo nesse caso, nenhuma correção entra em vigor sem confirmação do JOGADOR HUMANO.
 
 ## Correção não serve para recuperar dificuldade
 
@@ -251,12 +312,14 @@ Se a correção for necessária para consolidar corretamente o capítulo:
 1. interromper a correção automática;
 2. informar o JOGADOR HUMANO;
 3. apresentar a proposta;
-4. aguardar aprovação, recusa ou ajuste;
-5. somente então consolidar a versão corrigida.
+4. permitir argumentos das personas que possuírem pontos de vista lógicos relevantes;
+5. ajustar a proposta se necessário;
+6. receber confirmação do JOGADOR HUMANO;
+7. somente então consolidar a versão corrigida.
 ```
 
 Se não for necessário resolver imediatamente, o capítulo não deve receber uma versão inventada apenas para preencher a lacuna.
 
 ## Princípio final
 
-> **Toda correção de cânone exige aprovação explícita do JOGADOR HUMANO. Depois de aprovada, a versão corrigida substitui a anterior e todos os registros realmente afetados são alinhados à nova verdade, sem manter versões contraditórias e sem usar correção como criação retroativa.**
+> **Toda persona pode opinar sobre uma correção quando possuir fundamento lógico ou factual relevante. A discussão pode modificar a proposta, mas toda correção de cânone exige confirmação explícita do JOGADOR HUMANO. Somente depois dessa confirmação a versão corrigida substitui a anterior e os registros afetados são alinhados à nova verdade.**
