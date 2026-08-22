@@ -50,23 +50,25 @@ Quando uma Cura é aplicada, usa-se a mesma lógica de comparação exponencial 
 
 Quando uma Perícia realmente governa a aplicação da Cura e não existe oposição, ela entra apenas como técnica de quem cura.
 
-`Cura efetiva = Cura usada + 1 + (Perícia aplicável × 0,2) − Ampliação não paga`
+`Cura efetiva = Cura usada + 1 + (Perícia aplicável × 0,2)`
 
 `Cura aplicada = máx(1, 2^(Cura efetiva − RES do alvo))`
 
-`Ampliação não paga` normalmente é `0`. Quando Alcance, Alvos ou Área são ampliados pela regra de Consolidação, cada ponto de carga adicional que o JOGADOR escolhe não pagar em Energia reduz a Cura efetiva em `1` naquela aplicação.
+Ampliações não reduzem a Cura efetiva. Alcance, Alvos, Área ou outras dimensões ampliadas são configuradas e pagas integralmente antes da resolução conforme `consolidacao.md`.
 
 A Cura aplicada reduz o Dano acumulado, nunca abaixo de zero.
 
-Uma aplicação capaz de recuperar Dano usa pelo menos patamar `[1]`; seu custo-base de Energia segue a regra normal do patamar efetivamente usado. Ampliações podem acrescentar custo conforme `consolidacao.md`.
+Uma aplicação capaz de recuperar Dano usa pelo menos patamar `[1]`; seu custo de Energia segue a configuração escolhida:
+
+`Custo = patamar efetivamente usado + Ampliação usada`
 
 A resistência do alvo importa porque organismos mais extraordinários também são mais difíceis de alterar e reconstruir. Uma Cura muito abaixo da `RES` ainda recupera no mínimo `1` ponto por aplicação bem-sucedida.
 
 Isso permite que um curador inferior trate um alvo muito mais resistente, mas de forma lenta e custosa em Energia e tempo.
 
-Exemplo conceitual: se cada aplicação só alcança a Cura mínima de `1`, remover `35` de Dano exige `35` aplicações e o custo correspondente aos patamares usados.
+Exemplo conceitual: se cada aplicação só alcança a Cura mínima de `1`, remover `35` de Dano exige `35` aplicações e o custo correspondente às configurações usadas.
 
-Uma Cura ampliada para vários Alvos ou Área não divide automaticamente seu valor entre os afetados. A ampliação é paga antes da aplicação por Energia, perda de Cura efetiva ou uma combinação das duas.
+Uma Cura ampliada para vários Alvos ou Área não divide automaticamente seu valor entre os afetados. A Ampliação é paga integralmente antes da aplicação.
 
 Depois que a Cura é aplicada, permanece a redução de Dano na VIDA; a Cura não continua existindo como efeito persistente apenas para representar aquilo que já restaurou.
 
