@@ -50,7 +50,19 @@ O Resultado de Cura é a quantidade de VIDA recuperada pela regra normal de cura
 
 Dissipar é um efeito próprio. Ele causa dano sobre a estrutura de **STATUS persistentes**, não sobre a Vida física comum do alvo.
 
-A manifestação-base de Dissipar será definida como qualquer outro efeito; sua resolução estrutural já é fixa:
+Base de uso:
+
+`Dissipar — Médio / 1 alvo / Pontual / Instantâneo / 1 STATUS / Efetivo máximo [nível do efeito]`
+
+A quantidade de STATUS é uma dimensão específica de Dissipar e é adicional às dimensões gerais de Alvos e Área.
+
+`1 STATUS [base] → +0` | `2 STATUS → +1` | `4 STATUS → +2` | `6 STATUS → +3` | `16 STATUS → +4` | `32 STATUS → +5`
+
+`STATUS` define quantos efeitos persistentes diferentes podem ser atacados pela mesma aplicação. `Alvos` define em quantos alvos essas instâncias podem ser escolhidas. `Área` define o espaço atingido quando a aplicação usa uma zona.
+
+Exemplo: `Dissipar [1] | 1 STATUS | 2 alvos [+1] | Área Pontual [+0]` pode atacar uma instância de STATUS em cada um de dois alvos.
+
+Cada STATUS atingido resolve separadamente contra sua própria Defesa:
 
 `Dissipar efetivo vs D do efeito persistente → Dano aplicado → reduz V do efeito`
 
@@ -60,7 +72,7 @@ Exemplo: `Cegueira [D2,4 / V5] — Cena`. Uma aplicação de Dissipar resolve co
 
 Dissipar pode atingir tanto efeitos prejudiciais quanto benéficos persistentes, desde que estejam dentro de seu repertório.
 
-> **Dissipar é dano contra STATUS persistente. Usa o mesmo motor de ataque, defesa e dano.**
+> **Dissipar é dano contra STATUS persistente. STATUS, Alvos e Área medem coisas diferentes e podem ser ampliados separadamente.**
 
 ## Sentidos — supressão
 
