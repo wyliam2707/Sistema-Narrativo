@@ -38,9 +38,7 @@ A apresentação da VIDA segue esta régua:
 
 `0–4 Ileso | 5–9 Ferido | 10–14 Ferido* | 15–19 Grave | 20–24 Grave* | 25–29 Crítico | 30–34 Crítico* | 35 Incapacitado`
 
-Exemplo:
-
-`Vida: Ferido* | Dano acumulado: 12`
+Exemplo: `Vida: Ferido* | Dano acumulado: 12`.
 
 `Vida` comunica o estado físico atual do personagem.
 
@@ -60,7 +58,7 @@ Morte é uma consequência distinta, definida pela ficção e pelas regras de re
 
 ENERGIA registra a Reserva atual do personagem e, quando existir, a carga disponível em uma Bateria.
 
-A regra de cálculo, custos de uso e transferência pertence a `../resolucao/energia.md`. O STATUS apenas preserva os valores já estabelecidos.
+A regra de cálculo, custos de uso, recuperação e transferência pertence a `../resolucao/energia.md`. O STATUS apenas preserva os valores já estabelecidos.
 
 A Reserva pode ser lida em cinco estados narrativos:
 
@@ -70,23 +68,23 @@ Os cinco estados com Energia disponível dividem igualmente a Reserva máxima.
 
 O valor numérico pode ser mostrado junto do estado para facilitar o controle.
 
-Exemplo sem Bateria:
+A notação operacional padrão é mantida em uma única linha:
 
-`Energia: 37/80 — Média`
+`Energia [10/100] - Bateria [40/40] - Descanso [5m:+45 / 2h:+45]`
 
-Quando existe Bateria, sua carga aparece depois da Reserva:
+`Energia [atual/máxima]` registra a Reserva própria.
 
-`Energia: 60/80 [20/60]`
+`Bateria [atual/máxima]` registra a carga externa disponível.
 
-A leitura é:
+`Descanso [5m:X / 2h:Y]` registra quanto ainda pode ser recuperado em cada janela de descanso. O primeiro valor é a parcela de esforço recente recuperável por um fôlego de aproximadamente 5 minutos; o segundo é o desgaste profundo que exige aproximadamente 1 a 2 horas.
 
-`60/80` → Energia atual / Reserva máxima
+Depois do fôlego curto, sua parcela pode ficar em zero enquanto o desgaste profundo permanece. Exemplo: `Energia [55/100] - Bateria [40/40] - Descanso [5m:+0 / 2h:+45]`.
 
-`[20/60]` → carga atual / capacidade máxima da Bateria
+Quando o personagem não possui Bateria, esse trecho é omitido. Quando não existe recuperação pendente, o trecho de Descanso também pode ser omitido.
 
 A Bateria é uma reserva separada. Sua presença, natureza e patamar pertencem à ficha; sua carga atual pertence ao STATUS.
 
-O estado comunica rapidamente a condição da Reserva. Os números preservam a precisão necessária para gasto, recuperação e continuidade.
+Os estados comunicam rapidamente a condição da Reserva. Os números preservam a precisão necessária para gasto, recuperação e continuidade.
 
 ## Condições
 
@@ -190,17 +188,7 @@ SAI
 
 Exemplo:
 
-```text
-STATUS:
-Vida: Grave
-Dano acumulado: 18
-Energia: 22/60 — Baixa [40/60]
-Condições:
-- Envenenado
-- Atordoado
-Efeitos Ativos:
-Local: Corredor Norte
-```
+`STATUS: Vida: Grave | Dano acumulado: 18 | Energia [22/60] - Bateria [40/60] - Descanso [5m:+19 / 2h:+19] | Condições: Envenenado, Atordoado | Local: Corredor Norte`
 
 Se uma Proteção Mágica terminou, ela simplesmente deixa de aparecer em Efeitos Ativos. Se Atordoado deixou de existir, sai de Condições.
 
@@ -237,22 +225,13 @@ STATUS não substitui a ficha.
 
 Exemplo:
 
-```text
-FICHA:
-RES [2]
-Regeneração [1]
-Bateria [3]
+`FICHA: RES [2] | Regeneração [1] | Bateria [3]`
 
-STATUS:
-Vida: Grave
-Dano acumulado: 18
-Energia: 22/40 — Média [36/60]
-Local: Biblioteca
-```
+`STATUS: Vida: Grave | Dano acumulado: 18 | Energia [22/40] - Bateria [36/60] | Local: Biblioteca`
 
 `RES [2]`, `Regeneração [1]` e `Bateria [3]` descrevem capacidades estáveis do personagem.
 
-`Vida: Grave`, `Dano acumulado: 18`, `Energia: 22/40` e `[36/60]` descrevem apenas seu estado atual.
+`Vida: Grave`, `Dano acumulado: 18`, `Energia [22/40]` e `Bateria [36/60]` descrevem apenas seu estado atual.
 
 Se uma mudança deixar de ser temporária e passar a alterar de forma estável quem o personagem é, ela deve ser tratada pela camada apropriada de persistência e, quando necessário, consolidada na ficha.
 
