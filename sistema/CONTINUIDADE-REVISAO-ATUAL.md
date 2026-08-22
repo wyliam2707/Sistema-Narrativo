@@ -1,232 +1,18 @@
 # Continuidade Atual — Revisão do Sistema
 
-Status: CHECKPOINT PARA NOVO CHAT
-Data do checkpoint: 2026-08-21
+Status: CHECKPOINT PARA RETOMADA
+Data do checkpoint: 2026-08-22
+Branch de trabalho: `revisao/personagem`
 
-Este arquivo existe para permitir que a revisão do sistema continue em outro chat sem depender da memória da conversa anterior.
-
----
+Este arquivo resume somente o estado atual da revisão. Arquivos antigos continuam preservados como fontes históricas de migração, mas não prevalecem quando uma regra nova explicitamente aprovada os substitui.
 
 ## 1. Estado da campanha usada como teste
 
-A campanha **Castelo dos Corvos** está PAUSADA de propósito enquanto o sistema é revisado.
+A campanha `Castelo dos Corvos` permanece PAUSADA enquanto o sistema é revisado.
 
-- O Capítulo 14 foi salvo como **Capítulo 14 — Seguir em Frente**.
-- Não avançar a ficção automaticamente.
-- A campanha está sendo usada apenas como exemplo prático para testar regras do sistema.
+Não avançar a ficção automaticamente. Usar a campanha apenas como evidência ou exemplo mecânico até o JOGADOR HUMANO pedir explicitamente para retomá-la.
 
-Ponto salvo da campanha:
-- Corvin dormiu no solar depois de guardar novamente no depósito uma fotografia antiga de Marta e de pessoas da Casa.
-- Ravena dormiu no próprio quarto e não presenciou essa despedida.
-- O romance, a Casa Blackwood, Marta e demais elementos da campanha continuam canônicos conforme os arquivos da aventura.
-
----
-
-## 2. Problema identificado durante a campanha
-
-A campanha mostrou que a IA estava misturando funções diferentes:
-
-- às vezes Ravena/Jogadores IA viravam extensões do Narrador;
-- às vezes o Narrador protegia demais os planos do protagonista;
-- às vezes o Narrador criava resistência artificial apenas para evitar sucesso fácil;
-- antagonistas podiam desaparecer porque não existia uma função explicitamente obrigada a pensar oposição;
-- intenções do jogador eram ocasionalmente tratadas como resultados garantidos.
-
-A revisão passou a separar essas responsabilidades.
-
----
-
-## 3. Cinco papéis operacionais e quatro personas da IA
-
-Existem cinco papéis no ciclo:
-
-1. `JOGADOR HUMANO`
-2. `JOGADOR IA`
-3. `JOGADOR IA EVENTUAL`
-4. `OPOSITOR`
-5. `NARRADOR`
-
-O `JOGADOR HUMANO` pertence ao usuário.
-
-As quatro personas executadas pela IA são:
-
-- `JOGADOR IA`
-- `JOGADOR IA EVENTUAL`
-- `OPOSITOR`
-- `NARRADOR`
-
-Estrutura criada:
-
-```text
-sistema/personas/
-├── README.md
-├── jogador-humano/
-│   └── README.md
-├── jogador-ia/
-│   └── README.md
-├── jogador-ia-eventual/
-│   └── README.md
-├── opositor/
-│   └── README.md
-└── narrador/
-    └── README.md
-```
-
----
-
-## 4. Ciclo operacional atual
-
-A regra de prioridade máxima foi alterada para:
-
-```text
-JOGADOR HUMANO declara
-↓
-JOGADOR IA declara
-↓
-JOGADOR IA EVENTUAL é obrigatoriamente avaliado; se ativo, declara
-↓
-OPOSITOR declara pressão/oposição ou ausência de pressão relevante
-↓
-NARRADOR resolve
-↓
-NOVA SITUAÇÃO
-```
-
-Regra importante:
-
-> Nenhum slot deve desaparecer por esquecimento.
-
-`Nada a declarar`, `nenhuma ativação relevante` e `nenhuma pressão relevante` são declarações válidas.
-
----
-
-## 5. Intenção não é resultado
-
-Princípio consolidado durante Castelo dos Corvos:
-
-> **Intenção continua sendo intenção.**
-
-Isso NÃO significa transformar tudo em aleatoriedade.
-
-Uma boa ideia continua sendo boa.
-Uma retórica convincente continua enganando quando faz sentido.
-Atributos altos, perícias altas, poderes altos, preparação, contexto favorável, reputação, posição e informação continuam sendo decisivos.
-
-Exemplo conceitual:
-
-- boa ideia + capacidade alta + contexto favorável → normalmente funciona;
-- boa ideia + oposição forte → disputa real;
-- ideia ruim + capacidade alta → pode reduzir o dano, não obrigatoriamente transformar a ideia em boa;
-- impossibilidade real → capacidade alta não inventa uma solução inexistente.
-
-O Narrador não deve criar falha aleatória só para preservar incerteza.
-
----
-
-## 6. Persona OPOSITOR
-
-O `OPOSITOR` reúne duas funções que inicialmente foram consideradas separadas:
-
-1. pressão impessoal do mundo;
-2. oposição intencional de agentes, rivais, vilões, facções etc.
-
-Assim, o Opositor pode explorar:
-
-- preço;
-- disponibilidade;
-- escassez;
-- logística;
-- burocracia;
-- clima;
-- distância;
-- legislação;
-- reputação;
-- contratos;
-- concorrência;
-- espionagem;
-- chantagem;
-- sabotagem;
-- emboscadas;
-- política;
-- relações;
-- informação;
-- tempo;
-- recursos.
-
-Princípio:
-
-> **O Opositor procura o ponto legítimo de pressão disponível.**
-
-Ele pode usar qualquer gancho causal para iniciar ou ampliar conflito, mas não pode inventar retroativamente uma oposição só porque percebeu que o plano do jogador teria sucesso.
-
-Para oposição intencional, verificar:
-
-1. O agente sabe o suficiente?
-2. Possui motivo para agir?
-3. Possui meios/recursos/oportunidade?
-
-Se não houver pressão legítima:
-
-`OPOSITOR — nenhuma pressão relevante.`
-
-O Opositor pode plantar problemas antes do payoff, desde que seus agentes tenham conhecimento, motivo e meios reais para preparar isso.
-
----
-
-## 7. Persona NARRADOR
-
-O Narrador deve ser neutro.
-
-Ele não existe para:
-
-- proteger o plano do protagonista;
-- contrariar o protagonista;
-- recuperar dificuldade perdida;
-- garantir drama;
-- criar ameaça depois de ver que o plano funcionaria.
-
-O Narrador recebe:
-
-- intenções dos jogadores;
-- participação do Opositor;
-- capacidades;
-- posição;
-- preparação;
-- informação;
-- ambiente;
-- STATUS;
-- efeitos existentes;
-
-E resolve causalmente o resultado.
-
-Princípio:
-
-> **Jogadores querem. O Opositor pressiona. O Narrador arbitra.**
-
----
-
-## 8. Compartimentação de conhecimento
-
-A mesma IA pode executar várias personas, mas não pode misturar conhecimento entre elas.
-
-```text
-Conhecimento do Narrador
-≠ conhecimento do Jogador IA
-≠ conhecimento do Jogador IA Eventual
-≠ conhecimento dos agentes usados pelo Opositor
-```
-
-O Opositor não ganha automaticamente acesso a segredos de `mestre/`.
-
-Declarações secretas podem existir operacionalmente sem serem mostradas ao jogador humano. O Narrador só apresenta o que se torna perceptível ou legitimamente descoberto.
-
----
-
-## 9. Nova arquitetura estrutural
-
-Foi decidido reorganizar o sistema em subpastas para facilitar consulta.
-
-Pastas criadas:
+## 2. Arquitetura atual
 
 ```text
 sistema/
@@ -235,89 +21,226 @@ sistema/
 ├── agencia/
 ├── narracao/
 ├── persistencia/
-└── operacao/
+├── operacao/
+└── personagem/
 ```
 
 Responsabilidades:
 
-- `personas/` → quem decide o quê;
-- `resolucao/` → como declarações viram resultados;
-- `agencia/` → autonomia, vida fora da câmera, conhecimento separado;
-- `narracao/` → como a ficção é apresentada;
-- `persistencia/` → estado, cronologia, progressão, fichas, livro e salvamento;
-- `operacao/` → checklist, ordem de consulta e execução do sistema.
+`personagem/ → quem a entidade é e do que é capaz` | `personas/ → quem decide` | `resolucao/ → o que acontece` | `agencia/ → continuidade de vontade própria` | `narracao/ → como mostrar` | `persistencia/ → o que permanece` | `operacao/ → ordem de aplicação`.
 
----
+## 3. Personas e ciclo
 
-## 10. Migração sem apagar os arquivos antigos
+Axioma:
 
-Decisão explícita do usuário:
+> **Os JOGADORES movem suas peças. O OPOSITOR move o cenário. O NARRADOR organiza, julga e registra.**
 
-> **Criar novos arquivos e manter os originais até que eles não sejam mais úteis.**
+Papéis:
 
-Foi criado:
+`JOGADOR HUMANO | JOGADOR IA | JOGADOR IA EVENTUAL | OPOSITOR | NARRADOR`
 
-`sistema/MIGRACAO-ESTRUTURAL.md`
+Ciclo atual:
 
-Regra da migração:
+`JOGADOR HUMANO → JOGADOR IA → EVENTUAL → OPOSITOR → NARRADOR organiza/consulta/julga/apresenta/registra → nova janela`
 
-- não mover/apagar um arquivo antigo apenas porque existe uma pasta nova;
-- arquivos antigos continuam válidos até uma substituição nova estar escrita, revisada, aprovada e com referências importantes atualizadas;
-- estados de migração: `NOVA ESTRUTURA`, `ANTIGA AINDA VÁLIDA`, `EM REVISÃO`, `SUBSTITUÍDA`, `OBSOLETA`.
+A resolução termina quando a consequência volta a exigir escolha.
 
-Arquivos antigos principais ainda marcados como válidos incluem:
+## 4. Personagem — atributos atuais
 
-- `sistema/README.md`
-- `sistema/00-LEIA-PRIMEIRO.md`
-- `sistema/ciclo-de-jogadores.md`
-- `sistema/agencia-de-personagens.md`
-- `sistema/narracao-e-escrita-padrao.md`
-- `sistema/modo-rpg.md`
-- `sistema/checklist-do-narrador.md`
-- `sistema/protocolo-de-fechamento-de-capitulo.md`
+A ficha usa quatro Atributos universais:
 
----
+`FIS | RES | MEN | VON`
 
-## 11. Próximo ponto de trabalho — NÃO RESOLVIDO AINDA
+- `FIS` — capacidade corporal: força, velocidade, coordenação, reação, precisão física, equilíbrio e movimento;
+- `RES` — quanto o corpo/estrutura suporta;
+- `MEN` — perceber, compreender, raciocinar, lembrar, analisar e executar precisão mental quando pertinente;
+- `VON` — determinação, resistência mental, sustentação e imposição volitiva quando pertinente.
 
-A última pergunta antes deste checkpoint foi:
+Princípio:
 
-> **“Quanto aos valores numéricos e criação de personagem, onde eles devem ser mantidos?”**
+> **FIS age. RES suporta.**
 
-Isso ainda NÃO foi decidido.
+A ficha descreve o personagem; não existe distribuição para produzir justiça entre personagens.
 
-Ao abrir o próximo chat, retomar exatamente daqui.
+Atributo, Perícia, Poder e equipamento não são somados automaticamente.
 
-Questões a analisar:
+Exemplo: `FIS [2] | Pistola Dano [1] | Espada Mágica Dano [3]` lê `corpo [2] | pistola [1] | espada [3]`, sem `2+3`.
 
-- criação de personagem deve ter uma nova área própria, por exemplo `sistema/personagem/` ou `sistema/ficha/`?
-- escala numérica 0–5, atributos, perícias, poderes, sintaxe e regras de ficha pertencem a `resolucao/` ou merecem uma área estrutural própria?
-- separar “definição da ficha” de “uso da ficha na resolução” provavelmente evita misturar criação com arbitragem;
-- decidir onde ficam modelos/templates de ficha;
-- decidir onde ficam regras de NPCs, Jogadores IA e antagonistas na criação de personagens;
-- manter o atual `sistema/README.md` como fonte antiga válida enquanto a nova divisão é construída.
+## 5. Escalas da ficha
 
-Nenhuma estrutura nova para esse ponto deve ser presumida até a discussão continuar.
+Atributos: `[0]–[5]`, qualitativos e não lineares.
 
----
+`[0] humano | [1] além do humano | [2] super-humano | [3] poderoso | [4] extremo | [5] ápice`
 
-## 12. Ordem sugerida ao retomar
+Perícias: abertas, `[+0]–[+5]`. O específico prevalece sobre o geral; não se somam.
 
-1. Resolver onde ficam **criação de personagem, ficha e valores numéricos**.
-2. Ajustar a arquitetura nova se necessário.
-3. Refinar `personas/opositor/` em detalhe.
-4. Refinar `personas/narrador/`.
-5. Depois reconstruir `resolucao/` usando essas personas já estabilizadas.
-6. Manter Castelo dos Corvos pausado até o usuário pedir explicitamente para voltar à campanha.
+Poderes: `[1]–[5]`, organizados por fonte/repertório. Poder `[0]` não existe. Uma capacidade estável de equipamento pode ser Poder.
 
----
+TRAÇOS são verdades qualitativas estáveis, sem grau numérico.
+
+REL registra relação recorrente de `-5` a `+5` sem modificador automático.
+
+## 6. Princípio de resolução
+
+`RESULTADO EVIDENTE → estabelece | IMPOSSIBILIDADE EVIDENTE → estabelece | INCERTEZA REAL → resolve`
+
+Motor geral:
+
+`Perícia efetiva = Perícia de aplicação − Perícia de oposição`
+
+`Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2)`
+
+`Resultado/Progresso = 2^(Efeito efetivo − Resistência efetiva)`
+
+Não existe `Ampliação não paga`.
+
+## 7. Combate e Dano
+
+`Ataque efetivo = Dano + 1 + (Perícia efetiva × 0,2)`
+
+`Dano aplicado = 2^(Ataque efetivo − Defesa efetiva)`
+
+Referência sem diferença de Perícia:
+
+`igual → 2 | +1 → 4 | +2 → 8 | +3 → 16 | +4 → 32 | +5 → 64 | -1 → 1 | -2 → 0,5 | -3 → 0,25`
+
+Dano abaixo de `0,25` não é acumulado. Mesmo `0,25` não cria capacidade de afetar um alvo quando o mecanismo é ficcionalmente incapaz.
+
+VIDA de personagem:
+
+`0–4 Ileso | 5–9 Ferido | 10–14 Ferido* | 15–19 Grave | 20–24 Grave* | 25–29 Crítico | 30–34 Crítico* | 35 Incapacitado`
+
+Incapacitado não significa morto.
+
+## 8. Energia e Ampliação
+
+Reserva pelo maior Atributo:
+
+`[0]→10 | [1]→20 | [2]→40 | [3]→60 | [4]→80 | [5]→100`
+
+Quando uma capacidade consome Energia:
+
+`Custo = patamar efetivamente usado + Ampliação usada`
+
+A Ampliação é paga integralmente antes da resolução. Se não houver Energia suficiente, o JOGADOR reduz potência usada, Ampliação ou ambas antes de resolver.
+
+Limite de Ampliação:
+
+`Ampliação [X] = patamar máximo do efeito + maior entre MEN e VON`
+
+Dimensões gerais:
+
+`Alcance | Alvos | Área/Tamanho | Duração`
+
+Alcance:
+
+`Toque → Curto → Médio → Longo → Visão → Simpático`
+
+Alvos:
+
+`1 +0 | 2 +1 | 4 +2 | 8 +3 | 16 +4 | 32 +5`
+
+Área/Tamanho:
+
+`Pontual/Humano +0 | Pequena +1 | Média +2 | Grande +3 | Enorme +4 | Massiva +5`
+
+Duração:
+
+`Instantâneo → Cena → Hora → Dia → Semana → Permanente`
+
+## 9. Efeitos persistentes e Graus de Vida
+
+`1 grau de Vida = 5`
+
+Referência:
+
+`Efeito persistente → V5 | Proteção/Barreira → V5 | Invocação/estrutura equivalente → V10 | Personagem → V35`
+
+Todo efeito persistente, benéfico ou prejudicial:
+
+`Efeito [D x / V5] — Duração`
+
+`D` é a Defesa estrutural, normalmente o Efetivo que estabeleceu o efeito.
+
+Perder Vida não reduz a intensidade do efeito. Enquanto `V > 0`, ele permanece integral; em `V0`, termina.
+
+## 10. Dissipar
+
+Dissipar é efeito próprio de Dano contra STATUS persistente:
+
+`Dissipar efetivo vs D do STATUS → Dano aplicado → reduz V`
+
+Base:
+
+`Dissipar — Médio / 1 alvo / Pontual / Instantâneo / 1 STATUS / Efetivo máximo [nível]`
+
+Quantidade específica de STATUS:
+
+`1 +0 | 2 +1 | 4 +2 | 6 +3 | 16 +4 | 32 +5`
+
+STATUS, Alvos e Área são dimensões diferentes e podem ser ampliadas separadamente.
+
+## 11. Invocação e Transformação
+
+Invocação base:
+
+`Médio / 1 criação / Tamanho Humano / Cena`
+
+Criação invocada:
+
+`D = RES | V10`
+
+Distribuição com os quatro Atributos:
+
+`Inv [1] → 1 atributo [1]` | `Inv [2] → 1[2] ou 2[1]` | `Inv [3] → 1[3] ou 2[2] ou 3[1]` | `Inv [4] → 1[4] ou 2[3] ou 3[2] ou 4[1]` | `Inv [5] → 1[5] ou 2[4] ou 3[3] ou 4[2]`.
+
+Transformação física redefine `FIS` e `RES`; `MEN`, `VON`, VIDA e Energia permanecem originais.
+
+`T1 → [1]/[0] | T2 → [2]/[0] ou [1]/[1] | T3 → [3]/[0] ou [2]/[2] | T4 → [4]/[0] ou [3]/[3] | T5 → [5]/[0] ou [4]/[4]`.
+
+## 12. Contenção
+
+Três estruturas diferentes:
+
+`Poder Imobilizar → efeito persistente D/V5`
+
+`Personagem/Invocação viva segurando → condição Sustentada pela ação do agente, sem D/V próprio`
+
+`Algemas/estrutura física → estrutura própria, ex. FIS [3] | V10`
+
+Em contenção sustentada, cada agente gasta ação para manter. O alvo continua escolhendo ações coerentes: escapar, atacar quem o segura, usar magia possível etc.
+
+Vários agentes não somam Atributos. Cada um resolve; Resultados compatíveis podem ser somados na mesma janela.
+
+Exemplo: `4 guardas FIS [2] vs alvo FIS [2] → 2+2+2+2 = 8 → Imobilizado [8] — Sustentado`.
+
+## 13. STATUS
+
+STATUS é atualizado assim que a consequência é estabelecida.
+
+Exemplos compactos:
+
+`Cegueira [D2,4 / V5] — Cena | Proteção [D3,0 / V5] — Cena | Imobilizado [8] — Sustentado por 4 guardas | Algemado — Algemas [FIS3 / V10]`.
+
+STATUS registra o presente; ficha registra quem o personagem é.
+
+## 14. Migração
+
+Não apagar os arquivos antigos durante a revisão.
+
+Quando uma formulação antiga contradiz uma regra nova explicitamente aprovada, a regra nova prevalece. `MIGRACAO-ESTRUTURAL.md` registra a arquitetura e as referências principais.
+
+## 15. Estado atual da revisão
+
+A varredura de consistência iniciada em 2026-08-22 alinhou os arquivos principais de `personagem/`, `resolucao/`, `persistencia/`, `operacao/` e `agencia/` às regras acima.
+
+Não existe uma próxima mecânica presumida neste checkpoint. Ao retomar, consultar este arquivo e os arquivos específicos da área antes de escolher o próximo conceito a revisar.
 
 ## Regra de retomada
 
-Ao iniciar um novo chat para esta revisão:
-
-1. consultar este arquivo;
-2. consultar `sistema/MIGRACAO-ESTRUTURAL.md`;
-3. consultar `sistema/personas/README.md` e `sistema/ciclo-de-jogadores.md` se a discussão envolver personas/ciclo;
-4. não apagar arquivos antigos sem aprovação;
-5. retomar pela questão pendente de criação de personagem e valores numéricos.
+1. consultar `CONTINUIDADE-REVISAO-ATUAL.md`;
+2. consultar `MIGRACAO-ESTRUTURAL.md`;
+3. usar a arquitetura nova como referência principal nas áreas já substituídas;
+4. consultar arquivos antigos somente como fonte histórica nos pontos ainda não migrados;
+5. não apagar ou mesclar conteúdo antigo sem autorização explícita;
+6. manter `Castelo dos Corvos` pausado até pedido explícito de retomada.
