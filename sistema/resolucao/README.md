@@ -18,6 +18,7 @@ Esta pasta deverá concentrar, progressivamente:
 - quando um resultado é evidente e quando exige resolução;
 - leitura qualitativa de atributos, perícias e poderes;
 - comparação de capacidades e manutenção de disputas equilibradas;
+- motor geral de disputas progressivas contra personagens e cenário;
 - preparação, vantagem, contexto e oposição;
 - resolução social;
 - investigação e informação;
@@ -33,6 +34,7 @@ A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertenc
 - `principio-de-resolucao.md` — distingue resultado evidente, impossibilidade evidente e incerteza real; somente a incerteza real exige resolução comparativa;
 - `leitura-da-ficha-na-resolucao.md` — define como Atributos, Perícias, Poderes, meio, situação e conhecimento entram na resolução sem soma automática nem conversões fixas de patamar;
 - `comparacao-e-disputa.md` — define comparação qualitativa, estratégia e preparação, soluções que mudam o problema, agência diante de planos e manutenção de disputas equilibradas sem vencedor artificial;
+- `motor-de-disputa.md` — define Potência, Resistência, Exigência, progresso por aplicação, acumulação, tempo, custo efetivo, oportunidade de reação e Consolidação como motor geral de disputas progressivas;
 - `combate-e-dano.md` — define resolução compacta de combate, Perícia efetiva, Ataque efetivo, progressão exponencial de dano, defesa aplicável, ataques detalhados e referência de VIDA;
 - `energia.md` — define Reserva, custo por patamar efetivamente usado, estados de Energia, Bateria, recuperação e transferência de carga;
 - `recuperacao-da-vida.md` — define recuperação natural por estado, Regeneração por hora, Cura como contraponto do Dano, Medicina sem oposição artificial e estabilização;
@@ -82,6 +84,29 @@ Uma solução válida pode encerrar um problema importante.
 Uma disputa equilibrada pode continuar sem vencedor.
 ```
 
+Para disputas progressivas:
+
+```text
+Perícia efetiva = Perícia de aplicação − Perícia de oposição
+Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2)
+Progresso por aplicação = 2^(Efeito efetivo − Resistência efetiva)
+Aplicações necessárias = teto(Exigência ÷ Progresso por aplicação)
+```
+
+Escalas padrão de aplicação:
+
+`6 segundos → imediata` | `1 minuto → curta` | `1 hora → prolongada` | `1 dia → extensa`
+
+Quando houver Energia:
+
+`Custo efetivo = aplicações × custo por aplicação`
+
+Quando um efeito persistente ultrapassa sua Exigência-base:
+
+`Consolidação = Progresso acumulado − Exigência-base`
+
+A Consolidação pode representar simultaneamente duração e persistência quando a natureza do efeito permitir.
+
 Em combate:
 
 ```text
@@ -109,5 +134,7 @@ Cura aplicada = máx(1, 2^(Cura efetiva − RES do alvo))
 A cena continua decidindo quais capacidades realmente entram no cálculo.
 
 > **Resolução não existe para fabricar incerteza nem para produzir um número único. Ela existe para decidir, pela ficção e pelas capacidades relevantes, qual resultado é coerente quando mais de um continua plausível.**
+
+> **A Resistência transforma dificuldade em tempo, custo e oportunidade de reação.**
 
 > **O NARRADOR preserva a continuidade da campanha, não a permanência dos problemas nem o planejamento anterior.**
