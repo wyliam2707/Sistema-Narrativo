@@ -23,6 +23,7 @@ Esta pasta deverá concentrar, progressivamente:
 - investigação e informação;
 - combate e dano;
 - energia, reservas e custos de uso;
+- recuperação de VIDA;
 - ações prolongadas e passagem de tempo quando houver resolução envolvida.
 
 A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertencem a `../operacao/`.
@@ -33,7 +34,8 @@ A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertenc
 - `leitura-da-ficha-na-resolucao.md` — define como Atributos, Perícias, Poderes, meio, situação e conhecimento entram na resolução sem soma automática nem conversões fixas de patamar;
 - `comparacao-e-disputa.md` — define comparação qualitativa, estratégia e preparação, soluções que mudam o problema, agência diante de planos e manutenção de disputas equilibradas sem vencedor artificial;
 - `combate-e-dano.md` — define resolução compacta de combate, Perícia efetiva, Ataque efetivo, progressão exponencial de dano, defesa aplicável, ataques detalhados e referência de VIDA;
-- `energia.md` — define Reserva, custo por patamar efetivamente usado, estados de Energia, Bateria e transferência de carga.
+- `energia.md` — define Reserva, custo por patamar efetivamente usado, estados de Energia, Bateria e transferência de carga;
+- `recuperacao-da-vida.md` — define recuperação natural por estado, tempos de referência e relação entre VIDA, dano acumulado e estabilização.
 
 ## Arquivos antigos ainda como fonte de migração
 
