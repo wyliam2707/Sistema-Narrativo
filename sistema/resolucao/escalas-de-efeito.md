@@ -24,7 +24,7 @@ A leitura segue, quando aplicável:
 
 A base não determina sozinha o Resultado. O Resultado continua vindo da resolução contra a oposição aplicável.
 
-Alterar alcance, quantidade de alvos, área/tamanho ou duração além da base pertence às regras de ampliação e custo.
+Alterar Alcance, quantidade de Alvos, Área/Tamanho ou Duração além da base pertence às regras de Ampliação e custo.
 
 > **Base do efeito = como ele normalmente se manifesta. Resultado = intensidade que ele consegue produzir contra a oposição. Ampliações = mudanças opcionais nessa manifestação.**
 
@@ -84,9 +84,9 @@ A escala começa prejudicando um sentido específico. Depois de sua supressão f
 
 `[2] Prejudicar` | `[4] Comprometer` | `[8] Suprimir` | `[16] Supressão ampla` | `[32] Supressão dominante`
 
-- `[2] Prejudicar` — o sentido funciona, mas com dificuldade relevante. Ex.: visão embaçada, pouca luz, ruído atrapalhando a audição.
-- `[4] Comprometer` — o sentido continua funcionando, mas perde informação importante. Ex.: ver vultos e silhuetas sem identificar rostos; ouvir sem distinguir bem palavras ou direção.
-- `[8] Suprimir` — o sentido deixa de fornecer informação funcional. Ex.: visão equivalente a uma sala totalmente escura; audição completamente abafada.
+- `[2] Prejudicar` — o sentido funciona, mas com dificuldade relevante.
+- `[4] Comprometer` — o sentido continua funcionando, mas perde informação importante.
+- `[8] Suprimir` — o sentido deixa de fornecer informação funcional.
 - `[16] Supressão ampla` — suprime o sentido principal em `[8]` e espalha um efeito `[2]` aos demais sentidos afetáveis.
 - `[32] Supressão dominante` — suprime o sentido principal em `[8]` e espalha um efeito `[4]` aos demais sentidos afetáveis.
 
@@ -134,7 +134,9 @@ A mesma régua serve para reduzir Atributos e Poderes.
 
 Referências comuns de Atributo:
 
-`Lento → AGI` | `Fraco → FOR` | `Frágil → RES` | `Confuso → MEN` | `Suscetível → VON`
+`Lento ou Fraco → FIS` | `Frágil → RES` | `Confuso → MEN` | `Suscetível → VON`
+
+O nome da condição continua descrevendo **qual aspecto ficcional** foi afetado. Como força, velocidade, coordenação e reação agora pertencem ao mesmo Atributo, diferentes supressões físicas podem reduzir FIS sem se transformarem na mesma condição narrativa.
 
 A supressão de Atributo respeita o piso `[0]`; ela reduz o patamar disponível, não cria Atributo negativo.
 
@@ -168,8 +170,6 @@ Se superar, a Barreira é rompida e o excedente continua para a próxima camada 
 
 `Excedente = Dano aplicado − Vida restante da Barreira`
 
-O excedente é convertido novamente em Ataque efetivo usando a fórmula inversa:
-
 `Ataque efetivo restante = D da Barreira + log₂(Excedente)`
 
 Depois da reconversão, o Ataque efetivo restante é sempre arredondado para baixo antes de atingir a próxima camada.
@@ -187,7 +187,7 @@ Base de uso:
 `[2] Indício` | `[4] Revelar` | `[8] Compreender` | `[16] Aprofundar` | `[32] Devassar`
 
 - `[2] Indício` — obtém uma pista útil, mas incompleta. Em espionagem ou busca de uma pessoa, pode indicar apenas presença, direção ou estado geral muito básico.
-- `[4] Revelar` — identifica a informação principal, ainda com detalhes ausentes. Em espionagem ou busca de uma pessoa, pode revelar, por exemplo, localização e estado geral de saúde quando isso estiver dentro do repertório.
+- `[4] Revelar` — identifica a informação principal, ainda com detalhes ausentes. Pode revelar, por exemplo, localização e estado geral de saúde quando isso estiver dentro do repertório.
 - `[8] Compreender` — obtém informação funcionalmente completa sobre o objetivo investigado.
 - `[16] Aprofundar` — revela relações, causas, contexto e detalhes ocultos relevantes.
 - `[32] Devassar` — alcança tudo que aquela capacidade consegue descobrir dentro de seu repertório.
@@ -202,7 +202,7 @@ Não se somam automaticamente diferentes fontes de resistência; a ficção dete
 
 Informação pode exigir um foco para alcançar alguém ou alguma fonte que não esteja disponível diretamente. O foco é uma condição de vínculo, não um bônus numérico automático.
 
-Exemplos possíveis, conforme a natureza do Poder: `cabelo` | `sangue` | `objeto pessoal` | `nome verdadeiro` | `fotografia` | `espelho preparado`.
+Exemplos possíveis, conforme a natureza do Poder: `cabelo | sangue | objeto pessoal | nome verdadeiro | fotografia | espelho preparado`.
 
 Possuir o foco permite estabelecer o mecanismo quando o repertório realmente comporta esse tipo de leitura. Ele não aumenta sozinho o Efetivo nem aprofunda o Resultado.
 
@@ -232,9 +232,11 @@ Uma criação recebe apenas os Atributos necessários para cumprir sua função.
 
 `Invocação [4] → 1 atributo [4] | 2 atributos [3] | 3 atributos [2] | 4 atributos [1]`
 
-`Invocação [5] → 1 atributo [5] | 2 atributos [4] | 3 atributos [3] | 4 atributos [2] | 5 atributos [1]`
+`Invocação [5] → 1 atributo [5] | 2 atributos [4] | 3 atributos [3] | 4 atributos [2]`
 
-Exemplos: `Cadeira comum → atributos relevantes [0]` | `Mesa reforçada → FOR [1]` | `Parede passiva com Invocação [5] → RES [5]` | `Parede ativa → FOR [4] | RES [4]` | `Golem bruto → FOR [4] | RES [4]` | `Golem de combate → FOR [3] | AGI [3] | RES [3]`.
+Como existem quatro Atributos universais (`FIS | RES | MEN | VON`), não existe uma quinta posição de distribuição.
+
+Exemplos: `Cadeira comum → atributos relevantes [0]` | `Parede passiva → RES [5]` | `Parede ativa → FIS [4] | RES [4]` | `Golem bruto → FIS [4] | RES [4]` | `Entidade equilibrada → FIS [3] | RES [3] | MEN [3]`.
 
 > **Invocação determina como se estrutura aquilo que foi criado. O Poder determina o que pode ser criado.**
 
@@ -242,17 +244,19 @@ Exemplos: `Cadeira comum → atributos relevantes [0]` | `Mesa reforçada → FO
 
 Os Atributos da criação representam funções reais dela. Uma contenção pode concentrar sua configuração em qualquer Atributo coerente com o mecanismo que a mantém funcionando, desde que isso caiba no repertório do Poder.
 
-Exemplos: `Contenção física → FOR [5]` | `Contenção reativa → AGI [5]` | `Contenção estrutural → RES [5]` | `Contenção mental → MEN [5]` | `Contenção espiritual → VON [5]`.
+Exemplos: `Contenção física ativa → FIS [5]` | `Contenção estrutural → RES [5]` | `Contenção mental → MEN [5]` | `Contenção espiritual → VON [5]`.
 
 Isso não transforma o Atributo escolhido em uma defesa universal. O alvo continua podendo responder por qualquer mecanismo que permaneça realmente disponível na situação.
 
-Contra um alvo livre e capaz de reagir, uma contenção especializada pode precisar primeiro alcançá-lo, acompanhá-lo ou sobreviver às suas respostas. O alvo pode mudar o eixo da disputa se possuir uma alternativa coerente: evitar uma contenção de FOR usando AGI, romper uma contenção de AGI usando FOR, destruir fisicamente um selo de VON, dissipá-lo, teleportar-se ou usar outro meio que a ficção permita.
+Como `FIS` reúne força, velocidade, coordenação e reação, duas respostas físicas diferentes podem usar o mesmo Atributo sem se tornarem a mesma ação. O mecanismo continua importando: romper, escapar por movimento, atacar a fonte, mudar a posição ou usar outro recurso são soluções diferentes mesmo quando algumas consultam FIS.
 
-Uma condição anterior pode eliminar essas alternativas. Se o alvo já estiver `Imobilizado [8]`, por exemplo, uma Invocação posterior não precisa investir em AGI apenas para capturá-lo; pode concentrar sua configuração em `FOR [5]` para mantê-lo preso. Isso não é bônus nem combinação automática: a primeira resolução mudou a situação e retirou uma função que a segunda criação precisaria cumprir.
+Contra um alvo livre e capaz de reagir, uma contenção especializada pode precisar primeiro alcançá-lo, acompanhá-lo ou sobreviver às suas respostas. O alvo também pode destruir a criação, dissipar um efeito quando isso for permitido, teleportar-se ou usar outro meio coerente.
+
+Uma condição anterior pode eliminar alternativas. Se o alvo já estiver `Imobilizado [8]`, por exemplo, uma Invocação posterior pode concentrar sua configuração na função necessária para mantê-lo preso em vez de reproduzir uma disputa de captura já resolvida. Isso não é bônus nem combinação automática: a primeira resolução mudou a situação.
 
 Da mesma forma, conhecer o alvo pode orientar o mecanismo escolhido. Uma prisão física pode ser inútil contra alguém capaz de rompê-la facilmente, enquanto uma contenção de VON pode ser mais adequada se o Poder realmente puder prender por esse eixo.
 
-> **A criação escolhe os Atributos que realizam sua função. A fuga enfrenta o mecanismo que realmente a sustenta. Enquanto houver alternativas coerentes de reação, o alvo pode mudar o eixo da disputa.**
+> **A criação escolhe os Atributos que realizam sua função. A fuga enfrenta o mecanismo que realmente a sustenta. Enquanto houver alternativas coerentes de reação, o alvo pode mudar o mecanismo da resposta.**
 
 ### Quantidade de criaturas
 
@@ -270,7 +274,7 @@ O valor da célula é o patamar efetivo de cada criatura antes de distribuir seu
 
 Uma nova Invocação de criaturas rompe o vínculo de criaturas anterior e o substitui. Criaturas não podem ser acumuladas uso após uso para escapar da redução por quantidade.
 
-Objetos não usam esse limite de vínculo. Sua permanência, quantidade física, área e tamanho usam as regras de Consolidação.
+Objetos não usam esse limite de vínculo. Sua permanência, quantidade física, Área e Tamanho usam as regras de Consolidação.
 
 Criações que agem autonomamente são tratadas como criaturas para esta regra. Criações passivas são tratadas como objetos.
 
@@ -282,25 +286,25 @@ Base de uso:
 
 `Transformação — Si mesmo / 1 alvo / Pontual / Cena / Efetivo máximo [nível da Transformação]`
 
-Transformação usa a mesma lógica de configuração de Invocação quando redefine a própria forma física, mas aplica a configuração sobre `FOR`, `AGI` e `RES` do alvo transformado.
+Transformação usa a mesma lógica de configuração de Invocação quando redefine a própria forma física, mas aplica a configuração sobre `FIS` e `RES` do alvo transformado.
 
-Quando o personagem transforma voluntariamente a si mesmo, `FOR`, `AGI` e `RES` da forma anterior deixam de ser usados e partem de `[0]`. A Transformação então redefine esses três Atributos conforme sua configuração.
+Quando o personagem transforma voluntariamente a si mesmo, `FIS` e `RES` da forma anterior deixam de ser usados e partem de `[0]`. A Transformação então redefine esses dois Atributos conforme sua configuração.
 
-`Transformação [1] → [1]/[0]/[0]`
+`Transformação [1] → [1]/[0]`
 
-`Transformação [2] → [2]/[0]/[0] ou [1]/[1]/[0]`
+`Transformação [2] → [2]/[0] ou [1]/[1]`
 
-`Transformação [3] → [3]/[0]/[0] ou [2]/[2]/[0] ou [1]/[1]/[1]`
+`Transformação [3] → [3]/[0] ou [2]/[2]`
 
-`Transformação [4] → [4]/[0]/[0] ou [3]/[3]/[0] ou [2]/[2]/[2]`
+`Transformação [4] → [4]/[0] ou [3]/[3]`
 
-`Transformação [5] → [5]/[0]/[0] ou [4]/[4]/[0] ou [3]/[3]/[3]`
+`Transformação [5] → [5]/[0] ou [4]/[4]`
 
-Os valores podem ser distribuídos entre `FOR`, `AGI` e `RES` conforme a forma.
+Os valores podem ser distribuídos entre `FIS` e `RES` conforme a forma.
 
 `MEN` e `VON` permanecem os do personagem. `VIDA` e `Energia` também permanecem originais; trocar de forma não cura Dano nem recupera Energia.
 
-Exemplos: `Pássaro → FOR [0] | AGI [5] | RES [0]` | `Gorila → FOR [4] | AGI [0] | RES [4]` | `Predador equilibrado → FOR [3] | AGI [3] | RES [3]`.
+Exemplos: `Forma extremamente veloz/ágil → FIS [5] | RES [0]` | `Gorila sobrenatural → FIS [4] | RES [4]`.
 
 ### Transformação imposta
 
@@ -310,7 +314,7 @@ Contra uma Transformação imposta, usa-se como resistência o maior valor aplic
 
 Na Transformação voluntária sobre si mesmo, a defesa contra a própria mudança é `[0]`.
 
-A duração e as demais dimensões da forma usam como ponto de partida a base da Transformação e podem ser ampliadas quando necessário.
+A Duração e as demais dimensões da forma usam como ponto de partida a base da Transformação e podem ser ampliadas quando necessário.
 
 ## Sono
 
@@ -330,7 +334,7 @@ Sono usa a mesma arquitetura de aprofundamento dos Sentidos.
 
 Depois de `[8]`, não existe “mais dormindo”; o aprofundamento representa o quanto estímulos externos têm dificuldade de alcançar a consciência.
 
-A duração é independente. Um Sono `[8]` que dure uma semana pode ser narrativamente descrito como coma prolongado sem exigir um novo patamar de efeito.
+A Duração é independente. Um Sono `[8]` que dure uma semana pode ser narrativamente descrito como coma prolongado sem exigir um novo patamar de efeito.
 
 ## Ilusão
 
@@ -341,7 +345,7 @@ Base de uso:
 `[2] Distorcer` | `[4] Ocultar ou Criar` | `[8] Substituir` | `[16] Construir Cena` | `[32] Realidade Ilusória`
 
 - `[2] Distorcer` — altera uma percepção existente sem removê-la completamente.
-- `[4] Ocultar ou Criar` — remove um elemento da percepção ou acrescenta um elemento inexistente. Ex.: ocultar uma pessoa ou porta; criar uma pessoa falsa, porta falsa, som ou clarão.
+- `[4] Ocultar ou Criar` — remove um elemento da percepção ou acrescenta um elemento inexistente.
 - `[8] Substituir` — oculta o elemento real e coloca outra percepção em seu lugar.
 - `[16] Construir Cena` — vários elementos falsos funcionam juntos de forma coerente.
 - `[32] Realidade Ilusória` — a experiência perceptiva pode ser amplamente reconstruída dentro do repertório do Poder.
@@ -406,7 +410,7 @@ A distância do deslocamento é lida pelo Resultado:
 
 `[0] Local` | `[2] Cidade` | `[4] Estado/Região` | `[8] País` | `[16] Planeta` | `[32] Planar`
 
-A oposição vem de quem ou do que realmente impede o deslocamento: `FOR`, `RES`, `VON`, ancoragem, Poder, proteção dimensional ou outro mecanismo coerente.
+A oposição vem de quem ou do que realmente impede o deslocamento: `FIS`, `RES`, `VON`, ancoragem, Poder, proteção dimensional ou outro mecanismo coerente.
 
 O repertório continua limitando o uso. Um Resultado suficiente para distância Planar não permite banimento planar se o Poder não possui essa capacidade.
 
