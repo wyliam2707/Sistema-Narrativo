@@ -55,7 +55,7 @@ JOGADOR
 → ergo a motocicleta.
 
 FICHA
-→ FOR [2], suficiente para a ação.
+→ FIS [2], suficiente para a ação.
 
 SITUAÇÃO
 → sem oposição ou condição especial.
