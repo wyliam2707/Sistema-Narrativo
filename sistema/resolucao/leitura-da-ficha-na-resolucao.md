@@ -385,19 +385,23 @@ Quando o JOGADOR já declarou tudo que importa, o NARRADOR não exige repetiçã
 
 ## 12. Apresentação operacional da configuração
 
-Quando houver custo variável por ampliação, o NARRADOR apresenta de forma compacta a configuração conhecida antes do gasto.
+Quando houver ampliação, o NARRADOR apresenta de forma compacta a configuração conhecida antes do gasto.
 
 Exemplo:
 
-`Maldição [4] | Área Grande [+3] | Alcance Longo [+1] | Custo 4–8 Energia`
+`Maldição [4] | Área Grande [+3] | Alcance Longo [+1] | Ampliação usada [4] | Custo 8 Energia`
 
-O primeiro valor é o custo-base do patamar usado. O segundo é o custo com toda a ampliação paga. O JOGADOR então decide quanto pagar dentro das regras aplicáveis.
+O custo é sempre a soma direta entre o patamar efetivamente usado e a Ampliação usada:
 
-Se mudar alvo, Área, alcance ou outro elemento antes da resolução, a configuração é recalculada para a nova declaração.
+`Custo = patamar efetivamente usado + Ampliação usada`
+
+Não existe custo mínimo–máximo nem pagamento parcial de Ampliação. Se o JOGADOR não quiser ou não puder pagar a configuração, altera antes da resolução o patamar usado, a ampliação escolhida ou ambos.
+
+Se mudar alvo, Área, alcance, duração ou outro elemento antes da resolução, a configuração é recalculada para a nova declaração.
 
 Depois do pagamento e da resolução, diferentes Resistências podem produzir resultados diferentes dentro da mesma aplicação. Alvos com a mesma defesa podem ser agrupados na apresentação.
 
-> **Configurar primeiro, pagar depois, resolver em seguida.**
+> **Configurar primeiro, pagar integralmente, resolver em seguida.**
 
 ---
 
