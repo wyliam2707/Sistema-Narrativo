@@ -12,22 +12,31 @@ Enquanto uma regra ainda não tiver sido reescrita e aprovada nesta pasta, o arq
 
 ## Responsabilidades desta área
 
-Esta pasta deverá concentrar, progressivamente:
+Esta pasta concentra, progressivamente:
 
 - estado atual e STATUS;
 - progressão causal;
 - atualização de fichas;
-- salvamento de capítulo;
-- distinção entre livro, estado, progressão e material reservado;
+- Livro como registro canônico definitivo;
+- salvamento e fechamento de capítulo;
+- distinção entre Livro, STATUS, Progressão, ficha e material reservado;
 - regras de correção e substituição de cânone.
 
 Conhecimento relevante consolidado não constitui uma camada separada de Persistência. Quando precisar continuar disponível para interpretar um personagem, ele pertence ao campo `Conhecimento atual relevante` da ficha.
 
 O Livro preserva como e quando uma descoberta aconteceu. A Progressão só registra consequências causalmente vivas que tenham surgido dessa descoberta.
 
-## Arquivos antigos ainda em uso
+## Arquivos aprovados nesta área
 
-- `../protocolo-de-fechamento-de-capitulo.md` — protocolo atual de salvamento e fechamento de capítulo.
+- `status.md` — como e onde o personagem está agora;
+- `progressao.md` — consequências estabelecidas que continuam causalmente vivas;
+- `atualizacao-de-ficha.md` — quando e como uma mudança pode ser consolidada na ficha;
+- `livro.md` — registro canônico definitivo da campanha;
+- `fechamento-de-capitulo.md` — protocolo atual de salvamento e fechamento de capítulo.
+
+## Arquivos antigos como fonte de migração
+
+- `../protocolo-de-fechamento-de-capitulo.md` — versão antiga do protocolo; substituída nesta arquitetura por `fechamento-de-capitulo.md`.
 - Regras antigas de estado, progressão, cronologia e organização ainda existentes em documentos de sistema permanecem como fontes de migração até revisão específica.
 
 A nova arquitetura não exige uma camada separada de Cronologia.
