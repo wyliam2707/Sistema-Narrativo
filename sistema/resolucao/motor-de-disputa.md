@@ -28,7 +28,9 @@ Quando não houver Perícia defensiva ou oposição técnica real, considera-se 
 
 O efeito efetivo é:
 
-`Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2)`
+`Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2) − Ampliação não paga`
+
+Quando não existe ampliação ou toda a ampliação foi paga em Energia, `Ampliação não paga = 0`.
 
 O progresso produzido por aplicação é:
 
@@ -52,7 +54,9 @@ O personagem não precisa alcançar o efeito máximo possível se sua intenção
 
 Exemplo conceitual: uma influência forte pode exigir muito menos progresso do que controle mental absoluto.
 
-A Exigência pode vir de escala, distância, massa, profundidade do efeito, complexidade da tarefa, gravidade da alteração ou outra propriedade relevante.
+A Exigência pode vir da profundidade do efeito, resistência do cenário, dificuldade da alteração ou outra propriedade relevante.
+
+Alcance, quantidade de alvos, área/tamanho e duração são tratados pelas regras de Consolidação em `consolidacao.md`.
 
 ## 3. Progresso acumulado
 
@@ -62,7 +66,7 @@ Se uma aplicação não alcança a Exigência e a natureza da ação permite con
 
 Uma capacidade inferior não é automaticamente proibida de tentar um objetivo maior. Ela pode precisar de mais aplicações, desde que a ficção permita acumulação e o personagem consiga sustentar o custo e o tempo necessários.
 
-> **Patamar maior não precisa significar fazer outra coisa. Pode significar fazer a mesma coisa mais rápido, com menos exposição e com maior consolidação.**
+> **Patamar maior não precisa significar fazer outra coisa. Pode significar fazer a mesma coisa mais rápido, com menos exposição e com maior capacidade de consolidação.**
 
 Quando a própria natureza do efeito não permite progresso acumulado, esta regra não cria acumulação artificial.
 
@@ -88,17 +92,31 @@ A natureza concreta da atividade pode justificar outra escala, mas entrar em com
 
 > **A tarefa define a escala de tempo da aplicação. A disputa define quantas aplicações são necessárias.**
 
-## 5. Custo efetivo
+## 5. Custo efetivo e ampliação
 
 Quando a capacidade usada consome Energia, cada aplicação paga normalmente o custo do patamar efetivamente empregado.
 
-`Custo efetivo = número de aplicações × custo por aplicação`
+Quando o efeito é ampliado além de sua manifestação-base, a ampliação pode acrescentar custo de Energia.
 
-Assim, uma resistência maior não precisa receber um custo artificial próprio.
+O NARRADOR apresenta a aplicação de forma compacta:
 
-Ela reduz o progresso por aplicação; isso exige mais aplicações; mais aplicações naturalmente geram mais tempo e maior gasto de Energia.
+`custo [patamar usado + carga de ampliação]`
 
-> **A Resistência transforma dificuldade em tempo, custo e oportunidade de reação.**
+O JOGADOR decide quanto da carga adicional paga em Energia.
+
+Cada ponto de ampliação não pago reduz em `1` o Efeito efetivo daquela aplicação.
+
+Assim, a ampliação pode ser paga integralmente em Energia, integralmente em perda de eficiência ou por uma combinação das duas.
+
+Quando existem várias aplicações:
+
+`Custo efetivo = soma da Energia realmente paga em cada aplicação`
+
+A Resistência também pode elevar o custo indiretamente: ela reduz o progresso por aplicação, exige mais aplicações e abre mais janelas de gasto e reação.
+
+> **Ampliação cobra Energia, eficiência ou ambas. Resistência cobra tempo, custo e oportunidade de reação.**
+
+As faixas e cargas de ampliação pertencem a `consolidacao.md`.
 
 ## 6. Oportunidade de reação
 
@@ -114,28 +132,27 @@ A continuidade de uma tentativa nunca suspende a agência dos demais participant
 
 ## 7. Consolidação
 
-Alguns efeitos permanecem depois de alcançados.
+Consolidação define a escala concreta de uma manifestação depois que a natureza do efeito está estabelecida.
 
-Nesses casos, o marco necessário para produzir o efeito paga sua existência. O progresso que ultrapassa esse marco consolida o efeito.
+Todo efeito possui uma manifestação mínima de custo `[0]`. Como referência: duração instantânea, um alvo, área/tamanho mínimo coerente e alcance natural da capacidade.
 
-`Consolidação = Progresso acumulado − Exigência-base do efeito`
+A Consolidação pode ampliar dimensões como:
 
-A Consolidação é lida simultaneamente como duração e persistência quando a natureza do efeito permitir.
+`Alcance` | `Alvos` | `Área/Tamanho` | `Duração`
 
-- duração: quanto tempo o efeito tende a permanecer sozinho;
-- persistência: quão difícil é removê-lo antes desse tempo.
+As dimensões não são lidas automaticamente pelo mesmo valor. Cada ampliação é escolhida conforme a intenção e a natureza do Poder.
 
-O mesmo valor é usado para as duas leituras; ele não é gasto duas vezes.
+Um Poder não ganha repertório novo por possuir Consolidação suficiente. Telecinese não se transforma em banimento planar apenas porque produziu resultado alto.
 
-> **O marco determina o efeito. O excedente determina quanto ele se consolida.**
+Efeitos persistentes permanecem integrais enquanto sua Consolidação restante for maior que zero e sua Duração não tiver terminado.
 
-Um personagem pode declarar desde o início que deseja não apenas produzir um efeito, mas mantê-lo por determinado período. Nesse caso, a Consolidação desejada também faz parte da Exigência total da ação.
+Reduzir a Consolidação não enfraquece gradualmente as propriedades declaradas. O efeito é rompido quando chega a zero.
 
-Exemplo conceitual: `Portal urbano [2] + duração desejada [8] = Exigência total 10`.
+A tentativa de remover um efeito antes do fim usa o motor normal: a capacidade de remoção funciona como ataque, a capacidade que sustenta o efeito fornece a resistência coerente e o resultado reduz a Consolidação restante.
 
-Se o resultado final ultrapassar 10, o excedente adicional continua reforçando a Consolidação quando isso for coerente.
+> **Duração determina quando o efeito termina sozinho. Consolidação determina quanto trabalho é necessário para rompê-lo antes disso.**
 
-As tabelas de referência para efeitos, duração e persistência pertencem às Escalas de Efeito.
+As tabelas e regras operacionais estão em `consolidacao.md`.
 
 ## 8. Aplicações
 
@@ -156,7 +173,7 @@ O mesmo motor pode ser usado, quando fizer sentido, para:
 - construção;
 - outras disputas contra personagens ou cenário.
 
-Cada aplicação interpreta Potência, Resistência, Exigência e tempo de acordo com sua própria natureza.
+Cada aplicação interpreta Potência, Resistência, Exigência, Consolidação e tempo de acordo com sua própria natureza.
 
 Dano é uma aplicação especializada deste motor, não a definição de todas as demais.
 
