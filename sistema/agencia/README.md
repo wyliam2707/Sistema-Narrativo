@@ -23,6 +23,10 @@ Esta pasta deverá concentrar, progressivamente:
 - relações entre personagens como agentes independentes;
 - limites contra meta-jogo e vazamento de informação.
 
+## Arquivos aprovados nesta área
+
+- `continuidade-de-npcs.md` — define quando NPCs precisam de acompanhamento, como preservar retornos e pendências futuras sem simular suas vidas dia a dia e como esses fios voltam a mover a história.
+
 ## Relação com outras áreas
 
 `../personas/` define **as funções operacionais e autoridades de decisão**.
