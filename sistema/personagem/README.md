@@ -105,7 +105,7 @@ Os arquivos antigos NÃO foram apagados ou movidos durante a migração.
 - `criacao.md` — criação conceitual, conversão para ficha e organização dos personagens na campanha;
 - `calibracao.md` — calibração independente, conservadora e raridade dos graus altos;
 - `escala.md` — escalas numéricas e lógica não linear de PATAMAR;
-- `atributos.md` — FOR, AGI, RES, MEN e VON;
+- `atributos.md` — FIS, RES, MEN e VON;
 - `pericias.md` — conhecimento, treinamento, prática e especializações;
 - `poderes.md` — arsenais, fontes, repertórios, usos e especializações;
 - `tracos.md` — verdades qualitativas estáveis;
