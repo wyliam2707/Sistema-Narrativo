@@ -20,7 +20,7 @@ A manifestação-base não precisa ser idêntica para todos os Poderes. Regras e
 
 Uma capacidade de contato pode ter `Toque` como alcance natural. Um disparo, raio ou magia projetada pode ter `Médio` como alcance natural sem pagar ampliação apenas por funcionar como ataque à distância.
 
-`Si mesmo [-2]` é uma condição especial de alcance: aplicar um efeito apenas sobre o próprio usuário exige menos projeção do que alcançar outro alvo.
+Usar um alcance menor que a manifestação-base não reduz o custo. A base já está incluída no custo normal do efeito.
 
 > **Consolidação `[0]` representa a manifestação normal do Poder. As escalas medem o que vai além dessa manifestação.**
 
@@ -36,28 +36,32 @@ Os efeitos podem alcançar `[32]`; as dimensões de Consolidação terminam em `
 
 ## 3. Alcance
 
-As faixas narrativas de alcance são:
+Alcance mede a distância entre o usuário e o alvo, fonte, ponto ou local onde o efeito é aplicado.
 
-`Si mesmo` | `Toque` | `Médio` | `Longo` | `Distante` | `Planar`
+As faixas narrativas são:
+
+`Toque → Curto → Médio → Longo → Visão → Simpático`
 
 Referência ficcional:
 
-- `Si mesmo` — somente o próprio usuário;
 - `Toque` — contato direto;
+- `Curto` — proximidade imediata, dentro do mesmo espaço próximo;
 - `Médio` — alcance normal de uma luta ou cena;
-- `Longo` — dentro de uma cidade;
-- `Distante` — outra cidade, região ou ponto relevante dentro do país;
-- `Planar` — qualquer ponto do mundo e, se o repertório permitir, fora dele ou em outro plano.
+- `Longo` — grande distância ainda dentro do contexto local;
+- `Visão` — qualquer alvo ou ponto diretamente percebido pelo usuário;
+- `Simpático` — alvo remoto ou não visível alcançado por um vínculo válido, quando a natureza do Poder permitir.
 
-A faixa natural do Poder conta como `[0]`. Cada avanço além dela segue a progressão `[2]`, `[4]`, `[8]`, `[16]`.
+Cada efeito possui uma faixa de Alcance-base própria. Essa faixa não gera custo adicional.
 
-Assim, uma capacidade de toque pode ler `Toque [0] → Médio [2] → Longo [4] → Distante [8] → Planar [16]`.
+Cada passo acima da faixa-base custa `+1 Energia`.
 
-Um disparo ou magia projetada pode ter `Médio [0]` como alcance natural e ampliar a partir daí.
+Exemplos: uma Cura com base `Toque` lê `Curto +1 | Médio +2 | Longo +3 | Visão +4 | Simpático +5`. Informação com base `Curto` lê `Médio +1 | Longo +2 | Visão +3 | Simpático +4`.
 
-`Si mesmo [-2]` não concede potência adicional; ele reduz a exigência de projeção quando o efeito é aplicado exclusivamente ao próprio usuário.
+Usar uma faixa abaixo da base não concede desconto nem potência adicional.
 
-A faixa `Planar` não concede viagem planar a um Poder que não possua esse repertório. Ela apenas mede alcance máximo dentro da lógica da capacidade.
+`Simpático` pode exigir, além do custo, uma condição de vínculo coerente com o Poder: sangue, cabelo, objeto pessoal, nome verdadeiro, marca, fotografia ou outro foco válido. O vínculo torna a aplicação possível; não concede bônus automático.
+
+> **Alcance = chegar até o alvo. Cada degrau acima da base custa +1 Energia.**
 
 ## 4. Alvos
 
@@ -104,6 +108,8 @@ Regras específicas podem estabelecer outra duração-base. Nesse caso, somente 
 Cada dimensão ampliada gera uma carga conforme o degrau usado além da manifestação-base:
 
 `[2] → carga +1` | `[4] → carga +2` | `[8] → carga +3` | `[16] → carga +4`
+
+Para `Alcance`, aplica-se sua regra própria: não se usa a progressão `[2]/[4]/[8]/[16]`; cada faixa acima do Alcance-base gera diretamente `carga +1`.
 
 Quando mais de uma dimensão é ampliada, suas cargas se acumulam.
 
@@ -165,7 +171,7 @@ Assim, uma Invocação pode criar uma única criatura gigantesca, uma estrutura 
 
 ## 11. Transformação
 
-Transformação aplicada sobre si mesmo usa `Si mesmo [-2]` como condição de alcance e defesa `[0]` contra a própria mudança voluntária.
+Transformação voluntária sobre si mesmo usa `Si mesmo` como sua condição de Alcance-base e defesa `[0]` contra a própria mudança.
 
 Quando a Transformação redefine a própria forma física, `FOR`, `AGI` e `RES` são substituídos pela configuração da forma; `MEN`, `VON`, `VIDA` e `Energia` permanecem os do personagem.
 
