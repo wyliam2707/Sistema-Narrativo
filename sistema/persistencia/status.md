@@ -70,15 +70,15 @@ O valor numérico pode ser mostrado junto do estado para facilitar o controle.
 
 A notação operacional padrão é mantida em uma única linha:
 
-`Energia [10/100] - Bateria [40/40] - Descanso [5m:+45 / 2h:+45]`
+`Energia [10/100] - Bateria [40/40] - Descanso [45]-[45]`
 
 `Energia [atual/máxima]` registra a Reserva própria.
 
 `Bateria [atual/máxima]` registra a carga externa disponível.
 
-`Descanso [5m:X / 2h:Y]` registra quanto ainda pode ser recuperado em cada janela de descanso. O primeiro valor é a parcela de esforço recente recuperável por um fôlego de aproximadamente 5 minutos; o segundo é o desgaste profundo que exige aproximadamente 1 a 2 horas.
+`Descanso [X]-[Y]` registra quanto ainda pode ser recuperado em cada camada. O primeiro valor é a parcela de esforço recente recuperável por um fôlego de aproximadamente 5 minutos; o segundo é o desgaste profundo que exige aproximadamente 1 a 2 horas.
 
-Depois do fôlego curto, sua parcela pode ficar em zero enquanto o desgaste profundo permanece. Exemplo: `Energia [55/100] - Bateria [40/40] - Descanso [5m:+0 / 2h:+45]`.
+Depois do fôlego curto, sua parcela pode ficar em zero enquanto o desgaste profundo permanece. Exemplo: `Energia [55/100] - Bateria [40/40] - Descanso [0]-[45]`.
 
 Quando o personagem não possui Bateria, esse trecho é omitido. Quando não existe recuperação pendente, o trecho de Descanso também pode ser omitido.
 
@@ -188,7 +188,7 @@ SAI
 
 Exemplo:
 
-`STATUS: Vida: Grave | Dano acumulado: 18 | Energia [22/60] - Bateria [40/60] - Descanso [5m:+19 / 2h:+19] | Condições: Envenenado, Atordoado | Local: Corredor Norte`
+`STATUS: Vida: Grave | Dano acumulado: 18 | Energia [22/60] - Bateria [40/60] - Descanso [19]-[19] | Condições: Envenenado, Atordoado | Local: Corredor Norte`
 
 Se uma Proteção Mágica terminou, ela simplesmente deixa de aparecer em Efeitos Ativos. Se Atordoado deixou de existir, sai de Condições.
 
