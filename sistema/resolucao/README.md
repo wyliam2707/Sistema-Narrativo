@@ -16,7 +16,7 @@ Esta pasta deverá concentrar, progressivamente:
 
 - intenção versus resultado;
 - quando um resultado é evidente e quando exige resolução;
-- peso de atributos, perícias e poderes;
+- leitura qualitativa de atributos, perícias e poderes;
 - preparação, vantagem, contexto e oposição;
 - resolução social;
 - investigação e informação;
@@ -27,11 +27,12 @@ A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertenc
 
 ## Arquivos aprovados nesta área
 
-- `principio-de-resolucao.md` — distingue resultado evidente, impossibilidade evidente e incerteza real; somente a incerteza real exige resolução comparativa.
+- `principio-de-resolucao.md` — distingue resultado evidente, impossibilidade evidente e incerteza real; somente a incerteza real exige resolução comparativa;
+- `leitura-da-ficha-na-resolucao.md` — define como Atributos, Perícias, Poderes, meio, situação e conhecimento entram na resolução sem soma automática nem conversões fixas de patamar.
 
 ## Arquivos antigos ainda como fonte de migração
 
-- `../ciclo-de-jogadores.md` — fonte histórica do ciclo; a nova arquitetura operacional está em `../operacao/ciclo-de-cena.md`.
+- `../ciclo-de-jogadores.md` — fonte histórica do ciclo; a nova arquitetura operacional está em `../operacao/ciclo-de-cena.md`;
 - `../README.md` — base mecânica geral, atributos, perícias, poderes e princípios antigos de resolução.
 
 ## Regra de migração
@@ -46,7 +47,7 @@ Quando um tema for revisado:
 4. indicar na nova estrutura o que passou a substituir a formulação antiga;
 5. manter os arquivos antigos como fonte até que sua migração esteja concluída.
 
-## Princípio
+## Princípios
 
 ```text
 RESULTADO EVIDENTE
@@ -59,4 +60,13 @@ INCERTEZA REAL
 → resolve.
 ```
 
-> **Resolução não existe para fabricar incerteza. Ela existe para decidir quando mais de um resultado continua plausível.**
+Quando houver incerteza:
+
+```text
+A cena determina quais capacidades importam.
+Atributos, Perícias e Poderes não se somam.
+Patamares são qualitativos, não conversões fixas.
+Contexto altera a situação, não cria bônus obrigatório.
+```
+
+> **Resolução não existe para fabricar incerteza nem para produzir um número único. Ela existe para decidir, pela ficção e pelas capacidades relevantes, qual resultado é coerente quando mais de um continua plausível.**
