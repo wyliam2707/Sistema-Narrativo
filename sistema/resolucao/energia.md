@@ -26,7 +26,7 @@ Quando uma capacidade consome Energia, o custo-base é igual ao patamar efetivam
 
 O patamar máximo da capacidade define até onde ela pode chegar. O personagem pode empregar um patamar menor quando a ficção permitir dosar a potência.
 
-Exemplo: `FOR [5] usada em [2] → custo-base 2`.
+Exemplo: uma capacidade disponível em `[5]`, efetivamente usada em `[2]`, possui custo-base `2` quando esse uso consome Energia.
 
 Assim, um personagem muito poderoso não precisa operar sempre no máximo para resolver ameaças menores.
 
@@ -36,27 +36,31 @@ Capacidades passivas não gastam Energia apenas por existirem. Uma resistência 
 
 ## Ampliação
 
-Quando uma aplicação é ampliada além de sua manifestação-base, a Consolidação pode gerar uma carga adicional.
+Quando uma aplicação ultrapassa sua manifestação-base, cada degrau usado nas dimensões aplicáveis gera carga de Ampliação conforme `consolidacao.md`.
 
-Como referência:
+Para as dimensões gerais aprovadas, cada passo acima da base custa `+1 Energia`:
 
-`Ampliação [2] → carga +1` | `[4] → +2` | `[8] → +3` | `[16] → +4`
+`Alcance + Alvos + Área/Tamanho + Duração`
 
-O NARRADOR apresenta o custo como:
+Regras específicas podem possuir uma dimensão adicional própria, como a quantidade de STATUS de Dissipar.
 
-`custo [patamar usado + carga de ampliação]`
+Cada efeito possui também um limite de Ampliação:
 
-O JOGADOR escolhe quanto da carga adicional paga em Energia.
+`Ampliação [X] = patamar máximo do efeito + maior entre MEN e VON`
 
-Cada ponto de carga de ampliação não pago reduz em `1` o Efeito efetivo daquela aplicação.
+Esse limite diz quanta Ampliação total cabe no efeito. Ele não aumenta sua potência nem fornece Energia.
 
-Assim, ampliar não reduz obrigatoriamente a potência nem aumenta obrigatoriamente o gasto: o JOGADOR pode pagar com Energia, com eficiência ou combinar os dois.
+O custo final da aplicação é sempre:
 
-Exemplo: `Magia [2] => Dano` com carga `+2` é apresentada como `custo [2 + 2]`. Se o JOGADOR paga `3` de Energia, paga o custo-base `2` e apenas `1` da ampliação. O ponto restante reduz o Ataque efetivo em `1`.
+`Custo = patamar efetivamente usado + Ampliação usada`
 
-A redução não altera o patamar do Poder na ficha. Ela vale somente para aquela aplicação.
+A Ampliação usada é paga integralmente. Não existe pagamento parcial, redução de Efetivo por falta de pagamento nem conversão de custo em penalidade.
 
-A regra detalhada de Consolidação está em `consolidacao.md`.
+Se o JOGADOR não possui Energia suficiente ou quer gastar menos, altera **antes da resolução** o patamar efetivamente usado, a Ampliação escolhida ou ambos.
+
+Exemplo: `Dano [5] | Ampliação [8]`. Se forem usados `Dano [3]` e `Ampliação +2`, o custo é `3 + 2 = 5 Energia`.
+
+> **Potência usada e Ampliação são escolhas separadas; Energia paga ambas diretamente.**
 
 ## Cinco estados
 
@@ -136,7 +140,7 @@ Quando não houver Bateria, seu trecho pode ser omitido.
 
 A progressão foi calibrada para que um personagem consiga operar repetidamente próximo do próprio patamar máximo durante um confronto sério contra um equivalente.
 
-Um personagem cujo maior Atributo é `[5]` possui `100` de Reserva. Um uso-base em `[5]` custa `5`; ampliações podem elevar esse gasto quando o JOGADOR preferir preservar integralmente o Efeito efetivo.
+Um personagem cujo maior Atributo é `[5]` possui `100` de Reserva. Um uso-base em `[5]` custa `5`; Ampliações elevam diretamente esse gasto pela quantidade de degraus escolhidos.
 
 Isso não significa que toda luta precisa durar vinte usos. Resultado evidente, estratégia, ambiente, diferença de patamar, dano, retirada, incapacidade, ampliação ou qualquer outra consequência podem encerrá-la antes.
 
