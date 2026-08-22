@@ -19,6 +19,7 @@ STATUS
 ```text
 STATUS:
 Vida:
+Dano acumulado:
 Mana/Energia:
 Condições:
 Efeitos Ativos:
@@ -29,27 +30,31 @@ Nem todo personagem precisa usar todos os campos. Um campo só é registrado qua
 
 ## Vida
 
-VIDA é um estado conceitual, nunca uma quantidade de pontos.
+VIDA continua sendo um estado conceitual. Ela não é uma reserva de pontos de vida.
 
-Escala:
+Para manter a progressão entre consequências, a resolução pode registrar separadamente o **Dano acumulado** como memória matemática de bastidor.
 
-```text
-Ileso
-Ferido
-Grave
-Crítico
-Incapacitado
-```
+A apresentação da VIDA segue esta régua:
 
-Os estados representam a condição física geral do personagem naquele momento.
+`0–4 Ileso | 5–9 Ferido | 10–14 Ferido* | 15–19 Grave | 20–24 Grave* | 25–29 Crítico | 30–34 Crítico* | 35 Incapacitado`
 
-Não existe obrigação de passar por todos em sequência. Um acontecimento pode alterar vários estados de uma vez quando a ficção e a resolução justificarem isso.
+Exemplo:
+
+`Vida: Ferido* | Dano acumulado: 12`
+
+`Vida` comunica o estado físico atual do personagem.
+
+`Dano acumulado` registra apenas a posição matemática usada pela resolução para manter continuidade entre aplicações de dano. Ele não é tratado como pontos de vida, não mede saúde total e não substitui a interpretação da ficção.
+
+Não existe obrigação de passar por todos os estados em sequência. Um acontecimento pode alterar vários estados de uma vez quando a ficção e a resolução justificarem isso.
+
+A régua também não protege o personagem contra uma assimetria evidente. Quando a natureza e a intensidade de um efeito tornam sobrevivência incoerente, a consequência pode ultrapassar a progressão normal.
 
 `Incapacitado` não significa `Morto`.
 
 Incapacitado significa que o personagem não consegue continuar agindo normalmente por causa de seu estado físico. Pode estar desacordado, em choque, imobilizado ou simplesmente incapaz de continuar.
 
-Morte é uma consequência distinta, definida pela ficção e pelas regras de resolução. Ela não é um sexto nível de VIDA.
+Morte é uma consequência distinta, definida pela ficção e pelas regras de resolução. Ela não é um nível adicional de VIDA.
 
 ## Mana / Energia
 
@@ -175,6 +180,7 @@ Exemplo:
 ```text
 STATUS:
 Vida: Grave
+Dano acumulado: 18
 Mana: Crítica
 Condições:
 - Envenenado
@@ -225,13 +231,14 @@ Regeneração [1]
 
 STATUS:
 Vida: Grave
+Dano acumulado: 18
 Mana: Baixa
 Local: Biblioteca
 ```
 
 `RES [2]` e `Regeneração [1]` descrevem capacidades estáveis do personagem.
 
-`Vida: Grave`, `Mana: Baixa` e `Local: Biblioteca` descrevem apenas seu estado atual.
+`Vida: Grave`, `Dano acumulado: 18`, `Mana: Baixa` e `Local: Biblioteca` descrevem apenas seu estado atual.
 
 Se uma mudança deixar de ser temporária e passar a alterar de forma estável quem o personagem é, ela deve ser tratada pela camada apropriada de persistência e, quando necessário, consolidada na ficha.
 
