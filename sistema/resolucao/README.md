@@ -1,18 +1,16 @@
 # Resolução
 
+Status: BASE PRINCIPAL EM USO
+
 Esta pasta reúne as regras que respondem à pergunta:
 
 > **Dadas as intenções, capacidades, circunstâncias e movimento do cenário, como descobrimos o que acontece?**
 
-## Estado da migração
-
-A estrutura nova está sendo construída sem apagar os arquivos antigos.
-
-Enquanto uma regra ainda não tiver sido reescrita e aprovada nesta pasta, o arquivo antigo correspondente em `sistema/` continua válido como fonte de migração.
+A definição estável dos personagens pertence a `../personagem/`. STATUS e demais verdades persistentes pertencem a `../persistencia/`. A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertencem a `../operacao/`.
 
 ## Responsabilidades desta área
 
-Esta pasta deverá concentrar, progressivamente:
+Esta pasta concentra:
 
 - intenção versus resultado;
 - quando um resultado é evidente e quando exige resolução;
@@ -20,124 +18,171 @@ Esta pasta deverá concentrar, progressivamente:
 - comparação de capacidades e manutenção de disputas equilibradas;
 - motor geral de disputas progressivas contra personagens e cenário;
 - escalas de efeito, exigência, consolidação e proteção;
-- preparação, vantagem, contexto e oposição;
+- preparação, contexto e oposição;
 - resolução social;
 - investigação e informação;
 - combate e dano;
 - energia, reservas e custos de uso;
 - recuperação de VIDA, Regeneração, Cura e Medicina;
+- contenção sustentada por agentes;
+- efeitos persistentes, Defesa/Vida e Dissipar;
 - ações prolongadas e passagem de tempo quando houver resolução envolvida.
 
-A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertencem a `../operacao/`.
+## Arquivos principais
 
-## Arquivos aprovados nesta área
-
-- `principio-de-resolucao.md` — distingue resultado evidente, impossibilidade evidente e incerteza real; somente a incerteza real exige resolução comparativa;
-- `leitura-da-ficha-na-resolucao.md` — define como Atributos, Perícias, Poderes, meio, situação e conhecimento entram na resolução sem soma automática nem conversões fixas de patamar;
-- `comparacao-e-disputa.md` — define comparação qualitativa, estratégia e preparação, soluções que mudam o problema, agência diante de planos e manutenção de disputas equilibradas sem vencedor artificial;
-- `motor-de-disputa.md` — define Potência, Resistência, Exigência, progresso por aplicação, acumulação, tempo, custo efetivo, oportunidade de reação e integração com Consolidação;
-- `escalas-de-efeito.md` — reúne as tabelas de efeitos aprovadas, incluindo Sentidos, Controle, Mobilidade, Supressão, Proteção, Informação, Invocação, Transformação, Sono, Ilusão, Emoção e Deslocar;
-- `consolidacao.md` — define manifestação-base, Alcance, Alvos, Área/Tamanho, Duração, carga de ampliação, custo em Energia, redução de Efeito efetivo e remoção de efeitos persistentes; permanece em revisão enquanto os pontos finais são calibrados;
-- `combate-e-dano.md` — define resolução compacta de combate, Perícia efetiva, Ataque efetivo, progressão exponencial de dano, dano mínimo contabilizável, defesa aplicável, ataques detalhados e referência de VIDA;
-- `energia.md` — define Reserva, custo-base por patamar efetivamente usado, carga de ampliação, estados de Energia, Bateria, recuperação e transferência de carga;
-- `recuperacao-da-vida.md` — define recuperação natural por estado, Regeneração por hora, Cura como contraponto do Dano, Medicina sem oposição artificial e estabilização;
-- `resolucao-social.md` — define resolução social sem Defesa Social universal, preservação de agência, função contextual de VON, Relações, autoridade, intimidação, enganação e resultados sociais abertos.
-
-## Arquivos antigos ainda como fonte de migração
-
-- `../ciclo-de-jogadores.md` — fonte histórica do ciclo; a nova arquitetura operacional está em `../operacao/ciclo-de-cena.md`;
-- `../README.md` — base mecânica geral, atributos, perícias, poderes e princípios antigos de resolução.
+- `principio-de-resolucao.md` — resultado evidente, impossibilidade evidente e incerteza real;
+- `leitura-da-ficha-na-resolucao.md` — como Atributos, Perícias, Poderes, meio, situação e conhecimento entram sem soma automática;
+- `comparacao-e-disputa.md` — comparação qualitativa, estratégia, preparação, soluções válidas e disputas equilibradas;
+- `motor-de-disputa.md` — Potência, Resistência, Exigência, progresso, tempo, custo, contenção sustentada e integração com Consolidação;
+- `escalas-de-efeito.md` — tabelas e manifestações-base dos efeitos;
+- `consolidacao.md` — Alcance, Alvos, Área/Tamanho, Duração, limite de Ampliação, custo exato e estrutura de efeitos persistentes;
+- `combate-e-dano.md` — fonte de Dano, Perícia efetiva, Ataque efetivo, Dano aplicado e defesa aplicável;
+- `energia.md` — Reserva, custos, Ampliação, Bateria e recuperação;
+- `recuperacao-da-vida.md` — recuperação natural, Regeneração, Cura e Medicina;
+- `resolucao-social.md` — influência social sem Defesa Social universal e com preservação de agência.
 
 ## Regra de migração
 
-Não copiar mecanicamente uma regra antiga apenas para mudar seu endereço.
+Os arquivos antigos diretamente em `sistema/` são preservados como fonte histórica de migração e não são apagados por esta revisão.
 
-Quando um tema for revisado:
+Quando uma formulação antiga contradiz uma regra já aprovada nesta pasta ou em `../personagem/`, prevalece a formulação nova e explicitamente aprovada.
 
-1. consultar o arquivo antigo;
-2. usar exemplos reais das campanhas quando ajudarem;
-3. escrever a nova versão nesta pasta;
-4. indicar na nova estrutura o que passou a substituir a formulação antiga;
-5. manter os arquivos antigos como fonte até que sua migração esteja concluída.
-
-## Princípios
+## Princípio de entrada
 
 ```text
-RESULTADO EVIDENTE
-→ estabelece.
-
-IMPOSSIBILIDADE EVIDENTE
-→ estabelece.
-
-INCERTEZA REAL
-→ resolve.
+RESULTADO EVIDENTE → estabelece
+IMPOSSIBILIDADE EVIDENTE → estabelece
+INCERTEZA REAL → resolve
 ```
+
+A resolução não fabrica dúvida quando o resultado já está claro.
 
 Quando houver incerteza:
 
 ```text
 A cena determina quais capacidades importam.
-Atributos, Perícias e Poderes não se somam.
-Patamares são qualitativos, não conversões fixas.
+Atributos, Perícias e Poderes não se somam automaticamente.
+Patamares são qualitativos e não lineares.
 Contexto altera a situação, não cria bônus obrigatório.
 Mesmo aspecto pode ser comparado diretamente.
 Aspectos diferentes são interpretados em suas funções próprias.
 Preparação cria condições, não bônus.
 Uma solução válida pode encerrar um problema importante.
-Uma disputa equilibrada pode continuar sem vencedor.
+Uma disputa equilibrada pode continuar sem vencedor artificial.
 ```
 
-Para disputas progressivas:
+## Motor geral
 
-```text
-Perícia efetiva = Perícia de aplicação − Perícia de oposição
-Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2) − Ampliação não paga
-Progresso por aplicação = 2^(Efeito efetivo − Resistência efetiva)
-Aplicações necessárias = teto(Exigência ÷ Progresso por aplicação)
-```
+Quando Perícias dos dois lados realmente participam:
+
+`Perícia efetiva = Perícia de aplicação − Perícia de oposição`
+
+O Efetivo geral é:
+
+`Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2)`
+
+O Resultado/Progresso é:
+
+`Progresso por aplicação = 2^(Efeito efetivo − Resistência efetiva)`
+
+Quando a tarefa permite acúmulo:
+
+`Aplicações necessárias = teto(Exigência ÷ Progresso por aplicação)`
 
 Escalas padrão de aplicação:
 
-`6 segundos → imediata` | `1 minuto → curta` | `1 hora → prolongada` | `1 dia → extensa`
+`6 segundos → imediata | 1 minuto → curta | 1 hora → prolongada | 1 dia → extensa`
 
-Quando houver Energia, o custo-base é o patamar usado. Ampliações podem acrescentar carga. O JOGADOR escolhe quanto dessa carga paga em Energia; cada ponto não pago reduz o Efeito efetivo em `1` naquela aplicação.
+## Ampliação e Energia
 
-A Consolidação parte da manifestação-base `[0]` e amplia, quando necessário:
+Cada efeito possui uma manifestação-base. Ampliar acima dela acrescenta carga nas dimensões aplicáveis.
 
-`Alcance` | `Alvos` | `Área/Tamanho` | `Duração`
+Dimensões gerais:
 
-Em efeitos persistentes, a Duração determina quando terminam naturalmente. Tentativas de remoção reduzem sua Consolidação; o efeito permanece inteiro até a Consolidação chegar a zero.
+`Alcance | Alvos | Área/Tamanho | Duração`
 
-Em combate:
+Cada passo aprovado acima da base gera `+1` de Ampliação. Regras específicas podem adicionar uma dimensão própria, como quantidade de STATUS em Dissipar.
 
-```text
-Perícia efetiva = Perícia ofensiva − Perícia defensiva
-Ataque efetivo = Dano + 1 + (Perícia efetiva × 0,2) − Ampliação não paga
-Dano aplicado = 2^(Ataque efetivo − Defesa efetiva)
-Dano mínimo contabilizável = 0,25
-```
+Cada efeito possui limite:
 
-Para Energia:
+`Ampliação [X] = patamar máximo do efeito + maior entre MEN e VON`
 
-```text
-Reserva [0] = 10
-Reserva [1–5] = maior Atributo × 20
-Custo-base = patamar efetivamente usado
-Ampliação [2]/[4]/[8]/[16] = carga +1/+2/+3/+4
-Bateria [X] = X × 20
-```
+O custo é sempre exato:
 
-Para Cura:
+`Custo = patamar efetivamente usado + Ampliação usada`
 
-```text
-Cura efetiva = Cura usada + 1 + (Perícia aplicável × 0,2) − Ampliação não paga
-Cura aplicada = máx(1, 2^(Cura efetiva − RES do alvo))
-```
+**Não existe pagamento parcial de Ampliação nem redução de Efetivo por falta de pagamento.** Se o JOGADOR não possui Energia suficiente ou quer gastar menos, reduz a potência usada, a Ampliação ou ambas antes da resolução.
 
-A cena continua decidindo quais capacidades realmente entram no cálculo.
+Reserva própria:
 
-> **Resolução não existe para fabricar incerteza nem para produzir um número único. Ela existe para decidir, pela ficção e pelas capacidades relevantes, qual resultado é coerente quando mais de um continua plausível.**
+`maior Atributo [0] → 10 | [1] → 20 | [2] → 40 | [3] → 60 | [4] → 80 | [5] → 100`
+
+Bateria:
+
+`Bateria [1] → 20 | [2] → 40 | [3] → 60 | [4] → 80 | [5] → 100`
+
+## Combate e Dano
+
+`FIS` pode ser a fonte de potência de um golpe corporal. Uma arma ou Poder que possua `Dano [X]` usa seu próprio valor. As fontes não se somam automaticamente.
+
+Exemplo: `FIS [2] | Pistola Dano [1] | Espada Mágica Dano [3]`.
+
+Quando técnica ofensiva e defensiva participam:
+
+`Perícia efetiva = Perícia ofensiva − Perícia defensiva`
+
+`Ataque efetivo = Dano + 1 + (Perícia efetiva × 0,2)`
+
+`Dano aplicado = 2^(Ataque efetivo − Defesa efetiva)`
+
+`Dano mínimo contabilizável = 0,25`, salvo quando o próprio mecanismo é incapaz de afetar o alvo.
+
+## Cura
+
+`Cura efetiva = Cura usada + 1 + (Perícia aplicável × 0,2)`
+
+`Cura aplicada = máx(1, 2^(Cura efetiva − RES do alvo))`
+
+A configuração ampliada é paga integralmente antes da resolução.
+
+## Efeitos persistentes
+
+Todo efeito persistente consolidado, benéfico ou prejudicial, possui estrutura:
+
+`Efeito [D x / V5] — Duração`
+
+`D` é a Defesa estrutural, normalmente o Efetivo que estabeleceu o efeito. `V5` é um grau de Vida.
+
+Perder Vida **não reduz a intensidade** do efeito. Enquanto `V > 0`, ele permanece com o Resultado estabelecido. Em `V0`, termina.
+
+Referência estrutural:
+
+`Efeito persistente → V5 | Proteção/Barreira → V5 | Invocação → V10 | Personagem → V35`
+
+`Dissipar` é um efeito separado que causa Dano sobre a Vida de STATUS persistentes:
+
+`Dissipar efetivo vs D do STATUS → Dano aplicado → reduz V`
+
+Quantidade própria de STATUS para Dissipar:
+
+`1 +0 | 2 +1 | 4 +2 | 6 +3 | 16 +4 | 32 +5`
+
+## Contenção
+
+Uma contenção criada por efeito persistente usa sua estrutura `D/V5`.
+
+Uma contenção realizada por personagem, criatura ou Invocação ativa é **Sustentada**: depende do agente continuar gastando sua ação e não cria automaticamente `D/V` próprio.
+
+Vários agentes não somam Atributos; quando realizam a mesma contenção coordenada na mesma janela, seus **Resultados compatíveis podem ser somados**.
+
+Uma estrutura física aplicada depois, como algemas, continua existindo por conta própria e usa sua estrutura correspondente, por exemplo `Algemas → FIS [3] | V10`.
+
+## Princípios finais
+
+> **Resolução não existe para fabricar incerteza. Ela decide o que acontece quando mais de um resultado continua realmente plausível.**
 
 > **A Resistência transforma dificuldade em tempo, custo e oportunidade de reação.**
+
+> **O plano não vence o patamar. O plano muda o problema.**
 
 > **O NARRADOR preserva a continuidade da campanha, não a permanência dos problemas nem o planejamento anterior.**
