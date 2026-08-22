@@ -30,7 +30,8 @@ A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertenc
 
 - `principio-de-resolucao.md` — distingue resultado evidente, impossibilidade evidente e incerteza real; somente a incerteza real exige resolução comparativa;
 - `leitura-da-ficha-na-resolucao.md` — define como Atributos, Perícias, Poderes, meio, situação e conhecimento entram na resolução sem soma automática nem conversões fixas de patamar;
-- `comparacao-e-disputa.md` — define comparação qualitativa, estratégia e preparação, soluções que mudam o problema, agência diante de planos e manutenção de disputas equilibradas sem vencedor artificial.
+- `comparacao-e-disputa.md` — define comparação qualitativa, estratégia e preparação, soluções que mudam o problema, agência diante de planos e manutenção de disputas equilibradas sem vencedor artificial;
+- `combate-e-dano.md` — define resolução compacta de combate, Perícia efetiva, Ataque efetivo, progressão exponencial de dano, defesa aplicável, ataques detalhados e referência de VIDA.
 
 ## Arquivos antigos ainda como fonte de migração
 
@@ -75,6 +76,16 @@ Preparação cria condições, não bônus.
 Uma solução válida pode encerrar um problema importante.
 Uma disputa equilibrada pode continuar sem vencedor.
 ```
+
+Em combate:
+
+```text
+Perícia efetiva = Perícia ofensiva − Perícia defensiva
+Ataque efetivo = Dano + 1 + (Perícia efetiva × 0,2)
+Dano aplicado = 2^(Ataque efetivo − Defesa efetiva)
+```
+
+A cena continua decidindo quais capacidades realmente entram no cálculo.
 
 > **Resolução não existe para fabricar incerteza nem para produzir um número único. Ela existe para decidir, pela ficção e pelas capacidades relevantes, qual resultado é coerente quando mais de um continua plausível.**
 
