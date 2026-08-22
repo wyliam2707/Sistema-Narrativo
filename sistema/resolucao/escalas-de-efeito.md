@@ -134,6 +134,22 @@ Exemplos: `Cadeira comum → atributos relevantes [0]` | `Mesa reforçada → FO
 
 > **Invocação determina como se estrutura aquilo que foi criado. O Poder determina o que pode ser criado.**
 
+### Função, contenção e eixo da disputa
+
+Os Atributos da criação representam funções reais dela. Uma contenção pode concentrar sua configuração em qualquer Atributo coerente com o mecanismo que a mantém funcionando, desde que isso caiba no repertório do Poder.
+
+Exemplos: `Contenção física → FOR [5]` | `Contenção reativa → AGI [5]` | `Contenção estrutural → RES [5]` | `Contenção mental → MEN [5]` | `Contenção espiritual → VON [5]`.
+
+Isso não transforma o Atributo escolhido em uma defesa universal. O alvo continua podendo responder por qualquer mecanismo que permaneça realmente disponível na situação.
+
+Contra um alvo livre e capaz de reagir, uma contenção especializada pode precisar primeiro alcançá-lo, acompanhá-lo ou sobreviver às suas respostas. O alvo pode mudar o eixo da disputa se possuir uma alternativa coerente: evitar uma contenção de FOR usando AGI, romper uma contenção de AGI usando FOR, destruir fisicamente um selo de VON, dissipá-lo, teleportar-se ou usar outro meio que a ficção permita.
+
+Uma condição anterior pode eliminar essas alternativas. Se o alvo já estiver `Imobilizado [8]`, por exemplo, uma Invocação posterior não precisa investir em AGI apenas para capturá-lo; pode concentrar sua configuração em `FOR [5]` para mantê-lo preso. Isso não é bônus nem combinação automática: a primeira resolução mudou a situação e retirou uma função que a segunda criação precisaria cumprir.
+
+Da mesma forma, conhecer o alvo pode orientar o mecanismo escolhido. Uma prisão física pode ser inútil contra alguém capaz de rompê-la facilmente, enquanto uma contenção de VON pode ser mais adequada se o Poder realmente puder prender por esse eixo.
+
+> **A criação escolhe os Atributos que realizam sua função. A fuga enfrenta o mecanismo que realmente a sustenta. Enquanto houver alternativas coerentes de reação, o alvo pode mudar o eixo da disputa.**
+
 ### Quantidade de criaturas
 
 Ao criar várias criaturas no mesmo vínculo, cada dobra na quantidade reduz em 1 o patamar efetivo disponível para cada criatura.
