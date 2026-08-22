@@ -26,9 +26,7 @@ Quando uma capacidade consome Energia, o custo é igual ao patamar efetivamente 
 
 O patamar máximo da capacidade define até onde ela pode chegar. O personagem pode empregar um patamar menor quando a ficção permitir dosar a potência.
 
-Exemplo:
-
-`FOR [5] usada em [2] → custo 2`
+Exemplo: `FOR [5] usada em [2] → custo 2`.
 
 Assim, um personagem muito poderoso não precisa operar sempre no máximo para resolver ameaças menores.
 
@@ -44,13 +42,21 @@ A Reserva pode ser lida em cinco estados narrativos, além de Esgotada:
 
 Os cinco estados com Energia disponível dividem igualmente a Reserva máxima.
 
-O valor numérico pode ser mostrado junto do estado para facilitar o controle.
+O valor numérico pode ser mostrado junto do estado para facilitar o controle. O estado comunica rapidamente a condição; o número preserva precisão operacional.
 
-Exemplo:
+## Recuperação natural
 
-`Energia: 37/80 — Média`
+Todo gasto realizado desde o último fôlego forma um bloco de esforço recente.
 
-O estado comunica rapidamente a condição; o número preserva precisão operacional.
+Após aproximadamente `5 minutos` de descanso real, o personagem pode recuperar `50%` da Energia gasta nesse bloco. Essa parcela é recuperável uma única vez pelo fôlego curto.
+
+A metade restante torna-se desgaste profundo e só pode ser recuperada com aproximadamente `1 a 2 horas` de descanso real.
+
+Exemplos: `100/100 → gasta 10 → 90/100 → 5m recupera +5 → 95/100 → 2h recupera +5 → 100/100` | `100/100 → gasta 100 → 0/100 → 5m recupera +50 → 50/100 → 2h recupera +50 → 100/100`.
+
+Depois do fôlego de 5 minutos, novos gastos formam um novo bloco e podem gerar nova parcela recuperável no próximo fôlego. A parte já marcada para o descanso longo continua aguardando esse descanso.
+
+> **Fôlego recupera metade do esforço recente. Descanso prolongado recupera o desgaste restante.**
 
 ## Bateria
 
@@ -72,19 +78,27 @@ Transferir Energia da Bateria para a Reserva é uma ação.
 
 O personagem pode transferir qualquer quantidade disponível na Bateria, até completar sua Reserva máxima.
 
-Exemplo:
-
-`Energia: 20/80 [60/60] → usa a Bateria → Energia: 80/80 [0/60]`
+Exemplo: `Energia 20/80 - Bateria 60/60 → usa a Bateria → Energia 80/80 - Bateria 0/60`.
 
 Se a Reserva não tiver espaço para toda a carga, apenas a quantidade necessária é transferida e o restante permanece na Bateria.
 
-`Energia: 70/80 [60/60] → usa a Bateria → Energia: 80/80 [50/60]`
+## Notação operacional
 
-A notação padrão é:
+Quando for útil mostrar tudo de forma compacta, usa-se uma única linha:
 
-`Energia: atual/máxima [Bateria atual/máxima]`
+`Energia [10/100] - Bateria [40/40] - Descanso [5m:+45 / 2h:+45]`
 
-Quando o personagem não possui Bateria, o trecho entre colchetes é omitido.
+`Energia [atual/máxima]` mostra a Reserva própria atual e máxima.
+
+`Bateria [atual/máxima]` mostra a carga externa disponível.
+
+`Descanso [5m:X / 2h:Y]` mostra quanto ainda pode ser recuperado em cada tipo de descanso. O valor de `5m` corresponde à metade recuperável do gasto recente; o valor de `2h` corresponde ao desgaste profundo que exige descanso prolongado.
+
+Depois de usar o fôlego curto, sua parcela cai para zero. Exemplo: `Energia [55/100] - Bateria [40/40] - Descanso [5m:+0 / 2h:+45]`.
+
+Quando o descanso prolongado é concluído e não existem novos gastos pendentes, ambos os valores retornam a zero.
+
+Quando não houver Bateria, seu trecho pode ser omitido.
 
 ## Escala e confronto
 
