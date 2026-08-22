@@ -56,6 +56,12 @@ Exemplos: `100/100 → gasta 10 → 90/100 → 5m recupera +5 → 95/100 → 2h 
 
 Depois do fôlego de 5 minutos, novos gastos formam um novo bloco e podem gerar nova parcela recuperável no próximo fôlego. A parte já marcada para o descanso longo continua aguardando esse descanso.
 
+Enquanto existir valor preso na camada de descanso longo, a Energia não pode se recuperar naturalmente acima de:
+
+`Energia máxima recuperável antes do descanso longo = Energia máxima − Descanso de 2h`
+
+Exemplo: `Energia [10/100] - Descanso [45]-[45]` permite chegar, com o fôlego curto, no máximo a `55/100`. Depois disso permanece `Energia [55/100] - Descanso [0]-[45]` até ocorrer o descanso prolongado.
+
 > **Fôlego recupera metade do esforço recente. Descanso prolongado recupera o desgaste restante.**
 
 ## Bateria
@@ -95,6 +101,8 @@ Quando for útil mostrar tudo de forma compacta, usa-se uma única linha:
 `Descanso [X]-[Y]` mostra quanto ainda pode ser recuperado em cada camada de descanso. O primeiro valor corresponde à parcela recuperável pelo fôlego de aproximadamente 5 minutos; o segundo corresponde ao desgaste profundo recuperável após aproximadamente 1 a 2 horas.
 
 Depois de usar o fôlego curto, sua parcela cai para zero. Exemplo: `Energia [55/100] - Bateria [40/40] - Descanso [0]-[45]`.
+
+O segundo valor também define quanto da Reserva máxima continua bloqueado até o descanso prolongado. Portanto, com `Descanso [0]-[45]` em uma Reserva máxima de `100`, o teto de recuperação natural imediata é `55`.
 
 Quando o descanso prolongado é concluído e não existem novos gastos pendentes, ambos os valores retornam a zero.
 
