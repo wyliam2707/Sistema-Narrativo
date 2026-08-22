@@ -2,49 +2,43 @@
 
 Status: APROVADO
 
-A ficha usa cinco atributos universais.
+A ficha usa quatro atributos universais.
 
-Cada atributo descreve uma capacidade diferente do personagem. Eles não são somados automaticamente entre si, com perícias ou com poderes.
+Cada atributo descreve uma capacidade diferente do personagem. Eles não são somados automaticamente entre si, com perícias, poderes ou equipamentos.
 
 Os atributos usam a escala universal definida em `escala.md`.
+
+A ficha não busca equilibrar personagens entre si. O valor de um Atributo deve refletir aquilo que o personagem realmente é.
 
 ---
 
 ## 1. Atributos básicos
 
-### FOR — Força
+### FIS — Físico
 
-**FOR mede a potência física que o personagem consegue produzir.**
+**FIS mede aquilo que o corpo do personagem consegue fazer.**
+
+Reúne potência, velocidade, coordenação, precisão corporal, equilíbrio e capacidade de reação física.
 
 Inclui, quando pertinente:
 
 - levantar peso;
-- empurrar;
-- puxar;
+- empurrar e puxar;
 - arrombar;
-- agarrar ou conter alguém pela força;
-- aplicar potência em golpes físicos.
-
-FOR não mede quanto dano, esforço ou impacto o corpo consegue suportar. Isso pertence a RES.
-
----
-
-### AGI — Agilidade
-
-**AGI mede a velocidade, coordenação, reflexos e precisão dos movimentos do personagem.**
-
-Inclui, quando pertinente:
-
+- agarrar ou conter alguém fisicamente;
+- correr, saltar e escalar;
 - esquivar;
 - manter equilíbrio;
-- mirar fisicamente;
 - executar movimentos rápidos;
-- responder fisicamente a algo percebido;
-- controlar movimentos delicados ou precisos.
+- reagir fisicamente a algo percebido;
+- realizar movimentos delicados ou precisos;
+- aplicar potência em golpes produzidos pelo próprio corpo.
 
-AGI não mede percepção.
+FIS não mede percepção. Perceber uma ameaça, detalhe ou mudança no ambiente pertence normalmente a MEN. FIS pode determinar a qualidade, velocidade ou precisão da resposta corporal depois que a situação foi percebida.
 
-Perceber uma ameaça, detalhe ou mudança no ambiente pertence normalmente a MEN. AGI pode determinar a qualidade e a velocidade da resposta física depois que a situação foi percebida.
+FIS também não mede quanto dano, esforço ou impacto o corpo consegue suportar. Isso pertence a RES.
+
+> **FIS age. RES suporta.**
 
 ---
 
@@ -65,9 +59,9 @@ Inclui, quando pertinente:
 - toxinas;
 - capacidade de continuar funcionando apesar de desgaste físico.
 
-FOR e RES são independentes.
+FIS e RES são independentes.
 
-Um personagem pode possuir força extrema e baixa resistência, ou grande resistência e pouca força.
+Um personagem pode possuir capacidade física extrema e baixa resistência, ou grande resistência e pouca capacidade de ação corporal.
 
 ---
 
@@ -143,9 +137,9 @@ A capacidade usada para se defender depende de como a defesa acontece na ficçã
 
 Exemplos possíveis:
 
-- evitar fisicamente um ataque percebido: AGI;
+- evitar fisicamente um ataque percebido: FIS;
 - antecipar um adversário por leitura, percepção ou raciocínio: MEN;
-- bloquear ou conter algo por potência física: FOR, quando fizer sentido;
+- bloquear, agarrar ou conter algo fisicamente: FIS, quando fizer sentido;
 - suportar o impacto em vez de evitá-lo: RES;
 - resistir a dominação, medo ou pressão mental: VON;
 - perceber ou evitar algo por uma capacidade extraordinária: poder apropriado.
@@ -180,24 +174,31 @@ Seu significado operacional pertence a `../personas/`.
 
 ---
 
-## 5. Potência e execução são coisas diferentes
+## 5. Potência, fonte e execução são coisas diferentes
 
-O grau do poder informa sua escala ou potência.
+O valor usado para produzir um efeito vem da fonte que realmente o produz.
 
-O atributo apropriado pode ajudar a interpretar sua execução quando isso realmente for relevante.
+O corpo pode ser essa fonte. Um equipamento, Poder ou outra capacidade também pode ser.
 
 Exemplos:
 
-- mirar fisicamente um projétil ou equipamento: normalmente AGI;
-- perceber um alvo ou uma ameaça: normalmente MEN;
-- manipular uma magia delicada: normalmente MEN;
-- manter um efeito sob enorme pressão: normalmente VON;
-- erguer fisicamente alguma coisa: FOR;
-- suportar esforço, impacto, veneno ou doença: RES.
+```text
+FIS [2] → golpe corporal usa potência física [2]
+Pistola — Dano [1] → o disparo usa Dano [1]
+Espada Mágica — Dano [3] → o golpe da espada usa Dano [3]
+```
 
-Não existe soma automática entre atributo e poder.
+Esses valores não são somados automaticamente:
 
-> **Cada informação responde a uma pergunta diferente.**
+`FIS [2] + Pistola [1] ≠ Dano [3]`
+
+`FIS [2] + Espada Mágica [3] ≠ Dano [5]`
+
+FIS continua podendo ser relevante para posição, agarrões, deslocamento, velocidade, precisão corporal ou outras disputas físicas durante a mesma cena, sem aumentar automaticamente a potência do equipamento.
+
+A Perícia aplicável descreve quão bem aquela fonte é utilizada. Ela também não se transforma automaticamente em potência adicional da arma ou do Poder.
+
+> **FIS determina o que o corpo consegue produzir. Equipamento determina o que o equipamento consegue produzir. Perícia determina quão bem a fonte escolhida é aplicada.**
 
 ---
 
@@ -208,36 +209,35 @@ Uma capacidade permanente ou natural deve aparecer diretamente no atributo sempr
 Exemplo:
 
 ```text
-FOR [4]
+FIS [4]
 ```
 
-Isso já representa superforça natural.
+Isso já representa uma capacidade física natural extraordinária. Não é necessário criar separadamente `Superforça`, `Superagilidade` ou equivalentes apenas para repetir aquilo que FIS já descreve.
 
-Não é necessário criar um poder separado chamado `Superforça [4]` apenas para repetir a mesma capacidade.
-
-Em contraste, uma capacidade que precisa ser ativada deve aparecer como poder.
+Em contraste, uma capacidade que precisa ser ativada deve aparecer como Poder.
 
 Exemplo:
 
 ```text
-FOR [0]
-Magia [3] => Ampliação
+FIS [0]
+Magia [3] => Ampliação física
 ```
 
-Nesse caso, o personagem possui força humana em repouso e pode usar uma capacidade ativa para reforçá-la temporariamente.
+Nesse caso, o personagem possui capacidade física humana em repouso e pode usar uma capacidade ativa para alterá-la temporariamente quando o repertório permitir.
 
 ---
 
 ## 7. Princípio de leitura
 
-Os cinco atributos respondem a perguntas diferentes:
+Os quatro atributos respondem a perguntas diferentes:
 
 ```text
-FOR → quanta potência física consegue produzir?
-AGI → quão rápido, coordenado e preciso consegue se mover?
+FIS → o que o corpo consegue fazer?
 RES → quanto o corpo consegue suportar?
 MEN → o que consegue perceber, compreender e processar?
 VON → quanto consegue resistir, sustentar e perseverar?
 ```
 
 Nenhum atributo substitui automaticamente outro apenas porque pode contribuir para a mesma cena.
+
+> **A ficha descreve o personagem; não oferece justiça entre personagens.**
