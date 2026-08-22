@@ -1,5 +1,7 @@
 # Combate e dano
 
+Status: APROVADO
+
 Este arquivo define como uma intenção de combate é convertida em consequência quando o resultado não é evidente.
 
 A regra existe para sustentar tanto declarações amplas quanto ações detalhadas, sem exigir que o JOGADOR coreografe golpe por golpe.
@@ -29,6 +31,24 @@ O NARRADOR não precisa pedir ao JOGADOR cada passo, esquiva ou golpe. Ele usa a
 
 A resolução termina quando a consequência volta a exigir escolha.
 
+## Fonte do Dano
+
+O Dano usa a fonte que realmente produz a agressão.
+
+O corpo pode usar `FIS` como potência física de Dano quando o mecanismo for um golpe corporal coerente.
+
+Uma arma, Poder ou equipamento que possua `Dano [X]` usa o próprio valor de Dano.
+
+Exemplo: `FIS [2] | Pistola — Dano [1] | Espada Mágica — Dano [3]` lê `golpe corporal → [2] | pistola → [1] | espada → [3]`.
+
+As fontes não são somadas automaticamente:
+
+`FIS [2] + Espada Mágica Dano [3] ≠ Dano [5]`
+
+`FIS` continua podendo importar para posição, agarrão, deslocamento, execução física ou outra disputa corporal quando a cena realmente exigir isso, sem aumentar automaticamente o Dano próprio da arma.
+
+> **O corpo usa FIS. O equipamento usa sua própria potência. A Perícia informa quão bem a fonte escolhida é aplicada.**
+
 ## Perícia efetiva
 
 Quando técnica ofensiva e defensiva realmente participam da mesma troca:
@@ -49,15 +69,13 @@ Uma Perícia de combate não reduz automaticamente uma explosão inevitável, um
 
 Para o cálculo de dano:
 
-`Ataque efetivo = Dano + 1 + (Perícia efetiva × 0,2) − Ampliação não paga`
+`Ataque efetivo = Dano + 1 + (Perícia efetiva × 0,2)`
 
 O `+1` é estrutural do lado ofensivo.
 
-`Ampliação não paga` normalmente é `0`. Quando alcance, alvos, área ou outra dimensão da aplicação é ampliada pela regra de Consolidação, cada ponto de carga adicional que o JOGADOR escolhe não pagar em Energia reduz o Ataque efetivo em `1` naquela aplicação.
+Ampliações de Alcance, Alvos, Área ou outra dimensão não reduzem o Ataque efetivo. A configuração escolhida é paga integralmente antes da resolução conforme `consolidacao.md`.
 
-Isso significa que um ataque de mesmo patamar da defesa ainda produz consequência relevante quando não existe perda de eficiência por ampliação, enquanto cada patamar de diferença continua tendo peso crescente.
-
-O valor calculado não altera permanentemente o patamar do Poder, da FOR ou de qualquer outra capacidade da ficha. Ele existe apenas para resolver aquela aplicação de dano.
+O valor calculado não altera permanentemente o patamar do Poder, do FIS, da arma ou de qualquer outra capacidade da ficha. Ele existe apenas para resolver aquela aplicação de dano.
 
 ## Dano aplicado
 
@@ -65,7 +83,7 @@ O valor calculado não altera permanentemente o patamar do Poder, da FOR ou de q
 
 A progressão é exponencial: cada patamar de diferença dobra ou reduz pela metade o dano.
 
-Sem diferença de Perícia nem Ampliação não paga, a referência básica fica:
+Sem diferença de Perícia, a referência básica fica:
 
 `Ataque = Defesa → 2` | `Ataque +1 → 4` | `Ataque +2 → 8` | `Ataque +3 → 16` | `Ataque +4 → 32` | `Ataque +5 → 64`
 
@@ -145,7 +163,7 @@ Ela não funciona como proteção contra assimetrias evidentes.
 
 Um resultado muito acima da capacidade de sobrevivência pode saltar etapas. Quando a natureza do ataque e o excesso tornam sobrevivência incoerente, a consequência pode ser imediatamente letal.
 
-`Ataque [5]` contra `Defesa [0]`, sem diferença de Perícia nem Ampliação não paga, é tratado como ataque efetivo `[6]` e produz `64` de dano aplicado: mais que toda a referência de `35` para Incapacitado. Se o golpe realmente atinge de forma compatível com sua natureza destrutiva, isso pode representar morte imediata.
+`Dano [5]` contra `Defesa [0]`, sem diferença de Perícia, é tratado como Ataque efetivo `[6]` e produz `64` de Dano aplicado: mais que toda a referência de `35` para Incapacitado. Se o golpe realmente atinge de forma compatível com sua natureza destrutiva, isso pode representar morte imediata.
 
 ## Quantidade e incapacidade
 
@@ -163,9 +181,9 @@ Como referência matemática, resultados abaixo de `0,25` já são considerados 
 
 Dano é normalmente instantâneo. Alcance natural, um alvo e área mínima pertencem à manifestação-base da capacidade.
 
-Quando o ataque amplia alcance, quantidade de alvos ou área, usa as regras de `consolidacao.md`.
+Quando o ataque amplia Alcance, quantidade de Alvos ou Área, usa as regras de `consolidacao.md`.
 
-A ampliação não divide automaticamente o Dano entre os afetados. Ela é paga antes da aplicação por Energia, perda de Ataque efetivo ou uma combinação das duas.
+A ampliação não divide automaticamente o Dano entre os afetados. Toda Ampliação usada é paga integralmente em Energia antes da resolução.
 
 Depois que o Dano é aplicado, permanece o ferimento na VIDA; o ataque não continua existindo como efeito persistente apenas para representar o Dano já causado.
 
@@ -173,7 +191,7 @@ Depois que o Dano é aplicado, permanece o ferimento na VIDA; o ataque não cont
 
 Em combate, o procedimento mínimo é:
 
-`determinar ataque e defesa aplicáveis → calcular Perícia efetiva → calcular Ampliação não paga → calcular Ataque efetivo → calcular Dano aplicado → interpretar a consequência`
+`determinar fonte de Dano e defesa aplicável → calcular Perícia efetiva → configurar e pagar Ampliação, se houver → calcular Ataque efetivo → calcular Dano aplicado → interpretar a consequência`
 
 Para uma ação simples, isso basta.
 
