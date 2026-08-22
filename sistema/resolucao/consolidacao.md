@@ -132,11 +132,19 @@ Para `Alcance`, `Alvos`, `Área/Tamanho` e `Duração`, cada passo acima da base
 
 Quando mais de uma dimensão é ampliada, suas cargas se acumulam.
 
-A carga total de ampliação de um uso nunca pode superar o patamar efetivamente usado:
+Cada efeito possui um limite total próprio de Ampliação:
 
-`Ampliação total ≤ patamar usado`
+`Ampliação = patamar do efeito + maior entre MEN e VON`
 
-Uma configuração acima desse limite simplesmente não cabe naquele uso, independentemente de quanta Energia exista disponível.
+Esse valor pode ser registrado diretamente junto ao efeito para evitar recálculo durante o jogo:
+
+`Dano [4] | Ampliação [7]`
+
+Nesse exemplo, o efeito possui patamar máximo `[4]` e a soma de todas as ampliações de `Alcance + Alvos + Área/Tamanho + Duração` pode chegar a `+7`.
+
+Uma configuração cuja soma ultrapasse `Ampliação [X]` não cabe naquele efeito, independentemente de quanta Energia exista disponível.
+
+O valor de Ampliação mede quanto o efeito pode ser estendido em suas dimensões; ele não aumenta a potência do efeito.
 
 O NARRADOR apresenta o custo de forma compacta:
 
@@ -148,9 +156,9 @@ O JOGADOR decide quanto da carga adicional paga em Energia. Cada ponto de carga 
 
 O patamar do Poder na ficha não muda. A redução existe apenas naquela aplicação.
 
-Exemplo: `Magia [2] => Dano` com carga `+2` tem custo `[2+2]`. Se o JOGADOR paga `3` de Energia, paga o custo-base `2` e apenas `1` da ampliação; o ponto restante reduz o Ataque efetivo em `1`.
+Exemplo: `Magia [2] => Dano [2] | Ampliação [5]` com carga `+3` tem custo `[2+3]`. Se o JOGADOR paga `4` de Energia, paga o custo-base `2` e apenas `2` da ampliação; o ponto restante reduz o Ataque efetivo em `1`.
 
-> **O patamar limita quanto o uso pode ser ampliado. Energia decide quanto dessa ampliação é sustentada sem perda de Efetivo.**
+> **O patamar do efeito e a maior capacidade mental definem quanto ele pode ser ampliado. Energia decide quanto dessa ampliação é sustentada sem perda de Efetivo.**
 
 ## 8. Dano e Cura
 
@@ -184,7 +192,7 @@ Ampliar além dessas referências gera carga normal:
 
 `Alvos` não é usado para determinar quantidade de criaturas invocadas. A quantidade segue a regra própria de Invocação definida em `escalas-de-efeito.md`, porque aplicar também a escala geral de Alvos duplicaria a mesma função.
 
-Assim, uma Invocação pode criar uma única criatura gigantesca, uma estrutura de grande Área ou criaturas em quantidade conforme sua regra própria, desde que a carga das dimensões aplicáveis caiba no limite do patamar usado.
+Assim, uma Invocação pode criar uma única criatura gigantesca, uma estrutura de grande Área ou criaturas em quantidade conforme sua regra própria, desde que a carga das dimensões aplicáveis caiba em `Ampliação [X]` daquele efeito.
 
 > **Na Invocação, a regra específica de quantidade substitui Alvos. Duração, Tamanho/Área e Alcance ampliam apenas o que ultrapassa a manifestação-base da Invocação.**
 
