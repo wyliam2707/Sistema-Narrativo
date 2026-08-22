@@ -12,29 +12,11 @@ Esta regra define como o NARRADOR resolve situações em que mais de um resultad
 
 Patamares podem ser comparados diretamente quando representam o mesmo aspecto da disputa.
 
-Exemplo:
+Exemplo: `Luta [+5] contra Luta [+2]`. Se a questão concreta é quem executa melhor uma troca técnica em condições equivalentes, `Luta [+5]` possui superioridade qualitativa clara.
 
-```text
-Luta [+5]
-contra
-Luta [+2]
-```
+Outro exemplo: `FIS [5] contra FIS [2]`. Se a disputa é diretamente corporal — força, velocidade, reação, coordenação ou outra função física que ambos estão usando no mesmo eixo — a diferença pode ser suficiente para transformar a incerteza em resultado evidente.
 
-Se a questão concreta é quem executa melhor uma troca técnica em condições equivalentes, `Luta [+5]` possui superioridade qualitativa clara.
-
-Outro exemplo:
-
-```text
-FOR [5]
-contra
-FOR [2]
-```
-
-Se a disputa é puramente de força, a diferença pode ser suficiente para transformar a incerteza em resultado evidente.
-
-Isso não significa que o personagem de maior patamar vence qualquer cena.
-
-A superioridade existe somente dentro daquilo que aquela capacidade realmente representa.
+Isso não significa que o personagem de maior patamar vence qualquer cena. A superioridade existe somente dentro daquilo que aquela capacidade realmente representa.
 
 > **Mesmo aspecto pode ser comparado. Aspectos diferentes precisam ser interpretados em conjunto.**
 
@@ -42,25 +24,11 @@ A superioridade existe somente dentro daquilo que aquela capacidade realmente re
 
 ## 2. Aspectos diferentes não formam uma soma
 
-Exemplo:
+Exemplo: `A → FIS [2] | Luta [+0]` contra `B → FIS [0] | Luta [+5]`.
 
-```text
-A
-AGI [2]
-Luta [+0]
+Não existe comparação `2 contra 5` como se as duas informações fossem a mesma dimensão.
 
-B
-AGI [0]
-Luta [+5]
-```
-
-Não existe comparação `2 contra 5`.
-
-As capacidades respondem a perguntas diferentes.
-
-`AGI [2]` pode permitir executar movimentos, reações e sequências fisicamente impossíveis para um humano comum.
-
-`Luta [+5]` representa técnica, leitura corporal, distância, tempo, guarda, escolha de abertura e execução marcial em grau excepcional.
+`FIS [2]` permite capacidade corporal super-humana. `Luta [+5]` representa técnica, leitura corporal, distância, tempo, guarda, escolha de abertura e execução marcial em grau de ápice.
 
 A cena determina quais dessas diferenças realmente importam.
 
@@ -86,18 +54,7 @@ Qual resultado a combinação produz?
 
 Uma mesma capacidade pode ter efeitos concretos diferentes conforme a situação.
 
-Exemplo:
-
-```text
-AGI [2]
-```
-
-pode permitir, conforme a cena:
-
-- vários disparos rápidos numa pequena janela de tempo;
-- atravessar uma distância antes que um humano comum reaja;
-- reposicionar-se com velocidade super-humana;
-- executar manipulações físicas em sequência muito mais rapidamente.
+`FIS [2]` pode permitir, conforme a cena, atravessar uma distância antes que um humano comum reaja, reposicionar-se em velocidade super-humana, executar movimentos físicos em sequência muito rapidamente, aplicar força super-humana ou realizar uma ação de precisão corporal extraordinária.
 
 Isso não cria uma tabela fixa de quantidades.
 
@@ -118,31 +75,13 @@ Como ferramenta de leitura, o NARRADOR pode distinguir:
 
 Essas dimensões não são novos atributos e não geram uma soma.
 
-Servem apenas para identificar o que realmente está decidindo a cena.
+`FIS [5] | Luta [+0]` pode produzir um golpe corporal de potência extrema sem técnica marcial excepcional.
 
-Exemplo:
+`FIS [0] | Luta [+5]` pode produzir técnica impecável dentro dos limites de um corpo humano.
 
-```text
-FOR [5]
-Luta [+0]
-```
+`FIS [0] | Luta [+5] | Lâmina capaz de explorar a vulnerabilidade do alvo` pode tornar um humano extremamente perigoso contra alguém muito superior fisicamente, desde que consiga criar a oportunidade real de usar a arma.
 
-pode produzir um golpe de potência extrema sem técnica marcial excepcional.
-
-```text
-FOR [0]
-Luta [+5]
-```
-
-pode produzir técnica impecável dentro dos limites de um corpo humano.
-
-```text
-FOR [0]
-Luta [+5]
-Lâmina capaz de explorar a vulnerabilidade do alvo
-```
-
-pode tornar um humano extremamente perigoso contra alguém muito superior em força e resistência, desde que consiga criar a oportunidade real de usar a arma.
+A arma continua sendo um meio próprio; quando possui `Dano [X]`, seu Dano não é somado automaticamente a FIS.
 
 ---
 
@@ -150,23 +89,13 @@ pode tornar um humano extremamente perigoso contra alguém muito superior em for
 
 Uma capacidade elevada melhora aquilo que o personagem consegue fazer com a informação e o repertório que realmente possui.
 
-Ela não cria automaticamente:
+Ela não cria automaticamente fatos desconhecidos, conhecimento técnico nunca adquirido, contexto cultural inexistente, informação secreta ou conceitos que o personagem nunca encontrou.
 
-- fatos desconhecidos;
-- conhecimento técnico nunca adquirido;
-- contexto cultural inexistente;
-- informação secreta;
-- conceitos que o personagem nunca encontrou.
-
-Exemplo conceitual:
-
-Um personagem com `MEN [5]` e `Demonologia [+5]` pode superar alguém com `MEN [3]` e `Demonologia [+4]` ao construir uma armadilha conceitual ou contratual sofisticada.
+Exemplo conceitual: um personagem com `MEN [5]` e `Demonologia [+5]` pode superar alguém com `MEN [3]` e `Demonologia [+4]` ao construir uma armadilha conceitual ou contratual sofisticada.
 
 Isso pode incluir reconhecer que uma mesma frase possui uma leitura válida dentro da tradição demonológica e outra leitura válida dentro de uma tradição jurídica humana conhecida pelo personagem.
 
-O alvo não precisa ser burro para ser enganado.
-
-Ele pode compreender perfeitamente a interpretação que considera natural e ainda não perceber a segunda estrutura que o outro personagem deliberadamente explorou.
+O alvo não precisa ser burro para ser enganado. Ele pode compreender perfeitamente a interpretação que considera natural e ainda não perceber a segunda estrutura que o outro personagem deliberadamente explorou.
 
 > **Competência extrema não é onisciência.**
 
@@ -178,26 +107,7 @@ Uma boa ideia não aumenta o patamar do personagem.
 
 Ela pode mudar a situação de modo que a diferença de patamar deixe de ser a questão decisiva.
 
-Exemplo:
-
-```text
-Luta [+2]
-contra
-Luta [+5]
-```
-
-Num duelo limpo e equivalente, o combatente `[+5]` possui domínio técnico claro.
-
-Mas o combatente `[+2]` pode:
-
-- preparar terreno;
-- criar uma armadilha;
-- usar uma vulnerabilidade real;
-- escolher uma arma adequada;
-- obter surpresa;
-- mudar distância;
-- atacar um objetivo diferente;
-- impedir que o adversário aplique sua principal vantagem.
+`Luta [+2] contra Luta [+5]` favorece claramente o combatente `[+5]` num duelo técnico equivalente. O `[+2]` ainda pode preparar terreno, criar armadilha, usar vulnerabilidade real, escolher arma adequada, obter surpresa, mudar distância, atacar outro objetivo ou impedir que o adversário aplique sua principal vantagem.
 
 Nesse caso, a pergunta da cena muda.
 
@@ -209,18 +119,9 @@ Nesse caso, a pergunta da cena muda.
 
 Preparação eficaz altera fatos concretos da cena.
 
-Não existe obrigação de converter preparação em modificadores como `+1`, `+2` ou `-3`.
+Não existe obrigação de convertê-la em modificadores como `+1`, `+2` ou `-3`.
 
-Exemplos de preparação real:
-
-```text
-A arma agora consegue ferir o alvo.
-O atacante já está na posição ideal.
-O adversário não sabe de onde virá o ataque.
-A rota de fuga foi bloqueada.
-O terreno impede determinada manobra.
-Uma vulnerabilidade conhecida está sendo explorada.
-```
+Exemplos: `a arma agora consegue ferir o alvo | o atacante já está na posição ideal | o adversário não sabe de onde virá o ataque | a rota de fuga foi bloqueada | o terreno impede determinada manobra | uma vulnerabilidade conhecida está sendo explorada`.
 
 Esses fatos mudam a resolução diretamente.
 
@@ -232,18 +133,7 @@ Esses fatos mudam a resolução diretamente.
 
 O NARRADOR não protege ameaças, antagonistas, mistérios ou cenas futuras apenas porque eram importantes para o planejamento.
 
-Se uma solução é:
-
-- plausível;
-- causalmente sustentada;
-- executável pelas capacidades envolvidas;
-- compatível com o cenário;
-- construída a partir de informação e meios legítimos;
-- aceita ou permitida pelas escolhas dos demais agentes quando isso for necessário;
-
-ela pode simplesmente resolver o problema.
-
-Isso continua válido mesmo que o problema fosse esperado como ameaça de longo prazo.
+Se uma solução é plausível, causalmente sustentada, executável pelas capacidades envolvidas, compatível com o cenário, construída a partir de informação e meios legítimos e aceita ou permitida pelas escolhas dos demais agentes quando necessário, ela pode simplesmente resolver o problema.
 
 > **A importância futura de um problema não é defesa contra uma solução válida.**
 
@@ -255,27 +145,11 @@ Quando uma boa ideia elimina uma ameaça, a campanha continua a partir da nova r
 
 ## 9. Preparação não controla decisões alheias
 
-Um plano pode criar vantagem, restringir opções ou tornar determinada escolha muito perigosa.
+Um plano pode criar vantagem, restringir opções ou tornar determinada escolha muito perigosa. Ele não obriga outro personagem a agir da maneira esperada.
 
-Ele não obriga outro personagem a agir da maneira esperada.
+Uma sala preparada para enfraquecer um inimigo pode tornar um combate próximo extremamente favorável. Se o inimigo ainda possui uma rota real de fuga, pode decidir sair, recuar, mudar de objetivo ou evitar o confronto.
 
-Exemplo:
-
-Uma sala preparada para enfraquecer um inimigo pode tornar um combate próximo extremamente favorável.
-
-Se o inimigo ainda possui uma rota real de fuga, pode decidir sair, recuar, mudar de objetivo ou evitar o confronto.
-
-A pergunta então muda de:
-
-```text
-Quem vence aqui dentro?
-```
-
-para:
-
-```text
-A preparação também consegue impedir a fuga?
-```
+A pergunta muda de `quem vence aqui dentro?` para `a preparação também consegue impedir a fuga?`.
 
 > **Um plano pode limitar opções. Não pode inventar obediência.**
 
@@ -289,32 +163,9 @@ Nem toda disputa precisa terminar imediatamente em sucesso ou falha.
 
 Se nenhum lado consegue criar vantagem suficiente para alterar o estado da situação, o resultado pode ser simplesmente a manutenção da disputa.
 
-Exemplo:
+Exemplo: `A foge | B persegue | FIS equivalente para aquela corrida | mesmo terreno | nenhuma vantagem relevante → A não escapa | B não alcança | ambos continuam correndo`.
 
-```text
-A foge.
-B persegue.
-
-Velocidade equivalente.
-Mesmo terreno.
-Nenhuma vantagem relevante.
-
-→ A não escapa.
-→ B não alcança.
-→ ambos continuam correndo.
-```
-
-A perseguição pode continuar até que algo realmente mude:
-
-- um agente use equipamento;
-- alguém mude de abordagem;
-- o terreno mude;
-- uma capacidade nova seja empregada;
-- alguém intervenha;
-- um personagem pare para lutar;
-- alguém use magia;
-- um dos lados abandone a perseguição;
-- desgaste ou outra condição passe a importar.
+A perseguição pode continuar até que algo realmente mude: equipamento, abordagem, terreno, nova capacidade, intervenção, decisão de lutar, magia, abandono ou desgaste.
 
 > **Uma disputa equilibrada não exige vencedor artificial.**
 
@@ -324,25 +175,7 @@ A perseguição pode continuar até que algo realmente mude:
 
 Quando a manutenção da disputa produz uma nova decisão significativa, a resolução termina naquele ponto e devolve agência aos envolvidos.
 
-Exemplo:
-
-```text
-A perseguição continua sem mudança de distância.
-O perseguidor então puxa um equipamento do casaco.
-```
-
-A partir daí existe nova situação.
-
-O perseguido pode:
-
-- continuar correndo;
-- mudar de rota;
-- usar magia;
-- atacar;
-- buscar cobertura;
-- executar outra ação compatível com sua agência.
-
-Isso segue o princípio operacional:
+Se a perseguição continua sem mudança de distância e o perseguidor então puxa um equipamento, existe nova situação. O perseguido pode continuar, mudar de rota, usar magia, atacar, buscar cobertura ou executar outra ação compatível com sua agência.
 
 > **A resolução termina onde a consequência volta a ser escolha.**
 
@@ -366,27 +199,13 @@ Mesmo nesses casos, sempre que a própria disputa puder continuar coerentemente,
 
 Em `Castelo dos Corvos`, Corvin não precisava superar Trigon em poder global para neutralizar um problema específico.
 
-O problema concreto era o uso do vínculo de Trigon com Ravena.
+O problema concreto era o uso do vínculo de Trigon com Ravena. A cena forneceu uma oportunidade real quando Trigon procurou Corvin diretamente.
 
-A cena forneceu uma oportunidade real quando Trigon procurou Corvin diretamente.
+Corvin usou conhecimento demonológico excepcional, MEN elevada, leitura das reações de Trigon, experiência com contratos, controle do próprio território, formulação precisa de consentimento e vínculo com a Casa Blackwood e um rito demonológico adequado para fixar os termos aceitos.
 
-Corvin então usou:
+Ele não derrotou Trigon em capacidade física ou poder bruto. Mudou a natureza do problema até transformar uma ameaça de poder em uma questão de negociação, definição, consentimento e pacto.
 
-- conhecimento demonológico excepcional;
-- MEN elevada;
-- leitura das reações de Trigon;
-- experiência com contratos;
-- controle do próprio território;
-- formulação precisa de consentimento e vínculo com a Casa Blackwood;
-- um rito demonológico adequado para fixar os termos aceitos.
-
-Ele não derrotou Trigon em força.
-
-Ele mudou a natureza do problema até transformar uma ameaça de poder em uma questão de negociação, definição, consentimento e pacto.
-
-Trigon continuou possuindo agência e aceitou porque a proposta tinha valor real para ele.
-
-Uma vez que os termos foram aceitos e a condição foi satisfeita voluntariamente por Ravena, o vínculo passou a operar sob a nova realidade.
+Trigon continuou possuindo agência e aceitou porque a proposta tinha valor real para ele. Uma vez que os termos foram aceitos e a condição foi satisfeita voluntariamente por Ravena, o vínculo passou a operar sob a nova realidade.
 
 O NARRADOR não deveria criar uma cláusula secreta depois apenas para restaurar o problema anterior.
 
