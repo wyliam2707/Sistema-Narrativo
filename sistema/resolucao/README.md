@@ -39,7 +39,8 @@ Esta pasta concentra:
 - `combate-e-dano.md` — fonte de Dano, Perícia efetiva, Ataque efetivo, Dano aplicado e defesa aplicável;
 - `energia.md` — Reserva, custos, Ampliação, Bateria e recuperação;
 - `recuperacao-da-vida.md` — recuperação natural, Regeneração, Cura e Medicina;
-- `resolucao-social.md` — influência social sem Defesa Social universal e com preservação de agência.
+- `resolucao-social.md` — influência social sem Defesa Social universal e com preservação de agência;
+- `informacao-e-investigacao.md` — existência, acesso, percepção, interpretação, hipótese, investigação e confirmação, separando investigação normal do efeito especial Informação.
 
 ## Regra de migração
 
