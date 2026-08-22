@@ -98,10 +98,14 @@ A recuperação, reconstrução ou remoção de efeitos e Barreiras será tratad
 
 ## Informação
 
+Base de uso:
+
+`Informação — Curto / 1 alvo ou fonte / Pontual / Instantâneo / Efetivo máximo [nível do efeito]`
+
 `[2] Indício` | `[4] Revelar` | `[8] Compreender` | `[16] Aprofundar` | `[32] Devassar`
 
 - `[2] Indício` — obtém uma pista útil, mas incompleta.
-- `[4] Revelar` — identifica a informação principal, ainda com detalhes ausentes.
+- `[4] Revelar` — identifica a informação principal, ainda com detalhes ausentes. Em espionagem ou busca de uma pessoa, pode revelar, por exemplo, localização e estado geral de saúde quando isso estiver dentro do repertório.
 - `[8] Compreender` — obtém informação funcionalmente completa sobre o objetivo investigado.
 - `[16] Aprofundar` — revela relações, causas, contexto e detalhes ocultos relevantes.
 - `[32] Devassar` — alcança tudo que aquela capacidade consegue descobrir dentro de seu repertório.
@@ -111,6 +115,16 @@ A Resistência vem daquilo que torna a informação difícil de obter: criatura,
 `Exigência` diz quanto se quer descobrir. `Resistência` diz quão difícil é descobrir.
 
 Não se somam automaticamente diferentes fontes de resistência; a ficção determina qual obstáculo está sendo enfrentado naquela aplicação.
+
+### Foco e vínculo
+
+Informação pode exigir um foco para alcançar alguém ou alguma fonte que não esteja disponível diretamente. O foco é uma condição de vínculo, não um bônus numérico automático.
+
+Exemplos possíveis, conforme a natureza do Poder: `cabelo` | `sangue` | `objeto pessoal` | `nome verdadeiro` | `fotografia` | `espelho preparado`.
+
+Possuir o foco permite estabelecer o mecanismo quando o repertório realmente comporta esse tipo de leitura. Ele não aumenta sozinho o Efetivo nem aprofunda o Resultado.
+
+> **O foco torna a leitura possível. O Resultado determina quanto é descoberto.**
 
 ## Invocação
 
