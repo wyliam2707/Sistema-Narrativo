@@ -19,8 +19,11 @@ Esta pasta concentra, progressivamente:
 - atualização de fichas;
 - Livro como registro canônico definitivo;
 - salvamento e fechamento de capítulo;
+- material reservado da persona MESTRE / NARRADOR;
 - distinção entre Livro, STATUS, Progressão, ficha e material reservado;
 - regras de correção e substituição de cânone.
+
+MESTRE e NARRADOR designam a mesma persona. Nas regras de jogo, `NARRADOR` pode ser usado como forma corrente; a pasta `mestre/` de uma campanha é sua área reservada de trabalho e continuidade.
 
 Conhecimento relevante consolidado não constitui uma camada separada de Persistência. Quando precisar continuar disponível para interpretar um personagem, ele pertence ao campo `Conhecimento atual relevante` da ficha.
 
@@ -32,7 +35,8 @@ O Livro preserva como e quando uma descoberta aconteceu. A Progressão só regis
 - `progressao.md` — consequências estabelecidas que continuam causalmente vivas;
 - `atualizacao-de-ficha.md` — quando e como uma mudança pode ser consolidada na ficha;
 - `livro.md` — registro canônico definitivo da campanha;
-- `fechamento-de-capitulo.md` — protocolo atual de salvamento e fechamento de capítulo.
+- `fechamento-de-capitulo.md` — protocolo atual de salvamento e fechamento de capítulo;
+- `material-reservado.md` — regras da área reservada `mestre/`, incluindo fatos ocultos, NPCs, preparações, planos e possibilidades.
 
 ## Arquivos antigos como fonte de migração
 
@@ -54,7 +58,7 @@ Livro       → o que aconteceu.
 Progressão  → o que ainda pode causar consequência futura.
 STATUS      → onde e como continuar exatamente agora.
 Ficha       → o que mudou de forma estável no personagem e o que precisa permanecer disponível para interpretá-lo.
-Mestre      → o que precisa continuar verdadeiro sem ser revelado antes da hora.
+Mestre      → o que a persona MESTRE / NARRADOR precisa manter reservado para conduzir a campanha.
 ```
 
 > **Salvar não é resumir tudo; é preservar corretamente o que continua relevante.**
