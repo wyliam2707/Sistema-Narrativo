@@ -2,31 +2,50 @@
 
 Esta pasta reúne as regras que respondem à pergunta:
 
-> **Dadas as intenções, capacidades, circunstâncias e oposição, como descobrimos o que acontece?**
+> **Dadas as intenções, capacidades, circunstâncias e movimento do cenário, como descobrimos o que acontece?**
 
 ## Estado da migração
 
 A estrutura nova está sendo construída sem apagar os arquivos antigos.
 
-Enquanto uma regra ainda não tiver sido reescrita e aprovada nesta pasta, o arquivo antigo correspondente em `sistema/` continua válido.
+Enquanto uma regra ainda não tiver sido reescrita e aprovada nesta pasta, o arquivo antigo correspondente em `sistema/` continua válido como fonte de migração.
 
 ## Responsabilidades desta área
 
 Esta pasta deverá concentrar, progressivamente:
 
-- ciclo de declarações e resolução;
 - intenção versus resultado;
-- peso de atributos, perícias e poderes;
+- quando um resultado é evidente e quando exige resolução;
+- leitura qualitativa de atributos, perícias e poderes;
+- comparação de capacidades e manutenção de disputas equilibradas;
+- motor geral de disputas progressivas contra personagens e cenário;
+- escalas de efeito, exigência, consolidação e proteção;
 - preparação, vantagem, contexto e oposição;
 - resolução social;
 - investigação e informação;
 - combate e dano;
+- energia, reservas e custos de uso;
+- recuperação de VIDA, Regeneração, Cura e Medicina;
 - ações prolongadas e passagem de tempo quando houver resolução envolvida.
 
-## Arquivos antigos ainda em uso
+A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertencem a `../operacao/`.
 
-- `../ciclo-de-jogadores.md` — ciclo operacional atual e prioridade máxima.
-- `../README.md` — base mecânica geral, atributos, perícias, poderes e princípios de resolução.
+## Arquivos aprovados nesta área
+
+- `principio-de-resolucao.md` — distingue resultado evidente, impossibilidade evidente e incerteza real; somente a incerteza real exige resolução comparativa;
+- `leitura-da-ficha-na-resolucao.md` — define como Atributos, Perícias, Poderes, meio, situação e conhecimento entram na resolução sem soma automática nem conversões fixas de patamar;
+- `comparacao-e-disputa.md` — define comparação qualitativa, estratégia e preparação, soluções que mudam o problema, agência diante de planos e manutenção de disputas equilibradas sem vencedor artificial;
+- `motor-de-disputa.md` — define Potência, Resistência, Exigência, progresso por aplicação, acumulação, tempo, custo efetivo, oportunidade de reação e Consolidação como motor geral de disputas progressivas;
+- `escalas-de-efeito.md` — reúne as tabelas aprovadas de Consolidação, Sentidos, Controle, Mobilidade, Supressão de Atributo e Proteção por Barreira; permanece em construção enquanto novas categorias são adicionadas;
+- `combate-e-dano.md` — define resolução compacta de combate, Perícia efetiva, Ataque efetivo, progressão exponencial de dano, dano mínimo contabilizável, defesa aplicável, ataques detalhados e referência de VIDA;
+- `energia.md` — define Reserva, custo por patamar efetivamente usado, estados de Energia, Bateria, recuperação e transferência de carga;
+- `recuperacao-da-vida.md` — define recuperação natural por estado, Regeneração por hora, Cura como contraponto do Dano, Medicina sem oposição artificial e estabilização;
+- `resolucao-social.md` — define resolução social sem Defesa Social universal, preservação de agência, função contextual de VON, Relações, autoridade, intimidação, enganação e resultados sociais abertos.
+
+## Arquivos antigos ainda como fonte de migração
+
+- `../ciclo-de-jogadores.md` — fonte histórica do ciclo; a nova arquitetura operacional está em `../operacao/ciclo-de-cena.md`;
+- `../README.md` — base mecânica geral, atributos, perícias, poderes e princípios antigos de resolução.
 
 ## Regra de migração
 
@@ -37,7 +56,88 @@ Quando um tema for revisado:
 1. consultar o arquivo antigo;
 2. usar exemplos reais das campanhas quando ajudarem;
 3. escrever a nova versão nesta pasta;
-4. indicar no arquivo de migração que a nova versão substituiu a antiga;
-5. só depois considerar o arquivo antigo obsoleto.
+4. indicar na nova estrutura o que passou a substituir a formulação antiga;
+5. manter os arquivos antigos como fonte até que sua migração esteja concluída.
 
-> **Organizar primeiro. Substituir somente quando a regra nova estiver realmente melhor.**
+## Princípios
+
+```text
+RESULTADO EVIDENTE
+→ estabelece.
+
+IMPOSSIBILIDADE EVIDENTE
+→ estabelece.
+
+INCERTEZA REAL
+→ resolve.
+```
+
+Quando houver incerteza:
+
+```text
+A cena determina quais capacidades importam.
+Atributos, Perícias e Poderes não se somam.
+Patamares são qualitativos, não conversões fixas.
+Contexto altera a situação, não cria bônus obrigatório.
+Mesmo aspecto pode ser comparado diretamente.
+Aspectos diferentes são interpretados em suas funções próprias.
+Preparação cria condições, não bônus.
+Uma solução válida pode encerrar um problema importante.
+Uma disputa equilibrada pode continuar sem vencedor.
+```
+
+Para disputas progressivas:
+
+```text
+Perícia efetiva = Perícia de aplicação − Perícia de oposição
+Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2)
+Progresso por aplicação = 2^(Efeito efetivo − Resistência efetiva)
+Aplicações necessárias = teto(Exigência ÷ Progresso por aplicação)
+```
+
+Escalas padrão de aplicação:
+
+`6 segundos → imediata` | `1 minuto → curta` | `1 hora → prolongada` | `1 dia → extensa`
+
+Quando houver Energia:
+
+`Custo efetivo = aplicações × custo por aplicação`
+
+Quando um efeito persistente ultrapassa sua Exigência-base:
+
+`Consolidação = Progresso acumulado − Exigência-base`
+
+A Consolidação pode representar simultaneamente duração e persistência quando a natureza do efeito permitir.
+
+Em combate:
+
+```text
+Perícia efetiva = Perícia ofensiva − Perícia defensiva
+Ataque efetivo = Dano + 1 + (Perícia efetiva × 0,2)
+Dano aplicado = 2^(Ataque efetivo − Defesa efetiva)
+Dano mínimo contabilizável = 0,25
+```
+
+Para Energia:
+
+```text
+Reserva [0] = 10
+Reserva [1–5] = maior Atributo × 20
+Custo = patamar efetivamente usado
+Bateria [X] = X × 20
+```
+
+Para Cura:
+
+```text
+Cura efetiva = Cura usada + 1 + (Perícia aplicável × 0,2)
+Cura aplicada = máx(1, 2^(Cura efetiva − RES do alvo))
+```
+
+A cena continua decidindo quais capacidades realmente entram no cálculo.
+
+> **Resolução não existe para fabricar incerteza nem para produzir um número único. Ela existe para decidir, pela ficção e pelas capacidades relevantes, qual resultado é coerente quando mais de um continua plausível.**
+
+> **A Resistência transforma dificuldade em tempo, custo e oportunidade de reação.**
+
+> **O NARRADOR preserva a continuidade da campanha, não a permanência dos problemas nem o planejamento anterior.**

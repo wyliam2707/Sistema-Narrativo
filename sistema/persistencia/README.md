@@ -12,21 +12,41 @@ Enquanto uma regra ainda não tiver sido reescrita e aprovada nesta pasta, o arq
 
 ## Responsabilidades desta área
 
-Esta pasta deverá concentrar, progressivamente:
+Esta pasta concentra, progressivamente:
 
 - estado atual e STATUS;
 - progressão causal;
-- cronologia;
-- conhecimento persistente;
 - atualização de fichas;
-- salvamento de capítulo;
-- distinção entre livro, estado, progressão e material reservado;
-- regras de correção e substituição de cânone.
+- Livro como registro canônico definitivo;
+- salvamento e fechamento de capítulo;
+- material operacional reservado da campanha;
+- distinção entre Livro, STATUS, Progressão, ficha e material reservado;
+- correção e substituição de cânone.
 
-## Arquivos antigos ainda em uso
+MESTRE e NARRADOR designam a mesma função quando esses nomes forem usados no sistema. A pasta `mestre/` não representa a mente completa do NARRADOR: ela é uma fonte operacional reservada da campanha, consultada por cada persona somente dentro de seu escopo.
 
-- `../protocolo-de-fechamento-de-capitulo.md` — protocolo atual de salvamento e fechamento de capítulo.
-- Regras de estado, progressão e cronologia ainda existentes em documentos de sistema e estruturas de aventura permanecem válidas até migração específica.
+Conhecimento relevante consolidado não constitui uma camada separada de Persistência. Quando precisar continuar disponível para interpretar um personagem, ele pertence ao campo `Conhecimento atual relevante` da ficha.
+
+O Livro preserva como e quando uma descoberta aconteceu. A Progressão só registra consequências causalmente vivas que tenham surgido dessa descoberta.
+
+## Arquivos aprovados nesta área
+
+- `status.md` — como e onde o personagem está agora;
+- `progressao.md` — consequências estabelecidas que continuam causalmente vivas;
+- `atualizacao-de-ficha.md` — quando e como uma mudança pode ser consolidada na ficha;
+- `livro.md` — registro canônico definitivo da campanha;
+- `fechamento-de-capitulo.md` — protocolo atual de salvamento e fechamento de capítulo;
+- `material-reservado.md` — fatos, NPCs, preparações, planos e possibilidades reservados, distribuídos às personas por escopo de consulta;
+- `correcao-de-canone.md` — substituição de fatos incorretos ou contraditórios, sempre com aprovação explícita do JOGADOR HUMANO.
+
+## Arquivos antigos como fonte de migração
+
+- `../protocolo-de-fechamento-de-capitulo.md` — versão antiga do protocolo; substituída nesta arquitetura por `fechamento-de-capitulo.md`.
+- Regras antigas de estado, progressão, cronologia e organização ainda existentes em documentos de sistema permanecem como fontes de migração até revisão específica.
+
+A nova arquitetura não exige uma camada separada de Cronologia.
+
+Quando for necessário consultar quando ou em que ordem algo aconteceu, a fonte histórica é o Livro. Um índice ou resumo cronológico pode ser criado como ferramenta opcional em campanhas muito longas, mas não constitui camada obrigatória nem fonte separada de cânone.
 
 ## Princípio
 
@@ -35,12 +55,15 @@ Persistência não serve para repetir tudo que aconteceu.
 Cada camada guarda uma coisa diferente:
 
 ```text
-Livro       → o que aconteceu.
-Cronologia  → consulta rápida do que aconteceu.
-Progressão  → o que ainda pode causar consequência futura.
-Estado      → onde continuar exatamente agora.
-Ficha       → o que mudou de forma estável no personagem.
-Mestre      → o que precisa continuar verdadeiro sem ser revelado antes da hora.
+Livro             → o que aconteceu.
+Progressão        → o que ainda pode causar consequência futura.
+STATUS            → onde e como continuar exatamente agora.
+Ficha             → o que mudou de forma estável no personagem e o que precisa permanecer disponível para interpretá-lo.
+Material reservado→ fatos, NPCs, planos e preparações operacionais ainda necessários à campanha.
 ```
+
+O acesso a material reservado é definido pelo escopo de cada persona, não pelo fato de o arquivo existir tecnicamente no mesmo repositório.
+
+Correções não criam uma camada paralela de realidade: quando aprovadas pelo JOGADOR HUMANO, substituem a versão anterior do fato e alinham os registros afetados.
 
 > **Salvar não é resumir tudo; é preservar corretamente o que continua relevante.**

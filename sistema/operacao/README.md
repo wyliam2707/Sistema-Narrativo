@@ -12,22 +12,29 @@ Enquanto uma regra ainda não tiver sido reescrita e aprovada nesta pasta, o arq
 
 ## Responsabilidades desta área
 
-Esta pasta deverá concentrar, progressivamente:
+Esta pasta concentra, progressivamente:
 
-- modo RPG;
-- checklist operacional;
+- ordem das declarações;
 - ordem de consulta;
 - quando abrir nova janela de resolução;
+- quando o OPOSITOR movimenta o cenário;
+- quando o NARRADOR consulta fichas, regras, cenário e situação;
+- quando interromper a resolução e devolver controle ao jogador;
+- quando registrar STATUS, Progressão e preparações;
 - quando revisar agentes fora da câmera;
-- quando atualizar STATUS;
-- quando consultar fichas, estado, progressão e material reservado;
 - prevenção de conflitos entre regras de áreas diferentes.
 
-## Arquivos antigos ainda em uso
+## Arquivos aprovados nesta área
 
-- `../modo-rpg.md` — procedimento operacional atual.
-- `../checklist-do-narrador.md` — checklist atual.
-- `../00-LEIA-PRIMEIRO.md` — orientação geral de entrada no sistema.
+- [`ciclo-de-cena.md`](ciclo-de-cena.md) — ordem operacional das personas em uma janela de cena, incluindo declarações dos jogadores, movimento do OPOSITOR, julgamento do NARRADOR e registro do resultado.
+
+## Arquivos antigos ainda como fonte de migração
+
+- `../modo-rpg.md` — procedimento operacional antigo; continua fonte para pontos ainda não migrados.
+- `../checklist-do-narrador.md` — checklist antigo; continua fonte para pontos ainda não migrados.
+- `../00-LEIA-PRIMEIRO.md` — orientação geral antiga de entrada no sistema.
+
+Quando houver conflito sobre a ordem das personas ou o ciclo de uma janela, `ciclo-de-cena.md` é a regra atual aprovada.
 
 ## Princípio
 
@@ -37,6 +44,7 @@ Ela funciona como camada de execução e roteamento:
 
 ```text
 quem decide?        → personas/
+quem move o cenário?→ personas/opositor/
 como age sozinho?   → agencia/
 o que acontece?     → resolucao/
 como mostrar?       → narracao/
@@ -44,4 +52,22 @@ o que permanece?    → persistencia/
 como aplicar tudo?  → operacao/
 ```
 
-> **Operação lembra o que consultar; não redefine silenciosamente as outras áreas.**
+O ciclo-base pode ser lembrado assim:
+
+```text
+JOGADORES movem suas peças
+↓
+OPOSITOR move o cenário
+↓
+NARRADOR organiza
+↓
+NARRADOR consulta
+↓
+NARRADOR julga
+↓
+NARRADOR apresenta e registra
+↓
+NOVA SITUAÇÃO
+```
+
+> **Operação lembra o que consultar e em que ordem agir; não redefine silenciosamente as outras áreas.**
