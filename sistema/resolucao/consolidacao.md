@@ -227,13 +227,13 @@ Invocação possui configuração própria e não usa todas as dimensões gerais
 
 Sua manifestação-base é:
 
-`Duração [0] → uma cena` | `Tamanho [0] → médio/humano` | `Alcance [0] → médio`
+`Duração [0] → uma cena` | `Tamanho [0] → Humano` | `Alcance [0] → Médio`
 
 Ampliar além dessas referências gera carga normal:
 
-- durar além de uma cena → ampliação de Duração;
-- criar algo maior que a escala média/humana → ampliação de Tamanho/Área;
-- invocar além do alcance médio → ampliação de Alcance.
+- durar além de uma cena → Ampliação de Duração;
+- criar algo maior que Tamanho Humano → Ampliação de Tamanho/Área;
+- invocar além do Alcance Médio → Ampliação de Alcance.
 
 `Alvos` não é usado para determinar quantidade de criaturas invocadas. A quantidade segue a regra própria de Invocação definida em `escalas-de-efeito.md`, porque aplicar também a escala geral de Alvos duplicaria a mesma função.
 
@@ -247,11 +247,13 @@ Assim, uma Invocação pode criar uma única criatura gigantesca, uma estrutura 
 
 Transformação voluntária sobre si mesmo usa `Si mesmo` como sua condição de Alcance-base e defesa `[0]` contra a própria mudança.
 
-Quando a Transformação redefine a própria forma física, `FOR`, `AGI` e `RES` são substituídos pela configuração da forma; `MEN`, `VON`, `VIDA` e `Energia` permanecem os do personagem.
+Quando a Transformação redefine a própria forma física, `FIS` e `RES` são substituídos pela configuração da forma; `MEN`, `VON`, `VIDA` e `Energia` permanecem os do personagem.
+
+A distribuição concreta de FIS/RES pela forma está definida em `escalas-de-efeito.md`.
 
 Uma Transformação imposta sobre outra criatura enfrenta a maior resistência aplicável entre `RES`, `VON`, Poder ou proteção coerente.
 
-A mudança não acontece em porcentagens. O resultado da disputa determina a intensidade efetivamente aplicada conforme a regra do efeito; duração, alcance, alvos e área entram apenas quando forem dimensões coerentes daquela aplicação.
+A mudança não acontece em porcentagens. O resultado da disputa determina a intensidade efetivamente aplicada conforme a regra do efeito; Duração, Alcance, Alvos e Área entram apenas quando forem dimensões coerentes daquela aplicação.
 
 ## Princípio
 
