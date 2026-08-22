@@ -30,19 +30,21 @@ Nem todo personagem precisa usar todos os campos. Um campo só é registrado qua
 
 ## Vida
 
-VIDA continua sendo um estado conceitual. Ela não é uma reserva de pontos de vida.
+A referência estrutural comum é:
 
-Para manter a progressão entre consequências, a resolução pode registrar separadamente o **Dano acumulado** como memória matemática de bastidor.
+`1 grau de Vida = 5 pontos`
 
-A apresentação da VIDA segue esta régua:
+Um personagem completo usa `V35`, equivalente a sete graus, e a apresentação narrativa continua seguindo a régua:
 
 `0–4 Ileso | 5–9 Ferido | 10–14 Ferido* | 15–19 Grave | 20–24 Grave* | 25–29 Crítico | 30–34 Crítico* | 35 Incapacitado`
+
+Para personagens, o STATUS pode continuar mostrando a condição narrativa e o Dano acumulado em vez de tratar a ficha como uma barra abstrata de PV.
 
 Exemplo: `Vida: Ferido* | Dano acumulado: 12`.
 
 `Vida` comunica o estado físico atual do personagem.
 
-`Dano acumulado` registra apenas a posição matemática usada pela resolução para manter continuidade entre aplicações de dano. Ele não é tratado como pontos de vida, não mede saúde total e não substitui a interpretação da ficção.
+`Dano acumulado` registra a posição matemática usada pela resolução para manter continuidade entre aplicações de dano. O valor `35` marca a referência de Incapacitado; não obriga a ficção a tratar toda sobrevivência como uma barra rígida.
 
 Não existe obrigação de passar por todos os estados em sequência. Um acontecimento pode alterar vários estados de uma vez quando a ficção e a resolução justificarem isso.
 
@@ -108,23 +110,21 @@ Condições não possuem bônus ou penalidades numéricas automáticas.
 
 Uma condição diz exatamente o que foi estabelecido pela ficção, e a resolução interpreta suas consequências quando ela for relevante.
 
-Exemplo:
-
-```text
-Cego
-```
-
-significa que o personagem não enxerga. Não significa automaticamente `-2` ou qualquer outro modificador universal.
+Exemplo: `Cego` significa que o personagem não enxerga. Não significa automaticamente `-2` ou qualquer outro modificador universal.
 
 Uma condição permanece enquanto sua causa ou seu efeito continuar existindo e sendo relevante. Quando deixa de existir ou de importar, ela sai do STATUS.
 
 Nem toda descrição momentânea precisa virar condição. Registra-se apenas o que puder continuar relevante para ações ou cenas seguintes.
 
-Quando uma condição persistente possui duração e valor de consolidação relevantes para futuras tentativas de remoção, ambos podem aparecer de forma compacta.
+Quando a condição é produzida por um **efeito persistente consolidado**, ela recebe estrutura própria:
 
-Exemplo: `Imobilizado [Cena] 12`.
+`Condição [D x / V5] — Duração`
 
-Nesse formato, `Cena` registra a duração estabelecida e `12` preserva o valor de consolidação necessário enquanto o efeito permanecer.
+`D` é a Defesa estrutural do efeito, igual ao Efetivo que realmente o estabeleceu. `V5` é sua Vida padrão, equivalente a um grau.
+
+Exemplo: `Cegueira [D2,4 / V5] — Cena`.
+
+Enquanto houver Vida, a condição continua com o resultado que foi estabelecido. Perder Vida não reduz automaticamente o grau narrativo do efeito. Em `V0`, o efeito termina e sai do STATUS.
 
 ## Efeitos Ativos
 
@@ -140,6 +140,7 @@ Barreira Mental
 Runa de Proteção
 Voo sustentado
 Maldição ativa
+Bênção ativa
 ```
 
 Diferença principal:
@@ -158,17 +159,49 @@ Evita-se duplicação. Se um Efeito Ativo já descreve adequadamente o estado te
 
 Registra-se um Efeito Ativo apenas quando sua permanência puder alterar decisões ou resoluções futuras.
 
-Quando o efeito possui estrutura própria que pode ser danificada, o STATUS mostra essa estrutura.
+### Estrutura de efeitos persistentes
 
-Exemplo: `Proteção [2 / 4 PV] — Cena`.
+Todo efeito persistente consolidado, **benéfico ou prejudicial**, usa a mesma estrutura:
 
-O primeiro valor é o patamar da Proteção; o segundo é a VIDA atual da Barreira. Quando seus PV chegam a `0`, a proteção rompida sai do STATUS.
+`Efeito [D x / V5] — Duração`
 
-Uma prisão mantida por Invocação registra a criação que sustenta a condição, em vez de fingir que existe apenas uma condição abstrata.
+Exemplos: `Cegueira [D2,4 / V5] — Cena | Bênção [D3,0 / V5] — Cena`.
 
-Exemplo: `Preso — Invocação [FOR 4 | 4 PV] — Cena`.
+Efeitos instantâneos, como Cura já aplicada, não permanecem com `D/V` no STATUS.
 
-O atributo mostrado é o mecanismo principal que mantém a prisão. Outras capacidades da criação só entram quando realmente forem relevantes.
+`Dissipar` é um efeito separado que causa dano sobre a Vida desses STATUS persistentes. Ele usa o mesmo motor normal de ataque e defesa: `Dissipar efetivo vs D → Dano → reduz V`. Em `V0`, o efeito sai do STATUS.
+
+### Proteção
+
+Proteção/Barreira usa um grau de Vida:
+
+`Proteção [D x / V5] — Duração`
+
+Sua Defesa vem da regra própria da Proteção. Exemplo: `Proteção [D2,4 / V5] — Cena`.
+
+Quando sua Vida chega a `0`, a Proteção é rompida e sai do STATUS.
+
+### Invocação
+
+Invocações possuem dois graus de Vida:
+
+`Invocação [D = RES / V10]`
+
+Quando uma Invocação é atacada diretamente, sua `RES` funciona como Defesa estrutural e o dano reduz `V10`.
+
+Uma prisão mantida por Invocação registra a criação que sustenta a condição.
+
+Exemplo: `Preso — Invocação [D4 / V10] — Cena`.
+
+O `D4` indica que a criação possui `RES [4]` para resistir a ataques dirigidos contra sua estrutura. O mecanismo que mantém alguém preso pode envolver outro Atributo, conforme a função da criação; isso não transforma RES em defesa universal para toda tentativa de fuga.
+
+## Referência de Vida estrutural
+
+A régua comum fica:
+
+`Efeito persistente → V5` | `Proteção/Barreira → V5` | `Invocação → V10` | `Personagem → V35`
+
+Vida e Defesa são dimensões distintas. A Defesa diz quão difícil é causar dano; a Vida diz quanto dano a estrutura suporta antes de acabar.
 
 ## Localização
 
@@ -224,7 +257,9 @@ O NARRADOR não espera o fim da cena ou do turno para corrigir valores que já m
 
 A apresentação pode permanecer compacta em uma única linha, mostrando somente o que ainda importa naquele momento.
 
-Exemplo: `STATUS → Vida: Grave | Dano acumulado: 18 | Energia [39/60] | Proteção [2 / 4 PV] — Cena | Imobilizado [Cena] 12`.
+Exemplo: `STATUS → Vida: Grave | Dano acumulado: 18 | Energia [39/60] | Proteção [D2,4 / V5] — Cena | Cegueira [D2,8 / V5] — Cena`.
+
+Se Dissipar causar 2 de Dano na Cegueira, a próxima apresentação já mostra: `Cegueira [D2,8 / V3] — Cena`.
 
 Quando um valor ou efeito muda, a próxima apresentação do STATUS já usa o novo estado.
 
