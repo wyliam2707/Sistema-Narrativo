@@ -73,6 +73,18 @@ No sentido contrário:
 
 A diferença de patamar deve pesar. O sistema não corrige artificialmente uma luta apenas para torná-la justa.
 
+### Dano mínimo contabilizável
+
+`0,25` é o menor Dano mecanicamente acumulável.
+
+`Dano ≥ 0,25 → contabiliza` | `Dano < 0,25 → não contabiliza`
+
+Isso representa o ponto em que uma aplicação ainda consegue produzir desgaste relevante sobre aquela resistência.
+
+A regra não transforma um mecanismo incapaz em ameaça apenas porque o valor alcançou `0,25`. Se a própria ficção mostra que o meio usado não pode afetar o alvo ou a estrutura, não há Dano acumulável.
+
+> **Quantidade não transforma desgaste irrelevante em capacidade destrutiva.**
+
 ## Defesa efetiva
 
 A defesa usada é aquela que realmente responde ao mecanismo do ataque.
@@ -86,6 +98,8 @@ Proteções externas não aumentam automaticamente `RES`. Elas podem resolver a 
 Uma armadura pode interceptar um projétil. Uma máscara pode impedir a inalação de gás. Uma proteção ambiental pode criar condições seguras onde o corpo sozinho não resistiria.
 
 Quando mais de uma proteção existe, o NARRADOR identifica qual delas realmente responde ao ataque. Não há soma automática de camadas.
+
+Barreiras e outras proteções com VIDA própria são resolvidas como camadas independentes conforme `escalas-de-efeito.md`.
 
 ## Fraqueza e Mortal
 
@@ -139,7 +153,9 @@ Uma grande quantidade de ataques incapazes não deve vencer automaticamente uma 
 
 > **Quantidade não transforma automaticamente uma ameaça incapaz em uma ameaça capaz.**
 
-Se a ficção mostra que o mecanismo não consegue afetar o alvo, o NARRADOR não precisa acumular frações indefinidamente até fabricar um resultado incoerente.
+Se a ficção mostra que o mecanismo não consegue afetar o alvo, o NARRADOR não acumula frações indefinidamente até fabricar um resultado incoerente.
+
+Como referência matemática, resultados abaixo de `0,25` já são considerados irrelevantes para acúmulo.
 
 ## Regra de uso
 
