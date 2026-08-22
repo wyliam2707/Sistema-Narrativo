@@ -115,18 +115,18 @@ A perícia descreve a eficácia adquirida para empregar essa capacidade dentro d
 Exemplos:
 
 ```text
-FOR [5]
+FIS [5]
 Luta [+1]
 ```
 
-Representa potência física extrema com técnica de combate apenas básica.
+Representa capacidade física extrema com técnica de combate apenas básica.
 
 ```text
-FOR [0]
+FIS [0]
 Luta [+5]
 ```
 
-Representa força dentro do patamar humano com domínio marcial de ápice.
+Representa capacidade física dentro do patamar humano com domínio marcial de ápice.
 
 Da mesma forma:
 
