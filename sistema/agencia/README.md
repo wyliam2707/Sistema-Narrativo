@@ -26,6 +26,7 @@ Esta pasta deverá concentrar, progressivamente:
 ## Arquivos aprovados nesta área
 
 - `continuidade-de-npcs.md` — define quando NPCs precisam de acompanhamento, como preservar retornos e pendências futuras sem simular suas vidas dia a dia e como esses fios voltam a mover a história.
+- `continuidade-de-jogadores-ia.md` — define como JOGADORES IA mantêm continuidade fora da câmera e como suas declarações compartilham o mesmo intervalo temporal, podendo interromper uma ação longa quando criam nova decisão.
 
 ## Relação com outras áreas
 
