@@ -32,7 +32,7 @@ Alterar alcance, quantidade de alvos, área/tamanho ou duração além da base p
 
 A base de Dano depende da forma real pela qual ele é entregue.
 
-`Dano [soco/espada/luta] — Próximo / 1 alvo / Pontual / Instantâneo / Efetivo máximo [nível disponível]`
+`Dano [soco/espada/luta] — Curto / 1 alvo / Pontual / Instantâneo / Efetivo máximo [nível disponível]`
 
 `Dano [disparo] — Médio / 1 alvo / Pontual / Instantâneo / Efetivo máximo [nível disponível]`
 
@@ -45,6 +45,22 @@ Base de uso:
 `Cura — Toque / 1 alvo / Pontual / Instantâneo / Efetivo máximo [nível disponível]`
 
 O Resultado de Cura é a quantidade de VIDA recuperada pela regra normal de cura.
+
+## Dissipar
+
+Dissipar é um efeito próprio. Ele causa dano sobre a estrutura de **STATUS persistentes**, não sobre a Vida física comum do alvo.
+
+A manifestação-base de Dissipar será definida como qualquer outro efeito; sua resolução estrutural já é fixa:
+
+`Dissipar efetivo vs D do efeito persistente → Dano aplicado → reduz V do efeito`
+
+Todo efeito persistente consolidado possui `D = Efetivo que o estabeleceu` e `V5`.
+
+Exemplo: `Cegueira [D2,4 / V5] — Cena`. Uma aplicação de Dissipar resolve contra `D2,4`; o Dano resultante reduz a Vida da Cegueira. Em `V0`, o efeito termina.
+
+Dissipar pode atingir tanto efeitos prejudiciais quanto benéficos persistentes, desde que estejam dentro de seu repertório.
+
+> **Dissipar é dano contra STATUS persistente. Usa o mesmo motor de ataque, defesa e dano.**
 
 ## Sentidos — supressão
 
@@ -122,31 +138,33 @@ Base de uso:
 
 Barreira funciona como uma camada independente de proteção.
 
-`Barreira [X] → VIDA 4 | RES efetiva = X + (Perícia aplicável × 0,2)`
+`Barreira [D x / V5]`
+
+A Defesa da Barreira é sua defesa efetiva:
+
+`D = patamar usado + (Perícia aplicável × 0,2)`
 
 Como Poder, Barreira possui patamar mínimo `[1]`.
 
-Exemplo: `Barreira [2] + Conhecimento em Magia [+2] → VIDA 4 | RES [2,4]`.
+Exemplo: `Barreira [2] + Conhecimento em Magia [+2] → Barreira [D2,4 / V5]`.
 
-O ataque resolve normalmente contra a RES efetiva da Barreira. O Dano reduz primeiro a VIDA da Barreira.
+O ataque resolve normalmente contra `D` da Barreira. O Dano reduz primeiro sua Vida.
 
-Se o Dano não superar a VIDA restante, ele é absorvido e reduz essa VIDA.
+Se o Dano não superar a Vida restante, ele é absorvido e reduz essa Vida.
 
 Se superar, a Barreira é rompida e o excedente continua para a próxima camada ou alvo.
 
-`Excedente = Dano aplicado − VIDA restante da Barreira`
+`Excedente = Dano aplicado − Vida restante da Barreira`
 
 O excedente é convertido novamente em Ataque efetivo usando a fórmula inversa:
 
-`Ataque efetivo restante = RES efetiva da Barreira + log₂(Excedente)`
+`Ataque efetivo restante = D da Barreira + log₂(Excedente)`
 
 Depois da reconversão, o Ataque efetivo restante é sempre arredondado para baixo antes de atingir a próxima camada.
 
 Se não houver excedente, o ataque termina na Barreira.
 
-> **Uma proteção absorve aquilo que consegue suportar. O excedente continua com a força que restou.**
-
-A recuperação, reconstrução ou remoção de efeitos e Barreiras será tratada em regra própria posterior.
+> **Uma proteção possui 1 grau de Vida: V5. Ela absorve aquilo que consegue suportar e o excedente continua com a força que restou.**
 
 ## Informação
 
@@ -185,6 +203,10 @@ Base de uso:
 `Invocação — Médio / 1 criação / Tamanho Humano / Cena / Efetivo máximo [nível da Invocação]`
 
 Invocação cria uma entidade ou objeto dentro do repertório real do Poder. O patamar determina a configuração máxima da criação; não obriga a usar toda a potência disponível.
+
+Uma criação invocada possui **2 graus de Vida: V10**. Quando é atacada diretamente, sua Defesa estrutural é sua `RES`:
+
+`Invocação [D = RES / V10]`
 
 ### Distribuição de Atributos
 
@@ -358,7 +380,7 @@ A distância alcançada é lida pelo Resultado:
 
 ### Portal
 
-`Portal — Próximo / 1 portal / Tamanho Humano / Instantâneo / Efetivo máximo [nível do efeito]`
+`Portal — Curto / 1 portal / Tamanho Humano / Instantâneo / Efetivo máximo [nível do efeito]`
 
 A distância entre as posições conectadas é lida pelo Resultado:
 
@@ -386,4 +408,4 @@ As tabelas acima definem **o que acontece** e cada base define **como o efeito n
 
 `Duração` | `Alvos` | `Alcance` | `Área/Tamanho`
 
-A Consolidação também define custo adicional em Energia e redução de Efeito efetivo quando parte da ampliação não é paga.
+A Consolidação também define o limite `Ampliação [X]`, o custo adicional de cada degrau e a regra de pagamento integral da configuração escolhida.
