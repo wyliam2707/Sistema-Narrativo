@@ -24,15 +24,15 @@ Usar um alcance menor que a manifestação-base não reduz o custo. A base já e
 
 > **Consolidação `[0]` representa a manifestação normal do Poder. As escalas medem o que vai além dessa manifestação.**
 
-## 2. Limite das dimensões
+## 2. Degraus das dimensões
 
-As dimensões de Consolidação usam como referência máxima `[16]`.
+Cada dimensão de Consolidação possui seus próprios degraus narrativos. Não é necessário que todas terminem no mesmo ponto.
 
-`[0] → base` | `[2] → primeira ampliação` | `[4] → segunda ampliação` | `[8] → terceira ampliação` | `[16] → quarta ampliação`
+O custo de uma ampliação é contado pelo número de passos acima da manifestação-base daquela dimensão: cada passo aprovado para a dimensão gera `+1 Energia`.
 
-Não existe uma faixa comum de Consolidação `[32]`.
+No caso de Alvos, a escala já possui cinco ampliações e alcança `32 alvos` com custo `+5`.
 
-Os efeitos podem alcançar `[32]`; as dimensões de Consolidação terminam em `[16]`.
+Outras dimensões mantêm suas escalas próprias até serem revisadas.
 
 ## 3. Alcance
 
@@ -67,11 +67,17 @@ Usar uma faixa abaixo da base não concede desconto nem potência adicional.
 
 Alvos mede quantos indivíduos ou entidades podem ser escolhidos separadamente.
 
-`[0] → 1 alvo` | `[2] → 2 alvos` | `[4] → 4 alvos` | `[8] → 8 alvos` | `[16] → 16 alvos`
+`1 alvo [base] → custo +0` | `2 alvos → +1` | `4 alvos → +2` | `8 alvos → +3` | `16 alvos → +4` | `32 alvos → +5`
+
+Cada passo acima da quantidade-base custa `+1 Energia`.
+
+Usar menos alvos que a base não reduz o custo.
 
 Alvos permite discriminação individual dentro do repertório do efeito.
 
-Exemplo: uma Cura com quatro Alvos pode escolher quatro aliados específicos.
+Exemplo: uma Cura com `4 alvos` pode escolher quatro aliados específicos e paga `+2 Energia` além do custo-base do uso.
+
+> **Alvos escolhe indivíduos específicos. Cada dobra acima da base custa +1 Energia.**
 
 ## 5. Área e Tamanho
 
@@ -91,7 +97,7 @@ Exemplo: uma Cura com quatro Alvos pode escolher quatro aliados específicos.
 
 > **Alvos escolhe quem é afetado. Área afeta todos dentro dela.**
 
-Assim, quatro inimigos separados podem exigir `Alvos [4]`. Uma explosão em Área afeta todos que estiverem dentro dela, inclusive aliados, salvo quando a própria natureza do Poder estabelecer outra coisa.
+Assim, quatro inimigos separados podem exigir `4 alvos`. Uma explosão em Área afeta todos que estiverem dentro dela, inclusive aliados, salvo quando a própria natureza do Poder estabelecer outra coisa.
 
 ## 6. Duração
 
@@ -105,11 +111,9 @@ Regras específicas podem estabelecer outra duração-base. Nesse caso, somente 
 
 ## 7. Ampliação, limite e custo
 
-Cada dimensão ampliada gera uma carga conforme o degrau usado além da manifestação-base:
+Cada dimensão usa seus próprios degraus aprovados. O custo adicional é contado pelos passos usados acima da manifestação-base.
 
-`[2] → carga +1` | `[4] → carga +2` | `[8] → carga +3` | `[16] → carga +4`
-
-Para `Alcance`, aplica-se sua regra própria: não se usa a progressão `[2]/[4]/[8]/[16]`; cada faixa acima do Alcance-base gera diretamente `carga +1`.
+Para `Alcance` e `Alvos`, cada passo acima da base gera diretamente `carga +1`.
 
 Quando mais de uma dimensão é ampliada, suas cargas se acumulam.
 
