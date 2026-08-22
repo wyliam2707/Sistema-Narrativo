@@ -106,19 +106,29 @@ Assim, quatro inimigos separados podem exigir `4 alvos`. Uma explosão em Área 
 
 ## 6. Duração
 
-`[0] Instantâneo` | `[2] 1 turno` | `[4] ~1 minuto / cena curta` | `[8] ~1 hora` | `[16] ~1 dia`
+Duração mede quando um efeito persistente termina naturalmente.
 
-A duração mede quando um efeito persistente termina naturalmente.
+`Instantâneo → Cena → Hora → Dia → Semana → Permanente`
+
+Cada efeito possui uma Duração-base própria. Essa duração não gera custo adicional.
+
+Cada passo acima da Duração-base custa `+1 Energia`.
+
+Exemplos: um efeito com base `Instantâneo` lê `Cena +1 | Hora +2 | Dia +3 | Semana +4 | Permanente +5`. Um efeito com base `Cena` lê `Hora +1 | Dia +2 | Semana +3 | Permanente +4`.
+
+Usar uma duração menor que a base não reduz o custo.
+
+`Permanente` significa que o efeito não termina naturalmente. Ele ainda pode ser rompido, dissipado, removido ou encerrado por um mecanismo coerente quando a natureza do efeito permitir.
 
 Um efeito instantâneo não deixa uma Consolidação persistente apenas porque sua consequência permanece. Dano deixa ferimentos; Cura remove Dano; o efeito que causou a alteração já terminou.
 
-Regras específicas podem estabelecer outra duração-base. Nesse caso, somente ampliar além dessa base gera carga.
+> **Duração mede quanto o efeito permanece. Cada degrau acima da base custa +1 Energia.**
 
 ## 7. Ampliação, limite e custo
 
 Cada dimensão usa seus próprios degraus aprovados. O custo adicional é contado pelos passos usados acima da manifestação-base.
 
-Para `Alcance`, `Alvos` e `Área/Tamanho`, cada passo acima da base gera diretamente `carga +1`.
+Para `Alcance`, `Alvos`, `Área/Tamanho` e `Duração`, cada passo acima da base gera diretamente `carga +1`.
 
 Quando mais de uma dimensão é ampliada, suas cargas se acumulam.
 
