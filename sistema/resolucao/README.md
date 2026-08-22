@@ -19,6 +19,7 @@ Esta pasta deverá concentrar, progressivamente:
 - leitura qualitativa de atributos, perícias e poderes;
 - comparação de capacidades e manutenção de disputas equilibradas;
 - motor geral de disputas progressivas contra personagens e cenário;
+- escalas de efeito, exigência, consolidação e proteção;
 - preparação, vantagem, contexto e oposição;
 - resolução social;
 - investigação e informação;
@@ -35,7 +36,8 @@ A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertenc
 - `leitura-da-ficha-na-resolucao.md` — define como Atributos, Perícias, Poderes, meio, situação e conhecimento entram na resolução sem soma automática nem conversões fixas de patamar;
 - `comparacao-e-disputa.md` — define comparação qualitativa, estratégia e preparação, soluções que mudam o problema, agência diante de planos e manutenção de disputas equilibradas sem vencedor artificial;
 - `motor-de-disputa.md` — define Potência, Resistência, Exigência, progresso por aplicação, acumulação, tempo, custo efetivo, oportunidade de reação e Consolidação como motor geral de disputas progressivas;
-- `combate-e-dano.md` — define resolução compacta de combate, Perícia efetiva, Ataque efetivo, progressão exponencial de dano, defesa aplicável, ataques detalhados e referência de VIDA;
+- `escalas-de-efeito.md` — reúne as tabelas aprovadas de Consolidação, Sentidos, Controle, Mobilidade, Supressão de Atributo e Proteção por Barreira; permanece em construção enquanto novas categorias são adicionadas;
+- `combate-e-dano.md` — define resolução compacta de combate, Perícia efetiva, Ataque efetivo, progressão exponencial de dano, dano mínimo contabilizável, defesa aplicável, ataques detalhados e referência de VIDA;
 - `energia.md` — define Reserva, custo por patamar efetivamente usado, estados de Energia, Bateria, recuperação e transferência de carga;
 - `recuperacao-da-vida.md` — define recuperação natural por estado, Regeneração por hora, Cura como contraponto do Dano, Medicina sem oposição artificial e estabilização;
 - `resolucao-social.md` — define resolução social sem Defesa Social universal, preservação de agência, função contextual de VON, Relações, autoridade, intimidação, enganação e resultados sociais abertos.
@@ -113,6 +115,7 @@ Em combate:
 Perícia efetiva = Perícia ofensiva − Perícia defensiva
 Ataque efetivo = Dano + 1 + (Perícia efetiva × 0,2)
 Dano aplicado = 2^(Ataque efetivo − Defesa efetiva)
+Dano mínimo contabilizável = 0,25
 ```
 
 Para Energia:
