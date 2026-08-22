@@ -12,11 +12,11 @@ Ela não amplia o repertório de um Poder. Um efeito só pode usar uma dimensão
 
 Todo efeito possui uma manifestação mínima de custo `[0]`.
 
-Como referência:
+Como referência geral:
 
 `Duração [0] → instantâneo` | `Alvos [0] → 1 alvo` | `Área/Tamanho [0] → pontual ou tamanho mínimo coerente` | `Alcance [0] → alcance natural da capacidade`
 
-A manifestação-base não precisa ser idêntica para todos os Poderes.
+A manifestação-base não precisa ser idêntica para todos os Poderes. Regras específicas podem substituir qualquer uma dessas referências.
 
 Uma capacidade de contato pode ter `Toque` como alcance natural. Um disparo, raio ou magia projetada pode ter `Médio` como alcance natural sem pagar ampliação apenas por funcionar como ataque à distância.
 
@@ -97,39 +97,39 @@ A duração mede quando um efeito persistente termina naturalmente.
 
 Um efeito instantâneo não deixa uma Consolidação persistente apenas porque sua consequência permanece. Dano deixa ferimentos; Cura remove Dano; o efeito que causou a alteração já terminou.
 
-## 7. Ampliação e custo
+Regras específicas podem estabelecer outra duração-base. Nesse caso, somente ampliar além dessa base gera carga.
 
-Ampliar um efeito não precisa reduzir automaticamente seu patamar. A ampliação gera uma carga que pode ser paga com Energia, com perda de eficiência naquela aplicação ou com uma combinação das duas.
+## 7. Ampliação, limite e custo
 
-Como referência por faixa acima da base:
+Cada dimensão ampliada gera uma carga conforme o degrau usado além da manifestação-base:
 
-`[2] → carga 1` | `[4] → carga 2` | `[8] → carga 3` | `[16] → carga 4`
+`[2] → carga +1` | `[4] → carga +2` | `[8] → carga +3` | `[16] → carga +4`
 
-Quando mais de uma dimensão é ampliada, as cargas aplicáveis se acumulam.
+Quando mais de uma dimensão é ampliada, suas cargas se acumulam.
 
-O NARRADOR pode apresentar o custo de forma compacta:
+A carga total de ampliação de um uso nunca pode superar o patamar efetivamente usado:
+
+`Ampliação total ≤ patamar usado`
+
+Uma configuração acima desse limite simplesmente não cabe naquele uso, independentemente de quanta Energia exista disponível.
+
+O NARRADOR apresenta o custo de forma compacta:
 
 `custo [patamar usado + carga de ampliação]`
 
-O JOGADOR decide quanto da carga adicional paga em Energia.
-
-Cada ponto de carga de ampliação não pago reduz em `1` o Efeito efetivo daquela aplicação.
-
-A fórmula geral passa a ser:
+O JOGADOR decide quanto da carga adicional paga em Energia. Cada ponto de carga não pago reduz em `1` o Efeito efetivo daquela aplicação.
 
 `Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2) − Ampliação não paga`
 
 O patamar do Poder na ficha não muda. A redução existe apenas naquela aplicação.
 
-Exemplo: `Magia [2] => Dano` com carga de ampliação `+2` tem custo apresentado como `[2 + 2]`. Se o JOGADOR paga `3` de Energia, pagou o custo-base `2` e apenas `1` da ampliação. O ponto restante reduz o Ataque efetivo em `1`.
+Exemplo: `Magia [2] => Dano` com carga `+2` tem custo `[2+2]`. Se o JOGADOR paga `3` de Energia, paga o custo-base `2` e apenas `1` da ampliação; o ponto restante reduz o Ataque efetivo em `1`.
 
-A mesma regra vale para Dano, Cura, Controle, Transformação, Invocação, Deslocar e outros efeitos quando a ampliação for aplicável.
-
-> **Ampliação pode ser paga com Energia. O que não for pago reduz o Efeito efetivo daquela aplicação.**
+> **O patamar limita quanto o uso pode ser ampliado. Energia decide quanto dessa ampliação é sustentada sem perda de Efetivo.**
 
 ## 8. Dano e Cura
 
-Dano e Cura usam Consolidação para definir como a aplicação alcança a cena, não para dividir sua intensidade entre os afetados.
+Dano e Cura usam as ampliações para definir como a aplicação alcança a cena, não para dividir sua intensidade entre os afetados.
 
 `Dano/Cura` determina intensidade. `Alcance`, `Alvos` e `Área` determinam a extensão da aplicação.
 
@@ -137,39 +137,31 @@ Uma aplicação em Área não divide automaticamente o Dano entre os presentes. 
 
 Depois que Dano ou Cura são aplicados, permanece a consequência na VIDA; não permanece um efeito sustentado apenas para representar o valor já causado ou restaurado.
 
-## 9. Consolidação de efeitos persistentes
+## 9. Efeitos persistentes
 
-Um efeito persistente permanece com suas propriedades integrais enquanto sua Consolidação não for zerada ou sua Duração não terminar.
+A duração declarada determina quando um efeito persistente termina naturalmente.
 
-Reduzir sua Consolidação não reduz gradualmente Alcance, Área, intensidade ou Duração declarada.
+A forma de romper, dissipar ou remover um efeito antes de seu término pertence à regra específica de remoção de efeitos e não altera a leitura normal do resultado que estabeleceu o efeito.
 
-`Consolidação restante > 0 → efeito permanece inteiro` | `Consolidação 0 → efeito é rompido/removido`
+## 10. Invocação — regra específica
 
-A Duração continua correndo em paralelo. Por isso, em algumas situações, pode ser mais vantajoso esperar o efeito terminar do que gastar ações e Energia tentando removê-lo.
+Invocação possui configuração própria e não usa todas as dimensões gerais da mesma forma.
 
-Para remover um efeito antes do fim, usa-se o motor normal de disputa. O Poder, capacidade ou mecanismo usado para desfazer funciona como ataque; o patamar do Poder que sustenta o efeito pode funcionar como defesa quando for a oposição coerente.
+Sua manifestação-base é:
 
-O resultado da tentativa reduz a Consolidação restante. O efeito só termina por ruptura quando ela chega a zero.
+`Duração [0] → uma cena` | `Tamanho [0] → médio/humano` | `Alcance [0] → médio`
 
-> **Duração determina quando o efeito termina sozinho. Consolidação determina quanto trabalho é necessário para rompê-lo antes disso.**
+Ampliar além dessas referências gera carga normal:
 
-## 10. Invocação e Consolidação natural
+- durar além de uma cena → ampliação de Duração;
+- criar algo maior que a escala média/humana → ampliação de Tamanho/Área;
+- invocar além do alcance médio → ampliação de Alcance.
 
-Na Invocação, o patamar total do Poder pode ser usado como potência e o patamar efetivamente colocado na criação funciona como resistência interna para medir quanto sobra para consolidar a criação.
+`Alvos` não é usado para determinar quantidade de criaturas invocadas. A quantidade segue a regra própria de Invocação definida em `escalas-de-efeito.md`, porque aplicar também a escala geral de Alvos duplicaria a mesma função.
 
-Sem outras modificações:
+Assim, uma Invocação pode criar uma única criatura gigantesca, uma estrutura de grande Área ou criaturas em quantidade conforme sua regra própria, desde que a carga das dimensões aplicáveis caiba no limite do patamar usado.
 
-`Resultado = 2^((Invocação + 1) − patamar usado na criação)`
-
-Exemplo com `Invocação [5]`:
-
-`criação [5] → resultado 2` | `criação [4] → 4` | `criação [3] → 8` | `criação [2] → 16` | `criação [1] → 32`
-
-O resultado disponível pode sustentar dimensões coerentes da criação, como quantidade, duração, área ou tamanho, conforme o tipo de Invocação.
-
-Uma `Invocação [5]` concentrada numa criação de patamar `[5]` já produz `2` de Consolidação natural. Isso pode sustentar, por exemplo, uma duração de `1 turno [2]` sem ampliar além do resultado natural.
-
-Se a mesma criação precisar permanecer em duração maior, a ampliação adicional segue a regra normal de custo: pode ser paga com Energia ou com redução do Efeito efetivo.
+> **Na Invocação, a regra específica de quantidade substitui Alvos. Duração, Tamanho/Área e Alcance ampliam apenas o que ultrapassa a manifestação-base da Invocação.**
 
 ## 11. Transformação
 
@@ -179,10 +171,8 @@ Quando a Transformação redefine a própria forma física, `FOR`, `AGI` e `RES`
 
 Uma Transformação imposta sobre outra criatura enfrenta a maior resistência aplicável entre `RES`, `VON`, Poder ou proteção coerente.
 
-A mudança não acontece em porcentagens. A forma pretendida acontece por inteiro; a oposição e a Consolidação determinam quanto trabalho é necessário para estabelecê-la e por quanto tempo ela pode permanecer.
-
-Como referência, uma Transformação voluntária em si mesmo pode usar `Duração [4]` como duração de cena curta, aproveitando a ausência de oposição e a condição `Si mesmo [-2]`.
+A mudança não acontece em porcentagens. O resultado da disputa determina a intensidade efetivamente aplicada conforme a regra do efeito; duração, alcance, alvos e área entram apenas quando forem dimensões coerentes daquela aplicação.
 
 ## Princípio
 
-> **Potência determina o que o efeito consegue produzir. Consolidação determina em que escala ele se manifesta. Ampliação cobra Energia, eficiência ou ambas.**
+> **Potência determina o que o efeito consegue produzir. Ampliação define em que escala ele é aplicado e cobra Energia, Efetivo ou ambos. Regras específicas vencem a regra geral quando um efeito exige tratamento próprio.**
