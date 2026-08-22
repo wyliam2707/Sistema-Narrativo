@@ -22,6 +22,7 @@ Esta pasta deverá concentrar, progressivamente:
 - resolução social;
 - investigação e informação;
 - combate e dano;
+- energia, reservas e custos de uso;
 - ações prolongadas e passagem de tempo quando houver resolução envolvida.
 
 A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertencem a `../operacao/`.
@@ -31,7 +32,8 @@ A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertenc
 - `principio-de-resolucao.md` — distingue resultado evidente, impossibilidade evidente e incerteza real; somente a incerteza real exige resolução comparativa;
 - `leitura-da-ficha-na-resolucao.md` — define como Atributos, Perícias, Poderes, meio, situação e conhecimento entram na resolução sem soma automática nem conversões fixas de patamar;
 - `comparacao-e-disputa.md` — define comparação qualitativa, estratégia e preparação, soluções que mudam o problema, agência diante de planos e manutenção de disputas equilibradas sem vencedor artificial;
-- `combate-e-dano.md` — define resolução compacta de combate, Perícia efetiva, Ataque efetivo, progressão exponencial de dano, defesa aplicável, ataques detalhados e referência de VIDA.
+- `combate-e-dano.md` — define resolução compacta de combate, Perícia efetiva, Ataque efetivo, progressão exponencial de dano, defesa aplicável, ataques detalhados e referência de VIDA;
+- `energia.md` — define Reserva, custo por patamar efetivamente usado, estados de Energia, Bateria e transferência de carga.
 
 ## Arquivos antigos ainda como fonte de migração
 
@@ -83,6 +85,15 @@ Em combate:
 Perícia efetiva = Perícia ofensiva − Perícia defensiva
 Ataque efetivo = Dano + 1 + (Perícia efetiva × 0,2)
 Dano aplicado = 2^(Ataque efetivo − Defesa efetiva)
+```
+
+Para Energia:
+
+```text
+Reserva [0] = 10
+Reserva [1–5] = maior Atributo × 20
+Custo = patamar efetivamente usado
+Bateria [X] = X × 20
 ```
 
 A cena continua decidindo quais capacidades realmente entram no cálculo.
