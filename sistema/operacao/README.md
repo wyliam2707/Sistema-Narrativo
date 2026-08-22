@@ -8,7 +8,7 @@ Esta pasta reúne as regras que respondem à pergunta:
 
 A estrutura nova está sendo construída sem apagar os arquivos antigos.
 
-Enquanto uma regra ainda não tiver sido reescrita e aprovada nesta pasta, o arquivo antigo correspondente em `sistema/` continua válido.
+Enquanto uma regra ainda não tiver sido reescrita e aprovada nesta pasta, o arquivo antigo correspondente em `sistema/` continua válido apenas nos pontos ainda não substituídos pela arquitetura nova.
 
 ## Responsabilidades desta área
 
@@ -38,18 +38,19 @@ Quando houver conflito sobre a ordem das personas ou o ciclo de uma janela, `cic
 
 ## Princípio
 
-`operacao/` não deve duplicar regras de resolução, agência ou narração.
+`operacao/` não deve duplicar regras de personagem, resolução, agência, narração ou persistência.
 
 Ela funciona como camada de execução e roteamento:
 
 ```text
-quem decide?        → personas/
-quem move o cenário?→ personas/opositor/
-como age sozinho?   → agencia/
-o que acontece?     → resolucao/
-como mostrar?       → narracao/
-o que permanece?    → persistencia/
-como aplicar tudo?  → operacao/
+quem é / do que é capaz? → personagem/
+quem decide?             → personas/
+quem move o cenário?     → personas/opositor/
+como age sozinho?        → agencia/
+o que acontece?          → resolucao/
+como mostrar?            → narracao/
+o que permanece?         → persistencia/
+como aplicar tudo?       → operacao/
 ```
 
 O ciclo-base pode ser lembrado assim:
