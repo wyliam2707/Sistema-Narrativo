@@ -8,7 +8,7 @@ Esta pasta reúne as regras que respondem à pergunta:
 
 A estrutura nova está sendo construída sem apagar os arquivos antigos.
 
-Enquanto uma regra ainda não tiver sido reescrita e aprovada nesta pasta, o arquivo antigo correspondente em `sistema/` continua válido.
+Arquivos antigos em `sistema/` permanecem como fontes históricas nos pontos ainda não substituídos por regras aprovadas da arquitetura nova.
 
 ## Responsabilidades desta área
 
@@ -18,29 +18,34 @@ Esta pasta deverá concentrar, progressivamente:
 - ciclo autônomo;
 - vida fora da câmera;
 - conhecimento separado;
-- controle de personagem;
+- continuidade de objetivos e relações;
 - ativação e desativação de `JOGADOR IA EVENTUAL`;
 - relações entre personagens como agentes independentes;
 - limites contra meta-jogo e vazamento de informação.
 
-## Relação com `personas/`
+## Relação com outras áreas
 
-`../personas/` define **as funções operacionais**.
+`../personas/` define **as funções operacionais e autoridades de decisão**.
 
-Esta pasta define **como a agência dos personagens funciona ao longo da ficção**.
+`../personagem/` define **quem a entidade é e do que é capaz**.
+
+`agencia/` define **como essa entidade continua exercendo vontade própria ao longo da ficção**, inclusive fora da cena principal.
 
 Exemplo:
 
 - `personas/jogador-ia/` define o papel `JOGADOR IA`;
-- `agencia/` define como esse personagem mantém rotina, objetivos, relações e decisões fora da cena principal.
+- `personagem/` guarda a definição estável da peça;
+- `agencia/` define como essa peça mantém rotina, objetivos, relações e decisões fora da câmera.
 
-## Arquivos antigos ainda em uso
+## Fontes antigas ainda úteis
 
-- `../agencia-de-personagens.md` — regra ampla de agência e ciclo autônomo atual.
-- `../ciclo-de-jogadores.md` — ordem operacional atual entre declarações, Opositor e Narrador.
+- `../agencia-de-personagens.md` — fonte histórica para regras de agência e ciclo autônomo ainda não reescritas nesta pasta.
+- `../ciclo-de-jogadores.md` — fonte histórica do ciclo antigo; a ordem operacional atual está em `../operacao/ciclo-de-cena.md`.
 
 ## Regra de migração
 
-Novos arquivos devem separar conceitos que hoje estão reunidos no documento antigo, sem perder comportamento já validado em campanha.
+Novos arquivos devem separar conceitos que hoje ainda estejam reunidos em documentos antigos, sem perder comportamento já validado em campanha.
+
+Quando uma formulação antiga contradiz uma regra nova explicitamente aprovada, prevalece a regra nova.
 
 > **Agência não é reação conveniente ao protagonista; é continuidade de vontade própria.**
