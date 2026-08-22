@@ -17,6 +17,7 @@ Esta pasta deverá concentrar, progressivamente:
 - intenção versus resultado;
 - quando um resultado é evidente e quando exige resolução;
 - leitura qualitativa de atributos, perícias e poderes;
+- comparação de capacidades e manutenção de disputas equilibradas;
 - preparação, vantagem, contexto e oposição;
 - resolução social;
 - investigação e informação;
@@ -28,7 +29,8 @@ A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertenc
 ## Arquivos aprovados nesta área
 
 - `principio-de-resolucao.md` — distingue resultado evidente, impossibilidade evidente e incerteza real; somente a incerteza real exige resolução comparativa;
-- `leitura-da-ficha-na-resolucao.md` — define como Atributos, Perícias, Poderes, meio, situação e conhecimento entram na resolução sem soma automática nem conversões fixas de patamar.
+- `leitura-da-ficha-na-resolucao.md` — define como Atributos, Perícias, Poderes, meio, situação e conhecimento entram na resolução sem soma automática nem conversões fixas de patamar;
+- `comparacao-e-disputa.md` — define comparação qualitativa, estratégia e preparação, soluções que mudam o problema, agência diante de planos e manutenção de disputas equilibradas sem vencedor artificial.
 
 ## Arquivos antigos ainda como fonte de migração
 
@@ -67,6 +69,13 @@ A cena determina quais capacidades importam.
 Atributos, Perícias e Poderes não se somam.
 Patamares são qualitativos, não conversões fixas.
 Contexto altera a situação, não cria bônus obrigatório.
+Mesmo aspecto pode ser comparado diretamente.
+Aspectos diferentes são interpretados em suas funções próprias.
+Preparação cria condições, não bônus.
+Uma solução válida pode encerrar um problema importante.
+Uma disputa equilibrada pode continuar sem vencedor.
 ```
 
 > **Resolução não existe para fabricar incerteza nem para produzir um número único. Ela existe para decidir, pela ficção e pelas capacidades relevantes, qual resultado é coerente quando mais de um continua plausível.**
+
+> **O NARRADOR preserva a continuidade da campanha, não a permanência dos problemas nem o planejamento anterior.**
