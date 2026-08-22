@@ -19,11 +19,11 @@ Esta pasta concentra, progressivamente:
 - atualização de fichas;
 - Livro como registro canônico definitivo;
 - salvamento e fechamento de capítulo;
-- material reservado da persona MESTRE / NARRADOR;
+- material operacional reservado da campanha;
 - distinção entre Livro, STATUS, Progressão, ficha e material reservado;
 - correção e substituição de cânone.
 
-MESTRE e NARRADOR designam a mesma persona. Nas regras de jogo, `NARRADOR` pode ser usado como forma corrente; a pasta `mestre/` de uma campanha é sua área reservada de trabalho e continuidade.
+MESTRE e NARRADOR designam a mesma função quando esses nomes forem usados no sistema. A pasta `mestre/` não representa a mente completa do NARRADOR: ela é uma fonte operacional reservada da campanha, consultada por cada persona somente dentro de seu escopo.
 
 Conhecimento relevante consolidado não constitui uma camada separada de Persistência. Quando precisar continuar disponível para interpretar um personagem, ele pertence ao campo `Conhecimento atual relevante` da ficha.
 
@@ -36,7 +36,7 @@ O Livro preserva como e quando uma descoberta aconteceu. A Progressão só regis
 - `atualizacao-de-ficha.md` — quando e como uma mudança pode ser consolidada na ficha;
 - `livro.md` — registro canônico definitivo da campanha;
 - `fechamento-de-capitulo.md` — protocolo atual de salvamento e fechamento de capítulo;
-- `material-reservado.md` — regras da área reservada `mestre/`, incluindo fatos ocultos, NPCs, preparações, planos e possibilidades;
+- `material-reservado.md` — fatos, NPCs, preparações, planos e possibilidades reservados, distribuídos às personas por escopo de consulta;
 - `correcao-de-canone.md` — substituição de fatos incorretos ou contraditórios, sempre com aprovação explícita do JOGADOR HUMANO.
 
 ## Arquivos antigos como fonte de migração
@@ -55,12 +55,14 @@ Persistência não serve para repetir tudo que aconteceu.
 Cada camada guarda uma coisa diferente:
 
 ```text
-Livro       → o que aconteceu.
-Progressão  → o que ainda pode causar consequência futura.
-STATUS      → onde e como continuar exatamente agora.
-Ficha       → o que mudou de forma estável no personagem e o que precisa permanecer disponível para interpretá-lo.
-Mestre      → o que a persona MESTRE / NARRADOR precisa manter reservado para conduzir a campanha.
+Livro             → o que aconteceu.
+Progressão        → o que ainda pode causar consequência futura.
+STATUS            → onde e como continuar exatamente agora.
+Ficha             → o que mudou de forma estável no personagem e o que precisa permanecer disponível para interpretá-lo.
+Material reservado→ fatos, NPCs, planos e preparações operacionais ainda necessários à campanha.
 ```
+
+O acesso a material reservado é definido pelo escopo de cada persona, não pelo fato de o arquivo existir tecnicamente no mesmo repositório.
 
 Correções não criam uma camada paralela de realidade: quando aprovadas pelo JOGADOR HUMANO, substituem a versão anterior do fato e alinham os registros afetados.
 
