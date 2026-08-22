@@ -118,7 +118,7 @@ TRAÇOS:
 - Senhor de domínio demoníaco próprio.
 
 ATR:
-FOR [4] | AGI [2] | RES [4] | MEN [4] | VON [5]
+FIS [4] | RES [4] | MEN [4] | VON [5]
 
 PER:
 Demonologia [+4]
@@ -139,7 +139,7 @@ A ficha curta não reduz o poder do personagem. Ela apenas evita registrar infor
 
 Todos os personagens usam as mesmas escalas, mas isso não significa que confrontos sejam simétricos.
 
-Um personagem pode vencer alguém muito superior em força, resistência ou potência geral por meio de percepção, perícia, especialização, preparação, relações, recursos ou exploração correta de uma vulnerabilidade.
+Um personagem pode vencer alguém muito superior em capacidade física, resistência ou potência geral por meio de percepção, perícia, especialização, preparação, relações, recursos ou exploração correta de uma vulnerabilidade.
 
 > **Capacidade de vencer não é a mesma coisa que poder bruto.**
 
