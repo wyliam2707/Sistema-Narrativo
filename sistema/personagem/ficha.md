@@ -88,13 +88,13 @@ Um Figurante pode possuir dez páginas de informação se isso for útil. Um Rel
 Durante criação ou revisão, não usar zero para significar “ainda não definido”.
 
 ```text
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
 ```
 
 é diferente de:
 
 ```text
-ATR: FOR [0] | AGI [0] | RES [0] | MEN [0] | VON [0]
+ATR: FIS [0] | RES [0] | MEN [0] | VON [0]
 ```
 
 No segundo caso, todos os valores já foram mecanicamente definidos.
@@ -309,7 +309,7 @@ Descrição:
 TRAÇOS:
 - ...
 
-ATR: FOR [ ] | AGI [ ] | RES [ ] | MEN [ ] | VON [ ]
+ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
 PER:
 PODERES:
 RECURSOS:
