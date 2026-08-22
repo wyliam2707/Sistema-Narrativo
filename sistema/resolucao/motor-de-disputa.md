@@ -28,9 +28,7 @@ Quando não houver Perícia defensiva ou oposição técnica real, considera-se 
 
 O efeito efetivo é:
 
-`Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2) − Ampliação não paga`
-
-Quando não existe ampliação ou toda a ampliação foi paga em Energia, `Ampliação não paga = 0`.
+`Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2)`
 
 O progresso produzido por aplicação é:
 
@@ -94,29 +92,21 @@ A natureza concreta da atividade pode justificar outra escala, mas entrar em com
 
 ## 5. Custo efetivo e ampliação
 
-Quando a capacidade usada consome Energia, cada aplicação paga normalmente o custo do patamar efetivamente empregado.
+Quando a capacidade usada consome Energia, cada aplicação paga normalmente o custo da configuração escolhida.
 
-Quando o efeito é ampliado além de sua manifestação-base, a ampliação pode acrescentar custo de Energia.
+`Custo = patamar efetivamente usado + Ampliação usada`
 
-O NARRADOR apresenta a aplicação de forma compacta:
-
-`custo [patamar usado + carga de ampliação]`
-
-O JOGADOR decide quanto da carga adicional paga em Energia.
-
-Cada ponto de ampliação não pago reduz em `1` o Efeito efetivo daquela aplicação.
-
-Assim, a ampliação pode ser paga integralmente em Energia, integralmente em perda de eficiência ou por uma combinação das duas.
+Não existe pagamento parcial de Ampliação. Se o JOGADOR não dispõe da Energia necessária ou quer gastar menos, escolhe antes da resolução um patamar menor, menos Ampliação ou ambos.
 
 Quando existem várias aplicações:
 
-`Custo efetivo = soma da Energia realmente paga em cada aplicação`
+`Custo efetivo = soma da Energia paga em cada aplicação`
 
 A Resistência também pode elevar o custo indiretamente: ela reduz o progresso por aplicação, exige mais aplicações e abre mais janelas de gasto e reação.
 
-> **Ampliação cobra Energia, eficiência ou ambas. Resistência cobra tempo, custo e oportunidade de reação.**
+> **Potência e Ampliação são escolhas separadas. Energia paga exatamente a configuração escolhida. Resistência pode cobrar tempo, custo e oportunidade de reação.**
 
-As faixas e cargas de ampliação pertencem a `consolidacao.md`.
+As faixas, cargas e limite de Ampliação pertencem a `consolidacao.md`.
 
 ## 6. Oportunidade de reação
 
@@ -130,7 +120,63 @@ A continuidade de uma tentativa nunca suspende a agência dos demais participant
 
 > **Quando um efeito precisa acumular progresso, o tempo necessário também cria oportunidade de reação.**
 
-## 7. Consolidação
+## 7. Contenção sustentada por agentes
+
+Uma contenção realizada diretamente por um personagem, criatura ou Invocação ativa não cria automaticamente uma estrutura persistente `D/V`. Ela existe porque o agente continua sustentando a ação.
+
+A tentativa usa o motor normal. O agente escolhe um mecanismo coerente, normalmente um Atributo e eventualmente uma Perícia aplicável, e o alvo reage pelo eixo realmente disponível na situação.
+
+Exemplo sem Perícias: `FOR [2] → Efetivo 3` contra `FOR [2] → Resultado 2`.
+
+O Resultado é lido pela escala aplicável de Mobilidade:
+
+`[2] Dificultar` | `[4] Restringir` | `[8] Imobilizar` | `[16] Conter` | `[32] Aprisionar`
+
+Assim, `FOR [2]` contra `FOR [2]` produz normalmente `Resultado 2`: uma contenção inicial, agarrão ou dificuldade relevante, não Imobilização completa.
+
+A condição é registrada como **Sustentada**, porque depende da ação contínua de quem segura.
+
+Exemplo: `Agarrado [2] — Sustentado pelo Guarda`.
+
+Estar agarrado não apaga automaticamente todas as ações dos envolvidos. Ambos continuam podendo realizar ações coerentes com a posição: atacar com o corpo, tentar escapar, mudar a posição, usar uma capacidade acessível ou lançar um efeito que a situação realmente permita.
+
+### Manutenção
+
+Sustentar a contenção consome a ação do agente na nova janela. A cada ação de manutenção existe nova resolução conforme a situação atual.
+
+Se quem sustenta solta, é incapacitado, muda de ação ou deixa de conseguir manter o mecanismo, a contenção sustentada termina ou precisa ser novamente estabelecida.
+
+Escapar de uma contenção sustentada não destrói o agente que a produziu. O agente continua existindo e pode tentar conter novamente em uma janela posterior.
+
+### Vários agentes
+
+Quando vários agentes coordenam contenções compatíveis contra o mesmo alvo na mesma janela, **não se somam os Atributos**.
+
+Cada agente resolve sua própria aplicação contra a defesa coerente do alvo. Depois, os Resultados compatíveis são somados para determinar a contenção conjunta daquela janela.
+
+Exemplo: quatro guardas com `FOR [2]` enfrentam um alvo com `FOR [2]`. Cada aplicação produz `Resultado 2`.
+
+`2 + 2 + 2 + 2 = 8 → Imobilizado [8] — Sustentado pelos 4 guardas`
+
+Na janela seguinte entram apenas os agentes que continuam gastando sua ação para sustentar a contenção.
+
+> **Agentes não somam Atributos. Ações coordenadas podem somar Resultados quando produzem a mesma consequência na mesma janela.**
+
+### Passagem para uma contenção física
+
+Uma contenção sustentada pode criar a condição necessária para aplicar uma estrutura física de prisão.
+
+Se o alvo já está funcionalmente Imobilizado e nada adicional impede a aplicação, colocar algemas, cordas ou outro dispositivo adequado pode ser um resultado evidente em vez de exigir nova disputa artificial.
+
+Depois que a estrutura física está aplicada, os agentes podem deixar de sustentar o agarrão. A prisão passa a depender do objeto.
+
+Uma estrutura desse tipo pode usar a lógica estrutural de Invocação. Exemplo: `Algemas → FOR [3] | V10`.
+
+`FOR [3]` representa o mecanismo que mantém a contenção quando alguém tenta escapar por força. `V10` representa a Vida estrutural do objeto. Outras formas de escapar ou atacar a estrutura usam o mecanismo e a defesa que realmente forem aplicáveis.
+
+> **Agarrão é uma disputa sustentada entre agentes. Algemas são uma estrutura física que continua existindo depois que os agentes soltam.**
+
+## 8. Consolidação
 
 Consolidação define a escala concreta de uma manifestação depois que a natureza do efeito está estabelecida.
 
@@ -144,17 +190,23 @@ As dimensões não são lidas automaticamente pelo mesmo valor. Cada ampliação
 
 Um Poder não ganha repertório novo por possuir Consolidação suficiente. Telecinese não se transforma em banimento planar apenas porque produziu resultado alto.
 
-Efeitos persistentes permanecem integrais enquanto sua Consolidação restante for maior que zero e sua Duração não tiver terminado.
+Quando um efeito permanece depois da aplicação, ele possui sua estrutura persistente própria:
 
-Reduzir a Consolidação não enfraquece gradualmente as propriedades declaradas. O efeito é rompido quando chega a zero.
+`Efeito [D x / V5] — Duração`
 
-A tentativa de remover um efeito antes do fim usa o motor normal: a capacidade de remoção funciona como ataque, a capacidade que sustenta o efeito fornece a resistência coerente e o resultado reduz a Consolidação restante.
+`D` é a Defesa estrutural estabelecida para o efeito e `V5` é sua Vida padrão. Perder Vida não reduz gradualmente a intensidade do efeito; enquanto `V > 0`, ele continua produzindo o Resultado já estabelecido. Em `V0`, termina.
 
-> **Duração determina quando o efeito termina sozinho. Consolidação determina quanto trabalho é necessário para rompê-lo antes disso.**
+A remoção por Dissipar usa o motor normal de ataque e dano contra essa estrutura:
 
-As tabelas e regras operacionais estão em `consolidacao.md`.
+`Dissipar efetivo vs D do efeito → Dano aplicado → reduz V`
 
-## 8. Aplicações
+A duração continua determinando quando o efeito termina naturalmente.
+
+> **Duração determina quando o efeito termina sozinho. D/V determina sua estrutura enquanto permanece.**
+
+As tabelas e regras operacionais estão em `consolidacao.md` e `escalas-de-efeito.md`.
+
+## 9. Aplicações
 
 O mesmo motor pode ser usado, quando fizer sentido, para:
 
@@ -163,6 +215,7 @@ O mesmo motor pode ser usado, quando fizer sentido, para:
 - domínio mental;
 - maldições;
 - imobilização;
+- contenção sustentada;
 - teleporte e portais;
 - rompimento de barreiras;
 - hackeamento;
@@ -177,7 +230,7 @@ Cada aplicação interpreta Potência, Resistência, Exigência, Consolidação 
 
 Dano é uma aplicação especializada deste motor, não a definição de todas as demais.
 
-## 9. Princípios
+## 10. Princípios
 
 > **A Exigência determina quanto precisa ser alcançado. A Resistência determina quanto avanço consegue passar por aplicação.**
 
@@ -186,3 +239,5 @@ Dano é uma aplicação especializada deste motor, não a definição de todas a
 > **Potência determina capacidade. Perícia determina eficiência de aplicação. Resistência determina quanto progresso atravessa. O objetivo determina quanto progresso é necessário.**
 
 > **Uma capacidade inferior pode alcançar um objetivo superior quando a natureza da ação permite acumulação, mas pode pagar por isso em tempo, Energia e exposição.**
+
+> **Efeito persistente cria estrutura. Contenção por agente precisa ser sustentada. Estrutura física continua existindo por conta própria.**
