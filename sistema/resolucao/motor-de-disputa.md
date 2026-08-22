@@ -126,19 +126,23 @@ Uma contenção realizada diretamente por um personagem, criatura ou Invocação
 
 A tentativa usa o motor normal. O agente escolhe um mecanismo coerente, normalmente um Atributo e eventualmente uma Perícia aplicável, e o alvo reage pelo eixo realmente disponível na situação.
 
-Exemplo sem Perícias: `FOR [2] → Efetivo 3` contra `FOR [2] → Resultado 2`.
+Em uma disputa corporal direta, `FIS` normalmente responde pelo mecanismo físico dos dois lados.
+
+Exemplo sem Perícias: `FIS [2] → Efetivo 3` contra `FIS [2] → Resultado 2`.
 
 O Resultado é lido pela escala aplicável de Mobilidade:
 
 `[2] Dificultar` | `[4] Restringir` | `[8] Imobilizar` | `[16] Conter` | `[32] Aprisionar`
 
-Assim, `FOR [2]` contra `FOR [2]` produz normalmente `Resultado 2`: uma contenção inicial, agarrão ou dificuldade relevante, não Imobilização completa.
+Assim, `FIS [2]` contra `FIS [2]` produz normalmente `Resultado 2`: uma contenção inicial, agarrão ou dificuldade relevante, não Imobilização completa.
 
 A condição é registrada como **Sustentada**, porque depende da ação contínua de quem segura.
 
 Exemplo: `Agarrado [2] — Sustentado pelo Guarda`.
 
 Estar agarrado não apaga automaticamente todas as ações dos envolvidos. Ambos continuam podendo realizar ações coerentes com a posição: atacar com o corpo, tentar escapar, mudar a posição, usar uma capacidade acessível ou lançar um efeito que a situação realmente permita.
+
+O personagem preso também pode escolher atacar quem o segura em vez de tentar escapar. Nesse caso, ele gasta sua ação no ataque; não recebe uma tentativa gratuita de fuga na mesma ação.
 
 ### Manutenção
 
@@ -154,7 +158,7 @@ Quando vários agentes coordenam contenções compatíveis contra o mesmo alvo n
 
 Cada agente resolve sua própria aplicação contra a defesa coerente do alvo. Depois, os Resultados compatíveis são somados para determinar a contenção conjunta daquela janela.
 
-Exemplo: quatro guardas com `FOR [2]` enfrentam um alvo com `FOR [2]`. Cada aplicação produz `Resultado 2`.
+Exemplo: quatro guardas com `FIS [2]` enfrentam um alvo com `FIS [2]`. Cada aplicação produz `Resultado 2`.
 
 `2 + 2 + 2 + 2 = 8 → Imobilizado [8] — Sustentado pelos 4 guardas`
 
@@ -170,9 +174,9 @@ Se o alvo já está funcionalmente Imobilizado e nada adicional impede a aplica�
 
 Depois que a estrutura física está aplicada, os agentes podem deixar de sustentar o agarrão. A prisão passa a depender do objeto.
 
-Uma estrutura desse tipo pode usar a lógica estrutural de Invocação. Exemplo: `Algemas → FOR [3] | V10`.
+Uma estrutura desse tipo pode usar a lógica estrutural de Invocação. Exemplo: `Algemas → FIS [3] | V10`.
 
-`FOR [3]` representa o mecanismo que mantém a contenção quando alguém tenta escapar por força. `V10` representa a Vida estrutural do objeto. Outras formas de escapar ou atacar a estrutura usam o mecanismo e a defesa que realmente forem aplicáveis.
+`FIS [3]` representa o mecanismo físico de contenção quando alguém tenta vencê-lo corporalmente. `V10` representa a Vida estrutural do objeto. Outras formas de escapar ou atacar a estrutura usam o mecanismo e a defesa que realmente forem aplicáveis.
 
 > **Agarrão é uma disputa sustentada entre agentes. Algemas são uma estrutura física que continua existindo depois que os agentes soltam.**
 
