@@ -205,11 +205,11 @@ Perícia mede domínio, não altera automaticamente atributos ou capacidades fí
 Exemplo:
 
 ```text
-FOR [0]
+FIS [0]
 Soldado [+5]
 ```
 
-continua representando a força definida por `FOR [0]`, embora o personagem possua domínio militar no ápice.
+continua representando a capacidade física definida por `FIS [0]`, embora o personagem possua domínio militar no ápice.
 
 > **Perícia alta não cria capacidade física, mental ou sobrenatural que a ficha não possui.**
 
@@ -232,7 +232,7 @@ Atributo e perícia não são somados automaticamente.
 Exemplo:
 
 ```text
-FOR [5]
+FIS [5]
 Luta [+1]
 ```
 
