@@ -51,8 +51,7 @@ Campos ainda desconhecidos ficam vazios.
 
 Enquanto o conceito ainda está sendo construído, não atribuir automaticamente:
 
-- FOR;
-- AGI;
+- FIS;
 - RES;
 - MEN;
 - VON;
