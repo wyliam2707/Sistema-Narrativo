@@ -170,11 +170,58 @@ Depois que Dano ou Cura são aplicados, permanece a consequência na VIDA; não 
 
 ## 9. Efeitos persistentes
 
-A duração declarada determina quando um efeito persistente termina naturalmente.
+Todo efeito que permanece depois da aplicação ganha estrutura própria enquanto estiver consolidado, seja prejudicial ou benéfico.
 
-A forma de romper, dissipar ou remover um efeito antes de seu término pertence à regra específica de remoção de efeitos e não altera a leitura normal do resultado que estabeleceu o efeito.
+A notação é:
 
-## 10. Invocação — regra específica
+`Efeito [D x / V5] — Duração`
+
+`D` é a Defesa estrutural do efeito e corresponde ao **Efetivo que realmente o estabeleceu**. Esse valor pode incluir casas decimais, normalmente dentro da faixa operacional de `D1,0` a `D6,0`.
+
+`V5` é a Vida padrão do efeito consolidado: **1 grau de Vida = 5 pontos**.
+
+Exemplo: `Cegueira [D2,4 / V5] — Cena`.
+
+Enquanto possuir Vida, o efeito continua produzindo o Resultado que foi estabelecido. Perder Vida não reduz automaticamente seu grau narrativo. Em `V0`, o efeito é destruído e sai do STATUS.
+
+Efeitos benéficos seguem exatamente a mesma estrutura. Exemplo: `Bênção [D3,0 / V5] — Cena`.
+
+Efeitos instantâneos não recebem `D/V`, porque já terminaram depois de produzir sua consequência.
+
+### Dissipar
+
+`Dissipar` é um efeito próprio cujo dano é dirigido à Vida de STATUS persistentes.
+
+Ele usa o mesmo motor normal de ataque e defesa:
+
+`Dissipar efetivo vs D do efeito → Dano aplicado → reduz V do efeito`
+
+Exemplo: `Dissipar efetivo [4,2]` contra `Cegueira [D2,4 / V5]` resolve como qualquer ataque contra Defesa `2,4`; o Dano resultante reduz apenas a Vida da Cegueira.
+
+Dissipar não é Dano físico comum. Seu repertório é atingir efeitos persistentes, benéficos ou prejudiciais. Outros mecanismos podem remover um efeito quando sua natureza disser explicitamente que conseguem fazê-lo.
+
+> **Todo efeito persistente possui Defesa e Vida. Dissipar ataca essa estrutura usando o mesmo motor de ataque e dano.**
+
+## 10. Graus de Vida estrutural
+
+A referência comum é:
+
+`1 grau = V5`
+
+Estruturas atuais:
+
+`Efeito persistente → V5` | `Proteção/Barreira → V5` | `Invocação → V10` | `Personagem → V35`
+
+A Defesa continua sendo uma dimensão separada da Vida.
+
+- efeito persistente: `D = Efetivo que o consolidou`;
+- Proteção/Barreira: `D = Defesa efetiva da Proteção`;
+- Invocação: `D = RES da criação`;
+- personagem: usa as defesas aplicáveis normais do sistema.
+
+Assim, aumentar a Defesa não aumenta automaticamente a Vida e aumentar a Vida não altera a Defesa.
+
+## 11. Invocação — regra específica
 
 Invocação possui configuração própria e não usa todas as dimensões gerais da mesma forma.
 
@@ -190,11 +237,13 @@ Ampliar além dessas referências gera carga normal:
 
 `Alvos` não é usado para determinar quantidade de criaturas invocadas. A quantidade segue a regra própria de Invocação definida em `escalas-de-efeito.md`, porque aplicar também a escala geral de Alvos duplicaria a mesma função.
 
+Uma criação invocada possui `V10`. Quando atacada diretamente, usa sua `RES` como Defesa estrutural aplicável: `Invocação [D = RES / V10]`.
+
 Assim, uma Invocação pode criar uma única criatura gigantesca, uma estrutura de grande Área ou criaturas em quantidade conforme sua regra própria, desde que a carga das dimensões aplicáveis caiba em `Ampliação [X]` daquele efeito.
 
 > **Na Invocação, a regra específica de quantidade substitui Alvos. Duração, Tamanho/Área e Alcance ampliam apenas o que ultrapassa a manifestação-base da Invocação.**
 
-## 11. Transformação
+## 12. Transformação
 
 Transformação voluntária sobre si mesmo usa `Si mesmo` como sua condição de Alcance-base e defesa `[0]` contra a própria mudança.
 
@@ -206,4 +255,4 @@ A mudança não acontece em porcentagens. O resultado da disputa determina a int
 
 ## Princípio
 
-> **Potência determina o que o efeito consegue produzir. Ampliação define em que escala ele é aplicado. A configuração escolhida é paga integralmente em Energia. Regras específicas vencem a regra geral quando um efeito exige tratamento próprio.**
+> **Potência determina o que o efeito consegue produzir. Ampliação define em que escala ele é aplicado. A configuração escolhida é paga integralmente em Energia. Efeitos persistentes, Proteções e Invocações usam o mesmo motor estrutural de Defesa contra Dano, com quantidades de Vida próprias.**
