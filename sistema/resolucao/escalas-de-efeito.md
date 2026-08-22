@@ -1,6 +1,6 @@
 # Escalas de efeito
 
-Status: EFEITOS CONSOLIDADOS / CONSOLIDAÇÃO EM CONSTRUÇÃO
+Status: EFEITOS CONSOLIDADOS
 
 Este arquivo reúne tabelas de referência para traduzir a Exigência do motor geral de disputa em efeitos concretos.
 
@@ -150,25 +150,27 @@ O valor da célula é o patamar efetivo de cada criatura antes de distribuir seu
 
 Uma nova Invocação de criaturas rompe o vínculo de criaturas anterior e o substitui. Criaturas não podem ser acumuladas uso após uso para escapar da redução por quantidade.
 
-Objetos não usam esse limite de vínculo. Sua permanência, quantidade física, área e tamanho serão tratados pelas escalas de Consolidação/Ampliação.
+Objetos não usam esse limite de vínculo. Sua permanência, quantidade física, área e tamanho usam as regras de Consolidação.
 
 Criações que agem autonomamente são tratadas como criaturas para esta regra. Criações passivas são tratadas como objetos.
 
-## Metamorfose
+A relação entre o patamar total de Invocação, o patamar usado na criação e a Consolidação natural está detalhada em `consolidacao.md`.
 
-Metamorfose usa a mesma lógica de configuração de Invocação, mas aplica a forma ao próprio personagem e somente sobre seus Atributos físicos.
+## Transformação
 
-Ao assumir uma nova forma, `FOR`, `AGI` e `RES` da forma anterior deixam de ser usados e partem de `[0]`. A Metamorfose então redefine esses três Atributos conforme sua configuração.
+Transformação usa a mesma lógica de configuração de Invocação quando redefine a própria forma física, mas aplica a configuração sobre `FOR`, `AGI` e `RES` do alvo transformado.
 
-`Metamorfose [1] → [1]/[0]/[0]`
+Quando o personagem transforma voluntariamente a si mesmo, `FOR`, `AGI` e `RES` da forma anterior deixam de ser usados e partem de `[0]`. A Transformação então redefine esses três Atributos conforme sua configuração.
 
-`Metamorfose [2] → [2]/[0]/[0] ou [1]/[1]/[0]`
+`Transformação [1] → [1]/[0]/[0]`
 
-`Metamorfose [3] → [3]/[0]/[0] ou [2]/[2]/[0] ou [1]/[1]/[1]`
+`Transformação [2] → [2]/[0]/[0] ou [1]/[1]/[0]`
 
-`Metamorfose [4] → [4]/[0]/[0] ou [3]/[3]/[0] ou [2]/[2]/[2]`
+`Transformação [3] → [3]/[0]/[0] ou [2]/[2]/[0] ou [1]/[1]/[1]`
 
-`Metamorfose [5] → [5]/[0]/[0] ou [4]/[4]/[0] ou [3]/[3]/[3]`
+`Transformação [4] → [4]/[0]/[0] ou [3]/[3]/[0] ou [2]/[2]/[2]`
+
+`Transformação [5] → [5]/[0]/[0] ou [4]/[4]/[0] ou [3]/[3]/[3]`
 
 Os valores podem ser distribuídos entre `FOR`, `AGI` e `RES` conforme a forma.
 
@@ -180,11 +182,11 @@ Exemplos: `Pássaro → FOR [0] | AGI [5] | RES [0]` | `Gorila → FOR [4] | AGI
 
 Transformar outra criatura não produz “percentuais de transformação”. A mudança pretendida acontece por inteiro quando alcançada; a oposição determina principalmente quanto ela consegue se consolidar.
 
-Contra uma transformação imposta, usa-se como resistência o maior valor aplicável entre `RES`, `VON` ou outra proteção/Poder coerente.
+Contra uma Transformação imposta, usa-se como resistência o maior valor aplicável entre `RES`, `VON` ou outra proteção/Poder coerente.
 
-Na Metamorfose voluntária sobre si mesmo, a defesa contra a própria mudança é `[0]`.
+Na Transformação voluntária sobre si mesmo, a defesa contra a própria mudança é `[0]` e a condição de alcance é `Si mesmo [-2]`.
 
-A duração e a persistência da forma pertencem à Consolidação.
+A duração e as demais dimensões da forma pertencem à Consolidação.
 
 ## Sono
 
@@ -244,7 +246,7 @@ O Poder produz intensidade como em uma disputa. A oposição vem de quem ou do q
 
 O resultado acumulado é aplicado às dimensões necessárias da Consolidação, especialmente alcance/distância e duração.
 
-A intenção define primeiro o requisito necessário. Ex.: levantar alguém no ar pode exigir apenas alcance curto; o excedente pode sustentar a duração. Transportar alguém até uma base distante exige alcançar a escala de distância correspondente e pode ter duração instantânea.
+A intenção define primeiro o requisito necessário. Ex.: levantar alguém no ar pode exigir apenas o alcance necessário para a cena; o excedente pode sustentar duração. Transportar alguém até uma base distante exige alcançar a escala de distância correspondente e pode ter duração instantânea.
 
 O repertório continua limitando o uso. Excedente de Telecinese não permite banimento planar se o Poder não possui essa capacidade.
 
@@ -252,12 +254,12 @@ Quando uma entidade externa interfere, ela pode oferecer Resistência e também 
 
 > **A Resistência reduz o Progresso por aplicação. O tempo necessário para acumular Progresso cria oportunidades reais de reação.**
 
-## Consolidação — próxima etapa
+## Consolidação
 
-As escalas de efeito acima definem **o que acontece**.
+As tabelas acima definem **o que acontece**.
 
-A próxima etapa define como o resultado disponível é aplicado às dimensões que sustentam ou ampliam esse efeito, incluindo pelo menos:
+`consolidacao.md` define **em que escala o efeito se manifesta**, incluindo:
 
-`Duração` | `Alvos/Quantidade` | `Alcance/Distância` | `Área/Tamanho`
+`Duração` | `Alvos` | `Alcance/Distância` | `Área/Tamanho`
 
-Essas dimensões serão consolidadas separadamente antes de substituir qualquer referência preliminar anterior.
+A Consolidação também define ampliação, custo adicional em Energia, redução de Efeito efetivo quando parte da ampliação não é paga e resistência de efeitos persistentes até serem rompidos.
