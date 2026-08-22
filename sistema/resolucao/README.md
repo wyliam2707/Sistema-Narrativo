@@ -35,10 +35,11 @@ A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertenc
 - `principio-de-resolucao.md` — distingue resultado evidente, impossibilidade evidente e incerteza real; somente a incerteza real exige resolução comparativa;
 - `leitura-da-ficha-na-resolucao.md` — define como Atributos, Perícias, Poderes, meio, situação e conhecimento entram na resolução sem soma automática nem conversões fixas de patamar;
 - `comparacao-e-disputa.md` — define comparação qualitativa, estratégia e preparação, soluções que mudam o problema, agência diante de planos e manutenção de disputas equilibradas sem vencedor artificial;
-- `motor-de-disputa.md` — define Potência, Resistência, Exigência, progresso por aplicação, acumulação, tempo, custo efetivo, oportunidade de reação e Consolidação como motor geral de disputas progressivas;
-- `escalas-de-efeito.md` — reúne as tabelas aprovadas de Consolidação, Sentidos, Controle, Mobilidade, Supressão de Atributo e Proteção por Barreira; permanece em construção enquanto novas categorias são adicionadas;
+- `motor-de-disputa.md` — define Potência, Resistência, Exigência, progresso por aplicação, acumulação, tempo, custo efetivo, oportunidade de reação e integração com Consolidação;
+- `escalas-de-efeito.md` — reúne as tabelas de efeitos aprovadas, incluindo Sentidos, Controle, Mobilidade, Supressão, Proteção, Informação, Invocação, Transformação, Sono, Ilusão, Emoção e Deslocar;
+- `consolidacao.md` — define manifestação-base, Alcance, Alvos, Área/Tamanho, Duração, carga de ampliação, custo em Energia, redução de Efeito efetivo e remoção de efeitos persistentes; permanece em revisão enquanto os pontos finais são calibrados;
 - `combate-e-dano.md` — define resolução compacta de combate, Perícia efetiva, Ataque efetivo, progressão exponencial de dano, dano mínimo contabilizável, defesa aplicável, ataques detalhados e referência de VIDA;
-- `energia.md` — define Reserva, custo por patamar efetivamente usado, estados de Energia, Bateria, recuperação e transferência de carga;
+- `energia.md` — define Reserva, custo-base por patamar efetivamente usado, carga de ampliação, estados de Energia, Bateria, recuperação e transferência de carga;
 - `recuperacao-da-vida.md` — define recuperação natural por estado, Regeneração por hora, Cura como contraponto do Dano, Medicina sem oposição artificial e estabilização;
 - `resolucao-social.md` — define resolução social sem Defesa Social universal, preservação de agência, função contextual de VON, Relações, autoridade, intimidação, enganação e resultados sociais abertos.
 
@@ -90,7 +91,7 @@ Para disputas progressivas:
 
 ```text
 Perícia efetiva = Perícia de aplicação − Perícia de oposição
-Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2)
+Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2) − Ampliação não paga
 Progresso por aplicação = 2^(Efeito efetivo − Resistência efetiva)
 Aplicações necessárias = teto(Exigência ÷ Progresso por aplicação)
 ```
@@ -99,21 +100,19 @@ Escalas padrão de aplicação:
 
 `6 segundos → imediata` | `1 minuto → curta` | `1 hora → prolongada` | `1 dia → extensa`
 
-Quando houver Energia:
+Quando houver Energia, o custo-base é o patamar usado. Ampliações podem acrescentar carga. O JOGADOR escolhe quanto dessa carga paga em Energia; cada ponto não pago reduz o Efeito efetivo em `1` naquela aplicação.
 
-`Custo efetivo = aplicações × custo por aplicação`
+A Consolidação parte da manifestação-base `[0]` e amplia, quando necessário:
 
-Quando um efeito persistente ultrapassa sua Exigência-base:
+`Alcance` | `Alvos` | `Área/Tamanho` | `Duração`
 
-`Consolidação = Progresso acumulado − Exigência-base`
-
-A Consolidação pode representar simultaneamente duração e persistência quando a natureza do efeito permitir.
+Em efeitos persistentes, a Duração determina quando terminam naturalmente. Tentativas de remoção reduzem sua Consolidação; o efeito permanece inteiro até a Consolidação chegar a zero.
 
 Em combate:
 
 ```text
 Perícia efetiva = Perícia ofensiva − Perícia defensiva
-Ataque efetivo = Dano + 1 + (Perícia efetiva × 0,2)
+Ataque efetivo = Dano + 1 + (Perícia efetiva × 0,2) − Ampliação não paga
 Dano aplicado = 2^(Ataque efetivo − Defesa efetiva)
 Dano mínimo contabilizável = 0,25
 ```
@@ -123,14 +122,15 @@ Para Energia:
 ```text
 Reserva [0] = 10
 Reserva [1–5] = maior Atributo × 20
-Custo = patamar efetivamente usado
+Custo-base = patamar efetivamente usado
+Ampliação [2]/[4]/[8]/[16] = carga +1/+2/+3/+4
 Bateria [X] = X × 20
 ```
 
 Para Cura:
 
 ```text
-Cura efetiva = Cura usada + 1 + (Perícia aplicável × 0,2)
+Cura efetiva = Cura usada + 1 + (Perícia aplicável × 0,2) − Ampliação não paga
 Cura aplicada = máx(1, 2^(Cura efetiva − RES do alvo))
 ```
 
