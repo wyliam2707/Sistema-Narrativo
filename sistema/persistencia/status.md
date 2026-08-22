@@ -116,6 +116,8 @@ Uma condição permanece enquanto sua causa ou seu efeito continuar existindo e 
 
 Nem toda descrição momentânea precisa virar condição. Registra-se apenas o que puder continuar relevante para ações ou cenas seguintes.
 
+### Condição produzida por efeito persistente
+
 Quando a condição é produzida por um **efeito persistente consolidado**, ela recebe estrutura própria:
 
 `Condição [D x / V5] — Duração`
@@ -125,6 +127,20 @@ Quando a condição é produzida por um **efeito persistente consolidado**, ela 
 Exemplo: `Cegueira [D2,4 / V5] — Cena`.
 
 Enquanto houver Vida, a condição continua com o resultado que foi estabelecido. Perder Vida não reduz automaticamente o grau narrativo do efeito. Em `V0`, o efeito termina e sai do STATUS.
+
+### Condição sustentada por agente
+
+Uma condição causada diretamente por um personagem, criatura ou Invocação ativa que continua realizando a ação **não recebe D/V próprio apenas por estar registrada no STATUS**.
+
+Ela é marcada como `Sustentada` e aponta para a fonte que precisa continuar agindo.
+
+Exemplos: `Agarrado [2] — Sustentado pelo Guarda` | `Imobilizado [8] — Sustentado por 4 guardas`.
+
+A manutenção consome a ação dos agentes que continuam sustentando a contenção. Se eles deixam de agir, são incapacitados ou perdem o mecanismo que mantém a condição, a situação é atualizada conforme a resolução.
+
+O personagem contido continua escolhendo suas próprias ações dentro do que a posição permite: pode tentar escapar, atacar quem o segura, usar uma capacidade possível ou escolher outro mecanismo coerente.
+
+> **Efeito persistente cria estrutura D/V. Agente ativo sustenta uma condição com a própria ação.**
 
 ## Efeitos Ativos
 
@@ -193,13 +209,21 @@ Uma prisão mantida por Invocação registra a criação que sustenta a condiç�
 
 Exemplo: `Preso — Invocação [D4 / V10] — Cena`.
 
-O `D4` indica que a criação possui `RES [4]` para resistir a ataques dirigidos contra sua estrutura. O mecanismo que mantém alguém preso pode envolver outro Atributo, conforme a função da criação; isso não transforma RES em defesa universal para toda tentativa de fuga.
+O `D4` indica que a criação possui `RES [4]` para resistir a ataques dirigidos contra sua estrutura. O mecanismo que mantém alguém preso pode envolver outro Atributo, como `FIS`, conforme a função da criação; isso não transforma RES em defesa universal para toda tentativa de fuga.
+
+### Estrutura física aplicada
+
+Uma estrutura física que continua prendendo alguém depois que seus agentes soltam é registrada como a própria fonte da contenção, não como um efeito mágico abstrato.
+
+Exemplo: `Algemado — Algemas [FIS3 / V10]`.
+
+`FIS [3]` descreve o mecanismo físico da contenção quando a tentativa é vencê-la corporalmente. `V10` registra a Vida estrutural do objeto. Outras formas de escapar ou destruir a estrutura usam o mecanismo e a defesa realmente aplicáveis.
 
 ## Referência de Vida estrutural
 
 A régua comum fica:
 
-`Efeito persistente → V5` | `Proteção/Barreira → V5` | `Invocação → V10` | `Personagem → V35`
+`Efeito persistente → V5` | `Proteção/Barreira → V5` | `Invocação/estrutura equivalente → V10` | `Personagem → V35`
 
 Vida e Defesa são dimensões distintas. A Defesa diz quão difícil é causar dano; a Vida diz quanto dano a estrutura suporta antes de acabar.
 
@@ -292,15 +316,9 @@ Quando não existe disputa real, não é necessário criar uma resolução artif
 
 STATUS não substitui a ficha.
 
-Exemplo:
+Exemplo: `FICHA: RES [2] | Regeneração [1] | Bateria [3]` | `STATUS: Vida: Grave | Dano acumulado: 18 | Energia [22/40] - Bateria [36/60] | Local: Biblioteca`.
 
-`FICHA: RES [2] | Regeneração [1] | Bateria [3]`
-
-`STATUS: Vida: Grave | Dano acumulado: 18 | Energia [22/40] - Bateria [36/60] | Local: Biblioteca`
-
-`RES [2]`, `Regeneração [1]` e `Bateria [3]` descrevem capacidades estáveis do personagem.
-
-`Vida: Grave`, `Dano acumulado: 18`, `Energia [22/40]` e `Bateria [36/60]` descrevem apenas seu estado atual.
+`RES [2]`, `Regeneração [1]` e `Bateria [3]` descrevem capacidades estáveis do personagem. `Vida: Grave`, `Dano acumulado: 18`, `Energia [22/40]` e `Bateria [36/60]` descrevem apenas seu estado atual.
 
 Se uma mudança deixar de ser temporária e passar a alterar de forma estável quem o personagem é, ela deve ser tratada pela camada apropriada de persistência e, quando necessário, consolidada na ficha.
 
