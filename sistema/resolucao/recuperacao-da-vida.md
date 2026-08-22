@@ -76,9 +76,19 @@ A resolução lê a Perícia do profissional, os recursos disponíveis, o tempo,
 
 `Medicina [+0]` pode sustentar cuidados cotidianos plausíveis e primeiros socorros simples. Graus maiores representam formação, experiência e capacidade progressivamente superiores; especialidades como `Cirurgião` podem prevalecer quando forem mais específicas para o procedimento.
 
+Quando existe tratamento médico adequado durante a recuperação natural, cada grau de Medicina reduz diretamente em `10%` o tempo necessário para recuperar cada estado.
+
+`Medicina [+0] → 100% do tempo` | `[+1] → 90%` | `[+2] → 80%` | `[+3] → 70%` | `[+4] → 60%` | `[+5] → 50%`
+
+`Tempo final = Tempo normal × (1 − 0,10 × Medicina)`
+
+Exemplo: `Crítico → 1 mês` com `Medicina [+5]` exige aproximadamente `15 dias` de recuperação adequada.
+
+Essa redução pressupõe que o tratamento apropriado possa realmente ser fornecido com os recursos, condições e continuidade necessários. A Perícia não cria equipamentos, medicamentos, instalações ou procedimentos inexistentes na ficção.
+
 Medicina não cria capacidade sobrenatural de reconstrução. Sem um Poder, tecnologia ou recurso que efetivamente produza Cura, a Perícia trata, estabiliza, diagnostica, impede agravamento e melhora as condições de recuperação dentro do que a medicina disponível consegue realizar.
 
-> **Medicina melhora o tratamento. Cura remove Dano por capacidade restauradora. Regeneração acelera a recuperação própria.**
+> **Medicina reduz o tempo. Cura remove Dano diretamente. Regeneração transforma recuperação em horas.**
 
 ## Incapacitado
 
