@@ -20,7 +20,7 @@ STATUS
 STATUS:
 Vida:
 Dano acumulado:
-Mana/Energia:
+Energia:
 Condições:
 Efeitos Ativos:
 Local:
@@ -56,24 +56,37 @@ Incapacitado significa que o personagem não consegue continuar agindo normalmen
 
 Morte é uma consequência distinta, definida pela ficção e pelas regras de resolução. Ela não é um nível adicional de VIDA.
 
-## Mana / Energia
+## Energia
 
-Mana ou Energia também é um estado conceitual, nunca uma reserva numérica de pontos.
+ENERGIA registra a Reserva atual do personagem e, quando existir, a carga disponível em uma Bateria.
 
-Escala:
+A regra de cálculo, custos de uso e transferência pertence a `../resolucao/energia.md`. O STATUS apenas preserva os valores já estabelecidos.
 
-```text
-Cheia
-Média
-Baixa
-Crítica
-```
+A Reserva pode ser lida em cinco estados narrativos:
 
-Ela representa a condição atual da reserva de energia extraordinária disponível ao personagem.
+`Cheia | Alta | Média | Baixa | Crítica | Esgotada`
 
-`Crítica` significa que ainda existe energia disponível, mas a reserva está no limite. Isso não impede automaticamente o uso de uma capacidade.
+Os cinco estados com Energia disponível dividem igualmente a Reserva máxima.
 
-As regras que determinam quando a reserva muda, quais ações exigem energia e quais consequências podem ocorrer em estado Crítico pertencem à resolução.
+O valor numérico pode ser mostrado junto do estado para facilitar o controle.
+
+Exemplo sem Bateria:
+
+`Energia: 37/80 — Média`
+
+Quando existe Bateria, sua carga aparece depois da Reserva:
+
+`Energia: 60/80 [20/60]`
+
+A leitura é:
+
+`60/80` → Energia atual / Reserva máxima
+
+`[20/60]` → carga atual / capacidade máxima da Bateria
+
+A Bateria é uma reserva separada. Sua presença, natureza e patamar pertencem à ficha; sua carga atual pertence ao STATUS.
+
+O estado comunica rapidamente a condição da Reserva. Os números preservam a precisão necessária para gasto, recuperação e continuidade.
 
 ## Condições
 
@@ -181,7 +194,7 @@ Exemplo:
 STATUS:
 Vida: Grave
 Dano acumulado: 18
-Mana: Crítica
+Energia: 22/60 — Baixa [40/60]
 Condições:
 - Envenenado
 - Atordoado
@@ -228,17 +241,18 @@ Exemplo:
 FICHA:
 RES [2]
 Regeneração [1]
+Bateria [3]
 
 STATUS:
 Vida: Grave
 Dano acumulado: 18
-Mana: Baixa
+Energia: 22/40 — Média [36/60]
 Local: Biblioteca
 ```
 
-`RES [2]` e `Regeneração [1]` descrevem capacidades estáveis do personagem.
+`RES [2]`, `Regeneração [1]` e `Bateria [3]` descrevem capacidades estáveis do personagem.
 
-`Vida: Grave`, `Dano acumulado: 18`, `Mana: Baixa` e `Local: Biblioteca` descrevem apenas seu estado atual.
+`Vida: Grave`, `Dano acumulado: 18`, `Energia: 22/40` e `[36/60]` descrevem apenas seu estado atual.
 
 Se uma mudança deixar de ser temporária e passar a alterar de forma estável quem o personagem é, ela deve ser tratada pela camada apropriada de persistência e, quando necessário, consolidada na ficha.
 
