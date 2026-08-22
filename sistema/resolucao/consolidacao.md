@@ -146,19 +146,17 @@ Uma configuração cuja soma ultrapasse `Ampliação [X]` não cabe naquele efei
 
 O valor de Ampliação mede quanto o efeito pode ser estendido em suas dimensões; ele não aumenta a potência do efeito.
 
-O NARRADOR apresenta o custo de forma compacta:
+O custo final é direto:
 
-`custo [patamar usado + carga de ampliação]`
+`Custo = patamar efetivamente usado + Ampliação usada`
 
-O JOGADOR decide quanto da carga adicional paga em Energia. Cada ponto de carga não pago reduz em `1` o Efeito efetivo daquela aplicação.
+Não existe pagamento parcial da Ampliação. Se o JOGADOR dispõe de menos Energia ou quer gastar menos, escolhe um patamar efetivamente usado menor, reduz alguma ampliação ou ambos antes da resolução.
 
-`Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2) − Ampliação não paga`
+Exemplo: `Dano [5] | Ampliação [8]`. Se o JOGADOR quer gastar no máximo `5 Energia` e precisa de `+2` de Ampliação, pode usar `Dano [3] + Ampliação [2] = 5 Energia`.
 
-O patamar do Poder na ficha não muda. A redução existe apenas naquela aplicação.
+A escolha de potência e escala acontece antes da resolução; depois de definida a configuração, o custo é pago integralmente.
 
-Exemplo: `Magia [2] => Dano [2] | Ampliação [5]` com carga `+3` tem custo `[2+3]`. Se o JOGADOR paga `4` de Energia, paga o custo-base `2` e apenas `2` da ampliação; o ponto restante reduz o Ataque efetivo em `1`.
-
-> **O patamar do efeito e a maior capacidade mental definem quanto ele pode ser ampliado. Energia decide quanto dessa ampliação é sustentada sem perda de Efetivo.**
+> **Patamar define potência. Ampliação define escala. Energia paga exatamente a configuração escolhida.**
 
 ## 8. Dano e Cura
 
@@ -166,7 +164,7 @@ Dano e Cura usam as ampliações para definir como a aplicação alcança a cena
 
 `Dano/Cura` determina intensidade. `Alcance`, `Alvos` e `Área` determinam a extensão da aplicação.
 
-Uma aplicação em Área não divide automaticamente o Dano entre os presentes. O custo da ampliação é resolvido antes da aplicação pela regra de Energia e Efeito efetivo.
+Uma aplicação em Área não divide automaticamente o Dano entre os presentes. O custo da ampliação é resolvido antes da aplicação.
 
 Depois que Dano ou Cura são aplicados, permanece a consequência na VIDA; não permanece um efeito sustentado apenas para representar o valor já causado ou restaurado.
 
@@ -208,4 +206,4 @@ A mudança não acontece em porcentagens. O resultado da disputa determina a int
 
 ## Princípio
 
-> **Potência determina o que o efeito consegue produzir. Ampliação define em que escala ele é aplicado e cobra Energia, Efetivo ou ambos. Regras específicas vencem a regra geral quando um efeito exige tratamento próprio.**
+> **Potência determina o que o efeito consegue produzir. Ampliação define em que escala ele é aplicado. A configuração escolhida é paga integralmente em Energia. Regras específicas vencem a regra geral quando um efeito exige tratamento próprio.**
