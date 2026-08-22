@@ -35,7 +35,8 @@ A ordem das declarações e o ciclo entre JOGADORES, OPOSITOR e NARRADOR pertenc
 - `comparacao-e-disputa.md` — define comparação qualitativa, estratégia e preparação, soluções que mudam o problema, agência diante de planos e manutenção de disputas equilibradas sem vencedor artificial;
 - `combate-e-dano.md` — define resolução compacta de combate, Perícia efetiva, Ataque efetivo, progressão exponencial de dano, defesa aplicável, ataques detalhados e referência de VIDA;
 - `energia.md` — define Reserva, custo por patamar efetivamente usado, estados de Energia, Bateria, recuperação e transferência de carga;
-- `recuperacao-da-vida.md` — define recuperação natural por estado, Regeneração por hora, Cura como contraponto do Dano, Medicina sem oposição artificial e estabilização.
+- `recuperacao-da-vida.md` — define recuperação natural por estado, Regeneração por hora, Cura como contraponto do Dano, Medicina sem oposição artificial e estabilização;
+- `resolucao-social.md` — define resolução social sem Defesa Social universal, preservação de agência, função contextual de VON, Relações, autoridade, intimidação, enganação e resultados sociais abertos.
 
 ## Arquivos antigos ainda como fonte de migração
 
