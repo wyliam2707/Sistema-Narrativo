@@ -120,6 +120,12 @@ Uma condição permanece enquanto sua causa ou seu efeito continuar existindo e 
 
 Nem toda descrição momentânea precisa virar condição. Registra-se apenas o que puder continuar relevante para ações ou cenas seguintes.
 
+Quando uma condição persistente possui duração e valor de consolidação relevantes para futuras tentativas de remoção, ambos podem aparecer de forma compacta.
+
+Exemplo: `Imobilizado [Cena] 12`.
+
+Nesse formato, `Cena` registra a duração estabelecida e `12` preserva o valor de consolidação necessário enquanto o efeito permanecer.
+
 ## Efeitos Ativos
 
 Efeito Ativo é uma capacidade, proteção, alteração ou fenômeno temporário que continua produzindo efeito sobre o personagem, objeto ou ambiente.
@@ -151,6 +157,18 @@ Um Efeito Ativo não precisa ter duração numérica obrigatória. Ele permanece
 Evita-se duplicação. Se um Efeito Ativo já descreve adequadamente o estado temporário relevante, não é necessário registrar uma segunda Condição dizendo a mesma coisa.
 
 Registra-se um Efeito Ativo apenas quando sua permanência puder alterar decisões ou resoluções futuras.
+
+Quando o efeito possui estrutura própria que pode ser danificada, o STATUS mostra essa estrutura.
+
+Exemplo: `Proteção [2 / 4 PV] — Cena`.
+
+O primeiro valor é o patamar da Proteção; o segundo é a VIDA atual da Barreira. Quando seus PV chegam a `0`, a proteção rompida sai do STATUS.
+
+Uma prisão mantida por Invocação registra a criação que sustenta a condição, em vez de fingir que existe apenas uma condição abstrata.
+
+Exemplo: `Preso — Invocação [FOR 4 | 4 PV] — Cena`.
+
+O atributo mostrado é o mecanismo principal que mantém a prisão. Outras capacidades da criação só entram quando realmente forem relevantes.
 
 ## Localização
 
@@ -195,6 +213,22 @@ Se uma Proteção Mágica terminou, ela simplesmente deixa de aparecer em Efeito
 STATUS não guarda histórico.
 
 O que aconteceu permanece no Livro. Se um fato passado continua causalmente vivo, pertence à Progressão; se alterou de forma estável o personagem, pode ser consolidado na ficha.
+
+## Atualização operacional imediata
+
+Durante resolução ativa, o STATUS é atualizado assim que a consequência correspondente é estabelecida.
+
+`Energia` muda no momento em que o custo é pago. `Vida` e `Dano acumulado` mudam quando Dano ou Cura são aplicados. Condições e Efeitos Ativos entram, mudam ou saem assim que sua resolução os estabelece.
+
+O NARRADOR não espera o fim da cena ou do turno para corrigir valores que já mudaram.
+
+A apresentação pode permanecer compacta em uma única linha, mostrando somente o que ainda importa naquele momento.
+
+Exemplo: `STATUS → Vida: Grave | Dano acumulado: 18 | Energia [39/60] | Proteção [2 / 4 PV] — Cena | Imobilizado [Cena] 12`.
+
+Quando um valor ou efeito muda, a próxima apresentação do STATUS já usa o novo estado.
+
+> **Resolveu, atualizou. O STATUS sempre representa o presente, não o estado do começo do turno.**
 
 ## Autoridade sobre o STATUS
 
