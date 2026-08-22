@@ -36,7 +36,74 @@ O capítulo pode terminar em qualquer ponto escolhido pelo JOGADOR HUMANO.
 
 > **O fechamento encerra o capítulo onde a história está. Não força a história até um final conveniente.**
 
-## 2. Consultar apenas o necessário
+## 2. Janelas naturais de capítulo
+
+Durante a narração, o NARRADOR deve observar quando a história alcança um ponto naturalmente adequado para fechamento e pode avisar o JOGADOR HUMANO sem interromper a agência da cena.
+
+Uma janela natural costuma existir quando uma unidade narrativa terminou e continuar exigiria iniciar outra situação relevante.
+
+Sinais comuns:
+
+- um conflito da cena foi resolvido;
+- uma conversa importante chegou a uma conclusão;
+- uma decisão relevante foi tomada;
+- uma revelação alterou o rumo da situação seguinte;
+- um objetivo imediato foi alcançado, abandonado ou claramente transformado;
+- personagens se despediram ou encerraram uma interação importante;
+- ocorreu mudança de local que inicia outra situação;
+- terminou um período significativo, como noite, viagem, missão ou descanso;
+- a próxima ação abriria claramente outra cena;
+- surgiu um cliffhanger natural que funciona como corte sem exigir ação adicional.
+
+O NARRADOR pode sinalizar de forma curta:
+
+```text
+[NARRADOR] — Janela natural de capítulo.
+```
+
+Quando útil, pode acrescentar uma justificativa breve:
+
+```text
+[NARRADOR] — Janela natural de capítulo: esta cena foi resolvida e a próxima ação iniciaria uma nova situação.
+```
+
+Essa sinalização é apenas uma sugestão.
+
+> **O NARRADOR reconhece o ponto. O JOGADOR HUMANO decide se o capítulo termina.**
+
+O NARRADOR não deve:
+
+- encerrar automaticamente o capítulo;
+- interromper uma sequência ainda em desenvolvimento apenas porque o texto ficou longo;
+- criar um evento dramático só para fabricar um bom final;
+- empurrar a história até um fechamento mais cinematográfico quando já existe um ponto natural;
+- insistir no fechamento se o JOGADOR HUMANO escolher continuar.
+
+Um encerramento cotidiano também pode ser excelente. Chegar em casa, terminar uma conversa, ir dormir ou simplesmente ficar em silêncio depois de uma situação resolvida pode constituir uma janela válida.
+
+### Salvar estado sem fechar capítulo
+
+Quando a cena ainda não terminou, mas existe vantagem em preservar exatamente o ponto atual, o NARRADOR pode sugerir apenas salvar estado.
+
+Exemplo:
+
+```text
+[NARRADOR] — A cena ainda está em andamento. Eu não fecharia o capítulo aqui, mas é um bom ponto para salvar o estado.
+```
+
+Nesse caso:
+
+```text
+SALVAR CAPÍTULO
+→ encerra a unidade narrativa e consolida o Livro.
+
+SALVAR ESTADO
+→ preserva a continuidade operacional sem encerrar a unidade narrativa.
+```
+
+> **Tamanho do texto não determina capítulo. Mudança de situação narrativa é o principal critério.**
+
+## 3. Consultar apenas o necessário
 
 Antes de consolidar, consultar as fontes necessárias para evitar contradições, especialmente:
 
@@ -52,7 +119,7 @@ Não é necessário reler arquivos sem relação com o que está sendo salvo.
 
 Informação reservada pode ser usada para preservar a realidade da campanha e para escrever acontecimentos secretos que efetivamente ocorreram, mas não altera automaticamente o conhecimento de outros personagens.
 
-## 3. Consolidar o Livro
+## 4. Consolidar o Livro
 
 O capítulo salvo deve seguir `livro.md`.
 
@@ -82,7 +149,7 @@ A consolidação preserva:
 
 > **A consolidação melhora a forma. Não reescreve a realidade da campanha.**
 
-## 4. A agência dos jogadores é obrigatória no Livro
+## 5. A agência dos jogadores é obrigatória no Livro
 
 Toda ação efetivamente realizada por personagens sob:
 
@@ -100,7 +167,7 @@ A escrita pode condensar repetição e melhorar ritmo ou linguagem, mas não pod
 
 > **A forma pode mudar. A agência exercida não pode desaparecer.**
 
-## 5. Ações do OPOSITOR e acontecimentos secretos
+## 6. Ações do OPOSITOR e acontecimentos secretos
 
 O OPOSITOR não aparece como personagem no Livro.
 
@@ -127,7 +194,7 @@ Uma proposta recusada, impossível ou que não chegou a acontecer não entra no 
 
 > **O Livro registra o acontecimento, não apenas a descoberta do acontecimento.**
 
-## 6. Forma literária
+## 7. Forma literária
 
 O Livro usa terceira pessoa multiperspectiva.
 
@@ -149,7 +216,7 @@ Conhecimento revelado ao leitor por uma perspectiva não se torna automaticament
 
 Romance e intimidade seguem as regras de `livro.md`: podem ter tom adulto, emocional, corporal e sensorial quando apropriado à campanha, sem depender de descrição sexual explícita.
 
-## 7. Atualizar STATUS
+## 8. Atualizar STATUS
 
 Depois de consolidar o Livro, atualizar o STATUS para representar exatamente o ponto em que a história parou.
 
@@ -167,7 +234,7 @@ Remover o que já terminou.
 
 STATUS não guarda histórico; o histórico já está no Livro.
 
-## 8. Atualizar Progressão
+## 9. Atualizar Progressão
 
 Revisar as consequências produzidas ou alteradas durante o capítulo.
 
@@ -181,7 +248,7 @@ Não transformar cada acontecimento do capítulo em Progressão.
 
 > **Livro guarda o que aconteceu. Progressão guarda somente o que ainda pode voltar a produzir consequência.**
 
-## 9. Verificar possíveis alterações de ficha
+## 10. Verificar possíveis alterações de ficha
 
 O fechamento pode identificar que um acontecimento parece justificar mudança estável em uma ficha.
 
@@ -196,7 +263,7 @@ Conforme `atualizacao-de-ficha.md`:
 
 Uma consequência grave ou duradoura pode continuar no STATUS ou em outra camada apropriada sem ser consolidada como permanente.
 
-## 10. Atualizar mundo, NPCs e material reservado
+## 11. Atualizar mundo, NPCs e material reservado
 
 O NARRADOR atualiza seus registros quando fatos realmente estabelecidos mudarem algo que precisa continuar disponível, por exemplo:
 
@@ -212,7 +279,7 @@ Esses registros não podem ser usados para inventar retroativamente capacidades,
 
 NPCs persistentes permanecem na estrutura de mundo definida pelas regras de personagem e campanha, não em uma categoria permanente de controle do OPOSITOR.
 
-## 11. O fechamento não cria uma segunda rodada de ficção
+## 12. O fechamento não cria uma segunda rodada de ficção
 
 Durante o salvamento não se deve:
 
@@ -228,7 +295,7 @@ Se algo ainda não aconteceu, fica para a continuação da campanha.
 
 > **O salvamento consolida. Não joga.**
 
-## 12. Numeração e arquivo
+## 13. Numeração e arquivo
 
 Determinar o próximo capítulo consultando os arquivos existentes em `livro/`, nunca apenas pela memória da conversa.
 
@@ -253,7 +320,7 @@ Formato básico:
 
 Corrigir um capítulo recém-salvo não cria automaticamente um novo número.
 
-## 13. Depois de salvar
+## 14. Depois de salvar
 
 Ao concluir o procedimento, informar de forma curta ao JOGADOR HUMANO:
 
@@ -266,7 +333,7 @@ Não revelar material reservado apenas para informar que ele foi atualizado.
 
 Não iniciar automaticamente o próximo capítulo.
 
-## 14. Correções posteriores
+## 15. Correções posteriores
 
 Se o JOGADOR HUMANO corrigir algo que já foi salvo:
 
@@ -276,7 +343,7 @@ Se o JOGADOR HUMANO corrigir algo que já foi salvo:
 
 A correção explícita mais recente substitui a versão anterior do fato.
 
-## 15. Comando repetido
+## 16. Comando repetido
 
 Se o comando de salvar for usado novamente sem que nova ficção tenha ocorrido desde o último fechamento:
 
@@ -286,15 +353,18 @@ Se o comando de salvar for usado novamente sem que nova ficção tenha ocorrido 
 
 Se houve nova ficção, ela pertence ao capítulo seguinte.
 
-## 16. Campanhas sem capítulos
+## 17. Campanhas sem capítulos
 
 Se uma campanha declarar que não usa capítulos literários, aplicar o método equivalente de consolidação definido por ela, mantendo os mesmos princípios de cânone e continuidade.
 
 ## Princípio final
 
 ```text
+OBSERVAR
+→ reconhecer janelas naturais sem impor encerramento.
+
 PARAR
-→ no último fato estabelecido.
+→ no último fato estabelecido quando o JOGADOR HUMANO decidir fechar.
 
 LIVRO
 → consolidar tudo que realmente aconteceu.
@@ -314,5 +384,7 @@ MUNDO / NPCs / RESERVADO
 ENCERRAR
 → informar o que foi salvo e não iniciar nova ficção.
 ```
+
+> **O NARRADOR pode indicar o melhor momento para fechar. Somente o JOGADOR HUMANO decide fechar o capítulo.**
 
 > **Salvar capítulo = preservar a história completa no Livro e deixar a campanha pronta para continuar sem criar nenhum fato novo durante o salvamento.**
