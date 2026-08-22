@@ -20,19 +20,43 @@ A Reserva mede quanto esforço ou recurso próprio o personagem consegue sustent
 
 ## Custo de uso
 
-Quando uma capacidade consome Energia, o custo é igual ao patamar efetivamente empregado naquele uso.
+Quando uma capacidade consome Energia, o custo-base é igual ao patamar efetivamente empregado naquele uso.
 
 `uso [0] → custo 0` | `[1] → 1` | `[2] → 2` | `[3] → 3` | `[4] → 4` | `[5] → 5`
 
 O patamar máximo da capacidade define até onde ela pode chegar. O personagem pode empregar um patamar menor quando a ficção permitir dosar a potência.
 
-Exemplo: `FOR [5] usada em [2] → custo 2`.
+Exemplo: `FOR [5] usada em [2] → custo-base 2`.
 
 Assim, um personagem muito poderoso não precisa operar sempre no máximo para resolver ameaças menores.
 
 O custo pode representar coisas diferentes conforme a fonte: mana de um mago, esforço físico extraordinário, carga do anel do Lanterna Verde, batarangs e cargas do Arsenal de Batman ou outro recurso equivalente.
 
 Capacidades passivas não gastam Energia apenas por existirem. Uma resistência natural, armadura já vestida ou característica permanente não consome automaticamente Energia a cada vez que é atingida, salvo quando sua própria descrição estabelecer um gasto ativo.
+
+## Ampliação
+
+Quando uma aplicação é ampliada além de sua manifestação-base, a Consolidação pode gerar uma carga adicional.
+
+Como referência:
+
+`Ampliação [2] → carga +1` | `[4] → +2` | `[8] → +3` | `[16] → +4`
+
+O NARRADOR apresenta o custo como:
+
+`custo [patamar usado + carga de ampliação]`
+
+O JOGADOR escolhe quanto da carga adicional paga em Energia.
+
+Cada ponto de carga de ampliação não pago reduz em `1` o Efeito efetivo daquela aplicação.
+
+Assim, ampliar não reduz obrigatoriamente a potência nem aumenta obrigatoriamente o gasto: o JOGADOR pode pagar com Energia, com eficiência ou combinar os dois.
+
+Exemplo: `Magia [2] => Dano` com carga `+2` é apresentada como `custo [2 + 2]`. Se o JOGADOR paga `3` de Energia, paga o custo-base `2` e apenas `1` da ampliação. O ponto restante reduz o Ataque efetivo em `1`.
+
+A redução não altera o patamar do Poder na ficha. Ela vale somente para aquela aplicação.
+
+A regra detalhada de Consolidação está em `consolidacao.md`.
 
 ## Cinco estados
 
@@ -112,8 +136,8 @@ Quando não houver Bateria, seu trecho pode ser omitido.
 
 A progressão foi calibrada para que um personagem consiga operar repetidamente próximo do próprio patamar máximo durante um confronto sério contra um equivalente.
 
-Um personagem cujo maior Atributo é `[5]` possui `100` de Reserva. Usos em `[5]` custam `5`, permitindo até vinte usos máximos antes do esgotamento, caso nenhum outro gasto ou recuperação interfira.
+Um personagem cujo maior Atributo é `[5]` possui `100` de Reserva. Um uso-base em `[5]` custa `5`; ampliações podem elevar esse gasto quando o JOGADOR preferir preservar integralmente o Efeito efetivo.
 
-Isso não significa que toda luta precisa durar vinte usos. Resultado evidente, estratégia, ambiente, diferença de patamar, dano, retirada, incapacidade ou qualquer outra consequência podem encerrá-la antes.
+Isso não significa que toda luta precisa durar vinte usos. Resultado evidente, estratégia, ambiente, diferença de patamar, dano, retirada, incapacidade, ampliação ou qualquer outra consequência podem encerrá-la antes.
 
 > **A Reserva deve permitir um confronto sério entre equivalentes sem transformar esforço máximo em recurso infinito.**
