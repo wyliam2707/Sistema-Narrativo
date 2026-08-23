@@ -15,6 +15,7 @@ Esta pasta responde à pergunta:
 - `comparacao-e-disputa.md` — comparação qualitativa, estratégia, preparação e disputas equilibradas;
 - `motor-de-disputa.md` — Potência, Resistência, Exigência, progresso, tempo, custo e contenção sustentada;
 - `escalas-de-efeito.md` — tabelas de referência dos efeitos;
+- `geral.md` — manifestações narrativas, utilitárias e cotidianas sem efeito prático de combate;
 - `consolidacao.md` — Alcance, Alvos, Área/Tamanho, Duração, Ampliação, custo e estrutura de efeitos persistentes;
 - `combate-e-dano.md` — fonte de Dano, Perícia efetiva, Ataque efetivo, Dano aplicado e defesa;
 - `ordem-de-resolucao-do-combate.md` — ordem de processamento do turno, HUD do JOGADOR HUMANO, confirmações, configuração, interferência e fechamento do combate;
@@ -83,7 +84,7 @@ Durante combate, a aplicação imediata de 10 segundos usa o mesmo relógio de `
 
 ## Regras especializadas
 
-Dano, Cura, Energia, Proteção, Dissipar, efeitos persistentes, Invocação, contenção e demais efeitos continuam sendo calculados pelos arquivos especializados desta pasta.
+Dano, Cura, Energia, Proteção, Dissipar, Geral, efeitos persistentes, Invocação, contenção e demais efeitos continuam sendo calculados pelos arquivos especializados desta pasta.
 
 `README.md` não substitui essas regras.
 
