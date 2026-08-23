@@ -2,108 +2,67 @@
 
 Status: APROVADO
 
-A resolução social segue o mesmo princípio geral do sistema:
+Este arquivo define como resolver **incerteza social real** sem transformar interação em controle automático de personagens.
 
 `Resultado evidente → estabelece` | `Impossibilidade evidente → estabelece` | `Incerteza real → resolve`
 
-Uma ação social pode mudar o que uma personagem acredita, sabe, teme, deseja, considera possível ou está disposta a negociar. Ela não toma automaticamente a decisão por essa personagem.
+> **Social pode mudar razões, crenças, medo e disposição. Não escolhe automaticamente pela personagem.**
 
-> **Persuasão pode mudar uma decisão porque mudou as razões para tomá-la. Não porque retirou da personagem o direito de decidir.**
+## Fluxo
+
+```text
+SITUAÇÃO / INTERESSES
+→ o que torna aceitar, recusar, acreditar ou negociar plausível?
+
+ABORDAGEM
+→ como a personagem tenta produzir a mudança?
+
+RESISTÊNCIA APLICÁVEL
+→ o que realmente responde a essa abordagem?
+
+MUDANÇA PRODUZIDA
+→ o que passou a ser diferente na posição da personagem?
+
+NOVA DECISÃO
+→ se o resultado exige uma escolha voluntária nova, abrir nova janela.
+```
+
+## Situação e interesses
+
+Antes de comparar capacidades, considerar fatos, relações, autoridade, valores, interesses, riscos e informações disponíveis.
+
+Esses elementos mudam o significado e a plausibilidade da interação; não precisam virar bônus numéricos automáticos.
+
+Uma Perícia alta não torna possível uma proposta incompatível com os fatos ou com o mecanismo usado.
+
+## Abordagem e resistência
+
+Não existe `Defesa Social` universal.
+
+A resistência usada é somente aquela que realmente responde à abordagem escolhida.
+
+`VON` pode ser relevante contra medo, pressão, ameaça, compulsão ou tentativa de quebrar determinação, mas não funciona como armadura contra fatos ou argumentos verdadeiros.
+
+Perícias específicas podem se opor quando o mecanismo justificar, como detectar mentira, negociar, interpretar intenção ou resistir a determinada técnica.
+
+Não somar automaticamente várias resistências apenas porque existem.
 
 ## Agência
 
-Perícias sociais não são controle mental.
+Perícias sociais podem convencer, enganar, intimidar, negociar, alterar confiança, produzir medo, mudar disposição ou abrir possibilidades.
 
-Uma Perícia como `Persuasão [+5]`, `Intimidação [+4]`, `Diplomacia [+3]` ou `Enganação [+3]` representa domínio extraordinário dentro daquele campo, mas não concede obediência automática.
+Elas não concedem obediência automática nem retiram a decisão voluntária de uma personagem.
 
-Controle direto da vontade exige uma capacidade que realmente faça isso, normalmente um Poder.
+Controle direto da vontade exige uma capacidade que realmente produza esse efeito, conforme `efeitos/controle.md`.
 
-> **Perícia social amplia possibilidades. Não substitui agência.**
+## Resultado
 
-## Quando existe resolução
+O resultado social pode ser parcial ou mudar apenas uma parte da situação.
 
-Se o resultado já é evidente pela relação, autoridade, informação, interesses ou circunstâncias, o NARRADOR estabelece o resultado sem fabricar disputa.
+Pode estabelecer, conforme a cena, mudança de crença, confiança, medo, disposição para negociar, posição diante de uma proposta, revelação de informação ou outra consequência coerente.
 
-Da mesma forma, uma Perícia alta não torna plausível uma proposta que continua incompatível com a situação, os valores ou as informações disponíveis.
+Quando essa mudança devolve a situação para uma nova escolha voluntária, a resolução termina e abre-se nova janela de decisão.
 
-Quando mais de um resultado continua realmente plausível, a cena determina quais capacidades importam.
+## Regra final
 
-## Não existe Defesa Social universal
-
-O sistema não possui um atributo ou valor único de Defesa Social.
-
-A resistência relevante depende da abordagem usada.
-
-Exemplos: `Enganação × Investigação` quando alguém tenta detectar uma mentira | `Intimidação × VON` quando a questão é resistir ao medo ou à pressão | `Diplomacia` pode não encontrar oposição direta quando a questão é demonstrar uma proposta vantajosa e verdadeira.
-
-Atributos e Perícias não são somados automaticamente. A cena determina qual capacidade responde ao problema.
-
-> **Não existe Defesa Social. Existe a capacidade que realmente responde à abordagem usada.**
-
-## VON
-
-`VON` representa determinação, resistência mental, emocional e volitiva.
-
-Ela pode ser relevante contra medo, ameaça, pressão, compulsão, tortura psicológica ou tentativa de quebrar determinação.
-
-`VON` não funciona como armadura contra fatos, argumentos verdadeiros ou conclusões coerentes.
-
-Uma personagem com `VON [5]` pode reconhecer que o outro está certo sem ter sua vontade quebrada.
-
-## Relações
-
-Relações alteram o ponto de partida e o significado da interação, mas não funcionam como bônus numérico automático.
-
-`REL +4` pode tornar evidente uma confiança que entre desconhecidos exigiria demonstração. `REL -4` pode fazer a mesma proposta ser recebida com suspeita, hostilidade ou recusa.
-
-> **Relação muda o significado da fala, não o número da Perícia.**
-
-## Interesses, valores e contexto
-
-Antes de comparar capacidades, o NARRADOR considera por que a personagem aceitaria ou recusaria.
-
-Dinheiro só pressiona quem valoriza o que está sendo oferecido. Autoridade só existe quando a relação institucional ou social realmente a sustenta. Uma ameaça só funciona se ameaça algo que a personagem acredita poder perder. Uma promessa precisa oferecer algo plausível.
-
-A ficha não substitui essas razões.
-
-## Autoridade
-
-Autoridade não é Persuasão.
-
-Uma ordem emitida por alguém com autoridade legítima pode criar obrigação, risco ou consequência sem retirar a possibilidade de desobediência.
-
-Se a personagem recusa, a resolução passa a tratar das consequências dessa recusa.
-
-> **Autoridade cria opções e consequências. Não remove agência.**
-
-## Intimidação
-
-Intimidação altera a percepção de risco e consequência.
-
-Uma personagem intimidada pode cooperar, fugir, negociar, mentir, ceder parcialmente, pedir proteção ou manter sua posição conforme seus interesses e medos.
-
-Intimidação bem-sucedida não significa automaticamente obediência completa.
-
-## Enganação
-
-Enganação pode produzir crença quando a mentira é plausível diante das informações disponíveis.
-
-Quando alguém está ativamente tentando detectar a falsidade, uma Perícia como `Investigação`, `Interrogatório`, `Psicologia` ou outra mais específica pode ser relevante.
-
-Uma mentira impossível diante dos fatos conhecidos continua sendo impossibilidade evidente, independentemente do grau de Enganação.
-
-## Resultado social
-
-Uma resolução social não precisa terminar em `sucesso` ou `fracasso` absoluto.
-
-Resultados como `acredita, mas ainda hesita`, `aceita negociar`, `recua temporariamente`, `pede prova`, `oferece contraproposta`, `revela parte da informação` ou `muda sua posição` podem encerrar validamente a resolução.
-
-Quando o resultado volta a exigir uma nova decisão de uma personagem, abre-se uma nova janela de ação.
-
-> **Uma conversa não precisa terminar quando alguém vence. Ela termina quando o resultado produz uma nova decisão.**
-
-## Princípio
-
-> **Pessoas não possuem uma Defesa Social universal. A cena determina quais capacidades, interesses, informações, relações e pressões realmente importam.**
-
-> **Perícias sociais podem convencer, enganar, intimidar, negociar e transformar a situação, mas não concedem controle automático sobre decisões.**
+> **Situação e interesses definem o que é plausível. A abordagem define o mecanismo. A resistência responde somente a esse mecanismo. O resultado muda a situação sem tomar automaticamente a decisão pela personagem.**
