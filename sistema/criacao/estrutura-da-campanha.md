@@ -32,9 +32,72 @@ Essas são as entradas principais. Não criar pastas adicionais apenas para ante
 
 ### `README.md`
 
-Porta de entrada da campanha.
+Porta de entrada e **índice operacional** da campanha.
 
-Deve permitir que uma IA ou narrador identifique o que é a campanha e como começar a consultá-la.
+Deve permitir que uma IA ou narrador identifique rapidamente o que é a campanha, quais peças com agência existem e onde consultar cada tipo de informação.
+
+O `README.md` deve conter somente o necessário para orientação inicial:
+
+```text
+1 - Nome da campanha
+2 - Direção narrativa
+3 - Cenário
+4 - Personagens com agência
+5 - Situação de entrada
+6 - Mapa de consulta
+```
+
+#### Nome da campanha
+
+Identifica a campanha.
+
+#### Direção narrativa
+
+Resumo curto do tom, foco e proposta narrativa já aprovados.
+
+Não repetir toda a discussão de criação.
+
+#### Cenário
+
+Resumo curto do universo e das premissas necessárias para compreender onde a campanha acontece.
+
+Detalhes persistentes de mundo pertencem a `mundo/`.
+
+#### Personagens com agência
+
+Registrar somente identificação e gerência suficientes para localizar as peças principais.
+
+Exemplo:
+
+```text
+Wyliam — JOGADOR HUMANO
+Ravena — JOGADOR IA
+Titãs — JOGADOR IA EVENTUAL
+```
+
+As fichas completas pertencem a `personagens/`.
+
+#### Situação de entrada
+
+Indica de onde a campanha deve ser retomada.
+
+No início da campanha, aponta para o resumo inicial aprovado. Durante o jogo, deve orientar para o estado atual sem duplicá-lo no `README.md`.
+
+#### Mapa de consulta
+
+Deve indicar de forma curta onde cada categoria de informação está armazenada:
+
+```text
+personagens/ → fichas
+estado/      → situação atual
+mundo/       → cenário persistente
+mestre/      → material reservado
+livro/       → história ocorrida
+```
+
+> **O README orienta. Ele não replica os arquivos da campanha.**
+
+Não guardar nele ficha completa, STATUS detalhado, cronologia extensa, capítulos, planos secretos ou material reservado do mestre.
 
 ### `personagens/`
 
