@@ -16,6 +16,10 @@ Todo efeito persistente comum possui uma Defesa e uma Vida próprias:
 
 A Defesa é determinada pelo nível efetivamente usado e pela Perícia aplicável. A Vida é determinada pela Fonte, conforme `fonte-e-vida-estrutural.md`.
 
+Como regra geral, a Fonte não modifica a Defesa do efeito. **Fonte define `V`; `D` vem da regra do efeito.** Somente uma regra específica pode substituir essa relação, como em `Invocação`, cuja Defesa usa a `RES` da própria criação.
+
+Essa separação evita contar a Fonte duas vezes na resistência estrutural do mesmo efeito: uma pela Vida e outra pela Defesa.
+
 Essa regra vale para efeitos persistentes como `Proteção`, `Imobilizar`, `Supressão`, `Sono`, `Ilusão`, `Emoção` e outros efeitos que permaneçam em cena e possam ser atacados ou dissipados. Cada efeito ainda pode possuir regras específicas adicionais.
 
 `Invocação` é uma exceção estrutural: a Vida da criação e a Defesa da criação seguem as regras próprias da Invocação, e a Defesa usa a `RES` da própria criação.
