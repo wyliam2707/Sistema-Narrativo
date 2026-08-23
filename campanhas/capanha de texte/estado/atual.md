@@ -6,22 +6,22 @@ Todas as fichas iniciais com agência foram aprovadas e o pareamento relevante f
 
 ## Situação atual
 
-É o início da tarde na grande casa de Corvin, em uma região afastada.
+É noite.
 
-Corvin, Wanda e Ravena passaram a manhã em rotina doméstica depois de acordarem juntos.
+Corvin, Wanda e Ravena passaram o dia em rotina doméstica na grande casa de Corvin.
 
-Ravena havia voltado na noite anterior de uma missão com os Titãs; depois do café, descansou durante a manhã e acordou para o almoço.
+Ravena havia voltado na noite anterior de uma missão com os Titãs; descansou durante a manhã e recuperou-se ao longo do dia.
 
-Wanda possui uma reunião com Tony Stark daqui a dois dias. Durante a manhã, treinou enquanto Corvin deixou que cada uma seguisse sua própria rotina.
+Wanda possui uma reunião com Tony Stark daqui a dois dias. Durante a manhã, treinou e depois seguiu a própria rotina.
 
-Corvin preparou o almoço para os três. Depois da refeição, foi para a grande biblioteca da casa estudar Magia da Ordem, como costuma fazer.
+Corvin preparou café da manhã e almoço para os três e passou a tarde estudando Magia da Ordem na grande biblioteca da casa.
 
-Wanda e Ravena estão livres para seguir suas próprias atividades pela casa.
+À noite, Corvin convidou Wanda e Ravena para saírem juntos para jantar em um lugar mais íntimo para os três, sem formalidade excessiva, com comida e espaço para dançar. As duas aceitaram.
 
 A vida afetiva dos três já é normal dentro da casa, mas ainda não foi explicada por completo aos círculos sociais de Wanda e Ravena: os Vingadores conhecem essencialmente a versão de que Wanda está com Corvin; os Titãs conhecem essencialmente a versão de que Ravena está com Corvin. A participação da outra mulher na relação ainda ficou fora dessas explicações simplificadas.
 
 ## Cena atual
 
-Início da tarde.
+Noite.
 
-Corvin está na biblioteca estudando Magia da Ordem depois do almoço.
+Corvin, Wanda e Ravena saíram juntos para jantar em um restaurante-bar discreto, com mesas mais reservadas, música e uma pequena pista de dança. A noite é uma saída íntima dos três, não uma ocasião formal.
