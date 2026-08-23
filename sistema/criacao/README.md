@@ -378,3 +378,23 @@ consolidar o resumo do início
 ```
 
 O local exato de salvamento dentro da campanha pertence a `estrutura-da-campanha.md`.
+
+# Etapa — Revisão mecânica e aprovação
+
+Nenhuma ficha conceitual vira ficha final automaticamente.
+
+A revisão deve acontecer **uma ficha por vez**.
+
+A ordem é:
+
+```text
+personagens JOGADOR IA
+→ personagens JOGADOR IA EVENTUAL
+→ protagonista
+```
+
+O protagonista deve ser revisado **por último**, para evitar que sua ficha contamine a construção ou calibração das demais fichas.
+
+Cada ficha deve ser convertida e revisada a partir do próprio conceito, do cenário e das regras do sistema, sem usar outra ficha como molde automático.
+
+> **Cada personagem é calibrado pelo que ele é. O protagonista não serve como régua para os demais.**
