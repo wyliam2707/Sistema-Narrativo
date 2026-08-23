@@ -16,7 +16,9 @@ A Fonte não é uma categoria mecânica nova e não muda, por si só, a função
 
 Quando uma Proteção ou efeito persistente possui uma Fonte com Atributo estrutural definido:
 
-`Vida estrutural = valor atual do Atributo da Fonte`
+`Vida estrutural = maior entre [1] e o valor atual do Atributo da Fonte`
+
+Assim, **todo efeito com Vida estrutural possui pelo menos [1] de Vida**.
 
 Exemplos:
 
@@ -27,6 +29,8 @@ Exemplos:
 `Imobilizar [3] — Fonte: efeito mágico / MEN [4] → D?,? / V4`
 
 `Imobilizar [3] — Fonte: rede física / FIS [4] → D?,? / V4`
+
+`Proteção [3] — Fonte: magia / VON [0] → D3,8 / V1`
 
 O valor de `D` continua sendo calculado pela regra específica do efeito. A Fonte altera a Vida estrutural, não a função nem automaticamente a Defesa.
 
