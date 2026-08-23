@@ -6,6 +6,20 @@ Este arquivo reúne tabelas de referência para traduzir a Exigência do motor g
 
 As tabelas são referências de resolução, não uma lista fechada de Poderes. A natureza da capacidade continua determinando o que ela pode fazer.
 
+## Regra estrutural dos efeitos persistentes
+
+Todo efeito persistente comum possui uma Defesa e uma Vida próprias:
+
+`D = nível do efeito usado + (Perícia aplicável × 0,2)`
+
+`V = maior entre [1] e o Atributo estrutural da Fonte`
+
+A Defesa é determinada pelo nível efetivamente usado e pela Perícia aplicável. A Vida é determinada pela Fonte, conforme `fonte-e-vida-estrutural.md`.
+
+Essa regra vale para efeitos persistentes como `Proteção`, `Imobilizar`, `Supressão`, `Sono`, `Ilusão`, `Emoção` e outros efeitos que permaneçam em cena e possam ser atacados ou dissipados. Cada efeito ainda pode possuir regras específicas adicionais.
+
+`Invocação` é uma exceção estrutural: a Vida da criação e a Defesa da criação seguem as regras próprias da Invocação, e a Defesa usa a `RES` da própria criação.
+
 ## Escala-base
 
 `[2] inicial forte` | `[4] relevante` | `[8] completo` | `[16] profundo/amplo` | `[32] absoluto`
@@ -66,9 +80,7 @@ Cada STATUS atingido resolve separadamente contra sua própria Defesa:
 
 `Dissipar efetivo vs D do efeito persistente → Dano aplicado → reduz V do efeito`
 
-Todo efeito persistente consolidado possui `D = Efetivo que o estabeleceu` e segue a regra de Vida estrutural definida em `fonte-e-vida-estrutural.md`.
-
-Exemplo: `Cegueira [D2,4 / V4] — Cena`. Uma aplicação de Dissipar resolve contra `D2,4`; o Dano resultante reduz a Vida da Cegueira. Em `V0`, o efeito termina.
+Todo efeito persistente consolidado segue a regra de Defesa e Vida estrutural definida no topo deste arquivo e em `fonte-e-vida-estrutural.md`.
 
 Dissipar pode atingir tanto efeitos prejudiciais quanto benéficos persistentes, desde que estejam dentro de seu repertório.
 
@@ -152,15 +164,15 @@ Base de uso:
 
 Barreira funciona como uma camada independente de proteção.
 
-`Barreira [D x / V]`
+`Barreira [D / V]`
 
-A Vida de Barreira segue `fonte-e-vida-estrutural.md`. Sua Defesa é calculada pela regra específica da Barreira:
+A Defesa segue a regra geral de efeitos persistentes:
 
-`D = patamar usado + (Perícia aplicável × 0,2)`
+`D = nível da Proteção usado + (Perícia aplicável × 0,2)`
 
-Como Poder, Barreira possui patamar mínimo `[1]`.
+A Vida segue a regra de Fonte:
 
-Exemplo: `Barreira [2] + Conhecimento em Magia [+2] → Barreira [D2,4 / V]`, com `V` definido pela Fonte.
+`V = maior entre [1] e o Atributo estrutural da Fonte`
 
 O ataque resolve normalmente contra `D` da Barreira. O Dano reduz primeiro sua Vida.
 
@@ -176,7 +188,7 @@ Depois da reconversão, o Ataque efetivo restante é sempre arredondado para bai
 
 Se não houver excedente, o ataque termina na Barreira.
 
-> **Uma proteção possui uma Vida estrutural determinada pela Fonte, com mínimo [1]. Ela absorve aquilo que consegue suportar e o excedente continua com a força que restou.**
+> **Proteção é um efeito persistente comum: sua Defesa vem do nível usado e Perícia; sua Vida vem da Fonte.**
 
 ## Informação
 
@@ -185,12 +197,6 @@ Base de uso:
 `Informação — Curto / 1 alvo ou fonte / Pontual / Instantâneo / Efetivo máximo [nível do efeito]`
 
 `[2] Indício` | `[4] Revelar` | `[8] Compreender` | `[16] Aprofundar` | `[32] Devassar`
-
-- `[2] Indício` — obtém uma pista útil, mas incompleta. Em espionagem ou busca de uma pessoa, pode indicar apenas presença, direção ou estado geral muito básico.
-- `[4] Revelar` — identifica a informação principal, ainda com detalhes ausentes. Pode revelar, por exemplo, localização e estado geral de saúde quando isso estiver dentro do repertório.
-- `[8] Compreender` — obtém informação funcionalmente completa sobre o objetivo investigado.
-- `[16] Aprofundar` — revela relações, causas, contexto e detalhes ocultos relevantes.
-- `[32] Devassar` — alcança tudo que aquela capacidade consegue descobrir dentro de seu repertório.
 
 A Resistência vem daquilo que torna a informação difícil de obter: criatura, ocultação, Atributo, proteção ou dificuldade natural da própria informação.
 
@@ -224,25 +230,15 @@ Para uma Invocação sustentada por eixo mágico/mental (`MEN` ou `VON`), a Vida
 
 `Vida = maior entre MEN e VON + 3`
 
-Exemplos:
-
-`MEN [1] | VON [1] → VIDA [4]`
-
-`MEN [2] | VON [1] → VIDA [5]`
-
-`MEN [4] | VON [2] → VIDA [7]`
-
-`MEN [4] | VON [4] → VIDA [7]`
-
-A fórmula acima vale para a Vida da **criação invocada**, não para a Vida do invocador.
+A fórmula vale para a Vida da **criação invocada**, não para a Vida do invocador.
 
 ### Defesa da criação
 
-Quando a Invocação for atacada diretamente, sua Defesa estrutural usa a **RES da própria criatura ou objeto invocado**. Nunca se usa a RES do invocador para defender a criação.
+Quando a Invocação for atacada diretamente, sua Defesa estrutural usa a **RES da própria criatura ou objeto invocado**.
 
 `Defesa da Invocação = RES da própria criação`
 
-A RES da criação é determinada normalmente pela distribuição de Atributos da própria Invocação.
+A RES da criação é determinada pela distribuição de Atributos da própria Invocação.
 
 ### Outras Fontes de Invocação
 
@@ -266,7 +262,7 @@ Como existem quatro Atributos universais (`FIS | RES | MEN | VON`), não existe 
 
 Exemplos: `Cadeira comum → atributos relevantes [0]` | `Parede passiva → RES [5]` | `Parede ativa → FIS [4] | RES [4]` | `Golem bruto → FIS [4] | RES [4] | MEN [0]` | `Entidade equilibrada → FIS [3] | RES [3] | MEN [3]`.
 
-> **Invocação determina a chamada/criação. Os Atributos, a Defesa e a Vida pertencem à criatura ou objeto resultante.**
+> **Invocação determina a chamada/criação. Os Atributos, a Vida e a Defesa pertencem à criatura ou objeto resultante.**
 
 ### Função, contenção e eixo da disputa
 
