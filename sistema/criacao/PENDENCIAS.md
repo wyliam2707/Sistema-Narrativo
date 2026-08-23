@@ -187,13 +187,17 @@ CONTROLE: ...
 
 A regra já corresponde ao funcionamento descrito em `sistema/criacao/README.md`, que usa GERÊNCIA durante a escolha e persiste a identificação + CONTROLE na campanha. Nenhuma duplicação de campo deve ser criada.
 
-## Ponto atual
-
 ### Ponto 6 — personagens eventuais no índice da campanha
 
-Evitar listar um grupo genérico como se fosse uma única peça quando existem personagens distintos.
+APROVADO E REGISTRADO.
 
-Exemplo preferido a discutir:
+Regra aprovada:
+
+> **Cada personagem com agência é uma peça própria, deve aparecer individualmente no índice da campanha e possui sua própria ficha.**
+
+A persona `JOGADOR IA EVENTUAL` pode ser compartilhada por vários personagens, mas isso não transforma esses personagens em uma única peça operacional nem cria ficha compartilhada.
+
+Exemplo:
 
 ```text
 Dick Grayson — JOGADOR IA EVENTUAL
@@ -201,9 +205,17 @@ Kory — JOGADOR IA EVENTUAL
 Garfield — JOGADOR IA EVENTUAL
 ```
 
-A persona `JOGADOR IA EVENTUAL` pode ser única, mas as peças continuam distintas.
+Cada um possui seu próprio arquivo em `personagens/`.
 
-## Pontos ainda não revisados
+Registrado em:
+
+- `sistema/criacao/estrutura-da-campanha.md`
+
+Commit:
+
+- `50b1ca3618395c452e986d77707305712e3399a2`
+
+## Ponto atual
 
 ### Ponto 7 — personagem conhecido com versões diferentes
 
@@ -213,6 +225,8 @@ Proposta a discutir:
 
 - se o cenário já determina a versão, usar essa versão;
 - se existem versões materialmente diferentes e a campanha ainda não definiu qual vale, perguntar somente essa escolha antes de gerar a ficha preliminar.
+
+## Pontos ainda não revisados
 
 ### Ponto 8 — nome de campanha já existente
 
@@ -307,6 +321,6 @@ Ao abrir um novo chat, continuar assim:
 
 ```text
 1 - ler sistema/criacao/PENDENCIAS.md
-2 - apresentar somente o Ponto 6 ao usuário
-3 - não avançar ao Ponto 7 até o Ponto 6 ser aprovado e salvo
+2 - apresentar somente o Ponto 7 ao usuário
+3 - não avançar ao Ponto 8 até o Ponto 7 ser aprovado e salvo
 ```
