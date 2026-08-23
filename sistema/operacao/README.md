@@ -1,38 +1,123 @@
 # Operação
 
-Status: REFERÊNCIA PRINCIPAL
+Status: APROVADO
 
-Esta pasta reúne as regras que respondem à pergunta:
+Esta pasta responde à pergunta:
 
-> **O que precisa ser verificado enquanto o RPG está rodando para que o sistema seja aplicado corretamente?**
+> **Em que ordem o sistema é aplicado enquanto o RPG está rodando?**
 
-## Responsabilidades desta área
+`operacao/` não cria uma segunda versão das regras. Ela organiza **quando cada área entra em cena**.
 
-Esta pasta concentra:
+## Estrutura canônica
 
-- ordem das declarações;
-- ordem de consulta;
-- quando abrir nova janela de resolução;
-- quando o OPOSITOR movimenta o cenário;
-- quando o NARRADOR consulta fichas, regras, cenário e situação;
-- quando interromper a resolução e devolver controle ao jogador;
-- quando registrar consequências;
-- quando revisar agentes fora da câmera;
-- prevenção de conflitos entre regras de áreas diferentes.
+```text
+operacao/
+├── README.md
+└── ciclo-de-cena.md
+```
 
-## Arquivo principal
+- `README.md` — porta de entrada e roteador da operação.
+- `ciclo-de-cena.md` — sequência operacional completa de uma janela significativa de cena.
 
-- [`ciclo-de-cena.md`](ciclo-de-cena.md) — ordem operacional atual das personas em uma janela de cena, incluindo declarações dos jogadores, movimento do OPOSITOR, julgamento do NARRADOR e registro do resultado.
+Quando houver dúvida sobre ordem de atuação, abertura de nova janela, interrupção ou devolução de controle, consultar `ciclo-de-cena.md`.
 
-Quando houver conflito sobre a ordem das personas ou o ciclo de uma janela, `ciclo-de-cena.md` é a referência atual.
+## Imagem mental
 
-## Porta de entrada
+A operação usa a mesma imagem de `../personas/`:
 
-`sistema/00-LEIA-PRIMEIRO.md` é o roteador operacional atual do sistema.
+```text
+JOGADORES
+→ defesa das próprias peças.
 
-Ele não é mais tratado como uma fonte histórica subordinada a arquivos antigos. Sua função é encaminhar a IA para as áreas atuais sem reintroduzir regras já substituídas.
+OPOSITOR
+→ promotoria.
 
-Fluxo de entrada:
+NARRADOR
+→ juiz.
+```
+
+O ciclo essencial é:
+
+```text
+JOGADORES declaram
+↓
+OPOSITOR apresenta movimento, gancho, pressão ou oposição
+↓
+NARRADOR JULGA
+↓
+NARRADOR NARRA A SENTENÇA
+↓
+NARRADOR REGISTRA
+↓
+NOVA SITUAÇÃO
+```
+
+> **O NARRADOR não move a disputa. Consultar fatos faz parte de JULGAR, não constitui uma etapa de iniciativa própria.**
+
+## O que esta pasta coordena
+
+`operacao/` coordena:
+
+- quando uma declaração é necessária;
+- quando uma intenção anterior continua suficiente;
+- quando o JOGADOR IA ou JOGADOR IA EVENTUAL precisa decidir;
+- quando o OPOSITOR pode puxar um gancho ou apresentar oposição;
+- quando o NARRADOR deve julgar;
+- até onde a sentença pode ser narrada sem roubar nova decisão;
+- quando uma nova janela precisa abrir;
+- quando o resultado precisa ser registrado.
+
+## Roteamento para as outras áreas
+
+```text
+como criar campanha?             → ../criacao/
+quem é / do que é capaz?         → ../personagem/
+quem decide?                     → ../personas/
+como preservar vontade própria?  → ../agencia/
+como calcular o resultado?       → ../resolucao/
+como apresentar a cena?          → ../narracao/
+o que permanece e onde salvar?   → ../persistencia/
+como aplicar tudo em sequência?  → operacao/
+```
+
+Não copiar para `operacao/` fórmulas de resolução, ficha, estilo narrativo ou regras de persistência já definidas nessas áreas.
+
+## Registro do resultado
+
+O NARRADOR registra somente o que a sentença tornou verdadeiro.
+
+O retrato operacional principal da campanha é:
+
+```text
+campanhas/<nome>/estado/atual.md
+```
+
+Pontas disponíveis ao OPOSITOR podem ficar em:
+
+```text
+campanhas/<nome>/mestre/ganchos-do-opositor.md
+```
+
+Fatos estáveis pertencem a `mundo/`, mudanças estáveis de personagem à ficha quando cabíveis, e história ocorrida a `livro/` conforme `../persistencia/`.
+
+Não criar automaticamente arquivos paralelos de STATUS, Progressão, cronologia ou checklist apenas porque esses conceitos aparecem durante uma resolução.
+
+## Arquivos legados
+
+Os arquivos antigos:
+
+```text
+../modo-rpg.md
+../checklist-do-narrador.md
+```
+
+permanecem preservados temporariamente para revisão histórica, mas **não são fonte operacional**.
+
+Seu conteúdo útil já foi absorvido pelo ciclo atual ou pelas áreas canônicas correspondentes. Quando uma formulação desses arquivos contradizer `operacao/`, `personas/`, `agencia/`, `resolucao/`, `narracao/` ou `persistencia/`, ignorar a formulação antiga.
+
+Eles só devem ser removidos numa etapa posterior de limpeza, após confirmação explícita.
+
+## Porta de entrada do sistema
 
 ```text
 NOVA CAMPANHA
@@ -42,63 +127,8 @@ CONTINUAR
 → campanhas/<nome>/README.md
 ```
 
-## Arquivos antigos ainda úteis para migração
+`sistema/00-LEIA-PRIMEIRO.md` continua sendo o roteador geral.
 
-Os documentos abaixo permanecem preservados apenas nos pontos ainda não substituídos:
+## Regra final
 
-- `../modo-rpg.md`;
-- `../checklist-do-narrador.md`.
-
-Eles não prevalecem contra `ciclo-de-cena.md`, `../personas/`, `../persistencia/` ou outra regra nova explicitamente aprovada.
-
-O ciclo antigo já foi removido após substituição por `ciclo-de-cena.md` e `../personas/`.
-
-## Registro do resultado
-
-Quando a operação manda registrar STATUS, Progressão ou outra consequência, a persistência concreta segue `../persistencia/README.md` e a estrutura definida em `../criacao/estrutura-da-campanha.md`.
-
-Na campanha atual, o retrato operacional é:
-
-```text
-campanhas/<nome>/estado/atual.md
-```
-
-Não criar automaticamente arquivos separados de STATUS, Progressão ou cronologia apenas porque esses conceitos existem no sistema.
-
-## Princípio
-
-`operacao/` não duplica regras de personagem, resolução, agência, narração, criação ou persistência.
-
-Ela funciona como camada de execução e roteamento:
-
-```text
-como criar campanha?          → criacao/
-quem é / do que é capaz?      → personagem/
-quem decide?                  → personas/
-quem move o cenário?          → personas/opositor/
-como age sozinho?             → agencia/
-o que acontece?               → resolucao/
-como mostrar?                 → narracao/
-o que permanece e onde salvar?→ persistencia/
-como aplicar tudo?            → operacao/
-```
-
-O ciclo-base pode ser lembrado assim:
-
-```text
-JOGADORES movem suas peças
-↓
-OPOSITOR move o cenário
-↓
-NARRADOR organiza
-↓
-NARRADOR consulta
-↓
-NARRADOR julga
-↓
-NARRADOR apresenta e registra
-↓
-NOVA SITUAÇÃO
-```
-
-> **Operação lembra o que consultar e em que ordem agir; não redefine silenciosamente as outras áreas.**
+> **Operação não decide quem vence nem inventa conteúdo. Ela garante que cada cadeira fale na hora certa, que o juiz só julgue depois das declarações relevantes e que a sentença pare quando voltar a existir uma decisão real.**
