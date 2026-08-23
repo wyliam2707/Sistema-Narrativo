@@ -165,19 +165,59 @@ Acertar o joelho não aumenta automaticamente o patamar de Dano. Pode, entretant
 
 > **Descrição detalhada não cria bônus gratuito. Ela pode mudar quais defesas se aplicam e onde a consequência acontece.**
 
-## VIDA como referência de acúmulo
+## VIDA como limite de acúmulo
 
-Enquanto a consequência permitir desgaste progressivo, o dano acumulado usa a seguinte régua:
+`VIDA [X]` é o limite de Dano acumulado que a personagem consegue sustentar antes de ficar Incapacitada.
+
+Ela não é derivada de `RES`.
+
+```text
+RES → quanto o ataque consegue afetar a personagem
+VIDA → quanto Dano relevante ela consegue acumular depois disso
+```
+
+Assim, duas peças podem possuir a mesma resistência e durações completamente diferentes em combate.
+
+Exemplo:
+
+```text
+Monstro A → RES [4] | VIDA [5]
+Monstro B → RES [4] | VIDA [35]
+```
+
+Os dois são igualmente difíceis de ferir pelo mesmo mecanismo de ataque. Porém, quando Dano real consegue atravessar a resistência, o primeiro pode cair muito mais cedo.
+
+Quando:
+
+```text
+Dano acumulado ≥ VIDA
+```
+
+alcança-se `Incapacitado`, salvo se a natureza e o excesso do ataque justificarem consequência ainda mais severa.
+
+A VIDA não possui teto universal. `35` é uma referência comum para heróis, protagonistas e antagonistas centrais, não uma regra para toda criatura. Figurantes e minions podem possuir `VIDA [5]`, `[10]`, `[15]` ou `[20]`; entidades e chefes excepcionais podem possuir `VIDA [50]` ou mais.
+
+O valor da ficha é explícito. Importância e função narrativa podem orientar a duração que a peça precisa sustentar, mas não existe fórmula automática ligando Importância, RES e VIDA.
+
+### Régua heroica de 35
+
+Para personagens com `VIDA [35]`, a régua detalhada continua sendo uma referência útil:
 
 `0–4 Ileso | 5 Ferido | 10 Ferido* | 15 Grave | 20 Grave* | 25 Crítico | 30 Crítico* | 35 Incapacitado`
 
-A régua comunica progressão e ajuda o personagem a perceber quando permanecer na luta deixou de ser seguro.
+Personagens com outra VIDA não precisam ser forçados a percorrer essa régua inteira. O controle principal é sempre:
 
-Ela não funciona como proteção contra assimetrias evidentes.
+```text
+Dano acumulado / VIDA máxima
+```
 
-Um resultado muito acima da capacidade de sobrevivência pode saltar etapas. Quando a natureza do ataque e o excesso tornam sobrevivência incoerente, a consequência pode ser imediatamente letal.
+Os rótulos narrativos intermediários podem ser usados quando ajudarem a comunicar gravidade, mas não substituem o limite explícito da ficha.
 
-`Dano [5]` contra `Defesa [0]`, sem diferença de Perícia, é tratado como Ataque efetivo `[6]` e produz `64` de Dano aplicado: mais que toda a referência de `35` para Incapacitado. Se o golpe realmente atinge de forma compatível com sua natureza destrutiva, isso pode representar morte imediata.
+A VIDA também não funciona como proteção contra assimetrias evidentes.
+
+Um resultado muito acima da capacidade de sobrevivência pode saltar o acúmulo normal. Quando a natureza do ataque e o excesso tornam sobrevivência incoerente, a consequência pode ser imediatamente letal mesmo antes de uma leitura burocrática de etapas.
+
+Exemplo: `Dano [5]` contra `Defesa [0]`, sem diferença de Perícia, é tratado como Ataque efetivo `[6]` e produz `64` de Dano aplicado. Contra `VIDA [35]`, isso ultrapassa toda a referência heroica; contra uma criatura de `VIDA [5]`, o excesso é ainda mais brutal. Se o golpe realmente atinge de forma compatível com sua natureza destrutiva, isso pode representar morte imediata.
 
 ## Quantidade e incapacidade
 
@@ -205,7 +245,7 @@ Depois que o Dano é aplicado, permanece o ferimento na VIDA; o ataque não cont
 
 Em combate, para cada aplicação relevante dentro do turno:
 
-`determinar fonte de Dano e defesa aplicável → calcular Perícia efetiva → configurar e pagar Ampliação, se houver → calcular Ataque efetivo → calcular Dano aplicado → interpretar a consequência`
+`determinar fonte de Dano e defesa aplicável → calcular Perícia efetiva → configurar e pagar Ampliação, se houver → calcular Ataque efetivo → calcular Dano aplicado → acumular contra VIDA → interpretar a consequência`
 
 A quantidade e a precedência das aplicações que realmente cabem nos 10 segundos são julgadas pela situação e por `../operacao/turnos-de-combate.md`; não existe uma economia abstrata de “uma ação”.
 
