@@ -4,4 +4,6 @@ Campanha em criação.
 
 Todas as fichas iniciais com agência foram aprovadas.
 
-Próximo passo: definir e consolidar a situação inicial da história antes da primeira cena.
+O pareamento das informações entre fichas está em andamento.
+
+A situação inicial da história ainda não deve ser definida.
