@@ -4,6 +4,16 @@ O `JOGADOR HUMANO` controla exclusivamente as decisões voluntárias de seu pers
 
 Ele não é uma persona da IA. Este arquivo existe para definir com clareza os direitos e limites do papel humano dentro do ciclo.
 
+## Uma única peça humana por campanha
+
+Em cada campanha existe **um único personagem com `CONTROLE: JOGADOR HUMANO`**.
+
+O jogador humano movimenta essa única peça. Outros personagens com agência própria usam `JOGADOR IA` ou `JOGADOR IA EVENTUAL`, conforme sua função.
+
+Isso não limita a quantidade de personagens Centrais, Relevantes ou com agência na campanha; limita somente quantas peças pertencem diretamente ao jogador humano.
+
+> **Um jogador humano → uma única peça humana por campanha.**
+
 ## Controle exclusivo
 
 Pertencem ao Jogador Humano:
@@ -90,4 +100,4 @@ O sistema não cria falha artificial apenas para lembrar que a declaração era 
 
 ## Regra final
 
-> **O Jogador Humano escolhe o que seu personagem tenta fazer. Ele não narra sozinho o que o mundo faz em resposta.**
+> **O Jogador Humano escolhe o que seu único personagem tenta fazer. Ele não narra sozinho o que o mundo faz em resposta.**
