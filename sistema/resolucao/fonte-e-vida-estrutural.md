@@ -2,7 +2,7 @@
 
 Status: APROVADO
 
-Este arquivo estabelece como a **Fonte** de uma manifestação determina a Vida estrutural de Proteções e efeitos persistentes.
+Este arquivo estabelece como a **Fonte** de uma manifestação determina o Atributo estrutural e a Vida estrutural de Proteções e efeitos persistentes.
 
 ## Regra central
 
@@ -11,6 +11,32 @@ Este arquivo estabelece como a **Fonte** de uma manifestação determina a Vida 
 A Fonte é a maneira concreta pela qual a manifestação existe na ficção: magia, rede, armadura, corpo, energia, tecnologia, espírito, invocação ou outra origem coerente.
 
 A Fonte não é uma categoria mecânica nova e não muda, por si só, a função do efeito.
+
+## Eixos da Fonte
+
+Para resolver qual Atributo sustenta uma manifestação, usa-se como referência sua natureza e sua função:
+
+`Ação ou efeito físico → FIS`
+
+`Ação ou efeito mágico/mental → MEN`
+
+`Proteção física/estrutural → RES`
+
+`Proteção mágica/espiritual → VON`
+
+A Fonte concreta continua sendo descrita pela ficção. O eixo acima apenas traduz essa Fonte para o Atributo estrutural correspondente.
+
+Exemplos:
+
+`Imobilizar por rede → Fonte: rede física / FIS`
+
+`Imobilizar por magia → Fonte: magia / MEN`
+
+`Proteção por armadura ou campo físico → Fonte: estrutura física / RES`
+
+`Proteção arcana ou espiritual → Fonte: magia / VON`
+
+Um mesmo Poder pode usar eixos diferentes em manifestações diferentes quando sua natureza permitir. A escolha deve seguir a função e a Fonte reais da manifestação, não o Atributo mais vantajoso disponível.
 
 ## Vida estrutural
 
