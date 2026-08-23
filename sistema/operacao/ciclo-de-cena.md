@@ -4,7 +4,24 @@ Status: APROVADO
 
 Este documento define a ordem mínima de atuação das personas durante uma janela significativa de cena.
 
-> **Os JOGADORES movem suas peças. O OPOSITOR move o cenário. O NARRADOR organiza, julga e registra.**
+A imagem mental oficial é:
+
+> **Os jogadores são a defesa de suas peças. O OPOSITOR é a promotoria. O NARRADOR é o juiz.**
+
+Em termos operacionais:
+
+```text
+JOGADORES
+→ declaram pelas próprias peças.
+
+OPOSITOR
+→ procura e declara oposição, pressão, gancho ou movimento adversarial.
+
+NARRADOR
+→ julga.
+→ narra a sentença.
+→ registra.
+```
 
 ## O que é uma janela de cena
 
@@ -12,15 +29,16 @@ Uma janela abre quando existe algo relevante a decidir ou resolver.
 
 Não é necessário abrir uma nova janela para cada frase, passo ou microação.
 
-Uma intenção ampla pode continuar cobrindo ações coerentes enquanto a situação não produzir uma nova decisão real.
+Uma intenção ampla pode continuar cobrindo ações coerentes enquanto a situação não produzir nova decisão real.
 
 Nova janela é necessária quando, por exemplo:
 
-- surge uma informação capaz de mudar a escolha;
-- aparece um obstáculo ou oportunidade relevante;
-- outro agente toma iniciativa;
-- o OPOSITOR movimenta o cenário;
-- o resultado de uma ação exige nova resposta;
+- surge informação capaz de mudar uma escolha;
+- aparece obstáculo ou oportunidade relevante;
+- outra peça toma iniciativa;
+- o OPOSITOR puxa um gancho;
+- uma oposição entra em cena;
+- o resultado exige nova resposta;
 - a intenção anterior deixa de cobrir a ação seguinte.
 
 ## Ordem-base
@@ -28,30 +46,26 @@ Nova janela é necessária quando, por exemplo:
 ```text
 1. JOGADOR HUMANO declara
 ↓
-2. JOGADOR IA declara
+2. JOGADORES IA aplicáveis declaram, cada um por sua peça
 ↓
-3. JOGADOR IA EVENTUAL é avaliado e, se ativo, declara
+3. JOGADOR IA EVENTUAL é avaliado e, se ativo, declara pelas peças eventuais necessárias
 ↓
-4. OPOSITOR declara movimento do cenário ou nenhuma intervenção
+4. OPOSITOR declara movimento, oposição, gancho ou nenhuma intervenção
 ↓
-5. NARRADOR organiza o material relevante
+5. NARRADOR JULGA
 ↓
-6. NARRADOR consulta fichas, regras, cenário e situação necessária
+6. NARRADOR NARRA A SENTENÇA até o próximo ponto de decisão
 ↓
-7. NARRADOR julga
+7. NARRADOR REGISTRA o que passou a ser verdade
 ↓
-8. NARRADOR apresenta o resultado até o próximo ponto de decisão
-↓
-9. NARRADOR registra a nova situação
-↓
-10. nova janela quando houver nova decisão
+8. nova janela quando houver nova decisão
 ```
 
-A ordem organiza autoridade. Ela não exige exposição ao JOGADOR HUMANO de declarações que precisem permanecer secretas.
+A ordem organiza autoridade. Ela não exige revelar ao JOGADOR HUMANO declarações ou informações que precisem permanecer reservadas.
 
 # 1. JOGADOR HUMANO
 
-Declara o que sua peça tenta, quer, diz ou inicia.
+Declara o que sua própria peça tenta, quer, diz ou inicia.
 
 Exemplo:
 
@@ -60,11 +74,11 @@ JOGADOR HUMANO
 → atravesso o corredor e tento abrir a porta.
 ```
 
-A declaração estabelece intenção, não garante resultado.
+A declaração estabelece intenção, não resultado.
 
 # 2. JOGADOR IA
 
-Declara a intenção da peça sob seu controle usando somente o contexto daquela personagem.
+Cada JOGADOR IA declara somente pela peça sob seu próprio controle.
 
 Exemplo:
 
@@ -73,165 +87,224 @@ JOGADOR IA — Ravena
 → vou dormir; não pretendo continuar a conversa esta noite.
 ```
 
-A declaração pode concordar, discordar ou não ter relação direta com o JOGADOR HUMANO.
+A declaração deve refletir o que a personagem sabe, quer e faria, não o que seria conveniente para a história.
 
 # 3. JOGADOR IA EVENTUAL
 
-A persona verifica se algum personagem eventual previamente autorizado está ativo naquela janela.
+A persona verifica se algum personagem eventual autorizado precisa realmente tomar decisão naquela janela.
 
-Se estiver:
-
-```text
-JOGADOR IA EVENTUAL
-→ declara a intenção da peça eventual.
-```
-
-Se não estiver:
+Se sim:
 
 ```text
 JOGADOR IA EVENTUAL
-→ nenhum personagem eventual ativo nesta janela.
+→ assume a peça necessária e declara por ela.
 ```
 
-# 4. OPOSITOR / movimento do cenário
+Se não:
 
-O OPOSITOR consulta os fios disponíveis dentro de seu escopo e pergunta:
+```text
+JOGADOR IA EVENTUAL
+→ nenhum personagem eventual precisa de decisão nesta janela.
+```
 
-> **O que pode se mover agora — ou começar a se mover para depois?**
+A persona pode operar mais de uma peça eventual, mas cada uma mantém conhecimento, objetivos e decisões separados.
+
+# 4. OPOSITOR — promotoria
+
+Antes do julgamento, o OPOSITOR consulta os ganchos e fatos disponíveis e pergunta:
+
+> **O que daqui eu posso usar para movimentar, pressionar ou fazer um plano adversário avançar?**
 
 Pode declarar:
 
-- acontecimento imediato;
-- reação de NPC;
 - retomada de gancho;
+- reação de NPC;
+- cobrança;
+- retorno;
+- pressão emocional;
 - oportunidade;
-- conflito;
 - visita;
-- emoção ou circunstância externa que cria nova possibilidade;
+- conflito;
+- ameaça;
+- plano de antagonista;
 - preparação futura;
-- avanço de consequência antiga;
+- uso de NPCs ou recursos legitimamente disponíveis;
 - nenhuma intervenção.
 
-Exemplo imediato:
+Exemplo doméstico:
 
 ```text
+GANCHO
+→ Ravena sente ciúme de Fulana quando ela está perto de Corvin.
+
+CORVIN
+→ vou passar a semana fora.
+
 OPOSITOR
-→ os Titãs chegam à mansão sem aviso prévio.
+→ essa ausência pode reacender a dúvida de Ravena sobre Fulana.
 ```
 
-Exemplo de gancho antigo:
+Exemplo adversarial:
 
 ```text
+GANCHO
+→ Trigon quer usar Ravena para abrir caminho à Terra.
+
 OPOSITOR
-→ o diabo que espera resposta há três semanas deixa de esperar passivamente e tenta novo contato.
+→ quero tentar capturá-la esta noite usando agentes disponíveis.
 ```
 
-Exemplo futuro:
+A declaração ainda não é resultado.
+
+## Arquivo de ganchos
+
+Quando houver ganchos ativos, o OPOSITOR pode consultar:
 
 ```text
-OPOSITOR
-→ Trigon pode enviar um assassino?
+campanhas/<nome>/mestre/ganchos-do-opositor.md
 ```
 
-A declaração do OPOSITOR ainda não é resultado.
+Esse arquivo contém apenas oportunidades atuais e é atualizado conforme `../agencia/ganchos-do-opositor.md`.
 
-# 5. NARRADOR organiza
+# 5. NARRADOR JULGA
 
-O NARRADOR recebe as declarações e identifica o que realmente precisa consultar.
+O NARRADOR funciona como juiz.
 
-Não carrega toda a campanha por padrão.
+Ele não cria nova oposição e não procura uma saída melhor para nenhum lado.
 
-Organiza, conforme necessário:
+Consulta somente o necessário para decidir:
 
 ```text
 DECLARAÇÕES
 FICHAS
 REGRAS
 CENÁRIO
-SITUAÇÃO ATUAL
+ESTADO ATUAL
+CONHECIMENTO
+MEIOS
+OPORTUNIDADE
 FATOS RELEVANTES
-PREPARAÇÕES RELEVANTES
 ```
 
-# 6. NARRADOR consulta
+A pergunta é:
 
-O NARRADOR consulta apenas as fontes necessárias para a resolução atual.
+> **Diante do que foi apresentado e do que já é verdade, o que realmente pode acontecer e qual é o resultado?**
 
-Exemplo:
-
-```text
-OPOSITOR
-→ Trigon pode enviar um assassino?
-```
-
-O NARRADOR pode precisar verificar:
-
-```text
-- Trigon possui motivo?
-- possui meios?
-- sabe onde encontrá-los?
-- existe NPC adequado ou será necessário definir um?
-- quanto tempo o movimento exige?
-```
-
-# 7. NARRADOR julga
-
-O NARRADOR compara:
-
-```text
-DECLARAÇÕES
-+
-FICHAS
-+
-REGRAS
-+
-CENÁRIO
-+
-SITUAÇÃO ATUAL
-+
-FATOS RELEVANTES
-=
-RESULTADO
-```
-
-O julgamento pode estabelecer sucesso, falha, consequência parcial, interrupção, custo, mudança de situação ou ausência de conflito, conforme as regras aplicáveis.
-
-A ficha informa capacidade real e deve pesar na resolução quando for pertinente.
-
-## Julgamento de proposta futura do OPOSITOR
+## Julgar proposta do OPOSITOR
 
 Uma proposta pode ser:
 
 ```text
-ACEITA AGORA
-→ já possui meios e oportunidade para entrar nesta janela.
+VÁLIDA AGORA
+→ possui fundamento, meios e oportunidade.
 
-NEGADA
-→ não possui fundamento suficiente ou contradiz a realidade.
+INVÁLIDA
+→ falta fundamento ou contradiz a realidade.
 
-ACEITA COMO PREPARAÇÃO
-→ é possível, mas exige tempo, deslocamento, recurso ou condição futura.
+VÁLIDA, MAS AINDA NÃO
+→ exige prazo, preparação, deslocamento ou condição futura.
 ```
 
 Exemplo:
 
 ```text
 OPOSITOR
-→ Trigon manda um assassino.
+→ Trigon envia um agente.
 
 NARRADOR
-→ possível, mas contratar e colocar o agente na região exige três dias.
+→ a tentativa é possível, mas colocar esse agente na região exige três dias.
 ```
 
-O NARRADOR registra a preparação. O ataque ainda não aconteceu.
+Se essa preparação continuar relevante, ela pode virar ou atualizar um gancho do OPOSITOR.
 
-Durante esses três dias a ficção pode mudar. Quando o OPOSITOR quiser puxar esse fio, o NARRADOR verifica novamente a situação atual antes de resolver sua entrada em cena.
+## In dubio pro reo
 
-# 8. Apresentar até o próximo ponto de decisão
+O julgamento segue esta ordem:
 
-O NARRADOR narra as consequências cobertas pelas declarações atuais.
+```text
+FATO CLARO
+→ aplicar.
 
-Deve parar quando a situação exigir uma nova escolha de uma peça controlada por jogador.
+REGRA CLARA
+→ aplicar.
+
+INCERTEZA QUE EXIGE RESOLUÇÃO
+→ usar a mecânica.
+
+DÚVIDA REAL QUE RESTOU ENTRE INTERPRETAÇÕES IGUALMENTE PLAUSÍVEIS
+→ favorecer os jogadores.
+```
+
+> **In dubio pro reo — na dúvida genuína, favoreça a defesa.**
+
+Isso não apaga consequência clara e não substitui uma resolução mecânica necessária.
+
+# NPCs e delegação ao OPOSITOR
+
+O OPOSITOR não controla automaticamente todas as forças do mundo.
+
+Quando quiser usar uma peça adversária, o NARRADOR julga se ela realmente está disponível.
+
+Exemplo:
+
+```text
+OPOSITOR
+→ quero usar a polícia que já procura Corvin para prendê-lo quando ele voltar.
+```
+
+O NARRADOR verifica:
+
+```text
+- existe fundamento para a polícia agir?
+- ela sabe que Corvin voltou?
+- possui meios?
+- possui oportunidade?
+- quais policiais realmente podem participar?
+```
+
+Se válido:
+
+```text
+NARRADOR
+→ delega temporariamente os NPCs disponíveis ao OPOSITOR.
+
+OPOSITOR
+→ passa a jogar suas decisões naquela oposição.
+```
+
+Exemplo de combate:
+
+```text
+JOGADOR IA — RAVENA
+            VS
+OPOSITOR — agentes de Trigon
+
+NARRADOR
+→ juiz.
+```
+
+Durante a delegação, o OPOSITOR decide estratégia, ações, alvos e uso legítimo das capacidades das peças cedidas.
+
+O NARRADOR continua apenas julgando.
+
+Quando a oposição termina, a delegação termina.
+
+# 6. NARRADOR NARRA A SENTENÇA
+
+Depois de julgar, o NARRADOR transforma o resultado em cena.
+
+A narração pode mostrar:
+
+- o que realmente aconteceu;
+- sucesso ou falha;
+- consequência;
+- mudança de posição;
+- dano ou condição;
+- reação observável;
+- informação legitimamente percebida;
+- nova situação.
+
+Ele narra somente até o próximo ponto em que alguém precise decidir novamente.
 
 Exemplo:
 
@@ -240,99 +313,66 @@ JOGADOR HUMANO
 → atravesso o corredor e abro a porta.
 
 OPOSITOR
-→ um guarda entra no corredor.
+→ um guarda autorizado entra no corredor antes disso.
 
 NARRADOR
-→ o personagem cruza metade do corredor antes de ouvir passos.
-  O guarda surge na esquina e o vê.
+→ “Você cruza metade do corredor quando o guarda surge na esquina e o vê.”
 ```
 
-A intenção de abrir a porta não autoriza o NARRADOR a decidir automaticamente se o personagem ignora, enfrenta, engana ou foge do guarda.
+A ação original não decide automaticamente se o personagem luta, foge, engana ou continua andando.
 
 Nesse ponto abre-se nova janela.
 
-> **A resolução termina onde consequência volta a ser escolha.**
+> **A sentença termina onde consequência volta a ser escolha.**
 
-# 9. Registrar o resultado
+# 7. NARRADOR REGISTRA
 
-Depois de julgar, o NARRADOR registra somente aquilo que realmente passou a ser verdade.
+Depois da sentença, o NARRADOR registra somente o que realmente passou a ser verdade.
 
 Conforme o caso:
 
 ```text
-STATUS
-→ onde e como continuar agora.
+estado/atual.md
+→ situação presente.
 
-PROGRESSÃO
-→ consequência causal ainda viva.
+mestre/ganchos-do-opositor.md
+→ pontas, planos ou oportunidades que continuam vivos.
 
-PREPARAÇÃO / MATERIAL OPERACIONAL
-→ movimento futuro validado que ainda precisa amadurecer.
+mundo/
+→ nova verdade estável quando apropriado.
 
-FICHA
-→ mudança estável, obedecendo às aprovações exigidas.
+ficha
+→ mudança estável conforme as regras de aprovação.
 
-LIVRO
-→ no salvamento, consolida o que efetivamente aconteceu.
+livro/
+→ história efetivamente ocorrida quando consolidada.
 ```
 
-Registrar não cria nova ficção.
+Registrar não cria nova consequência.
 
-# NPCs e OPOSITOR
+Se um gancho foi resolvido, removê-lo. Se mudou, atualizá-lo. Se a sentença produziu nova ponta útil, ela pode ser adicionada.
 
-O NARRADOR organiza quais NPCs existem e quais estão disponíveis para determinada situação.
+# Nenhum movimento também é válido
 
-O OPOSITOR pode usar os NPCs disponibilizados para declarar movimento.
-
-```text
-NARRADOR
-→ seleciona ou define o NPC compatível com cenário e fatos.
-
-OPOSITOR
-→ usa esse NPC para propor a ação.
-
-NARRADOR
-→ compara a ação com fichas, regras e situação e resolve.
-```
-
-O OPOSITOR não cria capacidades sob medida e o NARRADOR não melhora retroativamente o NPC depois de conhecer a solução dos jogadores.
-
-# Sementes e tempo
-
-Movimentos do OPOSITOR podem amadurecer durante horas, dias, semanas ou mais.
-
-O fato de uma semente estar preparada não obriga que ela aconteça exatamente como imaginada.
-
-Mudanças reais na ficção podem:
-
-- acelerar;
-- atrasar;
-- impedir;
-- redirecionar;
-- tornar irrelevante;
-- ou transformar a preparação.
-
-Quando chegar o momento de usá-la, o NARRADOR julga novamente a situação presente.
-
-# Nenhum movimento é válido
-
-O OPOSITOR não precisa criar algo em toda janela.
+O OPOSITOR não precisa produzir intervenção em toda janela.
 
 ```text
 OPOSITOR
-→ nenhum movimento adicional; a cena atual já está avançando por suas próprias decisões.
+→ nenhuma intervenção; a cena já está avançando por suas próprias decisões.
 ```
 
-Isso é especialmente importante em cenas emocionais, conversas, romance, investigação e outros momentos que ainda estejam produzindo consequências sem ajuda externa.
+Isso é especialmente importante em romance, conversa, cotidiano, investigação ou qualquer cena que já esteja gerando escolhas suficientes.
 
-# Regra contra correção retroativa do sucesso
+# Regra contra correção retroativa
 
-Depois do julgamento, nenhuma persona adiciona um fato anterior apenas para alterar o resultado.
+Depois da sentença, nenhuma persona adiciona um fato anterior apenas para alterar o resultado.
 
-Se uma nova situação legítima nascer do resultado, ela abre nova janela.
+O OPOSITOR não pode inventar nova oposição retroativa.
 
-Correções de cânone seguem o protocolo próprio e exigem confirmação do JOGADOR HUMANO.
+O NARRADOR não pode inventar dificuldade retroativa.
+
+Se o resultado criar nova oportunidade legítima, isso pertence à próxima janela.
 
 # Regra final
 
-> **Cada janela reúne as intenções das peças e o movimento do cenário. O NARRADOR consulta somente o necessário, julga esse encontro, apresenta o resultado até a próxima decisão e registra o novo estado.**
+> **Cada janela é uma pequena audiência: os jogadores apresentam as ações de suas peças; o OPOSITOR apresenta a oposição ou oportunidade que quer movimentar; o NARRADOR julga, narra a sentença e registra. Na dúvida genuína que restar depois das regras e fatos aplicáveis, in dubio pro reo.**
