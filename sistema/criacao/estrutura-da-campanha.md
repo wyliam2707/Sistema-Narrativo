@@ -163,6 +163,41 @@ Portanto, VIDA atual, ENERGIA atual, localização atual, ferimentos temporário
 
 Guarda a realidade dinâmica atual da campanha: aquilo que pode mudar durante o jogo e precisa ser retomado corretamente depois.
 
+Por padrão, possui **um único arquivo obrigatório**:
+
+```text
+estado/
+└── atual.md
+```
+
+`atual.md` deve conter somente o necessário para uma IA assumir a campanha e continuar corretamente do ponto presente.
+
+Pode registrar, quando existirem:
+
+- momento atual;
+- localização atual dos personagens;
+- VIDA e ENERGIA atuais;
+- STATUS, condições e efeitos ativos;
+- situações em andamento;
+- intenções futuras ainda ativas;
+- fios causais pendentes;
+- outras informações operacionais realmente necessárias para continuar.
+
+Não usar `atual.md` para recontar capítulos, repetir fichas completas ou duplicar fatos estáveis já registrados em `mundo/`.
+
+Não criar por padrão arquivos separados como:
+
+```text
+status.md
+progressao.md
+cronologia.md
+intencoes.md
+```
+
+Se `atual.md` crescer a ponto de uma divisão ser realmente necessária, a estrutura pode ser ampliada posteriormente conforme necessidade concreta.
+
+> **`estado/atual.md` responde: “Se outra IA assumir a campanha agora, o que ela precisa saber para continuar corretamente daqui?”**
+
 ### `mundo/`
 
 Guarda fatos estabelecidos do cenário que precisam persistir, como lugares, organizações, regras próprias daquela campanha e outros elementos de mundo relevantes.
