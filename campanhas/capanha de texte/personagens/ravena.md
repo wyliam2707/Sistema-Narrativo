@@ -39,10 +39,18 @@ Ravena pertence nativamente a este cenário e sempre fez parte deste mundo; não
 - **Magia da Alma [3]** => Geral / Dano / Proteção / Movimento / Contenção / Portal / Cura [2] / Projeção Astral [4]
 - **Empatia [2]** => Percepção emocional / Influência emocional / Absorção emocional
 
-### Outros campos
-- **TRAÇOS:**
-- **RECURSOS:**
-- **REL:**
+### Traços
+- Híbrida humano-demoníaca.
+- Disciplina emocional extrema.
+- Emoções muito intensas podem aumentar a influência ou a potência de sua natureza demoníaca, mas não provocam perda automática de controle.
+- A proximidade de Corvin ou Wanda, por serem pessoas em quem confia profundamente, ajuda Ravena a se estabilizar, conter excessos e direcionar suas emoções sem precisar reprimi-las completamente.
+
+### Relações
+- **Corvin Blackwood:** namorado; vínculo amoroso consolidado, relação de confiança e uma de suas principais âncoras emocionais.
+- **Wanda Maximoff:** relação profunda de confiança e proximidade; sua presença também ajuda Ravena a se centrar.
+
+### Recursos
+Nenhum recurso específico consolidado por enquanto.
 
 ## Personalidade e tendências
 
