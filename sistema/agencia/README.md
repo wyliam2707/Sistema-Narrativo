@@ -1,57 +1,193 @@
 # Agência
 
-Esta pasta reúne as regras que respondem à pergunta:
+Status: APROVADO
 
-> **Quem decide o quê, e como personagens continuam sendo agentes próprios mesmo fora da câmera?**
+Esta pasta define como personagens e forças do mundo continuam capazes de agir sem transformar a campanha em uma simulação permanente de tudo que existe.
 
-## Estado da migração
+A imagem mental operacional pertence a `../personas/README.md`:
 
-A estrutura nova está sendo construída progressivamente.
+> **Os jogadores defendem e movimentam suas próprias peças. O OPOSITOR observa a mesa, guarda ganchos e movimenta a parte adversarial da ficção. O NARRADOR julga, narra a sentença e registra.**
 
-Alguns arquivos antigos em `sistema/` ainda permanecem como fontes históricas nos pontos não substituídos por regras aprovadas da arquitetura nova. Arquivos já removidos após substituição completa não devem ser procurados nem usados como fonte operacional.
+## Princípio central
 
-## Responsabilidades desta área
+Todo personagem que está efetivamente em uma cena possui agência compatível com:
 
-Esta pasta deverá concentrar, progressivamente:
+- quem ele é;
+- o que sabe;
+- o que quer;
+- sua situação;
+- suas capacidades e limitações.
 
-- agência de personagens;
-- ciclo autônomo;
-- vida fora da câmera;
-- conhecimento separado;
-- continuidade de objetivos e relações;
-- ativação e desativação de `JOGADOR IA EVENTUAL`;
-- relações entre personagens como agentes independentes;
-- limites contra meta-jogo e vazamento de informação.
+Isso vale independentemente de sua `IMPORTÂNCIA`.
 
-## Arquivos aprovados nesta área
+Um Figurante presente em cena não vira ferramenta automática do roteiro. Ele pode recusar, fugir, mentir, ajudar, ter medo, mudar de ideia ou agir de outra forma coerente.
 
-- `continuidade-de-npcs.md` — define quando NPCs precisam de acompanhamento, como preservar retornos e pendências futuras sem simular suas vidas dia a dia e como esses fios voltam a mover a história.
-- `continuidade-de-jogadores-ia.md` — define como JOGADORES IA mantêm continuidade fora da câmera e como suas declarações compartilham o mesmo intervalo temporal, podendo interromper uma ação longa quando criam nova decisão.
+> **IMPORTÂNCIA não concede agência. CONTROLE não define personalidade. Todo personagem em cena age como uma peça própria.**
 
-## Relação com outras áreas
+## Fora de cena não significa simular tudo
 
-`../personas/` define **as funções operacionais e autoridades de decisão**.
+Quando um personagem sai da cena, não é necessário continuar simulando sua vida apenas porque ele existe.
 
-`../personagem/` define **quem a entidade é e do que é capaz**.
+Pergunta operacional:
 
-`agencia/` define **como essa entidade continua exercendo vontade própria ao longo da ficção**, inclusive fora da cena principal.
+> **Existe alguma continuidade causal que ainda pode voltar a mover a história?**
+
+Se não houver:
+
+```text
+sem pendência
++ sem plano relevante
++ sem retorno estabelecido
++ sem consequência viva
+→ pode sair do acompanhamento.
+```
+
+Se houver:
+
+```text
+retorno
+prazo
+promessa
+objetivo
+plano
+consequência
+relação ativa
+ou outra ponta útil
+→ preservar somente o necessário.
+```
+
+Não acompanhar cada hora ou dia intermediário.
+
+## Ganchos do OPOSITOR
+
+Qualquer ponta útil que possa voltar a movimentar a história pode ser guardada pelo OPOSITOR.
+
+Exemplos:
+
+```text
+- Ravena sente ciúme de Fulana quando ela está perto de Corvin.
+- Corvin contou que não fala com o irmão há dez anos.
+- O credor pode voltar entre 18 e 30 dias.
+- Trigon pretende sequestrar Ravena antes do fim da semana.
+```
+
+Quando houver ganchos ativos, a campanha pode usar:
+
+```text
+campanhas/<nome>/mestre/ganchos-do-opositor.md
+```
+
+O arquivo é uma lista simples de oportunidades atuais. Não é histórico nem roteiro.
+
+```text
+gancho ainda serve
+→ permanece.
+
+gancho mudou
+→ atualizar.
+
+gancho deixou de servir ou deixou de ser verdadeiro
+→ apagar.
+```
+
+Regras completas:
+
+- `ganchos-do-opositor.md`
+
+## Planos maiores
+
+Personagens importantes e antagonistas podem possuir objetivos ou planos que continuam vivos fora de cena.
 
 Exemplo:
 
-- `personas/jogador-ia/` define o papel `JOGADOR IA`;
-- `personagem/` guarda a definição estável da peça;
-- `agencia/` define como essa peça mantém rotina, objetivos, relações e decisões fora da câmera.
+```text
+Trigon quer usar Ravena para abrir caminho à Terra.
+```
 
-## Fonte antiga ainda útil
+Isso pode permanecer como gancho disponível ao OPOSITOR.
 
-- `../agencia-de-personagens.md` — fonte histórica para regras de agência e ciclo autônomo ainda não reescritas nesta pasta.
+O OPOSITOR pode tentar fazer o plano avançar, escolher oportunidades, mudar de abordagem depois de uma falha e usar NPCs ou recursos legitimamente disponíveis.
 
-A ordem operacional atual do ciclo está em `../operacao/ciclo-de-cena.md`.
+O plano não garante o resultado.
 
-## Regra de migração
+> **O plano pertence à peça. O gancho preserva a oportunidade. O OPOSITOR movimenta. O NARRADOR julga.**
 
-Novos arquivos devem separar conceitos que hoje ainda estejam reunidos em documentos antigos, sem perder comportamento já validado em campanha.
+## NPCs e delegação
 
-Quando uma formulação antiga contradiz uma regra nova explicitamente aprovada, prevalece a regra nova.
+O OPOSITOR não controla automaticamente todos os NPCs e forças do mundo.
 
-> **Agência não é reação conveniente ao protagonista; é continuidade de vontade própria.**
+Quando uma oposição concreta exigir agência adversária, o NARRADOR julga quais peças realmente existem e podem participar.
+
+Se forem válidas, pode delegá-las temporariamente ao OPOSITOR.
+
+```text
+NARRADOR
+→ julga se a peça existe, sabe, pode e consegue agir.
+
+OPOSITOR
+→ recebe a peça e joga suas decisões durante aquela oposição.
+
+NARRADOR
+→ julga as declarações dos dois lados.
+```
+
+Ao terminar a oposição, a delegação termina. A peça continua sendo NPC.
+
+## Conhecimento separado
+
+Conhecimento operacional de uma persona não vira automaticamente conhecimento da peça que ela movimenta.
+
+```text
+PERSONA SABE
+≠
+PERSONAGEM SABE
+```
+
+O OPOSITOR pode enxergar uma ponta solta porque observa a mesa inteira. Um NPC só pode agir com base nela se possuir meio legítimo de conhecê-la.
+
+## Importância e continuidade
+
+`IMPORTÂNCIA` indica peso estrutural, não obrigação de simular continuamente o personagem.
+
+Um personagem Central pode passar semanas fora da câmera sem exigir decisões diárias.
+
+Um Figurante pode deixar um fio futuro importante e precisar voltar depois.
+
+Exemplo:
+
+```text
+Figurante
+→ prometeu entregar um documento amanhã
+→ preservar o fio até amanhã.
+```
+
+O que determina acompanhamento fora da cena é a existência de **continuidade causal útil**, não apenas a classificação estrutural.
+
+## Arquivos desta área
+
+- `ganchos-do-opositor.md` — lista simples de oportunidades, pontas, planos e informações que o OPOSITOR pode voltar a usar.
+- `continuidade-de-npcs.md` — quando NPCs precisam continuar sendo acompanhados e quando podem ser esquecidos.
+- `continuidade-de-jogadores-ia.md` — continuidade de personagens controlados por IA fora da câmera.
+
+## Relação com outras áreas
+
+```text
+personas/
+→ quem possui qual autoridade na mesa.
+
+personagem/
+→ quem a peça é e do que é capaz.
+
+agencia/
+→ como vontade, objetivos, fios e decisões continuam ao longo da ficção.
+
+operacao/
+→ em que ordem as declarações entram numa janela de cena.
+
+persistencia/
+→ onde o resultado e os fios vivos são registrados.
+```
+
+## Regra final
+
+> **Em cena, todo personagem é uma peça com agência própria. Fora da cena, acompanhe apenas o que ainda pode voltar a importar. Pontas úteis viram ganchos do OPOSITOR; pontas mortas são esquecidas.**
