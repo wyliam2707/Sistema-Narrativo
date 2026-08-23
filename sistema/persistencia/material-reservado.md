@@ -2,178 +2,143 @@
 
 Status: APROVADO
 
-A pasta `mestre/` de uma campanha guarda **fatos, NPCs, preparações, planos e outras informações operacionais que não devem entrar automaticamente no contexto de todas as personas**.
+A pasta `mestre/` guarda fatos, NPCs, preparações, planos e outras informações operacionais que não devem entrar automaticamente no contexto de todas as personas.
 
-Ela não é um mecanismo técnico de privacidade e não representa a mente completa do NARRADOR.
+Ela não é um mecanismo técnico de privacidade.
 
 > **`mestre/` é uma fonte reservada da campanha. Cada persona recebe dela somente o recorte necessário à própria função.**
 
-## Destino concreto atual
-
-Nas campanhas do fluxo atual, material reservado pertence a:
+## Destino concreto
 
 ```text
 campanhas/<nome>/mestre/
 ```
 
-A estrutura interna é flexível. Criar subdivisões apenas quando houver conteúdo suficiente para justificar.
+Subdivisões são opcionais e só devem existir quando houver conteúdo suficiente para justificar.
 
-Exemplo possível:
+Exemplo:
 
 ```text
-campanhas/<nome>/
-└── mestre/
-    ├── README.md
-    ├── notas.md
-    ├── npcs/
-    ├── segredos/
-    └── preparacoes/
+mestre/
+├── README.md
+├── npcs/
+├── segredos/
+└── preparacoes/
 ```
 
-Essas subpastas são opcionais.
+NPC persistente sem agência de jogador pertence a `mestre/`, não a `mundo/npcs/`.
 
-Não usar `aventuras/<campanha>/` para novas campanhas e não usar `mundo/npcs/` como destino padrão de NPC persistente.
+## Acesso técnico não é conhecimento de personagem
 
-## Acesso técnico não é acesso de persona
-
-O JOGADOR HUMANO pode tecnicamente abrir qualquer arquivo do repositório se quiser.
-
-A separação relevante é operacional entre as personas da IA:
+O fato de uma informação existir no repositório não significa que uma personagem a conhece.
 
 ```text
 JOGADOR IA
-→ recebe somente aquilo que seu personagem legitimamente sabe
+→ recebe somente o que sua peça legitimamente sabe.
 
 JOGADOR IA EVENTUAL
-→ recebe somente aquilo que sua peça legitimamente sabe
+→ recebe somente o que a peça assumida legitimamente sabe.
 
 OPOSITOR
-→ recebe fios, NPCs, planos e preparações necessários para mover o cenário
+→ pode consultar fios e recursos necessários para apresentar movimentos e oposição.
 
 NARRADOR
-→ consulta fatos, fichas, regras e preparações necessários para organizar e julgar
+→ consulta somente o que precisa para julgar, narrar a sentença e registrar corretamente.
 ```
 
-> **Separação de persona é separação de contexto e autoridade, não segurança técnica do repositório.**
+A compartimentação geral segue `../personas/escopo-de-consulta.md`.
 
-As regras gerais de compartimentação estão em `../personas/escopo-de-consulta.md`.
+## O que pode existir em `mestre/`
 
-## Função de `mestre/`
-
-A pasta pode guardar, quando houver conteúdo real que justifique:
+Quando necessário:
 
 - fichas e informações operacionais de NPCs;
 - identidades ocultas;
-- conhecimentos secretos de NPCs;
-- objetivos ainda desconhecidos;
+- conhecimento secreto de um agente;
+- objetivos desconhecidos;
 - armadilhas e preparações já existentes;
 - verdades ocultas do cenário;
 - planos ainda não executados;
-- sementes futuras validadas;
-- possibilidades ainda não transformadas em fato;
-- outras informações reservadas necessárias à continuidade.
+- possibilidades reservadas ainda não transformadas em fato;
+- outras informações necessárias à continuidade.
 
-`mestre/` não deve duplicar fichas completas de personagens que já possuem agência própria em `personagens/`.
+Não duplicar ficha completa de personagem que já possui agência própria em `personagens/`.
 
-Se uma peça com agência tiver informação reservada que não possa ficar na ficha aberta, registrar apenas o segredo necessário em `mestre/`, mantendo uma única ficha canônica em `personagens/`.
+## Estados da informação
 
-## `mestre/` não pertence exclusivamente ao NARRADOR
-
-O nome da pasta é organizacional.
-
-O NARRADOR não deve carregar todo o conteúdo dela por padrão.
-
-O OPOSITOR também não deve vasculhá-la inteira apenas para procurar uma complicação.
-
-Cada persona consulta somente o material pertinente à função do momento.
-
-## Natureza da informação
-
-Quando houver risco de confusão, distinguir claramente o estado do conteúdo.
+Quando houver risco de confusão, distinguir:
 
 ### FATO
 
-Já é verdade na campanha.
+Já é verdade.
 
 ```text
 FATO:
 - Trigon conhece a localização do santuário.
 ```
 
-### CONHECIMENTO DE NPC
+### CONHECIMENTO
 
-Algo que determinado NPC realmente sabe.
+Algo que determinado agente sabe.
 
 ```text
-CONHECIMENTO:
-- Trigon sabe que Corvin procura o grimório.
+CONHECIMENTO — Trigon:
+- Corvin procura o grimório.
 ```
 
-Isso não concede o mesmo conhecimento a outra personagem.
+Conhecimento de um agente não se transfere automaticamente a outro.
 
 ### PREPARAÇÃO
 
-Algo que já foi colocado, organizado ou iniciado no mundo.
+Algo que já foi colocado, iniciado ou organizado no mundo.
 
 ```text
 PREPARAÇÃO:
-- duas câmeras cobrem a entrada principal do galpão.
+- duas câmeras cobrem a entrada principal.
 ```
-
-Uma preparação pode ser descoberta, evitada, neutralizada, atrasada ou tornar-se irrelevante.
 
 ### PLANO
 
-Intenção de alguém dentro da ficção que ainda não foi executada.
+Intenção ainda não executada.
 
 ```text
 PLANO:
-- Trigon pretende capturar Dick se surgir oportunidade.
+- Trigon pretende capturar Ravena se surgir oportunidade.
 ```
-
-Plano não é acontecimento consumado.
 
 ### POSSIBILIDADE
 
-Ideia ainda não transformada em verdade da ficção.
+Ideia ainda não estabelecida na ficção.
 
 ```text
 POSSIBILIDADE:
-- Trigon pode tentar negociar com Ravena em algum momento.
+- Trigon pode tentar negociar em algum momento.
 ```
 
-Possibilidade não fundamenta resolução como se já fosse fato.
+Possibilidade não pode ser usada como se fosse fato anterior.
 
-## Proposto, validado e acontecido
-
-Durante o jogo:
+## Proposto, julgado e acontecido
 
 ```text
 PROPOSTO
-→ uma persona sugere um movimento possível
+→ jogador, JOGADOR IA, JOGADOR IA EVENTUAL ou OPOSITOR apresenta uma intenção ou movimento.
 
-VALIDADO
-→ o NARRADOR confirma fundamento, meios, condições e tempo necessários
+JULGADO
+→ NARRADOR verifica fatos, conhecimento, meios, oportunidade e regras.
 
 ACONTECIDO
-→ a ação foi efetivamente estabelecida na ficção
+→ a resolução/sentença estabelece o que efetivamente passou a ser verdade.
 ```
 
-Uma proposta não se torna automaticamente fato.
-
-Uma preparação validada pode existir antes de produzir acontecimento. Quando o acontecimento ocorrer, o Livro registra o que realmente aconteceu.
+Proposta não é fato. Plano não é acontecimento. Preparação existente pode produzir consequência somente quando a situação realmente a aciona.
 
 ## NPCs persistentes
 
-NPCs persistentes ou com informação operacional relevante podem ser registrados em:
+NPCs que precisam de continuidade própria podem ficar em:
 
 ```text
 campanhas/<nome>/mestre/npcs/
 ```
-
-quando essa subdivisão for útil.
-
-Suas fichas seguem as mesmas regras gerais de personagem.
 
 Enquanto forem NPCs:
 
@@ -181,94 +146,84 @@ Enquanto forem NPCs:
 CONTROLE: NPC
 ```
 
-Se uma personagem passar formalmente a possuir `CONTROLE: JOGADOR IA EVENTUAL`, sua ficha canônica passa para:
+Se passarem formalmente a possuir agência de jogador aprovada, sua ficha canônica passa para `personagens/` conforme as regras de criação/personagem. Segredos separados podem permanecer em `mestre/`.
 
-```text
-campanhas/<nome>/personagens/<personagem>.md
-```
+## OPOSITOR
 
-Material secreto separado pode continuar em `mestre/` quando necessário.
+O OPOSITOR pode usar material reservado para apresentar movimento a partir de fatos reais.
 
-## Relação com o OPOSITOR
+Pode consultar, quando pertinente:
 
-O OPOSITOR usa material reservado para mover o cenário a partir de fatos reais, não para fabricar uma resposta sob medida depois que o jogador encontrou uma solução.
+- ganchos;
+- consequências vivas;
+- planos;
+- preparações;
+- NPCs disponíveis;
+- recursos legítimos;
+- oportunidades;
+- ameaças;
+- passagem de tempo relevante.
 
-Pode receber, conforme necessário:
+Ele não pode inventar retroativamente uma preparação apenas porque isso melhoraria a oposição.
 
-- gancho antigo;
-- consequência parada;
-- plano de NPC;
-- preparação futura;
-- NPC disponível;
-- oportunidade;
-- ameaça;
-- visita possível;
-- informação de passagem de tempo;
-- outro fio capaz de gerar movimento.
+> **O OPOSITOR argumenta e movimenta. O NARRADOR julga.**
 
-Sua pergunta típica é:
+## NARRADOR
 
-> **Isso aqui pode se mover agora?**
-
-O NARRADOR julga a proposta.
-
-## Relação com o NARRADOR
-
-O NARRADOR consulta `mestre/` somente quando algum conteúdo for necessário para:
+O NARRADOR consulta `mestre/` quando isso for necessário para:
 
 - validar uma proposta;
-- verificar capacidade ou conhecimento de NPC;
-- confirmar preparação;
+- verificar conhecimento ou capacidade;
+- confirmar preparação existente;
 - julgar uma resolução;
-- registrar novo estado operacional.
+- narrar corretamente a sentença;
+- registrar o resultado já estabelecido.
 
-> **O NARRADOR organiza, julga e registra. O OPOSITOR movimenta fios disponíveis.**
+O NARRADOR não vasculha material reservado para procurar uma complicação nova. Essa iniciativa pertence ao OPOSITOR.
 
-## Relação com o estado atual
-
-`mestre/` e `estado/atual.md` cumprem funções diferentes.
+## Relação com `estado/atual.md`
 
 ```text
 mestre/
-→ verdade ou intenção reservada de condução
+→ detalhe reservado.
 
 estado/atual.md
-→ retrato operacional necessário para continuar agora
+→ retrato necessário para continuar agora.
 ```
 
-Um plano secreto pode permanecer somente em `mestre/`.
+Um plano secreto pode ficar apenas em `mestre/`.
 
-Se uma consequência reservada já está ativa e precisa ser conhecida pelo NARRADOR para retomar corretamente o momento presente, o estado pode apontar de forma operacional para a fonte reservada sem revelar ao jogador o conteúdo que sua personagem não conhece.
+Quando a retomada exige saber que existe uma fonte reservada relevante, `estado/atual.md` pode apontar para ela sem duplicar o conteúdo.
 
-Não duplicar automaticamente todo material reservado em `estado/atual.md`.
+## Relação com ganchos do OPOSITOR
+
+O arquivo:
+
+```text
+campanhas/<nome>/mestre/ganchos-do-opositor.md
+```
+
+é uma lista simples de oportunidades atuais, conforme `../agencia/ganchos-do-opositor.md`.
+
+Ele não substitui todo `mestre/` e não precisa repetir fichas, planos completos ou segredos já armazenados em outra fonte.
 
 ## Relação com o Livro
 
 ```text
 mestre/
-→ guarda realidade operacional, planos e preparações reservadas ainda úteis
+→ guarda fatos, planos e preparações reservadas ainda úteis.
 
 livro/
-→ registra aquilo que efetivamente aconteceu
+→ registra aquilo que efetivamente aconteceu.
 ```
 
 Plano não executado não entra no Livro como fato.
 
-Ação secreta efetivamente acontecida pode entrar no Livro como parte da realidade completa da campanha, conforme `livro.md`, sem conceder metaconhecimento às personagens.
-
-## Relação com Progressão
-
-Progressão descreve consequências estabelecidas que continuam causalmente vivas.
-
-Na estrutura atual, um fio causal presente pode ser persistido em `estado/atual.md`; quando sua natureza precisar permanecer reservada, a fonte detalhada pode ficar em `mestre/`.
-
-Não duplicar automaticamente a mesma informação em várias fontes.
+Ação secreta efetivamente ocorrida pode entrar no Livro conforme `livro.md`, sem conceder esse conhecimento às personagens.
 
 ## Proibição de criação retroativa
 
-`mestre/` não é uma caixa-preta para justificar qualquer coisa depois que o jogador encontrou uma solução eficaz.
-
-Não criar retroativamente, apenas por conveniência:
+Não criar retroativamente, apenas para alterar um resultado já encaminhado:
 
 - imunidade;
 - poder;
@@ -280,26 +235,10 @@ Não criar retroativamente, apenas por conveniência:
 - aliança;
 - preparação;
 - regra local;
-- outro fato destinado a alterar um resultado já encaminhado.
-
-O OPOSITOR pode propor movimento novo para o futuro. Não pode inventar que esse movimento já existia no passado.
+- qualquer outro fato anterior inexistente.
 
 > **Semente futura pode nascer agora. Defesa retroativa não.**
 
 ## Regra final
 
-```text
-JOGADORES
-→ recebem a visão legítima de suas peças
-
-OPOSITOR
-→ recebe fios suficientes para mover o cenário
-
-NARRADOR
-→ recebe o necessário para organizar, julgar e registrar
-
-mestre/
-→ preserva a fonte operacional reservada da campanha
-```
-
-> **O arquivo pode existir tecnicamente no mesmo repositório. O conhecimento pertence somente a quem o adquiriu legitimamente na ficção.**
+> **`mestre/` preserva informação reservada. OPOSITOR pode usá-la para apresentar movimentos legítimos. NARRADOR consulta somente para julgar, narrar a sentença e registrar. Conhecimento operacional da IA nunca vira automaticamente conhecimento de personagem.**
