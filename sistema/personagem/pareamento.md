@@ -16,17 +16,19 @@ Quando a comparação entre fichas revelar lacunas relevantes, o narrador:
 
 ```text
 compara todas as fichas relacionadas
-→ identifica as perguntas que realmente importam
-→ apresenta o conjunto de perguntas ao JOGADOR HUMANO
-→ recebe as respostas
-→ consolida as consequências
-→ ajusta todas as fichas afetadas
+→ identifica internamente as perguntas que realmente importam
+→ faz UMA pergunta ao JOGADOR HUMANO
+→ guarda a resposta sem alterar ainda as fichas
+→ faz a próxima pergunta necessária
+→ repete até esclarecer as lacunas relevantes
+→ consolida todas as respostas
+→ ajusta em conjunto todas as fichas afetadas
 → verifica se ainda restou alguma lacuna cruzada relevante
 ```
 
 Não presumir respostas apenas porque uma relação parece óbvia.
 
-> **Neste ponto o narrador pode perguntar tudo que for necessário de uma vez. Depois das respostas, ajusta as fichas afetadas em conjunto.**
+> **No pareamento, as perguntas são feitas uma por vez, mas as fichas não precisam ser alteradas a cada resposta. Primeiro esclarecemos; depois persistimos o conjunto.**
 
 ## Unidade de revisão
 
@@ -72,32 +74,40 @@ Fury sabe sobre Wanda e Ravena?
 Ele sabe que os três vivem juntos?
 ```
 
-O narrador não inventa essas respostas sozinho. Ele apresenta as lacunas ao jogador e ajusta as fichas depois que as respostas forem consolidadas.
+O narrador não inventa essas respostas sozinho. Ele usa a comparação para decidir quais perguntas precisam ser feitas e apresenta **uma de cada vez** ao jogador.
 
-## Coleta em lote
+## Coleta sequencial, persistência em lote
 
-Diferente da revisão normal de ficha, o pareamento **não exige uma pergunta por vez**.
+Durante o pareamento, a conversa continua simples:
 
-O narrador pode reunir todas as perguntas relevantes do par, de vários pares ou de um grupo recorrente em uma única rodada, desde que:
+```text
+pergunta 1
+→ resposta
+→ pergunta 2
+→ resposta
+→ pergunta 3
+→ resposta
+→ ...
+```
 
-- as perguntas estejam organizadas de forma clara;
-- não repitam fatos já consolidados;
-- não incluam curiosidades sem efeito real;
-- deixem claro a quem cada pergunta se refere;
-- permitam respostas livres, curtas ou agrupadas.
+As respostas permanecem em contexto de trabalho enquanto o pareamento daquele conjunto ainda estiver aberto.
 
-Depois que o JOGADOR HUMANO responder o conjunto:
+Não é necessário atualizar as fichas após cada resposta individual.
+
+Quando todas as perguntas relevantes daquele par, grupo ou rodada estiverem respondidas:
 
 ```text
 interpretar todas as respostas
 → resolver eventuais contradições
 → consolidar as consequências
-→ atualizar todas as fichas afetadas
+→ atualizar todas as fichas afetadas em conjunto
 → persistir
 → fazer nova rodada somente se ainda houver lacunas relevantes
 ```
 
-Não é necessário salvar as fichas entre cada resposta individual quando as perguntas estiverem sendo coletadas em lote.
+Esse formato preserva a regra de uma pergunta por vez sem produzir várias pequenas gravações durante o mesmo pareamento.
+
+Se uma resposta posterior alterar ou corrigir uma resposta anterior, vale a informação mais recente explicitamente consolidada pelo JOGADOR HUMANO antes da persistência.
 
 ## Ajuste das fichas
 
@@ -191,9 +201,10 @@ Após todas as fichas iniciais aprovadas:
 listar os pares narrativamente relevantes
 → comparar todos eles
 → revisar grupos recorrentes, se houver
-→ reunir as lacunas em uma rodada de perguntas
-→ receber respostas
-→ ajustar em conjunto todas as fichas afetadas
+→ identificar as lacunas relevantes
+→ fazer uma pergunta por vez
+→ guardar as respostas enquanto o pareamento continua
+→ quando o conjunto estiver esclarecido, ajustar em lote todas as fichas afetadas
 → confirmar que não restam lacunas cruzadas relevantes
 → somente então definir a situação inicial
 ```
@@ -214,6 +225,8 @@ Se a resposta estabelecer uma verdade geral do cenário, ela pode pertencer a `m
 
 O checkpoint da campanha registra apenas onde retomar o pareamento.
 
+Durante uma rodada ainda não concluída, as respostas podem permanecer apenas no contexto de trabalho; a persistência ocorre quando o conjunto necessário estiver suficientemente esclarecido.
+
 ## Regra final
 
-> **Depois que as fichas individuais estiverem aprovadas, compare personagens que possuem vínculos relevantes. Reúna as lacunas importantes, pergunte-as ao JOGADOR HUMANO em lote e, depois das respostas, ajuste em conjunto todas as fichas afetadas. Só depois do pareamento concluído a situação inicial da história é definida.**
+> **Depois que as fichas individuais estiverem aprovadas, compare personagens que possuem vínculos relevantes. Identifique as lacunas, faça uma pergunta por vez ao JOGADOR HUMANO e acumule as respostas sem editar a ficha a cada turno. Quando o conjunto estiver esclarecido, ajuste em lote todas as fichas afetadas. Só depois do pareamento concluído a situação inicial da história é definida.**
