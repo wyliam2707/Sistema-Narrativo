@@ -38,12 +38,17 @@ Corvin atua como consultor externo da S.H.I.E.L.D. e agente eventual, chamado pa
 ## Capacidades
 
 ### Atributos
-- **FIS [ ]**
-- **RES [ ]**
-- **MEN [ ]**
-- **VON [ ]**
+- **FIS [0]**
+- **RES [1]**
+- **MEN [4]**
+- **VON [2]**
 
 ### Perícias
+- **Ocultismo [+4]**
+- **Controle da energia da Ordem [+4]**
+- **Investigação [+3]**
+- **Estratégia [+2]**
+- **Combate [+2]**
 
 ### Poderes
 
