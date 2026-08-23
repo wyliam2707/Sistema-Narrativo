@@ -274,6 +274,19 @@ A revisão ocorre por personagem, em cinco blocos:
 5 - Conferência final
 ```
 
+O **Bloco 1 — Identidade e conceito** não deve terminar com uma descrição apenas abstrata. Antes de avançar, a personagem precisa estar suficientemente definida para ser **reconhecida e descrita em cena**.
+
+Quando aplicável, isso inclui:
+
+- nome de uso ou codinome;
+- nome real/civil quando diferente;
+- idade;
+- aparência física;
+- estilo visual e apresentação habitual;
+- origem, natureza e conceito essenciais.
+
+Personagens conhecidos não podem depender apenas do conhecimento externo do leitor. A versão desta campanha deve registrar concretamente os sinais de identidade necessários à interpretação. Detalhes e organização dessa revisão pertencem a `../personagem/criacao.md`.
+
 Ordem geral:
 
 ```text
