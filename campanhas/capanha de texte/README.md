@@ -2,8 +2,8 @@
 
 CRIAÇÃO: EM ANDAMENTO
 
-Etapa atual: Início da história
-Passo atual: Definir situação de entrada
+Etapa atual: Pareamento das informações
+Par atual: Nick Fury ↔ Corvin Blackwood
 
 ## 1 - Nome da campanha
 
@@ -32,7 +32,7 @@ Nick Fury — Relevante — JOGADOR IA EVENTUAL
 
 ## 5 - Situação de entrada
 
-A definir agora que todas as fichas iniciais foram aprovadas.
+A definir somente depois do pareamento das informações entre as fichas iniciais.
 
 ## 6 - Mapa de consulta
 
