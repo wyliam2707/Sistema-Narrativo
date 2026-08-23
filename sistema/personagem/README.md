@@ -24,6 +24,7 @@ Esta pasta concentra:
 - relações recorrentes registradas em `REL`;
 - estrutura de ficha;
 - organização visual das fichas em Markdown;
+- relevância do que merece ou não ser persistido na ficha;
 - Importância;
 - `CONTROLE` como metadado estrutural da ficha;
 - representação compacta quando poucos dados forem necessários;
@@ -65,6 +66,12 @@ A apresentação visual padrão das fichas pertence a:
 
 ```text
 sistema/personagem/organizacao-visual.md
+```
+
+A regra sobre o que realmente merece entrar na ficha pertence a:
+
+```text
+sistema/personagem/relevancia-da-ficha.md
 ```
 
 ## Organização dentro da campanha
@@ -137,6 +144,7 @@ As regras detalhadas estão em `ficha.md` e `npcs.md`.
 - `relacoes.md` — relações recorrentes registradas em ficha;
 - `ficha.md` — estrutura consolidada, Importância, CONTROLE, RECURSOS e interpretação;
 - `organizacao-visual.md` — padrão de apresentação por tópicos para manter a ficha legível no Markdown/GitHub;
+- `relevancia-da-ficha.md` — regra para persistir somente informação útil à interpretação e continuidade, evitando meta-comparações desnecessárias com obras-base;
 - `npcs.md` — controle normal de NPCs, ficha compacta e persistência reservada.
 
 > **A ficha descreve quem o personagem é e o que precisa ser lembrado para interpretá-lo. Ela não é estado atual, inventário, diário de campanha nem mecanismo de resolução.**
