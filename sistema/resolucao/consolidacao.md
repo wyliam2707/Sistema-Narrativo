@@ -20,68 +20,50 @@ A manifestação-base não precisa ser idêntica para todos os Poderes. Regras e
 
 Uma capacidade de contato pode ter `Toque` como alcance natural. Um disparo, raio ou magia projetada pode ter `Médio` como alcance natural sem pagar ampliação apenas por funcionar como ataque à distância.
 
-Usar um alcance menor que a manifestação-base não reduz o custo. A base já está incluída no custo normal do efeito.
+Usar uma escala menor que a manifestação-base não reduz o custo. A base já está incluída no custo normal do efeito.
 
 > **Consolidação `[0]` representa a manifestação normal do Poder. As escalas medem o que vai além dessa manifestação.**
 
 ## 2. Degraus das dimensões
 
-Cada dimensão de Consolidação possui seus próprios degraus narrativos. Não é necessário que todas terminem no mesmo ponto.
+Cada dimensão de Consolidação possui seus próprios degraus narrativos.
 
-O custo de uma ampliação é contado pelo número de passos acima da manifestação-base daquela dimensão: cada passo aprovado para a dimensão gera `+1 Energia`.
-
-No caso de Alvos, a escala já possui cinco ampliações e alcança `32 alvos` com custo `+5`.
-
-Outras dimensões mantêm suas escalas próprias até serem revisadas.
+O custo de uma ampliação é contado pelo número de passos acima da manifestação-base daquela dimensão: cada passo gera `+1 Energia`.
 
 ## 3. Alcance
 
 Alcance mede a distância entre o usuário e o alvo, fonte, ponto ou local onde o efeito é aplicado.
 
-As faixas narrativas são:
-
 `Toque → Curto → Médio → Longo → Visão → Simpático`
 
-Referência ficcional:
-
 - `Toque` — contato direto;
-- `Curto` — proximidade imediata, dentro do mesmo espaço próximo;
+- `Curto` — proximidade imediata;
 - `Médio` — alcance normal de uma luta ou cena;
 - `Longo` — grande distância ainda dentro do contexto local;
-- `Visão` — qualquer alvo ou ponto diretamente percebido pelo usuário;
-- `Simpático` — alvo remoto ou não visível alcançado por um vínculo válido, quando a natureza do Poder permitir.
+- `Visão` — qualquer alvo ou ponto diretamente percebido;
+- `Simpático` — alvo remoto ou não visível alcançado por vínculo válido, quando o Poder permitir.
 
-Cada efeito possui uma faixa de Alcance-base própria. Essa faixa não gera custo adicional.
+Cada efeito possui uma faixa de Alcance-base própria. Cada passo acima dela custa `+1 Energia`.
 
-Cada passo acima da faixa-base custa `+1 Energia`.
+`Simpático` pode exigir uma condição de vínculo coerente com o Poder. O vínculo torna a aplicação possível; não concede bônus automático.
 
-Exemplos: uma Cura com base `Toque` lê `Curto +1 | Médio +2 | Longo +3 | Visão +4 | Simpático +5`. Informação com base `Curto` lê `Médio +1 | Longo +2 | Visão +3 | Simpático +4`.
-
-Usar uma faixa abaixo da base não concede desconto nem potência adicional.
-
-`Simpático` pode exigir, além do custo, uma condição de vínculo coerente com o Poder: sangue, cabelo, objeto pessoal, nome verdadeiro, marca, fotografia ou outro foco válido. O vínculo torna a aplicação possível; não concede bônus automático.
-
-> **Alcance = chegar até o alvo. Cada degrau acima da base custa +1 Energia.**
+> **Alcance = chegar até o alvo.**
 
 ## 4. Alvos
 
 Alvos mede quantos indivíduos ou entidades podem ser escolhidos separadamente.
 
-`1 alvo [base] → custo +0` | `2 alvos → +1` | `4 alvos → +2` | `8 alvos → +3` | `16 alvos → +4` | `32 alvos → +5`
+`1 alvo [base] → +0` | `2 alvos → +1` | `4 alvos → +2` | `8 alvos → +3` | `16 alvos → +4` | `32 alvos → +5`
 
 Cada passo acima da quantidade-base custa `+1 Energia`.
 
 Usar menos alvos que a base não reduz o custo.
 
-Alvos permite discriminação individual dentro do repertório do efeito.
-
-Exemplo: uma Cura com `4 alvos` pode escolher quatro aliados específicos e paga `+2 Energia` além do custo-base do uso.
-
-> **Alvos escolhe indivíduos específicos. Cada dobra acima da base custa +1 Energia.**
+> **Alvos escolhe indivíduos específicos.**
 
 ## 5. Área e Tamanho
 
-Área mede quanto espaço contínuo o efeito ocupa. Tamanho usa a mesma régua quando o que importa é a dimensão física de uma criação, objeto ou alvo.
+Área mede quanto espaço contínuo o efeito ocupa. Tamanho usa a mesma régua quando importa a dimensão física de uma criação, objeto ou alvo.
 
 `Pontual/Humano [base] → +0` | `Pequena → +1` | `Média → +2` | `Grande → +3` | `Enorme → +4` | `Massiva → +5`
 
@@ -94,15 +76,11 @@ Referência ficcional:
 - `Enorme` — um prédio;
 - `Massiva` — um castelo, complexo ou equivalente.
 
-Cada passo acima da Área/Tamanho-base custa `+1 Energia`. Usar uma escala menor que a base não reduz o custo.
+Cada passo acima da Área/Tamanho-base custa `+1 Energia`.
 
-Área e Alvos não são a mesma coisa.
+Área e Alvos não são a mesma coisa:
 
-> **Alvos escolhe quem é afetado. Área afeta todos dentro dela.**
-
-Assim, quatro inimigos separados podem exigir `4 alvos`. Uma explosão em Área afeta todos que estiverem dentro dela, inclusive aliados, salvo quando a própria natureza do Poder estabelecer outra coisa.
-
-> **Área/Tamanho mede escala física. Cada degrau acima da base custa +1 Energia.**
+> **Alvos escolhe quem é afetado. Área afeta o espaço definido pela manifestação.**
 
 ## 6. Duração
 
@@ -110,151 +88,36 @@ Duração mede quando um efeito persistente termina naturalmente.
 
 `Instantâneo → Cena → Hora → Dia → Semana → Permanente`
 
-Cada efeito possui uma Duração-base própria. Essa duração não gera custo adicional.
+Cada efeito possui uma Duração-base própria. Cada passo acima dela custa `+1 Energia`.
 
-Cada passo acima da Duração-base custa `+1 Energia`.
+`Permanente` significa que o efeito não termina naturalmente. Ele ainda pode ser encerrado por outro mecanismo aplicável.
 
-Exemplos: um efeito com base `Instantâneo` lê `Cena +1 | Hora +2 | Dia +3 | Semana +4 | Permanente +5`. Um efeito com base `Cena` lê `Hora +1 | Dia +2 | Semana +3 | Permanente +4`.
+Um efeito instantâneo não se torna persistente apenas porque sua consequência permanece.
 
-Usar uma duração menor que a base não reduz o custo.
-
-`Permanente` significa que o efeito não termina naturalmente. Ele ainda pode ser rompido, dissipado, removido ou encerrado por um mecanismo coerente quando a natureza do efeito permitir.
-
-Um efeito instantâneo não deixa uma Consolidação persistente apenas porque sua consequência permanece. Dano deixa ferimentos; Cura remove Dano; o efeito que causou a alteração já terminou.
-
-> **Duração mede quanto o efeito permanece. Cada degrau acima da base custa +1 Energia.**
+> **Duração mede quanto o efeito permanece.**
 
 ## 7. Ampliação, limite e custo
 
-Cada dimensão usa seus próprios degraus aprovados. O custo adicional é contado pelos passos usados acima da manifestação-base.
-
-Para `Alcance`, `Alvos`, `Área/Tamanho` e `Duração`, cada passo acima da base gera diretamente `carga +1`.
+Para `Alcance`, `Alvos`, `Área/Tamanho` e `Duração`, cada passo acima da base gera `+1` de Ampliação.
 
 Quando mais de uma dimensão é ampliada, suas cargas se acumulam.
 
-Cada efeito possui um limite total próprio de Ampliação:
+Cada efeito possui um limite total próprio:
 
 `Ampliação = patamar do efeito + maior entre MEN e VON`
 
-Esse valor pode ser registrado diretamente junto ao efeito para evitar recálculo durante o jogo:
+O valor de Ampliação mede quanto o efeito pode ser estendido em suas dimensões; ele não aumenta sua potência.
 
-`Dano [4] | Ampliação [7]`
-
-Nesse exemplo, o efeito possui patamar máximo `[4]` e a soma de todas as ampliações de `Alcance + Alvos + Área/Tamanho + Duração` pode chegar a `+7`.
-
-Uma configuração cuja soma ultrapasse `Ampliação [X]` não cabe naquele efeito, independentemente de quanta Energia exista disponível.
-
-O valor de Ampliação mede quanto o efeito pode ser estendido em suas dimensões; ele não aumenta a potência do efeito.
-
-O custo final é direto:
+O custo final é:
 
 `Custo = patamar efetivamente usado + Ampliação usada`
 
-Não existe pagamento parcial da Ampliação. Se o JOGADOR dispõe de menos Energia ou quer gastar menos, escolhe um patamar efetivamente usado menor, reduz alguma ampliação ou ambos antes da resolução.
+A configuração escolhida é definida e paga antes da resolução.
 
-Exemplo: `Dano [5] | Ampliação [8]`. Se o JOGADOR quer gastar no máximo `5 Energia` e precisa de `+2` de Ampliação, pode usar `Dano [3] + Ampliação [2] = 5 Energia`.
+> **Patamar define potência. Ampliação define escala. Energia paga a configuração escolhida.**
 
-A escolha de potência e escala acontece antes da resolução; depois de definida a configuração, o custo é pago integralmente.
+## Fronteira
 
-> **Patamar define potência. Ampliação define escala. Energia paga exatamente a configuração escolhida.**
+Consolidação não define Defesa, Vida estrutural ou funcionamento específico de efeitos persistentes.
 
-## 8. Dano e Cura
-
-Dano e Cura usam as ampliações para definir como a aplicação alcança a cena, não para dividir sua intensidade entre os afetados.
-
-`Dano/Cura` determina intensidade. `Alcance`, `Alvos` e `Área` determinam a extensão da aplicação.
-
-Uma aplicação em Área não divide automaticamente o Dano entre os presentes. O custo da ampliação é resolvido antes da aplicação.
-
-Depois que Dano ou Cura são aplicados, permanece a consequência na VIDA; não permanece um efeito sustentado apenas para representar o valor já causado ou restaurado.
-
-## 9. Efeitos persistentes
-
-Todo efeito que permanece depois da aplicação ganha estrutura própria enquanto estiver consolidado, seja prejudicial ou benéfico.
-
-A notação é:
-
-`Efeito [D x / V5] — Duração`
-
-`D` é a Defesa estrutural do efeito e corresponde ao **Efetivo que realmente o estabeleceu**. Esse valor pode incluir casas decimais, normalmente dentro da faixa operacional de `D1,0` a `D6,0`.
-
-`V5` é a Vida padrão do efeito consolidado: **1 grau de Vida = 5 pontos**.
-
-Exemplo: `Cegueira [D2,4 / V5] — Cena`.
-
-Enquanto possuir Vida, o efeito continua produzindo o Resultado que foi estabelecido. Perder Vida não reduz automaticamente seu grau narrativo. Em `V0`, o efeito é destruído e sai do STATUS.
-
-Efeitos benéficos seguem exatamente a mesma estrutura. Exemplo: `Bênção [D3,0 / V5] — Cena`.
-
-Efeitos instantâneos não recebem `D/V`, porque já terminaram depois de produzir sua consequência.
-
-### Dissipar
-
-`Dissipar` é um efeito próprio cujo dano é dirigido à Vida de STATUS persistentes.
-
-Ele usa o mesmo motor normal de ataque e defesa:
-
-`Dissipar efetivo vs D do efeito → Dano aplicado → reduz V do efeito`
-
-Exemplo: `Dissipar efetivo [4,2]` contra `Cegueira [D2,4 / V5]` resolve como qualquer ataque contra Defesa `2,4`; o Dano resultante reduz apenas a Vida da Cegueira.
-
-Dissipar não é Dano físico comum. Seu repertório é atingir efeitos persistentes, benéficos ou prejudiciais. Outros mecanismos podem remover um efeito quando sua natureza disser explicitamente que conseguem fazê-lo.
-
-> **Todo efeito persistente possui Defesa e Vida. Dissipar ataca essa estrutura usando o mesmo motor de ataque e dano.**
-
-## 10. Graus de Vida estrutural
-
-A referência comum é:
-
-`1 grau = V5`
-
-Estruturas atuais:
-
-`Efeito persistente → V5` | `Proteção/Barreira → V5` | `Invocação → V10` | `Personagem → V35`
-
-A Defesa continua sendo uma dimensão separada da Vida.
-
-- efeito persistente: `D = Efetivo que o consolidou`;
-- Proteção/Barreira: `D = Defesa efetiva da Proteção`;
-- Invocação: `D = RES da criação`;
-- personagem: usa as defesas aplicáveis normais do sistema.
-
-Assim, aumentar a Defesa não aumenta automaticamente a Vida e aumentar a Vida não altera a Defesa.
-
-## 11. Invocação — regra específica
-
-Invocação possui configuração própria e não usa todas as dimensões gerais da mesma forma.
-
-Sua manifestação-base é:
-
-`Duração [0] → uma cena` | `Tamanho [0] → Humano` | `Alcance [0] → Médio`
-
-Ampliar além dessas referências gera carga normal:
-
-- durar além de uma cena → Ampliação de Duração;
-- criar algo maior que Tamanho Humano → Ampliação de Tamanho/Área;
-- invocar além do Alcance Médio → Ampliação de Alcance.
-
-`Alvos` não é usado para determinar quantidade de criaturas invocadas. A quantidade segue a regra própria de Invocação definida em `escalas-de-efeito.md`, porque aplicar também a escala geral de Alvos duplicaria a mesma função.
-
-Uma criação invocada possui `V10`. Quando atacada diretamente, usa sua `RES` como Defesa estrutural aplicável: `Invocação [D = RES / V10]`.
-
-Assim, uma Invocação pode criar uma única criatura gigantesca, uma estrutura de grande Área ou criaturas em quantidade conforme sua regra própria, desde que a carga das dimensões aplicáveis caiba em `Ampliação [X]` daquele efeito.
-
-> **Na Invocação, a regra específica de quantidade substitui Alvos. Duração, Tamanho/Área e Alcance ampliam apenas o que ultrapassa a manifestação-base da Invocação.**
-
-## 12. Transformação
-
-Transformação voluntária sobre si mesmo usa `Si mesmo` como sua condição de Alcance-base e defesa `[0]` contra a própria mudança.
-
-Quando a Transformação redefine a própria forma física, `FIS` e `RES` são substituídos pela configuração da forma; `MEN`, `VON`, `VIDA` e `Energia` permanecem os do personagem.
-
-A distribuição concreta de FIS/RES pela forma está definida em `escalas-de-efeito.md`.
-
-Uma Transformação imposta sobre outra criatura enfrenta a maior resistência aplicável entre `RES`, `VON`, Poder ou proteção coerente.
-
-A mudança não acontece em porcentagens. O resultado da disputa determina a intensidade efetivamente aplicada conforme a regra do efeito; Duração, Alcance, Alvos e Área entram apenas quando forem dimensões coerentes daquela aplicação.
-
-## Princípio
-
-> **Potência determina o que o efeito consegue produzir. Ampliação define em que escala ele é aplicado. A configuração escolhida é paga integralmente em Energia. Efeitos persistentes, Proteções e Invocações usam o mesmo motor estrutural de Defesa contra Dano, com quantidades de Vida próprias.**
+Essas regras pertencem a `escalas-de-efeito.md` e `fonte-e-vida-estrutural.md`.
