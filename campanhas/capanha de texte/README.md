@@ -25,6 +25,7 @@ O cenário é próprio, mas incorpora personagens e elementos da Marvel conforme
 ## 4 - Personagens com agência
 
 Corvin Blackwood — Central — JOGADOR HUMANO
+Ravena — Central — JOGADOR IA
 
 ## 5 - Situação de entrada
 
