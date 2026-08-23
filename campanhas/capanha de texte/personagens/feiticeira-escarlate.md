@@ -43,10 +43,19 @@ Jovem sokoviana de personalidade intensa, profundamente ligada ao irmão e dotad
 - **Magia Escarlate [4]** => Dano / Proteção [3] / Movimento / Contenção / Manipulação de matéria e objetos
 - **Influência Mental [2]** => Leitura emocional / Ilusão mental / Indução de medo / Alteração de percepção
 
-### Outros campos
-- **TRAÇOS:**
-- **RECURSOS:**
-- **REL:**
+### Traços
+- Poderes já consolidados e utilizados com domínio funcional.
+- Personalidade emocionalmente intensa sem descontrole automático.
+- Forte instinto de proteção às pessoas que considera família.
+
+### Relações
+- **Pietro Maximoff:** irmão gêmeo; vínculo extremamente próximo, leal e protetor dos dois lados.
+- **Corvin Blackwood:** namorado e parceiro afetivo; relacionamento próprio e consolidado, independente da relação dele com Ravena.
+- **Ravena:** profunda confiança, intimidade emocional e afeto; é uma das pessoas diante das quais Wanda consegue baixar a guarda.
+- **Estrutura afetiva:** Wanda participa de uma relação afetiva a três envolvendo Corvin e Ravena. Seu vínculo com Corvin é romântico; com Ravena existe intimidade afetiva profunda, sem obrigação de assumir o mesmo formato, mas com liberdade para evoluir organicamente durante a história.
+
+### Recursos
+Nenhum recurso específico consolidado por enquanto.
 
 ## Personalidade e tendências
 
