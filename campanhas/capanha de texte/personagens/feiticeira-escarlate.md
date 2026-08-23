@@ -39,6 +39,8 @@ Wanda Maximoff é uma jovem sokoviana de presença intensa, emocionalmente expre
 - **MEN [0]**
 - **VON [3]**
 
+**VIDA [35] | ENERGIA [80]**
+
 ### Perícias
 - **Controle dos próprios poderes [+4]**
 - **Sobrevivência urbana [+2]**
@@ -52,6 +54,7 @@ Wanda Maximoff é uma jovem sokoviana de presença intensa, emocionalmente expre
 - Poderes já consolidados e utilizados com domínio funcional.
 - Personalidade emocionalmente intensa sem descontrole automático.
 - Forte instinto de proteção às pessoas que considera família.
+- **Energia Extra [20]:** acréscimo específico desta versão de Wanda à reserva-base de 60 derivada de VON [3], totalizando ENERGIA [80].
 
 ### Relações
 - **Pietro Maximoff:** irmão gêmeo; vínculo extremamente próximo, leal e protetor dos dois lados. Pietro ainda não conhece Corvin pessoalmente e Wanda não detalhou para ele a estrutura afetiva em que vive.
