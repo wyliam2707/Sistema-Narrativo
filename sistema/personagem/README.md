@@ -23,6 +23,7 @@ Esta pasta concentra:
 - RECURSOS;
 - relações recorrentes registradas em `REL`;
 - estrutura de ficha;
+- organização visual das fichas em Markdown;
 - Importância;
 - `CONTROLE` como metadado estrutural da ficha;
 - representação compacta quando poucos dados forem necessários;
@@ -59,6 +60,12 @@ sistema/criacao/README.md
 ```
 
 Esta pasta fornece o modelo e as regras de personagem usados quando `criacao/` manda construir ou revisar uma ficha.
+
+A apresentação visual padrão das fichas pertence a:
+
+```text
+sistema/personagem/organizacao-visual.md
+```
 
 ## Organização dentro da campanha
 
@@ -129,6 +136,7 @@ As regras detalhadas estão em `ficha.md` e `npcs.md`.
 - `tracos.md` — verdades qualitativas estáveis;
 - `relacoes.md` — relações recorrentes registradas em ficha;
 - `ficha.md` — estrutura consolidada, Importância, CONTROLE, RECURSOS e interpretação;
+- `organizacao-visual.md` — padrão de apresentação por tópicos para manter a ficha legível no Markdown/GitHub;
 - `npcs.md` — controle normal de NPCs, ficha compacta e persistência reservada.
 
 > **A ficha descreve quem o personagem é e o que precisa ser lembrado para interpretá-lo. Ela não é estado atual, inventário, diário de campanha nem mecanismo de resolução.**
