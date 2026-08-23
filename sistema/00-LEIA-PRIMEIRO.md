@@ -2,7 +2,7 @@
 
 Este arquivo é a **porta de entrada operacional** do sistema.
 
-Ele não redefine mecânicas já consolidadas nas subpastas atuais. Sua função é encaminhar cada tarefa para a fonte correta e impedir que material histórico seja tratado como regra principal por engano.
+Ele não redefine mecânicas. Sua função é encaminhar cada tarefa para a fonte correta.
 
 ## Entrada do sistema
 
@@ -18,11 +18,9 @@ CONTINUAR
 → campanhas/<nome>/README.md
 ```
 
-Para nova campanha, `sistema/criacao/README.md` é a referência principal do processo.
+Para nova campanha, `sistema/criacao/README.md` é a referência principal.
 
-Para continuar uma campanha do fluxo atual, o `README.md` da própria campanha é a primeira fonte concreta. Ele indica onde consultar personagens, estado, mundo, material reservado e livro e, enquanto a criação estiver em andamento, de onde retomar.
-
-Não pedir ao jogador para repetir informações que os arquivos já fornecem.
+Para continuar uma campanha atual, o `README.md` da própria campanha é a primeira fonte concreta. Não pedir ao jogador para repetir informações que os arquivos já fornecem.
 
 ## Arquitetura atual
 
@@ -38,10 +36,8 @@ sistema/
 └── operacao/
 ```
 
-Responsabilidades:
-
 ```text
-criacao/      → como uma nova campanha nasce e onde seus dados são salvos
+criacao/      → como uma campanha nasce
 personagem/   → quem a entidade é e do que é capaz
 personas/     → quem decide e qual autoridade possui
 resolucao/    → o que acontece
@@ -53,62 +49,19 @@ operacao/     → em que ordem aplicar e consultar as áreas
 
 ## Ordem operacional de consulta
 
-Não existe obrigação de abrir todos os arquivos do sistema antes de jogar.
-
 Consultar somente o necessário para a função atual.
 
-Para uma sessão em andamento, as referências principais são:
+Para uma sessão em andamento:
 
-1. `sistema/operacao/ciclo-de-cena.md` — ordem das declarações, movimento do cenário, julgamento e ponto de parada;
-2. `sistema/personas/` — autoridade e escopo de consulta de cada persona;
-3. `sistema/personagem/` — ficha, atributos, perícias, poderes e definição estável dos personagens;
-4. `sistema/resolucao/` — regra específica necessária para descobrir o resultado;
-5. `sistema/agencia/` — autonomia e continuidade quando forem relevantes;
+1. `sistema/operacao/ciclo-de-cena.md` — ordem das declarações e julgamento;
+2. `sistema/personas/` — autoridade de cada persona;
+3. `sistema/personagem/` — definição das peças;
+4. `sistema/resolucao/` — mecânica necessária;
+5. `sistema/agencia/` — continuidade e ganchos quando relevantes;
 6. `sistema/narracao/` — apresentação da ficção;
-7. `sistema/persistencia/` — registro do resultado e da continuidade.
-
-Para criar uma campanha nova, começar por:
-
-```text
-sistema/criacao/README.md
-```
-
-Para continuar uma campanha atual, começar por:
-
-```text
-campanhas/<nome>/README.md
-```
-
-## Campanhas atuais e material legado
-
-O fluxo atual usa:
-
-```text
-campanhas/<nome>/
-```
-
-Material antigo em:
-
-```text
-aventuras/
-```
-
-permanece preservado como legado. Não mover, apagar, reestruturar ou converter automaticamente.
-
-Alguns documentos antigos diretamente em `sistema/` ainda podem permanecer temporariamente enquanto partes específicas não tiverem sido migradas. Quando um documento antigo tiver sido completamente substituído, ele pode ser removido após revisão e confirmação explícita.
-
-Entre os documentos antigos que ainda podem ser consultados somente nos pontos não substituídos estão:
-
-- `agencia-de-personagens.md`;
-- `modo-rpg.md`;
-- `checklist-do-narrador.md`;
-- `narracao-e-escrita-padrao.md`.
-
-O mapa de migração está em `sistema/MIGRACAO-ESTRUTURAL.md`.
+7. `sistema/persistencia/` — registro do resultado e continuidade.
 
 ## Estrutura das campanhas atuais
-
-Toda campanha criada pelo fluxo atual usa como base:
 
 ```text
 campanhas/<nome-da-campanha>/
@@ -125,25 +78,38 @@ campanhas/<nome-da-campanha>/
     └── README.md
 ```
 
-Separação central:
-
 ```text
 PERSONAGENS → quem são as peças
 ESTADO      → como as coisas estão agora
 MUNDO       → o que existe
-MESTRE      → o que é reservado à condução
+MESTRE      → material reservado
 LIVRO       → o que aconteceu
 ```
 
-## Prioridade
+## Material legado de campanhas
 
-Quando houver conflito, seguir nesta ordem:
+Material antigo em:
 
-1. correção explícita mais recente do `JOGADOR HUMANO`;
-2. regra nova explicitamente aprovada na arquitetura atual;
-3. fonte canônica da própria campanha;
-4. arquivo histórico ainda existente, somente nos pontos não substituídos.
+```text
+aventuras/
+```
+
+permanece preservado como legado de campanhas. Não mover, apagar, reestruturar ou converter automaticamente.
+
+A migração dos documentos antigos de `sistema/` foi concluída. O histórico técnico está em:
+
+```text
+sistema/MIGRACAO-ESTRUTURAL.md
+```
 
 Arquivos antigos já removidos não são fontes válidas e não devem ser procurados para restaurar regras anteriores.
 
-> **As subpastas atuais governam o sistema onde suas regras já foram aprovadas. Material histórico só permanece útil nos pontos ainda não migrados.**
+## Prioridade
+
+Quando houver conflito:
+
+1. correção explícita mais recente do `JOGADOR HUMANO`;
+2. regra canônica atual da arquitetura;
+3. fonte canônica da própria campanha.
+
+> **As subpastas atuais governam o sistema. O histórico de migração registra de onde ele veio, não cria uma segunda fonte de regra.**
