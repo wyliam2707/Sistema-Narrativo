@@ -36,12 +36,18 @@ Quando o repositório for usado para iniciar um RPG, a primeira decisão é semp
 
 > **Nova campanha ou continuar uma campanha existente?**
 
-- **Nova campanha:** usar `sistema/protocolo-de-criacao.md`.
-- **Continuar:** listar as campanhas realmente existentes em `aventuras/`, deixar o jogador escolher e carregar a aventura a partir de seus próprios arquivos.
+- **Nova campanha:** usar `sistema/criacao/README.md`.
+- **Continuar:** consultar as campanhas realmente existentes em `campanhas/`, deixar o jogador escolher e abrir `campanhas/<nome>/README.md`.
 
-Se uma aventura escolhida possuir `criacao.md` ainda em andamento, retomar a criação do ponto registrado em vez de iniciar a narrativa.
+O `README.md` da própria campanha indica onde consultar seu conteúdo e, enquanto a criação estiver em andamento, de onde retomar o processo.
+
+Material antigo em `aventuras/` permanece preservado como legado. Não mover, apagar ou converter esse material automaticamente, e não usar `sistema/protocolo-de-criacao.md` como porta principal para novas campanhas.
 
 Não pedir ao jogador para repetir informações que os arquivos já conseguem fornecer.
+
+> **NOVA CAMPANHA → `sistema/criacao/README.md`**
+>
+> **CONTINUAR → `campanhas/<nome>/README.md`**
 
 ## Ordem de leitura
 
@@ -53,13 +59,12 @@ Não pedir ao jogador para repetir informações que os arquivos já conseguem f
 6. `sistema/agencia-de-personagens.md` — como personagens pensam, escolhem e agem por conta própria.
 7. `sistema/progressao-narrativa.md` — como consequências duradouras, acessos, favores, relações latentes, ameaças e ganchos persistem sem XP ou progressão automática de poder.
 8. `sistema/checklist-do-narrador.md` — referência operacional curta para aplicar as regras durante a sessão sem reler todos os documentos a cada resolução.
-9. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda aventura, salvo exceção explícita.
+9. `sistema/narracao-e-escrita-padrao.md` — modelo narrativo e literário herdado por toda campanha, salvo exceção explícita.
 10. `sistema/exemplo-de-estilo.md` — exemplo neutro para calibrar ritmo, diálogo, descrição e passagem de tempo.
-11. `sistema/protocolo-de-criacao.md` — processo de nova campanha: nome, estrutura completa, direção narrativa e cenário, personagens, início, revisão e conversão mecânica posterior.
+11. Para criar uma campanha nova, `sistema/criacao/README.md` — processo canônico atual de criação.
 12. `sistema/protocolo-de-fechamento-de-capitulo.md` — como `Salvar capítulo`, `Fechar capítulo` e `Concluir capítulo` consolidam a sessão, salvam o livro e atualizam continuidade.
-13. `sistema/organizacao-de-aventura.md` — como consultar, organizar e salvar uma aventura.
-14. `sistema/modelos.md` — modelos de direção narrativa, ficha, STATUS, Progressão, READMEs estruturais e arquivos de campanha.
-15. Depois disso, leia o `README.md` da aventura que será narrada e somente então seus arquivos específicos.
+13. Os documentos de organização e modelos ainda existentes no sistema podem ser consultados como referência complementar quando compatíveis com a estrutura atual.
+14. Para continuar uma campanha atual, ler primeiro `campanhas/<nome>/README.md` e seguir o mapa de consulta indicado ali.
 
 ## Separação obrigatória
 
@@ -73,33 +78,33 @@ Contém:
 - protocolo de jogo entre jogador e narrador;
 - regras de agência;
 - regras de progressão narrativa e consequências persistentes;
-- protocolo de criação de novas campanhas;
+- processo canônico de criação de novas campanhas em `sistema/criacao/`;
 - protocolo de fechamento e salvamento de capítulos;
 - checklist operacional do narrador;
 - modelo narrativo e literário padrão;
 - método genérico de organização e persistência.
 
-### `aventuras/<nome>/`
-Contém apenas dados daquela história:
-- criação e revisão, enquanto a campanha estiver sendo montada;
-- direção narrativa específica em `diretrizes/narracao.md`;
-- personagens concretos;
-- material reservado do narrador em `mestre/`, quando existir;
-- mundo e regras específicas;
-- relações;
-- progressões narrativas e consequências ainda vivas;
-- outras exceções ou complementos de narração daquela aventura;
-- cronologia;
-- estado atual;
-- capítulos ou registro canônico do que aconteceu.
+### `campanhas/<nome>/`
+Contém os dados concretos das campanhas criadas pelo fluxo atual.
 
-A estrutura de uma nova aventura nasce completa: cada pasta estrutural deve possuir desde o começo um `README.md` curto explicando sua função. Isso materializa as pastas no Git e permite que outra IA compreenda a organização mesmo antes de existirem arquivos de conteúdo dentro delas.
+A estrutura-base é definida por `sistema/criacao/estrutura-da-campanha.md` e separa:
 
-Esses `README.md` estruturais permanecem como legenda da organização. Eles não substituem fichas, estado, cronologia, Progressão ou capítulos e não devem virar depósitos de acontecimentos da campanha.
+```text
+PERSONAGENS → quem são as peças
+ESTADO      → como as coisas estão agora
+MUNDO       → o que existe
+MESTRE      → o que é reservado à condução
+LIVRO       → o que aconteceu
+```
 
-`mestre/` pode conter fichas e informações que outra IA precisa conhecer para manter a continuidade, mas que **não devem ser apresentadas ao jogador como conhecimento do protagonista** antes de serem descobertas na ficção.
+O `README.md` da campanha é sua porta de entrada operacional e, durante a criação, guarda somente o checkpoint necessário para retomar o processo.
 
-> **O sistema ensina como criar, declarar, resolver, jogar e operar. A aventura contém o que foi criado e o que aconteceu.**
+### `aventuras/`
+É material legado.
+
+Campanhas antigas ali existentes permanecem preservadas até uma migração explícita. Não mover, apagar, reestruturar nem converter automaticamente esse conteúdo apenas porque o fluxo atual usa `campanhas/`.
+
+> **O sistema ensina como criar, declarar, resolver, jogar e operar. A campanha contém o que foi criado e o que aconteceu.**
 
 ## Camadas que não devem ser confundidas
 
@@ -138,31 +143,16 @@ Capacidade não cria informação inexistente. Competência aprofunda a leitura 
 ### Modo RPG
 `modo-rpg.md` determina **quem possui o ciclo de decisão de cada personagem, quando a cena avança e quando o controle retorna ao jogador humano**.
 
-As fichas podem usar:
+As fichas podem usar categorias de `CONTROLE` definidas pelo sistema, incluindo jogador humano, jogadores IA e personagens operados eventualmente pela IA.
 
-```text
-JOGADOR HUMANO
-JOGADOR IA
-JOGADOR EVENTUAL IA
-NPC
-```
-
-Jogadores IA possuem ciclo próprio de decisão e usam somente o conhecimento legítimo do personagem que controlam. Jogadores Eventuais IA alternam entre funcionamento de NPC e ciclo de jogador conforme as regras de `modo-rpg.md`.
+Jogadores IA possuem ciclo próprio de decisão e usam somente o conhecimento legítimo do personagem que controlam. Jogadores Eventuais IA alternam entre funcionamento de NPC e ciclo de jogador conforme as regras vigentes de agência e operação.
 
 A unidade fundamental do jogo não é o turno. É a resolução, **precedida pela Janela de Declarações quando existem múltiplos jogadores operacionais**.
 
-Durante o RPG ao vivo, toda fala direta usa `[Nome] — ...`. Pensamento direto usa `[Nome, pensa] — ...`, mas pensamentos explícitos aparecem somente para o personagem com `CONTROLE: JOGADOR HUMANO`, quando declarados ou autorizados pelo jogador humano. A interioridade de `NPC`, `JOGADOR IA` e `JOGADOR EVENTUAL IA` permanece oculta ao jogador humano por padrão e é percebida apenas por sinais disponíveis na ficção.
+Durante o RPG ao vivo, toda fala direta usa `[Nome] — ...`. Pensamento direto usa `[Nome, pensa] — ...`, mas pensamentos explícitos aparecem somente para o personagem com `CONTROLE: JOGADOR HUMANO`, quando declarados ou autorizados pelo jogador humano. A interioridade dos demais personagens permanece oculta ao jogador humano por padrão e é percebida apenas por sinais disponíveis na ficção.
 
 ### Agência
 `agencia-de-personagens.md` determina **como NPCs, Jogadores IA e Jogadores Eventuais IA formam suas próprias intenções** segundo ficha, personalidade, história, conhecimento, relações, objetivos, STATUS, direção narrativa e situação.
-
-A diferença está em quem executa o ciclo de decisão:
-
-```text
-NPC → narrador
-Jogador IA → IA como jogadora
-Jogador Eventual IA → IA como jogadora quando ativado
-```
 
 Quando houver uma Janela de Declarações, cada Jogador IA ativo forma sua intenção **antes** de o Narrador conhecer o resultado da resolução.
 
@@ -176,42 +166,33 @@ Não existe XP ou recompensa mecânica automática por missão. A campanha progr
 > **Progressão não significa ficar mais forte. Significa acumular história que ainda pode voltar a importar.**
 
 ### Criação de campanha
-`protocolo-de-criacao.md` determina **como transformar uma ideia em uma aventura pronta para jogar**.
+`sistema/criacao/README.md` determina **como transformar uma ideia em uma campanha pronta para jogar** no fluxo atual.
 
-A criação usa quatro etapas conceituais:
-
-1. Direção narrativa e Cenário;
-2. Protagonista;
-3. Personagens relevantes;
-4. Início da história.
-
-A primeira etapa separa duas perguntas:
+A criação segue, em alto nível:
 
 ```text
-Que tipo de história o jogador quer viver? → diretrizes/narracao.md
-Em que mundo essa história acontece?       → mundo/cenario.md
+Nome da campanha
+→ Direção narrativa e cenário
+→ Protagonista
+→ Personagens com agência de jogador
+→ Início da história
+→ Revisão mecânica e aprovação
 ```
 
-Gênero e tom não são opções fechadas. O jogador pode combinar livremente comédia, romance, romance adulto, terror, ação, investigação, faroeste, drama ou qualquer outra direção desejada.
+O conteúdo concreto é salvo diretamente em `campanhas/<nome>/` conforme `sistema/criacao/estrutura-da-campanha.md`.
 
-Assim que o nome da campanha é definido, a estrutura completa é criada com `README.md` em cada pasta estrutural e `criacao.md` para acompanhar o processo.
+A criação mantém checkpoint no `README.md` da própria campanha, persiste blocos mecânicos somente depois de aprovados e termina consolidando `estado/atual.md` antes da primeira cena.
 
-Cada etapa é salva como `PENDENTE DE REVISÃO`. A aplicação de atributos, perícias, poderes e demais conceitos numéricos acontece somente na revisão posterior.
-
-Aliados relevantes podem começar apenas com nomes e fichas estruturais ainda vazias. Inimigos comuns não precisam de arquivo individual. Antagonistas importantes podem receber ficha reservada em `mestre/viloes/` quando isso passar a ser necessário.
-
-> **Direção narrativa primeiro. Mundo e conceito depois. Mecânica por último.**
+> **Conceito primeiro. Mecânica depois.**
 
 ### Fechamento e salvamento de capítulo
 `protocolo-de-fechamento-de-capitulo.md` determina **como transformar o material jogado em capítulo literário canônico e atualizar as fontes de continuidade**.
 
 Os comandos `Salvar capítulo`, `Fechar capítulo` e `Concluir capítulo` são equivalentes.
 
-O protocolo para a ficção no ponto atual, consulta as fontes necessárias, consolida somente os acontecimentos válidos, remove metacomunicação e versões descartadas, salva em `livro/` e atualiza cronologia, Progressão, fichas, relacionamentos e estado apenas quando pertinente.
+O protocolo para a ficção no ponto atual, consulta as fontes necessárias, consolida somente os acontecimentos válidos, remove metacomunicação e versões descartadas, salva em `livro/` e atualiza as fontes de continuidade apenas quando pertinente.
 
-No livro consolidado, falas continuam identificadas como `[Nome] — ...`, enquanto pensamentos de qualquer personagem podem aparecer como `[Nome, pensa] — ...` quando forem coerentes com a cena e não alterarem o cânone.
-
-Quando material reservado do narrador for relevante, ele pode ser consultado e atualizado sem expor ao livro ou ao jogador informações que não foram descobertas na ficção ou que não pertençam legitimamente ao ponto de vista literário adotado.
+Quando material reservado do narrador for relevante, ele pode ser consultado e atualizado sem expor ao livro ou ao jogador informações que não foram descobertas na ficção ou que não pertençam legitimamente ao ponto de vista adotado.
 
 > **A consolidação melhora a forma; não muda os fatos.**
 
@@ -227,13 +208,9 @@ Essas camadas trabalham juntas, mas uma não substitui a outra.
 
 ## Herança narrativa
 
-Toda aventura começa usando `sistema/narracao-e-escrita-padrao.md`.
+Toda campanha começa usando `sistema/narracao-e-escrita-padrao.md` salvo quando a própria campanha estabelecer uma exceção explícita.
 
-Durante a criação, `diretrizes/narracao.md` registra a direção narrativa específica escolhida para aquela campanha. Esse arquivo pode definir gênero, combinação de gêneros, tom, foco, ritmo, humor, romance/intimidade, atmosfera, ênfases ou outras escolhas locais.
-
-As diretrizes da aventura podem alterar qualquer parte do estilo, mas devem declarar a exceção explicitamente. Tudo que não for alterado continua herdado do padrão do sistema.
-
-Assim, outra IA não precisa consultar uma aventura antiga para descobrir como escrever: primeiro lê o modelo-base e depois a direção narrativa da campanha atual.
+A direção narrativa específica fica registrada nas fontes da própria campanha conforme o processo atual de criação. Tudo que não for alterado localmente continua herdado do padrão do sistema.
 
 ## Princípio de operação
 
@@ -243,33 +220,27 @@ A ordem correta é:
 
 > **Sistema + direção narrativa + ficha + história + relações + estado atual + circunstância → declarações de todos os jogadores ativos → resolução → consequência → nova história.**
 
-Durante o RPG, cada personagem segue o ciclo indicado por `CONTROLE`: o jogador humano decide por `JOGADOR HUMANO`; a IA como jogadora decide por `JOGADOR IA` e por `JOGADOR EVENTUAL IA` quando ativado; o narrador controla o mundo e interpreta `NPC` e `JOGADOR EVENTUAL IA` quando inativo.
+Durante o RPG, cada personagem segue o ciclo indicado por `CONTROLE`.
 
 Uma declaração como `eu esquivo`, `eu neutralizo`, `eu abro a porta` ou `eu chego até ela` informa **o que o personagem tenta fazer**. Antes de o resultado ser resolvido, os demais jogadores operacionais ativos recebem sua própria oportunidade de declarar intenção para a mesma janela.
 
-A aventura nasce dessas decisões e consequências.
+A campanha nasce dessas decisões e consequências.
 
 ## Continuidade
 
-Ao continuar uma aventura em outro chat ou com outra IA, não dependa de memória de conversa anterior. Consulte os arquivos da aventura.
+Ao continuar uma campanha em outro chat ou com outra IA, não dependa de memória de conversa anterior. Consulte os arquivos da campanha.
 
-O registro persistente da aventura deve permitir reconstruir:
-- que tipo de história deve ser narrada e com qual tom;
-- quem cada personagem é;
-- o que cada um pode fazer;
-- quais antagonistas ou segredos reservados ao narrador ainda estão ativos, quando existirem;
-- o que já aconteceu;
-- o que cada personagem plausivelmente sabe;
-- quais relações mudaram;
-- quais consequências antigas ainda podem voltar a importar;
-- como todos estão no momento atual;
-- quais exceções de narração valem naquela campanha.
+Para campanhas do fluxo atual, começar sempre por:
 
-Os `README.md` estruturais ajudam a localizar rapidamente cada tipo de informação, mas a continuidade factual continua pertencendo aos arquivos canônicos correspondentes.
+```text
+campanhas/<nome>/README.md
+```
 
-Ao carregar uma campanha, consultar `diretrizes/narracao.md` antes de narrar novas cenas.
+Esse arquivo orienta quais fontes devem ser consultadas e onde o jogo ou a criação devem ser retomados.
 
-Ao consultar `mestre/`, separar rigorosamente **o que o narrador sabe** daquilo que o protagonista pode saber.
+O registro persistente deve permitir reconstruir o necessário para continuar corretamente sem pedir ao jogador que reconte o que os arquivos já registram.
+
+Ao consultar `mestre/`, separar rigorosamente **o que o narrador sabe** daquilo que cada personagem pode saber.
 
 ## Prioridade
 
@@ -277,4 +248,4 @@ Quando houver conflito, siga primeiro uma correção explícita mais recente do 
 
 Depois disso, dentro das regras universais do sistema, `sistema/ciclo-de-jogadores.md` possui **prioridade operacional máxima** sobre formulações simplificadas de fluxo presentes em outros documentos: nenhuma resolução de nova decisão significativa pode ocorrer antes das declarações dos jogadores operacionais ativos.
 
-Em seguida, use a hierarquia de cânone definida no `README.md` da própria aventura. Nunca invente retroativamente uma regra, poder, relação ou acontecimento apenas para resolver uma dificuldade da cena.
+Em seguida, para campanhas do fluxo atual, use as fontes e a hierarquia indicadas no `README.md` da própria campanha. Nunca invente retroativamente uma regra, poder, relação ou acontecimento apenas para resolver uma dificuldade da cena.
