@@ -41,6 +41,8 @@ Sua presença costuma ser direta e intimidadora, mas ele não depende de força 
 - **MEN [0]**
 - **VON [0]**
 
+**VIDA [35] | ENERGIA [10]**
+
 ### Perícias
 - **Espionagem [+4]**
 - **Estratégia [+4]**
