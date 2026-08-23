@@ -4,30 +4,55 @@ Campanha iniciada.
 
 ## Situação atual
 
-É início da tarde do dia seguinte à saída noturna dos três.
+Capítulo 002 em andamento.
 
-Corvin terminou um almoço leve com Wanda e Ravena, despediu-se das duas com a intimidade habitual do relacionamento e foi para a grande biblioteca da casa estudar Magia da Ordem. Pretende permanecer ali até a hora do jantar.
+Durante a tarde, Corvin permaneceu na biblioteca estudando Magia da Ordem até o jantar. Wanda treinou de forma controlada e depois se preparou para a reunião com Tony Stark do dia seguinte. Ravena manteve a tarde tranquila, meditando, lendo e verificando assuntos dos Titãs sem compromisso imediato.
 
-Wanda e Ravena ficaram livres para seguir as próprias atividades durante a tarde.
+Depois do jantar, Corvin avisou Wanda e Ravena que sairia brevemente para uma negociação de rotina com um informante antigo: faria uma entrega e receberia um livro antigo sobre um culto de Tiamat, descrita por ele como uma criatura semelhante a um dragão de dez cabeças. Corvin deixou claro que o assunto não era relacionado a Trigon e que nem sabia ainda se Tiamat era real.
 
-Wanda possui uma reunião com Tony Stark no dia seguinte e pretende organizar o que precisa para ela, além de poder fazer algum treino leve.
-
-Ravena pretende manter o dia tranquilo, podendo meditar, ler e verificar assuntos dos Titãs sem compromisso imediato já estabelecido.
-
-A vida afetiva dos três é normal dentro da casa, mas ainda não foi explicada por completo aos círculos sociais de Wanda e Ravena: os Vingadores conhecem essencialmente a versão de que Wanda está com Corvin; os Titãs conhecem essencialmente a versão de que Ravena está com Corvin. A participação da outra mulher na relação ainda ficou fora dessas explicações simplificadas.
+Corvin informou que teleportaria sozinho para Ganadex, na Índia, encontraria o ponto de entrega e retornaria em uma ou duas horas. Wanda e Ravena permaneceram em casa.
 
 ## Cena atual
 
-Capítulo 001 encerrado.
+Corvin chegou sozinho a Ganadex e encontrou o ponto combinado para a troca nos fundos de uma construção comercial fechada. O informante ainda não apareceu.
 
-Corvin está na biblioteca estudando Magia da Ordem. Wanda e Ravena estão na casa, com a tarde livre para suas próprias atividades.
+Dois homens surgiram no corredor. Um deles possui uma lâmina ritual escura; o outro iniciou um gesto ritual. Eles reconheceram Corvin pelo nome e exigiram aquilo que, segundo eles, pertence à "Mãe das Dez Gargantas".
 
-## Diretriz do próximo capítulo
+A situação passou para confronto ativo e o combate foi declarado iniciado.
 
-Quando Corvin sair sozinho da casa, o OPOSITOR deve aproveitar a primeira oportunidade coerente para introduzir dois cultistas e puxar um confronto contra ele.
+### Estado antes da primeira resolução
 
-A aproximação pode começar ainda como cena normal. No instante em que surgir agressão ou confronto ativo em que as peças possam agir, reagir ou interferir em intervalos curtos, avisar claramente que o combate começou e passar a usar as regras formais de combate.
+Corvin: `VIDA [35] | ENERGIA [80]` — sem Dano e sem Energia gasta neste combate.
 
-Durante o combate, usar turnos simultâneos de até 10 segundos, com declaração das peças aplicáveis, movimento do OPOSITOR, julgamento do NARRADOR, resolução mecânica completa e registro do estado ao final de cada turno.
+Os dois cultistas estão ativos. Um está armado com lâmina ritual e o outro prepara magia.
 
-Esse confronto existe como teste das regras de combate. Não antecipar a luta antes de Corvin estar sozinho e não transformar o gatilho em ataque automático sem uma entrada ficcional coerente.
+Nenhum ataque foi resolvido ainda.
+
+Corvin declarou:
+
+```text
+formo uma magia de proteção em mim
+```
+
+A resolução prematura anterior foi descartada. Nenhuma Barreira foi consolidada ainda.
+
+Antes de resolver a ação, o NARRADOR deve apresentar de forma curta a configuração disponível e pedir a escolha do patamar efetivamente usado.
+
+Formato de consulta durante combate:
+
+```text
+Proteção [3] — si mesmo / 1 alvo / Cena
+Custo: até 3 Energia | Ampliação: +1 Energia por degrau
+```
+
+Depois perguntar qual patamar Corvin usa: `[1]`, `[2]` ou `[3]`.
+
+Somente depois da escolha calcular custo, Defesa da proteção e resolver as declarações do OPOSITOR dentro do turno simultâneo de até 10 segundos.
+
+## Observações operacionais do teste
+
+Este confronto existe como teste das regras de combate.
+
+Durante o combate, não decidir automaticamente o patamar efetivamente usado por uma capacidade quando o JOGADOR HUMANO ainda precisa escolhê-lo. Apresentar a configuração de forma compacta, receber a escolha e então resolver.
+
+A narração continua em turnos simultâneos de até 10 segundos enquanto houver confronto ativo.
