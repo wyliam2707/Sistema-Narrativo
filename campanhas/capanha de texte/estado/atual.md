@@ -2,4 +2,6 @@
 
 Campanha em criação.
 
-A situação inicial será registrada aqui quando definida.
+Todas as fichas iniciais com agência foram aprovadas.
+
+Próximo passo: definir e consolidar a situação inicial da história antes da primeira cena.
