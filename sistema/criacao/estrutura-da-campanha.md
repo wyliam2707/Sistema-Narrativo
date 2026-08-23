@@ -12,6 +12,27 @@ campanhas/<nome-da-campanha>/
 
 > **O sistema ensina como operar. A campanha guarda a realidade concreta que será jogada.**
 
+## Norma da pasta raiz `campanhas/`
+
+A pasta `campanhas/` deve existir como uma **raiz permanente e independente das campanhas individuais**.
+
+Ela deve conter obrigatoriamente:
+
+```text
+campanhas/
+├── README.md
+├── <nome-da-campanha>/
+└── <outra-campanha>/
+```
+
+O arquivo `campanhas/README.md` não pertence a nenhuma campanha específica e **não deve ser removido**, mesmo quando existir apenas uma campanha.
+
+Toda nova campanha é criada como uma subpasta de `campanhas/`; nunca substituir, renomear ou incorporar o nome da campanha à pasta raiz.
+
+A presença permanente de `campanhas/README.md` também impede que a interface do GitHub compacte visualmente uma única subpasta como `campanhas/<nome-da-campanha>`, mantendo `campanhas/` visível como pasta própria.
+
+> **`campanhas/` é a pasta raiz fixa. Cada nome de campanha pertence sempre a uma subpasta dentro dela.**
+
 ## Estrutura mínima
 
 Toda nova campanha usa como base:
@@ -39,6 +60,7 @@ Assim que o nome da campanha for definido e estiver disponível:
 
 ```text
 nome definido
+→ garantir campanhas/README.md
 → criar campanhas/<nome>/
 → criar estrutura-base
 → criar arquivos operacionais obrigatórios
@@ -422,7 +444,9 @@ Novas subdivisões só surgem por necessidade concreta.
 O padrão atual é:
 
 ```text
-campanhas/<nome>/
+campanhas/
+├── README.md
+└── <nome>/
 ```
 
 Material antigo em `aventuras/` permanece legado até migração explícita. Não mover, apagar ou reestruturar automaticamente.
