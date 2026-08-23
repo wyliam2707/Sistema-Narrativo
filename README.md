@@ -72,7 +72,9 @@ Não pedir ao jogador que reconte informações que os arquivos da campanha já 
 
 Campanhas antigas ainda armazenadas em `aventuras/` permanecem preservadas.
 
-Não apagar, mover, converter ou reestruturar esse material automaticamente. O fluxo antigo e `sistema/protocolo-de-criacao.md` permanecem apenas como legado até uma migração explícita.
+Não apagar, mover, converter ou reestruturar esse material automaticamente.
+
+Documentos antigos de sistema que já foram completamente substituídos podem ser removidos durante a migração somente depois de revisão e confirmação explícita. As referências atuais estão nas subpastas de `sistema/`.
 
 ---
 
