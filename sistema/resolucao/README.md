@@ -17,10 +17,25 @@ Esta pasta responde à pergunta:
 - `escalas-de-efeito.md` — tabelas de referência dos efeitos;
 - `consolidacao.md` — Alcance, Alvos, Área/Tamanho, Duração, Ampliação, custo e estrutura de efeitos persistentes;
 - `combate-e-dano.md` — fonte de Dano, Perícia efetiva, Ataque efetivo, Dano aplicado e defesa;
+- `ordem-de-resolucao-do-combate.md` — ordem de processamento do turno, HUD do JOGADOR HUMANO, confirmações, configuração, interferência e fechamento do combate;
 - `energia.md` — Reserva, custos, Ampliação, Bateria e recuperação;
 - `recuperacao-da-vida.md` — recuperação natural, Regeneração, Cura e Medicina;
 - `resolucao-social.md` — influência social e preservação de agência;
 - `informacao-e-investigacao.md` — percepção, interpretação, investigação e Informação.
+
+## Atalho de combate
+
+Quando houver combate, consultar primeiro:
+
+```text
+ordem-de-resolucao-do-combate.md
+```
+
+Atalho operacional:
+
+```text
+HUD → declaração → confirmação, se necessária → IAs/Opositor → resolver → atualizar → novo HUD
+```
 
 ## Entrada
 
