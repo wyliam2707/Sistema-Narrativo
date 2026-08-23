@@ -35,36 +35,21 @@ Essas são as entradas principais. Não criar pastas adicionais apenas para ante
 
 ## Materialização no momento do nome
 
-Assim que o nome da campanha for definido, a estrutura-base deve ser criada imediatamente em `campanhas/<nome-da-campanha>/`.
-
-O objetivo é que a campanha já exista fisicamente no repositório e seja autoexplicativa mesmo antes de a criação conceitual terminar.
-
-Fluxo:
+Assim que o nome da campanha for definido e estiver disponível:
 
 ```text
 nome definido
 → criar campanhas/<nome>/
 → criar estrutura-base
-→ criar READMEs operacionais
+→ criar arquivos operacionais obrigatórios
 → continuar a criação
 ```
 
-Os arquivos operacionais da estrutura-base usam os **modelos obrigatórios** definidos abaixo. Não variar o texto inicial entre campanhas nem improvisar versões alternativas.
-
-Eles existem para:
-
-- materializar as pastas no repositório;
-- explicar a função daquela área;
-- indicar as regras do sistema que devem ser consultadas;
-- impedir que uma IA dependa da conversa original para entender a estrutura.
-
-Eles não devem acumular conteúdo que pertença aos arquivos concretos da campanha.
-
-> **A estrutura nasce junto com o nome. O conteúdo é preenchido conforme as etapas seguintes forem consolidadas.**
+A campanha já deve existir fisicamente mesmo antes de suas fichas estarem revisadas.
 
 ## Modelos obrigatórios da estrutura-base
 
-Ao criar uma nova campanha, usar **exatamente** estes textos iniciais. O conteúdo pode ser atualizado depois conforme a campanha evolui, mas a estrutura nasce sempre do mesmo modelo.
+Ao criar uma nova campanha, usar **exatamente** estes textos iniciais. Não improvisar versões diferentes entre campanhas.
 
 ### `personagens/README.md`
 
@@ -130,17 +115,15 @@ A situação inicial será registrada aqui quando definida.
 
 > **Mesma estrutura-base → mesmos arquivos iniciais → nenhuma variação de texto entre IAs.**
 
-## Função de cada entrada
+# Função de cada entrada
 
-### `README.md`
+## `README.md`
 
-Porta de entrada e **índice operacional** da campanha.
+É a porta de entrada e o **índice operacional** da campanha.
 
-Deve permitir que uma IA ou narrador identifique rapidamente o que é a campanha, quais peças com agência existem, onde consultar cada tipo de informação e, enquanto a criação estiver em andamento, de onde o processo deve ser retomado.
+Deve conter somente o necessário para identificar a campanha, localizar suas peças e saber onde continuar.
 
-Ele nasce assim que o nome da campanha é definido e deve ser atualizado conforme a criação avança.
-
-O `README.md` deve conter somente o necessário para orientação inicial:
+Estrutura lógica:
 
 ```text
 Checkpoint da criação
@@ -152,46 +135,34 @@ Checkpoint da criação
 6 - Mapa de consulta
 ```
 
-#### Checkpoint da criação
+### Checkpoint da criação
 
-Enquanto a campanha ainda estiver em criação, o `README.md` deve registrar somente o ponto operacional necessário para retomar o processo.
+Enquanto a criação estiver em andamento, registrar somente o ponto operacional atual.
 
-Forma mínima:
-
-```text
-CRIAÇÃO: EM ANDAMENTO
-
-Etapa atual: Protagonista
-```
-
-Durante a revisão mecânica, quando necessário:
+Exemplo:
 
 ```text
 CRIAÇÃO: EM ANDAMENTO
 
-Etapa atual: Revisão mecânica e aprovação
+Etapa atual: Revisão das fichas
 Personagem atual: Ravena
 Bloco atual: 3 - Poderes e capacidades
 ```
 
-Quando a criação terminar:
+Ao terminar:
 
 ```text
 CRIAÇÃO: CONCLUÍDA
 ```
 
-O checkpoint não armazena o conteúdo da etapa, não replica fichas e não mantém uma lista obrigatória de etapas passadas ou futuras.
+O checkpoint não replica ficha, cenário ou estado.
 
-> **O conteúdo pertence aos arquivos da campanha. O checkpoint diz somente onde continuar a criação.**
+> **O conteúdo pertence aos arquivos concretos. O checkpoint diz somente onde continuar.**
 
-#### Fonte principal de cada informação
-
-Cada informação da campanha deve possuir uma **fonte principal**. O `README.md` pode resumir ou apontar para essa fonte, mas não deve manter uma segunda cópia detalhada do mesmo conteúdo.
-
-Durante a criação, usar este mapa:
+### Fonte principal de cada informação
 
 ```text
-NOME
+NOME DA CAMPANHA
 → README.md
 
 DIREÇÃO NARRATIVA
@@ -199,77 +170,61 @@ DIREÇÃO NARRATIVA
 
 CENÁRIO
 → resumo necessário em README.md
-→ detalhes estáveis, quando precisarem de desenvolvimento próprio, em mundo/
+→ detalhes estáveis, quando necessários, em mundo/
 
-PROTAGONISTA
+PERSONAGEM COM AGÊNCIA
 → personagens/<nome>.md
-→ identificação + CONTROLE no README.md
+→ Nome + Importância + CONTROLE no índice do README.md
 
-PERSONAGENS JOGADOR IA / JOGADOR IA EVENTUAL
+REVISÃO DA FICHA
 → personagens/<nome>.md
-→ identificação + CONTROLE no README.md
 
 INÍCIO DA HISTÓRIA
 → situação inicial concreta em estado/atual.md
-→ README.md apenas aponta a retomada para estado/atual.md
+→ README.md apenas aponta Situação de entrada para estado/atual.md
 
-CHECKPOINT DA CRIAÇÃO
+CHECKPOINT
 → README.md
 ```
 
-Não criar arquivos paralelos apenas para repetir direção narrativa, cenário, ficha, situação inicial ou checkpoint.
-
 > **Cada informação possui uma fonte principal. O README resume e orienta; não replica os arquivos concretos.**
 
-#### Nome da campanha
+### Personagens com agência
 
-Identifica a campanha.
+Cada personagem deve aparecer **individualmente** no índice.
 
-#### Direção narrativa
+Registrar:
 
-Resumo curto do tom, foco e proposta narrativa já aprovados.
-
-Não repetir toda a discussão de criação.
-
-#### Cenário
-
-Resumo curto do universo e das premissas necessárias para compreender onde a campanha acontece.
-
-Detalhes persistentes de mundo pertencem a `mundo/`.
-
-#### Personagens com agência
-
-Registrar somente identificação e `CONTROLE` suficientes para localizar as peças principais.
-
-Cada personagem com agência deve aparecer **individualmente** no índice, mesmo quando vários personagens compartilham a mesma persona de controle.
+```text
+Nome — Importância — CONTROLE
+```
 
 Exemplo:
 
 ```text
-Wyliam — JOGADOR HUMANO
-Ravena — JOGADOR IA
-Dick Grayson — JOGADOR IA EVENTUAL
-Kory — JOGADOR IA EVENTUAL
-Garfield — JOGADOR IA EVENTUAL
+Wyliam — Central — JOGADOR HUMANO
+Ravena — Central — JOGADOR IA
+Dick Grayson — Relevante — JOGADOR IA EVENTUAL
+Kory — Central — JOGADOR IA EVENTUAL
 ```
 
-Não registrar um grupo, equipe ou organização como se fosse uma única peça quando seus integrantes são personagens distintos com agência própria.
+A persona `JOGADOR IA EVENTUAL` pode operar mais de um personagem, mas isso não cria ficha ou identidade coletiva.
 
-A persona `JOGADOR IA EVENTUAL` pode operar mais de um personagem, mas cada personagem continua sendo uma peça independente e possui sua própria ficha em `personagens/`.
+> **Persona compartilhada não cria ficha compartilhada.**
 
-As fichas completas pertencem a `personagens/`.
+### Situação de entrada
 
-> **Persona compartilhada não cria ficha compartilhada. Cada personagem com agência é listado e persistido individualmente.**
+Só é definida **depois que as fichas iniciais estiverem aprovadas**.
 
-#### Situação de entrada
+O README aponta para:
 
-Indica de onde a campanha deve ser retomada.
+```text
+estado/atual.md
+```
 
-No início da campanha, deve apontar para `estado/atual.md`, onde a situação inicial concreta é registrada. Durante o jogo, continua orientando para o estado atual sem duplicá-lo no `README.md`.
+Não duplicar o conteúdo da situação inicial no índice.
 
-#### Mapa de consulta
-
-Deve indicar de forma curta onde cada categoria de informação está armazenada:
+### Mapa de consulta
 
 ```text
 personagens/ → fichas
@@ -279,23 +234,11 @@ mestre/      → material reservado
 livro/       → história ocorrida
 ```
 
-> **O README orienta. Ele não replica os arquivos da campanha.**
+# `personagens/`
 
-Não guardar nele ficha completa, STATUS detalhado, cronologia extensa, capítulos, planos secretos ou material reservado do mestre.
+Guarda as fichas dos personagens com agência de jogador.
 
-### `personagens/`
-
-Guarda as fichas dos personagens com agência de jogador:
-
-- protagonista;
-- personagens `JOGADOR IA`;
-- personagens administrados por `JOGADOR IA EVENTUAL`.
-
-A pasta nasce com o modelo obrigatório de `personagens/README.md` definido acima e aponta para `sistema/personagem/ficha.md` como referência de ficha.
-
-Cada personagem com agência possui **um arquivo próprio**, independentemente do tipo de controle.
-
-Exemplo:
+Cada personagem possui um arquivo próprio:
 
 ```text
 personagens/
@@ -306,71 +249,71 @@ personagens/
 └── kory.md
 ```
 
-Não separar por padrão em subpastas como:
+Não separar por padrão em subpastas de tipo de controle.
 
-```text
-humanos/
-jogadores-ia/
-eventuais/
-```
+## Nascimento obrigatório da ficha
 
-O tipo de controle pertence à própria ficha, por meio do campo `CONTROLE`, e não precisa ser duplicado no caminho do arquivo.
-
-NPCs comuns, aliados ocasionais, figurantes e adversários não pertencem a `personagens/`; quando precisarem de persistência, ficam sob a estrutura reservada de `mestre/`.
-
-> **Cada personagem com agência possui sua própria ficha. O tipo de controle pertence à ficha, não à pasta.**
-
-#### Modelo obrigatório de ficha
-
-Os arquivos concretos em `personagens/` não definem um segundo modelo de ficha.
-
-Toda ficha da campanha deve seguir as regras e usar como referência:
+Toda ficha apresentável ao jogador usa desde o primeiro momento o modelo completo de:
 
 ```text
 sistema/personagem/ficha.md
 ```
 
-Assim:
+Antes da revisão, somente três informações recebem conteúdo:
 
 ```text
-sistema/personagem/ficha.md
-        ↓ define modelo e regras
-
-campanhas/<nome>/personagens/<personagem>.md
-        ↓ registra a ficha concreta
+NOME
+IMPORTÂNCIA
+CONTROLE
 ```
 
-A ficha registra **quem o personagem é**. Estado circunstancial pertence a `estado/`.
+O arquivo nasce como:
 
-Portanto, VIDA atual, ENERGIA atual, localização atual, ferimentos temporários, condições e efeitos ativos não devem ser duplicados na ficha apenas por estarem acontecendo agora.
+```text
+Status: PENDENTE DE REVISÃO
+```
 
-> **A campanha guarda a ficha concreta. O sistema define como uma ficha funciona.**
+Os demais campos e seções do modelo já existem, mas permanecem vazios até o bloco correspondente da revisão.
 
-### `estado/`
+```text
+NOME + IMPORTÂNCIA + CONTROLE
+→ criar arquivo individual
+→ copiar modelo-base completo
+→ deixar o restante em branco
+→ revisão posterior
+```
 
-Guarda a realidade dinâmica atual da campanha: aquilo que pode mudar durante o jogo e precisa ser retomado corretamente depois.
+> **A ficha nasce completa em estrutura e mínima em conteúdo.**
 
-Por padrão, possui **um único arquivo obrigatório**:
+VIDA atual, ENERGIA atual, localização, condições, efeitos ativos e outros estados circunstanciais pertencem a `estado/atual.md`, não à ficha apenas por estarem ativos agora.
+
+NPCs comuns não pertencem por padrão a `personagens/`; quando precisarem de persistência reservada, pertencem a `mestre/`.
+
+# `estado/`
+
+Guarda a realidade dinâmica atual da campanha.
+
+Por padrão:
 
 ```text
 estado/
 └── atual.md
 ```
 
-`atual.md` é criado junto com a estrutura-base da campanha usando o modelo obrigatório definido acima. Durante a criação, registra apenas que a campanha ainda está sendo construída. Depois, passa a conter somente o necessário para uma IA assumir a campanha e continuar corretamente do ponto presente.
+Durante a criação, o arquivo permanece com o modelo mínimo até a etapa **Início da história**, que ocorre somente depois da aprovação das fichas iniciais.
 
-Pode registrar, quando existirem:
+Quando a abertura for definida, `atual.md` passa a registrar somente o necessário para continuar corretamente daquele ponto.
+
+Pode conter, quando existirem:
 
 - momento atual;
-- localização atual dos personagens;
+- localização atual;
 - VIDA e ENERGIA atuais;
 - STATUS, condições e efeitos ativos;
 - situações em andamento;
 - intenções futuras ainda ativas;
 - fios causais pendentes;
-- outras informações operacionais realmente necessárias para continuar.
-
-Não usar `atual.md` para recontar capítulos, repetir fichas completas ou duplicar fatos estáveis já registrados em `mundo/`.
+- outras informações operacionais necessárias para retomada.
 
 Não criar por padrão arquivos separados como:
 
@@ -381,51 +324,17 @@ cronologia.md
 intencoes.md
 ```
 
-Se `atual.md` crescer a ponto de uma divisão ser realmente necessária, a estrutura pode ser ampliada posteriormente conforme necessidade concreta.
+`atual.md` substitui o retrato anterior pelo presente. Não é diário da sessão.
 
-> **`estado/atual.md` responde: “Se outra IA assumir a campanha agora, o que ela precisa saber para continuar corretamente daqui?”**
+> **`estado/atual.md` responde: “Se outra IA assumir agora, o que precisa saber para continuar corretamente?”**
 
-#### Atualização durante o jogo
+# `mundo/`
 
-O NARRADOR deve atualizar `estado/atual.md` sempre que a realidade presente mudar de forma relevante para uma retomada futura.
+Guarda a memória canônica estável do cenário.
 
-Não é necessário registrar cada fala, movimento banal ou detalhe sem consequência operacional.
+Criar arquivos além do README apenas quando houver conteúdo concreto suficiente.
 
-Mudanças operacionais relevantes, como VIDA, ENERGIA, localização importante, STATUS, efeitos ativos, intenções futuras, situações pendentes ou avanço causal que altere a continuação, devem ser refletidas no estado quando acontecerem.
-
-A situação geral pode ser consolidada conforme a cena avança, mantendo o arquivo limpo e atual.
-
-```text
-mudança operacional imediata → registrar quando acontece
-situação geral da cena       → consolidar conforme avança
-```
-
-`atual.md` substitui o retrato anterior pelo presente. Não deve acumular versões antigas apenas para formar histórico.
-
-> **`estado/atual.md` é retrato do presente, não diário da sessão.**
-
-### `mundo/`
-
-Guarda a **memória canônica estável do cenário**: fatos estabelecidos que precisam persistir e continuar verdadeiros até que a própria ficção os altere.
-
-A pasta nasce com o modelo obrigatório de `mundo/README.md` definido acima.
-
-Além desse README operacional, não possui arquivos obrigatórios por categoria. Criar arquivos somente quando houver conteúdo concreto suficiente para justificar sua existência.
-
-Exemplos possíveis:
-
-```text
-mundo/
-├── README.md
-├── gotham.md
-├── titans.md
-├── magia.md
-└── castelo-dos-corvos.md
-```
-
-Esses nomes são apenas exemplos. A estrutura deve acompanhar o que realmente existe na campanha.
-
-Podem pertencer a `mundo/`, quando relevantes:
+Podem pertencer a `mundo/`:
 
 - lugares;
 - organizações;
@@ -438,94 +347,34 @@ Podem pertencer a `mundo/`, quando relevantes:
 
 `mundo/` não registra o estado momentâneo desses elementos.
 
-Exemplo:
-
-```text
-mundo/castelo-dos-corvos.md
-→ o castelo existe, sua estrutura, salas estabelecidas, localização e características persistentes
-
-estado/atual.md
-→ Ravena está agora na biblioteca, uma porta está destruída e há um ritual ativo
-```
-
-Quando uma mudança ocorrida durante o jogo se tornar uma nova verdade estável do cenário, ela pode ser consolidada em `mundo/`. Enquanto for apenas situação presente ou consequência ainda em andamento, permanece em `estado/`.
-
-Fatos já estabelecidos em `mundo/` são canônicos da campanha. Não devem ser alterados retroativamente apenas para facilitar uma cena, restaurar dificuldade, justificar uma resposta ou proteger uma trama.
-
 > **`mundo/` guarda o que existe de forma estabelecida. `estado/` guarda como isso está agora.**
 
-### `mestre/`
+# `mestre/`
 
-Guarda **material reservado de condução** que precisa persistir sem se tornar automaticamente informação disponível aos jogadores ou às personagens.
+Guarda material reservado de condução que precisa persistir sem se tornar automaticamente conhecimento das personagens.
 
-A pasta nasce com o modelo obrigatório de `mestre/README.md` definido acima.
+Podem pertencer a `mestre/`:
 
-Além desse README operacional, não possui uma estrutura interna obrigatória. Criar arquivos ou subpastas apenas quando houver material concreto suficiente para justificar a separação.
+- NPCs persistentes sem agência de jogador;
+- adversários;
+- intenções e planos de NPCs;
+- segredos estabelecidos;
+- ameaças em preparação;
+- informações reservadas necessárias à continuidade.
 
-Exemplos possíveis:
-
-```text
-mestre/
-├── README.md
-├── npcs.md
-├── trigon.md
-└── plano-do-culto.md
-```
-
-Se a quantidade de NPCs persistentes realmente justificar uma subdivisão, pode existir:
+Quando a quantidade justificar:
 
 ```text
 mestre/npcs/
 ```
 
-Caso contrário, manter arquivos diretos ou um único `npcs.md` é suficiente.
+Acesso da persona ao conteúdo de `mestre/` não concede esse conhecimento às peças que ela movimenta.
 
-Podem pertencer a `mestre/`, quando relevantes:
+> **`mestre/` guarda verdades e intenções reservadas de condução. Acesso ao arquivo não cria metaconhecimento.**
 
-- NPCs persistentes que não possuem agência de jogador;
-- adversários;
-- intenções e planos de NPCs;
-- segredos estabelecidos;
-- ameaças em preparação;
-- informações reservadas necessárias à continuidade;
-- outros elementos de condução que não devam ficar abertos aos jogadores.
+# `livro/`
 
-#### Sigilo operacional
-
-Acesso da persona ao conteúdo de `mestre/` **não equivale a conhecimento das peças que ela movimenta**.
-
-Exemplo:
-
-```text
-mestre/trigon.md
-→ Trigon pretende atacar na quinta-feira
-```
-
-O fato de o NARRADOR poder consultar essa informação não significa que Ravena, o protagonista ou qualquer outro personagem saiba dela.
-
-Para uma peça adquirir a informação, deve existir um meio legítimo na ficção, como:
-
-- percepção;
-- comunicação;
-- investigação;
-- vigilância;
-- magia;
-- tecnologia;
-- outro mecanismo já estabelecido.
-
-A informação reservada só vira conhecimento de uma peça quando isso ocorrer legitimamente segundo as regras de conhecimento e percepção do sistema.
-
-> **A persona pode conhecer algo para cumprir sua função sem que esse conhecimento pertença às peças que ela movimenta.**
-
-O material de `mestre/` também não autoriza alterar retroativamente fatos já estabelecidos apenas para contrariar uma ação válida, restaurar dificuldade ou proteger uma trama.
-
-> **`mestre/` guarda verdades e intenções reservadas de condução. Acesso ao arquivo não cria metaconhecimento nas personagens.**
-
-### `livro/`
-
-Guarda a **história que realmente aconteceu**, consolidada em forma narrativa.
-
-A pasta nasce com o modelo obrigatório de `livro/README.md` definido acima.
+Guarda apenas a história que realmente aconteceu, consolidada em capítulos.
 
 Depois que capítulos existirem:
 
@@ -534,30 +383,20 @@ livro/
 ├── README.md
 ├── 001.md
 ├── 002.md
-├── 003.md
 └── ...
 ```
 
-Cada arquivo numerado registra um capítulo já ocorrido. Não usar `livro/` para guardar planos, possibilidades futuras, rascunhos de acontecimentos ou material que ainda dependa de decisões de jogo.
+Não guardar planos, possibilidades futuras ou acontecimentos ainda dependentes de decisão.
 
 ```text
-livro/002.md
-→ narrativa consolidada do capítulo 2
-
-estado/atual.md
-→ ponto exato de onde o jogo continua
-
-mestre/
-→ elementos reservados que ainda podem acontecer
+livro/002.md    → o que aconteceu
+estado/atual.md → de onde continuar
+mestre/         → o que permanece reservado
 ```
-
-`livro/` funciona como memória histórica consultável. Não é necessário reler todos os capítulos para retomar uma cena; o ponto de retomada pertence a `estado/atual.md`.
-
-Não criar por padrão índice adicional, resumos paralelos ou subpastas internas. Se uma necessidade concreta surgir mais tarde, a estrutura pode ser ampliada sem duplicar o conteúdo dos capítulos.
 
 > **`livro/` registra o que aconteceu. Nunca determina antecipadamente o que ainda deve acontecer.**
 
-## Separação central
+# Separação central
 
 ```text
 PERSONAGENS → quem são as peças
@@ -567,11 +406,7 @@ MESTRE      → o que é reservado à condução
 LIVRO       → o que aconteceu
 ```
 
-> **Cada informação deve ser salva no lugar que representa sua função, não em uma pasta nova criada apenas para aquele assunto.**
-
-## Estrutura enxuta
-
-Não criar por padrão pastas separadas como:
+Não criar por padrão pastas como:
 
 ```text
 cronologia/
@@ -580,14 +415,14 @@ progressao/
 diretrizes/
 ```
 
-Esses conteúdos devem ser absorvidos pelas entradas principais quando fizer sentido.
-
-Novas subdivisões só devem existir quando surgir uma necessidade concreta durante o uso do sistema.
-
-Os `README.md` operacionais da estrutura-base são exceção deliberada: eles existem para materializar as pastas e explicar seu uso, não para criar novas camadas de informação.
+Novas subdivisões só surgem por necessidade concreta.
 
 ## Campanhas novas e material legado
 
-O padrão para novas campanhas é `campanhas/`.
+O padrão atual é:
 
-Material antigo que ainda esteja em `aventuras/` permanece preservado como legado até uma migração explícita. Não mover, apagar ou reestruturar campanhas antigas automaticamente.
+```text
+campanhas/<nome>/
+```
+
+Material antigo em `aventuras/` permanece legado até migração explícita. Não mover, apagar ou reestruturar automaticamente.
