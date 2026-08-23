@@ -44,9 +44,13 @@ Esta pasta concentra:
 
 ## Regra de migração
 
-Os arquivos antigos diretamente em `sistema/` são preservados como fonte histórica de migração e não são apagados por esta revisão.
+A pasta `resolucao/` é a referência atual para os temas que já foram consolidados aqui.
 
-Quando uma formulação antiga contradiz uma regra já aprovada nesta pasta ou em `../personagem/`, prevalece a formulação nova e explicitamente aprovada.
+Alguns documentos históricos ainda existem em outras áreas enquanto houver conteúdo não migrado. Arquivos antigos já substituídos e removidos não são fontes válidas e não devem ser procurados.
+
+O registro das substituições e remoções fica em `../MIGRACAO-ESTRUTURAL.md`.
+
+Quando uma formulação histórica ainda existente contradiz uma regra já aprovada nesta pasta ou em `../personagem/`, prevalece a formulação nova e explicitamente aprovada.
 
 ## Princípio de entrada
 
