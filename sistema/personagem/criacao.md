@@ -47,7 +47,10 @@ Status: PENDENTE DE REVISÃO
 Importância: Central
 CONTROLE: JOGADOR IA
 
+Nome real:
 Idade:
+Aparência:
+Estilo:
 Conceito:
 Descrição:
 
@@ -72,8 +75,10 @@ REL:
 
 Não inventar ou preencher antecipadamente:
 
+- nome real;
 - idade;
 - aparência;
+- estilo;
 - origem;
 - conceito;
 - personalidade;
@@ -146,7 +151,20 @@ Nome, Importância e CONTROLE já chegam definidos e não precisam ser redescobe
 
 Este bloco deve deixar a personagem **identificável como pessoa e reconhecível em cena**, não apenas explicar sua origem de forma abstrata.
 
-Revisar e preencher, quando aplicáveis:
+A revisão do Bloco 1 segue como padrão, quando aplicável:
+
+```text
+Nome de uso / codinome
+→ Nome real
+→ Idade
+→ Aparência
+→ Estilo
+→ Origem / natureza
+→ Conceito
+→ demais informações de identidade necessárias
+```
+
+Revisar e preencher:
 
 - nome de uso, codinome ou identidade pela qual é conhecida;
 - nome real, civil ou pessoal, quando diferente do nome de uso;
@@ -165,11 +183,17 @@ Revisar e preencher, quando aplicáveis:
 - conhecimento necessário para interpretação;
 - demais elementos de identidade relevantes.
 
+`Nome real`, `Aparência` e `Estilo` fazem parte do **modelo-base padrão da ficha**. Permanecem vazios antes da revisão e são preenchidos no Bloco 1 quando aplicáveis.
+
+Se o personagem não possuir distinção entre nome de uso e nome real, o campo `Nome real:` pode repetir o nome civil quando isso for útil ou permanecer vazio até a conferência final decidir se deve ser removido.
+
 A aparência não precisa virar catálogo de medidas. Deve registrar aquilo que realmente define a presença visual da personagem e ajuda o NARRADOR a descrevê-la de modo consistente.
 
-Quando `Descrição:` for usada na ficha, ela deve conter descrição concreta útil à apresentação da personagem. Uma frase apenas sobre origem, universo ou função narrativa não substitui aparência e estilo quando esses elementos forem relevantes.
+`Aparência:` responde principalmente **como a pessoa é fisicamente reconhecida**.
 
-Campos adicionais como `Nome real:`, `Aparência:` ou `Estilo:` podem ser acrescentados à ficha durante este bloco quando deixarem a identidade mais clara. O modelo-base é estrutura inicial, não proibição de organizar melhor informação aprovada.
+`Estilo:` responde principalmente **como costuma se apresentar** — roupas, cores, acessórios, cabelo quando tratado como escolha estética, uniforme, armadura, maquiagem, símbolos ou outros elementos recorrentes.
+
+`Descrição:` pode complementar esses campos com presença, impressão geral ou outra síntese útil, mas não substitui `Aparência` e `Estilo` quando ambos forem relevantes.
 
 Se for personagem conhecido, canônico ou licenciado, a versão-base e eventuais combinações ou alterações são tratadas aqui, salvo quando o jogador já tiver fornecido essa informação.
 
