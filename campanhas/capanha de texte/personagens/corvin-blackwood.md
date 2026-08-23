@@ -55,10 +55,20 @@ Corvin atua como consultor externo da S.H.I.E.L.D. e agente eventual, chamado pa
 - **Regeneração Mutante [3]** => Cura própria / Recuperação de ferimentos / Resistência a sequelas / Envelhecimento retardado
 
 ### Traços
+- Regeneração e envelhecimento retardado são aspectos permanentes de sua mutação.
+- Sua magia tende a funcionar como força estabilizadora diante de fenômenos caóticos, demoníacos ou excessivamente instáveis.
+- Estabilizar não significa anular: Corvin reduz excessos, interferências e ruídos quando aplica conscientemente sua magia, sem desligar automaticamente os poderes de outras pessoas.
 
 ### Relações
+- **Ravena:** namorada; vínculo amoroso consolidado e de confiança profunda. A energia da Ordem de Corvin pode ajudá-la a organizar excessos e reduzir interferências quando sua natureza demoníaca fica pressionada, sem suprimir quem ela é.
+- **Wanda Maximoff:** namorada e parceira afetiva; relacionamento próprio e consolidado. Ordem e Magia Escarlate funcionam como forças complementares, capazes de se ajustar sem cancelamento automático.
+- **Estrutura afetiva:** Corvin participa de uma relação afetiva a três com Wanda e Ravena. Seus dois vínculos são românticos e próprios; o vínculo entre Wanda e Ravena mantém sua forma específica e pode evoluir organicamente.
+- **Vida em comum:** há cerca de três meses, Corvin, Wanda e Ravena vivem juntos na casa de Corvin. Cada um possui seu próprio quarto, mas Wanda e Ravena dormem com Corvin com frequência, e os três acabam dividindo a mesma cama juntos mais vezes do que elas gostam de admitir.
+- **Nick Fury / S.H.I.E.L.D.:** relação profissional. Corvin atua como consultor externo da S.H.I.E.L.D. e agente eventual, contratado ou convocado para casos específicos.
 
 ### Recursos
+- **Casa isolada:** residência de Corvin em uma região afastada, onde atualmente vive com Wanda e Ravena. A casa oferece espaço e privacidade para a rotina dos três, com quartos individuais para cada um.
+- **S.H.I.E.L.D.:** acesso eventual a suporte da organização quando atua formalmente em um caso, conforme necessidade e autorização operacional.
 
 ## Personalidade e tendências
 
