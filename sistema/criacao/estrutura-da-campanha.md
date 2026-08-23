@@ -330,7 +330,36 @@ O material de `mestre/` também não autoriza alterar retroativamente fatos já 
 
 ### `livro/`
 
-Guarda a narrativa já ocorrida: capítulos e registro literário da história.
+Guarda a **história que realmente aconteceu**, consolidada em forma narrativa.
+
+Por padrão, cada capítulo concluído possui um arquivo numerado:
+
+```text
+livro/
+├── 001.md
+├── 002.md
+├── 003.md
+└── ...
+```
+
+Cada arquivo registra um capítulo já ocorrido. Não usar `livro/` para guardar planos, possibilidades futuras, rascunhos de acontecimentos ou material que ainda dependa de decisões de jogo.
+
+```text
+livro/002.md
+→ narrativa consolidada do capítulo 2
+
+estado/atual.md
+→ ponto exato de onde o jogo continua
+
+mestre/
+→ elementos reservados que ainda podem acontecer
+```
+
+`livro/` funciona como memória histórica consultável. Não é necessário reler todos os capítulos para retomar uma cena; o ponto de retomada pertence a `estado/atual.md`.
+
+Não criar por padrão `README.md`, índice, resumos paralelos ou subpastas internas. Se uma necessidade concreta surgir mais tarde, a estrutura pode ser ampliada sem duplicar o conteúdo dos capítulos.
+
+> **`livro/` registra o que aconteceu. Nunca determina antecipadamente o que ainda deve acontecer.**
 
 ## Separação central
 
