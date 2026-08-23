@@ -2,7 +2,9 @@
 
 CRIAÇÃO: EM ANDAMENTO
 
-Etapa atual: Registrar outros personagens com agência
+Etapa atual: Revisão das fichas
+Personagem atual: Ravena
+Bloco atual: 1 - Identidade e conceito
 
 ## 1 - Nome da campanha
 
