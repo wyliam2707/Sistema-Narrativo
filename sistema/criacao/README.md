@@ -302,3 +302,19 @@ Kory — JOGADOR IA EVENTUAL
 Não definir ainda função narrativa, personalidade, relação com o protagonista, história, capacidades ou mecânica.
 
 > **Primeiro o sistema estabelece quais peças existem e quem gerencia cada uma. Depois cada personagem é construído conceitualmente, um por vez.**
+
+## Construção conceitual de cada personagem
+
+Depois de registrar `NOME + GERÊNCIA`, construir cada personagem separadamente.
+
+Cada personagem possui **no máximo 3 perguntas principais** de criação conceitual.
+
+Esse é um teto, não uma meta. A IA deve fazer menos perguntas quando as respostas anteriores já fornecerem informação suficiente.
+
+A criação pode abordar identidade narrativa, personalidade, comportamento, vínculo, objetivo, história essencial e capacidades em linguagem conceitual, conforme forem realmente úteis.
+
+Nesta etapa não definir atributos, perícias, patamares, valores ou qualquer outro detalhe mecânico.
+
+A IA pode sugerir ideias, mas não deve transformar essas sugestões em fatos da ficha sem aceitação, modificação ou incorporação pelo jogador.
+
+> **Cada personagem IA deve ficar claro o suficiente para ser interpretado, não completo o suficiente para virar uma enciclopédia.**
