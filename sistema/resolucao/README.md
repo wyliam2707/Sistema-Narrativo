@@ -11,8 +11,8 @@ Esta pasta responde à pergunta:
 ## Estrutura principal
 
 - `principio-de-resolucao.md` — quando estabelecer diretamente, quando resolver incerteza e como tratar dúvida restante;
-- `leitura-da-ficha-na-resolucao.md` — quais capacidades, meios, situação e oposição realmente entram;
-- `motor-de-disputa.md` — Potência, Resistência, Exigência, Progresso, Tempo e Custo;
+- `leitura-da-ficha-na-resolucao.md` — mecanismo, Base, Suporte, meio, situação e oposição realmente aplicáveis;
+- `motor-de-disputa.md` — Base, Suporte, Resistência, Exigência, Progresso, Tempo e Custo;
 - `efeitos/` — uma página curta para cada efeito central, incluindo Geral;
 - `escalas-de-efeito.md` — índice de compatibilidade que aponta para `efeitos/`;
 - `fonte-e-vida-estrutural.md` — Fonte da manifestação, Atributo estrutural e Vida dos efeitos persistentes;
@@ -20,9 +20,9 @@ Esta pasta responde à pergunta:
 - `combate-e-dano.md` — Fonte do Dano, Perícia efetiva, Ataque efetivo, Defesa, Dano e VIDA;
 - `ordem-de-resolucao-do-combate.md` — ordem operacional de resolução do combate;
 - `energia.md` — Reserva, custo, recuperação e Bateria;
-- `recuperacao-da-vida.md` — recuperação natural, Regeneração, Cura e Medicina;
+- `recuperacao-da-vida.md` — recuperação natural, Regeneração e Medicina;
 - `resolucao-social.md` — influência social e preservação de agência;
-- `informacao-e-investigacao.md` — percepção, interpretação, investigação e Informação.
+- `informacao-e-investigacao.md` — percepção, repertório e investigação normal.
 
 ## Atalho de combate
 
@@ -58,11 +58,15 @@ A resolução não fabrica dúvida quando o resultado já está claro.
 Quando necessário:
 
 ```text
-Perícia efetiva = Perícia de aplicação − Perícia de oposição
+Ação efetiva = Base + 1 + (Suporte × 0,2)
 
-Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2)
+Progresso por aplicação = 2^(Ação efetiva − Resistência efetiva)
+```
 
-Progresso por aplicação = 2^(Efeito efetivo − Resistência efetiva)
+Sem Suporte aplicável:
+
+```text
+Ação efetiva = Base + 1
 ```
 
 Quando a tarefa permite acúmulo:
@@ -70,6 +74,8 @@ Quando a tarefa permite acúmulo:
 ```text
 Aplicações necessárias = teto(Exigência ÷ Progresso por aplicação)
 ```
+
+A Base, o Suporte e a Resistência são definidos pelo mecanismo da cena conforme `leitura-da-ficha-na-resolucao.md` e `motor-de-disputa.md`.
 
 A escala temporal pertence a `motor-de-disputa.md`.
 
