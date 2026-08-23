@@ -2,120 +2,54 @@
 
 Status: APROVADO
 
-Este arquivo estabelece como a **Fonte** de uma manifestação determina o Atributo estrutural e a Vida estrutural de Proteções e efeitos persistentes.
+Este arquivo define **qual Atributo sustenta uma manifestação e quanta Vida estrutural ela possui**.
 
-## Regra central
+> **Efeito define o que acontece. Fonte define pelo que a manifestação existe e se sustenta.**
 
-> **Efeito define a função. Fonte define pelo que o efeito existe e se sustenta. Atributo da Fonte define sua Vida estrutural.**
+## 1. Fonte → Atributo
 
-A Fonte é a maneira concreta pela qual a manifestação existe na ficção: magia, rede, armadura, corpo, energia, tecnologia, espírito, invocação ou outra origem coerente.
+Usar a natureza real da manifestação:
 
-A Fonte não é uma categoria mecânica nova e não muda, por si só, a função do efeito.
+`efeito físico → FIS`
 
-## Eixos da Fonte
+`efeito mágico ou mental → MEN`
 
-Para resolver qual Atributo sustenta uma manifestação, usa-se como referência sua natureza e sua função:
+`proteção física ou estrutural → RES`
 
-`Ação ou efeito físico → FIS`
+`proteção mágica ou espiritual → VON`
 
-`Ação ou efeito mágico/mental → MEN`
+A Fonte concreta continua sendo definida pela ficção. O eixo apenas traduz essa Fonte para o Atributo estrutural.
 
-`Proteção física/estrutural → RES`
+Um mesmo Poder pode usar Fontes diferentes em manifestações diferentes quando isso for coerente com o que foi criado.
 
-`Proteção mágica/espiritual → VON`
+Não escolher o Atributo mais vantajoso; usar aquele que realmente sustenta a manifestação.
 
-A Fonte concreta continua sendo descrita pela ficção. O eixo acima apenas traduz essa Fonte para o Atributo estrutural correspondente.
+## 2. Vida estrutural
 
-Exemplos:
-
-`Imobilizar por rede → Fonte: rede física / FIS`
-
-`Imobilizar por magia → Fonte: magia / MEN`
-
-`Proteção por armadura ou campo físico → Fonte: estrutura física / RES`
-
-`Proteção arcana ou espiritual → Fonte: magia / VON`
-
-Um mesmo Poder pode usar eixos diferentes em manifestações diferentes quando sua natureza permitir. A escolha deve seguir a função e a Fonte reais da manifestação, não o Atributo mais vantajoso disponível.
-
-## Vida estrutural
-
-Quando uma Proteção ou efeito persistente possui uma Fonte com Atributo estrutural definido:
-
-`Vida estrutural = maior entre [1] e o valor atual do Atributo da Fonte`
-
-Assim, **todo efeito com Vida estrutural possui pelo menos [1] de Vida**.
-
-Exemplos:
-
-`Proteção [3] — Fonte: magia / VON [4] → D3,8 / V4`
-
-`Proteção [3] — Fonte: barreira física / RES [4] → D3,8 / V4`
-
-`Imobilizar [3] — Fonte: efeito mágico / MEN [4] → D?,? / V4`
-
-`Imobilizar [3] — Fonte: rede física / FIS [4] → D?,? / V4`
-
-`Proteção [3] — Fonte: magia / VON [0] → D3,8 / V1`
-
-O valor de `D` continua sendo calculado pela regra específica do efeito. A Fonte altera a Vida estrutural, não a função nem automaticamente a Defesa.
-
-O valor de `V` é definido **no momento em que a manifestação é criada**. Alterações posteriores no Atributo da Fonte não recalculam retroativamente a Vida estrutural daquela instância.
-
-Exemplo: uma manifestação criada com `MEN [4] → V4` permanece com seu `V` atual mesmo que o personagem depois sofra Supressão e passe a `MEN [2]`. Uma nova aplicação feita depois dessa mudança usa o valor atual do Atributo e, portanto, seria criada com `V2`.
-
-Aumentos posteriores no Atributo também não elevam automaticamente o `V` de uma instância já existente.
-
-## Fonte pode variar por manifestação
-
-Um mesmo Poder pode produzir manifestações com Fontes diferentes quando sua ficção permitir. A Fonte deve ser declarada na configuração da manifestação e precisa permanecer coerente com aquilo que foi criado.
-
-Exemplo:
-
-`Proteção [3] — Fonte: magia / VON [4]`
-
-`Proteção [3] — Fonte: escudo físico / RES [4]`
-
-Ambas continuam sendo o mesmo efeito mecânico de Proteção, usando a mesma regra de Barreira.
-
-## Proteção
-
-Proteções mantêm a mesma mecânica de Barreira independentemente da Fonte:
-
-`Barreira [D / V]`
-
-A Fonte somente define qual Atributo fornece `V`.
-
-## Efeitos persistentes
-
-Todo efeito que permaneça em cena e possua estrutura própria deve registrar sua Fonte quando isso for relevante para sua manutenção.
-
-Não existe mais um valor universal ou padrão de Vida estrutural. Sempre que um efeito persistente possuir Vida estrutural, sua Fonte deve ser identificada e seu valor é calculado por:
+Para efeitos que possuem Vida estrutural:
 
 `V = maior entre [1] e o Atributo estrutural da Fonte`
 
-Se a Fonte não estiver imediatamente clara, a resolução deve determinar o que realmente sustenta a manifestação antes de calcular sua Vida.
+A Fonte determina `V`. A Defesa `D` continua pertencendo à regra do próprio efeito.
 
-## Existência da Fonte
+Não existe `V` universal para efeitos persistentes.
 
-Quando a **Fonte real que sustenta** um efeito persistente deixa de existir, o efeito encerra imediatamente.
+## 3. Valor fixado na criação
 
-Isso vale quando a própria permanência da manifestação depende daquela Fonte: correntes físicas destruídas, dispositivo que projetava uma barreira desligado ou destruído, criatura que sustentava diretamente um vínculo, ou outro mecanismo equivalente.
+O valor de `V` é estabelecido quando a manifestação é criada.
 
-Essa regra não encerra automaticamente uma manifestação que, por sua própria natureza, tornou-se independente depois de criada. Se o efeito é autônomo, ele continua existindo segundo sua própria Duração, Vida estrutural e demais regras aplicáveis.
+Mudanças posteriores no Atributo da Fonte não recalculam retroativamente aquela instância.
 
-A origem de um efeito e aquilo que o sustenta não precisam ser a mesma coisa. Derrubar o criador, conjurador ou operador não encerra o efeito por si só quando a Fonte já existente é independente dele.
+Uma nova aplicação usa o valor atual do Atributo no momento em que for criada.
 
-> **Se o efeito depende da Fonte para continuar existindo, a perda da Fonte encerra o efeito. Se a manifestação já é autônoma, ela continua por suas próprias regras.**
+## 4. Existência da Fonte
 
-## Limites
+Se a manifestação **depende continuamente da Fonte** e essa Fonte deixa de existir, a manifestação termina.
 
-A Fonte não pode:
+Se a manifestação já é autônoma, a queda do criador, operador ou origem inicial não a encerra por si só. Ela continua segundo sua Duração, Vida estrutural e demais regras aplicáveis.
 
-- criar uma função mecânica que o efeito não possui;
-- aumentar o patamar do efeito;
-- alterar automaticamente sua Duração;
-- conceder bônus gratuito;
-- trocar de Atributo depois da resolução apenas para aumentar a Vida.
+> **Fonte perdida encerra apenas aquilo que ainda depende dela para existir.**
 
-> **A Fonte descreve a origem estrutural da manifestação; o efeito continua determinando o que ela faz.**
+## Regra final
+
+> **Identifique o que sustenta a manifestação → traduza para FIS, MEN, RES ou VON → calcule `V = máx(1, Atributo)` → fixe o valor na criação.**
