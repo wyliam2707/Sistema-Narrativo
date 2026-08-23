@@ -6,24 +6,54 @@ Esta pasta responde à pergunta:
 
 > **Em que ordem o sistema é aplicado enquanto o RPG está rodando?**
 
-`operacao/` não cria uma segunda versão das regras. Ela organiza **quando cada área entra em cena**.
+`operacao/` organiza o fluxo. Ela não redefine personagem, resolução, agência, narração ou persistência.
 
 ## Estrutura canônica
 
 ```text
 operacao/
 ├── README.md
-└── ciclo-de-cena.md
+├── ciclo-de-cena.md
+├── janelas-e-interrupcoes.md
+└── turnos-de-combate.md
 ```
 
-- `README.md` — porta de entrada e roteador da operação.
-- `ciclo-de-cena.md` — sequência operacional completa de uma janela significativa de cena.
+### `ciclo-de-cena.md`
 
-Quando houver dúvida sobre ordem de atuação, abertura de nova janela, interrupção ou devolução de controle, consultar `ciclo-de-cena.md`.
+Sequência central das cinco cadeiras:
+
+```text
+JOGADORES
+→ OPOSITOR
+→ NARRADOR JULGA
+→ NARRADOR NARRA A SENTENÇA
+→ NARRADOR REGISTRA
+```
+
+### `janelas-e-interrupcoes.md`
+
+Usar fora de combate para:
+
+- intenção ampla;
+- passagem de tempo;
+- ponto real de interrupção;
+- devolução de controle;
+- competência evidente;
+- abertura de nova janela.
+
+### `turnos-de-combate.md`
+
+Usar durante combate para:
+
+- turnos simultâneos de até 10 segundos;
+- oportunidade de declaração para todas as peças;
+- precedência dentro do mesmo intervalo;
+- limite temporal da sentença;
+- fechamento do estado antes do turno seguinte.
+
+As fórmulas de Dano, Cura, Energia, efeitos e demais mecânicas continuam em `../resolucao/`.
 
 ## Imagem mental
-
-A operação usa a mesma imagem de `../personas/`:
 
 ```text
 JOGADORES
@@ -36,38 +66,9 @@ NARRADOR
 → juiz.
 ```
 
-O ciclo essencial é:
+> **O NARRADOR não move a disputa. Ele julga, narra a sentença e registra.**
 
-```text
-JOGADORES declaram
-↓
-OPOSITOR apresenta movimento, gancho, pressão ou oposição
-↓
-NARRADOR JULGA
-↓
-NARRADOR NARRA A SENTENÇA
-↓
-NARRADOR REGISTRA
-↓
-NOVA SITUAÇÃO
-```
-
-> **O NARRADOR não move a disputa. Consultar fatos faz parte de JULGAR, não constitui uma etapa de iniciativa própria.**
-
-## O que esta pasta coordena
-
-`operacao/` coordena:
-
-- quando uma declaração é necessária;
-- quando uma intenção anterior continua suficiente;
-- quando o JOGADOR IA ou JOGADOR IA EVENTUAL precisa decidir;
-- quando o OPOSITOR pode puxar um gancho ou apresentar oposição;
-- quando o NARRADOR deve julgar;
-- até onde a sentença pode ser narrada sem roubar nova decisão;
-- quando uma nova janela precisa abrir;
-- quando o resultado precisa ser registrado.
-
-## Roteamento para as outras áreas
+## Roteamento
 
 ```text
 como criar campanha?             → ../criacao/
@@ -80,11 +81,20 @@ o que permanece e onde salvar?   → ../persistencia/
 como aplicar tudo em sequência?  → operacao/
 ```
 
-Não copiar para `operacao/` fórmulas de resolução, ficha, estilo narrativo ou regras de persistência já definidas nessas áreas.
+## Entrada durante o jogo
 
-## Registro do resultado
+```text
+fora de combate
+→ ciclo-de-cena.md
+→ janelas-e-interrupcoes.md
 
-O NARRADOR registra somente o que a sentença tornou verdadeiro.
+combate
+→ ciclo-de-cena.md
+→ turnos-de-combate.md
+→ ../resolucao/ quando houver cálculo
+```
+
+## Registro
 
 O retrato operacional principal da campanha é:
 
@@ -92,32 +102,30 @@ O retrato operacional principal da campanha é:
 campanhas/<nome>/estado/atual.md
 ```
 
-Pontas disponíveis ao OPOSITOR podem ficar em:
+Ganchos atuais do OPOSITOR podem ficar em:
 
 ```text
 campanhas/<nome>/mestre/ganchos-do-opositor.md
 ```
 
-Fatos estáveis pertencem a `mundo/`, mudanças estáveis de personagem à ficha quando cabíveis, e história ocorrida a `livro/` conforme `../persistencia/`.
-
-Não criar automaticamente arquivos paralelos de STATUS, Progressão, cronologia ou checklist apenas porque esses conceitos aparecem durante uma resolução.
+A persistência concreta segue `../persistencia/`.
 
 ## Arquivos legados
 
-Os arquivos antigos:
+Os arquivos:
 
 ```text
 ../modo-rpg.md
 ../checklist-do-narrador.md
 ```
 
-permanecem preservados temporariamente para revisão histórica, mas **não são fonte operacional**.
+permanecem temporariamente preservados apenas como legado.
 
-Seu conteúdo útil já foi absorvido pelo ciclo atual ou pelas áreas canônicas correspondentes. Quando uma formulação desses arquivos contradizer `operacao/`, `personas/`, `agencia/`, `resolucao/`, `narracao/` ou `persistencia/`, ignorar a formulação antiga.
+> **Não usar esses arquivos como regra operacional.**
 
-Eles só devem ser removidos numa etapa posterior de limpeza, após confirmação explícita.
+Seu conteúdo útil foi migrado para as áreas canônicas. Eles só devem ser apagados após confirmação explícita.
 
-## Porta de entrada do sistema
+## Porta de entrada geral
 
 ```text
 NOVA CAMPANHA
@@ -131,4 +139,4 @@ CONTINUAR
 
 ## Regra final
 
-> **Operação não decide quem vence nem inventa conteúdo. Ela garante que cada cadeira fale na hora certa, que o juiz só julgue depois das declarações relevantes e que a sentença pare quando voltar a existir uma decisão real.**
+> **README roteia. Arquivos especializados guardam as regras. `ciclo-de-cena.md` define a ordem; `janelas-e-interrupcoes.md` governa o fluxo normal; `turnos-de-combate.md` governa o combate.**
