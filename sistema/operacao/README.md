@@ -42,15 +42,16 @@ CONTINUAR
 → campanhas/<nome>/README.md
 ```
 
-## Arquivos antigos como fonte de migração
+## Arquivos antigos ainda úteis para migração
 
 Os documentos abaixo permanecem preservados apenas nos pontos ainda não substituídos:
 
 - `../modo-rpg.md`;
-- `../checklist-do-narrador.md`;
-- `../ciclo-de-jogadores.md`.
+- `../checklist-do-narrador.md`.
 
 Eles não prevalecem contra `ciclo-de-cena.md`, `../personas/`, `../persistencia/` ou outra regra nova explicitamente aprovada.
+
+O ciclo antigo já foi removido após substituição por `ciclo-de-cena.md` e `../personas/`.
 
 ## Registro do resultado
 
