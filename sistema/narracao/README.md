@@ -1,71 +1,120 @@
 # Narração
 
-Status: EM MIGRAÇÃO
+Status: APROVADO
 
-Esta pasta reúne as regras que respondem à pergunta:
+Esta pasta responde à pergunta:
 
-> **Como os acontecimentos resolvidos são apresentados ao jogador e transformados em cena?**
+> **Como um acontecimento já julgado é apresentado como cena?**
 
-## Estado da migração
+`narracao/` cuida da forma. Ela não decide quem age, não altera resultado, não cria oposição e não redefine persistência.
 
-A estrutura nova está sendo construída sem apagar os arquivos antigos.
+## Estrutura canônica
 
-Enquanto uma regra de apresentação ainda não tiver sido reescrita e aprovada nesta pasta, o arquivo antigo correspondente pode continuar sendo consultado apenas nos pontos ainda não substituídos.
+```text
+narracao/
+├── README.md
+├── apresentacao-da-cena.md
+├── fala-e-interioridade.md
+├── ritmo-e-descricao.md
+└── dramatizacao-e-resumo.md
+```
 
-## Responsabilidades desta área
+### `apresentacao-da-cena.md`
 
-Esta pasta deverá concentrar, progressivamente:
+Usar para:
 
-- narração e escrita padrão;
-- ritmo de cena;
-- ponto de parada;
-- quantidade de avanço por declaração;
-- diferença entre jogo ao vivo e texto literário consolidado;
-- apresentação de fala, pensamento e informação perceptível;
-- controle de foco e clareza espacial;
-- limites para não narrar decisões voluntárias do jogador humano.
+- transformar sentença em ficção;
+- manter clareza causal e espacial;
+- apresentar somente informação perceptível;
+- manter mecânica fora da prosa;
+- respeitar o limite de parada definido por `../operacao/`.
 
-## Relação com outras áreas
+### `fala-e-interioridade.md`
 
-- `../personas/` define quem decide;
-- `../resolucao/` define o que acontece;
-- `../operacao/` define quando apresentar e quando devolver controle;
-- `narracao/` define como o acontecimento estabelecido é mostrado.
+Usar para:
 
-O NARRADOR não deve usar estilo narrativo para alterar resultado, criar oposição retroativa ou assumir decisões que pertencem aos jogadores.
+- `[Nome] — fala`;
+- `[Nome, pensa] — pensamento`;
+- diferença entre interioridade no RPG ao vivo e no livro;
+- voz individual;
+- subtexto;
+- prevenção de vazamento de conhecimento interno.
+
+### `ritmo-e-descricao.md`
+
+Usar para:
+
+- terceira pessoa próxima;
+- parágrafos e ritmo;
+- descrição seletiva;
+- atmosfera;
+- ação clara;
+- cotidiano;
+- romance e vínculos;
+- humor.
+
+### `dramatizacao-e-resumo.md`
+
+Usar para decidir:
+
+- o que precisa ser vivido em cena;
+- o que pode ser resumido;
+- quando sair do resumo e voltar à dramatização;
+- como direção narrativa altera ênfase sem alterar fatos;
+- como condensar sem atravessar decisões ainda abertas.
+
+## Relação com as outras áreas
+
+```text
+quem decide?                 → ../personas/
+o que realmente acontece?    → ../resolucao/
+quando parar ou abrir janela? → ../operacao/
+o que permanece?             → ../persistencia/
+como mostrar?                → narracao/
+```
+
+> **Narração apresenta a sentença. Não participa da disputa.**
 
 ## Direção narrativa da campanha
 
-Toda campanha atual registra sua direção narrativa nas fontes definidas por `../criacao/README.md`.
+O padrão desta pasta é herdado por toda campanha.
 
-O resumo canônico da direção narrativa fica no `README.md` da própria campanha. Detalhes adicionais só devem existir em outro arquivo quando houver necessidade concreta e uma fonte principal claramente definida.
+A direção narrativa local registrada no `README.md` da campanha pode complementar ou alterar escolhas de estilo como tom, foco, ritmo, humor, romance, sensualidade e atmosfera.
 
-A direção específica da campanha pode complementar ou alterar aspectos do padrão geral de escrita.
+Ela não altera agência, fatos, resolução ou consequência.
 
 > **A campanha define o estilo local; o sistema fornece o padrão herdado.**
 
-## Fonte antiga ainda útil
+## RPG ao vivo e Livro
 
-Enquanto esta pasta não possuir uma substituição completa aprovada para o estilo geral, pode ser consultado:
+```text
+RPG AO VIVO
+→ apresenta somente aquilo que a situação e a perspectiva permitem.
+→ preserva decisões ainda pertencentes à mesa.
+→ não revela automaticamente interioridade das outras peças.
+
+LIVRO
+→ consolida depois o que realmente aconteceu.
+→ pode reconstruir transições e ampliar interioridade sem mudar o cânone.
+```
+
+As regras de consolidação do Livro pertencem a `../persistencia/`.
+
+## Arquivos legados
+
+Os arquivos antigos:
 
 ```text
 ../narracao-e-escrita-padrao.md
+../exemplo-de-estilo.md
 ```
 
-Esse arquivo é fonte histórica ainda útil somente nos pontos de estilo não substituídos. Ele não pode reintroduzir estrutura antiga de campanha, controle, resolução ou persistência.
+permanecem preservados temporariamente como legado e referência histórica.
 
-## Livro e jogo ao vivo
+As regras operacionais de narração agora pertencem aos arquivos desta pasta. Formulações antigas que contradigam `personas/`, `operacao/`, `resolucao/`, `persistencia/` ou estes arquivos devem ser ignoradas.
 
-A apresentação durante a sessão e a consolidação literária cumprem funções diferentes.
+Eles só devem ser removidos após confirmação explícita.
 
-```text
-JOGO AO VIVO
-→ apresenta somente o necessário para a situação atual e devolve agência aos jogadores
+## Regra final
 
-LIVRO
-→ consolida depois aquilo que realmente aconteceu
-```
-
-As regras de consolidação pertencem a `../persistencia/livro.md` e `../persistencia/fechamento-de-capitulo.md`.
-
-> **Forma melhora a experiência; não reescreve o acontecimento.**
+> **README roteia. Arquivos especializados guardam as regras. Narração mostra com clareza aquilo que já foi decidido sem tomar para si decisões que pertencem a outras cadeiras.**
