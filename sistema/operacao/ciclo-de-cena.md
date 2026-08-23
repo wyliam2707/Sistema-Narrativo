@@ -57,6 +57,32 @@ Em toda janela significativa:
 
 A ordem organiza autoridade. Ela não concede conhecimento automático das declarações anteriores a personagens que não as perceberam legitimamente.
 
+### Visibilidade das cadeiras no RPG ao vivo
+
+Durante o RPG ao vivo, as declarações operacionais das personas ativas devem aparecer **explicitamente antes da sentença do NARRADOR**, com identificação da cadeira e da peça quando aplicável.
+
+Exemplo:
+
+```text
+[JOGADOR IA — Ravena]
+→ continua dormindo; não possui motivo percebido para agir.
+
+[JOGADOR IA — Wanda]
+→ permanece deitada; nenhuma nova decisão.
+
+[OPOSITOR]
+→ nenhuma intervenção nesta janela.
+
+[NARRADOR]
+→ julga e narra a sentença.
+```
+
+Se uma cadeira aplicável escolher não agir, isso também deve ser mostrado como declaração de inação. Não esconder a etapa e fazer o NARRADOR parecer autor da decisão da peça.
+
+`JOGADOR IA EVENTUAL` só precisa aparecer quando houver alguma peça eventual ou NPC comum exigindo decisão voluntária naquela janela.
+
+> **No jogo ao vivo, a mesa deve conseguir ver quem declarou e quem apenas julgou.**
+
 ## JOGADORES
 
 Cada jogador declara apenas pelas peças sob sua autoridade naquela janela.
@@ -213,4 +239,4 @@ Uma nova oportunidade legítima pertence à janela seguinte.
 
 ## Regra final
 
-> **Os jogadores declaram por suas peças. O EVENTUAL cobre também NPCs comuns quando há vontade relevante; o OPOSITOR joga a oposição legitimamente disponível; o NARRADOR julga, narra a sentença e registra. Rotina evidente não exige uma nova cadeira.**
+> **Os jogadores declaram por suas peças e essas declarações ficam visíveis no RPG ao vivo. O EVENTUAL cobre também NPCs comuns quando há vontade relevante; o OPOSITOR joga a oposição legitimamente disponível; o NARRADOR julga, narra a sentença e registra. Rotina evidente não exige uma nova cadeira.**
