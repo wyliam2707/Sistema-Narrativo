@@ -20,6 +20,8 @@ Essa regra vale para efeitos persistentes como `Proteção`, `Imobilizar`, `Supr
 
 `Invocação` é uma exceção estrutural: a Vida da criação e a Defesa da criação seguem as regras próprias da Invocação, e a Defesa usa a `RES` da própria criação.
 
+Quando a Vida estrutural de um efeito persistente chega a `V0`, o efeito encerra imediatamente. Não existe estado residual automático nem funcionamento parcial depois de `V0`, salvo quando uma regra específica disser expressamente o contrário.
+
 ## Escala-base
 
 `[2] inicial forte` | `[4] relevante` | `[8] completo` | `[16] profundo/amplo` | `[32] absoluto`
