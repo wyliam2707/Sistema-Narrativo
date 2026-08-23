@@ -58,6 +58,18 @@ Vários personagens marcados como `JOGADOR IA EVENTUAL` podem ser administrados 
 
 > **JOGADOR IA é individual por personagem. JOGADOR IA EVENTUAL é uma persona única para todos os eventuais autorizados.**
 
+## Limite operacional
+
+A campanha pode usar no máximo:
+
+`2 JOGADORES IA dedicados | 1 JOGADOR IA EVENTUAL | 1 OPOSITOR | 1 NARRADOR`
+
+Cada `JOGADOR IA` dedicado continua exclusivo de sua própria peça. O `JOGADOR IA EVENTUAL` continua sendo uma única persona compartilhada por todos os personagens marcados com esse controle.
+
+O limite existe para preservar separação de contexto, continuidade de intenção e legibilidade operacional entre as personas.
+
+> **No máximo dois JOGADORES IA dedicados e uma única persona JOGADOR IA EVENTUAL.**
+
 ## Três tipos de declaração da IA antes do julgamento
 
 Antes da resolução do NARRADOR, podem existir declarações de:
