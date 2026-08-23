@@ -11,15 +11,16 @@ Esta pasta responde à pergunta:
 ## Estrutura principal
 
 - `principio-de-resolucao.md` — quando estabelecer diretamente, quando resolver incerteza e como tratar dúvida restante;
-- `leitura-da-ficha-na-resolucao.md` — como Atributos, Perícias, Poderes, meios, situação e conhecimento entram na resolução;
-- `motor-de-disputa.md` — Potência, Resistência, Exigência, progresso, tempo e custo;
-- `escalas-de-efeito.md` — tabelas de referência dos efeitos;
+- `leitura-da-ficha-na-resolucao.md` — quais capacidades, meios, situação e oposição realmente entram;
+- `motor-de-disputa.md` — Potência, Resistência, Exigência, Progresso, Tempo e Custo;
+- `efeitos/` — uma página curta para cada efeito central;
+- `escalas-de-efeito.md` — índice de compatibilidade que aponta para `efeitos/`;
 - `fonte-e-vida-estrutural.md` — Fonte da manifestação, Atributo estrutural e Vida dos efeitos persistentes;
 - `geral.md` — manifestações narrativas, utilitárias e cotidianas sem efeito prático de combate;
 - `consolidacao.md` — Alcance, Alvos, Área/Tamanho, Duração e Ampliação;
-- `combate-e-dano.md` — fonte de Dano, Perícia efetiva, Ataque efetivo, Dano aplicado e defesa;
-- `ordem-de-resolucao-do-combate.md` — ordem de processamento do turno, HUD do JOGADOR HUMANO, confirmações, configuração, interferência e fechamento do combate;
-- `energia.md` — Reserva, custos, Ampliação, Bateria e recuperação;
+- `combate-e-dano.md` — Fonte do Dano, Perícia efetiva, Ataque efetivo, Defesa, Dano e VIDA;
+- `ordem-de-resolucao-do-combate.md` — ordem operacional de resolução do combate;
+- `energia.md` — Reserva, custo, recuperação e Bateria;
 - `recuperacao-da-vida.md` — recuperação natural, Regeneração, Cura e Medicina;
 - `resolucao-social.md` — influência social e preservação de agência;
 - `informacao-e-investigacao.md` — percepção, interpretação, investigação e Informação.
@@ -35,7 +36,7 @@ ordem-de-resolucao-do-combate.md
 Atalho operacional:
 
 ```text
-HUD → declaração → confirmação, se necessária → IAs/Opositor → resolver → atualizar → novo HUD
+HUD → declaração → escolhas faltantes → IAs/Opositor → resolver → atualizar → novo HUD
 ```
 
 ## Entrada
@@ -48,7 +49,7 @@ IMPOSSIBILIDADE EVIDENTE
 → estabelecer.
 
 INCERTEZA REAL
-→ usar a regra específica adequada.
+→ usar somente a regra específica necessária.
 ```
 
 A resolução não fabrica dúvida quando o resultado já está claro.
@@ -71,22 +72,15 @@ Quando a tarefa permite acúmulo:
 Aplicações necessárias = teto(Exigência ÷ Progresso por aplicação)
 ```
 
-A escala temporal padrão é definida em `motor-de-disputa.md`:
+A escala temporal pertence a `motor-de-disputa.md`.
 
-```text
-10 segundos → aplicação imediata
-1 minuto    → aplicação curta
-1 hora      → aplicação prolongada
-1 dia       → aplicação extensa
-```
+## Efeitos
 
-Durante combate, a aplicação imediata de 10 segundos usa o mesmo relógio de `../operacao/turnos-de-combate.md`.
+Para um efeito específico, consultar diretamente sua página em `efeitos/`.
 
-## Regras especializadas
+`efeitos/README.md` contém apenas as regras compartilhadas entre efeitos persistentes e o índice das páginas.
 
-Dano, Cura, Energia, Proteção, Dissipar, Geral, efeitos persistentes, Invocação e demais efeitos continuam sendo calculados pelos arquivos especializados desta pasta.
-
-`README.md` não substitui essas regras.
+`README.md` e `escalas-de-efeito.md` não substituem a página específica do efeito.
 
 ## Fronteiras
 
