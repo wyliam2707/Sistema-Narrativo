@@ -4,7 +4,7 @@ CRIAÇÃO: EM ANDAMENTO
 
 Etapa atual: Revisão das fichas
 Personagem atual: Ravena
-Bloco atual: 3 - Poderes e capacidades
+Bloco atual: 4 - Traços e relações
 
 ## 1 - Nome da campanha
 
