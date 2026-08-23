@@ -51,10 +51,24 @@ Utiliza agentes permanentes, equipes especiais e consultores externos quando um 
 - **Arsenal Tático [1]** => Dano / Proteção / Comunicação / Vigilância / Ferramentas de campo
 
 ### Traços
+- Veterano de operações clandestinas.
+- Extremamente desconfiado.
+- Trabalha por compartimentalização de informação.
+- Mantém planos de contingência para pessoas, recursos e operações relevantes.
+- Evita depender de uma única pessoa ou solução quando pode preparar alternativas.
 
 ### Relações
+- **Corvin Blackwood:** consultor externo da S.H.I.E.L.D. e agente eventual. Fury o convoca quando um caso exige conhecimento, capacidade ou liberdade de ação fora do perfil normal da organização. Existe confiança profissional suficiente para contratá-lo, mas Fury continua mantendo contingências.
+- **S.H.I.E.L.D.:** Fury exerce autoridade direta sobre a organização e pode mobilizar agentes, equipes, inteligência, laboratórios, transporte, instalações, vigilância e suporte operacional conforme a situação permitir.
 
 ### Recursos
+- Rede de inteligência da S.H.I.E.L.D.
+- Agentes e equipes especializadas.
+- Instalações e laboratórios.
+- Transporte e aeronaves.
+- Acesso a tecnologia, armamentos e bancos de dados classificados.
+
+Recursos de grande escala, como um Helicarrier ou mobilizações equivalentes, pertencem à organização e dependem da situação; não são posses pessoais automaticamente disponíveis em qualquer cena.
 
 ## Personalidade e tendências
 
