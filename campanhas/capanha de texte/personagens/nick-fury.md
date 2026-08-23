@@ -48,6 +48,7 @@ Utiliza agentes permanentes, equipes especiais e consultores externos quando um 
 - **Investigação [+3]**
 
 ### Poderes
+- **Arsenal Tático [1]** => Dano / Proteção / Comunicação / Vigilância / Ferramentas de campo
 
 ### Traços
 
