@@ -2,7 +2,7 @@
 
 CRIAÇÃO: EM ANDAMENTO
 
-Etapa atual: Registrar protagonista
+Etapa atual: Registrar outros personagens com agência
 
 ## 1 - Nome da campanha
 
@@ -24,7 +24,7 @@ O cenário é próprio, mas incorpora personagens e elementos da Marvel conforme
 
 ## 4 - Personagens com agência
 
-Nenhum registrado.
+Corvin Blackwood — Central — JOGADOR HUMANO
 
 ## 5 - Situação de entrada
 
