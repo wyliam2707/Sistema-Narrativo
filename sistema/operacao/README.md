@@ -4,9 +4,9 @@ Status: APROVADO
 
 Esta pasta responde à pergunta:
 
-> **Em que ordem o sistema é aplicado enquanto o RPG está rodando?**
+> **Em que ordem o sistema é aplicado enquanto o RPG está rodando e como operações administrativas são executadas?**
 
-`operacao/` organiza o fluxo. Ela não redefine personagem, resolução, agência, narração ou persistência.
+`operacao/` organiza fluxo e procedimentos. Ela não redefine personagem, resolução, agência, narração ou persistência.
 
 ## Estrutura canônica
 
@@ -15,7 +15,8 @@ operacao/
 ├── README.md
 ├── ciclo-de-cena.md
 ├── janelas-e-interrupcoes.md
-└── turnos-de-combate.md
+├── turnos-de-combate.md
+└── comandos-administrativos.md
 ```
 
 ### `ciclo-de-cena.md`
@@ -32,26 +33,17 @@ JOGADORES
 
 ### `janelas-e-interrupcoes.md`
 
-Usar fora de combate para:
-
-- intenção ampla;
-- passagem de tempo;
-- ponto real de interrupção;
-- devolução de controle;
-- competência evidente;
-- abertura de nova janela.
+Fluxo fora de combate: intenção ampla, passagem de tempo, interrupção, competência evidente e abertura de nova janela.
 
 ### `turnos-de-combate.md`
 
-Usar durante combate para:
-
-- turnos simultâneos de até 10 segundos;
-- oportunidade de declaração para todas as peças;
-- precedência dentro do mesmo intervalo;
-- limite temporal da sentença;
-- fechamento do estado antes do turno seguinte.
+Combate em turnos simultâneos de até 10 segundos, com oportunidade para todas as peças e limite temporal da sentença.
 
 As fórmulas de Dano, Cura, Energia, efeitos e demais mecânicas continuam em `../resolucao/`.
+
+### `comandos-administrativos.md`
+
+Procedimentos administrativos fora da ficção, incluindo exclusão de campanha com confirmação destrutiva obrigatória.
 
 ## Imagem mental
 
@@ -79,6 +71,7 @@ como calcular o resultado?       → ../resolucao/
 como apresentar a cena?          → ../narracao/
 o que permanece e onde salvar?   → ../persistencia/
 como aplicar tudo em sequência?  → operacao/
+como executar manutenção?        → comandos-administrativos.md
 ```
 
 ## Entrada durante o jogo
@@ -110,20 +103,15 @@ campanhas/<nome>/mestre/ganchos-do-opositor.md
 
 A persistência concreta segue `../persistencia/`.
 
-## Arquivos legados
-
-Os arquivos:
+## Arquivos legados aguardando limpeza
 
 ```text
 ../modo-rpg.md
 ../checklist-do-narrador.md
+../comandos-administrativos.md
 ```
 
-permanecem temporariamente preservados apenas como legado.
-
-> **Não usar esses arquivos como regra operacional.**
-
-Seu conteúdo útil foi migrado para as áreas canônicas. Eles só devem ser apagados após confirmação explícita.
+Seu conteúdo operacional útil já possui destino canônico. Não usar esses arquivos como regra atual. A exclusão depende de confirmação explícita.
 
 ## Porta de entrada geral
 
@@ -135,8 +123,8 @@ CONTINUAR
 → campanhas/<nome>/README.md
 ```
 
-`sistema/00-LEIA-PRIMEIRO.md` continua sendo o roteador geral.
+`sistema/00-LEIA-PRIMEIRO.md` é o roteador geral.
 
 ## Regra final
 
-> **README roteia. Arquivos especializados guardam as regras. `ciclo-de-cena.md` define a ordem; `janelas-e-interrupcoes.md` governa o fluxo normal; `turnos-de-combate.md` governa o combate.**
+> **README roteia. Arquivos especializados guardam as regras. `ciclo-de-cena.md` define a ordem; `janelas-e-interrupcoes.md` governa o fluxo normal; `turnos-de-combate.md` governa o combate; `comandos-administrativos.md` governa manutenção fora da ficção.**
