@@ -58,9 +58,7 @@ O processo canônico para criar uma campanha está em:
 sistema/criacao/README.md
 ```
 
-Esta pasta não cria uma segunda sequência de campanha. Ela fornece o modelo e as regras de personagem usados quando `criacao/` manda construir ou revisar uma ficha.
-
-Durante a criação de campanha, prevalecem a ordem, os blocos de revisão, o checkpoint e as regras de salvamento definidos em `../criacao/README.md`.
+Esta pasta fornece o modelo e as regras de personagem usados quando `criacao/` manda construir ou revisar uma ficha.
 
 ## Organização dentro da campanha
 
@@ -72,50 +70,35 @@ campanhas/<nome>/personagens/
 
 Isso inclui:
 
-- protagonista com `CONTROLE: JOGADOR HUMANO`;
-- personagens com `CONTROLE: JOGADOR IA`;
-- personagens com `CONTROLE: JOGADOR IA EVENTUAL`.
+- `CONTROLE: JOGADOR HUMANO`;
+- `CONTROLE: JOGADOR IA`;
+- `CONTROLE: JOGADOR IA EVENTUAL`.
 
-Cada personagem com agência possui **seu próprio arquivo**, mesmo quando vários personagens são administrados pela mesma persona `JOGADOR IA EVENTUAL`.
+Cada personagem com agência possui seu próprio arquivo, mesmo quando vários personagens usam a mesma persona `JOGADOR IA EVENTUAL`.
 
-Exemplo:
-
-```text
-campanhas/<nome>/personagens/
-├── README.md
-├── protagonista.md
-├── ravena.md
-├── dick-grayson.md
-└── kory.md
-```
-
-> **Persona compartilhada não cria ficha compartilhada.**
-
-NPCs comuns, aliados ocasionais, figurantes e adversários não pertencem por padrão a `personagens/`.
-
-Um NPC pode existir somente em cena sem arquivo próprio. Quando precisar de persistência reservada para continuidade, sua ficha ou informação operacional fica em:
+NPCs comuns não pertencem por padrão a `personagens/`. Quando precisarem de persistência reservada para continuidade, ficam em:
 
 ```text
 campanhas/<nome>/mestre/
 ```
 
-Quando houver quantidade suficiente para justificar subdivisão, pode existir:
+Quando houver quantidade suficiente, pode existir:
 
 ```text
 campanhas/<nome>/mestre/npcs/
 ```
 
-Não criar `mundo/npcs/` como destino padrão. `mundo/` guarda fatos estáveis do cenário; `mestre/` guarda NPCs e material reservado de condução.
+Não criar `mundo/npcs/` como destino padrão. `mundo/` guarda fatos estáveis do cenário; `mestre/` guarda NPCs e material reservado.
 
-Se um personagem que era NPC passar a receber agência formal de jogador e `CONTROLE: JOGADOR IA EVENTUAL`, sua ficha canônica passa a pertencer a `personagens/`. Informação realmente reservada que não pertença à ficha aberta pode continuar em `mestre/` sem duplicar a ficha inteira.
+Se um NPC receber agência formal de jogador, sua ficha canônica passa a pertencer a `personagens/`.
 
 ## Importância e CONTROLE
 
 `Importância` e `CONTROLE` são informações diferentes.
 
-`Importância` descreve a função estrutural do personagem na campanha.
+`Importância` descreve função estrutural.
 
-`CONTROLE` registra como ele participa normalmente do ciclo de decisão.
+`CONTROLE` registra quem normalmente toma as decisões voluntárias da peça.
 
 Exemplo:
 
@@ -124,7 +107,7 @@ Importância: Relevante
 CONTROLE: NPC
 ```
 
-ou, quando a campanha tiver definido agência própria:
+ou:
 
 ```text
 Importância: Relevante
@@ -135,26 +118,17 @@ Ser Relevante não transforma automaticamente o personagem em jogador eventual. 
 
 As regras detalhadas estão em `ficha.md` e `npcs.md`.
 
-## Estado da migração
-
-Os arquivos desta pasta foram construídos a partir das regras antigas encontradas diretamente em `sistema/`.
-
-Os arquivos antigos não são apagados durante a migração, mas referências antigas de organização não prevalecem contra `../criacao/estrutura-da-campanha.md`.
-
-`MAPA-DE-ORIGEM.md` registra a origem histórica das regras.
-
 ## Arquivos
 
-- `criacao.md` — criação conceitual e conversão de personagem; a sequência de campanha pertence a `../criacao/`;
-- `calibracao.md` — calibração independente, conservadora e raridade dos graus altos;
+- `criacao.md` — criação conceitual e conversão de personagem;
+- `calibracao.md` — calibração independente e conservadora;
 - `escala.md` — escalas numéricas e lógica não linear de PATAMAR;
 - `atributos.md` — FIS, RES, MEN e VON;
 - `pericias.md` — conhecimento, treinamento, prática e especializações;
 - `poderes.md` — arsenais, fontes, repertórios, usos e especializações;
 - `tracos.md` — verdades qualitativas estáveis;
 - `relacoes.md` — relações recorrentes registradas em ficha;
-- `ficha.md` — estrutura consolidada, Importância, CONTROLE, RECURSOS e informação necessária à interpretação;
-- `npcs.md` — controle normal de NPCs, ficha compacta e persistência reservada;
-- `MAPA-DE-ORIGEM.md` — classificação dos arquivos e seções antigas usadas na migração.
+- `ficha.md` — estrutura consolidada, Importância, CONTROLE, RECURSOS e interpretação;
+- `npcs.md` — controle normal de NPCs, ficha compacta e persistência reservada.
 
 > **A ficha descreve quem o personagem é e o que precisa ser lembrado para interpretá-lo. Ela não é estado atual, inventário, diário de campanha nem mecanismo de resolução.**
