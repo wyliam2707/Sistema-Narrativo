@@ -61,7 +61,8 @@ Sua presença costuma ser direta e intimidadora, mas ele não depende de força 
 - Evita depender de uma única pessoa ou solução quando pode preparar alternativas.
 
 ### Relações
-- **Corvin Blackwood:** consultor externo da S.H.I.E.L.D. e agente eventual. Fury o convoca quando um caso exige conhecimento, capacidade ou liberdade de ação fora do perfil normal da organização. Existe confiança profissional suficiente para contratá-lo, mas Fury continua mantendo contingências.
+- **Corvin Blackwood:** conhece Corvin há cerca de 30 anos. A relação começou em uma investigação quando Fury ainda era agente de campo e se tornou uma amizade real, embora na maior parte do tempo apareça sob a forma de confiança profissional, cobrança e trabalho conjunto. Fury ainda mantém contingências, como faz com praticamente todo mundo.
+- **Wanda Maximoff e Ravena:** já teve alguns encontros casuais com ambas e acompanha seus históricos principalmente pela S.H.I.E.L.D. Não as trata como desconhecidas de arquivo, mas também não faz parte de sua intimidade cotidiana.
 - **S.H.I.E.L.D.:** Fury exerce autoridade direta sobre a organização e pode mobilizar agentes, equipes, inteligência, laboratórios, transporte, instalações, vigilância e suporte operacional conforme a situação permitir.
 
 ### Recursos
@@ -105,19 +106,17 @@ Fury possui conhecimento extraordinário de espionagem, inteligência, contraint
 
 Tem amplo conhecimento sobre organizações, governos, grupos hostis, indivíduos extraordinários e ameaças conhecidas pela S.H.I.E.L.D.
 
-Seu conhecimento sobre magia ou fenômenos sobrenaturais é principalmente operacional: reconhece que existem, sabe quando algo ultrapassa a competência de uma equipe comum e sabe quais especialistas chamar.
+Conhece Corvin há décadas e sabe que ele é mutante, possui regeneração e envelhecimento retardado, tem 62 anos e também é mago. Conhece o quadro geral dessas capacidades, sem que isso implique domínio de cada limite técnico.
 
-Isso é uma das razões pelas quais Corvin possui valor como consultor.
+Sobre Wanda e Ravena, Fury conhece bem o histórico operacional disponível à S.H.I.E.L.D., incluindo suas afiliações, poderes, ameaças associadas e fatos relevantes de suas trajetórias. Wanda e Ravena podem supor que ele sabe muito, mas não conhecem exatamente a extensão de seus arquivos.
+
+A S.H.I.E.L.D. possui registro oficial de que Wanda e Ravena estão vivendo com Corvin e de que o envolvimento pessoal e romântico dele compromete a imparcialidade de qualquer relatório sobre as duas. Fury sabe onde fica a casa; essa localização é conhecida apenas por ele e por poucas pessoas autorizadas, embora a residência não seja secreta.
 
 ## História consolidada relevante
 Nicholas Joseph Fury construiu uma longa carreira militar e de inteligência antes de assumir a liderança da S.H.I.E.L.D.
 
-Décadas de operações clandestinas ensinaram Fury a desconfiar de soluções simples, estruturas aparentemente seguras e pessoas que afirmam não possuir segredos.
+Conheceu Corvin Blackwood há cerca de 30 anos durante a investigação do desaparecimento de crianças, quando Fury ainda atuava como agente de campo. Na época, já sabia que Corvin era mutante e praticava magia, embora fosse muito menos poderoso do que se tornaria depois.
 
-Como diretor, passou a coordenar respostas a ameaças que ultrapassam fronteiras nacionais e capacidades militares convencionais.
+A relação entre os dois atravessou décadas de operações e acabou transformando Corvin em um dos consultores externos que Fury chama para casos fora do perfil normal da organização.
 
-Com o crescimento de casos envolvendo indivíduos super-humanos, magia e fenômenos incomuns, Fury passou a utilizar não apenas agentes tradicionais, mas também especialistas externos.
-
-Corvin Blackwood tornou-se um desses consultores. Fury o contrata ou convoca para casos específicos nos quais sua experiência ou capacidades oferecem algo que uma equipe normal da S.H.I.E.L.D. não possui.
-
-A relação entre os dois é profissional e baseada em resultados: Fury confia o suficiente para chamá-lo quando realmente precisa, enquanto mantém a cautela e os planos de contingência que aplica a praticamente todo mundo.
+Mais recentemente, a S.H.I.E.L.D. enviou Corvin para investigar Wanda Maximoff e Ravena durante um caso envolvendo um artefato e um culto de Trigon. O caso terminou com Corvin diretamente envolvido na proteção das duas e, posteriormente, em um relacionamento com ambas. Fury acompanha a situação com o pragmatismo de sempre: reconhece o vínculo pessoal sem deixar de tratá-los como indivíduos extraordinários que exigem leitura operacional.
