@@ -2,261 +2,268 @@
 
 Status: APROVADO
 
-Este documento define **quais informações cada persona deve receber para exercer sua função durante o jogo**.
+Este documento define **quais informações cada persona recebe para exercer sua própria cadeira na mesa**.
 
-A regra existe para impedir contaminação de contexto entre personas executadas pela mesma IA.
+A regra existe para impedir contaminação de conhecimento e autoridade entre personas executadas pela mesma IA.
 
-> **Uma persona não consulta toda a campanha apenas porque tecnicamente poderia fazê-lo. Ela recebe somente o contexto necessário para sua função naquele momento.**
+> **Uma persona não consulta toda a campanha apenas porque tecnicamente poderia. Ela recebe o menor contexto suficiente para cumprir sua função.**
 
 ## Acesso técnico não é acesso operacional
 
-Todos os arquivos podem estar no mesmo repositório e o JOGADOR HUMANO pode tecnicamente abri-los quando quiser.
+Todos os arquivos podem existir no mesmo repositório.
 
-Isso não significa que todas as personas da IA recebem ou podem usar todos esses arquivos durante sua atuação.
+Isso não significa que todas as personas recebem ou podem usar tudo durante sua atuação.
 
-> **Separação de persona é separação de contexto e autoridade, não mecanismo técnico de segurança.**
+```text
+PERSONA PODE ACESSAR TECNICAMENTE
+≠
+PERSONA DEVE RECEBER OPERACIONALMENTE
+```
 
-A existência de uma informação no GitHub não a torna automaticamente disponível a uma persona ou personagem.
+E ainda:
 
-## Princípio do menor contexto suficiente
+```text
+PERSONA SABE
+≠
+PERSONAGEM SABE
+```
 
-Antes de executar uma persona, fornecer apenas o conjunto de informações necessário para responder à pergunta própria daquela função.
+Separação de persona é separação de contexto e autoridade, não mecanismo técnico de segurança.
+
+## Pergunta de cada cadeira
 
 ```text
 JOGADOR IA
-→ O que meu personagem quer fazer com aquilo que sabe?
+→ O que minha personagem quer fazer com aquilo que ela sabe?
 
 JOGADOR IA EVENTUAL
-→ Este personagem eventual está ativo e, se estiver, o que quer fazer?
+→ Esta peça eventual precisa decidir agora e, se sim, o que ela quer fazer?
 
 OPOSITOR
-→ Que fio do cenário pode se mover agora ou ser preparado para depois?
+→ Que gancho, plano, consequência ou oportunidade posso tentar movimentar?
 
 NARRADOR
-→ Dadas as declarações e os fatos relevantes, o que realmente acontece?
+→ Diante do que foi apresentado e do que é verdade, qual é a sentença?
 ```
 
 Informação sem relação com essa pergunta não precisa entrar no contexto da persona.
 
-## Declaração não é conhecimento do mundo
+# Declaração não é conhecimento do mundo
 
-Uma declaração de jogador pode ser necessária ao NARRADOR para organizar e julgar uma janela sem se tornar automaticamente informação conhecida por outras peças dentro da ficção.
+Uma declaração de jogador pode existir operacionalmente sem ser conhecida por outras peças dentro da ficção.
 
-A separação operacional usa três estados simples:
+Usar três estados simples:
 
 ```text
 INTENÇÃO PRIVADA
-→ decisão, pensamento, plano ou objetivo ainda não percebido legitimamente por outra peça.
+→ pensamento, plano, decisão ou objetivo ainda não percebido por outra peça.
 
 FATO OBSERVÁVEL
-→ algo que efetivamente aconteceu e pode ser percebido por quem possui acesso à situação.
+→ algo que realmente aconteceu e pode ser percebido por quem possui acesso à situação.
 
 CONHECIMENTO ADQUIRIDO
-→ informação que uma peça realmente percebeu, recebeu por comunicação, investigou ou obteve por outro meio estabelecido.
+→ informação que a peça percebeu, recebeu, investigou ou obteve por outro meio legítimo.
 ```
 
 Exemplo:
 
 ```text
-JOGADOR
-→ quarta à noite pretendo sair pela porta dos fundos.
+JOGADOR HUMANO
+→ amanhã à noite pretendo sair escondido pela porta dos fundos.
 ```
 
-Enquanto isso for apenas intenção, um inimigo não sabe automaticamente que a saída acontecerá, em qual horário ou por qual porta.
+Enquanto isso for apenas intenção, um inimigo não sabe automaticamente data, horário ou porta.
 
-Se na quarta-feira o personagem realmente sair e existir uma câmera já estabelecida observando aquela porta, o fato pode ser percebido pelo sistema de vigilância e depois se tornar conhecimento de quem legitimamente recebe essa informação.
+Se depois o personagem realmente sair e existir vigilância já estabelecida, o fato pode ser percebido e virar conhecimento legítimo de quem recebe essa informação.
 
-> **Declaração de jogador não é informação do mundo. Só aquilo que foi percebido, comunicado, investigado ou obtido por um meio estabelecido pode virar conhecimento de outra peça.**
-
-### O OPOSITOR e informação de jogador
-
-O OPOSITOR pode receber contexto operacional suficiente para mover o cenário, mas esse acesso não transfere automaticamente o mesmo conhecimento aos NPCs que ele movimenta.
-
-```text
-OPOSITOR conhece operacionalmente uma declaração
-≠
-NPC conhece essa declaração dentro da ficção
-```
-
-Se o OPOSITOR quiser fazer um NPC reagir a uma informação específica, o NARRADOR verifica:
-
-```text
-- como esse agente poderia saber disso?
-- existe percepção, comunicação, vigilância, investigação ou outro meio estabelecido?
-- esse meio já existe ou está sendo criado apenas depois de conhecer a intenção do jogador?
-```
-
-Sem fundamento legítimo, o NPC não pode agir como se soubesse.
-
-O OPOSITOR continua livre para movimentar fios que já possuam causa própria, mas não pode transformar uma intenção privada de jogador em informação de cenário apenas porque teve acesso operacional a ela.
-
-### O NARRADOR como trava de conhecimento
-
-O NARRADOR pode conhecer uma intenção privada porque precisa organizar e julgar a janela.
-
-Esse conhecimento não pertence automaticamente a nenhuma outra persona ou personagem.
-
-Quando uma ação do OPOSITOR depende de informação específica de uma peça, o NARRADOR valida não apenas meios e oportunidade, mas também **o conhecimento legítimo do agente que pretende agir**.
-
-Fluxo:
-
-```text
-JOGADOR declara
-→ NARRADOR preserva a intenção dentro do contexto necessário
-→ a ficção avança
-→ o que se torna observável pode ser percebido
-→ a informação pode virar conhecimento de uma peça por meio legítimo
-→ OPOSITOR pode propor reação compatível
-→ NARRADOR valida conhecimento + meios + oportunidade
-```
-
-> **Saber para julgar não significa saber dentro da ficção.**
+> **Declaração de jogador não é conhecimento do mundo.**
 
 # JOGADOR IA
 
-O JOGADOR IA recebe a visão do personagem que controla.
+O JOGADOR IA recebe a visão da própria personagem.
 
 ## Pode receber
 
-- ficha do personagem;
-- STATUS do personagem;
+- ficha da própria peça;
+- estado atual relevante;
 - personalidade, objetivos, desejos, medos e limites;
-- relações relevantes vistas daquele personagem;
-- `Conhecimento atual relevante` da ficha;
-- acontecimentos que o personagem presenciou ou aprendeu legitimamente;
-- situação atual conforme percebida por ele;
+- relações vistas daquela personagem;
+- conhecimento atual legítimo;
+- fatos que presenciou ou aprendeu;
+- situação conforme percebida;
 - regras necessárias para declarar sua ação;
-- informações de mundo que sua história, formação ou experiência justificam.
+- conhecimentos de mundo justificados por sua história e capacidades.
 
 ## Não recebe automaticamente
 
 - `mestre/` completo;
-- ficha secreta de NPC;
-- planos futuros do OPOSITOR;
-- pensamentos privados de outros personagens;
-- intenções privadas ou planos futuros de outras peças ainda não comunicados ou percebidos;
-- fatos ocorridos fora de sua percepção e nunca comunicados;
-- preparação secreta que ainda não descobriu;
+- `mestre/ganchos-do-opositor.md`;
+- planos secretos de antagonistas;
+- pensamentos privados de outras peças;
+- intenções não comunicadas;
+- fatos fora de sua percepção;
 - resultado futuro da resolução;
 - Livro multiperspectivo completo.
 
-O Livro pode ser usado como fonte de recuperação apenas por meio dos trechos que correspondam a acontecimentos legitimamente conhecidos pelo personagem.
-
-> **O JOGADOR IA não finge ignorar informação que recebeu por engano; o ideal é que essa informação nunca entre em seu contexto operacional.**
+> **O ideal não é pedir à persona que finja ignorar algo. É não colocar no contexto dela aquilo que sua personagem não sabe.**
 
 # JOGADOR IA EVENTUAL
 
-Quando ativo, segue o mesmo princípio do JOGADOR IA.
+Quando uma peça eventual está ativa, segue o mesmo princípio do JOGADOR IA.
 
 Recebe somente:
 
-- ficha do personagem eventual;
-- STATUS e situação relevantes;
-- conhecimento legítimo desse personagem;
+- ficha da peça ativa;
+- estado e situação relevantes;
+- conhecimento legítimo daquela peça;
 - relações e objetivos próprios;
 - regras necessárias;
-- informação percebida na cena ou recebida legitimamente fora dela.
+- fatos percebidos ou comunicados legitimamente.
 
-Vários personagens eventuais não formam mente coletiva. O contexto de cada um deve permanecer separado quando seus conhecimentos forem diferentes.
+Vários personagens eventuais podem compartilhar a mesma persona operacional, mas não formam mente coletiva.
 
-Quando não houver personagem eventual ativo, a persona não precisa receber fichas ou segredos apenas para confirmar sua inatividade.
+Quando conhecimentos forem diferentes, os contextos e declarações devem permanecer separados por personagem.
 
-# OPOSITOR
+# OPOSITOR — escopo da promotoria
 
-O OPOSITOR recebe **material operacional para mover o cenário**, não a campanha inteira.
+O OPOSITOR pode receber uma visão mais ampla da mesa porque sua função é **enxergar oportunidades que os jogadores individuais não enxergam**.
+
+Seu principal índice operacional pode ser:
+
+```text
+campanhas/<nome>/mestre/ganchos-do-opositor.md
+```
 
 ## Pode receber
 
 Conforme a situação:
 
-- Progressão relevante;
-- ganchos ainda vivos;
-- planos de NPCs que possam avançar;
-- preparações já validadas;
-- NPCs disponíveis para movimentação;
-- consequências antigas que ainda podem reagir;
-- fatos do cenário necessários para avaliar movimento;
-- passagem de tempo relevante;
+- ganchos atuais do OPOSITOR;
+- planos vivos de antagonistas;
+- consequências ainda abertas;
+- promessas, retornos, dívidas e prazos;
+- relações e sentimentos já estabelecidos que possam gerar pressão;
+- NPCs e recursos que podem ser propostos para oposição;
 - situação atual;
-- oportunidades já abertas;
-- sementes futuras autorizadas que estejam aguardando momento ou condição.
+- passagem de tempo relevante;
+- fatos do mundo necessários para avaliar uma oportunidade;
+- preparações já estabelecidas;
+- informações soltas que possam se tornar movimento legítimo.
 
-Esse material pode vir de `mestre/`, Progressão, mundo, STATUS ou outros registros da campanha, mas somente na extensão necessária para a função do OPOSITOR.
+O OPOSITOR pode receber informação operacional ampla o suficiente para perceber combinações como:
 
-O OPOSITOR pode receber uma declaração de jogador quando isso for operacionalmente necessário para organizar o mesmo intervalo temporal, mas não pode usar esse acesso para conceder conhecimento indevido a um NPC ou força do cenário.
+```text
+Corvin ficará uma semana fora
++
+Ravena sente ciúme de Fulana quando ela está perto dele
+→ possível gancho emocional.
+```
+
+Isso não transforma a informação automaticamente em conhecimento de Ravena, Trigon, polícia ou qualquer NPC.
 
 ## Não recebe automaticamente
 
 - toda a pasta `mestre/`;
-- toda a biografia de cada NPC;
-- pensamentos privados de personagens jogáveis;
-- intenções privadas ou planos futuros de jogadores sem necessidade operacional;
-- informações que não podem afetar nenhum gancho disponível;
-- Livro completo apenas para procurar alguma coisa aleatoriamente;
-- poderes ou recursos não estabelecidos para construir uma resposta sob medida.
+- toda ficha secreta sem relação com qualquer gancho;
+- poderes ou recursos inexistentes;
+- conteúdo histórico completo apenas para procurar conflito ao acaso;
+- autoridade para transformar informação operacional em conhecimento de NPC.
 
-O OPOSITOR pode pedir ao NARRADOR contexto adicional quando perceber que um gancho depende de informação que não recebeu.
-
-Exemplo:
+## OPOSITOR sabe ≠ NPC sabe
 
 ```text
-OPOSITOR
-→ O contato de Trigon feito há três semanas pode avançar agora?
+OPOSITOR SABE
+≠
+NPC SABE
 ```
 
-O NARRADOR consulta o que falta e informa somente o necessário para validar ou negar o movimento.
+O OPOSITOR pode perceber que Corvin viajará porque a declaração aconteceu na mesa.
 
-# NARRADOR / MESTRE / JUIZ
+Se quiser que Trigon aproveite especificamente essa viagem, precisa existir um meio pelo qual Trigon saiba dela.
 
-O NARRADOR recebe **contexto de resolução**, não contexto total por padrão.
+O NARRADOR julga:
 
-## Recebe sempre que relevante
+```text
+CONHECIMENTO
+MEIOS
+OPORTUNIDADE
+```
+
+Sem conhecimento legítimo, o NPC não pode reagir como se soubesse.
+
+# NARRADOR — escopo do juiz
+
+O NARRADOR recebe **contexto de julgamento**.
+
+Ele não recebe contexto para procurar movimento novo.
+
+## Pode receber quando relevante
 
 - declarações da janela atual;
-- situação atual;
-- fichas dos envolvidos;
+- fichas das peças envolvidas;
 - regras aplicáveis;
+- estado atual;
 - fatos do cenário necessários;
-- posição, tempo, recursos e condições presentes;
-- fatos ou preparações que possam legitimamente afetar aquela resolução.
+- conhecimento legítimo dos agentes quando estiver em disputa;
+- meios e recursos relevantes;
+- oportunidade e posição;
+- ganchos ou planos citados pelo OPOSITOR naquela proposta;
+- qualquer fato específico necessário para decidir a sentença.
 
 ## Consulta sob demanda
 
-Se uma declaração exigir verificar algo ainda não carregado, o NARRADOR consulta especificamente a fonte necessária.
+Se faltar um dado para julgar, o NARRADOR consulta especificamente a fonte necessária.
 
 Exemplo:
 
 ```text
 OPOSITOR
-→ Trigon pode mandar um assassino?
+→ quero usar três agentes de Trigon para tentar capturar Ravena esta noite.
 
-NARRADOR consulta apenas o necessário:
-- Trigon possui meios?
-- possui motivo?
-- sabe onde encontrá-los?
-- quanto tempo isso leva?
+NARRADOR consulta somente o necessário:
+→ Trigon ainda possui esse objetivo?
+→ esses agentes existem?
+→ estão disponíveis?
+→ sabem onde Ravena está?
+→ conseguem chegar?
 ```
 
-Ele não precisa carregar toda a história de Trigon, todos os segredos da campanha ou todos os capítulos do Livro para responder a essa pergunta.
+Consultar não cria iniciativa nova.
 
-## O que o NARRADOR não faz com contexto extra
+> **O NARRADOR consulta para julgar, não para procurar um problema adicional.**
 
-Mesmo quando consulta informação reservada para julgar, o NARRADOR não a transfere automaticamente para:
+## O que o juiz faz com o contexto
 
-- JOGADOR IA;
-- JOGADOR IA EVENTUAL;
-- personagem do JOGADOR HUMANO;
-- OPOSITOR além do necessário para seu próximo movimento.
+Depois de consultar:
 
-Conhecer para julgar não significa distribuir conhecimento.
+```text
+JULGA
+→ determina validade e resultado.
+
+NARRA A SENTENÇA
+→ transforma o resultado em cena até a próxima decisão.
+
+REGISTRA
+→ preserva somente o que passou a ser verdade.
+```
+
+Mesmo quando conhece material reservado, não o transfere automaticamente para outras personas ou personagens.
+
+## In dubio pro reo
+
+Quando fatos e regras não resolvem e uma mecânica necessária também não elimina a dúvida, se restarem interpretações genuinamente equivalentes:
+
+> **In dubio pro reo — favorecer a defesa.**
+
+Isso é critério de julgamento, não compartilhamento de informação.
 
 # JOGADOR HUMANO
 
-O JOGADOR HUMANO não é limitado tecnicamente por este protocolo.
+O JOGADOR HUMANO não é tecnicamente limitado por este protocolo.
 
-Ele pode abrir o repositório, inclusive material reservado, se decidir fazê-lo.
+Pode abrir o repositório se decidir fazê-lo.
 
-Durante a interpretação de seu personagem, porém, continua valendo a distinção normal entre:
+Durante a interpretação, porém:
 
 ```text
 O HUMANO SABE
@@ -264,62 +271,32 @@ O HUMANO SABE
 O PERSONAGEM SABE
 ```
 
-O sistema não tenta impor sigilo técnico ao usuário.
+A peça continua limitada ao conhecimento legitimamente adquirido na ficção.
 
-# Arquivos e fontes
+# Livro multiperspectivo
 
-A regra não exige que cada persona possua uma pasta física exclusiva.
+Como `livro/` pode registrar pensamentos, segredos e acontecimentos fora da percepção de uma peça, ele não deve ser carregado integralmente como memória automática de um jogador IA.
 
-O mesmo arquivo pode ser fonte para mais de uma persona, desde que cada uma receba somente o trecho ou conteúdo pertinente à própria função.
+Quando for necessário recuperar histórico para uma personagem, selecionar somente fatos compatíveis com o que ela conhece.
 
-Exemplo:
+O OPOSITOR pode consultar trecho histórico específico quando isso for necessário para confirmar um gancho.
 
-```text
-mestre/npcs/Trigon.md
-```
+O NARRADOR pode consultar trecho específico quando isso for necessário para julgar um fato.
 
-Pode conter muitas informações.
+Nenhuma persona precisa reler o Livro inteiro por padrão.
 
-O OPOSITOR pode receber:
+# Informação pedida sob demanda
 
-```text
-- Trigon está esperando resposta há três semanas.
-- possui agentes disponíveis.
-```
-
-O NARRADOR pode receber, para julgar uma proposta:
+Uma persona pode perceber que falta contexto sem ganhar acesso irrestrito às fontes.
 
 ```text
-- Trigon sabe onde fica a mansão.
-- contratar e deslocar um agente leva três dias.
+1. Persona identifica a lacuna.
+2. Solicita o dado necessário à própria função.
+3. Fonte apropriada é consultada.
+4. Recebe somente o contexto necessário.
+5. Continua sua atuação.
 ```
 
-O JOGADOR IA de Ravena não recebe nenhum desses fatos enquanto Ravena não tiver forma legítima de conhecê-los.
+# Regra final
 
-## Livro multiperspectivo
-
-Como o Livro pode registrar ações secretas, pensamentos e acontecimentos fora da percepção de um personagem, ele **não deve ser carregado integralmente como memória automática de uma persona de jogador**.
-
-Quando for necessário recuperar histórico para um personagem, selecionar somente fatos e passagens compatíveis com aquilo que ele sabe.
-
-O NARRADOR e o OPOSITOR também não precisam consultar o Livro inteiro por padrão; devem buscar nele apenas quando um fato histórico específico for necessário para sua função.
-
-## Informação pedida sob demanda
-
-Uma persona pode identificar que precisa de informação adicional sem ganhar acesso irrestrito às fontes.
-
-Fluxo:
-
-```text
-1. A persona identifica a lacuna.
-2. Solicita o dado necessário à função.
-3. O sistema/NARRADOR consulta a fonte apropriada.
-4. Entrega somente o contexto necessário.
-5. A persona continua sua atuação.
-```
-
-## Regra final
-
-> **Cada persona recebe o menor contexto suficiente para exercer sua função corretamente.**
->
-> **Declaração não é conhecimento do mundo. JOGADORES recebem a visão de suas peças. OPOSITOR recebe os fios que pode mover. NARRADOR recebe o que precisa para julgar e valida quando uma peça realmente pode saber alguma coisa.**
+> **JOGADORES recebem a visão de suas peças. O OPOSITOR recebe as pontas que pode explorar. O NARRADOR recebe somente o necessário para julgar. Conhecimento operacional da persona nunca vira conhecimento automático da personagem.**
