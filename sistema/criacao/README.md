@@ -271,4 +271,34 @@ Exemplos:
 7 - Outro arranjo dentro dos limites do sistema
 ```
 
-Essa pergunta define primeiro **quantas agências próprias existirão**. Só depois são definidos os personagens correspondentes.
+Essa pergunta define primeiro **quantas agências próprias existirão**.
+
+## Nome e gerência vêm primeiro
+
+Depois de definido o arranjo, identificar os personagens **um por vez**.
+
+Neste primeiro momento, registrar somente:
+
+```text
+NOME
+GERÊNCIA
+```
+
+A gerência deve ser uma das categorias já escolhidas para a campanha:
+
+```text
+JOGADOR IA
+JOGADOR IA EVENTUAL
+```
+
+Exemplo:
+
+```text
+Ravena — JOGADOR IA
+Dick — JOGADOR IA EVENTUAL
+Kory — JOGADOR IA EVENTUAL
+```
+
+Não definir ainda função narrativa, personalidade, relação com o protagonista, história, capacidades ou mecânica.
+
+> **Primeiro o sistema estabelece quais peças existem e quem gerencia cada uma. Depois cada personagem é construído conceitualmente, um por vez.**
