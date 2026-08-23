@@ -236,6 +236,14 @@ Exemplos:
 
 A fórmula acima vale para a Vida da **criação invocada**, não para a Vida do invocador.
 
+### Defesa da criação
+
+Quando a Invocação for atacada diretamente, sua Defesa estrutural usa a **RES da própria criatura ou objeto invocado**. Nunca se usa a RES do invocador para defender a criação.
+
+`Defesa da Invocação = RES da própria criação`
+
+A RES da criação é determinada normalmente pela distribuição de Atributos da própria Invocação.
+
 ### Outras Fontes de Invocação
 
 Quando a Invocação for sustentada por outra Fonte coerente, a Vida estrutural da manifestação usa a regra da Fonte aplicável, respeitando o mínimo `[1]`. Isso não transforma `RES` do invocador em requisito universal para Invocação.
@@ -258,7 +266,7 @@ Como existem quatro Atributos universais (`FIS | RES | MEN | VON`), não existe 
 
 Exemplos: `Cadeira comum → atributos relevantes [0]` | `Parede passiva → RES [5]` | `Parede ativa → FIS [4] | RES [4]` | `Golem bruto → FIS [4] | RES [4] | MEN [0]` | `Entidade equilibrada → FIS [3] | RES [3] | MEN [3]`.
 
-> **Invocação determina a chamada/criação. Os Atributos e a Vida pertencem à criatura ou objeto resultante.**
+> **Invocação determina a chamada/criação. Os Atributos, a Defesa e a Vida pertencem à criatura ou objeto resultante.**
 
 ### Função, contenção e eixo da disputa
 
