@@ -75,13 +75,38 @@ O nome abre a campanha. As etapas seguintes constroem seu conteúdo.
 
 Antes das etapas conceituais, perguntar o nome da campanha.
 
-Depois que o nome estiver definido, a campanha passa a ser registrada em:
+Assim que o nome estiver definido, criar imediatamente:
 
 ```text
 campanhas/<nome-da-campanha>/
+├── README.md
+├── personagens/
+│   └── README.md
+├── estado/
+│   └── atual.md
+├── mundo/
+│   └── README.md
+├── mestre/
+│   └── README.md
+└── livro/
+    └── README.md
 ```
 
-A estrutura exata de arquivos e pastas será definida em `estrutura-da-campanha.md`.
+Os READMEs internos devem explicar de forma curta para que serve cada área e quais regras do sistema precisam ser consultadas. Eles materializam as pastas no repositório e tornam a campanha autoexplicativa para outra IA.
+
+O `README.md` da raiz da campanha já deve nascer com:
+
+- nome da campanha;
+- mapa de consulta da estrutura;
+- espaços ainda não definidos claramente marcados como pendentes de criação.
+
+`estado/atual.md` deve nascer com conteúdo mínimo indicando que a campanha ainda está em criação e que a situação inicial será registrada quando definida.
+
+Depois disso, continuar normalmente para Direção narrativa e cenário.
+
+> **NOME DEFINIDO → estrutura-base criada → criação continua.**
+
+A função e o conteúdo de cada entrada estão definidos em `estrutura-da-campanha.md`.
 
 # Etapa — Direção narrativa e cenário
 
