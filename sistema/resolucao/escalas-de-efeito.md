@@ -238,6 +238,8 @@ Base de uso:
 
 Barreira funciona como uma camada independente de proteção.
 
+**Cada Fonte mantém uma única Barreira ativa; uma nova substitui a anterior. Barreiras de Fontes diferentes coexistem como camadas separadas.**
+
 `Barreira [D / V]`
 
 A Defesa segue a regra geral de efeitos persistentes:
@@ -334,7 +336,7 @@ Uma criação recebe apenas os Atributos necessários para cumprir sua função.
 
 Como existem quatro Atributos universais (`FIS | RES | MEN | VON`), não existe uma quinta posição de distribuição.
 
-Exemplos: `Cadeira comum → atributos relevantes [0]` | `Parede passiva → RES [5]` | `Parede ativa → FIS [4] | RES [4]` | `Golem bruto → FIS [4] | RES [4] | MEN [0]` | `Entidade equilibrada → FIS [3] | RES [3] | MEN [3]`.
+Exemplos: `Cadeira comum → atributos relevantes [0]` | `Parede passiva → RES [5]` | `Parede ativa → FIS [4] | RES [4]` | `Golem bruto → FIS [4] | RES [4] | MEN [0]` | `Entidade equilibrada → FIS [3] | `RES [3]` | `MEN [3]`.
 
 > **Invocação determina a chamada/criação. Os Atributos, a Vida e a Defesa pertencem à criatura ou objeto resultante.**
 
