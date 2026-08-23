@@ -124,6 +124,43 @@ O checkpoint não armazena o conteúdo da etapa, não replica fichas e não mant
 
 > **O conteúdo pertence aos arquivos da campanha. O checkpoint diz somente onde continuar a criação.**
 
+#### Fonte principal de cada informação
+
+Cada informação da campanha deve possuir uma **fonte principal**. O `README.md` pode resumir ou apontar para essa fonte, mas não deve manter uma segunda cópia detalhada do mesmo conteúdo.
+
+Durante a criação, usar este mapa:
+
+```text
+NOME
+→ README.md
+
+DIREÇÃO NARRATIVA
+→ resumo em README.md
+
+CENÁRIO
+→ resumo necessário em README.md
+→ detalhes estáveis, quando precisarem de desenvolvimento próprio, em mundo/
+
+PROTAGONISTA
+→ personagens/<nome>.md
+→ identificação + CONTROLE no README.md
+
+PERSONAGENS JOGADOR IA / JOGADOR IA EVENTUAL
+→ personagens/<nome>.md
+→ identificação + CONTROLE no README.md
+
+INÍCIO DA HISTÓRIA
+→ situação inicial concreta em estado/atual.md
+→ README.md apenas aponta a retomada para estado/atual.md
+
+CHECKPOINT DA CRIAÇÃO
+→ README.md
+```
+
+Não criar arquivos paralelos apenas para repetir direção narrativa, cenário, ficha, situação inicial ou checkpoint.
+
+> **Cada informação possui uma fonte principal. O README resume e orienta; não replica os arquivos concretos.**
+
 #### Nome da campanha
 
 Identifica a campanha.
@@ -158,7 +195,7 @@ As fichas completas pertencem a `personagens/`.
 
 Indica de onde a campanha deve ser retomada.
 
-No início da campanha, aponta para o resumo inicial aprovado. Durante o jogo, deve orientar para o estado atual sem duplicá-lo no `README.md`.
+No início da campanha, deve apontar para `estado/atual.md`, onde a situação inicial concreta é registrada. Durante o jogo, continua orientando para o estado atual sem duplicá-lo no `README.md`.
 
 #### Mapa de consulta
 
