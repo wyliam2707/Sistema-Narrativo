@@ -67,7 +67,7 @@ Corvin Blackwood tem 62 anos, embora fisicamente aparente cerca de 28. Sua regen
 - **Wanda Maximoff:** namorada e parceira afetiva; relacionamento próprio e consolidado. Ordem e Magia Escarlate funcionam como forças complementares, capazes de se ajustar sem cancelamento automático.
 - **Estrutura afetiva:** Corvin participa de uma relação afetiva a três com Wanda e Ravena. Seus dois vínculos são românticos e próprios; o vínculo entre Wanda e Ravena mantém sua forma específica e pode evoluir organicamente.
 - **Vida em comum:** há cerca de três meses, Corvin, Wanda e Ravena vivem juntos na casa de Corvin. Cada um possui seu próprio quarto, mas Wanda e Ravena dormem com Corvin com frequência, e os três acabam dividindo a mesma cama juntos mais vezes do que elas gostam de admitir.
-- **Nick Fury / S.H.I.E.L.D.:** relação profissional. Corvin atua como consultor externo da S.H.I.E.L.D. e agente eventual, contratado ou convocado para casos específicos.
+- **Nick Fury / S.H.I.E.L.D.:** relação profissional de longa data. Corvin conhece Fury há cerca de 30 anos e atua como consultor externo da S.H.I.E.L.D. e agente eventual, contratado ou convocado para casos específicos.
 
 ### Recursos
 - **Casa isolada:** residência de Corvin em uma região afastada, onde atualmente vive com Wanda e Ravena. A casa oferece espaço e privacidade para a rotina dos três, com quartos individuais para cada um.
@@ -118,7 +118,7 @@ Ao longo de seus 62 anos, desenvolveu-se também como mago, criando uma ligaçã
 
 Essa natureza acabou tornando seus poderes um contraponto natural às forças de Wanda e Ravena: não oposição absoluta, mas equilíbrio complementar.
 
-Em algum momento construiu uma relação profissional com Nick Fury e passou a atuar ocasionalmente como consultor externo da S.H.I.E.L.D., sendo chamado quando casos específicos exigem alguém fora do perfil comum da organização.
+Conhece Nick Fury há cerca de 30 anos. Ao longo desse período, construiu com ele uma relação profissional duradoura e passou a atuar ocasionalmente como consultor externo da S.H.I.E.L.D., sendo chamado quando casos específicos exigem alguém fora do perfil comum da organização.
 
 Sua vida pessoal mudou de forma mais significativa com Wanda e Ravena.
 
