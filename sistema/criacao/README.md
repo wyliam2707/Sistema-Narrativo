@@ -326,3 +326,55 @@ Quando os personagens com agência de jogador estiverem registrados e suas ficha
 ```text
 seguir para Início da história
 ```
+
+# Etapa — Início da história
+
+Esta etapa define somente **de onde a primeira cena parte**. Ela não cria a trama inteira nem determina antecipadamente o que acontecerá depois.
+
+Pergunta-base:
+
+> **Como você quer que a história comece?**
+
+Exemplos:
+
+```text
+1 - Cotidiano do protagonista antes de algo acontecer
+2 - Já no meio de um acontecimento
+3 - Encontro com outro personagem importante
+4 - Chegada a um novo lugar
+5 - Missão, trabalho ou objetivo já em andamento
+6 - Problema ou ameaça aparece
+7 - Quero que o NARRADOR escolha uma abertura coerente
+8 - Outro / combinação própria
+```
+
+O jogador pode responder por número, combinar opções ou descrever livremente uma situação inicial.
+
+## Limite de perguntas
+
+A etapa possui **no máximo 5 perguntas principais**.
+
+Esse é um teto, não uma meta. A IA deve aproveitar tudo que já estiver definido na campanha e fazer menos perguntas sempre que possível.
+
+As perguntas servem apenas para esclarecer elementos que realmente alterem a abertura, como lugar, momento, situação imediata ou presença inicial de personagens.
+
+Não usar essa etapa para planejar capítulos futuros, arcos completos, antagonistas ocultos ou acontecimentos que ainda devem nascer durante o jogo.
+
+> **Definir somente a situação inicial. O que acontece depois pertence ao jogo, não à criação da campanha.**
+
+## Resumo do início
+
+Quando a abertura estiver suficientemente clara, produzir um **resumo curto do início da história**.
+
+Esse resumo deve registrar apenas os fatos necessários para o NARRADOR abrir a primeira cena de forma reproduzível, sem narrar antecipadamente a cena e sem decidir ações dos jogadores.
+
+Depois:
+
+```text
+consolidar o resumo do início
+→ salvar na campanha
+→ marcar a etapa como concluída
+→ seguir para Revisão mecânica e aprovação
+```
+
+O local exato de salvamento dentro da campanha pertence a `estrutura-da-campanha.md`.
