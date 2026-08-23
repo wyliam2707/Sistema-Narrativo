@@ -30,6 +30,8 @@ A Vida estrutural de um efeito persistente **não é curada** por Cura, descanso
 
 Uma nova aplicação do mesmo efeito não é Cura da instância anterior. Ela entra normalmente pela regra de consolidação e pode resultar em um `V` maior, porque uma nova aplicação mecânica passou a compor aquela instância.
 
+Um efeito persistente encerra quando sua **Duração termina** ou quando sua Vida estrutural chega a `V0`, o que acontecer primeiro. Encerrar antecipadamente por `V0` extingue aquela instância por completo; o efeito não retorna depois apenas porque ainda restaria tempo de sua Duração original.
+
 Quando a Vida estrutural de um efeito persistente chega a `V0`, o efeito encerra imediatamente. Não existe estado residual automático nem funcionamento parcial depois de `V0`, salvo quando uma regra específica disser expressamente o contrário.
 
 Se o mesmo efeito for aplicado novamente depois de a instância anterior ter chegado a `V0`, a nova aplicação cria uma **nova instância completa**. Não existe consolidação, média ou reaproveitamento do `V0` anterior, porque a instância antiga já deixou de existir.
