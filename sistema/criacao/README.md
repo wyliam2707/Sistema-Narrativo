@@ -571,11 +571,23 @@ Se um bloco for alterado de forma que afete outro já revisado, corrigir somente
 
 Quando todas as fichas tiverem concluído a revisão e forem aprovadas, a criação termina sem etapa intermediária adicional.
 
-O NARRADOR usa o resumo do início já aprovado e **começa diretamente a primeira cena**.
+Antes de abrir a primeira cena, o sistema deve **consolidar automaticamente** em `estado/atual.md` a situação inicial exata da campanha usando apenas fatos já aprovados e necessários para o ponto de entrada. Essa consolidação não cria uma nova etapa, não exige nova confirmação do jogador e não deve copiar fichas completas para o estado.
+
+Depois, atualizar o `README.md` da campanha para:
+
+```text
+CRIAÇÃO: CONCLUÍDA
+```
+
+Somente então o NARRADOR abre a primeira cena a partir de `estado/atual.md`.
 
 ```text
 fichas aprovadas
+→ consolidar estado inicial em estado/atual.md
+→ marcar CRIAÇÃO: CONCLUÍDA
 → NARRADOR abre a primeira cena
 ```
 
 Não criar uma fase separada de preparação, não exigir nova confirmação de prontidão e não antecipar acontecimentos além do que já estiver estabelecido para a abertura.
+
+> **A criação termina em persistência automática. A primeira cena começa a partir do estado já consolidado.**
