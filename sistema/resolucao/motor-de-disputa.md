@@ -14,9 +14,11 @@ Ele não substitui o princípio geral da resolução:
 
 A resolução separa:
 
-`Potência → quanto consegue produzir`
+`Base → capacidade que conduz a ação`
 
-`Resistência → quanto consegue impedir por aplicação`
+`Suporte → outra capacidade aplicável que melhora a execução`
+
+`Resistência → quanto o mecanismo consegue impedir por aplicação`
 
 `Exigência → quanto precisa ser alcançado`
 
@@ -26,27 +28,56 @@ A resolução separa:
 
 `Custo → quanto recurso cada aplicação exige`
 
-Quando houver Perícias realmente aplicáveis dos dois lados:
+A Base pode vir de Atributo, Perícia, Poder, equipamento ou outra capacidade que realmente conduza a ação.
 
-`Perícia efetiva = Perícia de aplicação − Perícia de oposição`
+Quando existir uma segunda capacidade realmente aplicável apenas como apoio:
 
-Quando não houver oposição técnica real, considera-se apenas a Perícia aplicável de quem executa.
+`Ação efetiva = Base + 1 + (Suporte × 0,2)`
 
-O efeito efetivo é:
+Sem Suporte aplicável:
 
-`Efeito efetivo = Potência usada + 1 + (Perícia efetiva × 0,2)`
+`Ação efetiva = Base + 1`
 
 O progresso produzido por aplicação é:
 
-`Progresso por aplicação = 2^(Efeito efetivo − Resistência efetiva)`
+`Progresso por aplicação = 2^(Ação efetiva − Resistência efetiva)`
 
-A Potência pode vir de Poder, Atributo, equipamento ou outra capacidade que realmente produza o efeito.
+A Resistência vem daquilo que realmente responde ao mecanismo usado. Ela pode ser um Atributo, Perícia, proteção, dificuldade técnica, estrutura, trava ou outro valor coerente com a cena.
 
-A Resistência vem daquilo que realmente se opõe ao mecanismo usado.
+> **A cena define Base, Suporte e Resistência. A ficha não é somada inteira.**
 
-> **A cena decide quais capacidades entram. Valores não são somados apenas por existirem na ficha.**
+## 2. Escolha da Base
 
-## 2. Exigência
+Usar a leitura definida em `leitura-da-ficha-na-resolucao.md`.
+
+Referência rápida:
+
+```text
+algo comum que qualquer pessoa pode tentar
+→ Atributo pode ser a Base
+
+tarefa que exige conhecimento ou treinamento
+→ Perícia pode ser a Base
+
+Poder, arma ou equipamento com valor próprio
+→ esse valor pode ser a Base
+```
+
+Se Atributo e Perícia puderem legitimamente conduzir a mesma ação, usar como Base o valor aplicável mais favorável e o outro como Suporte.
+
+Isso não permite que Atributo substitua conhecimento obrigatório nem que Perícia crie capacidade inexistente.
+
+## 3. Resistência depende do mecanismo
+
+A mesma coisa pode possuir resistências diferentes conforme a abordagem.
+
+Uma porta pode, por exemplo, oferecer resistência estrutural baixa contra força bruta e uma Tranca de patamar maior contra arrombamento técnico.
+
+Não existe obrigação de condensar todas as dificuldades de um alvo em uma única Defesa universal.
+
+Quando existir oposição ativa, usar a capacidade que realmente responde ao método empregado. Não somar automaticamente várias resistências.
+
+## 4. Exigência
 
 A Exigência representa quanto progresso precisa ser alcançado para cumprir o objetivo declarado.
 
@@ -58,17 +89,19 @@ O personagem não precisa alcançar mais do que sua intenção exige.
 
 Alcance, Alvos, Área/Tamanho e Duração pertencem a `consolidacao.md`.
 
-## 3. Progresso
+## 5. Progresso
 
-Se uma aplicação não alcança a Exigência e a natureza da ação permite continuidade, o progresso pode permanecer acumulado.
+Se uma aplicação não alcança a Exigência e a natureza da ação permite continuidade, o progresso permanece acumulado.
 
 `Aplicações necessárias = teto(Exigência ÷ Progresso por aplicação)`
 
 Quando a própria natureza da ação não permite acúmulo, esta regra não cria acumulação artificial.
 
-Uma capacidade inferior pode alcançar um objetivo maior quando a ficção permitir continuidade, pagando por isso em tempo, custo e exposição.
+Uma Resistência superior não precisa significar falha imediata. Quando a ação puder continuar, ela pode significar mais aplicações, mais tempo, mais custo e mais exposição.
 
-## 4. Tempo
+Uma impossibilidade estabelecida pela ficção continua impossível; o motor não cria um mecanismo que não existe.
+
+## 6. Tempo
 
 A unidade de tempo pertence à natureza da tarefa.
 
@@ -76,7 +109,7 @@ Referências usuais:
 
 `10 segundos → aplicação imediata` | `1 minuto → aplicação curta` | `1 hora → aplicação prolongada` | `1 dia → aplicação extensa`
 
-A natureza concreta da atividade pode justificar outra escala.
+A natureza concreta da atividade pode justificar outra escala, inclusive `Turno` ou `Cena` quando forem as unidades adequadas.
 
 Durante combate, uma aplicação imediata usa o mesmo relógio de `../operacao/turnos-de-combate.md`.
 
@@ -84,9 +117,9 @@ Durante combate, uma aplicação imediata usa o mesmo relógio de `../operacao/t
 
 Quando várias aplicações são necessárias, o tempo transcorrido também cria oportunidade normal para reação, interrupção ou mudança da situação quando a ficção permitir.
 
-> **A tarefa define o tempo. A disputa define quantas aplicações são necessárias.**
+> **A tarefa define o tempo. A diferença entre ação e resistência define o ritmo do progresso.**
 
-## 5. Custo
+## 7. Custo
 
 Quando a capacidade usada consome Energia, cada aplicação paga normalmente sua configuração.
 
@@ -98,18 +131,14 @@ Quando existem várias aplicações:
 
 As regras de Ampliação pertencem a `consolidacao.md` e as regras de Energia pertencem a `energia.md`.
 
-> **Resistência pode transformar dificuldade em mais tempo, mais custo e mais exposição.**
+## 8. Uso do motor
 
-## 6. Uso do motor
+O mesmo motor pode ser aplicado a qualquer disputa progressiva quando Base, Resistência e Exigência forem realmente relevantes.
 
-O mesmo motor pode ser aplicado a qualquer disputa quando Potência, Resistência e Exigência forem realmente relevantes.
-
-A natureza da cena determina o que cada uma dessas grandezas representa.
-
-Regras específicas continuam prevalecendo quando um efeito possuir funcionamento próprio.
+Regras específicas continuam prevalecendo quando um efeito possuir funcionamento próprio, como Dano em `combate-e-dano.md`.
 
 > **Use o motor somente até o ponto necessário para decidir a cena.**
 
 ## Regra final
 
-> **Potência determina quanto consegue produzir. Resistência determina quanto atravessa. Exigência determina quanto precisa ser alcançado. Progresso, Tempo e Custo mostram o preço de chegar lá.**
+> **A ficção escolhe o mecanismo. O mecanismo escolhe a Base e a Resistência. O Suporte melhora uma capacidade já aplicável. A Exigência e o tempo mostram quanto custa chegar ao resultado.**
