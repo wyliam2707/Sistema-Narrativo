@@ -1,6 +1,6 @@
 # Migração Estrutural do Sistema
 
-Status: EM ANDAMENTO
+Status: EM ANDAMENTO — ARQUITETURA PRINCIPAL ALINHADA
 
 Este arquivo controla a transição da estrutura antiga, concentrada diretamente em `sistema/`, para a arquitetura atual em subpastas.
 
@@ -8,7 +8,7 @@ Este arquivo controla a transição da estrutura antiga, concentrada diretamente
 
 > **Nenhum arquivo antigo é apagado, movido ou declarado obsoleto apenas porque existe uma pasta nova.**
 
-Arquivos antigos são preservados como fontes históricas até que deixem de ser úteis. Quando uma regra nova foi explicitamente revisada e aprovada, ela prevalece sobre formulações antigas incompatíveis.
+Arquivos antigos são preservados como fontes históricas. Quando uma regra nova foi explicitamente revisada e aprovada, ela prevalece sobre formulações antigas incompatíveis.
 
 ## Status possíveis
 
@@ -35,58 +35,52 @@ sistema/
 ### `criacao/`
 Status: `REFERÊNCIA PRINCIPAL`.
 
-Responsabilidade: criação de novas campanhas, checkpoint de criação, estrutura-base de `campanhas/<nome>/`, destino canônico de cada etapa, criação conceitual, revisão mecânica por blocos e hand-off automático para `estado/atual.md` antes da primeira cena.
+Responsabilidade: criação de novas campanhas, checkpoint, estrutura-base de `campanhas/<nome>/`, destino canônico de cada etapa, criação conceitual, revisão mecânica por blocos e hand-off automático para `estado/atual.md` antes da primeira cena.
 
-`criacao/README.md` substitui `protocolo-de-criacao.md` como referência para novas campanhas.
+`criacao/README.md` substitui `protocolo-de-criacao.md` para novas campanhas.
 
 ### `personagem/`
-Status: `REFERÊNCIA PRINCIPAL / EM ALINHAMENTO ESTRUTURAL`.
+Status: `REFERÊNCIA PRINCIPAL`.
 
 Responsabilidade: definição estável de personagens, calibração, escala, `FIS | RES | MEN | VON`, Perícias, Poderes, TRAÇOS, REL, ficha e NPCs.
 
-As regras mecânicas permanecem atuais. Referências internas à organização antiga de campanhas devem ser alinhadas a `criacao/estrutura-da-campanha.md`.
+A organização interna foi alinhada à estrutura atual de campanha: personagens com agência ficam em `personagens/`; NPCs persistentes ficam em `mestre/`; revisão inicial usa os cinco blocos da criação atual.
 
 ### `personas/`
-Status: `REFERÊNCIA PRINCIPAL` para papéis e autoridade operacional.
+Status: `REFERÊNCIA PRINCIPAL`.
 
-Responsabilidade: `JOGADOR HUMANO | JOGADOR IA | JOGADOR IA EVENTUAL | OPOSITOR | NARRADOR`, incluindo escopo de consulta.
+Responsabilidade: `JOGADOR HUMANO | JOGADOR IA | JOGADOR IA EVENTUAL | OPOSITOR | NARRADOR`, incluindo autoridade e escopo de consulta.
 
 ### `resolucao/`
 Status: `REFERÊNCIA PRINCIPAL / EM REVISÃO CONTÍNUA`.
 
 Responsabilidade: intenção versus resultado, leitura da ficha, comparação, motor de disputa, combate, Dano, Energia, Cura, efeitos, Consolidação, Dissipar, contenção e social.
 
-As formulações novas de resolução prevalecem sobre fórmulas incompatíveis dos arquivos antigos.
-
 ### `agencia/`
 Status: `NOVA ESTRUTURA`.
 
-Responsabilidade: autonomia, vida fora da câmera, continuidade de vontade própria e separação de conhecimento. O documento antigo de agência permanece fonte histórica nos pontos ainda não reescritos.
+Responsabilidade: autonomia, vida fora da câmera, continuidade de vontade própria e separação de conhecimento. Fontes antigas permanecem úteis apenas nos pontos ainda não reescritos.
 
 ### `narracao/`
-Status: `NOVA ESTRUTURA`.
+Status: `EM MIGRAÇÃO`.
 
-Responsabilidade: apresentação da ficção, ritmo, ponto de parada, voz, foco e limites de controle narrativo. O padrão antigo de narração continua fonte nos pontos de estilo ainda não migrados.
+Responsabilidade: apresentação da ficção, ritmo, ponto de parada, voz, foco e limites de controle narrativo. A pasta já foi alinhada à estrutura atual de campanhas; o padrão antigo de escrita continua fonte de estilo somente nos pontos ainda não substituídos.
 
 ### `persistencia/`
-Status: `REFERÊNCIA PRINCIPAL / EM ALINHAMENTO ESTRUTURAL`.
+Status: `REFERÊNCIA PRINCIPAL`.
 
 Responsabilidade: STATUS, Progressão, atualização de ficha, Livro, fechamento de capítulo, material reservado e correção de cânone.
 
-STATUS e Progressão continuam conceitos válidos do sistema. Sua **persistência concreta nas campanhas atuais** deve respeitar a estrutura aprovada: estado operacional e fios causais ativos pertencem a `campanhas/<nome>/estado/atual.md`, salvo quando a natureza do fato exigir ficha, mundo, mestre ou livro.
+STATUS e Progressão permanecem conceitos do sistema, mas não criam arquivos obrigatórios próprios na campanha. O presente operacional e os fios causais ativos são persistidos em `estado/atual.md`, salvo quando a natureza do fato exigir ficha, mundo, mestre ou livro.
 
 ### `operacao/`
-Status: `REFERÊNCIA PRINCIPAL` para o ciclo de cena.
+Status: `REFERÊNCIA PRINCIPAL`.
 
 Responsabilidade: ordem das declarações, consulta, julgamento, ponto de parada e registro. `operacao/ciclo-de-cena.md` substitui o ciclo operacional antigo onde houver conflito.
 
 ## Porta de entrada atual
 
 `sistema/00-LEIA-PRIMEIRO.md` é o roteador operacional atual.
-
-Ele deve apontar para as subpastas vigentes e **não** para arquivos históricos como se fossem referências principais.
-
-Fluxo:
 
 ```text
 NOVA CAMPANHA
@@ -96,6 +90,8 @@ CONTINUAR
 → campanhas/<nome>/README.md
 ```
 
+Ele aponta para as subpastas vigentes e não deve tratar arquivos históricos como referências principais.
+
 ## Mapa das principais fontes antigas
 
 | Arquivo antigo | Área nova principal | Situação atual |
@@ -104,7 +100,7 @@ CONTINUAR
 | `protocolo-de-criacao.md` | `criacao/` | FONTE HISTÓRICA; criação atual em `criacao/README.md` |
 | `ciclo-de-jogadores.md` | `operacao/` + `personas/` | FONTE HISTÓRICA; ciclo atual em `operacao/ciclo-de-cena.md` |
 | `agencia-de-personagens.md` | `agencia/` | FONTE HISTÓRICA para pontos ainda não reescritos |
-| `narracao-e-escrita-padrao.md` | `narracao/` | FONTE HISTÓRICA ainda útil para estilo enquanto não houver substituição aprovada |
+| `narracao-e-escrita-padrao.md` | `narracao/` | FONTE HISTÓRICA ainda útil para estilo enquanto não houver substituição completa |
 | `modo-rpg.md` | `operacao/` | FONTE HISTÓRICA para procedimentos ainda não migrados |
 | `checklist-do-narrador.md` | `operacao/` | FONTE HISTÓRICA para itens ainda não migrados |
 | `protocolo-de-fechamento-de-capitulo.md` | `persistencia/` | FONTE HISTÓRICA; referência atual em `persistencia/fechamento-de-capitulo.md` |
@@ -113,24 +109,25 @@ CONTINUAR
 
 As seguintes formulações antigas não devem voltar por consulta a arquivos históricos:
 
-- atributos `FOR` e `AGI` separados → substituídos por `FIS`;
-- ficha de cinco atributos → substituída por `FIS | RES | MEN | VON`;
+- atributos `FOR` e `AGI` separados → `FIS`;
+- ficha de cinco atributos → `FIS | RES | MEN | VON`;
 - soma automática de atributo, perícia, poder ou equipamento → não existe;
-- `Ampliação não paga` e pagamento parcial → substituídos por pagamento integral;
-- custo por antiga escala abstrata de Ampliação → substituído por degraus acima da manifestação-base;
-- efeitos persistentes tratados por “Consolidação restante” → substituídos por `D/V5`;
-- Proteção `V4` → substituída por `V5`;
-- Invocação `V12` ou referências anteriores → substituída por `V10`;
-- remoção genérica de efeito → Dissipar é efeito próprio de Dano contra STATUS persistente;
-- ciclo antigo quando conflitante → substituído por `operacao/ciclo-de-cena.md`;
-- criação em `aventuras/<nome>/` → novas campanhas usam `campanhas/<nome>/`;
-- protocolo antigo de criação → substituído por `criacao/README.md`;
-- revisão de personagem em quatro blocos dentro do fluxo de campanha → criação atual usa cinco blocos definidos em `criacao/README.md`;
-- NPC persistente em `mundo/npcs/` como padrão → campanhas atuais guardam NPCs persistentes/reservados em `mestre/`;
-- agrupamento de personagens eventuais como uma única peça → cada personagem com agência possui ficha própria em `personagens/`;
-- cânone externo como limite obrigatório de personagem conhecido → o jogador escolhe, altera e consolida a versão canônica local da campanha.
+- `Ampliação não paga` e pagamento parcial → pagamento integral;
+- custo por antiga escala abstrata de Ampliação → degraus acima da manifestação-base;
+- efeitos persistentes por “Consolidação restante” → `D/V5`;
+- Proteção `V4` → `V5`;
+- Invocação `V12` → `V10`;
+- remoção genérica de efeito → Dissipar como efeito próprio de Dano contra STATUS persistente;
+- ciclo antigo conflitante → `operacao/ciclo-de-cena.md`;
+- novas campanhas em `aventuras/<nome>/` → `campanhas/<nome>/`;
+- protocolo antigo de criação → `criacao/README.md`;
+- revisão inicial em quatro blocos → cinco blocos da criação atual;
+- NPC persistente em `mundo/npcs/` como padrão → `mestre/`;
+- agrupamento de eventuais como uma peça → cada personagem com agência possui ficha própria;
+- cânone externo como limite obrigatório → versão escolhida e consolidada pelo jogador é o cânone local da campanha;
+- STATUS, Progressão e Cronologia como arquivos obrigatórios separados → presente operacional concentrado em `estado/atual.md`, com distribuição por função quando necessário.
 
-## Estrutura atual de campanha que não pode ser reintroduzida de forma antiga
+## Estrutura atual de campanha
 
 ```text
 campanhas/<nome-da-campanha>/
@@ -147,8 +144,6 @@ campanhas/<nome-da-campanha>/
     └── README.md
 ```
 
-Separação:
-
 ```text
 PERSONAGENS → quem são as peças
 ESTADO      → como as coisas estão agora
@@ -157,7 +152,7 @@ MESTRE      → o que é reservado à condução
 LIVRO       → o que aconteceu
 ```
 
-A fonte principal dessa estrutura é `criacao/estrutura-da-campanha.md`.
+Fonte principal: `criacao/estrutura-da-campanha.md`.
 
 ## Regras mecânicas atuais que não podem ser reintroduzidas de forma antiga
 
@@ -177,52 +172,37 @@ A fonte principal dessa estrutura é `criacao/estrutura-da-campanha.md`.
 
 `Vários agentes → somam Resultados compatíveis, não Atributos`
 
-## Pendências encontradas na varredura estrutural
+## Varredura estrutural pós-criação — 2026-08-23
 
-A revisão pós-criação encontrou referências antigas ainda presentes em áreas novas. Elas devem ser corrigidas **na própria área correspondente**, sem apagar seus conteúdos mecânicos válidos.
+A revisão das pastas após a consolidação do novo processo de criação corrigiu:
 
-### `personagem/`
+- `00-LEIA-PRIMEIRO.md` — deixou de encaminhar a IA para regras históricas como se fossem atuais;
+- `personagem/README.md` — passou a usar `campanhas/`, fichas individuais de eventuais e NPCs em `mestre/`;
+- `personagem/criacao.md` — alinhado aos cinco blocos, à ordem `JOGADOR IA → EVENTUAL → protagonista`, ao salvamento por bloco e às versões escolhidas pelo jogador;
+- `personagem/npcs.md` — persistência alinhada a `mestre/`;
+- `persistencia/README.md` — STATUS e Progressão mantidos como conceitos, com armazenamento concreto em `estado/atual.md` e demais fontes conforme função;
+- `persistencia/material-reservado.md` — alinhado a `campanhas/<nome>/mestre/`;
+- `operacao/README.md` — alinhado ao roteador atual e ao `ciclo-de-cena.md`;
+- `narracao/README.md` — terminologia e direção narrativa alinhadas às campanhas atuais.
 
-Ainda existem referências a:
-
-- `aventuras/<campanha>/personagens/`;
-- NPCs persistentes em `mundo/npcs/`;
-- revisão em quatro blocos;
-- ordem de revisão incluindo NPCs visíveis;
-- tratamento antigo de versões canônicas.
-
-Esses pontos devem ser alinhados à criação atual.
-
-### `persistencia/`
-
-STATUS e Progressão continuam válidos como conceitos, mas alguns textos ainda sugerem camadas ou arquivos concretos separados na campanha.
-
-A estrutura atual concentra o presente operacional e fios causais ativos em `estado/atual.md`, distribuindo fatos estáveis para ficha, mundo ou mestre e história ocorrida para livro conforme a natureza da informação.
-
-### `CONTINUIDADE-REVISAO-ATUAL.md`
-
-O checkpoint ainda lista a arquitetura anterior sem `criacao/`. Deve ser atualizado depois que este alinhamento estrutural terminar, para não declarar a varredura concluída antes da hora.
+`personas/`, `agencia/` e `resolucao/` foram revisadas nesta varredura e não exigiram mudança estrutural para as regras novas avaliadas.
 
 ## Regra contra duplicação contraditória
 
-Durante a migração pode existir conteúdo semelhante em dois lugares.
+Quando conteúdo semelhante existir em dois lugares:
 
-Quando isso ocorrer:
-
-1. verificar se o tema já possui uma referência nova explicitamente aprovada;
+1. verificar se o tema já possui referência nova explicitamente aprovada;
 2. se possuir, essa referência prevalece;
 3. usar o arquivo antigo apenas para recuperar contexto não contraditório ainda não migrado;
 4. nunca manter duas regras incompatíveis como igualmente canônicas;
-5. correção explícita mais recente do JOGADOR HUMANO tem prioridade sobre formulações anteriores.
+5. correção explícita mais recente do JOGADOR HUMANO tem prioridade.
 
 ## Procedimento de continuação
 
-Antes de retomar uma revisão em outro chat:
-
 1. consultar `CONTINUIDADE-REVISAO-ATUAL.md`;
 2. consultar este mapa;
-3. consultar o arquivo específico da área nova;
-4. recorrer ao arquivo antigo somente se o ponto ainda não estiver coberto;
-5. não apagar os originais sem autorização explícita.
+3. consultar a pasta atual responsável pelo tema;
+4. recorrer a arquivo histórico somente quando o ponto ainda não estiver coberto;
+5. não apagar originais sem autorização explícita.
 
-> **A estrutura nova é a referência principal onde já foi aprovada; a antiga permanece preservada para história e migração, não para restaurar regras substituídas.**
+> **A estrutura nova governa onde já foi aprovada. A antiga permanece preservada para história e migração, não para restaurar regras substituídas.**
