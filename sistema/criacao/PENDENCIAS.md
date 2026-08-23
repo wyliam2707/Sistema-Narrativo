@@ -1,15 +1,13 @@
 # Pendências — revisão do processo de criação de campanha
 
-Este arquivo existe somente para permitir retomar a revisão em outro chat sem depender da conversa anterior.
+Este arquivo permite retomar a revisão em outro chat sem depender da conversa anterior.
 
-Status geral: EM REVISÃO
+Status geral: CICLO 1–10 CONCLUÍDO
 Branch de trabalho: `revisao/personagem`
 
 ## Regra de trabalho
 
 Revisar **um ponto por vez**.
-
-Fluxo:
 
 ```text
 apresentar 1 ponto
@@ -20,19 +18,17 @@ apresentar 1 ponto
 
 Não alterar vários pontos de uma vez.
 
-## Já concluído
+## Pontos concluídos
 
 ### Ponto 1 — checkpoint da criação
 
 APROVADO E REGISTRADO.
 
-A campanha usa o próprio `campanhas/<nome>/README.md` para registrar apenas onde retomar o processo de criação.
+> **O README da própria campanha guarda somente o ponto operacional de retomada da criação.**
 
 ### Ponto 2 — destino exato de cada etapa
 
 APROVADO E REGISTRADO.
-
-Regra central:
 
 > **Cada informação possui uma fonte principal. O README resume e orienta; não duplica o conteúdo dos arquivos concretos.**
 
@@ -40,51 +36,47 @@ Regra central:
 
 APROVADO E REGISTRADO.
 
-> **Durante a revisão mecânica, cada bloco passa a ser persistido imediatamente após sua aprovação. Conteúdo ainda em discussão não é salvo. Depois do salvamento, o checkpoint avança para o próximo bloco.**
+> **Cada bloco mecânico aprovado é persistido imediatamente. Conteúdo ainda em discussão não é salvo. Depois do salvamento, o checkpoint avança.**
 
-### Ponto 4 — hand-off para `estado/atual.md` antes da primeira cena
-
-APROVADO E REGISTRADO.
-
-> **Quando todas as fichas forem aprovadas, o sistema consolida automaticamente a situação inicial em `estado/atual.md`, marca `CRIAÇÃO: CONCLUÍDA` no README da campanha e somente então o NARRADOR abre a primeira cena.**
-
-### Ponto 5 — relação entre GERÊNCIA e CONTROLE
+### Ponto 4 — hand-off para `estado/atual.md`
 
 APROVADO E REGISTRADO.
 
-> **GERÊNCIA é apenas o processo de decidir quem controla a personagem. O resultado dessa decisão é persistido exclusivamente no campo `CONTROLE`.**
+> **Quando todas as fichas forem aprovadas, o sistema consolida automaticamente a situação inicial em `estado/atual.md`, marca `CRIAÇÃO: CONCLUÍDA` e somente então o NARRADOR abre a primeira cena.**
 
-### Ponto 6 — personagens eventuais no índice da campanha
-
-APROVADO E REGISTRADO.
-
-> **Cada personagem com agência é uma peça própria, deve aparecer individualmente no índice da campanha e possui sua própria ficha.**
-
-A persona `JOGADOR IA EVENTUAL` pode ser compartilhada por vários personagens, mas cada um continua sendo uma peça própria com seu arquivo em `personagens/`.
-
-### Ponto 7 — personagem conhecido com versões diferentes
+### Ponto 5 — GERÊNCIA e CONTROLE
 
 APROVADO E REGISTRADO.
 
-> **Personagens conhecidos usam a versão escolhida pelo jogador como base. O jogador pode modificar, combinar ou substituir elementos dessa versão durante a criação. A versão canônica serve como referência, não como limite.**
+> **GERÊNCIA é o processo de decidir quem controla a personagem. O resultado é persistido exclusivamente no campo `CONTROLE`.**
 
-Depois de consolidada, a versão criada para a campanha passa a ser a referência canônica local daquela personagem.
+### Ponto 6 — personagens eventuais
+
+APROVADO E REGISTRADO.
+
+> **Cada personagem com agência é uma peça própria, aparece individualmente no índice e possui sua própria ficha.**
+
+A persona `JOGADOR IA EVENTUAL` pode ser compartilhada por várias peças sem criar ficha compartilhada.
+
+### Ponto 7 — personagens conhecidos e versões
+
+APROVADO E REGISTRADO.
+
+> **Personagens conhecidos usam a versão escolhida pelo jogador como base. O jogador pode modificar, combinar ou substituir elementos. A versão consolidada torna-se a referência canônica local da campanha.**
 
 ### Ponto 8 — nome de campanha já existente
 
 APROVADO E REGISTRADO.
 
-> **A criação de uma nova campanha nunca pode sobrescrever automaticamente uma pasta de campanha existente.**
+> **Nova criação nunca sobrescreve automaticamente uma campanha existente.**
 
-A verificação acontece antes da criação de qualquer arquivo.
+A verificação acontece antes de criar qualquer arquivo.
 
 ### Ponto 9 — modelos determinísticos dos arquivos automáticos
 
 APROVADO E REGISTRADO.
 
-Regra aprovada:
-
-> **Os arquivos operacionais da estrutura-base possuem textos iniciais obrigatórios e determinísticos. Toda nova campanha nasce com os mesmos modelos, sem improvisação entre IAs.**
+> **Os arquivos operacionais da estrutura-base possuem textos iniciais obrigatórios e determinísticos.**
 
 Modelos definidos para:
 
@@ -96,27 +88,21 @@ livro/README.md
 estado/atual.md
 ```
 
-Os textos exatos possuem uma única fonte canônica em:
+Fonte canônica única dos textos:
 
-- `sistema/criacao/estrutura-da-campanha.md`
+```text
+sistema/criacao/estrutura-da-campanha.md
+```
 
-O conteúdo desses arquivos pode ser atualizado depois conforme a campanha evolui; somente o modelo inicial é obrigatório e invariável.
-
-Commit:
+Commit principal:
 
 - `9c929d4b1461a01cc93ecec9ef414d14926f3c57`
 
-## Ponto atual
+### Ponto 10 — porta de entrada do repositório
 
-### Ponto 10 — migrar a porta de entrada do repositório
+APROVADO E REGISTRADO POR ORA.
 
-O `README.md` da raiz e `sistema/00-LEIA-PRIMEIRO.md` ainda apontam para o fluxo legado:
-
-- `sistema/protocolo-de-criacao.md`;
-- `aventuras/`;
-- estrutura antiga.
-
-Proposta a discutir:
+Fluxo atual:
 
 ```text
 NOVA CAMPANHA
@@ -126,9 +112,16 @@ CONTINUAR
 → campanhas/<nome>/README.md
 ```
 
-A migração deve alinhar a entrada do sistema ao novo fluxo sem apagar nem migrar automaticamente campanhas antigas em `aventuras/`.
+O `README.md` da raiz e `sistema/00-LEIA-PRIMEIRO.md` foram alinhados ao novo fluxo.
 
-## Estrutura de campanha já aprovada
+Material antigo em `aventuras/` e `sistema/protocolo-de-criacao.md` permanece preservado como legado. Não apagar, mover ou migrar automaticamente.
+
+Commits:
+
+- `c9482040744d46d160e7d62a729e3a2c87c26f50` — `README.md`
+- `43985d655981bf3de2aa41eddbe6280def34279c` — `sistema/00-LEIA-PRIMEIRO.md`
+
+## Estrutura de campanha aprovada
 
 ```text
 campanhas/<nome-da-campanha>/
@@ -155,24 +148,27 @@ MESTRE      → o que é reservado à condução
 LIVRO       → o que aconteceu
 ```
 
-A estrutura nasce junto com o nome da campanha.
-
-## Arquivos principais da revisão
+## Arquivos principais desta revisão
 
 ```text
 sistema/criacao/README.md
 sistema/criacao/estrutura-da-campanha.md
 sistema/criacao/PENDENCIAS.md
+README.md
+sistema/00-LEIA-PRIMEIRO.md
 ```
 
 Antes de editar qualquer arquivo existente, buscar seu SHA atual.
 
 ## Ponto exato para retomar
 
-Ao abrir um novo chat, continuar assim:
+O ciclo planejado de 10 pontos foi concluído.
+
+Ao retomar esta revisão em outro chat:
 
 ```text
 1 - ler sistema/criacao/PENDENCIAS.md
-2 - apresentar somente o Ponto 10 ao usuário
-3 - não alterar a porta de entrada até o Ponto 10 ser aprovado
+2 - considerar os Pontos 1–10 como aprovados e registrados
+3 - não reabrir um ponto já fechado sem nova correção explícita do jogador
+4 - iniciar nova revisão somente a partir de uma nova necessidade concreta
 ```
