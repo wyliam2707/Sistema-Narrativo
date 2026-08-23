@@ -15,6 +15,7 @@ Esta pasta responde à pergunta:
 - `comparacao-e-disputa.md` — comparação qualitativa, estratégia, preparação e disputas equilibradas;
 - `motor-de-disputa.md` — Potência, Resistência, Exigência, progresso, tempo, custo e contenção sustentada;
 - `escalas-de-efeito.md` — tabelas de referência dos efeitos;
+- `fonte-e-vida-estrutural.md` — Fonte da manifestação, Atributo estrutural e Vida dos efeitos persistentes;
 - `geral.md` — manifestações narrativas, utilitárias e cotidianas sem efeito prático de combate;
 - `consolidacao.md` — Alcance, Alvos, Área/Tamanho, Duração, Ampliação, custo e estrutura de efeitos persistentes;
 - `combate-e-dano.md` — fonte de Dano, Perícia efetiva, Ataque efetivo, Dano aplicado e defesa;
