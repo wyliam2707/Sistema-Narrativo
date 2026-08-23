@@ -42,7 +42,7 @@ Em toda janela significativa:
 ↓
 2. JOGADORES IA aplicáveis declaram, cada um por sua peça
 ↓
-3. JOGADOR IA EVENTUAL é avaliado e, se ativo, declara pelas peças necessárias
+3. JOGADOR IA EVENTUAL é avaliado e, se ativo, declara pelas peças eventuais ou NPCs ad hoc necessários
 ↓
 4. OPOSITOR declara movimento, oposição, gancho ou nenhuma intervenção
 ↓
@@ -59,7 +59,7 @@ A ordem organiza autoridade. Ela não concede conhecimento automático das decla
 
 ## JOGADORES
 
-Cada jogador declara apenas pela própria peça.
+Cada jogador declara apenas pelas peças sob sua autoridade naquela janela.
 
 A declaração estabelece **intenção**, não resultado.
 
@@ -71,10 +71,27 @@ JOGADOR IA
 → cada persona joga somente sua própria personagem.
 
 JOGADOR IA EVENTUAL
-→ joga as peças eventuais autorizadas quando elas realmente precisam de decisão.
+→ joga personagens eventuais autorizados e pode assumir NPCs comuns ad hoc quando uma decisão voluntária relevante precisa ser tomada.
 ```
 
-As regras completas de autoridade e contexto estão em `../personas/`.
+As regras completas de autoridade estão em `../personas/` e, para NPCs, em `../personas/npcs-e-delegacao.md`.
+
+### NPC comum dentro do ciclo
+
+Nem todo gesto de NPC abre a terceira cadeira.
+
+```text
+ROTINA EVIDENTE
+→ pode ser narrada como consequência já determinada.
+
+DECISÃO VOLUNTÁRIA RELEVANTE, NÃO ADVERSARIAL
+→ JOGADOR IA EVENTUAL assume o NPC naquela janela.
+
+OPOSIÇÃO ATIVA
+→ a peça pode ser delegada ao OPOSITOR se o NARRADOR julgar que ela está legitimamente disponível.
+```
+
+Assumir um NPC ad hoc não muda seu `CONTROLE` permanente.
 
 ## OPOSITOR
 
@@ -91,7 +108,7 @@ Pode:
 
 O OPOSITOR não determina o resultado.
 
-NPCs e recursos adversários podem ser delegados temporariamente a ele conforme `../personas/opositor/` e `../agencia/ganchos-do-opositor.md`.
+NPCs e recursos adversários podem ser delegados temporariamente a ele conforme `../personas/npcs-e-delegacao.md` e `../personas/opositor/`.
 
 ## NARRADOR
 
@@ -106,6 +123,8 @@ Sua função é somente:
 ```
 
 Consultar fichas, regras, cenário, conhecimento, meios e oportunidade faz parte do julgamento; não constitui uma etapa própria de iniciativa.
+
+O NARRADOR não escolhe decisões voluntárias por NPCs. Quando algo é apenas rotina evidente e já determinada pelos fatos, pode narrar isso como parte da sentença sem criar uma nova decisão.
 
 Quando existir incerteza mecânica real, usar `../resolucao/`.
 
@@ -194,4 +213,4 @@ Uma nova oportunidade legítima pertence à janela seguinte.
 
 ## Regra final
 
-> **Os jogadores declaram por suas peças. O OPOSITOR apresenta o que quer movimentar. O NARRADOR julga, narra a sentença e registra. Fora de combate, o fluxo segue `janelas-e-interrupcoes.md`; em combate, segue `turnos-de-combate.md`.**
+> **Os jogadores declaram por suas peças. O EVENTUAL cobre também NPCs comuns quando há vontade relevante; o OPOSITOR joga a oposição legitimamente disponível; o NARRADOR julga, narra a sentença e registra. Rotina evidente não exige uma nova cadeira.**
