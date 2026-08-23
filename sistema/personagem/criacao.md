@@ -144,11 +144,18 @@ Depois que as fichas estruturais estiverem criadas, cada ficha é construída **
 
 Nome, Importância e CONTROLE já chegam definidos e não precisam ser redescobertos.
 
+Este bloco deve deixar a personagem **identificável como pessoa e reconhecível em cena**, não apenas explicar sua origem de forma abstrata.
+
 Revisar e preencher, quando aplicáveis:
 
-- origem;
+- nome de uso, codinome ou identidade pela qual é conhecida;
+- nome real, civil ou pessoal, quando diferente do nome de uso;
+- outros nomes relevantes, somente quando realmente usados;
 - idade;
-- aparência;
+- aparência física suficiente para reconhecê-la;
+- estilo visual e forma habitual de se apresentar, incluindo roupas, cores, acessórios ou marcas características quando relevantes;
+- origem;
+- natureza;
 - conceito;
 - personalidade;
 - comportamento;
@@ -158,13 +165,21 @@ Revisar e preencher, quando aplicáveis:
 - conhecimento necessário para interpretação;
 - demais elementos de identidade relevantes.
 
+A aparência não precisa virar catálogo de medidas. Deve registrar aquilo que realmente define a presença visual da personagem e ajuda o NARRADOR a descrevê-la de modo consistente.
+
+Quando `Descrição:` for usada na ficha, ela deve conter descrição concreta útil à apresentação da personagem. Uma frase apenas sobre origem, universo ou função narrativa não substitui aparência e estilo quando esses elementos forem relevantes.
+
+Campos adicionais como `Nome real:`, `Aparência:` ou `Estilo:` podem ser acrescentados à ficha durante este bloco quando deixarem a identidade mais clara. O modelo-base é estrutura inicial, não proibição de organizar melhor informação aprovada.
+
 Se for personagem conhecido, canônico ou licenciado, a versão-base e eventuais combinações ou alterações são tratadas aqui, salvo quando o jogador já tiver fornecido essa informação.
 
 A versão escolhida serve como referência inicial. O jogador pode alterar, combinar ou substituir aparência, idade, história, poderes, relações, personalidade ou qualquer outro elemento.
 
+A versão conhecida deve ser convertida em informação concreta da campanha: nome real quando aplicável, aparência, estilo e demais sinais de identidade não devem ficar implícitos apenas porque a personagem já existe em outra obra.
+
 Depois de consolidada, a versão da campanha passa a ser a referência canônica local daquela personagem.
 
-> **A pergunta relevante é: “qual é a versão desta campanha?”**
+> **A pergunta relevante é: “quem é esta versão e como ela é reconhecida quando entra em cena?”**
 
 ### Bloco 2 — Atributos e perícias
 
