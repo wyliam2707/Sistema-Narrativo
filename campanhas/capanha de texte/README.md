@@ -2,9 +2,8 @@
 
 CRIAÇÃO: EM ANDAMENTO
 
-Etapa atual: Revisão das fichas
-Personagem atual: Corvin Blackwood
-Bloco atual: 5 - Conferência final
+Etapa atual: Início da história
+Passo atual: Definir situação de entrada
 
 ## 1 - Nome da campanha
 
@@ -33,7 +32,7 @@ Nick Fury — Relevante — JOGADOR IA EVENTUAL
 
 ## 5 - Situação de entrada
 
-A definir após a aprovação das fichas iniciais.
+A definir agora que todas as fichas iniciais foram aprovadas.
 
 ## 6 - Mapa de consulta
 
