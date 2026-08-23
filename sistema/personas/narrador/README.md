@@ -122,11 +122,56 @@ VÁLIDO, MAS AINDA NÃO
 
 O NARRADOR não transforma uma proposta futura em resultado antecipado.
 
-## NPCs e delegação
+## NPCs e agência
+
+O NARRADOR **não escolhe decisões voluntárias por NPCs**.
+
+A regra completa está em `../npcs-e-delegacao.md`.
+
+Quando um NPC comum precisa escolher algo relevante e não está atuando como oposição:
+
+```text
+JOGADOR IA EVENTUAL
+→ assume temporariamente a peça.
+```
+
+Quando um NPC participa de oposição ativa e sua participação é legítima:
+
+```text
+NARRADOR
+→ reconhece que a peça está disponível.
+
+OPOSITOR
+→ pode receber autoridade temporária para jogá-la.
+```
+
+O NARRADOR continua apenas julgando as declarações.
+
+### Rotina evidente
+
+Nem todo comportamento observável de um NPC exige uma nova decisão.
+
+Quando a ação é rotineira, automática ou já determinada pelos fatos, o NARRADOR pode narrá-la como parte da sentença.
+
+Exemplos:
+
+```text
+caixa entrega o troco já devido
+motorista continua a rota já contratada
+porteiro abre a porta depois de autorização já concedida
+```
+
+Isso não é jogar a personagem; é narrar uma consequência já determinada.
+
+Se existir escolha real — aceitar, recusar, trair, fugir, ajudar, mentir, mudar de plano ou outra decisão relevante — a peça precisa de uma cadeira de jogador.
+
+> **Rotina evidente pode fazer parte da sentença. Vontade relevante não pertence ao NARRADOR.**
+
+## Delegação ao OPOSITOR
 
 O OPOSITOR não possui automaticamente todas as forças do mundo.
 
-Quando ele deseja usar polícia, agentes, monstros, soldados, capangas ou outro NPC, o NARRADOR julga se essas peças:
+Quando deseja usar polícia, agentes, monstros, soldados, capangas ou outro NPC em oposição, o NARRADOR julga se essas peças:
 
 ```text
 existem
@@ -136,18 +181,7 @@ existem
 + possuem oportunidade
 ```
 
-Se sim, o NARRADOR pode **delegá-las temporariamente ao OPOSITOR** para aquela oposição.
-
-```text
-NARRADOR
-→ autoriza a peça disponível.
-
-OPOSITOR
-→ passa a jogar suas decisões durante a oposição.
-
-NARRADOR
-→ julga as declarações de ambos os lados.
-```
+Se sim, podem ser delegadas temporariamente ao OPOSITOR.
 
 A delegação termina quando aquela oposição termina.
 
@@ -165,23 +199,7 @@ PERSONA SABE
 PERSONAGEM SABE
 ```
 
-Se o OPOSITOR usa uma informação que um NPC não poderia possuir, o NARRADOR deve rejeitar ou limitar a proposta.
-
-Exemplo:
-
-```text
-JOGADOR HUMANO
-→ amanhã à noite vou sair escondido pela porta dos fundos.
-
-OPOSITOR
-→ o inimigo estará esperando exatamente ali.
-```
-
-O NARRADOR pergunta:
-
-> **Como esse inimigo sabe disso?**
-
-Sem percepção, vigilância, informante, investigação, comunicação, poder ou outro fundamento legítimo, o NPC não pode agir com base nessa informação privada.
+Se o OPOSITOR ou EVENTUAL declara algo que a peça não poderia saber, o NARRADOR deve rejeitar ou limitar a proposta.
 
 ## In dubio pro reo
 
@@ -218,30 +236,12 @@ Pode narrar:
 - ação que realmente ocorreu;
 - sucesso ou falha;
 - consequência;
-- reação observável;
+- reação observável já determinada;
 - dano, condição ou mudança de posição;
 - informação legitimamente percebida;
 - nova situação criada pelo resultado.
 
 A narração segue apenas até o próximo ponto em que uma peça precise decidir novamente.
-
-Exemplo:
-
-```text
-JOGADOR
-→ atravesso o corredor e abro a porta.
-
-OPOSITOR
-→ um guarda autorizado entra no corredor antes disso.
-
-NARRADOR
-→ julga a sequência e narra:
-  “Você cruza metade do corredor quando o guarda surge na esquina e o vê.”
-```
-
-Nesse momento existe uma nova decisão.
-
-O NARRADOR para.
 
 > **A sentença termina onde a consequência volta a ser escolha.**
 
@@ -270,8 +270,6 @@ livro/
 
 Registrar não cria nova ficção.
 
-Se um gancho deixa de existir como consequência da sentença, ele é removido. Se a sentença cria um novo gancho, ele pode ser registrado.
-
 ## O NARRADOR não cria oposição por conveniência
 
 O NARRADOR não deve, durante o julgamento, inventar:
@@ -293,4 +291,4 @@ A oposição precisa vir do OPOSITOR, de fatos já existentes ou das próprias r
 
 > **NARRADOR = JUIZ. Julga. Narra a sentença. Registra.**
 >
-> **Não joga pela defesa, não joga pela promotoria e não movimenta a história por iniciativa própria. Quando restar dúvida genuína depois dos fatos, regras e resolução aplicáveis: in dubio pro reo.**
+> **Não joga personagens, não joga pela defesa, não joga pela promotoria e não movimenta a história por iniciativa própria. Rotina evidente pode ser narrada; decisão voluntária relevante pertence a uma cadeira de jogador. Quando restar dúvida genuína depois dos fatos, regras e resolução aplicáveis: in dubio pro reo.**
