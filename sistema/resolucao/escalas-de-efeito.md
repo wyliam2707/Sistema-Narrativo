@@ -60,6 +60,8 @@ As médias não são arredondadas. Valores decimais permanecem válidos tanto pa
 
 A partir da terceira aplicação igual, a consolidação é feita de forma incremental: compara-se a **instância consolidada atual** com a nova aplicação e aplica-se novamente a mesma regra. Se as Durações forem iguais, preservam-se os melhores `D` e `V`; se forem diferentes, mantém-se a maior Duração e calcula-se a média entre o `D` e o `V` atuais e os da nova aplicação.
 
+A consolidação não recalcula a média histórica de todas as aplicações originais. Cada nova aplicação usa o **estado consolidado atual** como uma das duas entradas da nova média.
+
 Quando a instância consolidada já tiver perdido Vida estrutural, usa-se sua **Vida restante atual** na nova consolidação. Uma nova aplicação igual pode, portanto, reforçar ou restaurar a estrutura do efeito, mas nunca soma Vida acima do valor obtido pela própria regra de consolidação.
 
 Exemplo:
@@ -326,7 +328,7 @@ Uma criação recebe apenas os Atributos necessários para cumprir sua função.
 
 `Invocação [3] → 1 atributo [3] | 2 atributos [2] | 3 atributos [1]`
 
-`Invocação [4] → 1 atributo [4] | 2 atributos [3] | 3 atributos [2] | 4 atributos [1]`
+`Invocação [4] → 1 atributo [4] | 2 atributos [3]` | `3 atributos [2] | 4 atributos [1]`
 
 `Invocação [5] → 1 atributo [5] | 2 atributos [4] | 3 atributos [3] | 4 atributos [2]`
 
