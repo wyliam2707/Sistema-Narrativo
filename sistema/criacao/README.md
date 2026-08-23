@@ -20,7 +20,7 @@ Durante a criação:
 - salvar somente conteúdo aprovado;
 - não preencher campos de ficha antes do momento definido para sua revisão.
 
-> **Primeiro identificamos as peças. Depois construímos suas fichas. Só então definimos a abertura da história.**
+> **Primeiro identificamos todas as peças iniciais. Depois construímos suas fichas. Só então definimos a abertura da história.**
 
 ## Exemplos e respostas numéricas
 
@@ -37,14 +37,17 @@ A criação segue esta ordem:
 ```text
 Nome da campanha
 → Direção narrativa e cenário
-→ Registrar protagonista
-→ Registrar outros personagens com agência
+→ Registrar protagonista humano
+→ Registrar TODOS os demais personagens iniciais com agência
+→ Confirmar que o elenco inicial com agência está completo
 → Revisão das fichas
 → Início da história
 → Consolidar estado inicial
 → CRIAÇÃO: CONCLUÍDA
 → primeira cena
 ```
+
+Nenhuma ficha entra em revisão enquanto ainda houver personagem inicial com agência a registrar.
 
 ## Checkpoint da criação
 
@@ -121,7 +124,8 @@ A criação de uma nova campanha nunca substitui automaticamente uma campanha ex
 Quando o nome estiver livre:
 
 ```text
-criar campanhas/<nome>/
+garantir campanhas/README.md
+→ criar campanhas/<nome>/
 → aplicar a estrutura obrigatória de estrutura-da-campanha.md
 → registrar CRIAÇÃO: EM ANDAMENTO no README.md
 → checkpoint: Direção narrativa e cenário
@@ -165,11 +169,13 @@ As três perguntas universais de nascimento são:
 3 - CONTROLE
 ```
 
-Para o protagonista, normalmente:
+O protagonista humano usa:
 
 ```text
 CONTROLE: JOGADOR HUMANO
 ```
+
+Cada campanha possui **um único personagem com `CONTROLE: JOGADOR HUMANO`**.
 
 Depois de obter essas três informações:
 
@@ -210,7 +216,7 @@ README.md da campanha
 
 # Etapa — Registrar outros personagens com agência
 
-Perguntar quais outros personagens terão agência de jogador na campanha.
+Depois do protagonista humano, identificar e registrar **todos os demais personagens iniciais com agência** antes de revisar qualquer ficha.
 
 Para cada personagem:
 
@@ -220,23 +226,31 @@ Para cada personagem:
 3 - CONTROLE
 ```
 
-Valores de `CONTROLE` com agência própria:
+Valores de `CONTROLE` com agência própria disponíveis nesta etapa:
 
 ```text
 JOGADOR IA
 JOGADOR IA EVENTUAL
 ```
 
+`JOGADOR HUMANO` não é oferecido novamente: a única peça humana já foi definida no protagonista.
+
 Cada personagem recebe **seu próprio arquivo**.
 
 Mesmo quando vários personagens usam a mesma persona `JOGADOR IA EVENTUAL`, não existe ficha compartilhada.
 
-Quando o jogador terminar de registrar personagens:
+O narrador deve continuar perguntando e registrando personagens até o jogador humano declarar que o **elenco inicial com agência está completo**.
+
+Somente então:
 
 ```text
 checkpoint
 → Revisão das fichas
 ```
+
+> **Primeiro todos os personagens iniciais com agência. Depois qualquer revisão de ficha.**
+
+NPCs comuns que surgirão durante o jogo não precisam ser antecipados nesta etapa. Personagens que já forem definidos como peças iniciais com agência, porém, devem ser registrados antes da revisão.
 
 ## Personagens conhecidos
 
@@ -247,6 +261,8 @@ Não preencher antecipadamente cânone, poderes, história ou personalidade só 
 A versão escolhida e consolidada pelo jogador torna-se a referência canônica local da campanha.
 
 # Etapa — Revisão das fichas
+
+A revisão só começa depois da confirmação de que todos os personagens iniciais com agência já foram registrados.
 
 A revisão ocorre por personagem, em cinco blocos:
 
@@ -263,7 +279,7 @@ Ordem geral:
 ```text
 JOGADORES IA
 → JOGADORES IA EVENTUAIS
-→ protagonista
+→ protagonista humano
 ```
 
 Dentro de cada bloco:
@@ -332,6 +348,8 @@ São independentes.
 
 Não existe limite universal obrigatório de personagens Centrais.
 
+Existe, porém, apenas **uma peça com `CONTROLE: JOGADOR HUMANO` por campanha**.
+
 Mudar `IMPORTÂNCIA` não muda automaticamente `CONTROLE`, ficha ou mecânica.
 
 Toda proposta de alteração de Importância exige aprovação do JOGADOR HUMANO antes de persistir.
@@ -364,4 +382,4 @@ Não criar arquivos paralelos de STATUS, Progressão, cronologia, intenções ou
 
 ## Regra final
 
-> **A ficha nasce completa em estrutura e mínima em conteúdo. Antes da revisão, somente NOME, IMPORTÂNCIA e CONTROLE são preenchidos; os demais campos permanecem vazios até seu bloco. Cada bloco aprovado é salvo imediatamente. Depois de todas as fichas aprovadas, o estado inicial é consolidado e a campanha começa.**
+> **A ficha nasce completa em estrutura e mínima em conteúdo. Antes da revisão, somente NOME, IMPORTÂNCIA e CONTROLE são preenchidos; os demais campos permanecem vazios até seu bloco. Todos os personagens iniciais com agência são registrados antes de qualquer revisão. Cada bloco aprovado é salvo imediatamente. Depois de todas as fichas aprovadas, o estado inicial é consolidado e a campanha começa.**
