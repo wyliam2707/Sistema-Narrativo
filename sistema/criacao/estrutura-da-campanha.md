@@ -133,6 +133,32 @@ NPCs comuns, aliados ocasionais, figurantes e adversários não pertencem a `per
 
 > **Cada personagem com agência possui sua própria ficha. O tipo de controle pertence à ficha, não à pasta.**
 
+#### Modelo obrigatório de ficha
+
+Os arquivos concretos em `personagens/` não definem um segundo modelo de ficha.
+
+Toda ficha da campanha deve seguir as regras e usar como referência:
+
+```text
+sistema/personagem/ficha.md
+```
+
+Assim:
+
+```text
+sistema/personagem/ficha.md
+        ↓ define modelo e regras
+
+campanhas/<nome>/personagens/<personagem>.md
+        ↓ registra a ficha concreta
+```
+
+A ficha registra **quem o personagem é**. Estado circunstancial pertence a `estado/`.
+
+Portanto, VIDA atual, ENERGIA atual, localização atual, ferimentos temporários, condições e efeitos ativos não devem ser duplicados na ficha apenas por estarem acontecendo agora.
+
+> **A campanha guarda a ficha concreta. O sistema define como uma ficha funciona.**
+
 ### `estado/`
 
 Guarda a realidade dinâmica atual da campanha: aquilo que pode mudar durante o jogo e precisa ser retomado corretamente depois.
