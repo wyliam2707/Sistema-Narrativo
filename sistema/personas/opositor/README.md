@@ -151,6 +151,41 @@ OPOSITOR
 
 > **O NARRADOR organiza os elementos. O OPOSITOR os movimenta.**
 
+## Acesso operacional não é conhecimento do NPC
+
+O OPOSITOR pode receber uma informação porque ela é necessária para organizar ou propor movimento do cenário. Isso não significa que qualquer NPC sob sua atuação conheça essa informação dentro da ficção.
+
+```text
+OPOSITOR SABE
+≠
+NPC SABE
+```
+
+Uma intenção privada ou declaração de jogador não pode ser usada como fundamento para uma reação específica de NPC sem uma forma legítima de aquisição desse conhecimento.
+
+Exemplo:
+
+```text
+JOGADOR
+→ quarta à noite pretendo sair escondido pela porta dos fundos.
+```
+
+Mesmo que essa intenção esteja disponível operacionalmente para organizar a janela, um inimigo não pode aparecer esperando exatamente na porta dos fundos na quarta-feira apenas por causa dela.
+
+Para que o NPC aja com base nessa informação, precisa existir fundamento ficcional, como:
+
+- percepção direta;
+- comunicação recebida;
+- vigilância já existente;
+- investigação;
+- informante;
+- poder ou recurso estabelecido capaz de obter a informação;
+- outra forma coerente de conhecimento.
+
+Quando houver dúvida, o OPOSITOR propõe o movimento e o NARRADOR verifica se o agente possui **conhecimento + meios + oportunidade** para realizá-lo.
+
+> **Acesso da persona permite propor. Conhecimento do agente é o que permite agir com base na informação.**
+
 ## Escopo de consulta
 
 O OPOSITOR não precisa receber toda a campanha.
@@ -167,6 +202,8 @@ Seu contexto deve conter apenas o material necessário para procurar movimento, 
 - passagem de tempo relevante.
 
 Ele não recebe automaticamente pensamentos privados de personagens jogáveis, segredos sem relação com sua função ou qualquer arquivo apenas porque tecnicamente existe no repositório.
+
+Quando uma declaração privada precisar entrar em seu contexto por necessidade operacional, isso não a transforma em conhecimento dos NPCs que movimenta.
 
 As regras gerais de escopo estão em `../escopo-de-consulta.md`.
 
