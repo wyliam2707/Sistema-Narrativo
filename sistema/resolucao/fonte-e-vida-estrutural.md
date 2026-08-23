@@ -42,7 +42,7 @@ Um mesmo Poder pode usar eixos diferentes em manifestações diferentes quando s
 
 Quando uma Proteção ou efeito persistente possui uma Fonte com Atributo estrutural definido:
 
-`Vida estrutural = maior entre [1] e o valor atual do Atributo da Fonte`
+`Vida estrutural = maior entre [1] e o valor atual do Atributo da Fonte]`
 
 Assim, **todo efeito com Vida estrutural possui pelo menos [1] de Vida**.
 
@@ -59,6 +59,12 @@ Exemplos:
 `Proteção [3] — Fonte: magia / VON [0] → D3,8 / V1`
 
 O valor de `D` continua sendo calculado pela regra específica do efeito. A Fonte altera a Vida estrutural, não a função nem automaticamente a Defesa.
+
+O valor de `V` é definido **no momento em que a manifestação é criada**. Alterações posteriores no Atributo da Fonte não recalculam retroativamente a Vida estrutural daquela instância.
+
+Exemplo: uma manifestação criada com `MEN [4] → V4` permanece com seu `V` atual mesmo que o personagem depois sofra Supressão e passe a `MEN [2]`. Uma nova aplicação feita depois dessa mudança usa o valor atual do Atributo e, portanto, seria criada com `V2`.
+
+Aumentos posteriores no Atributo também não elevam automaticamente o `V` de uma instância já existente.
 
 ## Fonte pode variar por manifestação
 
