@@ -398,3 +398,39 @@ O protagonista deve ser revisado **por último**, para evitar que sua ficha cont
 Cada ficha deve ser convertida e revisada a partir do próprio conceito, do cenário e das regras do sistema, sem usar outra ficha como molde automático.
 
 > **Cada personagem é calibrado pelo que ele é. O protagonista não serve como régua para os demais.**
+
+## Revisão em blocos
+
+Cada ficha deve ser apresentada e revisada em **5 blocos**, um por vez.
+
+```text
+1 - Identidade e conceito
+2 - Atributos e perícias
+3 - Poderes e capacidades
+4 - Traços e relações
+5 - Conferência final
+```
+
+### Bloco 1 — Identidade e conceito
+
+Revisar nome, gerência, origem, aparência, personalidade, comportamento, história essencial e papel narrativo quando aplicáveis.
+
+### Bloco 2 — Atributos e perícias
+
+Converter e revisar o conceito nos atributos `FIS | RES | MEN | VON` e nas perícias realmente relevantes para o personagem.
+
+### Bloco 3 — Poderes e capacidades
+
+Converter e revisar poderes, equipamentos tratados como Poder quando aplicável, capacidades relevantes e seus limites conceituais segundo as regras do sistema.
+
+### Bloco 4 — Traços e relações
+
+Revisar traços permanentes, fraquezas, características especiais e relações iniciais que realmente pertençam à ficha.
+
+### Bloco 5 — Conferência final
+
+Verificar se o conjunto mecânico representa o conceito aprovado, corrigir incoerências, remover excessos e somente então considerar a ficha pronta para aprovação.
+
+> **Apresentar um bloco por vez. Só avançar para o próximo depois da revisão do jogador.**
+
+Se um bloco for alterado de forma que afete outro já revisado, corrigir somente o que tiver sido realmente impactado antes da aprovação final.
