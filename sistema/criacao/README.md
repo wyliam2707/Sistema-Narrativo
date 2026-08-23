@@ -107,6 +107,55 @@ Não manter uma lista obrigatória de etapas `NÃO INICIADO`, `PENDENTE` ou seme
 
 > **O conteúdo fica em seus arquivos próprios. O checkpoint diz somente de onde retomar a criação.**
 
+## Destino canônico de cada etapa
+
+Cada informação produzida durante a criação possui uma **fonte principal**. O `README.md` resume e orienta; não deve duplicar o conteúdo completo dos arquivos concretos.
+
+```text
+NOME
+→ README.md
+→ cria toda a estrutura-base
+
+DIREÇÃO NARRATIVA
+→ resumo em README.md
+
+CENÁRIO
+→ resumo necessário em README.md
+→ detalhes estáveis, quando precisarem de desenvolvimento próprio, em mundo/
+
+PROTAGONISTA
+→ personagens/<nome>.md
+→ identificação + CONTROLE no README.md
+
+PERSONAGENS JOGADOR IA / JOGADOR IA EVENTUAL
+→ personagens/<nome>.md
+→ identificação + CONTROLE no README.md
+
+INÍCIO DA HISTÓRIA
+→ situação inicial concreta em estado/atual.md
+→ README.md apenas aponta a retomada para estado/atual.md
+
+CHECKPOINT DA CRIAÇÃO
+→ README.md
+```
+
+Não criar um segundo arquivo apenas para repetir informação que já possui fonte principal.
+
+Exemplo:
+
+```text
+README.md
+Direção narrativa: romance sobrenatural adulto, cotidiano e humor.
+
+mundo/gotham.md
+→ detalhes persistentes de Gotham quando realmente precisarem de desenvolvimento próprio
+
+estado/atual.md
+→ situação inicial concreta de onde a primeira cena parte
+```
+
+> **Cada informação possui uma fonte principal. O README resume e orienta; não replica os arquivos concretos.**
+
 ## Nome da campanha
 
 Antes das etapas conceituais, perguntar o nome da campanha.
@@ -225,12 +274,11 @@ Quando direção narrativa e cenário estiverem suficientemente claros:
 
 ```text
 consolidar
-→ salvar na campanha
-→ marcar a etapa como concluída
+→ atualizar Direção narrativa e Cenário no README.md
+→ registrar em mundo/ somente detalhes estáveis que precisem de arquivo próprio
+→ atualizar o checkpoint para Protagonista
 → seguir para Protagonista
 ```
-
-O local exato de salvamento dentro da campanha pertence a `estrutura-da-campanha.md`.
 
 # Etapa — Protagonista
 
@@ -305,12 +353,11 @@ Quando o protagonista estiver conceitualmente claro o bastante para ser interpre
 
 ```text
 consolidar
-→ salvar na campanha
-→ marcar a etapa como concluída
+→ criar ou atualizar personagens/<nome>.md
+→ registrar no README.md sua identificação e CONTROLE
+→ atualizar o checkpoint para Personagens com agência de jogador
 → seguir para Personagens com agência de jogador
 ```
-
-O local exato de salvamento dentro da campanha pertence a `estrutura-da-campanha.md`.
 
 # Etapa — Personagens com agência de jogador
 
@@ -384,10 +431,13 @@ Nesta etapa não fechar atributos, perícias, patamares, valores numéricos ou o
 
 > **NOME + GERÊNCIA → ficha conceitual preliminar → PENDENTE DE REVISÃO.**
 
+Para cada personagem identificado, criar ou atualizar `personagens/<nome>.md` e registrar sua identificação + controle no `README.md` da campanha.
+
 Quando os personagens com agência de jogador estiverem registrados e suas fichas preliminares preparadas:
 
 ```text
-seguir para Início da história
+atualizar o checkpoint para Início da história
+→ seguir para Início da história
 ```
 
 # Etapa — Início da história
@@ -435,12 +485,11 @@ Depois:
 
 ```text
 consolidar o resumo do início
-→ salvar na campanha
-→ marcar a etapa como concluída
+→ registrar a situação inicial concreta em estado/atual.md
+→ fazer README.md apontar Situação de entrada para estado/atual.md
+→ atualizar o checkpoint para Revisão mecânica e aprovação
 → seguir para Revisão mecânica e aprovação
 ```
-
-O local exato de salvamento dentro da campanha pertence a `estrutura-da-campanha.md`.
 
 # Etapa — Revisão mecânica e aprovação
 
