@@ -1,16 +1,17 @@
 # Sistema Narrativo
 
-Este repositório separa **o motor do RPG** dos **dados de cada aventura**.
+Este repositório separa **o motor do RPG** dos **dados concretos de cada campanha**.
 
-## Estrutura
+## Estrutura atual
 
-- `sistema/` — regras universais, linguagem de fichas, agência de personagens, criação e operação de aventuras.
-- `aventuras/` — cada aventura concreta, com personagens, mundo, relações, Progressão, estado atual, cronologia, diretrizes e história canônica.
-- `exemplo/` — campanha demonstrativa fechada, usada apenas como referência de aplicação do sistema.
+- `sistema/` — regras universais, criação, mecânica, agência, resolução, narração e persistência.
+- `campanhas/` — campanhas criadas pelo fluxo atual.
+- `aventuras/` — material legado; permanece preservado e não é migrado automaticamente.
+- `exemplo/` — material demonstrativo usado apenas como referência.
 
 ## Regra fundamental
 
-> **O sistema ensina como criar e operar. A aventura registra o que foi criado e o que aconteceu.**
+> **O sistema ensina como criar e operar. A campanha guarda o que foi criado e o que aconteceu.**
 
 Nada específico de uma campanha deve ser gravado como regra universal em `sistema/`.
 
@@ -18,7 +19,7 @@ Nada específico de uma campanha deve ser gravado como regra universal em `siste
 
 # Como iniciar
 
-Se este repositório foi fornecido a um narrador humano ou IA com uma instrução como `inicie`, `vamos jogar`, `abra este sistema` ou equivalente:
+Se este repositório for fornecido a um narrador humano ou IA com uma instrução como `inicie`, `vamos jogar`, `abra este sistema` ou equivalente:
 
 1. ler `sistema/00-LEIA-PRIMEIRO.md`;
 2. perguntar ao jogador apenas:
@@ -27,63 +28,59 @@ Se este repositório foi fornecido a um narrador humano ou IA com uma instruçã
 
 Não exigir código especial de inicialização. O próprio endereço deste repositório pode servir como porta de entrada.
 
+## NOVA CAMPANHA
+
+Abrir:
+
+```text
+sistema/criacao/README.md
+```
+
+Esse é o processo canônico atual para criação de novas campanhas.
+
+A nova campanha é criada em:
+
+```text
+campanhas/<nome-da-campanha>/
+```
+
+A criação registra seu próprio checkpoint no `README.md` da campanha e segue as regras definidas em `sistema/criacao/`.
+
+> **NOVA CAMPANHA → `sistema/criacao/README.md`**
+
+## CONTINUAR CAMPANHA
+
+Consultar as campanhas existentes em:
+
+```text
+campanhas/
+```
+
+Depois que o jogador escolher uma campanha, abrir:
+
+```text
+campanhas/<nome>/README.md
+```
+
+O `README.md` da própria campanha indica onde consultar seu conteúdo e, se a criação ainda estiver em andamento, de onde retomá-la.
+
+Não pedir ao jogador que reconte informações que os arquivos da campanha já fornecem.
+
+> **CONTINUAR → `campanhas/<nome>/README.md`**
+
+## Material legado
+
+Campanhas antigas ainda armazenadas em `aventuras/` permanecem preservadas.
+
+Não apagar, mover, converter ou reestruturar esse material automaticamente. O fluxo antigo e `sistema/protocolo-de-criacao.md` permanecem apenas como legado até uma migração explícita.
+
 ---
 
 ## Consultar exemplo prático
 
-Para ver uma campanha mínima já montada, jogada e persistida, usar:
+Para consultar o exemplo demonstrativo, abrir `exemplo/README.md` e seguir sua própria ordem de leitura.
 
-```text
-CONSULTAR EXEMPLO PRÁTICO
-```
-
-Ao receber esse comando, o narrador ou IA deve:
-
-1. abrir `exemplo/README.md`;
-2. seguir a ordem de consulta indicada ali;
-3. usar os arquivos apenas como referência de estrutura e aplicação das regras;
-4. não listar o exemplo como campanha existente em `aventuras/`;
-5. não continuar, alterar ou copiar automaticamente a ficção do exemplo para uma campanha real.
-
-O exemplo existe para mostrar na prática a diferença entre criação, ficha, mundo, capítulo canônico, cronologia, Progressão e STATUS.
-
----
-
-## Se o jogador escolher NOVA CAMPANHA
-
-Abrir:
-
-` sistema/protocolo-de-criacao.md `
-
-O protocolo começa perguntando o nome da campanha, cria sua estrutura em `aventuras/<nome>/` e conduz quatro etapas conceituais:
-
-1. Direção narrativa e Cenário;
-2. Protagonista;
-3. Personagens relevantes;
-4. Início da história.
-
-Cada etapa é organizada e salva como **PENDENTE DE REVISÃO** antes da próxima.
-
-Somente depois das quatro etapas começa a revisão que aplica atributos, perícias, poderes e demais regras mecânicas.
-
-> **Conceito primeiro. Mecânica depois.**
-
----
-
-## Se o jogador escolher CONTINUAR
-
-Consultar `aventuras/` e listar as campanhas realmente existentes.
-
-Depois que o jogador escolher uma campanha:
-
-1. ler o `README.md` daquela aventura;
-2. verificar `criacao.md`, se existir;
-3. se a criação ainda estiver em andamento, retomar do ponto registrado;
-4. se a criação estiver concluída, carregar as fontes indicadas pela aventura;
-5. ler `estado/atual.md` para descobrir o ponto exato de continuação;
-6. continuar sem pedir ao jogador que reconte onde parou quando os arquivos já contêm essa informação.
-
-Nunca inventar campanhas que não estejam em `aventuras/`.
+O exemplo é somente referência. Não deve ser listado como campanha existente, continuado automaticamente nem copiado para uma campanha real.
 
 ---
 
@@ -93,26 +90,16 @@ Operações de manutenção que podem destruir dados ficam separadas do fluxo no
 
 Para apagar definitivamente uma campanha, consultar:
 
-` sistema/comandos-administrativos.md `
-
-O comando definido é:
-
 ```text
-APAGAR CAMPANHA: <nome exato da campanha>
+sistema/comandos-administrativos.md
 ```
 
-A exclusão nunca é imediata: o sistema deve localizar a campanha e exigir depois a confirmação exata:
-
-```text
-CONFIRMAR EXCLUSÃO: <nome exato da campanha>
-```
-
-Nenhuma operação de exclusão pode atingir `sistema/`, a raiz do repositório ou outra campanha.
+Nenhuma exclusão pode atingir `sistema/`, a raiz do repositório ou outra campanha por consequência indireta.
 
 ---
 
 ## Continuidade
 
-Para iniciar ou continuar qualquer aventura, as fontes persistentes da campanha prevalecem sobre memória vaga de conversas anteriores.
+Para iniciar ou continuar uma campanha, as fontes persistentes da própria campanha prevalecem sobre memória vaga de conversas anteriores.
 
 > **O link abre o sistema. O sistema pergunta Nova ou Continuar. Os arquivos dizem o resto.**
