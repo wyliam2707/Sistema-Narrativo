@@ -107,6 +107,32 @@ Guarda as fichas dos personagens com agência de jogador:
 - personagens `JOGADOR IA`;
 - personagens administrados por `JOGADOR IA EVENTUAL`.
 
+Cada personagem com agência possui **um arquivo próprio**, independentemente do tipo de controle.
+
+Exemplo:
+
+```text
+personagens/
+├── wyliam.md
+├── ravena.md
+├── dick-grayson.md
+└── kory.md
+```
+
+Não separar por padrão em subpastas como:
+
+```text
+humanos/
+jogadores-ia/
+eventuais/
+```
+
+O tipo de controle pertence à própria ficha, por meio do campo `CONTROLE`, e não precisa ser duplicado no caminho do arquivo.
+
+NPCs comuns, aliados ocasionais, figurantes e adversários não pertencem a `personagens/`; quando precisarem de persistência, ficam sob a estrutura reservada de `mestre/`.
+
+> **Cada personagem com agência possui sua própria ficha. O tipo de controle pertence à ficha, não à pasta.**
+
 ### `estado/`
 
 Guarda a realidade dinâmica atual da campanha: aquilo que pode mudar durante o jogo e precisa ser retomado corretamente depois.
