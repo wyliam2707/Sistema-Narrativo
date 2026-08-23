@@ -168,10 +168,45 @@ No segundo caso, todos os valores já foram mecanicamente definidos.
 Para consulta rápida, a ficha registra:
 
 ```text
-VIDA [35] | ENERGIA [X]
+VIDA [X] | ENERGIA [Y]
 ```
 
-`VIDA` mostra a referência máxima da régua de VIDA. Por padrão, `35` corresponde ao limite de Incapacitado enquanto nenhuma regra específica alterar essa referência.
+### VIDA
+
+`VIDA` representa quanto Dano acumulado a personagem suporta antes de atingir seu limite de incapacidade.
+
+Ela **não é derivada de RES** e não possui um teto universal.
+
+`RES` responde a quanto um ataque consegue realmente afetar a personagem. `VIDA` responde a quanto desgaste relevante ela consegue acumular depois que o dano atravessa suas defesas.
+
+Isso permite combinações muito diferentes, por exemplo:
+
+```text
+Monstro resistente → RES [4] | VIDA [5]
+```
+
+Ele é difícil de ferir, mas não precisa sustentar um confronto longo quando um ataque capaz realmente o atinge.
+
+A VIDA é definida pela natureza da personagem e pelo papel que ela precisa sustentar na história. A Importância pode orientar esse valor, mas não o calcula automaticamente.
+
+Referências úteis, sem formar uma lista fechada:
+
+```text
+VIDA [5]  → minion, figurante ou criatura que pode cair após pouco dano relevante
+VIDA [10] → figurante resistente ou ameaça menor
+VIDA [15] → elite ou ameaça secundária
+VIDA [20] → personagem capaz de sustentar um confronto relevante
+VIDA [35] → referência comum de herói, protagonista ou vilão central
+VIDA [50+] → entidade, chefe excepcional ou ameaça de durabilidade extraordinária
+```
+
+Valores intermediários ou superiores são válidos quando fizerem sentido. `25`, `30`, `40`, `50`, `60` ou qualquer outro valor não precisam de uma categoria especial para existir.
+
+Um personagem muito poderoso pode possuir VIDA baixa se sua função não exigir grande duração em cena; uma entidade central pode possuir VIDA muito acima de 35.
+
+> **RES mede resistência ao dano. VIDA mede quanto dano relevante pode ser acumulado. Poder bruto e duração narrativa não são a mesma coisa.**
+
+### ENERGIA
 
 `ENERGIA` mostra a reserva máxima final da personagem. Por padrão, ela é calculada pelo maior Atributo conforme `../resolucao/energia.md`.
 
@@ -184,7 +219,7 @@ Ficha → VIDA [35] | ENERGIA [80]
 STATUS → Dano [12/35] | Energia [53/80]
 ```
 
-Depois da aprovação dos Atributos no Bloco 2, preencher ou recalcular essas referências na ficha.
+Depois da aprovação dos Atributos no Bloco 2, registrar `VIDA` e `ENERGIA` na ficha conforme as regras aplicáveis à personagem. ENERGIA normalmente é derivada dos Atributos; VIDA é escolhida como referência de durabilidade conforme natureza e função narrativa.
 
 > **A ficha mostra a capacidade de referência. O STATUS mostra a condição atual.**
 
@@ -194,7 +229,7 @@ Depois da aprovação dos Atributos no Bloco 2, preencher ou recalcular essas re
 
 Ela **não determina `CONTROLE`** e não impõe quantidade máxima universal de personagens em nenhuma categoria.
 
-Ela também não determina:
+Ela também não determina automaticamente:
 
 - tamanho da ficha;
 - quantidade obrigatória de informações;
@@ -203,6 +238,8 @@ Ela também não determina:
 - poderes;
 - dificuldade;
 - proteção narrativa.
+
+A Importância pode, porém, orientar a VIDA quando a duração esperada da personagem em confronto faz parte de sua função narrativa. Isso não cria uma fórmula rígida: a VIDA final continua sendo um valor explícito da ficha.
 
 As categorias são:
 
@@ -244,7 +281,7 @@ Se surgir proposta de mudar a Importância de um personagem, ela deve ser aprese
 
 Sem aprovação, a classificação permanece como está.
 
-Uma mudança aprovada de Importância não altera automaticamente nenhuma outra parte da ficha, inclusive `CONTROLE`, atributos, perícias, poderes, recursos ou demais informações.
+Uma mudança aprovada de Importância não altera automaticamente nenhuma outra parte da ficha, inclusive `CONTROLE`, atributos, perícias, poderes, recursos ou VIDA. Se a função narrativa também justificar alteração de VIDA, essa mudança deve ser tratada separadamente.
 
 > **Na dúvida, manter a classificação atual.**
 
