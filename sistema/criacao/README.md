@@ -413,6 +413,18 @@ Não definir ainda função narrativa, personalidade, relação com o protagonis
 
 > **Primeiro o sistema estabelece quais peças existem e quem gerencia cada uma.**
 
+## Personagens conhecidos e versões
+
+Quando um personagem conhecido, canônico ou licenciado possuir versões diferentes, o jogador escolhe a versão-base que será usada na campanha.
+
+Essa versão é somente a referência inicial. O jogador pode alterar, combinar ou substituir elementos como aparência, idade, história, poderes, relações, personalidade ou qualquer outro aspecto durante a criação.
+
+Se o jogador já tiver indicado uma versão ou combinação suficiente para identificar a personagem da campanha, não perguntar novamente qual versão usar.
+
+Depois que a versão da campanha estiver consolidada, ela passa a ser a referência canônica local para aquela personagem. O cânone externo continua servindo como fonte de apoio, não como limite obrigatório.
+
+> **A pergunta relevante não é “qual é a versão oficial?”, mas “qual é a versão desta campanha?”.**
+
 ## Ficha conceitual preliminar
 
 Depois de registrar `NOME + GERÊNCIA`, não fazer perguntas adicionais por padrão.
