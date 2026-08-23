@@ -37,31 +37,15 @@ usar uma personagem como referência mecânica
 criar simetria deliberada entre duas peças
 ```
 
-então essa comparação deixa de ser um balanceamento automático do NARRADOR e passa a ser uma **direção de criação escolhida pelo jogador**.
+então essa comparação deixa de ser um balanceamento automático do NARRADOR e passa a ser uma direção de criação escolhida pelo jogador.
 
 Nesse caso, o NARRADOR pode comparar fichas, propor aproximações e ajustar atributos, perícias, poderes, repertórios ou limites na medida necessária para cumprir essa escolha.
 
 Isso não exige que as fichas se tornem idênticas. O equilíbrio pode preservar perfis diferentes, especializações diferentes e formas distintas de atuar, desde que a capacidade geral pretendida pelo jogador permaneça comparável.
 
-A exceção só existe quando a intenção de equilíbrio é explícita. Não inferir equilíbrio apenas porque personagens:
-
-- pertencem ao mesmo grupo;
-- possuem a mesma Importância;
-- são aliados, rivais ou parceiros românticos;
-- aparecem juntas com frequência;
-- ocupam papéis narrativos semelhantes.
+A exceção só existe quando a intenção de equilíbrio é explícita. Não inferir equilíbrio apenas porque personagens pertencem ao mesmo grupo, possuem a mesma Importância, são aliados, rivais, parceiros ou aparecem juntas com frequência.
 
 > **O NARRADOR não balanceia por conta própria. O JOGADOR HUMANO pode escolher balancear deliberadamente.**
-
-Quando essa escolha ocorrer durante a revisão:
-
-```text
-jogador define a referência de equilíbrio
-→ NARRADOR compara as fichas pertinentes
-→ apresenta proposta ajustada
-→ jogador modifica livremente
-→ somente a versão aprovada é persistida
-```
 
 ## Ordem de conversão
 
@@ -71,35 +55,58 @@ Quando não houver escolha explícita de equilíbrio, para cada personagem:
 2. reconstruir suas capacidades conceituais em linguagem natural;
 3. identificar o que realmente sabe fazer;
 4. identificar limites, natureza e recursos relevantes;
-5. somente depois converter isso para ATRIBUTOS, PERÍCIAS, PODERES, TRAÇOS e demais campos apropriados;
+5. converter isso para ATRIBUTOS, PERÍCIAS, PODERES, TRAÇOS e demais campos apropriados;
 6. aplicar as escalas de forma conservadora;
-7. comparar com outra ficha somente depois, se for necessário verificar continuidade factual — nunca para balancear números por iniciativa do NARRADOR.
+7. comparar com outra ficha somente depois, se for necessário verificar continuidade factual.
 
 Quando o JOGADOR HUMANO tiver escolhido explicitamente uma referência de equilíbrio, a comparação pode fazer parte da conversão na extensão necessária para atender essa escolha.
 
 > **Conceito/cânone primeiro por padrão. Outra ficha só vira molde quando o jogador decide que ela deve ser uma referência de equilíbrio.**
 
+## Atributos, Perícias e calibração do arsenal
+
+Atributos e Perícias ajudam o NARRADOR a entender qual patamar de uma capacidade especial, arma, equipamento ou Poder faz sentido para aquela personagem.
+
+Eles são referências conceituais de calibração, não uma fórmula automática de conversão.
+
+```text
+Atributo
+→ mostra a capacidade inerente que sustenta ou limita certas ações.
+
+Perícia
+→ mostra treinamento, domínio e conhecimento especializado.
+
+Poder / arma / equipamento
+→ registra a capacidade final daquele arsenal no patamar definido para ele.
+```
+
+Depois que um arsenal recebe um valor próprio, como `Dano [3]`, esse valor já representa sua potência mecânica. A resolução não recalcula esse Dano somando novamente Atributo ou Perícia.
+
+A Perícia continua podendo representar quão bem o arsenal é aplicado conforme a regra de resolução apropriada.
+
+> **Atributos e Perícias ajudam a definir o patamar correto na criação; o arsenal registra o valor que será usado depois.**
+
 ## PATAMAR é não linear
 
 PATAMAR não representa uma progressão linear.
 
-Cada grau acima é um salto qualitativo maior do que o anterior. Um personagem em [4] não é apenas "um pouco melhor" que alguém em [3], e [5] não é simplesmente mais um ponto acima de [4].
+Cada grau acima é um salto qualitativo maior do que o anterior. Um personagem em `[4]` não é apenas um pouco melhor que alguém em `[3]`, e `[5]` não é simplesmente mais um ponto acima de `[4]`.
 
 Essa lógica vale para atributos, perícias, poderes, usos e especializações.
 
 Como referência de calibração:
 
-- [1] já representa uma capacidade acima do patamar comum da categoria;
-- [2] representa capacidade claramente elevada;
-- [3] já é excepcional e muito forte;
-- [4] é extremo e deve ser raro;
-- [5] é ápice: referência máxima ou quase máxima daquela capacidade.
+- `[1]` já representa uma capacidade acima do patamar comum da categoria;
+- `[2]` representa capacidade claramente elevada;
+- `[3]` já é excepcional e muito forte;
+- `[4]` é extremo e deve ser raro;
+- `[5]` é ápice: referência máxima ou quase máxima daquela capacidade.
 
-A grande maioria dos personagens deve encontrar sua melhor descrição até [2] ou [3] nas capacidades em que se destaca.
+A grande maioria dos personagens deve encontrar sua melhor descrição até `[2]` ou `[3]` nas capacidades em que se destaca.
 
-[4] exige justificativa clara.
+`[4]` exige justificativa clara.
 
-[5] exige que o personagem seja efetivamente uma referência de ápice naquela área.
+`[5]` exige que o personagem seja efetivamente uma referência de ápice naquela área.
 
 > **Se [3] descreve corretamente, não usar [4]. Se [4] descreve corretamente, não usar [5].**
 
@@ -116,21 +123,13 @@ dúvida entre [2] e [3] → [2]
 dúvida entre [3] e [4] → [3]
 ```
 
-A mesma lógica vale para:
-
-- atributos;
-- perícias;
-- poderes;
-- usos;
-- especializações.
+A mesma lógica vale para atributos, perícias, poderes, usos e especializações.
 
 `[5]` é reservado ao verdadeiro ápice da categoria.
 
 Nenhum personagem precisa possuir um `[5]`.
 
-Um personagem também pode ter apenas capacidades em `[1]` e ainda ser importante para a história.
-
-Valores altos não são distribuídos por importância narrativa ou protagonismo. Quando houver equilíbrio entre fichas, ele deve existir porque foi explicitamente escolhido pelo JOGADOR HUMANO, não como regra automática do sistema.
+Valores altos não são distribuídos por importância narrativa ou protagonismo.
 
 ## Poder bruto não define capacidade de vencer
 
