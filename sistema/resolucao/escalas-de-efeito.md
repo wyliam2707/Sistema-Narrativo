@@ -52,6 +52,18 @@ As médias não são arredondadas. Valores decimais permanecem válidos tanto pa
 
 A partir da terceira aplicação igual, a consolidação é feita de forma incremental: compara-se a **instância consolidada atual** com a nova aplicação e aplica-se novamente a mesma regra. Se as Durações forem iguais, preservam-se os melhores `D` e `V`; se forem diferentes, mantém-se a maior Duração e calcula-se a média entre o `D` e o `V` atuais e os da nova aplicação.
 
+Quando a instância consolidada já tiver perdido Vida estrutural, usa-se sua **Vida restante atual** na nova consolidação. Uma nova aplicação igual pode, portanto, reforçar ou restaurar a estrutura do efeito, mas nunca soma Vida acima do valor obtido pela própria regra de consolidação.
+
+Exemplo:
+
+`Imobilizar atual — Cena → D3,8 / V0,6 restante`
+
+`Nova aplicação — Cena → D3,2 / V4`
+
+`Resultado consolidado → Imobilizar — Cena [D3,8 / V4]`
+
+Se as Durações forem diferentes, a média usa igualmente a Vida restante atual da instância consolidada e a Vida da nova aplicação.
+
 Exemplo com mesma Duração:
 
 `Imobilizar A — Cena → D3,4 / V2`
@@ -70,7 +82,7 @@ Exemplo com Durações diferentes:
 
 Essa consolidação vale somente para efeitos iguais. Efeitos diferentes, como `Imobilizar` e `Sono`, continuam existindo como instâncias separadas.
 
-> **Efeitos iguais com mesma Duração preservam os melhores componentes. Com Durações diferentes, preservam a maior Duração e usam a média de D e V, mantendo decimais. Aplicações posteriores usam sempre o estado consolidado atual como base.**
+> **Efeitos iguais com mesma Duração preservam os melhores componentes. Com Durações diferentes, preservam a maior Duração e usam a média de D e V, mantendo decimais. Aplicações posteriores usam sempre o estado consolidado atual como base, inclusive sua Vida restante.**
 
 ## Escala-base
 
