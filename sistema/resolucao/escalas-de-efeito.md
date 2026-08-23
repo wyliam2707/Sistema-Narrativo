@@ -10,6 +10,7 @@ A referência principal agora é:
 
 ## Efeitos
 
+- `efeitos/geral.md`
 - `efeitos/dano.md`
 - `efeitos/cura.md`
 - `efeitos/dissipar.md`
