@@ -160,7 +160,21 @@ estado/atual.md
 
 Antes das etapas conceituais, perguntar o nome da campanha.
 
-Assim que o nome estiver definido, criar imediatamente:
+Antes de criar qualquer arquivo, verificar se `campanhas/<nome-da-campanha>/` já existe.
+
+Se já existir:
+
+```text
+NÃO sobrescrever
+→ informar que a campanha já existe
+→ oferecer continuar essa campanha ou escolher outro nome
+```
+
+A criação de uma nova campanha nunca pode substituir automaticamente uma campanha existente, mesmo quando o jogador informa exatamente o mesmo nome. Só iniciar a criação quando o destino ainda não existir.
+
+> **Nome existente protege a campanha. Nova criação nunca sobrescreve conteúdo salvo.**
+
+Assim que um nome disponível estiver definido, criar imediatamente:
 
 ```text
 campanhas/<nome-da-campanha>/
@@ -191,7 +205,7 @@ O `README.md` da raiz da campanha já deve nascer com:
 
 Depois disso, continuar normalmente para Direção narrativa e cenário.
 
-> **NOME DEFINIDO → estrutura-base criada → criação continua.**
+> **NOME DISPONÍVEL → estrutura-base criada → criação continua.**
 
 A função e o conteúdo de cada entrada estão definidos em `estrutura-da-campanha.md`.
 
