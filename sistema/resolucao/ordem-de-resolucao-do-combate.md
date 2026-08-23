@@ -41,7 +41,7 @@ Nesse momento, exibir um **painel operacional somente do JOGADOR HUMANO**.
 
 As fichas operacionais de JOGADORES IA, JOGADORES IA EVENTUAIS, NPCs e adversários continuam sendo acompanhadas fora da tela e não são reveladas automaticamente ao jogador.
 
-Quando a interface permitir hierarquia visual, o painel deve aparecer em texto menor ou visualmente secundário à narração. Ele funciona como um HUD de consulta, não como o centro da cena.
+O painel deve aparecer visualmente secundário à narração. Quando exibido em texto, usar **bloco de citação em itálico** como padrão de apresentação. Ele funciona como um HUD de consulta, não como o centro da cena.
 
 ### Painel do JOGADOR HUMANO
 
@@ -59,13 +59,15 @@ Linha 5 — terceiro Poder, se houver
 
 Exemplo:
 
-```text
-Corvin — VIDA [35/35] | ENERGIA [80/80] | Barreira [D3,8/V5]
-ATR: FIS [0] | RES [1] | MEN [4] | VON [2] — PER: Ordem [+4] | Combate [+2]
-Magia da Ordem [3] => Geral / Dano / Proteção / Contenção / Movimento / Selos / Estrutura / Estabilização [4] / Supressão [4]
-Regeneração Mutante [3] => Cura própria / Recuperação de ferimentos / Resistência a sequelas / Envelhecimento retardado
-Cegueira [D2,4/V5] — Cena | Imobilizado [D3/V5] — Cena
-```
+> *Corvin — VIDA [35/35] | ENERGIA [80/80] | Barreira [Fonte: magia/VON | D3,8/V2]*
+>
+> *ATR: FIS [0] | RES [1] | MEN [4] | VON [2] — PER: Ordem [+4] | Combate [+2]*
+>
+> *Magia da Ordem [3] => Geral / Dano / Proteção / Contenção / Movimento / Selos / Estrutura / Estabilização [4] / Supressão [4]*
+>
+> *Regeneração Mutante [3] => Cura própria / Recuperação de ferimentos / Resistência a sequelas / Envelhecimento retardado*
+>
+> *Cegueira [Fonte: magia/MEN | D2,4/V4] — Cena | Imobilizado [Fonte: magia/MEN | D3/V4] — Cena*
 
 Efeitos benéficos aparecem **depois de VIDA e ENERGIA na primeira linha**.
 
@@ -99,23 +101,19 @@ Se a declaração permite mais de uma configuração relevante e essa escolha al
 
 Exemplo:
 
-```text
-JOGADOR HUMANO:
-"Uso Proteção [3] em mim."
+JOGADOR HUMANO: “Uso Proteção [3] em mim.”
 
 NARRADOR:
-<small>Proteção [3] — si mesmo / 1 alvo / Cena — Ampliação máx. [7] — Custo [3]</small>
+
+> *Proteção [3] — si mesmo / 1 alvo / Cena — Ampliação máx. [7] — Custo [3]*
 
 Confirmar?
-```
 
 Se houver uma configuração incompleta ou uma dimensão insuficiente, recomendar sem decidir:
 
-```text
-<small>Alvo além do Alcance Médio. Recomendo Longo [+1] → custo total [4].</small>
+> *Alvo além do Alcance Médio. Recomendo Longo [+1] → custo total [4].*
 
 Confirmar Proteção [3] + Longo [+1]?
-```
 
 O resumo deve ser compacto. Não repetir toda a regra quando os dados necessários já puderem ser mostrados em uma ou duas linhas.
 
@@ -229,19 +227,21 @@ O arquivo específico define a matemática. Esta ordem apenas determina quando c
 
 ## 9. Mostrar apenas resultados mecânicos relevantes
 
-Toda informação puramente mecânica deve ser apresentada em formato visual discreto, preferencialmente com texto menor, para diferenciá-la da narrativa.
+Toda informação puramente mecânica mostrada ao JOGADOR HUMANO deve ser apresentada em formato visual discreto. Em texto, o padrão é **bloco de citação em itálico**, diferenciando a mecânica da narrativa sem usar tags HTML como `<small>`.
 
 A regra padrão é **mostrar o resultado, não a conta completa**.
 
 Exemplos:
 
-```text
-<small>Proteção concluída → Proteção [D3,8 / V5] | Energia [77/80]</small>
-<small>Cultista 1 sofre 4 Dano → VIDA [1/5]</small>
-<small>Cura: +8 VIDA → VIDA [23/35]</small>
-<small>Energia −4 → [73/80]</small>
-<small>Barreira sofre 3 Dano → V2/5</small>
-```
+> *Proteção concluída → Proteção [Fonte: magia/VON | D3,8 / V2] | Energia [77/80]*
+>
+> *Cultista 1 sofre 4 Dano → VIDA [1/5]*
+>
+> *Cura: +8 VIDA → VIDA [23/35]*
+>
+> *Energia −4 → [73/80]*
+>
+> *Barreira sofre 1,38 Dano → V0,62/2*
 
 Fórmulas e cálculos intermediários permanecem ocultos por padrão. Exibi-los somente quando o JOGADOR HUMANO pedir uma auditoria, quando estivermos testando especificamente uma regra ou quando a transparência do cálculo for necessária para resolver uma dúvida.
 
