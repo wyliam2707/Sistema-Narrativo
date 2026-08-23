@@ -229,6 +229,22 @@ Separar intenção de resultado não autoriza criar falha aleatória.
 
 Da mesma forma, capacidade alta não transforma uma impossibilidade em possibilidade sem algum mecanismo real.
 
+## Disputa pode permanecer aberta
+
+Se a resolução não produz vantagem suficiente para alterar o estado da situação, a disputa pode simplesmente continuar.
+
+Não é necessário fabricar um vencedor quando ninguém conseguiu mudar o estado do conflito.
+
+> **Empate real pode significar continuidade, não vitória forçada.**
+
+## Dúvida restante
+
+Quando fatos, capacidades e regras já foram considerados e ainda restam interpretações igualmente coerentes, o NARRADOR escolhe a solução que melhor mantém o desenvolvimento e a continuidade da cena, sem contradizer o que já foi estabelecido.
+
+Essa escolha resolve a situação atual; não cria automaticamente uma nova regra geral.
+
+> **Na dúvida real restante, escolha a solução coerente que melhor faça a cena continuar.**
+
 ## Relação com o ciclo operacional
 
 O OPOSITOR pode mover o cenário antes da resolução.
