@@ -49,7 +49,7 @@ Exemplo:
 “Vou até a cozinha, pego o livro e volto para o quarto.”
 ```
 
-Não abrir nova janela por cada passo, gesto ou detalhe banal.
+Fora de combate, não abrir nova janela por cada passo, gesto ou detalhe banal.
 
 A intenção continua enquanto:
 
@@ -59,9 +59,11 @@ A intenção continua enquanto:
 - nenhuma oposição produzir ponto real de decisão;
 - a ação seguinte continuar coberta pelo que já foi declarado.
 
-> **Não parar por hábito. Parar quando consequência voltar a ser escolha.**
+> **Fora de combate, não parar por hábito. Parar quando consequência voltar a ser escolha.**
 
 Uma reação de outra peça não interrompe automaticamente o fluxo. Ela abre nova janela somente se criar decisão relevante para alguma peça controlada por jogador.
+
+Em combate, a intenção ampla pode continuar existindo como objetivo, mas cada turno de 10 segundos abre nova oportunidade de declaração para todas as peças. Uma peça pode simplesmente declarar que continua o mesmo plano.
 
 ## Competência evidente entra no julgamento automaticamente
 
@@ -86,26 +88,124 @@ Isso não cria informação inexistente e não concede onisciência.
 
 > **Competência deve aparecer na sentença sem exigir que o jogador peça para sua ficha funcionar.**
 
-## Combate não cria outro jogo
+## Combate usa turnos simultâneos de 10 segundos
 
-Combate usa a mesma janela e o mesmo motor de resolução.
+Combate continua usando o mesmo motor de resolução, as mesmas fichas e as mesmas mecânicas. A diferença operacional é o relógio.
 
-Não existe obrigação universal de:
+> **Cada turno de combate representa até 10 segundos de ficção compartilhados por todas as peças envolvidas.**
 
-- rodada fixa;
-- iniciativa fixa;
-- turno isolado para cada personagem;
-- ordem artificial desconectada da situação.
+O turno não concede uma única “ação” e não cria uma economia abstrata de ações. Ele apenas limita quanto tempo da disputa pode ser resolvido antes de todas as peças receberem nova oportunidade de decidir.
 
-Precedência e oportunidade nascem dos fatos da cena, como velocidade, distância, surpresa, preparação, posição, intenção e resultado anterior, conforme `../resolucao/`.
+Durante o turno:
 
-A diferença é apenas que, em combate, o OPOSITOR frequentemente recebe peças adversárias para jogar durante a oposição.
+```text
+JOGADORES declaram o que tentam fazer nesses 10 segundos
+↓
+OPOSITOR declara pelas peças e recursos adversários disponíveis
+↓
+NARRADOR julga precedência, interferência e resultado usando as regras existentes
+↓
+NARRADOR narra no máximo esses 10 segundos
+↓
+NARRADOR registra o estado resultante
+↓
+NOVO TURNO
+```
+
+A ordem de declaração é operacional. Ela **não determina automaticamente a ordem cronológica das ações dentro dos 10 segundos**.
+
+O NARRADOR julga precedência real conforme os fatos e as regras aplicáveis, incluindo quando relevante:
+
+- velocidade;
+- distância;
+- surpresa;
+- preparação;
+- posição;
+- mecanismo da ação;
+- oportunidade;
+- ações já iniciadas;
+- interferência entre as peças.
+
+Exemplo:
+
+```text
+JOGADOR
+→ saco a arma e atiro.
+
+OPOSITOR
+→ o guarda, que já estava com a arma apontada, dispara.
+
+NARRADOR
+→ julga qual ação ocorre primeiro ou como elas se interferem dentro dos mesmos 10 segundos.
+```
+
+### Declaração ampla não resolve o combate inteiro
+
+Em combate, uma declaração pode estabelecer um objetivo maior sem resolver antecipadamente tudo que seria necessário para alcançá-lo.
+
+```text
+JOGADOR
+→ entro na sala e mato todo mundo.
+```
+
+Isso pode ser entendido como:
+
+```text
+OBJETIVO
+→ entrar na sala
+→ tentar derrotar todos os adversários
+```
+
+Mas a sentença do turno resolve apenas aquilo que realmente pode acontecer dentro daqueles 10 segundos, considerando as declarações e reações das demais peças.
+
+Os adversários também possuem esses mesmos 10 segundos para:
+
+- atacar;
+- procurar cobertura;
+- fugir;
+- render-se;
+- ativar poderes;
+- pedir ajuda;
+- mudar de posição;
+- executar qualquer outra ação legítima.
+
+> **Uma intenção ampla define direção. O turno define quanto dessa direção pode realmente ser resolvido antes que a mesa volte a decidir.**
+
+### Limite da sentença em combate
+
+Durante combate, a sentença termina no primeiro destes limites:
+
+```text
+1. surge um novo ponto real de decisão antes dos 10 segundos
+OU
+2. completam-se os 10 segundos do turno
+```
+
+Assim, combate nunca permite atravessar vários intervalos de reação apenas porque uma declaração foi escrita de forma ampla.
+
+### Fechamento mecânico do turno
+
+Antes de iniciar o turno seguinte, todas as consequências mecânicas produzidas naquele intervalo devem estar resolvidas e o estado atual deve refletir o resultado.
+
+Isso inclui, quando aplicável, Dano, Cura, Energia, efeitos, contenções, proteções, condições e demais elementos já definidos em `../resolucao/`.
+
+`operacao/` não redefine nenhum desses cálculos.
+
+> **O turno organiza o tempo. `resolucao/` continua determinando os números.**
+
+### Início e fim do modo de combate
+
+O relógio de turnos começa quando existe confronto ativo no qual várias peças podem agir, reagir ou interferir dentro do mesmo intervalo curto.
+
+Ele termina quando essa necessidade deixa de existir: oposição encerrada, fuga concluída, rendição, separação efetiva ou outra situação em que o tempo não precise mais ser dividido em blocos de 10 segundos.
+
+Depois disso, volta a valer o fluxo normal de janelas fora de combate.
 
 # O que é uma janela de cena
 
 Uma janela abre quando existe algo relevante a decidir ou resolver.
 
-Não é necessário abrir uma nova janela para cada frase, passo ou microação.
+Fora de combate, não é necessário abrir uma nova janela para cada frase, passo ou microação.
 
 Nova janela é necessária quando, por exemplo:
 
@@ -117,9 +217,11 @@ Nova janela é necessária quando, por exemplo:
 - o resultado exige nova resposta;
 - a intenção anterior deixa de cobrir a ação seguinte.
 
+Em combate, cada turno de 10 segundos constitui uma nova janela mesmo quando a intenção estratégica permanece a mesma.
+
 ## Passagem de tempo dentro de uma intenção
 
-Uma declaração pode cobrir minutos, horas ou período maior quando não houver decisão intermediária importante.
+Fora de combate, uma declaração pode cobrir minutos, horas ou período maior quando não houver decisão intermediária importante.
 
 Antes de narrar todo o intervalo como concluído, verificar se durante ele:
 
@@ -133,7 +235,11 @@ Se nada disso acontecer, o tempo pode avançar normalmente.
 
 Se algo acontecer no meio, a sentença para **no momento causal da mudança**, não depois de completar artificialmente toda a intenção original.
 
+Durante combate, essa regra é substituída pelo limite máximo de 10 segundos por turno.
+
 # Ordem-base
+
+Fora de combate:
 
 ```text
 1. JOGADOR HUMANO declara
@@ -151,6 +257,26 @@ Se algo acontecer no meio, a sentença para **no momento causal da mudança**, n
 7. NARRADOR REGISTRA o que passou a ser verdade
 ↓
 8. nova janela quando houver nova decisão
+```
+
+Em combate, a mesma ordem é aplicada a cada turno de 10 segundos:
+
+```text
+1. JOGADOR HUMANO declara para o turno
+↓
+2. JOGADORES IA aplicáveis declaram para o turno
+↓
+3. JOGADOR IA EVENTUAL declara pelas peças ativas, se houver
+↓
+4. OPOSITOR declara pelas peças e recursos adversários disponíveis
+↓
+5. NARRADOR JULGA os mesmos 10 segundos
+↓
+6. NARRADOR NARRA A SENTENÇA até nova decisão ou até o limite de 10 segundos
+↓
+7. NARRADOR REGISTRA o estado resultante
+↓
+8. próximo turno de 10 segundos, se o combate continuar
 ```
 
 A ordem organiza autoridade. Ela não exige revelar ao JOGADOR HUMANO declarações ou informações que precisem permanecer reservadas.
@@ -400,9 +526,17 @@ A narração pode mostrar:
 - informação legitimamente percebida;
 - nova situação.
 
-Ele narra somente até o próximo ponto em que alguém precise decidir novamente.
+Fora de combate, ele narra somente até o próximo ponto em que alguém precise decidir novamente.
 
-Exemplo:
+Em combate, ele narra somente até o primeiro destes limites:
+
+```text
+nova decisão relevante
+OU
+fim dos 10 segundos do turno
+```
+
+Exemplo fora de combate:
 
 ```text
 JOGADOR HUMANO
@@ -419,7 +553,7 @@ A ação original não decide automaticamente se o personagem luta, foge, engana
 
 Nesse ponto abre-se nova janela.
 
-> **A sentença termina onde consequência volta a ser escolha.**
+> **Fora de combate, a sentença termina onde consequência volta a ser escolha. Em combate, ela termina nesse ponto ou no limite de 10 segundos, o que ocorrer primeiro.**
 
 # 7. NARRADOR REGISTRA
 
@@ -448,6 +582,8 @@ Registrar não cria nova consequência.
 
 Se um gancho foi resolvido, removê-lo. Se mudou, atualizá-lo. Se a sentença produziu nova ponta útil, ela pode ser adicionada.
 
+Em combate, o registro ao fim do turno deve refletir todas as consequências mecânicas já resolvidas pelas regras de `../resolucao/`, sem criar cálculo paralelo em `operacao/`.
+
 # Nenhum movimento também é válido
 
 O OPOSITOR não precisa produzir intervenção em toda janela.
@@ -459,6 +595,8 @@ OPOSITOR
 
 Isso é especialmente importante em romance, conversa, cotidiano, investigação ou qualquer cena que já esteja gerando escolhas suficientes.
 
+Durante combate, `nenhuma intervenção` também é válido para um turno se o OPOSITOR não possuir ação adversária legítima naquele intervalo.
+
 # Regra contra correção retroativa
 
 Depois da sentença, nenhuma persona adiciona um fato anterior apenas para alterar o resultado.
@@ -467,8 +605,8 @@ O OPOSITOR não pode inventar nova oposição retroativa.
 
 O NARRADOR não pode inventar dificuldade retroativa.
 
-Se o resultado criar nova oportunidade legítima, isso pertence à próxima janela.
+Se o resultado criar nova oportunidade legítima, isso pertence à próxima janela ou, em combate, ao próximo turno.
 
 # Regra final
 
-> **Cada janela é uma pequena audiência: os jogadores apresentam as ações de suas peças; o OPOSITOR apresenta a oposição ou oportunidade que quer movimentar; o NARRADOR julga, narra a sentença e registra. A intenção continua enquanto ainda cobre o fluxo; competência evidente conta sem pedido; combate usa o mesmo motor; e, na dúvida genuína que restar depois das regras e fatos aplicáveis, in dubio pro reo.**
+> **Fora de combate, cada janela é uma pequena audiência que termina quando consequência volta a ser escolha. Em combate, a mesma audiência é dividida em turnos simultâneos de 10 segundos: todas as peças recebem o mesmo intervalo, a ordem de declaração não define automaticamente a ordem dos acontecimentos, as mecânicas continuam pertencendo a `resolucao/`, e nenhuma sentença pode atravessar o limite do turno. Na dúvida genuína que restar depois das regras e fatos aplicáveis, in dubio pro reo.**
