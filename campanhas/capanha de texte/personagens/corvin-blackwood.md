@@ -65,18 +65,20 @@ Corvin Blackwood tem 62 anos, embora fisicamente aparente cerca de 28. Sua regen
 ### Relações
 - **Ravena:** namorada; vínculo amoroso consolidado e de confiança profunda. A energia da Ordem de Corvin pode ajudá-la a organizar excessos e reduzir interferências quando sua natureza demoníaca fica pressionada, sem suprimir quem ela é.
 - **Wanda Maximoff:** namorada e parceira afetiva; relacionamento próprio e consolidado. Ordem e Magia Escarlate funcionam como forças complementares, capazes de se ajustar sem cancelamento automático.
-- **Estrutura afetiva:** Corvin participa de uma relação afetiva a três com Wanda e Ravena. Seus dois vínculos são românticos e próprios; o vínculo entre Wanda e Ravena mantém sua forma específica e pode evoluir organicamente.
-- **Vida em comum:** há cerca de três meses, Corvin, Wanda e Ravena vivem juntos na casa de Corvin. Cada um possui seu próprio quarto, mas Wanda e Ravena dormem com Corvin com frequência, e os três acabam dividindo a mesma cama juntos mais vezes do que elas gostam de admitir.
-- **Nick Fury / S.H.I.E.L.D.:** relação profissional de longa data. Corvin conhece Fury há cerca de 30 anos e atua como consultor externo da S.H.I.E.L.D. e agente eventual, contratado ou convocado para casos específicos.
+- **Estrutura afetiva:** Corvin participa de uma relação afetiva a três com Wanda e Ravena. Seus dois vínculos são românticos e próprios; Wanda e Ravena também desenvolveram entre si atração e intimidade que nenhuma das duas costuma rotular com facilidade.
+- **Vida em comum:** há cerca de três meses, Corvin, Wanda e Ravena vivem juntos na casa de Corvin. Cada um possui seu próprio quarto, embora a rotina dos três seja muito mais próxima do que a divisão dos quartos sugere.
+- **Nick Fury / S.H.I.E.L.D.:** conhece Fury há cerca de 30 anos. A relação nasceu em uma investigação e tornou-se uma amizade real, quase sempre expressa através de profissionalismo, confiança em resultados e trabalho conjunto. Corvin continua como consultor externo e agente eventual da S.H.I.E.L.D.
 
 ### Recursos
-- **Casa isolada:** residência de Corvin em uma região afastada, onde atualmente vive com Wanda e Ravena. A casa oferece espaço e privacidade para a rotina dos três, com quartos individuais para cada um.
+- **Casa isolada:** residência de Corvin em uma região afastada, onde atualmente vive com Wanda e Ravena. A casa não é secreta, apenas remota; Fury e poucas pessoas autorizadas da S.H.I.E.L.D. conhecem sua localização exata.
 - **S.H.I.E.L.D.:** acesso eventual a suporte da organização quando atua formalmente em um caso, conforme necessidade e autorização operacional.
 
 ## Personalidade e tendências
 Corvin é calmo, observador e muito racional, mas não frio.
 
 Sua inteligência extraordinária faz com que tenha tendência a analisar situações profundamente, identificar padrões e pensar alguns passos à frente. Isso não significa que precise transformar tudo em cálculo ou planejamento; ele consegue viver de maneira descontraída quando não há um problema exigindo sua atenção.
+
+É paquerador por natureza e costuma flertar com naturalidade, mas não trata sentimentos ou riscos pessoais de maneira irresponsável.
 
 Não é obcecado por controle. Para ele, ordem não significa rigidez. Significa eliminar ruído suficiente para que as coisas possam funcionar como deveriam.
 
@@ -112,18 +114,10 @@ Sua MEN [4] também representa uma capacidade mental extraordinária para perceb
 Sua experiência como consultor da S.H.I.E.L.D. também lhe deu familiaridade prática com investigação de eventos extraordinários e com operações que misturam ameaças humanas, super-humanas e sobrenaturais.
 
 ## História consolidada relevante
-Corvin nasceu mutante, possuindo regeneração extraordinária e envelhecimento muito lento.
+Corvin nasceu mutante, possuindo regeneração extraordinária e envelhecimento muito lento. Ao longo dos anos também se desenvolveu como mago da Ordem.
 
-Ao longo de seus 62 anos, desenvolveu-se também como mago, criando uma ligação particularmente forte com a energia da Ordem.
+Conheceu Nick Fury há cerca de 30 anos, quando os dois investigavam o desaparecimento de crianças. Fury ainda era agente de campo; Corvin já era mutante e estudava magia, embora fosse muito menos poderoso do que hoje. A parceria daquele caso cresceu até se tornar a relação profissional e amizade duradoura que mantêm atualmente.
 
-Essa natureza acabou tornando seus poderes um contraponto natural às forças de Wanda e Ravena: não oposição absoluta, mas equilíbrio complementar.
+Há cerca de seis meses, Corvin foi enviado pela S.H.I.E.L.D. para investigar Wanda e Ravena, que buscavam o mesmo artefato em uma cidade. Aproximou-se inicialmente sob a cobertura de também estar atrás do objeto. Quando descobriu que a situação era uma armadilha de um culto de Trigon contra Ravena — e que Wanda também havia se tornado alvo — revelou sua missão e passou a ajudá-las abertamente.
 
-Conhece Nick Fury há cerca de 30 anos. Ao longo desse período, construiu com ele uma relação profissional duradoura e passou a atuar ocasionalmente como consultor externo da S.H.I.E.L.D., sendo chamado quando casos específicos exigem alguém fora do perfil comum da organização.
-
-Sua vida pessoal mudou de forma mais significativa com Wanda e Ravena.
-
-Corvin desenvolveu relacionamentos amorosos próprios com ambas e, há cerca de três meses, os três passaram a viver juntos em sua casa localizada em uma região isolada.
-
-A casa mantém quartos separados para cada um, preservando espaço e independência, embora na prática Wanda e Ravena passem muitas noites com Corvin — e os três frequentemente terminem juntos no mesmo quarto.
-
-A convivência ainda é relativamente recente, mas já se tornou rotina suficiente para que a casa funcione como o lar dos três.
+Os três passaram aproximadamente três meses lidando com o culto. A confiança e a atração cresceram durante esse período; depois que a ameaça foi resolvida, Wanda e Ravena aceitaram passar um tempo na casa de Corvin e acabaram ficando. Há cerca de três meses, a residência funciona de fato como o lar dos três.
