@@ -301,20 +301,28 @@ Kory — JOGADOR IA EVENTUAL
 
 Não definir ainda função narrativa, personalidade, relação com o protagonista, história, capacidades ou mecânica.
 
-> **Primeiro o sistema estabelece quais peças existem e quem gerencia cada uma. Depois cada personagem é construído conceitualmente, um por vez.**
+> **Primeiro o sistema estabelece quais peças existem e quem gerencia cada uma.**
 
-## Construção conceitual de cada personagem
+## Ficha conceitual preliminar
 
-Depois de registrar `NOME + GERÊNCIA`, construir cada personagem separadamente.
+Depois de registrar `NOME + GERÊNCIA`, não fazer perguntas adicionais por padrão.
 
-Cada personagem possui **no máximo 3 perguntas principais** de criação conceitual.
+A IA deve usar o cenário, o nome do personagem e tudo que já estiver definido na campanha para montar uma **ficha conceitual preliminar** compatível com o material existente.
 
-Esse é um teto, não uma meta. A IA deve fazer menos perguntas quando as respostas anteriores já fornecerem informação suficiente.
+Essa ficha é uma proposta, não uma definição final. Ela deve ser marcada como:
 
-A criação pode abordar identidade narrativa, personalidade, comportamento, vínculo, objetivo, história essencial e capacidades em linguagem conceitual, conforme forem realmente úteis.
+```text
+PENDENTE DE REVISÃO
+```
 
-Nesta etapa não definir atributos, perícias, patamares, valores ou qualquer outro detalhe mecânico.
+O jogador poderá aceitar, corrigir, remover, acrescentar ou pedir novas ideias durante a revisão.
 
-A IA pode sugerir ideias, mas não deve transformar essas sugestões em fatos da ficha sem aceitação, modificação ou incorporação pelo jogador.
+Nesta etapa não fechar atributos, perícias, patamares, valores numéricos ou outros detalhes mecânicos.
 
-> **Cada personagem IA deve ficar claro o suficiente para ser interpretado, não completo o suficiente para virar uma enciclopédia.**
+> **NOME + GERÊNCIA → ficha conceitual preliminar → PENDENTE DE REVISÃO.**
+
+Quando os personagens com agência de jogador estiverem registrados e suas fichas preliminares preparadas:
+
+```text
+seguir para Início da história
+```
