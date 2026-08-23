@@ -2,131 +2,101 @@
 
 Status: APROVADO
 
-Este documento define como informação existente na ficção é percebida, interpretada, investigada e transformada em conhecimento.
+Este documento define como informação existente na ficção é percebida, reconhecida e investigada por meios normais.
 
-Ele não substitui o efeito especial `Informação` definido em `escalas-de-efeito.md`.
+O efeito extraordinário `Informação` pertence a `efeitos/informacao.md`.
 
-> **Informação precisa existir. Perícia determina o que o personagem já sabe reconhecer. MEN determina quão bem ele percebe, analisa e constrói caminhos para descobrir o que ainda não sabe.**
+> **A informação vem da ficção. A competência determina o que a personagem reconhece. A investigação determina como ela procura o que ainda falta.**
 
-## Duas coisas diferentes
+## Regra central
 
-`Investigação normal` e `Informação [Poder]` não são a mesma mecânica.
+Usar o fluxo mais simples possível:
 
-`Investigação normal` representa observar, examinar, comparar, pesquisar, testar, perguntar, seguir evidências e construir conclusões por meios disponíveis ao personagem.
+```text
+informação existe e está acessível?
+→ sim: verificar o que é evidente para a personagem
+→ se ainda faltar algo: escolher um método de investigação
+→ se houver incerteza real: resolver
+→ evidência suficiente: confirmar a conclusão
+```
 
-`Informação [Poder]` representa uma capacidade cujo próprio efeito produz ou alcança informação de forma especial, conforme seu repertório.
+Não transformar cada etapa em um teste separado.
 
-Um Poder não é necessário para investigar normalmente.
+## Informação precisa existir
 
-## Cadeia de referência
+Investigação normal não cria fatos, pistas ou evidências inexistentes.
 
-A lógica geral da descoberta pode ser lida como:
+Ela trabalha com aquilo que realmente existe e pode ser alcançado por um mecanismo plausível: observar, examinar, pesquisar, testar, comparar, perguntar, seguir rastros, analisar amostras ou outro método coerente.
 
-`Existência → Acesso → Percepção → Interpretação → Hipótese → Investigação → Confirmação`
+Se uma resposta depende de algo que não existe ou não pode ser acessado pelo método usado, a ação não produz essa informação.
 
-Essa cadeia é uma referência para o NARRADOR, não uma sequência obrigatória de testes ou ações.
+## Competência passiva
 
-Etapas podem ser evidentes, automáticas ou já dominadas pela competência do personagem.
+O JOGADOR não precisa declarar uma busca para perceber ou reconhecer aquilo que seria evidente para aquela personagem.
 
-### Existência
+Perícias e capacidades relevantes devem aparecer passivamente quando a cena oferece informação suficiente.
 
-A informação, evidência, objeto, sinal ou acontecimento realmente existe?
+Exemplo:
 
-Se não existe, nenhuma capacidade cria automaticamente a informação ausente.
+```text
+Médico [+5] diante de sinais clínicos óbvios
+→ reconhece o que um médico desse nível reconheceria sem exigir uma declaração mecânica.
+```
 
-### Acesso
+Isso não concede informação secreta, invisível ou fora do repertório disponível.
 
-O personagem está em condição de receber ou examinar a informação?
+> **Não esconda informação evidente atrás de uma ação que a competência já resolve.**
 
-Acesso pode depender de presença, distância, linha de visão, idioma, equipamento, amostra, autorização, foco, posição ou outro mecanismo real.
+## Perícia e MEN
 
-### Percepção
+Perícia representa repertório, experiência, padrões reconhecíveis e procedimentos aprendidos.
 
-O personagem consegue notar aquilo a que possui acesso?
+MEN representa percepção, análise, memória, raciocínio, conexão de informações e capacidade de construir caminhos de descoberta.
 
-Podem importar sentidos, MEN, Poderes, Perícias, atenção e condições da cena.
+Quando uma investigação exige conhecimento especializado, a Perícia aplicável pode ser a Base da ação e MEN pode funcionar como Suporte quando realmente ajudar o mecanismo.
 
-### Interpretação
+```text
+Ação efetiva = Base + 1 + (Suporte × 0,2)
+```
 
-O personagem entende o significado do que percebeu?
+Um MEN alto não substitui conhecimento que a personagem nunca adquiriu.
 
-A interpretação depende especialmente de repertório já adquirido e do contexto disponível.
+Uma Perícia alta também não cria acesso, ferramentas, amostras ou evidências inexistentes.
 
-### Hipótese
-
-O personagem conecta informações e formula uma explicação plausível.
-
-Hipótese não é automaticamente fato conhecido.
-
-### Investigação
-
-Quando ainda existe incerteza, o personagem escolhe como reduzi-la: examinar, pesquisar, testar, comparar, observar, perguntar, coletar, seguir rastros ou usar outro método coerente.
-
-Uma investigação pode exigir tempo, recursos ou novas decisões quando isso for realmente relevante.
-
-### Confirmação
-
-Uma hipótese torna-se conhecimento confirmado quando existe evidência, teste, observação, testemunho, Poder ou outro fundamento suficiente para sustentá-la.
-
-> **Hipótese plausível não é automaticamente verdade conhecida.**
-
-## Percepção automática
-
-O JOGADOR não precisa declarar uma busca para perceber aquilo que seria imediatamente evidente para aquele personagem.
-
-Competência deve aparecer passivamente quando fizer sentido.
-
-Exemplo: um `Médico [+5]` pode reconhecer sinais clínicos óbvios para alguém daquela experiência sem precisar declarar `uso Medicina`.
-
-Isso continua limitado pelo que realmente existe e está acessível.
-
-> **Competência passiva deve aparecer na ficção sem depender de o JOGADOR lembrar o NARRADOR da própria ficha.**
-
-## Perícia
-
-Perícia representa conhecimento, repertório, padrões e procedimentos já adquiridos.
-
-Quanto maior a Perícia, mais informação dentro daquele domínio pode ser reconhecida ou interpretada sem investigação adicional quando as evidências forem suficientes.
-
-Perícia não cria evidência inexistente e não concede conhecimento fora de seu domínio.
-
-## MEN
-
-MEN representa percepção geral, raciocínio, análise, memória, dedução e capacidade de construir caminhos de descoberta.
-
-MEN alto pode ajudar a:
-
-- perceber padrões e inconsistências;
-- conectar informações;
-- eliminar hipóteses incompatíveis;
-- escolher testes úteis;
-- formular novas hipóteses;
-- interpretar resultados;
-- aprender durante o problema.
-
-MEN não concede automaticamente formação especializada, idioma desconhecido, fatos nunca aprendidos ou informação secreta.
-
-> **MEN constrói caminhos de entendimento; não substitui repertório especializado.**
-
-## MEN e Perícia não se somam automaticamente
-
-As duas capacidades respondem a perguntas diferentes:
-
-`Perícia → quanto deste problema o personagem já conhece e reconhece?`
-
-`MEN → quão bem ele percebe, analisa, conecta e descobre a partir do que possui?`
-
-Quando ambas forem relevantes, cada uma atua em sua própria função. Não existe soma automática entre elas.
+> **Perícia fornece repertório. MEN ajuda a perceber e raciocinar sobre o que está disponível.**
 
 ## Investigação ativa
 
-Uma intenção ativa é necessária quando obter mais informação exige escolha real de método, foco, tempo ou recurso.
+Uma investigação ativa é necessária quando obter mais informação exige uma escolha real de método, foco, tempo, recurso ou risco.
 
-Exemplos: examinar um cadáver em detalhe, desmontar um dispositivo, pesquisar arquivos, comparar documentos, analisar uma substância, seguir rastros ou testar uma hipótese.
+O JOGADOR pode declarar a intenção em linguagem natural. Não precisa nomear a Perícia nem a fórmula correta.
 
-O JOGADOR pode declarar a intenção em linguagem natural. Não precisa nomear a Perícia ou fórmula mecânica correta.
+O NARRADOR identifica o mecanismo usado e, se houver incerteza real, aplica `leitura-da-ficha-na-resolucao.md` e `motor-de-disputa.md`.
 
-Se mais de um método for realmente possível e a escolha alterar a resolução, o NARRADOR pergunta somente qual mecanismo o JOGADOR pretende usar.
+Exemplos de mecanismos diferentes podem encontrar resistências diferentes:
+
+```text
+pesquisar arquivos protegidos
+→ resistência pode ser segurança, acesso ou dificuldade documental
+
+examinar uma cena de crime
+→ resistência pode ser escassez, degradação ou ocultação das evidências
+
+analisar uma substância
+→ resistência pode vir da complexidade da amostra ou da falta de equipamento apropriado
+```
+
+A resistência pertence ao problema e ao método usado, não a uma dificuldade universal de "investigação".
+
+## Hipótese e confirmação
+
+Uma conclusão provisória pode existir antes da confirmação.
+
+O NARRADOR pode apresentar uma hipótese quando as evidências sustentam apenas uma leitura provável.
+
+Ela se torna conhecimento confirmado quando existe fundamento suficiente na ficção: evidência, teste, observação, testemunho, análise ou outro mecanismo confiável.
+
+> **Hipótese plausível não é automaticamente fato conhecido.**
 
 ## Resultado evidente e incerteza
 
@@ -134,28 +104,20 @@ Investigação segue o princípio geral da resolução:
 
 `RESULTADO EVIDENTE → estabelece | IMPOSSIBILIDADE EVIDENTE → estabelece | INCERTEZA REAL → resolve`
 
-Um especialista diante de informação rotineira e plenamente acessível pode simplesmente reconhecê-la.
+Um especialista diante de uma informação rotineira e acessível pode simplesmente reconhecê-la.
 
-Uma resposta que exige evidência inexistente continua impossível até surgir um mecanismo capaz de produzi-la ou encontrá-la.
+Uma resposta impossível de obter pelo método escolhido continua impossível até existir outro mecanismo capaz de alcançá-la.
 
-Quando ainda existe incerteza real, aplica-se o motor de resolução apropriado.
+Quando a ação permitir progresso acumulável, usar o motor geral para transformar dificuldade em mais tempo, esforço ou exposição em vez de criar falha automática.
 
-## Relação com o efeito Informação
+## Efeito Informação
 
-O efeito `Informação` continua usando sua própria escala de Resultado em `escalas-de-efeito.md`.
+Capacidades que obtêm informação por meios extraordinários usam exclusivamente `efeitos/informacao.md`.
 
-Ele pode obter informação por um mecanismo extraordinário quando seu repertório permite.
+Investigação normal não precisa duplicar a escala, alcance, Resultado ou regras desse efeito.
 
-Isso não altera a regra geral:
-
-- a capacidade precisa permitir aquele tipo de informação;
-- alcance e acesso precisam ser possíveis;
-- foco ou vínculo pode ser condição quando pertinente;
-- oposição ou ocultação pode oferecer Resistência;
-- o Resultado determina a profundidade alcançada.
-
-> **Investigação constrói conhecimento a partir de acesso e evidências. O efeito Informação produz acesso informacional especial conforme seu repertório.**
+> **Investigação encontra conhecimento por evidências e métodos disponíveis. O efeito Informação usa um mecanismo extraordinário próprio.**
 
 ## Princípio final
 
-> **A informação vem da realidade da ficção. A competência determina quanto o personagem consegue reconhecer nela. A mente determina quão bem ele consegue construir um caminho até o que ainda não sabe.**
+> **Mostre automaticamente o que a personagem já conseguiria reconhecer. Quando ainda faltar algo, deixe a ficção escolher o método e use mecânica apenas se houver incerteza real.**
