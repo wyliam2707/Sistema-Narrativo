@@ -13,10 +13,9 @@ Esta pasta responde à pergunta:
 - `principio-de-resolucao.md` — quando estabelecer diretamente, quando resolver incerteza e como tratar dúvida restante;
 - `leitura-da-ficha-na-resolucao.md` — quais capacidades, meios, situação e oposição realmente entram;
 - `motor-de-disputa.md` — Potência, Resistência, Exigência, Progresso, Tempo e Custo;
-- `efeitos/` — uma página curta para cada efeito central;
+- `efeitos/` — uma página curta para cada efeito central, incluindo Geral;
 - `escalas-de-efeito.md` — índice de compatibilidade que aponta para `efeitos/`;
 - `fonte-e-vida-estrutural.md` — Fonte da manifestação, Atributo estrutural e Vida dos efeitos persistentes;
-- `geral.md` — manifestações narrativas, utilitárias e cotidianas sem efeito prático de combate;
 - `consolidacao.md` — Alcance, Alvos, Área/Tamanho, Duração e Ampliação;
 - `combate-e-dano.md` — Fonte do Dano, Perícia efetiva, Ataque efetivo, Defesa, Dano e VIDA;
 - `ordem-de-resolucao-do-combate.md` — ordem operacional de resolução do combate;
