@@ -51,6 +51,14 @@ Se `Soldado [+2]` já representa adequadamente a formação militar geral do per
 
 > **O nome define o campo. O grau define o domínio.**
 
+### Referências comuns para criação
+
+Para facilitar a criação e leitura de fichas, o NARRADOR pode usar como vocabulário inicial:
+
+`Atletismo | Combate | Pontaria | Furtividade | Investigação | Sobrevivência | Medicina | Crime | Tecnologia | Engenharia | Ciência | Ocultismo | Conhecimento | Persuasão | Enganação | Intimidação | Empatia | Expressão | Condução | Ofício`
+
+Essa lista é apenas uma base de referência. Não limita novas Perícias, profissões ou especializações mais adequadas ao conceito da personagem.
+
 ---
 
 ## 2. Escala de perícias — [+0] a [+5]
@@ -96,35 +104,11 @@ A diferença entre `[+1]` e `[+2]` é relevante.
 
 A diferença entre `[+4]` e `[+5]` é muito maior em significado conceitual.
 
-`[+5]` não significa apenas "um pouco melhor que [+4]".
-
 `[+5]` representa o ápice daquela área: genialidade, maestria ou competência máxima compatível com o conceito e o cenário.
-
-Exemplos possíveis:
-
-```text
-Inventor [+5]
-```
-
-pode representar uma genialidade tecnológica do nível de uma grande referência daquele universo.
-
-```text
-Ocultismo [+5]
-```
-
-pode representar um sábio que ocupa o ápice conhecido daquele campo em um cenário místico ou multiversal.
-
-```text
-Soldado [+5]
-```
-
-representa o conceito de soldado levado ao ápice, não apenas um veterano muito competente.
 
 A escala não existe para balancear personagens.
 
 > **Um personagem recebe [+5] quando realmente é o ápice daquela área, não porque a ficha precisa distribuir graus de forma equilibrada.**
-
-Por isso, `[+5]` tende a ser raro por natureza, não por proibição mecânica.
 
 ---
 
@@ -150,24 +134,6 @@ Interpretação:
 - ação especificamente relacionada a tiro → `Atirador [+3]`;
 - disparo especificamente com rifle de precisão → `Rifle de Precisão [+4]`.
 
-Isso permite que uma perícia específica represente tanto uma especialidade superior quanto uma fraqueza relativa dentro de um campo amplo.
-
-Exemplos:
-
-```text
-Soldado [+3]
-Atirador [+5]
-```
-
-Soldado excepcional e atirador no ápice.
-
-```text
-Soldado [+5]
-Atirador [+3]
-```
-
-Soldado no ápice em seu campo geral, mas relativamente pior quando a questão específica é tiro.
-
 Perícias sobrepostas não são somadas.
 
 ```text
@@ -182,15 +148,7 @@ A perícia mais específica apenas define qual grau é relevante para aquela aç
 
 Uma perícia não funciona apenas como bônus abstrato.
 
-Ela representa:
-
-- repertório;
-- padrões reconhecíveis;
-- procedimentos;
-- experiência acumulada;
-- conhecimento já aprendido;
-- prática;
-- eficiência de execução dentro daquele domínio.
+Ela representa repertório, padrões reconhecíveis, procedimentos, experiência acumulada, conhecimento aprendido, prática e eficiência de execução dentro daquele domínio.
 
 Quanto maior a perícia, maior a capacidade de reconhecer situações familiares, selecionar métodos adequados e executar procedimentos próprios daquele campo.
 
@@ -201,8 +159,6 @@ A graduação não cria informação inexistente e não remove requisitos físic
 ## 6. Perícia não cria capacidade que a ficha não possui
 
 Perícia mede domínio, não altera automaticamente atributos ou capacidades físicas.
-
-Exemplo:
 
 ```text
 FIS [0]
@@ -215,39 +171,27 @@ continua representando a capacidade física definida por `FIS [0]`, embora o per
 
 Da mesma forma, circunstâncias favoráveis não elevam automaticamente o grau da perícia.
 
-Um `Atirador [+2]` com posição perfeita, tempo para mirar e equipamento adequado continua sendo `Atirador [+2]`.
-
-A situação está favorável; o PATAMAR do personagem não mudou.
-
 ---
 
-## 7. Atributo e perícia respondem a perguntas diferentes
+## 7. Atributo e Perícia na resolução
 
-Atributos representam capacidades inerentes do personagem.
+Atributos representam capacidades inerentes. Perícias representam domínio adquirido.
 
-Perícias representam domínio adquirido dentro de um campo.
+Uma ação comum que qualquer pessoa possa tentar pode ser resolvida por um Atributo apropriado.
 
-Atributo e perícia não são somados automaticamente.
-
-Exemplo:
+Quando a ação exige conhecimento, treinamento ou técnica que uma pessoa comum não possui, a Perícia aplicável pode ser a própria Base da ação. Um Atributo alto não substitui esse requisito.
 
 ```text
-FIS [5]
-Luta [+1]
+MEN [5] sem Medicina
+→ não concede cirurgia.
+
+Medicina [+5] com MEN [3]
+→ Medicina pode ser a Base; MEN pode ajudar como suporte quando a resolução permitir.
 ```
 
-representa enorme capacidade física com técnica de combate apenas treinada.
+Quando Atributo e Perícia forem ambos realmente capazes de conduzir a mesma ação, a resolução pode usar o valor mais favorável como Base e o outro como suporte, conforme `../resolucao/leitura-da-ficha-na-resolucao.md` e `../resolucao/motor-de-disputa.md`.
 
-```text
-MEN [5]
-Engenharia [+0]
-```
-
-representa capacidade mental extraordinária, mas sem conhecimento técnico avançado de engenharia.
-
-MEN alto pode ajudar a perceber padrões, raciocinar, compreender e aprender rapidamente, mas não fornece automaticamente repertório especializado.
-
-> **Atributo não fornece repertório. Perícia não cria capacidade.**
+> **Atributo não fornece repertório. Perícia não cria capacidade. A cena decide qual deles conduz a ação.**
 
 ---
 
