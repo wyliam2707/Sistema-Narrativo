@@ -1,18 +1,14 @@
 # Operação
 
+Status: REFERÊNCIA PRINCIPAL
+
 Esta pasta reúne as regras que respondem à pergunta:
 
 > **O que precisa ser verificado enquanto o RPG está rodando para que o sistema seja aplicado corretamente?**
 
-## Estado da migração
-
-A estrutura nova está sendo construída sem apagar os arquivos antigos.
-
-Enquanto uma regra ainda não tiver sido reescrita e aprovada nesta pasta, o arquivo antigo correspondente em `sistema/` continua válido apenas nos pontos ainda não substituídos pela arquitetura nova.
-
 ## Responsabilidades desta área
 
-Esta pasta concentra, progressivamente:
+Esta pasta concentra:
 
 - ordem das declarações;
 - ordem de consulta;
@@ -20,37 +16,70 @@ Esta pasta concentra, progressivamente:
 - quando o OPOSITOR movimenta o cenário;
 - quando o NARRADOR consulta fichas, regras, cenário e situação;
 - quando interromper a resolução e devolver controle ao jogador;
-- quando registrar STATUS, Progressão e preparações;
+- quando registrar consequências;
 - quando revisar agentes fora da câmera;
 - prevenção de conflitos entre regras de áreas diferentes.
 
-## Arquivos aprovados nesta área
+## Arquivo principal
 
-- [`ciclo-de-cena.md`](ciclo-de-cena.md) — ordem operacional das personas em uma janela de cena, incluindo declarações dos jogadores, movimento do OPOSITOR, julgamento do NARRADOR e registro do resultado.
+- [`ciclo-de-cena.md`](ciclo-de-cena.md) — ordem operacional atual das personas em uma janela de cena, incluindo declarações dos jogadores, movimento do OPOSITOR, julgamento do NARRADOR e registro do resultado.
 
-## Arquivos antigos ainda como fonte de migração
+Quando houver conflito sobre a ordem das personas ou o ciclo de uma janela, `ciclo-de-cena.md` é a referência atual.
 
-- `../modo-rpg.md` — procedimento operacional antigo; continua fonte para pontos ainda não migrados.
-- `../checklist-do-narrador.md` — checklist antigo; continua fonte para pontos ainda não migrados.
-- `../00-LEIA-PRIMEIRO.md` — orientação geral antiga de entrada no sistema.
+## Porta de entrada
 
-Quando houver conflito sobre a ordem das personas ou o ciclo de uma janela, `ciclo-de-cena.md` é a regra atual aprovada.
+`sistema/00-LEIA-PRIMEIRO.md` é o roteador operacional atual do sistema.
+
+Ele não é mais tratado como uma fonte histórica subordinada a arquivos antigos. Sua função é encaminhar a IA para as áreas atuais sem reintroduzir regras já substituídas.
+
+Fluxo de entrada:
+
+```text
+NOVA CAMPANHA
+→ sistema/criacao/README.md
+
+CONTINUAR
+→ campanhas/<nome>/README.md
+```
+
+## Arquivos antigos como fonte de migração
+
+Os documentos abaixo permanecem preservados apenas nos pontos ainda não substituídos:
+
+- `../modo-rpg.md`;
+- `../checklist-do-narrador.md`;
+- `../ciclo-de-jogadores.md`.
+
+Eles não prevalecem contra `ciclo-de-cena.md`, `../personas/`, `../persistencia/` ou outra regra nova explicitamente aprovada.
+
+## Registro do resultado
+
+Quando a operação manda registrar STATUS, Progressão ou outra consequência, a persistência concreta segue `../persistencia/README.md` e a estrutura definida em `../criacao/estrutura-da-campanha.md`.
+
+Na campanha atual, o retrato operacional é:
+
+```text
+campanhas/<nome>/estado/atual.md
+```
+
+Não criar automaticamente arquivos separados de STATUS, Progressão ou cronologia apenas porque esses conceitos existem no sistema.
 
 ## Princípio
 
-`operacao/` não deve duplicar regras de personagem, resolução, agência, narração ou persistência.
+`operacao/` não duplica regras de personagem, resolução, agência, narração, criação ou persistência.
 
 Ela funciona como camada de execução e roteamento:
 
 ```text
-quem é / do que é capaz? → personagem/
-quem decide?             → personas/
-quem move o cenário?     → personas/opositor/
-como age sozinho?        → agencia/
-o que acontece?          → resolucao/
-como mostrar?            → narracao/
-o que permanece?         → persistencia/
-como aplicar tudo?       → operacao/
+como criar campanha?          → criacao/
+quem é / do que é capaz?      → personagem/
+quem decide?                  → personas/
+quem move o cenário?          → personas/opositor/
+como age sozinho?             → agencia/
+o que acontece?               → resolucao/
+como mostrar?                 → narracao/
+o que permanece e onde salvar?→ persistencia/
+como aplicar tudo?            → operacao/
 ```
 
 O ciclo-base pode ser lembrado assim:
