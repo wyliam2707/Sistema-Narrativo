@@ -3,8 +3,8 @@
 CRIAÇÃO: EM ANDAMENTO
 
 Etapa atual: Revisão das fichas
-Personagem atual: Feiticeira Escarlate
-Bloco atual: 5 - Conferência final
+Personagem atual: Nick Fury
+Bloco atual: 1 - Identidade e conceito
 
 ## 1 - Nome da campanha
 
