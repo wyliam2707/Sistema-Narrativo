@@ -168,3 +168,83 @@ consolidar
 ```
 
 O local exato de salvamento dentro da campanha pertence a `estrutura-da-campanha.md`.
+
+# Etapa — Protagonista
+
+Esta etapa constrói a **ficha conceitual** do personagem principal antes de qualquer conversão mecânica.
+
+Pergunta-base:
+
+> **Quem é o personagem principal que o jogador quer interpretar?**
+
+Quando exemplos ajudarem, a IA pode apresentar conceitos como:
+
+```text
+1 - Humano comum envolvido em algo extraordinário
+2 - Herói ou vigilante
+3 - Mago / usuário de magia
+4 - Vampiro ou criatura sobrenatural
+5 - Mutante / super-humano
+6 - Guerreiro / aventureiro
+7 - Anti-herói
+8 - Personagem já existente de outro universo
+9 - Conceito próprio / combinação
+```
+
+O jogador pode responder por número, combinar opções ou descrever livremente outro conceito.
+
+## Criação conceitual
+
+A IA pode propor ideias para ajudar a construir a ficha, incluindo quando forem úteis:
+
+- identidade;
+- aparência e presença;
+- origem;
+- personalidade;
+- comportamento;
+- história essencial;
+- relações importantes;
+- desejos e objetivos;
+- medos e conflitos;
+- limitações narrativas;
+- capacidades descritas apenas em linguagem conceitual.
+
+Exemplos válidos de capacidade conceitual:
+
+```text
+Manipula realidade através da vontade.
+Percebe fenômenos sobrenaturais.
+Consegue criar portais.
+Conhece rituais antigos.
+```
+
+Nesta etapa não definir atributos, perícias, patamares, valores numéricos ou qualquer outro detalhe mecânico.
+
+> **A IA pode gerar ideias para a ficha, mas sugestões são matéria-prima. Só entram na ficha quando o jogador aceitar, modificar ou incorporar a ideia.**
+
+## Limite de perguntas
+
+A etapa Protagonista possui **no máximo 5 perguntas principais**.
+
+Esse é um teto, não uma meta.
+
+A IA deve:
+
+- fazer menos perguntas quando já houver informação suficiente;
+- aproveitar tudo que o jogador já respondeu;
+- nunca perguntar apenas para preencher campos;
+- não transformar a criação em biografia enciclopédica;
+- deixar detalhes menores surgirem depois, quando realmente importarem.
+
+> **O limite é de perguntas, não de informação.**
+
+Quando o protagonista estiver conceitualmente claro o bastante para ser interpretado e revisado depois:
+
+```text
+consolidar
+→ salvar na campanha
+→ marcar a etapa como concluída
+→ seguir para Personagens relevantes
+```
+
+O local exato de salvamento dentro da campanha pertence a `estrutura-da-campanha.md`.
