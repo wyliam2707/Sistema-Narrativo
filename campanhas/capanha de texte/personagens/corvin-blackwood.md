@@ -1,7 +1,7 @@
 # Corvin Blackwood
 
 ## Metadados
-- **Status:** PENDENTE DE REVISÃO
+- **Status:** APROVADO
 - **Importância:** Central
 - **CONTROLE:** JOGADOR HUMANO
 
@@ -34,6 +34,9 @@ A interação entre essas forças é complementar: a magia de Corvin pode estabi
 Corvin atua como consultor externo da S.H.I.E.L.D. e agente eventual, chamado para casos específicos que exigem conhecimento, capacidades ou liberdade de ação fora do padrão operacional comum.
 
 ## Descrição
+Corvin Blackwood tem 62 anos, embora fisicamente aparente cerca de 28. Sua regeneração mutante manteve o corpo jovem enquanto sua vida acumulou décadas de experiência, estudo e prática mágica.
+
+É um mago da Ordem extremamente analítico. Onde outras forças se manifestam por intensidade, emoção ou natureza caótica, Corvin tende a procurar estrutura, padrões e formas de fazer elementos incompatíveis coexistirem sem simplesmente destruir um ao outro.
 
 ## Capacidades
 
@@ -71,11 +74,56 @@ Corvin atua como consultor externo da S.H.I.E.L.D. e agente eventual, chamado pa
 - **S.H.I.E.L.D.:** acesso eventual a suporte da organização quando atua formalmente em um caso, conforme necessidade e autorização operacional.
 
 ## Personalidade e tendências
+Corvin é calmo, observador e muito racional, mas não frio.
+
+Sua inteligência extraordinária faz com que tenha tendência a analisar situações profundamente, identificar padrões e pensar alguns passos à frente. Isso não significa que precise transformar tudo em cálculo ou planejamento; ele consegue viver de maneira descontraída quando não há um problema exigindo sua atenção.
+
+Não é obcecado por controle. Para ele, ordem não significa rigidez. Significa eliminar ruído suficiente para que as coisas possam funcionar como deveriam.
+
+Tem bastante confiança nas próprias capacidades e não costuma entrar em pânico facilmente, em parte porque regeneração e longa experiência mudaram bastante sua relação com perigo físico.
+
+Com Wanda e Ravena, tende a assumir naturalmente uma posição estabilizadora sem tratá-las como pessoas que precisam ser controladas. Ele sabe que ambas são poderosas e capazes de tomar suas próprias decisões.
 
 ## Desejos / objetivos atuais
+Corvin quer preservar a vida que construiu com Wanda e Ravena.
+
+A casa isolada deixou de ser apenas sua residência e tornou-se a casa dos três, mesmo que cada um ainda mantenha seu espaço individual.
+
+Também continua interessado em magia, fenômenos incomuns e problemas que ofereçam algo intelectualmente novo, razão pela qual aceita alguns trabalhos de Fury.
+
+Não possui interesse particular em transformar sua relação com a S.H.I.E.L.D. em carreira formal. Prefere continuar independente e escolher quando se envolver.
 
 ## Medos / limites relevantes
+Apesar de sua regeneração, Corvin não é indestrutível.
+
+Danos extremos, destruição corporal suficiente ou situações capazes de superar sua regeneração ainda podem matá-lo.
+
+Sua Magia da Ordem também não concede controle universal sobre qualquer fenômeno. Estabilização e Supressão de interferência trabalham dentro da escala do poder e dependem da natureza, intensidade e resistência daquilo que ele tenta reorganizar.
+
+Especialmente com Wanda e Ravena, sua magia não é um botão de desligar. Ele pode ajudá-las a estabilizar manifestações, diminuir interferências ou criar condições melhores de controle, mas não apaga automaticamente a Magia Escarlate nem a natureza demoníaca de Ravena.
 
 ## Conhecimento atual relevante
+Corvin possui conhecimento excepcional de ocultismo e fenômenos sobrenaturais.
+
+Sua MEN [4] também representa uma capacidade mental extraordinária para perceber relações, padrões, falhas estruturais e conexões que outras pessoas dificilmente identificariam.
+
+É especialmente competente em compreender como diferentes sistemas mágicos ou energias interagem entre si.
+
+Sua experiência como consultor da S.H.I.E.L.D. também lhe deu familiaridade prática com investigação de eventos extraordinários e com operações que misturam ameaças humanas, super-humanas e sobrenaturais.
 
 ## História consolidada relevante
+Corvin nasceu mutante, possuindo regeneração extraordinária e envelhecimento muito lento.
+
+Ao longo de seus 62 anos, desenvolveu-se também como mago, criando uma ligação particularmente forte com a energia da Ordem.
+
+Essa natureza acabou tornando seus poderes um contraponto natural às forças de Wanda e Ravena: não oposição absoluta, mas equilíbrio complementar.
+
+Em algum momento construiu uma relação profissional com Nick Fury e passou a atuar ocasionalmente como consultor externo da S.H.I.E.L.D., sendo chamado quando casos específicos exigem alguém fora do perfil comum da organização.
+
+Sua vida pessoal mudou de forma mais significativa com Wanda e Ravena.
+
+Corvin desenvolveu relacionamentos amorosos próprios com ambas e, há cerca de três meses, os três passaram a viver juntos em sua casa localizada em uma região isolada.
+
+A casa mantém quartos separados para cada um, preservando espaço e independência, embora na prática Wanda e Ravena passem muitas noites com Corvin — e os três frequentemente terminem juntos no mesmo quarto.
+
+A convivência ainda é relativamente recente, mas já se tornou rotina suficiente para que a casa funcione como o lar dos três.
