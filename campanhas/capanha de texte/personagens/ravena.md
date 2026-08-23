@@ -35,9 +35,12 @@ Ravena pertence nativamente a este cenário e sempre fez parte deste mundo; não
 - **Combate [+1]**
 - **Investigar [+1]**
 
+### Poderes
+- **Magia da Alma [3]** => Geral / Dano / Proteção / Movimento / Contenção / Portal / Cura [2] / Projeção Astral [4]
+- **Empatia [2]** => Percepção emocional / Influência emocional / Absorção emocional
+
 ### Outros campos
 - **TRAÇOS:**
-- **PODERES:**
 - **RECURSOS:**
 - **REL:**
 
