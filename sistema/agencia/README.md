@@ -6,9 +6,9 @@ Esta pasta reúne as regras que respondem à pergunta:
 
 ## Estado da migração
 
-A estrutura nova está sendo construída sem apagar os arquivos antigos.
+A estrutura nova está sendo construída progressivamente.
 
-Arquivos antigos em `sistema/` permanecem como fontes históricas nos pontos ainda não substituídos por regras aprovadas da arquitetura nova.
+Alguns arquivos antigos em `sistema/` ainda permanecem como fontes históricas nos pontos não substituídos por regras aprovadas da arquitetura nova. Arquivos já removidos após substituição completa não devem ser procurados nem usados como fonte operacional.
 
 ## Responsabilidades desta área
 
@@ -42,10 +42,11 @@ Exemplo:
 - `personagem/` guarda a definição estável da peça;
 - `agencia/` define como essa peça mantém rotina, objetivos, relações e decisões fora da câmera.
 
-## Fontes antigas ainda úteis
+## Fonte antiga ainda útil
 
 - `../agencia-de-personagens.md` — fonte histórica para regras de agência e ciclo autônomo ainda não reescritas nesta pasta.
-- `../ciclo-de-jogadores.md` — fonte histórica do ciclo antigo; a ordem operacional atual está em `../operacao/ciclo-de-cena.md`.
+
+A ordem operacional atual do ciclo está em `../operacao/ciclo-de-cena.md`.
 
 ## Regra de migração
 
