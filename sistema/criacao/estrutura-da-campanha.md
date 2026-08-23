@@ -179,17 +179,27 @@ Detalhes persistentes de mundo pertencem a `mundo/`.
 
 #### Personagens com agência
 
-Registrar somente identificação e gerência suficientes para localizar as peças principais.
+Registrar somente identificação e `CONTROLE` suficientes para localizar as peças principais.
+
+Cada personagem com agência deve aparecer **individualmente** no índice, mesmo quando vários personagens compartilham a mesma persona de controle.
 
 Exemplo:
 
 ```text
 Wyliam — JOGADOR HUMANO
 Ravena — JOGADOR IA
-Titãs — JOGADOR IA EVENTUAL
+Dick Grayson — JOGADOR IA EVENTUAL
+Kory — JOGADOR IA EVENTUAL
+Garfield — JOGADOR IA EVENTUAL
 ```
 
+Não registrar um grupo, equipe ou organização como se fosse uma única peça quando seus integrantes são personagens distintos com agência própria.
+
+A persona `JOGADOR IA EVENTUAL` pode operar mais de um personagem, mas cada personagem continua sendo uma peça independente e possui sua própria ficha em `personagens/`.
+
 As fichas completas pertencem a `personagens/`.
+
+> **Persona compartilhada não cria ficha compartilhada. Cada personagem com agência é listado e persistido individualmente.**
 
 #### Situação de entrada
 
