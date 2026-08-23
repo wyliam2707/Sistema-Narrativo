@@ -26,25 +26,43 @@ Quando a Vida estrutural de um efeito persistente chega a `V0`, o efeito encerra
 
 Quando duas ou mais aplicações **do mesmo efeito persistente** atingem o mesmo alvo, elas não se acumulam por soma. Elas se consolidam em uma única instância.
 
-A instância consolidada mantém os melhores componentes entre as aplicações compatíveis:
+Se as aplicações possuírem **a mesma Duração**, a instância consolidada mantém os melhores componentes:
 
 `D consolidada = maior D entre as aplicações`
 
 `V consolidada = maior V entre as aplicações`
 
-A intensidade e a duração mantêm a melhor configuração válida entre as aplicações quando forem realmente o mesmo efeito funcional.
+`Duração consolidada = a mesma Duração das aplicações`
 
-Exemplo:
+Se as aplicações possuírem **Durações diferentes**, a instância consolidada mantém a maior Duração, mas sua Defesa e sua Vida passam a ser a média dos valores envolvidos:
 
-`Imobilizar A → D3,4 / V2`
+`D consolidada = média das D das aplicações`
 
-`Imobilizar B → D2,8 / V4`
+`V consolidada = média das V das aplicações`
 
-`Resultado consolidado → Imobilizar [D3,4 / V4]`
+`Duração consolidada = maior Duração entre as aplicações`
+
+As médias não são arredondadas. Valores decimais permanecem válidos tanto para `D` quanto para `V`.
+
+Exemplo com mesma Duração:
+
+`Imobilizar A — Cena → D3,4 / V2`
+
+`Imobilizar B — Cena → D2,8 / V4`
+
+`Resultado consolidado → Imobilizar — Cena [D3,4 / V4]`
+
+Exemplo com Durações diferentes:
+
+`Imobilizar A — Cena → D4 / V4`
+
+`Imobilizar B — Dia → D2 / V2`
+
+`Resultado consolidado → Imobilizar — Dia [D3 / V3]`
 
 Essa consolidação vale somente para efeitos iguais. Efeitos diferentes, como `Imobilizar` e `Sono`, continuam existindo como instâncias separadas.
 
-> **Efeitos iguais preservam os melhores componentes; efeitos diferentes não se fundem.**
+> **Efeitos iguais com mesma Duração preservam os melhores componentes. Com Durações diferentes, preservam a maior Duração e usam a média de D e V, mantendo decimais.**
 
 ## Escala-base
 
