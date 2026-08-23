@@ -45,7 +45,7 @@ Wanda Maximoff é uma jovem sokoviana de presença intensa, emocionalmente expre
 - **Combate [+1]**
 
 ### Poderes
-- **Magia Escarlate [4]** => Dano / Proteção [3] / Movimento / Contenção / Manipulação de matéria e objetos
+- **Magia Escarlate [4]** => Dano / Proteção [3] / Movimento / Contenção / Manipulação de matéria e objetos / Portal [2]
 - **Influência Mental [2]** => Leitura emocional / Ilusão mental / Indução de medo / Alteração de percepção
 
 ### Traços
@@ -99,7 +99,7 @@ Em situações emocionalmente extremas, Wanda pode tornar-se mais agressiva ou i
 ## Conhecimento atual relevante
 Wanda possui domínio extraordinário sobre o uso prático dos próprios poderes.
 
-Sabe utilizar sua magia ofensivamente, defensivamente, para movimentar e conter alvos e para manipular matéria e objetos dentro do repertório que domina.
+Sabe utilizar sua magia ofensivamente, defensivamente, para movimentar e conter alvos, manipular matéria e objetos e abrir portais dentro do repertório que domina.
 
 Possui experiência prática de sobrevivência urbana e conflitos violentos, além de treinamento básico de combate.
 
