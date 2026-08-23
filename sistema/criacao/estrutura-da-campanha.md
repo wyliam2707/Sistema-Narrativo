@@ -198,6 +198,25 @@ Se `atual.md` crescer a ponto de uma divisão ser realmente necessária, a estru
 
 > **`estado/atual.md` responde: “Se outra IA assumir a campanha agora, o que ela precisa saber para continuar corretamente daqui?”**
 
+#### Atualização durante o jogo
+
+O NARRADOR deve atualizar `estado/atual.md` sempre que a realidade presente mudar de forma relevante para uma retomada futura.
+
+Não é necessário registrar cada fala, movimento banal ou detalhe sem consequência operacional.
+
+Mudanças operacionais relevantes, como VIDA, ENERGIA, localização importante, STATUS, efeitos ativos, intenções futuras, situações pendentes ou avanço causal que altere a continuação, devem ser refletidas no estado quando acontecerem.
+
+A situação geral pode ser consolidada conforme a cena avança, mantendo o arquivo limpo e atual.
+
+```text
+mudança operacional imediata → registrar quando acontece
+situação geral da cena       → consolidar conforme avança
+```
+
+`atual.md` substitui o retrato anterior pelo presente. Não deve acumular versões antigas apenas para formar histórico.
+
+> **`estado/atual.md` é retrato do presente, não diário da sessão.**
+
 ### `mundo/`
 
 Guarda fatos estabelecidos do cenário que precisam persistir, como lugares, organizações, regras próprias daquela campanha e outros elementos de mundo relevantes.
