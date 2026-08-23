@@ -31,6 +31,8 @@ Integra os Titãs.
 - **MEN [0]**
 - **VON [4]**
 
+**VIDA [35] | ENERGIA [80]**
+
 ### Perícias
 - **Ocultismo [+4]**
 - **Meditação e controle emocional [+4]**
