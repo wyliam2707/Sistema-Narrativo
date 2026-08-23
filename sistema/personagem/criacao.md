@@ -121,6 +121,7 @@ Descrição:
 TRAÇOS:
 
 ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
+VIDA [ ] | ENERGIA [ ]
 PER:
 PODERES:
 RECURSOS:
@@ -137,7 +138,7 @@ REL:
 ## História consolidada relevante
 ```
 
-Não inventar ou **persistir antecipadamente** nome real, idade, aparência, estilo, origem, conceito, personalidade, comportamento, história, objetivos, medos, atributos, perícias, poderes, TRAÇOS, RECURSOS, relações, conhecimento ou qualquer outro conteúdo da ficha.
+Não inventar ou **persistir antecipadamente** nome real, idade, aparência, estilo, origem, conceito, personalidade, comportamento, história, objetivos, medos, atributos, VIDA, ENERGIA, perícias, poderes, TRAÇOS, RECURSOS, relações, conhecimento ou qualquer outro conteúdo da ficha.
 
 Essas informações podem ser **propostas** no bloco apropriado usando o método de criação assistida, mas só entram no arquivo depois da aprovação.
 
@@ -151,12 +152,14 @@ Nunca usar `[0]` ou `[+0]` para representar pendência. Zero é um valor mecâni
 
 ```text
 ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
+VIDA [ ] | ENERGIA [ ]
 ```
 
 significa ainda não definido.
 
 ```text
 ATR: FIS [0] | RES [0] | MEN [0] | VON [0]
+VIDA [35] | ENERGIA [10]
 ```
 
 significa valores mecanicamente definidos.
@@ -263,6 +266,8 @@ e nas perícias realmente relevantes.
 O NARRADOR deve apresentar uma proposta calibrada, com justificativa quando útil, em vez de pedir ao jogador que escolha todos os números sem referência.
 
 Aplicar `calibracao.md` sem usar outra ficha como molde automático.
+
+Depois que os Atributos forem aprovados, preencher `VIDA` e `ENERGIA` na ficha para consulta rápida conforme `ficha.md` e as regras aplicáveis à personagem. Exceções específicas já aprovadas pertencem à própria personagem e não alteram automaticamente as demais fichas.
 
 ### Bloco 3 — Poderes e capacidades
 
@@ -404,7 +409,7 @@ A versão final não deve carregar tentativas descartadas, explicações de conv
 
 ## Progressão não é criação repetida
 
-Concluir missão, capítulo ou arco não concede automaticamente atributo, perícia, poder ou capacidade nova.
+Concluir missão, capítulo ou arco não concede automaticamente atributo, períícia, poder ou capacidade nova.
 
 A ficha só muda posteriormente quando a própria ficção muda de forma estável o personagem.
 
