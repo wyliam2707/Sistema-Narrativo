@@ -99,25 +99,37 @@ Registrado em:
 - `sistema/criacao/README.md`
 - `sistema/criacao/estrutura-da-campanha.md`
 
-## Ponto atual
-
 ### Ponto 3 — salvamento durante a revisão mecânica
 
-Proposta ainda não discutida em detalhe:
+APROVADO E REGISTRADO.
 
-- não salvar tentativas intermediárias;
-- cada bloco aprovado da revisão mecânica deve ser imediatamente consolidado na ficha;
-- assim, se a conversa for interrompida, os blocos já aprovados permanecem preservados.
+Regra aprovada:
 
-Ideia-base:
+> **Durante a revisão mecânica, cada bloco passa a ser persistido imediatamente após sua aprovação. Conteúdo ainda em discussão não é salvo. Depois do salvamento, o checkpoint avança para o próximo bloco.**
+
+Fluxo:
 
 ```text
-Bloco 1 aprovado → atualizar ficha
-Bloco 2 aprovado → atualizar ficha
-...
+bloco apresentado
+→ discutir e corrigir
+→ jogador aprova
+→ atualizar personagens/<nome>.md
+→ atualizar o checkpoint para o próximo bloco
 ```
 
-## Pontos ainda não revisados
+Tentativas intermediárias, alternativas recusadas e valores ainda não aprovados não entram na ficha.
+
+Se a conversa for interrompida, os blocos já aprovados permanecem preservados e o checkpoint indica exatamente onde retomar.
+
+Registrado em:
+
+- `sistema/criacao/README.md`
+
+Commit:
+
+- `977986583e4a8e8cb6324f240060123b231b13cc`
+
+## Ponto atual
 
 ### Ponto 4 — hand-off para `estado/atual.md` antes da primeira cena
 
@@ -131,6 +143,8 @@ fichas aprovadas
 ```
 
 Isso deve ser persistência automática, não uma nova etapa nem nova confirmação do jogador.
+
+## Pontos ainda não revisados
 
 ### Ponto 5 — relação entre GERÊNCIA e CONTROLE
 
@@ -258,6 +272,6 @@ Ao abrir um novo chat, continuar assim:
 
 ```text
 1 - ler sistema/criacao/PENDENCIAS.md
-2 - apresentar somente o Ponto 3 ao usuário
-3 - não avançar ao Ponto 4 até o Ponto 3 ser aprovado e salvo
+2 - apresentar somente o Ponto 4 ao usuário
+3 - não avançar ao Ponto 5 até o Ponto 4 ser aprovado e salvo
 ```
