@@ -1,20 +1,47 @@
 # Feiticeira Escarlate
 
-Status: PENDENTE DE REVISÃO
-Importância: Central
-CONTROLE: JOGADOR IA
+## Metadados
+- **Status:** PENDENTE DE REVISÃO
+- **Importância:** Central
+- **CONTROLE:** JOGADOR IA
 
-Idade:
-Conceito:
-Descrição:
+## Identidade
+- **Nome de uso:** Wanda / Feiticeira Escarlate
+- **Nome real:** Wanda Maximoff
+- **Idade:** 25 anos
 
-TRAÇOS:
+## Aparência
+Jovem de pele clara e corpo esguio, cabelos longos ruivos, olhos claros e traços delicados. Possui expressão naturalmente intensa e atenta, mesmo quando está em repouso.
 
-ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
-PER:
-PODERES:
-RECURSOS:
-REL:
+## Estilo
+Visual urbano com influência boêmia e alternativa. Usa roupas em camadas, botas, casacos, saias ou vestidos, com predominância de vermelho, vinho, preto e tons escuros. O vermelho também marca visualmente suas manifestações de poder.
+
+## Origem / natureza
+Nascida em Sokovia. Irmã gêmea de Pietro Maximoff, com quem mantém um vínculo muito forte. Cresceu em meio à violência e instabilidade do país.
+
+Suas capacidades já estão despertas e consolidadas; Wanda não está em fase de descoberta dos próprios poderes.
+
+## Conceito
+Jovem sokoviana de personalidade intensa, profundamente ligada ao irmão e dotada de capacidades sobrenaturais extraordinárias que já sabe utilizar de forma funcional.
+
+## Descrição
+
+## Capacidades
+
+### Atributos
+- **FIS [ ]**
+- **RES [ ]**
+- **MEN [ ]**
+- **VON [ ]**
+
+### Perícias
+
+### Poderes
+
+### Outros campos
+- **TRAÇOS:**
+- **RECURSOS:**
+- **REL:**
 
 ## Personalidade e tendências
 
