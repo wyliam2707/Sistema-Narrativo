@@ -74,9 +74,11 @@ A unidade de tempo pertence à natureza da tarefa, não à cena em que ela acont
 
 Escalas padrão:
 
-`6 segundos → aplicação imediata` | `1 minuto → aplicação curta` | `1 hora → aplicação prolongada` | `1 dia → aplicação extensa`
+`10 segundos → aplicação imediata` | `1 minuto → aplicação curta` | `1 hora → aplicação prolongada` | `1 dia → aplicação extensa`
 
-Uma ação de combate, uma maldição rápida ou uma pressão mental podem usar `6 segundos` por aplicação.
+Uma ação de combate, uma maldição rápida ou uma pressão mental podem usar `10 segundos` por aplicação.
+
+Durante combate, essa aplicação imediata coincide com o turno operacional de `../operacao/turnos-de-combate.md`.
 
 Um hackeamento comum, ritual curto ou preparação semelhante pode usar `1 minuto` por aplicação.
 
@@ -88,7 +90,7 @@ A natureza concreta da atividade pode justificar outra escala, mas entrar em com
 
 `Tempo efetivo = número de aplicações × tempo por aplicação`
 
-> **A tarefa define a escala de tempo da aplicação. A disputa define quantas aplicações são necessárias.**
+> **A tarefa define a escala de tempo da aplicação. A disputa define quantas aplicações são necessárias. Em combate, a aplicação imediata usa o mesmo relógio de 10 segundos do turno.**
 
 ## 5. Custo efetivo e ampliação
 
