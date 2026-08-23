@@ -66,9 +66,9 @@ Cada STATUS atingido resolve separadamente contra sua própria Defesa:
 
 `Dissipar efetivo vs D do efeito persistente → Dano aplicado → reduz V do efeito`
 
-Todo efeito persistente consolidado possui `D = Efetivo que o estabeleceu` e `V5`.
+Todo efeito persistente consolidado possui `D = Efetivo que o estabeleceu` e segue a regra de Vida estrutural definida em `fonte-e-vida-estrutural.md`.
 
-Exemplo: `Cegueira [D2,4 / V5] — Cena`. Uma aplicação de Dissipar resolve contra `D2,4`; o Dano resultante reduz a Vida da Cegueira. Em `V0`, o efeito termina.
+Exemplo: `Cegueira [D2,4 / V4] — Cena`. Uma aplicação de Dissipar resolve contra `D2,4`; o Dano resultante reduz a Vida da Cegueira. Em `V0`, o efeito termina.
 
 Dissipar pode atingir tanto efeitos prejudiciais quanto benéficos persistentes, desde que estejam dentro de seu repertório.
 
@@ -152,15 +152,15 @@ Base de uso:
 
 Barreira funciona como uma camada independente de proteção.
 
-`Barreira [D x / V5]`
+`Barreira [D x / V]`
 
-A Defesa da Barreira é sua defesa efetiva:
+A Vida de Barreira segue `fonte-e-vida-estrutural.md`. Sua Defesa é calculada pela regra específica da Barreira:
 
 `D = patamar usado + (Perícia aplicável × 0,2)`
 
 Como Poder, Barreira possui patamar mínimo `[1]`.
 
-Exemplo: `Barreira [2] + Conhecimento em Magia [+2] → Barreira [D2,4 / V5]`.
+Exemplo: `Barreira [2] + Conhecimento em Magia [+2] → Barreira [D2,4 / V]`, com `V` definido pela Fonte.
 
 O ataque resolve normalmente contra `D` da Barreira. O Dano reduz primeiro sua Vida.
 
@@ -176,7 +176,7 @@ Depois da reconversão, o Ataque efetivo restante é sempre arredondado para bai
 
 Se não houver excedente, o ataque termina na Barreira.
 
-> **Uma proteção possui 1 grau de Vida: V5. Ela absorve aquilo que consegue suportar e o excedente continua com a força que restou.**
+> **Uma proteção possui uma Vida estrutural determinada pela Fonte, com mínimo [1]. Ela absorve aquilo que consegue suportar e o excedente continua com a força que restou.**
 
 ## Informação
 
@@ -214,13 +214,33 @@ Base de uso:
 
 `Invocação — Médio / 1 criação / Tamanho Humano / Cena / Efetivo máximo [nível da Invocação]`
 
-Invocação cria uma entidade ou objeto dentro do repertório real do Poder. O patamar determina a configuração máxima da criação; não obriga a usar toda a potência disponível.
+Invocação é um **efeito de criação/chamada**: pode trazer, criar ou chamar um aliado, criatura, objeto, máquina ou outro reforço coerente com o repertório do Poder. A aparência ou natureza física do resultado não determina por si só o Atributo da Fonte.
 
-Uma criação invocada possui **2 graus de Vida: V10**. Quando é atacada diretamente, sua Defesa estrutural é sua `RES`:
+A capacidade de invocar e a estrutura da criatura resultante são coisas diferentes. Uma criação física pode ser produzida por magia, tecnologia, conhecimento ou outra Fonte. Um robô pode, por exemplo, ser invocado por uma capacidade de engenharia baseada em MEN; sua `RES` e seus demais Atributos pertencem à própria criatura, não ao invocador.
 
-`Invocação [D = RES / V10]`
+### Invocação sustentada por MEN/VON
 
-### Distribuição de Atributos
+Para uma Invocação sustentada por eixo mágico/mental (`MEN` ou `VON`), a Vida da criação é:
+
+`Vida = maior entre MEN e VON + 3`
+
+Exemplos:
+
+`MEN [1] | VON [1] → VIDA [4]`
+
+`MEN [2] | VON [1] → VIDA [5]`
+
+`MEN [4] | VON [2] → VIDA [7]`
+
+`MEN [4] | VON [4] → VIDA [7]`
+
+A fórmula acima vale para a Vida da **criação invocada**, não para a Vida do invocador.
+
+### Outras Fontes de Invocação
+
+Quando a Invocação for sustentada por outra Fonte coerente, a Vida estrutural da manifestação usa a regra da Fonte aplicável, respeitando o mínimo `[1]`. Isso não transforma `RES` do invocador em requisito universal para Invocação.
+
+### Distribuição de Atributos da criação
 
 Uma criação recebe apenas os Atributos necessários para cumprir sua função. Atributos não elevados permanecem `[0]` ou são irrelevantes.
 
@@ -236,9 +256,9 @@ Uma criação recebe apenas os Atributos necessários para cumprir sua função.
 
 Como existem quatro Atributos universais (`FIS | RES | MEN | VON`), não existe uma quinta posição de distribuição.
 
-Exemplos: `Cadeira comum → atributos relevantes [0]` | `Parede passiva → RES [5]` | `Parede ativa → FIS [4] | RES [4]` | `Golem bruto → FIS [4] | RES [4]` | `Entidade equilibrada → FIS [3] | RES [3] | MEN [3]`.
+Exemplos: `Cadeira comum → atributos relevantes [0]` | `Parede passiva → RES [5]` | `Parede ativa → FIS [4] | RES [4]` | `Golem bruto → FIS [4] | RES [4] | MEN [0]` | `Entidade equilibrada → FIS [3] | RES [3] | MEN [3]`.
 
-> **Invocação determina como se estrutura aquilo que foi criado. O Poder determina o que pode ser criado.**
+> **Invocação determina a chamada/criação. Os Atributos e a Vida pertencem à criatura ou objeto resultante.**
 
 ### Função, contenção e eixo da disputa
 
