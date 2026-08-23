@@ -2,7 +2,7 @@
 
 Status: APROVADO
 
-NPC não é uma categoria mecânica diferente. Todos os personagens usam as mesmas regras, escalas e estruturas de `ATRIBUTOS`, `PERÍCIAS`, `PODERES`, `TRAÇOS`, `RELAÇÕES` e `RECURSOS`.
+NPC não é uma categoria mecânica diferente. Todos os personagens usam as mesmas regras, escalas e estruturas de `ATRIBUTOS`, `PERÍCIAS`, `PODERES`, `TRAÇOS`, `RELAÇÕES`, `RECURSOS`, `VIDA` e `ENERGIA`.
 
 A diferença está em **quem controla o personagem** e em **quanto vale a pena registrar para garantir continuidade**.
 
@@ -47,13 +47,19 @@ CONTROLE: NPC
 
 A delegação operacional não altera a ficha. O personagem continua `CONTROLE: NPC`.
 
-## Importância não cria mecânica própria
+## Importância e mecânica
 
 NPCs podem ser `Relevantes` ou `Figurantes` conforme sua função estrutural na campanha.
 
-A importância não modifica atributos, perícias, poderes, resistência, chance de sucesso ou qualquer outra regra mecânica.
+A importância não modifica automaticamente atributos, perícias, poderes, resistência, chance de sucesso ou potência.
 
 Ela também não determina o tamanho da ficha.
+
+A `VIDA` é a exceção em que a função narrativa pode orientar diretamente a duração esperada de uma peça em confronto. Isso não significa que a categoria calcule a VIDA por fórmula: o valor final continua sendo escolhido e registrado explicitamente.
+
+Assim, um Figurante pode possuir `RES [4]` e ainda ter `VIDA [5]`. Ele continua muito difícil de ferir, mas quando um ataque capaz realmente o atinge não precisa sustentar a duração de um protagonista.
+
+Da mesma forma, uma entidade central ou chefe excepcional pode possuir `VIDA [50]` ou mais quando sua durabilidade em cena justificar isso.
 
 Um Figurante pode ter uma ficha extensa se isso for útil. Um Relevante pode ter poucas linhas se isso for suficiente.
 
@@ -70,6 +76,8 @@ Guarda
 Importância: Figurante
 CONTROLE: NPC
 
+VIDA [5]
+
 PER:
 Soldado [+1]
 
@@ -82,19 +90,20 @@ Se possuir capacidade excepcional, ela é registrada normalmente pelas mesmas re
 Exemplo:
 
 ```text
-Guarda
+Monstro de guarda
 Importância: Figurante
 CONTROLE: NPC
 
 ATR:
-RES [1]
+RES [4]
 
-PER:
-Soldado [+1]
+VIDA [5]
 
 PODERES:
-Arsenal [1] => Dano
+Força monstruosa [3] => Dano / Movimento
 ```
+
+`RES [4]` não transforma automaticamente esse monstro em um chefe. Ataques fracos terão enorme dificuldade para produzir Dano relevante, mas a criatura é incapacitada quando seu Dano acumulado alcança sua `VIDA [5]`, salvo consequência mais severa exigida pela própria ficção.
 
 ## NPCs poderosos
 
@@ -108,6 +117,8 @@ Exemplo conceitual:
 Trigon
 Importância: Relevante
 CONTROLE: NPC
+
+VIDA [50]
 
 TRAÇOS:
 - Entidade demoníaca extraplanar.
@@ -251,3 +262,5 @@ O NARRADOR continua julgando a proposta.
 NPCs, antagonistas, aliados e protagonistas obedecem à mesma regra de `calibracao.md`:
 
 > **cada personagem é construído pelo que ele é, nunca para equilibrar outra ficha.**
+
+A VIDA pode ser escolhida de acordo com a durabilidade que aquela peça precisa sustentar na história sem alterar seus demais patamares mecânicos.
