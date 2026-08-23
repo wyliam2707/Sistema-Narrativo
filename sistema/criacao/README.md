@@ -1,6 +1,6 @@
 # Criação de Campanha
 
-Status: EM REVISÃO
+Status: APROVADO
 
 Este arquivo é a porta de entrada para **criar uma nova campanha**.
 
@@ -118,63 +118,46 @@ NÃO sobrescrever
 
 A criação de uma nova campanha nunca substitui automaticamente uma campanha existente.
 
-Se o nome estiver disponível, criar imediatamente a estrutura-base definida em `estrutura-da-campanha.md`.
+Quando o nome estiver livre:
 
 ```text
-campanhas/<nome-da-campanha>/
-├── README.md
-├── personagens/
-│   └── README.md
-├── estado/
-│   └── atual.md
-├── mundo/
-│   └── README.md
-├── mestre/
-│   └── README.md
-└── livro/
-    └── README.md
+criar campanhas/<nome>/
+→ aplicar a estrutura obrigatória de estrutura-da-campanha.md
+→ registrar CRIAÇÃO: EM ANDAMENTO no README.md
+→ checkpoint: Direção narrativa e cenário
 ```
-
-> **NOME DISPONÍVEL → estrutura-base criada → criação continua.**
 
 # Etapa — Direção narrativa e cenário
 
-Esta etapa responde apenas ao necessário para sustentar a campanha.
+Construir primeiro o suficiente para saber **que tipo de campanha está sendo criada**.
 
-```text
-Direção narrativa → que experiência queremos produzir?
-Cenário           → em que mundo e condições básicas isso acontece?
-```
-
-Podem importar, conforme o caso:
+A direção narrativa pode incluir, conforme relevante:
 
 - gênero;
 - tom;
 - foco;
 - ritmo;
-- romance, humor, terror, investigação, ação, cotidiano ou outros elementos;
-- universo;
-- local principal;
-- época;
-- tecnologia;
-- magia ou sobrenatural;
-- organizações essenciais;
-- regras especiais do mundo;
-- grau de fidelidade ou adaptação em cenário conhecido.
+- humor;
+- romance/intimidade;
+- atmosfera;
+- outras prioridades de apresentação.
 
-Não construir uma enciclopédia antes de jogar.
+O cenário deve registrar somente o necessário para começar de forma coerente. Detalhes adicionais podem surgir durante a campanha e ser persistidos depois em `mundo/` quando se tornarem verdades estáveis.
 
-Quando estiver suficientemente claro:
+Depois da aprovação:
 
 ```text
-consolidar Direção narrativa e Cenário no README.md
-→ registrar em mundo/ somente detalhes estáveis que precisem de arquivo próprio
+README.md
+→ registrar resumo de Direção narrativa
+→ registrar resumo de Cenário
 → checkpoint: Registrar protagonista
 ```
 
-# Regra universal — nascimento de qualquer ficha
+# Etapa — Registrar protagonista
 
-A primeira estrutura de **qualquer personagem apresentável ao jogador** é sempre:
+A ficha nasce completa em **estrutura** e mínima em **conteúdo**.
+
+As três perguntas universais de nascimento são:
 
 ```text
 1 - NOME
@@ -182,108 +165,90 @@ A primeira estrutura de **qualquer personagem apresentável ao jogador** é semp
 3 - CONTROLE
 ```
 
-Fazer uma pergunta por vez.
-
-Se o jogador já tiver fornecido um desses campos de forma explícita, não perguntar novamente; registrar e seguir para o próximo ainda indefinido.
-
-Assim que os três estiverem definidos:
+Para o protagonista, normalmente:
 
 ```text
-NOME + IMPORTÂNCIA + CONTROLE
-→ criar personagens/<nome>.md
-→ copiar o modelo-base completo de sistema/personagem/ficha.md
+CONTROLE: JOGADOR HUMANO
+```
+
+Depois de obter essas três informações:
+
+```text
+criar personagens/<nome>.md
+→ copiar integralmente o modelo de ../personagem/ficha.md
 → Status: PENDENTE DE REVISÃO
 → preencher somente Nome, Importância e CONTROLE
 → deixar todo o restante em branco
 ```
 
-Não preencher antecipadamente conceito, aparência, idade, história, personalidade, atributos, perícias, poderes, TRAÇOS, RECURSOS, relações ou qualquer outro campo.
+Não preencher antes da revisão:
 
-> **A ficha nasce completa em estrutura e mínima em conteúdo. Todo o restante pertence à revisão.**
+- conceito;
+- aparência;
+- idade;
+- história;
+- personalidade;
+- atributos;
+- perícias;
+- poderes;
+- traços;
+- recursos;
+- relações;
+- outros campos não fornecidos e aprovados.
 
-# Etapa — Registrar protagonista
-
-Registrar o personagem do jogador humano usando exatamente a regra universal:
-
-```text
-NOME
-→ IMPORTÂNCIA
-→ CONTROLE
-→ ficha completa em branco
-```
-
-`CONTROLE` deve representar a autoridade realmente definida para essa peça; não inferir Importância a partir do Controle nem Controle a partir da Importância.
-
-Depois de criar a ficha estrutural do protagonista:
+Depois:
 
 ```text
-registrar Nome + Importância + CONTROLE no índice da campanha
+personagens/README.md
+→ adicionar Nome + Importância + CONTROLE
+
+README.md da campanha
 → checkpoint: Registrar outros personagens com agência
 ```
 
-Nenhum outro conteúdo da ficha é criado nesta etapa.
+> **Antes da revisão, somente NOME, IMPORTÂNCIA e CONTROLE são preenchidos.**
 
 # Etapa — Registrar outros personagens com agência
 
-Perguntar se a campanha terá outros personagens com agência própria de jogador no início.
+Perguntar quais outros personagens terão agência de jogador na campanha.
 
-Quando houver, registrar **cada personagem individualmente** pela mesma sequência:
+Para cada personagem:
 
 ```text
-NOME
-→ IMPORTÂNCIA
-→ CONTROLE
-→ ficha completa em branco
+1 - NOME
+2 - IMPORTÂNCIA
+3 - CONTROLE
 ```
 
-Controles possíveis incluem, conforme a campanha:
+Valores de `CONTROLE` com agência própria:
 
 ```text
 JOGADOR IA
 JOGADOR IA EVENTUAL
 ```
 
-Cada personagem possui seu próprio arquivo mesmo quando vários compartilham a persona `JOGADOR IA EVENTUAL`.
+Cada personagem recebe **seu próprio arquivo**.
 
-Não criar grupo, equipe ou organização como uma única ficha quando seus integrantes são peças distintas.
+Mesmo quando vários personagens usam a mesma persona `JOGADOR IA EVENTUAL`, não existe ficha compartilhada.
+
+Quando o jogador terminar de registrar personagens:
+
+```text
+checkpoint
+→ Revisão das fichas
+```
 
 ## Personagens conhecidos
 
-Se o personagem for conhecido, canônico ou licenciado, **não desenvolver sua versão nesta etapa**.
+Se o personagem vier de obra conhecida, sua versão-base é tratada somente durante o **Bloco 1 — Identidade e conceito**, salvo quando o jogador já forneceu explicitamente essa informação antes.
 
-Aqui continuam sendo preenchidos apenas:
+Não preencher antecipadamente cânone, poderes, história ou personalidade só porque o nome é conhecido.
 
-```text
-NOME
-IMPORTÂNCIA
-CONTROLE
-```
-
-A versão-base, combinações e alterações entram no Bloco 1 da revisão, salvo quando o jogador já tiver fornecido essa informação antes.
-
-Quando todos os personagens com agência inicial estiverem registrados:
-
-```text
-checkpoint: Revisão das fichas
-```
+A versão escolhida e consolidada pelo jogador torna-se a referência canônica local da campanha.
 
 # Etapa — Revisão das fichas
 
-A revisão acontece **uma ficha por vez**.
-
-Ordem inicial:
-
-```text
-personagens JOGADOR IA
-→ personagens JOGADOR IA EVENTUAL
-→ protagonista
-```
-
-O protagonista é revisado por último para evitar que sua ficha sirva como régua automática para calibrar as demais.
-
-Cada personagem é calibrado pelo que ele é, usando `sistema/personagem/` e `sistema/resolucao/` quando necessário.
-
-## Cinco blocos
+A revisão ocorre por personagem, em cinco blocos:
 
 ```text
 1 - Identidade e conceito
@@ -293,113 +258,110 @@ Cada personagem é calibrado pelo que ele é, usando `sistema/personagem/` e `si
 5 - Conferência final
 ```
 
-### Bloco 1 — Identidade e conceito
-
-Nome, Importância e CONTROLE já estão definidos.
-
-Revisar e preencher o restante da identidade, quando aplicável:
-
-- versão-base de personagem conhecido;
-- origem;
-- idade;
-- aparência;
-- conceito;
-- personalidade;
-- comportamento;
-- história essencial;
-- desejos e objetivos;
-- medos e limites;
-- conhecimento necessário para interpretação.
-
-Para personagem conhecido, o jogador pode alterar, combinar ou substituir qualquer elemento da versão-base. Depois de consolidada, a versão da campanha passa a ser sua referência canônica local.
-
-> **A pergunta relevante é “qual é a versão desta campanha?”, não “qual é a versão oficial?”.**
-
-### Bloco 2 — Atributos e perícias
-
-Converter e revisar:
+Ordem geral:
 
 ```text
-FIS | RES | MEN | VON
+JOGADORES IA
+→ JOGADORES IA EVENTUAIS
+→ protagonista
 ```
 
-e as perícias realmente relevantes.
-
-### Bloco 3 — Poderes e capacidades
-
-Converter e revisar poderes, equipamentos tratados como Poder quando aplicável, capacidades especiais e seus limites.
-
-### Bloco 4 — Traços e relações
-
-Revisar TRAÇOS, fraquezas, características qualitativas, RECURSOS recorrentes e relações que pertençam à ficha.
-
-### Bloco 5 — Conferência final
-
-Verificar o conjunto completo, corrigir incoerências, remover excessos e confirmar que o modelo não deixou campo importante esquecido.
-
-Campos comprovadamente inúteis podem ser removidos somente depois dessa conferência.
-
-## Salvamento por bloco
-
-Conteúdo ainda em discussão não é persistido como definitivo.
+Dentro de cada bloco:
 
 ```text
-bloco apresentado
-→ discutir e corrigir
-→ jogador aprova
-→ atualizar personagens/<nome>.md
-→ atualizar checkpoint para o próximo bloco
+apresentar proposta
+→ discutir
+→ ajustar
+→ receber aprovação
+→ salvar imediatamente somente o bloco aprovado
+→ avançar checkpoint
 ```
 
-Se a conversa for interrompida, os blocos aprovados permanecem salvos e o checkpoint mostra o ponto exato de retomada.
+Conteúdo ainda em discussão **não é persistido como definitivo**.
 
-Quando uma ficha concluir o Bloco 5:
+Não preencher campo vazio com zero. `[0]` é valor mecânico real e só deve ser usado quando realmente estabelecido.
+
+Depois do Bloco 5 aprovado:
 
 ```text
-Status: APROVADO
+Status da ficha: APROVADO
 ```
 
-Depois que todas as fichas iniciais estiverem aprovadas:
-
-```text
-checkpoint: Início da história
-```
+Então seguir para a próxima ficha.
 
 # Etapa — Início da história
 
-Somente depois das fichas aprovadas definir **de onde a primeira cena parte**.
+Somente depois de todas as fichas aprovadas, definir a situação concreta em que a campanha começará.
 
-Pergunta-base:
-
-> **Como você quer que a história comece?**
-
-Exemplos podem incluir:
+O início pertence a:
 
 ```text
-1 - cotidiano antes de algo acontecer
-2 - já no meio de um acontecimento
-3 - encontro com personagem importante
-4 - chegada a um novo lugar
-5 - missão ou objetivo já em andamento
-6 - problema ou ameaça aparece
-7 - NARRADOR escolhe uma abertura coerente
-8 - outro / combinação própria
+estado/atual.md
 ```
 
-A etapa possui no máximo 5 perguntas principais, mas esse é apenas um teto. Perguntar menos quando já houver informação suficiente.
+O README da campanha apenas aponta para essa fonte.
 
-Não planejar capítulos futuros, arcos completos ou acontecimentos que ainda devem nascer durante o jogo.
+Consolidar em `estado/atual.md` o que for necessário para abrir corretamente a primeira cena, por exemplo:
 
-Quando a abertura estiver clara:
+- quem está presente;
+- onde estão;
+- situação imediata;
+- STATUS relevante;
+- efeitos ativos;
+- fios causais já estabelecidos;
+- informação operacional necessária.
+
+Depois:
 
 ```text
-consolidar resumo do início
-→ registrar situação inicial concreta em estado/atual.md
-→ README.md aponta Situação de entrada para estado/atual.md
+README.md
 → CRIAÇÃO: CONCLUÍDA
-→ NARRADOR abre a primeira cena
+→ remover checkpoint de criação
+→ apontar Situação de entrada para estado/atual.md
 ```
 
-A consolidação usa somente fatos já aprovados e necessários para a entrada. Não copia fichas completas para `estado/atual.md` e não inventa acontecimentos futuros.
+Somente então começar a primeira cena.
 
-> **Fichas aprovadas primeiro. Abertura depois. A primeira cena nasce do estado já consolidado.**
+# Importância e CONTROLE
+
+`IMPORTÂNCIA` mede peso estrutural.
+
+`CONTROLE` define quem decide.
+
+São independentes.
+
+Não existe limite universal obrigatório de personagens Centrais.
+
+Mudar `IMPORTÂNCIA` não muda automaticamente `CONTROLE`, ficha ou mecânica.
+
+Toda proposta de alteração de Importância exige aprovação do JOGADOR HUMANO antes de persistir.
+
+# Regra contra duplicação
+
+Cada informação deve possuir uma fonte principal.
+
+```text
+README da campanha
+→ resumo e checkpoint
+
+personagens/
+→ fichas
+
+estado/atual.md
+→ presente operacional
+
+mundo/
+→ verdades estáveis do cenário
+
+mestre/
+→ material reservado e NPCs persistentes
+
+livro/
+→ história ocorrida
+```
+
+Não criar arquivos paralelos de STATUS, Progressão, cronologia, intenções ou gerência apenas para repetir conteúdo já coberto por essa estrutura.
+
+## Regra final
+
+> **A ficha nasce completa em estrutura e mínima em conteúdo. Antes da revisão, somente NOME, IMPORTÂNCIA e CONTROLE são preenchidos; os demais campos permanecem vazios até seu bloco. Cada bloco aprovado é salvo imediatamente. Depois de todas as fichas aprovadas, o estado inicial é consolidado e a campanha começa.**
