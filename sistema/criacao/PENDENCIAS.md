@@ -245,22 +245,40 @@ Commit:
 
 - `4b60f6e14bfcf195fb3910d8282e9a2b7f828e57`
 
-## Ponto atual
-
 ### Ponto 8 — nome de campanha já existente
 
-Como o nome agora cria a estrutura imediatamente, falta uma proteção contra sobrescrita.
+APROVADO E REGISTRADO.
 
-Proposta a discutir:
+Regra aprovada:
+
+> **A criação de uma nova campanha nunca pode sobrescrever automaticamente uma pasta de campanha existente.**
+
+Fluxo:
 
 ```text
-se campanhas/<nome>/ já existir
-→ NÃO sobrescrever
+jogador informa o nome da campanha
+→ verificar se campanhas/<nome>/ já existe
+
+se NÃO existir
+→ criar normalmente
+
+se JÁ existir
+→ NÃO sobrescrever nada
 → informar que a campanha já existe
-→ escolher outro nome ou usar CONTINUAR
+→ continuar essa campanha ou escolher outro nome
 ```
 
-## Pontos ainda não revisados
+A verificação acontece antes da criação de qualquer arquivo.
+
+Registrado em:
+
+- `sistema/criacao/README.md`
+
+Commit:
+
+- `e2ba00279d9458505dd3f2b6d2771ed769de8991`
+
+## Ponto atual
 
 ### Ponto 9 — modelos determinísticos dos READMEs automáticos
 
@@ -277,6 +295,8 @@ estado/atual.md
 ```
 
 Objetivo: qualquer IA criar a mesma estrutura conceitual sem improvisação.
+
+## Pontos ainda não revisados
 
 ### Ponto 10 — migrar a porta de entrada do repositório
 
@@ -342,6 +362,6 @@ Ao abrir um novo chat, continuar assim:
 
 ```text
 1 - ler sistema/criacao/PENDENCIAS.md
-2 - apresentar somente o Ponto 8 ao usuário
-3 - não avançar ao Ponto 9 até o Ponto 8 ser aprovado e salvo
+2 - apresentar somente o Ponto 9 ao usuário
+3 - não avançar ao Ponto 10 até o Ponto 9 ser aprovado e salvo
 ```
