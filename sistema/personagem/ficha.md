@@ -83,6 +83,37 @@ Essa ordem é apenas uma referência estética. **Qualquer personagem pode ter u
 
 Um Figurante pode possuir dez páginas de informação se isso for útil. Um Relevante pode ter apenas três linhas se isso for suficiente.
 
+## Nascimento da ficha
+
+Ao criar uma nova ficha apresentável ao jogador, usar desde o início o **modelo-base completo** definido neste arquivo.
+
+Antes da revisão, preencher somente:
+
+```text
+NOME
+IMPORTÂNCIA
+CONTROLE
+```
+
+O `Status` nasce como:
+
+```text
+Status: PENDENTE DE REVISÃO
+```
+
+Todos os demais campos e seções do modelo já devem existir no arquivo, mas permanecem vazios até serem tratados no bloco correspondente da revisão.
+
+Não preencher antecipadamente aparência, idade, conceito, personalidade, história, atributos, perícias, poderes, recursos, relações ou qualquer outro conteúdo apenas para completar a ficha.
+
+```text
+NOME + IMPORTÂNCIA + CONTROLE
+→ criar o modelo-base completo
+→ deixar os demais campos vazios
+→ iniciar revisão
+```
+
+> **A ficha nasce completa em estrutura e mínima em conteúdo.**
+
 ## Campo desconhecido fica em branco
 
 Durante criação ou revisão, não usar zero para significar “ainda não definido”.
@@ -285,6 +316,8 @@ RECURSOS também não anulam limites físicos ou ficcionais. Se novas instalaç�
 
 O sistema não exige modelos diferentes para Central, Relevante ou Figurante. O mesmo formato pode ser expandido ou reduzido livremente conforme a necessidade real.
 
+Durante a criação inicial, porém, o arquivo nasce com este modelo completo; somente depois da revisão campos comprovadamente inúteis podem ser removidos.
+
 ```text
 # Nome
 
@@ -297,7 +330,6 @@ Conceito:
 Descrição:
 
 TRAÇOS:
-- ...
 
 ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
 PER:
@@ -306,22 +338,17 @@ RECURSOS:
 REL:
 
 ## Personalidade e tendências
-- ...
 
 ## Desejos / objetivos atuais
-- ...
 
 ## Medos / limites relevantes
-- ...
 
 ## Conhecimento atual relevante
-- ...
 
 ## História consolidada relevante
-- ...
 ```
 
-Campos sem utilidade real podem ser omitidos ou permanecer vazios.
+Na ficha recém-criada, somente Nome, Importância e CONTROLE recebem conteúdo. Os demais campos permanecem vazios.
 
 ## Informação reservada do NARRADOR
 
