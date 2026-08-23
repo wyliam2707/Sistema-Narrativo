@@ -33,12 +33,19 @@ Utiliza agentes permanentes, equipes especiais e consultores externos quando um 
 ## Capacidades
 
 ### Atributos
-- **FIS [ ]**
-- **RES [ ]**
-- **MEN [ ]**
-- **VON [ ]**
+- **FIS [0]**
+- **RES [0]**
+- **MEN [0]**
+- **VON [0]**
 
 ### Perícias
+- **Espionagem [+4]**
+- **Estratégia [+4]**
+- **Contrainteligência [+4]**
+- **Liderança [+3]**
+- **Combate [+3]**
+- **Armas de fogo [+3]**
+- **Investigação [+3]**
 
 ### Poderes
 
