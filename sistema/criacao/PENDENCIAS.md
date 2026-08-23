@@ -156,19 +156,38 @@ Commit:
 
 - `1d967588c5df9cca269640ad474168a878f48f88`
 
-## Ponto atual
-
 ### Ponto 5 — relação entre GERÊNCIA e CONTROLE
 
-Durante a criação de personagens IA é usado `GERÊNCIA`, enquanto a ficha definitiva usa `CONTROLE`.
+APROVADO E REGISTRADO.
 
-Proposta a discutir:
+Regra aprovada:
 
-> **GERÊNCIA é a escolha feita durante a criação; ao criar a ficha, seu valor é registrado no campo `CONTROLE`.**
+> **GERÊNCIA é apenas o processo de decidir quem controla a personagem. O resultado dessa decisão é persistido exclusivamente no campo `CONTROLE`.**
 
-Evitar criar um campo permanente `GERÊNCIA:` na ficha.
+Durante a conversa de criação, o termo `GERÊNCIA` pode ser usado para descrever a escolha operacional entre `JOGADOR IA` e `JOGADOR IA EVENTUAL`, mas não cria um campo permanente separado na ficha.
 
-## Pontos ainda não revisados
+Assim que a ficha é criada, a decisão aparece como:
+
+```text
+CONTROLE: JOGADOR IA
+```
+
+ou:
+
+```text
+CONTROLE: JOGADOR IA EVENTUAL
+```
+
+Não usar simultaneamente:
+
+```text
+GERÊNCIA: ...
+CONTROLE: ...
+```
+
+A regra já corresponde ao funcionamento descrito em `sistema/criacao/README.md`, que usa GERÊNCIA durante a escolha e persiste a identificação + CONTROLE na campanha. Nenhuma duplicação de campo deve ser criada.
+
+## Ponto atual
 
 ### Ponto 6 — personagens eventuais no índice da campanha
 
@@ -183,6 +202,8 @@ Garfield — JOGADOR IA EVENTUAL
 ```
 
 A persona `JOGADOR IA EVENTUAL` pode ser única, mas as peças continuam distintas.
+
+## Pontos ainda não revisados
 
 ### Ponto 7 — personagem conhecido com versões diferentes
 
@@ -286,6 +307,6 @@ Ao abrir um novo chat, continuar assim:
 
 ```text
 1 - ler sistema/criacao/PENDENCIAS.md
-2 - apresentar somente o Ponto 5 ao usuário
-3 - não avançar ao Ponto 6 até o Ponto 5 ser aprovado e salvo
+2 - apresentar somente o Ponto 6 ao usuário
+3 - não avançar ao Ponto 7 até o Ponto 6 ser aprovado e salvo
 ```
