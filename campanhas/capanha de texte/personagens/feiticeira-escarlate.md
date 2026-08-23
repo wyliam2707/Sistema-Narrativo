@@ -19,6 +19,8 @@ Visual urbano com influência boêmia e alternativa. Usa roupas em camadas, bota
 ## Origem / natureza
 Nascida em Sokovia. Irmã gêmea de Pietro Maximoff, com quem mantém um vínculo muito forte. Cresceu em meio à violência e instabilidade do país.
 
+Integra os Vingadores.
+
 Suas capacidades já estão despertas e consolidadas; Wanda não está em fase de descoberta dos próprios poderes.
 
 ## Conceito
@@ -52,10 +54,11 @@ Wanda Maximoff é uma jovem sokoviana de presença intensa, emocionalmente expre
 - Forte instinto de proteção às pessoas que considera família.
 
 ### Relações
-- **Pietro Maximoff:** irmão gêmeo; vínculo extremamente próximo, leal e protetor dos dois lados.
-- **Corvin Blackwood:** namorado e parceiro afetivo; relacionamento próprio e consolidado, independente da relação dele com Ravena.
-- **Ravena:** profunda confiança, intimidade emocional e afeto; é uma das pessoas diante das quais Wanda consegue baixar a guarda.
-- **Estrutura afetiva:** Wanda participa de uma relação afetiva a três envolvendo Corvin e Ravena. Seu vínculo com Corvin é romântico; com Ravena existe intimidade afetiva profunda, sem obrigação de assumir o mesmo formato, mas com liberdade para evoluir organicamente durante a história.
+- **Pietro Maximoff:** irmão gêmeo; vínculo extremamente próximo, leal e protetor dos dois lados. Pietro ainda não conhece Corvin pessoalmente e Wanda não detalhou para ele a estrutura afetiva em que vive.
+- **Corvin Blackwood:** namorado e parceiro afetivo; conheceu Corvin há cerca de seis meses durante a investigação do artefato e do culto de Trigon. O relacionamento se desenvolveu ao longo do caso e se consolidou depois que passaram a viver juntos.
+- **Ravena:** conheceu Ravena cerca de duas semanas antes de Corvin, durante a busca pelo mesmo artefato. A relação começou com desconfiança e cooperação com ressalvas, mas evoluiu para profunda confiança, afeto, atração e intimidade. Nenhuma das duas costuma definir com facilidade o vínculo direto entre elas.
+- **Estrutura afetiva:** Wanda participa de uma relação afetiva a três envolvendo Corvin e Ravena. Seu vínculo com Corvin é assumidamente romântico; o vínculo com Ravena é íntimo e afetivo, ainda pouco rotulado pelas duas.
+- **Vingadores:** fazem parte de sua vida e podem conhecer Corvin por nome ou operações anteriores, mas o relacionamento de Wanda com ele ainda não é informação amplamente conhecida pelo grupo.
 
 ### Recursos
 Nenhum recurso específico consolidado por enquanto.
@@ -102,13 +105,13 @@ Possui experiência prática de sobrevivência urbana e conflitos violentos, al�
 
 Tem compreensão intuitiva e prática de fenômenos ligados às próprias capacidades, mas não é uma estudiosa de ocultismo no nível de Ravena. Quando a situação exige teoria mística, rituais complexos, entidades ou conhecimento sobrenatural especializado, Ravena tende a possuir repertório muito superior.
 
+Conhece a idade real de Corvin e sabe de sua regeneração, envelhecimento retardado e magia da Ordem, mas ainda não conhece necessariamente todos os detalhes das décadas anteriores da vida dele.
+
 ## História consolidada relevante
-Wanda nasceu em Sokovia e cresceu ao lado de seu irmão gêmeo, Pietro Maximoff, em meio à instabilidade e à violência que marcaram o país.
+Wanda nasceu em Sokovia e cresceu ao lado de seu irmão gêmeo, Pietro Maximoff, em meio à instabilidade e à violência que marcaram o país. Mais tarde passou a integrar os Vingadores.
 
-As experiências que viveram fortaleceram enormemente a ligação entre os dois e contribuíram para a desconfiança de Wanda em relação a estruturas de poder e pessoas que afirmam agir pelo bem de outros.
+Há cerca de seis meses, foi atraída para uma cidade por um artefato que parecia capaz de ajudá-la a controlar melhor seus poderes. Ravena buscava o mesmo objeto, e as duas passaram cerca de duas semanas cooperando antes da chegada de Corvin.
 
-Suas capacidades sobrenaturais despertaram e foram desenvolvidas até alcançarem um estado consolidado. Wanda já teve tempo suficiente para aprender a utilizá-las com grande precisão e confiança.
+Corvin aproximou-se delas sob a cobertura de também procurar o artefato, quando na verdade havia sido enviado pela S.H.I.E.L.D. para investigá-las. Ao descobrir que tudo fazia parte de uma armadilha de um culto de Trigon contra Ravena — e que Wanda também se tornara alvo — ele revelou a verdade e passou a ajudá-las abertamente.
 
-Hoje, Pietro continua sendo uma das pessoas mais importantes de sua vida.
-
-Wanda também construiu um relacionamento amoroso próprio com Corvin Blackwood e um vínculo profundo de confiança, intimidade e afeto com Ravena. Os três formam uma estrutura afetiva conjunta, sem exigir que cada relação dentro dela seja idêntica às demais.
+Wanda e Ravena se afastaram dele por um período, mas a confiança voltou pelas atitudes de Corvin durante os meses seguintes. A atração entre os três cresceu durante o conflito e, depois que o culto foi resolvido, Wanda e Ravena aceitaram ficar por um tempo na casa dele. Há cerca de três meses, os três vivem juntos e a relação já funciona como vínculo afetivo estável, mesmo que nem todas as partes dela sejam igualmente nomeadas.
