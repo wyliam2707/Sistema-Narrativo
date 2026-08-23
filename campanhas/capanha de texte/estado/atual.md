@@ -6,22 +6,22 @@ Todas as fichas iniciais com agência foram aprovadas e o pareamento relevante f
 
 ## Situação atual
 
-É noite.
+É fim da manhã do dia seguinte, próximo do meio-dia.
 
-Corvin, Wanda e Ravena passaram o dia em rotina doméstica na grande casa de Corvin.
+Na noite anterior, Corvin, Wanda e Ravena saíram juntos para jantar em um restaurante-bar discreto, com comida, música e espaço para dançar. A noite permaneceu íntima e agradável, sem complicações externas.
 
-Ravena havia voltado na noite anterior de uma missão com os Titãs; descansou durante a manhã e recuperou-se ao longo do dia.
+Wanda e Ravena escolheram prolongar a proximidade quando os três voltaram para casa; a intimidade entre eles aconteceu de forma consensual e não explícita, e os três dormiram juntos.
 
-Wanda possui uma reunião com Tony Stark daqui a dois dias. Durante a manhã, treinou e depois seguiu a própria rotina.
+Corvin acordou primeiro próximo do meio-dia, saiu da cama sem acordar as duas e foi preparar café para Wanda e Ravena.
 
-Corvin preparou café da manhã e almoço para os três e passou a tarde estudando Magia da Ordem na grande biblioteca da casa.
+Ravena havia retornado de uma missão com os Titãs no dia anterior à saída, mas já havia descansado e se recuperado.
 
-À noite, Corvin convidou Wanda e Ravena para saírem juntos para jantar em um lugar mais íntimo para os três, sem formalidade excessiva, com comida e espaço para dançar. As duas aceitaram.
+Wanda possui uma reunião com Tony Stark no dia seguinte.
 
 A vida afetiva dos três já é normal dentro da casa, mas ainda não foi explicada por completo aos círculos sociais de Wanda e Ravena: os Vingadores conhecem essencialmente a versão de que Wanda está com Corvin; os Titãs conhecem essencialmente a versão de que Ravena está com Corvin. A participação da outra mulher na relação ainda ficou fora dessas explicações simplificadas.
 
 ## Cena atual
 
-Noite.
+Fim da manhã, próximo do meio-dia.
 
-Corvin, Wanda e Ravena saíram juntos para jantar em um restaurante-bar discreto, com mesas mais reservadas, música e uma pequena pista de dança. A noite é uma saída íntima dos três, não uma ocasião formal.
+Corvin está na cozinha preparando café para Wanda e Ravena depois de sair de fininho da cama. As duas ainda estão no quarto no início desta janela.
