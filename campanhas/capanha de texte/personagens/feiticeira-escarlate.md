@@ -58,7 +58,7 @@ Wanda Maximoff é uma jovem sokoviana de presença intensa, emocionalmente expre
 - **Corvin Blackwood:** namorado e parceiro afetivo; conheceu Corvin há cerca de seis meses durante a investigação do artefato e do culto de Trigon. O relacionamento se desenvolveu ao longo do caso e se consolidou depois que passaram a viver juntos.
 - **Ravena:** conheceu Ravena cerca de duas semanas antes de Corvin, durante a busca pelo mesmo artefato. A relação começou com desconfiança e cooperação com ressalvas, mas evoluiu para profunda confiança, afeto, atração e intimidade. Nenhuma das duas costuma definir com facilidade o vínculo direto entre elas.
 - **Estrutura afetiva:** Wanda participa de uma relação afetiva a três envolvendo Corvin e Ravena. Seu vínculo com Corvin é assumidamente romântico; o vínculo com Ravena é íntimo e afetivo, ainda pouco rotulado pelas duas.
-- **Vingadores:** fazem parte de sua vida e podem conhecer Corvin por nome ou operações anteriores, mas o relacionamento de Wanda com ele ainda não é informação amplamente conhecida pelo grupo.
+- **Vingadores:** Wanda já deixou entender ou contou que está envolvida romanticamente com Corvin. O grupo pode conhecer Corvin por nome ou por operações anteriores, mas Wanda ainda não explicou que Ravena também faz parte da relação nem detalhou o vínculo direto entre as duas. Para os amigos, a versão social provisória é essencialmente "Wanda está com Corvin".
 
 ### Recursos
 Nenhum recurso específico consolidado por enquanto.
