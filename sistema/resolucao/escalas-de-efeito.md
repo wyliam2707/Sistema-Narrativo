@@ -28,6 +28,8 @@ Enquanto possuir `V > 0`, um efeito persistente continua funcionando integralmen
 
 Quando a Vida estrutural de um efeito persistente chega a `V0`, o efeito encerra imediatamente. Não existe estado residual automático nem funcionamento parcial depois de `V0`, salvo quando uma regra específica disser expressamente o contrário.
 
+Se o mesmo efeito for aplicado novamente depois de a instância anterior ter chegado a `V0`, a nova aplicação cria uma **nova instância completa**. Não existe consolidação, média ou reaproveitamento do `V0` anterior, porque a instância antiga já deixou de existir.
+
 ### Aplicações iguais no mesmo alvo
 
 Quando duas ou mais aplicações **do mesmo efeito persistente** atingem o mesmo alvo, elas não se acumulam por soma. Elas se consolidam em uma única instância.
