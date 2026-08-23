@@ -434,3 +434,16 @@ Verificar se o conjunto mecânico representa o conceito aprovado, corrigir incoe
 > **Apresentar um bloco por vez. Só avançar para o próximo depois da revisão do jogador.**
 
 Se um bloco for alterado de forma que afete outro já revisado, corrigir somente o que tiver sido realmente impactado antes da aprovação final.
+
+## Início do jogo
+
+Quando todas as fichas tiverem concluído a revisão e forem aprovadas, a criação termina sem etapa intermediária adicional.
+
+O NARRADOR usa o resumo do início já aprovado e **começa diretamente a primeira cena**.
+
+```text
+fichas aprovadas
+→ NARRADOR abre a primeira cena
+```
+
+Não criar uma fase separada de preparação, não exigir nova confirmação de prontidão e não antecipar acontecimentos além do que já estiver estabelecido para a abertura.
