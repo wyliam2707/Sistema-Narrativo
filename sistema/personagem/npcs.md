@@ -33,9 +33,9 @@ Um NPC pode ser mais poderoso, mais antigo ou mais importante que um personagem 
 
 `OPOSITOR` não é uma categoria de `CONTROLE`.
 
-O OPOSITOR pode propor problemas, pressões, interrupções e ações hostis usando elementos legítimos da ficção. O `NARRADOR` julga se a proposta é plausível e coerente.
+O OPOSITOR pode propor problemas, pressões, interrupções e ações usando elementos legítimos da ficção. O `NARRADOR` julga se a proposta é plausível e coerente.
 
-Quando apropriado, o NARRADOR pode delegar temporariamente um NPC ao OPOSITOR para executar aquela oposição.
+Quando apropriado, o NARRADOR pode delegar temporariamente um NPC ao OPOSITOR para executar aquela oposição ou movimento do cenário.
 
 Exemplo:
 
@@ -45,9 +45,7 @@ Importância: Figurante
 CONTROLE: NPC
 ```
 
-O NARRADOR pode aprovar a entrada do assassino na cena e entregá-lo temporariamente ao OPOSITOR durante o confronto.
-
-Isso não altera a ficha. O personagem continua `CONTROLE: NPC`.
+A delegação operacional não altera a ficha. O personagem continua `CONTROLE: NPC`.
 
 ## Importância não cria mecânica própria
 
@@ -59,11 +57,9 @@ Ela também não determina o tamanho da ficha.
 
 Um Figurante pode ter uma ficha extensa se isso for útil. Um Relevante pode ter poucas linhas se isso for suficiente.
 
-A quantidade de aparições, sozinha, não muda a importância de um NPC.
-
 ## Ficha rápida
 
-NPCs simples não usam modelos especiais como `Humano [1]`, `Demônio [3]` ou qualquer regra que preencha automaticamente todos os atributos.
+NPCs simples não usam modelos automáticos que preencham capacidades inexistentes.
 
 Uma ficha rápida registra apenas o que realmente precisa ser conhecido para aquele NPC funcionar.
 
@@ -81,9 +77,9 @@ PODERES:
 Arsenal [1] => Dano
 ```
 
-Tudo que não precisa ser destacado pode permanecer sem registro específico.
+Se possuir capacidade excepcional, ela é registrada normalmente pelas mesmas regras usadas por qualquer outro personagem.
 
-Se o personagem possuir uma capacidade excepcional, ela é registrada normalmente pelas mesmas regras usadas por qualquer outro personagem:
+Exemplo:
 
 ```text
 Guarda
@@ -133,7 +129,7 @@ RECURSOS:
 Domínio de Trigon => exércitos demoníacos, servos, fortalezas, conhecimento antigo
 ```
 
-A ficha curta não reduz o poder do personagem. Ela apenas evita registrar informação que não é necessária para operação ou continuidade.
+A ficha curta não reduz o poder do personagem. Ela apenas evita registrar informação desnecessária.
 
 ## Vitória não é poder bruto
 
@@ -149,7 +145,7 @@ Um personagem especializado não precisa receber atributos maiores apenas para e
 
 Um NPC simples pode existir somente durante a cena e nunca receber arquivo persistente.
 
-Criar um registro persistente quando houver informação que valha a pena preservar entre cenas, por exemplo:
+Criar registro persistente quando houver informação que realmente precise sobreviver entre cenas, por exemplo:
 
 - relações recorrentes;
 - desavenças;
@@ -161,35 +157,77 @@ Criar um registro persistente quando houver informação que valha a pena preser
 - consequências ainda ativas;
 - mudanças que possam afetar decisões futuras.
 
-Ter um arquivo persistente não altera `Importância` nem `CONTROLE`.
+Ter arquivo persistente não altera `Importância` nem `CONTROLE`.
 
 ## Onde registrar NPCs persistentes
 
-NPCs persistentes pertencem ao **mundo da campanha**, não à pasta de personagens jogáveis.
+NPCs sem agência de jogador pertencem ao material de condução da campanha.
 
-Estrutura recomendada:
+O destino atual é:
 
 ```text
-aventuras/<campanha>/
-├── personagens/
-│   ├── Personagem do Jogador.md
-│   └── Personagem da IA.md
-│
-└── mundo/
-    ├── README.md
-    ├── cenario.md
-    └── npcs/
-        ├── Trigon.md
-        └── Outro NPC.md
+campanhas/<nome>/mestre/
 ```
 
-`personagens/` fica reservado aos personagens efetivamente jogáveis sob `JOGADOR HUMANO` ou `JOGADOR IA`.
+Quando houver vários NPCs persistentes e uma subdivisão realmente ajudar:
 
-`mundo/npcs/` guarda NPCs que precisam de continuidade própria dentro da campanha.
+```text
+campanhas/<nome>/mestre/npcs/
+```
+
+Exemplo:
+
+```text
+campanhas/<nome>/
+├── personagens/
+│   ├── protagonista.md
+│   ├── ravena.md
+│   └── dick-grayson.md
+│
+└── mestre/
+    ├── README.md
+    └── npcs/
+        ├── trigon.md
+        └── outro-npc.md
+```
+
+`personagens/` é reservado às peças com agência de jogador:
+
+```text
+JOGADOR HUMANO
+JOGADOR IA
+JOGADOR IA EVENTUAL
+```
+
+`mestre/` guarda NPCs persistentes, adversários e demais informações reservadas de condução.
+
+`mundo/` guarda fatos estáveis do cenário e **não** é o destino padrão de fichas de NPC.
+
+> **Personagem com agência → `personagens/`. NPC persistente → `mestre/`.**
+
+## Mudança de CONTROLE
+
+Se um NPC passar a receber formalmente:
+
+```text
+CONTROLE: JOGADOR IA EVENTUAL
+```
+
+então ele passa a ser uma peça com agência de jogador.
+
+Sua ficha canônica deve ficar em:
+
+```text
+campanhas/<nome>/personagens/<personagem>.md
+```
+
+Não manter uma segunda ficha completa em `mestre/`.
+
+Informações genuinamente reservadas que ainda não devam fazer parte da ficha aberta podem permanecer em `mestre/` como material separado.
 
 ## Ganchos para o OPOSITOR
 
-Uma ficha persistente de NPC deve preservar fatos que possam gerar pressão futura quando existirem de verdade na ficção.
+Uma ficha persistente de NPC pode preservar fatos que possam gerar movimento futuro quando existirem de verdade na ficção.
 
 Isso pode incluir:
 
@@ -202,11 +240,11 @@ Isso pode incluir:
 - inimigos;
 - desavenças ainda não resolvidas.
 
-Esses elementos não são acontecimentos pré-programados. São apenas fatos disponíveis para o OPOSITOR explorar quando fizer sentido.
+Esses elementos não são acontecimentos pré-programados. São fatos disponíveis quando houver causa, oportunidade e meios coerentes.
 
-O OPOSITOR pode propor uma complicação a partir deles, mas não pode inventar conhecimento, recursos, fraquezas ou preparações que o personagem não possua.
+O OPOSITOR pode propor movimento a partir deles, mas não pode inventar retroativamente conhecimento, recursos, fraquezas ou preparações para contrariar uma solução válida.
 
-O NARRADOR continua julgando a validade da proposta.
+O NARRADOR continua julgando a proposta.
 
 ## Calibração
 
