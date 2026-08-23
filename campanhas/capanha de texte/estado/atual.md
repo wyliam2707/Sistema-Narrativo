@@ -4,6 +4,6 @@ Campanha em criação.
 
 Todas as fichas iniciais com agência foram aprovadas.
 
-O pareamento das informações entre fichas está em andamento.
+O pareamento das informações relevantes entre as fichas iniciais foi concluído e consolidado nas próprias fichas.
 
-A situação inicial da história ainda não deve ser definida.
+Próximo passo: definir a situação inicial da história antes da primeira cena.
