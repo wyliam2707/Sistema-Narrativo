@@ -266,7 +266,67 @@ Fatos já estabelecidos em `mundo/` são canônicos da campanha. Não devem ser 
 
 ### `mestre/`
 
-Guarda material reservado de condução, como NPCs persistentes, adversários, planos, segredos e outros elementos que não devem ser tratados automaticamente como conhecimento dos jogadores.
+Guarda **material reservado de condução** que precisa persistir sem se tornar automaticamente informação disponível aos jogadores ou às personagens.
+
+Não possui uma estrutura interna obrigatória. Criar arquivos ou subpastas apenas quando houver material concreto suficiente para justificar a separação.
+
+Exemplos possíveis:
+
+```text
+mestre/
+├── npcs.md
+├── trigon.md
+└── plano-do-culto.md
+```
+
+Se a quantidade de NPCs persistentes realmente justificar uma subdivisão, pode existir:
+
+```text
+mestre/npcs/
+```
+
+Caso contrário, manter arquivos diretos ou um único `npcs.md` é suficiente.
+
+Podem pertencer a `mestre/`, quando relevantes:
+
+- NPCs persistentes que não possuem agência de jogador;
+- adversários;
+- intenções e planos de NPCs;
+- segredos estabelecidos;
+- ameaças em preparação;
+- informações reservadas necessárias à continuidade;
+- outros elementos de condução que não devam ficar abertos aos jogadores.
+
+#### Sigilo operacional
+
+Acesso da persona ao conteúdo de `mestre/` **não equivale a conhecimento das peças que ela movimenta**.
+
+Exemplo:
+
+```text
+mestre/trigon.md
+→ Trigon pretende atacar na quinta-feira
+```
+
+O fato de o NARRADOR poder consultar essa informação não significa que Ravena, o protagonista ou qualquer outro personagem saiba dela.
+
+Para uma peça adquirir a informação, deve existir um meio legítimo na ficção, como:
+
+- percepção;
+- comunicação;
+- investigação;
+- vigilância;
+- magia;
+- tecnologia;
+- outro mecanismo já estabelecido.
+
+A informação reservada só vira conhecimento de uma peça quando isso ocorrer legitimamente segundo as regras de conhecimento e percepção do sistema.
+
+> **A persona pode conhecer algo para cumprir sua função sem que esse conhecimento pertença às peças que ela movimenta.**
+
+O material de `mestre/` também não autoriza alterar retroativamente fatos já estabelecidos apenas para contrariar uma ação válida, restaurar dificuldade ou proteger uma trama.
+
+> **`mestre/` guarda verdades e intenções reservadas de condução. Acesso ao arquivo não cria metaconhecimento nas personagens.**
 
 ### `livro/`
 
