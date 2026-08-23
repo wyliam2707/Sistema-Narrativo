@@ -49,7 +49,9 @@ nome definido
 → continuar a criação
 ```
 
-Os READMEs internos são curtos e explicativos. Eles existem para:
+Os arquivos operacionais da estrutura-base usam os **modelos obrigatórios** definidos abaixo. Não variar o texto inicial entre campanhas nem improvisar versões alternativas.
+
+Eles existem para:
 
 - materializar as pastas no repositório;
 - explicar a função daquela área;
@@ -58,7 +60,65 @@ Os READMEs internos são curtos e explicativos. Eles existem para:
 
 Eles não devem acumular conteúdo que pertença aos arquivos concretos da campanha.
 
-`estado/atual.md` também nasce nesse momento, com conteúdo mínimo suficiente para indicar que a campanha ainda está em criação, por exemplo:
+> **A estrutura nasce junto com o nome. O conteúdo é preenchido conforme as etapas seguintes forem consolidadas.**
+
+## Modelos obrigatórios da estrutura-base
+
+Ao criar uma nova campanha, usar **exatamente** estes textos iniciais. O conteúdo pode ser atualizado depois conforme a campanha evolui, mas a estrutura nasce sempre do mesmo modelo.
+
+### `personagens/README.md`
+
+```text
+# Personagens
+
+Esta pasta guarda as fichas dos personagens com agência da campanha.
+
+Cada personagem possui seu próprio arquivo.
+
+Modelo e regras:
+→ sistema/personagem/ficha.md
+```
+
+### `mundo/README.md`
+
+```text
+# Mundo
+
+Esta pasta guarda fatos estáveis e canônicos do cenário.
+
+Situações momentâneas pertencem a estado/atual.md.
+
+Regras de estrutura:
+→ sistema/criacao/estrutura-da-campanha.md
+```
+
+### `mestre/README.md`
+
+```text
+# Mestre
+
+Esta pasta guarda material reservado de condução.
+
+Acesso a este conteúdo não cria conhecimento automático para as personagens.
+
+Regras de estrutura:
+→ sistema/criacao/estrutura-da-campanha.md
+```
+
+### `livro/README.md`
+
+```text
+# Livro
+
+Esta pasta guarda apenas capítulos já ocorridos, em numeração sequencial.
+
+O ponto atual da campanha pertence a estado/atual.md.
+
+Regras de estrutura:
+→ sistema/criacao/estrutura-da-campanha.md
+```
+
+### `estado/atual.md`
 
 ```text
 # Estado atual
@@ -68,7 +128,7 @@ Campanha em criação.
 A situação inicial será registrada aqui quando definida.
 ```
 
-> **A estrutura nasce junto com o nome. O conteúdo é preenchido conforme as etapas seguintes forem consolidadas.**
+> **Mesma estrutura-base → mesmos arquivos iniciais → nenhuma variação de texto entre IAs.**
 
 ## Função de cada entrada
 
@@ -231,7 +291,7 @@ Guarda as fichas dos personagens com agência de jogador:
 - personagens `JOGADOR IA`;
 - personagens administrados por `JOGADOR IA EVENTUAL`.
 
-A pasta nasce com um `README.md` curto explicando sua função e apontando para `sistema/personagem/ficha.md` como referência de ficha.
+A pasta nasce com o modelo obrigatório de `personagens/README.md` definido acima e aponta para `sistema/personagem/ficha.md` como referência de ficha.
 
 Cada personagem com agência possui **um arquivo próprio**, independentemente do tipo de controle.
 
@@ -297,7 +357,7 @@ estado/
 └── atual.md
 ```
 
-`atual.md` é criado junto com a estrutura-base da campanha. Durante a criação, pode registrar apenas que a campanha ainda está sendo construída. Depois, passa a conter somente o necessário para uma IA assumir a campanha e continuar corretamente do ponto presente.
+`atual.md` é criado junto com a estrutura-base da campanha usando o modelo obrigatório definido acima. Durante a criação, registra apenas que a campanha ainda está sendo construída. Depois, passa a conter somente o necessário para uma IA assumir a campanha e continuar corretamente do ponto presente.
 
 Pode registrar, quando existirem:
 
@@ -348,7 +408,7 @@ situação geral da cena       → consolidar conforme avança
 
 Guarda a **memória canônica estável do cenário**: fatos estabelecidos que precisam persistir e continuar verdadeiros até que a própria ficção os altere.
 
-A pasta nasce com um `README.md` curto explicando que ali ficam fatos estáveis do cenário e que estados momentâneos pertencem a `estado/`.
+A pasta nasce com o modelo obrigatório de `mundo/README.md` definido acima.
 
 Além desse README operacional, não possui arquivos obrigatórios por categoria. Criar arquivos somente quando houver conteúdo concreto suficiente para justificar sua existência.
 
@@ -398,7 +458,7 @@ Fatos já estabelecidos em `mundo/` são canônicos da campanha. Não devem ser 
 
 Guarda **material reservado de condução** que precisa persistir sem se tornar automaticamente informação disponível aos jogadores ou às personagens.
 
-A pasta nasce com um `README.md` curto deixando explícito que seu conteúdo é reservado à condução e que acesso da persona não equivale a conhecimento das peças.
+A pasta nasce com o modelo obrigatório de `mestre/README.md` definido acima.
 
 Além desse README operacional, não possui uma estrutura interna obrigatória. Criar arquivos ou subpastas apenas quando houver material concreto suficiente para justificar a separação.
 
@@ -465,7 +525,7 @@ O material de `mestre/` também não autoriza alterar retroativamente fatos já 
 
 Guarda a **história que realmente aconteceu**, consolidada em forma narrativa.
 
-A pasta nasce com um `README.md` curto explicando que ali entram apenas capítulos já ocorridos e que o padrão de numeração é sequencial.
+A pasta nasce com o modelo obrigatório de `livro/README.md` definido acima.
 
 Depois que capítulos existirem:
 
