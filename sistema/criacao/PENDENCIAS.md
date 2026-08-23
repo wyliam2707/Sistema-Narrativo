@@ -56,11 +56,9 @@ Commits:
 - `1f37238f6c940f4283088d0c49473f1acaf5ab68`
 - `11962cd5843d80cf663f6f5a9bb22d53afc2c730`
 
-## Ponto atual
-
 ### Ponto 2 — destino exato de cada etapa
 
-APROVADO PELO USUÁRIO, MAS **AINDA NÃO REGISTRADO NOS ARQUIVOS**.
+APROVADO E REGISTRADO.
 
 Formulação aprovada:
 
@@ -96,11 +94,12 @@ Regra central aprovada:
 
 > **Cada informação possui uma fonte principal. O README resume e orienta; não duplica o conteúdo dos arquivos concretos.**
 
-Próxima ação no novo chat: **registrar este Ponto 2 em `sistema/criacao/README.md` e `sistema/criacao/estrutura-da-campanha.md`, buscando antes o SHA atual de cada arquivo.**
+Registrado em:
 
-Depois disso, seguir ao Ponto 3.
+- `sistema/criacao/README.md`
+- `sistema/criacao/estrutura-da-campanha.md`
 
-## Pontos ainda não revisados
+## Ponto atual
 
 ### Ponto 3 — salvamento durante a revisão mecânica
 
@@ -117,6 +116,8 @@ Bloco 1 aprovado → atualizar ficha
 Bloco 2 aprovado → atualizar ficha
 ...
 ```
+
+## Pontos ainda não revisados
 
 ### Ponto 4 — hand-off para `estado/atual.md` antes da primeira cena
 
@@ -257,7 +258,6 @@ Ao abrir um novo chat, continuar assim:
 
 ```text
 1 - ler sistema/criacao/PENDENCIAS.md
-2 - registrar o Ponto 2 já aprovado
-3 - apresentar somente o Ponto 3 ao usuário
-4 - não avançar ao Ponto 4 até o Ponto 3 ser aprovado e salvo
+2 - apresentar somente o Ponto 3 ao usuário
+3 - não avançar ao Ponto 4 até o Ponto 3 ser aprovado e salvo
 ```
