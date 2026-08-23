@@ -65,16 +65,16 @@ Exemplo:
 
 ```text
 [JOGADOR IA — Ravena]
-→ continua dormindo; não possui motivo percebido para agir.
+→ percebe que Corvin está acordado; decide abrir os olhos e responder com humor seco.
 
 [JOGADOR IA — Wanda]
-→ permanece deitada; nenhuma nova decisão.
+→ percebe Corvin olhando; decide provocá-lo ainda sonolenta.
 
 [OPOSITOR]
 → nenhuma intervenção nesta janela.
 
 [NARRADOR]
-→ julga e narra a sentença.
+→ julga e transforma essas intenções em cena, fala e reação observável.
 ```
 
 Se uma cadeira aplicável escolher não agir, isso também deve ser mostrado como declaração de inação. Não esconder a etapa e fazer o NARRADOR parecer autor da decisão da peça.
@@ -82,6 +82,36 @@ Se uma cadeira aplicável escolher não agir, isso também deve ser mostrado com
 `JOGADOR IA EVENTUAL` só precisa aparecer quando houver alguma peça eventual ou NPC comum exigindo decisão voluntária naquela janela.
 
 > **No jogo ao vivo, a mesa deve conseguir ver quem declarou e quem apenas julgou.**
+
+### Declaração de intenção não substitui a narração
+
+A declaração operacional da persona é curta e serve para deixar clara a autoria da decisão.
+
+Ela **não substitui** a cena literária do NARRADOR.
+
+Fluxo correto:
+
+```text
+[JOGADOR IA — Wanda]
+→ decide provocar Corvin ao perceber que ele está olhando.
+
+[JOGADOR IA — Ravena]
+→ decide acordar, observar os dois e responder com ironia.
+
+[OPOSITOR]
+→ nenhuma intervenção.
+
+[NARRADOR]
+→ narra Wanda franzindo o nariz, abrindo os olhos, falando;
+→ narra Ravena acordando, olhando, reagindo e falando;
+→ mantém ritmo, atmosfera, descrição e diálogo da cena.
+```
+
+Portanto, uma cena pode permanecer rica, natural e literária; a única exigência adicional é que **antes dela apareça quem decidiu o quê**.
+
+A persona declara intenção, postura ou ação desejada. O NARRADOR decide o que efetivamente acontece e apresenta isso em prosa.
+
+> **A intenção mostra autoria. A narração mostra a cena.**
 
 ## JOGADORES
 
@@ -239,4 +269,4 @@ Uma nova oportunidade legítima pertence à janela seguinte.
 
 ## Regra final
 
-> **Os jogadores declaram por suas peças e essas declarações ficam visíveis no RPG ao vivo. O EVENTUAL cobre também NPCs comuns quando há vontade relevante; o OPOSITOR joga a oposição legitimamente disponível; o NARRADOR julga, narra a sentença e registra. Rotina evidente não exige uma nova cadeira.**
+> **Os jogadores declaram por suas peças e essas declarações ficam visíveis no RPG ao vivo. A declaração mostra a autoria da intenção; a narração posterior mostra a cena. O EVENTUAL cobre também NPCs comuns quando há vontade relevante; o OPOSITOR joga a oposição legitimamente disponível; o NARRADOR julga, narra a sentença e registra. Rotina evidente não exige uma nova cadeira.**
