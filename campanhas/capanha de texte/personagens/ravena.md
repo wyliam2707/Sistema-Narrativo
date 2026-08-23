@@ -21,6 +21,8 @@ Filha de Trigon e de uma mulher humana; híbrida humano-demoníaca criada sob di
 ## Descrição
 Ravena pertence nativamente a este cenário e sempre fez parte deste mundo; não veio de outro universo.
 
+Integra os Titãs.
+
 ## Capacidades
 
 ### Atributos
@@ -46,9 +48,10 @@ Ravena pertence nativamente a este cenário e sempre fez parte deste mundo; não
 - A proximidade de Corvin ou Wanda, por serem pessoas em quem confia profundamente, ajuda Ravena a se estabilizar, conter excessos e direcionar suas emoções sem precisar reprimi-las completamente.
 
 ### Relações
-- **Corvin Blackwood:** namorado; vínculo amoroso consolidado, relação de confiança e uma de suas principais âncoras emocionais.
-- **Wanda Maximoff:** relação profunda de confiança, intimidade emocional e afeto; sua presença também ajuda Ravena a se centrar.
-- **Estrutura afetiva:** Ravena participa de uma relação afetiva a três envolvendo Corvin e Wanda. Seu vínculo com Corvin é amoroso e consolidado; seu vínculo com Wanda não precisa reproduzir o mesmo formato e pode permanecer como intimidade afetiva profunda ou evoluir romanticamente de forma orgânica durante a história.
+- **Corvin Blackwood:** namorado; conheceu Corvin há cerca de seis meses durante a investigação do artefato e do culto de Trigon. O vínculo amoroso se consolidou ao longo do caso e depois que passaram a viver juntos.
+- **Wanda Maximoff:** conheceu Wanda cerca de duas semanas antes de Corvin, durante a busca pelo mesmo artefato. A relação começou com desconfiança e cooperação com ressalvas, mas evoluiu para profunda confiança, afeto, atração e intimidade. Nenhuma das duas costuma definir com facilidade o vínculo direto entre elas.
+- **Estrutura afetiva:** Ravena participa de uma relação afetiva a três envolvendo Corvin e Wanda. Seu vínculo com Corvin é assumidamente amoroso; com Wanda existe uma intimidade afetiva e física real, ainda pouco rotulada pelas duas.
+- **Titãs:** continuam fazendo parte de sua vida. Sabem o básico sobre ela estar morando com Corvin e Wanda e demonstram alguma curiosidade, mas não conhecem todos os detalhes da dinâmica entre os três.
 
 ### Recursos
 Nenhum recurso específico consolidado por enquanto.
@@ -89,17 +92,13 @@ Sua experiência permite investigar acontecimentos sobrenaturais com competênci
 
 Conhece particularmente bem os sinais relacionados a Trigon e à própria herança demoníaca, sendo capaz de reconhecer influências que outras pessoas poderiam confundir com fenômenos mágicos comuns.
 
+Conhece a idade real de Corvin e sabe de sua regeneração, envelhecimento retardado e magia da Ordem, mas ainda não conhece necessariamente todos os detalhes das décadas anteriores da vida dele.
+
 ## História consolidada relevante
-Rachel Roth, conhecida como Ravena, nasceu da união de uma mulher humana com Trigon.
+Rachel Roth, conhecida como Ravena, nasceu da união de uma mulher humana com Trigon. Sua criação foi marcada por disciplina mística e emocional intensa, e mais tarde passou a integrar os Titãs.
 
-Sua natureza híbrida tornou necessário que aprendesse muito cedo a controlar emoções, pensamentos e manifestações de poder. Sua criação foi marcada por disciplina mística e emocional intensa, não para transformá-la em alguém sem sentimentos, mas para impedir que forças ligadas a Trigon controlassem sua vida.
+Há cerca de seis meses, foi atraída para uma cidade por um artefato que parecia capaz de ajudá-la a controlar melhor seus poderes. Wanda Maximoff buscava o mesmo objeto; as duas passaram cerca de duas semanas cooperando antes da chegada de Corvin.
 
-Nesta campanha, Ravena sempre pertenceu a este mundo. Sua história não envolve chegada de outro universo.
+Corvin aproximou-se das duas sob a cobertura de também procurar o artefato, quando na verdade havia sido enviado pela S.H.I.E.L.D. para investigá-las. Ao descobrir que tudo fazia parte de uma armadilha de um culto de Trigon para capturar Ravena — e que Wanda também se tornara alvo — ele revelou a verdade e passou a ajudá-las abertamente.
 
-Com o tempo, deixou de enxergar autocontrole apenas como repressão e passou a construir uma identidade própria, separada tanto das expectativas de Trigon quanto do medo de sua herança.
-
-Desenvolveu uma relação profunda de confiança com Wanda Maximoff, uma das poucas pessoas diante das quais não sente necessidade de manter todas as suas defesas emocionais.
-
-Também construiu com Corvin Blackwood um relacionamento amoroso consolidado. A relação tornou-se uma de suas principais referências de estabilidade emocional porque, com ele, Ravena consegue experimentar sentimentos intensos sem tratá-los automaticamente como ameaça.
-
-Hoje, Ravena integra uma estrutura afetiva a três com Corvin e Wanda. Os três vínculos não precisam possuir a mesma natureza nem a mesma intensidade; a relação entre Ravena e Wanda pode permanecer profundamente afetiva ou evoluir romanticamente conforme as escolhas das personagens e os acontecimentos da história.
+Ravena e Wanda se afastaram dele por um período, mas a confiança voltou pelas atitudes de Corvin durante os meses seguintes. A atração entre os três cresceu durante o conflito e, depois que o culto foi resolvido, Ravena e Wanda aceitaram ficar por um tempo na casa dele. Há cerca de três meses, os três vivem juntos e a relação já funciona como vínculo afetivo estável, ainda que Ravena e Wanda evitem rotular completamente o que existe entre elas.
