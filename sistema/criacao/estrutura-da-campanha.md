@@ -20,13 +20,55 @@ Toda nova campanha usa como base:
 campanhas/<nome-da-campanha>/
 ├── README.md
 ├── personagens/
+│   └── README.md
 ├── estado/
+│   └── atual.md
 ├── mundo/
+│   └── README.md
 ├── mestre/
+│   └── README.md
 └── livro/
+    └── README.md
 ```
 
 Essas são as entradas principais. Não criar pastas adicionais apenas para antecipar necessidades futuras.
+
+## Materialização no momento do nome
+
+Assim que o nome da campanha for definido, a estrutura-base deve ser criada imediatamente em `campanhas/<nome-da-campanha>/`.
+
+O objetivo é que a campanha já exista fisicamente no repositório e seja autoexplicativa mesmo antes de a criação conceitual terminar.
+
+Fluxo:
+
+```text
+nome definido
+→ criar campanhas/<nome>/
+→ criar estrutura-base
+→ criar READMEs operacionais
+→ continuar a criação
+```
+
+Os READMEs internos são curtos e explicativos. Eles existem para:
+
+- materializar as pastas no repositório;
+- explicar a função daquela área;
+- indicar as regras do sistema que devem ser consultadas;
+- impedir que uma IA dependa da conversa original para entender a estrutura.
+
+Eles não devem acumular conteúdo que pertença aos arquivos concretos da campanha.
+
+`estado/atual.md` também nasce nesse momento, com conteúdo mínimo suficiente para indicar que a campanha ainda está em criação, por exemplo:
+
+```text
+# Estado atual
+
+Campanha em criação.
+
+A situação inicial será registrada aqui quando definida.
+```
+
+> **A estrutura nasce junto com o nome. O conteúdo é preenchido conforme as etapas seguintes forem consolidadas.**
 
 ## Função de cada entrada
 
@@ -35,6 +77,8 @@ Essas são as entradas principais. Não criar pastas adicionais apenas para ante
 Porta de entrada e **índice operacional** da campanha.
 
 Deve permitir que uma IA ou narrador identifique rapidamente o que é a campanha, quais peças com agência existem e onde consultar cada tipo de informação.
+
+Ele nasce assim que o nome da campanha é definido e deve ser atualizado conforme a criação avança.
 
 O `README.md` deve conter somente o necessário para orientação inicial:
 
@@ -107,12 +151,15 @@ Guarda as fichas dos personagens com agência de jogador:
 - personagens `JOGADOR IA`;
 - personagens administrados por `JOGADOR IA EVENTUAL`.
 
+A pasta nasce com um `README.md` curto explicando sua função e apontando para `sistema/personagem/ficha.md` como referência de ficha.
+
 Cada personagem com agência possui **um arquivo próprio**, independentemente do tipo de controle.
 
 Exemplo:
 
 ```text
 personagens/
+├── README.md
 ├── wyliam.md
 ├── ravena.md
 ├── dick-grayson.md
@@ -170,7 +217,7 @@ estado/
 └── atual.md
 ```
 
-`atual.md` deve conter somente o necessário para uma IA assumir a campanha e continuar corretamente do ponto presente.
+`atual.md` é criado junto com a estrutura-base da campanha. Durante a criação, pode registrar apenas que a campanha ainda está sendo construída. Depois, passa a conter somente o necessário para uma IA assumir a campanha e continuar corretamente do ponto presente.
 
 Pode registrar, quando existirem:
 
@@ -221,12 +268,15 @@ situação geral da cena       → consolidar conforme avança
 
 Guarda a **memória canônica estável do cenário**: fatos estabelecidos que precisam persistir e continuar verdadeiros até que a própria ficção os altere.
 
-Não possui arquivos obrigatórios por categoria. Criar arquivos somente quando houver conteúdo concreto suficiente para justificar sua existência.
+A pasta nasce com um `README.md` curto explicando que ali ficam fatos estáveis do cenário e que estados momentâneos pertencem a `estado/`.
+
+Além desse README operacional, não possui arquivos obrigatórios por categoria. Criar arquivos somente quando houver conteúdo concreto suficiente para justificar sua existência.
 
 Exemplos possíveis:
 
 ```text
 mundo/
+├── README.md
 ├── gotham.md
 ├── titans.md
 ├── magia.md
@@ -268,12 +318,15 @@ Fatos já estabelecidos em `mundo/` são canônicos da campanha. Não devem ser 
 
 Guarda **material reservado de condução** que precisa persistir sem se tornar automaticamente informação disponível aos jogadores ou às personagens.
 
-Não possui uma estrutura interna obrigatória. Criar arquivos ou subpastas apenas quando houver material concreto suficiente para justificar a separação.
+A pasta nasce com um `README.md` curto deixando explícito que seu conteúdo é reservado à condução e que acesso da persona não equivale a conhecimento das peças.
+
+Além desse README operacional, não possui uma estrutura interna obrigatória. Criar arquivos ou subpastas apenas quando houver material concreto suficiente para justificar a separação.
 
 Exemplos possíveis:
 
 ```text
 mestre/
+├── README.md
 ├── npcs.md
 ├── trigon.md
 └── plano-do-culto.md
@@ -332,17 +385,20 @@ O material de `mestre/` também não autoriza alterar retroativamente fatos já 
 
 Guarda a **história que realmente aconteceu**, consolidada em forma narrativa.
 
-Por padrão, cada capítulo concluído possui um arquivo numerado:
+A pasta nasce com um `README.md` curto explicando que ali entram apenas capítulos já ocorridos e que o padrão de numeração é sequencial.
+
+Depois que capítulos existirem:
 
 ```text
 livro/
+├── README.md
 ├── 001.md
 ├── 002.md
 ├── 003.md
 └── ...
 ```
 
-Cada arquivo registra um capítulo já ocorrido. Não usar `livro/` para guardar planos, possibilidades futuras, rascunhos de acontecimentos ou material que ainda dependa de decisões de jogo.
+Cada arquivo numerado registra um capítulo já ocorrido. Não usar `livro/` para guardar planos, possibilidades futuras, rascunhos de acontecimentos ou material que ainda dependa de decisões de jogo.
 
 ```text
 livro/002.md
@@ -357,7 +413,7 @@ mestre/
 
 `livro/` funciona como memória histórica consultável. Não é necessário reler todos os capítulos para retomar uma cena; o ponto de retomada pertence a `estado/atual.md`.
 
-Não criar por padrão `README.md`, índice, resumos paralelos ou subpastas internas. Se uma necessidade concreta surgir mais tarde, a estrutura pode ser ampliada sem duplicar o conteúdo dos capítulos.
+Não criar por padrão índice adicional, resumos paralelos ou subpastas internas. Se uma necessidade concreta surgir mais tarde, a estrutura pode ser ampliada sem duplicar o conteúdo dos capítulos.
 
 > **`livro/` registra o que aconteceu. Nunca determina antecipadamente o que ainda deve acontecer.**
 
@@ -387,6 +443,8 @@ diretrizes/
 Esses conteúdos devem ser absorvidos pelas entradas principais quando fizer sentido.
 
 Novas subdivisões só devem existir quando surgir uma necessidade concreta durante o uso do sistema.
+
+Os `README.md` operacionais da estrutura-base são exceção deliberada: eles existem para materializar as pastas e explicar seu uso, não para criar novas camadas de informação.
 
 ## Campanhas novas e material legado
 
