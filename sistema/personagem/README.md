@@ -22,6 +22,7 @@ Esta pasta concentra:
 - TRAÇOS;
 - RECURSOS;
 - relações recorrentes registradas em `REL`;
+- pareamento de informações entre fichas relacionadas;
 - estrutura de ficha;
 - organização visual das fichas em Markdown;
 - relevância do que merece ou não ser persistido na ficha;
@@ -61,6 +62,8 @@ sistema/criacao/README.md
 ```
 
 Esta pasta fornece o modelo e as regras de personagem usados quando `criacao/` manda construir ou revisar uma ficha.
+
+Depois que todas as fichas iniciais são aprovadas, `pareamento.md` orienta a comparação cruzada entre personagens antes da definição da situação inicial.
 
 A apresentação visual padrão das fichas pertence a:
 
@@ -142,6 +145,7 @@ As regras detalhadas estão em `ficha.md` e `npcs.md`.
 - `poderes.md` — arsenais, fontes, repertórios, usos e especializações;
 - `tracos.md` — verdades qualitativas estáveis;
 - `relacoes.md` — relações recorrentes registradas em ficha;
+- `pareamento.md` — comparação cruzada entre fichas, perguntas ao jogador e ajuste das informações relacionais;
 - `ficha.md` — estrutura consolidada, Importância, CONTROLE, RECURSOS e interpretação;
 - `organizacao-visual.md` — padrão de apresentação por tópicos para manter a ficha legível no Markdown/GitHub;
 - `relevancia-da-ficha.md` — regra para persistir somente informação útil à interpretação e continuidade, evitando meta-comparações desnecessárias com obras-base;
