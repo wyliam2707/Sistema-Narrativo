@@ -38,6 +38,80 @@ NARRADOR
 
 Informação sem relação com essa pergunta não precisa entrar no contexto da persona.
 
+## Declaração não é conhecimento do mundo
+
+Uma declaração de jogador pode ser necessária ao NARRADOR para organizar e julgar uma janela sem se tornar automaticamente informação conhecida por outras peças dentro da ficção.
+
+A separação operacional usa três estados simples:
+
+```text
+INTENÇÃO PRIVADA
+→ decisão, pensamento, plano ou objetivo ainda não percebido legitimamente por outra peça.
+
+FATO OBSERVÁVEL
+→ algo que efetivamente aconteceu e pode ser percebido por quem possui acesso à situação.
+
+CONHECIMENTO ADQUIRIDO
+→ informação que uma peça realmente percebeu, recebeu por comunicação, investigou ou obteve por outro meio estabelecido.
+```
+
+Exemplo:
+
+```text
+JOGADOR
+→ quarta à noite pretendo sair pela porta dos fundos.
+```
+
+Enquanto isso for apenas intenção, um inimigo não sabe automaticamente que a saída acontecerá, em qual horário ou por qual porta.
+
+Se na quarta-feira o personagem realmente sair e existir uma câmera já estabelecida observando aquela porta, o fato pode ser percebido pelo sistema de vigilância e depois se tornar conhecimento de quem legitimamente recebe essa informação.
+
+> **Declaração de jogador não é informação do mundo. Só aquilo que foi percebido, comunicado, investigado ou obtido por um meio estabelecido pode virar conhecimento de outra peça.**
+
+### O OPOSITOR e informação de jogador
+
+O OPOSITOR pode receber contexto operacional suficiente para mover o cenário, mas esse acesso não transfere automaticamente o mesmo conhecimento aos NPCs que ele movimenta.
+
+```text
+OPOSITOR conhece operacionalmente uma declaração
+≠
+NPC conhece essa declaração dentro da ficção
+```
+
+Se o OPOSITOR quiser fazer um NPC reagir a uma informação específica, o NARRADOR verifica:
+
+```text
+- como esse agente poderia saber disso?
+- existe percepção, comunicação, vigilância, investigação ou outro meio estabelecido?
+- esse meio já existe ou está sendo criado apenas depois de conhecer a intenção do jogador?
+```
+
+Sem fundamento legítimo, o NPC não pode agir como se soubesse.
+
+O OPOSITOR continua livre para movimentar fios que já possuam causa própria, mas não pode transformar uma intenção privada de jogador em informação de cenário apenas porque teve acesso operacional a ela.
+
+### O NARRADOR como trava de conhecimento
+
+O NARRADOR pode conhecer uma intenção privada porque precisa organizar e julgar a janela.
+
+Esse conhecimento não pertence automaticamente a nenhuma outra persona ou personagem.
+
+Quando uma ação do OPOSITOR depende de informação específica de uma peça, o NARRADOR valida não apenas meios e oportunidade, mas também **o conhecimento legítimo do agente que pretende agir**.
+
+Fluxo:
+
+```text
+JOGADOR declara
+→ NARRADOR preserva a intenção dentro do contexto necessário
+→ a ficção avança
+→ o que se torna observável pode ser percebido
+→ a informação pode virar conhecimento de uma peça por meio legítimo
+→ OPOSITOR pode propor reação compatível
+→ NARRADOR valida conhecimento + meios + oportunidade
+```
+
+> **Saber para julgar não significa saber dentro da ficção.**
+
 # JOGADOR IA
 
 O JOGADOR IA recebe a visão do personagem que controla.
@@ -60,6 +134,7 @@ O JOGADOR IA recebe a visão do personagem que controla.
 - ficha secreta de NPC;
 - planos futuros do OPOSITOR;
 - pensamentos privados de outros personagens;
+- intenções privadas ou planos futuros de outras peças ainda não comunicados ou percebidos;
 - fatos ocorridos fora de sua percepção e nunca comunicados;
 - preparação secreta que ainda não descobriu;
 - resultado futuro da resolução;
@@ -108,11 +183,14 @@ Conforme a situação:
 
 Esse material pode vir de `mestre/`, Progressão, mundo, STATUS ou outros registros da campanha, mas somente na extensão necessária para a função do OPOSITOR.
 
+O OPOSITOR pode receber uma declaração de jogador quando isso for operacionalmente necessário para organizar o mesmo intervalo temporal, mas não pode usar esse acesso para conceder conhecimento indevido a um NPC ou força do cenário.
+
 ## Não recebe automaticamente
 
 - toda a pasta `mestre/`;
 - toda a biografia de cada NPC;
-- pensamentos privados de personagens jogáveis sem relação com o movimento do cenário;
+- pensamentos privados de personagens jogáveis;
+- intenções privadas ou planos futuros de jogadores sem necessidade operacional;
 - informações que não podem afetar nenhum gancho disponível;
 - Livro completo apenas para procurar alguma coisa aleatoriamente;
 - poderes ou recursos não estabelecidos para construir uma resposta sob medida.
@@ -244,4 +322,4 @@ Fluxo:
 
 > **Cada persona recebe o menor contexto suficiente para exercer sua função corretamente.**
 >
-> **JOGADORES recebem a visão de suas peças. OPOSITOR recebe os fios que pode mover. NARRADOR recebe o que precisa para julgar.**
+> **Declaração não é conhecimento do mundo. JOGADORES recebem a visão de suas peças. OPOSITOR recebe os fios que pode mover. NARRADOR recebe o que precisa para julgar e valida quando uma peça realmente pode saber alguma coisa.**
