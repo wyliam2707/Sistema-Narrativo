@@ -71,6 +71,42 @@ Nome da campanha
 
 O nome abre a campanha. As etapas seguintes constroem seu conteúdo.
 
+## Checkpoint da criação
+
+Enquanto a campanha estiver sendo criada, o `README.md` da própria campanha deve registrar **onde o processo precisa ser retomado**.
+
+O checkpoint não guarda o conteúdo da etapa. Ele registra somente o ponto operacional de continuação.
+
+Forma mínima:
+
+```text
+CRIAÇÃO: EM ANDAMENTO
+
+Etapa atual: Protagonista
+```
+
+Quando a revisão mecânica exigir mais precisão:
+
+```text
+CRIAÇÃO: EM ANDAMENTO
+
+Etapa atual: Revisão mecânica e aprovação
+Personagem atual: Ravena
+Bloco atual: 3 - Poderes e capacidades
+```
+
+Ao concluir uma etapa e avançar para outra, atualizar o checkpoint para a nova etapa antes de continuar. Durante a revisão mecânica, atualizar também personagem e bloco sempre que a revisão avançar.
+
+Quando toda a criação terminar:
+
+```text
+CRIAÇÃO: CONCLUÍDA
+```
+
+Não manter uma lista obrigatória de etapas `NÃO INICIADO`, `PENDENTE` ou semelhantes. O checkpoint deve mostrar somente **onde continuar agora**.
+
+> **O conteúdo fica em seus arquivos próprios. O checkpoint diz somente de onde retomar a criação.**
+
 ## Nome da campanha
 
 Antes das etapas conceituais, perguntar o nome da campanha.
@@ -97,6 +133,8 @@ Os READMEs internos devem explicar de forma curta para que serve cada área e qu
 O `README.md` da raiz da campanha já deve nascer com:
 
 - nome da campanha;
+- `CRIAÇÃO: EM ANDAMENTO`;
+- `Etapa atual: Direção narrativa e cenário`;
 - mapa de consulta da estrutura;
 - espaços ainda não definidos claramente marcados como pendentes de criação.
 
