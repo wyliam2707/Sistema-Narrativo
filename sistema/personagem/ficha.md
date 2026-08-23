@@ -103,9 +103,11 @@ No segundo caso, todos os valores já foram mecanicamente definidos.
 
 ## IMPORTÂNCIA
 
-`IMPORTÂNCIA` indica o peso estrutural do personagem para a história e ajuda a organizar como sua agência pode ser tratada na campanha.
+`IMPORTÂNCIA` indica o peso estrutural do personagem para a história.
 
-Ela **não** determina:
+Ela **não determina `CONTROLE`** e não impõe quantidade máxima universal de personagens em nenhuma categoria.
+
+Ela também não determina:
 
 - tamanho da ficha;
 - quantidade obrigatória de informações;
@@ -113,8 +115,7 @@ Ela **não** determina:
 - perícias;
 - poderes;
 - dificuldade;
-- proteção narrativa;
-- `CONTROLE` automático para personagens não Centrais.
+- proteção narrativa.
 
 As categorias são:
 
@@ -126,60 +127,37 @@ Importância: Figurante
 
 ### Central
 
-É parte do núcleo jogável da campanha.
+É parte do núcleo estrutural da campanha.
 
-A campanha pode possuir até três personagens Centrais:
+Uma campanha pode possuir quantos personagens Centrais forem realmente definidos como parte desse núcleo.
 
-```text
-1 JOGADOR HUMANO
-até 2 JOGADORES IA dedicados
-```
-
-Cada `JOGADOR IA` dedicado existe exclusivamente para seu próprio personagem Central. Dois personagens Centrais com `CONTROLE: JOGADOR IA` exigem duas personas JOGADOR IA separadas.
-
-Personagens Centrais possuem agência própria de jogador e não ficam sob controle normal do NARRADOR.
+Um personagem Central pode usar qualquer categoria de `CONTROLE` aprovada para aquela peça.
 
 ### Relevante
 
 É um personagem estruturalmente importante para a campanha, mas que não pertence ao núcleo central.
 
-Um personagem Relevante pode permanecer:
+Um personagem Relevante pode usar qualquer categoria de `CONTROLE` aprovada para aquela peça.
 
-```text
-CONTROLE: NPC
-```
-
-sob uso normal do NARRADOR, ou pode usar:
-
-```text
-CONTROLE: JOGADOR IA EVENTUAL
-```
-
-quando essa função tiver sido definida para ele.
-
-> **Ser Relevante não transforma automaticamente o personagem em JOGADOR IA EVENTUAL.**
-
-A Importância descreve seu peso estrutural. O `CONTROLE` registra quem possui normalmente sua autoridade de decisão.
-
-Quando houver personagens sob `JOGADOR IA EVENTUAL`, uma única IA EVENTUAL pode assumir todos os personagens ativos dessa categoria ao mesmo tempo.
+> **Ser Relevante não determina quem controla o personagem.**
 
 ### Figurante
 
 É um personagem sem papel estrutural central ou relevante para a campanha naquele momento.
 
-Figurantes permanecem normalmente como `NPC`, sob uso do NARRADOR.
+A frequência de aparição não altera essa classificação. Um entregador, guarda, comerciante ou outro personagem pode aparecer repetidamente durante toda a campanha e continuar Figurante.
 
-A frequência de aparição não altera essa classificação. Um entregador, guarda, comerciante ou outro NPC pode aparecer repetidamente durante toda a campanha e continuar Figurante.
+`IMPORTÂNCIA` por si só não determina `CONTROLE`.
 
 ### Importância é quase fixa
 
 IMPORTÂNCIA representa função estrutural na campanha e não deve subir ou descer apenas porque um personagem apareceu mais vezes ou ganhou momentaneamente destaque.
 
-Se o `JOGADOR IA EVENTUAL` entender que um Figurante deveria se tornar Relevante, ou que um Relevante deveria se tornar Central, ele **deve perguntar ao JOGADOR HUMANO antes da promoção**.
+Se surgir proposta de mudar a Importância de um personagem, ela deve ser apresentada ao JOGADOR HUMANO antes da alteração.
 
 Sem aprovação, a classificação permanece como está.
 
-Uma promoção aprovada não altera automaticamente nenhuma outra parte da ficha. Atributos, perícias, poderes, recursos e demais informações continuam iguais. Novos campos de descrição podem ser acrescentados depois apenas se forem úteis para continuidade.
+Uma mudança aprovada de Importância não altera automaticamente nenhuma outra parte da ficha, inclusive `CONTROLE`, atributos, perícias, poderes, recursos ou demais informações.
 
 > **Na dúvida, manter a classificação atual.**
 
@@ -198,25 +176,37 @@ CONTROLE: NPC
 
 Ele informa como o personagem participa normalmente do ciclo e quem possui autoridade usual sobre suas decisões.
 
+`CONTROLE` é independente de `IMPORTÂNCIA`.
+
+> **IMPORTÂNCIA diz qual é o peso estrutural da peça. CONTROLE diz quem toma suas decisões. Uma informação não determina automaticamente a outra.**
+
 ### JOGADOR HUMANO
 
-É o personagem Central do jogador humano.
+É o personagem cujas decisões voluntárias pertencem ao jogador humano.
+
+Sua Importância é definida separadamente.
 
 ### JOGADOR IA
 
-É o personagem Central com uma IA dedicada exclusivamente a ele. É apropriado para coprotagonista, parceiro romântico ou outro personagem cuja agência individual precisa ser preservada continuamente.
+É um personagem com uma IA dedicada exclusivamente a ele. É apropriado quando sua agência individual precisa ser preservada continuamente.
+
+Sua Importância é definida separadamente.
 
 ### JOGADOR IA EVENTUAL
 
-É uma categoria de controle possível para personagens não Centrais quando essa agência própria tiver sido definida para eles.
+É uma categoria de controle possível para qualquer personagem cuja agência eventual tenha sido definida dessa forma.
 
 Uma mesma IA EVENTUAL pode assumir simultaneamente todos os personagens dessa categoria que precisarem de agência própria naquela situação.
 
-Um personagem não recebe esse `CONTROLE` apenas por ser Relevante. A classificação precisa estar registrada na ficha conforme as regras operacionais da campanha.
+A categoria precisa estar registrada na ficha conforme as regras operacionais da campanha.
+
+Sua Importância é definida separadamente.
 
 ### NPC
 
-É personagem de uso normal do NARRADOR. Inclui figurantes, civis, monstros, inimigos, criaturas, aliados, antagonistas recorrentes e também personagens Relevantes que permaneçam sob autoridade normal do NARRADOR.
+É personagem de uso normal do NARRADOR.
+
+A categoria `NPC` também não define Importância: um NPC pode ser Figurante, Relevante ou Central se a estrutura da campanha assim estabelecer.
 
 ## OPOSITOR não é um tipo de CONTROLE
 
