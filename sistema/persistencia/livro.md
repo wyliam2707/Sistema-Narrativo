@@ -2,95 +2,75 @@
 
 Status: APROVADO
 
-O Livro é o **registro canônico definitivo da campanha**.
+O Livro é o **registro histórico canônico da campanha**.
 
-Ele preserva, em forma literária, tudo que realmente aconteceu na ficção e que deve continuar existindo como história mesmo depois que os arquivos operacionais da campanha deixarem de ser necessários.
+Ele preserva, em forma literária, aquilo que realmente aconteceu na ficção.
 
-> **O Livro registra a realidade completa da campanha, não apenas aquilo que um protagonista viu ou descobriu.**
+> **O Livro guarda a história. Ele não é a fonte operacional padrão de retomada.**
 
-## Função do Livro
-
-Durante a campanha, diferentes arquivos cumprem funções operacionais:
+## Destino concreto
 
 ```text
-STATUS
-→ como e onde continuar agora.
-
-PROGRESSÃO
-→ consequências que continuam causalmente vivas.
-
-FICHA
-→ quem o personagem é e o que se consolidou nele.
-
-NPCs / MUNDO / MATERIAL RESERVADO
-→ fatos e agentes que o NARRADOR precisa acompanhar.
-
-LIVRO
-→ o que realmente aconteceu.
+campanhas/<nome>/livro/
 ```
 
-Os registros operacionais existem para facilitar a continuidade enquanto a campanha está em andamento.
+Cada capítulo consolidado registra uma unidade narrativa já ocorrida.
 
-O Livro existe para preservar a história.
+## Função
 
-Ao final definitivo de uma campanha, o Livro pode permanecer como o arquivo histórico principal mesmo que STATUS, Progressão e outros registros operacionais sejam posteriormente descartados.
-
-Por isso, o Livro não deve depender desses arquivos para continuar compreensível no futuro.
-
-## Terceira pessoa multiperspectiva
-
-O Livro é escrito em **terceira pessoa multiperspectiva**.
-
-A narração pode acompanhar o ponto de vista de todos os personagens envolvidos na cena, sem limitar o texto à percepção de um único protagonista.
-
-Isso inclui:
-
-- JOGADOR HUMANO;
-- JOGADOR IA;
-- JOGADOR IA EVENTUAL;
-- NPCs;
-- antagonistas;
-- outros agentes realmente envolvidos nos acontecimentos.
-
-O Livro pode mostrar o que personagens diferentes perceberam, sentiram, pensaram, decidiram ou fizeram, desde que isso seja coerente com o cânone e com a agência de cada um.
-
-> **O leitor pode conhecer mais do que qualquer personagem individual.**
-
-Conhecimento do leitor não se transforma automaticamente em conhecimento dos personagens.
-
-## Falas e pensamentos
-
-Toda fala direta deve ser identificada assim:
+As fontes cumprem funções diferentes:
 
 ```text
-[Corvin] — Texto da fala.
+estado/atual.md
+→ como continuar agora.
+
+personagens/
+→ quem as peças com agência são.
+
+mundo/
+→ verdades estáveis do cenário.
+
+mestre/
+→ NPCs e material reservado ainda operacional.
+
+livro/
+→ o que aconteceu.
 ```
 
-Pensamento direto, quando fizer sentido literário mostrá-lo, deve ser identificado assim:
+O Livro não precisa repetir STATUS atuais, planos futuros ou fichas completas apenas para preservar informação operacional.
 
-```text
-[Corvin, pensa] — Texto do pensamento.
-```
+## O que entra
 
-O mesmo formato vale para qualquer personagem:
+Registrar acontecimentos realmente estabelecidos, como:
 
-```text
-[Dick] — Texto da fala.
+- ações executadas;
+- decisões;
+- falas;
+- deslocamentos relevantes;
+- descobertas;
+- conflitos e resultados;
+- mudanças de situação;
+- consequências;
+- acontecimentos secretos que realmente ocorreram;
+- ordem causal necessária para compreender a história.
 
-[Dick, pensa] — Texto do pensamento.
+## O que não entra como fato
 
-[Trigon] — Texto da fala.
+Não registrar como acontecimento consumado:
 
-[Trigon, pensa] — Texto do pensamento.
-```
+- intenção ainda não executada;
+- plano futuro;
+- possibilidade;
+- proposta recusada;
+- versão descartada durante resolução;
+- hipótese ainda não confirmada;
+- correção já substituída por outra versão canônica.
 
-O restante da cena permanece em terceira pessoa.
+> **Plano não é acontecimento. Possibilidade não é cânone histórico.**
 
-Acesso ao ponto de vista de um personagem não autoriza inventar pensamentos, conhecimento, motivação ou decisões que contradigam sua agência, sua ficha ou acontecimentos já estabelecidos.
+## Agência exercida
 
-## Agência dos jogadores deve permanecer no Livro
-
-Toda ação efetivamente realizada por um personagem sob controle de:
+A consolidação deve preservar toda decisão realmente exercida por personagens controlados por:
 
 ```text
 JOGADOR HUMANO
@@ -98,152 +78,115 @@ JOGADOR IA
 JOGADOR IA EVENTUAL
 ```
 
-deve aparecer no Livro consolidado.
+A forma literária pode condensar repetição ou melhorar transições, mas não pode:
 
-Isso inclui, quando ocorrer na ficção:
+- apagar decisão relevante;
+- trocar quem realizou a ação;
+- substituir recusa por aceitação;
+- inventar motivação decisiva não estabelecida;
+- alterar resultado já julgado.
 
-- falas;
-- decisões;
-- recusas;
-- deslocamentos;
-- investigações;
-- combates;
-- uso de capacidades;
-- reações;
-- escolhas pessoais;
-- demais ações efetivamente realizadas.
+> **A prosa pode mudar. A agência exercida não.**
 
-A consolidação literária pode melhorar a forma, condensar repetição e reorganizar a prosa, mas não pode apagar, substituir ou atribuir a outro personagem uma ação realmente exercida por um jogador.
+## OPOSITOR
 
-> **A forma pode ser reconstruída literariamente. A agência exercida não pode ser apagada.**
+O OPOSITOR não aparece como personagem do Livro.
 
-## Ações de NPCs e do OPOSITOR
-
-O Livro não registra o OPOSITOR como personagem da ficção.
-
-O OPOSITOR é uma função do sistema. Quando ele propõe uma ação e o NARRADOR a considera válida e estabelece sua ocorrência, o Livro registra **a ação ficcional de quem realmente a executou**.
-
-Exemplo:
+Quando uma ação proposta por ele realmente acontece, registrar a peça ficcional responsável.
 
 ```text
-OPOSITOR:
-Trigon prepara uma armadilha no santuário.
+OPOSITOR
+→ propõe uma ação de Trigon.
 
-NARRADOR:
-Valida que Trigon possui informação, meios e oportunidade.
+NARRADOR
+→ julga a situação.
 
-LIVRO:
-Trigon prepara a armadilha.
+SE A AÇÃO ACONTECE
+→ Livro registra Trigon realizando a ação.
 ```
 
-Essa ação entra no Livro mesmo que nenhum protagonista saiba que ela aconteceu.
+Uma proposta que não aconteceu não entra no Livro.
 
-O mesmo vale para:
+## Acontecimentos secretos
 
-- conspirações;
-- emboscadas;
-- preparação de armadilhas;
-- conversas privadas;
-- movimentação de inimigos;
-- traições;
-- planos realmente executados;
-- decisões de NPCs;
-- outras ações secretas já estabelecidas como fatos da ficção.
+O Livro pode preservar acontecimentos que nenhuma personagem protagonista presenciou, desde que eles realmente tenham ocorrido.
 
-> **O Livro registra o acontecimento; não apenas a descoberta do acontecimento.**
-
-Uma ação proposta pelo OPOSITOR que não foi aceita ou não chegou a acontecer não entra no Livro como fato.
-
-## Segredos e conhecimento
-
-O Livro pode revelar ao leitor fatos que permanecem desconhecidos para os personagens.
-
-Exemplo:
-
-```text
-Trigon esconde uma runa sob o altar.
-```
-
-Corvin pode entrar no local mais tarde sem saber que ela existe.
-
-O fato de o leitor ter visto a preparação não concede esse conhecimento a Corvin.
-
-Portanto:
+Isso não concede automaticamente conhecimento às personagens.
 
 ```text
 CONHECIMENTO DO LEITOR
 ≠
-CONHECIMENTO DO PERSONAGEM
+CONHECIMENTO DA PERSONAGEM
 ```
 
-Cada personagem continua agindo apenas com aquilo que plausivelmente sabe.
+Se uma campanha preferir não revelar determinado acontecimento reservado ao leitor naquele momento, ele pode continuar operacionalmente em `mestre/` até o ponto adequado de consolidação, desde que o cânone não seja perdido.
 
-## Romance, intimidade e tom adulto
+## Forma literária
 
-O Livro pode apresentar cenas de romance e intimidade em tom adulto, inclusive 18+, quando isso combinar com a campanha e com os personagens.
+A forma de escrita pertence a:
 
-Essas cenas podem ser sensoriais, emocionais e fisicamente próximas sem precisar se tornar sexualmente explícitas.
+```text
+../narracao/
+```
 
-Podem ser descritos, quando fizer sentido:
+Especialmente:
 
-- proximidade corporal;
-- beijos;
-- abraços;
-- respiração;
-- cheiro;
-- calor da pele;
-- textura de roupas;
-- mãos e pequenos gestos;
-- hesitação;
-- desejo;
-- tensão física;
-- desconforto;
-- silêncio;
-- reação emocional;
-- percepção do corpo e da presença do outro.
+- `apresentacao-da-cena.md`;
+- `fala-e-interioridade.md`;
+- `ritmo-e-descricao.md`;
+- `dramatizacao-e-resumo.md`.
 
-Quando uma cena íntima avançar além do que interessa mostrar diretamente, a narrativa pode fazer uma transição ou elipse natural e continuar depois.
+O Livro não redefine ponto de vista, estilo, romance, humor, diálogo ou ritmo dentro de Persistência.
 
-> **Romance adulto, desejo e intimidade sensorial podem fazer parte do Livro. O objetivo não é transformar a cena em descrição sexual explícita.**
+A direção narrativa local da campanha continua prevalecendo sobre o padrão geral quando explicitamente definida.
 
-A multiperspectiva continua válida nessas cenas: o Livro pode mostrar como diferentes envolvidos percebem a proximidade, inclusive por pensamentos identificados, sem violar a agência de nenhum deles.
+## Consolidação não é transcrição
 
-## Consolidação literária
-
-O Livro não é transcrição bruta do chat.
+O Livro não é cópia bruta do chat.
 
 A consolidação pode:
 
-- melhorar transições;
-- reorganizar frases;
+- remover metaconversa;
+- remover comandos administrativos;
+- retirar discussão de regras;
 - condensar repetição;
-- transformar descrição mecânica em prosa natural;
-- ajustar ritmo;
-- apresentar diferentes perspectivas;
-- inserir interioridade coerente quando isso enriquecer a leitura;
+- melhorar transições;
+- converter descrição mecânica em prosa;
 - resumir passagem de tempo sem importância dramática.
 
 Não pode:
 
-- inventar acontecimentos que não ocorreram;
-- apagar ações realmente realizadas por jogadores;
-- alterar decisões;
+- inventar acontecimento;
+- alterar decisão;
 - trocar o autor de uma ação;
-- modificar resultado já estabelecido;
-- inventar segredo, plano ou conhecimento para justificar retroativamente um acontecimento;
-- introduzir poderes, recursos ou capacidades retroativamente;
-- transformar uma possibilidade em fato.
+- modificar consequência já estabelecida;
+- criar retrospectivamente segredo, poder, recurso ou preparação;
+- transformar possibilidade em fato.
 
-> **A consolidação melhora a forma. Não reescreve a realidade da campanha.**
+> **Consolidar melhora a forma sem reescrever a realidade.**
 
-## Livro e arquivos operacionais
+## Relação com `estado/atual.md`
 
-Enquanto a campanha estiver ativa ou puder ser retomada, STATUS, Progressão, fichas, NPCs, mundo e material reservado continuam úteis para consulta e continuidade.
+Livro e Estado Atual não competem.
 
-Quando a campanha for encerrada definitivamente, esses arquivos podem ser descartados se o JOGADOR HUMANO assim desejar.
+```text
+LIVRO
+→ histórico.
 
-O Livro deve continuar preservando a história completa sem depender deles.
+ESTADO ATUAL
+→ presente operacional.
+```
 
-Por isso:
+Quando um fato deixa de importar para a retomada, ele pode sair de `estado/atual.md` sem desaparecer da história, porque permanece no Livro.
 
-> **O Livro é a memória histórica definitiva. Os demais arquivos são ferramentas operacionais da campanha.**
+## Relação com correção de cânone
+
+Quando uma correção for aprovada, aplicar `correcao-de-canone.md`.
+
+O capítulo afetado deve representar apenas a versão canônica vigente.
+
+O histórico técnico do Git pode preservar edições antigas; o Livro não funciona como changelog de erros.
+
+## Regra final
+
+> **O Livro responde “o que realmente aconteceu?”. `estado/atual.md` responde “como continuamos agora?”. A forma literária pertence a `narracao/`, e Persistência garante que o passado canônico não seja perdido nem reescrito silenciosamente.**
