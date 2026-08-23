@@ -51,7 +51,7 @@ Esses elementos pertencem ao STATUS ou a outras camadas de persistência.
 
 A diferença principal não é entre “permanente” e “atual”, mas entre **informação consolidada necessária para interpretar o personagem** e **estado circunstancial da cena ou campanha**.
 
-Os valores máximos ou de referência de VIDA e ENERGIA podem aparecer diretamente na ficha porque são derivados estáveis das capacidades aprovadas e aceleram consulta e verificação. O valor atual consumido, perdido ou recuperado continua pertencendo ao STATUS.
+Os valores máximos ou de referência de VIDA e ENERGIA podem aparecer diretamente na ficha para acelerar consulta e verificação. O valor atual consumido, perdido ou recuperado continua pertencendo ao STATUS.
 
 ## Organização visual
 
@@ -77,7 +77,7 @@ Descrição:
 
 TRAÇOS:
 ATR:
-VIDA / ENERGIA MÁXIMA:
+VIDA [ ] | ENERGIA [ ]
 PER:
 PODERES:
 RECURSOS:
@@ -132,7 +132,7 @@ Status: PENDENTE DE REVISÃO
 
 Todos os demais campos e seções do modelo já devem existir no arquivo, mas permanecem vazios até serem tratados no bloco correspondente da revisão.
 
-Não preencher antecipadamente nome real, aparência, estilo, idade, conceito, personalidade, história, atributos, VIDA, ENERGIA máxima, perícias, poderes, recursos, relações ou qualquer outro conteúdo apenas para completar a ficha.
+Não preencher antecipadamente nome real, aparência, estilo, idade, conceito, personalidade, história, atributos, VIDA, ENERGIA, perícias, poderes, recursos, relações ou qualquer outro conteúdo apenas para completar a ficha.
 
 ```text
 NOME + IMPORTÂNCIA + CONTROLE
@@ -149,53 +149,44 @@ Durante criação ou revisão, não usar zero para significar “ainda não defi
 
 ```text
 ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
-VIDA [ ] | ENERGIA MÁXIMA [ ]
+VIDA [ ] | ENERGIA [ ]
 ```
 
 é diferente de:
 
 ```text
 ATR: FIS [0] | RES [0] | MEN [0] | VON [0]
-VIDA [35] | ENERGIA MÁXIMA [10]
+VIDA [35] | ENERGIA [10]
 ```
 
 No segundo caso, todos os valores já foram mecanicamente definidos.
 
 > **Zero é valor real, nunca marcador de pendência.**
 
-## VIDA e ENERGIA de referência
+## VIDA e ENERGIA na ficha
 
-A ficha mostra diretamente os valores estáveis usados para consulta rápida:
-
-```text
-VIDA [35] | ENERGIA MÁXIMA [X]
-```
-
-`VIDA [35]` registra a referência geral da régua de VIDA: `35` corresponde ao limite de Incapacitado enquanto nenhuma regra específica alterar essa capacidade.
-
-Isso não substitui o controle do Dano atual. Durante a campanha, por exemplo:
+Para consulta rápida, a ficha registra:
 
 ```text
-Ficha → VIDA [35]
-STATUS → Dano [12/35]
+VIDA [35] | ENERGIA [X]
 ```
 
-`ENERGIA MÁXIMA [X]` é calculada pelo maior Atributo da personagem conforme `../resolucao/energia.md`:
+`VIDA` mostra a referência máxima da régua de VIDA. Por padrão, `35` corresponde ao limite de Incapacitado enquanto nenhuma regra específica alterar essa referência.
+
+`ENERGIA` mostra a reserva máxima final da personagem. Por padrão, ela é calculada pelo maior Atributo conforme `../resolucao/energia.md`.
+
+Uma exceção aprovada para uma personagem pode alterar seu valor final e deve ser registrada na própria ficha. Isso não cria uma diretriz geral para as demais personagens.
+
+Os valores atuais continuam no STATUS. Exemplo:
 
 ```text
-maior Atributo [0] → 10
-maior Atributo [1] → 20
-maior Atributo [2] → 40
-maior Atributo [3] → 60
-maior Atributo [4] → 80
-maior Atributo [5] → 100
+Ficha → VIDA [35] | ENERGIA [80]
+STATUS → Dano [12/35] | Energia [53/80]
 ```
 
-Assim que os Atributos forem aprovados no Bloco 2, preencher ou recalcular automaticamente essas duas referências na ficha. Não é necessária uma pergunta separada ao JOGADOR HUMANO porque os valores são derivados das regras já aprovadas.
+Depois da aprovação dos Atributos no Bloco 2, preencher ou recalcular essas referências na ficha.
 
-Se uma alteração posterior mudar um Atributo ou alguma regra específica alterar VIDA ou reserva máxima, atualizar também essas referências para manter a ficha autoconsistente.
-
-> **A ficha mostra capacidade máxima para consulta. O STATUS mostra quanto resta ou quanto Dano existe agora.**
+> **A ficha mostra a capacidade de referência. O STATUS mostra a condição atual.**
 
 ## IMPORTÂNCIA
 
@@ -400,7 +391,7 @@ Descrição:
 TRAÇOS:
 
 ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
-VIDA [ ] | ENERGIA MÁXIMA [ ]
+VIDA [ ] | ENERGIA [ ]
 PER:
 PODERES:
 RECURSOS:
@@ -421,7 +412,7 @@ Na ficha recém-criada, somente Nome, Importância e CONTROLE recebem conteúdo.
 
 No **Bloco 1 — Identidade e conceito**, `Nome real`, `Idade`, `Aparência` e `Estilo` são tratados junto com origem, natureza e conceito para que a personagem fique concreta e reconhecível antes da revisão mecânica.
 
-No **Bloco 2 — Atributos e perícias**, depois da aprovação dos Atributos, `VIDA` e `ENERGIA MÁXIMA` são preenchidas automaticamente como referências derivadas.
+No **Bloco 2 — Atributos e perícias**, depois da aprovação dos Atributos, `VIDA` e `ENERGIA` são preenchidas como referências de consulta rápida conforme as regras aplicáveis à personagem.
 
 ## Informação reservada do NARRADOR
 
