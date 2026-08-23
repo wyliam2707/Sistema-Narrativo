@@ -219,7 +219,50 @@ situação geral da cena       → consolidar conforme avança
 
 ### `mundo/`
 
-Guarda fatos estabelecidos do cenário que precisam persistir, como lugares, organizações, regras próprias daquela campanha e outros elementos de mundo relevantes.
+Guarda a **memória canônica estável do cenário**: fatos estabelecidos que precisam persistir e continuar verdadeiros até que a própria ficção os altere.
+
+Não possui arquivos obrigatórios por categoria. Criar arquivos somente quando houver conteúdo concreto suficiente para justificar sua existência.
+
+Exemplos possíveis:
+
+```text
+mundo/
+├── gotham.md
+├── titans.md
+├── magia.md
+└── castelo-dos-corvos.md
+```
+
+Esses nomes são apenas exemplos. A estrutura deve acompanhar o que realmente existe na campanha.
+
+Podem pertencer a `mundo/`, quando relevantes:
+
+- lugares;
+- organizações;
+- sociedades;
+- regras próprias do cenário;
+- fatos históricos necessários;
+- estruturas e instalações estabelecidas;
+- fenômenos persistentes;
+- outras verdades estáveis do mundo.
+
+`mundo/` não registra o estado momentâneo desses elementos.
+
+Exemplo:
+
+```text
+mundo/castelo-dos-corvos.md
+→ o castelo existe, sua estrutura, salas estabelecidas, localização e características persistentes
+
+estado/atual.md
+→ Ravena está agora na biblioteca, uma porta está destruída e há um ritual ativo
+```
+
+Quando uma mudança ocorrida durante o jogo se tornar uma nova verdade estável do cenário, ela pode ser consolidada em `mundo/`. Enquanto for apenas situação presente ou consequência ainda em andamento, permanece em `estado/`.
+
+Fatos já estabelecidos em `mundo/` são canônicos da campanha. Não devem ser alterados retroativamente apenas para facilitar uma cena, restaurar dificuldade, justificar uma resposta ou proteger uma trama.
+
+> **`mundo/` guarda o que existe de forma estabelecida. `estado/` guarda como isso está agora.**
 
 ### `mestre/`
 
