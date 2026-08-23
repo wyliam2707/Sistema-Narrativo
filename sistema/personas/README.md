@@ -7,8 +7,8 @@ Este diretório separa as funções de decisão usadas durante o RPG para impedi
 Existem **cinco papéis operacionais**, dos quais **quatro podem ser executados pela IA**:
 
 1. `JOGADOR HUMANO` — pessoa que controla seu personagem.
-2. `JOGADOR IA` — persona permanente que controla um personagem autônomo.
-3. `JOGADOR IA EVENTUAL` — persona que controla personagens previamente autorizados quando estiverem operacionalmente ativos.
+2. `JOGADOR IA` — persona permanente dedicada exclusivamente a um personagem com `CONTROLE: JOGADOR IA`.
+3. `JOGADOR IA EVENTUAL` — persona única que administra personagens previamente autorizados com `CONTROLE: JOGADOR IA EVENTUAL` quando estiverem operacionalmente ativos.
 4. `OPOSITOR` — persona que move o cenário, puxa ganchos e semeia acontecimentos presentes ou futuros.
 5. `NARRADOR` — persona neutra que organiza as declarações, julga o resultado e registra a nova situação.
 
@@ -40,16 +40,34 @@ NARRADOR
 
 Nenhuma dessas funções substitui as demais.
 
-## Três personas declarantes antes do julgamento
+## Relação entre ficha e persona
 
-Antes da resolução do NARRADOR, três tipos de persona da IA podem produzir declarações:
+O campo `CONTROLE` da ficha determina qual forma de agência operacional pertence ao personagem.
+
+```text
+CONTROLE: JOGADOR IA
+→ exige uma persona JOGADOR IA própria e exclusiva para esse personagem.
+
+CONTROLE: JOGADOR IA EVENTUAL
+→ pertence à única persona JOGADOR IA EVENTUAL, compartilhada com os demais personagens eventuais autorizados.
+```
+
+Dois personagens marcados como `JOGADOR IA` não compartilham a mesma persona.
+
+Vários personagens marcados como `JOGADOR IA EVENTUAL` podem ser administrados pela mesma persona eventual, mas continuam mantendo conhecimento, objetivos, relações e intenções separados.
+
+> **JOGADOR IA é individual por personagem. JOGADOR IA EVENTUAL é uma persona única para todos os eventuais autorizados.**
+
+## Três tipos de declaração da IA antes do julgamento
+
+Antes da resolução do NARRADOR, podem existir declarações de:
 
 ```text
 JOGADOR IA
-→ declara a intenção de sua peça.
+→ cada persona permanente declara a intenção de sua própria peça.
 
 JOGADOR IA EVENTUAL
-→ quando ativo, declara a intenção da peça eventual.
+→ quando houver personagens eventuais ativos, a persona eventual declara por eles preservando suas diferenças internas.
 
 OPOSITOR
 → declara um movimento do cenário ou nenhuma intervenção.
@@ -59,16 +77,16 @@ O NARRADOR não entra nesse grupo. Ele não declara uma intenção própria para
 
 ## Separação de contexto
 
-A mesma IA pode executar mais de uma persona, mas as personas não compartilham automaticamente contexto, conhecimento ou autoridade.
+A mesma infraestrutura pode executar mais de uma persona, mas as personas não compartilham automaticamente contexto, conhecimento ou autoridade.
 
 Cada persona recebe somente as informações necessárias para cumprir sua função naquele momento.
 
 ```text
 JOGADOR IA
-→ visão do personagem que controla.
+→ visão exclusiva do personagem que controla.
 
 JOGADOR IA EVENTUAL
-→ visão do personagem eventual ativo.
+→ visão dos eventuais ativos, mantendo separado o conhecimento de cada personagem.
 
 OPOSITOR
 → ganchos, preparações, NPCs e fatos necessários para mover o cenário.
@@ -126,9 +144,9 @@ Em uma janela significativa de cena:
 ```text
 JOGADOR HUMANO declara
 ↓
-JOGADOR IA declara
+JOGADORES IA permanentes aplicáveis declaram, cada um por sua própria peça
 ↓
-JOGADOR IA EVENTUAL é avaliado e, se ativo, declara
+JOGADOR IA EVENTUAL é avaliado e, se houver eventuais ativos, declara por eles
 ↓
 OPOSITOR declara movimento do cenário ou nenhuma intervenção
 ↓
@@ -175,4 +193,4 @@ Ao julgar, o NARRADOR deve levar a ficha e a realidade a sério: competência, p
 
 > **Cada persona decide apenas o que pertence à sua função e consulta apenas o contexto necessário para exercê-la.**
 >
-> **JOGADORES movem peças. OPOSITOR move cenário. NARRADOR organiza, julga e registra.**
+> **JOGADOR IA é próprio de uma peça; JOGADOR IA EVENTUAL é compartilhado pelos eventuais autorizados; OPOSITOR move cenário; NARRADOR organiza, julga e registra.**
