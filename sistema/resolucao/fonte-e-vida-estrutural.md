@@ -90,6 +90,18 @@ Não existe mais um valor universal ou padrão de Vida estrutural. Sempre que um
 
 Se a Fonte não estiver imediatamente clara, a resolução deve determinar o que realmente sustenta a manifestação antes de calcular sua Vida.
 
+## Existência da Fonte
+
+Quando a **Fonte real que sustenta** um efeito persistente deixa de existir, o efeito encerra imediatamente.
+
+Isso vale quando a própria permanência da manifestação depende daquela Fonte: correntes físicas destruídas, dispositivo que projetava uma barreira desligado ou destruído, criatura que sustentava diretamente um vínculo, ou outro mecanismo equivalente.
+
+Essa regra não encerra automaticamente uma manifestação que, por sua própria natureza, tornou-se independente depois de criada. Se o efeito é autônomo, ele continua existindo segundo sua própria Duração, Vida estrutural e demais regras aplicáveis.
+
+A origem de um efeito e aquilo que o sustenta não precisam ser a mesma coisa. Derrubar o criador, conjurador ou operador não encerra o efeito por si só quando a Fonte já existente é independente dele.
+
+> **Se o efeito depende da Fonte para continuar existindo, a perda da Fonte encerra o efeito. Se a manifestação já é autônoma, ela continua por suas próprias regras.**
+
 ## Limites
 
 A Fonte não pode:
