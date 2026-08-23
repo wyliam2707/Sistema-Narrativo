@@ -76,13 +76,14 @@ A situação inicial será registrada aqui quando definida.
 
 Porta de entrada e **índice operacional** da campanha.
 
-Deve permitir que uma IA ou narrador identifique rapidamente o que é a campanha, quais peças com agência existem e onde consultar cada tipo de informação.
+Deve permitir que uma IA ou narrador identifique rapidamente o que é a campanha, quais peças com agência existem, onde consultar cada tipo de informação e, enquanto a criação estiver em andamento, de onde o processo deve ser retomado.
 
 Ele nasce assim que o nome da campanha é definido e deve ser atualizado conforme a criação avança.
 
 O `README.md` deve conter somente o necessário para orientação inicial:
 
 ```text
+Checkpoint da criação
 1 - Nome da campanha
 2 - Direção narrativa
 3 - Cenário
@@ -90,6 +91,38 @@ O `README.md` deve conter somente o necessário para orientação inicial:
 5 - Situação de entrada
 6 - Mapa de consulta
 ```
+
+#### Checkpoint da criação
+
+Enquanto a campanha ainda estiver em criação, o `README.md` deve registrar somente o ponto operacional necessário para retomar o processo.
+
+Forma mínima:
+
+```text
+CRIAÇÃO: EM ANDAMENTO
+
+Etapa atual: Protagonista
+```
+
+Durante a revisão mecânica, quando necessário:
+
+```text
+CRIAÇÃO: EM ANDAMENTO
+
+Etapa atual: Revisão mecânica e aprovação
+Personagem atual: Ravena
+Bloco atual: 3 - Poderes e capacidades
+```
+
+Quando a criação terminar:
+
+```text
+CRIAÇÃO: CONCLUÍDA
+```
+
+O checkpoint não armazena o conteúdo da etapa, não replica fichas e não mantém uma lista obrigatória de etapas passadas ou futuras.
+
+> **O conteúdo pertence aos arquivos da campanha. O checkpoint diz somente onde continuar a criação.**
 
 #### Nome da campanha
 
