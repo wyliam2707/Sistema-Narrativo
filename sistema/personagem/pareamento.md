@@ -12,21 +12,21 @@ Seu objetivo é descobrir informações compartilhadas, assimetrias de conhecime
 
 O pareamento não é uma revisão silenciosa feita pelo narrador.
 
-Quando a comparação entre fichas revelar uma lacuna relevante, o narrador:
+Quando a comparação entre fichas revelar lacunas relevantes, o narrador:
 
 ```text
-compara as fichas
-→ identifica uma pergunta que realmente importa
-→ pergunta ao JOGADOR HUMANO
-→ recebe a resposta
-→ consolida a consequência
-→ ajusta imediatamente todas as fichas afetadas
-→ segue para a próxima pergunta necessária
+compara todas as fichas relacionadas
+→ identifica as perguntas que realmente importam
+→ apresenta o conjunto de perguntas ao JOGADOR HUMANO
+→ recebe as respostas
+→ consolida as consequências
+→ ajusta todas as fichas afetadas
+→ verifica se ainda restou alguma lacuna cruzada relevante
 ```
 
 Não presumir respostas apenas porque uma relação parece óbvia.
 
-> **Neste ponto o narrador faz as perguntas. As respostas aprovadas ajustam as fichas.**
+> **Neste ponto o narrador pode perguntar tudo que for necessário de uma vez. Depois das respostas, ajusta as fichas afetadas em conjunto.**
 
 ## Unidade de revisão
 
@@ -72,23 +72,32 @@ Fury sabe sobre Wanda e Ravena?
 Ele sabe que os três vivem juntos?
 ```
 
-O narrador não inventa essas respostas sozinho. Ele pergunta ao jogador e ajusta as fichas conforme as respostas forem consolidadas.
+O narrador não inventa essas respostas sozinho. Ele apresenta as lacunas ao jogador e ajusta as fichas depois que as respostas forem consolidadas.
 
-## Uma pergunta por vez
+## Coleta em lote
 
-O pareamento segue a mesma regra geral da criação:
+Diferente da revisão normal de ficha, o pareamento **não exige uma pergunta por vez**.
 
-> **uma pergunta por vez.**
+O narrador pode reunir todas as perguntas relevantes do par, de vários pares ou de um grupo recorrente em uma única rodada, desde que:
 
-Não despejar um questionário inteiro quando uma resposta pode alterar a pergunta seguinte.
+- as perguntas estejam organizadas de forma clara;
+- não repitam fatos já consolidados;
+- não incluam curiosidades sem efeito real;
+- deixem claro a quem cada pergunta se refere;
+- permitam respostas livres, curtas ou agrupadas.
 
-Depois de cada resposta:
+Depois que o JOGADOR HUMANO responder o conjunto:
 
-1. interpretar a consequência;
-2. mostrar o ajuste quando houver ambiguidade relevante;
-3. receber confirmação quando necessário;
-4. salvar imediatamente as fichas afetadas;
-5. só então fazer a próxima pergunta.
+```text
+interpretar todas as respostas
+→ resolver eventuais contradições
+→ consolidar as consequências
+→ atualizar todas as fichas afetadas
+→ persistir
+→ fazer nova rodada somente se ainda houver lacunas relevantes
+```
+
+Não é necessário salvar as fichas entre cada resposta individual quando as perguntas estiverem sendo coletadas em lote.
 
 ## Ajuste das fichas
 
@@ -180,8 +189,11 @@ Após todas as fichas iniciais aprovadas:
 
 ```text
 listar os pares narrativamente relevantes
-→ parear cada par
+→ comparar todos eles
 → revisar grupos recorrentes, se houver
+→ reunir as lacunas em uma rodada de perguntas
+→ receber respostas
+→ ajustar em conjunto todas as fichas afetadas
 → confirmar que não restam lacunas cruzadas relevantes
 → somente então definir a situação inicial
 ```
@@ -204,4 +216,4 @@ O checkpoint da campanha registra apenas onde retomar o pareamento.
 
 ## Regra final
 
-> **Depois que as fichas individuais estiverem aprovadas, compare personagens que possuem vínculos relevantes. Quando a comparação revelar uma lacuna, faça uma pergunta por vez ao JOGADOR HUMANO e use cada resposta para ajustar imediatamente todas as fichas afetadas. Só depois do pareamento concluído a situação inicial da história é definida.**
+> **Depois que as fichas individuais estiverem aprovadas, compare personagens que possuem vínculos relevantes. Reúna as lacunas importantes, pergunte-as ao JOGADOR HUMANO em lote e, depois das respostas, ajuste em conjunto todas as fichas afetadas. Só depois do pareamento concluído a situação inicial da história é definida.**
