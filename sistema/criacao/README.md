@@ -64,7 +64,7 @@ A criação segue esta ordem:
 Nome da campanha
 → Direção narrativa e cenário
 → Protagonista
-→ Personagens relevantes
+→ Personagens com agência de jogador
 → Início da história
 → Revisão mecânica e aprovação
 ```
@@ -244,7 +244,31 @@ Quando o protagonista estiver conceitualmente claro o bastante para ser interpre
 consolidar
 → salvar na campanha
 → marcar a etapa como concluída
-→ seguir para Personagens relevantes
+→ seguir para Personagens com agência de jogador
 ```
 
 O local exato de salvamento dentro da campanha pertence a `estrutura-da-campanha.md`.
+
+# Etapa — Personagens com agência de jogador
+
+Esta etapa existe somente para definir personagens que serão controlados por `JOGADOR IA` ou `JOGADOR IA EVENTUAL`.
+
+NPCs comuns, aliados ocasionais, figurantes e adversários não pertencem a esta etapa.
+
+A primeira pergunta deve definir o arranjo de agência da campanha:
+
+> **Você quer ter personagens controlados por JOGADOR IA ou JOGADOR IA EVENTUAL nesta campanha?**
+
+Exemplos:
+
+```text
+1 - Sim, 1 JOGADOR IA dedicado
+2 - Sim, 2 JOGADORES IA dedicados
+3 - Sim, somente JOGADOR IA EVENTUAL
+4 - Sim, JOGADOR IA dedicado + JOGADOR IA EVENTUAL
+5 - Sim, 2 JOGADORES IA dedicados + JOGADOR IA EVENTUAL
+6 - Não, nenhum personagem controlado por IA no início
+7 - Outro arranjo dentro dos limites do sistema
+```
+
+Essa pergunta define primeiro **quantas agências próprias existirão**. Só depois são definidos os personagens correspondentes.
