@@ -128,14 +128,14 @@ Importância: Figurante
 
 É parte do núcleo jogável da campanha.
 
-Normalmente a campanha possui no máximo dois personagens Centrais:
+A campanha pode possuir até três personagens Centrais:
 
 ```text
 1 JOGADOR HUMANO
-1 JOGADOR IA dedicado
+até 2 JOGADORES IA dedicados
 ```
 
-O JOGADOR IA dedicado existe exclusivamente para seu personagem Central.
+Cada `JOGADOR IA` dedicado existe exclusivamente para seu próprio personagem Central. Dois personagens Centrais com `CONTROLE: JOGADOR IA` exigem duas personas JOGADOR IA separadas.
 
 Personagens Centrais possuem agência própria de jogador e não ficam sob controle normal do NARRADOR.
 
