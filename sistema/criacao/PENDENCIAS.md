@@ -215,18 +215,37 @@ Commit:
 
 - `50b1ca3618395c452e986d77707305712e3399a2`
 
-## Ponto atual
-
 ### Ponto 7 — personagem conhecido com versões diferentes
 
-Para personagens licenciados ou conhecidos, uma IA pode escolher versões incompatíveis.
+APROVADO E REGISTRADO.
 
-Proposta a discutir:
+Regra aprovada:
 
-- se o cenário já determina a versão, usar essa versão;
-- se existem versões materialmente diferentes e a campanha ainda não definiu qual vale, perguntar somente essa escolha antes de gerar a ficha preliminar.
+> **Personagens conhecidos usam a versão escolhida pelo jogador como base. O jogador pode modificar, combinar ou substituir elementos dessa versão durante a criação. A versão canônica serve como referência, não como limite.**
 
-## Pontos ainda não revisados
+Se o jogador já tiver indicado uma versão ou combinação suficiente, não perguntar novamente qual versão usar.
+
+Depois de consolidada, a versão criada para a campanha passa a ser a referência canônica local daquela personagem.
+
+Fluxo:
+
+```text
+personagem conhecido
+→ jogador escolhe a versão-base
+→ jogador pode alterar, combinar ou substituir elementos
+→ consolidar a versão da campanha
+→ usar essa versão como referência local dali em diante
+```
+
+Registrado em:
+
+- `sistema/criacao/README.md`
+
+Commit:
+
+- `4b60f6e14bfcf195fb3910d8282e9a2b7f828e57`
+
+## Ponto atual
 
 ### Ponto 8 — nome de campanha já existente
 
@@ -240,6 +259,8 @@ se campanhas/<nome>/ já existir
 → informar que a campanha já existe
 → escolher outro nome ou usar CONTINUAR
 ```
+
+## Pontos ainda não revisados
 
 ### Ponto 9 — modelos determinísticos dos READMEs automáticos
 
@@ -321,6 +342,6 @@ Ao abrir um novo chat, continuar assim:
 
 ```text
 1 - ler sistema/criacao/PENDENCIAS.md
-2 - apresentar somente o Ponto 7 ao usuário
-3 - não avançar ao Ponto 8 até o Ponto 7 ser aprovado e salvo
+2 - apresentar somente o Ponto 8 ao usuário
+3 - não avançar ao Ponto 9 até o Ponto 8 ser aprovado e salvo
 ```
