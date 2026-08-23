@@ -3,8 +3,8 @@
 CRIAÇÃO: EM ANDAMENTO
 
 Etapa atual: Revisão das fichas
-Personagem atual: Nick Fury
-Bloco atual: 5 - Conferência final
+Personagem atual: Corvin Blackwood
+Bloco atual: 1 - Identidade e conceito
 
 ## 1 - Nome da campanha
 
