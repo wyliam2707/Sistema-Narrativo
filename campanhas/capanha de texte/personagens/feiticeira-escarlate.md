@@ -29,12 +29,15 @@ Jovem sokoviana de personalidade intensa, profundamente ligada ao irmão e dotad
 ## Capacidades
 
 ### Atributos
-- **FIS [ ]**
-- **RES [ ]**
-- **MEN [ ]**
-- **VON [ ]**
+- **FIS [0]**
+- **RES [1]**
+- **MEN [0]**
+- **VON [3]**
 
 ### Perícias
+- **Controle dos próprios poderes [+4]**
+- **Sobrevivência urbana [+2]**
+- **Combate [+1]**
 
 ### Poderes
 
