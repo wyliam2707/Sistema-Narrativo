@@ -22,9 +22,21 @@ Filha de Trigon e de uma mulher humana; híbrida humano-demoníaca criada sob di
 Ravena pertence nativamente a este cenário e sempre fez parte deste mundo; não veio de outro universo.
 
 ## Capacidades
+
+### Atributos
+- **FIS [0]**
+- **RES [1]**
+- **MEN [0]**
+- **VON [4]**
+
+### Perícias
+- **Ocultismo [+4]**
+- **Meditação e controle emocional [+4]**
+- **Combate [+1]**
+- **Investigar [+1]**
+
+### Outros campos
 - **TRAÇOS:**
-- **ATR:** FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
-- **PER:**
 - **PODERES:**
 - **RECURSOS:**
 - **REL:**
