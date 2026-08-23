@@ -22,6 +22,30 @@ Essa regra vale para efeitos persistentes como `Proteção`, `Imobilizar`, `Supr
 
 Quando a Vida estrutural de um efeito persistente chega a `V0`, o efeito encerra imediatamente. Não existe estado residual automático nem funcionamento parcial depois de `V0`, salvo quando uma regra específica disser expressamente o contrário.
 
+### Aplicações iguais no mesmo alvo
+
+Quando duas ou mais aplicações **do mesmo efeito persistente** atingem o mesmo alvo, elas não se acumulam por soma. Elas se consolidam em uma única instância.
+
+A instância consolidada mantém os melhores componentes entre as aplicações compatíveis:
+
+`D consolidada = maior D entre as aplicações`
+
+`V consolidada = maior V entre as aplicações`
+
+A intensidade e a duração mantêm a melhor configuração válida entre as aplicações quando forem realmente o mesmo efeito funcional.
+
+Exemplo:
+
+`Imobilizar A → D3,4 / V2`
+
+`Imobilizar B → D2,8 / V4`
+
+`Resultado consolidado → Imobilizar [D3,4 / V4]`
+
+Essa consolidação vale somente para efeitos iguais. Efeitos diferentes, como `Imobilizar` e `Sono`, continuam existindo como instâncias separadas.
+
+> **Efeitos iguais preservam os melhores componentes; efeitos diferentes não se fundem.**
+
 ## Escala-base
 
 `[2] inicial forte` | `[4] relevante` | `[8] completo` | `[16] profundo/amplo` | `[32] absoluto`
