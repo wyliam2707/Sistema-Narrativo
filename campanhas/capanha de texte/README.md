@@ -1,9 +1,6 @@
 # capanha de texte
 
-CRIAÇÃO: EM ANDAMENTO
-
-Etapa atual: Início da história
-Passo atual: Definir situação de entrada
+CRIAÇÃO: CONCLUÍDA
 
 ## 1 - Nome da campanha
 
@@ -32,7 +29,7 @@ Nick Fury — Relevante — JOGADOR IA EVENTUAL
 
 ## 5 - Situação de entrada
 
-A definir agora que as fichas iniciais foram aprovadas e o pareamento relevante foi concluído.
+A campanha começou. A situação presente e o ponto exato de retomada pertencem a `estado/atual.md`.
 
 ## 6 - Mapa de consulta
 
