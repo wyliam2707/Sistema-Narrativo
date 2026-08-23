@@ -51,7 +51,7 @@ Integra os Titãs.
 - **Corvin Blackwood:** namorado; conheceu Corvin há cerca de seis meses durante a investigação do artefato e do culto de Trigon. O vínculo amoroso se consolidou ao longo do caso e depois que passaram a viver juntos.
 - **Wanda Maximoff:** conheceu Wanda cerca de duas semanas antes de Corvin, durante a busca pelo mesmo artefato. A relação começou com desconfiança e cooperação com ressalvas, mas evoluiu para profunda confiança, afeto, atração e intimidade. Nenhuma das duas costuma definir com facilidade o vínculo direto entre elas.
 - **Estrutura afetiva:** Ravena participa de uma relação afetiva a três envolvendo Corvin e Wanda. Seu vínculo com Corvin é assumidamente amoroso; com Wanda existe uma intimidade afetiva e física real, ainda pouco rotulada pelas duas.
-- **Titãs:** continuam fazendo parte de sua vida. Sabem o básico sobre ela estar morando com Corvin e Wanda e demonstram alguma curiosidade, mas não conhecem todos os detalhes da dinâmica entre os três.
+- **Titãs:** Ravena já deixou claro ou contou que está envolvida romanticamente com Corvin. O grupo sabe que ela passa muito tempo na casa dele e pode saber que Wanda também está por lá, mas Ravena ainda não explicou que Wanda também faz parte da relação nem detalhou o vínculo direto entre as duas. Para os amigos, a versão social provisória é essencialmente "Ravena está com Corvin".
 
 ### Recursos
 Nenhum recurso específico consolidado por enquanto.
