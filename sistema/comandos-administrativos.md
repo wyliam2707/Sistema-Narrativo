@@ -18,9 +18,9 @@ Ao receber esse comando, o narrador ou IA **não deve apagar imediatamente**.
 
 Primeiro deve:
 
-1. procurar exatamente `aventuras/<nome da campanha>/`;
+1. procurar exatamente `campanhas/<nome da campanha>/`;
 2. confirmar que a campanha existe;
-3. informar claramente que toda a pasta da campanha será apagada, incluindo personagens, mundo, relações, Progressão, cronologia, estado, capítulos e arquivos de criação;
+3. informar claramente que toda a pasta da campanha será apagada, incluindo personagens, estado, mundo, material reservado e livro;
 4. pedir uma segunda confirmação usando o nome exato.
 
 Formato obrigatório da confirmação:
@@ -40,12 +40,14 @@ O comando de exclusão deve obedecer a todas estas regras:
 - nunca interpretar uma frase comum, reclamação ou comentário como pedido de exclusão;
 - exigir o nome exato da campanha;
 - exigir uma segunda confirmação explícita;
-- atuar somente dentro de `aventuras/<nome>/`;
+- atuar somente dentro de `campanhas/<nome>/`;
 - nunca apagar `sistema/`;
 - nunca apagar a raiz do repositório;
 - nunca apagar outra campanha com nome diferente;
 - se o nome for ambíguo ou não existir exatamente, não apagar nada;
 - se a confirmação não corresponder exatamente à campanha encontrada, não apagar nada.
+
+Campanhas legadas em `aventuras/` **não são atingidas por este comando atual**. Qualquer exclusão de material legado exige uma operação explicitamente direcionada a esse material e confirmação própria.
 
 > **Pedido de exclusão identifica a campanha. Confirmação explícita autoriza a destruição.**
 
@@ -63,7 +65,7 @@ Sistema:
 
 ```text
 Campanha encontrada: Sombras de Eldoria.
-Esta operação apagará definitivamente todos os arquivos em aventuras/Sombras de Eldoria/.
+Esta operação apagará definitivamente todos os arquivos em campanhas/Sombras de Eldoria/.
 Para confirmar, escreva:
 CONFIRMAR EXCLUSÃO: Sombras de Eldoria
 ```
