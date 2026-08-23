@@ -10,6 +10,29 @@ Este arquivo não cria iniciativa própria e não substitui as regras específic
 
 > **Operação diz quem declara e qual intervalo está sendo jogado. Resolução diz como transformar essas declarações no estado final do turno.**
 
+## 0. Atalho operacional — HUD / combate
+
+Sempre que um combate começar ou uma nova ação do JOGADOR HUMANO estiver prestes a ser declarada, seguir mentalmente este atalho:
+
+```text
+HUD → declaração → confirmação mecânica, se necessária → IAs → OPOSITOR → resolver → atualizar estado → novo HUD
+```
+
+Ao iniciar combate:
+
+```text
+1. avisar claramente que o combate começou;
+2. mostrar o HUD discreto do JOGADOR HUMANO;
+3. receber a declaração humana;
+4. confirmar apenas escolhas mecânicas ainda necessárias;
+5. depois receber/processar IAs e OPOSITOR;
+6. resolver o turno;
+7. mostrar resultados mecânicos discretos;
+8. no início da próxima ação humana, mostrar novamente o HUD atualizado.
+```
+
+> **Atalho: HUD → declarar → confirmar → IAs/Opositor → resolver → atualizar.**
+
 ## 1. Entrada formal em combate
 
 Quando uma cena passa a exigir combate ativo, avisar claramente que o combate começou antes do primeiro turno.
@@ -52,7 +75,7 @@ Não mostrar automaticamente efeitos, atributos, perícias, VIDA, Energia ou Pod
 
 Perícias exibidas são somente as que possam ser realmente úteis naquele combate. Os Atributos permanecem visíveis por serem referências universais de resolução.
 
-Depois da entrada formal, não é necessário repetir o painel completo a cada turno se nada relevante mudou. Ao final de cada turno, mostrar de forma compacta os valores, efeitos ou estados que mudaram. Reexibir o painel completo quando isso ajudar a decisão do JOGADOR HUMANO.
+Depois da entrada formal, não é necessário repetir o painel completo a cada turno se nada relevante mudou. Ao início de cada nova ação do JOGADOR HUMANO, porém, o HUD deve ser reapresentado de forma discreta para mostrar o estado atualizado que fundamenta sua decisão.
 
 ## 2. Declarações recebidas
 
@@ -78,17 +101,25 @@ Exemplo:
 
 ```text
 JOGADOR HUMANO:
-"Formo uma magia de proteção em mim."
+"Uso Proteção [3] em mim."
 
 NARRADOR:
-Proteção [3] — si mesmo / 1 alvo / Cena
-Patamar disponível [1–3] | Ampliação [0] | Custo [1–3]
-Qual patamar você usa?
+<small>Proteção [3] — si mesmo / 1 alvo / Cena — Ampliação máx. [7] — Custo [3]</small>
+
+Confirmar?
+```
+
+Se houver uma configuração incompleta ou uma dimensão insuficiente, recomendar sem decidir:
+
+```text
+<small>Alvo além do Alcance Médio. Recomendo Longo [+1] → custo total [4].</small>
+
+Confirmar Proteção [3] + Longo [+1]?
 ```
 
 O resumo deve ser compacto. Não repetir toda a regra quando os dados necessários já puderem ser mostrados em uma ou duas linhas.
 
-Se o JOGADOR HUMANO já declarou uma configuração completa, não perguntar novamente.
+Se o JOGADOR HUMANO já declarou uma configuração completa e ela é válida, não perguntar novamente; apenas confirmar quando a regra exigir confirmação antes de fechar a declaração.
 
 Se a diferença entre opções não possui efeito mecânico ou ficcional relevante para aquela resolução, não criar pergunta burocrática.
 
@@ -118,7 +149,27 @@ Usar `consolidacao.md`, `energia.md`, `escalas-de-efeito.md` e a regra específi
 
 A configuração deve respeitar o repertório real da capacidade. Ampliação muda a escala da manifestação; não inventa um efeito que o Poder não possui.
 
-## 5. Determinar oposição aplicável
+Quando um Poder possuir um **Atributo-base fixo** para Ampliação, esse Atributo já estabelecido na ficha é usado automaticamente. O NARRADOR não escolhe outro Atributo durante o combate apenas para aumentar a Ampliação possível.
+
+Exemplo:
+
+`Magia da Ordem [3] | Atributo-base: MEN [4] → Ampliação máxima [7]`.
+
+Um Poder corporal pode ter `FIS` ou `RES` como Atributo-base conforme sua definição aprovada; depois de definido, o vínculo permanece fixo até alteração permanente da ficha.
+
+## 5. Processamento das IAs fora da tela
+
+JOGADORES IA e JOGADORES IA EVENTUAIS podem realizar internamente o mesmo procedimento de configuração exigido do JOGADOR HUMANO:
+
+```text
+declaração → escolher patamar → verificar alcance/alvos/área/duração → calcular Ampliação → verificar custo → corrigir configuração, se necessário → declaração final
+```
+
+Esse processo não precisa aparecer na tela. O NARRADOR mostra apenas a intenção final relevante à ficção e os resultados mecânicos que o JOGADOR HUMANO precisa conhecer.
+
+O mesmo vale para NPCs e peças do OPOSITOR, respeitados os segredos que não devem ser revelados.
+
+## 6. Determinar oposição aplicável
 
 Para cada aplicação, identificar somente a oposição que realmente responde ao mecanismo usado.
 
@@ -138,7 +189,7 @@ Não somar automaticamente defesas diferentes apenas porque todas existem.
 
 A ficção determina quais delas podem participar daquela troca.
 
-## 6. Julgar precedência dentro do mesmo turno
+## 7. Julgar precedência dentro do mesmo turno
 
 Depois de conhecer as intenções e configurações, o NARRADOR determina a precedência causal das aplicações que realmente interferem umas nas outras.
 
@@ -158,7 +209,7 @@ Declarar primeiro não significa agir primeiro.
 
 Não é necessário ordenar ações independentes que possam ocorrer simultaneamente sem interferência.
 
-## 7. Pagar custos e resolver pela regra específica
+## 8. Pagar custos e resolver pela regra específica
 
 Uma vez definida a configuração válida da aplicação, pagar seus custos e usar a regra apropriada.
 
@@ -170,13 +221,33 @@ Proteção / Barreira → escalas-de-efeito.md + consolidacao.md
 Cura                → recuperacao-da-vida.md
 Dissipar            → escalas-de-efeito.md
 Controle            → escalas-de-efeito.md + motor-de-disputa.md
-Contenção           → escalas-de-efeito.md + motor-de-disputa.md
+Contenção            → escalas-de-efeito.md + motor-de-disputa.md
 Energia             → energia.md
 ```
 
 O arquivo específico define a matemática. Esta ordem apenas determina quando cada cálculo entra.
 
-## 8. Aplicar a consequência imediatamente
+## 9. Mostrar apenas resultados mecânicos relevantes
+
+Toda informação puramente mecânica deve ser apresentada em formato visual discreto, preferencialmente com texto menor, para diferenciá-la da narrativa.
+
+A regra padrão é **mostrar o resultado, não a conta completa**.
+
+Exemplos:
+
+```text
+<small>Proteção concluída → Proteção [D3,8 / V5] | Energia [77/80]</small>
+<small>Cultista 1 sofre 4 Dano → VIDA [1/5]</small>
+<small>Cura: +8 VIDA → VIDA [23/35]</small>
+<small>Energia −4 → [73/80]</small>
+<small>Barreira sofre 3 Dano → V2/5</small>
+```
+
+Fórmulas e cálculos intermediários permanecem ocultos por padrão. Exibi-los somente quando o JOGADOR HUMANO pedir uma auditoria, quando estivermos testando especificamente uma regra ou quando a transparência do cálculo for necessária para resolver uma dúvida.
+
+A narrativa continua em texto normal. HUD, confirmações, custos, resultados e demais informações puramente mecânicas usam o formato discreto.
+
+## 10. Aplicar a consequência imediatamente
 
 Depois de resolver uma aplicação, atualizar imediatamente tudo que ela realmente alterou antes de processar uma ação que dependa desse resultado.
 
@@ -197,7 +268,7 @@ Se uma consequência torna outra ação impossível, muda seu alvo, remove uma d
 
 Isso não quebra a simultaneidade: representa a interferência causal dentro dos mesmos segundos compartilhados.
 
-## 9. Resolver as aplicações restantes
+## 11. Resolver as aplicações restantes
 
 Continuar o processo até que todas as intenções que ainda possam ocorrer dentro daquele turno tenham sido julgadas.
 
@@ -205,7 +276,7 @@ Uma intenção ampla não autoriza atravessar turnos adicionais. Resolver soment
 
 Se surgir uma nova decisão relevante que não estava contida na declaração original, parar no ponto causal e abrir nova oportunidade de decisão conforme as regras operacionais.
 
-## 10. Fechamento do turno
+## 12. Fechamento do turno
 
 Antes de abrir o turno seguinte, consolidar o estado final.
 
@@ -232,21 +303,23 @@ Se o confronto deixou de exigir acompanhamento em segundos, encerrar o relógio 
 ```text
 COMBATE COMEÇA
 → avisar entrada em combate
-→ mostrar painel operacional do JOGADOR HUMANO
-→ receber declarações do turno
+→ mostrar HUD operacional do JOGADOR HUMANO
+→ receber declaração humana
+→ confirmar escolhas mecânicas, se necessário
+→ processar declarações das IAs e do OPOSITOR
 → ler intenções como simultâneas
 → identificar escolhas mecânicas ainda faltantes
-→ perguntar ao JOGADOR HUMANO antes de escolher por ele
 → configurar aplicações
 → determinar oposição aplicável
 → julgar precedência e interferência
 → pagar custos
 → resolver pela regra específica
 → aplicar consequência imediatamente
+→ mostrar resultados mecânicos discretos
 → reavaliar ações afetadas
 → resolver aplicações restantes
 → consolidar estado final do turno
-→ mostrar mudanças relevantes ao JOGADOR HUMANO
+→ novo HUD na próxima ação humana
 → próximo turno, se o combate continuar
 ```
 
