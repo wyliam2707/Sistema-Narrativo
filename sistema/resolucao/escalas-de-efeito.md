@@ -26,6 +26,10 @@ Essa regra vale para efeitos persistentes como `Proteção`, `Imobilizar`, `Supr
 
 Enquanto possuir `V > 0`, um efeito persistente continua funcionando integralmente. Perder Vida estrutural não reduz sua Defesa, intensidade, função ou demais propriedades por si só.
 
+A Vida estrutural de um efeito persistente **não é curada** por Cura, descanso, regeneração, passagem de tempo ou outro mecanismo de recuperação de VIDA comum. O dano estrutural permanece enquanto aquela instância existir.
+
+Uma nova aplicação do mesmo efeito não é Cura da instância anterior. Ela entra normalmente pela regra de consolidação e pode resultar em um `V` maior, porque uma nova aplicação mecânica passou a compor aquela instância.
+
 Quando a Vida estrutural de um efeito persistente chega a `V0`, o efeito encerra imediatamente. Não existe estado residual automático nem funcionamento parcial depois de `V0`, salvo quando uma regra específica disser expressamente o contrário.
 
 Se o mesmo efeito for aplicado novamente depois de a instância anterior ter chegado a `V0`, a nova aplicação cria uma **nova instância completa**. Não existe consolidação, média ou reaproveitamento do `V0` anterior, porque a instância antiga já deixou de existir.
