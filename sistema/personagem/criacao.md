@@ -22,11 +22,75 @@ Antes da revisão, a criação de qualquer ficha define somente três informaç�
 3 - CONTROLE
 ```
 
-Essas são as primeiras três informações da ficha.
-
 Se uma resposta do jogador já fornecer uma delas de forma explícita, registrá-la e não perguntar novamente; seguir para o próximo campo ainda indefinido.
 
 `IMPORTÂNCIA` e `CONTROLE` são independentes. As regras de cada campo pertencem a `ficha.md`.
+
+## Método de criação assistida
+
+A revisão de personagem usa como padrão uma mistura de **base pronta + liberdade total de adaptação antes do salvamento**.
+
+O JOGADOR HUMANO não precisa construir cada campo do zero quando já existe material suficiente para uma proposta útil.
+
+Durante cada bloco, o NARRADOR deve:
+
+```text
+consultar a base disponível
+→ montar uma proposta coerente e suficientemente completa
+→ apresentar a proposta ao jogador
+→ receber correções, cortes, acréscimos ou mudanças
+→ reapresentar quando necessário
+→ salvar somente após aprovação explícita
+```
+
+A **base disponível** pode vir de:
+
+- versão conhecida ou canônica escolhida para uma personagem licenciada;
+- conceito e fatos já discutidos na campanha;
+- blocos anteriores já aprovados;
+- relações e decisões já estabelecidas;
+- material original criado para aquela personagem.
+
+A base serve para evitar uma criação vazia ou burocrática. Ela **não é uma prisão canônica**.
+
+O jogador pode mudar antes da aprovação:
+
+- idade;
+- nome ou identidade;
+- aparência e estilo;
+- história;
+- personalidade;
+- relações;
+- atributos e perícias;
+- poderes e patamares;
+- limitações;
+- objetivos;
+- qualquer outro elemento proposto.
+
+Para personagem conhecido, o objetivo é começar de uma versão **reconhecível**, e então adaptá-la livremente ao cenário. Depois da aprovação, a versão consolidada na ficha passa a ser o cânone local da campanha.
+
+Para personagem original, o NARRADOR usa o conceito e tudo que já foi aprovado como base para propor os próximos elementos em vez de obrigar o jogador a inventar cada campo isoladamente.
+
+> **Proposta não é fato. Aprovação transforma a proposta em fato persistente.**
+
+Uma correção pontual do jogador deve ser interpretada como alteração da proposta apresentada, **mantendo o restante igual**, salvo quando a própria correção exigir reorganização mais ampla.
+
+Exemplo:
+
+```text
+NARRADOR:
+Magia da Alma [4] => Geral / Dano [3] / Proteção [3] / Cura [2] / Projeção Astral [4]
+Empatia [4] => ...
+
+JOGADOR:
+Mude Magia da Alma para [3], deixe Cura [2] e Projeção Astral [4] como únicas exceções e Empatia [2].
+
+RESULTADO DA PROPOSTA:
+Magia da Alma [3] => Geral / Dano / Proteção / Cura [2] / Projeção Astral [4]
+Empatia [2] => ...
+```
+
+O que não foi pedido para mudar permanece como estava.
 
 ## Nascimento da ficha
 
@@ -38,7 +102,7 @@ Assim que `NOME + IMPORTÂNCIA + CONTROLE` estiverem definidos:
 4. preencher somente Nome, Importância e CONTROLE;
 5. deixar todos os demais campos e seções vazios.
 
-Exemplo:
+Exemplo estrutural:
 
 ```text
 # Ravena
@@ -73,29 +137,9 @@ REL:
 ## História consolidada relevante
 ```
 
-Não inventar ou preencher antecipadamente:
+Não inventar ou **persistir antecipadamente** nome real, idade, aparência, estilo, origem, conceito, personalidade, comportamento, história, objetivos, medos, atributos, perícias, poderes, TRAÇOS, RECURSOS, relações, conhecimento ou qualquer outro conteúdo da ficha.
 
-- nome real;
-- idade;
-- aparência;
-- estilo;
-- origem;
-- conceito;
-- personalidade;
-- comportamento;
-- história;
-- objetivos;
-- medos;
-- atributos;
-- perícias;
-- poderes;
-- TRAÇOS;
-- RECURSOS;
-- relações;
-- conhecimento;
-- qualquer outro conteúdo da ficha.
-
-Tudo isso pertence à revisão.
+Essas informações podem ser **propostas** no bloco apropriado usando o método de criação assistida, mas só entram no arquivo depois da aprovação.
 
 > **Primeiro identificamos a peça e sua autoridade. Depois descobrimos quem ela é.**
 
@@ -145,13 +189,24 @@ Depois que as fichas estruturais estiverem criadas, cada ficha é construída **
 5 - Conferência final
 ```
 
+Em todos os blocos vale o mesmo ciclo:
+
+```text
+base disponível
+→ proposta do NARRADOR
+→ discussão e adaptação livre
+→ aprovação do JOGADOR HUMANO
+→ persistência
+→ próximo bloco
+```
+
 ### Bloco 1 — Identidade e conceito
 
 Nome, Importância e CONTROLE já chegam definidos e não precisam ser redescobertos.
 
 Este bloco deve deixar a personagem **identificável como pessoa e reconhecível em cena**, não apenas explicar sua origem de forma abstrata.
 
-A revisão do Bloco 1 segue como padrão, quando aplicável:
+A revisão segue como padrão, quando aplicável:
 
 ```text
 Nome de uso / codinome
@@ -164,28 +219,20 @@ Nome de uso / codinome
 → demais informações de identidade necessárias
 ```
 
-Revisar e preencher:
+Revisar e preencher, quando relevantes:
 
 - nome de uso, codinome ou identidade pela qual é conhecida;
 - nome real, civil ou pessoal, quando diferente do nome de uso;
-- outros nomes relevantes, somente quando realmente usados;
+- outros nomes realmente usados;
 - idade;
 - aparência física suficiente para reconhecê-la;
-- estilo visual e forma habitual de se apresentar, incluindo roupas, cores, acessórios ou marcas características quando relevantes;
+- estilo visual e forma habitual de se apresentar;
 - origem;
 - natureza;
 - conceito;
-- personalidade;
-- comportamento;
-- história essencial;
-- desejos e objetivos;
-- medos e limites;
-- conhecimento necessário para interpretação;
-- demais elementos de identidade relevantes.
+- demais elementos de identidade necessários para a interpretação.
 
 `Nome real`, `Aparência` e `Estilo` fazem parte do **modelo-base padrão da ficha**. Permanecem vazios antes da revisão e são preenchidos no Bloco 1 quando aplicáveis.
-
-Se o personagem não possuir distinção entre nome de uso e nome real, o campo `Nome real:` pode repetir o nome civil quando isso for útil ou permanecer vazio até a conferência final decidir se deve ser removido.
 
 A aparência não precisa virar catálogo de medidas. Deve registrar aquilo que realmente define a presença visual da personagem e ajuda o NARRADOR a descrevê-la de modo consistente.
 
@@ -197,9 +244,7 @@ A aparência não precisa virar catálogo de medidas. Deve registrar aquilo que 
 
 Se for personagem conhecido, canônico ou licenciado, a versão-base e eventuais combinações ou alterações são tratadas aqui, salvo quando o jogador já tiver fornecido essa informação.
 
-A versão escolhida serve como referência inicial. O jogador pode alterar, combinar ou substituir aparência, idade, história, poderes, relações, personalidade ou qualquer outro elemento.
-
-A versão conhecida deve ser convertida em informação concreta da campanha: nome real quando aplicável, aparência, estilo e demais sinais de identidade não devem ficar implícitos apenas porque a personagem já existe em outra obra.
+A versão conhecida deve virar uma **proposta concreta local**, não um pedido para que o jogador recite o cânone campo por campo. O NARRADOR pode apresentar uma base reconhecível e o jogador modifica o que quiser antes de aprovar.
 
 Depois de consolidada, a versão da campanha passa a ser a referência canônica local daquela personagem.
 
@@ -207,13 +252,15 @@ Depois de consolidada, a versão da campanha passa a ser a referência canônica
 
 ### Bloco 2 — Atributos e perícias
 
-Converter e revisar o que foi estabelecido no conceito em:
+Converter e revisar o conceito aprovado em:
 
 ```text
 FIS | RES | MEN | VON
 ```
 
 e nas perícias realmente relevantes.
+
+O NARRADOR deve apresentar uma proposta calibrada, com justificativa quando útil, em vez de pedir ao jogador que escolha todos os números sem referência.
 
 Aplicar `calibracao.md` sem usar outra ficha como molde automático.
 
@@ -227,6 +274,8 @@ Converter e revisar:
 - repertórios;
 - limites conceituais relevantes.
 
+O NARRADOR apresenta um arsenal coerente com a base aprovada. O jogador pode alterar nomes, patamares, repertórios, exceções e limites antes do salvamento.
+
 Usar as regras atuais de `poderes.md`, `escala.md`, `calibracao.md` e `../resolucao/` quando necessário.
 
 ### Bloco 4 — Traços e relações
@@ -239,11 +288,39 @@ Revisar e preencher:
 - RECURSOS recorrentes relevantes;
 - relações que realmente pertençam à ficha.
 
+Relações e fatos já discutidos anteriormente devem reaparecer automaticamente na proposta deste bloco. Não perguntar novamente se eles existem quando já foram explicitamente estabelecidos.
+
 ### Bloco 5 — Conferência final
 
-Verificar se o conjunto representa o conceito aprovado, corrigir incoerências, remover excessos e confirmar que não restou campo importante esquecido apenas porque estava fora da conversa.
+Este bloco não é apenas uma inspeção mecânica.
+
+Ele deve transformar tudo que já foi aprovado em uma personagem **completa para interpretação**.
+
+O NARRADOR revisa a ficha inteira e, quando ainda houver campos narrativos vazios ou pouco desenvolvidos, apresenta uma proposta final misturando:
+
+- a base original ou canônica escolhida;
+- tudo que foi discutido durante a criação;
+- os quatro blocos já aprovados;
+- adaptações locais feitas pelo jogador;
+- consequências naturais dessas escolhas para personalidade, objetivos, medos, conhecimento e história.
+
+É especialmente apropriado completar e revisar aqui:
+
+```text
+Personalidade e tendências
+Desejos / objetivos atuais
+Medos / limites relevantes
+Conhecimento atual relevante
+História consolidada relevante
+```
+
+O jogador pode editar livremente essa síntese antes de aprovar.
+
+O Bloco 5 também verifica incoerências, remove excessos e confirma que não restou campo importante esquecido apenas porque estava fora da conversa.
 
 Campos comprovadamente inúteis para aquela personagem podem ser removidos somente depois dessa conferência.
+
+> **O final da revisão combina a base reconhecível com tudo que a campanha transformou nela.**
 
 ## Salvamento durante a revisão
 
@@ -258,6 +335,8 @@ bloco apresentado
 ```
 
 Conteúdo ainda em discussão, alternativas recusadas e tentativas intermediárias não entram na ficha definitiva.
+
+Uma resposta que altera apenas parte da proposta não autoriza apagar ou simplificar silenciosamente o restante.
 
 > **Bloco aprovado vira estado persistente. Conteúdo em discussão permanece apenas na conversa.**
 
