@@ -4,7 +4,7 @@ CRIAÇÃO: EM ANDAMENTO
 
 Etapa atual: Revisão das fichas
 Personagem atual: Feiticeira Escarlate
-Bloco atual: 1 - Identidade e conceito
+Bloco atual: 2 - Atributos e perícias
 
 ## 1 - Nome da campanha
 
