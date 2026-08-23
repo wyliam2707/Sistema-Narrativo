@@ -34,28 +34,50 @@ Os três continuam sendo personagens distintos, mas podem ser administrados pela
 
 Quando ativo, cada personagem eventual passa a mover sua própria peça antes do julgamento do NARRADOR, seguindo as mesmas regras de autonomia e conhecimento compartimentado do JOGADOR IA permanente.
 
-## Avaliação obrigatória
+## Ativação circunstancial
 
-Em toda janela significativa e em toda passagem relevante de tempo, verificar se algum personagem previamente designado como eventual possui motivo real para atuar.
+Estar cadastrado como `JOGADOR IA EVENTUAL` não significa estar operacionalmente ativo em toda janela.
 
-Exemplos:
+A persona EVENTUAL verifica apenas se algum personagem dessa categoria possui um fio causal relevante que intersecta a situação ou o período atual.
 
-- objetivo próprio relevante;
-- investigação em andamento;
-- relação próxima que sofreu mudança importante;
-- conflito de interesses;
-- decisão capaz de alterar a situação;
-- obrigação ou compromisso que chegou ao momento de agir;
-- ação fora da câmera com consequência causal;
-- padrão de comportamento que o personagem plausivelmente não ignoraria.
+As formas básicas de ativação são:
 
-Se nenhum personagem eventual precisar ser ativado:
+```text
+PRESENÇA
+→ o personagem está na cena ou participando diretamente da situação.
+
+FIO ATIVO
+→ possui compromisso, objetivo, intenção ou ação em andamento que cruza o período atual.
+
+GATILHO
+→ algo aconteceu que legitimamente exige ou permite uma nova decisão desse personagem.
+```
+
+Um `GATILHO` pode nascer da ficção já estabelecida ou de um movimento validado do OPOSITOR.
+
+Se nenhum personagem eventual possuir presença, fio ativo ou gatilho relevante:
 
 ```text
 JOGADOR IA EVENTUAL — nenhum personagem eventual está ativo nesta janela.
 ```
 
 A categoria não deve ser criada automaticamente para qualquer NPC. O personagem precisa ter sido explicitamente designado para esse papel na ficha.
+
+## Consulta mínima para ativação
+
+A persona EVENTUAL não precisa carregar todas as fichas de todos os eventuais apenas para descobrir quem pode agir.
+
+Pode receber primeiro somente um índice mínimo de fios ainda relevantes, por exemplo:
+
+```text
+Titãs → visita marcada para quinta
+Constantine → sem fio ativo
+Equipe X → investiga quando receber resposta
+```
+
+Se um fio intersectar a janela atual, aí sim são consultados a ficha e o contexto legítimo do personagem ou grupo envolvido.
+
+> **Primeiro identifica quem pode entrar; depois carrega somente quem realmente precisa decidir.**
 
 ## Quando ativo
 
@@ -131,10 +153,28 @@ Ele continua limitado ao que:
 
 ## Relação com o OPOSITOR
 
-O OPOSITOR pode movimentar o cenário ao redor de um personagem eventual, mas não toma decisões voluntárias por ele enquanto estiver ativo como JOGADOR IA EVENTUAL.
+O OPOSITOR pode produzir um movimento capaz de criar um gatilho para um personagem eventual e, com isso, iniciar ou provocar uma nova cena.
 
-Se um movimento do cenário criar uma nova decisão, o controle retorna à persona eventual antes da próxima resolução.
+Exemplo:
+
+```text
+OPOSITOR
+→ alguém bate à porta de Constantine.
+```
+
+O NARRADOR julga se esse movimento é válido e estabelece aquilo que realmente alcança ou é percebido pelo personagem.
+
+Se surgir uma decisão voluntária, o controle pertence ao JOGADOR IA EVENTUAL:
+
+```text
+JOGADOR IA EVENTUAL — Constantine
+→ decide se atende, ignora, observa ou toma outra ação coerente.
+```
+
+O mesmo vale para mensagens, visitas, ameaças, oportunidades, notícias, pedidos de ajuda ou outros acontecimentos que possam alcançar legitimamente um eventual.
+
+> **O OPOSITOR pode provocar a peça e criar motivo para sua ativação. Não escolhe a decisão voluntária do EVENTUAL.**
 
 ## Regra final
 
-> **JOGADOR IA EVENTUAL é uma única persona compartilhada pelos personagens marcados dessa forma na ficha. A categoria Eventual é autorização; a ativação é circunstancial; conhecimento e intenção continuam pertencendo a cada personagem.**
+> **JOGADOR IA EVENTUAL é uma única persona compartilhada pelos personagens marcados dessa forma na ficha. A categoria Eventual é autorização; a ativação nasce de presença, fio ativo ou gatilho; conhecimento e intenção continuam pertencendo a cada personagem.**
