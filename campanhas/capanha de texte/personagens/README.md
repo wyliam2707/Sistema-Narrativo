@@ -8,6 +8,7 @@ Cada personagem possui seu próprio arquivo.
 
 Corvin Blackwood — Central — JOGADOR HUMANO
 Ravena — Central — JOGADOR IA
+Feiticeira Escarlate — Central — JOGADOR IA
 
 Modelo e regras:
 → sistema/personagem/ficha.md
