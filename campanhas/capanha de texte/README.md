@@ -26,6 +26,7 @@ O cenário é próprio, mas incorpora personagens e elementos da Marvel conforme
 
 Corvin Blackwood — Central — JOGADOR HUMANO
 Ravena — Central — JOGADOR IA
+Feiticeira Escarlate — Central — JOGADOR IA
 
 ## 5 - Situação de entrada
 
