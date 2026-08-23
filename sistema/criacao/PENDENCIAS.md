@@ -129,11 +129,15 @@ Commit:
 
 - `977986583e4a8e8cb6324f240060123b231b13cc`
 
-## Ponto atual
-
 ### Ponto 4 — hand-off para `estado/atual.md` antes da primeira cena
 
-Proposta ainda não discutida em detalhe:
+APROVADO E REGISTRADO.
+
+Regra aprovada:
+
+> **Quando todas as fichas forem aprovadas, o sistema consolida automaticamente a situação inicial em `estado/atual.md`, marca `CRIAÇÃO: CONCLUÍDA` no README da campanha e somente então o NARRADOR abre a primeira cena.**
+
+Fluxo:
 
 ```text
 fichas aprovadas
@@ -142,9 +146,17 @@ fichas aprovadas
 → NARRADOR abre a primeira cena
 ```
 
-Isso deve ser persistência automática, não uma nova etapa nem nova confirmação do jogador.
+A consolidação usa somente fatos já aprovados e necessários para o ponto de entrada. Não é uma nova etapa, não exige confirmação adicional e não copia fichas completas para `estado/atual.md`.
 
-## Pontos ainda não revisados
+Registrado em:
+
+- `sistema/criacao/README.md`
+
+Commit:
+
+- `1d967588c5df9cca269640ad474168a878f48f88`
+
+## Ponto atual
 
 ### Ponto 5 — relação entre GERÊNCIA e CONTROLE
 
@@ -155,6 +167,8 @@ Proposta a discutir:
 > **GERÊNCIA é a escolha feita durante a criação; ao criar a ficha, seu valor é registrado no campo `CONTROLE`.**
 
 Evitar criar um campo permanente `GERÊNCIA:` na ficha.
+
+## Pontos ainda não revisados
 
 ### Ponto 6 — personagens eventuais no índice da campanha
 
@@ -272,6 +286,6 @@ Ao abrir um novo chat, continuar assim:
 
 ```text
 1 - ler sistema/criacao/PENDENCIAS.md
-2 - apresentar somente o Ponto 4 ao usuário
-3 - não avançar ao Ponto 5 até o Ponto 4 ser aprovado e salvo
+2 - apresentar somente o Ponto 5 ao usuário
+3 - não avançar ao Ponto 6 até o Ponto 5 ser aprovado e salvo
 ```
