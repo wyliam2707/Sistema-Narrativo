@@ -15,7 +15,7 @@ JOGADORES
 → declaram pelas próprias peças.
 
 OPOSITOR
-→ procura e declara oposição, pressão, gancho ou movimento adversarial.
+→ procura e declara oposição, pressão, gancho, movimento ou nenhuma intervenção.
 
 NARRADOR
 → julga.
@@ -23,25 +23,117 @@ NARRADOR
 → registra.
 ```
 
-## O que é uma janela de cena
+# Princípios de execução
+
+## Declaração é intenção
+
+O jogador não precisa dizer `tento` antes de toda ação.
+
+```text
+“Eu esquivo.”
+→ intenção de esquivar.
+
+“Eu neutralizo os guardas.”
+→ intenção de neutralizá-los.
+```
+
+A declaração informa **o que a peça quer fazer**. O julgamento determina o que realmente acontece.
+
+## Intenção ampla continua enquanto ainda servir
+
+Uma intenção pode cobrir várias ações coerentes.
+
+Exemplo:
+
+```text
+“Vou até a cozinha, pego o livro e volto para o quarto.”
+```
+
+Não abrir nova janela por cada passo, gesto ou detalhe banal.
+
+A intenção continua enquanto:
+
+- nada relevante mudar;
+- o método declarado continuar possível;
+- nenhuma nova informação exigir escolha;
+- nenhuma oposição produzir ponto real de decisão;
+- a ação seguinte continuar coberta pelo que já foi declarado.
+
+> **Não parar por hábito. Parar quando consequência voltar a ser escolha.**
+
+Uma reação de outra peça não interrompe automaticamente o fluxo. Ela abre nova janela somente se criar decisão relevante para alguma peça controlada por jogador.
+
+## Competência evidente entra no julgamento automaticamente
+
+O jogador não precisa lembrar o NARRADOR de cada capacidade óbvia de sua ficha.
+
+Se uma informação ou execução seria evidente para aquela competência, ela deve ser considerada no julgamento.
+
+Exemplos:
+
+```text
+sentidos extraordinários
+→ percebem estímulos compatíveis.
+
+perícia muito alta em uma área
+→ reconhece conhecimento evidente para alguém daquele nível.
+
+MEN elevado
+→ pode perceber padrões compatíveis com os dados realmente disponíveis.
+```
+
+Isso não cria informação inexistente e não concede onisciência.
+
+> **Competência deve aparecer na sentença sem exigir que o jogador peça para sua ficha funcionar.**
+
+## Combate não cria outro jogo
+
+Combate usa a mesma janela e o mesmo motor de resolução.
+
+Não existe obrigação universal de:
+
+- rodada fixa;
+- iniciativa fixa;
+- turno isolado para cada personagem;
+- ordem artificial desconectada da situação.
+
+Precedência e oportunidade nascem dos fatos da cena, como velocidade, distância, surpresa, preparação, posição, intenção e resultado anterior, conforme `../resolucao/`.
+
+A diferença é apenas que, em combate, o OPOSITOR frequentemente recebe peças adversárias para jogar durante a oposição.
+
+# O que é uma janela de cena
 
 Uma janela abre quando existe algo relevante a decidir ou resolver.
 
 Não é necessário abrir uma nova janela para cada frase, passo ou microação.
 
-Uma intenção ampla pode continuar cobrindo ações coerentes enquanto a situação não produzir nova decisão real.
-
 Nova janela é necessária quando, por exemplo:
 
 - surge informação capaz de mudar uma escolha;
 - aparece obstáculo ou oportunidade relevante;
-- outra peça toma iniciativa;
+- outra peça toma iniciativa e exige resposta;
 - o OPOSITOR puxa um gancho;
 - uma oposição entra em cena;
 - o resultado exige nova resposta;
 - a intenção anterior deixa de cobrir a ação seguinte.
 
-## Ordem-base
+## Passagem de tempo dentro de uma intenção
+
+Uma declaração pode cobrir minutos, horas ou período maior quando não houver decisão intermediária importante.
+
+Antes de narrar todo o intervalo como concluído, verificar se durante ele:
+
+- outra peça com agência possui ação que intersecta o período;
+- um compromisso ou retorno chega ao momento relevante;
+- um gancho do OPOSITOR amadurece;
+- uma oposição válida interrompe o plano;
+- surge informação que mudaria uma decisão.
+
+Se nada disso acontecer, o tempo pode avançar normalmente.
+
+Se algo acontecer no meio, a sentença para **no momento causal da mudança**, não depois de completar artificialmente toda a intenção original.
+
+# Ordem-base
 
 ```text
 1. JOGADOR HUMANO declara
@@ -189,6 +281,10 @@ FATOS RELEVANTES
 A pergunta é:
 
 > **Diante do que foi apresentado e do que já é verdade, o que realmente pode acontecer e qual é o resultado?**
+
+Quando o resultado for óbvio pelos fatos e capacidades, não criar incerteza artificial apenas para produzir teste.
+
+Quando existir incerteza real que as regras mandem resolver, aplicar `../resolucao/`.
 
 ## Julgar proposta do OPOSITOR
 
@@ -375,4 +471,4 @@ Se o resultado criar nova oportunidade legítima, isso pertence à próxima jane
 
 # Regra final
 
-> **Cada janela é uma pequena audiência: os jogadores apresentam as ações de suas peças; o OPOSITOR apresenta a oposição ou oportunidade que quer movimentar; o NARRADOR julga, narra a sentença e registra. Na dúvida genuína que restar depois das regras e fatos aplicáveis, in dubio pro reo.**
+> **Cada janela é uma pequena audiência: os jogadores apresentam as ações de suas peças; o OPOSITOR apresenta a oposição ou oportunidade que quer movimentar; o NARRADOR julga, narra a sentença e registra. A intenção continua enquanto ainda cobre o fluxo; competência evidente conta sem pedido; combate usa o mesmo motor; e, na dúvida genuína que restar depois das regras e fatos aplicáveis, in dubio pro reo.**
