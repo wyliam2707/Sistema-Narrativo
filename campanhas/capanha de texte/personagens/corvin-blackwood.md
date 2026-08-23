@@ -46,6 +46,8 @@ Corvin Blackwood tem 62 anos, embora fisicamente aparente cerca de 28. Sua regen
 - **MEN [4]**
 - **VON [2]**
 
+**VIDA [35] | ENERGIA [80]**
+
 ### Perícias
 - **Ocultismo [+4]**
 - **Controle da energia da Ordem [+4]**
