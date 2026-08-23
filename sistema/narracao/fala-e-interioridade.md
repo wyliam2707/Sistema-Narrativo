@@ -74,7 +74,20 @@ Sensações, reflexos involuntários e percepções objetivas podem ser narrados
 
 ## Livro consolidado
 
-No material literário consolidado, pensamentos de qualquer personagem podem aparecer quando:
+O material literário consolidado é escrito em **terceira pessoa** e pode apresentar a visão de **cada personagem realmente envolvido na cena**.
+
+Isso inclui, quando relevante:
+
+- o que cada um percebe;
+- o que pensa;
+- sua opinião sobre o que está acontecendo;
+- sua leitura dos outros personagens;
+- emoções e conflitos internos coerentes com sua personalidade;
+- diferenças de interpretação entre pessoas que presenciaram o mesmo acontecimento.
+
+A narrativa pode alternar o foco entre os envolvidos para mostrar que uma mesma cena é vivida de maneiras diferentes. Não é necessário limitar o capítulo inteiro a uma única mente, mas cada passagem deve deixar claro de quem é a percepção ou interioridade apresentada.
+
+Pensamentos de qualquer personagem podem aparecer quando:
 
 - forem coerentes com o que realmente aconteceu;
 - respeitarem o ponto de vista usado;
@@ -84,7 +97,9 @@ No material literário consolidado, pensamentos de qualquer personagem podem apa
 
 O livro pode oferecer interioridade maior que a sessão ao vivo, mas não pode reescrever o cânone.
 
-Quando uma motivação decisiva nunca foi estabelecida, preservar a ambiguidade em vez de fabricar uma justificativa posterior.
+Para a peça do JOGADOR HUMANO, pensamentos e opiniões já estabelecidos pelo jogador podem ser literariamente desenvolvidos sem alterar seu sentido. Quando uma motivação, opinião ou decisão interna nunca foi estabelecida e não puder ser inferida com segurança do que o jogador demonstrou, preservar a ambiguidade em vez de fabricar uma justificativa posterior.
+
+> **O livro registra não apenas o que aconteceu, mas como os envolvidos viveram aquilo — em terceira pessoa, sem transformar interpretação literária em alteração retroativa do cânone.**
 
 ## Voz individual
 
@@ -124,4 +139,4 @@ Se o comportamento já comunica claramente, não explicar novamente por obrigaç
 
 ## Regra final
 
-> **Fala é identificada. Pensamento direto é controlado. No RPG ao vivo, a mente das outras peças permanece fora de acesso direto; no livro, interioridade pode ser ampliada sem alterar fatos, decisões ou conhecimento.**
+> **Fala é identificada. Pensamento direto é controlado. No RPG ao vivo, a mente das outras peças permanece fora de acesso direto; no livro consolidado, a narrativa em terceira pessoa pode mostrar a visão, pensamentos e opiniões dos personagens envolvidos sem alterar fatos, decisões ou conhecimento.**
