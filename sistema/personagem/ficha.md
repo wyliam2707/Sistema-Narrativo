@@ -11,9 +11,12 @@ Ela não precisa ser curta. Precisa ser organizada e conter informação útil p
 A ficha pode guardar, quando relevantes:
 
 - identidade;
+- nome real;
 - importância;
 - `CONTROLE`;
 - idade;
+- aparência;
+- estilo;
 - conceito;
 - descrição;
 - TRAÇOS;
@@ -61,7 +64,10 @@ Status:
 Importância:
 CONTROLE:
 
+Nome real:
 Idade:
+Aparência:
+Estilo:
 Conceito:
 Descrição:
 
@@ -83,6 +89,24 @@ Essa ordem é apenas uma referência estética. **Qualquer personagem pode ter u
 
 Um Figurante pode possuir dez páginas de informação se isso for útil. Um Relevante pode ter apenas três linhas se isso for suficiente.
 
+## Identidade visual padrão
+
+O modelo-base separa três informações que não devem ser confundidas:
+
+```text
+Nome real → identidade pessoal/civil quando diferente do nome de uso
+Aparência → como o personagem é fisicamente reconhecido
+Estilo → como costuma se apresentar visualmente
+```
+
+`Aparência:` registra os elementos físicos que realmente ajudam a reconhecer a pessoa em cena, como constituição, pele, olhos, cabelo, feições, marcas ou outras características persistentes relevantes.
+
+`Estilo:` registra a apresentação habitual: roupas, cores recorrentes, acessórios, uniforme, armadura, maquiagem, símbolos, cabelo quando tratado como escolha estética ou outros elementos visuais recorrentes.
+
+`Descrição:` pode complementar aparência e estilo com presença, impressão geral ou outra síntese útil, mas não deve substituir esses campos quando ambos forem relevantes.
+
+A ficha não precisa virar catálogo de medidas. O objetivo é permitir que o personagem seja **reconhecível e descrito de forma consistente quando entrar em cena**.
+
 ## Nascimento da ficha
 
 Ao criar uma nova ficha apresentável ao jogador, usar desde o início o **modelo-base completo** definido neste arquivo.
@@ -103,7 +127,7 @@ Status: PENDENTE DE REVISÃO
 
 Todos os demais campos e seções do modelo já devem existir no arquivo, mas permanecem vazios até serem tratados no bloco correspondente da revisão.
 
-Não preencher antecipadamente aparência, idade, conceito, personalidade, história, atributos, perícias, poderes, recursos, relações ou qualquer outro conteúdo apenas para completar a ficha.
+Não preencher antecipadamente nome real, aparência, estilo, idade, conceito, personalidade, história, atributos, perícias, poderes, recursos, relações ou qualquer outro conteúdo apenas para completar a ficha.
 
 ```text
 NOME + IMPORTÂNCIA + CONTROLE
@@ -325,7 +349,10 @@ Status: PENDENTE DE REVISÃO
 Importância: ...
 CONTROLE: ...
 
+Nome real:
 Idade:
+Aparência:
+Estilo:
 Conceito:
 Descrição:
 
@@ -349,6 +376,8 @@ REL:
 ```
 
 Na ficha recém-criada, somente Nome, Importância e CONTROLE recebem conteúdo. Os demais campos permanecem vazios.
+
+No **Bloco 1 — Identidade e conceito**, `Nome real`, `Idade`, `Aparência` e `Estilo` são tratados junto com origem, natureza e conceito para que a personagem fique concreta e reconhecível antes da revisão mecânica.
 
 ## Informação reservada do NARRADOR
 
