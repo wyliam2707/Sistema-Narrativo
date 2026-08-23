@@ -42,7 +42,7 @@ Um mesmo Poder pode usar eixos diferentes em manifestações diferentes quando s
 
 Quando uma Proteção ou efeito persistente possui uma Fonte com Atributo estrutural definido:
 
-`Vida estrutural = maior entre [1] e o valor atual do Atributo da Fonte]`
+`Vida estrutural = maior entre [1] e o valor atual do Atributo da Fonte`
 
 Assim, **todo efeito com Vida estrutural possui pelo menos [1] de Vida**.
 
