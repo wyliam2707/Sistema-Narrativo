@@ -2,9 +2,11 @@
 
 Status: APROVADO
 
-Este arquivo define como uma intenção de combate é convertida em consequência quando o resultado não é evidente.
+Este arquivo define como uma intenção ofensiva é convertida em consequência quando o resultado não é evidente.
 
-A regra existe para sustentar tanto declarações amplas quanto ações detalhadas, sem exigir que o JOGADOR coreografe golpe por golpe.
+A organização temporal do combate pertence a `../operacao/turnos-de-combate.md`.
+
+> **Combate usa turnos simultâneos de 10 segundos. Este arquivo calcula o que acontece dentro desse intervalo.**
 
 ## Princípio
 
@@ -25,11 +27,17 @@ Uma declaração como:
 
 `Vou até ele e ataco.`
 
-pode representar uma troca inteira de combate.
+pode representar toda a troca coerente que caiba naquele turno de 10 segundos.
 
-O NARRADOR não precisa pedir ao JOGADOR cada passo, esquiva ou golpe. Ele usa as capacidades relevantes, resolve a troca e narra uma sequência coerente até surgir um novo ponto real de decisão.
+O JOGADOR não precisa coreografar cada passo, esquiva ou golpe. O NARRADOR julga a intenção junto das demais declarações do mesmo turno e resolve somente aquilo que pode acontecer dentro do intervalo disponível.
 
-A resolução termina quando a consequência volta a exigir escolha.
+Uma declaração como:
+
+`Entro na sala e mato todo mundo.`
+
+estabelece um objetivo amplo, não autorização para atravessar vários turnos. O primeiro turno resolve apenas o que cabe nos 10 segundos compartilhados e nas reações das outras peças.
+
+A sentença termina antes se surgir nova decisão relevante; caso contrário, termina no limite do turno.
 
 ## Fonte do Dano
 
@@ -39,7 +47,13 @@ O corpo pode usar `FIS` como potência física de Dano quando o mecanismo for um
 
 Uma arma, Poder ou equipamento que possua `Dano [X]` usa o próprio valor de Dano.
 
-Exemplo: `FIS [2] | Pistola — Dano [1] | Espada Mágica — Dano [3]` lê `golpe corporal → [2] | pistola → [1] | espada → [3]`.
+Exemplo:
+
+`FIS [2] | Pistola — Dano [1] | Espada Mágica — Dano [3]`
+
+Lê-se:
+
+`golpe corporal → [2] | pistola → [1] | espada → [3]`
 
 As fontes não são somadas automaticamente:
 
@@ -59,7 +73,7 @@ Cada ponto de diferença corresponde a `0,2` de patamar no cálculo de dano.
 
 A Perícia efetiva pode ser positiva, zero ou negativa.
 
-Uma técnica defensiva superior pode, portanto, reduzir o dano recebido mesmo quando o ataque consegue entrar: desvio parcial, absorção, rotação com o impacto, proteção de ponto vital, mudança de ângulo ou outra resposta coerente.
+Uma técnica defensiva superior pode reduzir o dano recebido mesmo quando o ataque consegue entrar: desvio parcial, absorção, rotação com o impacto, proteção de ponto vital, mudança de ângulo ou outra resposta coerente.
 
 A Perícia defensiva só entra quando realmente pode interferir na forma como aquele ataque é recebido.
 
@@ -83,7 +97,7 @@ O valor calculado não altera permanentemente o patamar do Poder, do FIS, da arm
 
 A progressão é exponencial: cada patamar de diferença dobra ou reduz pela metade o dano.
 
-Sem diferença de Perícia, a referência básica fica:
+Sem diferença de Perícia:
 
 `Ataque = Defesa → 2` | `Ataque +1 → 4` | `Ataque +2 → 8` | `Ataque +3 → 16` | `Ataque +4 → 32` | `Ataque +5 → 64`
 
@@ -143,7 +157,7 @@ Exemplo:
 
 `Me aproximo e tento acertar o joelho dele pelas costas.`
 
-Se o alvo realmente for pego sem perceber, talvez sua Perícia defensiva não possa participar normalmente. O ataque continua sendo calculado pela mesma regra, mas com apenas as capacidades que a situação permite.
+Se o alvo realmente for pego sem perceber, talvez sua Perícia defensiva não possa participar normalmente. O ataque continua sendo calculado pela mesma regra, mas apenas com as capacidades que a situação permite.
 
 Além disso, o local declarado orienta a consequência.
 
@@ -189,10 +203,10 @@ Depois que o Dano é aplicado, permanece o ferimento na VIDA; o ataque não cont
 
 ## Regra de uso
 
-Em combate, o procedimento mínimo é:
+Em combate, para cada aplicação relevante dentro do turno:
 
 `determinar fonte de Dano e defesa aplicável → calcular Perícia efetiva → configurar e pagar Ampliação, se houver → calcular Ataque efetivo → calcular Dano aplicado → interpretar a consequência`
 
-Para uma ação simples, isso basta.
+A quantidade e a precedência das aplicações que realmente cabem nos 10 segundos são julgadas pela situação e por `../operacao/turnos-de-combate.md`; não existe uma economia abstrata de “uma ação”.
 
-> **Ataque, defesa, resultado. O restante existe apenas quando a própria ficção exige mais detalhe.**
+> **Turno organiza o tempo. Esta regra calcula o dano.**
