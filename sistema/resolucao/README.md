@@ -10,14 +10,13 @@ Esta pasta responde à pergunta:
 
 ## Estrutura principal
 
-- `principio-de-resolucao.md` — quando estabelecer diretamente e quando resolver incerteza;
+- `principio-de-resolucao.md` — quando estabelecer diretamente, quando resolver incerteza e como tratar dúvida restante;
 - `leitura-da-ficha-na-resolucao.md` — como Atributos, Perícias, Poderes, meios, situação e conhecimento entram na resolução;
-- `comparacao-e-disputa.md` — comparação qualitativa, estratégia, preparação e disputas equilibradas;
-- `motor-de-disputa.md` — Potência, Resistência, Exigência, progresso, tempo, custo e contenção sustentada;
+- `motor-de-disputa.md` — Potência, Resistência, Exigência, progresso, tempo e custo;
 - `escalas-de-efeito.md` — tabelas de referência dos efeitos;
 - `fonte-e-vida-estrutural.md` — Fonte da manifestação, Atributo estrutural e Vida dos efeitos persistentes;
 - `geral.md` — manifestações narrativas, utilitárias e cotidianas sem efeito prático de combate;
-- `consolidacao.md` — Alcance, Alvos, Área/Tamanho, Duração, Ampliação, custo e estrutura de efeitos persistentes;
+- `consolidacao.md` — Alcance, Alvos, Área/Tamanho, Duração e Ampliação;
 - `combate-e-dano.md` — fonte de Dano, Perícia efetiva, Ataque efetivo, Dano aplicado e defesa;
 - `ordem-de-resolucao-do-combate.md` — ordem de processamento do turno, HUD do JOGADOR HUMANO, confirmações, configuração, interferência e fechamento do combate;
 - `energia.md` — Reserva, custos, Ampliação, Bateria e recuperação;
@@ -85,7 +84,7 @@ Durante combate, a aplicação imediata de 10 segundos usa o mesmo relógio de `
 
 ## Regras especializadas
 
-Dano, Cura, Energia, Proteção, Dissipar, Geral, efeitos persistentes, Invocação, contenção e demais efeitos continuam sendo calculados pelos arquivos especializados desta pasta.
+Dano, Cura, Energia, Proteção, Dissipar, Geral, efeitos persistentes, Invocação e demais efeitos continuam sendo calculados pelos arquivos especializados desta pasta.
 
 `README.md` não substitui essas regras.
 
@@ -106,4 +105,4 @@ como calcular o resultado?      → resolucao/
 
 > **A Resistência pode transformar dificuldade em tempo, custo e oportunidade de reação.**
 
-> **O plano não vence o patamar; o plano pode mudar o problema.**
+> **Na dúvida real restante, escolha a solução coerente que melhor faça a cena continuar.**
