@@ -77,6 +77,7 @@ Ampliação muda escala de manifestação; não amplia repertório.
 
 ## Índice
 
+- `geral.md`
 - `dano.md`
 - `cura.md`
 - `dissipar.md`
