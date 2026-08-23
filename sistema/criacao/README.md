@@ -545,6 +545,26 @@ Verificar se o conjunto mecânico representa o conceito aprovado, corrigir incoe
 
 > **Apresentar um bloco por vez. Só avançar para o próximo depois da revisão do jogador.**
 
+## Salvamento por bloco
+
+Durante a revisão mecânica, conteúdo ainda em discussão não deve ser persistido como definitivo.
+
+Cada bloco aprovado deve ser consolidado **imediatamente** na ficha do personagem antes de avançar para o próximo bloco.
+
+```text
+bloco apresentado
+→ discutir e corrigir
+→ jogador aprova
+→ atualizar personagens/<nome>.md
+→ atualizar o checkpoint para o próximo bloco
+```
+
+Não salvar tentativas intermediárias, alternativas recusadas ou valores ainda não aprovados.
+
+Se a conversa for interrompida, os blocos já aprovados permanecem preservados na ficha e o checkpoint indica exatamente qual bloco deve ser retomado.
+
+> **Bloco aprovado vira estado persistente da ficha. Conteúdo em discussão continua apenas na conversa.**
+
 Se um bloco for alterado de forma que afete outro já revisado, corrigir somente o que tiver sido realmente impactado antes da aprovação final.
 
 ## Início do jogo
