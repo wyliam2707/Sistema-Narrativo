@@ -103,16 +103,6 @@ campanhas/<nome>/mestre/ganchos-do-opositor.md
 
 A persistência concreta segue `../persistencia/`.
 
-## Arquivos legados aguardando limpeza
-
-```text
-../modo-rpg.md
-../checklist-do-narrador.md
-../comandos-administrativos.md
-```
-
-Seu conteúdo operacional útil já possui destino canônico. Não usar esses arquivos como regra atual. A exclusão depende de confirmação explícita.
-
 ## Porta de entrada geral
 
 ```text
