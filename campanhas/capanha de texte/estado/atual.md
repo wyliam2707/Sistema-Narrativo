@@ -20,39 +20,48 @@ Dois homens surgiram no corredor. Um deles possui uma lâmina ritual escura; o o
 
 A situação passou para confronto ativo e o combate foi declarado iniciado.
 
-### Estado antes da primeira resolução
+### Resultado do teste de combate
 
-Corvin: `VIDA [35] | ENERGIA [80]` — sem Dano e sem Energia gasta neste combate.
+O combate foi executado até o encerramento usando o fluxo revisado de HUD, confirmação das escolhas do JOGADOR HUMANO, processamento interno das IAs/OPOSITOR, resolução por turno e exibição discreta dos resultados mecânicos.
 
-Os dois cultistas estão ativos. Um está armado com lâmina ritual e o outro prepara magia.
+Corvin iniciou com `VIDA [35/35] | ENERGIA [80/80]`.
 
-Nenhum ataque foi resolvido ainda.
+Ele consolidou uma Proteção [3] em si mesmo, depois uma Contenção [3] contra o cultista da lâmina, usou Dano [3] contra o cultista ritualista e, por fim, aplicou Sono [3] ampliado de Cena para Dia no cultista contido.
 
-Corvin declarou:
-
-```text
-formo uma magia de proteção em mim
-```
-
-A resolução prematura anterior foi descartada. Nenhuma Barreira foi consolidada ainda.
-
-Antes de resolver a ação, o NARRADOR deve apresentar de forma curta a configuração disponível e pedir a escolha do patamar efetivamente usado.
-
-Formato de consulta durante combate:
+Estado final do combate:
 
 ```text
-Proteção [3] — si mesmo / 1 alvo / Cena
-Custo: até 3 Energia | Ampliação: +1 Energia por degrau
+Corvin: VIDA [35/35] | ENERGIA [66/80]
+Proteção: [D3,8 / V2,06] — Cena
+Cultista ritualista: incapacitado, inconsciente — VIDA [0/15]
+Cultista da lâmina: adormecido — Sono [3] — Dia
 ```
 
-Depois perguntar qual patamar Corvin usa: `[1]`, `[2]` ou `[3]`.
+O combate terminou sem Dano sofrido por Corvin.
 
-Somente depois da escolha calcular custo, Defesa da proteção e resolver as declarações do OPOSITOR dentro do turno simultâneo de até 10 segundos.
+## Observações do teste
 
-## Observações operacionais do teste
+O teste confirmou o seguinte fluxo operacional:
 
-Este confronto existe como teste das regras de combate.
+```text
+HUD → declaração humana → confirmação mecânica, se necessária → IAs/Opositor → resolver → atualizar estado → novo HUD
+```
 
-Durante o combate, não decidir automaticamente o patamar efetivamente usado por uma capacidade quando o JOGADOR HUMANO ainda precisa escolhê-lo. Apresentar a configuração de forma compacta, receber a escolha e então resolver.
+Toda informação puramente mecânica deve aparecer de forma visualmente discreta, em bloco destacado/itálico, mostrando preferencialmente o resultado e não o cálculo intermediário.
 
-A narração continua em turnos simultâneos de até 10 segundos enquanto houver confronto ativo.
+Ao iniciar combate e no início de cada nova ação humana, o HUD deve apresentar:
+
+```text
+Nome — VIDA | ENERGIA | efeitos benéficos
+Atributos
+Perícias relevantes
+Um Poder por linha
+Status [+]
+Status [-]
+```
+
+Escolhas mecânicas do JOGADOR HUMANO não devem ser tomadas silenciosamente pelo NARRADOR. Se uma declaração já vier completa e válida, apenas confirmar quando necessário. Se houver alcance, ampliação, custo ou outra configuração insuficiente, recomendar uma alternativa sem escolhê-la automaticamente.
+
+JOGADORES IA e NPCs fazem suas configurações equivalentes fora da tela.
+
+O combate usa turnos simultâneos de até 10 segundos enquanto o confronto estiver ativo.
