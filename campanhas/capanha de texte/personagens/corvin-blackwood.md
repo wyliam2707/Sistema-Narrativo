@@ -51,6 +51,8 @@ Corvin atua como consultor externo da S.H.I.E.L.D. e agente eventual, chamado pa
 - **Combate [+2]**
 
 ### Poderes
+- **Magia da Ordem [3]** => Geral / Dano / Proteção / Contenção / Movimento / Selos / Estrutura / Estabilização [4] / Supressão de interferência [4]
+- **Regeneração Mutante [3]** => Cura própria / Recuperação de ferimentos / Resistência a sequelas / Envelhecimento retardado
 
 ### Traços
 
