@@ -84,9 +84,11 @@ A Fonte somente define qual Atributo fornece `V`.
 
 Todo efeito que permaneça em cena e possua estrutura própria deve registrar sua Fonte quando isso for relevante para sua manutenção.
 
-A Vida estrutural deixa de ser um valor universal fixo quando existe uma Fonte com Atributo coerente.
+Não existe mais um valor universal ou padrão de Vida estrutural. Sempre que um efeito persistente possuir Vida estrutural, sua Fonte deve ser identificada e seu valor é calculado por:
 
-O antigo valor padrão `V5` só permanece para efeitos que ainda não possuam uma Fonte estrutural definida e enquanto nenhuma regra específica substituir esse valor.
+`V = maior entre [1] e o Atributo estrutural da Fonte`
+
+Se a Fonte não estiver imediatamente clara, a resolução deve determinar o que realmente sustenta a manifestação antes de calcular sua Vida.
 
 ## Limites
 
