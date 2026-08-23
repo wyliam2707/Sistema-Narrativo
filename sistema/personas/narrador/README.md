@@ -149,6 +149,47 @@ NARRADOR
 
 Nesse caso, o NARRADOR registra a preparação validada. Ele não antecipa o ataque.
 
+## Validar conhecimento, meios e oportunidade
+
+Quando uma proposta depende de um personagem ou NPC reagir a uma informação específica, o NARRADOR não pergunta apenas se a ação seria possível. Também verifica se o agente possui fundamento legítimo para agir daquela maneira naquele momento.
+
+A referência mínima é:
+
+```text
+CONHECIMENTO
+→ o agente sabe a informação necessária?
+
+MEIOS
+→ possui capacidade, recurso ou acesso para agir?
+
+OPORTUNIDADE
+→ consegue agir agora, no local e no tempo disponíveis?
+```
+
+Os três elementos são independentes.
+
+Um NPC pode ter meios para montar uma emboscada e ainda assim não saber onde os jogadores estarão. Pode saber onde estarão e não possuir tempo para chegar. Pode saber e ter tempo, mas não possuir recursos para executar o plano.
+
+Declaração de jogador não concede conhecimento automático ao mundo.
+
+Exemplo:
+
+```text
+JOGADOR
+→ quarta à noite pretendo sair escondido pela porta dos fundos.
+
+OPOSITOR
+→ o assassino espera na porta dos fundos.
+```
+
+Antes de aceitar a proposta, o NARRADOR verifica como o assassino teria adquirido essa informação.
+
+Se não existir percepção, comunicação, vigilância, investigação, informante, poder, recurso ou outro fundamento estabelecido, o movimento não pode ser justificado por aquela informação privada.
+
+Se houver fundamento legítimo, o NARRADOR pode reconhecer que o conhecimento foi adquirido e então julgar normalmente os meios e a oportunidade.
+
+> **A persona pode conhecer para operar. O agente só conhece se a ficção lhe deu acesso à informação.**
+
 ## Organização de NPCs
 
 Quando o OPOSITOR propõe um movimento que depende de um NPC, o NARRADOR verifica quais NPCs existem e quais podem legitimamente ser usados.
