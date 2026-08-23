@@ -2,7 +2,7 @@
 
 Este arquivo é a **porta de entrada operacional** do sistema.
 
-Ele não redefine mecânicas já consolidadas nas subpastas atuais. Sua função é encaminhar cada tarefa para a fonte correta e impedir que arquivos históricos sejam tratados como regra principal por engano.
+Ele não redefine mecânicas já consolidadas nas subpastas atuais. Sua função é encaminhar cada tarefa para a fonte correta e impedir que material histórico seja tratado como regra principal por engano.
 
 ## Entrada do sistema
 
@@ -95,19 +95,16 @@ aventuras/
 
 permanece preservado como legado. Não mover, apagar, reestruturar ou converter automaticamente.
 
-Arquivos antigos diretamente em `sistema/` também permanecem preservados para migração e recuperação de contexto, mas **não prevalecem quando o tema já possui uma referência nova aprovada**.
+Alguns documentos antigos diretamente em `sistema/` ainda podem permanecer temporariamente enquanto partes específicas não tiverem sido migradas. Quando um documento antigo tiver sido completamente substituído, ele pode ser removido após revisão e confirmação explícita.
 
-Isso inclui, entre outros, versões antigas de:
+Entre os documentos antigos que ainda podem ser consultados somente nos pontos não substituídos estão:
 
-- ciclo de jogadores;
-- resolução;
-- agência;
-- modo RPG;
-- criação de campanha;
-- fechamento de capítulo;
-- regras mecânicas concentradas no antigo `sistema/README.md`.
+- `agencia-de-personagens.md`;
+- `modo-rpg.md`;
+- `checklist-do-narrador.md`;
+- `narracao-e-escrita-padrao.md`.
 
-O mapa de substituição está em `sistema/MIGRACAO-ESTRUTURAL.md`.
+O mapa de migração está em `sistema/MIGRACAO-ESTRUTURAL.md`.
 
 ## Estrutura das campanhas atuais
 
@@ -145,8 +142,8 @@ Quando houver conflito, seguir nesta ordem:
 1. correção explícita mais recente do `JOGADOR HUMANO`;
 2. regra nova explicitamente aprovada na arquitetura atual;
 3. fonte canônica da própria campanha;
-4. arquivo histórico, somente nos pontos ainda não substituídos.
+4. arquivo histórico ainda existente, somente nos pontos não substituídos.
 
-O antigo `sistema/README.md`, `sistema/ciclo-de-jogadores.md`, `sistema/protocolo-de-criacao.md` e outros documentos preservados na raiz de `sistema/` não devem ser usados para restaurar regras que já foram substituídas nas subpastas atuais.
+Arquivos antigos já removidos não são fontes válidas e não devem ser procurados para restaurar regras anteriores.
 
-> **Arquivos antigos preservam a história da migração. As subpastas atuais governam o sistema onde suas regras já foram aprovadas.**
+> **As subpastas atuais governam o sistema onde suas regras já foram aprovadas. Material histórico só permanece útil nos pontos ainda não migrados.**
