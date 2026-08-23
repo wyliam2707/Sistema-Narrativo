@@ -4,7 +4,7 @@ Este repositório separa **o motor do RPG** dos **dados concretos de cada campan
 
 ## Estrutura atual
 
-- `sistema/` — regras universais, criação, mecânica, agência, resolução, narração e persistência.
+- `sistema/` — regras universais, criação, mecânica, agência, resolução, narração, persistência e operação.
 - `campanhas/` — campanhas criadas pelo fluxo atual.
 - `aventuras/` — material legado; permanece preservado e não é migrado automaticamente.
 - `exemplo/` — material demonstrativo usado apenas como referência.
@@ -74,7 +74,7 @@ Campanhas antigas ainda armazenadas em `aventuras/` permanecem preservadas.
 
 Não apagar, mover, converter ou reestruturar esse material automaticamente.
 
-Documentos antigos de sistema que já foram completamente substituídos podem ser removidos durante a migração somente depois de revisão e confirmação explícita. As referências atuais estão nas subpastas de `sistema/`.
+Documentos antigos de sistema completamente substituídos só podem ser removidos durante limpeza após revisão e confirmação explícita. As referências atuais estão nas subpastas de `sistema/`.
 
 ---
 
@@ -88,12 +88,12 @@ O exemplo é somente referência. Não deve ser listado como campanha existente,
 
 ## Comandos administrativos
 
-Operações de manutenção que podem destruir dados ficam separadas do fluxo normal de jogo.
+Operações de manutenção ficam separadas do fluxo normal de jogo.
 
-Para apagar definitivamente uma campanha, consultar:
+Para exclusão de campanha e demais procedimentos administrativos, consultar:
 
 ```text
-sistema/comandos-administrativos.md
+sistema/operacao/comandos-administrativos.md
 ```
 
 Nenhuma exclusão pode atingir `sistema/`, a raiz do repositório ou outra campanha por consequência indireta.
