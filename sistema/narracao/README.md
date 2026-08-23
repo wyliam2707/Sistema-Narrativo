@@ -16,7 +16,8 @@ narracao/
 ├── apresentacao-da-cena.md
 ├── fala-e-interioridade.md
 ├── ritmo-e-descricao.md
-└── dramatizacao-e-resumo.md
+├── dramatizacao-e-resumo.md
+└── exemplo-de-estilo.md
 ```
 
 ### `apresentacao-da-cena.md`
@@ -63,6 +64,12 @@ Usar para decidir:
 - como direção narrativa altera ênfase sem alterar fatos;
 - como condensar sem atravessar decisões ainda abertas.
 
+### `exemplo-de-estilo.md`
+
+Referência neutra para calibrar ritmo, terceira pessoa próxima, descrição seletiva, diálogo, subtexto e alternância entre dramatização e resumo.
+
+Não cria regra nova. Quando o exemplo divergir de uma regra canônica, prevalece a regra canônica.
+
 ## Relação com as outras áreas
 
 ```text
@@ -100,7 +107,7 @@ LIVRO
 
 As regras de consolidação do Livro pertencem a `../persistencia/`.
 
-## Arquivos legados
+## Arquivos legados na raiz
 
 Os arquivos antigos:
 
@@ -109,11 +116,13 @@ Os arquivos antigos:
 ../exemplo-de-estilo.md
 ```
 
-permanecem preservados temporariamente como legado e referência histórica.
+permanecem preservados temporariamente como legado.
 
-As regras operacionais de narração agora pertencem aos arquivos desta pasta. Formulações antigas que contradigam `personas/`, `operacao/`, `resolucao/`, `persistencia/` ou estes arquivos devem ser ignoradas.
+O exemplo já possui cópia canônica dentro desta pasta. As regras operacionais de narração agora pertencem aos arquivos de `narracao/`.
 
-Eles só devem ser removidos após confirmação explícita.
+Formulações antigas que contradigam `personas/`, `operacao/`, `resolucao/`, `persistencia/` ou estes arquivos devem ser ignoradas.
+
+Os arquivos antigos só devem ser removidos após confirmação explícita.
 
 ## Regra final
 
