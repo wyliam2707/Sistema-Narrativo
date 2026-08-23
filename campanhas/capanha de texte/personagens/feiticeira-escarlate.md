@@ -40,6 +40,8 @@ Jovem sokoviana de personalidade intensa, profundamente ligada ao irmão e dotad
 - **Combate [+1]**
 
 ### Poderes
+- **Magia Escarlate [4]** => Dano / Proteção [3] / Movimento / Contenção / Manipulação de matéria e objetos
+- **Influência Mental [2]** => Leitura emocional / Ilusão mental / Indução de medo / Alteração de percepção
 
 ### Outros campos
 - **TRAÇOS:**
