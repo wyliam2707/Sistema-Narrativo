@@ -12,7 +12,7 @@ Ele ensina outra IA ou narrador a conduzir a criação. Os dados concretos da ca
 
 Durante a criação:
 
-- fazer uma pergunta por vez nas etapas normais; o pareamento é exceção e pode reunir perguntas em lote;
+- fazer uma pergunta por vez;
 - não pedir novamente informação que o jogador já forneceu;
 - interpretar respostas livres normalmente;
 - perguntar somente o que ainda fizer diferença real;
@@ -109,9 +109,10 @@ REVISÃO DA FICHA
 
 PAREAMENTO DAS INFORMAÇÕES
 → compara fichas relacionadas
-→ reúne as lacunas relevantes em perguntas
-→ pergunta ao JOGADOR HUMANO em lote
-→ depois das respostas, ajusta em conjunto todas as fichas afetadas
+→ identifica as lacunas relevantes
+→ pergunta ao JOGADOR HUMANO uma questão por vez
+→ guarda as respostas enquanto o pareamento continua
+→ depois que o conjunto estiver esclarecido, ajusta em lote todas as fichas afetadas
 
 INÍCIO DA HISTÓRIA
 → estado/atual.md
@@ -368,20 +369,22 @@ O pareamento procura fatos que a revisão individual pode não ter definido, por
 Quando a comparação revelar lacunas relevantes:
 
 ```text
-reunir as perguntas necessárias
-→ apresentar o conjunto ao JOGADOR HUMANO
-→ receber as respostas
-→ consolidar as consequências em conjunto
-→ ajustar todas as fichas afetadas
+identificar as perguntas necessárias
+→ fazer UMA pergunta ao JOGADOR HUMANO
+→ guardar a resposta sem editar ainda as fichas
+→ fazer a próxima pergunta necessária
+→ repetir até esclarecer o conjunto
+→ consolidar as consequências
+→ ajustar em lote todas as fichas afetadas
 → persistir
 → fazer nova rodada somente se ainda restar alguma lacuna importante
 ```
 
-O pareamento é uma exceção à regra de uma pergunta por vez. Perguntas podem ser agrupadas por par, por grupo ou em uma única rodada geral, desde que sejam claras e realmente necessárias.
+O pareamento mantém a regra de **uma pergunta por vez**, mas é uma exceção à persistência imediata usada na revisão de blocos: não é necessário alterar as fichas após cada resposta individual.
 
 As fichas continuam `APROVADO`; não é necessário reiniciar os cinco blocos.
 
-O pareamento não cria arquivo paralelo de campanha apenas para repetir essas informações. As respostas são gravadas diretamente nas fichas ou, quando estabelecerem uma verdade geral do cenário, no destino canônico apropriado.
+O pareamento não cria arquivo paralelo de campanha apenas para repetir essas informações. As respostas são gravadas diretamente nas fichas ou, quando estabelecerem uma verdade geral do cenário, no destino canônico apropriado, depois que o conjunto estiver suficientemente esclarecido.
 
 Depois de verificar todos os pares e grupos relevantes e confirmar que não restam lacunas cruzadas importantes:
 
@@ -390,7 +393,7 @@ checkpoint
 → Início da história
 ```
 
-> **A comparação revela perguntas. O JOGADOR HUMANO pode responder tudo em conjunto. Depois, as respostas ajustam todas as fichas afetadas antes da primeira cena.**
+> **A comparação revela perguntas. O narrador pergunta uma de cada vez e acumula as respostas. Depois de esclarecer o conjunto, as fichas afetadas são ajustadas em lote antes da primeira cena.**
 
 # Etapa — Início da história
 
@@ -469,4 +472,4 @@ Não criar arquivos paralelos de STATUS, Progressão, cronologia, intenções ou
 
 ## Regra final
 
-> **A ficha nasce completa em estrutura e mínima em conteúdo. Antes da revisão, somente NOME, IMPORTÂNCIA e CONTROLE são preenchidos; os demais campos permanecem vazios até seu bloco. Todos os personagens iniciais com agência são registrados antes de qualquer revisão. Cada bloco aprovado é salvo imediatamente. Depois que todas as fichas estiverem aprovadas, elas são pareadas por relações relevantes; o narrador reúne as perguntas necessárias, o JOGADOR HUMANO pode responder tudo em conjunto e então as fichas são ajustadas. Só depois do pareamento concluído o estado inicial é consolidado e a campanha começa.**
+> **A ficha nasce completa em estrutura e mínima em conteúdo. Antes da revisão, somente NOME, IMPORTÂNCIA e CONTROLE são preenchidos; os demais campos permanecem vazios até seu bloco. Todos os personagens iniciais com agência são registrados antes de qualquer revisão. Cada bloco aprovado é salvo imediatamente. Depois que todas as fichas estiverem aprovadas, elas são pareadas por relações relevantes; o narrador faz uma pergunta por vez, acumula as respostas sem editar as fichas a cada turno e, ao final do conjunto, ajusta em lote todas as fichas afetadas. Só depois do pareamento concluído o estado inicial é consolidado e a campanha começa.**
