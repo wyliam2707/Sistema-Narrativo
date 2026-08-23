@@ -4,7 +4,13 @@ Status: APROVADO
 
 Este arquivo define a criação de um personagem como entidade do sistema.
 
-Ele não substitui o protocolo completo de criação de campanha. A campanha decide **quando** criar seus personagens; este arquivo define **como** um personagem deve ser concebido e convertido para ficha.
+Ele **não substitui** o processo completo de criação de campanha. A campanha decide quando criar e em que ordem revisar suas personagens por meio de:
+
+```text
+sistema/criacao/README.md
+```
+
+Este arquivo define como um personagem deve ser concebido e convertido para ficha.
 
 ## Princípio central
 
@@ -14,7 +20,7 @@ A criação deve começar por quem o personagem é, não por distribuir números
 
 ## Etapa conceitual
 
-Antes de calibrar a ficha mecânica, definir apenas o que for realmente necessário para compreender o personagem.
+Antes de calibrar a ficha mecânica, definir somente o que for realmente necessário para compreender o personagem.
 
 Podem importar:
 
@@ -27,7 +33,6 @@ Podem importar:
 - comportamento social;
 - história essencial;
 - ocupações ou trajetória importante;
-- situação atual;
 - desejos e objetivos;
 - medos e limites;
 - TRAÇOS permanentes;
@@ -36,6 +41,8 @@ Podem importar:
 Não é obrigatório preencher todos esses campos.
 
 > **Perguntar e registrar apenas aquilo que realmente ajuda a definir o personagem.**
+
+Estado circunstancial da cena não deve ser confundido com conceito estável da ficha.
 
 ## Estrutura de ficha desde o começo
 
@@ -60,22 +67,20 @@ Enquanto o conceito ainda está sendo construído, não atribuir automaticamente
 - especializações numéricas;
 - relações numéricas ainda não estabelecidas.
 
-Esses elementos entram na etapa de conversão mecânica.
+Esses elementos entram na conversão mecânica.
 
 ## Criação mínima
 
 Qualquer personagem pode nascer com uma ficha mínima.
 
-Em uma campanha, pode ser suficiente inicialmente registrar:
+Pode ser suficiente inicialmente registrar:
 
 - nome;
-- importância, quando já definida;
 - `CONTROLE`, quando já decidido;
-- qualquer conceito realmente estabelecido.
+- importância, quando realmente necessária;
+- conceito já estabelecido.
 
 Importância não determina tamanho, formato ou quantidade de detalhe da ficha.
-
-Um personagem Central, Relevante, Figurante ou NPC pode ter apenas poucas linhas ou um dossiê extenso, conforme a necessidade real de interpretação e continuidade.
 
 Não inventar aparência, personalidade, história, capacidades ou recursos apenas para completar visualmente a ficha.
 
@@ -98,129 +103,136 @@ Quando o conceito estiver suficientemente claro:
 
 Todos os personagens usam as mesmas mecânicas e as mesmas escalas. NPC não possui sistema próprio de atributos, perícias, poderes, traços, relações ou recursos.
 
-## Ordem das fichas iniciais de uma campanha
+## Ordem das fichas na criação de campanha
 
-Durante criação conceitual, o protagonista pode ser definido antes dos demais.
-
-Durante a revisão mecânica das fichas apresentáveis ao jogador, a ordem recomendada é:
+A ordem canônica da revisão mecânica inicial pertence a `../criacao/README.md`:
 
 ```text
-Personagens relevantes / NPCs visíveis
-↓
-Protagonista por último
+personagens JOGADOR IA
+→ personagens JOGADOR IA EVENTUAL
+→ protagonista
 ```
 
-A finalidade é evitar que os valores do protagonista sejam usados como régua inconsciente para calibrar o restante do elenco.
+O protagonista é revisado por último para evitar que sua ficha sirva como régua inconsciente para calibrar as demais.
 
-Essa ordem é uma proteção de processo. Ela **não autoriza comparação mecânica nem balanceamento entre fichas**.
+NPCs comuns não entram nessa sequência apenas por estarem visíveis ou serem relevantes na ficção.
 
-Cada personagem continua sendo avaliado isoladamente conforme `calibracao.md`.
+Cada personagem continua sendo calibrado isoladamente conforme `calibracao.md`.
 
-## Organização dos arquivos na campanha
+> **A ordem protege o processo. Ela não cria balanceamento entre fichas.**
 
-Na preparação inicial da campanha, o JOGADOR HUMANO cria apenas a área dos personagens jogáveis:
+## Revisão mecânica da campanha
+
+Quando este arquivo for usado dentro da criação de campanha, seguir os **cinco blocos canônicos** definidos em `../criacao/README.md`:
 
 ```text
-personagens/
+1 - Identidade e conceito
+2 - Atributos e perícias
+3 - Poderes e capacidades
+4 - Traços e relações
+5 - Conferência final
 ```
-
-Nela ficam os personagens sob `JOGADOR HUMANO` e `JOGADOR IA`.
-
-NPCs pertencem ao mundo administrado pelo NARRADOR e **não precisam ser preparados pelo jogador**.
-
-Um NPC simples pode existir apenas durante a cena e não precisa receber arquivo persistente.
-
-Quando um NPC acumular informação que precise sobreviver entre cenas — capacidades, relações, desavenças, objetivos, conhecimento, pactos, recursos, obrigações ou outros ganchos relevantes — cabe ao **NARRADOR** criar e manter sua ficha no mundo da campanha, normalmente em:
-
-```text
-mundo/npcs/
-```
-
-A pasta `mundo/npcs/` não precisa existir no início da campanha. O NARRADOR pode criá-la somente quando surgir o primeiro NPC que realmente exija persistência própria.
-
-Ter arquivo persistente não altera automaticamente a Importância nem o `CONTROLE` do personagem.
-
-## Revisão do personagem controlado pelo jogador humano
-
-Quando a ficha pertence ao personagem do jogador humano, revisar com controle fino.
-
-Ordem recomendada:
-
-1. nome/identidade, se ainda houver algo a revisar;
-2. `CONTROLE`;
-3. idade;
-4. conceito;
-5. descrição;
-6. TRAÇOS;
-7. ATRIBUTOS como um bloco;
-8. PERÍCIAS como um bloco;
-9. PODERES como um bloco;
-10. RECURSOS;
-11. REL;
-12. personalidade e tendências;
-13. desejos/objetivos;
-14. medos/limites;
-15. história consolidada relevante;
-16. ficha completa para aprovação final.
-
-Se um campo já estiver definido, apresentá-lo como está para confirmação em vez de recriá-lo sem necessidade.
-
-Nos blocos de ATRIBUTOS, PERÍCIAS e PODERES, normalizar a sintaxe e reapresentar o bloco inteiro antes de considerar a revisão concluída.
-
-## Revisão em blocos
-
-Quando for útil revisar um personagem de forma mais compacta, usar quatro blocos.
 
 ### Bloco 1 — Identidade e conceito
 
-- nome;
-- importância;
-- `CONTROLE`;
-- idade;
-- conceito;
-- descrição;
-- TRAÇOS.
+Revisar identidade, origem, aparência, personalidade, comportamento, história essencial e papel narrativo quando aplicáveis.
 
-### Bloco 2 — Capacidades
+O dado persistente de autoridade é `CONTROLE`. `GERÊNCIA` pode existir como linguagem de escolha durante a criação, mas não cria campo permanente separado.
 
-- atributos;
-- perícias;
-- poderes;
-- especializações.
+### Bloco 2 — Atributos e perícias
 
-### Bloco 3 — Recursos e relações
+Converter e revisar o conceito em:
 
-- RECURSOS recorrentes;
-- REL atual e recorrente.
+```text
+FIS | RES | MEN | VON
+```
 
-### Bloco 4 — Interpretação
+e nas perícias realmente relevantes.
 
-- personalidade e tendências;
-- desejos/objetivos;
-- medos/limites;
-- conhecimento atual relevante;
-- história consolidada relevante.
+### Bloco 3 — Poderes e capacidades
 
-Não inventar campos sem utilidade apenas para completar os quatro blocos.
+Converter e revisar poderes, equipamentos tratados como Poder quando aplicável, capacidades relevantes e limites conceituais segundo as regras do sistema.
 
-## Personagens canônicos
+### Bloco 4 — Traços e relações
 
-Para um personagem canônico ou licenciado:
+Revisar TRAÇOS, fraquezas, características especiais e relações iniciais que realmente pertençam à ficha.
 
-1. definir qual versão canônica ou adaptação vale para a campanha;
-2. reconstruir suas capacidades sem números;
-3. preservar identidade, personalidade, poderes e relações essenciais conforme essa versão;
-4. somente depois converter para a linguagem do sistema;
-5. aplicar calibração conservadora;
-6. não ajustar a ficha para ficar parecida com a de outro personagem.
+### Bloco 5 — Conferência final
+
+Verificar se o conjunto representa o conceito aprovado, corrigir incoerências, remover excessos e somente então considerar a ficha pronta para aprovação final.
+
+## Salvamento durante a revisão
+
+Dentro da criação de campanha, cada bloco aprovado é persistido imediatamente antes de avançar.
+
+```text
+bloco apresentado
+→ discutir e corrigir
+→ jogador aprova
+→ atualizar personagens/<nome>.md
+→ atualizar o checkpoint para o próximo bloco
+```
+
+Conteúdo ainda em discussão, alternativas recusadas e tentativas intermediárias não entram na ficha definitiva.
+
+> **Bloco aprovado vira estado persistente. Conteúdo em discussão permanece apenas na conversa.**
+
+## Organização dos arquivos na campanha
+
+Personagens com agência de jogador possuem ficha própria em:
+
+```text
+campanhas/<nome>/personagens/<personagem>.md
+```
+
+Isso inclui:
+
+```text
+CONTROLE: JOGADOR HUMANO
+CONTROLE: JOGADOR IA
+CONTROLE: JOGADOR IA EVENTUAL
+```
+
+Vários personagens `JOGADOR IA EVENTUAL` podem compartilhar a mesma persona operacional, mas cada um continua sendo uma peça distinta e possui seu próprio arquivo.
+
+NPCs comuns não pertencem por padrão a `personagens/`.
+
+Um NPC simples pode existir apenas durante a cena. Quando um NPC precisa de persistência reservada para continuidade, sua ficha ou material operacional pertence a:
+
+```text
+campanhas/<nome>/mestre/
+```
+
+Quando houver volume suficiente, pode existir:
+
+```text
+campanhas/<nome>/mestre/npcs/
+```
+
+Não usar `mundo/npcs/` como destino padrão. `mundo/` guarda verdades estáveis do cenário; `mestre/` guarda NPCs e material reservado de condução.
+
+## Personagens conhecidos
+
+Para personagem canônico, conhecido ou licenciado:
+
+1. o jogador escolhe a versão-base quando essa escolha for necessária;
+2. o jogador pode alterar, combinar ou substituir elementos dessa versão;
+3. a IA usa o cânone externo como referência de apoio, não como limite obrigatório;
+4. quando a versão da campanha estiver suficientemente clara, consolidá-la;
+5. a versão consolidada passa a ser a referência canônica local daquela campanha;
+6. somente depois converter suas capacidades para a linguagem mecânica do sistema.
+
+Se o jogador já tiver descrito uma combinação suficiente, não perguntar novamente qual versão usar.
+
+> **A pergunta relevante é: “qual é a versão desta campanha?”**
 
 ## Antagonistas reservados
 
-Antagonistas importantes podem receber ficha completa sem revisão aberta quando a apresentação revelaria informação que deve permanecer secreta.
+Antagonistas importantes podem receber ficha completa em `mestre/` sem revisão aberta quando a apresentação revelaria informação que precisa permanecer reservada.
 
 Isso não altera as regras de calibração.
 
-Sempre que for prático, capacidades ocultas relevantes devem existir antes de serem usadas diretamente contra o protagonista.
+Sempre que for prático, capacidades ocultas relevantes devem existir antes de serem usadas diretamente contra outra peça.
 
 Depois de estabelecidas, não podem ser alteradas apenas para contrariar uma solução válida ou recuperar dificuldade.
 
@@ -232,7 +244,7 @@ Uma ficha apresentável ao jogador permanece:
 Status: PENDENTE DE REVISÃO
 ```
 
-até a leitura final consolidada ser aprovada.
+até a conferência final ser aprovada.
 
 Depois da aprovação explícita:
 
@@ -241,6 +253,8 @@ Status: APROVADO
 ```
 
 A versão final não deve carregar tentativas descartadas, explicações de conversa ou versões intermediárias.
+
+Fichas reservadas podem usar estado canônico próprio quando uma aprovação aberta revelaria segredos.
 
 ## Progressão não é criação repetida
 
@@ -254,3 +268,5 @@ Concluir missão, capítulo ou arco não concede automaticamente:
 A ficha só muda posteriormente quando a própria ficção muda de forma estável o personagem.
 
 O procedimento de atualização pertence a `../persistencia/`.
+
+> **Criação define a ficha inicial. Persistência acompanha mudanças reais posteriores.**
