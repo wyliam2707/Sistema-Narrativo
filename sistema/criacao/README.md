@@ -20,7 +20,7 @@ Durante a criação:
 - salvar somente conteúdo aprovado;
 - não preencher campos de ficha antes do momento definido para sua revisão.
 
-> **Primeiro identificamos todas as peças iniciais. Depois construímos suas fichas. Só então definimos a abertura da história.**
+> **Primeiro identificamos todas as peças iniciais. Depois construímos suas fichas. Em seguida pareamos as informações entre personagens relacionados. Só então definimos a abertura da história.**
 
 ## Exemplos e respostas numéricas
 
@@ -41,6 +41,7 @@ Nome da campanha
 → Registrar TODOS os demais personagens iniciais com agência
 → Confirmar que o elenco inicial com agência está completo
 → Revisão das fichas
+→ Pareamento das informações entre fichas
 → Início da história
 → Consolidar estado inicial
 → CRIAÇÃO: CONCLUÍDA
@@ -49,11 +50,13 @@ Nome da campanha
 
 Nenhuma ficha entra em revisão enquanto ainda houver personagem inicial com agência a registrar.
 
+A situação inicial não é definida enquanto o pareamento das fichas relevantes ainda possuir lacunas cruzadas a resolver.
+
 ## Checkpoint da criação
 
 Enquanto a campanha estiver sendo criada, o `README.md` da própria campanha registra somente **onde retomar**.
 
-Exemplo:
+Exemplo durante revisão:
 
 ```text
 CRIAÇÃO: EM ANDAMENTO
@@ -61,6 +64,15 @@ CRIAÇÃO: EM ANDAMENTO
 Etapa atual: Revisão das fichas
 Personagem atual: Ravena
 Bloco atual: 3 - Poderes e capacidades
+```
+
+Exemplo durante pareamento:
+
+```text
+CRIAÇÃO: EM ANDAMENTO
+
+Etapa atual: Pareamento das informações
+Par atual: Nick Fury ↔ Corvin Blackwood
 ```
 
 Quando a criação terminar:
@@ -94,6 +106,11 @@ PERSONAGEM COM AGÊNCIA
 REVISÃO DA FICHA
 → personagens/<nome>.md
 → cada bloco aprovado é persistido na própria ficha
+
+PAREAMENTO DAS INFORMAÇÕES
+→ compara fichas relacionadas
+→ pergunta ao JOGADOR HUMANO quando houver lacuna relevante
+→ ajusta imediatamente as fichas afetadas
 
 INÍCIO DA HISTÓRIA
 → estado/atual.md
@@ -318,9 +335,62 @@ Status da ficha: APROVADO
 
 Então seguir para a próxima ficha.
 
+Depois que **todas** as fichas iniciais estiverem aprovadas:
+
+```text
+checkpoint
+→ Pareamento das informações
+```
+
+Não definir ainda a situação de entrada.
+
+# Etapa — Pareamento das informações
+
+Depois que todas as fichas individuais estiverem `APROVADO`, comparar as fichas que possuem vínculos narrativamente relevantes.
+
+A regra detalhada pertence a:
+
+```text
+../personagem/pareamento.md
+```
+
+O pareamento procura fatos que a revisão individual pode não ter definido, por exemplo:
+
+- há quanto tempo duas pessoas se conhecem;
+- como se conheceram;
+- o que uma sabe sobre a outra;
+- segredos e assimetrias de conhecimento;
+- fatos recorrentes compartilhados;
+- acesso, confiança, obrigações e rotinas;
+- conhecimento sobre terceiros adquirido através da relação.
+
+Quando a comparação revelar uma lacuna relevante:
+
+```text
+fazer UMA pergunta ao JOGADOR HUMANO
+→ receber resposta
+→ consolidar a consequência
+→ ajustar imediatamente todas as fichas afetadas
+→ persistir
+→ fazer a próxima pergunta necessária
+```
+
+As fichas continuam `APROVADO`; não é necessário reiniciar os cinco blocos.
+
+O pareamento não cria arquivo paralelo de campanha apenas para repetir essas informações. As respostas são gravadas diretamente nas fichas ou, quando estabelecerem uma verdade geral do cenário, no destino canônico apropriado.
+
+Depois de verificar todos os pares e grupos relevantes e confirmar que não restam lacunas cruzadas importantes:
+
+```text
+checkpoint
+→ Início da história
+```
+
+> **A comparação revela perguntas. O JOGADOR HUMANO fornece as respostas. As respostas ajustam as fichas antes da primeira cena.**
+
 # Etapa — Início da história
 
-Somente depois de todas as fichas aprovadas, definir a situação concreta em que a campanha começará.
+Somente depois de todas as fichas aprovadas **e do pareamento concluído**, definir a situação concreta em que a campanha começará.
 
 O início pertence a:
 
@@ -395,4 +465,4 @@ Não criar arquivos paralelos de STATUS, Progressão, cronologia, intenções ou
 
 ## Regra final
 
-> **A ficha nasce completa em estrutura e mínima em conteúdo. Antes da revisão, somente NOME, IMPORTÂNCIA e CONTROLE são preenchidos; os demais campos permanecem vazios até seu bloco. Todos os personagens iniciais com agência são registrados antes de qualquer revisão. Cada bloco aprovado é salvo imediatamente. Depois de todas as fichas aprovadas, o estado inicial é consolidado e a campanha começa.**
+> **A ficha nasce completa em estrutura e mínima em conteúdo. Antes da revisão, somente NOME, IMPORTÂNCIA e CONTROLE são preenchidos; os demais campos permanecem vazios até seu bloco. Todos os personagens iniciais com agência são registrados antes de qualquer revisão. Cada bloco aprovado é salvo imediatamente. Depois que todas as fichas estiverem aprovadas, elas são pareadas por relações relevantes; o narrador faz uma pergunta por vez e ajusta as fichas conforme as respostas. Só depois do pareamento concluído o estado inicial é consolidado e a campanha começa.**
