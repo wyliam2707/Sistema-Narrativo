@@ -22,53 +22,23 @@ narracao/
 
 ### `apresentacao-da-cena.md`
 
-Usar para:
-
-- transformar sentença em ficção;
-- manter clareza causal e espacial;
-- apresentar somente informação perceptível;
-- manter mecânica fora da prosa;
-- respeitar o limite de parada definido por `../operacao/`.
+Transforma sentença em ficção, mantém clareza causal e espacial, apresenta somente informação perceptível e respeita o ponto de parada definido por `../operacao/`.
 
 ### `fala-e-interioridade.md`
 
-Usar para:
-
-- `[Nome] — fala`;
-- `[Nome, pensa] — pensamento`;
-- diferença entre interioridade no RPG ao vivo e no livro;
-- voz individual;
-- subtexto;
-- prevenção de vazamento de conhecimento interno.
+Define fala, pensamento, voz individual, subtexto e a diferença entre interioridade no RPG ao vivo e no Livro.
 
 ### `ritmo-e-descricao.md`
 
-Usar para:
-
-- terceira pessoa próxima;
-- parágrafos e ritmo;
-- descrição seletiva;
-- atmosfera;
-- ação clara;
-- cotidiano;
-- romance e vínculos;
-- humor.
+Define terceira pessoa próxima, parágrafos, descrição seletiva, atmosfera, ação clara, cotidiano, romance, vínculos e humor.
 
 ### `dramatizacao-e-resumo.md`
 
-Usar para decidir:
-
-- o que precisa ser vivido em cena;
-- o que pode ser resumido;
-- quando sair do resumo e voltar à dramatização;
-- como direção narrativa altera ênfase sem alterar fatos;
-- como condensar sem atravessar decisões ainda abertas.
+Define o que precisa ser vivido em cena, o que pode ser resumido e quando o resumo deve parar por surgir nova decisão.
 
 ### `exemplo-de-estilo.md`
 
-Referência neutra para calibrar ritmo, terceira pessoa próxima, descrição seletiva, diálogo, subtexto e alternância entre dramatização e resumo.
-
-Não cria regra nova. Quando o exemplo divergir de uma regra canônica, prevalece a regra canônica.
+Referência neutra de forma. Não cria regra nova; se divergir de regra canônica, prevalece a regra canônica.
 
 ## Relação com as outras áreas
 
@@ -84,13 +54,9 @@ como mostrar?                → narracao/
 
 ## Direção narrativa da campanha
 
-O padrão desta pasta é herdado por toda campanha.
-
-A direção narrativa local registrada no `README.md` da campanha pode complementar ou alterar escolhas de estilo como tom, foco, ritmo, humor, romance, sensualidade e atmosfera.
+A direção narrativa local registrada no `README.md` da campanha pode complementar escolhas de estilo como tom, foco, ritmo, humor, romance, sensualidade e atmosfera.
 
 Ela não altera agência, fatos, resolução ou consequência.
-
-> **A campanha define o estilo local; o sistema fornece o padrão herdado.**
 
 ## RPG ao vivo e Livro
 
@@ -106,23 +72,6 @@ LIVRO
 ```
 
 As regras de consolidação do Livro pertencem a `../persistencia/`.
-
-## Arquivos legados na raiz
-
-Os arquivos antigos:
-
-```text
-../narracao-e-escrita-padrao.md
-../exemplo-de-estilo.md
-```
-
-permanecem preservados temporariamente como legado.
-
-O exemplo já possui cópia canônica dentro desta pasta. As regras operacionais de narração agora pertencem aos arquivos de `narracao/`.
-
-Formulações antigas que contradigam `personas/`, `operacao/`, `resolucao/`, `persistencia/` ou estes arquivos devem ser ignoradas.
-
-Os arquivos antigos só devem ser removidos após confirmação explícita.
 
 ## Regra final
 
