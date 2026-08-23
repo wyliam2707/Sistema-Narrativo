@@ -2,146 +2,82 @@
 
 Status: APROVADO
 
-ENERGIA representa a reserva limitada que sustenta usos ativos de capacidades, independentemente de sua explicação ficcional.
+ENERGIA representa a reserva limitada usada por capacidades que possuem custo ativo.
 
-Ela pode representar mana, fôlego extraordinário, carga tecnológica, munição abstrata, cargas de um artefato, energia de um anel ou outro recurso consumível coerente com a personagem.
+Sua explicação ficcional pode ser mana, esforço, carga tecnológica, munição abstrata, combustível, cargas de artefato ou outro recurso coerente.
 
-> **Energia é a regra. A fonte diz o que ela representa na ficção.**
+> **Energia mede quanto recurso ainda pode ser gasto; não aumenta a potência de uma capacidade.**
 
-## Reserva
+## 1. Reserva
 
-A Reserva própria do personagem é determinada pelo maior patamar entre seus Atributos.
+A Reserva própria é determinada pelo maior Atributo da personagem:
 
 `maior Atributo [0] → 10 Energia` | `[1] → 20` | `[2] → 40` | `[3] → 60` | `[4] → 80` | `[5] → 100`
 
-A Reserva mede quanto esforço ou recurso próprio o personagem consegue sustentar. Ela não aumenta o patamar de nenhuma capacidade.
+Exceções aprovadas podem registrar outro valor diretamente na ficha.
 
-> **Patamar determina quanto o personagem consegue produzir. Reserva determina quanto tempo ele consegue sustentar seus usos.**
+## 2. Custo do uso
 
-## Custo de uso
+Quando uma capacidade consome Energia, seu custo-base é o patamar efetivamente usado:
 
-Quando uma capacidade consome Energia, o custo-base é igual ao patamar efetivamente empregado naquele uso.
+`uso [0] → 0` | `[1] → 1` | `[2] → 2` | `[3] → 3` | `[4] → 4` | `[5] → 5`
 
-`uso [0] → custo 0` | `[1] → 1` | `[2] → 2` | `[3] → 3` | `[4] → 4` | `[5] → 5`
-
-O patamar máximo da capacidade define até onde ela pode chegar. O personagem pode empregar um patamar menor quando a ficção permitir dosar a potência.
-
-Exemplo: uma capacidade disponível em `[5]`, efetivamente usada em `[2]`, possui custo-base `2` quando esse uso consome Energia.
-
-Assim, um personagem muito poderoso não precisa operar sempre no máximo para resolver ameaças menores.
-
-O custo pode representar coisas diferentes conforme a fonte: mana de um mago, esforço físico extraordinário, carga do anel do Lanterna Verde, batarangs e cargas do Arsenal de Batman ou outro recurso equivalente.
-
-Capacidades passivas não gastam Energia apenas por existirem. Uma resistência natural, armadura já vestida ou característica permanente não consome automaticamente Energia a cada vez que é atingida, salvo quando sua própria descrição estabelecer um gasto ativo.
-
-## Ampliação
-
-Quando uma aplicação ultrapassa sua manifestação-base, cada degrau usado nas dimensões aplicáveis gera carga de Ampliação conforme `consolidacao.md`.
-
-Para as dimensões gerais aprovadas, cada passo acima da base custa `+1 Energia`:
-
-`Alcance + Alvos + Área/Tamanho + Duração`
-
-Regras específicas podem possuir uma dimensão adicional própria, como a quantidade de STATUS de Dissipar.
-
-Cada efeito possui também um limite de Ampliação:
-
-`Ampliação [X] = patamar máximo do efeito + maior entre MEN e VON`
-
-Esse limite diz quanta Ampliação total cabe no efeito. Ele não aumenta sua potência nem fornece Energia.
-
-O custo final da aplicação é sempre:
+Quando houver Ampliação:
 
 `Custo = patamar efetivamente usado + Ampliação usada`
 
-A Ampliação usada é paga integralmente. Não existe pagamento parcial, redução de Efetivo por falta de pagamento nem conversão de custo em penalidade.
+As dimensões, limites e cálculo de Ampliação pertencem exclusivamente a `consolidacao.md`.
 
-Se o JOGADOR não possui Energia suficiente ou quer gastar menos, altera **antes da resolução** o patamar efetivamente usado, a Ampliação escolhida ou ambos.
+O custo é pago antes da resolução da aplicação.
 
-Exemplo: `Dano [5] | Ampliação [8]`. Se forem usados `Dano [3]` e `Ampliação +2`, o custo é `3 + 2 = 5 Energia`.
+Se não houver Energia suficiente, a configuração precisa ser reduzida antes da resolução.
 
-> **Potência usada e Ampliação são escolhas separadas; Energia paga ambas diretamente.**
+Capacidades passivas não gastam Energia apenas por existirem, salvo regra específica da própria capacidade.
 
-## Cinco estados
-
-A Reserva pode ser lida em cinco estados narrativos, além de Esgotada:
-
-`Cheia | Alta | Média | Baixa | Crítica | Esgotada`
-
-Os cinco estados com Energia disponível dividem igualmente a Reserva máxima.
-
-O valor numérico pode ser mostrado junto do estado para facilitar o controle. O estado comunica rapidamente a condição; o número preserva precisão operacional.
-
-## Recuperação natural
+## 3. Recuperação
 
 Todo gasto realizado desde o último fôlego forma um bloco de esforço recente.
 
-Após aproximadamente `5 minutos` de descanso real, o personagem pode recuperar `50%` da Energia gasta nesse bloco. Essa parcela é recuperável uma única vez pelo fôlego curto.
+Após aproximadamente `5 minutos` de descanso real, recupera-se `50%` da Energia gasta nesse bloco. Essa parcela só pode ser recuperada uma vez pelo fôlego curto.
 
-A metade restante torna-se desgaste profundo e só pode ser recuperada com aproximadamente `1 a 2 horas` de descanso real.
+A metade restante exige aproximadamente `1 a 2 horas` de descanso real.
 
-Exemplos: `100/100 → gasta 10 → 90/100 → 5m recupera +5 → 95/100 → 2h recupera +5 → 100/100` | `100/100 → gasta 100 → 0/100 → 5m recupera +50 → 50/100 → 2h recupera +50 → 100/100`.
+Novos gastos depois do fôlego formam um novo bloco sem apagar o desgaste profundo já acumulado.
 
-Depois do fôlego de 5 minutos, novos gastos formam um novo bloco e podem gerar nova parcela recuperável no próximo fôlego. A parte já marcada para o descanso longo continua aguardando esse descanso.
+Enquanto houver desgaste profundo pendente, ele limita quanto da Reserva pode ser recuperado naturalmente:
 
-Enquanto existir valor preso na camada de descanso longo, a Energia não pode se recuperar naturalmente acima de:
+`máximo recuperável antes do descanso longo = Energia máxima − desgaste profundo`
 
-`Energia máxima recuperável antes do descanso longo = Energia máxima − Descanso de 2h`
+> **Fôlego recupera metade do esforço recente. Descanso prolongado recupera o restante.**
 
-Exemplo: `Energia [10/100] - Descanso [45]-[45]` permite chegar, com o fôlego curto, no máximo a `55/100`. Depois disso permanece `Energia [55/100] - Descanso [0]-[45]` até ocorrer o descanso prolongado.
+## 4. Bateria
 
-> **Fôlego recupera metade do esforço recente. Descanso prolongado recupera o desgaste restante.**
+`Bateria [X]` representa uma reserva externa separada.
 
-## Bateria
-
-`Bateria [X]` é uma fonte separada de Energia armazenada.
-
-Ela não aumenta a Reserva própria do personagem e não soma seu patamar aos Atributos.
-
-Sua capacidade é:
+Capacidade:
 
 `Bateria [1] → 20` | `[2] → 40` | `[3] → 60` | `[4] → 80` | `[5] → 100`
 
-Uma Bateria pode ser um medalhão, cristal, bateria tecnológica, fonte mística, estoque de equipamentos ou qualquer outra forma coerente de reserva externa.
+A Bateria não aumenta a Reserva própria nem altera Atributos ou patamares.
 
-Por padrão, a Bateria recupera sua carga completa uma vez por dia. Uma Bateria específica pode estabelecer outra forma de recarga.
+Sua natureza e forma de recarga pertencem à própria capacidade ou recurso. Na ausência de regra específica, recupera sua carga completa uma vez por dia.
 
-## Uso da Bateria
+Quando a Bateria puder alimentar a Reserva, transfere-se até a quantidade disponível ou até completar a Reserva máxima.
 
-Transferir Energia da Bateria para a Reserva é uma ação.
+## 5. Notação operacional
 
-O personagem pode transferir qualquer quantidade disponível na Bateria, até completar sua Reserva máxima.
+Quando necessário:
 
-Exemplo: `Energia 20/80 - Bateria 60/60 → usa a Bateria → Energia 80/80 - Bateria 0/60`.
+`Energia [atual/máxima] - Bateria [atual/máxima] - Descanso [curto]-[profundo]`
 
-Se a Reserva não tiver espaço para toda a carga, apenas a quantidade necessária é transferida e o restante permanece na Bateria.
+Exemplo:
 
-## Notação operacional
+`Energia [55/100] - Bateria [40/40] - Descanso [0]-[45]`
 
-Quando for útil mostrar tudo de forma compacta, usa-se uma única linha:
+Trechos sem valor relevante podem ser omitidos.
 
-`Energia [10/100] - Bateria [40/40] - Descanso [45]-[45]`
+O STATUS apenas preserva esses valores atuais; os cálculos pertencem a este arquivo.
 
-`Energia [atual/máxima]` mostra a Reserva própria atual e máxima.
+## Regra final
 
-`Bateria [atual/máxima]` mostra a carga externa disponível.
-
-`Descanso [X]-[Y]` mostra quanto ainda pode ser recuperado em cada camada de descanso. O primeiro valor corresponde à parcela recuperável pelo fôlego de aproximadamente 5 minutos; o segundo corresponde ao desgaste profundo recuperável após aproximadamente 1 a 2 horas.
-
-Depois de usar o fôlego curto, sua parcela cai para zero. Exemplo: `Energia [55/100] - Bateria [40/40] - Descanso [0]-[45]`.
-
-O segundo valor também define quanto da Reserva máxima continua bloqueado até o descanso prolongado. Portanto, com `Descanso [0]-[45]` em uma Reserva máxima de `100`, o teto de recuperação natural imediata é `55`.
-
-Quando o descanso prolongado é concluído e não existem novos gastos pendentes, ambos os valores retornam a zero.
-
-Quando não houver Bateria, seu trecho pode ser omitido.
-
-## Escala e confronto
-
-A progressão foi calibrada para que um personagem consiga operar repetidamente próximo do próprio patamar máximo durante um confronto sério contra um equivalente.
-
-Um personagem cujo maior Atributo é `[5]` possui `100` de Reserva. Um uso-base em `[5]` custa `5`; Ampliações elevam diretamente esse gasto pela quantidade de degraus escolhidos.
-
-Isso não significa que toda luta precisa durar vinte usos. Resultado evidente, estratégia, ambiente, diferença de patamar, dano, retirada, incapacidade, ampliação ou qualquer outra consequência podem encerrá-la antes.
-
-> **A Reserva deve permitir um confronto sério entre equivalentes sem transformar esforço máximo em recurso infinito.**
+> **Reserva diz quanto recurso existe. A configuração define quanto custa. Bateria fornece reserva externa. Descanso recupera o que foi gasto.**
