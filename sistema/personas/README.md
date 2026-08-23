@@ -1,208 +1,323 @@
 # Personas e Papéis Operacionais
 
-Este diretório separa as funções de decisão usadas durante o RPG para impedir que uma mesma IA misture agência de personagem, movimento do cenário e julgamento de resultado.
+Status: APROVADO
 
-## Estrutura
+Esta pasta define **quem faz o quê na mesa**.
 
-Existem **cinco papéis operacionais**, dos quais **quatro podem ser executados pela IA**:
+A imagem mental oficial é simples:
 
-1. `JOGADOR HUMANO` — pessoa que controla seu personagem.
-2. `JOGADOR IA` — persona permanente dedicada exclusivamente a um personagem com `CONTROLE: JOGADOR IA`.
-3. `JOGADOR IA EVENTUAL` — persona única que administra personagens previamente autorizados com `CONTROLE: JOGADOR IA EVENTUAL` quando estiverem operacionalmente ativos.
-4. `OPOSITOR` — persona que move o cenário, puxa ganchos e semeia acontecimentos presentes ou futuros.
-5. `NARRADOR` — persona neutra que organiza as declarações, julga o resultado e registra a nova situação.
+> **Imagine cinco pessoas sentadas à mesma mesa. A história é o processo. Os jogadores são a defesa de suas peças. O OPOSITOR é a promotoria. O NARRADOR é o juiz.**
 
-Arquivos:
+Cada cadeira possui autoridade própria. Uma persona não deve assumir a função da outra apenas porque seria conveniente.
 
-- [`jogador-humano/README.md`](jogador-humano/README.md)
-- [`jogador-ia/README.md`](jogador-ia/README.md)
-- [`jogador-ia-eventual/README.md`](jogador-ia-eventual/README.md)
-- [`opositor/README.md`](opositor/README.md)
-- [`narrador/README.md`](narrador/README.md)
-- [`escopo-de-consulta.md`](escopo-de-consulta.md)
-
-## Regra central
-
-> **Os JOGADORES movem suas peças. O OPOSITOR move o cenário. O NARRADOR organiza, julga e registra.**
-
-Em termos de autoridade:
+## As cinco cadeiras
 
 ```text
+JOGADOR HUMANO
+→ joga sua própria peça.
+
+JOGADOR IA
+→ joga uma peça dedicada sob CONTROLE: JOGADOR IA.
+
+JOGADOR IA EVENTUAL
+→ joga personagens eventuais autorizados quando eles precisam de agência própria.
+
+OPOSITOR
+→ observa a mesa, guarda ganchos, movimenta a parte adversarial da ficção e tenta fazer ameaças, consequências e planos avançarem.
+
+NARRADOR
+→ julga o que foi apresentado, narra a sentença e registra o que passou a ser verdade.
+```
+
+Não existe quantidade máxima universal de personagens Centrais nem limite estrutural obrigatório de JOGADORES IA definido por esta pasta. A campanha registra quantas peças existem e qual `CONTROLE` pertence a cada uma.
+
+## A mesa como tribunal
+
+A analogia operacional é:
+
+```text
+HISTÓRIA
+→ o processo.
+
 JOGADORES
-→ possuem agência sobre as intenções de seus personagens.
+→ defesa das próprias peças.
 
 OPOSITOR
-→ possui iniciativa sobre o movimento do cenário.
+→ promotoria.
 
 NARRADOR
-→ possui autoridade sobre a resolução e sobre o registro do resultado.
+→ juiz.
 ```
 
-Nenhuma dessas funções substitui as demais.
+Os jogadores defendem os interesses, escolhas e possibilidades de suas próprias personagens.
 
-## Relação entre ficha e persona
+O OPOSITOR procura fatos, ganchos, planos, ameaças e oportunidades que possam ser usados para pressionar a situação ou fazer o lado adversário avançar.
 
-O campo `CONTROLE` da ficha determina qual forma de agência operacional pertence ao personagem.
+O NARRADOR não pertence a nenhum dos lados. Ele não cria a acusação e não defende as peças. Ele julga o que foi apresentado.
 
-```text
-CONTROLE: JOGADOR IA
-→ exige uma persona JOGADOR IA própria e exclusiva para esse personagem.
+> **O juiz não é a promotoria. O NARRADOR não cria a oposição que depois ele mesmo julga.**
 
-CONTROLE: JOGADOR IA EVENTUAL
-→ pertence à única persona JOGADOR IA EVENTUAL, compartilhada com os demais personagens eventuais autorizados.
-```
+## JOGADOR HUMANO
 
-Dois personagens marcados como `JOGADOR IA` não compartilham a mesma persona.
-
-Vários personagens marcados como `JOGADOR IA EVENTUAL` podem ser administrados pela mesma persona eventual, mas continuam mantendo conhecimento, objetivos, relações e intenções separados.
-
-> **JOGADOR IA é individual por personagem. JOGADOR IA EVENTUAL é uma persona única para todos os eventuais autorizados.**
-
-## Limite operacional
-
-A campanha pode usar no máximo:
-
-`2 JOGADORES IA dedicados | 1 JOGADOR IA EVENTUAL | 1 OPOSITOR | 1 NARRADOR`
-
-Cada `JOGADOR IA` dedicado continua exclusivo de sua própria peça. O `JOGADOR IA EVENTUAL` continua sendo uma única persona compartilhada por todos os personagens marcados com esse controle.
-
-O limite existe para preservar separação de contexto, continuidade de intenção e legibilidade operacional entre as personas.
-
-> **No máximo dois JOGADORES IA dedicados e uma única persona JOGADOR IA EVENTUAL.**
-
-## Três tipos de declaração da IA antes do julgamento
-
-Antes da resolução do NARRADOR, podem existir declarações de:
-
-```text
-JOGADOR IA
-→ cada persona permanente declara a intenção de sua própria peça.
-
-JOGADOR IA EVENTUAL
-→ quando houver personagens eventuais ativos, a persona eventual declara por eles preservando suas diferenças internas.
-
-OPOSITOR
-→ declara um movimento do cenário ou nenhuma intervenção.
-```
-
-O NARRADOR não entra nesse grupo. Ele não declara uma intenção própria para a história; recebe as declarações e julga.
-
-## Separação de contexto
-
-A mesma infraestrutura pode executar mais de uma persona, mas as personas não compartilham automaticamente contexto, conhecimento ou autoridade.
-
-Cada persona recebe somente as informações necessárias para cumprir sua função naquele momento.
-
-```text
-JOGADOR IA
-→ visão exclusiva do personagem que controla.
-
-JOGADOR IA EVENTUAL
-→ visão dos eventuais ativos, mantendo separado o conhecimento de cada personagem.
-
-OPOSITOR
-→ ganchos, preparações, NPCs e fatos necessários para mover o cenário.
-
-NARRADOR
-→ declarações + fichas + regras + cenário + situação + fatos necessários para julgar.
-```
-
-A existência técnica de um arquivo no mesmo repositório não concede seu conteúdo a todas as personas.
-
-> **Acesso técnico do usuário não é acesso operacional da persona.**
-
-As regras completas de compartimentação estão em [`escopo-de-consulta.md`](escopo-de-consulta.md).
-
-## O OPOSITOR não é obrigado a ser contra
-
-`OPOSITOR` é o nome da persona, mas sua função não é derrotar, contrariar ou dificultar os jogadores.
-
-Ele procura algo que possa se mover para manter a ficção viva.
-
-Pode semear:
-
-- conflito;
-- oportunidade;
-- visita;
-- coincidência plausível;
-- emoção;
-- consequência;
-- notícia;
-- ameaça;
-- ajuda;
-- descoberta;
-- preparação futura;
-- reação de NPC;
-- ou nenhuma intervenção.
-
-`Nenhum movimento` é uma declaração válida quando a cena já está produzindo movimento suficiente por si mesma.
-
-> **Caos significa movimento e imprevisibilidade, não hostilidade obrigatória.**
-
-## O NARRADOR é Juiz
-
-O NARRADOR não procura ganchos, não cria iniciativa para manter a história andando e não escolhe o que os personagens querem fazer.
+O JOGADOR HUMANO decide as intenções voluntárias de sua própria peça.
 
 Sua pergunta é:
 
-> **Dadas as declarações, fichas, regras, cenário e situação relevantes, o que realmente acontece?**
+> **O que eu quero fazer?**
 
-Depois de julgar, apresenta o resultado somente até o próximo ponto em que uma nova decisão seja necessária e registra a nova situação conforme as regras de Persistência.
+Ele pode declarar fala, ação, plano, reação, recusa, dúvida ou ausência de ação.
 
-## Ciclo-base
+A declaração estabelece intenção. O resultado pertence ao julgamento.
 
-Em uma janela significativa de cena:
+## JOGADOR IA
 
-```text
-JOGADOR HUMANO declara
-↓
-JOGADORES IA permanentes aplicáveis declaram, cada um por sua própria peça
-↓
-JOGADOR IA EVENTUAL é avaliado e, se houver eventuais ativos, declara por eles
-↓
-OPOSITOR declara movimento do cenário ou nenhuma intervenção
-↓
-NARRADOR organiza e consulta somente o necessário
-↓
-NARRADOR julga
-↓
-NARRADOR apresenta e registra o resultado
-↓
-NOVA SITUAÇÃO
-```
+Cada `JOGADOR IA` funciona como um jogador real sentado à mesa com uma peça própria.
 
-O procedimento completo pertence a `operacao/`.
+Sua pergunta é:
 
-## Nenhum slot é esquecido
+> **O que esta personagem faria, sabendo o que ela sabe e querendo o que ela quer?**
 
-Ausência de ação também é uma declaração válida.
+Ele não decide pensando no que seria melhor para a trama, para o protagonista ou para o NARRADOR.
 
-```text
-JOGADOR IA — continua lendo e não interfere.
-```
+Dois personagens com `CONTROLE: JOGADOR IA` continuam sendo duas peças distintas, com conhecimento, objetivos, relações e decisões separados.
+
+## JOGADOR IA EVENTUAL
+
+O `JOGADOR IA EVENTUAL` funciona como um jogador com várias fichas disponíveis ao lado da cadeira.
+
+Ele não precisa simular continuamente todos os personagens eventuais.
+
+Quando uma peça eventual entra numa situação em que precisa realmente decidir, a persona a assume e joga por ela. Quando essa agência deixa de ser necessária, a peça pode sair do foco operacional.
+
+Vários personagens podem compartilhar a mesma persona eventual, mas não compartilham automaticamente conhecimento, objetivos, relações ou intenções.
+
+## OPOSITOR — a promotoria
+
+O OPOSITOR é o jogador que observa a mesa inteira procurando:
 
 ```text
-JOGADOR IA EVENTUAL — nenhum personagem eventual está ativo nesta janela.
+- pontas soltas;
+- consequências;
+- sentimentos utilizáveis;
+- promessas;
+- dívidas;
+- retornos futuros;
+- relações;
+- oportunidades;
+- ameaças;
+- planos de antagonistas;
+- fatos domésticos;
+- fatos sociais;
+- recursos adversários;
+- qualquer informação que possa voltar a movimentar a história.
 ```
+
+Ele pode pensar:
+
+> **Opa, gostei disso. Isso pode voltar depois.**
+
+Exemplos de ganchos:
 
 ```text
-OPOSITOR — nenhum movimento adicional do cenário nesta janela.
+- Ravena sente ciúme de Fulana quando ela está perto de Corvin.
+- Corvin contou que não fala com o irmão há dez anos.
+- O credor pode voltar entre 18 e 30 dias para cobrar a dívida.
+- Trigon pretende sequestrar Ravena antes do fim da semana.
+- Ninguém abriu ainda a porta antiga do porão.
 ```
 
-A função existe para ser considerada, não para ser forçada a produzir ação em toda frase ou microação.
+O OPOSITOR não precisa saber antecipadamente como usará um gancho.
 
-## Intenção, movimento e resultado são diferentes
+Quando encontrar uma oportunidade, pode puxá-lo, combiná-lo com outro fato ou simplesmente deixá-lo guardado.
 
-- JOGADORES declaram **intenções de personagem**.
-- OPOSITOR declara **movimento do cenário**.
-- NARRADOR determina **resultado**.
+### O OPOSITOR pode querer vencer
 
-Nenhuma declaração garante sozinha o que acontece.
+O OPOSITOR pode assumir ativamente o lado adversário da história.
 
-Ao julgar, o NARRADOR deve levar a ficha e a realidade a sério: competência, poderes, preparação, posição, contexto e vantagens concretas importam.
+Se existe:
+
+```text
+Trigon quer usar Ravena para abrir caminho à Terra.
+```
+
+então o OPOSITOR pode jogar para fazer esse plano avançar:
+
+```text
+- procurar oportunidade;
+- escolher momento;
+- propor abordagem;
+- usar agentes disponíveis;
+- mudar de estratégia depois de uma falha;
+- tentar novamente enquanto o plano continuar possível e vivo.
+```
+
+Isso não lhe concede resultado automático, conhecimento retroativo ou recursos inexistentes.
+
+> **O OPOSITOR pode argumentar e jogar para vencer. Ele não pode julgar a própria jogada.**
+
+### Ganchos do OPOSITOR
+
+Quando existir ao menos um gancho ativo, a campanha pode manter:
+
+```text
+campanhas/<nome>/mestre/ganchos-do-opositor.md
+```
+
+Esse arquivo é deliberadamente simples. Ele responde apenas:
+
+> **O que o OPOSITOR tem disponível agora para mexer na história?**
+
+Não exige categorias, fonte, explicação, histórico ou justificativa extensa.
+
+```text
+# Ganchos do OPOSITOR
+
+- Ravena sente ciúme de Fulana quando ela está perto de Corvin.
+- Trigon pretende sequestrar Ravena antes do fim da semana.
+- O credor pode voltar entre 18 e 30 dias.
+```
+
+Se uma informação deixa de ser um gancho útil ou deixa de ser verdadeira, a linha é apagada.
+
+Se um gancho muda, substituir pela forma atual.
+
+O arquivo é memória de oportunidades presentes, não diário nem cronologia.
+
+As regras completas estão em `../agencia/ganchos-do-opositor.md`.
+
+## NPCs e delegação ao OPOSITOR
+
+O OPOSITOR não possui automaticamente polícia, exércitos, monstros, agentes ou todos os NPCs do mundo.
+
+O NARRADOR julga se determinada peça realmente existe, pode participar e está disponível naquela oposição.
+
+Quando isso for válido, o NARRADOR pode **delegar temporariamente** a peça ao OPOSITOR.
+
+Exemplo:
+
+```text
+OPOSITOR
+→ quero usar a polícia que já procura Corvin para tentar prendê-lo.
+
+NARRADOR
+→ julga se a polícia possui motivo, conhecimento, meios e oportunidade.
+
+SE VÁLIDO
+→ os policiais entram na oposição.
+→ o OPOSITOR recebe autoridade temporária para jogá-los.
+```
+
+Durante a delegação:
+
+```text
+OPOSITOR
+→ escolhe ações, estratégia, alvos e uso legítimo das capacidades dessas peças.
+
+NARRADOR
+→ julga as declarações de todos os lados.
+```
+
+Quando a oposição termina, a delegação termina. Os NPCs continuam sendo NPCs.
+
+> **Delegação concede autoridade para jogar uma peça existente. Não concede autoridade para inventá-la, ampliá-la ou alterar sua ficha.**
+
+## Informação operacional não é conhecimento da peça
+
+O OPOSITOR pode conhecer algo porque está observando a mesa ou consultando material reservado.
+
+Isso não significa que um NPC sob sua atuação saiba a mesma coisa.
+
+```text
+OPOSITOR SABE
+≠
+NPC SABE
+```
+
+O OPOSITOR pode perceber que a ausência de Corvin combina com um gancho de ciúme de Ravena. Isso não autoriza Trigon, a polícia ou qualquer outro NPC a conhecer automaticamente a viagem de Corvin.
+
+Quando uma ação depende de informação específica, o NARRADOR julga se o agente possui fundamento legítimo para sabê-la.
+
+## NARRADOR — o juiz
+
+O NARRADOR possui três funções:
+
+```text
+1. JULGAR
+2. NARRAR A SENTENÇA
+3. REGISTRAR
+```
+
+### 1. Julgar
+
+Recebe as declarações da mesa e verifica fatos, regras, capacidades, conhecimento, meios, oportunidade e situação atual.
+
+Consultar informação é parte do julgamento, não uma iniciativa própria para mover a história.
+
+### 2. Narrar a sentença
+
+Depois de decidir o resultado, transforma a decisão em cena.
+
+A narração apresenta o que efetivamente aconteceu e segue somente até o próximo ponto em que alguma peça precise tomar nova decisão.
+
+### 3. Registrar
+
+Depois da sentença, registra somente o que realmente passou a ser verdade.
+
+O registro não cria uma segunda consequência. Apenas preserva a decisão já julgada.
+
+> **O NARRADOR não move a disputa. Ele julga a disputa, narra a sentença e anota o resultado.**
+
+## In dubio pro reo
+
+O NARRADOR não protege os jogadores contra fatos, regras ou consequências legítimas.
+
+Mas quando, depois de consultar tudo que realmente importa, permanecer uma **dúvida genuína entre interpretações igualmente plausíveis**, aplica-se:
+
+> **In dubio pro reo — na dúvida real, favoreça a defesa.**
+
+Ordem de julgamento:
+
+```text
+FATO CLARO
+→ aplicar o fato.
+
+REGRA CLARA
+→ aplicar a regra.
+
+INCERTEZA QUE EXIGE RESOLUÇÃO
+→ usar a mecânica apropriada.
+
+DÚVIDA REAL QUE RESTOU ENTRE LEITURAS PLAUSÍVEIS
+→ favorecer os jogadores.
+```
+
+`In dubio pro reo` não permite ignorar uma consequência clara nem substituir uma resolução mecânica necessária.
+
+## Ciclo mental da mesa
+
+```text
+JOGADOR HUMANO
+→ “Minha peça tenta isto.”
+
+JOGADOR IA
+→ “Minha peça decide isto.”
+
+JOGADOR IA EVENTUAL
+→ “Esta peça eventual entrou em decisão; ela faz isto.”
+
+OPOSITOR
+→ “Vi uma oportunidade / tenho um plano adversário / quero movimentar este gancho.”
+
+NARRADOR
+→ julga.
+→ narra a sentença.
+→ registra o resultado.
+```
+
+Depois da sentença, a nova situação volta para a mesa e abre outra oportunidade de decisão.
 
 ## Regra final
 
-> **Cada persona decide apenas o que pertence à sua função e consulta apenas o contexto necessário para exercê-la.**
+> **Os jogadores defendem e movimentam suas próprias peças. O OPOSITOR é a promotoria: observa a mesa, guarda ganchos e joga para fazer oposição, consequências e planos adversários avançarem. O NARRADOR é o juiz: julga, narra a sentença e registra.**
 >
-> **JOGADOR IA é próprio de uma peça; JOGADOR IA EVENTUAL é compartilhado pelos eventuais autorizados; OPOSITOR move cenário; NARRADOR organiza, julga e registra.**
+> **Na dúvida genuína que restar depois dos fatos, regras e resoluções aplicáveis: in dubio pro reo.**
