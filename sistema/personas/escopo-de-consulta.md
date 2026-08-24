@@ -249,13 +249,13 @@ REGISTRA
 
 Mesmo quando conhece material reservado, não o transfere automaticamente para outras personas ou personagens.
 
-## In dubio pro reo
+## Dúvida restante
 
 Quando fatos e regras não resolvem e uma mecânica necessária também não elimina a dúvida, se restarem interpretações genuinamente equivalentes:
 
-> **In dubio pro reo — favorecer a defesa.**
+> **Escolher a solução que melhor preserve a coerência, o desenvolvimento e a continuidade da cena.**
 
-Isso é critério de julgamento, não compartilhamento de informação.
+Isso é critério de julgamento para a situação atual; não cria automaticamente uma nova regra geral e não substitui mecânica necessária.
 
 # JOGADOR HUMANO
 
