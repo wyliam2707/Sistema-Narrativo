@@ -6,7 +6,7 @@ NPC não é uma categoria mecânica diferente. Todos os personagens usam as mesm
 
 A diferença está em **quem controla o personagem** e em **quanto vale a pena registrar para garantir continuidade**.
 
-## Controle normal
+## CONTROLE: NPC
 
 Um NPC possui:
 
@@ -14,20 +14,28 @@ Um NPC possui:
 CONTROLE: NPC
 ```
 
-Sua autoridade normal pertence ao `NARRADOR`.
+Isso significa que ele não possui um jogador dedicado.
 
-Isso vale para:
+Quando sua presença exigir agência:
 
-- civis;
-- comerciantes;
-- guardas;
-- monstros;
-- inimigos;
-- aliados circunstanciais;
-- antagonistas recorrentes;
-- entidades muito poderosas.
+```text
+ROTINA EVIDENTE
+→ NARRADOR pode narrar como consequência já determinada.
+
+DECISÃO VOLUNTÁRIA RELEVANTE, NÃO ADVERSARIAL
+→ JOGADOR IA EVENTUAL assume temporariamente a peça.
+
+OPOSIÇÃO ATIVA
+→ NPC pode ser delegado ao OPOSITOR depois que o NARRADOR julgar sua disponibilidade.
+```
+
+A assunção temporária não altera o `CONTROLE` da ficha. O personagem continua `CONTROLE: NPC`.
+
+Isso vale para civis, comerciantes, guardas, monstros, inimigos, aliados circunstanciais, antagonistas recorrentes e entidades muito poderosas.
 
 Um NPC pode ser mais poderoso, mais antigo ou mais importante que um personagem Central e ainda continuar sendo NPC.
+
+> **NPC não pertence ao NARRADOR como jogador. Rotina pode ser narrada; vontade relevante precisa de uma cadeira.**
 
 ## OPOSITOR e delegação temporária
 
