@@ -156,9 +156,8 @@ Usar as regras existentes em:
 
 ```text
 ../resolucao/combate-e-dano.md
-../resolucao/recuperacao-da-vida.md
+../resolucao/efeitos/
 ../resolucao/energia.md
-../resolucao/escalas-de-efeito.md
 ../resolucao/consolidacao.md
 ```
 
