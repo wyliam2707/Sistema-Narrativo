@@ -120,4 +120,4 @@ A configuração escolhida é definida e paga antes da resolução.
 
 Consolidação não define Defesa, Vida estrutural ou funcionamento específico de efeitos persistentes.
 
-Essas regras pertencem a `escalas-de-efeito.md` e `fonte-e-vida-estrutural.md`.
+Essas regras pertencem às páginas em `efeitos/` e a `fonte-e-vida-estrutural.md`.
