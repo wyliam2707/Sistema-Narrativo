@@ -35,7 +35,11 @@ Nem todo campo precisa existir para toda peça.
 
 STATUS registra apenas os valores atuais já determinados pelas regras correspondentes.
 
-As regras de Dano, Cura e VIDA pertencem a `../resolucao/combate-e-dano.md` e `../resolucao/recuperacao-da-vida.md`.
+As regras de Dano e VIDA pertencem a `../resolucao/combate-e-dano.md`.
+
+A regra de Cura pertence a `../resolucao/efeitos/cura.md`.
+
+As regras de recuperação natural, Regeneração e Medicina pertencem a `../resolucao/recuperacao-da-vida.md`.
 
 As regras de Energia, Bateria e recuperação pertencem a `../resolucao/energia.md`.
 
