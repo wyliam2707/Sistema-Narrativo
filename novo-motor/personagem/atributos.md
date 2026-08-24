@@ -117,8 +117,10 @@ A Escala de Poder não é um Atributo e não entra diretamente em testes. Ela se
 | **[3]** | 12 | 3 |
 | **[4]** | 16 | 4 |
 | **[5]** | 20 | 5 |
-| **[6]** | 25 | 6 |
-| **[7]** | 30 | 7 |
+| **[6]** | 24 | 6 |
+| **[7]** | 28 | 7 |
+
+A progressão padrão, da Escala `[1]` à `[7]`, acrescenta 4 pontos de Atributo por nível de Escala.
 
 Regra geral:
 
@@ -145,9 +147,9 @@ Exemplo de Escala de Poder `[7]`:
 
 ```text
 Corpo — POD [7] | HAB [5] | RES [6]
-Mente — POD [5] | HAB [4] | RES [3]
+Mente — POD [4] | HAB [3] | RES [3]
 
-Total: 30 pontos
+Total: 28 pontos
 ```
 
 A Escala de Poder `[7]` permite chegar a `[7]` em um Atributo, mas não obriga nenhum Atributo a atingir esse valor.
