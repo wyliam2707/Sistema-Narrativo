@@ -1,180 +1,100 @@
 # Calibração Independente
 
-Status: APROVADO
+Status: EM DESENVOLVIMENTO
 
-Esta regra vale para todos os personagens:
+A calibração parte do conceito do próprio personagem. Outra ficha não deve ser usada como régua automática, salvo quando o jogador pedir explicitamente uma comparação ou equilíbrio deliberado.
 
-- protagonistas;
-- aliados;
-- NPCs;
-- personagens canônicos ou licenciados;
-- antagonistas;
-- personagens Centrais, Relevantes ou Figurantes quando precisarem de graduação.
+## Princípio
 
-## Princípio obrigatório
+> **Construir o personagem pelo que ele é, não pelo que outra ficha possui.**
 
-> **Cada personagem deve ser construído e calibrado pelo que ele próprio é, nunca pela ficha de outro personagem, salvo quando o JOGADOR HUMANO escolher explicitamente usar outra ficha como referência de equilíbrio.**
+Como padrão:
 
-Como padrão, isso significa:
-
-- não usar protagonista, aliado ou rival como régua mecânica;
-- não aumentar ou reduzir atributos para criar equilíbrio de grupo por iniciativa do NARRADOR;
-- não ajustar perícias para produzir contraste artificial;
-- não inflar ou reduzir poderes para aproximar duas fichas sem solicitação explícita;
-- não copiar a estrutura mecânica de outro personagem apenas por conveniência;
-- aceitar fichas assimétricas quando isso representa corretamente os conceitos.
-
-## Equilíbrio por escolha explícita do JOGADOR HUMANO
-
-A calibração independente é o padrão do sistema, mas **equilíbrio não é proibido quando ele é uma escolha deliberada do JOGADOR HUMANO**.
-
-Se o jogador disser explicitamente que deseja:
-
-```text
-equilibrar uma personagem com outra
-aproximar duas fichas em capacidade geral
-usar uma personagem como referência mecânica
-criar simetria deliberada entre duas peças
-```
-
-então essa comparação deixa de ser um balanceamento automático do NARRADOR e passa a ser uma direção de criação escolhida pelo jogador.
-
-Nesse caso, o NARRADOR pode comparar fichas, propor aproximações e ajustar atributos, perícias, poderes, repertórios ou limites na medida necessária para cumprir essa escolha.
-
-Isso não exige que as fichas se tornem idênticas. O equilíbrio pode preservar perfis diferentes, especializações diferentes e formas distintas de atuar, desde que a capacidade geral pretendida pelo jogador permaneça comparável.
-
-A exceção só existe quando a intenção de equilíbrio é explícita. Não inferir equilíbrio apenas porque personagens pertencem ao mesmo grupo, possuem a mesma Importância, são aliados, rivais, parceiros ou aparecem juntas com frequência.
-
-> **O NARRADOR não balanceia por conta própria. O JOGADOR HUMANO pode escolher balancear deliberadamente.**
+- não inflar ou reduzir Atributos para aproximar personagens;
+- não ajustar Perícias para criar contraste artificial;
+- não aumentar ou reduzir limites de Poderes apenas para equilibrar grupo;
+- não conceder ou retirar Passivos apenas para igualar fichas;
+- aceitar assimetria quando ela representa corretamente o conceito.
 
 ## Ordem de conversão
 
-Quando não houver escolha explícita de equilíbrio, para cada personagem:
-
-1. ignorar temporariamente as fichas dos demais;
-2. reconstruir suas capacidades conceituais em linguagem natural;
-3. identificar o que realmente sabe fazer;
-4. identificar limites, natureza e recursos relevantes;
-5. converter isso para ATRIBUTOS, PERÍCIAS, PODERES, TRAÇOS e demais campos apropriados;
-6. aplicar as escalas de forma conservadora;
-7. comparar com outra ficha somente depois, se for necessário verificar continuidade factual.
-
-Quando o JOGADOR HUMANO tiver escolhido explicitamente uma referência de equilíbrio, a comparação pode fazer parte da conversão na extensão necessária para atender essa escolha.
-
-> **Conceito/cânone primeiro por padrão. Outra ficha só vira molde quando o jogador decide que ela deve ser uma referência de equilíbrio.**
-
-## Atributos, Perícias e calibração do arsenal
-
-Atributos e Perícias ajudam o NARRADOR a entender qual patamar de uma capacidade especial, arma, equipamento ou Poder faz sentido para aquela personagem.
-
-Eles são referências conceituais de calibração, não uma fórmula automática de conversão.
+Para cada personagem:
 
 ```text
-Atributo
-→ mostra a capacidade inerente que sustenta ou limita certas ações.
-
-Perícia
-→ mostra treinamento, domínio e conhecimento especializado.
-
-Poder / arma / equipamento
-→ registra a capacidade final daquele arsenal no patamar definido para ele.
+1. descrever o conceito em linguagem natural;
+2. definir Atributos;
+3. definir Perícias;
+4. escolher Poderes ativos;
+5. escolher Passivos;
+6. consolidar Valores Derivados;
+7. revisar se a ficha representa o conceito sem contradições.
 ```
 
-Depois que um arsenal recebe um valor próprio, como `Dano [3]`, esse valor já representa sua potência mecânica. A resolução não recalcula esse Dano somando novamente Atributo ou Perícia.
+## Atributos
 
-A Perícia continua podendo representar quão bem o arsenal é aplicado conforme a regra de resolução apropriada.
-
-> **Atributos e Perícias ajudam a definir o patamar correto na criação; o arsenal registra o valor que será usado depois.**
-
-## PATAMAR é não linear
-
-PATAMAR não representa uma progressão linear.
-
-Cada grau acima é um salto qualitativo maior do que o anterior. Um personagem em `[4]` não é apenas um pouco melhor que alguém em `[3]`, e `[5]` não é simplesmente mais um ponto acima de `[4]`.
-
-Essa lógica vale para atributos, perícias, poderes, usos e especializações.
-
-Como referência de calibração:
-
-- `[1]` já representa uma capacidade acima do patamar comum da categoria;
-- `[2]` representa capacidade claramente elevada;
-- `[3]` já é excepcional e muito forte;
-- `[4]` é extremo e deve ser raro;
-- `[5]` é ápice: referência máxima ou quase máxima daquela capacidade.
-
-A grande maioria dos personagens deve encontrar sua melhor descrição até `[2]` ou `[3]` nas capacidades em que se destaca.
-
-`[4]` exige justificativa clara.
-
-`[5]` exige que o personagem seja efetivamente uma referência de ápice naquela área.
-
-> **Se [3] descreve corretamente, não usar [4]. Se [4] descreve corretamente, não usar [5].**
-
-Essa raridade não é uma regra de balanceamento nem uma distribuição estatística obrigatória. Ela existe para preservar o significado dos graus altos.
-
-## Calibração conservadora
-
-Se houver dúvida real entre dois graus adjacentes, usar o menor, salvo quando uma referência de equilíbrio explicitamente escolhida pelo jogador exigir outra decisão coerente com a proposta aprovada.
-
-Exemplos:
+Atributos representam capacidade inerente:
 
 ```text
-dúvida entre [2] e [3] → [2]
-dúvida entre [3] e [4] → [3]
+Corpo — POD | HAB | RES
+Mente — POD | HAB | RES
 ```
 
-A mesma lógica vale para atributos, perícias, poderes, usos e especializações.
+Usar a escala definida em `atributos.md` e `escala.md`.
 
-`[5]` é reservado ao verdadeiro ápice da categoria.
+## Perícias
 
-Nenhum personagem precisa possuir um `[5]`.
+Perícias representam treinamento, conhecimento e experiência. Não atribuir Perícia apenas porque um Poder existe.
 
-Valores altos não são distribuídos por importância narrativa ou protagonismo.
+## Poderes
 
-## Poder bruto não define capacidade de vencer
+Poderes representam ações ou efeitos ativos disponíveis ao personagem.
 
-Uma ficha não deve ser calibrada pela pergunta "quem precisa vencer quem?".
+O valor `[X]` do Poder não é uma graduação universal de força; é o máximo de Energia que pode ser investido naquele Poder por uso.
 
-Um personagem pode superar outro por especialização, conhecimento, preparação, relação favorável entre capacidades, ambiente, recursos ou escolha correta da abordagem, mesmo sendo inferior em poder bruto.
+Por isso, a calibração deve escolher o limite `[X]` conforme a flexibilidade e intensidade que o personagem realmente demonstra naquele Poder.
 
-Da mesma forma, ser capaz de derrotar determinado adversário em certas condições não justifica aumentar todos os atributos ou poderes do personagem.
+Exemplo:
 
-Quando o jogador pede equilíbrio, isso significa aproximar a capacidade geral conforme a direção escolhida, não garantir resultados iguais em toda disputa.
+```text
+Batman
+Golpe [2]
+Disparo [3]
+Explosão [2]
+```
 
-A ficha registra o que o personagem é capaz de fazer. A resolução determina como essas capacidades interagem na situação concreta.
+Esses valores descrevem quanto recurso ele pode concentrar em cada ação, não uma escala geral de “nível de poder”.
 
-## Personagens canônicos ou licenciados
+## Passivos
 
-Quando houver base canônica, a ficha deve nascer da versão canônica ou adaptação aprovada para a campanha.
+Passivos representam capacidades permanentes ou estáveis.
 
-Primeiro registrar sem números:
+```text
+RD [3]
+Vida Extra [30]
+Proteção [2]
+Sentido-Aranha
+Imortalidade
+Regeneração [2]
+```
 
-- capacidades relevantes;
-- limites conhecidos;
-- natureza;
-- recursos;
-- treinamento;
-- conhecimento;
-- características persistentes.
+Quando houver `[X]`, o significado vem do próprio Passivo.
 
-Depois converter para a linguagem do sistema.
+## Manifestação narrativa
 
-Se o resultado mecânico ficar muito diferente da ficha do protagonista ou de outro personagem, isso é aceitável quando os conceitos realmente são diferentes e o jogador não tiver pedido equilíbrio entre essas peças.
+Não criar Arsenal mecânico separado durante a calibração.
 
-Se o JOGADOR HUMANO tiver pedido explicitamente que duas versões sejam equilibradas, a adaptação aprovada pode deliberadamente aproximar capacidades que seriam diferentes na obra-base.
+```text
+espada → pode justificar Golpe
+batarang → pode justificar Disparo
+armadura → pode justificar RD ou Proteção
+```
 
-## Ordem de criação ou revisão
+A manifestação narrativa pode importar para a ficção, mas a função mecânica já deve estar registrada em Poderes ou Passivos.
 
-A ordem em que personagens são criados ou revisados não altera sua calibração por si só.
+## Comparação deliberada
 
-Protagonistas, aliados, antagonistas e NPCs podem ser convertidos em qualquer ordem, desde que cada ficha seja avaliada pelo próprio conceito ou pela referência de equilíbrio explicitamente escolhida pelo jogador.
+Se o jogador pedir explicitamente equilíbrio entre duas fichas, a comparação pode ser usada como referência. Mesmo assim, preservar funções diferentes e não transformar as fichas em cópias uma da outra.
 
-Comparações posteriores servem por padrão para verificar coerência factual ou continuidade. Elas também podem servir para equilíbrio quando isso tiver sido solicitado explicitamente pelo JOGADOR HUMANO.
+## Conservadorismo
 
-## Sigilo não altera calibração
-
-Uma ficha oculta não recebe valores maiores por estar escondida do jogador.
-
-Sigilo também não autoriza alterar capacidades depois de descobrir como o protagonista pretende enfrentá-las.
-
-> **Informação pode ser secreta. A realidade mecânica não pode ser retroativamente moldada para proteger a trama.**
+Quando houver dúvida real, escolher a representação mais simples que já descreva corretamente o personagem. Não criar Poder, Passivo ou aumento numérico sem necessidade conceitual clara.
