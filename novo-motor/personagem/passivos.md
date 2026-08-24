@@ -2,103 +2,32 @@
 
 Status: EM DESENVOLVIMENTO
 
-Passivos são efeitos permanentes ou estáveis que já fazem parte do personagem. Eles não são escolhidos a cada ação e não consomem Energia para funcionar, salvo se a própria descrição disser o contrário.
+Passivos são efeitos permanentes ou estáveis já incorporados ao personagem. Eles não são escolhidos a cada ação e não usam a regra de limite de Energia dos Poderes ativos.
 
-> **Poder ativo é escolhido e usado. Passivo já está incorporado ao personagem.**
+> **Poder ativo é escolhido e usado. Passivo já faz parte do personagem.**
 
-Um Passivo pode ter um valor entre colchetes quando sua própria regra precisar de uma graduação ou valor fixo. Diferente dos Poderes ativos, o valor `[X]` de um Passivo **não representa limite de Energia por uso**.
+## `[X]` nos Passivos
 
-## RD [X]
-
-```text
-RD [X]
-Efeito: reduz em X o dano recebido.
-```
-
-Exemplo:
+Quando um Passivo possui um valor entre colchetes, o próprio arquivo define o significado desse valor.
 
 ```text
-RD [3]
-→ reduz em 3 o dano recebido.
+RD [3] → reduz 3 de dano.
+Vida Extra [30] → +30 Vida máxima.
+Proteção [2] → +2 Esquiva e +2 Percepção.
+Regeneração [2] → recupera 2 de Vida por hora.
 ```
 
-## Vida Extra [X]
+`[X]` em Passivos não representa máximo de Energia por uso.
 
-```text
-Vida Extra [X]
-Efeito: +X à Vida máxima.
-```
+## Consolidação na ficha
 
-Exemplo:
-
-```text
-Vida Extra [30]
-→ +30 Vida.
-```
-
-## Proteção [X]
-
-```text
-Proteção [X]
-Efeito:
-+X à Esquiva
-+X à Percepção
-```
-
-Exemplo:
-
-```text
-Proteção [2]
-→ +2 Esquiva
-→ +2 Percepção
-```
-
-## Sentido-Aranha
-
-```text
-Sentido-Aranha
-Efeito: o personagem não pode ser pego desprevenido.
-```
-
-Esse Passivo representa percepção antecipada de perigo. Sua origem narrativa pode ser precognição, instinto sobrenatural, sentidos ampliados ou outra justificativa coerente.
-
-## Imortalidade
-
-```text
-Imortalidade
-Efeito: o personagem não morre de velhice.
-```
-
-Imortalidade não impede dano, ferimentos ou morte por outras causas. Ela apenas elimina a morte causada pelo envelhecimento.
-
-## Regeneração [X]
-
-```text
-Regeneração [X]
-Efeito: recupera X de Vida por hora.
-```
-
-Exemplo:
-
-```text
-Regeneração [2]
-→ recupera 2 de Vida por hora.
-```
-
-## Consolidação
-
-Os Passivos aparecem diretamente na ficha. Quando alteram valores derivados, seus efeitos já entram no valor final.
-
-Exemplo:
+Passivos que alteram valores derivados já entram no total final mostrado em `Derivados`.
 
 ```text
 Passivos
 RD [3]
 Vida Extra [30]
 Proteção [2]
-Sentido-Aranha
-Imortalidade
-Regeneração [2]
 
 Derivados
 Vida: [base + 30]
@@ -107,6 +36,17 @@ Percepção: [base + 2]
 RD: 3
 ```
 
-Passivos que não alteram um número derivado permanecem registrados como propriedades do personagem e são consultados somente quando a situação correspondente surgir.
+Passivos que não alteram um número permanecem registrados na ficha e são consultados quando a situação correspondente surgir.
 
-A origem narrativa do Passivo não altera sua mecânica. `RD [3]`, por exemplo, pode representar armadura, pele sobrenatural, traje tecnológico, campo místico ou qualquer outra justificativa coerente com o personagem.
+## Arquivos individuais
+
+Cada Passivo possui arquivo próprio em `passivos/`:
+
+- `rd.md`
+- `vida-extra.md`
+- `protecao.md`
+- `sentido-aranha.md`
+- `imortalidade.md`
+- `regeneracao.md`
+
+A origem narrativa do Passivo não altera sua mecânica. Um mesmo efeito pode representar armadura, mutação, magia, tecnologia, treinamento ou outra justificativa coerente.
