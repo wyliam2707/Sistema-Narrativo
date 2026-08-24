@@ -8,21 +8,9 @@ Invocação cria, chama ou traz uma criatura, aliado, objeto, máquina ou outra 
 
 A Fonte que produz a Invocação e os Atributos da criação são coisas diferentes.
 
-## Vida e Defesa da criação
+## Criação
 
-Para Invocação sustentada por `MEN` ou `VON`:
-
-`Vida = maior entre MEN e VON + 3`
-
-Quando atacada diretamente:
-
-`Defesa da Invocação = RES da própria criação`
-
-Para outra Fonte coerente, a Vida estrutural segue `../fonte-e-vida-estrutural.md`, respeitando o mínimo `[1]`.
-
-## Distribuição de Atributos
-
-Uma criação recebe apenas os Atributos necessários à sua função:
+O patamar efetivamente usado em Invocação define os Atributos disponíveis para a criação. A criação recebe apenas os Atributos necessários à sua função:
 
 `Invocação [1] → 1 atributo [1]`
 
@@ -36,7 +24,23 @@ Uma criação recebe apenas os Atributos necessários à sua função:
 
 Atributos não elevados permanecem `[0]` ou irrelevantes.
 
-O Atributo escolhido representa uma função real da criação; não vira defesa universal. Uma tentativa de fuga ou oposição enfrenta o mecanismo que realmente sustenta aquela função.
+O Atributo escolhido representa uma função real da criação; não vira defesa universal. Uma fuga, disputa ou oposição enfrenta o mecanismo que realmente responde à ação.
+
+## Vida e Defesa da criação
+
+Para Invocação sustentada por `MEN` ou `VON`:
+
+`Vida = maior entre MEN e VON + 3`
+
+Quando atacada diretamente:
+
+`Defesa da Invocação = RES da própria criação`
+
+Para outra Fonte coerente, identificar o Atributo que realmente sustenta a manifestação e usar:
+
+`Vida estrutural = maior entre [1] e o Atributo estrutural da Fonte`
+
+Não escolher a Fonte ou o Atributo apenas por ser mais vantajoso.
 
 ## Quantidade de criaturas
 
@@ -52,6 +56,14 @@ Cada dobra na quantidade reduz em 1 o patamar efetivo de cada criatura:
 
 Uma nova Invocação de criaturas substitui o vínculo anterior; criaturas não se acumulam uso após uso para escapar dessa redução.
 
-Criações autônomas contam como criaturas. Criações passivas contam como objetos e usam normalmente Quantidade física, Área, Tamanho e Duração de `../consolidacao.md`.
+Criações autônomas contam como criaturas. Criações passivas contam como objetos e usam normalmente Quantidade física, Área, Tamanho e Duração.
+
+## Persistência
+
+A criação permanece pela Duração escolhida enquanto sua estrutura existir. Quando sua Vida chega a `0`, aquela criação deixa de funcionar ou existir conforme sua natureza.
+
+Uma nova Invocação de criaturas substitui o vínculo anterior conforme a regra de quantidade acima.
+
+Ampliações de Alcance, Quantidade física, Área, Tamanho ou Duração usam `../consolidacao.md` quando aplicáveis.
 
 > **Invocação define a criação. Atributos, Vida e Defesa pertencem à criação resultante.**
