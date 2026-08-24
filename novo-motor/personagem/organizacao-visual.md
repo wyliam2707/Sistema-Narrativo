@@ -2,11 +2,9 @@
 
 Status: EM DESENVOLVIMENTO
 
-Este arquivo define a apresentação visual atual da ficha de personagem dentro do `novo-motor/`.
-
 A prioridade é permitir leitura rápida por jogador humano, narrador e jogador IA.
 
-> **Cada bloco deve responder a uma função clara e ser consultável sem reler a ficha inteira.**
+> **Cada bloco deve responder a uma função clara e evitar repetir regra já definida em Poderes ou Passivos.**
 
 ## Estrutura visual atual
 
@@ -20,12 +18,11 @@ Controle:
 Idade:
 Peso:
 Altura:
-
 Descrição visual:
 
 ## Atributos
-Corpo - Força [ ] | Destreza [ ] | Agilidade [ ]
-Mente - Intelecto [ ] | Percepção [ ] | Presença [ ]
+Corpo — POD [ ] | HAB [ ] | RES [ ]
+Mente — POD [ ] | HAB [ ] | RES [ ]
 
 ## Perícias
 Comuns
@@ -36,20 +33,23 @@ Somente treinadas
 Arcano [ ] | Ocultismo [ ] | Natureza [ ] | Medicina [ ]
 Engenharia [ ] | Ciência [ ] | Tecnologia [ ] | História [ ]
 
-## Referências
-Vida [ ] | Energia [ ] | Deslocamento: Curto | Visão: Comum longa
-Defesas - Esquiva [ ] | Vontade [ ] | Fortitude [ ] | RD: Geral [ ]
-
-## Ataques
-Luta [ ] / arma / dano / crítico / alcance
-Disparo [ ] / arma / dano / crítico / alcance
-Magia [ ] / arma ou efeito / dano / crítico / alcance
-
 ## Poderes
-- Nome do poder
+- Golpe [ ]
+- Disparo [ ]
+- Teleporte [ ]
+
+## Passivos
+- RD [ ]
+- Vida Extra [ ]
+- Proteção [ ]
+
+## Derivados
+Vida [ ] | Energia [ ]
+Esquiva [ ] | Percepção [ ] | Vontade [ ] | Fortitude [ ] | RD [ ]
+Deslocamento: [ ]
 
 ## Recursos
-- Recurso relevante
+- Recurso narrativo relevante
 
 ## Personalidade
 Descrição mental:
@@ -64,30 +64,50 @@ Conhecimento relevante:
 
 ## Regras de apresentação
 
-- manter `Atributos` em exatamente duas linhas;
-- manter as Perícias nos dois grupos de oito;
-- manter `Referências` em duas linhas compactas sempre que possível;
-- manter uma linha para `Luta`, uma para `Disparo` e uma para `Magia`;
-- listar apenas os nomes dos Poderes na ficha principal;
-- manter textos longos apenas em `Descrição visual`, `Personalidade` e `Histórico` quando necessário;
-- evitar repetir a mesma informação em blocos diferentes.
+- manter Atributos em duas linhas espelhadas;
+- manter as Perícias nos grupos definidos em `pericias.md`;
+- listar Poderes apenas pelo nome e `[X]` registrado na ficha;
+- listar Passivos apenas pelo nome e valor quando houver;
+- mostrar Derivados já consolidados depois de Poderes e Passivos;
+- não criar bloco separado de Ataques;
+- não criar bloco separado de Arsenal;
+- não repetir dano, alcance, ampliações ou regras completas dos Poderes na ficha;
+- manter textos longos apenas nos blocos narrativos quando necessário.
+
+## Poderes sob demanda
+
+Quando um Poder for escolhido, o narrador abre apenas o arquivo correspondente em `poderes/` e mostra ao jogador sua descrição operacional.
+
+A ficha não carrega todos os detalhes dos Poderes ao mesmo tempo.
+
+## Passivos
+
+Passivos ficam visíveis na ficha porque são capacidades permanentes ou estáveis. Quando alteram Vida, Esquiva, Percepção, RD ou outro Derivado, o valor final já aparece consolidado em `Derivados`.
+
+## Derivados não são estado atual
+
+`Derivados` registra capacidades máximas ou consolidadas.
+
+Exemplo:
+
+```text
+Ficha
+Vida [50] | Energia [20]
+
+Estado atual
+Vida [31/50] | Energia [7/20] | Barreira 10 PV
+```
 
 ## Exterior e interior
 
-`Descrição visual` registra apenas o que pode ser percebido olhando o personagem.
+`Descrição visual` registra o que pode ser percebido olhando o personagem.
 
-`Descrição mental`, `Desejos`, `Medos` e `Vínculos` registram elementos internos usados para interpretação.
-
-> **Descrição mostra o exterior. Personalidade orienta decisões. Histórico fornece contexto.**
-
-## Referências não são estado atual
-
-O nome `Referências` foi escolhido para evitar confusão com o estado momentâneo da cena.
-
-A ficha pode registrar `Vida [35]` e `Energia [20]` como capacidades estáveis, enquanto o estado da campanha registra os valores atuais consumidos ou perdidos.
+`Personalidade` e `Histórico` orientam interpretação e contexto, sem criar regras mecânicas adicionais.
 
 ## Flexibilidade
 
-A estrutura pode crescer quando um personagem realmente exigir informação adicional, mas o modelo-base deve permanecer reconhecível.
+A ficha pode crescer quando um personagem realmente exigir informação narrativa adicional, mas o núcleo mecânico deve continuar reconhecível:
 
-Detalhes extensos de Poderes ficam em arquivos próprios e não devem ser incorporados integralmente à ficha principal.
+```text
+Atributos → Perícias → Poderes → Passivos → Derivados
+```
