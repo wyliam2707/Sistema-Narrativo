@@ -4,9 +4,11 @@ Status: APROVADO — ÍNDICE DE COMPATIBILIDADE
 
 Os efeitos foram separados em páginas próprias para consulta rápida durante a narração.
 
-A referência principal agora é:
+A referência de índice é:
 
 `efeitos/README.md`
+
+Durante o jogo, a referência operacional principal é a própria página do efeito, que repete as regras necessárias para resolver sua aplicação sem exigir retorno ao índice.
 
 ## Efeitos
 
@@ -29,10 +31,10 @@ A referência principal agora é:
 
 ## Regras compartilhadas
 
-`efeitos/README.md` contém somente a estrutura comum dos efeitos persistentes, consolidação de aplicações iguais e a escala-base.
+`efeitos/README.md` preserva a estrutura comum como referência de consistência. As páginas dos efeitos podem repetir intencionalmente essa mecânica para acelerar a consulta durante a narração.
 
 `consolidacao.md` define Alcance, Alvos, Área/Tamanho, Duração e Ampliação.
 
-`fonte-e-vida-estrutural.md` define Fonte e Vida estrutural.
+`fonte-e-vida-estrutural.md` permanece como referência geral de Fonte e Vida estrutural quando uma regra precisar ser auditada ou comparada.
 
-> **Para resolver um efeito, consulte diretamente sua página. Este arquivo existe apenas para preservar referências antigas e apontar para a nova estrutura.**
+> **Para resolver um efeito, consulte diretamente sua página. Este arquivo existe apenas para preservar referências antigas e apontar para a estrutura atual.**
