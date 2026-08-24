@@ -8,25 +8,25 @@ A regra do efeito `Cura` pertence a `efeitos/cura.md`.
 
 `RES` ajuda o personagem a suportar dano, mas não acelera sua recuperação.
 
-## Recuperação natural por estado
+## Recuperação natural por Dano acumulado
 
-A recuperação natural acontece por estado, não ponto a ponto.
+A recuperação natural usa diretamente o Dano acumulado atual.
 
-Referência de tempo para reduzir um estado de VIDA:
+Referência de tempo para recuperar até `5` pontos de Dano:
 
-`Ferido → 1 dia` | `Ferido* → 3 dias` | `Grave → 1 semana` | `Grave* → 2 semanas` | `Crítico → 1 mês` | `Crítico* → 2 meses`
+`1–5 Dano → 1 dia` | `6–10 → 3 dias` | `11–15 → 1 semana` | `16–20 → 2 semanas` | `21–25 → 1 mês` | `26+ → 2 meses`
 
-Ao completar o período adequado de recuperação, o personagem desce um estado e o Dano acumulado é reduzido em `5`, preservando sua posição relativa dentro da faixa.
+Ao completar o período adequado, reduzir o Dano acumulado em até `5`, nunca abaixo de zero.
 
-Exemplo: `Vida: Crítico | Dano: 27 → 1 mês → Vida: Grave* | Dano: 22`.
+Depois disso, olhar novamente para o Dano que restou e usar a faixa correspondente para o próximo período.
 
-Depois disso, o novo estado passa a determinar o próximo período de recuperação.
+Exemplo:
 
-Exemplo de recuperação natural completa a partir de `Crítico*`:
-
-`Crítico* → 2 meses → Crítico → 1 mês → Grave* → 2 semanas → Grave → 1 semana → Ferido* → 3 dias → Ferido → 1 dia → Ileso`
+`Dano 27 → 2 meses → Dano 22 → 1 mês → Dano 17 → 2 semanas → Dano 12 → 1 semana → Dano 7 → 3 dias → Dano 2 → 1 dia → Dano 0`
 
 Os tempos são referências para recuperação adequada. A natureza da lesão, repouso, tratamento e circunstâncias podem justificar variação.
+
+Termos como `Ferido`, `Grave` ou `Crítico` podem ser usados livremente como descrição narrativa da condição, mas não possuem faixas mecânicas obrigatórias.
 
 ## Regeneração
 
@@ -46,9 +46,9 @@ A atuação forçada de Regeneração durante conflito, caso exista para uma cap
 
 Quando o paciente aceita o tratamento, está inconsciente ou de outra forma não oferece resistência, Medicina não é uma disputa e não possui oposição artificial.
 
-A resolução lê a Perícia do profissional, os recursos disponíveis, o tempo, a natureza da lesão e a gravidade do estado.
+A resolução lê a Perícia do profissional, os recursos disponíveis, o tempo, a natureza da lesão e a quantidade de Dano acumulado.
 
-Quando existe tratamento médico adequado durante a recuperação natural, cada grau de Medicina reduz diretamente em `10%` o tempo necessário para recuperar cada estado.
+Quando existe tratamento médico adequado durante a recuperação natural, cada grau de Medicina reduz diretamente em `10%` o tempo da faixa atual.
 
 `Medicina [+0] → 100% do tempo` | `[+1] → 90%` | `[+2] → 80%` | `[+3] → 70%` | `[+4] → 60%` | `[+5] → 50%`
 
@@ -62,9 +62,9 @@ Medicina pode tratar, estabilizar, diagnosticar, impedir agravamento e melhorar 
 
 ## Incapacitado
 
-`Incapacitado` não entra automaticamente na sequência de recuperação natural.
+`Incapacitado` não inicia automaticamente a recuperação natural apenas porque o tempo passou.
 
-Primeiro a personagem precisa sobreviver e ser estabilizada conforme a natureza do dano. Depois disso, a resolução estabelece em qual estado ela inicia a recuperação, normalmente `Crítico*` ou `Crítico` quando a lesão foi severa.
+Primeiro a personagem precisa sobreviver e ser estabilizada conforme a natureza do dano. Depois disso, a resolução estabelece quanto Dano permanece e a recuperação segue normalmente pela faixa correspondente.
 
 Medicina pode ser decisiva nessa estabilização quando houver tempo, recursos e competência apropriados.
 
