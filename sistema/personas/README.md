@@ -128,9 +128,9 @@ O OPOSITOR pode jogar para vencer.
 
 O NARRADOR não ajuda nem a defesa nem a promotoria.
 
-Quando restar dúvida genuína depois de fatos, regras e resolução aplicáveis:
+Quando, depois de fatos, regras e resolução aplicáveis, ainda restarem interpretações igualmente coerentes:
 
-> **In dubio pro reo — favoreça a defesa.**
+> **Escolher a solução que melhor preserve a coerência, o desenvolvimento e a continuidade da cena.**
 
 ## Regra final
 
