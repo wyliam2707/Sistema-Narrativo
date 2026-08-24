@@ -2,93 +2,122 @@
 
 **Status: EM DESENVOLVIMENTO**
 
-Esta pasta é o espaço de trabalho para uma nova arquitetura mecânica do sistema.
+Esta pasta é o espaço experimental do novo motor. Ela permanece separada de `sistema/` até haver decisão explícita de migração.
 
-Ela fica **fora de `sistema/` de propósito**. Tudo desenvolvido aqui é experimental e **não altera nem substitui** as regras atuais em `sistema/resolucao/`, `sistema/personagem/` ou em qualquer outra pasta do sistema até aprovação explícita e migração posterior.
+## Arquitetura consolidada
 
-## Ideia inicial preservada da antiga Resolução 2
-
-A intenção é reconstruir a resolução usando **uma única linguagem mecânica** para ações, resistências, combate, Poderes e Efeitos.
-
-A base que estava em estudo na antiga `sistema/resolucao-2/` era:
+A construção mecânica do personagem usa somente quatro blocos:
 
 ```text
-VALOR = Atributo + Dados de Destino + Dados de Perícia/Poder aplicável
+ATRIBUTOS
++ PERÍCIAS
++ PODERES
++ PASSIVOS
+↓
+VALORES DERIVADOS
 ```
 
-Os **Dados de Destino** então considerados eram 4 dados com faces equivalentes a:
+### Atributos
 
 ```text
--1, -1, 0, 0, +1, +1
+Corpo — POD [ ] | HAB [ ] | RES [ ]
+Mente — POD [ ] | HAB [ ] | RES [ ]
 ```
 
-Cada ponto de **Perícia**, **Poder** ou outra capacidade aplicável poderia acrescentar um dado próprio com faces:
+`POD` representa potência, `HAB` execução e controle, e `RES` resistência. Corpo e Mente definem a natureza da capacidade.
+
+### Perícias
+
+Perícias representam treinamento, conhecimento e experiência aplicáveis à situação. Elas não formam uma lista separada de ataques.
+
+### Poderes
+
+Poderes são efeitos ativos autocontidos. Cada Poder possui arquivo próprio em `personagem/poderes/`.
 
 ```text
-0, 0, 0, +1, +1, +1
+Golpe [2]
+Disparo [3]
+Teleporte [5]
 ```
 
-Assim, um exemplo de ação era:
+Nos Poderes ativos, `[X]` é o máximo de Energia que pode ser investido naquele Poder em um único uso.
+
+O efeito-base pode custar `0`. Sempre que a intenção exigir uma ampliação acima de `0`, o narrador informa o custo e aguarda confirmação antes de gastar Energia.
+
+Cada Poder define sua própria descrição, podendo usar POD, HAB, dados, valores fixos, alcance, alvo, área, duração e ampliações próprias. Não existe uma fórmula universal obrigatória para todos os Poderes.
+
+### Passivos
+
+Passivos são capacidades permanentes ou estáveis já incorporadas ao personagem. Cada Passivo possui arquivo próprio em `personagem/passivos/`.
 
 ```text
-Golpe = FIS + 4D de Destino + dados de Esgrima
+RD [3]
+Vida Extra [30]
+Proteção [2]
+Sentido-Aranha
+Imortalidade
+Regeneração [2]
 ```
 
-E uma defesa poderia usar a mesma estrutura:
+Nos Passivos, `[X]` não significa limite de Energia. O próprio arquivo do Passivo define o significado do valor.
+
+### Valores Derivados
+
+Depois dos quatro blocos, a ficha consolida os valores de consulta constante, como:
 
 ```text
-Defesa = RES + 4D de Destino + dados de Armadura
+Vida
+Energia
+Esquiva
+Percepção
+Vontade
+Fortitude
+RD
+Deslocamento
 ```
 
-Uma resistência por Vontade poderia seguir a mesma linguagem:
+Passivos que alteram esses valores já entram no total final mostrado na ficha.
+
+## Sem camada mecânica de Arsenal
+
+Armas, armaduras, escudos, focos, ferramentas de combate e manifestações semelhantes não formam uma camada mecânica separada.
+
+A aparência pertence à ficção; a função pertence a Poderes e Passivos.
+
+Exemplos:
 
 ```text
-Resistência = VON + 4D de Destino + dados de Poder defensivo
+Golpe → soco, espada, garra, bastão.
+Disparo → arco, pistola, batarang, raio.
+RD → armadura, pele sobrenatural, traje tecnológico.
+Proteção → escudo, reflexos, sentidos ampliados, campo defensivo.
 ```
 
-Quando houvesse oposição, a ideia em estudo era comparar os dois valores:
+Recursos narrativos relevantes, como uma base, veículo ou rede de contatos, podem continuar registrados na ficha sem formar inventário mecânico.
+
+## Consulta sob demanda
+
+Fluxo de Poder ativo:
 
 ```text
-Resultado = Ação - Resistência
+jogador declara que quer usar um Poder
+→ listar os Poderes disponíveis
+→ jogador escolhe um
+→ abrir apenas o arquivo daquele Poder
+→ mostrar efeito-base e ampliações
+→ jogador declara a intenção
+→ se couber no padrão, resolver
+→ se exigir ampliação, informar o custo
+→ jogador confirma
+→ gastar Energia e resolver
 ```
 
-- resultado positivo: a Ação prevalece;
-- resultado negativo: a Resistência prevalece;
-- resultado 0: empate, sem imposição automática de mudança.
-
-A margem positiva poderia servir como **Potencial** da ação, mas a conversão desse Potencial em Dano, Cura, Controle, Teleporte ou outros resultados ainda seria desenvolvida e testada.
-
-## Poderes e Efeitos
-
-A direção registrada era que uma capacidade dissesse **o que o personagem consegue fazer**, enquanto o teste fosse necessário quando existisse oposição, dificuldade ou resistência relevante.
-
-Exemplo conceitual:
-
-```text
-Teleporte [1] já permite teleportar.
-```
-
-O teste apareceria quando existisse algo a vencer, como distância difícil, barreira ou proteção. A dificuldade entraria como Resistência da ação.
-
-A intenção futura era que capacidades específicas como `Golpe`, `Disparo`, `Magia`, `Teleporte`, `Portal`, `Banimento`, `Armadura` e outras pudessem possuir regras próprias, mas todas usando a mesma linguagem central de resolução.
-
-## Objetivo do redesenho
-
-- reduzir somas e fórmulas diferentes;
-- fazer ataque e defesa usarem a mesma estrutura quando isso for desejável;
-- fazer Poderes, Perícias e proteções entrarem numa linguagem mecânica simples;
-- preservar leitura narrativa direta dos resultados;
-- permitir que cada capacidade específica seja resolvida com o mínimo possível de consulta a outros arquivos.
+> **O narrador nunca escolhe automaticamente uma ampliação que consuma Energia.**
 
 ## Regra de isolamento
 
-Enquanto o novo motor estiver em desenvolvimento:
-
-1. tudo dentro de `novo-motor/` é experimental;
-2. **não alterar `sistema/` por causa do novo motor**;
-3. trabalhar um ponto mecânico por vez;
-4. não tratar ideias em estudo como regras aprovadas;
-5. registrar aqui apenas o que fizer parte do desenvolvimento do novo motor;
-6. a migração para `sistema/resolucao/`, `sistema/personagem/` ou outras áreas só acontece quando o novo motor estiver suficientemente fechado e houver decisão explícita para migrar.
-
-> **Princípio de trabalho:** construir e testar o novo motor em paralelo, mantendo o sistema atual intacto até que a nova arquitetura esteja pronta para migração.
+1. tudo dentro de `novo-motor/` continua experimental;
+2. não alterar `sistema/` por causa do novo motor sem decisão explícita;
+3. regras antigas que contradigam esta arquitetura não têm precedência dentro do `novo-motor/`;
+4. novos Poderes e Passivos devem ser registrados em arquivos próprios e autocontidos;
+5. fórmulas ainda não fechadas de Valores Derivados ou resolução não devem ser inventadas para preencher lacunas.
