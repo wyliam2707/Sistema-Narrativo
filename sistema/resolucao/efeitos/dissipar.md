@@ -14,10 +14,26 @@ STATUS, Alvos e Área são dimensões diferentes. STATUS indica quantas instânc
 
 ## Resolução
 
-Cada STATUS atingido resolve separadamente:
+Cada STATUS atingido resolve separadamente.
 
-`Dissipar efetivo vs D do efeito → Dano aplicado → reduz V`
+`Dissipar efetivo = patamar de Dissipar usado + 1 + (Perícia aplicável × 0,2)`
 
-Pode atingir efeitos benéficos ou prejudiciais, desde que o repertório da capacidade permita.
+Sem Perícia aplicável:
+
+`Dissipar efetivo = patamar de Dissipar usado + 1`
+
+A resistência é o `D` da instância persistente atingida:
+
+`Dano estrutural = 2^(Dissipar efetivo − D do efeito)`
+
+O Dano estrutural reduz diretamente o `V` atual da instância.
+
+`V ≤ 0 → efeito termina`
+
+Cada STATUS resolve com seus próprios valores de `D` e `V`. Pode atingir efeitos benéficos ou prejudiciais, desde que o repertório da capacidade permita.
+
+## Persistência
+
+Dissipar é instantâneo. Depois da aplicação permanece apenas a redução de `V` ou o encerramento da instância atingida; não existe um efeito persistente de Dissipar.
 
 Ampliações gerais usam `../consolidacao.md`.
