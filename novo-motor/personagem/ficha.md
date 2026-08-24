@@ -16,7 +16,7 @@ Atributos
 
 Armas, armaduras, escudos, focos, equipamentos e outras manifestações não formam uma camada mecânica separada. Quando relevantes, são a descrição narrativa de um Poder ou Passivo.
 
-> **A ficha mostra o que o personagem possui. O arquivo de cada Poder mostra como ele funciona.**
+> **A ficha mostra o que o personagem possui. O arquivo de cada Poder ou Passivo mostra como ele funciona.**
 
 ## Modelo-base
 
@@ -49,11 +49,13 @@ Engenharia [ ] | Ciência [ ] | Tecnologia [ ] | História [ ]
 - Golpe [ ]
 - Disparo [ ]
 - Teleporte [ ]
+- Utilidade [ ]
 
 ## Passivos
 - RD [ ]
 - Vida Extra [ ]
 - Proteção [ ]
+- Sentido-Aranha
 
 ## Derivados
 Vida [ ] | Energia [ ]
@@ -74,9 +76,7 @@ Histórico relevante:
 Conhecimento relevante:
 ```
 
-## 1. Atributos
-
-Os seis Atributos aparecem em duas linhas espelhadas:
+## Atributos
 
 ```text
 Corpo — POD [X] | HAB [X] | RES [X]
@@ -87,75 +87,49 @@ Mente — POD [X] | HAB [X] | RES [X]
 - `HAB` — precisão, controle e qualidade de execução;
 - `RES` — capacidade de suportar, resistir e continuar funcionando.
 
-O domínio define a natureza da capacidade:
+Corpo e Mente definem a natureza da capacidade.
 
-```text
-Corpo → capacidades físicas.
-Mente → capacidades mentais, sociais, psíquicas ou mágicas quando pertinente.
-```
+## Perícias
 
-## 2. Perícias
+Perícias representam treinamento, conhecimento, exploração e interação com o mundo. Elas não são uma lista separada de ataques.
 
-Perícias representam áreas amplas de conhecimento, experiência, exploração e interação com o mundo.
+A abordagem do personagem determina qual Perícia pode ser aplicável à situação.
 
-Elas não são uma lista de ataques. A abordagem usada pelo personagem determina qual Perícia pode ser aplicável à situação.
+## Poderes
 
-### Comuns
-
-```text
-Esportes [X] | Exploração [X] | Expressão [X] | Sociedade [X]
-Investigação [X] | Crime [X] | Ofícios [X] | Idiomas [X]
-```
-
-### Somente treinadas
-
-```text
-Arcano [X] | Ocultismo [X] | Natureza [X] | Medicina [X]
-Engenharia [X] | Ciência [X] | Tecnologia [X] | História [X]
-```
-
-## 3. Poderes
-
-Poderes são efeitos ativos.
-
-A ficha registra apenas o nome e o limite de Energia disponível para aquele Poder:
+Poderes são efeitos ativos. A ficha registra nome e limite:
 
 ```text
 Golpe [2]
 Disparo [3]
 Explosão [2]
 Teleporte [5]
+Utilidade [2]
 ```
 
-Nos Poderes ativos, `[X]` representa o máximo de Energia que pode ser investido em um único uso.
+Nos Poderes, `[X]` é o máximo de Energia que pode ser investido em um único uso.
 
-A descrição mecânica completa fica no arquivo individual do Poder em:
+A descrição completa fica no arquivo individual em `poderes/`.
+
+Fluxo:
 
 ```text
-personagem/poderes/
+listar Poderes
+→ jogador escolhe
+→ abrir somente o arquivo escolhido
+→ mostrar base e ampliações
+→ jogador declara o uso
+→ se couber na base, resolver
+→ se exigir ampliação, informar custo
+→ aguardar confirmação
+→ gastar Energia e resolver
 ```
 
-Quando o jogador declara que quer usar um Poder:
+O narrador não escolhe automaticamente uma ampliação que consuma Energia.
 
-```text
-1. listar os Poderes da ficha;
-2. o jogador escolhe um deles;
-3. consultar apenas o arquivo do Poder escolhido;
-4. mostrar efeito-base e ampliações;
-5. o jogador declara o uso;
-6. se couber no padrão, resolver com custo 0;
-7. se exigir ampliação, informar o custo;
-8. aguardar confirmação;
-9. somente então gastar Energia e resolver.
-```
+## Passivos
 
-O narrador nunca escolhe automaticamente uma ampliação que consuma Energia.
-
-## 4. Passivos
-
-Passivos são capacidades permanentes ou estáveis que já fazem parte do personagem.
-
-Exemplos:
+Passivos são capacidades permanentes ou estáveis já incorporadas ao personagem.
 
 ```text
 RD [3]
@@ -166,24 +140,13 @@ Imortalidade
 Regeneração [2]
 ```
 
-Passivos não usam a regra de limite de Energia dos Poderes ativos. Quando possuem `[X]`, o próprio Passivo define o significado desse valor.
+Nos Passivos, `[X]` tem o significado definido pela própria descrição e não representa limite de Energia.
 
-Exemplos:
+A regra completa de cada Passivo fica em `passivos/`.
 
-```text
-RD [3] → reduz 3 do dano recebido.
-Vida Extra [30] → +30 Vida máxima.
-Proteção [2] → +2 Esquiva e +2 Percepção.
-Sentido-Aranha → não pode ser pego desprevenido.
-Imortalidade → não morre de velhice.
-Regeneração [2] → recupera 2 de Vida por hora.
-```
+## Valores Derivados
 
-A lista consolidada fica em `passivos.md`.
-
-## 5. Valores Derivados
-
-Depois de Atributos, Perícias, Poderes e Passivos estarem definidos, a ficha consolida os valores usados constantemente durante o jogo.
+Depois de Atributos, Perícias, Poderes e Passivos estarem definidos, a ficha consolida:
 
 ```text
 Vida [ ] | Energia [ ]
@@ -191,44 +154,34 @@ Esquiva [ ] | Percepção [ ] | Vontade [ ] | Fortitude [ ] | RD [ ]
 Deslocamento: [ ]
 ```
 
-Os Passivos que alteram esses números já entram no valor final mostrado aqui.
+Passivos que alteram esses números já entram no valor final.
 
 Exemplo:
 
 ```text
-Proteção [2]
-→ Esquiva +2
-→ Percepção +2
-
-Vida Extra [30]
-→ Vida +30
-
-RD [3]
-→ RD final +3
+Proteção [2] → Esquiva +2 e Percepção +2
+Vida Extra [30] → Vida +30
+RD [3] → RD final +3
 ```
 
-As fórmulas-base de Vida, Energia, Esquiva, Percepção e demais derivados continuam em desenvolvimento. Não preencher valores ainda não definidos com regras inventadas.
+As fórmulas-base ainda não fechadas não devem ser inventadas para preencher campos vazios.
 
-## 6. Manifestação narrativa
+## Manifestação narrativa
 
 O mesmo Poder ou Passivo pode ter aparências diferentes sem mudar sua mecânica.
 
-Exemplos:
-
 ```text
-Golpe → soco, espada, garra, bastão, lâmina de energia.
-Disparo → arco, pistola, batarang, laser, raio.
+Golpe → soco, espada, garra, bastão.
+Disparo → arco, pistola, batarang, laser.
 RD → armadura, pele de aço, traje tecnológico, campo místico.
 Proteção → escudo, reflexos ampliados, sentidos sobrenaturais, campo defensivo.
 ```
 
-A descrição pode importar para a ficção, mas não exige uma tabela separada de arsenal.
+A descrição pode importar para a ficção, mas não exige uma tabela separada de Arsenal.
 
-## 7. Estado atual
+## Estado atual
 
-A ficha guarda capacidades máximas e valores consolidados.
-
-O estado momentâneo da cena permanece separado:
+A ficha guarda capacidades máximas e valores consolidados. O estado momentâneo permanece separado.
 
 ```text
 Ficha
@@ -238,29 +191,15 @@ Estado atual
 Vida [31/50] | Energia [7/20] | Barreira 10 PV
 ```
 
-## 8. Recursos narrativos
+## Recursos narrativos
 
 `Recursos` registra infraestrutura, acesso ou meios relevantes capazes de mudar possibilidades na ficção, sem virar inventário mecânico.
 
-Exemplos:
+Exemplos: Batcaverna, Batmóvel, rede de contatos.
 
-```text
-Batcaverna
-Batmóvel
-Rede de contatos
-```
+## Personalidade e Histórico
 
-## 9. Personalidade e Histórico
-
-Esses blocos continuam separados da construção mecânica e existem para interpretação do personagem.
-
-`Descrição visual` mostra o exterior.
-
-`Personalidade` registra modo de pensar, desejos, medos e vínculos.
-
-`Histórico relevante` registra fatos do passado que ainda importam.
-
-`Conhecimento relevante` registra aquilo que o personagem sabe atualmente.
+Esses blocos existem para interpretação e contexto e não formam uma camada mecânica adicional.
 
 ## Campo ainda não definido
 
