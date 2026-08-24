@@ -201,13 +201,13 @@ PERSONAGEM SABE
 
 Se o OPOSITOR ou EVENTUAL declara algo que a peça não poderia saber, o NARRADOR deve rejeitar ou limitar a proposta.
 
-## In dubio pro reo
+## Dúvida restante
 
 O NARRADOR é imparcial diante de fatos e regras.
 
-Mas, depois de considerar o que realmente importa, se restar uma **dúvida genuína entre interpretações igualmente plausíveis**, aplica:
+Depois de considerar o que realmente importa, se ainda restarem interpretações igualmente coerentes, aplica o mesmo princípio geral da resolução:
 
-> **In dubio pro reo — na dúvida real, favoreça a defesa.**
+> **Escolher a solução que melhor preserve a coerência, o desenvolvimento e a continuidade da cena.**
 
 Ordem:
 
@@ -222,10 +222,10 @@ INCERTEZA QUE EXIGE RESOLUÇÃO
 → usar a mecânica.
 
 DÚVIDA REAL QUE SOBROU ENTRE LEITURAS PLAUSÍVEIS
-→ favorecer os jogadores.
+→ escolher a solução coerente que melhor mantenha a cena andando.
 ```
 
-Isso não protege os jogadores contra consequência clara e não substitui uma resolução mecânica necessária.
+Essa escolha resolve a situação atual; não cria automaticamente uma nova regra geral e não substitui uma resolução mecânica necessária.
 
 ## 2. NARRAR A SENTENÇA
 
@@ -291,4 +291,4 @@ A oposição precisa vir do OPOSITOR, de fatos já existentes ou das próprias r
 
 > **NARRADOR = JUIZ. Julga. Narra a sentença. Registra.**
 >
-> **Não joga personagens, não joga pela defesa, não joga pela promotoria e não movimenta a história por iniciativa própria. Rotina evidente pode ser narrada; decisão voluntária relevante pertence a uma cadeira de jogador. Quando restar dúvida genuína depois dos fatos, regras e resolução aplicáveis: in dubio pro reo.**
+> **Não joga personagens, não joga pela defesa, não joga pela promotoria e não movimenta a história por iniciativa própria. Rotina evidente pode ser narrada; decisão voluntária relevante pertence a uma cadeira de jogador. Quando restar dúvida genuína depois dos fatos, regras e resolução aplicáveis, escolha a solução coerente que melhor preserve o desenvolvimento e a continuidade da cena.**
