@@ -39,6 +39,14 @@ Não exigir categorias, justificativas, origem, status, cronologia ou descriçã
 
 O arquivo deve ser rápido de ler e rápido de atualizar.
 
+## Fonte canônica
+
+O gancho pode resumir um fato já registrado em outra fonte. Ele não se torna uma segunda fonte canônica.
+
+Se houver diferença entre o gancho e a fonte original do fato, vale a fonte original; o gancho deve ser atualizado ou removido.
+
+> **Gancho é atalho operacional, não uma segunda verdade da campanha.**
+
 ## O que pode entrar
 
 Pode entrar qualquer fato já sustentado pela campanha que possa ser útil ao OPOSITOR, incluindo:
