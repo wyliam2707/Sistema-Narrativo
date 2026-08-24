@@ -2,45 +2,37 @@
 
 Status: EM DESENVOLVIMENTO
 
-No `novo-motor/`, Poderes são efeitos ativos autocontidos. Cada Poder possui seu próprio arquivo com tudo o que é necessário para usá-lo.
+Poderes são efeitos ativos autocontidos. A ficha registra apenas o nome do Poder e seu limite `[X]`; a regra completa fica no arquivo individual em `poderes/`.
 
 > **A ficha diz quais Poderes o personagem possui. O arquivo do Poder diz exatamente como ele funciona.**
 
-## Estrutura geral
-
-Um Poder é registrado pelo nome e por um valor entre colchetes:
+## `[X]` nos Poderes
 
 ```text
-Teleporte [5]
-Golpe [2]
-Explosão [3]
+Nome [X]
 ```
 
-O valor `[X]` representa o **máximo de Energia que pode ser investido naquele Poder em um único uso**.
+`[X]` é o máximo de Energia que pode ser investido naquele Poder em um único uso.
 
-O uso padrão de um Poder custa `0` Energia quando sua descrição possuir um efeito-base gratuito.
+Um Poder pode possuir efeito-base em `0` Energia. Quando a intenção do jogador exigir uma ampliação, o custo correspondente é gasto somente após confirmação.
 
-Sempre que o jogador escolher uma ampliação acima de `0`, gasta a quantidade correspondente de Energia.
-
-Cada Poder define sua própria lógica. Ele pode usar:
+Cada Poder define sua própria lógica e pode usar, conforme sua descrição:
 
 - POD;
 - HAB;
-- valores fixos;
 - dados;
+- valores fixos;
 - alcance;
-- número de alvos;
+- alvo;
 - área;
 - duração;
-- outras propriedades próprias.
+- ampliações próprias.
 
-Não existe uma fórmula universal obrigatória para todos os Poderes.
+Não existe fórmula universal obrigatória para todos os Poderes.
 
-## Ampliações
+## Formato operacional
 
-As ampliações aparecem diretamente ao lado do parâmetro que modificam.
-
-Exemplo:
+Sempre que possível, a base e as ampliações aparecem na mesma linha:
 
 ```text
 Teleporte [5]
@@ -50,66 +42,40 @@ Destino: Local conhecido > [+1 Visitado] [+2 Descrição]
 Distância: até 100 km > [+1 500 km] [+2 Ilimitado]
 ```
 
-Ampliações de linhas diferentes podem ser combinadas, desde que a soma total de Energia investida não ultrapasse `[X]`.
-
-Exemplo:
-
-```text
-+2 POD ×2 alvos
-+2 Descrição
-+1 500 km
-Total: 5 Energia
-```
+Ampliações de parâmetros diferentes podem ser combinadas desde que o custo total não ultrapasse `[X]`.
 
 ## Fluxo de uso
 
-Quando o jogador declara que deseja usar um Poder:
-
 ```text
-1. consultar a ficha;
-2. listar apenas os Poderes disponíveis ao personagem;
-3. o jogador escolhe um Poder;
-4. consultar somente o arquivo desse Poder;
-5. mostrar o efeito-base e suas ampliações;
-6. o jogador declara o uso pretendido;
-7. verificar se o uso cabe no efeito-base;
-8. se couber, resolver sem gasto de Energia;
-9. se exigir ampliação, informar exatamente qual custo é necessário;
-10. o jogador confirma ou recusa o gasto;
-11. somente após a confirmação, gastar Energia e resolver.
+1. jogador declara que quer usar um Poder;
+2. narrador lista os Poderes disponíveis;
+3. jogador escolhe um;
+4. narrador abre apenas o arquivo escolhido;
+5. mostra efeito-base e ampliações;
+6. jogador declara a intenção;
+7. se couber na base, resolve;
+8. se exigir ampliação, informa o custo;
+9. jogador confirma ou recusa;
+10. somente após confirmação, gastar Energia e resolver.
 ```
 
-> **O narrador não escolhe automaticamente uma ampliação que consuma Energia. Ele informa o custo necessário e aguarda a confirmação do jogador.**
+> **O narrador não escolhe automaticamente uma ampliação que consuma Energia.**
 
-## Poderes ativos e Passivos
+## Poderes e manifestação narrativa
 
-Poderes são capacidades ativas escolhidas durante a cena e consultadas sob demanda.
-
-Passivos são diferentes: alteram valores estáveis da ficha e não precisam ser abertos durante cada uso.
-
-Exemplos de Passivos:
+A mecânica pertence ao Poder; a aparência pertence à ficção.
 
 ```text
-RD [3]
-Vida Extra [30]
-Proteção [2]
+Golpe → soco, espada, garra, bastão.
+Disparo → arco, pistola, batarang, laser.
+Explosão → granada, carga, magia explosiva.
 ```
 
-Os Passivos ficam registrados diretamente na ficha e são consolidados nos valores derivados do personagem.
-
-As regras dos Passivos ficam em `passivos.md`.
+Não criar uma regra de item separada quando a função já estiver representada por um Poder.
 
 ## Arquivos individuais
 
-Cada Poder ativo deve possuir um arquivo próprio dentro de:
-
-```text
-personagem/poderes/
-```
-
-O arquivo deve ser curto, direto e suficiente para resolver o Poder sem consultar uma cadeia de regras externas.
-
-Poderes já registrados nesta etapa:
+Poderes registrados em `poderes/`:
 
 - `golpe.md`
 - `disparo.md`
@@ -118,3 +84,10 @@ Poderes já registrados nesta etapa:
 - `ampliacao-golpe.md`
 - `barreira.md`
 - `teleporte.md`
+- `utilidade.md`
+
+Novos Poderes devem ter arquivo próprio, curto e suficiente para resolver seu uso sem depender de uma cadeia extensa de consultas.
+
+## Separação de Passivos
+
+Passivos não seguem a regra de gasto máximo de Energia dos Poderes ativos. Eles ficam em `passivos.md` e `passivos/`.
