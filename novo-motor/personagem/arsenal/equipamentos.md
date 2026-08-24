@@ -4,32 +4,39 @@ Status: EM DESENVOLVIMENTO
 
 Este arquivo organiza exemplos de equipamentos do `novo-motor/` por categoria.
 
-As categorias servem para consulta e expansão do arsenal. Valores específicos de dano, alcance, requisito, defesa ou efeito só devem ser preenchidos quando forem definidos pelo motor.
+As categorias servem para consulta e expansão do arsenal. Valores específicos de outras categorias só devem ser preenchidos quando forem definidos pelo motor.
 
 ## Corpo a Corpo
 
-Armas usadas diretamente em combate físico próximo.
+Armas e formas de ataque usadas diretamente em combate físico próximo.
 
-Modelo:
+Formato:
 
 ```text
-Nome:
-Dano:
-POD mínimo:
-Alcance:
-Propriedades:
-Observações:
+Nome - Alcance - Dano - Crítico - Tipo - Pegada
 ```
 
-Exemplos a preencher:
+Campos:
 
 ```text
-Faca
-Espada
-Machado
-Martelo
-Lança
-Bastão
+Nome     → arma ou forma de ataque.
+Alcance  → Toque ou, quando possível, também Arremesso.
+Dano     → dano base da arma; armas corporais somam POD quando indicado.
+Crítico  → faixa de ameaça e multiplicador.
+Tipo     → natureza principal do dano.
+Pegada   → 1 mão ou 2 mãos. Ataques desarmados usam —.
+```
+
+Exemplos:
+
+```text
+Arte Marcial - Toque - 1d6 + POD - 20 x2 - Contusão - —
+Faca - Toque / Arremesso - 1d4 + POD - 19-20 x2 - Perfuração - 1 mão
+Bastão - Toque - 1d6 + POD - 20 x2 - Contusão - 1 mão
+Espada - Toque - 1d8 + POD - 19-20 x2 - Corte - 1 mão
+Machado - Toque - 1d10 + POD - 20 x3 - Corte - 2 mãos
+Martelo - Toque - 1d10 + POD - 20 x3 - Contusão - 2 mãos
+Lança - Toque / Arremesso - 1d8 + POD - 20 x3 - Perfuração - 2 mãos
 ```
 
 ## Disparo
