@@ -1,6 +1,6 @@
 # Estrutura da campanha
 
-Status: EM REVISÃO
+Status: APROVADO
 
 Este arquivo define **onde o conteúdo concreto de uma campanha deve ser salvo**.
 
