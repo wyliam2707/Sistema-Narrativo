@@ -6,13 +6,17 @@ Cura recupera VIDA quando a capacidade possui esse efeito.
 
 `Cura → Toque / 1 alvo / Pontual / Instantâneo`
 
-## Resultado
+## Resolução
 
 Cura reduz o Dano acumulado do alvo.
 
 Quando uma Perícia realmente governa a aplicação:
 
-`Cura efetiva = Cura usada + 1 + (Perícia aplicável × 0,2)`
+`Cura efetiva = patamar de Cura usado + 1 + (Perícia aplicável × 0,2)`
+
+Sem Perícia aplicável:
+
+`Cura efetiva = patamar de Cura usado + 1`
 
 `Cura aplicada = máx(1, 2^(Cura efetiva − RES do alvo))`
 
