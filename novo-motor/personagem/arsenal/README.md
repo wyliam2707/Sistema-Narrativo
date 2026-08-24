@@ -10,12 +10,13 @@ Ela pertence exclusivamente ao desenvolvimento experimental em `novo-motor/` e n
 
 Registrar equipamentos prontos para consulta rápida durante criação, combate e resolução.
 
-Categorias iniciais:
+Estrutura atual:
 
 ```text
-Armas
-Armaduras
-Itens
+corpo-a-corpo.md → armas e ataques físicos próximos
+disparo.md       → armas de projétil e energia
+magia.md         → conjuração livre e focos mágicos
+itens.md         → off-hand e armaduras
 ```
 
 ## Princípio
@@ -24,52 +25,56 @@ Cada equipamento deve trazer apenas as informações necessárias para ser usado
 
 Sempre que possível, sua descrição deve ser autocontida e evitar exigir consulta a vários arquivos para entender seu funcionamento.
 
-## Armas
+Poucos perfis mecânicos podem representar muitas manifestações narrativas diferentes.
 
-Exemplos futuros podem registrar informações como:
+## Corpo a Corpo
 
-```text
-Nome
-Tipo
-Dano
-Alcance
-POD mínimo, quando houver
-Propriedades especiais
-```
-
-Armas cujo dano depende diretamente da potência do usuário podem acrescentar `POD Corpo` ou `POD Mente`, conforme sua natureza.
-
-Armas com potência própria, como armas de fogo, podem possuir Dano próprio e usar POD apenas como requisito de manejo quando a regra específica assim determinar.
-
-## Armaduras
-
-Exemplos futuros podem registrar informações como:
+Armas físicas próximas usam o formato:
 
 ```text
-Nome
-Tipo
-Defesa ou bônus aplicável
-RD, quando houver
-POD mínimo, quando houver
-Propriedades especiais
+Nome - Alcance - Dano - Crítico - Tipo - Pegada
 ```
 
-A fórmula e o funcionamento definitivo das armaduras ainda dependem do desenvolvimento do motor de resolução.
+Quando `POD` aparece no dano dessas armas, significa `POD Corpo`.
 
-## Itens
+Todo personagem possui automaticamente `Arte Marcial` como ataque corporal básico.
 
-Itens incluem equipamentos relevantes que não sejam tratados principalmente como arma ou armadura.
+## Disparo
 
-Exemplos futuros podem registrar:
+Armas de disparo usam o formato:
 
 ```text
-Nome
-Tipo
-Uso
-Efeito
-Limitações
-Cargas ou custo, quando houver
+Nome - Alcance - Dano - Crítico - Munição - Pegada - Época
 ```
+
+A munição é abstrata. Não existe contagem de projéteis, carregadores ou tiros restantes.
+
+Armas cuja potência vem do usuário, como arcos e fundas, podem somar `POD Corpo`. Armas com potência própria usam o dano indicado pela própria arma.
+
+## Magia
+
+Ataques e focos mágicos usam o formato:
+
+```text
+Nome - Alcance - Dano - Crítico - Tipo - Pegada
+```
+
+O acerto mágico usa `HAB Mente`; `POD Mente` entra na potência e no dano quando indicado.
+
+`Conjurar Livre` representa o ataque mágico básico sem foco e sem ocupar as mãos.
+
+## Itens Defensivos
+
+Os perfis defensivos atuais são simples e especializados:
+
+```text
+Escudo → Esquiva +2
+Foco Sensorial → Percepção +2
+Armadura Leve → RD 2 | Falha mágica 1/6
+Armadura Pesada [POD Corpo 2+] → RD 4 | Falha mágica 2/6
+```
+
+Itens de off-hand ocupam uma mão. Armaduras fornecem RD e podem interferir na conjuração.
 
 ## Regra de desenvolvimento
 
