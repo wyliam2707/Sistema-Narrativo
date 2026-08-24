@@ -24,8 +24,8 @@ Altura:
 Descrição visual:
 
 ## Atributos
-Corpo - Força [ ] | Destreza [ ] | Agilidade [ ]
-Mente - Intelecto [ ] | Percepção [ ] | Presença [ ]
+Corpo — POD [ ] | HAB [ ] | RES [ ]
+Mente — POD [ ] | HAB [ ] | RES [ ]
 
 ## Perícias
 Comuns
@@ -85,18 +85,43 @@ Não colocar nesse campo personalidade, intenção, desejo, medo ou explicação
 
 ## 2. Atributos
 
-Os seis Atributos aparecem em duas linhas:
+Os seis Atributos aparecem em duas linhas espelhadas, uma para Corpo e outra para Mente:
 
 ```text
-Corpo - Força [X] | Destreza [X] | Agilidade [X]
-Mente - Intelecto [X] | Percepção [X] | Presença [X]
+Corpo — POD [X] | HAB [X] | RES [X]
+Mente — POD [X] | HAB [X] | RES [X]
 ```
 
-`Força`, `Destreza` e `Agilidade` descrevem capacidades corporais diferentes.
+As três funções são as mesmas nos dois domínios:
 
-`Intelecto`, `Percepção` e `Presença` descrevem capacidades mentais, perceptivas e pessoais diferentes.
+- `POD` — Poder: intensidade, potência e capacidade de impor ou produzir efeito;
+- `HAB` — Habilidade: precisão, controle e qualidade de execução;
+- `RES` — Resistência: capacidade de suportar, resistir e continuar funcionando.
 
-`Fortitude` e `Vontade` não são Atributos neste modelo. Elas aparecem como Defesas em `Referências`.
+O domínio define a natureza da capacidade:
+
+```text
+Corpo → capacidades físicas.
+Mente → capacidades mentais, sociais, psíquicas ou mágicas quando pertinente.
+```
+
+Assim, `POD`, `HAB` e `RES` não representam ações específicas. Eles representam funções gerais que podem ser aplicadas a situações diferentes conforme o mecanismo da cena.
+
+Exemplos de leitura:
+
+```text
+POD Corpo → força e potência física.
+HAB Corpo → precisão, coordenação, mobilidade e técnica física.
+RES Corpo → resistência a dano, fadiga e efeitos físicos.
+
+POD Mente → força de imposição, presença ou potência mental/mágica.
+HAB Mente → percepção, raciocínio, análise e controle mental/mágico.
+RES Mente → resistência a medo, pressão, dominação e outros efeitos mentais.
+```
+
+As fórmulas definitivas de resolução ainda pertencem ao desenvolvimento de `../resolucao/`.
+
+> **Poder determina intensidade. Habilidade determina execução. Resistência determina oposição. Corpo e Mente determinam a natureza da capacidade.**
 
 ## 3. Perícias
 
@@ -306,13 +331,13 @@ Vida [23/35] | Energia [8/20] | Imobilizado
 Campo desconhecido permanece vazio.
 
 ```text
-Força [ ]
+POD [ ]
 ```
 
 não é igual a:
 
 ```text
-Força [0]
+POD [0]
 ```
 
 > **Zero é valor real, nunca marcador de pendência.**
