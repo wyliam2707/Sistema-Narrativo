@@ -87,7 +87,7 @@ Referências principais:
 
 ```text
 Dano                → combate-e-dano.md
-Proteção / efeitos  → escalas-de-efeito.md
+Proteção / efeitos  → efeitos/
 Ampliação           → consolidacao.md
 Energia             → energia.md
 Cura                → efeitos/cura.md
