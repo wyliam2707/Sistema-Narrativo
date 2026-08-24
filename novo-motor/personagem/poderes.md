@@ -2,78 +2,119 @@
 
 Status: EM DESENVOLVIMENTO
 
-No `novo-motor/`, a ficha principal registra **somente os nomes dos Poderes que o personagem possui**.
+No `novo-motor/`, Poderes são efeitos ativos autocontidos. Cada Poder possui seu próprio arquivo com tudo o que é necessário para usá-lo.
 
-Exemplo:
+> **A ficha diz quais Poderes o personagem possui. O arquivo do Poder diz exatamente como ele funciona.**
+
+## Estrutura geral
+
+Um Poder é registrado pelo nome e por um valor entre colchetes:
 
 ```text
-## Poderes
-- Teleporte
-- Escudo Arcano
-- Petrificação
-- Cura
+Teleporte [5]
+Golpe [2]
+Explosão [3]
 ```
 
-A ficha não deve carregar a descrição mecânica completa de todos os Poderes ao mesmo tempo.
+O valor `[X]` representa o **máximo de Energia que pode ser investido naquele Poder em um único uso**.
 
-> **A ficha responde quais Poderes existem. O arquivo do Poder responde como ele funciona.**
+O uso padrão de um Poder custa `0` Energia quando sua descrição possuir um efeito-base gratuito.
 
-## Arquivo próprio por Poder
+Sempre que o jogador escolher uma ampliação acima de `0`, gasta a quantidade correspondente de Energia.
 
-Cada Poder deverá possuir uma descrição própria fora da ficha do personagem.
+Cada Poder define sua própria lógica. Ele pode usar:
 
-Esse arquivo deverá concentrar as informações necessárias para usar o Poder, como, quando aplicável:
-
+- POD;
+- HAB;
+- valores fixos;
+- dados;
 - alcance;
-- alvo;
-- dano;
-- efeito;
-- custo;
+- número de alvos;
+- área;
 - duração;
-- Defesa envolvida;
-- limitações;
-- propriedades especiais.
+- outras propriedades próprias.
 
-O formato definitivo desses arquivos ainda será definido durante o desenvolvimento do novo motor.
+Não existe uma fórmula universal obrigatória para todos os Poderes.
 
-## Consulta sob demanda
+## Ampliações
 
-Quando o jogador declarar que deseja usar um Poder, o fluxo previsto é:
-
-```text
-1. consultar a ficha do personagem;
-2. mostrar a lista de Poderes disponíveis;
-3. o jogador escolhe um deles;
-4. consultar apenas o arquivo do Poder escolhido;
-5. mostrar ao jogador o efeito e os parâmetros relevantes;
-6. o jogador confirma o uso;
-7. resolver a ação.
-```
-
-Isso evita carregar na ficha principal detalhes que não são necessários para a decisão atual.
-
-## Poder não é Perícia
-
-`Arcano` representa conhecimento sobre magia.
-
-`Magia`, no bloco de Ataques, representa competência de combate quando um efeito mágico precisa ser imposto contra oposição.
-
-Um Poder representa uma capacidade específica disponível ao personagem.
+As ampliações aparecem diretamente ao lado do parâmetro que modificam.
 
 Exemplo:
 
 ```text
-Arcano [4]     → entende profundamente magia.
-Magia [+2]     → possui determinada competência para aplicar magia em conflito.
-Petrificação   → é um Poder que pode ser escolhido e consultado quando usado.
+Teleporte [5]
+
+Alvo: 1 alvo > [+1 POD alvos] [+2 POD ×2 alvos]
+Destino: Local conhecido > [+1 Visitado] [+2 Descrição]
+Distância: até 100 km > [+1 500 km] [+2 Ilimitado]
 ```
 
-Essas informações não são automaticamente equivalentes nem se substituem.
+Ampliações de linhas diferentes podem ser combinadas, desde que a soma total de Energia investida não ultrapasse `[X]`.
 
-## Poderes e Ataques
+Exemplo:
 
-Um Poder pode produzir dano, controle, movimento, proteção, cura ou qualquer outro efeito compatível com sua descrição.
+```text
++2 POD ×2 alvos
++2 Descrição
++1 500 km
+Total: 5 Energia
+```
 
-Quando o Poder for usado como ataque, a resolução consulta a forma apropriada de ataque e a Defesa válida para aquele efeito.
+## Fluxo de uso
 
-As regras completas de alcance, contato, acerto, Defesas, dano e demais propriedades permanecem em desenvolvimento dentro de `../resolucao/`.
+Quando o jogador declara que deseja usar um Poder:
+
+```text
+1. consultar a ficha;
+2. listar apenas os Poderes disponíveis ao personagem;
+3. o jogador escolhe um Poder;
+4. consultar somente o arquivo desse Poder;
+5. mostrar o efeito-base e suas ampliações;
+6. o jogador declara o uso pretendido;
+7. verificar se o uso cabe no efeito-base;
+8. se couber, resolver sem gasto de Energia;
+9. se exigir ampliação, informar exatamente qual custo é necessário;
+10. o jogador confirma ou recusa o gasto;
+11. somente após a confirmação, gastar Energia e resolver.
+```
+
+> **O narrador não escolhe automaticamente uma ampliação que consuma Energia. Ele informa o custo necessário e aguarda a confirmação do jogador.**
+
+## Poderes ativos e Passivos
+
+Poderes são capacidades ativas escolhidas durante a cena e consultadas sob demanda.
+
+Passivos são diferentes: alteram valores estáveis da ficha e não precisam ser abertos durante cada uso.
+
+Exemplos de Passivos:
+
+```text
+RD [3]
+Vida Extra [30]
+Proteção [2]
+```
+
+Os Passivos ficam registrados diretamente na ficha e são consolidados nos valores derivados do personagem.
+
+As regras dos Passivos ficam em `passivos.md`.
+
+## Arquivos individuais
+
+Cada Poder ativo deve possuir um arquivo próprio dentro de:
+
+```text
+personagem/poderes/
+```
+
+O arquivo deve ser curto, direto e suficiente para resolver o Poder sem consultar uma cadeia de regras externas.
+
+Poderes já registrados nesta etapa:
+
+- `golpe.md`
+- `disparo.md`
+- `magia.md`
+- `explosao.md`
+- `ampliacao-golpe.md`
+- `barreira.md`
+- `teleporte.md`
