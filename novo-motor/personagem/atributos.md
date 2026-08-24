@@ -2,113 +2,82 @@
 
 Status: EM DESENVOLVIMENTO
 
-O `novo-motor/` usa seis Atributos básicos, organizados em duas linhas.
+> **REVISÃO EM CURSO:** o modelo anterior de seis atributos (`Força`, `Destreza`, `Agilidade`, `Intelecto`, `Percepção` e `Presença`) não deve ser tratado como decisão atual.
+
+O `novo-motor/` está reiniciando o estudo dos Atributos a partir de referências de sistemas d20, especialmente **d20 Modern**, sem alterar as regras canônicas em `sistema/`.
+
+Nenhum conjunto de Atributos está aprovado neste momento.
+
+## Referência inicial — d20 Modern
+
+Como ponto de comparação, o d20 Modern trabalha com seis Atributos tradicionais:
 
 ```text
-Corpo - Força [X] | Destreza [X] | Agilidade [X]
-Mente - Intelecto [X] | Percepção [X] | Presença [X]
+Força
+Destreza
+Constituição
+Inteligência
+Sabedoria
+Carisma
 ```
 
-Os Atributos descrevem capacidades inerentes do personagem. Eles não substituem conhecimento especializado, Perícias, Poderes ou equipamentos.
+Eles serão analisados como referência de funções, não necessariamente copiados para o novo motor.
 
-## Corpo
+## Critérios para o novo motor
 
-### Força
+Antes de escolher nomes ou fórmulas, cada Atributo deve justificar claramente sua existência.
 
-Representa potência física.
+O conjunto final deve buscar:
 
-Inclui, quando pertinente:
+- poucas sobreposições entre Atributos;
+- leitura rápida da ficha por jogador, Narrador ou IA;
+- função mecânica clara para cada Atributo;
+- capacidade de representar personagens mundanos, fantásticos, tecnológicos e super-humanos;
+- separação entre capacidade inerente, treinamento adquirido e Poder;
+- evitar um Atributo que se torne obrigatório por participar de quase todas as resoluções;
+- permitir que a mesma estrutura funcione em combate, exploração, investigação e interação social.
 
-- levantar, empurrar e puxar;
-- quebrar ou arrombar;
-- agarrar e conter fisicamente;
-- aplicar força corporal;
-- sustentar peso ou esforço que dependa diretamente de potência.
+## Perguntas que precisam ser respondidas
 
-### Destreza
-
-Representa coordenação, precisão e controle corporal fino.
-
-Inclui, quando pertinente:
-
-- manipulação precisa;
-- pontaria corporal;
-- movimentos técnicos;
-- coordenação olho-mão;
-- uso preciso de ferramentas e objetos.
-
-### Agilidade
-
-Representa velocidade de reação, mobilidade e controle dinâmico do corpo.
-
-Inclui, quando pertinente:
-
-- reflexos;
-- equilíbrio;
-- deslocamento rápido;
-- mudanças de direção;
-- evitar fisicamente ameaças percebidas.
-
-## Mente
-
-### Intelecto
-
-Representa raciocínio, memória, compreensão e capacidade de análise.
-
-Inclui, quando pertinente:
-
-- dedução;
-- cálculo;
-- planejamento;
-- compreensão de informação;
-- aprendizagem;
-- raciocínio abstrato.
-
-Intelecto alto não cria conhecimento especializado que o personagem nunca adquiriu.
-
-### Percepção
-
-Representa atenção, sentidos e leitura do ambiente.
-
-Inclui, quando pertinente:
-
-- notar detalhes;
-- identificar mudanças;
-- perceber ameaças;
-- acompanhar movimentos;
-- encontrar sinais, pistas ou padrões perceptíveis.
-
-### Presença
-
-Representa força pessoal e impacto social.
-
-Inclui, quando pertinente:
-
-- impor-se;
-- inspirar;
-- intimidar;
-- persuadir pela presença;
-- sustentar identidade, convicção ou autoridade pessoal quando isso for relevante.
-
-`Presença` não significa apenas simpatia ou beleza. Um personagem ameaçador, inspirador, dominante ou carismático pode possuir Presença alta por motivos diferentes.
-
-## Fortitude e Vontade não são Atributos
-
-Neste modelo, `Fortitude` e `Vontade` pertencem ao bloco de Defesas em `ficha.md`.
-
-Isso evita que resistência física e mental ocupem simultaneamente o papel de Atributo e de Defesa.
-
-As fórmulas definitivas de cálculo dessas Defesas ainda serão tratadas em `../resolucao/`.
-
-## Princípio de leitura
+Para cada candidato a Atributo, verificar:
 
 ```text
-Força      → quanta potência física possui?
-Destreza   → quão preciso e coordenado é?
-Agilidade  → quão rápido e móvel é?
-Intelecto  → quão bem raciocina e compreende?
-Percepção  → quão bem percebe e lê o ambiente?
-Presença   → quanta força pessoal projeta?
+O que exatamente ele mede?
+O que ele não mede?
+Em quais ações ele normalmente participa?
+Que outro Atributo poderia estar ocupando a mesma função?
+Ele representa capacidade inerente ou treinamento?
+Ele é necessário para distinguir personagens diferentes?
 ```
 
-> **Atributo descreve capacidade. Perícia descreve domínio adquirido. Poder descreve capacidade especial.**
+## Separações provisórias
+
+Enquanto o estudo não for concluído:
+
+```text
+Atributo
+→ capacidade inerente.
+
+Perícia
+→ treinamento, conhecimento ou domínio adquirido.
+
+Poder
+→ capacidade especial que não precisa ser explicada por um Atributo comum.
+```
+
+Nenhuma fórmula de Ataque, Defesa, Vida, Mana ou Resistência deve ser considerada definida a partir deste arquivo enquanto os Atributos estiverem em revisão.
+
+## Próximo passo
+
+Analisar individualmente as funções de:
+
+```text
+Força
+Destreza
+Constituição
+Inteligência
+Sabedoria
+Carisma
+```
+
+comparando o que cada uma acrescenta ao sistema e onde existe sobreposição que possa ser simplificada.
