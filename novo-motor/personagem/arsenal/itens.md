@@ -18,7 +18,7 @@ Proteção carregada na mão secundária para bloquear, desviar ou interceptar a
 
 **Exemplos:** escudo medieval, broquel, escudo de energia, braçadeira defletora.
 
-### Foco
+### Foco Sensorial
 
 **Efeito:** Percepção +2.
 
