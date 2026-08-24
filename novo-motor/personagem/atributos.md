@@ -130,6 +130,16 @@ Máximo por Atributo = Escala de Poder
 
 A única exceção é a Escala de Poder `[0]`, que possui 1 ponto de Atributo e permite valor máximo `[1]` para que esse ponto possa ser distribuído.
 
+## Compra e distribuição
+
+Todos os seis Atributos começam em `[0]`.
+
+Cada 1 ponto de Atributo aumenta um único Atributo em `+1` grau.
+
+```text
+1 ponto de Atributo = +1 grau em um Atributo
+```
+
 Os pontos podem ser distribuídos livremente entre:
 
 ```text
@@ -142,6 +152,8 @@ RES Mente
 ```
 
 desde que o total disponível e o limite individual da Escala de Poder sejam respeitados.
+
+Os pontos de Atributo pertencem exclusivamente a este bloco de construção. Eles não podem ser convertidos em pontos de Perícia, Poder ou Passivo.
 
 Exemplo de Escala de Poder `[7]`:
 
