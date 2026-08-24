@@ -2,20 +2,23 @@
 
 Status: EM DESENVOLVIMENTO
 
-Esta pasta contém a versão experimental da estrutura de personagens do `novo-motor/`.
+Esta pasta contém a estrutura experimental de personagens do `novo-motor/`.
 
-Ela foi copiada originalmente de `sistema/personagem/`, mas está sendo revisada separadamente. Nada aqui altera automaticamente o sistema canônico.
+## Núcleo mecânico
 
-> **Quando houver conflito, os arquivos já revisados abaixo têm precedência dentro do `novo-motor/`.**
+A construção mecânica usa somente:
 
-## Arquivos já alinhados ao novo modelo
+```text
+Atributos
++ Perícias
++ Poderes
++ Passivos
+= Valores Derivados
+```
 
-- `ficha.md` — ficha-base consolidada atual;
-- `atributos.md` — seis Atributos: Força, Destreza, Agilidade, Intelecto, Percepção e Presença;
-- `pericias.md` — lista atual de 8 Perícias comuns e 8 somente treinadas, sem combate;
-- `poderes.md` — ficha lista apenas nomes; detalhes são consultados sob demanda em arquivos próprios;
-- `organizacao-visual.md` — ordem e apresentação visual atual da ficha;
-- `criacao.md` — fluxo atual de criação e revisão por blocos.
+Não existe mais uma camada mecânica separada de Arsenal ou Ataques prontos por equipamento.
+
+Armas, armaduras, escudos, focos, tecnologia, mutações e outras manifestações descrevem narrativamente um Poder ou Passivo quando necessário.
 
 ## Estrutura atual da ficha
 
@@ -23,100 +26,101 @@ Ela foi copiada originalmente de `sistema/personagem/`, mas está sendo revisada
 1. Descrição
 2. Atributos
 3. Perícias
-4. Referências
-5. Ataques
-6. Poderes
-7. Recursos
+4. Poderes
+5. Passivos
+6. Valores Derivados
+7. Recursos narrativos
 8. Personalidade
 9. Histórico e conhecimento
 ```
 
-### Descrição
+Os blocos de Descrição, Recursos, Personalidade e Histórico existem para interpretação e contexto. O núcleo mecânico permanece Atributos + Perícias + Poderes + Passivos.
 
-Inclui identificação e metadados:
-
-```text
-Nome: Codinome — Nome real
-Importância:
-Controle:
-Idade:
-Peso:
-Altura:
-Descrição visual:
-```
-
-### Atributos
+## Atributos
 
 ```text
-Corpo - Força [ ] | Destreza [ ] | Agilidade [ ]
-Mente - Intelecto [ ] | Percepção [ ] | Presença [ ]
+Corpo — POD [ ] | HAB [ ] | RES [ ]
+Mente — POD [ ] | HAB [ ] | RES [ ]
 ```
 
-### Perícias
+- `POD` — potência e intensidade;
+- `HAB` — execução, precisão e controle;
+- `RES` — resistência e capacidade de suportar.
 
-Perícias representam exploração, conhecimento e interação com o mundo.
+## Perícias
 
-Combate fica separado em `Luta`, `Disparo` e `Magia`.
+Perícias representam áreas amplas de treinamento, conhecimento e experiência. A abordagem da ação determina qual Perícia pode ser aplicável.
 
-### Referências
+## Poderes
 
-Reúne capacidades estáveis de consulta rápida:
+Poderes são efeitos ativos. A ficha registra nome e limite de Energia:
 
 ```text
-Vida [ ] | Energia [ ] | Deslocamento: ... | Visão: ...
-Defesas - Esquiva [ ] | Vontade [ ] | Fortitude [ ] | RD: ...
+Golpe [2]
+Disparo [3]
+Explosão [2]
+Teleporte [5]
 ```
 
-`Referências` não é o estado momentâneo da cena.
+Nos Poderes, `[X]` é o máximo de Energia que pode ser investido em um único uso.
 
-### Ataques
+Cada Poder tem arquivo próprio em:
 
 ```text
-Luta [ ] / arma / dano / crítico / alcance
-Disparo [ ] / arma / dano / crítico / alcance
-Magia [ ] / arma ou efeito / dano / crítico / alcance
+personagem/poderes/
 ```
 
-### Poderes
+O narrador consulta somente o Poder escolhido pelo jogador. Se uma intenção exigir gasto de Energia, informa o custo e aguarda confirmação antes de aplicar a ampliação.
 
-A ficha registra apenas os nomes dos Poderes. O conteúdo completo de cada Poder será mantido em arquivo próprio e consultado apenas quando necessário.
+## Passivos
 
-### Recursos
-
-Registra meios, infraestrutura, acesso ou bens realmente relevantes, sem virar inventário comum.
-
-### Personalidade
+Passivos são capacidades permanentes ou estáveis já incorporadas ao personagem.
 
 ```text
-Descrição mental:
-Desejos:
-Medos:
-Vínculos:
+RD [3]
+Vida Extra [30]
+Proteção [2]
+Sentido-Aranha
+Imortalidade
+Regeneração [2]
 ```
 
-### Histórico
+Cada Passivo tem arquivo próprio em:
 
 ```text
-Histórico relevante:
-Conhecimento relevante:
+personagem/passivos/
 ```
 
-Esses dois campos ajudam um jogador IA a interpretar o personagem sem usar informação que ele não deveria conhecer.
+Nos Passivos, `[X]` tem o significado definido pela própria descrição e não representa limite de Energia.
 
-## Arquivos ainda herdados do motor anterior
+## Valores Derivados
 
-Os demais arquivos desta pasta ainda podem conter conceitos, nomes, escalas ou procedimentos do motor anterior.
-
-Eles permanecem como material de referência experimental até revisão explícita.
-
-Não usar uma regra herdada para sobrescrever uma decisão já registrada nos arquivos atuais acima.
-
-## Separação do sistema canônico
-
-O conteúdo canônico continua em:
+Depois dos quatro blocos mecânicos, a ficha consolida os valores usados constantemente:
 
 ```text
-sistema/personagem/
+Vida [ ] | Energia [ ]
+Esquiva [ ] | Percepção [ ] | Vontade [ ] | Fortitude [ ] | RD [ ]
+Deslocamento: [ ]
 ```
 
-A migração do novo motor para `sistema/` só deve acontecer depois de decisão explícita e revisão final.
+Passivos que alteram esses números já entram no valor final mostrado.
+
+## Recursos narrativos
+
+Recursos registram infraestrutura, acesso ou meios relevantes, como base, veículo ou rede de contatos. Não formam inventário mecânico comum.
+
+## Arquivos principais
+
+- `ficha.md` — modelo-base atual;
+- `atributos.md` — POD, HAB e RES em Corpo e Mente;
+- `pericias.md` — lista e função das Perícias;
+- `poderes.md` e `poderes/` — regras gerais e arquivos individuais dos Poderes;
+- `passivos.md` e `passivos/` — regras gerais e arquivos individuais dos Passivos;
+- `criacao.md` — fluxo de criação;
+- `organizacao-visual.md` — apresentação da ficha.
+
+## Conflitos herdados
+
+Arquivos herdados ainda podem conter conceitos anteriores. Quando houver conflito direto, esta arquitetura consolidada e os arquivos acima têm precedência dentro do `novo-motor/`.
+
+O conteúdo canônico em `sistema/` permanece separado e não deve ser alterado sem decisão explícita de migração.
