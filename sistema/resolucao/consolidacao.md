@@ -1,6 +1,6 @@
 # Consolidação
 
-Status: BASE APROVADA / REVISÃO EM ANDAMENTO
+Status: APROVADO
 
 Consolidação define como um efeito já possível se manifesta na cena: por quanto tempo permanece, até onde chega, quantos alvos escolhe e quanto espaço ou tamanho ocupa.
 
