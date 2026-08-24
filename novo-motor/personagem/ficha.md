@@ -73,8 +73,16 @@ Descrição visual:
 Corpo - Força [ ] | Destreza [ ] | Agilidade [ ] | Vigor [ ]
 Mente - Inteligência [ ] | Percepção [ ] | Carisma [ ] | Vontade [ ]
 
+## Perícias
+Comuns
+Esportes [ ] | Exploração [ ] | Expressão [ ] | Sociedade [ ]
+Investigação [ ] | Crime [ ] | Ofícios [ ] | Idiomas [ ]
+
+Somente treinadas
+Arcano [ ] | Ocultismo [ ] | Natureza [ ] | Medicina [ ]
+Engenharia [ ] | Ciência [ ] | Tecnologia [ ] | História [ ]
+
 VIDA [ ] | ENERGIA [ ]
-PER:
 PODERES:
 RECURSOS:
 REL:
@@ -156,6 +164,42 @@ Mente - Inteligência [X] | Percepção [X] | Carisma [X] | Vontade [X]
 A primeira linha reúne os quatro Atributos físicos. A segunda reúne os quatro Atributos mentais.
 
 Não é necessário criar uma linha separada para cada Atributo.
+
+## Perícias
+
+A categoria **Perícias** é o terceiro bloco da ficha.
+
+Perícias representam **áreas amplas de conhecimento, experiência e exploração**. Elas não representam golpes, armas, técnicas de combate ou ações específicas.
+
+> **Perícias não são perícias de combate.**
+
+Uma mesma ação pode ser realizada por Perícias diferentes quando a abordagem for diferente. Seguir rastros, por exemplo, pode envolver `Exploração`, `Investigação` ou `Natureza`, conforme o método usado pelo personagem.
+
+As Perícias são divididas visualmente em dois grupos de oito:
+
+```text
+Comuns
+Esportes [X] | Exploração [X] | Expressão [X] | Sociedade [X]
+Investigação [X] | Crime [X] | Ofícios [X] | Idiomas [X]
+
+Somente treinadas
+Arcano [X] | Ocultismo [X] | Natureza [X] | Medicina [X]
+Engenharia [X] | Ciência [X] | Tecnologia [X] | História [X]
+```
+
+### Comuns
+
+Perícias comuns cobrem áreas que podem ser tentadas mesmo sem treinamento especializado, usando o conhecimento cotidiano e a capacidade do personagem quando a situação permitir.
+
+### Somente treinadas
+
+Perícias somente treinadas representam campos que exigem conhecimento específico quando a tarefa depende realmente daquela especialização.
+
+`Arcano` cobre magia, feitiços, runas, encantamentos, itens mágicos, artefatos, alquimia e o funcionamento de efeitos mágicos.
+
+`Ocultismo` cobre demônios, espíritos, mortos-vivos, cultos, possessões, entidades ocultas, maldições e outros seres ou fenômenos sobrenaturais desse campo.
+
+> **A ação define o problema. A abordagem define quais Perícias podem ser aplicáveis.**
 
 ## Nascimento da ficha
 
@@ -489,8 +533,16 @@ Descrição visual:
 Corpo - Força [ ] | Destreza [ ] | Agilidade [ ] | Vigor [ ]
 Mente - Inteligência [ ] | Percepção [ ] | Carisma [ ] | Vontade [ ]
 
+## Perícias
+Comuns
+Esportes [ ] | Exploração [ ] | Expressão [ ] | Sociedade [ ]
+Investigação [ ] | Crime [ ] | Ofícios [ ] | Idiomas [ ]
+
+Somente treinadas
+Arcano [ ] | Ocultismo [ ] | Natureza [ ] | Medicina [ ]
+Engenharia [ ] | Ciência [ ] | Tecnologia [ ] | História [ ]
+
 VIDA [ ] | ENERGIA [ ]
-PER:
 PODERES:
 RECURSOS:
 REL:
@@ -511,6 +563,8 @@ Na ficha recém-criada, somente Nome, Importância e CONTROLE recebem conteúdo.
 No **Bloco 1 — Descrição**, `Nome`, `Idade`, `Peso`, `Altura` e `Descrição visual` são tratados para que o personagem fique fisicamente identificável e reconhecível antes da revisão mecânica.
 
 No **Bloco 2 — Atributos**, os oito Atributos são registrados nas duas linhas `Corpo` e `Mente` definidas acima.
+
+No **Bloco 3 — Perícias**, registrar as oito Perícias comuns e as oito Perícias somente treinadas no formato definido acima.
 
 Depois da aprovação dos Atributos, `VIDA` e `ENERGIA` são preenchidas como referências de consulta rápida conforme as regras aplicáveis à personagem.
 
