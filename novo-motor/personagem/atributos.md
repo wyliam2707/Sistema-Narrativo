@@ -34,8 +34,8 @@ Pode determinar, conforme a regra usada:
 
 - força aplicada;
 - potência de ataques corporais;
-- dano de armas cujo desempenho depende da força do usuário;
-- capacidade de manejar equipamentos físicos que exijam potência mínima.
+- dano de Poderes físicos que acrescentem POD Corpo;
+- capacidade física exigida por uma ação ou manifestação.
 
 ### HAB Corpo
 
@@ -72,8 +72,8 @@ Pode determinar, conforme a regra usada:
 
 - intensidade de uma imposição mental;
 - potência de efeitos mágicos ou psíquicos;
-- dano de focos ou poderes que acrescentem POD Mente;
-- capacidade de manejar efeitos ou artefatos que exijam potência mental mínima.
+- dano de Poderes que acrescentem POD Mente;
+- capacidade de sustentar uma manifestação mental ou mágica.
 
 ### HAB Mente
 
@@ -124,7 +124,7 @@ HAB → quão bem consegue executar ou aplicar.
 RES → quanto consegue suportar ou resistir.
 ```
 
-Em ataques e poderes, POD e HAB não devem ser somados automaticamente para cumprir a mesma função.
+POD e HAB não devem ser somados automaticamente para cumprir a mesma função.
 
 Exemplo conceitual:
 
@@ -135,6 +135,6 @@ Acerto mágico → HAB Mente.
 Potência de efeito mágico → POD Mente.
 ```
 
-As fórmulas de testes, Defesas e combate pertencem a `../resolucao/resolucao-d20.md`.
+As fórmulas de testes, Defesas e combate pertencem à camada de `../resolucao/` e só devem ser aplicadas quando estiverem compatíveis com a arquitetura consolidada do novo motor.
 
 > **Poder determina intensidade. Habilidade determina execução. Resistência determina oposição. Corpo e Mente determinam a natureza da capacidade.**
