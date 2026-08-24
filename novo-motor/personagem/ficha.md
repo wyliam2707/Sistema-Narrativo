@@ -69,8 +69,10 @@ Peso:
 Altura:
 Descrição visual:
 
-TRAÇOS:
-ATR:
+## Atributos
+Corpo - Força [ ] | Destreza [ ] | Agilidade [ ] | Vigor [ ]
+Mente - Inteligência [ ] | Percepção [ ] | Carisma [ ] | Vontade [ ]
+
 VIDA [ ] | ENERGIA [ ]
 PER:
 PODERES:
@@ -140,6 +142,21 @@ Assim, `mantém o olhar fixo e os movimentos contidos` é descrição visual. J�
 
 > **Descrição visual mostra o que se vê. Não explica quem o personagem é por dentro.**
 
+## Atributos
+
+A categoria **Atributos** é o segundo bloco da ficha e apresenta os oito Atributos em apenas duas linhas.
+
+O padrão visual é:
+
+```text
+Corpo - Força [X] | Destreza [X] | Agilidade [X] | Vigor [X]
+Mente - Inteligência [X] | Percepção [X] | Carisma [X] | Vontade [X]
+```
+
+A primeira linha reúne os quatro Atributos físicos. A segunda reúne os quatro Atributos mentais.
+
+Não é necessário criar uma linha separada para cada Atributo.
+
 ## Nascimento da ficha
 
 Ao criar uma nova ficha apresentável ao jogador, usar desde o início o **modelo-base completo** definido neste arquivo.
@@ -176,14 +193,16 @@ NOME + IMPORTÂNCIA + CONTROLE
 Durante criação ou revisão, não usar zero para significar “ainda não definido”.
 
 ```text
-ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
+Corpo - Força [ ] | Destreza [ ] | Agilidade [ ] | Vigor [ ]
+Mente - Inteligência [ ] | Percepção [ ] | Carisma [ ] | Vontade [ ]
 VIDA [ ] | ENERGIA [ ]
 ```
 
 é diferente de:
 
 ```text
-ATR: FIS [0] | RES [0] | MEN [0] | VON [0]
+Corpo - Força [0] | Destreza [0] | Agilidade [0] | Vigor [0]
+Mente - Inteligência [0] | Percepção [0] | Carisma [0] | Vontade [0]
 VIDA [35] | ENERGIA [10]
 ```
 
@@ -466,9 +485,10 @@ Peso:
 Altura:
 Descrição visual:
 
-TRAÇOS:
+## Atributos
+Corpo - Força [ ] | Destreza [ ] | Agilidade [ ] | Vigor [ ]
+Mente - Inteligência [ ] | Percepção [ ] | Carisma [ ] | Vontade [ ]
 
-ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
 VIDA [ ] | ENERGIA [ ]
 PER:
 PODERES:
@@ -490,7 +510,9 @@ Na ficha recém-criada, somente Nome, Importância e CONTROLE recebem conteúdo.
 
 No **Bloco 1 — Descrição**, `Nome`, `Idade`, `Peso`, `Altura` e `Descrição visual` são tratados para que o personagem fique fisicamente identificável e reconhecível antes da revisão mecânica.
 
-No **Bloco 2 — Atributos e perícias**, depois da aprovação dos Atributos, `VIDA` e `ENERGIA` são preenchidas como referências de consulta rápida conforme as regras aplicáveis à personagem.
+No **Bloco 2 — Atributos**, os oito Atributos são registrados nas duas linhas `Corpo` e `Mente` definidas acima.
+
+Depois da aprovação dos Atributos, `VIDA` e `ENERGIA` são preenchidas como referências de consulta rápida conforme as regras aplicáveis à personagem.
 
 ## Informação reservada do NARRADOR
 
