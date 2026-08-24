@@ -6,6 +6,26 @@ Sentidos reduz ou elimina a capacidade funcional de perceber por um sentido afet
 
 `Sentidos → Médio / 1 alvo / Pontual / Cena`
 
+## Resolução
+
+Quando houver incerteza real:
+
+`Sentidos efetivo = patamar de Sentidos usado + 1 + (Perícia aplicável × 0,2)`
+
+Sem Perícia aplicável:
+
+`Sentidos efetivo = patamar de Sentidos usado + 1`
+
+A Resistência efetiva vem daquilo que realmente responde à supressão sensorial. Quando outra personagem estiver resistindo ativamente:
+
+`Resistência ativa = Base da oposição + (Suporte da oposição × 0,2)`
+
+Sem Suporte aplicável, usa-se apenas a Base da oposição. Resistência passiva, sentido extraordinário, Poder, proteção ou outro mecanismo coerente usa seu próprio valor aplicável.
+
+`Resultado = 2^(Sentidos efetivo − Resistência efetiva)`
+
+Ler o maior degrau da escala abaixo que o Resultado alcançar. O Resultado não amplia o repertório do Poder.
+
 ## Escala
 
 `[2] Prejudicar` | `[4] Comprometer` | `[8] Suprimir` | `[16] Supressão ampla` | `[32] Supressão dominante`
@@ -18,4 +38,16 @@ Sentidos reduz ou elimina a capacidade funcional de perceber por um sentido afet
 
 Depois de `[8]`, o efeito não torna o sentido “mais suprimido”; resultados maiores espalham a interferência para funções relacionadas.
 
-Persistência usa `README.md`; Ampliação usa `../consolidacao.md`.
+## Persistência
+
+Depois de estabelecido, o efeito permanece pela Duração escolhida enquanto sua estrutura existir:
+
+`D = patamar de Sentidos usado + (Perícia aplicável × 0,2)`
+
+`V = maior entre [1] e o Atributo estrutural da Fonte`
+
+Enquanto `V > 0`, o efeito funciona integralmente na intensidade alcançada. Ele termina quando sua Duração termina ou quando chega a `V0`, o que acontecer primeiro.
+
+Vida estrutural não é recuperada por Cura, descanso ou regeneração de VIDA comum.
+
+Ampliações de Alcance, Alvos, Área/Tamanho ou Duração usam `../consolidacao.md`.
