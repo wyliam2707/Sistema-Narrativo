@@ -104,9 +104,9 @@ Quando mais de uma dimensão é ampliada, suas cargas se acumulam.
 
 Cada efeito possui um limite total próprio:
 
-`Ampliação = patamar do efeito + maior entre MEN e VON`
+`Limite de Ampliação = patamar do efeito + maior entre MEN e VON`
 
-O valor de Ampliação mede quanto o efeito pode ser estendido em suas dimensões; ele não aumenta sua potência.
+O Limite de Ampliação mede quanto o efeito pode ser estendido em suas dimensões; ele não aumenta sua potência.
 
 O custo final é:
 
