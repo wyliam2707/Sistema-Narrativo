@@ -1,206 +1,134 @@
 # Perícias
 
-Status: APROVADO
+Status: EM DESENVOLVIMENTO
 
-Perícias representam conhecimento adquirido, treinamento, experiência e domínio prático dentro de um campo.
+Perícias representam áreas amplas de conhecimento, experiência, exploração e interação com o mundo.
 
-O sistema não possui uma lista fechada de perícias.
+Elas não representam golpes, armas, técnicas de combate ou manobras ofensivas.
 
-O nome da perícia define o campo que ela cobre; o grau define o domínio do personagem dentro desse campo.
+> **Perícias não são perícias de combate.**
 
-Exemplos:
+## Lista básica
 
-```text
-Soldado [+2]
-Atirador [+3]
-Médico [+3]
-Cirurgião [+4]
-Inventor [+5]
-Ocultismo [+5]
-```
-
----
-
-## 1. Perícias são abertas
-
-Uma perícia pode ser ampla ou específica conforme o conceito do personagem.
-
-Exemplos de perícias amplas:
+### Comuns
 
 ```text
-Soldado
-Médico
-Engenheiro
-Criminoso
-Investigador
+Esportes [X] | Exploração [X] | Expressão [X] | Sociedade [X]
+Investigação [X] | Crime [X] | Ofícios [X] | Idiomas [X]
 ```
 
-Exemplos de perícias mais específicas:
+Perícias comuns podem ser tentadas sem treinamento quando a ação estiver dentro de conhecimento ou experiência cotidiana plausível.
+
+### Somente treinadas
 
 ```text
-Atirador
-Cirurgião
-Robótica
-Arrombador
-Rifle de Precisão
+Arcano [X] | Ocultismo [X] | Natureza [X] | Medicina [X]
+Engenharia [X] | Ciência [X] | Tecnologia [X] | História [X]
 ```
 
-Não existe obrigação de decompor uma profissão ou formação em uma lista extensa de perícias menores.
+Quando uma tarefa realmente depende de conhecimento especializado desses campos, é necessário treinamento correspondente.
 
-Se `Soldado [+2]` já representa adequadamente a formação militar geral do personagem, não é necessário registrar separadamente cada procedimento básico pertencente a esse campo.
+## Uma ação pode aceitar Perícias diferentes
 
-> **O nome define o campo. O grau define o domínio.**
+Não existe a regra `ação X = Perícia X`.
 
-### Referências comuns para criação
-
-Para facilitar a criação e leitura de fichas, o NARRADOR pode usar como vocabulário inicial:
-
-`Atletismo | Combate | Pontaria | Furtividade | Investigação | Sobrevivência | Medicina | Crime | Tecnologia | Engenharia | Ciência | Ocultismo | Conhecimento | Persuasão | Enganação | Intimidação | Empatia | Expressão | Condução | Ofício`
-
-Essa lista é apenas uma base de referência. Não limita novas Perícias, profissões ou especializações mais adequadas ao conceito da personagem.
-
----
-
-## 2. Escala de perícias — [+0] a [+5]
-
-| Grau | Referência |
-|---|---|
-| **[+0]** | conhecimento cotidiano plausível |
-| **[+1]** | treinado / formação ou prática real |
-| **[+2]** | profissional muito competente |
-| **[+3]** | excepcional / claramente fora da curva |
-| **[+4]** | extraordinário / entre os melhores daquela área |
-| **[+5]** | ápice / genialidade máxima daquela área |
-
-Toda perícia não registrada na ficha é considerada implicitamente `[+0]` quando precisar ser avaliada.
-
-`[+0]` não significa ausência absoluta de conhecimento.
-
-Representa aquilo que uma pessoa comum daquele cenário poderia plausivelmente saber, reconhecer ou improvisar sem treinamento especializado.
+A situação apresenta um problema. A abordagem do personagem determina quais Perícias podem ser coerentes.
 
 Exemplo:
 
 ```text
-Medicina [+0]
+Seguir rastros
+
+Exploração
+→ acompanhar terreno, direção, deslocamento e sinais de passagem.
+
+Investigação
+→ analisar marcas, padrões, interrupções e inconsistências.
+
+Natureza
+→ interpretar vegetação, pegadas, comportamento animal e sinais naturais.
 ```
 
-pode permitir cuidados cotidianos, um curativo simples, o uso comum de medicamentos conhecidos ou uma tentativa básica de conter sangramento.
+> **A ação define o problema. A abordagem define a Perícia aplicável.**
 
-Isso não concede diagnóstico avançado, cirurgia ou procedimentos profissionais.
+## Áreas das Perícias
 
-Da mesma forma, `[+0]` não autoriza uma versão simples de qualquer tarefa especializada. Uma pessoa comum não pilota um caça, realiza uma cirurgia ou executa um ritual complexo apenas porque aquela perícia existe implicitamente em `[+0]`.
+### Esportes
 
----
+Atividade física treinada, condicionamento, corrida, salto, natação, escalada e práticas atléticas.
 
-## 3. PATAMAR não é linear
+### Exploração
 
-Os graus de perícia representam PATAMARES qualitativos de domínio.
+Orientação, viagem, navegação, leitura de terreno, sobrevivência prática e deslocamento por ambientes difíceis.
 
-A progressão não deve ser interpretada como uma sequência de incrementos iguais.
+### Expressão
 
-> **Cada grau representa um salto qualitativo progressivamente maior em relação ao anterior.**
+Música, atuação, dança, escrita, artes visuais, performance e outras formas de expressão.
 
-A diferença entre `[+1]` e `[+2]` é relevante.
+### Sociedade
 
-A diferença entre `[+4]` e `[+5]` é muito maior em significado conceitual.
+Costumes, instituições, leis, política, etiqueta, relações sociais e funcionamento de grupos e organizações.
 
-`[+5]` representa o ápice daquela área: genialidade, maestria ou competência máxima compatível com o conceito e o cenário.
+### Investigação
 
-A escala não existe para balancear personagens.
+Análise de evidências, pesquisa, reconstrução de acontecimentos, pistas e dedução aplicada.
 
-> **Um personagem recebe [+5] quando realmente é o ápice daquela área, não porque a ficha precisa distribuir graus de forma equilibrada.**
+### Crime
 
----
+Submundo, segurança, contrabando, métodos criminosos, falsificação, redes ilegais e práticas relacionadas.
 
-## 4. Geral estabelece o padrão; específico estabelece a exceção
+### Ofícios
 
-Perícias amplas e específicas podem coexistir na mesma ficha.
+Produção prática e trabalhos especializados, como carpintaria, cozinha, costura, ferraria e outros ofícios coerentes com a formação do personagem.
 
-Quando duas perícias se sobrepõem, a perícia mais específica aplicável prevalece, independentemente de possuir grau maior ou menor.
+### Idiomas
 
-> **O específico vence o geral.**
+Línguas, escrita, leitura, tradução e conhecimento linguístico.
 
-Exemplo:
+### Arcano
 
-```text
-Soldado [+5]
-Atirador [+3]
-Rifle de Precisão [+4]
-```
+Magia, feitiços, runas, encantamentos, itens mágicos, artefatos, alquimia e funcionamento de efeitos mágicos.
 
-Interpretação:
+### Ocultismo
 
-- atuação militar geral → `Soldado [+5]`;
-- ação especificamente relacionada a tiro → `Atirador [+3]`;
-- disparo especificamente com rifle de precisão → `Rifle de Precisão [+4]`.
+Demônios, espíritos, mortos-vivos, cultos, possessões, entidades ocultas, maldições e outros seres ou fenômenos sobrenaturais relacionados.
 
-Perícias sobrepostas não são somadas.
+### Natureza
 
-```text
-Soldado [+2] + Atirador [+3] ≠ [+5]
-```
+Animais, plantas, ecossistemas, clima, sinais naturais e conhecimento especializado do mundo natural.
 
-A perícia mais específica apenas define qual grau é relevante para aquela ação.
+### Medicina
 
----
+Anatomia, doenças, diagnóstico, tratamento, primeiros socorros e procedimentos médicos.
 
-## 5. O que uma perícia representa
+### Engenharia
 
-Uma perícia não funciona apenas como bônus abstrato.
+Estruturas, construção, mecanismos, fabricação, reparos e aplicação técnica de princípios de projeto.
 
-Ela representa repertório, padrões reconhecíveis, procedimentos, experiência acumulada, conhecimento aprendido, prática e eficiência de execução dentro daquele domínio.
+### Ciência
 
-Quanto maior a perícia, maior a capacidade de reconhecer situações familiares, selecionar métodos adequados e executar procedimentos próprios daquele campo.
+Conhecimento científico, método científico, física, química, biologia, matemática e áreas relacionadas.
 
-A graduação não cria informação inexistente e não remove requisitos físicos, materiais ou contextuais do problema.
+### Tecnologia
 
----
+Computadores, eletrônica, sistemas tecnológicos, dispositivos e infraestrutura tecnológica.
 
-## 6. Perícia não cria capacidade que a ficha não possui
+### História
 
-Perícia mede domínio, não altera automaticamente atributos ou capacidades físicas.
+Povos, civilizações, acontecimentos históricos, guerras, linhagens, registros antigos, ruínas e arqueologia quando pertinente.
 
-```text
-FIS [0]
-Soldado [+5]
-```
+## Escala
 
-continua representando a capacidade física definida por `FIS [0]`, embora o personagem possua domínio militar no ápice.
+A escala numérica definitiva das Perícias permanece vinculada ao desenvolvimento do motor de resolução.
 
-> **Perícia alta não cria capacidade física, mental ou sobrenatural que a ficha não possui.**
+O valor `[0]`, quando aplicável, é um valor real e não um marcador de campo desconhecido.
 
-Da mesma forma, circunstâncias favoráveis não elevam automaticamente o grau da perícia.
+Campos ainda não definidos permanecem vazios na ficha.
 
----
+## Combate fica fora deste arquivo
 
-## 7. Atributo e Perícia na resolução
+`Luta`, `Disparo` e `Magia` pertencem ao bloco de Ataques da ficha e ao motor de resolução de combate.
 
-Atributos representam capacidades inerentes. Perícias representam domínio adquirido.
+Não criar Perícias como `Espada`, `Atirador`, `Rifle`, `Combate`, `Pontaria` ou equivalentes dentro desta lista básica.
 
-Uma ação comum que qualquer pessoa possa tentar pode ser resolvida por um Atributo apropriado.
-
-Quando a ação exige conhecimento, treinamento ou técnica que uma pessoa comum não possui, a Perícia aplicável pode ser a própria Base da ação. Um Atributo alto não substitui esse requisito.
-
-```text
-MEN [5] sem Medicina
-→ não concede cirurgia.
-
-Medicina [+5] com MEN [3]
-→ Medicina pode ser a Base; MEN pode ajudar como suporte quando a resolução permitir.
-```
-
-Quando Atributo e Perícia forem ambos realmente capazes de conduzir a mesma ação, a resolução pode usar o valor mais favorável como Base e o outro como suporte, conforme `../resolucao/leitura-da-ficha-na-resolucao.md` e `../resolucao/motor-de-disputa.md`.
-
-> **Atributo não fornece repertório. Perícia não cria capacidade. A cena decide qual deles conduz a ação.**
-
----
-
-## 8. Ideia e execução
-
-O jogador pode formular uma excelente ideia mesmo quando seu personagem não possui a competência necessária para executá-la.
-
-Nesse caso, a ideia continua válida, mas sua execução depende de alguém que possua as capacidades apropriadas.
-
-> **A ideia determina o caminho. A ficha determina quem consegue executá-lo.**
-
-As regras de resolução, investigação e aplicação contextual das perícias permanecem fora desta pasta.
+> **Perícias exploram e compreendem o mundo. Ataques resolvem oposição de combate.**
