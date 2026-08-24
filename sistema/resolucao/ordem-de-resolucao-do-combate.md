@@ -90,7 +90,7 @@ Dano                → combate-e-dano.md
 Proteção / efeitos  → escalas-de-efeito.md
 Ampliação           → consolidacao.md
 Energia             → energia.md
-Cura                → recuperacao-da-vida.md
+Cura                → efeitos/cura.md
 Disputa progressiva → motor-de-disputa.md
 ```
 
