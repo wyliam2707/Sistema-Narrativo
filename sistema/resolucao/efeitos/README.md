@@ -2,28 +2,52 @@
 
 Status: APROVADO
 
-Esta pasta reúne os efeitos centrais do sistema em páginas curtas de consulta.
+Esta pasta reúne os efeitos centrais do sistema em páginas de consulta operacional.
 
-Cada página responde somente a quatro perguntas:
+Cada página deve permitir resolver seu próprio efeito sem exigir retorno a este índice para a mecânica principal.
+
+Estrutura preferida:
 
 ```text
 o que o efeito faz
 → manifestação-base
+→ resolução
 → escala ou resultado
 → regra exclusiva, se existir
+→ persistência / encerramento, quando aplicável
 ```
 
-Regras compartilhadas não são repetidas em cada efeito.
+Regras compartilhadas podem ser repetidas intencionalmente dentro das páginas para reduzir saltos de consulta durante a narração. Este README permanece como índice e referência de consistência.
+
+## Resolução comum
+
+Quando uma página não possuir fórmula própria e houver incerteza real:
+
+`Efeito efetivo = patamar do efeito usado + 1 + (Perícia aplicável × 0,2)`
+
+Sem Perícia aplicável:
+
+`Efeito efetivo = patamar do efeito usado + 1`
+
+Quando outra personagem estiver resistindo ativamente:
+
+`Resistência ativa = Base da oposição + (Suporte da oposição × 0,2)`
+
+Sem Suporte aplicável, usa-se apenas a Base da oposição. Resistências passivas, estruturas, proteções ou outros mecanismos usam o valor que realmente responde à ação.
+
+`Resultado = 2^(Efeito efetivo − Resistência efetiva)`
+
+Quando houver escala própria, ler o maior degrau que o Resultado alcançar. Regras específicas do efeito prevalecem sobre esta estrutura comum.
 
 ## Estrutura comum dos efeitos persistentes
 
 Quando um efeito permanece na cena e não possui exceção própria:
 
-`D = nível do efeito usado + (Perícia aplicável × 0,2)`
+`D = patamar do efeito usado + (Perícia aplicável × 0,2)`
 
 `V = maior entre [1] e o Atributo estrutural da Fonte`
 
-A Fonte e a Vida estrutural pertencem a `../fonte-e-vida-estrutural.md`.
+O Atributo estrutural vem da natureza real da Fonte e `V` fica fixado na criação da instância.
 
 Enquanto `V > 0`, o efeito funciona integralmente. Dano estrutural não reduz sua intensidade por si só.
 
@@ -33,7 +57,7 @@ Vida estrutural não é recuperada por Cura, descanso ou regeneração de VIDA c
 
 ## Aplicações iguais no mesmo alvo
 
-O mesmo efeito persistente aplicado novamente ao mesmo alvo consolida uma única instância.
+Quando a página do efeito não possuir exceção própria, o mesmo efeito persistente aplicado novamente ao mesmo alvo consolida uma única instância.
 
 Mesma Duração:
 
@@ -51,7 +75,7 @@ Durações diferentes:
 
 As médias mantêm decimais.
 
-Da terceira aplicação em diante, comparar a nova aplicação com o **estado consolidado atual**, não com uma média histórica das aplicações originais. Se a instância atual já sofreu dano estrutural, usar sua Vida restante atual.
+Da terceira aplicação em diante, comparar a nova aplicação com o estado consolidado atual. Se a instância atual já sofreu dano estrutural, usar sua Vida restante atual.
 
 Se a instância anterior já chegou a `V0`, uma nova aplicação cria uma nova instância completa.
 
@@ -94,4 +118,4 @@ Ampliação muda escala de manifestação; não amplia repertório.
 - `emocao.md`
 - `deslocar.md`
 
-> **Consulte a página do efeito; consulte as regras gerais somente quando elas realmente forem necessárias.**
+> **Durante o jogo, abra diretamente a página do efeito. O README existe para roteamento e consistência, não como etapa obrigatória da resolução.**
