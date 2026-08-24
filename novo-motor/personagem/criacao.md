@@ -4,148 +4,141 @@ Status: EM DESENVOLVIMENTO
 
 Este arquivo descreve o fluxo atual de criação e revisão de personagens dentro do `novo-motor/`.
 
-A regra principal continua sendo:
-
 > **Proposta não é fato. Só salvar depois da aprovação explícita do jogador.**
 
-## Ordem atual de construção
+## Núcleo mecânico
 
-A ficha é construída por blocos, seguindo a ordem visual definida em `ficha.md`:
-
-```text
-1. Descrição
-2. Atributos
-3. Perícias
-4. Referências
-5. Ataques
-6. Poderes
-7. Recursos
-8. Personalidade
-9. Histórico e conhecimento
-```
-
-O jogador pode corrigir qualquer bloco antes de aprová-lo. Uma correção pontual altera apenas o que foi pedido, salvo quando a mudança exigir consequência direta em outro campo.
-
-## 1. Descrição
-
-Registrar:
+A construção mecânica segue esta ordem:
 
 ```text
-Nome: Codinome — Nome real
-Importância:
-Controle:
-Idade:
-Peso:
-Altura:
-Descrição visual:
+1. Atributos
+2. Perícias
+3. Poderes
+4. Passivos
+5. Valores Derivados
 ```
 
-`Descrição visual` registra apenas aquilo que pode ser percebido olhando o personagem.
+Descrição, Recursos narrativos, Personalidade e Histórico podem ser preenchidos antes ou depois conforme a criação exigir, mas não formam uma camada mecânica adicional.
 
-Não incluir aqui personalidade, intenção, medo, desejo ou explicação psicológica.
+## 1. Atributos
 
-## 2. Atributos
-
-Usar os seis Atributos atuais:
+Usar:
 
 ```text
-Corpo - Força [ ] | Destreza [ ] | Agilidade [ ]
-Mente - Intelecto [ ] | Percepção [ ] | Presença [ ]
+Corpo — POD [ ] | HAB [ ] | RES [ ]
+Mente — POD [ ] | HAB [ ] | RES [ ]
 ```
 
-A escala definitiva e o procedimento de calibração permanecem sujeitos ao desenvolvimento do novo motor.
-
-## 3. Perícias
-
-Usar a lista fixa atual de 8 Perícias comuns e 8 somente treinadas.
+As funções são:
 
 ```text
-Comuns
-Esportes [ ] | Exploração [ ] | Expressão [ ] | Sociedade [ ]
-Investigação [ ] | Crime [ ] | Ofícios [ ] | Idiomas [ ]
-
-Somente treinadas
-Arcano [ ] | Ocultismo [ ] | Natureza [ ] | Medicina [ ]
-Engenharia [ ] | Ciência [ ] | Tecnologia [ ] | História [ ]
+POD → potência e intensidade
+HAB → execução, precisão e controle
+RES → resistência e sustentação
 ```
 
-Perícias cobrem exploração, conhecimento e interação com o mundo. Combate não pertence a esse bloco.
+## 2. Perícias
 
-## 4. Referências
+Usar a lista atual de Perícias em `pericias.md`.
 
-Consolidar os valores estáveis de consulta rápida:
+Perícias representam treinamento, conhecimento e experiência. Elas não formam uma lista separada de ataques.
+
+A abordagem usada pelo personagem determina qual Perícia pode ser aplicável.
+
+## 3. Poderes
+
+Escolher os efeitos ativos que definem o que o personagem pode fazer.
+
+A ficha registra:
 
 ```text
-Vida [ ] | Energia [ ] | Deslocamento: ... | Visão: ...
-Defesas - Esquiva [ ] | Vontade [ ] | Fortitude [ ] | RD: ...
+Golpe [2]
+Disparo [3]
+Explosão [2]
+Teleporte [5]
 ```
 
-Não registrar aqui Vida atual, Energia atual, condições ou outros estados temporários.
+Nos Poderes ativos, `[X]` é o máximo de Energia que pode ser investido em um único uso.
 
-As fórmulas definitivas de Defesas ainda serão fechadas em `../resolucao/`.
+Cada Poder possui arquivo próprio em `poderes/` com efeito-base, alcance, alvo, duração, dano, ampliações e demais parâmetros necessários.
 
-## 5. Ataques
+O objeto ou manifestação narrativa não cria outra regra mecânica. Uma espada pode representar Golpe; um batarang pode representar Disparo; uma granada pode representar Explosão.
 
-Registrar uma linha para cada forma básica de ataque:
+## 4. Passivos
+
+Escolher as capacidades permanentes ou estáveis do personagem.
+
+Exemplos:
 
 ```text
-Luta [ ] / arma / dano / crítico / alcance
-Disparo [ ] / arma / dano / crítico / alcance
-Magia [ ] / arma ou efeito / dano / crítico / alcance
+RD [3]
+Vida Extra [30]
+Proteção [2]
+Sentido-Aranha
+Imortalidade
+Regeneração [2]
 ```
 
-Essas linhas devem servir como consulta pronta durante conflito.
+Cada Passivo possui arquivo próprio em `passivos/`.
 
-## 6. Poderes
+Nos Passivos, `[X]` tem o significado definido pela própria descrição e não representa gasto máximo de Energia.
 
-Na ficha principal, registrar apenas os nomes dos Poderes disponíveis.
+## 5. Valores Derivados
+
+Depois que Atributos, Perícias, Poderes e Passivos estiverem definidos, consolidar os valores de consulta rápida:
 
 ```text
-## Poderes
-- Teleporte
-- Escudo Arcano
-- Petrificação
+Vida [ ] | Energia [ ]
+Esquiva [ ] | Percepção [ ] | Vontade [ ] | Fortitude [ ] | RD [ ]
+Deslocamento: [ ]
 ```
 
-Os detalhes completos serão mantidos em arquivos próprios e consultados somente quando o Poder for escolhido para uso.
+Passivos que alteram esses valores já entram no total final.
 
-O formato definitivo desses arquivos ainda será definido.
+Não inventar fórmulas ainda não fechadas apenas para preencher campos vazios.
 
-## 7. Recursos
+## Poderes durante o jogo
 
-Registrar apenas meios, infraestrutura, acesso ou bens realmente relevantes para possibilidades futuras.
-
-Não transformar o bloco em inventário de objetos comuns.
-
-## 8. Personalidade
-
-Registrar:
+O fluxo de consulta é:
 
 ```text
-Descrição mental:
-Desejos:
-Medos:
-Vínculos:
+jogador declara que quer usar um Poder
+→ listar os Poderes disponíveis
+→ jogador escolhe um
+→ abrir somente o arquivo escolhido
+→ mostrar efeito-base e ampliações
+→ jogador declara a intenção
+→ se couber no padrão, resolver
+→ se exigir ampliação, informar o custo
+→ aguardar confirmação
+→ gastar Energia e resolver
 ```
 
-Este bloco deve ser suficiente para orientar a interpretação do personagem por jogador humano ou jogador IA.
+O narrador não escolhe automaticamente uma ampliação que consuma Energia.
 
-## 9. Histórico e conhecimento
+## Sem Arsenal mecânico
 
-Registrar:
+Não criar uma etapa de compra de armas, armaduras ou itens de combate.
+
+A função mecânica desses elementos deve estar representada por Poderes ou Passivos. Objetos comuns continuam existindo na ficção quando fizer sentido.
+
+## Conteúdo narrativo
+
+A ficha ainda pode registrar:
 
 ```text
-Histórico relevante:
-Conhecimento relevante:
+Descrição
+Recursos narrativos
+Personalidade
+Histórico relevante
+Conhecimento relevante
 ```
 
-`Histórico relevante` guarda fatos passados que ainda afetam a interpretação presente.
-
-`Conhecimento relevante` guarda aquilo que o personagem sabe e que pode alterar suas decisões.
+Esses campos existem para interpretação, contexto e possibilidades ficcionais, não para criar uma quinta camada mecânica.
 
 ## Salvamento
 
-Durante a criação assistida:
+Durante criação assistida:
 
 ```text
 base disponível
@@ -156,19 +149,15 @@ base disponível
 → salvamento
 ```
 
-Conteúdo ainda em discussão não deve ser persistido como regra ou fato definitivo.
+Conteúdo ainda em discussão não deve ser persistido como regra definitiva.
 
 ## Campo indefinido
 
-Campo ainda não definido permanece vazio.
-
-Nunca usar zero apenas para representar pendência.
+Campo não definido permanece vazio.
 
 ```text
-Força [ ]  → ainda não definido
-Força [0]  → valor real definido como zero
+POD [ ] → ainda não definido
+POD [0] → valor real igual a zero
 ```
 
-## Arquivos antigos ainda não revisados
-
-Outros arquivos copiados para `novo-motor/personagem/` podem ainda conter regras do motor anterior. Quando houver conflito com este arquivo, `ficha.md`, `atributos.md`, `pericias.md`, `poderes.md` e `organizacao-visual.md`, considerar esses arquivos atuais como referência do novo modelo até que o restante seja revisado explicitamente.
+> **Zero é valor real, nunca marcador de pendência.**
