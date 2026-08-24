@@ -100,15 +100,57 @@ Inclui, quando pertinente:
 - manipulação mental;
 - manutenção da própria integridade mental sob efeitos externos.
 
-## Escala atual
+## Escala de Poder e pontos de Atributo
 
-Na etapa atual de desenvolvimento:
+A Escala de Poder do personagem determina dois limites durante a criação:
+
+1. quantos pontos totais podem ser distribuídos entre os seis Atributos;
+2. qual é o valor máximo permitido em cada Atributo.
+
+A Escala de Poder não é um Atributo e não entra diretamente em testes. Ela serve como referência de construção do personagem.
+
+| Escala de Poder | Pontos de Atributo | Máximo por Atributo |
+|---|---:|---:|
+| **[0]** | 1 | 1 |
+| **[1]** | 4 | 1 |
+| **[2]** | 8 | 2 |
+| **[3]** | 12 | 3 |
+| **[4]** | 16 | 4 |
+| **[5]** | 20 | 5 |
+| **[6]** | 25 | 6 |
+| **[7]** | 30 | 7 |
+
+Regra geral:
 
 ```text
-Atributo mínimo: [0]
-Atributo máximo: [7]
-Pontos de Atributo na criação-base: 12
+Máximo por Atributo = Escala de Poder
 ```
+
+A única exceção é a Escala de Poder `[0]`, que possui 1 ponto de Atributo e permite valor máximo `[1]` para que esse ponto possa ser distribuído.
+
+Os pontos podem ser distribuídos livremente entre:
+
+```text
+POD Corpo
+HAB Corpo
+RES Corpo
+POD Mente
+HAB Mente
+RES Mente
+```
+
+desde que o total disponível e o limite individual da Escala de Poder sejam respeitados.
+
+Exemplo de Escala de Poder `[7]`:
+
+```text
+Corpo — POD [7] | HAB [5] | RES [6]
+Mente — POD [5] | HAB [4] | RES [3]
+
+Total: 30 pontos
+```
+
+A Escala de Poder `[7]` permite chegar a `[7]` em um Atributo, mas não obriga nenhum Atributo a atingir esse valor.
 
 `[0]` é um valor real e representa capacidade comum dentro da escala; não significa campo desconhecido.
 
