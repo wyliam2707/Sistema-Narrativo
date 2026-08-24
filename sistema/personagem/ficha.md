@@ -298,11 +298,11 @@ CONTROLE: NPC
 
 `CONTROLE` é metadado estrutural e não atributo mecânico.
 
-Ele informa como o personagem participa normalmente do ciclo e quem possui autoridade usual sobre suas decisões.
+Ele informa como a personagem participa normalmente do ciclo. Nas peças com jogador dedicado, também indica quem possui autoridade usual sobre suas decisões. `CONTROLE: NPC` indica ausência de jogador dedicado e segue as regras de delegação de `../personas/npcs-e-delegacao.md`.
 
 `CONTROLE` é independente de `IMPORTÂNCIA`.
 
-> **IMPORTÂNCIA diz qual é o peso estrutural da peça. CONTROLE diz quem toma suas decisões. Uma informação não determina automaticamente a outra.**
+> **IMPORTÂNCIA diz qual é o peso estrutural da peça. CONTROLE diz como sua agência é atribuída. Uma informação não determina automaticamente a outra.**
 
 ### JOGADOR HUMANO
 
@@ -328,7 +328,20 @@ Sua Importância é definida separadamente.
 
 ### NPC
 
-É personagem de uso normal do NARRADOR.
+É uma personagem sem jogador dedicado.
+
+```text
+ROTINA EVIDENTE
+→ NARRADOR pode narrar como consequência já determinada.
+
+DECISÃO VOLUNTÁRIA RELEVANTE, NÃO ADVERSARIAL
+→ JOGADOR IA EVENTUAL assume temporariamente a peça.
+
+OPOSIÇÃO ATIVA
+→ NPC pode ser delegado ao OPOSITOR depois que o NARRADOR julgar sua disponibilidade.
+```
+
+A assunção temporária não muda o `CONTROLE` da ficha.
 
 A categoria `NPC` também não define Importância: um NPC pode ser Figurante, Relevante ou Central se a estrutura da campanha assim estabelecer.
 
@@ -350,13 +363,13 @@ NARRADOR:
 Julga se Trigon pode fazer isso e se a entrada desses assassinos é coerente.
 ```
 
-Se a proposta for aceita, os assassinos continuam sendo `NPC`, mas o NARRADOR pode **delegá-los temporariamente ao OPOSITOR** para que ele jogue com eles durante aquela oposição.
+Se a proposta for aceita e os assassinos estiverem legitimamente disponíveis para aquela oposição, eles continuam sendo `NPC`, mas podem ser **delegados temporariamente ao OPOSITOR** para que ele jogue com eles durante a disputa.
 
 Quando a delegação termina, eles continuam sendo NPCs. Não existe `CONTROLE: OPOSITOR` na ficha.
 
-O mesmo vale para qualquer NPC já existente. O OPOSITOR pode propor usar um entregador para interromper uma cena, um guarda para bloquear uma passagem ou um monstro para atacar; o NARRADOR julga a validade e, quando apropriado, executa o NPC ou o delega temporariamente ao OPOSITOR.
+O mesmo vale para qualquer NPC já existente. Rotina evidente pode ser narrada pelo NARRADOR como consequência determinada; decisão voluntária relevante não adversarial pertence ao JOGADOR IA EVENTUAL; participação em oposição ativa pode ser delegada ao OPOSITOR.
 
-> **O OPOSITOR provoca e argumenta pela oposição. O NARRADOR julga e pode disponibilizar NPCs para executá-la.**
+> **O OPOSITOR provoca e joga a oposição legitimamente delegada. O NARRADOR julga; não assume a vontade do NPC.**
 
 As regras operacionais detalhadas dessas categorias pertencem a `../personas/` e ao ciclo do sistema. Esta área apenas registra a estrutura da ficha.
 
