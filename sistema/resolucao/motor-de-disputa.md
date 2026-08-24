@@ -75,7 +75,17 @@ Uma porta pode, por exemplo, oferecer resistência estrutural baixa contra forç
 
 Não existe obrigação de condensar todas as dificuldades de um alvo em uma única Defesa universal.
 
-Quando existir oposição ativa, usar a capacidade que realmente responde ao método empregado. Não somar automaticamente várias resistências.
+Quando existir oposição ativa de outra personagem, construir a resistência com a mesma leitura de Base e Suporte, usando apenas capacidades que realmente respondam ao mecanismo empregado:
+
+`Resistência ativa = Base da oposição + (Suporte da oposição × 0,2)`
+
+Sem Suporte aplicável:
+
+`Resistência ativa = Base da oposição`
+
+O `+1` pertence à ação que tenta produzir progresso; não é acrescentado à Resistência ativa.
+
+Não somar automaticamente várias resistências ou capacidades apenas porque coexistem.
 
 ## 4. Exigência
 
