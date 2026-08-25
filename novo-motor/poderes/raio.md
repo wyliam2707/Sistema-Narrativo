@@ -17,6 +17,17 @@ Poder ofensivo de base **Mágica**, com origem em **Mente**.
 
 As distâncias são referências narrativas. Os valores em metros servem como média para interpretar a cena, não como limites rígidos.
 
+## Alvos ou Área
+
+**Alvos** e **Área** são modos alternativos de aplicação e nunca são somados no mesmo uso.
+
+Ao usar Raio, escolha **Alvos** ou **Área**.
+
+- **Alvos:** permite escolher individualmente até a quantidade selecionada de alvos dentro do Alcance do Poder.
+- **Área:** afeta todos que estiverem dentro da Área escolhida, exceto o próprio conjurador.
+
+A linha que não for escolhida naquele uso não entra no custo nem na aplicação do Poder.
+
 ## Custo
 
 Cada linha é uma progressão própria.
@@ -29,9 +40,11 @@ A primeira posição custa `+0 Mana`. Cada avanço posterior custa `+1 Mana`.
 - **Dano:** 1d8 `+0` → 2d8 `+1` → 3d8 `+2` → 4d8 `+3`
 - **Defesa:** Total `+0` → Parcial `+1`
 
-O custo final é a soma de todos os avanços escolhidos e nunca pode ultrapassar `[X]`.
+O custo final é a soma dos avanços escolhidos e nunca pode ultrapassar `[X]`.
 
-Se nenhuma alteração for declarada, Raio usa todas as posições iniciais e custa **0 Mana**.
+Como **Alvos** e **Área** são alternativos, apenas a opção usada é somada ao custo.
+
+Se nenhuma alteração for declarada, Raio usa as posições iniciais das linhas escolhidas e custa **0 Mana**.
 
 ## Uso
 
