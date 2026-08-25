@@ -79,26 +79,54 @@ O primeiro passo da progressão não aumenta o custo. Cada avanço posterior acr
 
 ## Resistência do Efeito
 
-Se o Efeito não tiver sido anulado pela Defesa, ele segue para uma resolução própria:
+Se o Efeito não tiver sido anulado pela Defesa, ele segue para uma resolução própria.
+
+Quando houver Resistência, a base é:
 
 **Efeito:** `Potência × Resistência`
 
 - o usuário usa **Potência** para impor o Efeito;
-- o alvo usa **Resistência** para suportar ou impedir o Efeito.
+- o alvo usa **Resistência** para suportar ou reduzir o Efeito.
 
 A Resistência só é resolvida depois da Defesa.
 
-## Efeito
+Cada Poder indica qual tipo de Resistência seu Efeito possui.
 
-O Efeito utiliza as famílias e progressões apropriadas do sistema.
+### Efeito [Total]
 
-Ao tentar impor um efeito mais avançado, a resolução pode resultar no efeito pretendido, em um efeito anterior da mesma progressão ou em nenhum efeito, conforme a resolução apropriada.
+Se a Resistência vencer, o **Efeito é anulado**.
+
+Nenhum efeito da progressão é aplicado.
+
+### Efeito [Parcial]
+
+Se a Resistência vencer, o Efeito é reduzido em **uma posição na progressão**.
 
 Exemplo:
 
 **Contenção:** `Lento → Imóvel → Paralisado`
 
-Uma tentativa de impor **Paralisado** pode terminar em **Imóvel** ou **Lento** se a resistência do alvo reduzir o resultado.
+Se o Poder tentar aplicar **Paralisado** e a Resistência vencer, aplica **Imóvel**.
+
+Se o Poder tentar aplicar **Imóvel** e a Resistência vencer, aplica **Lento**.
+
+Se o Poder tentar aplicar o primeiro efeito da progressão e a Resistência vencer, **nenhum Efeito é aplicado**.
+
+### Efeito [Nula]
+
+Não existe Resistência aplicável nessa etapa.
+
+Se o Efeito chegar a essa etapa da resolução, ele é aplicado conforme sua própria definição e progressão.
+
+**Efeito [Nula] não ignora as exigências da ficção.** O Poder ainda precisa possuir alvo, alcance e demais condições necessárias para produzir o Efeito.
+
+## Efeito
+
+O Efeito utiliza as famílias e progressões apropriadas do sistema.
+
+Quando a Resistência não vencer, o efeito pretendido é aplicado normalmente.
+
+Quando o Poder possuir **Efeito [Parcial]**, uma Resistência bem-sucedida reduz o resultado em uma posição da progressão. Quando possuir **Efeito [Total]**, uma Resistência bem-sucedida anula o resultado. Em **Efeito [Nula]**, não existe essa etapa de Resistência.
 
 ## Dano e Efeito no mesmo Poder
 
@@ -108,8 +136,8 @@ A resolução segue a ordem:
 
 1. resolve-se a **Defesa**;
 2. aplica-se o **Dano** conforme o tipo de Defesa e seu resultado;
-3. se o Efeito ainda puder ocorrer, resolve-se `Potência × Resistência`;
-4. aplica-se o **Efeito** correspondente ao resultado.
+3. se o Efeito ainda puder ocorrer e possuir Resistência, resolve-se `Potência × Resistência`;
+4. aplica-se o **Efeito** conforme seu tipo de Resistência e o resultado obtido.
 
 Assim, um Poder pode causar Dano sem conseguir impor o Efeito, pode não causar Dano mas ainda tentar impor o Efeito, ou pode ter ambos anulados por uma Defesa apropriada.
 
