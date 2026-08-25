@@ -26,7 +26,7 @@ Fora de combate, isso pode dificultar vigilância, investigação, comunicação
 
 Ações que dependam exclusivamente da função perdida tornam-se **impossíveis**. Ações ainda possíveis, mas fortemente prejudicadas pela ausência dessa função, sofrem **-2d**.
 
-**Efeito narrativo:** perder subitamente um sentido ou a capacidade de falar pode mudar completamente uma cena. Um guarda que fica cego pode procurar apoio, chamar ajuda, sacar uma arma, fugir ou entrar em desespero conforme sua personalidade e a situação. O estado não determina automaticamente como o personagem reage.
+**Efeito narrativo:** perder subitamente um sentido ou a capacidade de falar pode mudar completamente uma cena. A consequência concreta depende da situação, do ambiente e da forma como o personagem decide reagir.
 
 No caso de **Mudo**, escrever, gesticular ou usar outras formas de comunicação continuam possíveis quando a situação permitir.
 
@@ -34,12 +34,12 @@ No caso de **Mudo**, escrever, gesticular ou usar outras formas de comunicação
 
 ---
 
-## Inconsciente
+## Privado
 
-**Efeito mecânico:** o personagem perde a consciência e não pode realizar ações voluntárias enquanto o estado durar.
+**Efeito mecânico:** o personagem perde **todos os sentidos** enquanto o estado durar.
 
-Ele também deixa de perceber normalmente o ambiente ao redor.
+Ações que dependam de percepção sensorial tornam-se **impossíveis**. Ações que ainda possam ser realizadas sem percepção continuam possíveis conforme a ficção.
 
-**Efeito narrativo:** uma sobrecarga sensorial extrema ou efeito equivalente faz o personagem apagar. Fora de combate, isso pode interromper completamente uma vigilância, conversa, fuga, investigação ou qualquer atividade em andamento.
+**Efeito narrativo:** o personagem permanece consciente, mas fica isolado sensorialmente do ambiente. Ele ainda pode pensar, decidir e tentar agir, porém não recebe normalmente informações externas por seus sentidos.
 
-**Remoção:** termina quando a causa deixa de afetá-lo ou quando uma ação, efeito ou condição adequada o desperta.
+**Remoção:** termina quando a causa deixa de afetá-lo ou quando uma ação, efeito ou condição adequada restaura seus sentidos.
