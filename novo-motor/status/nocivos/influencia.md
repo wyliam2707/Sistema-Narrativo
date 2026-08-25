@@ -4,7 +4,7 @@ A família **Influência** reúne efeitos nocivos que alteram a forma como o per
 
 ## Enfeitiçado
 
-**Efeito mecânico:** o personagem sofre **-1d em resoluções usadas para resistir à influência social da fonte**.
+**Efeito mecânico:** o personagem sofre **-1d em resoluções usadas para resistir à influência da fonte**.
 
 **Efeito narrativo:** percebe a fonte de maneira mais favorável do que normalmente perceberia. Pode confiar mais nela, interpretar suas intenções com benevolência ou hesitar em confrontá-la.
 
@@ -16,9 +16,9 @@ O efeito não controla o personagem e não obriga uma ação específica.
 
 ## Compelido
 
-**Efeito mecânico:** o personagem sofre **-2d em resoluções usadas para resistir à influência social da fonte**.
+**Efeito mecânico:** o personagem sofre **-2d em resoluções usadas para resistir à influência da fonte**.
 
-**Efeito narrativo:** a influência é forte o bastante para distorcer seriamente seu julgamento. Pedidos, argumentos e ordens da fonte parecem muito mais razoáveis do que seriam normalmente.
+**Efeito narrativo:** a influência é forte o bastante para distorcer seriamente seu julgamento. Pedidos, argumentos ou ordens da fonte podem parecer muito mais razoáveis do que seriam normalmente.
 
 O personagem ainda mantém suas próprias decisões e não está sob controle direto.
 
@@ -28,7 +28,7 @@ O personagem ainda mantém suas próprias decisões e não está sob controle di
 
 ## Dominado
 
-**Efeito mecânico:** a fonte pode impor diretamente **uma ação específica** ao personagem, dentro dos limites do efeito que causou a Dominação.
+**Efeito mecânico:** enquanto o efeito durar, a fonte pode impor **uma ação específica por vez** ao personagem, dentro dos limites do efeito que causou a Dominação.
 
 **Efeito narrativo:** a vontade do personagem é temporariamente suprimida naquele aspecto. A fonte pode fazê-lo entregar um objeto, abrir uma porta, parar de atacar ou caminhar até determinado lugar, desde que a ação seja possível para o personagem.
 
