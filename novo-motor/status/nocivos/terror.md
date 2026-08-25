@@ -30,14 +30,12 @@ O estado não determina exatamente o que ele fará; apenas impede aproximação 
 
 ---
 
-## Paralisado
+## Aterrorizado
 
-**Efeito mecânico:** o personagem não consegue realizar ações físicas nem se deslocar enquanto o estado durar. Ações puramente mentais ainda podem ser possíveis.
+**Efeito mecânico:** o personagem não consegue realizar **ações físicas** enquanto estiver Aterrorizado. Ações puramente mentais que ainda sejam possíveis sofrem **-2d**.
 
-**Efeito narrativo:** o medo chegou ao ponto de travar completamente o corpo. O personagem pode ficar rígido, incapaz de reagir ou congelado diante da ameaça.
+**Efeito narrativo:** o medo chegou ao ponto de travar completamente o corpo e comprometer até a capacidade de organizar pensamentos sob pressão. O personagem continua consciente e mantém suas intenções, mas o terror limita severamente sua capacidade de transformá-las em ação.
 
-Fora de combate, isso pode fazê-lo permanecer imóvel diante da fonte do medo, sem conseguir fugir, atacar ou manipular objetos, mesmo estando consciente do que acontece ao redor.
-
-O estado não altera o que o personagem quer fazer; apenas impede que consiga transformar essa intenção em ação física.
+O estado não determina o que o personagem deseja ou pensa; apenas estabelece os efeitos do terror sobre sua capacidade de agir.
 
 **Remoção:** termina quando a fonte do medo deixa de afetá-lo ou quando uma ação, efeito ou condição adequada remove o estado.
