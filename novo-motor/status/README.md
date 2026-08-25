@@ -49,7 +49,7 @@ As famílias atuais são:
 - **[Aflição](nocivos/aflicao.md)** — 1 de dano; 1d3 de dano; 1d6 de dano por turno.
 - **[Posição](nocivos/posicao.md)** — Caído; Movido; Conduzido.
 - **[Influência](nocivos/influencia.md)** — Enfeitiçado; Compelido; Dominado.
-- **[Defesa](nocivos/defesa.md)** — Desprevenido; Exposto; Indefeso.
+- **[Ruína](nocivos/ruina.md)** — Desprevenido; Exposto; Indefeso.
 - **[Debilitação](nocivos/debilitacao.md)** — Fraco; Debilitado; Prostrado.
 
 ## Como interpretar um Efeito
