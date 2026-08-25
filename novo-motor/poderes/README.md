@@ -8,41 +8,117 @@ Por enquanto, este arquivo registra apenas a base já aprovada para não mistura
 
 Um Poder pode possuir **Dano**, **Efeito** ou ambos.
 
-Esses dois componentes são resolvidos de forma separada.
+Esses componentes são resolvidos em etapas próprias.
 
-### Dano
+A sequência padrão dos Poderes ofensivos é:
 
-**Dano:** `Controle × Controle`
+> **Defesa → Dano → Resistência → Efeito**
 
-- O usuário usa **Controle** para acertar o alvo.
-- O alvo usa **Controle** para evitar o ataque.
-- Se o usuário vencer, o Dano do Poder é aplicado.
+Nem todo Poder precisa usar todas essas etapas. Poderes como **Portal, Invocação, Teleporte, Barreira, Cura, Detecção** e outros efeitos não ofensivos usam apenas as etapas que fizerem sentido para sua própria natureza.
 
-### Efeito
+## Defesa
+
+A Defesa é resolvida antes do Dano e da Resistência do Efeito.
+
+Quando houver uma disputa defensiva, a base é:
+
+**Defesa:** `Controle × Controle`
+
+- O usuário usa **Controle** para acertar ou aplicar o ataque.
+- O alvo usa **Controle** para evitar ou se defender da ação.
+
+Cada Poder indica qual tipo de Defesa possui.
+
+### Defesa [Absoluta]
+
+Se a defesa vencer:
+
+- o alvo **não sofre Dano**;
+- o **Efeito é anulado** e não segue para a etapa de Resistência.
+
+Representa uma defesa capaz de evitar completamente o ataque.
+
+### Defesa [Total]
+
+Se a defesa vencer:
+
+- o alvo **não sofre Dano**;
+- o **Efeito ainda segue para a etapa de Resistência**.
+
+### Defesa [Parcial]
+
+Se a defesa vencer:
+
+- o alvo sofre **metade do Dano**;
+- o **Efeito ainda segue para a etapa de Resistência**.
+
+### Defesa [Nula]
+
+Não existe defesa aplicável nessa etapa.
+
+- o Dano é aplicado normalmente;
+- o **Efeito segue para a etapa de Resistência**.
+
+**Defesa [Nula] não significa que toda ação é automaticamente possível.** A ficção ainda determina se existe alvo, alcance, linha de ação ou qualquer outra condição necessária para o Poder funcionar.
+
+## Dano
+
+O Dano é aplicado depois da Defesa.
+
+O resultado da Defesa determina se o alvo sofre:
+
+- **Dano normal**;
+- **metade do Dano**;
+- **nenhum Dano**.
+
+A progressão básica de Dano é:
+
+`1d8 → 2d8 → 3d8 → 4d8 → 5d8`
+
+O primeiro passo da progressão não aumenta o custo. Cada avanço posterior acrescenta `+1` ao custo.
+
+## Resistência do Efeito
+
+Se o Efeito não tiver sido anulado pela Defesa, ele segue para uma resolução própria:
 
 **Efeito:** `Potência × Resistência`
 
-- O usuário usa **Potência** para impor o efeito.
-- O alvo usa **Resistência** para suportar ou impedir o efeito.
-- Se o usuário vencer, o Efeito do Poder é aplicado.
+- o usuário usa **Potência** para impor o Efeito;
+- o alvo usa **Resistência** para suportar ou impedir o Efeito.
 
-### Dano e Efeito no mesmo Poder
+A Resistência só é resolvida depois da Defesa.
 
-Um mesmo Poder pode possuir os dois componentes.
+## Efeito
 
-Nesse caso, o Dano e o Efeito são verificados separadamente:
+O Efeito utiliza as famílias e progressões apropriadas do sistema.
 
-1. `Controle × Controle` resolve o Dano.
-2. `Potência × Resistência` resolve o Efeito.
+Ao tentar impor um efeito mais avançado, a resolução pode resultar no efeito pretendido, em um efeito anterior da mesma progressão ou em nenhum efeito, conforme a resolução apropriada.
 
-É possível, portanto, que um Poder cause Dano sem conseguir impor o Efeito, imponha o Efeito sem causar Dano, consiga ambos ou falhe nos dois componentes, conforme as resoluções.
+Exemplo:
+
+**Contenção:** `Lento → Imóvel → Paralisado`
+
+Uma tentativa de impor **Paralisado** pode terminar em **Imóvel** ou **Lento** se a resistência do alvo reduzir o resultado.
+
+## Dano e Efeito no mesmo Poder
+
+Um mesmo Poder pode possuir Dano e Efeito.
+
+A resolução segue a ordem:
+
+1. resolve-se a **Defesa**;
+2. aplica-se o **Dano** conforme o tipo de Defesa e seu resultado;
+3. se o Efeito ainda puder ocorrer, resolve-se `Potência × Resistência`;
+4. aplica-se o **Efeito** correspondente ao resultado.
+
+Assim, um Poder pode causar Dano sem conseguir impor o Efeito, pode não causar Dano mas ainda tentar impor o Efeito, ou pode ter ambos anulados por uma Defesa apropriada.
 
 ## Função dos Atributos
 
 - **Controle** representa a capacidade de acertar ou evitar um ataque.
-- **Potência** representa a capacidade de impor a intensidade de um efeito.
-- **Resistência** representa a capacidade de suportar ou resistir ao efeito recebido.
-- O **maior Atributo Físico** do personagem será usado como referência para limitar o gasto de Mana/Energia do Poder; essa regra ainda será detalhada em seção própria.
+- **Potência** representa a capacidade de impor a intensidade de um Efeito.
+- **Resistência** representa a capacidade de suportar ou resistir ao Efeito recebido.
+- O **maior Atributo Físico** do personagem é a referência para limitar o gasto de Mana/Energia do Poder. Essa regra ainda será detalhada em seção própria.
 
 ## Progressões já definidas
 
