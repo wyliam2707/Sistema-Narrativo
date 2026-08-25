@@ -40,12 +40,17 @@ Traços não substituem Atributos, Perícias ou Poderes. Um Traço estabelece um
 
 Fama, Status, Conexões e Afiliação não garantem sucesso automático. Eles estabelecem reconhecimento, posição, relações ou acesso que existem na ficção; pedidos, negociações, favores e consequências continuam dependendo da situação.
 
-## Recursos e Patrimônio — a revisar
+## Recursos e Patrimônio
 
-- **Recursos —** possui capacidade financeira suficiente para adquirir bens e contratar serviços comuns compatíveis com sua condição, sem controlar cada gasto individualmente.
-- **Base [X] —** possui ou controla um local permanente e narrativamente relevante, com instalações coerentes com sua natureza e conceito.
-- **Acervo [X] —** possui acesso permanente a uma coleção relevante de informações, documentos, livros ou conhecimento sobre a área indicada.
-- **Veículo [X] —** possui acesso permanente a um veículo especial ou narrativamente relevante.
+- **Recursos [1–3] —** representa a capacidade financeira geral do personagem, sem exigir controle constante de dinheiro.
+  - **[1] Confortável —** vive confortavelmente, possui alguns luxos e consegue arcar com despesas comuns sem preocupação significativa.
+  - **[2] Rico —** pode adquirir praticamente qualquer bem ou serviço comum disponível no cenário, desde que não seja algo excepcional por natureza.
+  - **[3] Magnata —** possui riqueza excepcional, no nível de grandes bilionários fictícios como Bruce Wayne ou Tony Stark. Grandes propriedades, empresas, equipes e despesas extraordinárias podem fazer parte normalmente de sua vida.
+- **Base [1–2] —** possui ou controla um local permanente, seguro e adequado ao seu conceito.
+  - **[1] Comum —** local físico existente normalmente no cenário, mas privado, seguro e bem protegido, como mansão, bunker, laboratório, oficina, esconderijo ou quartel.
+  - **[2] Inalcançável —** base extraordinariamente isolada ou protegida, inacessível por meios comuns, como uma dimensão particular, fortaleza fora da realidade ou equivalente.
+- **Acervo [1] —** possui uma coleção relevante de livros, documentos, registros ou dados. Ao realizar uma pesquisa usando o Acervo, recebe **+1 dado** para encontrar ou compreender informações relacionadas, desde que disponha de tempo e dedicação.
+- **Veículos [1] —** possui acesso a veículos adequados ao seu conceito e necessidades habituais. Quando precisar de um veículo plausível, considera-se que ele existe e está guardado em algum local coerente, como sua casa, garagem, Base ou hangar. O Traço não faz veículos aparecerem imediatamente nem os coloca convenientemente onde o personagem estiver.
 
 ## Identidade e Acesso — a revisar
 
@@ -74,17 +79,19 @@ Exemplos incluem **Afiliação [S.H.I.E.L.D.]**, **Afiliação [Ordem dos Magos]
 
 ### Recursos
 
-**Recursos** representa capacidade financeira geral. Ele pode ser usado para comprar bens comuns, contratar serviços, pagar especialistas, hospedagem, transporte e outras despesas coerentes com a condição econômica do personagem.
+**Recursos** representa capacidade financeira geral e não exige controle constante de dinheiro. O nível determina a escala de aquisições e despesas que fazem parte normalmente da vida do personagem.
 
-Não exige controle constante de dinheiro. O Traço entra em jogo quando uma aquisição ou despesa se torna relevante para a história.
+### Base
 
-### Base [X]
+**Base** não representa dinheiro disponível, mas um lugar especial que já existe na ficção. O nível indica o quanto esse lugar é protegido ou inacessível, não seu tamanho ou luxo.
 
-**Base [X]** não representa dinheiro disponível, mas um lugar especial que já existe na ficção.
+### Acervo
 
-Uma Base pode ser uma mansão, laboratório, oficina, esconderijo, templo, castelo, nave ou complexo secreto. Suas instalações são interpretadas de acordo com sua natureza e com o conceito do personagem.
+**Acervo** representa material de pesquisa de qualidade disponível ao personagem. Ele não entrega respostas automaticamente: o bônus exige consulta, estudo, busca e tempo dedicado ao assunto.
 
-Assim, **Recursos** permite comprar ou contratar coisas comuns, enquanto **Base [X]** estabelece que um local especial e permanente já existe.
+### Veículos
+
+**Veículos** garante que o personagem possui veículos plausíveis para seu conceito, mas eles continuam existindo em locais coerentes da ficção. O Traço não permite criar ou fazer surgir um veículo durante uma perseguição ou em outro lugar onde ele não poderia estar.
 
 ### Status
 
@@ -100,20 +107,12 @@ Assim, **Recursos** permite comprar ou contratar coisas comuns, enquanto **Base 
 
 Exemplos incluem credencial policial, licença profissional, autorização de segurança, acesso diplomático ou permissão oficial para atuar em determinado ambiente.
 
-### Acervo [X]
-
-**Acervo [X]** representa uma coleção permanente de informação relevante.
-
-Pode ser uma biblioteca, banco de dados, arquivo policial, coleção arcana, registros empresariais ou qualquer outro conjunto de conhecimento coerente com a área indicada.
-
-O Traço garante acesso ao acervo, não conhecimento automático de tudo o que ele contém.
-
 ---
 
 # Princípios para a lista de compra
 
 1. Esta página contém apenas Traços positivos gerais.
-2. Traços não concedem bônus numéricos por padrão.
+2. Traços não concedem bônus numéricos por padrão, salvo quando a própria descrição do Traço estabelecer uma exceção específica.
 3. Traços não substituem Atributos ou Perícias.
 4. Traços garantem que uma vantagem existe na ficção, não que todo uso dela tenha sucesso automático.
 5. Traços com funções narrativas iguais ou muito semelhantes devem ser unidos em uma única entrada mais ampla.
