@@ -64,6 +64,13 @@ Fama, Status, Conexões e Afiliação não garantem sucesso automático. Eles es
 - **Sem Sono [1] —** não precisa dormir e não sofre as consequências normais da privação de sono.
 - **Sem Alimentação [1] —** não precisa comer nem beber para sobreviver e não sofre as consequências normais da privação de alimento ou água.
 
+## Estrutura
+
+- **Indestrutível [X] [1–2] —** a estrutura indicada não pode ser quebrada, separada ou destruída. Isso não impede o personagem de sofrer dano, ficar inconsciente ou morrer.
+  - **[1] Parte específica —** protege apenas uma estrutura ou parte delimitada, como ossos, garras ou equivalente.
+  - **[2] Corpo —** o corpo inteiro permanece estruturalmente intacto e não pode ser desmembrado ou destruído fisicamente.
+- **Artificial [X] [1] —** possui um corpo de natureza artificial, construída ou sobrenatural, como androide, golem ou morto-vivo. Sua anatomia, funcionamento e formas plausíveis de reparo são interpretados de acordo com essa natureza. O Traço não concede automaticamente imunidades, resistências ou dispensa necessidades.
+
 ---
 
 ## Princípios de interpretação
@@ -111,6 +118,14 @@ Exemplos incluem **Afiliação [S.H.I.E.L.D.]**, **Afiliação [Ordem dos Magos]
 ### Identidades e acessos comuns
 
 Identidades secretas, nomes falsos, licenças e credenciais comuns fazem parte do Conceito, profissão, Status, Afiliação ou da própria ficção do personagem quando apropriado. Eles não constituem Traços por si só.
+
+### Indestrutível
+
+**Indestrutível** protege apenas a estrutura indicada. Uma parte indestrutível não torna o restante do corpo indestrutível, e mesmo **Indestrutível [Corpo]** não funciona como Imunidade a dano.
+
+### Artificial
+
+**Artificial** define a natureza do corpo. Qualquer resistência, imunidade, ausência de sono, alimentação ou respiração precisa ser representada por outros Traços quando for relevante.
 
 ---
 
