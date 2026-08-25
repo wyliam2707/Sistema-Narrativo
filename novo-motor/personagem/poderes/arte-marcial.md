@@ -8,7 +8,7 @@ Alcance: Toque
 Alvo: 1 alvo
 Área: Toque
 Dano: 1d6 > 2d6 [+1] > 3d6 [+2] [ao dano soma-se o POD de Corpo]
-Extra: Derrubar [+1] | Desarmar [+1] | Empurrar [+1]
+Extra: Derrubar [+2] | Desarmar [+1] | Empurrar [+1]
 Defesa: Luta × Esquiva → define o dano | Luta × Fortitude → resiste ao Extra
 Duração: Instantâneo
 ```
