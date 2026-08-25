@@ -5,9 +5,9 @@ Poder ofensivo de **Arte Marcial**, com base em **Corpo**.
 ## Hub
 
 **Golpe [X]**  
-**Alcance:** Toque → Próximo  
+**Alcance:** Toque → Próximo (~3 m)  
 **Alvos:** 1 → 2 → 4  
-**Área:** Alvo → Curta → Média  
+**Área:** Alvo → Curta (~20 m) → Média (~45 m)  
 **Dano:** 1d8 → 2d8 → 3d8 → 4d8 **[+Potência]**  
 **Efeito:** Nenhum  
 **Defesa:** Total → Parcial  
@@ -15,15 +15,17 @@ Poder ofensivo de **Arte Marcial**, com base em **Corpo**.
 
 `[X]` é o máximo de **Mana** que pode ser gasto no uso do Poder.
 
+As distâncias são **referências narrativas**, não medidas rígidas. **Toque** exige contato físico; **Próximo** representa algo em torno de 3 m; **Curta** usa cerca de 20 m como referência; **Média**, cerca de 45 m. O Narrador interpreta a posição real conforme a ficção.
+
 ## Custo
 
 Cada linha é uma progressão própria.
 
 A primeira posição custa `+0 Mana`. Cada avanço posterior custa `+1 Mana`.
 
-- **Alcance:** Toque `+0` → Próximo `+1`
+- **Alcance:** Toque `+0` → Próximo (~3 m) `+1`
 - **Alvos:** 1 `+0` → 2 `+1` → 4 `+2`
-- **Área:** Alvo `+0` → Curta `+1` → Média `+2`
+- **Área:** Alvo `+0` → Curta (~20 m) `+1` → Média (~45 m) `+2`
 - **Dano:** 1d8 `+0` → 2d8 `+1` → 3d8 `+2` → 4d8 `+3`
 - **Defesa:** Total `+0` → Parcial `+1`
 
