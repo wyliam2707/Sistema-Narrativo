@@ -139,11 +139,11 @@ O resultado da Defesa determina se o alvo sofre:
 - **metade do Dano**;
 - **nenhum Dano**.
 
-A progressão básica de Dano é:
+Poderes voltados principalmente para Dano usam a progressão indicada em seu próprio Hub. Os Poderes de Efeito usam como opção de Dano imediato:
 
-`1d8 → 2d8 → 3d8 → 4d8 → 5d8`
+`Nenhum → 1d6 → 2d6`
 
-O primeiro passo da progressão não aumenta o custo. Cada avanço posterior acrescenta `+1` ao custo.
+A primeira posição da progressão não aumenta o custo. Cada avanço posterior acrescenta `+1` ao custo.
 
 ## Resistência do Efeito
 
@@ -227,22 +227,71 @@ Alguns campos dos Poderes usam progressões. O primeiro passo da progressão nã
 
 As posições usadas e seus custos dependem da progressão apresentada em cada Poder.
 
-### Dano
+## Campos comuns de um Poder
 
-`1d8 → 2d8 → 3d8 → 4d8 → 5d8`
+Um Poder apresenta apenas os campos que façam sentido para sua natureza. Entre os campos já usados estão:
 
-As limitações exatas dessas progressões pelos Atributos ainda serão definidas.
+- **Alcance**;
+- **Alvos**;
+- **Área**;
+- **Dano**;
+- **Efeito**;
+- **Defesa**;
+- **Duração**.
 
-## Campos de um Poder
+Cada arquivo de Poder deve ser suficientemente claro para ser usado sem consultar regras externas além das regras gerais do motor.
 
-A estrutura planejada para cada Poder básico é:
+## Chassi padrão dos Poderes de Efeito
 
-- **Ação**
-- **Alcance**
-- **Alvos**
-- **Efeito**
-- **Acerto**
-- **Defesa**
-- **Observação**
+As famílias de Efeito nocivo usam o mesmo chassi modular. O que muda de um Poder para outro é principalmente a progressão central da família.
 
-Esses campos serão detalhados um por vez.
+> **[Efeito] [X]**  
+> **Alcance:** Curto (~20 m) → Médio (~45 m) → Longo (~90 m)  
+> **Alvos:** 1 → 2 → 4 → 8  
+> **Área:** Toque → Próximo (~3 m) → Curto (~20 m)  
+> **Dano:** Nenhum → 1d6 → 2d6  
+> **Efeito:** progressão da família  
+> **Defesa:** Total → Parcial  
+> **Efeito:** Total → Parcial → Nula  
+> **Duração:** Turno → Cena → Hora
+
+### Alvos ou Área
+
+**Alvos** e **Área** são modos alternativos de aplicação e nunca são somados no mesmo uso.
+
+- **Alvos:** escolhe individualmente até a quantidade selecionada dentro do Alcance.
+- **Área:** afeta todos dentro da Área escolhida, exceto o próprio conjurador.
+
+A opção não usada não entra no custo do Poder.
+
+### Custos do chassi
+
+- **Alcance:** Curto `+0` → Médio `+1` → Longo `+2`
+- **Alvos:** 1 `+0` → 2 `+1` → 4 `+2` → 8 `+3`
+- **Área:** Toque `+0` → Próximo `+1` → Curto `+2`
+- **Dano:** Nenhum `+0` → 1d6 `+1` → 2d6 `+2`
+- **Efeito da família:** primeiro estágio `+0` → segundo `+1` → terceiro `+2`
+- **Defesa:** Total `+0` → Parcial `+1`
+- **Resistência do Efeito:** Total `+0` → Parcial `+1` → Nula `+2`
+- **Duração:** Turno `+0` → Cena `+1` → Hora `+2`
+
+O custo final é a soma dos avanços escolhidos e nunca pode ultrapassar `[X]`.
+
+Antes da resolução, o Narrador mostra a configuração e o custo e pede apenas:
+
+> **Confirmar uso por X Mana?**
+
+### Poderes de Efeito atuais
+
+- **Sentidos:** Ofuscado → Cego / Surdo / Mudo → Privado.
+- **Contenção:** Lento → Imóvel → Paralisado.
+- **Terror:** Abalado → Apavorado → Aterrorizado.
+- **Exaustão:** Fatigado → Exausto → Inconsciente.
+- **Perturbação:** Desorientado → Confuso → Atordoado.
+- **Aflição:** 1 de dano → 1d3 de dano → 1d6 de dano por turno.
+- **Posição:** Caído → Movido → Conduzido.
+- **Influência:** Enfeitiçado → Compelido → Dominado.
+- **Ruína:** Desprevenido → Exposto → Indefeso.
+- **Debilitação:** Fraco → Debilitado → Prostrado.
+
+**Sentidos** possui uma escolha no segundo estágio: Cego, Surdo ou Mudo têm o mesmo custo. **Aflição** distingue o Dano imediato opcional do chassi do Dano persistente causado por sua própria progressão.
