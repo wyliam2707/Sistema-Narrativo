@@ -132,11 +132,35 @@ Eles respondem à pergunta:
 
 > **O corpo desse personagem possui alguma propriedade permanente incomum?**
 
-Exemplos:
+### Traços positivos
 
-- **Ossos Indestrutíveis —** seus ossos não podem ser quebrados.
-- **Corpo Elástico —** seu corpo pode se deformar sem sofrer ferimentos causados apenas pela deformação normal.
-- **Corpo Artificial —** seu corpo não depende das mesmas necessidades biológicas de uma pessoa comum, conforme definido pelo conceito do personagem.
+- **Indestrutível [X] —** a estrutura indicada não pode ser quebrada, separada ou destruída. Isso não torna o personagem imune a dano nem impede sua morte.
+- **Artificial [X] —** o corpo possui uma natureza artificial, não biológica ou sobrenatural definida pelo tipo indicado.
+
+Exemplos de **Indestrutível [X]** incluem **Indestrutível [Ossos]**, **Indestrutível [Garras]** e **Indestrutível [Corpo]**.
+
+**Indestrutível [Corpo]** significa que o corpo permanece estruturalmente intacto, inclusive após a morte. O personagem ainda pode sofrer dano, ficar inconsciente, morrer, ser preso, selado, banido ou colocado em uma situação da qual não consiga escapar.
+
+A combinação de Traços pode produzir consequências próprias sem criar uma regra nova. Um personagem com **Indestrutível [Corpo]** e **Regeneração**, por exemplo, pode ser extremamente difícil de eliminar permanentemente, mas ainda pode ser contido ou permanecer preso sob uma condição que sua regeneração não resolve.
+
+Exemplos de **Artificial [X]** incluem **Artificial [Androide]**, **Artificial [Golem]** e **Artificial [Morto-vivo]**.
+
+**Artificial [X]** não concede automaticamente imunidades, resistências ou dispensa necessidades. Essas características precisam estar descritas por outros Traços quando forem relevantes.
+
+A natureza artificial modifica a interpretação narrativa do corpo. Um androide pode continuar funcional mesmo sem membros, um golem pode ser restaurado por meios arcanos e um morto-vivo pode exigir métodos incomuns de tratamento.
+
+Qualquer método coerente com a natureza do personagem pode restaurá-lo. Engenharia pode reparar um androide, Ocultismo pode restaurar um golem e magia pode reparar uma máquina se o efeito e o conhecimento envolvidos tornarem isso coerente.
+
+Recuperar Vida representa restaurar a condição do personagem, mas não recria automaticamente partes perdidas quando isso não fizer sentido. Uma peça destruída ainda pode precisar ser recolocada, reconstruída ou substituída.
+
+### Traços negativos
+
+- **Frágil [X] —** a estrutura indicada se quebra, rompe ou sofre dano estrutural com facilidade quando a situação torna isso relevante.
+- **Fraqueza [X] —** diante da fonte indicada, uma proteção ou propriedade especial do corpo deixa de funcionar normalmente; contra essa fonte, o corpo pode ser tratado como comum para os efeitos relacionados.
+
+Exemplos de **Fraqueza [X]** podem incluir criptonita contra um corpo normalmente indestrutível, luz solar contra certas naturezas vampíricas ou fogo contra uma estrutura especialmente vulnerável a ele.
+
+**Fraqueza [X]** não significa necessariamente receber dano adicional. Ela estabelece que a fonte indicada pode ignorar, neutralizar ou suspender uma vantagem especial que normalmente protegeria o personagem.
 
 Uma propriedade estrutural não deve conceder automaticamente uma forma de ataque. Se uma característica estrutural for usada deliberadamente para ferir ou afetar outra pessoa, essa aplicação deve ser representada por um Poder.
 
