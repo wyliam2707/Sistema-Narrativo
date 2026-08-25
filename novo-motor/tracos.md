@@ -203,14 +203,32 @@ Eles respondem à pergunta:
 
 > **O personagem percebe naturalmente algo que outras pessoas normalmente não perceberiam?**
 
-Exemplos:
+### Traços de Sentidos
 
-- **Visão no Escuro —** enxerga normalmente na ausência de luz.
-- **Sentidos Aguçados —** possui sentidos muito mais desenvolvidos que os de uma pessoa comum.
-- **Sentido de Perigo —** não pode ser pego de surpresa por perigos que esse sentido seja capaz de detectar.
-- **Visão Térmica —** percebe fontes de calor mesmo sem iluminação comum.
+- **[X] Aguçado —** com o sentido indicado, a fonte é percebida como se estivesse um grau de alcance mais próxima.
+- **Detecção [X] —** percebe automaticamente a presença do elemento indicado quando ele puder ser percebido dentro da situação.
 
-Esses Traços ampliam ou modificam aquilo que o personagem consegue perceber, mas não produzem efeitos sobre outras pessoas.
+Exemplos de **[X] Aguçado** incluem **Visão Aguçada**, **Audição Aguçada** e **Olfato Aguçado**.
+
+Para um sentido aguçado, trate o alcance da fonte assim:
+
+- **Curto** é percebido como **Toque**.
+- **Médio** é percebido como **Curto**.
+- **Longo** é percebido como **Médio**.
+
+O Traço não exige cálculo de metros. Ele apenas representa que, para aquele sentido, o personagem percebe a fonte como se estivesse um passo mais perto.
+
+Exemplos de **Detecção [X]** incluem **Detecção [Magia]**, **Detecção [Vida]**, **Detecção [Mentiras]** e **Detecção [Perigo]**.
+
+**Detecção [X]** não exige teste para saber se a presença indicada foi percebida. Se o Traço se aplica à situação, o personagem detecta e pronto.
+
+A Detecção informa a presença daquilo que descreve, mas não precisa revelar automaticamente todos os detalhes. **Detecção [Magia]**, por exemplo, pode revelar que existe magia presente; compreender sua origem, natureza ou funcionamento ainda pode exigir conhecimento, investigação ou um teste apropriado.
+
+**Detecção [Perigo]** pode representar capacidades como um sentido aranha: o personagem percebe que existe perigo iminente, sem necessariamente saber de imediato sua origem ou a melhor forma de evitá-lo.
+
+A regra geral é:
+
+> **O Traço garante a percepção que descreve; testes servem para interpretar, analisar ou agir sobre aquilo que foi percebido.**
 
 ---
 
