@@ -25,12 +25,20 @@ Traços não substituem Atributos, Perícias ou Poderes. Um Traço estabelece um
 - **Orientação [2] —** sabe naturalmente onde está, mantém noção precisa de direção e horário e consegue determinar como chegar a um local habitado conhecido ou plausivelmente acessível.
 - **Aparência Discreta [1] —** causa uma primeira impressão pouco ameaçadora, comum e fácil de ignorar enquanto não houver motivo para vê-lo de outra forma.
 
-## Posição e Relações — a revisar
+## Posição e Relações
 
-- **Fama —** é amplamente reconhecido por pessoas para quem sua fama seria relevante.
-- **Status [X] —** possui posição reconhecida dentro do meio ou instituição indicada, incluindo privilégios e autoridade coerentes com essa posição.
-- **Conexões —** possui uma rede útil de pessoas às quais pode recorrer por informações, acesso, serviços ou ajuda plausível. O Traço garante que contatos coerentes existem, mas não que ajudem de graça, aceitem qualquer pedido ou tenham sucesso.
-- **Afiliação [X] —** pertence a uma organização capaz de fornecer apoio coerente com seus recursos, mas que também pode exigir ajuda, missões, deveres ou lealdade.
+- **Fama [1] —** é publicamente reconhecido por pessoas para quem sua fama seria relevante. A fama pode facilitar atenção, acesso e tratamento especial quando apropriado, mas também aumenta sua exposição e torna mais difícil agir sem ser reconhecido.
+- **Status [1–2] —** possui uma posição reconhecida dentro de um meio ou instituição.
+  - **[1] Menor —** posição relevante, mas limitada, como um delegado.
+  - **[2] Maior —** posição elevada, como um prefeito.
+- **Conexões [1–2] —** possui pessoas às quais pode recorrer de forma coerente com sua história e posição.
+  - **[1] Aliados —** possui aliados e contatos que podem fornecer informação, acesso, serviços ou ajuda, normalmente mediante boa vontade, pagamento, favores ou condições.
+  - **[2] Subordinados —** possui pessoas que normalmente trabalham sob sua direção ou cumprem funções para o personagem, dentro dos limites coerentes com essa relação.
+- **Afiliação [1–2] —** pertence a uma organização com a qual mantém uma relação de mão dupla.
+  - **[1] Agente —** é membro ou agente da organização e pode receber apoio coerente com sua função.
+  - **[2] Liderança —** ocupa uma posição de liderança dentro da organização e pode orientar ou mobilizar parte de seus membros e recursos de forma coerente com seu cargo.
+
+Fama, Status, Conexões e Afiliação não garantem sucesso automático. Eles estabelecem reconhecimento, posição, relações ou acesso que existem na ficção; pedidos, negociações, favores e consequências continuam dependendo da situação.
 
 ## Recursos e Patrimônio — a revisar
 
@@ -50,17 +58,17 @@ Traços não substituem Atributos, Perícias ou Poderes. Um Traço estabelece um
 
 ### Conexões
 
-**Conexões** representa uma rede ampla e plausível de pessoas às quais o personagem pode recorrer conforme sua história, profissão, posição social e conceito.
+**Conexões** cria relações úteis, não resultados automáticos.
 
-O Traço cria a oportunidade de pedir ajuda, mas não substitui negociação, pagamento, favores ou testes quando eles forem relevantes.
+Em **[1]**, o personagem possui aliados e contatos aos quais pode recorrer, mas essas pessoas continuam tendo interesses próprios e podem cobrar dinheiro, favores ou condições.
 
-Um contato pode fornecer informação, prestar um serviço, abrir uma porta, conseguir uma reunião ou realizar algo que normalmente exigiria conhecer a pessoa certa. Isso não significa que fará de graça ou sem condições.
+Em **[2]**, o personagem possui subordinados ou pessoas que normalmente trabalham sob sua direção. Isso não significa obediência irrestrita nem sucesso garantido em qualquer tarefa.
 
 ### Afiliação [X]
 
 **Afiliação [X]** representa uma relação de mão dupla com uma organização.
 
-A organização pode fornecer informação, abrigo, recursos, transporte, treinamento, apoio ou outras formas de ajuda coerentes com sua natureza. Em troca, também pode cobrar favores, impor deveres, exigir lealdade ou pedir ajuda quando precisar.
+A organização pode fornecer informação, abrigo, recursos, transporte, treinamento, apoio ou outras formas de ajuda coerentes com sua natureza e com a posição do personagem. Em troca, também pode cobrar favores, impor deveres, exigir lealdade ou pedir ajuda quando precisar.
 
 Exemplos incluem **Afiliação [S.H.I.E.L.D.]**, **Afiliação [Ordem dos Magos]** ou **Afiliação [Guilda]**.
 
@@ -78,9 +86,13 @@ Uma Base pode ser uma mansão, laboratório, oficina, esconderijo, templo, caste
 
 Assim, **Recursos** permite comprar ou contratar coisas comuns, enquanto **Base [X]** estabelece que um local especial e permanente já existe.
 
-### Status [X]
+### Status
 
-**Status [X]** representa posição reconhecida dentro de um meio ou instituição. Ele pode trazer privilégios, deferência ou autoridade compatíveis com essa posição, mas não garante obediência irrestrita nem sucesso automático.
+**Status** representa uma posição reconhecida dentro de um meio ou instituição. O nível define a importância dessa posição, não um bônus numérico em testes.
+
+### Fama
+
+**Fama** pode abrir portas, chamar atenção ou facilitar acesso quando o reconhecimento for útil. A mesma visibilidade também pode atrair curiosos, imprensa, inimigos ou dificultar ações discretas.
 
 ### Credenciais [X]
 
@@ -106,7 +118,8 @@ O Traço garante acesso ao acervo, não conhecimento automático de tudo o que e
 4. Traços garantem que uma vantagem existe na ficção, não que todo uso dela tenha sucesso automático.
 5. Traços com funções narrativas iguais ou muito semelhantes devem ser unidos em uma única entrada mais ampla.
 6. A lista deve permanecer curta, ampla e reutilizável.
-7. **Sorte** não faz parte da lista por enquanto, pois sua função pode se sobrepor aos Pontos de Plot.
+7. Um Traço só recebe múltiplos níveis quando isso for definido explicitamente durante a revisão.
+8. **Sorte** não faz parte da lista por enquanto, pois sua função pode se sobrepor aos Pontos de Plot.
 
 ---
 
