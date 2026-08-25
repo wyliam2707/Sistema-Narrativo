@@ -240,10 +240,16 @@ Eles respondem à pergunta:
 
 > **O personagem se recupera ou se repara naturalmente de uma maneira incomum?**
 
-Exemplos:
+### Traços de Recuperação
 
-- **Regeneração —** recupera 1 de Vida por minuto.
-- **Autorreparo —** recupera danos naturalmente mesmo possuindo um corpo mecânico ou artificial.
+- **Regeneração —** recupera **1 de Vida por minuto** automaticamente.
+- **Autorreparo —** recupera **1 de Vida por minuto** automaticamente quando a recuperação representa reparo de um corpo artificial, mecânico ou construído.
+
+Os dois Traços usam a mesma medida. A diferença está apenas na natureza narrativa da recuperação.
+
+Recuperar Vida restaura a condição do personagem, mas não remove automaticamente a causa contínua de um problema e não recria partes perdidas quando isso não for coerente.
+
+Uma estaca ainda permanece cravada, ácido continua agindo enquanto houver contato e uma peça destruída pode continuar precisando ser substituída. Da mesma forma, qualquer método coerente com a natureza do personagem pode complementar ou realizar sua recuperação.
 
 A recuperação deve acontecer de forma passiva ou automática para ser um Traço. Uma capacidade usada deliberadamente para curar outra pessoa é um Poder.
 
@@ -255,17 +261,26 @@ Traços de **Resistência** tornam o personagem mais difícil de afetar por uma 
 
 A estrutura básica é:
 
-> **Resistência a [Fonte] — recebe +1 dado ao resistir a efeitos dessa fonte.**
+> **Resistência [Fonte] — recebe +1 dado ao resistir aos efeitos produzidos diretamente pela fonte indicada.**
 
 Exemplos:
 
-- **Resistência a Fogo —** recebe +1 dado ao resistir a fogo e calor.
-- **Resistência a Frio —** recebe +1 dado ao resistir a frio extremo.
-- **Resistência a Veneno —** recebe +1 dado ao resistir a venenos e toxinas.
-- **Resistência Mental —** recebe +1 dado ao resistir a efeitos que atacam ou tentam controlar sua mente.
-- **Resistência a Radiação —** recebe +1 dado ao resistir aos efeitos de radiação.
+- **Resistência [Fogo]**
+- **Resistência [Frio]**
+- **Resistência [Veneno]**
+- **Resistência [Radiação]**
+- **Resistência [Mental]**
+- **Resistência [Magia]**
 
 O dado adicional representa maior consistência para suportar aquela fonte. A Resistência não garante sucesso e não elimina automaticamente o efeito.
+
+Resistências sempre se aplicam à **fonte que efetivamente produz o efeito**, e não necessariamente à capacidade que iniciou a ação.
+
+Se um mago usa magia para arremessar uma pedra, por exemplo, a magia movimentou a pedra, mas o que atinge o alvo é um impacto físico. **Resistência [Magia]** não protege contra esse impacto.
+
+Da mesma forma, se magia cria fogo, o efeito produzido é fogo; se magia controla diretamente a mente, a fonte relevante pode ser magia ou efeito mental conforme aquilo que está efetivamente agindo sobre o alvo; se magia derruba uma parede sobre alguém, o impacto da parede continua sendo físico.
+
+Não existe **Resistência [Dano]**. Resistências devem sempre indicar uma fonte ou tipo de efeito claro.
 
 ---
 
@@ -275,18 +290,21 @@ Traços de **Imunidade** representam fontes específicas que simplesmente não c
 
 A estrutura básica é:
 
-> **Imunidade a [Fonte] — efeitos dessa fonte não afetam o personagem.**
+> **Imunidade [Fonte] — efeitos produzidos diretamente pela fonte indicada não afetam o personagem.**
 
 Exemplos:
 
-- **Imunidade a Veneno —** venenos e toxinas não produzem efeito.
-- **Imunidade a Doenças —** doenças não produzem efeito.
-- **Imunidade a Fogo —** fogo não causa seus efeitos normais sobre o personagem.
-- **Imunidade a Controle Mental —** efeitos destinados a controlar diretamente sua mente não funcionam.
+- **Imunidade [Veneno]**
+- **Imunidade [Doenças]**
+- **Imunidade [Fogo]**
+- **Imunidade [Controle Mental]**
+- **Imunidade [Magia]**
 
-Imunidades devem possuir uma **fonte clara e específica**.
+Imunidades sempre possuem uma **fonte clara e específica**. Não existe **Imunidade [Dano]**.
 
-Evite Traços excessivamente amplos como **Imunidade a Dano**, pois eles anulam categorias inteiras de conflito em vez de definir uma propriedade específica do personagem.
+Assim como nas Resistências, deve-se observar aquilo que efetivamente produz o efeito. Um personagem com **Imunidade [Magia]** ainda pode ser ferido por uma pedra arremessada magicamente, pois o que o atinge é um impacto físico.
+
+A Imunidade impede o efeito direto da fonte indicada; ela não torna o personagem imune a todas as consequências indiretas que essa fonte possa provocar no ambiente.
 
 ---
 
