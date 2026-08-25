@@ -33,16 +33,67 @@ Acima de **Longo**, a distância deixa de ser tratada como alcance comum e passa
 
 Quando uma dessas categorias aparecer em **Alcance** ou **Área**, o Narrador usa essa média como referência e interpreta a posição real conforme a ficção.
 
+## Acerto e Defesa por contexto
+
+Quando um Poder precisa atingir alguém, Acerto e Defesa são resolvidos de forma oposta:
+
+- **Acerto:** `4d6 + Atributo de Acerto`
+- **Defesa:** `4d6 + Atributo de Defesa`
+
+O Atributo não precisa ser escrito em cada Poder. O Narrador determina quais Atributos fazem sentido pela forma como a ação está sendo realizada e pela forma como o alvo tenta evitá-la ou resisti-la.
+
+### Ações claramente definidas
+
+Quando a própria natureza da ação já define como ela é executada, usa-se o Atributo correspondente.
+
+Exemplos:
+
+- **soco, garras, empurrão ou arremesso físico:** usam **Controle** para o Acerto;
+- **compulsão, invasão mental ou efeito aplicado diretamente à mente:** usam **Intelecto** para o Acerto.
+
+Nesses casos, não existe escolha automática pelo maior Atributo apenas para obter vantagem.
+
+### Poderes ambíguos
+
+Quando um Poder puder ser aplicado de mais de uma forma coerente e o jogador apenas declarar seu uso, sem especificar o método, o Narrador usa para o atacante o **melhor entre Controle e Intelecto**.
+
+Isso representa o personagem usando naturalmente o Poder da forma mais eficiente que sabe.
+
+Exemplo:
+
+> **Uso Raio.**
+
+Se Raio puder ser lançado tanto por condução mágica quanto por um gesto ou arremesso dirigido, usa-se automaticamente o melhor entre **Controle** e **Intelecto** para o Acerto.
+
+### Declaração deliberada
+
+Se o jogador descrever deliberadamente como está usando o Poder, essa descrição define o Atributo quando ela tornar a forma de ataque clara.
+
+Exemplos:
+
+> **Conjuro uma lança de energia e arremesso contra o alvo.**
+
+O ataque usa **Controle**.
+
+> **Faço a energia perseguir e atingir o alvo por condução mágica.**
+
+O ataque usa **Intelecto**.
+
+A descrição deliberada tem prioridade sobre a escolha automática do melhor Atributo.
+
+### Defesa
+
+O Atributo de Defesa é escolhido de forma independente do Atributo de Acerto.
+
+O Narrador observa **como o alvo pode evitar ou resistir ao ataque** e usa o Atributo coerente com essa resposta.
+
+Assim, um Poder produzido por magia ainda pode exigir uma defesa física se o alvo puder esquivar, bloquear ou sair da trajetória; um ataque que age diretamente sobre a mente pode exigir uma defesa mental.
+
+Quando mais de uma defesa for plausível, usa-se a melhor combinação coerente com a ficção para quem está se defendendo.
+
 ## Defesa
 
 A Defesa é resolvida antes do Dano e da Resistência do Efeito.
-
-Quando houver uma disputa defensiva, a base é:
-
-**Defesa:** `Controle × Controle`
-
-- O usuário usa **Controle** para acertar ou aplicar o ataque.
-- O alvo usa **Controle** para evitar ou se defender da ação.
 
 Cada Poder indica qual tipo de Defesa possui.
 
@@ -160,8 +211,9 @@ Assim, um Poder pode causar Dano sem conseguir impor o Efeito, pode não causar 
 
 ## Função dos Atributos
 
-- **Controle** representa a capacidade de acertar ou evitar um ataque.
-- **Potência** representa a capacidade de impor a intensidade de um Efeito.
+- **Controle** pode representar precisão, coordenação ou execução física do ataque.
+- **Intelecto** pode representar direção, cálculo ou condução mental do ataque.
+- **Potência** representa a capacidade de impor a intensidade de um Efeito físico.
 - **Resistência** representa a capacidade de suportar ou resistir ao Efeito recebido.
 - O **maior Atributo Físico** do personagem é a referência para limitar o gasto de Mana/Energia do Poder. Essa regra ainda será detalhada em seção própria.
 
