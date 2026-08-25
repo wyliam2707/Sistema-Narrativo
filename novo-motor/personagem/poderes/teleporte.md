@@ -1,44 +1,41 @@
 # Teleporte
 
+## HUD
+
 ```text
 Teleporte [X]
-
-Alvo: 1 alvo > [+1 PM POD alvos] [+2 PM POD ×2 alvos]
-Destino: Local conhecido > [+1 PM Visitado] [+2 PM Descrição]
-Distância: até 100 km > [+1 PM 500 km] [+2 PM Ilimitado]
+Alcance: Toque
+Alvo: Si mesmo > Toque [+1]
+Distância: Cidade > Estado [+1] > País [+2] > Planeta [+3]
+Local: Conhecido > Visitado [+1] > Descrição [+2]
+Defesa: Foco × Vontade → somente se o alvo resistir
+Duração: Instantâneo
 ```
 
-`[X]` é o máximo de Energia que o personagem pode investir neste Poder por uso.
+## Resolução
 
-As ampliações de linhas diferentes podem ser combinadas, desde que a soma total não ultrapasse `[X]`.
-
-Exemplo:
+`[X]` é o máximo de Mana que pode ser gasto neste Poder em uma única utilização.
 
 ```text
-+2 PM POD ×2 alvos
-+2 PM Descrição
-+1 PM 500 km
-Total: 5 PM
+Mínimo: [1]
+Máximo: [5]
 ```
 
-## Uso pelo narrador
+O efeito-base custa `0 Mana`.
 
-Se a intenção declarada pelo jogador couber no efeito-base, o Teleporte acontece com `0 PM`.
+Cada passo de uma progressão aumenta o custo em `+1 Mana`. O valor `[+X]` indica o custo total daquele nível, não a soma dos níveis anteriores.
 
-Se algum parâmetro exceder o efeito-base, o narrador informa qual ampliação é necessária e seu custo antes de gastar Energia.
+Ampliações de linhas diferentes podem ser combinadas, mas a soma de Mana gasta no uso não pode ultrapassar `[X]`.
 
-Exemplo:
+Em uma mesma linha, usa-se apenas um dos níveis disponíveis.
 
-```text
-Jogador: "Teleporto para casa."
+### Defesa
 
-Se casa estiver dentro de 100 km e for um Local conhecido:
-→ 0 PM; resolver.
+Se o alvo aceitar o Teleporte, não há teste de Defesa.
 
-Se casa estiver a 230 km:
-→ informar que [+1 PM 500 km] é necessário;
-→ aguardar confirmação;
-→ somente então gastar 1 PM e resolver.
-```
+Se o alvo resistir, resolver `Foco × Vontade`.
 
-O narrador nunca escolhe automaticamente uma ampliação que consuma Energia.
+- Foco vence ou empata: o alvo é transportado.
+- Vontade vence: o alvo não é transportado.
+
+O narrador nunca escolhe automaticamente uma ampliação que consuma Mana. Quando a intenção declarada exigir uma ampliação, informa o custo e aguarda confirmação antes de gastar Mana.
