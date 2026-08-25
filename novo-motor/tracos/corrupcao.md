@@ -25,6 +25,18 @@ As regras gerais de compra, pontos iniciais e uso de Corrupções durante a cria
 
 ---
 
+## Corrupções e Pontos de Trama
+
+Quando uma Corrupção coloca o personagem diante de uma **escolha real** e ele cede ao Traço, aceitando a dificuldade ou complicação que isso produz, pode receber **+1 Ponto de Trama**, respeitando o limite diário definido em **[../trama.md](../trama.md)**.
+
+Se o personagem resiste, enfrenta ou procura contornar a Corrupção, normalmente não recebe esse ponto.
+
+Consequências automáticas não retiram a agência do jogador. Uma Corrupção pode causar dano, impedir uma ação ou aplicar uma penalidade como regra objetiva sem permitir que o Narrador decida voluntariamente pelo personagem.
+
+Pontos de Trama podem reduzir penalidades numéricas quando a regra de Trama permitir, mas não anulam por si só uma impossibilidade absoluta estabelecida por **Restrição**.
+
+---
+
 # Corrupções
 
 ## Fraqueza [X] [-1 ou -2]
@@ -87,7 +99,7 @@ Exemplos de combinações inválidas:
 
 A simples exposição direta à condição indicada causa dano contínuo ao personagem.
 
-Enquanto permanecer diretamente exposto a `[X]`, o personagem sofre **1 de dano por turno**.
+Enquanto permanecer diretamente exposto a `[X]`, o personagem sofre **1 de dano por turno**. **Cada turno corresponde a 10 segundos.**
 
 Esse dano é **automático**: não exige teste, não entra em uma resolução comum de dano e não pode ser reduzido por Resistência, defesa ou outro mecanismo normal de redução.
 
@@ -110,6 +122,8 @@ A Exposição deixa de causar dano assim que a exposição direta termina.
 Alimentação comum não satisfaz a necessidade sobrenatural do personagem. Para se alimentar adequadamente, ele precisa consumir a fonte indicada por `[X]`.
 
 Enquanto essa necessidade não tiver sido satisfeita, o personagem **não recupera Vida por descanso**.
+
+A Dieta Especial é considerada satisfeita quando o personagem consome uma quantidade adequada da fonte, conforme a ficção. Depois disso, ele pode recuperar Vida normalmente no **próximo repouso válido**. Após esse repouso, a necessidade precisa ser satisfeita novamente para uma nova recuperação de Vida por descanso.
 
 Dieta Especial não causa dano automaticamente e não obriga o personagem a consumir a fonte. Ela estabelece uma necessidade sobrenatural real e a consequência específica de ignorá-la.
 
@@ -194,17 +208,17 @@ A estabilidade sobrenatural do personagem depende de um objeto, lugar ou víncul
 Quando a ligação com a Âncora é perdida, destruída, rompida ou deixa de estar disponível de modo relevante, aplica-se imediatamente a consequência correspondente ao valor da Corrupção.
 
 - **[-1] Instável —** o personagem perde **todos os seus Pontos de Energia**.
-- **[-2] Vital —** o personagem fica imediatamente com **1 de Vida**.
+- **[-2] Vital —** se possuir mais de **1 de Vida**, sua Vida atual é reduzida imediatamente para **1**.
 
-Âncora não mata automaticamente o personagem. Mesmo em `[-2]`, sua consequência é deixá-lo com **1 de Vida**.
+**Âncora nunca aumenta Vida.** Se o personagem já estiver com 1 ou menos de Vida, permanece com o valor atual.
 
 ### Exemplos
 
 - **Âncora [Amuleto] [-1]** — se perder o amuleto ou ele for destruído, perde todos os Pontos de Energia.
 - **Âncora [Arma Vinculada] [-1]** — se a arma vinculada for destruída ou separada de modo relevante, perde todos os Pontos de Energia.
-- **Âncora [Filactério] [-2]** — se o filactério for destruído, fica imediatamente com 1 de Vida.
-- **Âncora [Coração Oculto] [-2]** — se o coração preservado fora do corpo for destruído, fica imediatamente com 1 de Vida.
-- **Âncora [Território] [-2]** — se o vínculo sobrenatural com o território for rompido, fica imediatamente com 1 de Vida.
+- **Âncora [Filactério] [-2]** — se o filactério for destruído e possuir mais de 1 de Vida, sua Vida atual é reduzida para 1.
+- **Âncora [Coração Oculto] [-2]** — se o coração preservado fora do corpo for destruído e possuir mais de 1 de Vida, sua Vida atual é reduzida para 1.
+- **Âncora [Território] [-2]** — se o vínculo sobrenatural com o território for rompido e possuir mais de 1 de Vida, sua Vida atual é reduzida para 1.
 
 ---
 
