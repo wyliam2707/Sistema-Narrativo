@@ -8,6 +8,7 @@ A proposta é construir as regras do zero, registrando apenas conceitos já disc
 
 - [Atributos](./atributos.md) — capacidades fundamentais do personagem, suas funções e a escala de valores.
 - [Perícias](./pericias.md) — áreas amplas de treinamento e experiência, como são aplicadas aos testes e como o Narrador deve interpretá-las ativamente.
+- [Traços](./tracos.md) — características passivas do personagem, sua diferença em relação a Poderes e suas categorias de organização.
 
 ## Estado do projeto
 
