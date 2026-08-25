@@ -54,6 +54,18 @@ Fama, Status, Conexões e Afiliação não garantem sucesso automático. Eles es
 
 ---
 
+# Traços Sobrenaturais
+
+## Fisiologia
+
+- **Imortal [1] —** não envelhece e não morre por causas naturais. Ainda pode ser ferido e morto normalmente por outras causas.
+- **Anfíbio [1] —** respira normalmente dentro e fora da água e pode nadar e se deslocar em ambiente aquático sem sofrer as limitações comuns desse meio.
+- **Sem Respiração [1] —** não precisa respirar para sobreviver. Isso impede sufocamento, afogamento por falta de ar e problemas causados apenas pela ausência de oxigênio, mas não concede capacidade especial de nadar ou se mover em ambientes aquáticos.
+- **Sem Sono [1] —** não precisa dormir e não sofre as consequências normais da privação de sono.
+- **Sem Alimentação [1] —** não precisa comer nem beber para sobreviver e não sofre as consequências normais da privação de alimento ou água.
+
+---
+
 ## Princípios de interpretação
 
 ### Conexões
