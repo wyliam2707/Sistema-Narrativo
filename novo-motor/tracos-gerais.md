@@ -52,11 +52,6 @@ Fama, Status, Conexões e Afiliação não garantem sucesso automático. Eles es
 - **Acervo [1] —** possui uma coleção relevante de livros, documentos, registros ou dados. Ao realizar uma pesquisa usando o Acervo, recebe **+1 dado** para encontrar ou compreender informações relacionadas, desde que disponha de tempo e dedicação.
 - **Veículos [1] —** possui acesso a veículos adequados ao seu conceito e necessidades habituais. Quando precisar de um veículo plausível, considera-se que ele existe e está guardado em algum local coerente, como sua casa, garagem, Base ou hangar. O Traço não faz veículos aparecerem imediatamente nem os coloca convenientemente onde o personagem estiver.
 
-## Identidade e Acesso — a revisar
-
-- **Identidade Alternativa —** possui uma segunda identidade estabelecida, documentada e funcional.
-- **Credenciais [X] —** possui licença, autorização ou acesso formal ao recurso, ambiente ou atividade indicada.
-
 ---
 
 ## Princípios de interpretação
@@ -101,11 +96,9 @@ Exemplos incluem **Afiliação [S.H.I.E.L.D.]**, **Afiliação [Ordem dos Magos]
 
 **Fama** pode abrir portas, chamar atenção ou facilitar acesso quando o reconhecimento for útil. A mesma visibilidade também pode atrair curiosos, imprensa, inimigos ou dificultar ações discretas.
 
-### Credenciais [X]
+### Identidades e acessos comuns
 
-**Credenciais [X]** reúne licenças, autorizações e acessos formais.
-
-Exemplos incluem credencial policial, licença profissional, autorização de segurança, acesso diplomático ou permissão oficial para atuar em determinado ambiente.
+Identidades secretas, nomes falsos, licenças e credenciais comuns fazem parte do Conceito, profissão, Status, Afiliação ou da própria ficção do personagem quando apropriado. Eles não constituem Traços por si só.
 
 ---
 
