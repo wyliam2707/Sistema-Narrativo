@@ -5,9 +5,9 @@ Poder ofensivo de ataque projetado, com base física.
 ## Hub
 
 **Disparo [X]**  
-**Alcance:** Toque → Próximo (~3 m)  
-**Alvos:** 1 → 2 → 4  
-**Área:** Curta (~20 m) → Média (~45 m) → Longa (~90 m)  
+**Alcance:** Curta (~20 m) → Média (~45 m) → Longa (~90 m)  
+**Alvos:** 1 → 2 → 4 → 8  
+**Área:** Toque → Próximo (~3 m) → Curta (~20 m)  
 **Dano:** 1d8 → 2d8 → 3d8 → 4d8 **[+Potência]**  
 **Efeito:** Nenhum  
 **Defesa:** Total → Parcial  
@@ -17,21 +17,34 @@ Poder ofensivo de ataque projetado, com base física.
 
 As distâncias são referências narrativas. Os valores em metros servem como média para interpretar a cena, não como limites rígidos.
 
+## Alvos ou Área
+
+**Alvos** e **Área** são modos alternativos de aplicação e nunca são somados no mesmo uso.
+
+Ao usar Disparo, escolha **Alvos** ou **Área**.
+
+- **Alvos:** permite escolher individualmente até a quantidade selecionada de alvos dentro do Alcance do Poder.
+- **Área:** afeta todos que estiverem dentro da Área escolhida, exceto o próprio conjurador.
+
+A linha que não for escolhida naquele uso não entra no custo nem na aplicação do Poder.
+
 ## Custo
 
 Cada linha é uma progressão própria.
 
 A primeira posição custa `+0 Mana`. Cada avanço posterior custa `+1 Mana`.
 
-- **Alcance:** Toque `+0` → Próximo (~3 m) `+1`
-- **Alvos:** 1 `+0` → 2 `+1` → 4 `+2`
-- **Área:** Curta (~20 m) `+0` → Média (~45 m) `+1` → Longa (~90 m) `+2`
+- **Alcance:** Curta (~20 m) `+0` → Média (~45 m) `+1` → Longa (~90 m) `+2`
+- **Alvos:** 1 `+0` → 2 `+1` → 4 `+2` → 8 `+3`
+- **Área:** Toque `+0` → Próximo (~3 m) `+1` → Curta (~20 m) `+2`
 - **Dano:** 1d8 `+0` → 2d8 `+1` → 3d8 `+2` → 4d8 `+3`
 - **Defesa:** Total `+0` → Parcial `+1`
 
-O custo final é a soma de todos os avanços escolhidos e nunca pode ultrapassar `[X]`.
+O custo final é a soma dos avanços escolhidos e nunca pode ultrapassar `[X]`.
 
-Se nenhuma alteração for declarada, Disparo usa todas as posições iniciais e custa **0 Mana**.
+Como **Alvos** e **Área** são alternativos, apenas a opção usada é somada ao custo.
+
+Se nenhuma alteração for declarada, Disparo usa as posições iniciais das linhas escolhidas e custa **0 Mana**.
 
 ## Uso
 
