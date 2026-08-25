@@ -172,15 +172,26 @@ Traços de **Mobilidade** representam formas naturais e permanentemente disponí
 
 Eles respondem à pergunta:
 
-> **Existe alguma forma de movimento que seja natural para esse personagem?**
+> **De que maneira incomum esse personagem consegue se deslocar naturalmente?**
 
-Exemplos:
+Por padrão, uma forma especial de Mobilidade permite **deslocamento curto**, equivalente ao alcance normal de deslocamento a pé. O Traço muda a forma ou o meio pelo qual o personagem se move, sem criar medições adicionais.
+
+### Traços de Mobilidade
 
 - **Voo Natural —** pode voar como forma normal de deslocamento.
 - **Andar pelas Paredes —** pode se mover por paredes e tetos como por superfícies normais.
-- **Movimento Aquático —** desloca-se naturalmente em ambiente aquático.
+- **Movimento Aquático —** pode se deslocar naturalmente pela água.
+- **Escavador —** pode se deslocar naturalmente através de solo ou materiais escaváveis quando a ficção permitir.
+- **Super Salto —** pode usar saltos como forma normal de deslocamento.
+- **Velocidade —** aumenta para **médio** o alcance das formas de deslocamento que o personagem possui.
 
-Se a forma de movimento precisar ser ativada como uma capacidade especial, ela deve ser tratada como Poder em vez de Traço.
+Todo personagem já possui deslocamento terrestre normal. Por isso, **Velocidade** sozinha permite andar ou correr em alcance médio.
+
+Quando combinada com outro Traço de Mobilidade, **Velocidade** também amplia aquele modo de movimento. Assim, **Voo Natural + Velocidade** permite voar em alcance médio, **Movimento Aquático + Velocidade** permite nadar em alcance médio e **Andar pelas Paredes + Velocidade** permite deslocar-se pelas paredes em alcance médio.
+
+Sem **Velocidade**, os modos especiais de deslocamento permanecem em alcance curto.
+
+Se uma forma de movimento precisar ser ativada como uma capacidade especial para produzir um efeito extraordinário, ela deve ser tratada como Poder em vez de Traço.
 
 ---
 
