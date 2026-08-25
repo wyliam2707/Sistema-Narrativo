@@ -14,7 +14,7 @@ Fora de combate, isso pode representar alguém surpreendido por uma emboscada, o
 
 ---
 
-## Vulnerável
+## Exposto
 
 **Efeito mecânico:** o personagem sofre **-2d em resoluções usadas para se defender ou resistir a ataques físicos**.
 
@@ -26,8 +26,10 @@ Fora de combate, isso pode representar alguém surpreendido por uma emboscada, o
 
 ## Indefeso
 
-**Efeito mecânico:** o personagem **não realiza resoluções de defesa física** contra ações que dependam de reação corporal. A ação contra ele é resolvida sem sua oposição defensiva normal.
+**Efeito mecânico:** o personagem **não possui condições normais de realizar uma defesa física baseada em reação corporal**.
 
-**Efeito narrativo:** está completamente incapaz de se proteger naquele momento. Pode estar amarrado, inconsciente, preso de forma extrema ou em outra situação que torne uma defesa física inviável.
+**Efeito narrativo:** está completamente sem condições de se proteger naquele momento. Pode estar amarrado, preso, surpreendido em situação extrema ou de outra forma incapaz de reagir fisicamente.
+
+A consequência concreta depende da ficção. Quando não houver incerteza real sobre a possibilidade de defesa, o Narrador resolve a situação de acordo com a regra narrativa básica.
 
 **Remoção:** termina quando o personagem recupera condições reais de se defender ou quando a causa do estado é removida.
