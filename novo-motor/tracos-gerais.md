@@ -92,6 +92,12 @@ Fama, Status, Conexões e Afiliação não garantem sucesso automático. Eles es
   - **Detecção [Alvo] —** percebe a direção ou localização de um alvo específico definido para o Traço, como uma pessoa, criatura ou objeto. Não fornece automaticamente outras informações sobre o alvo.
   - **Detecção [Mentiras] —** percebe quando alguém afirma deliberadamente algo que acredita ser falso. Não revela automaticamente a verdade nem detecta erro, ignorância, omissão ou interpretação equivocada.
 
+## Recuperação
+
+- **Recuperação [2] —** recupera automaticamente **1 de Vida por minuto**. A forma da recuperação depende do Conceito do personagem, podendo representar regeneração biológica, autorreparo mecânico, recomposição mágica ou equivalente.
+
+**Recuperação** afeta apenas o próprio personagem. Restaurar Vida de outra pessoa é um efeito ativo e deve ser tratado como Poder.
+
 ---
 
 ## Princípios de interpretação
@@ -155,6 +161,10 @@ Formas especiais de Mobilidade mudam como o personagem se desloca, não substitu
 ### Sentidos
 
 Traços de Sentidos garantem a percepção que descrevem. Testes podem continuar sendo necessários para interpretar, analisar ou agir sobre aquilo que foi percebido. **Detecção [X]** só pode ser comprada nas opções listadas nesta seção.
+
+### Recuperação
+
+**Recuperação** sempre representa restauração automática do próprio personagem. O Conceito determina como isso acontece na ficção, sem alterar a taxa de **1 de Vida por minuto**.
 
 ---
 
