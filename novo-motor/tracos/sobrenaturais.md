@@ -56,15 +56,17 @@ Não precisa dormir e não sofre as consequências normais da privação de sono
 
 Exemplos: androide, golem, morto-vivo, espírito encarnado, criatura sobrenatural cuja mente não depende de ciclos de sono.
 
-**Sem Sono não concede recuperação de Vida, resistência mental ou imunidade a efeitos que induzam inconsciência por outras causas.**
+**Sem Sono não concede recuperação de Vida, resistência mental ou imunidade a efeitos que induzam inconsciência por outras causas.** Também não elimina automaticamente uma **Corrupção de Repouso Especial**: um personagem pode não precisar dormir e ainda precisar cumprir uma condição específica quando quiser realizar um repouso válido.
 
 ### Sem Alimentação [1]
 
-Não precisa comer nem beber para sobreviver e não sofre as consequências normais da privação de alimento ou água.
+Não precisa comer nem beber normalmente para sobreviver e não sofre as consequências comuns da privação de alimento ou água.
 
 Exemplos: androide, golem, morto-vivo, espírito materializado, criatura sustentada por energia sobrenatural.
 
-**Sem Alimentação não concede imunidade a venenos, toxinas, fome sobrenatural ou outras necessidades especiais.** Se o personagem precisar de algo como sangue, energia vital ou emoção para existir, isso deve aparecer separadamente como **Corrupção**.
+**Sem Alimentação remove apenas a necessidade comum de comida e água.** Não concede imunidade a venenos ou toxinas e não elimina uma **Dieta Especial**, pois ela representa uma necessidade sobrenatural diferente.
+
+Exemplo: um vampiro pode possuir **Sem Alimentação [1]** e **Dieta Especial [Sangue Humano] [-2]**. Ele não precisa de alimentação comum, mas ainda precisa satisfazer sua necessidade sobrenatural de sangue para recuperar Vida por descanso.
 
 ---
 
@@ -79,15 +81,7 @@ A estrutura indicada não pode ser quebrada, separada ou destruída. Isso não i
 
 **Indestrutível não é Imunidade [Físico].** O personagem pode sofrer normalmente o impacto; apenas a estrutura protegida não quebra nem se separa.
 
-### Artificial [X] [1]
-
-Possui um corpo de natureza construída, artificial ou sobrenatural, e sua anatomia, funcionamento e formas plausíveis de reparo seguem essa natureza em vez de presumirem um corpo humano comum.
-
-Exemplos: androide, golem, morto-vivo reanimado, autômato arcano, corpo artificial cultivado em laboratório.
-
-A natureza indicada por `[X]` orienta a ficção. Um androide pode exigir Engenharia ou Ofícios para reparos; um golem pode depender de magia ou materiais específicos; um morto-vivo pode responder a Ocultismo ou outro método coerente com seu Conceito.
-
-**Artificial não concede automaticamente Imunidades, Resistências, Sem Respiração, Sem Sono ou Sem Alimentação.** Esses efeitos só existem quando forem obtidos separadamente.
+A natureza básica de um corpo, como ser **androide, golem, morto-vivo ou construto**, pertence ao **Conceito** e não exige um Traço positivo próprio. Qualquer vantagem concreta dessa natureza — como Sem Respiração, Sem Sono, Sem Alimentação, Resistência ou Imunidade — precisa existir separadamente quando aplicável.
 
 ---
 
@@ -164,10 +158,10 @@ Cada compra deve escolher uma das cinco opções oficiais abaixo:
 - **Detecção [Magia] —** percebe a presença de magia. Exemplos: feitiço ativo, objeto encantado, área magicamente alterada, criatura envolta por efeito mágico, portal arcano.
 - **Detecção [Vida] —** percebe a presença de seres vivos dentro do alcance de sua percepção. Exemplos: pessoa escondida, animal atrás de uma porta, criatura viva em escuridão, grupo próximo, presença biológica sob escombros.
 - **Detecção [Perigo] —** percebe perigo iminente contra si. Exemplos: emboscada prestes a ocorrer, armadilha ativada, ataque vindo de ponto cego, estrutura prestes a desabar, veículo em rota de colisão.
-- **Detecção [Alvo] —** percebe direção ou localização de um alvo específico definido para o Traço. Exemplos: uma pessoa específica, determinada criatura, objeto vinculado, relíquia marcada, pessoa ligada por sangue ou vínculo sobrenatural.
+- **Detecção [Alvo] —** permite perceber a **direção de um alvo específico** quando existe um vínculo válido com ele. Esse vínculo pode ser um objeto pertencente ao alvo, sangue, cabelo, outra amostra, uma marca sobrenatural, relíquia vinculada ou conexão equivalente coerente com o Conceito. Funciona como rastreamento sobrenatural: indica para onde seguir, mas não revela automaticamente distância exata, localização precisa ou aquilo que existe entre o personagem e o alvo.
 - **Detecção [Mentiras] —** percebe quando alguém afirma deliberadamente algo que acredita ser falso. Exemplos: testemunha mentindo, identidade falsa declarada, promessa feita sem acreditar nela, álibi inventado, afirmação deliberadamente enganosa que o próprio falante sabe ser falsa.
 
-**Detecção não substitui Investigação, Ocultismo ou outras Perícias.** Ela garante perceber a presença descrita; compreender o que aquilo significa ainda pode exigir resolução.
+**Detecção não substitui Investigação, Ocultismo ou outras Perícias.** Ela garante perceber aquilo que sua categoria estabelece; compreender o significado ainda pode exigir resolução.
 
 ---
 
@@ -177,8 +171,10 @@ Cada compra deve escolher uma das cinco opções oficiais abaixo:
 
 Recupera automaticamente **1 de Vida por minuto** quando sua condição de recuperação estiver satisfeita. A forma dessa recuperação depende do Conceito e pode representar regeneração biológica, autorreparo mecânico, recomposição mágica, carne necromântica que se recompõe ou corpo elemental que restaura sua forma.
 
-- **[1] Condicionada —** a recuperação depende de uma condição clara e relevante. Fora dela, o Traço não recupera Vida. Exemplos: **Recuperação [Luz Solar] [1]**, **Recuperação [Noite] [1]**, **Recuperação [Solo Sagrado] [1]**, **Recuperação [Água] [1]**, **Recuperação [Terra Natal] [1]**.
+- **[1] Condicionada —** a recuperação depende de uma condição clara e realmente limitante. Fora dela, o Traço não recupera Vida. Exemplos: **Recuperação [Luz Solar] [1]**, **Recuperação [Noite] [1]**, **Recuperação [Solo Sagrado] [1]**, **Recuperação [Água] [1]**, **Recuperação [Terra Natal] [1]**.
 - **[2] Natural —** recupera **1 de Vida por minuto** normalmente, sem depender de uma condição externa específica.
+
+A condição de **Recuperação [1]** não pode ser algo normalmente permanente, inevitável ou disponível ao personagem em praticamente qualquer situação apenas para reduzir o custo. Se a condição raramente impedir a recuperação, use **Recuperação Natural [2]**.
 
 **Recuperação não impede dano, não funciona como Imunidade e afeta apenas o próprio personagem.** Restaurar Vida de outra pessoa é um efeito ativo e deve ser tratado como Poder.
 
@@ -209,6 +205,8 @@ Exemplos de classificação:
 - feitiço que domina a mente produz um efeito **Mental**;
 - gás venenoso ou lacrimogêneo produz um efeito de **Status**;
 - uma maldição cuja própria natureza seja arcana pode ser tratada como **Magia**.
+
+**Resistências não se acumulam na mesma resolução.** Se mais de uma Resistência puder ser aplicada ao mesmo efeito, use apenas uma delas. O personagem recebe no máximo **+1 dado** de Resistências naquela resolução.
 
 **Resistência não impede automaticamente o efeito.** Ela melhora a resolução quando existir uma forma mecânica de resistir, reduzir ou suportá-lo.
 
@@ -242,11 +240,17 @@ Exemplos de classificação:
 
 Uma **Fraqueza [X]** pode criar uma exceção a uma Imunidade que normalmente impediria aquela fonte de produzir efeito.
 
-Se o personagem possui uma Imunidade aplicável e também **Fraqueza [X]**, a fonte `[X]` ignora essa Imunidade e o efeito é resolvido normalmente.
+Se o personagem possui uma Imunidade aplicável e também **Fraqueza [X]**, os dois efeitos se anulam naquela interação: a fonte `[X]` afeta o personagem normalmente, sem a Imunidade e sem receber também o **+1 dado** da Fraqueza.
 
 Exemplo: um personagem com **Imunidade [Físico] [3]** e **Fraqueza [Prata] [-1]** ignora golpes e tiros comuns, mas uma arma de prata pode feri-lo normalmente.
 
-Quando a Fraqueza estiver sendo usada apenas para atravessar uma Imunidade, ela não concede também **+1 dado** nessa mesma resolução. A fonte causa seu efeito normal em vez de produzir uma punição dupla.
+### Vulnerabilidade como exceção
+
+Uma **Vulnerabilidade [X]** específica prevalece sobre uma Imunidade mais ampla quando sua fonte estiver presente. Nesse caso, a fonte atravessa a Imunidade e aplica o efeito dobrado da Vulnerabilidade.
+
+Exemplo: **Imunidade [Físico] [3] + Vulnerabilidade [Prata] [-1]** é uma combinação válida. Ataques físicos comuns não afetam o personagem, mas uma arma de prata atravessa a Imunidade e causa **dano dobrado**.
+
+Um personagem não pode possuir **Imunidade e Vulnerabilidade exatamente para a mesma fonte ou categoria**. Assim, **Imunidade [Físico] + Vulnerabilidade [Físico]** é inválido, enquanto **Imunidade [Físico] + Vulnerabilidade [Prata]** é válido.
 
 **Imunidade não protege contra categorias diferentes apenas porque vieram da mesma fonte.**
 
@@ -267,5 +271,5 @@ Seu uso em personagens jogadores não é recomendado, pois pode remover completa
 3. O Narrador não deve criar limitações artificiais para enfraquecer um Traço poderoso ou uma combinação válida de Traços.
 4. O Conceito define a origem e a aparência ficcional do Traço, mas não concede efeitos extras sem regra explícita.
 5. Uma característica passiva que apenas afeta o próprio personagem pode ser Traço. Produzir deliberadamente um efeito sobre outra pessoa normalmente é Poder.
-6. Se um Atributo já representa suficientemente uma capacidade, não crie um Traço redundante apenas para declarar que o personagem é muito forte, inteligente, resistente ou semelhante.
+6. Se um Atributo ou o próprio Conceito já representa suficientemente uma característica sem conceder vantagem adicional, não crie um Traço redundante.
 7. Traços com funções narrativas iguais ou muito semelhantes devem ser unidos sempre que possível.
