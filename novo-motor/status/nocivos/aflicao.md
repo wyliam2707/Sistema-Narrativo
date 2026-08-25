@@ -4,15 +4,17 @@ A família **Aflição** reúne efeitos nocivos que continuam causando dano enqu
 
 A forma narrativa depende da fonte: sangramento, fogo, veneno, ácido ou outro efeito persistente semelhante.
 
-## Grau 1
+A progressão de Aflição é:
+
+## 1 de dano
 
 **Efeito mecânico:** sofre **1 de dano por turno**.
 
-## Grau 2
+## 1d3 de dano
 
 **Efeito mecânico:** sofre **1d3 de dano por turno**.
 
-## Grau 3
+## 1d6 de dano
 
 **Efeito mecânico:** sofre **1d6 de dano por turno**.
 
