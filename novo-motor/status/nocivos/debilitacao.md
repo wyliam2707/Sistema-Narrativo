@@ -1,10 +1,10 @@
 # Debilitação
 
-A família **Debilitação** reúne efeitos nocivos que reduzem força, potência ou capacidade corporal do personagem sem representar necessariamente cansaço.
+A família **Debilitação** reúne efeitos nocivos que reduzem diretamente a **força e a potência física** do personagem, sem representar necessariamente cansaço ou perda de resistência ao esforço.
 
 ## Fraco
 
-**Efeito mecânico:** o personagem sofre **-1d em ações físicas que dependam diretamente de força, potência ou capacidade corporal**.
+**Efeito mecânico:** o personagem sofre **-1d em ações que dependam diretamente de força ou potência física**.
 
 **Efeito narrativo:** o corpo perdeu parte da força. Pode ter dificuldade para empurrar, levantar, segurar, quebrar, agarrar ou sustentar peso.
 
@@ -16,18 +16,18 @@ Fora de combate, isso pode tornar tarefas normalmente simples muito mais difíce
 
 ## Debilitado
 
-**Efeito mecânico:** o personagem sofre **-2d em ações físicas que dependam diretamente de força, potência ou capacidade corporal**.
+**Efeito mecânico:** o personagem sofre **-2d em ações que dependam diretamente de força ou potência física**.
 
-**Efeito narrativo:** o corpo está severamente enfraquecido. Sustentar peso, empurrar, levantar, agarrar ou romper obstáculos pode se tornar inviável sem ajuda ou outra abordagem.
+**Efeito narrativo:** o corpo está severamente enfraquecido. Sustentar peso, empurrar, levantar, agarrar ou romper obstáculos pode se tornar muito difícil sem ajuda ou outra abordagem.
 
 **Remoção:** termina quando a causa deixa de afetá-lo ou quando uma ação, efeito ou condição adequada remove a debilitação.
 
 ---
 
-## Inconsciente
+## Prostrado
 
-**Efeito mecânico:** o personagem perde a consciência e não pode realizar ações voluntárias enquanto o estado durar.
+**Efeito mecânico:** a perda de força é tão intensa que ações que dependam diretamente de **força ou potência física relevante podem se tornar inviáveis conforme a ficção**.
 
-**Efeito narrativo:** a debilitação chegou ao ponto de o personagem não conseguir permanecer consciente e ativo.
+**Efeito narrativo:** o personagem está fisicamente prostrado. Ele ainda pode permanecer consciente, pensar, falar ou realizar outras ações que não dependam da capacidade física comprometida, conforme a situação permitir.
 
-**Remoção:** termina quando a causa da debilitação é removida ou quando uma ação, efeito ou condição adequada permite que o personagem recupere a consciência.
+**Remoção:** termina quando a causa deixa de afetá-lo ou quando uma ação, efeito ou condição adequada remove a prostração.
