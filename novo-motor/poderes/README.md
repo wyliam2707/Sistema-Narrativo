@@ -33,14 +33,14 @@ Acima de **Longo**, a distância deixa de ser tratada como alcance comum e passa
 
 Quando uma dessas categorias aparecer em **Alcance** ou **Área**, o Narrador usa essa média como referência e interpreta a posição real conforme a ficção.
 
-## Acerto e Defesa por contexto
+## Regra geral — Acerto e Defesa por contexto
 
 Quando um Poder precisa atingir alguém, Acerto e Defesa são resolvidos de forma oposta:
 
 - **Acerto:** `4d6 + Atributo de Acerto`
 - **Defesa:** `4d6 + Atributo de Defesa`
 
-O Atributo não precisa ser escrito em cada Poder. O Narrador determina quais Atributos fazem sentido pela forma como a ação está sendo realizada e pela forma como o alvo tenta evitá-la ou resisti-la.
+**Regra:** o Atributo não precisa ser escrito em cada Poder. O Narrador determina quais Atributos fazem sentido pela forma como a ação está sendo realizada e pela forma como o alvo tenta evitá-la ou resisti-la.
 
 ### Ações claramente definidas
 
