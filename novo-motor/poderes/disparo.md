@@ -1,0 +1,85 @@
+# Disparo
+
+Poder ofensivo de ataque projetado, com base física.
+
+## Hub
+
+**Disparo [X]**  
+**Alcance:** Toque → Próximo (~3 m)  
+**Alvos:** 1 → 2 → 4  
+**Área:** Curta (~20 m) → Média (~45 m) → Longa (~90 m)  
+**Dano:** 1d8 → 2d8 → 3d8 → 4d8 **[+Potência]**  
+**Efeito:** Nenhum  
+**Defesa:** Total → Parcial  
+**Efeito [Nula]**
+
+`[X]` é o máximo de **Mana** que pode ser gasto no uso do Poder.
+
+As distâncias são referências narrativas. Os valores em metros servem como média para interpretar a cena, não como limites rígidos.
+
+## Custo
+
+Cada linha é uma progressão própria.
+
+A primeira posição custa `+0 Mana`. Cada avanço posterior custa `+1 Mana`.
+
+- **Alcance:** Toque `+0` → Próximo (~3 m) `+1`
+- **Alvos:** 1 `+0` → 2 `+1` → 4 `+2`
+- **Área:** Curta (~20 m) `+0` → Média (~45 m) `+1` → Longa (~90 m) `+2`
+- **Dano:** 1d8 `+0` → 2d8 `+1` → 3d8 `+2` → 4d8 `+3`
+- **Defesa:** Total `+0` → Parcial `+1`
+
+O custo final é a soma de todos os avanços escolhidos e nunca pode ultrapassar `[X]`.
+
+Se nenhuma alteração for declarada, Disparo usa todas as posições iniciais e custa **0 Mana**.
+
+## Uso
+
+Ao declarar Disparo, escolha apenas os avanços desejados. O Narrador apresenta o Hub já configurado, mostra o custo total e, se ele estiver dentro de `[X]`, pede apenas a confirmação.
+
+> **Confirmar uso por X Mana?**
+
+A resolução só acontece depois da confirmação.
+
+## Resolução
+
+Disparo não possui Efeito adicional. Portanto, sua resolução usa apenas:
+
+> **Defesa → Dano**
+
+### 1. Acerto e Defesa
+
+Disparo representa um ataque projetado fisicamente: tiro, flecha, projétil, arremesso ou manifestação equivalente.
+
+O Acerto usa:
+
+> `4d6 + Controle`
+
+A Defesa usa:
+
+> `4d6 + Atributo de Defesa`
+
+O Narrador escolhe o Atributo de Defesa pela forma como o alvo evita o ataque. Em condições normais, desviar, aparar ou sair da trajetória é uma defesa física.
+
+Se o atacante vencer, o Dano é aplicado normalmente.
+
+Se a defesa vencer:
+
+- **Defesa [Total]:** o alvo não sofre Dano;
+- **Defesa [Parcial]:** o alvo sofre metade do Dano.
+
+### 2. Dano
+
+Role a quantidade de `d8` escolhida no Hub e some **Potência uma única vez ao total dos dados**.
+
+Exemplo:
+
+`3d8 [+Potência]`
+
+Se os dados resultarem em `14` e a Potência for `3`, o Dano final é `17`.
+
+Em **Defesa [Parcial]** bem-sucedida, reduza o Dano final pela metade.
+
+## Efeito
+
+Disparo possui **Efeito: Nenhum** e **Efeito [Nula]**. Não existe etapa de Resistência nem outro Efeito a ser aplicado além do Dano.
