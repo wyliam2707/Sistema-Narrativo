@@ -1,19 +1,37 @@
 # Disparo
 
+## HUD
+
 ```text
 Disparo [X]
-
-Alcance: Médio
-Ação: Ataque
+Alcance: Médio > Longo [+1]
 Alvo: 1 alvo
-
-Dano: 1d8 + POD > [+1 PM +1d8]
+Área: Toque > Curta [+1]
+Dano: 1d8 > 2d8 [+1] > 3d8 [+2] > 4d8 [+3] > 5d8 [+4] [ao dano soma-se o POD de Corpo]
+Defesa: Disparo × Esquiva → define o dano
+Duração: Instantâneo
 ```
 
-`[X]` é o máximo de Energia que o personagem pode investir neste Poder por uso.
+## Resolução
 
-Com `0 PM`, o Disparo causa `1d8 + POD`.
+`[X]` é o máximo de Mana que pode ser gasto neste Poder em uma única utilização.
 
-Cada `+1 PM` acrescenta `+1d8` ao dano, até o limite registrado na ficha do personagem.
+```text
+Mínimo: [1]
+Máximo: [5]
+```
 
-A descrição narrativa pode ser flecha, batarang, projétil, raio, dardo, laser ou outra forma coerente de ataque à distância.
+O efeito-base custa `0 Mana`.
+
+Cada `[+X]` indica o custo total daquela ampliação. Ampliações de linhas diferentes podem ser combinadas, mas a soma de Mana gasta no uso não pode ultrapassar `[X]`.
+
+Em uma mesma linha, usa-se apenas um dos níveis disponíveis.
+
+### Defesa
+
+`Disparo × Esquiva`
+
+- Disparo vence ou empata: dano total.
+- Esquiva vence: metade do dano.
+
+A descrição narrativa pode ser flecha, batarang, projétil, dardo, tiro, laser ou outra forma coerente de ataque à distância.
