@@ -2,7 +2,7 @@
 
 A família **Perturbação** reúne efeitos nocivos que prejudicam clareza mental, concentração e capacidade de reação.
 
-## Abalado
+## Desorientado
 
 **Efeito mecânico:** o personagem sofre **-1d em resoluções mentais**.
 
