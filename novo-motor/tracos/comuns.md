@@ -20,28 +20,32 @@ O valor não representa raridade. Um Traço só possui múltiplos níveis quando
 
 ## Características Pessoais
 
-- **Ambidestro [1] —** usa qualquer uma das mãos com a mesma eficiência, sem sofrer limitações por trocar ou perder o uso da mão dominante.
-- **Memória Perfeita [2] —** recorda com precisão aquilo que já percebeu ou aprendeu. O Narrador pode fornecer diretamente informações já consolidadas na memória do personagem, sem exigir que o jogador se lembre delas. O Traço não cria informações que o personagem nunca percebeu ou aprendeu.
-- **Orientação [2] —** sabe naturalmente onde está, mantém noção precisa de direção e horário e consegue determinar como chegar a um local habitado conhecido ou plausivelmente acessível.
-- **Aparência Discreta [1] —** causa uma primeira impressão pouco ameaçadora, comum e fácil de ignorar enquanto não houver motivo para vê-lo de outra forma. Não funciona como invisibilidade social.
+- **Ambidestro [1] —** usa qualquer uma das mãos com a mesma eficiência e não sofre limitações por trocar de mão ou perder temporariamente o uso da mão dominante. O Traço não concede ações extras nem melhora ataques por si só.
+- **Memória Excepcional [2] —** possui uma capacidade incomum de recordar fatos, rostos, lugares, conversas e informações que já percebeu ou aprendeu. O Narrador pode fornecer diretamente lembranças relevantes já consolidadas pelo personagem. O Traço não cria informações que ele nunca percebeu ou aprendeu.
+- **Orientação [2] —** possui excelente senso de direção e noção de tempo. Dificilmente se perde em condições normais, reconhece rotas já percorridas e consegue reconstruir caminhos ou estimar direções com grande precisão quando possui referências plausíveis.
+- **Aparência Discreta [1] —** à primeira vista, parece comum, pouco ameaçador e fácil de ignorar enquanto não houver motivo para receber atenção especial. Isso pode fazer com que seja subestimado ou passe despercebido em situações sociais comuns. O Traço não substitui Furtividade, disfarce ou Manipulação e deixa de ser relevante quando o personagem chama atenção por suas próprias ações.
 
 ---
 
 ## Posição e Relações
 
-- **Fama [1] —** é publicamente reconhecido por pessoas para quem sua fama seria relevante. Pode facilitar atenção, acesso e tratamento especial quando apropriado, mas também aumenta exposição e torna mais difícil agir sem ser reconhecido.
+- **Fama [1] —** é reconhecido publicamente por pessoas para quem sua reputação seria relevante. Esse reconhecimento pode facilitar atenção, acesso ou tratamento especial quando apropriado, mas também aumenta exposição e dificulta agir anonimamente. Fama não concede autoridade, contatos ou lealdade; esses efeitos pertencem a **Status**, **Conexões** ou **Afiliação**.
 
-- **Status [1–2] —** possui uma posição reconhecida dentro de um meio ou instituição.
-  - **[1] Menor —** posição relevante, mas limitada, como um delegado.
-  - **[2] Maior —** posição elevada, como um prefeito.
+- **Status [1–2] —** ocupa uma posição formal reconhecida que concede autoridade, acesso ou tratamento especial dentro de um meio ou instituição.
+  - **[1] Relevante —** possui autoridade ou prestígio limitado a uma área, função ou jurisdição específica, como delegado, oficial, professor renomado ou chefe de setor.
+  - **[2] Elevado —** ocupa uma posição de grande autoridade ou influência dentro dessa estrutura, como prefeito, diretor de grande instituição, alto oficial ou autoridade regional.
 
-- **Conexões [1–2] —** possui pessoas às quais pode recorrer de forma coerente com sua história e posição.
-  - **[1] Aliados —** possui aliados e contatos que podem fornecer informação, acesso, serviços ou ajuda, normalmente mediante boa vontade, pagamento, favores ou condições.
-  - **[2] Subordinados —** possui pessoas que normalmente trabalham sob sua direção ou cumprem funções para o personagem, dentro dos limites coerentes com essa relação.
+Status não concede automaticamente subordinados. Pessoas sob comando regular pertencem a **Conexões** ou **Afiliação**, conforme o caso.
 
-- **Afiliação [1–2] —** pertence a uma organização com a qual mantém uma relação de mão dupla.
-  - **[1] Agente —** é membro ou agente da organização e pode receber apoio coerente com sua função.
-  - **[2] Liderança —** ocupa uma posição de liderança e pode orientar ou mobilizar parte dos membros e recursos da organização de forma coerente com seu cargo.
+- **Conexões [1–2] —** possui uma rede de pessoas às quais pode recorrer de forma coerente com sua história e posição.
+  - **[1] Contatos —** conhece aliados, informantes, especialistas ou pessoas influentes que podem fornecer informação, acesso, serviços ou ajuda, normalmente mediante boa vontade, pagamento, favores ou condições.
+  - **[2] Rede —** além de contatos, possui pessoas que trabalham regularmente sob sua direção ou estão disponíveis por causa de sua posição, profissão ou estrutura pessoal.
+
+- **Afiliação [1–2] —** pertence formalmente a uma organização e pode recorrer a recursos, informações ou apoio coerentes com sua função.
+  - **[1] Membro —** faz parte da organização e pode receber suporte compatível com seu papel.
+  - **[2] Liderança —** ocupa posição de comando e pode mobilizar membros e recursos dentro dos limites de sua autoridade.
+
+O valor da Afiliação representa a posição do personagem dentro da organização, não a escala ou o poder da própria organização.
 
 ### Interpretação de Posição e Relações
 
@@ -55,24 +59,27 @@ Identidades secretas, nomes falsos, licenças e credenciais comuns não são Tra
 
 ## Recursos e Patrimônio
 
-- **Recursos [1–3] —** representa a capacidade financeira geral do personagem sem exigir controle constante de dinheiro.
-  - **[1] Confortável —** vive confortavelmente, possui alguns luxos e consegue arcar com despesas comuns sem preocupação significativa.
-  - **[2] Rico —** pode adquirir praticamente qualquer bem ou serviço comum disponível no cenário, desde que não seja algo excepcional por natureza.
-  - **[3] Magnata —** possui riqueza excepcional, comparável à de grandes bilionários fictícios. Grandes propriedades, empresas, equipes e despesas extraordinárias podem fazer parte normalmente de sua vida.
+- **Recursos [1–3] —** representa a capacidade financeira habitual do personagem, sem exigir controle constante de dinheiro.
+  - **[1] Confortável —** vive bem, possui alguns luxos e consegue arcar com despesas comuns sem preocupação relevante.
+  - **[2] Rico —** consegue adquirir praticamente qualquer bem ou serviço comum do cenário e sustentar despesas elevadas com regularidade.
+  - **[3] Magnata —** possui riqueza excepcional, capaz de manter grandes propriedades, empresas, equipes, projetos caros e despesas extraordinárias como parte normal de sua vida.
 
-- **Base [1–2] —** possui ou controla um local permanente, seguro e adequado ao seu Conceito.
-  - **[1] Comum —** local físico existente normalmente no cenário, mas privado, seguro e bem protegido, como mansão, bunker, laboratório, oficina, esconderijo ou quartel.
-  - **[2] Inalcançável —** base extraordinariamente isolada ou protegida, inacessível por meios comuns, como uma dimensão particular, fortaleza fora da realidade ou equivalente.
+Recursos não cria imediatamente bens raros, ilegais, únicos ou indisponíveis. Ter dinheiro não elimina problemas de acesso, tempo, localização ou disponibilidade.
 
-- **Acervo [1] —** possui uma coleção relevante de livros, documentos, registros ou dados. Ao realizar uma pesquisa usando o Acervo, recebe **+1 dado** para encontrar ou compreender informações relacionadas, desde que disponha de tempo e dedicação. O Acervo não fornece respostas instantâneas.
+- **Base [1–3] —** possui ou controla um local permanente adequado ao seu Conceito.
+  - **[1] Comum —** casa segura, oficina, esconderijo, laboratório, garagem ou instalação equivalente.
+  - **[2] Fortificada —** bunker, mansão altamente protegida, complexo secreto ou instalação muito difícil de invadir por meios comuns.
+  - **[3] Excepcional —** uma base de grande escala, proteção ou isolamento, como um castelo fortificado, uma instalação remota na Antártida, uma fortaleza militar ou complexo autossuficiente.
 
-- **Veículos [1] —** possui acesso a veículos adequados ao seu Conceito e necessidades habituais. Quando precisar de um veículo plausível, considera-se que ele existe e está guardado em local coerente, como casa, garagem, Base ou hangar. O Traço não faz veículos aparecerem imediatamente nem os coloca convenientemente onde o personagem estiver.
+- **Acervo [1] —** possui uma coleção relevante de livros, documentos, registros ou dados sobre determinados assuntos. Quando realiza uma pesquisa em que o Acervo contenha material plausivelmente útil, recebe **+1 dado** na resolução. O bônus exige acesso ao Acervo, tempo suficiente para pesquisar e relação real entre o material disponível e a informação procurada. Acervo não cria informações inexistentes, secretas ou que nunca foram registradas.
+
+- **Veículos [1] —** possui acesso habitual a um ou mais veículos coerentes com seu Conceito, profissão, Recursos ou Base. Esses veículos existem previamente na ficção e ficam guardados em locais plausíveis, como casa, garagem, Base, hangar ou porto. O Traço não faz um veículo aparecer onde o personagem está e não concede automaticamente modelos raros, militares ou extraordinários sem justificativa no Conceito.
 
 ### Interpretação de Recursos e Patrimônio
 
-**Recursos** representa dinheiro e capacidade de aquisição. **Base** representa um lugar especial que já existe na ficção. O nível de Base indica proteção ou inacessibilidade, não tamanho ou luxo.
+**Recursos** representa dinheiro e capacidade de aquisição. **Base** representa um lugar especial que já existe na ficção. O nível de Base indica principalmente sua escala, proteção ou isolamento.
 
-**Acervo** é uma exceção explícita à regra de que Traços normalmente não concedem bônus numéricos: ele fornece **+1 dado** apenas em pesquisas relacionadas ao material disponível.
+**Acervo** é uma exceção explícita à regra de que Traços normalmente não concedem bônus numéricos: ele fornece **+1 dado** apenas em pesquisas relacionadas ao material plausivelmente disponível.
 
 ---
 
