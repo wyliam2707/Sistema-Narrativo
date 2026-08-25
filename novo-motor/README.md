@@ -9,7 +9,10 @@ A proposta é construir as regras do zero, registrando apenas conceitos já disc
 - [Atributos](./atributos.md) — capacidades fundamentais do personagem, suas funções e a escala de valores.
 - [Perícias](./pericias.md) — áreas amplas de treinamento e experiência, como são aplicadas aos testes e como o Narrador deve interpretá-las ativamente.
 - [Traços](./tracos.md) — características passivas do personagem, sua diferença em relação a Poderes e suas categorias de organização.
+- [Trama](./trama.md) — recurso narrativo, ganho diário, interação com Traços e gasto para modificar dados.
+- [Status](./status/) — estados atuais do personagem e famílias de efeitos nocivos.
+- [Poderes](./poderes/) — estrutura modular de Poderes, Acerto, Defesa, Dano, Efeitos e seus Hubs.
 
 ## Estado do projeto
 
-O motor está em desenvolvimento. Novos capítulos serão adicionados ao índice conforme forem definidos e consolidados.
+O motor está em desenvolvimento. Este índice registra apenas capítulos que já possuem regras consolidadas dentro de `novo-motor/`.
