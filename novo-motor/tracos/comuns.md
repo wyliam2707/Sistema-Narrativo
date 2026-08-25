@@ -37,7 +37,7 @@ O valor não representa raridade. Um Traço só possui múltiplos níveis quando
 
 Status não concede automaticamente subordinados. Pessoas sob comando regular pertencem a **Conexões** ou **Afiliação**, conforme o caso.
 
-- **Conexões [1–2] —** possui uma rede de pessoas às quais pode recorrer de forma coerente com sua história e posição.
+- **Conexões [1–2] —** possui uma rede pessoal ou profissional de pessoas às quais pode recorrer de forma coerente com sua história e posição, sem exigir uma organização formal.
   - **[1] Contatos —** conhece aliados, informantes, especialistas ou pessoas influentes que podem fornecer informação, acesso, serviços ou ajuda, normalmente mediante boa vontade, pagamento, favores ou condições.
   - **[2] Rede —** além de contatos, possui pessoas que trabalham regularmente sob sua direção ou estão disponíveis por causa de sua posição, profissão ou estrutura pessoal.
 
@@ -48,6 +48,8 @@ Status não concede automaticamente subordinados. Pessoas sob comando regular pe
 O valor da Afiliação representa a posição do personagem dentro da organização, não a escala ou o poder da própria organização.
 
 ### Interpretação de Posição e Relações
+
+**Conexões** representa uma rede pessoal ou profissional ligada diretamente ao personagem. **Afiliação** representa acesso e autoridade derivados de pertencer formalmente a uma organização. Um personagem pode possuir ambos quando realmente tiver as duas estruturas.
 
 Fama, Status, Conexões e Afiliação não garantem sucesso automático. Eles estabelecem reconhecimento, autoridade, relações ou acesso que existem na ficção.
 
@@ -71,15 +73,17 @@ Recursos não cria imediatamente bens raros, ilegais, únicos ou indisponíveis.
   - **[2] Fortificada —** bunker, mansão altamente protegida, complexo secreto ou instalação muito difícil de invadir por meios comuns.
   - **[3] Excepcional —** uma base de grande escala, proteção ou isolamento, como um castelo fortificado, uma instalação remota na Antártida, uma fortaleza militar ou complexo autossuficiente.
 
+Base define principalmente o local, sua escala, proteção e estrutura física. Equipamentos e instalações normais da própria Base fazem parte dela, mas o Traço não concede automaticamente **Conexões, Afiliação, Veículos, Acervo ou Recursos** que não estejam justificados separadamente.
+
 - **Acervo [1] —** possui uma coleção relevante de livros, documentos, registros ou dados sobre determinados assuntos. Quando realiza uma pesquisa em que o Acervo contenha material plausivelmente útil, recebe **+1 dado** na resolução. O bônus exige acesso ao Acervo, tempo suficiente para pesquisar e relação real entre o material disponível e a informação procurada. Acervo não cria informações inexistentes, secretas ou que nunca foram registradas.
 
-- **Veículos [1] —** possui acesso habitual a um ou mais veículos coerentes com seu Conceito, profissão, Recursos ou Base. Esses veículos existem previamente na ficção e ficam guardados em locais plausíveis, como casa, garagem, Base, hangar ou porto. O Traço não faz um veículo aparecer onde o personagem está e não concede automaticamente modelos raros, militares ou extraordinários sem justificativa no Conceito.
+- **Veículos [1] —** possui ou tem acesso regular aos veículos coerentes com sua vida, Conceito, profissão, Recursos ou Base. O Traço representa **acesso habitual**, não uma quantidade fixa. Esses veículos existem previamente na ficção e ficam guardados em locais plausíveis, como casa, garagem, Base, hangar ou porto. O Traço não faz um veículo aparecer onde o personagem está e não concede automaticamente tripulação, autoridade, combustível especial, armamentos ou acesso irrestrito a veículos raros, militares ou extraordinários sem justificativa na ficção.
 
 ### Interpretação de Recursos e Patrimônio
 
 **Recursos** representa dinheiro e capacidade de aquisição. **Base** representa um lugar especial que já existe na ficção. O nível de Base indica principalmente sua escala, proteção ou isolamento.
 
-**Acervo** é uma exceção explícita à regra de que Traços normalmente não concedem bônus numéricos: ele fornece **+1 dado** apenas em pesquisas relacionadas ao material plausivelmente disponível.
+**Acervo** é uma exceção explícita à regra de que Traços normalmente não concedem bônus numéricos: ele fornece **+1 dado** apenas em pesquisas relacionadas ao material plausivelmente disponível. A principal limitação prática do Acervo é possuir acesso e tempo suficiente para realizar a pesquisa.
 
 ---
 
@@ -92,4 +96,4 @@ Recursos não cria imediatamente bens raros, ilegais, únicos ou indisponíveis.
 5. Se uma vantagem puder ser explicada apenas pelo Conceito, profissão, Atributo ou Perícia, não crie um Traço redundante.
 6. Traços com funções narrativas iguais ou muito semelhantes devem ser unidos sempre que possível.
 
-**Sorte** não faz parte desta lista por enquanto, pois sua função pode se sobrepor aos Pontos de Plot.
+**Sorte** não faz parte desta lista por enquanto, pois sua função pode se sobrepor aos **Pontos de Trama**.
