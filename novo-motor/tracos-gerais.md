@@ -81,6 +81,17 @@ Fama, Status, Conexões e Afiliação não garantem sucesso automático. Eles es
 
 **Movimento Aquático** não é um Traço separado. Pessoas comuns já podem nadar; **Anfíbio** apenas complementa essa capacidade ao permitir respirar e se adaptar naturalmente ao ambiente aquático.
 
+## Sentidos
+
+- **[X] Aguçado [1] —** o sentido indicado percebe fontes como se estivessem um grau de alcance mais próximas. Exemplos incluem **Visão Aguçada**, **Audição Aguçada** e **Olfato Aguçado**.
+- **Visão no Escuro [1] —** enxerga normalmente em escuridão comum, sem precisar de uma fonte de luz.
+- **Detecção [X] [2] —** percebe automaticamente a presença indicada quando ela estiver dentro de uma situação em que possa ser detectada. A compra deve escolher uma das opções abaixo:
+  - **Detecção [Magia] —** percebe automaticamente a presença de magia. Não revela por si só origem, tipo ou funcionamento.
+  - **Detecção [Vida] —** percebe automaticamente a presença de seres vivos dentro do alcance de sua percepção. Não identifica necessariamente quem ou o que são.
+  - **Detecção [Perigo] —** percebe automaticamente a existência de perigo iminente contra si, sem necessariamente saber sua origem ou a melhor forma de reagir.
+  - **Detecção [Alvo] —** percebe a direção ou localização de um alvo específico definido para o Traço, como uma pessoa, criatura ou objeto. Não fornece automaticamente outras informações sobre o alvo.
+  - **Detecção [Mentiras] —** percebe quando alguém afirma deliberadamente algo que acredita ser falso. Não revela automaticamente a verdade nem detecta erro, ignorância, omissão ou interpretação equivocada.
+
 ---
 
 ## Princípios de interpretação
@@ -140,6 +151,10 @@ Identidades secretas, nomes falsos, licenças e credenciais comuns fazem parte d
 ### Mobilidade
 
 Formas especiais de Mobilidade mudam como o personagem se desloca, não substituem testes quando a situação envolve perigo, perseguição, obstáculos ou manobras difíceis. **Velocidade** amplia o alcance dos modos de deslocamento que o personagem já possui.
+
+### Sentidos
+
+Traços de Sentidos garantem a percepção que descrevem. Testes podem continuar sendo necessários para interpretar, analisar ou agir sobre aquilo que foi percebido. **Detecção [X]** só pode ser comprada nas opções listadas nesta seção.
 
 ---
 
