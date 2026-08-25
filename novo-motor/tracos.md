@@ -31,6 +31,20 @@ Por exemplo, um personagem que anda pelas paredes não precisa testar para perma
 
 ---
 
+## Traços não criam microrregras
+
+Traços não exigem controle constante de tempo, distância, consumo ou manutenção, salvo quando uma regra específica disser o contrário.
+
+O Narrador não deve inventar medições desnecessárias para limitar uma capacidade já garantida pelo Traço.
+
+Se o personagem possui **Andar pelas Paredes**, ele anda pelas paredes. Não é necessário calcular inclinação, aderência ou quantos metros consegue percorrer em condições normais.
+
+Da mesma forma, **Sem Alimentação** normalmente não exige qualquer atenção durante a aventura. Porém, se o grupo ficar preso por vários dias sem comida, esse Traço passa a gerar uma vantagem narrativa real.
+
+Traços positivos eliminam limitações comuns quando a situação as torna relevantes. Traços negativos criam complicações quando sua condição se torna relevante para a história.
+
+---
+
 ## Traço ou Poder?
 
 A principal diferença é simples:
@@ -78,20 +92,35 @@ As sete categorias básicas são:
 
 ## Fisiologia
 
-Traços de **Fisiologia** descrevem como o organismo do personagem funciona de maneira diferente do normal.
+Traços de **Fisiologia** descrevem necessidades, ciclos e funções naturais do organismo que funcionam de maneira diferente do normal.
 
 Eles respondem à pergunta:
 
 > **Como esse personagem funciona biologicamente ou naturalmente?**
 
-Exemplos:
+### Traços positivos
 
 - **Imortal —** não envelhece e não morre por causas naturais.
-- **Longevidade —** envelhece muito mais lentamente que uma pessoa comum.
 - **Anfíbio —** respira normalmente dentro e fora da água.
 - **Sem Respiração —** não precisa respirar para sobreviver.
 - **Sem Sono —** não precisa dormir.
-- **Sem Alimentação —** não precisa comer ou beber para sobreviver.
+- **Sem Alimentação —** não precisa comer nem beber para sobreviver.
+
+Esses Traços não exigem acompanhamento constante. Eles apenas entram em jogo quando a situação narrativa torna aquela necessidade relevante.
+
+### Traços negativos
+
+- **Alimentação Especial —** precisa consumir uma fonte específica para se manter saudável ou funcional; a falta prolongada gera consequências narrativas coerentes com o conceito.
+- **Dependência —** precisa receber ou acessar periodicamente uma fonte específica para manter sua condição normal ou suas capacidades; a privação prolongada gera consequências narrativas coerentes.
+- **Ciclo Restrito —** determinadas capacidades só estão plenamente disponíveis durante uma condição, período ou ciclo específico.
+
+A diferença prática entre os três é:
+
+- **Alimentação Especial:** precisa **consumir** algo. Exemplo: um vampiro que precisa de sangue.
+- **Dependência:** precisa **receber ou acessar** uma fonte. Exemplo: um personagem que depende de luz solar, energia, bateria ou uma fonte mágica.
+- **Ciclo Restrito:** precisa estar na **condição ou período correto**. Exemplo: um lobisomem cujos poderes só ficam disponíveis durante a lua cheia.
+
+Esses Traços negativos não criam contadores próprios. O Narrador só aplica suas consequências quando a situação da história torna a limitação realmente relevante.
 
 ---
 
@@ -216,9 +245,10 @@ Ao criar ou interpretar um Traço, siga estes princípios:
 2. **Deve afetar principalmente o próprio personagem.** Se for usado para impor um efeito sobre outra pessoa, provavelmente é um Poder.
 3. **Deve ser breve.** O nome e uma frase devem explicar a regra sempre que possível.
 4. **Não substitua Atributos.** Superforça, inteligência extraordinária ou grande coordenação devem ser representadas pelos Atributos correspondentes quando eles já forem suficientes.
-5. **Não elimine desafios além do que está escrito.** O Traço remove somente a limitação descrita.
-6. **Resistência não é Imunidade.** Resistência concede +1 dado para resistir; Imunidade impede o efeito da fonte especificada.
-7. **A ficção continua importante.** O Conceito do personagem explica como o Traço se manifesta, enquanto a descrição do Traço define o que ele faz mecanicamente.
+5. **Não teste aquilo que o Traço já garante.** Testes só são necessários quando existe um obstáculo além da capacidade descrita.
+6. **Não crie microrregras sem necessidade.** Traços entram em jogo quando a situação narrativa os torna relevantes.
+7. **Resistência não é Imunidade.** Resistência concede +1 dado para resistir; Imunidade impede o efeito da fonte especificada.
+8. **A ficção continua importante.** O Conceito do personagem explica como o Traço se manifesta, enquanto a descrição do Traço define o que ele faz mecanicamente.
 
 ---
 
@@ -226,7 +256,7 @@ Ao criar ou interpretar um Traço, siga estes princípios:
 
 | Categoria | Função |
 |---|---|
-| **Fisiologia** | condições naturais e necessidades do organismo |
+| **Fisiologia** | necessidades, ciclos e funções naturais do organismo |
 | **Estrutura** | propriedades permanentes do corpo |
 | **Mobilidade** | formas naturais de deslocamento |
 | **Sentidos** | formas passivas de percepção |
