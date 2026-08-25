@@ -59,7 +59,7 @@ Fama, Status, Conexões e Afiliação não garantem sucesso automático. Eles es
 ## Fisiologia
 
 - **Imortal [1] —** não envelhece e não morre por causas naturais. Ainda pode ser ferido e morto normalmente por outras causas.
-- **Anfíbio [1] —** respira normalmente dentro e fora da água e pode nadar e se deslocar em ambiente aquático sem sofrer as limitações comuns desse meio.
+- **Anfíbio [1] —** respira normalmente dentro e fora da água e se adapta naturalmente ao ambiente aquático. Nadar continua sendo uma capacidade normal; o Traço apenas remove as limitações de respiração e adaptação ao meio.
 - **Sem Respiração [1] —** não precisa respirar para sobreviver. Isso impede sufocamento, afogamento por falta de ar e problemas causados apenas pela ausência de oxigênio, mas não concede capacidade especial de nadar ou se mover em ambientes aquáticos.
 - **Sem Sono [1] —** não precisa dormir e não sofre as consequências normais da privação de sono.
 - **Sem Alimentação [1] —** não precisa comer nem beber para sobreviver e não sofre as consequências normais da privação de alimento ou água.
@@ -70,6 +70,16 @@ Fama, Status, Conexões e Afiliação não garantem sucesso automático. Eles es
   - **[1] Parte específica —** protege apenas uma estrutura ou parte delimitada, como ossos, garras ou equivalente.
   - **[2] Corpo —** o corpo inteiro permanece estruturalmente intacto e não pode ser desmembrado ou destruído fisicamente.
 - **Artificial [X] [1] —** possui um corpo de natureza artificial, construída ou sobrenatural, como androide, golem ou morto-vivo. Sua anatomia, funcionamento e formas plausíveis de reparo são interpretados de acordo com essa natureza. O Traço não concede automaticamente imunidades, resistências ou dispensa necessidades.
+
+## Mobilidade
+
+- **Voo Natural [2] —** pode voar como forma normal de deslocamento, sem precisar ativar um Poder.
+- **Andar pelas Paredes [1] —** pode caminhar e se deslocar por paredes e tetos como se fossem superfícies normais.
+- **Escavador [1] —** pode se deslocar naturalmente através de solo e materiais escaváveis coerentes com sua natureza.
+- **Super Salto [1] —** pode usar grandes saltos como forma normal de deslocamento, alcançando locais que uma pessoa comum não conseguiria por salto.
+- **Velocidade [1] —** aumenta de **curto para médio** o alcance das formas de deslocamento que o personagem já possui.
+
+**Movimento Aquático** não é um Traço separado. Pessoas comuns já podem nadar; **Anfíbio** apenas complementa essa capacidade ao permitir respirar e se adaptar naturalmente ao ambiente aquático.
 
 ---
 
@@ -126,6 +136,10 @@ Identidades secretas, nomes falsos, licenças e credenciais comuns fazem parte d
 ### Artificial
 
 **Artificial** define a natureza do corpo. Qualquer resistência, imunidade, ausência de sono, alimentação ou respiração precisa ser representada por outros Traços quando for relevante.
+
+### Mobilidade
+
+Formas especiais de Mobilidade mudam como o personagem se desloca, não substituem testes quando a situação envolve perigo, perseguição, obstáculos ou manobras difíceis. **Velocidade** amplia o alcance dos modos de deslocamento que o personagem já possui.
 
 ---
 
