@@ -16,6 +16,23 @@ A sequência padrão dos Poderes ofensivos é:
 
 Nem todo Poder precisa usar todas essas etapas. Poderes como **Portal, Invocação, Teleporte, Barreira, Cura, Detecção** e outros efeitos não ofensivos usam apenas as etapas que fizerem sentido para sua própria natureza.
 
+## Distâncias narrativas
+
+As distâncias dos Poderes são tratadas de forma **narrativa**. Os valores em metros são médias de referência para ajudar o Narrador a interpretar a cena com consistência, e não uma régua rígida.
+
+A escala é:
+
+- **Si Mesmo** — apenas o próprio usuário.
+- **Toque** — exige contato físico.
+- **Próximo** — cerca de **3 m**; poucos passos, alcance imediato dentro da cena.
+- **Curto** — cerca de **20 m**; uma distância pequena e claramente próxima dentro da cena.
+- **Médio** — cerca de **45 m**; uma distância significativa, mas ainda claramente presente na cena.
+- **Longo** — cerca de **90 m**; uma distância distante dentro da cena.
+
+Acima de **Longo**, a distância deixa de ser tratada como alcance comum e passa a depender de Poderes próprios, como **Teleporte**, **Portal** ou outros efeitos capazes de atravessar grandes distâncias.
+
+Quando uma dessas categorias aparecer em **Alcance** ou **Área**, o Narrador usa essa média como referência e interpreta a posição real conforme a ficção.
+
 ## Defesa
 
 A Defesa é resolvida antes do Dano e da Resistência do Efeito.
@@ -154,7 +171,9 @@ Alguns campos dos Poderes usam progressões. O primeiro passo da progressão nã
 
 ### Alcance
 
-`Toque → Próximo → Curto → Médio → Longo`
+`Si Mesmo → Toque → Próximo → Curto → Médio → Longo`
+
+As posições usadas e seus custos dependem da progressão apresentada em cada Poder.
 
 ### Dano
 
