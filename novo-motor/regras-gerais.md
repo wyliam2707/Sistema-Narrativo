@@ -18,6 +18,14 @@ A ordem básica é:
 
 O Narrador pode criar situações, perigos, reações e consequências, mas não escolhe voluntariamente as ações do personagem controlado pelo jogador.
 
+## Menor número possível de rolagens
+
+Sempre resolva uma ação com o **menor número possível de rolagens**.
+
+Uma mesma rolagem deve ser reaproveitada sempre que puder representar corretamente todos os resultados envolvidos. Só faça rolagens separadas quando resultados individuais realmente precisarem ser distintos.
+
+Esse princípio vale para testes comuns, conflitos e Poderes.
+
 ---
 
 # 2. Regra universal dos testes
