@@ -27,11 +27,26 @@ NARRADOR
 
 > **Imagine cinco pessoas sentadas à mesma mesa. Os jogadores movimentam suas peças. O OPOSITOR argumenta e joga a promotoria. O NARRADOR não joga: ele julga.**
 
+## Uma única IA pode ocupar várias cadeiras
+
+As cadeiras são separações de **autoridade e contexto**, não exigências técnicas de multiagente.
+
+Uma única IA pode executar JOGADORES IA, JOGADOR IA EVENTUAL, OPOSITOR e NARRADOR sequencialmente, desde que não misture conhecimentos, objetivos ou autoridade.
+
+A regra prática pertence a:
+
+```text
+instanciacao-da-mesa.md
+```
+
+> **Uma IA técnica pode executar várias personas. Uma persona nunca recebe automaticamente o contexto das outras.**
+
 ## Estrutura
 
 ```text
 personas/
 ├── README.md
+├── instanciacao-da-mesa.md
 ├── escopo-de-consulta.md
 ├── npcs-e-delegacao.md
 ├── jogador-humano/
@@ -40,6 +55,10 @@ personas/
 ├── opositor/
 └── narrador/
 ```
+
+### `instanciacao-da-mesa.md`
+
+Define como preparar as cadeiras no START e na retomada, inclusive quando toda a mesa é executada por uma única IA sem subagentes externos.
 
 ### `jogador-humano/`
 
@@ -96,71 +115,6 @@ PERSONA SABE
 PERSONAGEM SABE
 ```
 
-## Instanciação por campanha
-
-As definições desta pasta são globais, mas uma campanha precisa **instanciar as personas que realmente ocuparão sua mesa** antes da primeira cena.
-
-O processo de criação e a trava de START pertencem a:
-
-```text
-../criacao/start-da-campanha.md
-```
-
-Antes do START, toda campanha deve possuir operacionalmente:
-
-```text
-JOGADOR HUMANO
-→ vinculado à peça humana
-
-JOGADOR IA EVENTUAL
-→ persona compartilhada da campanha
-
-OPOSITOR
-→ persona da oposição
-
-NARRADOR
-→ persona de julgamento, narração e registro
-```
-
-E para cada ficha com:
-
-```text
-CONTROLE: JOGADOR IA
-```
-
-instanciar um `JOGADOR IA` exclusivo para aquela personagem.
-
-Exemplo:
-
-```text
-Kael   → JOGADOR HUMANO
-Ravena → JOGADOR IA — Ravena
-Wanda  → JOGADOR IA — Wanda
-
-JOGADOR IA EVENTUAL → ATIVO
-OPOSITOR → ATIVO
-NARRADOR → ATIVO
-```
-
-> **Definir uma cadeira não basta. Antes do jogo, a campanha precisa ocupá-la.**
-
-## Mesa operacional persistente
-
-A composição de personas da campanha é registrada no `README.md` da própria campanha sob:
-
-```text
-## Mesa operacional
-```
-
-Esse registro serve para reinstanciar o mesmo arranjo ao continuar a campanha.
-
-Ele não substitui:
-
-- `CONTROLE` nas fichas;
-- regras de autoridade desta pasta;
-- escopo de consulta;
-- estado atual da campanha.
-
 ## Importância não define controle
 
 `IMPORTÂNCIA` mede peso estrutural da personagem.
@@ -172,6 +126,24 @@ São eixos independentes.
 Uma personagem Central, Relevante ou Figurante pode usar qualquer `CONTROLE` aprovado pela campanha.
 
 Mudar IMPORTÂNCIA não muda automaticamente CONTROLE, ficha ou mecânica.
+
+## Mesa operacional da campanha
+
+Depois do START, o `README.md` da campanha registra quais cadeiras precisam ser reinstanciadas na retomada.
+
+Exemplo:
+
+```text
+JOGADOR HUMANO → Kael
+JOGADOR IA — Ravena → Ravena
+JOGADOR IA EVENTUAL → ATIVO
+OPOSITOR → ATIVO
+NARRADOR → ATIVO
+```
+
+A montagem inicial pertence a `../criacao/start-da-campanha.md`.
+
+A retomada usa essa Mesa operacional junto de `instanciacao-da-mesa.md` e `escopo-de-consulta.md`.
 
 ## Mesa como tribunal
 
@@ -199,4 +171,4 @@ Quando, depois de fatos, regras e resolução aplicáveis, ainda restarem interp
 
 ## Regra final
 
-> **Quem quer algo declara pela cadeira que possui autoridade sobre aquela peça. Quem se opõe apresenta sua jogada. O NARRADOR apenas julga, narra a sentença e registra. Antes da primeira cena, todas as cadeiras necessárias da campanha devem estar instanciadas e registradas na Mesa operacional.**
+> **Quem quer algo declara pela cadeira que possui autoridade sobre aquela peça. Quem se opõe apresenta sua jogada. O NARRADOR apenas julga, narra a sentença e registra. As cadeiras podem ser executadas por uma única IA, mas seus contextos e autoridades permanecem separados.**
