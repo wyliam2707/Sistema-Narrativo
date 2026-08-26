@@ -50,7 +50,15 @@ Adicione ou remova Perícias conforme as realmente possuídas pela personagem.
 
 # Bloco 3 — Traços e Poderes
 
-A estrutura detalhada deste bloco será consolidada separadamente.
+Este bloco separa cada categoria em uma linha própria para indicar claramente onde cada característica deve ser consultada nas regras.
+
+**Traços:** `[ ]` / `[ ]`  
+**Sobrenaturais:** `[ ]` / `[ ]`  
+**Vícios:** `[ ]` / `[ ]`  
+**Corrupções:** `[ ]` / `[ ]`  
+**Poderes:** `[ ]` / `[ ]` / `[ ]`
+
+Registre apenas aquilo que a personagem realmente possui. Custos, efeitos e regras completas permanecem nos arquivos correspondentes.
 
 ---
 
