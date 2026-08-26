@@ -12,7 +12,11 @@ Aumenta temporariamente um Atributo escolhido do alvo.
 
 É um efeito benéfico e, por padrão, não exige Defesa nem Resistência.
 
-Cada alvo pode manter no máximo **2 efeitos de Aprimoramento** ao mesmo tempo.
+Um personagem pode ter no máximo **2 Atributos diferentes ampliados temporariamente ao mesmo tempo**, considerando Aprimoramento e qualquer outra fonte de aumento temporário.
+
+Se dois Atributos já estiverem ampliados, um efeito que tentaria ampliar um terceiro Atributo não produz esse aumento enquanto o limite continuar ocupado.
+
+Esse limite não se aplica a reduções temporárias de Atributos.
 
 ## Atributos temporários, Vida e Mana
 
