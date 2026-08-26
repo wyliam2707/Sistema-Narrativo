@@ -8,6 +8,40 @@ O valor do Patamar também define `[X]`, o limite máximo de Mana que o personag
 
 ---
 
+## Atributos iniciais
+
+Na criação do personagem:
+
+> **Pontos de Atributos = Patamar × 4**
+
+Esses pontos são distribuídos entre os seis Atributos.
+
+O valor máximo que um Atributo pode possuir na criação é:
+
+> **Limite por Atributo = Patamar + 2, máximo [7]**
+
+Exemplos:
+
+- Patamar `[1]` → 4 pontos de Atributos; limite `[3]` por Atributo.
+- Patamar `[2]` → 8 pontos de Atributos; limite `[4]` por Atributo.
+- Patamar `[3]` → 12 pontos de Atributos; limite `[5]` por Atributo.
+- Patamar `[4]` → 16 pontos de Atributos; limite `[6]` por Atributo.
+- Patamar `[5]`, `[6]` ou `[7]` → limite máximo `[7]` por Atributo.
+
+---
+
+## Perícias iniciais
+
+A quantidade de Perícias depende da importância do personagem:
+
+- **Personagem simples:** 1 Perícia.
+- **Personagem relevante:** 2 Perícias.
+- **Vilões e personagens de jogador:** 3 Perícias.
+
+As Perícias escolhidas devem ser coerentes com o Conceito, formação e função do personagem.
+
+---
+
 ## Traços e Poderes iniciais
 
 Na criação do personagem:
