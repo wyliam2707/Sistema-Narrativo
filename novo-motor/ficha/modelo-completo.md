@@ -38,7 +38,13 @@ Ele não deve antecipar personalidade, motivações, medos, desejos, comportamen
 
 # Bloco 2 — Atributos e Perícias
 
-A estrutura detalhada deste bloco será consolidada separadamente.
+Este bloco registra apenas os valores dos Atributos e as Perícias possuídas pela personagem, em formato compacto para consulta rápida.
+
+**Corpo:** Potência `[ ]` / Controle `[ ]` / Resistência `[ ]`  
+**Mente:** Intelecto `[ ]` / Presença `[ ]` / Vontade `[ ]`  
+**Perícias:** `[ ]` / `[ ]` / `[ ]`
+
+Adicione ou remova Perícias conforme as realmente possuídas pela personagem.
 
 ---
 
