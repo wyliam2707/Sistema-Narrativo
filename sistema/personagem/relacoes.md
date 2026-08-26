@@ -2,7 +2,11 @@
 
 Status: APROVADO
 
-Relações recorrentes importantes podem aparecer na ficha em:
+`REL` registra vínculos **recorrentes e consolidados** que fazem parte da vida atual da personagem.
+
+> **Relação descreve o vínculo; não decide comportamento, não concede obediência e não é bônus automático.**
+
+## Forma
 
 ```text
 REL: Nome [grau] — natureza do vínculo
@@ -16,27 +20,14 @@ REL: Gordon [+3] — aliado / confiança
 REL: Liga dos Assassinos [-3] — hostilidade
 ```
 
-## O que REL representa
+## O que o grau representa
 
-`REL` mede apenas duas coisas:
+O grau registra:
 
-- a direção predominante do vínculo;
-- a intensidade desse vínculo.
+- direção predominante;
+- intensidade do vínculo.
 
-A natureza da relação permanece narrativa.
-
-Um mesmo grau pode representar vínculos diferentes.
-
-```text
-Alfred [+4] — família / confiança
-Selina [+3] — afeto / atração / desconfiança
-Gordon [+3] — aliado / confiança
-Coringa [-4] — inimigo
-```
-
-O valor não define se a relação é amizade, amor, família, rivalidade, lealdade, medo ou qualquer outra forma específica de vínculo.
-
-## Escala
+A natureza permanece narrativa.
 
 | Grau | Referência |
 |---|---|
@@ -52,106 +43,85 @@ O valor não define se a relação é amizade, amor, família, rivalidade, leald
 | **+4** | vínculo profundo |
 | **+5** | vínculo positivo máximo |
 
-A escala descreve intensidade e direção, não um tipo obrigatório de relação.
+Um mesmo grau pode representar amizade, família, amor, rivalidade, lealdade, medo ou outra forma de vínculo.
 
-## Relações podem ser ambivalentes
+## Ambivalência
 
-Uma relação pode conter sentimentos contraditórios.
-
-Exemplo:
+Uma relação pode conter sentimentos contraditórios:
 
 ```text
 REL: Selina [+3] — afeto / atração / desconfiança
 REL: Irmão [+4] — amor / ressentimento
 ```
 
-Não são necessários dois valores separados.
-
-O grau registra a direção e intensidade predominantes; a descrição preserva as contradições do vínculo.
-
-## REL não controla comportamento
-
-Relação não é modificador mecânico automático e não controla decisões por si só.
-
-Um valor favorável pode criar contexto, oportunidade, confiança ou pressão emocional, mas não concede automaticamente:
-
-- acesso;
-- favor;
-- autoridade;
-- obediência;
-- sucesso social;
-- controle sobre a decisão de outra pessoa.
-
-A resposta concreta continua dependendo de quem a pessoa é, do que foi pedido, da situação, de seus objetivos, riscos e demais circunstâncias.
-
-## Uso pelo OPOSITOR
-
-Uma relação importante pode servir como gancho de oposição.
-
-Exemplo:
-
-```text
-REL: Alfred [+4] — família / confiança
-```
-
-Se a ficção permitir, o OPOSITOR pode usar esse vínculo para construir pressão por meio de ameaça, risco, pedido difícil, conflito de lealdade, consequência emocional ou outra situação coerente.
-
-O grau nunca autoriza o OPOSITOR a determinar automaticamente a decisão do personagem.
-
-> **REL pode criar pressão. REL não cria obediência.**
+Não é necessário criar dois valores apenas porque o vínculo é complexo.
 
 ## Relações são direcionais
-
-A relação de A com B não precisa ser igual à relação de B com A.
 
 ```text
 A → B [+4]
 B → A [+2]
 ```
 
-Cada direção representa o vínculo daquele personagem com o outro.
+A relação de A com B não precisa ser igual à de B com A.
 
-Quando uma relação complexa precisar de mais contexto do que um valor `REL` consegue representar, a descrição do vínculo ou a estrutura da aventura pode preservar esse contexto adicional.
+Durante a criação, a consistência entre as duas fichas é verificada por `../criacao/pareamento.md`.
 
 ## Pessoas e organizações
 
-`REL` pode registrar vínculos com pessoas ou organizações, desde que a relação seja recorrente e narrativamente relevante.
+`REL` pode registrar pessoa ou organização quando o vínculo for recorrente e relevante.
 
 ```text
-REL: Alfred [+4] — família / confiança
-REL: Liga dos Assassinos [-3] — hostilidade
 REL: Polícia de Gotham [+2] — cooperação
 ```
 
-Quando o alvo é uma organização, o valor representa a relação predominante entre o personagem e o grupo. Ele não obriga todos os membros da organização a pensar ou agir da mesma forma.
+Quando o alvo é uma organização, o grau representa a relação predominante com o grupo; não obriga todos os indivíduos daquela organização a reagirem da mesma maneira.
 
-## O que entra na ficha
+## REL não controla comportamento
 
-`REL` acompanha principalmente vínculos recorrentes da vida atual do personagem:
+Um grau favorável pode criar contexto, confiança ou oportunidade quando a ficção realmente sustentar isso, mas não concede automaticamente:
 
-- pessoas com quem convive;
+- acesso;
+- favor;
+- autoridade;
+- obediência;
+- sucesso social;
+- controle sobre decisão alheia.
+
+Resolução social pertence a `../resolucao/resolucao-social.md`.
+
+Autoridade e decisões voluntárias pertencem a `../personas/`.
+
+## O que entra em REL
+
+Usar `REL` principalmente para vínculos que realmente fazem parte da vida recorrente da personagem:
+
 - família importante;
 - amizades recorrentes;
 - parceiros;
 - rivais permanentes;
 - inimigos ativos recorrentes;
 - organizações importantes;
-- outros vínculos que realmente façam parte de sua vida.
+- outros vínculos consolidados.
 
-Uma reação circunstancial não entra automaticamente na ficha.
+Uma reação circunstancial não vira automaticamente `REL`.
 
-Exemplo:
+Se uma consequência ainda é apenas causalmente viva, mas não se tornou vínculo recorrente, sua persistência pertence a `../persistencia/progressao.md`.
+
+`REL [0]` só precisa aparecer quando a relação neutra ainda for relevante; relações sem utilidade futura podem simplesmente não ocupar a ficha.
+
+## Pressão e continuidade
+
+Este arquivo não define como relações são usadas para movimentar oposição ou continuidade fora de cena.
+
+Usar:
 
 ```text
-Princesa Elara [+2] — favorável após um resgate
+pressões e ganchos → ../agencia/
+quem decide        → ../personas/
+onde salvar        → ../persistencia/
 ```
 
-Se essa pessoa não faz parte da vida recorrente do personagem, a consequência pode permanecer em Progressão em vez de ocupar `REL`.
+## Regra final
 
-Se a relação passar a integrar de fato sua vida recorrente, pode então ser promovida para `REL`.
-
-`REL [0]` só precisa ser registrado quando a relação neutra ainda for narrativamente importante. Relações irrelevantes simplesmente não ocupam a ficha.
-
-> **REL acompanha vínculo recorrente. Progressão preserva consequências circunstanciais ainda causalmente vivas.**
-
-As regras de mudança e persistência de relações pertencem à área de persistência.
+> **`REL` descreve direção, intensidade e natureza de um vínculo recorrente. A relação informa a ficção; outras áreas determinam agência, resolução e persistência.**
