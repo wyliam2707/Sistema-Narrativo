@@ -1,14 +1,30 @@
 # Pontos de Trama
 
-Pontos de Trama representam a reserva narrativa do personagem para enfrentar dificuldades, superar penalidades e insistir quando a situação se volta contra ele.
+Pontos de Trama representam a **reserva narrativa do jogador humano** para intervir nas rolagens do personagem quando uma situação realmente importa.
 
-Eles também recompensam o jogador quando aceita que os próprios Traços realmente influenciem suas escolhas e compliquem sua vida.
+Eles permitem melhorar uma resolução, reduzir penalidades e recompensam o jogador quando aceita que os próprios Traços influenciem suas escolhas e compliquem sua vida.
+
+> **Mana representa a capacidade técnica do personagem. Trama representa a margem narrativa do jogador humano.**
+
+Trama não cria Poderes, não substitui Atributos ou Perícias e não transforma uma ação ficcionalmente impossível em possível.
+
+---
+
+## Quem possui Trama
+
+Somente personagens sob:
+
+> **CONTROLE: JOGADOR HUMANO**
+
+possuem Pontos de Trama.
+
+Personagens sob `CONTROLE: JOGADOR IA`, `CONTROLE: JOGADOR IA EVENTUAL` e NPCs não possuem essa reserva.
 
 ---
 
 ## Reserva inicial
 
-Todo personagem começa com **30 Pontos de Trama**.
+Um personagem sob `CONTROLE: JOGADOR HUMANO` começa com **30 Pontos de Trama**.
 
 Pontos de Trama nunca ficam negativos.
 
@@ -26,7 +42,7 @@ Esses dois ganhos são separados: os 5 pontos diários são garantidos; os ponto
 
 ## Agir de forma fiel aos Traços
 
-Quando um Traço coloca o personagem diante de uma limitação, desejo, medo, obrigação ou conflito relevante, o jogador continua decidindo como agir.
+Quando um Traço coloca o personagem diante de uma limitação, desejo, medo, obrigação ou conflito relevante, o jogador humano continua decidindo como agir.
 
 Se o personagem **cede ao Traço** e aceita a dificuldade, consequência ou complicação que ele representa, recebe **+1 Ponto de Trama**, respeitando o limite de 5 pontos adicionais por dia.
 
@@ -42,7 +58,7 @@ Exemplos:
 - um personagem com **Código [Nunca Matar]** poupa alguém mesmo quando matar seria a solução mais conveniente;
 - um personagem com **Fobia [Fogo]** aceita recuar, hesitar ou buscar outra saída quando o medo realmente interfere na cena.
 
-O OPOSITOR pode criar situações em que os Traços ofereçam pressão real, mas não decide como o personagem reage. A decisão continua pertencendo à persona que controla o personagem.
+O OPOSITOR pode criar situações em que os Traços ofereçam pressão real, mas não decide como o personagem reage. A decisão continua pertencendo ao jogador humano.
 
 ---
 
@@ -62,7 +78,7 @@ Pontos de Trama não transformam uma ação ficcionalmente impossível em possí
 
 ## Enfrentando um Traço
 
-O jogador pode escolher agir contra aquilo que um Traço representa.
+O jogador humano pode escolher agir contra aquilo que um Traço representa.
 
 Quando faz isso, normalmente apenas **não recebe o Ponto de Trama** que ganharia ao ceder ao Traço.
 
@@ -88,4 +104,4 @@ Ter 0 Pontos de Trama não impede o personagem de quebrar o Código; significa a
 
 # Regra fundamental
 
-> **Traços podem pressionar o personagem, mas não retiram sua agência. Ceder a eles alimenta a Trama; enfrentá-los normalmente não gera Trama; e regras específicas podem estabelecer custos adicionais para contrariá-los.**
+> **Trama pertence ao jogador humano. Ela permite interferir nas próprias rolagens e recompensa aceitar complicações reais causadas pelos Traços, sem retirar a agência do personagem nem substituir suas capacidades mecânicas.**
