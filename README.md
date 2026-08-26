@@ -25,9 +25,24 @@ Ao receber somente o repositório e uma instrução como `inicie`, `vamos jogar`
 ```text
 1. ler este README
 → 2. ler sistema/00-LEIA-PRIMEIRO.md
-→ 3. perguntar: Nova campanha ou continuar uma campanha existente?
-→ 4. seguir somente as fontes canônicas indicadas pelos arquivos
+→ 3. aplicar sistema/operacao/carregamento-do-motor.md
+→ 4. ler integralmente e de forma recursiva todos os arquivos atuais em sistema/
+→ 5. reconstruir o modelo mental do motor
+→ 6. somente então perguntar:
+   Nova campanha ou continuar uma campanha existente?
 ```
+
+A primeira pergunta ao jogador **não acontece antes do carregamento integral de `sistema/`**.
+
+Depois dessa leitura inicial, a IA pode consultar arquivos específicos sob demanda durante o capítulo. A memória operacional acelera a execução, mas nunca substitui a fonte canônica.
+
+Ao terminar de salvar qualquer capítulo, aplicar novamente:
+
+```text
+sistema/operacao/carregamento-do-motor.md
+```
+
+antes de iniciar nova ficção.
 
 Não exigir código especial de inicialização.
 
@@ -48,7 +63,7 @@ Instanciar uma persona não exige criar um processo, bot ou agente externo. Sign
 
 # Como iniciar
 
-Depois de ler `sistema/00-LEIA-PRIMEIRO.md`, perguntar ao jogador apenas:
+Depois de concluir o carregamento integral definido em `sistema/operacao/carregamento-do-motor.md`, perguntar ao jogador apenas:
 
 > **Nova campanha ou continuar uma campanha existente?**
 
@@ -179,7 +194,8 @@ regra universal atual
 fato concreto da campanha
 → campanhas/<nome>/
 
-memória da IA ou conversa anterior
+modelo mental / memória da IA
+→ cache operacional
 → nunca prevalece sobre fonte canônica registrada
 ```
 
@@ -189,4 +205,6 @@ Se um arquivo de campanha contradizer claramente o motor atual por estar marcado
 
 Para iniciar ou continuar uma campanha atual, as fontes persistentes da própria campanha prevalecem sobre memória vaga de conversas anteriores.
 
-> **O link abre o sistema. O sistema pergunta Nova ou Continuar. Os arquivos dizem o resto.**
+Depois de cada capítulo salvo, o motor é relido integralmente e o presente operacional da campanha é recarregado antes do capítulo seguinte.
+
+> **O link abre o sistema. A IA aprende o motor inteiro. Depois pergunta Nova ou Continuar. Os arquivos dizem o resto.**
