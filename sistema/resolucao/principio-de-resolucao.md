@@ -28,7 +28,7 @@ Depois classifica a situação em uma destas três formas:
 → estabelece diretamente.
 
 3. RESULTADO REALMENTE INCERTO
-→ exige resolução comparativa.
+→ exige resolução.
 ```
 
 ## 1. Resultado evidente
@@ -55,7 +55,7 @@ JOGADOR
 → ergo a motocicleta.
 
 FICHA
-→ FIS [2], suficiente para a ação.
+→ Potência suficiente para a ação.
 
 SITUAÇÃO
 → sem oposição ou condição especial.
@@ -89,7 +89,7 @@ Uma impossibilidade pode deixar de ser impossível quando a ficção muda e surg
 
 ## 3. Resultado realmente incerto
 
-Quando, depois de considerar capacidades e situação, ainda existem dois ou mais resultados plausíveis, o NARRADOR precisa resolver a disputa.
+Quando, depois de considerar capacidades e situação, ainda existem dois ou mais resultados plausíveis, o NARRADOR precisa aplicar a resolução necessária.
 
 Exemplo:
 
@@ -114,7 +114,7 @@ Podem importar:
 - regras aplicáveis;
 - outras condições relevantes.
 
-Nesse caso, o resultado não é assumido antes da comparação.
+Nesse caso, o resultado não é assumido antes da resolução.
 
 ## Pergunta central
 
@@ -132,12 +132,12 @@ SIM
 
 ## A mesma capacidade pode produzir tratamentos diferentes
 
-A existência de uma perícia, atributo ou poder não determina sozinha se haverá resolução.
+A existência de uma Perícia, Atributo ou Poder não determina sozinha se haverá resolução.
 
 Exemplo:
 
 ```text
-Ladrão excepcional
+ladrão excepcional
 +
 fechadura comum
 +
@@ -214,6 +214,14 @@ Um antagonista importante pode sofrer uma consequência decisiva se a situação
 
 > **O NARRADOR não cria obstáculo apenas porque o acontecimento é importante demais para ser simples.**
 
+## Patamar não cria balanceamento de Dificuldade
+
+A Dificuldade representa a situação concreta, não o nível esperado dos personagens.
+
+Uma ação pode ser quase impossível em uma campanha de Patamar baixo, e tarefas banais continuam banais mesmo em uma campanha de Patamar alto.
+
+> **A Dificuldade descreve o problema; a ficha descreve quem tenta resolvê-lo.**
+
 ## Competência deve permanecer competência
 
 Quando uma ação possui:
@@ -229,17 +237,27 @@ Separar intenção de resultado não autoriza criar falha aleatória.
 
 Da mesma forma, capacidade alta não transforma uma impossibilidade em possibilidade sem algum mecanismo real.
 
-## Disputa pode permanecer aberta
+## Empate em oposição rolada
 
-Se a resolução não produz vantagem suficiente para alterar o estado da situação, a disputa pode simplesmente continuar.
+Quando uma oposição ativa realmente exige rolagem, aplica-se a regra universal:
 
-Não é necessário fabricar um vencedor quando ninguém conseguiu mudar o estado do conflito.
+> **empate favorece quem iniciou a ação.**
 
-> **Empate real pode significar continuidade, não vitória forçada.**
+A resposta precisa superar o resultado da ação para impedi-la.
+
+Essa regra só é usada depois que a situação chegou ao estado de oposição realmente incerta. Ela não obriga o NARRADOR a rolar quando a ficção já determina claramente o que acontece.
+
+## Tarefas demoradas
+
+Tempo por si só não exige várias rolagens.
+
+Se uma tarefa é possível e seu resultado fica evidente com tempo suficiente, o NARRADOR estabelece o resultado e o tempo coerente.
+
+Se houver uma incerteza real sobre conseguir realizá-la nas condições presentes, usa-se a resolução necessária uma vez. Uma nova rolagem só ocorre se surgir uma nova incerteza relevante depois disso.
 
 ## Dúvida restante
 
-Quando fatos, capacidades e regras já foram considerados e ainda restam interpretações igualmente coerentes, o NARRADOR escolhe a solução que melhor mantém o desenvolvimento e a continuidade da cena, sem contradizer o que já foi estabelecido.
+Quando fatos, capacidades e regras já foram considerados e ainda restam interpretações igualmente coerentes que não possuem regra específica para distingui-las, o NARRADOR escolhe a solução que melhor mantém o desenvolvimento e a continuidade da cena, sem contradizer o que já foi estabelecido.
 
 Essa escolha resolve a situação atual; não cria automaticamente uma nova regra geral.
 
@@ -255,6 +273,6 @@ Depois que o NARRADOR inicia a resolução, não se adiciona dificuldade retroat
 
 ## Regra final
 
-> **Se, após consultar declarações, fichas, regras, cenário e situação, existir apenas um resultado coerente, o NARRADOR o estabelece diretamente. Somente quando dois ou mais resultados permanecerem realmente plausíveis é necessária resolução comparativa.**
+> **Se, após consultar declarações, fichas, regras, cenário e situação, existir apenas um resultado coerente, o NARRADOR o estabelece diretamente. Somente quando dois ou mais resultados permanecerem realmente plausíveis é necessária resolução.**
 >
 > **Nem sucesso evidente nem impossibilidade evidente exigem incerteza artificial.**
