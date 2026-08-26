@@ -10,17 +10,33 @@ As mecânicas de ataque, Dano, Cura, Mana, Poderes, Status, proteção, contenç
 
 ## Regra central
 
-Durante combate, a ficção é dividida em **Turnos de até 10 segundos**.
+Durante combate, a ficção é dividida em **Rodadas de até 10 segundos**.
 
-Um Turno corresponde a **uma passagem completa pela ordem de Iniciativa**.
+Uma Rodada corresponde a **uma passagem completa pela ordem de Iniciativa**.
 
 ```text
-TURNO DE COMBATE
+RODADA DE COMBATE
 → começa no primeiro da Iniciativa
 → cada participante recebe sua vez, em ordem
 → termina quando o último da Iniciativa é processado
-→ ao voltar ao primeiro, começa um novo Turno
+→ ao voltar ao primeiro, começa uma nova Rodada
 ```
+
+Cada participante possui também seu próprio **Turno**.
+
+O Turno começa quando chega sua vez na Iniciativa e se estende até o início da próxima vez dessa mesma peça.
+
+```text
+TURNO DE UMA PEÇA
+→ começa quando chega sua vez
+→ a peça age
+→ continua durante as demais posições da Rodada
+→ atravessa o fechamento da Rodada
+→ continua pelas posições anteriores à sua na Rodada seguinte
+→ termina quando sua próxima vez começa
+```
+
+Assim, uma mesma Rodada contém o início do Turno de cada participante uma vez.
 
 A Iniciativa existe para garantir uma ordem operacional clara e impedir que alguma peça seja esquecida.
 
@@ -42,7 +58,7 @@ Mercenário 15
 Cultista 12
 ```
 
-Essa ordem permanece fixa até o fim do combate. **Não se rola Iniciativa novamente a cada Turno.**
+Essa ordem permanece fixa até o fim do combate. **Não se rola Iniciativa novamente a cada Rodada.**
 
 ### Empate
 
@@ -66,19 +82,25 @@ rola Iniciativa uma vez
 
 Os participantes já presentes não rolam novamente e mantêm sua ordem relativa.
 
-## Turno, posição e vez
+## Rodada, Turno, posição e vez
 
 Os termos operacionais são:
 
 ```text
-TURNO
+RODADA
 → passagem completa por toda a Iniciativa
+→ começa no primeiro e termina no último
 
 POSIÇÃO DE INICIATIVA
 → lugar fixo de uma peça na ordem
 
 VEZ
-→ etapa em que a posição atual é processada
+→ momento em que a posição daquela peça é processada
+
+TURNO
+→ intervalo pessoal da peça
+→ começa em sua vez atual
+→ termina no início de sua próxima vez
 ```
 
 Exemplo:
@@ -89,14 +111,15 @@ Iniciativa
 2. Aliado [1]
 3. Inimigo [1]
 
-Turno 1
-→ vez de Kael
-→ vez de Aliado [1]
-→ vez de Inimigo [1]
-→ fim do Turno 1
+Rodada 1
+→ começa o Turno de Kael; Kael age
+→ começa o Turno de Aliado [1]; Aliado [1] age
+→ começa o Turno de Inimigo [1]; Inimigo [1] age
+→ termina a Rodada 1
 
-Turno 2
-→ volta para Kael
+Rodada 2
+→ começa novamente a vez de Kael
+→ termina o Turno anterior de Kael e começa seu novo Turno
 ```
 
 ## Autoridade durante cada vez
@@ -135,6 +158,8 @@ Cada posição da Iniciativa é processada como uma etapa própria:
 ```text
 1. CHAMAR A VEZ
 → identificar a peça e a persona responsável
+→ encerrar o Turno anterior dessa peça
+→ iniciar seu novo Turno
 
 2. DECLARAR
 → a persona responsável escolhe a intenção da peça
@@ -167,11 +192,11 @@ Essa pausa não transfere ao JOGADOR HUMANO autoridade sobre a decisão de aliad
 
 ## Janela de ação
 
-A vez concede uma **janela de ação** dentro do Turno de até 10 segundos.
+A vez é o momento de ação dentro do Turno pessoal da peça.
 
 Ela não cria uma economia abstrata universal de “uma ação, uma ação bônus, um movimento”. A persona responsável declara uma intenção coerente, e o NARRADOR julga o que cabe naquela janela conforme a ficção e as regras específicas.
 
-Uma declaração ampla não resolve vários Turnos de uma vez.
+Uma declaração ampla não resolve várias Rodadas de uma vez.
 
 Exemplo:
 
@@ -191,7 +216,7 @@ VEZ ATUAL
 → resolver somente o que cabe agora
 ```
 
-Se o objetivo continuar, a peça recebe nova oportunidade quando sua próxima vez chegar no Turno seguinte.
+Se o objetivo continuar, a peça recebe nova oportunidade quando sua próxima vez chegar.
 
 ## Defesas e reações
 
@@ -213,7 +238,7 @@ Poderes, reações ou interrupções que possuam regra própria podem ocorrer fo
 
 ## Consequências antes da própria vez
 
-Como o estado é atualizado após cada resolução, uma consequência anterior pode alterar uma posição posterior do mesmo Turno.
+Como o estado é atualizado após cada resolução, uma consequência anterior pode alterar uma posição posterior da mesma Rodada.
 
 Exemplos:
 
@@ -232,16 +257,20 @@ Se a peça não puder mais agir, sua posição é processada e encerrada sem aç
 
 ## Duração: Turno
 
-Quando um Poder ou efeito possuir duração **Turno**, ele permanece até o início da próxima vez da peça que gerou o efeito.
+Quando um Poder ou efeito possuir duração **Turno**, ele permanece durante o Turno pessoal de quem gerou o efeito.
 
 ```text
 efeito criado na vez de uma peça
-→ permanece pelo restante do Turno atual
-→ permanece pelas posições anteriores àquela peça no Turno seguinte
-→ termina quando começa novamente a vez de quem gerou o efeito
+→ permanece depois da ação
+→ permanece durante as demais posições da Rodada atual
+→ atravessa o fim da Rodada
+→ permanece pelas posições anteriores à peça na Rodada seguinte
+→ termina no início da próxima vez de quem gerou o efeito
 ```
 
 Salvo regra específica, essa é a leitura operacional padrão de `Duração: Turno`.
+
+> **Duração: Turno = da vez atual até o início da próxima vez de quem gerou o efeito.**
 
 ## Início do combate
 
@@ -252,25 +281,25 @@ identificar participantes ativos
 → cada participante rola Iniciativa uma vez
 → ordenar
 → apresentar a ordem
-→ iniciar o Turno 1 pela primeira posição
+→ iniciar a Rodada 1 pela primeira posição
 ```
 
 Não é necessário esperar o primeiro Dano.
 
-## Fechamento do Turno
+## Fechamento da Rodada
 
-O Turno só termina quando todas as posições aplicáveis da ordem de Iniciativa forem processadas.
+A Rodada só termina quando todas as posições aplicáveis da ordem de Iniciativa forem processadas.
 
 ```text
 há participante ainda não processado
 → chamar o próximo após autorização
 
 última posição processada
-→ fechar o Turno
-→ ao voltar ao primeiro, iniciar novo Turno
+→ fechar a Rodada
+→ ao voltar ao primeiro, iniciar nova Rodada
 ```
 
-Antes do novo Turno, o estado deve refletir todas as consequências estabelecidas, incluindo quando pertinente:
+Antes da nova Rodada, o estado deve refletir todas as consequências estabelecidas, incluindo quando pertinente:
 
 ```text
 Vida e Dano
@@ -302,4 +331,4 @@ Depois disso, voltar a `janelas-e-interrupcoes.md`.
 
 ## Regra final
 
-> **Cada participante rola Iniciativa uma vez no início do combate. Um Turno é uma passagem completa pela ordem. Em cada vez, a persona responsável declara; o NARRADOR apenas julga, narra a sentença e registra. Depois de cada posição, o NARRADOR pausa e pede autorização antes de prosseguir. Ao processar o último, o Turno termina; ao voltar ao primeiro, começa o próximo Turno.**
+> **Cada participante rola Iniciativa uma vez no início do combate. A Rodada é uma passagem completa pela ordem, do primeiro ao último. O Turno é pessoal: começa na vez da peça e termina no início da próxima vez dela. Em cada vez, a persona responsável declara; o NARRADOR apenas julga, narra a sentença e registra. Depois de cada posição, o NARRADOR pausa e pede autorização antes de prosseguir.**
