@@ -4,7 +4,7 @@ Status: APROVADO
 
 Este arquivo define **como o tempo é dividido quando existe combate ativo**.
 
-As fórmulas de ataque, Dano, Cura, Energia, efeitos, proteção, contenção, Dissipar e demais mecânicas continuam pertencendo a `../resolucao/`.
+As mecânicas de ataque, Dano, Cura, Mana, Poderes, Status, proteção, contenção e demais resoluções pertencem a `../resolucao/`.
 
 > **Operação organiza o tempo. Resolução calcula o resultado.**
 
@@ -80,6 +80,10 @@ NARRADOR
 
 Declarar primeiro não significa agir primeiro.
 
+Quando duas intenções realmente competirem pelo mesmo instante e nenhum fato estabelecer precedência, a resolução pode usar uma **oposição comum** com os Atributos coerentes de cada abordagem.
+
+Esse teste resolve somente aquela precedência local e não cria iniciativa para os turnos seguintes.
+
 ## Declaração ampla em combate
 
 Uma declaração ampla continua sendo uma intenção válida, mas não pode resolver antecipadamente vários intervalos de oposição.
@@ -124,10 +128,10 @@ Ela termina no primeiro destes limites:
 
 ```text
 SURGE NOVA DECISÃO RELEVANTE ANTES DO LIMITE
-→ parar no ponto causal da mudança.
+→ parar no ponto causal da mudança
 
 CHEGA AO LIMITE DE 10 SEGUNDOS
-→ fechar o turno.
+→ fechar o turno
 ```
 
 Assim, mesmo uma intenção que levaria muito mais tempo precisa ser acompanhada turno a turno enquanto o combate permanecer ativo.
@@ -139,26 +143,28 @@ Antes do próximo turno, todas as consequências mecânicas produzidas pelo inte
 Isso inclui somente quando for pertinente:
 
 ```text
-Dano
-Cura
-Energia
-efeitos
-proteções
-contenções
-condições
+Vida e Dano
+Mana
+Trama, quando aplicável
+Poderes e seus efeitos ativos
+Status
+Barreiras e proteções
+alterações temporárias de Atributo
 posição relevante
-STATUS e demais valores afetados
+outros valores afetados
 ```
 
 Nenhum desses cálculos é redefinido aqui.
 
-Usar as regras existentes em:
+Usar as fontes atuais:
 
 ```text
 ../resolucao/combate-e-dano.md
-../resolucao/efeitos/
-../resolucao/energia.md
-../resolucao/consolidacao.md
+../resolucao/vida.md
+../resolucao/mana.md
+../resolucao/poderes/
+../resolucao/status/
+../personagem/trama.md
 ```
 
 O registro final segue `../persistencia/`.
@@ -189,17 +195,17 @@ Depois disso, volta a valer `janelas-e-interrupcoes.md`.
 
 ## Relação com as mecânicas
 
-Turno de 10 segundos **não altera as fórmulas existentes**.
+Turno de 10 segundos **não altera as regras de resolução**.
 
 ```text
 OPERAÇÃO
-→ define o intervalo e a oportunidade de decisão.
+→ define o intervalo e a oportunidade de decisão
 
 RESOLUÇÃO
-→ define ataque, defesa, dano, cura, efeitos, custos e demais consequências.
+→ define testes, Defesa, Dano, Cura, Poderes, Status, custos e demais consequências
 
 PERSISTÊNCIA
-→ guarda o estado resultante.
+→ guarda o estado resultante
 ```
 
 Se uma mecânica possui duração, custo, aplicação ou referência temporal própria, seguir a regra específica dela. O turno apenas fornece o relógio comum do combate.
