@@ -2,302 +2,258 @@
 
 Status: APROVADO
 
-Poderes representam **arsenais de capacidades relacionadas** por uma mesma fonte, natureza, tecnologia, tradição, equipamento ou conceito.
+Um **Poder** representa parte do arsenal funcional do personagem.
 
-Um Poder não precisa ser sobrenatural.
+Ele define ações específicas, efeitos e possibilidades que vão além das ações comuns resolvidas diretamente por Atributos, equipamentos ordinários e ficção básica.
 
-Ele pode representar magia, mutação, tecnologia, armadura, veículos, equipamentos especiais, capacidades psíquicas ou qualquer outro conjunto coerente de possibilidades que precise ser registrado separadamente dos atributos e perícias.
+A origem pode ser:
 
-> **O Poder define um arsenal. O repertório define o que esse arsenal consegue fazer.**
+- mundana;
+- física;
+- técnica;
+- tecnológica;
+- sobrenatural;
+- psíquica;
+- biológica;
+- qualquer outra coerente com o Conceito.
 
----
-
-## 1. Sintaxe padrão
-
-```text
-Poder [Fonte opcional] [grau] => usos / especializações
-```
-
-Exemplos:
-
-```text
-Magia Branca [1] => Geral / Dano [2] / Cura [4]
-Metamorfose [Animais] [3] => Geral
-Armadura [1] => Geral / Balística [2]
-Veículos [1] => Moto / Carro / Avião
-```
-
-Todo Poder possui obrigatoriamente um patamar-base.
-
-Poder `[0]` não existe.
-
-Se o personagem não possui determinada capacidade ou arsenal, ele simplesmente não aparece na ficha.
+> **Poder representa o que o personagem consegue produzir como parte de seu arsenal especial.**
 
 ---
 
-## 2. Patamar do Poder
+## 1. Poder não usa grau genérico
 
-Poderes usam a mesma lógica qualitativa e não linear de PATAMAR definida em `escala.md`.
-
-O grau indica em que escala aquele arsenal ou capacidade funciona.
+Poderes não usam mais uma escala universal:
 
 ```text
 [1] [2] [3] [4] [5]
 ```
 
-Graus altos devem ser usados com parcimônia.
+Essa graduação antiga não faz parte do motor atual.
 
-`[3]` já representa uma capacidade realmente poderosa.
-
-`[4]` representa um patamar extremo, reservado para poucos casos.
-
-`[5]` representa o ápice daquela capacidade e deve ser quase único dentro da categoria.
-
-> **Se o personagem não é o equivalente ao “Superman” daquela capacidade, provavelmente não precisa de [5].**
-
-Essa restrição é de calibração conceitual, não de balanceamento.
-
-Um personagem pode possuir apenas Poderes `[1]` e isso ser a representação correta dele.
-
-Nenhum Poder deve ser elevado apenas para aproximar sua ficha da de outro personagem, tornar um confronto justo ou equilibrar um grupo.
-
----
-
-## 3. Repertório após `=>`
-
-O que vem depois de `=>` define o repertório disponível dentro daquele Poder.
+A ficha registra apenas quais Poderes o personagem possui.
 
 Exemplo:
 
 ```text
-Magia Branca [1] => Geral / Dano [2] / Cura [4]
+PODERES:
+- Teleporte
+- Proteção
+- Ilusão
 ```
 
-significa:
+A ausência de um Poder significa que aquela capacidade não faz parte do arsenal funcional registrado do personagem.
 
-- usos gerais coerentes de Magia Branca = `[1]`;
-- Dano = `[2]`;
-- Cura = `[4]`.
-
-O nome dos usos é aberto e descritivo.
-
-Podem existir, por exemplo:
-
-```text
-Dano
-Cura
-Movimento
-Proteção
-Ocultação
-Contenção
-Congelamento
-Invocação
-Portal
-Análise
-Maldição
-```
-
-Não existe uma lista universal obrigatória.
-
-O uso deve descrever **o efeito ou função relevante**, não obrigatoriamente a forma visual pela qual ele acontece.
-
-Por isso, `Dano` pode assumir a forma de raio, projétil, explosão, toque, onda ou outra manifestação coerente com o Poder.
-
-> **A forma narrativa não cria automaticamente uma nova capacidade mecânica.**
+Não usar `Poder [0]` como marcador.
 
 ---
 
-## 4. Valor-base e específico
+## 2. Ações comuns não exigem Poder
 
-O patamar-base do Poder é usado pelos usos que não possuem valor próprio.
+Qualquer personagem pode tentar ações comuns que sejam ficcionalmente possíveis para ele.
 
-```text
-Magia [2] => Cura / Portal / Proteção
-```
-
-Cura, Portal e Proteção funcionam em `[2]`.
-
-Um uso com patamar próprio substitui o valor-base naquele recorte.
+Exemplos:
 
 ```text
-Magia [3] => Geral / Cura [1] / Portal [4]
+socar
+correr
+escalar
+empurrar
+usar uma ferramenta comum
 ```
 
-significa:
+Essas ações não exigem um Poder chamado `Soco`, `Corrida` ou equivalente.
 
-- usos gerais de Magia = `[3]`;
-- Cura = `[1]`;
-- Portal = `[4]`.
+Poder é necessário quando a personagem pretende produzir uma capacidade especial que não existe apenas pela ação comum e pelos meios disponíveis.
 
-O específico prevalece sobre o geral mesmo quando possui patamar menor.
-
-> **O geral estabelece o padrão. O específico define a exceção.**
-
-Não existe soma entre o valor-base e o valor específico.
+Exemplos:
 
 ```text
-Magia [3] + Portal [4] ≠ [7]
+teleportar
+criar uma Barreira sobrenatural
+invocar uma criatura
+alterar a mente de alguém por efeito extraordinário
+produzir um disparo especial de energia
 ```
-
-Portal simplesmente funciona em `[4]`.
 
 ---
 
-## 5. Geral
+## 3. Hub
 
-`Geral` autoriza usos não listados especificamente, desde que sejam coerentes com o domínio do Poder.
+Cada Poder possui sua própria regra e seu próprio **Hub**.
 
-```text
-Magia [2] => Geral / Portal [4]
-```
+O Hub organiza apenas as dimensões relevantes para aquele Poder, que podem incluir:
 
-Usos mágicos coerentes e não listados funcionam em `[2]`.
+- Alcance;
+- Alvos;
+- Área;
+- Dano;
+- Efeito;
+- Defesa;
+- Duração;
+- Conjuração;
+- Tipo;
+- Modo;
+- Distância;
+- Escopo;
+- Contra;
+- Tamanho;
+- Material;
+- outras propriedades específicas.
 
-Portal funciona em `[4]`.
+Nem todo Poder usa todos esses campos.
 
-Sem `Geral`, o repertório permanece restrito aos usos declarados.
-
-```text
-Veículos [1] => Moto / Carro / Avião
-```
-
-Nesse caso, o Poder garante apenas as categorias declaradas.
+> **O arquivo do Poder define o que ele faz. O Hub define como aquele uso é configurado.**
 
 ---
 
-## 6. Fonte no cabeçalho
+## 4. Custo e [X]
 
-Uma fonte entre colchetes no cabeçalho funciona como fronteira temática de um único Poder.
+Quando uma progressão de Hub não disser outra coisa:
+
+- a primeira posição custa `+0`;
+- cada avanço seguinte custa `+1`;
+- opções equivalentes no mesmo estágio possuem o mesmo custo;
+- o custo final é a soma das opções escolhidas.
+
+`[X]` representa:
+
+> **Patamar da personagem**
+
+E normalmente limita:
+
+> **a quantidade máxima de Mana que pode ser gasta em um único uso do Poder**
+
+Alguns Poderes possuem custo operacional a partir de `0+ Mana`; outros a partir de `1+ Mana`, conforme sua própria regra.
+
+Consultar `../resolucao/mana.md` e `patamar.md`.
+
+---
+
+## 5. Configuração pertence ao jogador da peça
+
+Quando um Poder possuir escolhas que alterem custo ou resultado, o controlador da personagem decide a configuração voluntária.
+
+O NARRADOR pergunta somente o que ainda estiver faltando para resolver o uso.
+
+Se alvo, forma, alcance, intensidade e demais escolhas já estiverem claros na declaração, não perguntar novamente.
+
+O NARRADOR não escolhe silenciosamente uma configuração mais cara, mais fraca ou diferente da intenção declarada.
+
+As regras de autoridade continuam pertencendo a `../personas/`.
+
+---
+
+## 6. Ataques comuns e Poderes ofensivos
+
+Uma personagem sem Poder ofensivo ainda pode realizar um ataque comum.
+
+Quando um ataque comum causa Dano sem usar fonte especial com Dano próprio:
+
+> **Dano = Atributo utilizado no ataque**
+
+Sem rolagem separada de Dano.
+
+Poderes ofensivos substituem essa forma simples pelas regras próprias de seu Hub, podendo definir:
+
+- Dano;
+- alcance;
+- Defesa;
+- Resistência;
+- Efeito;
+- Área;
+- Alvos;
+- outras propriedades.
+
+A resolução completa pertence a `../resolucao/combate-e-dano.md` e aos arquivos específicos de Poder.
+
+---
+
+## 7. Poder, Atributo e Perícia
+
+Cada parte da ficha responde a uma pergunta diferente:
 
 ```text
-Metamorfose [Animais] [3] => Geral
+ATRIBUTO
+→ qual capacidade fundamental o personagem possui?
+
+PERÍCIA
+→ em quais campos possui treinamento e experiência?
+
+PODER
+→ quais funções especiais fazem parte de seu arsenal?
 ```
 
-`Geral` autoriza usos amplos de Metamorfose, mas sempre dentro da fronteira `Animais`.
+Atributos, Perícias e Poderes não são somados automaticamente.
 
-> **Fonte no cabeçalho = limite temático daquele arsenal.**
+Uma Perícia pode conceder `+1d` quando realmente for relevante para a resolução, mas não aumenta genericamente Dano ou custo de Poder.
 
-A fonte no cabeçalho deve ser usada quando realmente delimita uma única capacidade.
+---
 
-Quando uma fonte possui identidade, repertório ou patamar próprios, ela deve ser registrada como Poder separado.
+## 8. Capacidade natural e Poder
+
+Uma capacidade natural ou permanente já representada adequadamente por um Atributo não precisa ser duplicada como Poder apenas para repetir a mesma coisa.
 
 Exemplo:
 
 ```text
-Magia [3] => Geral / Dano / Proteção
-Magia Negra [5] => Geral / Dano / Maldição / Invocação
-Magia Branca [1] => Geral / Dano [2] / Cura [4]
+Potência [5]
 ```
 
-Esses são três arsenais distintos.
+já pode representar força natural extraordinária.
 
-Um não herda automaticamente o repertório ou o patamar dos outros.
-
----
-
-## 7. Poderes diferentes não se somam
-
-Dois Poderes diferentes podem produzir efeitos semelhantes sem se fundirem numa soma automática.
-
-```text
-Magia [2] => Dano
-Magia Negra [4] => Dano
-```
-
-Se o personagem usa Magia, o Dano opera em `[2]`.
-
-Se usa Magia Negra, o Dano opera em `[4]`.
-
-A resolução considera qual arsenal foi realmente empregado na ficção.
-
-O sistema não escolhe automaticamente o maior valor sem considerar a ação declarada.
-
----
-
-## 8. Efeito não é forma de entrega
-
-Não existe um uso universal chamado `Disparo` necessário para permitir ataques à distância.
-
-A forma de entrega e o efeito são informações diferentes.
+Mas uma capacidade ativa, configurável ou com efeito próprio pode ser Poder.
 
 Exemplo:
 
 ```text
-Gelo [2] => Dano / Congelamento
+Aprimoramento
+→ aumenta temporariamente Atributos conforme seu Hub
 ```
-
-O personagem pode manifestar Dano ou Congelamento de maneiras coerentes com seu Poder — raio, toque, projétil, onda ou outra forma apropriada — sem que `Disparo` precise existir como categoria separada.
-
-Da mesma forma:
-
-```text
-Telecinese [3] => Dano / Movimento / Contenção / Proteção
-```
-
-cada termo descreve uma função do arsenal, não uma aparência obrigatória.
 
 ---
 
-## 9. Poder, atributo e perícia
+## 9. Forma narrativa e função mecânica
 
-Cada parte da ficha responde a uma pergunta diferente.
+A aparência do efeito não cria automaticamente uma categoria nova de Poder.
 
-```text
-ATRIBUTO → qual capacidade inerente o personagem possui?
-PERÍCIA  → qual domínio adquirido ele possui?
-PODER    → qual arsenal especial ele possui e em que patamar funciona?
-```
+Um mesmo Poder ofensivo pode se manifestar como raio, projétil, golpe, onda ou outra forma quando sua própria regra e o Conceito permitirem.
 
-Exemplo:
+Da mesma forma, Poderes diferentes podem produzir resultados visualmente parecidos sem serem mecanicamente iguais.
 
-```text
-Armadura [1] => Geral / Balística [2]
-Veículos [1] => Moto / Carro / Avião
-Piloto [+3]
-```
-
-`Veículos [1]` informa quais recursos extraordinários estão disponíveis e em qual patamar.
-
-`Piloto [+3]` informa quão bem o personagem sabe conduzi-los.
-
-Uma coisa não substitui automaticamente a outra.
-
-Uma capacidade natural e permanente pode ser registrada diretamente no atributo quando o atributo representar adequadamente aquela capacidade.
-
-Quando existe um arsenal temático, uma capacidade especial ou um repertório próprio, ele deve ser registrado como Poder.
+> **A forma vem da ficção; a função vem da regra específica do Poder.**
 
 ---
 
-## 10. Exemplo de arsenal tecnológico
+## 10. Calibração
 
-Um personagem como Batman pode ser representado sem transformar seus equipamentos em dezenas de entradas independentes:
+Poderes são escolhidos pelo que realmente pertence ao personagem.
 
-```text
-Arsenal [1] => Dano / Cura / Ocultação / Movimento / Contenção
-Armadura [1] => Geral / Balística [2]
-Veículos [1] => Moto / Carro / Avião
-```
+Não adicionar, retirar ou alterar Poderes apenas para:
 
-O Poder registra o conjunto de recursos disponíveis.
+- equilibrar grupo automaticamente;
+- aproximar duas fichas sem pedido do jogador;
+- garantir determinado vencedor;
+- recuperar dificuldade depois de uma solução válida.
 
-A Perícia registra o domínio do personagem ao utilizá-los.
-
-Isso permite fichas compactas sem perder diferenças relevantes entre recursos gerais e especializações.
+A regra completa pertence a `calibracao.md`.
 
 ---
 
-## 11. Sem balanceamento por comparação
+## 11. Migração dos arquivos específicos
 
-Poderes são calibrados pelo personagem que os possui.
+A posse e o registro de Poderes pertencem a `personagem/`.
 
-Não usar protagonista, aliado, rival, antagonista ou outro membro do grupo como régua para aumentar ou reduzir patamares.
+As regras concretas de cada Poder e seus Hubs pertencem à camada de resolução e serão organizadas em:
 
-Não elevar um Poder porque outro personagem parece mais forte.
+```text
+../resolucao/poderes/
+```
 
-Não reduzir um Poder porque ele parece injusto para um confronto.
+Enquanto a migração desses arquivos específicos não estiver concluída, não inventar novas graduações genéricas para preencher a lacuna.
 
-Não criar contramedidas retroativas apenas para restaurar dificuldade.
+---
 
-> **A ficha descreve o personagem. Ela não tenta torná-lo justo em relação aos demais.**
+## Regra final
 
-A regra completa de calibração independente pertence a `calibracao.md`.
+> **Poder é arsenal funcional, não uma nota de [1] a [5]. A ficha registra quais Poderes existem; cada arquivo específico define o que eles fazem e o Hub define como cada uso é configurado dentro do limite de Mana e Patamar.**
