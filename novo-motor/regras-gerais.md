@@ -68,7 +68,7 @@ Assim, mesmo que uma regra produza `-10d` em penalidades, o teste continua sendo
 
 ## Origem dos dados adicionais
 
-Dados adicionais ou removidos pertencem a **fontes mecânicas explícitas**.
+Dados adicionais ou removidos pertencem normalmente a **fontes mecânicas explícitas**.
 
 Exemplos de fontes válidas:
 
@@ -78,7 +78,9 @@ Exemplos de fontes válidas:
 - Trama;
 - outra regra que determine diretamente `+Xd` ou `-Xd`.
 
-Uma circunstância comum da cena não concede automaticamente `+1d` nem `-1d`. Quando a situação concreta torna a tentativa mais fácil ou mais difícil, isso é representado pela **Dificuldade final daquela tentativa**.
+Em testes contra o cenário, uma circunstância comum da cena não concede automaticamente `+1d` nem `-1d`: quando a situação concreta torna a tentativa mais fácil ou mais difícil, isso é representado pela **Dificuldade final daquela tentativa**.
+
+Em oposições ativas, existe uma exceção própria para **vantagem ficcional óbvia e inegável**, definida na seção de oposição.
 
 ## Perícias
 
@@ -161,6 +163,20 @@ Quando existe oposição ativa, os dois lados fazem seus testes:
 Cada lado utiliza o Atributo coerente com aquilo que está fazendo.
 
 Essa é a mesma estrutura usada em combate, disputas físicas, conflitos mentais, Poderes e qualquer outra oposição ativa.
+
+## Vantagem ficcional óbvia
+
+Quando a própria situação conceder a um dos lados uma **vantagem óbvia e inegável** naquela oposição, o lado favorecido recebe:
+
+> **+1d**
+
+Essa vantagem precisa nascer diretamente da ficção e ser clara o bastante para não depender de tentativa de balanceamento ou de uma interpretação forçada.
+
+Exemplos possíveis incluem posição claramente superior, terreno que prejudica apenas o oponente, alavanca física decisiva, preparação já estabelecida ou outra condição concreta que realmente favoreça um dos lados na disputa.
+
+A vantagem ficcional usa a mesma regra normal de dados: rola-se um dado adicional e mantêm-se os quatro melhores, respeitando o limite universal de `-2d` a `+2d`.
+
+Se a situação já tornar o resultado evidente, não existe oposição a rolar: aplica-se diretamente o resultado ficcional.
 
 ## Empates
 
@@ -285,7 +301,7 @@ Exemplos:
 
 Os dois lados não precisam usar o mesmo Atributo.
 
-Perícias e outras fontes mecânicas explícitas podem alterar os dados normalmente quando forem relevantes.
+Perícias e outras fontes mecânicas explícitas podem alterar os dados normalmente quando forem relevantes. Uma vantagem ficcional óbvia e inegável também pode conceder `+1d` ao lado favorecido conforme a regra geral de oposição.
 
 Empates seguem a regra universal de oposição: favorecem quem iniciou a ação concorrente.
 
