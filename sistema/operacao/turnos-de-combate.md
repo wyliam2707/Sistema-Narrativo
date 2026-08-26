@@ -27,7 +27,7 @@ A Iniciativa existe para garantir uma ordem operacional clara e impedir que algu
 
 ## Iniciativa
 
-Quando o combate começa, cada participante ativo faz:
+Quando o combate começa, cada participante ativo faz **uma única rolagem de Iniciativa**:
 
 ```text
 Iniciativa = 4d6 + Controle
@@ -43,7 +43,7 @@ Mercenário 15
 Cultista 12
 ```
 
-Essa ordem permanece durante o combate.
+Essa ordem permanece fixa até o fim do combate. **Não se rola Iniciativa novamente a cada rodada.**
 
 ### Empate
 
@@ -51,25 +51,27 @@ Em empate de Iniciativa:
 
 ```text
 maior Controle age primeiro
-→ persistindo o empate, somente os empatados rolam novamente
+→ persistindo o empate, somente os empatados rolam novamente para desempatar
 ```
+
+Essa rolagem de desempate apenas define a posição inicial entre os empatados; depois disso, a ordem também permanece fixa.
 
 ### Entrada posterior
 
-Uma peça que entrar no confronto depois do início:
+Uma peça que entrar no confronto depois do início faz sua única rolagem de Iniciativa ao entrar:
 
 ```text
-rola Iniciativa
-→ entra imediatamente na posição correspondente da ordem
+rola Iniciativa uma vez
+→ entra na posição correspondente da ordem
 ```
 
-A ordem só é refeita por uma regra específica ou quando um novo combate começa.
+Os participantes já presentes não rolam novamente e mantêm sua ordem relativa.
 
 ## Ordem operacional da rodada
 
 No início do combate, o NARRADOR registra a ordem de Iniciativa.
 
-Depois, cada rodada segue essa ordem integralmente:
+Depois, cada rodada segue essa mesma ordem integralmente:
 
 ```text
 1. primeiro da Iniciativa
@@ -87,7 +89,7 @@ Depois, cada rodada segue essa ordem integralmente:
 último da Iniciativa
 → resolver e atualizar
 
-→ nova rodada, se o combate continuar
+→ nova rodada, mantendo a mesma ordem
 ```
 
 Cada participante ativo deve receber sua posição antes de a rodada terminar.
@@ -167,7 +169,7 @@ Ao entrar em combate:
 
 ```text
 identificar participantes ativos
-→ rolar Iniciativa
+→ cada participante rola Iniciativa uma vez
 → ordenar
 → apresentar a ordem
 → iniciar a primeira posição
@@ -226,4 +228,4 @@ PERSISTÊNCIA
 
 ## Regra final
 
-> **Combate usa rodadas de até 10 segundos e uma ordem fixa de Iniciativa. Iniciativa = 4d6 + Controle. Resolver cada participante do maior para o menor, aplicar a consequência e atualizar o estado antes de chamar o próximo. Defesas não consomem a posição de Iniciativa.**
+> **Cada participante rola Iniciativa uma vez no início do combate: 4d6 + Controle. A ordem fica fixa até o fim do combate e é reutilizada em todas as rodadas. Resolver do maior para o menor, atualizar o estado após cada ação e nunca esquecer uma posição ativa antes de fechar a rodada. Defesas não consomem a posição de Iniciativa.**
