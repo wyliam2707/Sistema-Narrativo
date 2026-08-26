@@ -16,20 +16,22 @@ Cada alvo pode manter no máximo **2 efeitos de Aprimoramento** ao mesmo tempo.
 
 ## Sobreposição no mesmo Atributo
 
-Bônus temporários sobre o mesmo Atributo **não se somam**.
+Efeitos concorrentes de **Aprimoramento** sobre o mesmo Atributo não se somam entre si.
 
-Quando dois efeitos se sobrepõem:
+Quando dois efeitos da mesma fonte ou regra se sobrepõem:
 
 - **mesmo valor:** permanece apenas o efeito de maior duração; o de menor duração é descartado;
 - **valores diferentes:** apenas o efeito mais forte fica ativo;
 - se o efeito mais fraco possuir duração **menor ou igual** à do efeito mais forte, ele é descartado;
 - se o efeito mais fraco possuir duração **maior**, ele permanece inativo enquanto o mais forte estiver ativo e sua duração continua passando normalmente; quando o efeito mais forte terminar, o mais fraco volta a valer se ainda restar duração.
 
+Efeitos mecanicamente parecidos provenientes de **fontes diferentes** podem permanecer ativos ao mesmo tempo, salvo quando alguma regra específica disser o contrário.
+
 Exemplos:
 
-- `+1 por Cena` e `+1 por Hora` → permanece apenas **+1 por Hora**;
-- `+2 por Cena` e `+1 por Hora` → fica **+2** durante a Cena; depois, se o efeito de uma Hora ainda estiver ativo, passa a valer **+1**;
-- `+1 por Cena` e `+2 por Hora` → o **+1 por Cena** é descartado, pois é mais fraco e também possui duração menor.
+- `+1 por Cena` e `+1 por Hora` da mesma fonte → permanece apenas **+1 por Hora**;
+- `+2 por Cena` e `+1 por Hora` da mesma fonte → fica **+2** durante a Cena; depois, se o efeito de uma Hora ainda estiver ativo, passa a valer **+1**;
+- `+1 por Cena` e `+2 por Hora` da mesma fonte → o **+1 por Cena** é descartado, pois é mais fraco e também possui duração menor.
 
 ## Custos
 
