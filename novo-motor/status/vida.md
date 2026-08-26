@@ -6,16 +6,20 @@ Vida representa quanto dano e desgaste físico o personagem consegue suportar an
 
 A Vida Máxima de um personagem é calculada por:
 
-> **Vida = 20 + (Resistência × 4) + (Potência × 2) + (Controle × 2) + Intelecto + Presença + Vontade**
+> **Vida = 10 + (Resistência × 4) + (Potência × 2) + (Controle × 2) + Intelecto + Presença + Vontade**
+
+Para esse cálculo, **Atributos negativos contam como 0**. Eles nunca reduzem a Vida abaixo da base por causa de um valor negativo.
 
 Os Atributos contribuem de maneira diferente:
 
-- **Resistência ×4** — é o principal fator de sobrevivência e durabilidade;
-- **Potência ×2** — representa vigor e capacidade física geral;
-- **Controle ×2** — representa domínio corporal, reação e capacidade de evitar que danos se agravem;
+- **Resistência ×4** — principal fator de sobrevivência e durabilidade;
+- **Potência ×2** — vigor e capacidade física geral;
+- **Controle ×2** — domínio corporal, reação e capacidade de evitar que danos se agravem;
 - **Intelecto ×1** — contribuição mental geral;
 - **Presença ×1** — contribuição mental geral;
 - **Vontade ×1** — contribuição mental geral.
+
+Assim, um personagem com todos os Atributos em `[0]` possui **10 de Vida**.
 
 A Vida Máxima é recalculada quando uma regra permanente alterar os Atributos que entram na fórmula. A interação com alterações temporárias ainda será definida pela regra geral de Atributos temporários.
 
