@@ -39,7 +39,7 @@ Fluxo fora de combate: intenção ampla, passagem de tempo, interrupção, compe
 
 Combate em turnos simultâneos de até 10 segundos, com oportunidade para todas as peças e limite temporal da sentença.
 
-As fórmulas de Dano, Cura, Energia, efeitos e demais mecânicas continuam em `../resolucao/`.
+As regras de Dano, Cura, Mana, Poderes, Status e demais mecânicas continuam em `../resolucao/`.
 
 ### `comandos-administrativos.md`
 
