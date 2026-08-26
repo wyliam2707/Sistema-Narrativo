@@ -14,6 +14,8 @@ Invocação cria ou traz criaturas auxiliares para agir de acordo com sua nature
 
 ## Criatura Invocada
 
+A criatura criada por este Poder é uma **manifestação temporária de Invocação**. Seu modelo por ND é uma regra específica deste Poder e não substitui as regras gerais de NPCs ou personagens.
+
 Toda criatura invocada usa uma ficha-base determinada pelo seu ND:
 
 - **Atributos:** todos os Atributos são iguais ao ND.
@@ -23,7 +25,7 @@ Toda criatura invocada usa uma ficha-base determinada pelo seu ND:
 - **Defesa do ataque:** Total; se a Defesa vencer, o ataque não causa dano.
 - **Dano:** `1d4 + ND`.
 
-O **ND representa a capacidade mecânica da criatura**, não limita aquilo que sua natureza permite fazer na ficção. Uma criatura pode realizar ações evidentes para sua forma e descrição sem teste; só há teste quando existir incerteza real.
+O **ND representa a capacidade mecânica da manifestação**, não limita aquilo que sua natureza permite fazer na ficção. Uma criatura pode realizar ações evidentes para sua forma e descrição sem teste; só há teste quando existir incerteza real.
 
 ### Referência por ND
 
@@ -35,28 +37,34 @@ O **ND representa a capacidade mecânica da criatura**, não limita aquilo que s
 | 3 | 3 | 20 PV | `1d4 + 3` |
 | 4 | 4 | 25 PV | `1d4 + 4` |
 
+Se uma criatura deixar de ser uma manifestação temporária e passar a existir como personagem independente e persistente, sua construção passa a seguir as regras normais de `../../personagem/`.
+
 ## Comandos
 
 Ao ser invocada, a criatura recebe um **comando inicial**.
 
 Ela age de forma autônoma para cumprir esse comando, interpretando-o conforme sua natureza e inteligência.
 
-A cada turno, o invocador pode dar **um novo comando breve** sem gastar sua ação. O comando deve ser curto e direto, como:
+Durante a formação das declarações de cada turno simultâneo, o invocador pode manter o comando atual ou fornecer **um novo comando breve**, como:
 
 - “Ataque aquele homem.”
 - “Proteja a porta.”
 - “Siga ela.”
 - “Volte para mim.”
 
+Isso não cria uma ação extra nem consome uma unidade abstrata de ação, porque o sistema não possui economia universal de uma ação por turno.
+
 Para receber um novo comando, a criatura precisa estar em **Alcance Médio** do invocador. Fora desse alcance, continua seguindo o último comando recebido.
 
 ## Momento de agir
 
-A criatura não possui uma iniciativa separada.
+A criatura **não possui iniciativa separada nem posição fixa numa fila**.
 
-> **Ela age imediatamente antes da próxima ação do invocador.**
+Ela participa do mesmo intervalo simultâneo de até 10 segundos que as demais peças e tenta cumprir seu comando dentro desse intervalo.
 
-Assim, depois que o invocador age e fornece um comando, os demais participantes da cena agem normalmente. Antes de chegar novamente a ação do invocador, a criatura realiza sua ação para cumprir o comando atual.
+Quando a ação da criatura interferir diretamente com outra intenção e a ficção não estabelecer precedência evidente, aplicar as regras normais de interferência e oposição de `../../operacao/turnos-de-combate.md` e `../motor-de-disputa.md`.
+
+> **Invocação não cria uma ordem própria de iniciativa. A manifestação age dentro do turno simultâneo.**
 
 ## Fim da Invocação
 
