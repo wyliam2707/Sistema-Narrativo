@@ -24,14 +24,16 @@ Pertencem a esta área:
 - Importância como metadado da ficha;
 - `CONTROLE` apenas como campo registrado;
 - representação mecânica compacta de NPCs;
-- organização visual da ficha;
-- calibração das capacidades pelo conceito da própria personagem.
+- organização visual da ficha.
 
 ## O que não pertence aqui
 
 ```text
 como criar ou revisar uma ficha?
 → ../criacao/personagem.md
+
+como calibrar conceito em valores/capacidades?
+→ ../criacao/calibracao.md
 
 como parear informações entre fichas?
 → ../criacao/pareamento.md
@@ -120,13 +122,12 @@ NPC não possui mecânica própria. Usa Patamar, Atributos, Perícias, Poderes, 
 
 `npcs.md` define apenas como representar mecanicamente NPCs de forma completa, rápida ou mínima.
 
-Autoridade, delegação e quem joga um NPC pertencem a `../personas/npcs-e-delegacao.md`. Continuidade fora de cena pertence a `../agencia/continuidade-de-npcs.md`. Destino persistente pertence a `../persistencia/material-reservado.md`.
+Autoridade e delegação pertencem a `../personas/npcs-e-delegacao.md`. Continuidade fora de cena pertence a `../agencia/continuidade-de-npcs.md`. Destino persistente pertence a `../persistencia/material-reservado.md`.
 
 ## Arquivos principais
 
 - `ficha.md` — estrutura consolidada da personagem;
 - `organizacao-visual.md` — apresentação da ficha;
-- `calibracao.md` — tradução do conceito para capacidades coerentes;
 - `escala.md` — visão geral das escalas atuais;
 - `patamar.md` — Patamar, pontos e limites;
 - `atributos.md` — seis Atributos;
