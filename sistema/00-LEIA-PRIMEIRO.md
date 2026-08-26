@@ -96,54 +96,7 @@ aventuras/
 
 permanece preservado como legado de campanhas. Não mover, apagar, reestruturar ou converter automaticamente.
 
-Esse material não redefine as regras de `sistema/`.
-
-## Fontes atuais
-
-As subpastas atuais de `sistema/` são as únicas fontes canônicas da arquitetura e das regras atuais.
-
-Dentro de resolução mecânica:
-
-```text
-sistema/resolucao/motor-de-disputa.md
-→ testes e oposições
-
-sistema/resolucao/combate-e-dano.md
-→ combate e Dano
-
-sistema/resolucao/vida.md
-→ Vida
-
-sistema/resolucao/mana.md
-→ Mana
-
-sistema/resolucao/poderes/
-→ Hubs e Poderes
-
-sistema/resolucao/status/
-→ Status temporários
-```
-
-Dentro de personagem:
-
-```text
-sistema/personagem/patamar.md
-→ Patamar e criação mecânica
-
-sistema/personagem/atributos.md
-→ seis Atributos
-
-sistema/personagem/pericias.md
-→ Perícias
-
-sistema/personagem/tracos/
-→ catálogos de Traços
-
-sistema/personagem/trama.md
-→ Trama mecânica do protagonista humano
-```
-
-Arquivos removidos durante migrações anteriores não são fontes válidas e não devem ser procurados para restaurar regras antigas.
+Arquivos universais legados já removidos de `sistema/` não são fontes válidas e não devem ser restaurados.
 
 ## Prioridade
 
@@ -153,4 +106,4 @@ Quando houver conflito:
 2. regra canônica atual da arquitetura;
 3. fonte canônica da própria campanha.
 
-> **As subpastas atuais governam o sistema. Material legado não cria uma segunda fonte de regra.**
+> **As subpastas atuais governam o sistema. Não existe uma segunda camada histórica de regras dentro de `sistema/`.**
