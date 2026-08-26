@@ -1,160 +1,123 @@
 # Pontos de Trama
 
-Status: APROVADO — MECÂNICA
+Status: APROVADO
 
-Pontos de Trama representam uma reserva mecânica exclusiva da personagem sob:
+Trama é uma reserva mecânica disponível, por regra geral, apenas para a personagem com:
 
 > **CONTROLE: JOGADOR HUMANO**
 
-Personagens sob `JOGADOR IA`, `JOGADOR IA EVENTUAL` e `NPC` não possuem essa reserva por regra geral.
+A autoridade associada a esse `CONTROLE` pertence a `../personas/`. Este arquivo define somente **a reserva e seus usos mecânicos**.
 
-Esta página migra **somente os usos mecânicos** de Trama que não alteram as regras protegidas de narração, agência ou persistência.
+## Reserva inicial
 
----
-
-## 1. Reserva inicial
-
-A personagem sob `CONTROLE: JOGADOR HUMANO` começa com:
-
-> **30 Pontos de Trama**
+```text
+Trama inicial = 30
+```
 
 Trama nunca fica negativa.
 
----
+O valor atual pertence ao estado persistente, não à ficha consolidada.
 
-## 2. Recuperação diária
+## Recuperação diária
 
 A cada novo dia da campanha:
 
 > **+5 Trama**
 
-Além disso, a personagem pode receber até:
+Além disso, podem ser obtidos até:
 
 > **+5 Trama adicionais por dia**
 
-quando um Traço realmente cria uma complicação, limitação, obrigação, medo, desejo ou conflito relevante e o jogador **aceita voluntariamente** a dificuldade que esse Traço produz.
+por complicações reais de Traços voluntariamente aceitas pela personagem elegível.
 
 Cada complicação válida concede normalmente:
 
 > **+1 Trama**
 
-Resistir, evitar ou contornar o Traço não concede esse ponto.
+Evitar, resistir ou contornar a complicação não concede esse ponto.
 
-A decisão de aceitar a complicação pertence ao JOGADOR HUMANO. O NARRADOR ou OPOSITOR pode apresentar a pressão legítima, mas não declarar que a personagem cedeu quando ainda houver escolha voluntária.
+A decisão voluntária continua pertencendo à cadeira definida em `../personas/`.
 
----
-
-## 3. Melhorar uma rolagem
+## Melhorar uma rolagem
 
 Antes de resolver um teste:
 
 ```text
-5 Trama
-→ +1d
-
-10 Trama
-→ +2d
+5 Trama  → +1d
+10 Trama → +2d
 ```
 
-A regra universal continua sendo aplicada:
+O limite universal final continua `±2d`, conforme `../resolucao/motor-de-disputa.md`.
+
+## Reduzir penalidade de dados
 
 ```text
-+1d → 5d6, mantém os 4 melhores
-+2d → 6d6, mantém os 4 melhores
+5 Trama  → reduz penalidade em 1d
+10 Trama → reduz penalidade em 2d
 ```
 
-O limite final normal de modificadores continua sendo `±2d`.
+Isso não torna possível uma ação objetivamente impossível.
 
----
+## Reduzir Dano
 
-## 4. Reduzir uma penalidade de dados
+Depois que Defesa, RD e Barreira determinarem quanto Dano realmente alcançaria a personagem e antes de aplicar esse valor à Vida:
 
-Quando a personagem possuir penalidade mecânica explícita:
+> **1 Trama = reduz 1 ponto do Dano restante**
 
-```text
-5 Trama
-→ reduz a penalidade em 1d
+O gasto pode reduzir o Dano a `0`.
 
-10 Trama
-→ reduz a penalidade em 2d
-```
+A ordem completa pertence a `../resolucao/combate-e-dano.md`.
 
-Isso não transforma uma impossibilidade objetiva em ação possível.
+## Substituir Mana faltante
 
----
-
-## 5. Reduzir Dano
-
-Depois que o Dano final que alcançaria a personagem for conhecido e **antes de ele ser aplicado à Vida atual**, o jogador pode gastar:
-
-> **1 Trama = reduz 1 ponto de Dano**
-
-O jogador pode gastar quantos pontos desejar, limitado pela Trama disponível.
-
-Esse uso altera apenas o valor mecânico que será aplicado. Esta página não autoriza reescrita retroativa de acontecimentos já persistidos nem concede ao NARRADOR uma nova regra de reencenação narrativa.
-
-Barreiras e outras proteções são resolvidas normalmente antes de determinar quanto Dano efetivamente alcançaria a personagem.
-
----
-
-## 6. Substituir Mana faltante
-
-Quando uma configuração válida de Poder estiver dentro de `[X]`, mas a personagem não possuir Mana suficiente:
+Quando uma configuração válida de Poder estiver dentro de `[X]`, mas faltar Mana:
 
 > **1 Trama substitui 1 Mana faltante**
 
-Mana disponível pode ser paga normalmente e apenas a diferença ser coberta com Trama.
+Pode-se pagar parte com Mana e somente a diferença com Trama.
 
-Trama:
+Trama não:
 
-- não aumenta o Patamar;
-- não aumenta `[X]`;
-- não permite configurar um Poder acima do limite normal;
-- não cria um Poder que a personagem não possua.
+- aumenta Patamar;
+- aumenta `[X]`;
+- permite configuração acima do limite normal;
+- cria Poder que a personagem não possui.
 
----
+## Código
 
-## 7. Código
-
-Quando a personagem possuir um Traço **Código** e escolher realizar uma ação que o viole claramente, o NARRADOR deve avisar antes da conclusão:
+Quando a personagem possuir o Traço **Código** e decidir violá-lo claramente:
 
 > **quebrar o Código custa 5 Trama**
 
-Se o jogador mantiver a decisão, a ação segue normalmente e a perda é aplicada.
+A escolha deve ser informada antes da conclusão quando o custo ainda puder alterar a decisão.
 
-Se houver menos de 5 Trama, perde apenas o que possuir.
+Se houver menos de 5 Trama, perde apenas o que possuir. Ter `0` Trama não impede a violação.
 
-Ter 0 Trama não impede quebrar o Código.
+A forma de abrir essa escolha pertence à operação e à autoridade das personas; este arquivo apenas define o custo.
 
----
+## Limite desta regra
 
-## 8. O que NÃO foi migrado
+Trama atual **não concede** por regra geral:
 
-Esta versão de Trama **não inclui**:
+- reescrita retroativa de consequência já narrada;
+- mudança retroativa de reação social;
+- transformação automática de morte em sobrevivência;
+- abertura narrativa de possibilidade que não existia;
+- correção retroativa de descoberta ou oportunidade perdida.
 
-- dica comprada do NARRADOR;
-- reescrever retroativamente uma consequência já narrada;
-- alterar morte para sobrevivência por conveniência narrativa;
-- mudar reação social depois de conhecida;
-- abrir uma possibilidade improvável por intervenção narrativa;
-- corrigir descobertas ou oportunidades perdidas retroativamente.
+> **Trama modifica dados, Dano e Mana. Ela não reescreve cânone.**
 
-Esses usos alterariam diretamente as áreas protegidas de `../narracao/`, agência e persistência e só podem entrar no sistema depois de uma decisão específica separada.
+## Persistência
 
-> **Trama, nesta migração, modifica dados, Dano e Mana; não reescreve cânone nem assume decisões de outras personagens.**
+Registrar a reserva atual conforme:
 
----
+```text
+../persistencia/status.md
+../persistencia/estado-atual.md
+```
 
-## 9. Persistência
-
-A reserva atual de Trama é estado operacional.
-
-Quando precisar sobreviver entre cenas ou retomadas, registrar em STATUS conforme `../persistencia/status.md` e `../persistencia/estado-atual.md`.
-
-A ficha pode indicar a existência da regra por `CONTROLE: JOGADOR HUMANO`, mas o valor atual não é característica permanente da personagem.
-
----
+A ficha pode indicar que a personagem é elegível à regra por seu `CONTROLE`, mas não guarda o saldo atual como característica permanente.
 
 ## Regra final
 
-> **Trama é uma reserva mecânica exclusiva da personagem humana: melhora dados, reduz penalidades, absorve Dano e substitui Mana faltante dentro de `[X]`. Seus usos narrativos retroativos permanecem fora desta migração.**
+> **Trama é um recurso mecânico da personagem humana: melhora dados, reduz penalidades, absorve Dano e substitui Mana dentro de `[X]`. Autoridade e registro pertencem às áreas responsáveis.**
