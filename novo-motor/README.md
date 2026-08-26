@@ -6,13 +6,21 @@ A proposta é construir as regras do zero, registrando apenas conceitos já disc
 
 ## Índice
 
+- [Regras Gerais](./regras-gerais.md) — princípios centrais de resolução e regras compartilhadas pelo sistema.
+- [Ficha](./ficha/) — modelo de ficha e material de consulta rápida para Atributos, Perícias, Traços e Poderes.
 - [Atributos](./atributos.md) — capacidades fundamentais do personagem, suas funções e a escala de valores.
-- [Perícias](./pericias.md) — áreas amplas de treinamento e experiência, como são aplicadas aos testes e como o Narrador deve interpretá-las ativamente.
-- [Traços](./tracos.md) — características passivas do personagem, sua diferença em relação a Poderes e suas categorias de organização.
+- [Perícias](./pericias.md) — áreas amplas de treinamento e experiência e sua aplicação aos testes.
+- [Traços](./tracos/) — fonte oficial dos Traços comuns, sobrenaturais, Vícios e Corrupções.
 - [Trama](./trama.md) — recurso narrativo, ganho diário, interação com Traços e gasto para modificar dados.
 - [Status](./status/) — estados atuais do personagem e famílias de efeitos nocivos.
-- [Poderes](./poderes/) — estrutura modular de Poderes, Acerto, Defesa, Dano, Efeitos e seus Hubs.
+- [Poderes](./poderes/) — estrutura modular de Poderes, Acerto, Defesa, Dano, Efeitos e Hubs.
+
+## Organização
+
+Os capítulos acima são as fontes oficiais do **Novo Motor**.
+
+A pasta `ficha/` funciona como material de consulta e preenchimento. Ela resume ou indexa as informações, mas não cria uma segunda versão das regras.
 
 ## Estado do projeto
 
-O motor está em desenvolvimento. Este índice registra apenas capítulos que já possuem regras consolidadas dentro de `novo-motor/`.
+O motor está em desenvolvimento. **Vida** e **Mana**, entre outras regras centrais ainda não fechadas, serão consolidadas nos capítulos gerais conforme forem definidas.
