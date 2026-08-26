@@ -64,6 +64,8 @@ resistência mental → RM
 
 A natureza real do Poder pode determinar outro enquadramento, e uma regra específica pode substituir ou ignorar esses valores.
 
+Frases genéricas antigas em arquivos individuais como “Acerto e Defesa seguem a regra geral” devem ser lidas através desta regra atual: **durante combate, usar as Defesas fixas quando a etapa for de Defesa/Resistência de combate**.
+
 ---
 
 ## 3. Sequência ofensiva
@@ -160,6 +162,12 @@ O custo final é a soma das escolhas usadas naquela configuração.
 `[X]` é o Patamar da personagem e representa o máximo de Mana que pode ser gasto em um único uso. A regra completa está em `../mana.md`.
 
 ### Apresentação do Hub ao jogador
+
+A regra canônica de apresentação pertence a:
+
+```text
+modelo-de-apresentacao-do-hub.md
+```
 
 O arquivo do Poder pode conter explicações, exemplos e regras detalhadas, mas a versão mostrada ao JOGADOR HUMANO deve ser **compacta e limpa**.
 
@@ -297,6 +305,7 @@ Famílias diferentes podem coexistir. Sobreposição dentro da mesma família se
 
 ## 10. Índice
 
+- `modelo-de-apresentacao-do-hub.md` — modelo universal do Hub visível ao JOGADOR HUMANO;
 - `adaptacao.md`
 - `aflicao.md`
 - `aprimoramento.md`
@@ -328,4 +337,4 @@ Famílias diferentes podem coexistir. Sobreposição dentro da mesma família se
 
 ## Regra final
 
-> **A ficção determina se o Poder pode ser usado e qual Atributo participa. O Hub define sua configuração e custo. Durante combate, quem age faz a rolagem necessária e compara o resultado a DF, RF, DM ou RM conforme a natureza da etapa. A resolução usa apenas as etapas necessárias e nunca cria Iniciativa ou economia de ações paralela à operação do sistema.**
+> **A ficção determina se o Poder pode ser usado e qual Atributo participa. O Hub define sua configuração e custo. Durante combate, quem age faz a rolagem necessária e compara o resultado a DF, RF, DM ou RM conforme a natureza da etapa. A apresentação visível segue `modelo-de-apresentacao-do-hub.md`. A resolução usa apenas as etapas necessárias e nunca cria Iniciativa ou economia de ações paralela à operação do sistema.**
