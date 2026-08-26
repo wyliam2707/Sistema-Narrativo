@@ -101,7 +101,7 @@ situação não define morte de forma evidente
 
 ## 5. Dano e proteções
 
-A ordem completa de aplicação de Dano, Defesa, RD e Barreira pertence a `combate-e-dano.md` e será mantida como regra específica de combate.
+A ordem completa de aplicação de Dano, Defesa, RD e Barreira pertence a `combate-e-dano.md`.
 
 Este arquivo define apenas:
 
