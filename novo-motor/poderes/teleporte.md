@@ -64,14 +64,24 @@ Se o usuário vencer, o alvo é teleportado para o destino válido. Se a Defesa 
 
 Essa oposição resolve a tentativa inteira. **Não existe uma segunda Resistência depois da Defesa.**
 
-## Distância
+## Distância e referência do destino
 
-A progressão de Distância representa até onde e com que grau de referência o destino pode ser estabelecido:
+A progressão de Distância representa até onde e com que grau de referência o destino pode ser estabelecido.
 
-- **Longa:** dentro do alcance narrativo Longo.
-- **Familiar:** um destino com o qual o usuário possui familiaridade direta.
-- **Conhecida:** um destino conhecido pelo usuário, mesmo que não seja familiar.
-- **Descrita:** um destino que o usuário não conhece diretamente, mas que pode ser identificado por uma descrição suficiente.
-- **Astral:** permite alcançar destinos em outro plano, dimensão ou espaço equivalente, quando a ficção permitir.
+O Teleporte não adivinha destinos. Para teleportar-se, o usuário precisa conseguir **situar minimamente o destino** no espaço, no mundo ou no plano correspondente.
+
+- **Longa:** qualquer ponto válido dentro do alcance narrativo Longo.
+- **Familiar:** um local que o usuário conhece bem por presença frequente ou convivência direta suficiente para reconhecê-lo com segurança.
+- **Conhecida:** um local em que o usuário já esteve pelo menos uma vez ou cuja posição conhece exatamente, mesmo sem grande familiaridade.
+- **Descrita:** um local em que o usuário nunca esteve, mas cuja posição pode ser estabelecida por uma referência externa suficiente, como mapa, coordenadas, endereço, carta, descrição geográfica ou equivalente. O Teleporte leva a um ponto coerente próximo ao local identificado e não revela posições internas desconhecidas.
+- **Astral:** permite alcançar outro plano, dimensão ou espaço equivalente, mas continua exigindo uma referência válida capaz de identificar esse destino. O usuário não precisa ter visitado o plano, porém não pode viajar para um plano que não consiga referenciar minimamente.
+
+Exemplos:
+
+- um mapa que mostre onde fica uma fortaleza pode permitir chegar próximo dela usando **Descrita**;
+- conhecer a localização de um edifício não permite escolher uma sala interna desconhecida sem referência suficiente para essa sala;
+- um mapa planar, coordenada mística, texto ou outra referência capaz de identificar um plano pode permitir **Astral** mesmo sem visita anterior.
+
+> **Se o destino não puder ser minimamente localizado ou identificado, o Teleporte é impossível.**
 
 A ficção ainda determina se o destino existe, pode ser identificado e é alcançável pelo Poder.
