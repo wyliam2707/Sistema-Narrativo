@@ -17,10 +17,61 @@ NOVA CAMPANHA
 → criacao/README.md
 
 CONTINUAR
-→ campanhas/<nome>/README.md
+→ ../campanhas/README.md
+→ ../campanhas/<nome>/README.md
 ```
 
 Não pedir novamente ao jogador informação que a campanha já possui em fonte canônica.
+
+Este sistema deve funcionar a partir dos arquivos do repositório sem depender de memória privada de outra conversa.
+
+## Nova campanha
+
+```text
+criacao/README.md
+→ estrutura
+→ cenário e direção narrativa
+→ personagens
+→ fichas
+→ pareamento
+→ estado inicial
+→ Mesa operacional
+→ criacao/start-da-campanha.md
+→ CHECK DE START
+→ primeira cena
+```
+
+A primeira cena é proibida antes do CHECK DE START ser aprovado.
+
+## Continuar campanha
+
+Primeiro consultar:
+
+```text
+../campanhas/README.md
+```
+
+Não oferecer automaticamente campanhas marcadas como teste, legado ou incompatíveis.
+
+Para campanha válida:
+
+```text
+../campanhas/<nome>/README.md
+```
+
+Se:
+
+```text
+CRIAÇÃO: EM ANDAMENTO
+→ retomar pelo checkpoint de criacao/
+
+CRIAÇÃO: CONCLUÍDA
+→ reinstanciar Mesa operacional
+→ personas/instanciacao-da-mesa.md
+→ personas/escopo-de-consulta.md
+→ ler estado/atual.md
+→ retomar
+```
 
 ## As oito identidades
 
@@ -88,10 +139,13 @@ Quem esta personagem é? Que Atributos, Perícias, Poderes ou Traços possui?
 Quem decide esta ação? Quem joga este NPC? Quem julga?
 → personas/
 
+Como executar várias personas numa única IA?
+→ personas/instanciacao-da-mesa.md
+
 Este plano, promessa, NPC ou gancho continua vivo fora da cena?
 → agencia/
 
-Qual é a próxima etapa da mesa? É hora de abrir janela, turno ou interrupção?
+Qual é a próxima etapa da mesa? É hora de abrir janela, vez, Turno ou interrupção?
 → operacao/
 
 Preciso rolar? Qual CD, oposição, Dano, Poder ou Status se aplica?
@@ -134,16 +188,49 @@ Isso não significa que toda cena precise consultar todas as áreas.
 
 ```text
 operacao/turnos-de-combate.md
-→ define o intervalo simultâneo
+→ define Iniciativa fixa, Rodada global, posição, vez e Turno pessoal
 
 operacao/ordem-de-resolucao-do-combate.md
-→ organiza HUD, declarações, interferência, atualização e fechamento
+→ organiza HUD, declarações, Hubs, resolução, atualização e pausa
 
-resolucao/
-→ calcula somente as incertezas e consequências necessárias
+operacao/rotina-de-trama-em-combate.md
+→ abre obrigatoriamente cada janela válida de Trama do JOGADOR HUMANO
+
+resolucao/combate-e-dano.md
+→ define DF, RF, DM, RM, Dano, RD, Escudo/Barreira e demais cálculos
 ```
 
-Não existe iniciativa fixa criada por `resolucao/` ou por Poderes.
+Iniciativa é rolada uma única vez no início do combate e permanece fixa até o confronto terminar, salvo entrada posterior conforme `operacao/turnos-de-combate.md`.
+
+`resolucao/` e Poderes não criam uma segunda ordem de Iniciativa paralela à operação.
+
+## Fora de combate
+
+```text
+operacao/ciclo-de-cena.md
+→ operacao/janelas-e-interrupcoes.md
+→ operacao/trama-fora-de-combate.md quando houver declaração de Trama
+→ resolucao/ apenas quando surgir incerteza real
+→ narracao/
+→ persistencia/
+```
+
+Fora de combate não criar Iniciativa, Rodada ou Turno por hábito.
+
+## Personas numa única IA
+
+O sistema não depende de multiagentes.
+
+Se a plataforma tiver apenas uma IA:
+
+```text
+personas/instanciacao-da-mesa.md
+→ executar cada cadeira sequencialmente
+→ manter autoridade e contexto separados
+→ nunca usar informação proibida só porque a IA técnica consegue acessá-la
+```
+
+A Mesa operacional registrada no README da campanha informa quais cadeiras precisam existir naquela campanha.
 
 ## Campanha concreta
 
@@ -159,6 +246,7 @@ campanhas/<nome>/
 ```
 
 ```text
+README      → índice, checkpoint e Mesa operacional
 PERSONAGENS → fichas consolidadas
 ESTADO      → presente necessário para retomar
 MUNDO       → verdades estáveis do cenário
@@ -168,11 +256,13 @@ LIVRO       → histórico consolidado do que aconteceu
 
 A regra de onde persistir cada verdade pertence a `persistencia/`.
 
-## Material legado
+## Material legado e teste incompatível
 
 `aventuras/` permanece como legado de campanhas antigas.
 
-Não mover, apagar, converter ou usar automaticamente esse material como regra universal atual.
+Também pode existir material explicitamente marcado como **teste/incompatível** dentro de `campanhas/` enquanto aguarda exclusão ou migração.
+
+Não mover, apagar, converter, continuar ou usar automaticamente esse material como regra universal atual.
 
 Arquivos universais antigos já removidos de `sistema/` não devem ser restaurados como segunda camada de regras.
 
@@ -180,12 +270,14 @@ Arquivos universais antigos já removidos de `sistema/` não devem ser restaurad
 
 Quando houver conflito real:
 
-1. correção explícita mais recente do `JOGADOR HUMANO`;
-2. regra canônica atual da área responsável;
+1. correção explícita mais recente do `JOGADOR HUMANO` registrada ou declarada na sessão atual;
+2. regra canônica atual da área responsável em `sistema/`;
 3. fonte canônica da própria campanha, quando a questão for um fato daquela campanha.
+
+Uma campanha explicitamente marcada como incompatível não prevalece sobre o motor atual e não deve ser continuada silenciosamente.
 
 Uma pasta não deve sobrescrever silenciosamente a responsabilidade de outra.
 
 ## Regra final
 
-> **Criação constrói. Personagem define. Personas autorizam. Agência continua. Operação organiza. Resolução calcula. Narração apresenta. Persistência preserva.**
+> **Criação constrói. Personagem define. Personas autorizam. Agência continua. Operação organiza. Resolução calcula. Narração apresenta. Persistência preserva. O repositório é suficiente para reconstruir a mesa e jogar sem memória externa.**
