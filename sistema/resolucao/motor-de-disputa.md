@@ -2,7 +2,7 @@
 
 Status: APROVADO
 
-Este arquivo define o motor geral usado quando existe uma disputa real e o resultado pode avançar progressivamente contra uma resistência, uma exigência ou ambas.
+Este arquivo define o motor universal usado quando existe incerteza real.
 
 Ele não substitui o princípio geral da resolução:
 
@@ -10,145 +10,243 @@ Ele não substitui o princípio geral da resolução:
 
 > **O motor existe para resolver incerteza real, não para transformar toda ação em cálculo.**
 
-## 1. Estrutura geral
+## 1. Estrutura universal
 
-A resolução separa:
+Todo teste termina com:
 
-`Base → capacidade que conduz a ação`
+> **resultado de 4 dados mantidos + Atributo**
 
-`Suporte → outra capacidade aplicável que melhora a execução`
+Teste normal:
 
-`Resistência → quanto o mecanismo consegue impedir por aplicação`
+```text
+4d6 + Atributo
+```
 
-`Exigência → quanto precisa ser alcançado`
+Bônus:
 
-`Progresso → quanto avança por aplicação`
+```text
++1d → rola 5d6 e mantém os 4 melhores
++2d → rola 6d6 e mantém os 4 melhores
+```
 
-`Tempo → quanto cada aplicação representa`
+Penalidades:
 
-`Custo → quanto recurso cada aplicação exige`
+```text
+-1d → rola 5d6 e mantém os 4 piores
+-2d → rola 6d6 e mantém os 4 piores
+```
 
-A Base pode vir de Atributo, Perícia, Poder, equipamento ou outra capacidade que realmente conduza a ação.
+Bônus e penalidades se cancelam antes da rolagem.
 
-Quando existir uma segunda capacidade realmente aplicável apenas como apoio:
+O modificador final nunca ultrapassa:
 
-`Ação efetiva = Base + 1 + (Suporte × 0,2)`
+> **-2d a +2d**
 
-Sem Suporte aplicável:
+## 2. Atributo da ação
 
-`Ação efetiva = Base + 1`
+O Atributo é escolhido pela **finalidade e pela forma real da ação**.
 
-O progresso produzido por aplicação é:
-
-`Progresso por aplicação = 2^(Ação efetiva − Resistência efetiva)`
-
-A Resistência vem daquilo que realmente responde ao mecanismo usado. Ela pode ser um Atributo, Perícia, proteção, dificuldade técnica, estrutura, trava ou outro valor coerente com a cena.
-
-> **A cena define Base, Suporte e Resistência. A ficha não é somada inteira.**
-
-## 2. Escolha da Base
-
-Usar a leitura definida em `leitura-da-ficha-na-resolucao.md`.
+Não se usa automaticamente o maior valor da ficha e não existe uma combinação universal de Atributos para todos os testes.
 
 Referência rápida:
 
 ```text
-algo comum que qualquer pessoa pode tentar
-→ Atributo pode ser a Base
+força, impacto ou intensidade física
+→ Potência
 
-tarefa que exige conhecimento ou treinamento
-→ Perícia pode ser a Base
+coordenação, precisão ou velocidade de execução
+→ Controle
 
-Poder, arma ou equipamento com valor próprio
-→ esse valor pode ser a Base
+suportar esforço, dor ou agressão física
+→ Resistência
+
+raciocinar, analisar ou compreender
+→ Intelecto
+
+influenciar ou provocar reação social
+→ Presença
+
+concentrar-se, persistir ou resistir mentalmente
+→ Vontade
 ```
 
-Se Atributo e Perícia puderem legitimamente conduzir a mesma ação, usar como Base o valor aplicável mais favorável e o outro como Suporte.
+A ficção pode exigir outro enquadramento coerente conforme a ação concreta.
 
-Isso não permite que Atributo substitua conhecimento obrigatório nem que Perícia crie capacidade inexistente.
+## 3. Perícia
 
-## 3. Resistência depende do mecanismo
+Uma Perícia relevante concede:
 
-A mesma coisa pode possuir resistências diferentes conforme a abordagem.
+> **+1d**
 
-Uma porta pode, por exemplo, oferecer resistência estrutural baixa contra força bruta e uma Tranca de patamar maior contra arrombamento técnico.
+Várias Perícias aplicáveis ao mesmo teste continuam concedendo no máximo `+1d` por Perícias.
 
-Não existe obrigação de condensar todas as dificuldades de um alvo em uma única Defesa universal.
+Perícias não possuem Atributo fixo e não substituem o Atributo do teste.
 
-Quando existir oposição ativa de outra personagem, construir a resistência com a mesma leitura de Base e Suporte, usando apenas capacidades que realmente respondam ao mecanismo empregado:
+A Perícia representa treinamento e experiência; o Atributo representa como a ação está sendo executada naquele momento.
 
-`Resistência ativa = Base da oposição + (Suporte da oposição × 0,2)`
+## 4. Dados adicionais
 
-Sem Suporte aplicável:
+Dados adicionais ou removidos vêm de fontes mecânicas explícitas, como:
 
-`Resistência ativa = Base da oposição`
+- Perícia;
+- Poder;
+- Status;
+- Trama;
+- outra regra que determine diretamente `+Xd` ou `-Xd`.
 
-O `+1` pertence à ação que tenta produzir progresso; não é acrescentado à Resistência ativa.
+Circunstâncias comuns da cena não concedem automaticamente dados em testes contra o cenário. Elas normalmente entram na Dificuldade final da tentativa.
 
-Não somar automaticamente várias resistências ou capacidades apenas porque coexistem.
+A exceção ficcional para oposição ativa está definida adiante.
 
-## 4. Exigência
+## 5. Contra o cenário
 
-A Exigência representa quanto progresso precisa ser alcançado para cumprir o objetivo declarado.
+O cenário não rola dados.
 
-Objetivos diferentes podem exigir profundidades diferentes mesmo usando a mesma capacidade.
+Quando a incerteza depende de uma dificuldade fixa:
 
-O personagem não precisa alcançar mais do que sua intenção exige.
+```text
+4 dados mantidos + Atributo × Dificuldade
+```
 
-> **O objetivo define quanto precisa ser alcançado.**
+A Dificuldade varia normalmente de:
 
-Alcance, Alvos, Área/Tamanho e Duração pertencem a `consolidacao.md`.
+> **10 a 24**
 
-## 5. Progresso
+Referência geral:
 
-Se uma aplicação não alcança a Exigência e a natureza da ação permite continuidade, o progresso permanece acumulado.
+```text
+10 → banal quando ainda existe motivo para testar
+24 → quase impossível
+valores intermediários → graus intermediários conforme a situação
+```
 
-`Aplicações necessárias = teto(Exigência ÷ Progresso por aplicação)`
+O resultado precisa igualar ou superar a Dificuldade.
 
-Quando a própria natureza da ação não permite acúmulo, esta regra não cria acumulação artificial.
+> **Igualar a Dificuldade é sucesso.**
 
-Uma Resistência superior não precisa significar falha imediata. Quando a ação puder continuar, ela pode significar mais aplicações, mais tempo, mais custo e mais exposição.
+### A Dificuldade pertence à situação
 
-Uma impossibilidade estabelecida pela ficção continua impossível; o motor não cria um mecanismo que não existe.
+A Dificuldade mede a realidade concreta da tarefa.
 
-## 6. Tempo
+Ela não acompanha Patamar, não protege personagens fracos e não cresce para desafiar personagens fortes.
 
-A unidade de tempo pertence à natureza da tarefa.
+Uma ação pode ser `24` em Patamar `[1]`. Da mesma forma, a maioria das tarefas em uma campanha de Patamar `[7]` pode continuar entre `10` e `14` quando elas realmente forem banais, fáceis ou comuns.
 
-Referências usuais:
+Circunstâncias da tentativa podem aumentar ou reduzir a Dificuldade quando alterarem a tarefa de forma concreta.
 
-`10 segundos → aplicação imediata` | `1 minuto → aplicação curta` | `1 hora → aplicação prolongada` | `1 dia → aplicação extensa`
+Não existe passo obrigatório de ajuste. O NARRADOR escolhe o valor final que melhor represente a situação.
 
-A natureza concreta da atividade pode justificar outra escala, inclusive `Turno` ou `Cena` quando forem as unidades adequadas.
+> **A Dificuldade descreve o problema; a ficha descreve quem tenta resolvê-lo.**
 
-Durante combate, uma aplicação imediata usa o mesmo relógio de `../operacao/turnos-de-combate.md`.
+## 6. Oposição ativa
 
-`Tempo efetivo = número de aplicações × tempo por aplicação`
+Quando outra personagem ou entidade se opõe ativamente:
 
-Quando várias aplicações são necessárias, o tempo transcorrido também cria oportunidade normal para reação, interrupção ou mudança da situação quando a ficção permitir.
+```text
+4 dados mantidos + Atributo
+×
+4 dados mantidos + Atributo
+```
 
-> **A tarefa define o tempo. A diferença entre ação e resistência define o ritmo do progresso.**
+Cada lado usa o Atributo coerente com sua própria ação ou reação.
 
-## 7. Custo
+Os dois lados não precisam usar o mesmo Atributo.
 
-Quando a capacidade usada consome Energia, cada aplicação paga normalmente sua configuração.
+Exemplos:
 
-`Custo = patamar efetivamente usado + Ampliação usada`
+```text
+empurrar alguém
+→ Potência × Resistência
 
-Quando existem várias aplicações:
+passar por alguém com rapidez
+→ Controle × Controle
 
-`Custo efetivo = soma da Energia paga em cada aplicação`
+intimidar alguém que tenta manter a compostura
+→ Presença × Vontade
+```
 
-As regras de Ampliação pertencem a `consolidacao.md` e as regras de Energia pertencem a `energia.md`.
+### Vantagem ficcional óbvia
 
-## 8. Uso do motor
+Quando a situação conceder a um lado uma vantagem **óbvia e inegável** naquela oposição, o lado favorecido recebe:
 
-O mesmo motor pode ser aplicado a qualquer disputa progressiva quando Base, Resistência e Exigência forem realmente relevantes.
+> **+1d**
 
-Regras específicas continuam prevalecendo quando um efeito possuir funcionamento próprio, como Dano em `combate-e-dano.md`.
+A vantagem precisa existir de forma clara na ficção, como posição decisivamente melhor, terreno prejudicando apenas o oponente, preparação já estabelecida, alavanca física evidente ou condição equivalente.
 
-> **Use o motor somente até o ponto necessário para decidir a cena.**
+Se a situação já tornar o resultado evidente, não se rola.
+
+### Empates
+
+Em oposição:
+
+> **empate favorece quem iniciou a ação.**
+
+A resposta precisa superar o resultado da ação para impedi-la.
+
+```text
+17 × 17 → iniciador vence
+17 × 18 → resposta vence
+```
+
+## 7. Precedência entre ações
+
+Quando duas ações disputarem o mesmo instante dentro de um turno simultâneo e a ficção não determinar claramente qual acontece primeiro, a precedência é resolvida como uma oposição comum.
+
+Não existe fórmula especial de Iniciativa.
+
+Cada lado usa o Atributo coerente com a forma pela qual tenta agir primeiro.
+
+A resolução vale apenas para aquela interferência concreta e não cria ordem fixa para o restante do turno ou do combate.
+
+A operação dos turnos permanece em `../operacao/turnos-de-combate.md`.
+
+## 8. Tarefas demoradas
+
+O antigo sistema de:
+
+```text
+Base
+Suporte
+Resistência numérica do motor
+Exigência
+Progresso por aplicação
+Aplicações necessárias
+```
+
+não faz mais parte da resolução universal.
+
+Uma tarefa não recebe várias rolagens apenas porque demora.
+
+Se o resultado é evidente com tempo suficiente, estabelece-se o resultado e o tempo coerente.
+
+Se existe uma incerteza real sobre conseguir realizar a tarefa nas condições presentes, faz-se uma resolução adequada uma vez.
+
+Uma nova rolagem só ocorre quando surge **uma nova incerteza relevante** depois da resolução anterior.
+
+## 9. Poderes, equipamentos e regras específicas
+
+Poder, arma, equipamento, ferramenta ou outro meio podem determinar:
+
+- se a ação é possível;
+- alcance ou forma de atuação;
+- Dano;
+- Efeito;
+- custo;
+- defesa aplicável;
+- outras regras próprias.
+
+Eles não recriam automaticamente Base ou Suporte e não são somados ao Atributo sem uma regra que diga isso.
+
+Regras específicas prevalecem quando definirem etapas próprias, mas usam o motor universal sempre que exigirem um teste comum ou uma oposição.
+
+## 10. Menor número possível de rolagens
+
+Sempre use o menor número de rolagens capaz de resolver corretamente a incerteza.
+
+Não repetir um teste para representar apenas passagem de tempo.
+
+Não separar em vários testes aquilo que uma única resolução consegue decidir de forma coerente.
 
 ## Regra final
 
-> **A ficção escolhe o mecanismo. O mecanismo escolhe a Base e a Resistência. O Suporte melhora uma capacidade já aplicável. A Exigência e o tempo mostram quanto custa chegar ao resultado.**
+> **A ficção decide se existe incerteza e qual Atributo é pertinente. Contra o cenário, usa-se Dificuldade. Contra oposição ativa, ambos rolam. Perícias e regras explícitas alteram os dados. O motor não fabrica dificuldade nem progresso artificial.**
