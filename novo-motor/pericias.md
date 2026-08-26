@@ -88,6 +88,18 @@ As Perícias representam campos de conhecimento e experiência, e não listas fe
 
 Por isso, uma mesma atividade pode ser abordada através de Perícias diferentes.
 
+## Perícias não acumulam
+
+Quando duas ou mais Perícias forem relevantes para o mesmo teste, elas **não acumulam seus bônus**.
+
+> **Um único teste recebe no máximo `+1d` por Perícias, independentemente de quantas Perícias sejam relevantes.**
+
+O Narrador utiliza a Perícia que melhor representa o conhecimento ou experiência aplicado naquela resolução.
+
+Se a situação possuir etapas realmente diferentes, cada etapa pode exigir uma resolução própria e utilizar a Perícia apropriada para aquela parte da ação.
+
+Exemplo: ao rastrear um animal, **Campestre** pode ser usada para localizar os rastros e, em uma resolução distinta, **Animais** pode ser usada para interpretar o comportamento da criatura. As duas Perícias não concedem `+2d` a um único teste.
+
 ## Exemplo — Pescar
 
 Pescar pode envolver:
