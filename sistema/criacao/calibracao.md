@@ -2,226 +2,163 @@
 
 Status: APROVADO
 
-Esta regra vale para todos os personagens:
+Este arquivo define **como converter um conceito de personagem para a linguagem mecânica do sistema**.
 
-- protagonistas;
-- aliados;
-- NPCs;
-- personagens canônicos ou licenciados;
-- antagonistas;
-- personagens Centrais, Relevantes ou Figurantes quando precisarem de construção mecânica.
+Ele pertence a `criacao/` porque descreve um procedimento de construção e revisão. As definições de Patamar, Atributos, Perícias, Poderes e Traços permanecem em `../personagem/`.
 
 ## Princípio obrigatório
 
-> **Cada personagem deve ser construído e calibrado pelo que ele próprio é, nunca pela ficha de outro personagem, salvo quando o JOGADOR HUMANO escolher explicitamente usar outra ficha como referência de equilíbrio.**
+> **Cada personagem é calibrado pelo que ele próprio é, nunca pela ficha de outro personagem, salvo quando o JOGADOR HUMANO escolher explicitamente usar outra ficha como referência de equilíbrio.**
 
-Como padrão, isso significa:
+Como padrão:
 
-- não usar protagonista, aliado ou rival como régua mecânica;
-- não aumentar ou reduzir Atributos para criar equilíbrio de grupo por iniciativa do NARRADOR;
+- não usar protagonista, aliado ou rival como régua automática;
+- não aumentar ou reduzir Atributos para equilibrar grupo;
 - não escolher ou retirar Perícias para produzir contraste artificial;
-- não inflar ou reduzir Patamar, Poderes, Traços ou recursos para aproximar duas fichas sem solicitação explícita;
-- não copiar a estrutura mecânica de outro personagem apenas por conveniência;
-- aceitar fichas assimétricas quando isso representar corretamente os conceitos.
+- não inflar ou reduzir Patamar, Poderes, Traços ou recursos para aproximar fichas;
+- aceitar assimetria quando ela representar corretamente os conceitos.
 
-## Equilíbrio por escolha explícita do JOGADOR HUMANO
+## Equilíbrio deliberado
 
-A calibração independente é o padrão do sistema, mas **equilíbrio não é proibido quando ele é uma escolha deliberada do JOGADOR HUMANO**.
+Equilíbrio é permitido quando for uma escolha explícita do JOGADOR HUMANO.
 
-Se o jogador disser explicitamente que deseja:
+Exemplos:
 
 ```text
 equilibrar uma personagem com outra
-aproximar duas fichas em capacidade geral
-usar uma personagem como referência mecânica
-criar simetria deliberada entre duas peças
+usar outra ficha como referência mecânica
+aproximar duas peças em capacidade geral
+criar simetria deliberada
 ```
 
-então essa comparação deixa de ser um balanceamento automático do NARRADOR e passa a ser uma direção de criação escolhida pelo jogador.
+Nesse caso, a comparação pode orientar Patamar, Atributos, Perícias, Traços, Poderes e recursos na medida necessária para cumprir essa direção.
 
-Nesse caso, o NARRADOR pode comparar fichas e propor aproximações em Patamar, distribuição de Atributos, Perícias, Traços, Poderes, recursos ou outras capacidades na medida necessária para cumprir essa escolha.
+Isso não exige fichas idênticas nem resultados iguais em todas as disputas.
 
-Isso não exige que as fichas se tornem idênticas. O equilíbrio pode preservar perfis, especializações e formas de atuar diferentes, desde que a capacidade geral pretendida pelo jogador permaneça comparável.
+> **O sistema não balanceia por conta própria. O jogador pode pedir balanceamento deliberado.**
 
-A exceção só existe quando a intenção de equilíbrio é explícita. Não inferir equilíbrio apenas porque personagens pertencem ao mesmo grupo, possuem a mesma Importância, são aliados, rivais, parceiros ou aparecem juntos com frequência.
+## Ordem de calibração
 
-> **O NARRADOR não balanceia por conta própria. O JOGADOR HUMANO pode escolher balancear deliberadamente.**
+Sem pedido explícito de equilíbrio:
 
-## Ordem de conversão
+```text
+1. definir Conceito e versão da personagem
+2. listar capacidades e limites em linguagem natural
+3. identificar treinamento, conhecimento, recursos e arsenal
+4. definir Patamar coerente
+5. distribuir Atributos
+6. escolher Perícias realmente pertencentes à personagem
+7. registrar Poderes e Traços coerentes
+8. calcular Vida/Mana derivadas
+9. comparar com outras fichas apenas para continuidade factual, se necessário
+```
 
-Quando não houver escolha explícita de equilíbrio, para cada personagem:
+Fontes:
 
-1. ignorar temporariamente as fichas dos demais;
-2. reconstruir suas capacidades conceituais em linguagem natural;
-3. identificar o que realmente sabe fazer;
-4. identificar limites, natureza, recursos e arsenal relevante;
-5. definir o Patamar coerente com o desenvolvimento mecânico pretendido;
-6. distribuir Atributos conforme `patamar.md` e `atributos.md`;
-7. registrar apenas as Perícias realmente pertencentes à personagem;
-8. registrar Traços, Poderes, recursos e demais capacidades coerentes com o conceito;
-9. comparar com outra ficha somente depois, se for necessário verificar continuidade factual.
-
-Quando o JOGADOR HUMANO tiver escolhido explicitamente uma referência de equilíbrio, a comparação pode fazer parte da conversão na extensão necessária para atender essa escolha.
-
-> **Conceito/cânone primeiro por padrão. Outra ficha só vira molde quando o jogador decide que ela deve ser uma referência de equilíbrio.**
+```text
+Patamar    → ../personagem/patamar.md
+Atributos  → ../personagem/atributos.md
+Perícias   → ../personagem/pericias.md
+Poderes    → ../personagem/poderes.md
+Traços     → ../personagem/tracos.md
+Vida       → ../resolucao/vida.md
+Mana       → ../resolucao/mana.md
+```
 
 ## Atributos
 
-Atributos representam capacidades fundamentais e usam a escala permanente normal:
+Atributos usam a escala permanente normal `[-2] a [7]`.
 
-> **[-2] a [7]**
+Escolher valores pelo que a personagem realmente consegue produzir, controlar, suportar, compreender, influenciar ou sustentar.
 
-`[0]` é a referência comum.
-
-A escolha de valores deve refletir aquilo que a personagem realmente é capaz de produzir, controlar, suportar, compreender, influenciar ou sustentar.
-
-Os seis Atributos são:
-
-```text
-Potência
-Controle
-Resistência
-Intelecto
-Presença
-Vontade
-```
-
-O limite inicial de cada Atributo é determinado pelo Patamar conforme `patamar.md`.
-
-Não distribuir valores altos apenas porque a personagem é protagonista, Central, importante ou precisa competir com outra ficha.
-
-> **Atributo alto existe quando a capacidade fundamental correspondente realmente é alta.**
+Não distribuir valor alto por protagonismo ou Importância.
 
 ## Perícias
 
-Perícias não possuem graduação numérica.
+Perícias não possuem graduação.
 
-A calibração de Perícias responde apenas à pergunta:
+A pergunta é:
 
 > **Em quais campos esta personagem realmente possui treinamento, prática ou experiência relevante?**
 
-Uma Perícia registrada pode conceder `+1d` quando for realmente aplicável à resolução, conforme `pericias.md` e `../resolucao/`.
-
-Não adicionar Perícias apenas para completar quantidade temática nem retirar Perícias para enfraquecer artificialmente uma ficha.
-
-A quantidade inicial é determinada pela função mecânica da personagem conforme `patamar.md`.
-
-> **Perícia representa repertório real, não um grau de excelência de [+0] a [+5].**
+Não adicionar Perícia apenas para completar tema nem retirar para enfraquecer artificialmente a ficha.
 
 ## Patamar
 
-Patamar usa a escala:
+Patamar `[1–7]` representa desenvolvimento mecânico geral.
 
-> **[1] a [7]**
+Ele não mede:
 
-Patamar representa desenvolvimento mecânico geral e organiza:
+- fama;
+- importância narrativa;
+- dificuldade do mundo;
+- garantia de vitória.
 
-- pontos de Atributo;
-- limite de Atributo na criação;
-- quantidade inicial de Perícias;
-- quantidade inicial de Traços e Poderes;
-- o valor `[X]` usado em regras de Poder.
+> **Patamar descreve desenvolvimento. Dificuldade descreve a situação.**
 
-Patamar não é dificuldade do mundo, importância narrativa, fama ou garantia de vitória.
+## Poderes
 
-Uma personagem de Patamar alto ainda pode enfrentar tarefas banais, e uma personagem de Patamar baixo pode se deparar com problemas quase impossíveis.
+Poder não possui grau genérico `[1–5]`.
 
-> **Patamar descreve desenvolvimento mecânico. Dificuldade descreve a situação concreta.**
+A calibração pergunta:
 
-## Poderes e arsenal funcional
+- essa capacidade realmente pertence ao arsenal?
+- qual função especial ela produz?
+- qual Hub representa essa função?
+- quais limites narrativos pertencem a esta versão?
 
-Poderes não possuem uma escala genérica `[1]` a `[5]`.
+A mecânica concreta pertence a `../resolucao/poderes/`.
 
-> **Poder representa parte do arsenal funcional da personagem.**
+## Traços e recursos
 
-A calibração de um Poder responde a perguntas como:
+Traços registram verdades passivas estáveis. Recursos registram meios externos consolidados.
 
-- esta capacidade realmente faz parte do arsenal da personagem?
-- que efeitos ela consegue produzir?
-- quais configurações o Hub desse Poder permite?
-- quais limites, custos, alcances ou condições pertencem à capacidade?
-
-O funcionamento mecânico concreto pertence ao arquivo do próprio Poder e ao seu Hub.
-
-Patamar pode limitar o uso por meio de `[X]`, mas não transforma todos os Poderes em versões numericamente graduadas da mesma coisa.
-
-Armas, equipamentos e recursos também registram suas próprias propriedades quando possuírem regras específicas.
-
-> **Atributos descrevem capacidades fundamentais. Perícias descrevem treinamento. Poderes descrevem arsenal funcional. Nenhum desses elementos é convertido automaticamente no outro.**
+Não criar Traço ou Recurso apenas para compensar outra personagem.
 
 ## Calibração conservadora
 
-Calibração conservadora continua significando **não inventar capacidade maior do que o conceito sustenta**.
-
-Ela não significa escolher sempre o menor número por regra abstrata.
-
-Ao definir Atributos, Patamar, Perícias, Traços, Poderes ou recursos:
+“Conservadora” significa **não inventar capacidade maior do que o conceito sustenta**.
 
 ```text
-há evidência clara para a capacidade
+há base clara
 → registrar a capacidade coerente
 
 há dúvida real
-→ usar a interpretação mais simples que continue fiel ao conceito
+→ usar a interpretação mais simples ainda fiel ao conceito
 
-não há base para a capacidade
-→ não inventar apenas para preencher ficha ou equilibrar confronto
+não há base
+→ não inventar para preencher ficha ou confronto
 ```
 
-Valores ou capacidades maiores não são distribuídos por protagonismo ou Importância.
+Isso não significa escolher sempre o menor valor possível.
 
-Da mesma forma, uma personagem não precisa ser enfraquecida porque outra peça possui menos desenvolvimento mecânico.
+## Vitória não é régua de ficha
 
-## Poder bruto não define capacidade de vencer
+Não calibrar pela pergunta:
 
-Uma ficha não deve ser calibrada pela pergunta:
+> **Quem precisa vencer quem?**
 
-> **"quem precisa vencer quem?"**
+Confrontos dependem de especialização, conhecimento, preparação, recursos, vulnerabilidades, ambiente e abordagem concreta.
 
-Uma personagem pode superar outra por especialização, conhecimento, preparação, relação favorável entre capacidades, ambiente, recursos ou escolha correta da abordagem, mesmo possuindo Patamar ou Atributos inferiores em outras dimensões.
-
-Da mesma forma, ser capaz de derrotar determinado adversário em certas condições não justifica aumentar todos os Atributos, adicionar Perícias ou expandir Poderes da personagem.
-
-Quando o jogador pede equilíbrio, isso significa aproximar a capacidade geral conforme a direção escolhida, não garantir resultados iguais em toda disputa.
-
-A ficha registra o que a personagem é capaz de fazer. A resolução determina como essas capacidades interagem na situação concreta.
+Ser capaz de vencer alguém em certas condições não justifica inflar todos os Atributos ou o arsenal.
 
 ## Personagens canônicos ou licenciados
 
-Quando houver base canônica, a ficha deve nascer da versão canônica ou adaptação aprovada para a campanha.
+Quando houver base externa:
 
-Primeiro registrar sem números:
+1. identificar a versão escolhida;
+2. registrar capacidades, limites, natureza, recursos, treinamento e conhecimento relevantes;
+3. converter isso para a linguagem do sistema;
+4. persistir a versão local aprovada, não uma lista de comparações com a obra-base.
 
-- capacidades relevantes;
-- limites conhecidos;
-- natureza;
-- recursos;
-- treinamento;
-- conhecimento;
-- características persistentes.
+O critério do que merece permanecer na ficha pertence a `../persistencia/relevancia-da-ficha.md`.
 
-Depois converter para a linguagem do sistema.
+## Ordem de revisão
 
-Se o resultado mecânico ficar muito diferente da ficha do protagonista ou de outra personagem, isso é aceitável quando os conceitos realmente forem diferentes e o jogador não tiver pedido equilíbrio entre essas peças.
+A calibração pode ser usada dentro dos blocos de `personagem.md` sempre que for preciso transformar conceito em valores ou capacidades.
 
-Se o JOGADOR HUMANO tiver pedido explicitamente que duas versões sejam equilibradas, a adaptação aprovada pode deliberadamente aproximar capacidades que seriam diferentes na obra-base.
-
-## Ordem de criação ou revisão
-
-A ordem em que personagens são criados ou revisados não altera sua calibração por si só.
-
-Protagonistas, aliados, antagonistas e NPCs podem ser convertidos em qualquer ordem, desde que cada ficha seja avaliada pelo próprio conceito ou pela referência de equilíbrio explicitamente escolhida pelo jogador.
-
-Comparações posteriores servem por padrão para verificar coerência factual ou continuidade. Elas também podem servir para equilíbrio quando isso tiver sido solicitado explicitamente pelo JOGADOR HUMANO.
-
-## Sigilo não altera calibração
-
-Uma ficha oculta não recebe valores maiores por estar escondida do jogador.
-
-Sigilo também não autoriza alterar capacidades depois de descobrir como o protagonista pretende enfrentá-las.
-
-> **Informação pode ser secreta. A realidade mecânica não pode ser retroativamente moldada para proteger a trama.**
+Ela não substitui o procedimento de aprovação da criação.
 
 ## Regra final
 
-> **Calibrar é converter o que a personagem realmente é para as estruturas atuais do sistema. Não é aproximá-la automaticamente das outras fichas, nem preservar antigas escalas numéricas que já não existem.**
+> **Calibrar é converter fielmente uma personagem para as estruturas atuais do sistema. É construção, não balanceamento automático e não garantia de resultado.**
