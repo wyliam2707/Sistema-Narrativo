@@ -1,75 +1,112 @@
-# Recuperação da VIDA
+# Recuperação da Vida
 
 Status: APROVADO
 
-Este arquivo trata da recuperação de VIDA por tempo, Regeneração e Medicina.
+Este arquivo define a recuperação comum de Vida por descanso e tratamento médico.
 
-A regra do efeito `Cura` pertence a `efeitos/cura.md`.
+A Vida Máxima e o significado de 0 Vida pertencem a `vida.md`.
 
-`RES` ajuda o personagem a suportar dano, mas não acelera sua recuperação.
+---
 
-## Recuperação natural por Dano acumulado
+## 1. Recuperação natural
 
-A recuperação natural usa diretamente o Dano acumulado atual.
+Com descanso válido, a personagem recupera Vida uma vez por dia conforme sua Resistência:
 
-Referência de tempo para recuperar até `5` pontos de Dano:
+> **Recuperação diária = Resistência × 2, mínimo 2 Vida**
 
-`1–5 Dano → 1 dia` | `6–10 → 3 dias` | `11–15 → 1 semana` | `16–20 → 2 semanas` | `21–25 → 1 mês` | `26+ → 2 meses`
+A recuperação nunca ultrapassa a Vida Máxima.
 
-Ao completar o período adequado, reduzir o Dano acumulado em até `5`, nunca abaixo de zero.
+Referência:
 
-Depois disso, olhar novamente para o Dano que restou e usar a faixa correspondente para o próximo período.
+```text
+Resistência [-2], [-1], [0] ou [1]
+→ 2 Vida por dia
 
-Exemplo:
+Resistência [2]
+→ 4 Vida por dia
 
-`Dano 27 → 2 meses → Dano 22 → 1 mês → Dano 17 → 2 semanas → Dano 12 → 1 semana → Dano 7 → 3 dias → Dano 2 → 1 dia → Dano 0`
+Resistência [3]
+→ 6 Vida por dia
 
-Os tempos são referências para recuperação adequada. A natureza da lesão, repouso, tratamento e circunstâncias podem justificar variação.
+Resistência [4]
+→ 8 Vida por dia
+```
 
-Termos como `Ferido`, `Grave` ou `Crítico` podem ser usados livremente como descrição narrativa da condição, mas não possuem faixas mecânicas obrigatórias.
+Um descanso só conta quando for válido para aquela personagem. Traços, condições ou circunstâncias podem estabelecer exigências especiais de repouso.
 
-## Regeneração
+---
 
-`Regeneração [X]` representa recuperação própria extraordinariamente acelerada.
+## 2. Medicina
 
-Em condições adequadas de recuperação, ela reduz `X` pontos de Dano acumulado por hora.
+A Perícia **Medicina** representa treinamento para tratar ferimentos, doenças e outras condições físicas dentro dos meios disponíveis.
 
-`Regeneração [1] → 1/h` | `[2] → 2/h` | `[3] → 3/h` | `[4] → 4/h` | `[5] → 5/h`
+Quando um tratamento exigir resolução, usa-se normalmente o motor universal:
 
-Ela não é defesa: não reduz o Dano quando ele é recebido e não aumenta `RES`.
+```text
+4 dados mantidos + Atributo apropriado
+```
 
-A atuação forçada de Regeneração durante conflito, caso exista para uma capacidade específica, pertence às regras de uso ativo e Energia; esta regra trata apenas da recuperação regenerativa normal.
+Se Medicina for realmente relevante:
 
-## Medicina
+> **+1d**
 
-`Medicina` é uma Perícia aberta, seguindo as regras gerais de Perícias.
+A recuperação de Vida depende do resultado final do teste:
 
-Quando o paciente aceita o tratamento, está inconsciente ou de outra forma não oferece resistência, Medicina não é uma disputa e não possui oposição artificial.
+| Resultado final | Vida recuperada |
+|---:|---:|
+| `5–9` | `+1` |
+| `10–14` | `+2` |
+| `15–19` | `+3` |
+| `20–24` | `+4` |
+| `25+` | `+5` |
 
-A resolução lê a Perícia do profissional, os recursos disponíveis, o tempo, a natureza da lesão e a quantidade de Dano acumulado.
+Resultados abaixo de `5` não recuperam Vida por esta regra.
 
-Quando existe tratamento médico adequado durante a recuperação natural, cada grau de Medicina reduz diretamente em `10%` o tempo da faixa atual.
+A recuperação por Medicina nunca ultrapassa a Vida Máxima.
 
-`Medicina [+0] → 100% do tempo` | `[+1] → 90%` | `[+2] → 80%` | `[+3] → 70%` | `[+4] → 60%` | `[+5] → 50%`
+A Perícia não cria equipamentos, medicamentos, tempo, conhecimento inacessível ou condições de tratamento que não existam na ficção.
 
-`Tempo final = Tempo normal × (1 − 0,10 × Medicina)`
+---
 
-Essa redução pressupõe que o tratamento apropriado possa realmente ser fornecido com os recursos, condições e continuidade necessários. A Perícia não cria equipamentos, medicamentos ou capacidade sobrenatural inexistentes na ficção.
+## 3. Quando não rolar Medicina
 
-Medicina pode tratar, estabilizar, diagnosticar, impedir agravamento e melhorar a recuperação dentro do que os meios disponíveis permitem.
+O princípio geral de resolução continua valendo.
 
-> **Medicina reduz o tempo. Cura remove Dano diretamente. Regeneração transforma recuperação em horas.**
+```text
+resultado evidente
+→ estabelecer diretamente
 
-## Incapacitado
+tratamento impossível nas condições presentes
+→ estabelecer a impossibilidade
 
-`Incapacitado` não inicia automaticamente a recuperação natural apenas porque o tempo passou.
+incerteza real
+→ resolver o teste necessário
+```
 
-Primeiro a personagem precisa sobreviver e ser estabilizada conforme a natureza do dano. Depois disso, a resolução estabelece quanto Dano permanece e a recuperação segue normalmente pela faixa correspondente.
+Não se exige teste apenas porque existe a Perícia Medicina.
 
-Medicina pode ser decisiva nessa estabilização quando houver tempo, recursos e competência apropriados.
+---
 
-## Princípio
+## 4. Estabilização e Incapacitado
 
-> **Energia volta rápido porque representa esforço. VIDA volta devagar porque representa dano real.**
+Uma personagem Incapacitada não começa a se recuperar automaticamente se a ficção ainda exigir estabilização, retirada de perigo ou outro cuidado necessário.
 
-> **RES suporta o dano. Recuperação trata o que ficou depois dele.**
+Medicina pode ser decisiva para estabilizar alguém quando os meios, tempo e situação permitirem.
+
+Depois que a recuperação normal for possível, aplica-se a regra diária deste arquivo.
+
+---
+
+## 5. Poderes e Traços de recuperação
+
+Poderes e Traços podem recuperar Vida quando sua própria descrição estabelecer isso.
+
+Essas fontes usam suas próprias quantidades e condições.
+
+> **Não existe uma quantidade universal de Vida recuperada por Poder ou Traço fora do que sua regra específica determinar.**
+
+---
+
+## Regra final
+
+> **Descanso válido recupera Resistência ×2 Vida por dia, mínimo 2. Medicina pode recuperar de 1 a 5 Vida conforme o resultado final do teste quando houver incerteza real e tratamento possível.**
