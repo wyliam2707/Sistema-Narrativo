@@ -191,7 +191,7 @@ A existência de um campo em um Poder não obriga outros Poderes a possuírem o 
 Nos Poderes que indicarem **Alvos ou Área**, as duas linhas são modos alternativos de aplicação:
 
 - **Alvos:** escolhe entidades individualmente;
-- **Área:** afeta a região determinada conforme a regra do Poder;
+- **Área:** afeta **todos que estiverem dentro da região determinada**, sem selecionar entidades uma por uma;
 - apenas a opção usada entra no custo.
 
 Outros Poderes podem usar Área com função diferente, como busca, percepção ou espaço de uma Ilusão.
@@ -211,6 +211,18 @@ Quando um único uso de Poder atingir **mais de um Alvo**:
 Assim, o sistema preserva resultados individuais onde eles importam sem multiplicar rolagens desnecessárias.
 
 Empates seguem a regra geral de oposição: favorecem quem iniciou a ação.
+
+## Área
+
+Quando um único uso de Poder utilizar **Área**, todas as criaturas ou entidades dentro daquela Área são afetadas conforme a natureza do Poder.
+
+- se houver Acerto, o usuário realiza **uma única rolagem de Acerto** para toda a Área;
+- cada criatura ou entidade afetada resolve sua própria Defesa contra esse mesmo resultado;
+- se houver Dano, ele é **rolado uma única vez** e o mesmo resultado é usado para todos os afetados;
+- cada afetado aplica individualmente Defesa, RD, Barreira e demais proteções ou reduções;
+- Resistências individuais continuam separadas quando o Efeito exigir que cada afetado possa resistir de forma diferente.
+
+> **Área não escolhe Alvos: ela afeta todos dentro dela.**
 
 ---
 
