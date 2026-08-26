@@ -30,19 +30,39 @@ Quando um ataque comum causa Dano sem Poder ofensivo, consultar `../combate-e-da
 
 ## 2. Resolução universal
 
-Quando houver incerteza real, Poderes usam o motor universal de `../motor-de-disputa.md`.
+Quando houver incerteza real, Poderes usam o motor universal de `../motor-de-disputa.md` e, durante combate, as Defesas fixas de `../combate-e-dano.md`.
 
-A rolagem termina sempre com:
+A rolagem ativa termina sempre com:
 
 > **4 dados mantidos + Atributo pertinente**
 
-O Atributo é determinado pela **forma real da ação, reação ou resistência**.
+O Atributo é determinado pela **forma real da ação**.
 
 > **Nunca escolher automaticamente o maior Atributo.**
 
 Se um arquivo individual definir explicitamente um Atributo para uma função específica daquele Poder, essa regra vale naquele recorte.
 
 Perícia relevante pode conceder `+1d` quando seu campo realmente contribuir, mas não existe Perícia genérica de combate.
+
+Durante combate, a peça que recebe a ação não faz uma rolagem defensiva comum. Usar:
+
+```text
+DF = 14 + Controle
+RF = 14 + Resistência
+DM = 14 + Intelecto
+RM = 14 + Vontade
+```
+
+Em regra:
+
+```text
+ataque físico → DF
+resistência física → RF
+ataque mental → DM
+resistência mental → RM
+```
+
+A natureza real do Poder pode determinar outro enquadramento, e uma regra específica pode substituir ou ignorar esses valores.
 
 ---
 
@@ -54,23 +74,25 @@ A sequência geral dos Poderes ofensivos é:
 
 Nem todo Poder utiliza todas as etapas.
 
+Na etapa de Defesa, a rolagem ativa é comparada à Defesa fixa apropriada. Resultado igual ou maior vence a etapa.
+
 ### Defesa [Absoluta]
 
-Se a Defesa vencer:
+Se o resultado ativo ficar abaixo da Defesa:
 
 - não há Dano;
 - o Efeito é anulado antes da Resistência.
 
 ### Defesa [Total]
 
-Se a Defesa vencer:
+Se o resultado ativo ficar abaixo da Defesa:
 
 - não há Dano;
 - o Efeito ainda pode seguir para Resistência.
 
 ### Defesa [Parcial]
 
-Se a Defesa vencer:
+Se o resultado ativo ficar abaixo da Defesa:
 
 - o alvo sofre metade do Dano, arredondando para baixo;
 - o Efeito ainda pode seguir para Resistência.
@@ -79,19 +101,21 @@ Se a Defesa vencer:
 
 Não existe etapa de Defesa.
 
+Na etapa de Resistência, usar RF ou RM conforme a natureza do Efeito, salvo regra específica.
+
 ### Efeito [Total]
 
-Resistência bem-sucedida anula o Efeito.
+Resistência suficiente anula o Efeito.
 
 ### Efeito [Parcial]
 
-Resistência bem-sucedida reduz o Efeito em uma posição da progressão. Se o primeiro estágio for reduzido, nenhum Efeito é aplicado.
+Resistência suficiente reduz o Efeito em uma posição da progressão. Se o primeiro estágio for reduzido, nenhum Efeito é aplicado.
 
 ### Efeito [Nula]
 
 Não existe etapa de Resistência.
 
-A ordem de RD, Barreira, Trama e Vida pertence a `../combate-e-dano.md`.
+A ordem de RD, Escudo, Trama e Vida pertence a `../combate-e-dano.md`.
 
 ---
 
@@ -174,10 +198,10 @@ Usar o menor número possível de rolagens.
 Quando um único uso atinge várias entidades:
 
 - se houver Acerto, fazer **uma rolagem de Acerto**;
-- cada alvo resolve sua própria Defesa contra o mesmo resultado;
+- comparar o mesmo resultado às Defesas fixas individuais;
 - se houver rolagem de Dano, rolar o Dano **uma vez** e aplicar o mesmo resultado aos atingidos;
-- cada alvo aplica individualmente Defesa, RD, Barreira e outras proteções;
-- Resistências de Efeito continuam individuais quando os resultados puderem divergir.
+- cada alvo aplica individualmente Defesa, RD, Escudo e outras proteções;
+- Resistências de Efeito usam os valores fixos individuais quando os resultados puderem divergir.
 
 ---
 
@@ -200,7 +224,7 @@ Acima de Longo, a própria capacidade precisa justificar a distância, como Tele
 
 ---
 
-## 8. Tempo, Conjuração e turnos
+## 8. Tempo, Conjuração e Turno
 
 A terminologia temporal mecânica pode usar:
 
@@ -208,7 +232,7 @@ A terminologia temporal mecânica pode usar:
 
 No combate:
 
-> **Turno = intervalo simultâneo de até 10 segundos compartilhado por todas as peças.**
+> **Turno = intervalo pessoal da peça, da sua vez atual até o início de sua próxima vez.**
 
 Quando um Hub possuir **Conjuração**, salvo regra específica diferente:
 
@@ -217,23 +241,22 @@ Conjuração: Cena
 → exige preparação ao longo da Cena antes de produzir o efeito
 
 Conjuração: Turno
-→ exige preparação durante um intervalo simultâneo completo de até 10 segundos
-→ conclui no fechamento daquele Turno se a preparação continuar válida e não tiver sido interrompida
+→ exige preparação durante o Turno pessoal completo da peça
+→ conclui quando sua próxima vez começa, se a preparação continuar válida e não tiver sido interrompida
 
 Conjuração: Instante
-→ produz o efeito no instante causal em que for resolvido dentro do Turno ou da cena
+→ produz o efeito no instante causal em que for resolvido dentro da vez ou da cena
 ```
 
 Conjuração mede tempo de preparação. Ela não cria uma fila própria.
 
 Poderes não criam por si mesmos:
 
-- iniciativa fixa;
-- fila de atuação;
-- uma ação universal por turno;
+- iniciativa própria;
+- fila de atuação paralela;
 - ação bônus ou economia abstrata equivalente.
 
-Interferência, interrupção e precedência pertencem a `../../operacao/turnos-de-combate.md`.
+Iniciativa, Rodada, Turno pessoal, vez, interferência e precedência pertencem a `../../operacao/turnos-de-combate.md`.
 
 ---
 
@@ -278,4 +301,4 @@ Famílias diferentes podem coexistir. Sobreposição dentro da mesma família se
 
 ## Regra final
 
-> **A ficção determina se o Poder pode ser usado e qual Atributo participa. O Hub define sua configuração e custo. A resolução usa apenas as etapas necessárias e nunca cria iniciativa ou economia de ações paralela à operação do sistema.**
+> **A ficção determina se o Poder pode ser usado e qual Atributo participa. O Hub define sua configuração e custo. Durante combate, quem age faz a rolagem necessária e compara o resultado a DF, RF, DM ou RM conforme a natureza da etapa. A resolução usa apenas as etapas necessárias e nunca cria Iniciativa ou economia de ações paralela à operação do sistema.**
