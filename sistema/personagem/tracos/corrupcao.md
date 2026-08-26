@@ -21,7 +21,12 @@ O valor mede principalmente a **abrangência prática da limitação**, não o q
 
 Os exemplos deste arquivo servem como referência para Narradores humanos e IAs. Uma nova variação `[X]` deve receber valor comparando sua abrangência com exemplos equivalentes.
 
-As regras gerais de compra, pontos iniciais e uso de Corrupções durante a criação do personagem serão consolidadas posteriormente na regra central de Traços.
+Cada ponto negativo de Corrupção fornece **1 ponto negativo de criação**. Conforme `../patamar.md`, cada ponto pode ser usado em apenas uma destas opções:
+
+- `+1` ponto de Traço positivo;
+- `+1` Poder.
+
+O mesmo ponto nunca compra as duas coisas ao mesmo tempo.
 
 ---
 
@@ -49,7 +54,7 @@ Fraqueza não causa dano por existir e não dobra automaticamente um efeito. Ela
 
 ### Fraqueza e Imunidade
 
-Quando uma **Fraqueza [X]** encontra uma Imunidade que normalmente impediria o efeito de `[X]`, os dois efeitos **se anulam naquela interação**: a fonte afeta o personagem normalmente, sem a Imunidade e sem receber o **+1 dado** da Fraqueza.
+Quando uma **Fraqueza [X]** encontra uma Imunidade que normalmente impediria o efeito de `[X]`, os dois efeitos **se anulam naquela interação**: a fonte afeta o personagem normalmente, sem a Imunidade e sem receber também o **+1 dado** da Fraqueza.
 
 Exemplo: um personagem com **Imunidade [Físico]** e **Fraqueza [Prata]** ignora golpes físicos comuns, mas uma arma de prata causa dano físico normal. A prata não recebe também +1 dado nessa situação.
 
@@ -99,9 +104,11 @@ Exemplos de combinações inválidas:
 
 A simples exposição direta à condição indicada causa dano contínuo ao personagem.
 
-Enquanto permanecer diretamente exposto a `[X]`, o personagem sofre **1 de dano por turno**. **Cada turno corresponde a 10 segundos.**
+Enquanto permanecer diretamente exposto a `[X]`, o personagem sofre **1 de dano por turno**.
 
-Esse dano é **automático**: não exige teste, não entra em uma resolução comum de dano e não pode ser reduzido por Resistência, defesa ou outro mecanismo normal de redução.
+Neste sistema, **Turno é o intervalo simultâneo de até 10 segundos compartilhado pelas peças**, conforme `../../operacao/turnos-de-combate.md`.
+
+Esse dano é **automático**: não exige teste, não entra em uma resolução comum de dano e não pode ser reduzido por Resistência, defesa ou outro mecanismo normal de redução, salvo regra específica que diga explicitamente o contrário.
 
 A Exposição deixa de causar dano assim que a exposição direta termina.
 
@@ -207,15 +214,15 @@ A estabilidade sobrenatural do personagem depende de um objeto, lugar ou víncul
 
 Quando a ligação com a Âncora é perdida, destruída, rompida ou deixa de estar disponível de modo relevante, aplica-se imediatamente a consequência correspondente ao valor da Corrupção.
 
-- **[-1] Instável —** o personagem perde **todos os seus Pontos de Energia**.
+- **[-1] Instável —** o personagem perde **toda a Mana atual**.
 - **[-2] Vital —** se possuir mais de **1 de Vida**, sua Vida atual é reduzida imediatamente para **1**.
 
 **Âncora nunca aumenta Vida.** Se o personagem já estiver com 1 ou menos de Vida, permanece com o valor atual.
 
 ### Exemplos
 
-- **Âncora [Amuleto] [-1]** — se perder o amuleto ou ele for destruído, perde todos os Pontos de Energia.
-- **Âncora [Arma Vinculada] [-1]** — se a arma vinculada for destruída ou separada de modo relevante, perde todos os Pontos de Energia.
+- **Âncora [Amuleto] [-1]** — se perder o amuleto ou ele for destruído, perde toda a Mana atual.
+- **Âncora [Arma Vinculada] [-1]** — se a arma vinculada for destruída ou separada de modo relevante, perde toda a Mana atual.
 - **Âncora [Filactério] [-2]** — se o filactério for destruído e possuir mais de 1 de Vida, sua Vida atual é reduzida para 1.
 - **Âncora [Coração Oculto] [-2]** — se o coração preservado fora do corpo for destruído e possuir mais de 1 de Vida, sua Vida atual é reduzida para 1.
 - **Âncora [Território] [-2]** — se o vínculo sobrenatural com o território for rompido e possuir mais de 1 de Vida, sua Vida atual é reduzida para 1.
