@@ -1,12 +1,14 @@
 # Criação [X]
 
-Criação permite criar um objeto físico conforme a descrição do Poder.
+Criação permite **criar ou remodelar um objeto físico** conforme a descrição do Poder.
+
+Ela representa a função geral de produzir ou alterar matéria em forma de objeto. Não é necessário criar um Poder separado de Transmutação quando a intenção puder ser resolvida por essa função.
 
 ## Hub
 
 **Alcance:** Próximo `+0` → Curto `+1` → Médio `+2`
 
-**Conjuração:** Cena `+0` → Turno `+1` → Imediata `+2`
+**Conjuração:** Cena `+0` → Turno `+1` → Instante `+2`
 
 **Objetos:** 1
 
@@ -18,7 +20,7 @@ Criação permite criar um objeto físico conforme a descrição do Poder.
 
 ## Material
 
-O Material define a resistência geral do objeto criado.
+O Material define a resistência geral do objeto criado ou remodelado.
 
 - **Comum — ND 1:** RD 2 e cerca de 10 PV.
 - **Melhor — ND 2:** RD 3 e cerca de 20 PV.
@@ -35,7 +37,7 @@ Os valores são uma referência média. A ficção, a forma e a natureza do obje
 
 O custo em Mana é a soma dos avanços escolhidos no Hub. As primeiras posições de cada progressão custam `+0`.
 
-Se uma característica temporal não for determinada por outra regra, o padrão do sistema é instantâneo. Neste Poder, porém, Conjuração e Duração são escolhidas pelas progressões acima.
+Se uma característica temporal não for determinada por outra regra, o padrão do sistema é **Instante**. Neste Poder, Conjuração e Duração são escolhidas pelas progressões acima.
 
 ### Exemplo
 
