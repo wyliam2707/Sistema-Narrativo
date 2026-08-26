@@ -4,17 +4,15 @@ Status: APROVADO
 
 Este arquivo define como uma personagem nasce, é registrada e depois revisada dentro do sistema.
 
-Ele **não substitui** o processo completo de criação de campanha. A campanha decide quando criar e em que ordem revisar suas personagens por meio de:
+Ele não substitui o processo completo de criação de campanha em `../criacao/README.md`.
 
-```text
-sistema/criacao/README.md
-```
+---
 
 ## Princípio central
 
 > **A ficha nasce completa em estrutura e mínima em conteúdo.**
 
-Antes da revisão, a criação de qualquer ficha define somente três informações estruturais, nesta ordem:
+Antes da revisão, definir somente:
 
 ```text
 1 - NOME
@@ -22,94 +20,60 @@ Antes da revisão, a criação de qualquer ficha define somente três informaç�
 3 - CONTROLE
 ```
 
-Se uma resposta do jogador já fornecer uma delas de forma explícita, registrá-la e não perguntar novamente; seguir para o próximo campo ainda indefinido.
+Se uma dessas informações já tiver sido fornecida explicitamente, registrá-la e não perguntar novamente.
 
-`IMPORTÂNCIA` e `CONTROLE` são independentes. As regras de cada campo pertencem a `ficha.md`.
+`IMPORTÂNCIA` e `CONTROLE` são independentes. Suas regras pertencem a `ficha.md` e `../personas/`.
+
+---
 
 ## Método de criação assistida
 
-A revisão de personagem usa como padrão uma mistura de **base pronta + liberdade total de adaptação antes do salvamento**.
-
-O JOGADOR HUMANO não precisa construir cada campo do zero quando já existe material suficiente para uma proposta útil.
-
-Durante cada bloco, o NARRADOR deve:
+A revisão usa como padrão:
 
 ```text
-consultar a base disponível
-→ montar uma proposta coerente e suficientemente completa
-→ apresentar a proposta ao jogador
-→ receber correções, cortes, acréscimos ou mudanças
-→ reapresentar quando necessário
-→ salvar somente após aprovação explícita
+base disponível
+→ proposta coerente do NARRADOR
+→ correções do JOGADOR HUMANO
+→ reapresentação quando necessário
+→ aprovação explícita
+→ persistência
 ```
 
-A **base disponível** pode vir de:
+A base disponível pode vir de:
 
-- versão conhecida ou canônica escolhida para uma personagem licenciada;
-- conceito e fatos já discutidos na campanha;
-- blocos anteriores já aprovados;
+- versão conhecida ou canônica escolhida;
+- Conceito e fatos já discutidos;
+- blocos anteriores aprovados;
 - relações e decisões já estabelecidas;
-- material original criado para aquela personagem.
+- material original criado para a personagem.
 
-A base serve para evitar uma criação vazia ou burocrática. Ela **não é uma prisão canônica**.
+A proposta evita criação burocrática do zero, mas não vira fato antes da aprovação.
 
-O jogador pode mudar antes da aprovação:
+> **Proposta não é fato. Aprovação transforma a proposta em informação persistente.**
 
-- idade;
-- nome ou identidade;
-- aparência e estilo;
-- história;
-- personalidade;
-- relações;
-- atributos e perícias;
-- poderes e patamares;
-- limitações;
-- objetivos;
-- qualquer outro elemento proposto.
+Uma correção pontual altera somente aquilo que realmente foi pedido, salvo quando a mudança exigir reorganização mais ampla.
 
-Para personagem conhecido, o objetivo é começar de uma versão **reconhecível**, e então adaptá-la livremente ao cenário. Depois da aprovação, a versão consolidada na ficha passa a ser o cânone local da campanha.
-
-Para personagem original, o NARRADOR usa o conceito e tudo que já foi aprovado como base para propor os próximos elementos em vez de obrigar o jogador a inventar cada campo isoladamente.
-
-> **Proposta não é fato. Aprovação transforma a proposta em fato persistente.**
-
-Uma correção pontual do jogador deve ser interpretada como alteração da proposta apresentada, **mantendo o restante igual**, salvo quando a própria correção exigir reorganização mais ampla.
-
-Exemplo:
-
-```text
-NARRADOR:
-Magia da Alma [4] => Geral / Dano [3] / Proteção [3] / Cura [2] / Projeção Astral [4]
-Empatia [4] => ...
-
-JOGADOR:
-Mude Magia da Alma para [3], deixe Cura [2] e Projeção Astral [4] como únicas exceções e Empatia [2].
-
-RESULTADO DA PROPOSTA:
-Magia da Alma [3] => Geral / Dano / Proteção / Cura [2] / Projeção Astral [4]
-Empatia [2] => ...
-```
-
-O que não foi pedido para mudar permanece como estava.
+---
 
 ## Nascimento da ficha
 
 Assim que `NOME + IMPORTÂNCIA + CONTROLE` estiverem definidos:
 
-1. criar `personagens/<nome>.md`;
+1. criar o arquivo da personagem;
 2. copiar o modelo-base completo de `ficha.md`;
 3. usar `Status: PENDENTE DE REVISÃO`;
-4. preencher somente Nome, Importância e CONTROLE;
-5. deixar todos os demais campos e seções vazios.
+4. preencher apenas Nome, Importância e CONTROLE;
+5. deixar os demais campos vazios.
 
 Exemplo estrutural:
 
 ```text
-# Ravena
+# Nome
 
 Status: PENDENTE DE REVISÃO
-Importância: Central
-CONTROLE: JOGADOR IA
+Importância: ...
+CONTROLE: ...
+Patamar: [ ]
 
 Nome real:
 Idade:
@@ -120,196 +84,189 @@ Descrição:
 
 TRAÇOS:
 
-ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
-VIDA [ ] | ENERGIA [ ]
-PER:
+ATR:
+Corpo  → Potência [ ] | Controle [ ] | Resistência [ ]
+Mente  → Intelecto [ ] | Presença [ ] | Vontade [ ]
+
+Vida Máxima [ ] | Mana Máxima [ ]
+
+PERÍCIAS:
 PODERES:
 RECURSOS:
 REL:
 
 ## Personalidade e tendências
-
 ## Desejos / objetivos atuais
-
 ## Medos / limites relevantes
-
 ## Conhecimento atual relevante
-
 ## História consolidada relevante
 ```
 
-Não inventar ou **persistir antecipadamente** nome real, idade, aparência, estilo, origem, conceito, personalidade, comportamento, história, objetivos, medos, atributos, VIDA, ENERGIA, perícias, poderes, TRAÇOS, RECURSOS, relações, conhecimento ou qualquer outro conteúdo da ficha.
+Não inventar nem persistir antecipadamente os campos ainda não revisados.
 
-Essas informações podem ser **propostas** no bloco apropriado usando o método de criação assistida, mas só entram no arquivo depois da aprovação.
-
-> **Primeiro identificamos a peça e sua autoridade. Depois descobrimos quem ela é.**
+---
 
 ## Campo desconhecido fica vazio
 
-Campos ainda não revisados permanecem vazios.
-
-Nunca usar `[0]` ou `[+0]` para representar pendência. Zero é um valor mecânico real.
+Nunca usar `[0]` para representar pendência.
 
 ```text
-ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
-VIDA [ ] | ENERGIA [ ]
+Controle [ ]
 ```
 
-significa ainda não definido.
+significa valor ainda não definido.
 
 ```text
-ATR: FIS [0] | RES [0] | MEN [0] | VON [0]
-VIDA [35] | ENERGIA [10]
+Controle [0]
 ```
 
-significa valores mecanicamente definidos.
+significa valor mecanicamente definido.
 
-## Ordem das fichas na criação de campanha
+Perícias não usam `[+0]`. Uma Perícia ainda não escolhida simplesmente não aparece.
 
-A ordem canônica da revisão inicial pertence a `../criacao/README.md`:
+> **Zero é valor real, nunca marcador de informação ausente.**
 
-```text
-personagens JOGADOR IA
-→ personagens JOGADOR IA EVENTUAL
-→ protagonista
-```
+---
 
-O protagonista é revisado por último para evitar que sua ficha sirva como régua inconsciente para calibrar as demais.
+## Ordem da revisão
 
-Cada personagem é revisado e calibrado isoladamente conforme `calibracao.md`.
-
-> **A ordem protege o processo. Ela não cria balanceamento entre fichas.**
-
-## Revisão em cinco blocos
-
-Depois que as fichas estruturais estiverem criadas, cada ficha é construída **uma por vez** em cinco blocos:
+Cada ficha é construída uma por vez em cinco blocos:
 
 ```text
-1 - Identidade e conceito
-2 - Atributos e perícias
+1 - Identidade e Conceito
+2 - Patamar, Atributos e Perícias
 3 - Poderes e capacidades
-4 - Traços e relações
+4 - Traços, Recursos e relações
 5 - Conferência final
 ```
 
-Em todos os blocos vale o mesmo ciclo:
+Em todos os blocos:
 
 ```text
 base disponível
-→ proposta do NARRADOR
-→ discussão e adaptação livre
-→ aprovação do JOGADOR HUMANO
-→ persistência
+→ proposta
+→ discussão e correção
+→ aprovação
+→ salvar
 → próximo bloco
 ```
 
-### Bloco 1 — Identidade e conceito
+---
 
-Nome, Importância e CONTROLE já chegam definidos e não precisam ser redescobertos.
+## Bloco 1 — Identidade e Conceito
 
-Este bloco deve deixar a personagem **identificável como pessoa e reconhecível em cena**, não apenas explicar sua origem de forma abstrata.
+Nome, Importância e CONTROLE já chegam definidos.
 
-A revisão segue como padrão, quando aplicável:
+Revisar, quando relevantes:
 
-```text
-Nome de uso / codinome
-→ Nome real
-→ Idade
-→ Aparência
-→ Estilo
-→ Origem / natureza
-→ Conceito
-→ demais informações de identidade necessárias
-```
-
-Revisar e preencher, quando relevantes:
-
-- nome de uso, codinome ou identidade pela qual é conhecida;
-- nome real, civil ou pessoal, quando diferente do nome de uso;
-- outros nomes realmente usados;
+- nome real;
 - idade;
-- aparência física suficiente para reconhecê-la;
-- estilo visual e forma habitual de se apresentar;
+- aparência;
+- estilo;
 - origem;
 - natureza;
-- conceito;
-- demais elementos de identidade necessários para a interpretação.
+- Conceito;
+- descrição;
+- demais elementos necessários para reconhecer e interpretar a personagem.
 
-`Nome real`, `Aparência` e `Estilo` fazem parte do **modelo-base padrão da ficha**. Permanecem vazios antes da revisão e são preenchidos no Bloco 1 quando aplicáveis.
+Para personagem conhecido ou licenciado, a versão-base serve como proposta reconhecível. O jogador pode adaptá-la antes de aprovar.
 
-A aparência não precisa virar catálogo de medidas. Deve registrar aquilo que realmente define a presença visual da personagem e ajuda o NARRADOR a descrevê-la de modo consistente.
+Depois da aprovação, a versão da campanha se torna a referência canônica local.
 
-`Aparência:` responde principalmente **como a pessoa é fisicamente reconhecida**.
+---
 
-`Estilo:` responde principalmente **como costuma se apresentar** — roupas, cores, acessórios, cabelo quando tratado como escolha estética, uniforme, armadura, maquiagem, símbolos ou outros elementos recorrentes.
+## Bloco 2 — Patamar, Atributos e Perícias
 
-`Descrição:` pode complementar esses campos com presença, impressão geral ou outra síntese útil, mas não substitui `Aparência` e `Estilo` quando ambos forem relevantes.
+Definir o **Patamar** coerente com o desenvolvimento mecânico pretendido.
 
-Se for personagem conhecido, canônico ou licenciado, a versão-base e eventuais combinações ou alterações são tratadas aqui, salvo quando o jogador já tiver fornecido essa informação.
-
-A versão conhecida deve virar uma **proposta concreta local**, não um pedido para que o jogador recite o cânone campo por campo. O NARRADOR pode apresentar uma base reconhecível e o jogador modifica o que quiser antes de aprovar.
-
-Depois de consolidada, a versão da campanha passa a ser a referência canônica local daquela personagem.
-
-> **A pergunta relevante é: “quem é esta versão e como ela é reconhecida quando entra em cena?”**
-
-### Bloco 2 — Atributos e perícias
-
-Converter e revisar o conceito aprovado em:
+Aplicar `patamar.md`:
 
 ```text
-FIS | RES | MEN | VON
+Pontos de Atributo = Patamar × 4
+Limite inicial por Atributo = Patamar + 2
+máximo permanente = [7]
 ```
 
-e nas perícias realmente relevantes.
+Distribuir os seis Atributos:
 
-O NARRADOR deve apresentar uma proposta calibrada, com justificativa quando útil, em vez de pedir ao jogador que escolha todos os números sem referência.
+```text
+Potência
+Controle
+Resistência
+Intelecto
+Presença
+Vontade
+```
 
-Aplicar `calibracao.md` sem usar outra ficha como molde automático.
+Valores negativos podem devolver pontos conforme `patamar.md`.
 
-Depois que os Atributos forem aprovados, preencher `VIDA` e `ENERGIA` na ficha para consulta rápida conforme `ficha.md` e as regras aplicáveis à personagem. Exceções específicas já aprovadas pertencem à própria personagem e não alteram automaticamente as demais fichas.
+Registrar apenas as Perícias realmente pertencentes à personagem.
 
-### Bloco 3 — Poderes e capacidades
+Perícias não possuem grau; sua relevância concede `+1d` conforme `pericias.md` e `../resolucao/`.
 
-Converter e revisar:
+Depois dos Atributos permanentes serem aprovados, calcular automaticamente:
 
-- poderes;
-- equipamentos tratados como Poder quando aplicável;
-- capacidades especiais;
-- repertórios;
-- limites conceituais relevantes.
+```text
+Vida Máxima
+Mana Máxima
+```
 
-O NARRADOR apresenta um arsenal coerente com a base aprovada. O jogador pode alterar nomes, patamares, repertórios, exceções e limites antes do salvamento.
+pelas regras de `../resolucao/vida.md` e `../resolucao/mana.md`.
 
-Usar as regras atuais de `poderes.md`, `escala.md`, `calibracao.md` e `../resolucao/` quando necessário.
+Não escolher Vida por Importância narrativa e não calcular Mana pelo maior Atributo.
 
-### Bloco 4 — Traços e relações
+---
 
-Revisar e preencher:
+## Bloco 3 — Poderes e capacidades
 
-- TRAÇOS;
-- fraquezas;
-- características especiais qualitativas;
-- RECURSOS recorrentes relevantes;
+Registrar quais Poderes realmente fazem parte do arsenal funcional da personagem.
+
+Poderes não usam graduação genérica `[1]–[5]`.
+
+A quantidade inicial segue `patamar.md` quando a personagem estiver sendo criada mecanicamente pelo Novo Motor.
+
+Cada Poder possui funcionamento e Hub próprios.
+
+Revisar:
+
+- quais Poderes existem;
+- limites conceituais;
+- fonte ou manifestação narrativa quando relevante;
+- equipamentos tratados como capacidade especial;
+- demais capacidades ativas que precisem de regra própria.
+
+Não criar um Poder para uma ação comum que Atributos e ficção já resolvam adequadamente.
+
+---
+
+## Bloco 4 — Traços, Recursos e relações
+
+Revisar:
+
+- Traços Comuns;
+- Traços Sobrenaturais;
+- Vícios;
+- Corrupções;
+- RECURSOS recorrentes;
 - relações que realmente pertençam à ficha.
 
-Relações e fatos já discutidos anteriormente devem reaparecer automaticamente na proposta deste bloco. Não perguntar novamente se eles existem quando já foram explicitamente estabelecidos.
+Traços positivos usam valores de aquisição `[1–3]` quando a regra específica exigir.
 
-### Bloco 5 — Conferência final
+Vícios valem `[-1]`; Corrupções podem valer `[-1]` ou `[-2]`.
 
-Este bloco não é apenas uma inspeção mecânica.
+Esses valores não viram bônus genérico de teste.
 
-Ele deve transformar tudo que já foi aprovado em uma personagem **completa para interpretação**.
+A economia adicional gerada por Traços negativos segue `patamar.md`.
 
-O NARRADOR revisa a ficha inteira e, quando ainda houver campos narrativos vazios ou pouco desenvolvidos, apresenta uma proposta final misturando:
+Relações e fatos já aprovados anteriormente devem reaparecer automaticamente na proposta; não perguntar de novo aquilo que já está estabelecido.
 
-- a base original ou canônica escolhida;
-- tudo que foi discutido durante a criação;
-- os quatro blocos já aprovados;
-- adaptações locais feitas pelo jogador;
-- consequências naturais dessas escolhas para personalidade, objetivos, medos, conhecimento e história.
+---
 
-É especialmente apropriado completar e revisar aqui:
+## Bloco 5 — Conferência final
+
+Revisar a ficha inteira para transformar os blocos aprovados em uma personagem completa para interpretação e continuidade.
+
+É apropriado completar e revisar aqui:
 
 ```text
 Personalidade e tendências
@@ -319,41 +276,61 @@ Conhecimento atual relevante
 História consolidada relevante
 ```
 
-O jogador pode editar livremente essa síntese antes de aprovar.
+Também verificar:
 
-O Bloco 5 também verifica incoerências, remove excessos e confirma que não restou campo importante esquecido apenas porque estava fora da conversa.
+- coerência entre Conceito e Patamar;
+- soma e limites dos Atributos;
+- Perícias sem graduação antiga;
+- Vida e Mana derivadas corretamente;
+- ausência de Poder `[1–5]` legado;
+- ausência de ENERGIA como reserva universal;
+- ausência de campos preenchidos sem aprovação.
 
-Campos comprovadamente inúteis para aquela personagem podem ser removidos somente depois dessa conferência.
+Campos comprovadamente inúteis podem ser removidos somente depois desta conferência.
 
-> **O final da revisão combina a base reconhecível com tudo que a campanha transformou nela.**
+---
+
+## Calibração independente
+
+Cada personagem é construído pelo que ele próprio é, conforme `calibracao.md`.
+
+Não usar outra ficha como régua automática.
+
+Equilíbrio deliberado entre personagens só entra quando o JOGADOR HUMANO pedir explicitamente.
+
+Patamar e Dificuldade também não são a mesma coisa.
+
+> **A ficha descreve a personagem. A Dificuldade descreve o problema.**
+
+---
 
 ## Salvamento durante a revisão
 
-Cada bloco aprovado é persistido imediatamente antes de avançar.
+Cada bloco aprovado é persistido antes de avançar.
 
 ```text
 bloco apresentado
 → discutir e corrigir
 → jogador aprova
-→ atualizar personagens/<nome>.md
-→ atualizar o checkpoint para o próximo bloco
+→ atualizar ficha
+→ avançar
 ```
 
 Conteúdo ainda em discussão, alternativas recusadas e tentativas intermediárias não entram na ficha definitiva.
 
-Uma resposta que altera apenas parte da proposta não autoriza apagar ou simplificar silenciosamente o restante.
+> **Bloco aprovado vira estado persistente. Conteúdo em discussão permanece fora da ficha.**
 
-> **Bloco aprovado vira estado persistente. Conteúdo em discussão permanece apenas na conversa.**
+---
 
 ## Organização dos arquivos na campanha
 
-Personagens com agência de jogador possuem ficha própria em:
+Personagens com agência de jogador ficam em:
 
 ```text
 campanhas/<nome>/personagens/<personagem>.md
 ```
 
-Isso inclui qualquer personagem com:
+Isso inclui:
 
 ```text
 CONTROLE: JOGADOR HUMANO
@@ -361,17 +338,13 @@ CONTROLE: JOGADOR IA
 CONTROLE: JOGADOR IA EVENTUAL
 ```
 
-Vários personagens `JOGADOR IA EVENTUAL` podem compartilhar a mesma persona operacional, mas cada um continua sendo uma peça distinta e possui seu próprio arquivo.
-
-NPCs comuns não pertencem por padrão a `personagens/`.
-
-Quando um NPC precisa de persistência reservada para continuidade, sua ficha ou material operacional pertence a:
+NPCs persistentes sem agência de jogador ficam em:
 
 ```text
 campanhas/<nome>/mestre/
 ```
 
-Quando houver volume suficiente, pode existir:
+ou, quando útil:
 
 ```text
 campanhas/<nome>/mestre/npcs/
@@ -379,15 +352,19 @@ campanhas/<nome>/mestre/npcs/
 
 Não usar `mundo/npcs/` como destino padrão.
 
+---
+
 ## Antagonistas reservados
 
-Antagonistas importantes podem receber ficha completa em `mestre/` sem revisão aberta quando a apresentação revelaria informação que precisa permanecer reservada.
+Antagonistas podem receber ficha reservada em `mestre/` quando a revisão aberta revelaria informação que precisa permanecer secreta.
 
-Isso não altera as regras de calibração.
+Isso não altera as regras mecânicas nem a calibração.
 
-Sempre que for prático, capacidades ocultas relevantes devem existir antes de serem usadas diretamente contra outra peça.
+Capacidades ocultas usadas contra outras peças devem estar previamente estabelecidas sempre que isso for necessário para continuidade e justiça ficcional.
 
-Depois de estabelecidas, não podem ser alteradas apenas para contrariar uma solução válida ou recuperar dificuldade.
+Não alterar capacidades retroativamente apenas para contrariar uma solução válida.
+
+---
 
 ## Estado de aprovação
 
@@ -399,20 +376,22 @@ Status: PENDENTE DE REVISÃO
 
 até a conferência final ser aprovada.
 
-Depois da aprovação explícita:
+Depois:
 
 ```text
 Status: APROVADO
 ```
 
-A versão final não deve carregar tentativas descartadas, explicações de conversa ou versões intermediárias.
+---
 
-## Progressão não é criação repetida
+## Alterações posteriores
 
-Concluir missão, capítulo ou arco não concede automaticamente atributo, períícia, poder ou capacidade nova.
+A ficha não recebe melhorias automáticas apenas por missão, capítulo ou passagem de tempo narrativa.
 
-A ficha só muda posteriormente quando a própria ficção muda de forma estável o personagem.
+Quando a ficção altera de forma estável a personagem, a ficha pode ser atualizada conforme as regras de progressão vigentes.
 
-O procedimento de atualização pertence a `../persistencia/`.
+Mudanças permanentes nos Atributos exigem recálculo de Vida Máxima e Mana Máxima.
 
-> **Criação identifica a peça e constrói sua ficha inicial. Persistência acompanha mudanças reais posteriores.**
+## Regra final
+
+> **Criar personagem significa consolidar conceito e agência primeiro, depois Patamar, seis Atributos, Perícias sem graduação, Poderes por arsenal funcional, Traços e recursos. Nada é persistido antes de aprovação quando a ficha é aberta ao jogador.**
