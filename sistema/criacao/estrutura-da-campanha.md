@@ -44,6 +44,8 @@ campanhas/<nome>/
 
 Não criar subdivisões adicionais apenas para antecipar necessidades futuras.
 
+As personas operacionais da campanha **não exigem uma pasta paralela**. Sua composição é registrada no `README.md` da própria campanha como `Mesa operacional`, conforme `start-da-campanha.md`.
+
 ## Momento da materialização
 
 ```text
@@ -115,7 +117,7 @@ Esses textos são modelos mínimos. A semântica completa de cada destino perten
 
 ## README da campanha durante a criação
 
-O `README.md` da campanha funciona como índice e checkpoint.
+O `README.md` da campanha funciona como índice, checkpoint e registro da composição operacional necessária para iniciar ou retomar a mesa.
 
 Durante a criação:
 
@@ -125,6 +127,13 @@ CRIAÇÃO: EM ANDAMENTO
 Etapa atual: ...
 Personagem atual: ...     # quando aplicável
 Bloco atual: ...          # quando aplicável
+```
+
+Na etapa final:
+
+```text
+CRIAÇÃO: EM ANDAMENTO
+Etapa atual: CHECK DE START
 ```
 
 Ao terminar:
@@ -161,6 +170,47 @@ campanhas/<nome>/personagens/<personagem>.md
 
 O nascimento e a revisão seguem `personagem.md`.
 
+## Mesa operacional
+
+Antes do START, o README da campanha deve ganhar uma seção:
+
+```text
+## Mesa operacional
+
+JOGADOR HUMANO → <personagem>
+JOGADOR IA — <personagem> → <personagem>
+JOGADOR IA EVENTUAL → ATIVO
+OPOSITOR → ATIVO
+NARRADOR → ATIVO
+```
+
+Para cada ficha com:
+
+```text
+CONTROLE: JOGADOR IA
+```
+
+incluir uma linha própria de `JOGADOR IA — <personagem>`.
+
+Exemplo:
+
+```text
+## Mesa operacional
+
+JOGADOR HUMANO → Kael
+JOGADOR IA — Ravena → Ravena
+JOGADOR IA — Wanda → Wanda
+JOGADOR IA EVENTUAL → ATIVO
+OPOSITOR → ATIVO
+NARRADOR → ATIVO
+```
+
+Essa seção registra o arranjo de autoridade da mesa e permite reinstanciar as mesmas personas ao continuar a campanha.
+
+Ela não substitui `CONTROLE` nas fichas e não duplica conteúdo de personagem.
+
+A composição só é registrada como pronta depois do processo de `start-da-campanha.md`.
+
 ## Situação inicial
 
 Durante a criação, `estado/atual.md` permanece mínimo até a etapa **Início da história**.
@@ -182,6 +232,8 @@ Trama [30]
 
 Não usar `ENERGIA` como reserva universal.
 
+Estado inicial pronto não significa START autorizado. A Mesa operacional ainda precisa passar pelo `CHECK DE START`.
+
 ## O que este arquivo NÃO decide
 
 Depois de criar as pastas, este arquivo não decide:
@@ -191,11 +243,12 @@ Depois de criar as pastas, este arquivo não decide:
 - onde guardar consequência causal;
 - onde guardar NPC reservado;
 - como consolidar Livro;
-- como corrigir cânone.
+- como corrigir cânone;
+- qual decisão uma persona tomará durante o jogo.
 
-Essas decisões pertencem a `../persistencia/`.
+Essas decisões pertencem às áreas responsáveis.
 
-Também não decide quem controla personagens; isso pertence a `../personas/`.
+Quem controla personagens e o que cada persona pode decidir pertence a `../personas/`.
 
 ## Material legado
 
@@ -205,4 +258,4 @@ Não mover, apagar ou reestruturar automaticamente durante a criação de uma ca
 
 ## Regra final
 
-> **`estrutura-da-campanha.md` define apenas o scaffold inicial que `criacao/` cria. A vida posterior desses arquivos é governada por `persistencia/`.**
+> **`estrutura-da-campanha.md` define o scaffold inicial e o lugar em que a Mesa operacional é registrada. A primeira cena continua bloqueada até `start-da-campanha.md` confirmar que todas as personas necessárias estão prontas.**
