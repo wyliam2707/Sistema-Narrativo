@@ -103,24 +103,43 @@ TURNO
 → termina no início de sua próxima vez
 ```
 
-Exemplo:
+### Exemplo numérico
 
 ```text
 Iniciativa
-1. Kael
-2. Aliado [1]
-3. Inimigo [1]
-
-Rodada 1
-→ começa o Turno de Kael; Kael age
-→ começa o Turno de Aliado [1]; Aliado [1] age
-→ começa o Turno de Inimigo [1]; Inimigo [1] age
-→ termina a Rodada 1
-
-Rodada 2
-→ começa novamente a vez de Kael
-→ termina o Turno anterior de Kael e começa seu novo Turno
+10 → 9 → 8 → 7 → 6
 ```
+
+A **Rodada** é sempre:
+
+```text
+10 → 9 → 8 → 7 → 6
+```
+
+Se uma personagem ocupa a posição **8**, o **Turno dessa personagem** é:
+
+```text
+8 → 7 → 6 → 10 → 9
+```
+
+O Turno começa quando a posição 8 chega, atravessa o fim da Rodada, continua pelo início da Rodada seguinte e termina imediatamente antes de a posição 8 chegar novamente.
+
+```text
+posição 8 chega
+→ começa o Turno da peça 8
+→ 8 age
+→ 7
+→ 6
+→ fim da Rodada
+→ nova Rodada
+→ 10
+→ 9
+→ posição 8 chega novamente
+→ termina o Turno anterior da peça 8
+→ começa seu novo Turno
+```
+
+> **Rodada é global. Turno é pessoal.**
 
 ## Autoridade durante cada vez
 
@@ -268,6 +287,14 @@ efeito criado na vez de uma peça
 → termina no início da próxima vez de quem gerou o efeito
 ```
 
+No exemplo `10 → 9 → 8 → 7 → 6`, um efeito de duração Turno criado pela peça 8 permanece durante:
+
+```text
+8 → 7 → 6 → 10 → 9
+```
+
+E termina quando a posição 8 chega novamente.
+
 Salvo regra específica, essa é a leitura operacional padrão de `Duração: Turno`.
 
 > **Duração: Turno = da vez atual até o início da próxima vez de quem gerou o efeito.**
@@ -298,6 +325,8 @@ há participante ainda não processado
 → fechar a Rodada
 → ao voltar ao primeiro, iniciar nova Rodada
 ```
+
+O fim da Rodada não encerra automaticamente os Turnos pessoais. Cada Turno termina apenas quando chega novamente a vez da própria peça.
 
 Antes da nova Rodada, o estado deve refletir todas as consequências estabelecidas, incluindo quando pertinente:
 
@@ -331,4 +360,4 @@ Depois disso, voltar a `janelas-e-interrupcoes.md`.
 
 ## Regra final
 
-> **Cada participante rola Iniciativa uma vez no início do combate. A Rodada é uma passagem completa pela ordem, do primeiro ao último. O Turno é pessoal: começa na vez da peça e termina no início da próxima vez dela. Em cada vez, a persona responsável declara; o NARRADOR apenas julga, narra a sentença e registra. Depois de cada posição, o NARRADOR pausa e pede autorização antes de prosseguir.**
+> **Cada participante rola Iniciativa uma vez no início do combate. A Rodada é uma passagem completa pela ordem, do primeiro ao último. O Turno é pessoal: começa na vez da peça, atravessa o restante da Rodada e o começo da seguinte, e termina no início da próxima vez dela. Em cada vez, a persona responsável declara; o NARRADOR apenas julga, narra a sentença e registra. Depois de cada posição, o NARRADOR pausa e pede autorização antes de prosseguir.**
