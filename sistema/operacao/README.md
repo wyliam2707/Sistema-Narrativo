@@ -4,11 +4,11 @@ Status: APROVADO
 
 Esta pasta responde à pergunta:
 
-> **Em que ordem o sistema é aplicado enquanto o RPG está rodando e como operações administrativas são executadas?**
+> **Em que ordem o sistema é aplicado enquanto o RPG está rodando?**
 
-`operacao/` organiza fluxo e procedimentos. Ela não redefine personagem, resolução, agência, narração ou persistência.
+`operacao/` organiza fluxo, janelas, turnos, aplicação das etapas e comandos administrativos. Ela não redefine personagem, autoridade, fórmulas, narração ou persistência.
 
-## Estrutura canônica
+## Estrutura
 
 ```text
 operacao/
@@ -16,12 +16,13 @@ operacao/
 ├── ciclo-de-cena.md
 ├── janelas-e-interrupcoes.md
 ├── turnos-de-combate.md
+├── ordem-de-resolucao-do-combate.md
 └── comandos-administrativos.md
 ```
 
 ### `ciclo-de-cena.md`
 
-Sequência central das cinco cadeiras:
+Organiza a sequência geral das cadeiras:
 
 ```text
 JOGADORES
@@ -33,61 +34,69 @@ JOGADORES
 
 ### `janelas-e-interrupcoes.md`
 
-Fluxo fora de combate: intenção ampla, passagem de tempo, interrupção, competência evidente e abertura de nova janela.
+Governa o fluxo normal fora de combate, passagem de tempo, interrupções e abertura de novas decisões.
 
 ### `turnos-de-combate.md`
 
-Combate em turnos simultâneos de até 10 segundos, com oportunidade para todas as peças e limite temporal da sentença.
+Define o relógio simultâneo de combate: intervalos compartilhados de até 10 segundos.
 
-As regras de Dano, Cura, Mana, Poderes, Status e demais mecânicas continuam em `../resolucao/`.
+### `ordem-de-resolucao-do-combate.md`
+
+Define a aplicação prática dentro desse intervalo:
+
+```text
+HUD
+→ declarações
+→ interferência/precedência
+→ resolução necessária
+→ atualização
+→ apresentação
+→ novo HUD
+```
+
+Ele consulta `../resolucao/`; não contém um segundo motor mecânico.
 
 ### `comandos-administrativos.md`
 
-Procedimentos administrativos fora da ficção, incluindo exclusão de campanha com confirmação destrutiva obrigatória.
+Procedimentos fora da ficção, como manutenção e operações destrutivas que exigem confirmação.
 
-## Imagem mental
-
-```text
-JOGADORES
-→ defesa das próprias peças.
-
-OPOSITOR
-→ promotoria.
-
-NARRADOR
-→ juiz.
-```
-
-> **O NARRADOR não move a disputa. Ele julga, narra a sentença e registra.**
-
-## Roteamento
+## Fronteiras
 
 ```text
-como criar campanha?             → ../criacao/
-quem é / do que é capaz?         → ../personagem/
-quem decide?                     → ../personas/
-como preservar vontade própria?  → ../agencia/
-como calcular o resultado?       → ../resolucao/
-como apresentar a cena?          → ../narracao/
-o que permanece e onde salvar?   → ../persistencia/
-como aplicar tudo em sequência?  → operacao/
-como executar manutenção?        → comandos-administrativos.md
+como criar?                       → ../criacao/
+quem a personagem é?              → ../personagem/
+quem decide?                       → ../personas/
+como vontades continuam?           → ../agencia/
+como calcular o resultado?         → ../resolucao/
+como apresentar a cena?            → ../narracao/
+o que permanece e onde salvar?     → ../persistencia/
+qual sequência aplicar na mesa?     → operacao/
 ```
+
+> **Operação não calcula. Ela determina quando e em que sequência consultar quem calcula.**
 
 ## Entrada durante o jogo
 
-```text
-fora de combate
-→ ciclo-de-cena.md
-→ janelas-e-interrupcoes.md
+Fora de combate:
 
-combate
-→ ciclo-de-cena.md
+```text
+ciclo-de-cena.md
+→ janelas-e-interrupcoes.md
+→ ../resolucao/ apenas quando surgir incerteza real
+```
+
+Em combate:
+
+```text
+ciclo-de-cena.md
 → turnos-de-combate.md
-→ ../resolucao/ quando houver cálculo
+→ ordem-de-resolucao-do-combate.md
+→ ../resolucao/ para cada cálculo necessário
 ```
 
 ## Registro
+
+A operação pode determinar **quando** atualizar o presente, mas a regra de onde e como salvar pertence a `../persistencia/`.
 
 O retrato operacional principal da campanha é:
 
@@ -95,26 +104,18 @@ O retrato operacional principal da campanha é:
 campanhas/<nome>/estado/atual.md
 ```
 
-Ganchos atuais do OPOSITOR podem ficar em:
-
-```text
-campanhas/<nome>/mestre/ganchos-do-opositor.md
-```
-
-A persistência concreta segue `../persistencia/`.
-
-## Porta de entrada geral
+## Porta de entrada
 
 ```text
 NOVA CAMPANHA
-→ sistema/criacao/README.md
+→ ../criacao/README.md
 
-CONTINUAR
+CONTINUAR CAMPANHA
 → campanhas/<nome>/README.md
 ```
 
-`sistema/00-LEIA-PRIMEIRO.md` é o roteador geral.
+O roteador geral permanece `../00-LEIA-PRIMEIRO.md`.
 
 ## Regra final
 
-> **README roteia. Arquivos especializados guardam as regras. `ciclo-de-cena.md` define a ordem; `janelas-e-interrupcoes.md` governa o fluxo normal; `turnos-de-combate.md` governa o combate; `comandos-administrativos.md` governa manutenção fora da ficção.**
+> **`operacao/` é o procedimento da mesa: organiza janelas, turnos e sequência de aplicação. As outras pastas continuam donas de suas próprias regras.**
