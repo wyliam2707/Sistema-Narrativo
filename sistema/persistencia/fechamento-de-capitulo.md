@@ -58,7 +58,7 @@ A sinalização é apenas operacional.
 
 Não criar acontecimento novo apenas para fabricar um bom final.
 
-## 3. Consultar somente o necessário
+## 3. Consultar somente o necessário para salvar
 
 Antes de consolidar, consultar apenas as fontes relacionadas ao trecho que será salvo, como:
 
@@ -70,7 +70,9 @@ Antes de consolidar, consultar apenas as fontes relacionadas ao trecho que será
 - mundo relevante;
 - material reservado efetivamente relacionado.
 
-Não reler arquivos sem relação com o fechamento.
+Não reler arquivos sem relação com o **salvamento** nesta etapa.
+
+A releitura integral de `sistema/` acontece depois que o capítulo estiver totalmente persistido, conforme a seção **Recarregamento obrigatório pós-capítulo**.
 
 ## 4. Consolidar o Livro
 
@@ -243,32 +245,106 @@ ou outra convenção já adotada pela campanha.
 
 Corrigir um capítulo recém-salvo não cria automaticamente novo número.
 
-## 13. Depois de salvar
+## 13. Confirmar que a persistência terminou
 
-Informar de forma curta:
+Antes da recarga do motor, o fechamento precisa estar realmente concluído.
+
+Conferir:
+
+```text
+Livro salvo
+→ estado/atual.md atualizado
+→ ficha atualizada somente quando aprovada e necessária
+→ mundo atualizado somente quando necessário
+→ mestre atualizado somente quando necessário
+→ nenhuma escrita pendente deste fechamento
+```
+
+Somente depois disso o capítulo é considerado **SALVO** para fins da rotina de recarregamento.
+
+## 14. Recarregamento obrigatório pós-capítulo
+
+Imediatamente depois que o capítulo estiver salvo, executar:
+
+```text
+../operacao/carregamento-do-motor.md
+```
+
+A ficção continua parada durante todo o procedimento.
+
+Fluxo obrigatório:
+
+```text
+CAPÍTULO SALVO
+→ reler README.md da raiz
+→ reler sistema/00-LEIA-PRIMEIRO.md
+→ reler integralmente todos os arquivos atuais em sistema/
+→ reconstruir o modelo mental do motor a partir das fontes atuais
+→ descartar interpretações internas substituídas
+→ reler README da campanha
+→ reconstruir Mesa operacional
+→ conferir escopos das personas
+→ reler estado/atual.md já atualizado
+→ carregar fichas e fontes necessárias para a continuação
+→ marcar mesa como PRONTA PARA O PRÓXIMO CAPÍTULO
+```
+
+Não iniciar nova ficção antes de essa rotina terminar.
+
+A recarga é obrigatória mesmo quando:
+
+- o capítulo foi curto;
+- nenhuma regra aparentemente mudou;
+- a IA acredita lembrar perfeitamente do sistema;
+- a mesma conversa continuará sendo usada.
+
+> **Fim de capítulo é ponto obrigatório de sincronização entre memória da IA e arquivos atuais.**
+
+## 15. O que a recarga NÃO faz
+
+O recarregamento:
+
+- não cria fato novo;
+- não altera estado por conta própria;
+- não reinterpreta acontecimentos já salvos;
+- não cria novo capítulo;
+- não concede informação secreta às personagens;
+- não mistura escopos de personas;
+- não relê automaticamente todo o Livro.
+
+O histórico completo é consultado somente quando necessário para recuperar um fato que não esteja suficientemente consolidado nas fontes atuais.
+
+## 16. Depois de salvar e recarregar
+
+Somente depois da recarga obrigatória, informar de forma curta:
 
 - qual capítulo foi consolidado;
 - onde foi salvo;
 - quais fontes operacionais foram atualizadas;
+- que o motor foi recarregado e a mesa está pronta para o próximo capítulo;
 - se existe alguma mudança permanente de ficha aguardando aprovação.
 
 Não revelar conteúdo reservado apenas para dizer que ele foi atualizado.
 
 Não iniciar automaticamente nova ficção.
 
-## 14. Correções posteriores
+## 17. Correções posteriores
 
 Se uma correção aprovada afetar capítulo já fechado, aplicar `correcao-de-canone.md` e alinhar somente as fontes realmente afetadas.
 
 Não manter duas versões contraditórias como igualmente canônicas.
 
-## 15. Comando repetido
+Se a correção também alterar arquivos de `sistema/` durante a sessão, a próxima recarga obrigatória usará automaticamente as versões atuais.
+
+## 18. Comando repetido
 
 Se o comando de fechar for repetido sem nova ficção:
 
 - não criar capítulo vazio;
 - não avançar a história;
 - tratar como revisão do capítulo já fechado ou informar que já está consolidado.
+
+Não repetir a recarga integral apenas por um comando duplicado que não produziu novo salvamento ou alteração relevante.
 
 Se houve nova ficção, ela pertence ao capítulo seguinte.
 
@@ -293,8 +369,22 @@ MUNDO
 MESTRE
 → atualizar somente material reservado que realmente mudou
 
+SALVAR
+→ confirmar persistência concluída
+
+RECARREGAR MOTOR
+→ reler sistema/ integralmente
+→ reconstruir modelo mental
+
+RECARREGAR MESA
+→ README da campanha
+→ Mesa operacional
+→ estado atual
+→ fontes necessárias
+
 ENCERRAR
-→ informar o salvamento sem iniciar nova ficção
+→ informar salvamento e recarga
+→ não iniciar nova ficção
 ```
 
-> **Fechar capítulo = preservar a história no Livro e deixar o presente correto em `estado/atual.md`, sem criar nenhum fato novo durante o salvamento.**
+> **Fechar capítulo = preservar a história, corrigir o presente e depois sincronizar novamente a IA com todo o motor antes que o próximo capítulo possa começar.**
