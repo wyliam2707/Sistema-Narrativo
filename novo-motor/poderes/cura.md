@@ -10,7 +10,7 @@ Poder de recuperação física e tratamento de Estados nocivos.
 **Efeito:** Nenhum `+0` → `1 nível` `+1` → `2 níveis` `+2` → `3 níveis` `+3`  
 **Defesa:** Nula  
 **Efeito:** Nula  
-**Duração:** Instantânea
+**Duração:** Instante
 
 ## Cura de Vida
 
