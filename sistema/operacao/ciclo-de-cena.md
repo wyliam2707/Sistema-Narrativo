@@ -11,7 +11,7 @@ As regras de autoridade pertencem a `../personas/`. As fórmulas pertencem a `..
 Em toda janela significativa fora de combate:
 
 ```text
-1. JOGADOR HUMANO declara
+1. JOGADOR HUMANO declara intenção e Trama aplicável, se quiser usar
 ↓
 2. JOGADORES IA aplicáveis declaram
 ↓
@@ -57,6 +57,8 @@ Cada persona declara apenas pelas peças sob sua autoridade.
 
 A declaração estabelece **intenção**, não resultado.
 
+Quando o JOGADOR HUMANO quiser usar Trama para melhorar uma rolagem ou reduzir penalidade de dados fora de combate, declara o gasto junto da própria intenção conforme `trama-fora-de-combate.md`.
+
 O NARRADOR não toma a decisão voluntária por outra persona; ele julga o que efetivamente acontece a partir das declarações, fatos e regras aplicáveis.
 
 No RPG ao vivo, as declarações das personas ativas podem aparecer de forma curta antes da sentença para deixar clara a autoria das decisões. A narração literária continua pertencendo ao NARRADOR.
@@ -85,6 +87,25 @@ Quando, depois de considerar fatos e regras, ainda restarem interpretações igu
 
 > **O NARRADOR não narra primeiro e testa depois. A resolução necessária vem antes da sentença conclusiva.**
 
+## Etapa mecânica fora de combate
+
+Quando houver resolução objetiva, o NARRADOR pode apresentar primeiro uma etapa mecânica curta e depois narrar a cena.
+
+```text
+ETAPA DE RESOLUÇÃO
+→ mecânica mínima necessária
+→ resultado estabelecido
+
+APRESENTAÇÃO DA CENA
+→ resultado transformado em ficção
+```
+
+A etapa mecânica pode ocupar uma resposta própria quando isso melhorar a clareza.
+
+Isso não cria Turno, Rodada nem Iniciativa fora de combate e não devolve automaticamente nova decisão ao jogador entre resolução e narração.
+
+Se o próprio resultado criar uma nova decisão relevante, a janela para no ponto causal conforme `janelas-e-interrupcoes.md`.
+
 ## Continuidade da janela
 
 Fora de combate, uma intenção pode continuar enquanto ainda cobrir naturalmente o fluxo. Parar quando surgir nova decisão relevante, conforme `janelas-e-interrupcoes.md`.
@@ -111,4 +132,4 @@ Depois da sentença, não inventar fato anterior para alterar retroativamente o 
 
 ## Regra final
 
-> **Fora de combate, as personas aplicáveis declaram suas intenções para a janela antes do julgamento. A janela pode cobrir desde uma ação até horas ou dias. O NARRADOR julga o conjunto, resolve qualquer dúvida objetiva necessária e só então narra e registra. Em combate, usar exclusivamente a estrutura própria de Iniciativa, Rodada, Turno e vez.**
+> **Fora de combate, as personas aplicáveis declaram suas intenções para a janela antes do julgamento. O JOGADOR HUMANO declara junto da intenção qualquer Trama usada para reforçar aquela ação. O NARRADOR julga, resolve somente a mecânica necessária — podendo apresentá-la em etapa separada — e só então narra e registra. Em combate, usar exclusivamente a estrutura própria de Iniciativa, Rodada, Turno e vez.**
