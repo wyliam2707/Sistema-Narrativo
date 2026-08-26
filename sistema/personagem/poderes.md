@@ -2,36 +2,21 @@
 
 Status: APROVADO
 
-Um **Poder** representa parte do arsenal funcional do personagem.
+Um **Poder** representa parte do arsenal funcional da personagem.
 
-Ele define ações específicas, efeitos e possibilidades que vão além das ações comuns resolvidas diretamente por Atributos, equipamentos ordinários e ficção básica.
+A ficha registra **quais Poderes ela possui**. A mecânica concreta de cada Poder pertence a `../resolucao/poderes/`.
 
-A origem pode ser:
+> **`personagem/poderes.md` define posse e função do arsenal; `resolucao/poderes/` define uso, Hub, custo e efeito.**
 
-- mundana;
-- física;
-- técnica;
-- tecnológica;
-- sobrenatural;
-- psíquica;
-- biológica;
-- qualquer outra coerente com o Conceito.
+## Poder não usa grau genérico
 
-> **Poder representa o que o personagem consegue produzir como parte de seu arsenal especial.**
-
----
-
-## 1. Poder não usa grau genérico
-
-Poderes não usam uma escala universal:
+Não existe escala universal:
 
 ```text
-[1] [2] [3] [4] [5]
+Poder [1] [2] [3] [4] [5]
 ```
 
-A ficha registra apenas quais Poderes o personagem possui.
-
-Exemplo:
+A ficha registra apenas os Poderes existentes:
 
 ```text
 PODERES:
@@ -40,47 +25,36 @@ PODERES:
 - Ilusão
 ```
 
-A ausência de um Poder significa que aquela capacidade não faz parte do arsenal funcional registrado do personagem.
+Ausência significa que aquela capacidade não faz parte do arsenal registrado. Não usar `Poder [0]`.
 
-Não usar `Poder [0]` como marcador.
+## Ações comuns não exigem Poder
 
----
-
-## 2. Ações comuns não exigem Poder
-
-Qualquer personagem pode tentar ações comuns que sejam ficcionalmente possíveis para ele.
-
-Exemplos:
+Ações ordinárias ficcionalmente possíveis usam Atributos, Perícias, equipamento e resolução comum.
 
 ```text
 socar
 correr
 escalar
 empurrar
-usar uma ferramenta comum
+usar ferramenta comum
+→ não exigem um Poder homônimo
 ```
 
-Essas ações não exigem um Poder chamado `Soco`, `Corrida` ou equivalente.
-
-Poder é necessário quando a personagem pretende produzir uma capacidade especial que não existe apenas pela ação comum e pelos meios disponíveis.
-
-Exemplos:
+Poder é necessário para uma função especial que a personagem não produz apenas pelos meios comuns.
 
 ```text
 teleportar
-criar uma Barreira sobrenatural
-invocar uma criatura
-alterar a mente de alguém por efeito extraordinário
-produzir um disparo especial de energia
+invocar
+criar Barreira extraordinária
+produzir disparo especial
+impor domínio mental sobrenatural
 ```
 
----
+## Hub
 
-## 3. Hub
+Cada Poder possui regra concreta em `../resolucao/poderes/`.
 
-Cada Poder possui sua própria regra e seu próprio **Hub**.
-
-O Hub organiza apenas as dimensões relevantes para aquele Poder, que podem incluir:
+Um Hub pode organizar, conforme necessário:
 
 - Alcance;
 - Alvos;
@@ -94,166 +68,77 @@ O Hub organiza apenas as dimensões relevantes para aquele Poder, que podem incl
 - Modo;
 - Distância;
 - Escopo;
-- Contra;
 - Tamanho;
-- Material;
-- outras propriedades específicas.
+- outras propriedades próprias.
 
-Nem todo Poder usa todos esses campos.
+Nem todo Poder usa todos os campos.
 
-> **O arquivo do Poder define o que ele faz. O Hub define como aquele uso é configurado.**
+## Patamar e [X]
 
----
+Quando uma regra usar `[X]`:
 
-## 4. Custo e [X]
+> **[X] = Patamar da personagem**
 
-Quando uma progressão de Hub não disser outra coisa:
+`[X]` normalmente limita a Mana máxima investida num único uso, conforme `../resolucao/mana.md` e `patamar.md`.
 
-- a primeira posição custa `+0`;
-- cada avanço seguinte custa `+1`;
-- opções equivalentes no mesmo estágio possuem o mesmo custo;
-- o custo final é a soma das opções escolhidas.
+O custo concreto pertence ao Hub correspondente.
 
-`[X]` representa:
+## Quem escolhe a configuração
 
-> **Patamar da personagem**
+Se um uso de Poder possui escolhas voluntárias de alvo, forma, alcance, intensidade ou outra configuração, a decisão pertence a quem tiver autoridade sobre a peça conforme `../personas/`.
 
-E normalmente limita:
+A sequência para pedir escolhas faltantes durante o jogo pertence a `../operacao/ordem-de-resolucao-do-combate.md` quando estiver em combate.
 
-> **a quantidade máxima de Mana que pode ser gasta em um único uso do Poder**
+Este arquivo não redefine autoridade nem procedimento.
 
-Alguns Poderes possuem custo operacional a partir de `0+ Mana`; outros a partir de `1+ Mana`, conforme sua própria regra.
+## Ataques comuns e Poderes ofensivos
 
-Consultar `../resolucao/mana.md` e `patamar.md`.
+Uma personagem sem Poder ofensivo ainda pode realizar ataque comum.
 
----
+A regra de ataque e Dano pertence a `../resolucao/combate-e-dano.md`.
 
-## 5. Configuração pertence ao jogador da peça
+Poderes ofensivos podem definir Dano, Defesa, Resistência, Efeito, alcance, Área e outras propriedades próprias.
 
-Quando um Poder possuir escolhas que alterem custo ou resultado, o controlador da personagem decide a configuração voluntária.
-
-O NARRADOR pergunta somente o que ainda estiver faltando para resolver o uso.
-
-Se alvo, forma, alcance, intensidade e demais escolhas já estiverem claros na declaração, não perguntar novamente.
-
-O NARRADOR não escolhe silenciosamente uma configuração mais cara, mais fraca ou diferente da intenção declarada.
-
-As regras de autoridade continuam pertencendo a `../personas/`.
-
----
-
-## 6. Ataques comuns e Poderes ofensivos
-
-Uma personagem sem Poder ofensivo ainda pode realizar um ataque comum.
-
-Quando um ataque comum causa Dano sem usar fonte especial com Dano próprio:
-
-> **Dano = Atributo utilizado no ataque**
-
-Sem rolagem separada de Dano.
-
-Poderes ofensivos substituem essa forma simples pelas regras próprias de seu Hub, podendo definir:
-
-- Dano;
-- alcance;
-- Defesa;
-- Resistência;
-- Efeito;
-- Área;
-- Alvos;
-- outras propriedades.
-
-A resolução completa pertence a `../resolucao/combate-e-dano.md` e aos arquivos específicos de Poder.
-
----
-
-## 7. Poder, Atributo e Perícia
-
-Cada parte da ficha responde a uma pergunta diferente:
+## Atributo, Perícia e Poder são coisas diferentes
 
 ```text
 ATRIBUTO
-→ qual capacidade fundamental o personagem possui?
+→ capacidade fundamental
 
 PERÍCIA
-→ em quais campos possui treinamento e experiência?
+→ treinamento e experiência
 
 PODER
-→ quais funções especiais fazem parte de seu arsenal?
+→ função especial do arsenal
 ```
 
-Atributos, Perícias e Poderes não são somados automaticamente.
+Eles não são somados automaticamente.
 
-Uma Perícia pode conceder `+1d` quando realmente for relevante para a resolução, mas não aumenta genericamente Dano ou custo de Poder.
+## Capacidade natural
 
----
-
-## 8. Capacidade natural e Poder
-
-Uma capacidade natural ou permanente já representada adequadamente por um Atributo não precisa ser duplicada como Poder apenas para repetir a mesma coisa.
-
-Exemplo:
+Uma capacidade já adequadamente representada por Atributo ou Traço não precisa virar Poder apenas para ser repetida.
 
 ```text
 Potência [5]
+→ já pode representar força natural extraordinária
 ```
 
-já pode representar força natural extraordinária.
+Uma função ativa, configurável ou com efeito próprio pode justificar um Poder.
 
-Mas uma capacidade ativa, configurável ou com efeito próprio pode ser Poder.
+## Forma narrativa
 
-Exemplo:
+A aparência não cria automaticamente um Poder novo.
 
-```text
-Aprimoramento
-→ aumenta temporariamente Atributos conforme seu Hub
-```
+A mesma função mecânica pode se manifestar de formas diferentes quando Conceito e regra permitirem.
 
----
+> **A ficção descreve a forma. O Hub descreve a função mecânica.**
 
-## 9. Forma narrativa e função mecânica
+## Calibração
 
-A aparência do efeito não cria automaticamente uma categoria nova de Poder.
+A escolha inicial do arsenal segue `../criacao/calibracao.md`.
 
-Um mesmo Poder ofensivo pode se manifestar como raio, projétil, golpe, onda ou outra forma quando sua própria regra e o Conceito permitirem.
-
-Da mesma forma, Poderes diferentes podem produzir resultados visualmente parecidos sem serem mecanicamente iguais.
-
-> **A forma vem da ficção; a função vem da regra específica do Poder.**
-
----
-
-## 10. Calibração
-
-Poderes são escolhidos pelo que realmente pertence ao personagem.
-
-Não adicionar, retirar ou alterar Poderes apenas para:
-
-- equilibrar grupo automaticamente;
-- aproximar duas fichas sem pedido do jogador;
-- garantir determinado vencedor;
-- recuperar dificuldade depois de uma solução válida.
-
-A regra completa pertence a `calibracao.md`.
-
----
-
-## 11. Onde ficam as regras concretas
-
-A posse e o registro de Poderes pertencem a `personagem/`.
-
-As regras mecânicas de cada Poder e seus Hubs pertencem a:
-
-```text
-../resolucao/poderes/
-```
-
-O índice e as regras compartilhadas dos Hubs estão em `../resolucao/poderes/README.md`.
-
-> **Ficha registra o arsenal. Resolução define como cada parte desse arsenal funciona.**
-
----
+Não adicionar ou retirar Poder para equilibrar automaticamente personagens, garantir vencedor ou recuperar dificuldade depois de uma solução válida.
 
 ## Regra final
 
-> **Poder é arsenal funcional, não uma nota de [1] a [5]. A ficha registra quais Poderes existem; cada arquivo específico define o que eles fazem e o Hub define como cada uso é configurado dentro do limite de Mana e Patamar.**
+> **A ficha registra quais Poderes a personagem possui. Toda mecânica concreta de uso pertence a `resolucao/poderes/`; toda autoridade de escolha pertence a `personas/`.**
