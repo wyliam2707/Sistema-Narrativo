@@ -19,7 +19,7 @@ As famílias atuais são:
 - **Terror:** Abalado → Apavorado → Aterrorizado;
 - **Exaustão:** Fatigado → Exausto → Inconsciente;
 - **Perturbação:** Desorientado → Confuso → Atordoado;
-- **Aflição:** 1 de dano → 1d3 de dano → 1d6 de dano por turno;
+- **Aflição:** 1 de dano → 1d3 de dano → 1d6 de dano por Turno;
 - **Posição:** Caído → Movido → Conduzido;
 - **Influência:** Enfeitiçado → Compelido → Dominado;
 - **Ruína:** Desprevenido → Exposto → Indefeso;
@@ -104,11 +104,21 @@ Nenhum Status concede ao NARRADOR autoridade geral para escolher decisões volun
 
 ## 6. Turno
 
-Quando um Status usar duração ou aplicação por **Turno**:
+Quando um Status usar duração ou aplicação por **Turno** durante combate:
 
-> **Turno = intervalo simultâneo de até 10 segundos compartilhado por todas as peças.**
+> **Turno = intervalo pessoal da peça afetada, do início de uma vez dela até o início da próxima vez dela.**
 
-A regra não cria iniciativa nem fila de atuação.
+A Rodada é global; o Turno é pessoal.
+
+```text
+posição da peça chega
+→ começa seu Turno
+→ atravessa o restante da Rodada
+→ atravessa o início da Rodada seguinte
+→ termina quando a mesma posição chega novamente
+```
+
+A regra de Status não cria uma Iniciativa própria nem outra fila de atuação.
 
 A operação temporal pertence a `../../operacao/turnos-de-combate.md`.
 
@@ -120,7 +130,7 @@ A Vida já possui fontes canônicas especializadas em `../`:
 
 - `../vida.md` — Vida Máxima e Incapacitado;
 - `../recuperacao-da-vida.md` — recuperação e Medicina;
-- `../combate-e-dano.md` — Dano, RD, Barreira e aplicação em Vida.
+- `../combate-e-dano.md` — Dano, RD, Escudo/Barreira e aplicação em Vida.
 
 Não criar outro `status/vida.md` apenas para duplicar essas regras.
 
@@ -156,4 +166,4 @@ O arquivo persistente guarda o estado já estabelecido; não recalcula a regra.
 
 ## Regra final
 
-> **Dentro da mesma família, vale o efeito mais forte; famílias diferentes coexistem. Status descreve o presente e nunca substitui a regra de aplicação nem a arquitetura de agência.**
+> **Dentro da mesma família, vale o efeito mais forte; famílias diferentes coexistem. Quando houver duração por Turno em combate, usar o Turno pessoal definido por `operacao/turnos-de-combate.md`. Status descreve o presente e nunca substitui a regra de aplicação nem a arquitetura de agência.**
