@@ -2,11 +2,11 @@
 
 Pontos de Trama representam o **privilégio narrativo do protagonista**: a margem que permite ao personagem do jogador humano continuar tendo uma chance real quando a situação se volta contra ele.
 
-Eles representam aquele recurso comum às histórias em que o protagonista consegue resistir um pouco mais, encontrar força para usar sua capacidade no limite, sobreviver a um golpe decisivo ou transformar uma situação desfavorável em uma nova oportunidade.
+Eles representam aquele recurso comum às histórias em que o protagonista consegue resistir um pouco mais, encontrar força para usar sua capacidade no limite, sobreviver a um golpe decisivo, perceber uma pista importante ou transformar uma situação improvável em uma nova possibilidade.
 
 > **Mana representa a capacidade técnica do personagem. Trama representa a margem narrativa do protagonista.**
 
-Trama não garante vitória, não cria automaticamente uma solução externa e não transforma uma ação ficcionalmente impossível em possível. Ela permite ao jogador humano investir sua importância narrativa para melhorar suas chances, suportar consequências ou continuar utilizando seus recursos quando normalmente estaria no limite.
+Trama não garante vitória e não transforma automaticamente qualquer desejo do jogador em realidade. Ela permite ao jogador humano investir sua importância narrativa para melhorar suas chances, suportar consequências, continuar utilizando seus recursos ou abrir possibilidades que normalmente seriam muito improváveis.
 
 ---
 
@@ -93,6 +93,28 @@ Mana disponível pode ser gasta normalmente e apenas a diferença pode ser paga 
 
 O custo configurado do Poder e o limite `[X]` continuam valendo normalmente. Trama substitui o recurso necessário para pagar o uso; ela não aumenta o Patamar nem permite configurar o Poder acima de `[X]`.
 
+### Dica do Narrador
+
+O jogador pode gastar:
+
+> **5 Pontos de Trama para receber uma dica do Narrador.**
+
+A dica deve oferecer uma pista, percepção, possibilidade ou direção útil relacionada à situação atual. Ela não precisa entregar a solução completa nem garantir sucesso; sua função é impedir que o protagonista fique sem qualquer caminho perceptível quando a história ainda comporta uma oportunidade.
+
+### Abrir uma possibilidade narrativa
+
+O jogador pode gastar:
+
+> **10 Pontos de Trama para abrir uma possibilidade narrativa que antes seria extremamente improvável, inesperada ou praticamente impensável.**
+
+Esse gasto **abre a possibilidade; não força o resultado**.
+
+A situação passa a admitir seriamente aquela direção narrativa, mas personagens envolvidos continuam tomando suas próprias decisões de acordo com seu CONTROLE, Personalidade, Tendências, Desejos, Relacionamentos, limites e tudo que já aconteceu na ficção.
+
+Por exemplo, se duas heroínas jamais considerariam dividir uma relação com o protagonista, o jogador pode gastar 10 Pontos de Trama para fazer com que essa ideia deixe de ser descartada de imediato e passe a ser **realmente considerada**. Isso não obriga nenhuma delas a aceitar. A partir daí, a reação e o desenvolvimento da possibilidade pertencem normalmente à narrativa e às decisões de cada personagem.
+
+> **Trama pode mudar o espaço das possibilidades da história; ela não toma a decisão pelos personagens.**
+
 ---
 
 ## Limites da Trama
@@ -104,9 +126,10 @@ Pontos de Trama:
 - não criam um Poder que o personagem não possui;
 - não tornam possível uma ação absolutamente impossível;
 - não anulam uma Restrição absoluta apenas por serem gastos;
-- não garantem que uma rolagem será bem-sucedida.
+- não garantem que uma rolagem será bem-sucedida;
+- podem abrir uma nova possibilidade narrativa, mas não obrigam outro personagem a escolher o resultado desejado.
 
-> **Trama oferece ao protagonista uma nova chance; ela não determina o resultado da história.**
+> **Trama oferece ao protagonista uma nova chance ou uma nova possibilidade; ela não determina o resultado da história.**
 
 ---
 
@@ -138,4 +161,4 @@ Ter 0 Pontos de Trama não impede o personagem de quebrar o Código; significa a
 
 # Regra fundamental
 
-> **Trama é o privilégio narrativo do protagonista. Ela permite ao jogador humano investir essa margem para melhorar uma rolagem, reduzir penalidades, suportar Dano ou sustentar o uso de Poderes quando a Mana não é suficiente, sem garantir vitória nem substituir as capacidades reais do personagem.**
+> **Trama é o privilégio narrativo do protagonista. Ela permite ao jogador humano melhorar uma rolagem, reduzir penalidades, suportar Dano, sustentar o uso de Poderes, obter uma pista ou abrir uma nova possibilidade narrativa. Ela pode alterar as chances e o espaço de possibilidades da história, mas não garante vitória nem força as decisões de outros personagens.**
