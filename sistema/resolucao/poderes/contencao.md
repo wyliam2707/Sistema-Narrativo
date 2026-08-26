@@ -42,7 +42,7 @@ O custo final é a soma dos avanços escolhidos e nunca pode ultrapassar `[X]`.
 
 ## Uso
 
-O Narrador apresenta o Hub configurado, mostra o custo total e pede confirmação antes da resolução:
+O NARRADOR apresenta o Hub configurado, mostra o custo total e pede confirmação antes da resolução:
 
 > **Confirmar uso por X Mana?**
 
@@ -52,7 +52,7 @@ A sequência normal é:
 
 > **Defesa → Dano → Resistência → Efeito**
 
-Acerto e Defesa seguem a regra geral por contexto. Se a forma de aplicação for ambígua, o Acerto usa o melhor entre **Controle** e **Intelecto**; uma descrição deliberada pode definir qual deles é usado.
+Acerto e Defesa seguem a regra geral por contexto. O Atributo de Acerto é sempre o que corresponde à forma real da ação e à finalidade declarada. Se a aplicação estiver ambígua, o NARRADOR interpreta a ação; nunca se escolhe automaticamente o maior Atributo.
 
 O Dano, se escolhido, é imediato. Depois, resolve-se o Efeito:
 
