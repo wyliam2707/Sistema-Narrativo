@@ -2,242 +2,301 @@
 
 Status: APROVADO
 
-A ficha usa quatro atributos universais.
+Os **Atributos** representam as capacidades fundamentais do personagem.
 
-Cada atributo descreve uma capacidade diferente do personagem. Eles não são somados automaticamente entre si, com perícias, poderes ou equipamentos.
+A ficha usa seis Atributos, divididos em duas origens:
 
-Os atributos usam a escala universal definida em `escala.md`.
+```text
+CORPO
+→ Potência
+→ Controle
+→ Resistência
+
+MENTE
+→ Intelecto
+→ Presença
+→ Vontade
+```
+
+Os Atributos não são somados automaticamente entre si, com Perícias, Poderes ou equipamentos.
 
 A ficha não busca equilibrar personagens entre si. O valor de um Atributo deve refletir aquilo que o personagem realmente é.
 
 ---
 
-## 1. Atributos básicos
+## 1. Escala
 
-### FIS — Físico
+Os valores permanentes normalmente variam entre:
 
-**FIS mede aquilo que o corpo do personagem consegue fazer.**
+> **[-2] a [7]**
 
-Reúne potência, velocidade, coordenação, precisão corporal, equilíbrio e capacidade de reação física.
+`[0]` representa a referência comum.
 
-Inclui, quando pertinente:
+Valores negativos representam capacidade abaixo da média, mas ainda funcional.
 
-- levantar peso;
-- empurrar e puxar;
-- arrombar;
-- agarrar ou conter alguém fisicamente;
-- correr, saltar e escalar;
-- esquivar;
-- manter equilíbrio;
-- executar movimentos rápidos;
-- reagir fisicamente a algo percebido;
-- realizar movimentos delicados ou precisos;
-- aplicar potência em golpes produzidos pelo próprio corpo.
-
-FIS não mede percepção. Perceber uma ameaça, detalhe ou mudança no ambiente pertence normalmente a MEN. FIS pode determinar a qualidade, velocidade ou precisão da resposta corporal depois que a situação foi percebida.
-
-FIS também não mede quanto dano, esforço ou impacto o corpo consegue suportar. Isso pertence a RES.
-
-> **FIS age. RES suporta.**
-
----
-
-### RES — Resistência
-
-**RES mede quanto o corpo consegue suportar antes de falhar.**
-
-Inclui, quando pertinente:
-
-- dano e impacto;
-- dor física;
-- esforço prolongado;
-- fôlego e exaustão;
-- privação física;
-- ambientes hostis;
-- venenos;
-- doenças;
-- toxinas;
-- capacidade de continuar funcionando apesar de desgaste físico.
-
-FIS e RES são independentes.
-
-Um personagem pode possuir capacidade física extrema e baixa resistência, ou grande resistência e pouca capacidade de ação corporal.
-
----
-
-### MEN — Mente
-
-**MEN mede a capacidade de perceber, compreender, analisar e processar informações.**
-
-Inclui, quando pertinente:
-
-- percepção;
-- atenção;
-- raciocínio;
-- memória;
-- análise;
-- cálculo;
-- dedução;
-- leitura de situação;
-- antecipação;
-- aprendizado;
-- interpretação de informações;
-- precisão mental na execução de efeitos quando a natureza da ação depender disso.
-
-MEN não mede força de vontade nem resistência mental. Essas funções pertencem a VON.
-
-MEN também não representa conhecimento universal.
-
-MEN alto pode permitir compreender, relacionar e aprender informações com grande eficiência, mas não concede automaticamente repertório nunca adquirido.
-
-MEN não concede por si só:
-
-- formação médica;
-- conhecimento ocultista;
-- idiomas nunca aprendidos;
-- fatos nunca conhecidos;
-- informação secreta;
-- conhecimento exclusivo do Narrador.
-
-> **MEN ajuda a construir caminhos de entendimento; não substitui repertório especializado nem cria informação inexistente.**
-
----
-
-### VON — Vontade
-
-**VON mede determinação, resistência mental e capacidade de sustentar uma ação, efeito ou intenção sob pressão.**
-
-Inclui, quando pertinente:
-
-- resistir a medo;
-- resistir a coerção ou dominação;
-- resistir a controle mental;
-- permanecer funcional sob pressão psicológica;
-- perseverar apesar de desgaste emocional;
-- manter concentração;
-- sustentar poderes ou efeitos prolongados;
-- impor um efeito quando sua natureza depender diretamente de força de vontade.
-
-Como princípio geral:
-
-```text
-MEN → perceber, compreender, calcular, conjurar, mirar ou controlar com precisão mental.
-VON → resistir, sustentar, manter, perseverar ou impor pela determinação.
-```
-
-A natureza concreta da ação continua sendo mais importante do que uma associação automática.
-
----
-
-## 2. Defesa não pertence a um único atributo
-
-O sistema não possui um atributo universal de defesa.
-
-A capacidade usada para se defender depende de como a defesa acontece na ficção.
-
-Exemplos possíveis:
-
-- evitar fisicamente um ataque percebido: FIS;
-- antecipar um adversário por leitura, percepção ou raciocínio: MEN;
-- bloquear, agarrar ou conter algo fisicamente: FIS, quando fizer sentido;
-- suportar o impacto em vez de evitá-lo: RES;
-- resistir a dominação, medo ou pressão mental: VON;
-- perceber ou evitar algo por uma capacidade extraordinária: poder apropriado.
-
-Mais de uma informação da ficha pode ser relevante para explicar uma defesa, mas isso não cria soma automática entre atributos.
-
-As regras completas de defesa e resolução pertencem a `../resolucao/`.
-
----
-
-## 3. Não existe atributo universal de Poder
-
-A potência de uma capacidade sobrenatural, tecnológica ou especial é registrada no próprio poder.
-
-Exemplo:
-
-```text
-Magia [3]
-```
-
-Não existe necessidade de um atributo separado chamado `Poder`.
-
----
-
-## 4. CONTROLE não é atributo
-
-`CONTROLE` é metadado estrutural da ficha.
-
-Ele indica qual papel possui autoridade sobre as decisões voluntárias do personagem.
-
-Seu significado operacional pertence a `../personas/`.
-
----
-
-## 5. Potência, fonte e execução são coisas diferentes
-
-O valor usado para produzir um efeito vem da fonte que realmente o produz.
-
-O corpo pode ser essa fonte. Um equipamento, Poder ou outra capacidade também pode ser.
+Efeitos temporários podem ultrapassar essa escala nos dois sentidos. Portanto, `[-2]` e `[7]` são limites dos valores permanentes, não limites absolutos durante efeitos temporários.
 
 Exemplos:
 
 ```text
-FIS [2] → golpe corporal usa potência física [2]
-Pistola — Dano [1] → o disparo usa Dano [1]
-Espada Mágica — Dano [3] → o golpe da espada usa Dano [3]
+Controle [7] +2 temporário
+→ Controle [9] enquanto o efeito durar
+
+Potência [-2] -2 temporário
+→ Potência [-4] enquanto o efeito durar
 ```
 
-Esses valores não são somados automaticamente:
+### Ampliações temporárias
 
-`FIS [2] + Pistola [1] ≠ Dano [3]`
+Um personagem pode ter no máximo **2 Atributos diferentes ampliados temporariamente ao mesmo tempo**.
 
-`FIS [2] + Espada Mágica [3] ≠ Dano [5]`
+Esse limite considera quantos Atributos estão acima de seus valores permanentes, independentemente da origem dos efeitos.
 
-FIS continua podendo ser relevante para posição, agarrões, deslocamento, velocidade, precisão corporal ou outras disputas físicas durante a mesma cena, sem aumentar automaticamente a potência do equipamento.
+Se dois Atributos já estiverem ampliados, um efeito que tentaria ampliar um terceiro não produz esse aumento enquanto o limite continuar ocupado.
 
-A Perícia aplicável descreve quão bem aquela fonte é utilizada. Ela também não se transforma automaticamente em potência adicional da arma ou do Poder.
+**Reduções temporárias não possuem limite equivalente.**
 
-> **FIS determina o que o corpo consegue produzir. Equipamento determina o que o equipamento consegue produzir. Perícia determina quão bem a fonte escolhida é aplicada.**
+Mudanças temporárias não alteram o valor permanente do Atributo e não recalculam automaticamente recursos derivados que dependam dos valores permanentes.
 
 ---
 
-## 6. Capacidades naturais
+## 2. Atributo pela finalidade
 
-Uma capacidade permanente ou natural deve aparecer diretamente no atributo sempre que fizer sentido.
+O Atributo é escolhido pela **finalidade e pela forma real da ação**, não pelo nome do movimento e nem pelo maior valor da ficha.
 
 Exemplo:
 
 ```text
-FIS [4]
+"Dou um soco para derrubá-lo com força."
+→ Potência
+
+"Passo uma rasteira para desequilibrá-lo."
+→ Controle
 ```
 
-Isso já representa uma capacidade física natural extraordinária. Não é necessário criar separadamente `Superforça`, `Superagilidade` ou equivalentes apenas para repetir aquilo que FIS já descreve.
+A mesma situação pode utilizar Atributos diferentes conforme a maneira escolhida pelo personagem para enfrentá-la.
 
-Em contraste, uma capacidade que precisa ser ativada deve aparecer como Poder.
-
-Exemplo:
-
-```text
-FIS [0]
-Magia [3] => Ampliação física
-```
-
-Nesse caso, o personagem possui capacidade física humana em repouso e pode usar uma capacidade ativa para alterá-la temporariamente quando o repertório permitir.
+> **Não procure qual Atributo corresponde ao nome da ação. Procure qual Atributo corresponde à finalidade da ação.**
 
 ---
 
-## 7. Princípio de leitura
+# Corpo
 
-Os quatro atributos respondem a perguntas diferentes:
+## 3. Potência
+
+**Potência** representa a capacidade de produzir força, impacto e intensidade física.
+
+É usada quando a ação depende principalmente de força direta.
+
+Exemplos:
+
+- golpear com força;
+- empurrar;
+- puxar;
+- levantar peso;
+- arrombar;
+- quebrar;
+- segurar fisicamente algo;
+- produzir impacto.
+
+Pergunta principal:
+
+> **Quanto de força o personagem consegue produzir?**
+
+Potência não representa automaticamente precisão, coordenação ou resistência física.
+
+---
+
+## 4. Controle
+
+**Controle** representa coordenação, precisão, velocidade de execução e domínio dos movimentos do corpo.
+
+É usado quando a ação depende principalmente de técnica, precisão ou controle corporal.
+
+Exemplos:
+
+- esquivar;
+- manter equilíbrio;
+- acertar um ponto específico;
+- executar uma rasteira;
+- desarmar;
+- manipular algo com precisão;
+- realizar uma manobra corporal;
+- agir rapidamente com domínio dos movimentos.
+
+Pergunta principal:
+
+> **Com quanta precisão e domínio o personagem consegue agir?**
+
+Uma ação pode envolver força física e ainda usar Controle quando a finalidade principal for técnica ou precisão.
+
+---
+
+## 5. Resistência
+
+**Resistência** representa a capacidade do corpo de suportar esforço, dor, desgaste e condições adversas.
+
+Exemplos:
+
+- suportar fadiga;
+- resistir a veneno;
+- continuar agindo apesar da dor;
+- suportar frio ou calor extremos;
+- manter esforço prolongado;
+- resistir fisicamente a algo que tenta dominá-lo.
+
+Pergunta principal:
+
+> **Quanto o corpo consegue suportar antes de falhar?**
+
+Potência e Resistência são independentes. Um personagem pode produzir muita força e suportar pouco desgaste, ou o contrário.
+
+---
+
+# Mente
+
+## 6. Intelecto
+
+**Intelecto** representa raciocínio, compreensão, análise, memória e capacidade de elaborar soluções.
+
+Exemplos:
+
+- analisar uma situação;
+- compreender um mecanismo;
+- resolver um problema complexo;
+- lembrar informação;
+- investigar evidências;
+- elaborar estratégia;
+- realizar cálculos;
+- aplicar conhecimento técnico ou científico.
+
+Pergunta principal:
+
+> **Quanto o personagem consegue compreender e elaborar?**
+
+Intelecto alto não cria conhecimento inexistente. Repertório específico continua dependendo de informação, experiência e Perícias apropriadas.
+
+---
+
+## 7. Presença
+
+**Presença** representa a capacidade de projetar personalidade e provocar reações nas outras pessoas.
+
+Pode representar carisma, autoridade, intimidação, confiança, magnetismo, ameaça ou outra forma de impacto social.
+
+Exemplos:
+
+- convencer;
+- intimidar;
+- inspirar;
+- liderar;
+- negociar;
+- provocar;
+- impor autoridade;
+- chamar atenção.
+
+Pergunta principal:
+
+> **Quanto o personagem consegue influenciar aqueles ao redor?**
+
+Presença não significa necessariamente beleza, simpatia ou gentileza.
+
+---
+
+## 8. Vontade
+
+**Vontade** representa determinação, concentração, disciplina e resistência mental.
+
+Exemplos:
+
+- resistir ao medo;
+- manter concentração;
+- ignorar distrações;
+- resistir a manipulação mental;
+- controlar impulsos;
+- continuar sob pressão psicológica;
+- sustentar esforço mental prolongado.
+
+Pergunta principal:
+
+> **Quanto a mente consegue resistir e permanecer firme?**
+
+---
+
+## 9. Defesa não pertence a um único Atributo
+
+O sistema não possui um Atributo universal de defesa.
+
+A defesa depende de como a reação acontece na ficção.
+
+Exemplos possíveis:
 
 ```text
-FIS → o que o corpo consegue fazer?
-RES → quanto o corpo consegue suportar?
-MEN → o que consegue perceber, compreender e processar?
-VON → quanto consegue resistir, sustentar e perseverar?
+esquivar-se
+→ Controle
+
+aguentar fisicamente um impacto ou esforço
+→ Resistência
+
+antecipar ou compreender uma situação
+→ Intelecto
+
+resistir a medo ou invasão mental
+→ Vontade
+
+outra forma de reação
+→ Atributo coerente com o mecanismo usado
 ```
 
-Nenhum atributo substitui automaticamente outro apenas porque pode contribuir para a mesma cena.
+As regras de oposição pertencem a `../resolucao/`.
 
-> **A ficha descreve o personagem; não oferece justiça entre personagens.**
+---
+
+## 10. Poderes, equipamentos e capacidades naturais
+
+Atributos descrevem capacidades fundamentais do personagem.
+
+Poderes representam partes de seu **arsenal funcional** e podem definir ações, efeitos, alcance, Dano, custos e outras propriedades próprias.
+
+Equipamentos também podem possuir valores e regras próprias.
+
+Esses elementos não são somados automaticamente ao Atributo sem uma regra que determine isso.
+
+Uma capacidade natural que já esteja adequadamente representada por um Atributo não precisa ser duplicada como Poder apenas para repetir o mesmo fato.
+
+Uma capacidade ativa, configurável ou com efeito próprio pode pertencer a um Poder.
+
+---
+
+## 11. Controle não é CONTROLE
+
+Existe uma distinção obrigatória entre:
+
+```text
+Controle
+→ Atributo corporal
+→ coordenação, precisão e domínio dos movimentos
+
+CONTROLE
+→ metadado estrutural da ficha
+→ define quem possui autoridade sobre decisões voluntárias
+```
+
+O significado operacional de `CONTROLE` pertence a `../personas/` e não é alterado pela existência do Atributo **Controle**.
+
+---
+
+## 12. Resumo
+
+| Origem | Atributo | Função principal |
+|---|---|---|
+| **Corpo** | **Potência** | produzir força e impacto |
+| **Corpo** | **Controle** | executar ações com precisão e domínio |
+| **Corpo** | **Resistência** | suportar esforço e agressões físicas |
+| **Mente** | **Intelecto** | compreender, analisar e elaborar |
+| **Mente** | **Presença** | influenciar e provocar reações |
+| **Mente** | **Vontade** | concentrar-se, resistir e permanecer determinado |
+
+## Regra final
+
+> **A ficha descreve o personagem. A ficção define a ação. A finalidade e a forma da ação determinam qual Atributo participa da resolução.**
