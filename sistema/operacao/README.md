@@ -6,13 +6,14 @@ Esta pasta responde à pergunta:
 
 > **Em que ordem o sistema é aplicado enquanto o RPG está rodando?**
 
-`operacao/` organiza fluxo, janelas, turnos, aplicação das etapas e comandos administrativos. Ela não redefine personagem, autoridade, fórmulas, narração ou persistência.
+`operacao/` organiza fluxo, carregamento, janelas, turnos, aplicação das etapas e comandos administrativos. Ela não redefine personagem, autoridade, fórmulas, narração ou persistência.
 
 ## Estrutura
 
 ```text
 operacao/
 ├── README.md
+├── carregamento-do-motor.md
 ├── ciclo-de-cena.md
 ├── janelas-e-interrupcoes.md
 ├── trama-fora-de-combate.md
@@ -21,6 +22,25 @@ operacao/
 ├── rotina-de-trama-em-combate.md
 └── comandos-administrativos.md
 ```
+
+### `carregamento-do-motor.md`
+
+Define como uma IA forma e renova sua compreensão operacional das regras.
+
+```text
+PRIMEIRO CONTATO COM O REPOSITÓRIO
+→ ler integralmente sistema/
+→ reconstruir modelo mental
+→ somente depois perguntar Nova ou Continuar
+
+DEPOIS DE CADA CAPÍTULO SALVO
+→ reler integralmente sistema/
+→ reconstruir modelo mental
+→ recarregar presente operacional da campanha
+→ somente depois permitir nova ficção
+```
+
+O modelo mental é apenas cache operacional. A fonte canônica continua sendo o arquivo atual.
 
 ### `ciclo-de-cena.md`
 
@@ -116,9 +136,25 @@ como calcular o resultado?         → ../resolucao/
 como apresentar a cena?            → ../narracao/
 o que permanece e onde salvar?     → ../persistencia/
 qual sequência aplicar na mesa?     → operacao/
+como carregar/recarregar o motor?   → carregamento-do-motor.md
 ```
 
 > **Operação não calcula. Ela determina quando e em que sequência consultar quem calcula.**
+
+## Entrada antes do jogo
+
+Antes da primeira pergunta ao JOGADOR HUMANO:
+
+```text
+../README.md da raiz
+→ ../00-LEIA-PRIMEIRO.md
+→ carregamento-do-motor.md
+→ leitura integral de sistema/
+→ modelo mental reconstruído
+→ Nova campanha ou continuar?
+```
+
+Depois desse carregamento, a leitura durante o capítulo passa a ser sob demanda.
 
 ## Entrada durante o jogo
 
@@ -140,6 +176,23 @@ ciclo-de-cena.md
 → rotina-de-trama-em-combate.md sempre que surgir uma janela válida
 → ../resolucao/ para cada cálculo necessário
 ```
+
+## Depois de fechar capítulo
+
+Quando `../persistencia/fechamento-de-capitulo.md` concluir o salvamento:
+
+```text
+ficção permanece parada
+→ carregamento-do-motor.md
+→ reler sistema/ integralmente
+→ reconstruir modelo mental
+→ reconstruir Mesa operacional
+→ ler estado/atual.md
+→ carregar fontes da campanha necessárias
+→ liberar próximo capítulo
+```
+
+Não iniciar automaticamente nova ficção antes dessa recarga terminar.
 
 ## Registro
 
@@ -165,4 +218,4 @@ O roteador geral permanece `../00-LEIA-PRIMEIRO.md`.
 
 ## Regra final
 
-> **`operacao/` organiza janelas, Rodadas, Turnos, sequência e momentos de decisão. Fora de combate, Trama usada para reforçar uma ação é declarada junto da intenção e a mecânica pode ser apresentada minimamente antes da prosa. Em combate, toda janela válida de Trama deve ser aberta ao JOGADOR HUMANO antes de prosseguir.**
+> **`operacao/` organiza carregamento, janelas, Rodadas, Turnos, sequência e momentos de decisão. A IA aprende o motor integralmente antes do jogo, usa consulta sob demanda durante o capítulo e reconstrói o modelo mental depois de cada capítulo salvo.**
