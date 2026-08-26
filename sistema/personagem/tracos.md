@@ -6,7 +6,9 @@ Traços registram características **passivas e estáveis** da personagem: propr
 
 Um Traço não precisa ser ativado para existir.
 
-> **Traço descreve algo que a personagem é, possui ou faz naturalmente. Poder representa uma ação extraordinária usada deliberadamente para produzir um efeito.**
+> **Traço descreve algo que a personagem é, possui ou faz naturalmente. Poder representa parte de seu arsenal funcional e produz efeitos conforme suas próprias regras.**
+
+Os catálogos canônicos estão em `tracos/`.
 
 ---
 
@@ -42,10 +44,10 @@ Se a personagem não precisa respirar, ela não começa a sufocar apenas porque 
 Os Traços são organizados em quatro grupos:
 
 ```text
-Comuns
-Sobrenaturais
-Vícios
-Corrupções
+Comuns        → tracos/comuns.md
+Sobrenaturais → tracos/sobrenaturais.md
+Vícios        → tracos/vicios.md
+Corrupções    → tracos/corrupcao.md
 ```
 
 ### Comuns
@@ -54,7 +56,7 @@ Vantagens pessoais, sociais, financeiras, materiais ou outras propriedades passi
 
 ### Sobrenaturais
 
-Propriedades passivas além das capacidades normais, como fisiologia incomum, imunidades, sentidos especiais, recuperação ou outras características extraordinárias que já estejam sempre presentes.
+Propriedades passivas além das capacidades normais, como fisiologia incomum, imunidades, sentidos especiais, recuperação ou outras características extraordinárias que já estejam presentes.
 
 ### Vícios
 
@@ -77,14 +79,9 @@ Esse valor representa **impacto e utilidade para construção**, não um bônus 
 Referência:
 
 ```text
-[1]
-→ vantagem menor ou situacional
-
-[2]
-→ vantagem relevante e de uso amplo
-
-[3]
-→ vantagem maior, capaz de alterar fortemente possibilidades
+[1] → vantagem menor ou situacional
+[2] → vantagem relevante e de uso amplo
+[3] → vantagem maior, capaz de alterar fortemente possibilidades
 ```
 
 Um Traço só possui múltiplos níveis quando sua própria descrição os definir.
@@ -128,6 +125,8 @@ Traço [3]
 
 Se um Traço conceder uma modificação mecânica específica, isso precisa estar escrito na própria regra do Traço.
 
+Exemplos válidos dos catálogos incluem Traços que declaram explicitamente `+1d`, `-1d`, `-2d`, RD, Imunidade, recuperação ou outra consequência própria.
+
 Caso contrário, ele atua como verdade ficcional e como elemento de construção.
 
 ---
@@ -140,7 +139,7 @@ Exemplo:
 
 ```text
 Traço:
-Não precisa respirar.
+Sem Respiração
 
 situação:
 ambiente sem ar
@@ -211,7 +210,7 @@ Não ampliar uma limitação artificialmente para impedir uma solução válida.
 Exemplo:
 
 ```text
-Não pode atravessar água corrente.
+Restrição: não pode atravessar água corrente.
 ```
 
 Um Teleporte diretamente para o outro lado pode contornar essa limitação se, pela redação e pela ficção, a personagem não estiver atravessando a água.
@@ -219,10 +218,10 @@ Um Teleporte diretamente para o outro lado pode contornar essa limitação se, p
 Mas:
 
 ```text
-Não pode entrar em cemitérios.
+Restrição: não pode entrar em cemitérios.
 ```
 
-não é contornado apenas por trocar o método de entrada se o resultado continua sendo entrar no cemitério.
+não é contornada apenas por trocar o método de entrada se o resultado continua sendo entrar no cemitério.
 
 > **Traços definem verdades. Poderes podem contornar uma condição quando realmente evitam aquilo que a redação proíbe.**
 
@@ -251,14 +250,18 @@ Criar Traço apenas quando houver uma verdade passiva própria que ainda precise
 
 ## 12. Trama
 
-A existência de Traços não ativa automaticamente nenhuma regra narrativa de Trama dentro de `sistema/`.
+A integração mecânica entre Traços e Pontos de Trama pertence a `trama.md`.
 
-Integrações de Traços com ganho, gasto ou reescrita narrativa de Trama permanecem fora desta migração até decisão específica.
+Somente a personagem sob `CONTROLE: JOGADOR HUMANO` possui Trama por regra geral.
 
-Isso não impede uma futura integração mecânica; apenas preserva a fronteira atual entre resolução mecânica e mecanismos narrativos protegidos.
+Quando um Traço cria uma complicação real e o jogador aceita voluntariamente essa dificuldade, pode receber `+1 Trama`, respeitando o limite diário definido naquela regra.
+
+Isso não concede ao NARRADOR ou OPOSITOR autoridade para decidir que a personagem cedeu.
+
+Os usos narrativos retroativos de Trama continuam fora desta migração.
 
 ---
 
 ## Regra final
 
-> **Traço é uma verdade passiva da personagem. Valores positivos [1–3], Vícios [-1] e Corrupções [-1/-2] servem à construção e ao impacto declarado, não como bônus genérico de resolução. Poderes continuam sendo as ações extraordinárias deliberadas.**
+> **Traço é uma verdade passiva da personagem. Valores positivos [1–3], Vícios [-1] e Corrupções [-1/-2] servem à construção e ao impacto declarado, não como bônus genérico de resolução. Os catálogos definem exceções mecânicas explícitas quando existirem.**
