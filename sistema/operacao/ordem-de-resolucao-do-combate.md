@@ -8,6 +8,26 @@ A Rodada, o Turno e a Iniciativa pertencem a `turnos-de-combate.md`. As fórmula
 
 > **Operação organiza a sequência. Resolução calcula. O NARRADOR julga.**
 
+## Escopo exclusivo de combate
+
+A separação por **Rodada, Turno, posição de Iniciativa e vez** pertence somente ao combate ou a outro confronto que esteja explicitamente usando a estrutura de combate.
+
+Fora do combate, não dividir automaticamente a cena em Turnos nem percorrer personagens por Iniciativa.
+
+```text
+COMBATE
+→ usar Iniciativa
+→ usar Rodada
+→ usar Turno pessoal
+→ processar uma vez por etapa
+
+FORA DE COMBATE
+→ usar as janelas normais de cena
+→ não criar ordem de Turnos por padrão
+```
+
+Quando o confronto deixar de exigir essa estrutura, retornar a `janelas-e-interrupcoes.md`.
+
 ## Princípio de autoridade
 
 Durante combate, o NARRADOR continua sendo somente o **juiz da mesa**.
@@ -78,7 +98,8 @@ início do combate
 → configurar, quando necessário
 → NARRADOR julga
 → resolver ação e Defesa aplicável
-→ NARRADOR narra a sentença
+→ NARRADOR apresenta o resultado mecânico relevante
+→ NARRADOR transforma o resultado em cena
 → registrar estado
 → NARRADOR pergunta se pode prosseguir
 → com autorização, chamar o próximo da Iniciativa
@@ -155,9 +176,10 @@ Quando a vez do JOGADOR HUMANO chegar, seu Turno anterior termina e seu novo Tur
 → 3. configurar o que exigir escolha
 → 4. NARRADOR julga
 → 5. resolver
-→ 6. narrar sentença
-→ 7. registrar
-→ 8. perguntar se pode prosseguir
+→ 6. apresentar resultado mecânico relevante
+→ 7. narrar a cena resultante
+→ 8. registrar
+→ 9. perguntar se pode prosseguir
 ```
 
 Se a intenção estiver indefinida a ponto de não ser possível saber qual ação o jogador deseja realizar, a decisão continua pertencendo ao JOGADOR HUMANO.
@@ -187,37 +209,79 @@ Ao configurar um Poder:
 
 Quando chegar a vez de uma peça sob essas personas, seu Turno anterior termina e seu novo Turno começa.
 
+O fluxo visível ao JOGADOR HUMANO é simples:
+
 ```text
-1. persona responsável escolhe a ação do aliado/NPC
-→ 2. configura internamente o necessário
-→ 3. NARRADOR julga
-→ 4. resolve
-→ 5. narra a sentença
-→ 6. registra
-→ 7. pergunta se pode prosseguir
+1. JOGADOR IA declara a intenção da própria peça
+→ 2. NARRADOR apresenta o resultado mecânico relevante
+→ 3. NARRADOR transforma o resultado em descrição de cena
+→ 4. NARRADOR pergunta se pode prosseguir
+```
+
+Exemplo:
+
+```text
+[JOGADOR IA — Ravena]
+— Eu concentro energia e disparo contra ele.
+
+[NARRADOR]
+— Ravena acerta e causa 8 de dano.
+
+[NARRADOR]
+— A energia negra se condensa ao redor da mão de Ravena e dispara contra o adversário. O impacto o derruba, deixando-o incapaz de continuar lutando.
+
+[NARRADOR]
+— Posso prosseguir?
+```
+
+Entre a declaração e o resultado, JOGADOR IA e NARRADOR podem consultar ficha, Poder, Hub, custo, alcance, rolagens, Defesa e demais regras necessárias **sem expor toda essa conversa mecânica na tela**.
+
+Esse processamento interno não altera a autoridade:
+
+```text
+JOGADOR IA
+→ escolhe intenção, ação, alvo e uso voluntário de capacidades
+
+NARRADOR
+→ julga validade
+→ aplica mecânica
+→ estabelece resultado
 ```
 
 O NARRADOR não escolhe a ação do aliado.
-
-Não é necessário mostrar ao JOGADOR HUMANO o Hub completo usado pela IA apenas para lembrar opções. A IA consulta diretamente a ficha e as regras.
 
 ## 4. Etapa da vez do OPOSITOR
 
 Quando chegar a vez de uma peça adversária, seu Turno anterior termina e seu novo Turno começa.
 
+O OPOSITOR segue o mesmo fluxo usado pelo JOGADOR IA:
+
 ```text
-1. OPOSITOR escolhe a ação do inimigo
-→ 2. configura internamente o necessário
-→ 3. NARRADOR julga validade, meios e oportunidade
-→ 4. resolve
-→ 5. narra somente o que é observável
-→ 6. registra
-→ 7. pergunta se pode prosseguir
+1. OPOSITOR declara a intenção da peça adversária
+→ 2. NARRADOR apresenta o resultado mecânico relevante
+→ 3. NARRADOR transforma o resultado em descrição de cena
+→ 4. NARRADOR pergunta se pode prosseguir
 ```
 
-O NARRADOR não escolhe a ação do inimigo.
+Exemplo:
 
-Configurações, intenções ou informação reservada do OPOSITOR não precisam ser expostas automaticamente ao JOGADOR HUMANO.
+```text
+[OPOSITOR — Inimigo [1]]
+— Eu avanço até Kael e tento golpeá-lo com a lâmina.
+
+[NARRADOR]
+— O ataque acerta e causa 5 de dano.
+
+[NARRADOR]
+— O inimigo fecha a distância e corta de lado. Kael tenta sair da trajetória, mas a lâmina alcança seu flanco antes que ele consiga escapar completamente.
+
+[NARRADOR]
+— Posso prosseguir?
+```
+
+A configuração mecânica pode acontecer internamente entre OPOSITOR e NARRADOR, sem revelar ao JOGADOR HUMANO Hub completo, estratégia reservada ou detalhes que não sejam observáveis.
+
+O OPOSITOR escolhe a jogada. O NARRADOR apenas julga e resolve.
 
 ## 5. Defesa automática
 
@@ -294,23 +358,36 @@ Assim que a consequência for estabelecida, atualizar o estado antes de qualquer
 
 > **Resolveu → atualizou.**
 
-## 8. Narrar a sentença
+## 8. Apresentar resultado e narrar a cena
 
-Depois do julgamento e da resolução, o NARRADOR apresenta o resultado.
+Depois do julgamento e da resolução, o NARRADOR apresenta primeiro o resultado mecânico necessário para compreensão da mesa e depois o converte em ficção.
+
+Formato preferido:
+
+```text
+RESULTADO MECÂNICO
+→ curto e objetivo
+→ ataque, Defesa, Dano, efeito ou mudança de estado relevante
+
+DESCRIÇÃO DA CENA
+→ traduz o resultado em ação observável
+→ não altera o resultado mecânico
+```
+
+Para JOGADOR IA e OPOSITOR, não mostrar por padrão toda a conta interna, Hub, escolha de modificadores ou diálogo técnico usado para chegar ao resultado.
 
 Mostrar ao JOGADOR HUMANO somente:
 
-- consequência mecânica relevante;
+- declaração visível da persona responsável;
+- resultado mecânico relevante;
 - aquilo que a ficção torna observável;
 - mudança de estado necessária para a próxima decisão.
-
-Por padrão, usar apresentação compacta sem toda a conta intermediária.
 
 A forma narrativa pertence a `../narracao/`.
 
 ## 9. Registrar e pausar
 
-Depois de narrar a sentença:
+Depois de narrar a cena:
 
 ```text
 registrar o novo estado
@@ -346,4 +423,4 @@ Se o confronto deixar de exigir acompanhamento em segundos, retornar a `janelas-
 
 ## Regra final
 
-> **Combate é executado em etapas. A Rodada percorre toda a Iniciativa, do primeiro ao último. O Turno é pessoal: começa na vez de uma peça e termina no início da próxima vez dessa mesma peça, podendo atravessar o fim da Rodada. A persona responsável controla a peça; o NARRADOR apenas julga, narra a sentença e registra. Depois de cada vez, o NARRADOR pausa e pergunta se pode prosseguir.**
+> **Esta estrutura pertence ao combate. A Rodada percorre toda a Iniciativa, do primeiro ao último. O Turno é pessoal: começa na vez de uma peça e termina no início da próxima vez dessa mesma peça, podendo atravessar o fim da Rodada. A persona responsável declara; o NARRADOR julga e resolve. Para JOGADOR IA e OPOSITOR, a mecânica intermediária pode permanecer interna: na tela aparecem a declaração, o resultado mecânico relevante, a descrição da cena e a pergunta para prosseguir. Fora do combate, usar as janelas normais de cena.**
