@@ -60,7 +60,7 @@ Isso não torna possível uma ação objetivamente impossível.
 
 ## Reduzir Dano
 
-Depois que Defesa, RD e Barreira determinarem quanto Dano realmente alcançaria a personagem e antes de aplicar esse valor à Vida:
+Depois que Defesa, RD e Escudo determinarem quanto Dano realmente alcançaria a personagem e antes de aplicar esse valor à Vida:
 
 > **1 Trama = reduz 1 ponto do Dano restante**
 
@@ -82,6 +82,36 @@ Trama não:
 - aumenta `[X]`;
 - permite configuração acima do limite normal;
 - cria Poder que a personagem não possui.
+
+## Rotina obrigatória em combate
+
+Durante combate, a operação deve obrigatoriamente abrir a decisão de Trama sempre que surgir uma janela válida de gasto.
+
+A rotina completa pertence a:
+
+`../operacao/rotina-de-trama-em-combate.md`
+
+Atalho:
+
+```text
+ANTES DE ROLAGEM ELEGÍVEL
+→ abrir decisão de Trama
+→ depois rolar
+
+MANA FALTANTE EM CONFIGURAÇÃO VÁLIDA
+→ abrir decisão de Trama
+→ depois pagar e resolver
+
+DANO RESTANTE PRESTES A ATINGIR VIDA
+→ abrir decisão de Trama
+→ depois aplicar o restante à Vida
+```
+
+A checagem é obrigatória. O gasto continua opcional.
+
+Se o JOGADOR HUMANO já declarou claramente o gasto aplicável naquela janela, não perguntar novamente.
+
+> **Não avançar além de uma janela válida de Trama sem que o JOGADOR HUMANO tenha tido a oportunidade de decidir.**
 
 ## Código
 
@@ -120,4 +150,4 @@ A ficha pode indicar que a personagem é elegível à regra por seu `CONTROLE`, 
 
 ## Regra final
 
-> **Trama é um recurso mecânico da personagem humana: melhora dados, reduz penalidades, absorve Dano e substitui Mana dentro de `[X]`. Autoridade e registro pertencem às áreas responsáveis.**
+> **Trama é um recurso mecânico da personagem humana: melhora dados, reduz penalidades, absorve Dano e substitui Mana dentro de `[X]`. Em combate, toda janela válida de uso deve ser aberta obrigatoriamente antes de a resolução prosseguir. Autoridade e registro pertencem às áreas responsáveis.**
