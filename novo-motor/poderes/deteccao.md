@@ -29,9 +29,17 @@ A Área determina até onde a busca alcança.
 ## Detecção
 
 - **Presença:** sabe que algo compatível com a Referência existe dentro da Área.
-- **Direção:** além de perceber a presença, sabe em que direção o alvo ou fenômeno se encontra.
+- **Direção:** além de perceber a presença, recebe uma direção geral coerente com aquilo que está sendo procurado.
 
-A Detecção não fornece automaticamente uma localização exata. A partir da direção obtida, o personagem ainda precisa seguir, investigar ou aproximar-se conforme a ficção.
+A Detecção **não funciona como radar e não produz um mapa exato**.
+
+Quando várias ocorrências compatíveis existirem dentro da Área, o resultado pode indicar que existem várias presenças e apontar direções gerais, agrupamentos ou regiões aproximadas, sem revelar automaticamente a posição individual de cada uma.
+
+A precisão da informação depende da escala da busca e da ficção. Localizar algo em uma área muito ampla pode fornecer primeiro apenas uma região aproximada; novas buscas, aproximação ou contexto podem estreitar progressivamente a localização.
+
+Exemplo: ao procurar uma pessoa em escala muito ampla, a Detecção pode indicar primeiro uma **cidade**, depois um **bairro ou quarteirão** e, com nova aproximação ou busca, talvez um **prédio**. Ela não precisa revelar a posição exata do alvo na primeira utilização.
+
+Da mesma forma, detectar várias criaturas pode revelar que existem **várias presenças nessas direções**, sem transformar o Poder em um minimapa.
 
 ## Tipo
 
