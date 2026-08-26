@@ -139,7 +139,7 @@ O custo final é a soma das escolhas usadas naquela configuração.
 
 ## 5. Configuração e confirmação
 
-A operação geral continua obedecendo `../ordem-de-resolucao-do-combate.md`:
+A operação geral continua obedecendo `../../operacao/ordem-de-resolucao-do-combate.md`:
 
 > **perguntar somente o que ainda pode mudar a resolução.**
 
