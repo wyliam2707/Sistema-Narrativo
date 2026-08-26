@@ -229,7 +229,11 @@ Iniciativa mede conjuntamente:
 
 A Iniciativa é uma **rolagem de ordem**, não um teste comum, e por isso utiliza dois Atributos.
 
-A regra para **empates de Iniciativa** ainda será definida.
+### Empate de Iniciativa
+
+Quando dois ou mais participantes obtiverem o mesmo resultado de Iniciativa, apenas os empatados rolam `1d6`.
+
+Quem obtiver o maior resultado age primeiro. Se o novo resultado também empatar, os participantes continuam rolando `1d6` até que o empate seja resolvido.
 
 ---
 
@@ -442,7 +446,6 @@ Os seguintes pontos permanecem deliberadamente abertos e serão tratados em cap�
 
 - **Vida:** valor, limites, dano, recuperação e interação com Cura;
 - **Mana:** quantidade, recuperação e origem de `[X]`;
-- **Empate de Iniciativa:** ordem quando dois participantes obtêm o mesmo resultado de Iniciativa;
 - **Dano:** ordem completa de aplicação de RD e outras reduções;
 - **Atributos temporários:** limites e acúmulo quando mais de um efeito altera o mesmo Atributo.
 
