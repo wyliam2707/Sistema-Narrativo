@@ -64,7 +64,21 @@ Independentemente de quantas fontes existam, o modificador final nunca pode ultr
 
 > **-2d a +2d**
 
-Assim, mesmo que uma situação produza `-10d` em penalidades, o teste continua sendo resolvido como `-2d`.
+Assim, mesmo que uma regra produza `-10d` em penalidades, o teste continua sendo resolvido como `-2d`.
+
+## Origem dos dados adicionais
+
+Dados adicionais ou removidos pertencem a **fontes mecânicas explícitas**.
+
+Exemplos de fontes válidas:
+
+- Perícia;
+- Poder;
+- Status;
+- Trama;
+- outra regra que determine diretamente `+Xd` ou `-Xd`.
+
+Uma circunstância comum da cena não concede automaticamente `+1d` nem `-1d`. Quando a situação concreta torna a tentativa mais fácil ou mais difícil, isso é representado pela **Dificuldade final daquela tentativa**.
 
 ## Perícias
 
@@ -84,7 +98,7 @@ Quando houver incerteza real diante de uma dificuldade fixa da situação:
 
 > **4 dados mantidos + Atributo × Dificuldade**
 
-A **Dificuldade** varia de **10 a 24**.
+A **Dificuldade** varia normalmente de **10 a 24**.
 
 - **10** representa uma ação banal quando ainda existe motivo para testar;
 - **24** representa uma ação quase impossível;
@@ -115,7 +129,26 @@ A Dificuldade descreve o problema; o Patamar e a ficha descrevem a capacidade de
 
 > **Nunca aumentar a Dificuldade para acompanhar personagens fortes e nunca reduzi-la para proteger personagens fracos.**
 
-Se a capacidade do personagem tornar o resultado evidente, a própria regra ficcional pode eliminar a necessidade do teste.
+## Ajustes circunstanciais
+
+A Dificuldade deve considerar **como aquela tentativa concreta está acontecendo aqui e agora**.
+
+Circunstâncias comuns podem aumentar ou reduzir a Dificuldade quando realmente tornam a tentativa mais fácil ou mais difícil.
+
+Exemplos:
+
+- uma fechadura enferrujada, deformada ou danificada pode mudar sua Dificuldade;
+- trabalhar no escuro pode elevar a Dificuldade de uma tarefa que dependa de visão;
+- uma superfície molhada pode elevar a Dificuldade de uma escalada;
+- apoio físico, uma posição favorável ou uma preparação concreta podem reduzir a Dificuldade quando realmente alterarem a tarefa.
+
+Não existe passo obrigatório de `2`, `4` ou qualquer outro incremento fixo.
+
+> **O Narrador escolhe o valor final que considerar mais conveniente para representar fielmente a dificuldade concreta da tentativa.**
+
+Essa liberdade não é licença para balanceamento artificial: o ajuste precisa nascer da situação ficcional.
+
+Se a capacidade do personagem ou a própria situação tornar o resultado evidente, a regra ficcional elimina a necessidade do teste. Se tornar a ação impossível, nenhum valor de Dificuldade transforma o impossível em possível.
 
 ---
 
@@ -185,71 +218,78 @@ A lista e as descrições completas estão em [pericias.md](./pericias.md).
 
 ---
 
-# 7. Escala de tempo
+# 7. Escala de tempo e precedência
 
 A escala geral é:
 
 > **Instante → Turno → Cena → Hora → Dia**
 
 - **Instante:** acontece imediatamente.
-- **Turno:** aproximadamente **10 segundos**.
-- **Cena:** sequência curta de acontecimentos; quando for necessária uma conversão, cerca de **6 Turnos**, aproximadamente **1 minuto**.
-- **Hora:** duração prolongada.
+- **Turno:** intervalo simultâneo de até aproximadamente **10 segundos** quando usado em combate;
+- **Cena:** sequência curta de acontecimentos; quando for necessária uma conversão aproximada, cerca de **1 minuto** pode servir como referência;
+- **Hora:** duração prolongada;
 - **Dia:** duração extensa, atravessando várias cenas quando apropriado.
 
 Se uma ação ou efeito não possuir duração própria, o padrão é **Instante**.
 
 ## Conjuração
 
-Quando um Poder possuir Conjuração:
+Quando um Poder possuir Conjuração, sua duração mecânica continua usando as categorias do sistema, mas sua aplicação concreta respeita o fluxo operacional definido em `sistema/operacao/`.
 
-- **Cena:** exige preparação durante a Cena;
-- **Turno:** começa na ação do usuário e termina quando chegar novamente sua ação, depois que os demais participantes tiverem agido;
-- **Instante:** acontece na mesma ação em que é declarado e resolvido.
+## Turnos em combate
 
-**Instante** é o termo oficial para efeitos imediatos.
+A operação do combate pertence a `sistema/operacao/turnos-de-combate.md`.
 
-## Rodadas e Turnos em combate
+Durante combate:
 
-Uma **Rodada** representa o ciclo em que todos os participantes têm a oportunidade de agir.
+> **o Turno é um intervalo simultâneo compartilhado pelas peças envolvidas, e não um turno individual em uma fila fixa.**
 
-Um **Turno** é o momento de um participante dentro da Rodada e representa aproximadamente **10 segundos** de ação.
+Não existe por causa do Novo Motor:
 
-Quando chega seu Turno, o personagem declara o que pretende fazer. Durante esse Turno, ele pode:
+- ordem fixa de iniciativa por personagem;
+- rodada sequencial obrigatória;
+- regra universal de uma única ação por personagem;
+- direito de agir primeiro apenas por ter declarado primeiro.
 
-- **realizar uma ação**;
-- **mover-se normalmente**.
+Ações que não interferem entre si podem acontecer normalmente dentro do mesmo intervalo.
 
-O movimento não consome a ação. Ele pode acontecer antes, durante ou depois da ação, conforme a ficção permitir.
+## Precedência
 
-Pequenas interações coerentes com a ação e com o movimento não precisam ser separadas artificialmente em várias ações. O Narrador considera o que é razoável realizar dentro de aproximadamente 10 segundos.
+Quando duas ou mais ações competirem pelo mesmo instante, usar primeiro a ficção.
 
-A ação é resolvida **imediatamente** quando acontece. Acerto, Defesa, Dano, Resistência, Efeito e demais consequências aplicáveis são resolvidos antes de passar ao próximo participante.
+```text
+PRECEDÊNCIA EVIDENTE
+→ estabelecer diretamente qual acontece primeiro.
 
-A **Defesa** é uma resposta à ação que está sendo realizada contra o personagem e não consome, por si só, a ação do próximo Turno do defensor.
+AÇÕES SEM INTERFERÊNCIA REAL
+→ podem ocorrer dentro do mesmo intervalo sem disputa.
 
-Quando todos os participantes tiverem realizado seus Turnos, começa uma nova Rodada.
+PRECEDÊNCIA REALMENTE INCERTA
+→ resolver como oposição comum.
+```
 
-## Iniciativa
+Não existe fórmula especial de Iniciativa.
 
-No início do combate, cada participante determina sua Iniciativa:
+Quando a precedência for realmente incerta:
 
-> **Iniciativa = 4d6 + Controle + Intelecto**
+> **4 dados mantidos + Atributo × 4 dados mantidos + Atributo**
 
-Os participantes agem do **maior resultado para o menor**.
+Cada lado usa o Atributo coerente com a forma pela qual tenta agir primeiro.
 
-Iniciativa mede conjuntamente:
+Exemplos:
 
-- **Controle:** rapidez física, coordenação e capacidade de reagir;
-- **Intelecto:** percepção da situação, interpretação e rapidez para decidir.
+- rapidez e coordenação corporal → **Controle**;
+- antecipação e leitura da situação → **Intelecto**;
+- segurar ou bloquear alguém antes que passe → **Potência**;
+- outra abordagem → Atributo correspondente à ação concreta.
 
-A Iniciativa é uma **rolagem de ordem**, não um teste comum, e por isso utiliza dois Atributos.
+Os dois lados não precisam usar o mesmo Atributo.
 
-### Empate de Iniciativa
+Perícias e outras fontes mecânicas explícitas podem alterar os dados normalmente quando forem relevantes.
 
-Quando dois ou mais participantes obtiverem o mesmo resultado de Iniciativa, apenas os empatados rolam `1d6`.
+Empates seguem a regra universal de oposição: favorecem quem iniciou a ação concorrente.
 
-Quem obtiver o maior resultado age primeiro. Se o novo resultado também empatar, os participantes continuam rolando `1d6` até que o empate seja resolvido.
+A resolução de precedência vale apenas para aquela interferência concreta. Ela não cria uma ordem permanente para o restante do turno, da cena ou do combate.
 
 ---
 
