@@ -15,6 +15,7 @@ operacao/
 ├── README.md
 ├── ciclo-de-cena.md
 ├── janelas-e-interrupcoes.md
+├── trama-fora-de-combate.md
 ├── turnos-de-combate.md
 ├── ordem-de-resolucao-do-combate.md
 ├── rotina-de-trama-em-combate.md
@@ -29,6 +30,7 @@ Organiza a sequência geral das cadeiras fora das regras específicas de combate
 JOGADORES
 → OPOSITOR
 → NARRADOR JULGA
+→ NARRADOR RESOLVE, se necessário
 → NARRADOR NARRA A SENTENÇA
 → NARRADOR REGISTRA
 ```
@@ -36,6 +38,23 @@ JOGADORES
 ### `janelas-e-interrupcoes.md`
 
 Governa o fluxo normal fora de combate, passagem de tempo, interrupções e abertura de novas decisões.
+
+### `trama-fora-de-combate.md`
+
+Define a forma de declarar Trama durante cenas fora de combate.
+
+```text
+JOGADOR HUMANO
+→ declara intenção
+→ declara junto qualquer Trama usada para reforçar a ação
+
+NARRADOR
+→ resolve somente a mecânica necessária
+→ pode apresentar essa resolução em etapa curta separada
+→ narra a cena
+```
+
+Fora de combate não existe oferta automática de Trama para melhorar uma ação depois que o resultado já foi conhecido.
 
 ### `turnos-de-combate.md`
 
@@ -108,6 +127,7 @@ Fora de combate:
 ```text
 ciclo-de-cena.md
 → janelas-e-interrupcoes.md
+→ trama-fora-de-combate.md quando o JOGADOR HUMANO declarar Trama
 → ../resolucao/ apenas quando surgir incerteza real
 ```
 
@@ -145,4 +165,4 @@ O roteador geral permanece `../00-LEIA-PRIMEIRO.md`.
 
 ## Regra final
 
-> **`operacao/` organiza janelas, Rodadas, Turnos, sequência e decisões obrigatórias de fluxo. Em combate, a Iniciativa é rolada uma vez, sua ordem permanece até o confronto terminar e toda janela válida de Trama deve ser aberta ao JOGADOR HUMANO antes de prosseguir. As outras pastas continuam donas de suas próprias regras.**
+> **`operacao/` organiza janelas, Rodadas, Turnos, sequência e momentos de decisão. Fora de combate, Trama usada para reforçar uma ação é declarada junto da intenção e a mecânica pode ser apresentada minimamente antes da prosa. Em combate, toda janela válida de Trama deve ser aberta ao JOGADOR HUMANO antes de prosseguir.**
