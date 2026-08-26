@@ -12,40 +12,47 @@ A Ficha Mínima usa exatamente as mesmas regras do Novo Motor. Ela não cria uma
 
 **Nome:**  
 **Conceito:**  
+**Patamar:** `[ ]`
 
-## Capacidades relevantes
+## Capacidades
 
-Registre apenas Atributos, Perícias, Traços ou Poderes que possam alterar a resolução.
+Registre apenas os Atributos, Perícias, Traços ou Poderes que possam alterar a resolução atual.
 
-- `[ ]`
-- `[ ]`
-- `[ ]`
+**Capacidades:** `[Atributos relevantes] / [Perícias] / [Traços relevantes] / [Poderes relevantes]`
 
-## Recursos relevantes
+## Recursos
 
-Registre Vida, Mana, Trama ou outro valor apenas quando realmente precisar ser acompanhado.
+Registre apenas os recursos que realmente precisarem ser acompanhados.
 
-- `[ ]`
+**Recursos:** Vida `[ ]/[ ]` / Mana `[ ]/[ ]`
 
-## Status relevante
+Campos não utilizados podem ser omitidos.
 
-- `[ ]`
+## Movimento
+
+Registre Movimento apenas quando a peça possuir uma forma ou alcance de deslocamento diferente do movimento normal.
+
+**Movimento:** `[ ]`
+
+Status temporários não fazem parte da ficha-base. Eles são registrados durante a cena quando existirem.
 
 ---
 
 # Exemplo
 
 ```text
-Guarda
+Guarda da Torre
+Conceito: guarda armado protegendo a entrada
+Patamar [1]
 
-Controle [1]
-Resistência [0]
-Perícia: Sociedade
-Disparo
-Vida [14/14]
+Capacidades:
+Controle [1] / Resistência [1] / Sociedade / Disparo
+
+Recursos:
+Vida [14/14] / Mana [12/12]
 ```
 
-Não é necessário preencher Potência, Intelecto, Presença, Vontade, Mana, Trama ou qualquer outro campo que não faça diferença para a participação atual desse guarda.
+Não é necessário preencher os seis Atributos, Personalidade, Histórico, Relacionamentos, Trama ou qualquer outro campo que não faça diferença para a participação atual dessa peça.
 
 ---
 
@@ -55,4 +62,4 @@ Se uma peça inicialmente mínima ganhar importância ou começar a exigir mais 
 
 A expansão não altera quem o personagem é e não concede capacidades novas. Ela apenas registra com mais detalhe aquilo que passou a ser necessário conhecer.
 
-A ausência de uma informação na Ficha Mínima não significa automaticamente valor `[0]`, inexistência ou incapacidade. Significa apenas que aquela informação ainda não precisou ser registrada.
+> **A ausência de uma informação na Ficha Mínima não significa automaticamente valor `[0]`, inexistência ou incapacidade. Significa apenas que aquela informação ainda não precisou ser registrada.**
