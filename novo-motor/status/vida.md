@@ -23,12 +23,28 @@ Assim, um personagem com todos os Atributos em `[0]` possui **10 de Vida**.
 
 A Vida Máxima é recalculada quando uma regra permanente alterar os Atributos que entram na fórmula. A interação com alterações temporárias ainda será definida pela regra geral de Atributos temporários.
 
+## 0 Vida
+
+Ao chegar a **0 Vida**, o personagem fica **Incapacitado**.
+
+Incapacitado significa que ele não consegue continuar agindo normalmente na situação. A forma concreta dessa incapacidade depende daquilo que aconteceu na ficção: pode representar inconsciência, colapso, ferimentos graves, imobilização pelo estado físico ou outra consequência coerente.
+
+Chegar a 0 Vida **não significa morte automática**.
+
+## Vida e consequências narrativas
+
+Vida não substitui consequências evidentes da ficção e não funciona como proteção automática contra situações inevitavelmente letais.
+
+Se a própria situação determinar de forma clara que o personagem morreu, a morte pode ocorrer como consequência narrativa, mesmo sem uma regra adicional de dano ou uma redução gradual até 0 Vida.
+
+Exemplo: cair de um avião sem qualquer meio aparente de se salvar ou sobreviver pode ser uma consequência mortal determinada pela própria ficção; não é necessário transformar uma situação evidentemente fatal em sucessivas rolagens de dano apenas para consumir Vida.
+
+Da mesma forma, quando a situação não determinar claramente a morte, chegar a 0 Vida significa **Incapacitado**, e não morto.
+
 ## Ainda a definir
 
 Permanecem em aberto:
 
-- consequências ao chegar a 0 Vida;
-- incapacidade, morte e estados relacionados;
 - recuperação natural de Vida;
 - interação detalhada com Cura;
 - dano mínimo e arredondamentos;
