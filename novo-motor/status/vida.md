@@ -60,6 +60,24 @@ Exemplos:
 
 Um descanso só conta quando for válido para aquele personagem. Traços ou condições que definam exigências especiais de repouso, como **Repouso Especial**, também determinam quando essa recuperação pode ocorrer.
 
+## Medicina
+
+Um tratamento realizado através da Perícia **Medicina** pode recuperar Vida conforme o resultado final do teste.
+
+A cada **5 pontos de resultado**, recupera-se **+1 Vida**, até o máximo de **+5 Vida**:
+
+| Resultado do teste | Vida recuperada |
+|---:|---:|
+| 5 | +1 Vida |
+| 10 | +2 Vida |
+| 15 | +3 Vida |
+| 20 | +4 Vida |
+| 25 ou mais | +5 Vida |
+
+Resultados intermediários utilizam o último patamar alcançado. Exemplo: resultado `17` recupera **3 Vida**.
+
+A recuperação por Medicina nunca pode elevar a Vida acima da Vida Máxima.
+
 ## Ainda a definir
 
 Permanecem em aberto:
