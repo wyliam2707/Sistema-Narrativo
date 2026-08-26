@@ -21,6 +21,165 @@ A apresentação deve deixar claro, quando relevante:
 - qual consequência realmente aconteceu;
 - como a situação ficou depois disso.
 
+## Fora de combate — resultado como matéria de cena
+
+Fora de combate, sucessos e falhas não devem ser tratados apenas como travas mecânicas de `passou / não passou`.
+
+Depois de resolver uma incerteza objetiva, o NARRADOR usa o resultado para construir o que aconteceu durante a janela.
+
+Um resultado pode se transformar, conforme os fatos, em:
+
+```text
+progresso
+→ parte do objetivo foi avançada.
+
+tempo gasto
+→ a tentativa consumiu parte da janela.
+
+descoberta
+→ a tentativa revelou algo útil ou descartou uma hipótese.
+
+complicação
+→ surgiu uma consequência coerente.
+
+desgaste
+→ recursos, disposição ou condições mudaram conforme regra aplicável.
+
+oportunidade
+→ a tentativa abriu um caminho que antes não existia.
+
+sucesso
+→ o objetivo foi alcançado.
+
+falha
+→ aquela tentativa não alcançou o objetivo.
+```
+
+A narração deve preservar o significado real do resultado sem reduzir a cena a um relatório de dados.
+
+> **A mecânica informa a ficção. A ficção mostra o que aquele resultado significou.**
+
+## Falha não interrompe automaticamente a intenção
+
+Fora de combate, uma falha isolada não encerra automaticamente uma intenção ampla.
+
+Se a intenção já inclui continuar tentando dentro de um intervalo, o NARRADOR pode resolver novas tentativas coerentes enquanto:
+
+- ainda houver tempo no intervalo declarado;
+- o método continuar possível;
+- existirem novas tentativas plausíveis;
+- nenhuma consequência exigir nova decisão voluntária;
+- nenhuma regra específica impedir nova tentativa.
+
+Exemplo:
+
+```text
+JOGADOR HUMANO
+→ passo o dia tentando consertar o gerador.
+
+MANHÃ
+→ tentativa falha.
+→ a intenção continua cobrindo tentar novamente.
+
+MEIO-DIA
+→ nova tentativa falha.
+→ nenhuma nova decisão é necessária.
+
+TARDE
+→ nova tentativa obtém sucesso.
+→ o objetivo foi alcançado.
+→ a janela pode terminar nesse ponto.
+```
+
+Se nenhuma tentativa tiver sucesso até o fim do intervalo, o NARRADOR pode narrar o período completo como uma sequência de trabalho que não alcançou o objetivo.
+
+```text
+manhã → falha
+meio-dia → falha
+tarde → falha
+fim do intervalo → objetivo ainda não alcançado
+```
+
+A quantidade de testes não é fixa. Ela depende de quanto tempo cada tentativa plausivelmente exige, da natureza da tarefa, das regras aplicáveis e do que acontece na ficção.
+
+## Quando a falha realmente quebra a janela
+
+A janela deve parar quando o resultado cria uma situação que exige nova decisão.
+
+Exemplo:
+
+```text
+JOGADOR HUMANO
+→ passo o dia tentando consertar o gerador.
+
+TENTATIVA
+→ durante o reparo, uma peça essencial se parte.
+```
+
+Agora podem existir escolhas novas:
+
+```text
+procurar outra peça?
+improvisar?
+pedir ajuda?
+abandonar o reparo?
+mudar de método?
+```
+
+Nesse ponto, a intenção original já não determina claramente o próximo passo.
+
+```text
+resultado
+→ cria nova decisão
+→ interromper a sentença
+→ devolver a escolha à persona responsável
+```
+
+> **Falha não é interrupção por si só. Nova decisão necessária é interrupção.**
+
+## Sucesso pode encerrar antes do fim do intervalo
+
+Quando uma intenção ampla possui um objetivo definido e esse objetivo é alcançado antes do fim do período declarado, o NARRADOR não consome automaticamente o restante do tempo.
+
+Exemplo:
+
+```text
+JOGADOR HUMANO
+→ passo o dia tentando consertar o gerador.
+
+15h
+→ sucesso.
+→ gerador consertado.
+```
+
+A sentença pode terminar às 15h, porque o objetivo já foi alcançado e o restante do dia volta a estar aberto a novas decisões.
+
+> **O intervalo declarado é disponibilidade para a intenção, não obrigação de consumir todo o tempo.**
+
+## Construir continuidade com sucessos e falhas
+
+Quando várias resoluções pertencem à mesma intenção, o NARRADOR pode usá-las em conjunto para formar uma única progressão narrativa coerente.
+
+Exemplo mecânico abstrato:
+
+```text
+tentativa 1 → falha
+tentativa 2 → falha
+tentativa 3 → sucesso
+```
+
+Possível apresentação:
+
+```text
+A primeira hipótese consome boa parte da manhã e leva ao componente errado.
+Perto do almoço, a desmontagem revela corrosão escondida sob a placa lateral.
+Ainda são necessárias horas de limpeza e remontagem antes de o motor finalmente voltar a funcionar no meio da tarde.
+```
+
+O NARRADOR não precisa transformar cada teste em uma interrupção ou em uma linha isolada de sistema.
+
+O resultado de cada tentativa continua verdadeiro, mas pode ser costurado em uma sentença contínua enquanto nenhuma nova escolha precisar ser tomada.
+
 ## Clareza causal e espacial
 
 A cena precisa preservar causa e consequência.
@@ -50,12 +209,12 @@ A ficção não deve parecer relatório de sistema.
 Evitar na prosa:
 
 ```text
-Ele usa FIS [4] e causa 8 de Dano.
+Ele usa Potência [4] e causa 8 de Dano.
 ```
 
 Preferir narrar o acontecimento e, quando necessário, apresentar atualização mecânica separadamente.
 
-As regras de Dano, Cura, Energia, efeitos e demais cálculos ficam em `../resolucao/`.
+As regras de Dano, Cura, Mana, efeitos e demais cálculos ficam em `../resolucao/`.
 
 ## Mostrar antes de explicar
 
@@ -108,4 +267,4 @@ O estilo não pode atravessar uma nova decisão apenas para produzir uma cena ma
 
 ## Regra final
 
-> **Apresente somente o que foi julgado, preserve clareza causal e espacial, mostre o que a peça pode perceber e pare exatamente onde a próxima decisão volta a pertencer à mesa.**
+> **Apresente somente o que foi julgado, preserve clareza causal e espacial e use sucessos e falhas como matéria da cena. Fora de combate, uma falha não interrompe automaticamente uma intenção ampla; continue enquanto a intenção ainda cobrir naturalmente novas tentativas e pare quando o objetivo for alcançado, o intervalo terminar ou a consequência voltar a exigir uma nova decisão.**
