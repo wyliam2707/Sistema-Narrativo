@@ -62,9 +62,18 @@ Registre apenas aquilo que a personagem realmente possui. Custos, efeitos e regr
 
 ---
 
-# Bloco 4 — Vida, Mana e Movimento
+# Bloco 4 — Recursos e Movimento
 
-A estrutura detalhada deste bloco será consolidada separadamente.
+Este bloco registra os recursos atuais da personagem e suas formas normais de deslocamento em formato compacto.
+
+**Vida:** `[ ]/[ ]` / **Mana:** `[ ]/[ ]` / **Trama:** `[ ]`  
+**Movimento:** Andar `[ ]` / `[outras formas de deslocamento, quando existirem]`
+
+O campo Movimento registra o resultado final das formas de deslocamento que a personagem possui. Traços, Poderes ou outras regras podem criar, remover ou alterar essas formas e seus alcances.
+
+Exemplo:
+
+**Movimento:** Andar `[Curto]` / Voar `[Curto]`
 
 ---
 
