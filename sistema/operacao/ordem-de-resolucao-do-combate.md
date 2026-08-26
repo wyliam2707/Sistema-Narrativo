@@ -71,6 +71,20 @@ Ao completar automaticamente:
 - não trocar a intenção do jogador por uma ação diferente;
 - não interromper o fluxo apenas para perguntar uma configuração que possa ser completada dessa forma.
 
+### Defesa automática
+
+Quando o JOGADOR HUMANO for alvo de uma ação que permita Defesa, o NARRADOR sempre usa automaticamente a **melhor opção defensiva válida e coerente** disponível naquele instante.
+
+Isso inclui escolher, sem interromper o fluxo:
+
+- o Atributo defensivo mais favorável entre os que a ficção realmente permite;
+- a forma de defesa mecanicamente mais vantajosa que já esteja disponível;
+- bônus defensivos, Status, Barreiras, Poderes já ativos ou outras fontes que se apliquem automaticamente.
+
+Essa regra não autoriza criar uma nova ação defensiva que exija uma decisão própria do jogador, gastar um recurso opcional não declarado quando houver escolha estratégica real, nem usar um Poder que ainda precise ser ativado. Nesses casos, a decisão continua pertencendo ao JOGADOR HUMANO.
+
+> **Se a defesa já é possível, use a melhor. Se exige uma nova escolha, não invente a escolha.**
+
 Se a própria intenção estiver indefinida a ponto de não ser possível saber qual ação o jogador deseja realizar, a decisão continua pertencendo ao JOGADOR HUMANO.
 
 > **O jogador escolhe a ação. O sistema completa a mecânica que ele deixou em aberto.**
