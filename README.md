@@ -1,13 +1,12 @@
 # Sistema Narrativo
 
-Este repositório separa **o motor do RPG** dos **dados concretos de cada campanha**.
+Este repositório separa **o sistema do RPG** dos **dados concretos de cada campanha**.
 
 ## Estrutura atual
 
-- `sistema/` — regras universais, criação, mecânica, agência, resolução, narração, persistência e operação.
-- `campanhas/` — campanhas criadas pelo fluxo atual.
-- `aventuras/` — material legado; permanece preservado e não é migrado automaticamente.
-- `exemplo/` — material demonstrativo usado apenas como referência.
+- `sistema/` — única fonte canônica das regras atuais, criação, personagens, personas, agência, operação, resolução, narração e persistência.
+- `campanhas/` — campanhas criadas e mantidas pelo fluxo atual.
+- `aventuras/` — arquivo legado de campanhas antigas; não faz parte do fluxo normal e não é fonte de regras.
 
 ## Regra fundamental
 
@@ -68,21 +67,18 @@ Não pedir ao jogador que reconte informações que os arquivos da campanha já 
 
 > **CONTINUAR → `campanhas/<nome>/README.md`**
 
-## Material legado
+## Arquivo legado
 
-Campanhas antigas ainda armazenadas em `aventuras/` permanecem preservadas.
+`aventuras/` guarda campanhas produzidas por versões anteriores da arquitetura.
 
-Não apagar, mover, converter ou reestruturar esse material automaticamente.
+Por padrão:
 
-Documentos antigos de sistema completamente substituídos só podem ser removidos durante limpeza após revisão e confirmação explícita. As referências atuais estão nas subpastas de `sistema/`.
+- não listar seu conteúdo como campanha atual;
+- não usar suas fichas, estrutura ou mecânicas como exemplo das regras atuais;
+- não migrar, mover, reestruturar ou continuar automaticamente;
+- consultar somente quando o jogador pedir explicitamente para recuperar, examinar ou migrar material legado.
 
----
-
-## Consultar exemplo prático
-
-Para consultar o exemplo demonstrativo, abrir `exemplo/README.md` e seguir sua própria ordem de leitura.
-
-O exemplo é somente referência. Não deve ser listado como campanha existente, continuado automaticamente nem copiado para uma campanha real.
+As regras atuais pertencem exclusivamente a `sistema/`.
 
 ---
 
@@ -102,6 +98,6 @@ Nenhuma exclusão pode atingir `sistema/`, a raiz do repositório ou outra campa
 
 ## Continuidade
 
-Para iniciar ou continuar uma campanha, as fontes persistentes da própria campanha prevalecem sobre memória vaga de conversas anteriores.
+Para iniciar ou continuar uma campanha atual, as fontes persistentes da própria campanha prevalecem sobre memória vaga de conversas anteriores.
 
 > **O link abre o sistema. O sistema pergunta Nova ou Continuar. Os arquivos dizem o resto.**
