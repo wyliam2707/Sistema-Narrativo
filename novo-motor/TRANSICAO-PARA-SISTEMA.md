@@ -39,6 +39,43 @@ O arquivo `sistema/MIGRACAO-ESTRUTURAL.md` registra uma migração estrutural an
 
 ---
 
+# Fronteira protegida da migração
+
+A transição do Novo Motor para `sistema/` é uma **migração mecânica**, não uma reconstrução da arquitetura de condução.
+
+O Novo Motor pode substituir ou atualizar:
+
+- testes e oposição;
+- Atributos e Perícias;
+- Patamar;
+- Vida, Mana, Dano, Defesa, RD e Barreira;
+- Poderes e seus Hubs;
+- Status e efeitos mecânicos;
+- Traços quando possuírem função mecânica;
+- campos e cálculos mecânicos das fichas;
+- regras mecânicas utilizadas durante a criação de personagens.
+
+As seguintes áreas ficam protegidas como arquitetura de `sistema/`:
+
+- `personas/` — autoridade, cadeiras e delegação;
+- `agencia/` — continuidade de vontade e agência;
+- `narracao/` — forma de apresentar e dramatizar a ficção;
+- `operacao/` — fluxo da mesa, janelas, interrupções e funcionamento dos turnos;
+- `persistencia/` — arquitetura de registro e continuidade;
+- `criacao/` — fluxo de criação da campanha, perguntas, checkpoints e aprovações.
+
+Essas áreas podem receber apenas correções de **nomes, referências ou campos mecânicos** necessárias para apontar para as novas regras. Seu comportamento estrutural não deve ser substituído pelo Novo Motor.
+
+Em especial:
+
+> **O combate continua usando os turnos simultâneos de até 10 segundos definidos em `sistema/operacao/turnos-de-combate.md`.**
+
+O Novo Motor não cria uma ordem fixa de iniciativa nem uma economia de "uma ação por turno" dentro dessa arquitetura.
+
+Quando uma regra mecânica do Novo Motor conflitar com uma regra operacional, de agência, persona ou narração já consolidada em `sistema/`, aplicar a mecânica nova somente até a fronteira de resolução e preservar a arquitetura de `sistema/`.
+
+---
+
 # Estado do projeto
 
 Os sete pontos de fechamento do Novo Motor foram resolvidos:
@@ -52,6 +89,12 @@ Os sete pontos de fechamento do Novo Motor foram resolvidos:
 7. **CONTROLE e papéis das IAs** — FECHADO.
 
 Depois desses sete pontos, a regra de **Pontos de Trama** foi refinada e também está FECHADA para a transição.
+
+A fronteira da migração também está FECHADA:
+
+> **migrar mecânicas de resolução sem substituir personas, agência, narração ou o comportamento operacional de `sistema/`.**
+
+A antiga fórmula própria de Iniciativa também foi descartada para a migração. Precedência incerta dentro de um turno simultâneo passa a usar a própria resolução universal de oposição.
 
 ---
 
@@ -301,29 +344,66 @@ Um único uso contra vários alvos usa o menor número possível de rolagens: um
 
 ---
 
-# Tempo, turno, movimento e distância
+# Tempo, turno, movimento, precedência e distância
 
-Tempo:
+Tempo mecânico:
 
 > **Instante → Turno → Cena → Hora → Dia**
 
-Um Turno representa aproximadamente **10 segundos**.
+A operação concreta dos turnos pertence a `sistema/operacao/`.
 
-Cada personagem possui uma ação em seu Turno e movimento normal, podendo mover-se antes, durante ou depois da ação quando a ficção permitir.
+Durante combate, preservar a regra já consolidada em `sistema/operacao/turnos-de-combate.md`:
 
-Pequenas interações coerentes podem fazer parte da ação.
+> **um Turno é um intervalo simultâneo de até aproximadamente 10 segundos compartilhado pelas peças envolvidas.**
 
-Uma ação termina sua resolução antes do próximo participante agir.
+Não existe, por causa do Novo Motor:
 
-Defender-se não consome automaticamente a ação seguinte.
+- ordem fixa de iniciativa por personagem;
+- rodada sequencial obrigatória;
+- regra universal de uma única ação por personagem;
+- direito de agir primeiro apenas por ter declarado primeiro.
 
-Iniciativa:
+Ações que não interferem entre si podem acontecer normalmente dentro do mesmo intervalo.
 
-> **4d6 + Controle + Intelecto**
+## Precedência dentro do turno
 
-Empates de iniciativa são desempatados com `1d6`.
+Quando duas ou mais ações competirem pelo mesmo instante, usar primeiro a ficção:
 
-Distâncias:
+```text
+PRECEDÊNCIA EVIDENTE
+→ estabelecer diretamente qual acontece primeiro.
+
+AÇÕES SEM INTERFERÊNCIA REAL
+→ podem ocorrer dentro do mesmo intervalo sem disputa de precedência.
+
+PRECEDÊNCIA REALMENTE INCERTA
+→ resolver como oposição comum.
+```
+
+Não existe uma fórmula especial de Iniciativa.
+
+Quando a precedência for realmente incerta:
+
+> **4 dados mantidos + Atributo × 4 dados mantidos + Atributo**
+
+Cada lado utiliza o Atributo coerente com a maneira pela qual tenta agir primeiro.
+
+Exemplos possíveis:
+
+- rapidez e coordenação corporal → **Controle**;
+- antecipação e leitura da situação → **Intelecto**;
+- segurar ou bloquear alguém antes que passe → **Potência**;
+- outra abordagem → Atributo correspondente à ação concreta.
+
+Os Atributos dos dois lados não precisam ser iguais.
+
+Uma Perícia relevante pode conceder `+1d` normalmente quando seu treinamento realmente contribuir para aquela disputa de precedência.
+
+Empates seguem a regra universal de oposição: favorecem quem iniciou a ação concorrente.
+
+A resolução de precedência vale apenas para aquela interferência concreta. Ela **não cria uma ordem permanente** para o restante do turno, da rodada, da cena ou do combate.
+
+## Distâncias
 
 ```text
 Si Mesmo
@@ -336,7 +416,7 @@ Longo ≈ 90 m
 
 Além de Longo normalmente exige capacidade própria.
 
-`Andar [Curto]` aparece como referência de movimento em exemplos e fichas. A frase central definitiva de movimento padrão ainda deve ser conferida durante a limpeza/migração para evitar duplicação ou formulação antiga.
+`Andar [Curto]` aparece como referência de movimento em exemplos e fichas. A frase central definitiva de movimento padrão ainda deve ser conferida durante a limpeza/migração para evitar duplicação ou formulação antiga, sem substituir o funcionamento operacional dos turnos de `sistema/`.
 
 ---
 
@@ -432,6 +512,8 @@ Status temporários não fazem parte da ficha-base mínima.
 Regra central:
 
 > **CONTROLE determina quem possui autoridade para decidir as ações voluntárias do personagem. O Narrador descreve o mundo e as consequências; o controlador decide o que o personagem escolhe fazer.**
+
+Durante a migração, esta seção serve apenas como referência de compatibilidade. A implementação operacional de CONTROLE continua pertencendo a `sistema/personas/` e não deve ser substituída.
 
 ## JOGADOR HUMANO
 
@@ -582,6 +664,8 @@ Trama também explica mecanicamente situações comuns em filmes e romances:
 
 Ela nunca elimina a necessidade de uma explicação narrativa coerente.
 
+Durante a migração mecânica inicial, os usos de Trama que alteram diretamente narração ou cânone não devem ser usados como justificativa para reescrever `sistema/narracao/` ou `sistema/personas/`. Sua integração com a arquitetura existente deve ser tratada separadamente quando necessário.
+
 ---
 
 # Pontos conhecidos para limpeza durante a transição
@@ -595,39 +679,67 @@ Estes não são novas dúvidas mecânicas; são documentos que podem conter form
 - `novo-motor/atributos.md` ainda pode descrever Poder como necessário apenas para algo "extraordinário"; isso deve ser substituído pelo conceito de **arsenal funcional**;
 - `novo-motor/poderes/README.md` ainda pode usar a definição antiga de "ação extraordinária"; o conceito fechado está em `novo-motor/poderes/conceito.md`;
 - `novo-motor/ficha/modelo-completo.md` deve ser conferido para que **Trama apareça apenas em JOGADOR HUMANO**;
-- a frase central de movimento padrão deve ser conferida para garantir consistência com `Andar [Curto]` e com o Traço Velocidade.
+- referências à antiga Iniciativa `4d6 + Controle + Intelecto` devem ser removidas ou reinterpretadas: precedência incerta usa oposição comum de Atributos;
+- referências a "uma ação por Turno" ou resolução sequencial obrigatória não devem substituir os turnos simultâneos de `sistema/operacao/`;
+- a frase central de movimento padrão deve ser conferida para garantir consistência com `Andar [Curto]` e com o Traço Velocidade sem alterar a estrutura operacional dos turnos.
 
 Durante a migração, corrigir essas divergências com base nas regras fechadas acima, sem reabrir as decisões já aprovadas.
 
 ---
 
-# Processo recomendado para o próximo chat
+# Processo recomendado para a transição
 
 Não migrar tudo de uma vez.
 
-Para cada área:
+Para cada área mecânica:
 
 1. ler os arquivos correspondentes de `novo-motor/`;
 2. ler a área de destino em `sistema/`;
 3. identificar o que é arquitetura aproveitável e o que é mecânica antiga;
 4. apresentar ao JOGADOR HUMANO uma proposta curta de substituição;
-5. após aprovação, salvar a alteração;
-6. continuar para a próxima área.
+5. esclarecer dúvidas reais antes de alterar;
+6. após aprovação, salvar a alteração;
+7. conferir o resultado antes de continuar para a próxima área.
 
-Uma ordem segura de transição é:
+A ordem atual aprovada para a transição é:
 
 ```text
-1. resolucao   → regra universal, combate, dano, tempo e status
-2. personagem  → Atributos, Perícias, Vida, Mana, Traços, Poderes e fichas
-3. criacao     → Patamar, distribuição e quantidade de recursos iniciais
-4. personas    → CONTROLE, JOGADOR HUMANO/IA/EVENTUAL, NARRADOR e OPOSITOR
-5. agencia     → continuidade de vontade e interação com Trama/Traços
-6. operacao    → sequência prática de aplicação das novas regras
-7. narracao    → garantir que a apresentação respeite ficção primeiro e correção por Trama
-8. persistencia→ adequar salvamento ao novo estado mecânico
+1. resolucao
+   → princípio universal, 4d6, CDs, oposição e precedência
+   → depois combate, dano e resistências
+
+2. personagem mecânico
+   → Atributos, Perícias, Patamar e campos mecânicos de ficha
+
+3. recursos
+   → Vida, Mana, recuperação, RD e Barreira
+
+4. poderes e status
+   → conceito mecânico, Hubs, efeitos, famílias e aplicações
+
+5. criacao mecânica
+   → distribuição, quantidades e custos iniciais
+   → preservar o fluxo de criação de campanha já existente
+
+6. compatibilidade estrutural
+   → corrigir somente nomes, links e campos mecânicos em `operacao/` e `persistencia/`
+   → não mudar o funcionamento dessas áreas
+
+7. auditoria final
+   → localizar e remover referências mecânicas antigas que ainda concorram com o Novo Motor
 ```
 
-Essa ordem é recomendação de trabalho, não nova regra do sistema.
+Não são etapas de migração mecânica:
+
+```text
+personas
+agencia
+narracao
+```
+
+Essas áreas permanecem como estão, salvo correção pontual de referência explicitamente necessária e aprovada.
+
+`operacao/` também não é redesenhada. Ela apenas recebe compatibilidade mecânica quando necessário.
 
 ---
 
@@ -635,10 +747,10 @@ Essa ordem é recomendação de trabalho, não nova regra do sistema.
 
 Use algo equivalente a:
 
-> **"Vamos iniciar a transição do Novo Motor para a estrutura `sistema/` do repositório `wyliam2707/Sistema-Narrativo`. Leia primeiro `novo-motor/TRANSICAO-PARA-SISTEMA.md`. O Novo Motor é a fonte mecânica atual; preserve a arquitetura útil de `sistema/` e migre uma área por vez, pedindo minha aprovação antes de cada mudança conceitual."**
+> **"Vamos continuar a transição do Novo Motor para a estrutura `sistema/` do repositório `wyliam2707/Sistema-Narrativo`. Leia primeiro `novo-motor/TRANSICAO-PARA-SISTEMA.md`. O Novo Motor é a fonte mecânica atual; preserve `personas/`, `agencia/`, `narracao/` e o funcionamento de `operacao/`. Migre uma área mecânica por vez, explique a proposta, esclareça dúvidas e peça minha aprovação antes de cada mudança conceitual."**
 
 ---
 
 # Regra final da transição
 
-> **Não redesenhar o sistema durante a migração. Primeiro transferir fielmente as regras já aprovadas. Refinamentos novos só entram quando o JOGADOR HUMANO explicitamente abrir uma nova decisão de design.**
+> **Não redesenhar a arquitetura de `sistema/` durante a migração. Transferir as mecânicas aprovadas do Novo Motor para os lugares já existentes em `sistema/`, preservando personas, agência, narração e operação. Refinamentos novos só entram quando o JOGADOR HUMANO explicitamente abrir uma nova decisão de design.**
