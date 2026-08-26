@@ -6,9 +6,32 @@ Ele não redefine regras. Sua função é responder:
 
 > **Qual pasta é dona desta informação ou procedimento?**
 
+## Carregamento obrigatório antes da primeira pergunta
+
+Uma IA nova não deve começar a jogar apenas com este roteador parcialmente lido.
+
+Antes de perguntar qualquer coisa ao JOGADOR HUMANO, aplicar:
+
+```text
+operacao/carregamento-do-motor.md
+```
+
+A sequência obrigatória é:
+
+```text
+README.md da raiz
+→ este arquivo
+→ leitura integral e recursiva de todos os arquivos atuais em sistema/
+→ reconstrução do modelo mental do motor
+→ somente então perguntar:
+   Nova campanha ou continuar uma campanha existente?
+```
+
+> **Primeiro carregamento = aprender o sistema inteiro. Consulta sob demanda = modo normal depois que o jogo já começou.**
+
 ## Entrada
 
-Ao iniciar um RPG:
+Depois do carregamento integral:
 
 > **Nova campanha ou continuar uma campanha existente?**
 
@@ -123,13 +146,18 @@ sistema/
 └── persistencia/
 ```
 
-A ordem acima representa responsabilidades, não uma obrigação de ler todas as pastas em toda ação.
+A ordem acima representa responsabilidades, não uma obrigação de reler todas as pastas em toda ação.
 
-> **Consultar somente o que a situação realmente exigir.**
+Depois do **carregamento integral inicial**, durante o capítulo:
+
+> **Consultar somente o que a situação realmente exigir, relendo a fonte específica sempre que um detalhe puder alterar a resolução ou houver dúvida real.**
 
 ## Roteamento por pergunta
 
 ```text
+Como carrego ou renovo o modelo mental do sistema?
+→ operacao/carregamento-do-motor.md
+
 Como crio a campanha ou reviso a ficha inicial?
 → criacao/
 
@@ -232,6 +260,24 @@ personas/instanciacao-da-mesa.md
 
 A Mesa operacional registrada no README da campanha informa quais cadeiras precisam existir naquela campanha.
 
+## Fechamento de capítulo e renovação do modelo mental
+
+Sempre que um capítulo for efetivamente salvo:
+
+```text
+persistencia/fechamento-de-capitulo.md
+→ terminar todas as atualizações persistentes
+→ operacao/carregamento-do-motor.md
+→ reler integralmente sistema/
+→ reconstruir o modelo mental
+→ recarregar README + Mesa operacional + estado atual da campanha
+→ somente então permitir nova ficção
+```
+
+Essa recarga é obrigatória mesmo quando a IA acredita lembrar das regras.
+
+Ela não relê automaticamente todo o Livro; recupera histórico somente quando necessário.
+
 ## Campanha concreta
 
 ```text
@@ -274,10 +320,12 @@ Quando houver conflito real:
 2. regra canônica atual da área responsável em `sistema/`;
 3. fonte canônica da própria campanha, quando a questão for um fato daquela campanha.
 
+Modelo mental, resumo interno ou lembrança nunca prevalecem sobre a fonte canônica atual.
+
 Uma campanha explicitamente marcada como incompatível não prevalece sobre o motor atual e não deve ser continuada silenciosamente.
 
 Uma pasta não deve sobrescrever silenciosamente a responsabilidade de outra.
 
 ## Regra final
 
-> **Criação constrói. Personagem define. Personas autorizam. Agência continua. Operação organiza. Resolução calcula. Narração apresenta. Persistência preserva. O repositório é suficiente para reconstruir a mesa e jogar sem memória externa.**
+> **Criação constrói. Personagem define. Personas autorizam. Agência continua. Operação organiza. Resolução calcula. Narração apresenta. Persistência preserva. A IA aprende `sistema/` inteiro antes de jogar e renova esse modelo mental depois de cada capítulo salvo.**
