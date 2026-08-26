@@ -14,100 +14,164 @@ Ler somente o necessário:
 MECANISMO
 → como a ação está sendo realizada?
 
-BASE
-→ qual capacidade realmente conduz a ação?
+ATRIBUTO
+→ qual Atributo corresponde à finalidade e à forma real da ação?
 
-SUPORTE
-→ existe outra capacidade aplicável que apenas melhora a execução?
+PERÍCIA
+→ existe treinamento realmente relevante?
 
 MEIO
 → com que corpo, Poder, equipamento, ferramenta ou recurso?
 
 SITUAÇÃO
-→ existe oportunidade real para isso acontecer?
+→ quais condições concretas alteram a dificuldade ou tornam o resultado evidente/impossível?
 
 OPOSIÇÃO
-→ o que realmente pode impedir, resistir ou concorrer?
+→ existe outra personagem ou entidade tentando impedir, resistir ou concorrer ativamente?
 ```
 
 Se uma informação da ficha não puder alterar a resposta a essas perguntas, ela não entra na resolução.
 
-## Base da ação
+## Atributo da ação
 
-A Base vem daquilo que realmente conduz a ação.
+Todo teste comum usa um Atributo coerente com a ação concreta.
 
 Referências usuais:
 
 ```text
-Ação comum que qualquer pessoa pode tentar
-→ Atributo aplicável pode ser a Base.
+força, impacto ou intensidade física
+→ Potência
 
-Ação que exige conhecimento, treinamento ou técnica específica
-→ Perícia aplicável pode ser a Base.
+coordenação, precisão ou velocidade de execução
+→ Controle
 
-Ação produzida por Poder, arma ou equipamento com valor próprio
-→ o valor dessa capacidade é a Base.
+suportar esforço, dor ou agressão física
+→ Resistência
+
+raciocinar, analisar ou compreender
+→ Intelecto
+
+influenciar ou provocar reação social
+→ Presença
+
+concentrar-se, persistir ou resistir mentalmente
+→ Vontade
 ```
 
-Um Atributo alto não substitui conhecimento que a personagem não possui.
+O Atributo é escolhido pela finalidade e pela forma real da ação, não pelo nome do movimento e nem pelo maior valor da ficha.
 
-Uma Perícia alta não cria força, resistência, Poder ou equipamento inexistente.
+> **Escolher o Atributo aplicável, não o maior Atributo disponível.**
 
-## Quando Atributo e Perícia podem conduzir
+## Perícia relevante
 
-Se Atributo e Perícia forem ambos realmente capazes de conduzir a mesma ação, usar como Base o valor aplicável mais favorável à personagem e tratar o outro apenas como Suporte.
+Uma Perícia realmente relevante concede:
 
-Isso não permite usar uma capacidade que não responda ao mecanismo da cena.
+> **+1d**
 
-> **Escolher o melhor valor aplicável, não o maior valor da ficha.**
+Várias Perícias aplicáveis continuam concedendo no máximo `+1d` por Perícias no mesmo teste.
 
-## Suporte
+Perícias não possuem Atributo fixo.
 
-Suporte representa uma segunda capacidade que melhora uma ação já possível sem substituir sua Base.
+O mesmo treinamento pode operar com Atributos diferentes conforme a ação realizada.
 
-Quando a regra usada permitir suporte:
+Uma Perícia não cria mecanismo, força, equipamento, informação ou capacidade que não exista.
 
-`Suporte entra × 0,2`
+## Poderes, equipamentos e outros meios
 
-Não somar automaticamente Atributo, Perícia, Poder e equipamento apenas porque coexistem.
+Poder, arma, equipamento, ferramenta ou recurso podem definir o que é possível fazer e quais regras específicas entram na resolução.
 
-## Potência própria
+Esses meios podem determinar, conforme sua própria regra:
 
-Quando a ação já possui potência registrada em Poder, arma, equipamento ou outro recurso, essa potência continua sendo usada diretamente.
+- alcance;
+- alvo;
+- Dano;
+- Efeito;
+- custo;
+- defesa;
+- duração;
+- outras propriedades.
 
-Atributos e Perícias podem ser importantes para criação, calibração, acesso, técnica ou aplicação, mas não recalculam automaticamente o valor já registrado.
+Eles não substituem automaticamente o Atributo e não são somados ao teste sem regra explícita.
 
-## Meio e situação importam diretamente
+## Situação contra o cenário
 
-Competência não cria um mecanismo que não existe.
+Quando não existe oposição ativa, a situação concreta é representada principalmente pela **Dificuldade**.
 
-Uma ferramenta, Poder, preparação, vulnerabilidade, posição, distância, surpresa ou outra condição pode mudar quais capacidades conseguem participar da resolução.
+```text
+4 dados mantidos + Atributo × Dificuldade
+```
 
-Essas condições alteram a situação; não precisam virar bônus numéricos automáticos.
+A Dificuldade considera como a tentativa está acontecendo naquele momento.
+
+Exemplos:
+
+- escuridão pode aumentar a Dificuldade de uma tarefa visual;
+- terreno molhado pode aumentar a Dificuldade de uma escalada;
+- preparação concreta pode reduzir a Dificuldade;
+- ferramenta inadequada pode tornar uma tarefa mais difícil ou até impossível;
+- ferramenta adequada pode tornar a ação possível ou mais fácil.
+
+Não existe incremento fixo obrigatório de Dificuldade.
+
+O NARRADOR escolhe o valor que melhor represente a realidade da situação, sem usar a CD para balancear Patamar.
+
+Circunstâncias comuns não concedem automaticamente dados extras em testes contra o cenário.
+
+## Oposição ativa
+
+Quando outra personagem ou entidade realmente se opõe:
+
+```text
+4 dados mantidos + Atributo
+×
+4 dados mantidos + Atributo
+```
+
+Cada lado lê sua própria ação ou reação e escolhe o Atributo correspondente.
+
+A oposição não precisa usar o mesmo Atributo dos dois lados.
+
+Quando a situação conceder a um lado uma vantagem **óbvia e inegável** naquela disputa, o lado favorecido recebe `+1d`.
+
+Se a vantagem já determinar claramente o resultado, não se rola.
+
+Empate favorece quem iniciou a ação.
+
+## Dados adicionais e penalidades
+
+Além da vantagem ficcional explícita em oposição, dados adicionais ou removidos vêm de regras mecânicas claras, como:
+
+- Perícia;
+- Poder;
+- Status;
+- Trama;
+- outra regra que determine `+Xd` ou `-Xd`.
+
+Todos esses dados entram na regra universal de cancelamento e no limite final de `-2d` a `+2d`.
 
 ## Conhecimento continua necessário
 
-Capacidade alta não cria informação inexistente.
+Atributo alto não cria informação inexistente.
 
 Perícias, conhecimento estabelecido, informação disponível e investigação determinam o que a personagem pode reconhecer ou explorar conscientemente.
 
-## Defesa depende do mecanismo
+Uma resolução não permite agir sobre conhecimento que a personagem não possui apenas porque o resultado dos dados seria alto.
 
-Não existe uma defesa universal para toda ação.
+## Resultado evidente continua sem teste
 
-A cena identifica qual capacidade, proteção, Perícia, Atributo ou meio realmente responde ao mecanismo usado.
+Competência, preparação, equipamento, Poder ou vantagem podem tornar uma ação evidente.
 
-O mesmo objeto pode oferecer resistências diferentes conforme a abordagem.
+Quando restar apenas um resultado coerente, não se cria uma rolagem para confirmar o óbvio.
 
-Não somar automaticamente várias defesas apenas porque coexistem.
+Da mesma forma, nenhum valor de Atributo ou Perícia transforma uma ação impossível em possível sem mecanismo real.
 
 ## Escolhas do JOGADOR
 
 O JOGADOR escolhe como sua própria peça tenta agir quando existem mecanismos diferentes possíveis.
 
-O NARRADOR não escolhe silenciosamente Poder, efeito, patamar, alvo, Ampliação ou outra configuração que mude custo ou resultado.
+O NARRADOR não escolhe silenciosamente Poder, efeito, alvo, configuração, custo ou outra opção que mude o que a personagem está tentando fazer.
 
-Quando mais de uma leitura já declarada for igualmente válida, o NARRADOR usa a interpretação aplicável mais favorável à ação da personagem.
+Quando mais de uma leitura da ação já declarada for igualmente válida, o NARRADOR usa a interpretação aplicável mais favorável à ação da personagem.
 
 Perguntar somente o que ainda estiver faltando e puder alterar a resolução.
 
@@ -121,13 +185,22 @@ resultado evidente ou impossível
 
 incerteza real
 → identificar mecanismo
-→ escolher Base
-→ aplicar Suporte, se houver
-→ identificar Resistência
-→ aplicar apenas a regra específica necessária
-→ usar motor-de-disputa.md quando houver progresso acumulável
+→ escolher Atributo
+→ aplicar Perícia relevante, se houver
+→ identificar meio e regras específicas
+
+sem oposição ativa
+→ definir Dificuldade da situação
+→ resolver contra CD
+
+com oposição ativa
+→ identificar Atributo de cada lado
+→ aplicar vantagem ficcional óbvia, se existir
+→ resolver oposição
 ```
+
+Tarefas demoradas não usam mais Exigência, Progresso ou aplicações acumuladas. O tempo pertence à ficção; uma nova rolagem só ocorre quando surgir uma nova incerteza relevante.
 
 ## Regra final
 
-> **A ficção define o mecanismo. O mecanismo define a Base. Outra capacidade realmente aplicável pode ajudar como Suporte. A oposição responde somente ao mecanismo usado.**
+> **A ficção define o mecanismo. O mecanismo define o Atributo. Perícia relevante concede +1d. A situação define a Dificuldade contra o cenário; oposição ativa rola do outro lado. Só entram na resolução capacidades e condições que realmente possam alterar o resultado.**
