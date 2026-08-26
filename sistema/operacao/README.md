@@ -22,7 +22,7 @@ operacao/
 
 ### `ciclo-de-cena.md`
 
-Organiza a sequência geral das cadeiras:
+Organiza a sequência geral das cadeiras fora das regras específicas de combate:
 
 ```text
 JOGADORES
@@ -38,20 +38,28 @@ Governa o fluxo normal fora de combate, passagem de tempo, interrupções e aber
 
 ### `turnos-de-combate.md`
 
-Define o relógio simultâneo de combate: intervalos compartilhados de até 10 segundos.
+Define rodadas de até 10 segundos e a **ordem fixa de Iniciativa** do combate.
+
+Cada participante rola uma única vez no início:
+
+```text
+Iniciativa = 4d6 + Controle
+```
+
+A ordem resultante é reutilizada até o fim do combate.
 
 ### `ordem-de-resolucao-do-combate.md`
 
-Define a aplicação prática dentro desse intervalo:
+Define a aplicação prática dessa ordem:
 
 ```text
-HUD
-→ declarações
-→ interferência/precedência
-→ resolução necessária
-→ atualização
-→ apresentação
-→ novo HUD
+Iniciativa
+→ peça ativa
+→ declaração
+→ Hub quando aplicável
+→ resolução e Defesa
+→ atualização imediata
+→ próximo da Iniciativa
 ```
 
 Ele consulta `../resolucao/`; não contém um segundo motor mecânico.
@@ -118,4 +126,4 @@ O roteador geral permanece `../00-LEIA-PRIMEIRO.md`.
 
 ## Regra final
 
-> **`operacao/` é o procedimento da mesa: organiza janelas, turnos e sequência de aplicação. As outras pastas continuam donas de suas próprias regras.**
+> **`operacao/` organiza janelas, rodadas e sequência. Em combate, a Iniciativa é rolada uma vez e sua ordem permanece até o confronto terminar. As outras pastas continuam donas de suas próprias regras.**
