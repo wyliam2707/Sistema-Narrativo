@@ -6,23 +6,15 @@ Este arquivo define o padrão visual usado pelas fichas de personagem quando ren
 
 Ele complementa `ficha.md` e `criacao.md` sem alterar o significado dos campos.
 
-> **A ficha deve ser fácil de ler visualmente. Informações diferentes não devem aparecer grudadas em um único bloco de texto.**
+> **A ficha deve ser fácil de consultar. Informações diferentes não devem aparecer grudadas em um único bloco de texto.**
 
 ## Regra principal
 
-Organizar a ficha por **tópicos claros**, usando títulos Markdown para separar grupos de informação.
+Organizar a ficha por tópicos claros, usando títulos Markdown para separar grupos de informação.
 
 Campos curtos pertencentes ao mesmo tópico podem usar lista com rótulos em negrito.
 
-Textos descritivos maiores devem ficar em parágrafo próprio abaixo de seu título.
-
-Evitar uma sequência como:
-
-```text
-Status: ... Importância: ... CONTROLE: ... Nome real: ... Idade: ... Aparência: ... Estilo: ...
-```
-
-Mesmo que esses campos estejam em linhas diferentes no arquivo-fonte, alguns renderizadores podem apresentá-los como um único parágrafo visual.
+Textos descritivos maiores ficam em parágrafo próprio abaixo de seu título.
 
 ## Estrutura visual padrão
 
@@ -33,6 +25,7 @@ Mesmo que esses campos estejam em linhas diferentes no arquivo-fonte, alguns ren
 - **Status:** PENDENTE DE REVISÃO
 - **Importância:** ...
 - **CONTROLE:** ...
+- **Patamar:** [ ]
 
 ## Identidade
 - **Nome real:**
@@ -48,8 +41,11 @@ Mesmo que esses campos estejam em linhas diferentes no arquivo-fonte, alguns ren
 
 ## Capacidades
 - **TRAÇOS:**
-- **ATR:** FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
-- **PER:**
+- **Corpo:** Potência [ ] | Controle [ ] | Resistência [ ]
+- **Mente:** Intelecto [ ] | Presença [ ] | Vontade [ ]
+- **Vida Máxima:** [ ]
+- **Mana Máxima:** [ ]
+- **PERÍCIAS:**
 - **PODERES:**
 - **RECURSOS:**
 - **REL:**
@@ -67,11 +63,50 @@ Mesmo que esses campos estejam em linhas diferentes no arquivo-fonte, alguns ren
 
 ## Identidade visual
 
-`Aparência` responde principalmente **como a pessoa é fisicamente reconhecida**.
+`Aparência` responde principalmente como a pessoa é fisicamente reconhecida.
 
-`Estilo` responde principalmente **como ela costuma se apresentar**: roupas, cores, acessórios, uniforme, armadura, maquiagem, símbolos ou outros elementos visuais recorrentes.
+`Estilo` responde principalmente como ela costuma se apresentar: roupas, cores, acessórios, uniforme, armadura, maquiagem, símbolos ou outros elementos visuais recorrentes.
 
-`Descrição` pode complementar esses tópicos com presença geral, impressão visual ou outro resumo útil, mas não substitui Aparência e Estilo quando ambos forem relevantes.
+`Descrição` pode complementar esses tópicos com presença geral, impressão visual ou outro resumo útil.
+
+## Vida e Mana atuais
+
+A ficha consolidada mostra normalmente apenas os valores máximos.
+
+```text
+Vida Máxima
+Mana Máxima
+```
+
+Os valores atuais pertencem ao STATUS e ao HUD operacional quando necessários.
+
+Não duplicar estado momentâneo na ficha apenas para manter a apresentação simétrica.
+
+## Perícias
+
+Perícias são listadas pelo nome, sem graduação antiga.
+
+Exemplo:
+
+```markdown
+- **PERÍCIAS:** Medicina, Investigar, Ocultismo
+```
+
+Não usar `Medicina [+3]` ou sintaxe equivalente.
+
+## Poderes
+
+Poderes são listados pelo nome do arsenal funcional.
+
+Exemplo:
+
+```markdown
+- **PODERES:** Teleporte, Proteção, Ilusão
+```
+
+Não usar um grau genérico `[1–5]` no nome do Poder.
+
+Configurações de Hub pertencem às regras e só precisam aparecer na ficha quando houver uma configuração persistente realmente relevante.
 
 ## Flexibilidade
 
@@ -79,12 +114,21 @@ A estrutura acima é o padrão, não uma prisão.
 
 Subtópicos adicionais podem ser criados quando melhorarem a consulta. Campos comprovadamente inúteis podem ser removidos somente no momento permitido pelas regras de revisão.
 
-O conteúdo e o momento em que cada campo pode ser preenchido continuam definidos por `ficha.md` e `criacao.md`.
+Fichas rápidas e mínimas podem omitir informação desnecessária, conforme `ficha.md` e `npcs.md`.
+
+> **Informação omitida não significa valor zero.**
 
 ## Compatibilidade com exemplos antigos
 
-Quando um exemplo anterior do sistema mostrar os mesmos campos em linhas simples, interpretar aquilo como **estrutura de dados**, não como obrigação de apresentação visual.
+Quando um exemplo legado mostrar:
 
-Para a apresentação renderizada da ficha, este padrão por tópicos prevalece.
+```text
+FIS / RES / MEN / VON
+ENERGIA
+Perícia [+X]
+Poder [1–5]
+```
+
+tratar essa apresentação como material antigo que precisa ser migrado para a estrutura atual.
 
 > **A estrutura informa o que existe. A organização visual determina como isso é apresentado de forma legível.**
