@@ -33,6 +33,16 @@ Referência geral:
 
 Os valores são uma referência média. A ficção, a forma e a natureza do objeto continuam determinando situações evidentes. O Tamanho define a dimensão narrativa do objeto e não altera, por si só, o ND do Material.
 
+## Duração Permanente
+
+Quando a Duração escolhida for **Permanente**, o objeto criado ou remodelado passa a permanecer no mundo sem depender de manutenção, concentração ou continuidade do Poder.
+
+Ele não desaparece sozinho apenas porque o uso de Criação terminou.
+
+Isso não apaga sua origem sobrenatural. Um objeto criado permanentemente por Criação continua sendo uma manifestação de origem sobrenatural e pode ser afetado por **Dissipação** quando essa origem for relevante e a própria regra de Dissipação permitir.
+
+> **Permanente significa que o objeto continua existindo por conta própria; não significa que sua origem sobrenatural deixou de existir.**
+
 ## Uso
 
 O custo em Mana é a soma dos avanços escolhidos no Hub. As primeiras posições de cada progressão custam `+0`.
