@@ -22,19 +22,19 @@ Ele guarda somente o retrato operacional do presente.
 
 ```text
 LIVRO
-→ o que aconteceu.
+→ o que aconteceu
 
 FICHA
-→ quem a peça é.
+→ quem a peça é
 
 MUNDO
-→ o que é verdade de forma estável no cenário.
+→ o que é verdade de forma estável no cenário
 
 MESTRE
-→ fatos, NPCs, planos e informações reservadas.
+→ fatos, NPCs, planos e informações reservadas
 
 ESTADO ATUAL
-→ como a campanha precisa ser retomada agora.
+→ como a campanha precisa ser retomada agora
 ```
 
 ## O que pode entrar
@@ -44,8 +44,11 @@ Registrar somente o que ainda é necessário para continuar corretamente, por ex
 - momento e local atuais;
 - quem está presente ou diretamente envolvido;
 - STATUS relevantes;
-- Vida, Dano acumulado e Energia quando precisarem persistir;
-- Condições e Efeitos Ativos;
+- Vida atual/máxima quando precisar persistir;
+- Mana atual/máxima quando precisar persistir;
+- Status, condições e Efeitos Ativos;
+- Barreiras atuais;
+- alterações temporárias de Atributo;
 - ações ou situações ainda em andamento;
 - posição operacional que continue importante;
 - compromissos, promessas, dívidas, investigações ou outras consequências causalmente vivas quando forem necessárias à retomada;
@@ -69,14 +72,16 @@ Exemplo:
 
 ### Corvin
 Local: corredor norte
-Vida: Grave
-Dano acumulado: 18
-Energia: 22/60
-Condições: Envenenado
-Efeitos Ativos: Proteção [D2,4 / V3] — Cena
+Vida: 18/29
+Mana: 9/24
+Status: Envenenado
+Barreira: 7/15
+Efeitos Ativos: Proteção — Cena
 ```
 
 Isso não cria um arquivo `status.md` dentro da campanha.
+
+`ENERGIA` e `Bateria [1–5]` são referências legadas e não devem ser usadas como campos universais novos.
 
 ## Consequências causalmente vivas
 
@@ -118,13 +123,13 @@ O estado atual é sobrescrito pela realidade presente.
 
 ```text
 ENTRA
-→ quando algo passa a ser necessário para continuar corretamente.
+→ quando algo passa a ser necessário para continuar corretamente
 
 MUDA
-→ quando o fato presente muda.
+→ quando o fato presente muda
 
 SAI
-→ quando deixa de existir ou de ser necessário para a retomada.
+→ quando deixa de existir ou de ser necessário para a retomada
 ```
 
 O que sai não é apagado da história: permanece no Livro quando tiver acontecido.
@@ -139,14 +144,6 @@ campanhas/<nome>/mestre/
 
 Se o NARRADOR precisar saber apenas que existe uma fonte reservada relevante para retomar a situação, `estado/atual.md` pode apontar para ela sem revelar ou duplicar seu conteúdo.
 
-Exemplo:
-
-```text
-## Referências reservadas
-
-- Consultar `mestre/ganchos-do-opositor.md` antes da próxima janela.
-```
-
 ## Relação com fechamento
 
 `SALVAR ESTADO` atualiza `estado/atual.md` sem consolidar novo capítulo.
@@ -159,10 +156,10 @@ Ao continuar uma campanha:
 
 ```text
 campanhas/<nome>/README.md
-→ roteia a campanha.
+→ roteia a campanha
 
 estado/atual.md
-→ informa o presente necessário para retomar.
+→ informa o presente necessário para retomar
 ```
 
 Outras fontes são consultadas somente quando forem necessárias para a próxima decisão, julgamento ou interpretação.
