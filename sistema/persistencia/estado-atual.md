@@ -46,6 +46,7 @@ Registrar somente o que ainda é necessário para continuar corretamente, por ex
 - STATUS relevantes;
 - Vida atual/máxima quando precisar persistir;
 - Mana atual/máxima quando precisar persistir;
+- Trama atual da personagem humana quando precisar persistir;
 - Status, condições e Efeitos Ativos;
 - Barreiras atuais;
 - alterações temporárias de Atributo;
@@ -70,10 +71,11 @@ Exemplo:
 ```text
 ## Personagens
 
-### Corvin
+### Protagonista
 Local: corredor norte
 Vida: 18/29
 Mana: 9/24
+Trama: 27
 Status: Envenenado
 Barreira: 7/15
 Efeitos Ativos: Proteção — Cena
@@ -81,7 +83,7 @@ Efeitos Ativos: Proteção — Cena
 
 Isso não cria um arquivo `status.md` dentro da campanha.
 
-`ENERGIA` e `Bateria [1–5]` são referências legadas e não devem ser usadas como campos universais novos.
+`ENERGIA` e `Bateria [1–5]` não são campos universais do motor atual.
 
 ## Consequências causalmente vivas
 
@@ -99,7 +101,7 @@ Exemplo:
 - O credor pode voltar entre 18 e 30 dias para cobrar a dívida.
 ```
 
-Quando um fio for reservado ou pertencer especificamente ao OPOSITOR, seu detalhe pode ficar em `mestre/` e `mestre/ganchos-do-opositor.md` conforme as regras correspondentes.
+Quando um fio for reservado ou pertencer especificamente ao OPOSITOR, seu detalhe pode ficar em `mestre/` conforme as regras correspondentes.
 
 Não duplicar automaticamente o mesmo conteúdo em todas as fontes.
 
