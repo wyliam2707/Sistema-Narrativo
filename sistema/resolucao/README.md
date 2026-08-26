@@ -12,8 +12,8 @@ Esta pasta responde à pergunta:
 
 - `principio-de-resolucao.md` — quando estabelecer diretamente, quando testar e como tratar impossibilidade;
 - `leitura-da-ficha-na-resolucao.md` — quais partes da ficha entram numa resolução;
-- `motor-de-disputa.md` — motor universal contra cenário e oposição ativa;
-- `combate-e-dano.md` — ataque, Defesa, Dano, RD, Barreira, Trama e Vida;
+- `motor-de-disputa.md` — motor universal contra cenário e oposição ativa geral;
+- `combate-e-dano.md` — ataque, DF, RF, DM, RM, Dano, RD, Escudo/Barreira, Trama e Vida;
 - `vida.md` — Vida Máxima e Incapacitado;
 - `recuperacao-da-vida.md` — recuperação natural e Medicina;
 - `mana.md` — Mana Máxima, recuperação e `[X]`;
@@ -80,7 +80,9 @@ Não acompanha Patamar e não é ajustada para balancear personagens.
 
 > **A Dificuldade descreve o problema. A ficha descreve quem tenta resolvê-lo.**
 
-## Oposição ativa
+## Oposição ativa geral
+
+Fora de uma regra específica que substitua a disputa por valor fixo:
 
 ```text
 4 dados mantidos + Atributo
@@ -90,13 +92,36 @@ Não acompanha Patamar e não é ajustada para balancear personagens.
 
 Cada lado usa o Atributo coerente com sua própria ação ou reação.
 
-Quando um lado possui vantagem ficcional **óbvia e inegável** naquela oposição:
+Quando um lado possui vantagem ficcional **óbvia e inegável** naquela oposição rolada:
 
 > **+1d ao lado favorecido**
 
 Se a vantagem já tornar o resultado evidente, não se rola.
 
 Em empate, vence quem iniciou a ação; a resposta precisa superar o iniciador para impedi-lo.
+
+### Durante combate
+
+Ataques e efeitos que usam a defesa fixa não fazem a peça-alvo rolar uma oposição comum.
+
+Usar `combate-e-dano.md`:
+
+```text
+DF = 14 + Controle
+RF = 14 + Resistência
+DM = 14 + Intelecto
+RM = 14 + Vontade
+```
+
+```text
+quem age
+→ rola quando necessário
+
+quem é alvo
+→ oferece o valor fixo aplicável
+```
+
+> **Oposição geral usa duas rolagens. Defesa e Resistência de combate usam valores fixos quando a regra mandar.**
 
 ## Tarefas demoradas
 
@@ -109,24 +134,34 @@ resultado evidente com tempo suficiente
 impossibilidade evidente
 → estabelecer impossibilidade
 
-incerteza real
-→ uma resolução adequada
+uma tentativa com incerteza real
+→ resolver essa tentativa
 ```
 
-Nova rolagem só existe se surgir nova incerteza relevante.
+Se a tentativa falhar e uma intenção ampla já cobrir tentar novamente, uma tentativa posterior pode criar uma **nova incerteza real** e receber nova resolução.
+
+A continuidade de tentativas fora de combate pertence a:
+
+```text
+../operacao/janelas-e-interrupcoes.md
+../narracao/apresentacao-da-cena.md
+```
+
+Não rolar várias vezes apenas porque o relógio avançou. Cada nova rolagem deve representar uma nova tentativa plausível.
 
 ## Combate
 
-A mecânica de ataque, Defesa e Dano pertence a `combate-e-dano.md`.
+A mecânica de ataque, Defesas fixas e Dano pertence a `combate-e-dano.md`.
 
 A ordem da mesa durante combate pertence a:
 
 ```text
 ../operacao/turnos-de-combate.md
 ../operacao/ordem-de-resolucao-do-combate.md
+../operacao/rotina-de-trama-em-combate.md
 ```
 
-`resolucao/` não cria iniciativa, fila fixa, HUD ou economia universal de ações.
+`resolucao/` não cria uma segunda Iniciativa, fila paralela, HUD ou economia universal de ações.
 
 ## Poderes
 
@@ -135,6 +170,12 @@ A posse de Poderes pertence a `../personagem/poderes.md`.
 A mecânica concreta pertence a `poderes/`.
 
 Cada Hub define somente as dimensões necessárias ao Poder; `[X]` representa Patamar e normalmente limita o máximo de Mana por uso.
+
+A apresentação compacta dos Hubs ao JOGADOR HUMANO pertence a:
+
+```text
+poderes/modelo-de-apresentacao-do-hub.md
+```
 
 ## Status
 
@@ -156,4 +197,4 @@ como calcular?                   → resolucao/
 
 ## Regra final
 
-> **`resolucao/` existe para determinar resultados mecânicos quando a ficção ainda deixa mais de uma possibilidade plausível. Todo procedimento de mesa permanece em `operacao/`.**
+> **`resolucao/` existe para determinar resultados mecânicos quando a ficção ainda deixa mais de uma possibilidade plausível. Oposição geral e defesa fixa de combate são procedimentos distintos; a sequência da mesa permanece em `operacao/`.**
