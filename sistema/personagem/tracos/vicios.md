@@ -1,6 +1,6 @@
 # Vícios
 
-Este arquivo reúne os **Traços negativos comuns** do Novo Motor.
+Este arquivo reúne os **Traços negativos comuns** do sistema.
 
 Vícios representam limitações, hábitos, conflitos pessoais, compromissos, relações ou problemas mundanos que fazem parte do personagem e podem gerar desconforto ou complicações narrativas.
 
@@ -12,9 +12,16 @@ Eles não são Poderes, não substituem Atributos ou Perícias e não devem ser 
 
 > **Todo Vício vale [-1].**
 
-Cada Vício adquirido acrescenta **1 ponto** disponível para a compra de Traços positivos.
+Cada Vício adquirido acrescenta **1 ponto negativo de criação**.
 
-O valor negativo é cumulativo. Um personagem com dois Vícios possui **[-2]** em Vícios e recebeu 2 pontos adicionais para Traços positivos; com três Vícios, possui **[-3]**, e assim por diante.
+Cada ponto negativo pode ser usado em apenas uma destas opções, conforme `../patamar.md`:
+
+- `+1` ponto de Traço positivo;
+- `+1` Poder.
+
+O mesmo ponto negativo nunca compra as duas coisas ao mesmo tempo.
+
+O valor negativo é cumulativo. Um personagem com dois Vícios possui `[-2]` em Vícios e recebeu 2 pontos negativos de criação; com três Vícios, possui `[-3]`, e assim por diante.
 
 Um mesmo Vício não possui níveis. Cada entrada individual vale sempre **[-1]**.
 
@@ -137,7 +144,7 @@ Exemplos: **Segredo [Identidade Falsa]**, **Segredo [Crime Passado]**, **Segredo
 # Princípios de interpretação
 
 1. Todo Vício individual vale sempre **[-1]**.
-2. Cada Vício fornece **1 ponto adicional para Traços positivos**.
+2. Cada Vício fornece **1 ponto negativo de criação**, utilizável em `+1` ponto de Traço positivo **ou** `+1` Poder conforme `../patamar.md`.
 3. Vícios não possuem níveis próprios; o valor total negativo aumenta pela quantidade de Vícios adquiridos.
 4. Um Vício só deve gerar consequência quando sua condição estiver realmente presente na narrativa.
 5. Vícios não aplicam penalidades numéricas permanentes. **Fobia** aplica sua penalidade apenas quando a fonte do medo estiver diretamente presente e relevante.
