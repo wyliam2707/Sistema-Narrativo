@@ -6,7 +6,7 @@ Este arquivo define como uma ação ofensiva é resolvida mecanicamente quando o
 
 A ordem operacional do combate pertence a `../operacao/ordem-de-resolucao-do-combate.md` e `../operacao/turnos-de-combate.md`.
 
-> **Este arquivo não cria iniciativa, fila fixa ou economia universal de ações. Ele apenas resolve ataque, Defesa e Dano dentro do turno simultâneo.**
+> **Este arquivo não cria Iniciativa, Rodada ou economia universal de ações. Ele apenas resolve ataque, Defesa, Resistência e Dano durante o combate.**
 
 ---
 
@@ -29,7 +29,46 @@ Combate não cria incerteza artificial apenas porque duas peças estão em confl
 
 ---
 
-## 2. Ataque comum
+## 2. Defesas fixas de combate
+
+Durante combate, a peça atacada não faz uma rolagem defensiva comum. Ela possui quatro valores fixos:
+
+```text
+DF = 14 + Controle
+RF = 14 + Resistência
+DM = 14 + Intelecto
+RM = 14 + Vontade
+```
+
+Significados:
+
+```text
+DF — Defesa Física
+→ evita ou impede que um ataque físico alcance plenamente o alvo.
+
+RF — Resistência Física
+→ suporta ou resiste a um efeito físico depois que ele alcança o alvo.
+
+DM — Defesa Mental
+→ evita ou impede que uma ação mental alcance plenamente o alvo.
+
+RM — Resistência Mental
+→ suporta ou resiste a um efeito mental depois que ele alcança o alvo.
+```
+
+Esses valores são alvos fixos. Quando uma rolagem ofensiva ou de efeito precisar vencê-los:
+
+> **resultado igual ou maior que o valor fixo = sucesso**
+
+Isso preserva a lógica anterior em que o empate favorecia quem iniciou a ação.
+
+As Defesas fixas são calculadas a partir dos Atributos atuais aplicáveis. Alterações temporárias legítimas nesses Atributos alteram o valor correspondente enquanto permanecerem ativas.
+
+Uma regra específica pode modificar, substituir ou ignorar uma dessas Defesas.
+
+---
+
+## 3. Ataque comum
 
 Uma personagem não precisa possuir um Poder ofensivo para realizar uma agressão comum que seja ficcionalmente capaz de tentar.
 
@@ -41,17 +80,15 @@ Exemplos:
 - golpe corporal;
 - ataque mundano coerente com o equipamento disponível.
 
-Quando houver oposição ativa, o ataque usa o motor universal:
+Quando houver incerteza real, o atacante rola:
 
-```text
-4 dados mantidos + Atributo do ataque
-×
-4 dados mantidos + Atributo da defesa
-```
+> **4 dados mantidos + Atributo coerente com o ataque**
 
-Cada lado usa o Atributo coerente com sua própria ação ou reação.
+Ataques físicos comuns comparam o resultado à:
 
-Exemplos possíveis:
+> **DF do alvo**
+
+Exemplos de Atributo ofensivo:
 
 ```text
 golpe de força
@@ -59,23 +96,15 @@ golpe de força
 
 golpe de precisão ou técnica
 → Controle
-
-esquiva
-→ Controle
-
-suportar ou resistir fisicamente ao mecanismo
-→ Resistência
 ```
 
-Os dois lados não precisam usar o mesmo Atributo.
+Se o resultado do ataque for igual ou maior que a DF, o ataque acerta.
 
-Em empate, vence quem iniciou a ação. A defesa precisa superar o ataque para impedi-lo.
-
-Quando a situação conceder vantagem ficcional óbvia e inegável a um dos lados, aplica-se `+1d` ao lado favorecido conforme `motor-de-disputa.md`.
+Quando a situação conceder vantagem ficcional óbvia e inegável, aplicar os dados adicionais ou reduzidos conforme `motor-de-disputa.md`.
 
 ---
 
-## 3. Dano de ataque comum
+## 4. Dano de ataque comum
 
 Quando um ataque comum causa Dano sem usar um Poder ofensivo ou outra fonte com Dano próprio:
 
@@ -101,7 +130,7 @@ A fonte específica define se usa valor fixo, dados, Atributo adicional ou outra
 
 ---
 
-## 4. Poderes ofensivos
+## 5. Poderes ofensivos
 
 Poderes ofensivos usam suas próprias regras de Acerto, Dano, Defesa, Resistência e Efeito.
 
@@ -111,33 +140,57 @@ A sequência geral é:
 
 Nem todo Poder utiliza todas as etapas.
 
-Quando o Poder exigir teste de Acerto, ele usa o motor universal de oposição salvo regra específica.
+Quando o Poder exigir teste de Acerto, o usuário faz a rolagem definida pelo Poder e compara o resultado à Defesa fixa apropriada:
+
+```text
+ataque físico
+→ normalmente DF
+
+ataque mental
+→ normalmente DM
+```
+
+Quando o Poder exigir Resistência de Efeito, a resolução compara a rolagem ou resultado aplicável à Resistência fixa apropriada:
+
+```text
+efeito físico
+→ normalmente RF
+
+efeito mental
+→ normalmente RM
+```
+
+A natureza real da ação e a regra específica do Poder determinam qual valor se aplica. Não escolher automaticamente o menor valor apenas para favorecer o atacante.
 
 O Dano do Poder vem de seu próprio arquivo e Hub. Não se substitui automaticamente pelo Dano de ataque comum.
 
 ---
 
-## 5. Tipos de Defesa de Poder
+## 6. Tipos de Defesa de Poder
 
-Quando um Poder indicar um tipo de Defesa, aplicar exatamente o efeito correspondente.
+Quando um Poder indicar um tipo de Defesa, primeiro resolve-se o Acerto contra a Defesa fixa apropriada.
+
+Se o ataque alcançar ou superar a Defesa fixa, a ação venceu a etapa de Defesa e segue normalmente.
+
+Se ficar abaixo da Defesa fixa, aplicar o tipo de Defesa configurado pelo Poder:
 
 ### Defesa [Absoluta]
 
-Se a Defesa vencer:
+Se a Defesa impedir o ataque:
 
 - não há Dano;
 - o Efeito é anulado antes de qualquer Resistência de Efeito.
 
 ### Defesa [Total]
 
-Se a Defesa vencer:
+Se a Defesa impedir o ataque:
 
 - não há Dano;
 - o Efeito ainda pode seguir para sua Resistência, se existir.
 
 ### Defesa [Parcial]
 
-Se a Defesa vencer:
+Se a Defesa impedir o ataque:
 
 - o alvo sofre metade do Dano;
 - arredonde para baixo;
@@ -151,7 +204,25 @@ Isso nunca transforma uma ação ficcionalmente impossível em possível.
 
 ---
 
-## 6. Redução de Dano — RD
+## 7. Resistência de Efeito
+
+Quando um Efeito permitir Resistência, usar a Resistência fixa coerente com sua natureza:
+
+```text
+efeito físico
+→ RF
+
+efeito mental
+→ RM
+```
+
+A regra específica do Poder define qual resultado é comparado à Resistência e o que acontece quando ela é alcançada ou não.
+
+Quando o Efeito for `[Nula]`, não existe etapa de Resistência.
+
+---
+
+## 8. Redução de Dano — RD
 
 Quando uma ou mais Reduções de Dano forem aplicáveis ao mesmo dano:
 
@@ -173,31 +244,31 @@ A RD é aplicada depois de qualquer redução causada pela Defesa.
 
 ---
 
-## 7. Barreira
+## 9. Escudo / Barreira
 
-Barreiras possuem sua própria reserva de PV conforme a regra que as criou.
+Escudos ou Barreiras que possuam reserva própria absorvem Dano conforme a regra que os criou.
 
-O Dano restante atinge a Barreira antes da Vida.
+O Dano restante atinge essa reserva antes da Vida.
 
 ```text
-Barreira possui PV suficiente
+Escudo possui valor suficiente
 → absorve todo o Dano
 → Vida não é reduzida
 
-Dano supera os PV restantes da Barreira
-→ Barreira chega a 0
+Dano supera o valor restante do Escudo
+→ Escudo chega a 0
 → excedente continua para as etapas seguintes
 ```
 
-Barreiras diferentes só existem e interagem conforme as regras específicas que as criaram.
+Fontes diferentes só existem e interagem conforme suas regras específicas.
 
 ---
 
-## 8. Trama e Dano
+## 10. Trama e Dano
 
 Somente a personagem sob `CONTROLE: JOGADOR HUMANO` possui Trama por regra geral.
 
-Depois de Defesa, RD e Barreira determinarem quanto Dano realmente alcançaria a personagem, o jogador pode usar `../personagem/trama.md`:
+Depois de Defesa, RD e Escudo determinarem quanto Dano realmente alcançaria a personagem, o jogador pode usar `../personagem/trama.md`:
 
 > **1 Trama = reduz 1 ponto do Dano restante**
 
@@ -209,11 +280,11 @@ Essa é uma redução própria e posterior ao mínimo final da etapa de Dano; po
 
 ---
 
-## 9. Ordem de aplicação do Dano
+## 11. Ordem de aplicação do Dano
 
 A ordem universal é:
 
-> **Defesa → redução causada pela Defesa → RD → mínimo final → Barreira → Trama, quando aplicável → Vida**
+> **Defesa → redução causada pela Defesa → RD → mínimo final → Escudo → Trama, quando aplicável → Vida**
 
 Quando uma regra produzir fração:
 
@@ -227,17 +298,17 @@ Assim, se a maior RD reduzir o valor a `0` ou menos, o Dano final ainda será `1
 
 Esse mínimo não se aplica quando uma etapa anterior anulou completamente o Dano, como uma Defesa que impede o ataque antes da aplicação.
 
-A Barreira ainda pode absorver integralmente esse Dano mínimo.
+O Escudo ainda pode absorver integralmente esse Dano mínimo.
 
-Depois da Barreira, Trama pode reduzir o Dano restante a `0` conforme sua regra específica.
+Depois do Escudo, Trama pode reduzir o Dano restante a `0` conforme sua regra específica.
 
 ---
 
-## 10. Exemplo completo
+## 12. Exemplo completo
 
 Um Poder causa `9` de Dano.
 
-O alvo vence uma Defesa [Parcial], possui RD `2` e uma Barreira com `1 PV`.
+O ataque fica abaixo da Defesa em uma configuração de Defesa [Parcial], o alvo possui RD `2` e Escudo `1`.
 
 ```text
 9 ÷ 2
@@ -247,8 +318,8 @@ O alvo vence uma Defesa [Parcial], possui RD `2` e uma Barreira com `1 PV`.
 4 - RD 2
 → 2
 
-Barreira absorve 1
-→ Barreira 0
+Escudo absorve 1
+→ Escudo 0
 
 1 excedente
 → chega à etapa de Trama, se aplicável
@@ -259,7 +330,7 @@ Se essa personagem for o protagonista humano e gastar `1 Trama`, o Dano restante
 
 ---
 
-## 11. Vida e incapacidade
+## 13. Vida e incapacidade
 
 O Dano que ultrapassa as proteções e qualquer gasto de Trama reduz a Vida atual.
 
@@ -279,7 +350,7 @@ Uma consequência evidentemente letal continua podendo ser estabelecida pela fic
 
 ---
 
-## 12. Perícias em combate
+## 14. Perícias em combate
 
 Não existe Perícia genérica obrigatória de combate.
 
@@ -302,22 +373,24 @@ Condução durante perseguição de veículos
 
 ---
 
-## 13. Menor número possível de rolagens
+## 15. Menor número possível de rolagens
 
 Uma ação ofensiva usa o menor número de rolagens necessário.
+
+Como DF, RF, DM e RM são valores fixos, o defensor não faz rolagem apenas para ser atacado ou resistir a uma etapa que possa ser resolvida por esses valores.
 
 Quando um Poder atingir vários alvos e sua regra permitir compartilhar o mesmo Acerto ou Dano:
 
 - fazer uma rolagem de Acerto quando ela puder representar todos os alvos;
-- comparar o mesmo resultado às Defesas individuais;
+- comparar o mesmo resultado às Defesas fixas individuais;
 - fazer uma única rolagem de Dano quando o Poder usar Dano rolado compartilhável;
-- fazer Resistências individuais apenas quando os resultados realmente precisarem ser diferentes.
+- comparar o resultado de Efeito às Resistências fixas individuais quando aplicável.
 
 Regras específicas de Poder podem estabelecer outra necessidade.
 
 ---
 
-## 14. Regras antigas removidas
+## 16. Regras antigas removidas
 
 Não fazem parte do combate:
 
@@ -326,7 +399,8 @@ Perícia efetiva = ofensiva − defensiva
 Ataque efetivo = Dano + 1 + (Perícia × 0,2)
 Dano = 2^(Ataque − Defesa)
 Dano mínimo acumulável 0,25
-FIS / RES como estrutura universal
+rolagem defensiva comum contra cada ataque
+FIS / RES como estrutura universal antiga
 ```
 
 Não reutilizar essas fórmulas em novas resoluções.
@@ -342,15 +416,24 @@ ficção permite e há incerteza?
 ataque comum ou Poder?
 → identificar regra aplicável
 
-oposição ativa, se houver
-→ Acerto × Defesa
+ataque físico?
+→ rolagem ofensiva × DF
+
+ataque mental?
+→ rolagem ofensiva × DM
+
+efeito resistível físico?
+→ resultado aplicável × RF
+
+efeito resistível mental?
+→ resultado aplicável × RM
 
 ataque chegou ao Dano?
 → determinar Dano da fonte
 → aplicar redução da Defesa
 → aplicar maior RD
 → mínimo final 1, se a etapa de Dano foi alcançada
-→ Barreira
+→ Escudo
 → Trama, quando aplicável
 → Vida
 → interpretar consequência
@@ -358,4 +441,4 @@ ataque chegou ao Dano?
 
 ## Regra final
 
-> **Combate usa o mesmo motor universal do restante do sistema. Ataques comuns causam Dano igual ao Atributo usado; Poderes e fontes específicas usam seu próprio Dano. Defesa, RD, Barreira, Trama e Vida são aplicadas apenas quando realmente pertencem ao mecanismo da ação.**
+> **No combate, DF, RF, DM e RM são valores fixos: DF = 14 + Controle, RF = 14 + Resistência, DM = 14 + Intelecto e RM = 14 + Vontade. Quem age faz a rolagem necessária e compara o resultado à Defesa ou Resistência correspondente. Ataques comuns causam Dano igual ao Atributo usado; Poderes e fontes específicas usam suas próprias regras de Dano e Efeito.**
