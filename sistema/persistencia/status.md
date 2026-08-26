@@ -19,10 +19,12 @@ STATUS
 Quando relevantes, registrar:
 
 ```text
-Vida / Dano atual
-Energia atual
-Condições
+Vida atual / máxima
+Mana atual / máxima
+Status e condições temporárias
 Efeitos Ativos
+Barreiras atuais
+alterações temporárias de Atributo
 Local / posição relevante
 outros estados temporários que ainda possam alterar a continuidade
 ```
@@ -31,57 +33,106 @@ Nem todo campo precisa existir para toda peça.
 
 > **STATUS guarda somente o que ainda pode importar agora.**
 
-## Vida e Energia
+## Vida e Mana
 
 STATUS registra apenas os valores atuais já determinados pelas regras correspondentes.
 
-As regras de Dano e VIDA pertencem a `../resolucao/combate-e-dano.md`.
-
-A regra de Cura pertence a `../resolucao/efeitos/cura.md`.
-
-As regras de recuperação natural, Regeneração e Medicina pertencem a `../resolucao/recuperacao-da-vida.md`.
-
-As regras de Energia, Bateria e recuperação pertencem a `../resolucao/energia.md`.
-
-Exemplos de registro:
+As regras de Vida e incapacidade pertencem a:
 
 ```text
-Dano [12/35]
-Energia [53/80]
-Energia [55/100] - Bateria [40/40] - Descanso [0]-[45]
+../resolucao/vida.md
 ```
 
-O STATUS não recalcula esses valores; apenas preserva o resultado atual.
+As regras de Dano pertencem a:
 
-## Condições
+```text
+../resolucao/combate-e-dano.md
+```
 
-Condição descreve um estado temporário relevante da peça.
+A recuperação natural e Medicina pertencem a:
 
-Exemplos:
+```text
+../resolucao/recuperacao-da-vida.md
+```
+
+A regra de Mana e recuperação pertence a:
+
+```text
+../resolucao/mana.md
+```
+
+Exemplo:
+
+```text
+Vida [18/29]
+Mana [9/24]
+```
+
+`ENERGIA` e `Bateria [1–5]` são nomenclaturas/regras legadas e não devem ser usadas em novos registros universais.
+
+O STATUS não recalcula Vida ou Mana; apenas preserva o resultado atual.
+
+## Status e condições
+
+Status nocivos, condições e outros estados temporários descrevem aquilo que continua mecanicamente ou ficcionalmente relevante.
+
+Exemplos possíveis:
 
 ```text
 Cego
-Envenenado
-Imobilizado
+Imóvel
+Apavorado
 Exausto
-Sangrando
+Atordoado
+Caído
 ```
 
-Condições não recebem bônus ou penalidades automáticos apenas por possuírem um nome. A consequência vem daquilo que foi realmente estabelecido pela cena e pela resolução.
+A consequência vem da regra que criou o Status ou daquilo que foi estabelecido pela cena.
 
 Nem toda descrição momentânea precisa ser registrada. Só permanece no STATUS aquilo que ainda puder alterar decisões ou resoluções futuras.
+
+Quando a migração das famílias de Status estiver concluída, suas regras específicas passam a ser a fonte mecânica; persistência continua apenas registrando o estado atual.
 
 ## Efeitos Ativos
 
 Efeito Ativo registra uma manifestação temporária que continua existindo ou produzindo consequência.
 
-Preservar no STATUS somente as informações mecânicas que já foram estabelecidas pela regra específica, como Fonte, `D/V`, Duração ou outro dado necessário para continuidade.
+Preservar somente as informações necessárias para continuidade, como:
+
+- origem ou Poder responsável;
+- duração restante;
+- configuração que continue relevante;
+- alvo ou área;
+- valor de Barreira;
+- alteração temporária de Atributo;
+- outro dado necessário.
 
 O STATUS não define como esses valores são calculados.
 
-Regras de efeitos persistentes, Proteção, Invocação, Fonte e Vida estrutural pertencem a `../resolucao/`.
+## Barreiras
 
-Evitar duplicação: se um único registro já descreve adequadamente o estado relevante, não criar outra entrada dizendo a mesma coisa.
+Quando uma Barreira precisar persistir entre resoluções, registrar seus PV atuais.
+
+Exemplo:
+
+```text
+Barreira [7/15]
+```
+
+A criação e o cálculo da Barreira pertencem à regra que a produziu.
+
+## Alterações temporárias de Atributo
+
+Quando um Atributo estiver temporariamente diferente de seu valor permanente e isso ainda importar, registrar a alteração no STATUS.
+
+Exemplo:
+
+```text
+Potência +2 temporário — Cena
+Controle -1 temporário — 3 Turnos
+```
+
+Essas alterações não recalculam Vida Máxima ou Mana Máxima.
 
 ## Localização
 
@@ -101,13 +152,13 @@ STATUS possui três operações:
 
 ```text
 ENTRA
-→ um novo estado relevante passa a existir.
+→ um novo estado relevante passa a existir
 
 MUDA
-→ um estado existente se altera de forma relevante.
+→ um estado existente se altera de forma relevante
 
 SAI
-→ o estado deixa de existir ou deixa de importar.
+→ o estado deixa de existir ou deixa de importar
 ```
 
 Quando algo deixa de ser relevante, remover do STATUS em vez de manter histórico.
@@ -116,7 +167,7 @@ Quando algo deixa de ser relevante, remover do STATUS em vez de manter históric
 
 Assim que uma consequência é estabelecida, o STATUS é atualizado.
 
-Energia muda quando o custo é efetivamente pago. Dano ou Cura alteram o valor atual quando resolvidos. Condições e Efeitos Ativos entram, mudam ou saem quando a cena estabelece isso.
+Mana muda quando um custo é efetivamente pago. Vida muda quando Dano ou recuperação são resolvidos. Status, Barreiras e Efeitos Ativos entram, mudam ou saem quando a cena estabelece isso.
 
 > **Resolveu, atualizou. STATUS representa o presente.**
 
@@ -126,13 +177,13 @@ STATUS registra fatos estabelecidos, nunca intenções, previsões ou resultados
 
 ```text
 JOGADORES / OPOSITOR
-→ declaram intenções conforme sua autoridade.
+→ declaram intenções conforme sua autoridade
 
 NARRADOR
-→ julga o que se torna verdade.
+→ julga o que se torna verdade
 
 PERSISTÊNCIA
-→ registra o resultado atual.
+→ registra o resultado atual
 ```
 
 Uma declaração por si só não altera STATUS.
@@ -143,16 +194,16 @@ STATUS não substitui:
 
 ```text
 FICHA
-→ capacidades e informações consolidadas da peça.
+→ capacidades e informações consolidadas da peça
 
 RESOLUÇÃO
-→ regras que determinam resultados e valores.
+→ regras que determinam resultados e valores
 
 LIVRO
-→ histórico do que aconteceu.
+→ histórico do que aconteceu
 
 PROGRESSÃO
-→ fatos passados que continuam causalmente vivos.
+→ fatos passados que continuam causalmente vivos
 ```
 
 > **STATUS não explica a regra. Ele guarda o resultado atual da regra e da ficção.**
