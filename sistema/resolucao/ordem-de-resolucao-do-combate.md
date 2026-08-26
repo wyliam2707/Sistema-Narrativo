@@ -6,7 +6,7 @@ Este arquivo define **a ordem operacional usada para resolver um turno de combat
 
 A simultaneidade e o limite de até 10 segundos pertencem a `../operacao/turnos-de-combate.md`. As fórmulas pertencem aos arquivos específicos de `../resolucao/`.
 
-> **Este arquivo organiza a resolução; não redefine as mecânicas nem cria iniciativa fixa.**
+> **Este arquivo organiza a resolução; não redefine as mecânicas.**
 
 ## Atalho operacional
 
@@ -29,13 +29,13 @@ Quando o combate começar, avisar claramente e mostrar um HUD discreto somente d
 O HUD deve trazer apenas o necessário para decidir a próxima ação:
 
 ```text
-Nome — Vida atual/máxima | Mana atual/máxima | efeitos benéficos relevantes
-Patamar | Atributos | Perícias relevantes
-Poderes disponíveis
-condições e efeitos nocivos relevantes
+Nome — Vida atual/máxima | Mana atual/máxima | Trama atual, quando aplicável
+Atributos e Perícias relevantes
+Poderes disponíveis e recursos realmente necessários
+Status, Barreiras e efeitos relevantes
 ```
 
-Campos que não forem necessários naquele momento podem ser omitidos.
+Em texto, apresentar HUD e informações puramente mecânicas em **bloco de citação em itálico**, visualmente secundários à narração.
 
 Informações ocultas de adversários não são reveladas automaticamente.
 
@@ -43,13 +43,11 @@ Informações ocultas de adversários não são reveladas automaticamente.
 
 Receber a intenção do JOGADOR HUMANO para o turno.
 
-Se faltar uma escolha mecânica que realmente altere custo ou resultado — como Poder, alvo, alcance, área, duração, modo ou outra opção de Hub — perguntar somente por essa escolha.
-
-Quando um Poder configurável possuir custo de Mana ainda não confirmado, apresentar a configuração necessária e perguntar apenas o que ainda estiver faltando para concluir o uso.
+Se faltar uma escolha mecânica que realmente altere custo ou resultado — como Poder, alvo, Alcance, Área, Duração, intensidade, modo ou outra opção de Hub — perguntar somente por essa escolha.
 
 O NARRADOR não escolhe silenciosamente pelo JOGADOR HUMANO.
 
-Se tudo que importa já estiver claro, não criar nova confirmação burocrática.
+Se tudo que importa já estiver claro, **não criar nova confirmação burocrática**.
 
 > **Perguntar somente o que ainda pode mudar a resolução.**
 
@@ -61,11 +59,11 @@ Configurações internas de IAs, NPCs e adversários podem ser resolvidas fora d
 
 ## 4. Ler o turno como simultâneo
 
-Todas as declarações pertencem ao mesmo intervalo.
+Todas as declarações pertencem ao mesmo intervalo de até 10 segundos.
 
 Declarar primeiro não significa agir primeiro.
 
-O NARRADOR identifica apenas quando necessário:
+O NARRADOR identifica somente quando necessário:
 
 - quais intenções realmente interferem entre si;
 - qual mecanismo cada uma usa;
@@ -74,9 +72,9 @@ O NARRADOR identifica apenas quando necessário:
 
 Ações independentes podem simplesmente acontecer dentro do mesmo intervalo sem ordenação artificial.
 
-Quando duas ações competirem pelo mesmo instante e a ficção não estabelecer precedência, usar a oposição comum definida em `motor-de-disputa.md`.
+Quando duas intenções competirem pelo mesmo instante e a ficção não estabelecer precedência, usar uma **oposição comum** com os Atributos coerentes com cada ação.
 
-Essa resolução vale somente para a interferência concreta e não cria ordem fixa para o restante do combate.
+Esse teste resolve apenas aquela precedência local e não cria ordem permanente de iniciativa.
 
 ## 5. Resolver
 
@@ -84,27 +82,26 @@ Para cada aplicação relevante:
 
 ```text
 configurar o uso, quando necessário
-→ pagar Mana, quando houver custo
-→ aplicar somente a regra específica necessária
+→ pagar custo válido
+→ resolver oposição ou Dificuldade apenas se houver incerteza
+→ aplicar Dano/Efeito/Status conforme a regra específica
 → estabelecer a consequência
 ```
 
 Referências principais:
 
 ```text
-teste / oposição     → motor-de-disputa.md
-Dano                 → combate-e-dano.md
-Vida                 → vida.md
-recuperação de Vida  → recuperacao-da-vida.md
-Mana                 → mana.md
-Poderes / Status     → regras específicas quando migradas
+motor universal        → motor-de-disputa.md
+Dano / RD / Barreira   → combate-e-dano.md
+Vida                    → vida.md
+Mana                    → mana.md
+Poderes e Hubs          → poderes/
+Status                  → status/
+Trama do protagonista   → ../personagem/trama.md
+Cura / recuperação      → poderes/cura.md + recuperacao-da-vida.md
 ```
 
-`energia.md` existe apenas como compatibilidade para referências antigas a ENERGIA.
-
-As páginas legadas de `efeitos/` e `consolidacao.md` não devem recriar fórmulas antigas quando conflitarem com o motor já migrado.
-
-A ficção continua determinando quais capacidades, Defesas, proteções e efeitos realmente entram.
+A ficção continua determinando quais capacidades, defesas e proteções realmente participam.
 
 ## 6. Atualização imediata
 
@@ -112,17 +109,19 @@ Assim que uma consequência é estabelecida, atualizar imediatamente o estado co
 
 Isso pode alterar:
 
-- Vida atual;
-- Mana atual;
+- Vida;
+- Mana;
+- Trama;
+- Status;
 - Barreiras;
 - posição;
-- Status e efeitos ativos;
-- capacidade de continuar agindo;
-- qualquer outro fato relevante.
+- alterações temporárias de Atributo;
+- capacidade de continuar uma intenção já declarada;
+- qualquer outro fato causalmente relevante.
 
 Se uma consequência muda a viabilidade de outra intenção do mesmo turno, reavaliar essa intenção com o novo estado.
 
-Isso representa interferência causal dentro dos mesmos segundos compartilhados; não cria iniciativa fixa.
+Isso representa interferência causal dentro dos mesmos segundos compartilhados; **não cria iniciativa fixa**.
 
 > **Resolveu, atualizou.**
 
@@ -134,7 +133,7 @@ Por padrão, mostrar **o resultado, não a conta completa**.
 
 Fórmulas e cálculos intermediários aparecem somente em auditoria, teste de regra ou quando forem necessários para resolver uma dúvida real.
 
-A narração permanece separada da apresentação mecânica conforme `../narracao/`.
+A narração permanece em texto normal; HUD e resultados mecânicos permanecem discretos.
 
 ## 8. Fechamento do turno
 
@@ -150,4 +149,4 @@ Quando o confronto deixar de exigir acompanhamento em segundos, encerrar o comba
 
 ## Regra final
 
-> **HUD → declaração → escolhas faltantes → IAs/Opositor → julgar interferência → resolver → atualizar → mostrar resultado → novo HUD. A operação continua simultânea; as regras mecânicas apenas resolvem o que realmente precisa ser decidido.**
+> **HUD → declaração → escolhas faltantes → IAs/Opositor → julgar interferência → resolver → atualizar → mostrar resultado → novo HUD. O turno continua simultâneo; nenhuma regra de Poder ou Status cria uma fila paralela de iniciativa.**
