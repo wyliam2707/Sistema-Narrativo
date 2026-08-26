@@ -107,6 +107,14 @@ Ela não deve ser aumentada ou reduzida para:
 
 > **O que é fácil deve continuar fácil. O que é difícil deve continuar difícil.**
 
+O **Patamar da campanha ou do personagem não desloca a régua de Dificuldade**.
+
+Isso significa que uma ação pode legitimamente possuir **Dificuldade 24 em uma campanha de Patamar [1]** se ela realmente for quase impossível naquela situação. Da mesma forma, **a maioria das ações de uma campanha de Patamar [7] ainda pode permanecer entre Dificuldade 10 e 14** quando essas ações continuarem sendo banais, fáceis ou comuns dentro da realidade da cena.
+
+A Dificuldade descreve o problema; o Patamar e a ficha descrevem a capacidade de quem tenta resolvê-lo.
+
+> **Nunca aumentar a Dificuldade para acompanhar personagens fortes e nunca reduzi-la para proteger personagens fracos.**
+
 Se a capacidade do personagem tornar o resultado evidente, a própria regra ficcional pode eliminar a necessidade do teste.
 
 ---
