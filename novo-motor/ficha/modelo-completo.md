@@ -122,7 +122,7 @@ A categoria **Romance** não exige amor declarado, namoro formal ou uma relaçã
 
 Um vínculo pode **mudar de categoria conforme evolui na ficção**. Alguém pode começar em Aliados e depois passar para Romance quando a relação ultrapassar amizade comum de forma concreta. Também pode sair de Romance e retornar para Aliados quando o envolvimento termina, mas amizade, confiança ou cooperação permanecem. A ficha registra a categoria que melhor descreve o vínculo atual, não todas as etapas anteriores.
 
-**Romance não implica exclusividade.** Uma personagem pode possuir vários vínculos românticos simultâneos quando isso fizer parte de sua vida afetiva. Relações a três, a quatro ou outras estruturas consensuais podem registrar todos os integrantes envolvidos em Romance quando eles realmente fizerem parte daquele vínculo. A ficha não presume monogamia, não-monogamia ou qualquer formato específico; registra a relação que existe na ficção.
+**Romance não implica exclusividade e estado civil não determina quantidade de vínculos.** Uma personagem solteira, namorando, casada ou em qualquer outra situação pode possuir um ou vários vínculos românticos quando isso fizer parte de sua vida afetiva atual. Relações a três, a quatro ou outras estruturas consensuais podem registrar todos os integrantes envolvidos em Romance quando eles realmente fizerem parte daquele vínculo. Da mesma forma, vínculos que deixarem de fazer parte da relação atual saem de Romance e podem retornar para Aliados quando ainda existir amizade ou confiança. A ficha não presume monogamia, não-monogamia ou qualquer formato específico; registra quem realmente faz parte da relação afetiva atual da personagem.
 
 Exemplo:
 
