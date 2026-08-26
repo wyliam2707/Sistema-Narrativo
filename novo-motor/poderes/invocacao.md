@@ -64,6 +64,8 @@ Quando a duração da Invocação termina, a criatura **deixa de permanecer ativ
 
 Mecanicamente, ela simplesmente desaparece. A forma como isso acontece é determinada pela origem e pela descrição da própria Invocação.
 
+Da mesma forma, quando uma criatura invocada chega a **0 Vida**, ela não fica Incapacitada: **deixa a cena imediatamente**.
+
 Exemplos:
 
 - uma criatura extraplanar pode **retornar ao seu plano de origem**;
