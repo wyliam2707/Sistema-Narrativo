@@ -32,6 +32,10 @@ Ao contrário da Vida, **Atributos negativos reduzem normalmente a Mana Máxima*
 
 Cada ponto positivo ou negativo de Atributo altera a Mana em **2 pontos**.
 
+Na criação do personagem, reduzir um Atributo abaixo de `[0]` devolve a mesma quantidade de pontos para serem redistribuídos entre os demais Atributos. Por isso, a redução de Mana causada pelo valor negativo é compensada quando esses pontos são colocados em outros Atributos.
+
+Exemplo: um Atributo em `[-2]` reduz a Mana em **4**, mas libera **2 pontos de Atributo**; quando esses 2 pontos são redistribuídos, eles acrescentam os mesmos **4 pontos de Mana**. A distribuição dos Atributos muda, mas a Mana total não é alterada apenas por essa redistribuição.
+
 Exemplos:
 
 - Potência `[-1]` reduz a Mana Máxima em **2**;
@@ -78,6 +82,4 @@ Exemplos:
 - Patamar de Poder `[4]` → `[X] = 4`;
 - Patamar de Poder `[7]` → `[X] = 7`.
 
-O Patamar de Poder também servirá como base para definir a progressão de **Atributos, Perícias, Traços e Poderes** do personagem.
-
-A quantidade e distribuição desses recursos por Patamar serão definidas posteriormente em uma regra própria de progressão e criação de personagem.
+O Patamar de Poder também serve como base para definir a progressão de **Atributos, Perícias, Traços e Poderes** do personagem.
