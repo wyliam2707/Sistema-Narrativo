@@ -1,63 +1,59 @@
-# Ordem de resolução do combate
+# Ordem Operacional do Combate
 
 Status: APROVADO
 
-Este arquivo define **a ordem operacional usada para resolver um turno de combate**.
+Este arquivo define **como aplicar o sistema durante um turno de combate**.
 
-A simultaneidade e o limite de até 10 segundos pertencem a `../operacao/turnos-de-combate.md`. As fórmulas pertencem aos arquivos específicos de `../resolucao/`.
+A duração e simultaneidade do turno pertencem a `turnos-de-combate.md`. As fórmulas e resultados mecânicos pertencem a `../resolucao/`.
 
-> **Este arquivo organiza a resolução; não redefine as mecânicas.**
+> **Operação organiza a sequência. Resolução calcula.**
 
 ## Atalho operacional
 
 ```text
 HUD
 → declaração humana
-→ completar apenas escolhas mecânicas faltantes
-→ declarações das IAs e do OPOSITOR
+→ completar somente escolhas mecânicas faltantes
+→ declarações das demais personas
 → julgar interferência e precedência
-→ resolver
+→ aplicar resoluções necessárias
 → atualizar estado
-→ mostrar resultado
+→ apresentar resultado
 → novo HUD
 ```
 
-## 1. Entrada em combate e HUD
+## 1. Entrada e HUD
 
-Quando o combate começar, avisar claramente e mostrar um HUD discreto somente do JOGADOR HUMANO.
-
-O HUD deve trazer apenas o necessário para decidir a próxima ação:
+Ao entrar em combate, sinalizar claramente e mostrar um HUD discreto do JOGADOR HUMANO apenas com informação necessária para decidir:
 
 ```text
-Nome — Vida atual/máxima | Mana atual/máxima | Trama atual, quando aplicável
+Nome — Vida atual/máxima | Mana atual/máxima | Trama, quando aplicável
 Atributos e Perícias relevantes
-Poderes disponíveis e recursos realmente necessários
-Status, Barreiras e efeitos relevantes
+Poderes e recursos relevantes
+Status, Barreiras e efeitos ativos relevantes
 ```
 
-Em texto, apresentar HUD e informações puramente mecânicas em **bloco de citação em itálico**, visualmente secundários à narração.
+Não revelar automaticamente informação oculta de adversários.
 
-Informações ocultas de adversários não são reveladas automaticamente.
+A forma visual do HUD pode seguir `../narracao/` sem transformar apresentação em regra mecânica.
 
 ## 2. Declaração humana
 
-Receber a intenção do JOGADOR HUMANO para o turno.
+Receber a intenção do JOGADOR HUMANO.
 
-Se faltar uma escolha mecânica que realmente altere custo ou resultado — como Poder, alvo, Alcance, Área, Duração, intensidade, modo ou outra opção de Hub — perguntar somente por essa escolha.
+Se faltar uma escolha que realmente altere custo ou resultado — Poder, alvo, Alcance, Área, Duração, intensidade, modo ou outra opção de Hub — perguntar somente essa escolha.
 
-O NARRADOR não escolhe silenciosamente pelo JOGADOR HUMANO.
-
-Se tudo que importa já estiver claro, **não criar nova confirmação burocrática**.
+Se tudo já estiver claro, não criar confirmação burocrática adicional.
 
 > **Perguntar somente o que ainda pode mudar a resolução.**
 
-## 3. IAs e OPOSITOR
+## 3. Demais declarações
 
-Depois da declaração humana estar mecanicamente definida, processar as declarações das demais personas aplicáveis conforme `../operacao/turnos-de-combate.md`.
+Depois da intenção humana estar suficientemente definida, receber/processar as declarações das demais personas aplicáveis conforme `turnos-de-combate.md` e `../personas/`.
 
-Configurações internas de IAs, NPCs e adversários podem ser resolvidas fora da tela, preservando informações ocultas.
+Configurações ocultas de adversários podem ser resolvidas sem expor informação reservada ao jogador.
 
-## 4. Ler o turno como simultâneo
+## 4. Ler o intervalo como simultâneo
 
 Todas as declarações pertencem ao mesmo intervalo de até 10 segundos.
 
@@ -65,47 +61,45 @@ Declarar primeiro não significa agir primeiro.
 
 O NARRADOR identifica somente quando necessário:
 
-- quais intenções realmente interferem entre si;
-- qual mecanismo cada uma usa;
-- qual oposição realmente responde a esse mecanismo;
-- se distância, surpresa, preparação, velocidade, posição ou consequência anterior criam precedência causal.
+- quais intenções interferem entre si;
+- qual mecanismo cada intenção usa;
+- quais reações realmente respondem a esse mecanismo;
+- se distância, surpresa, preparação, velocidade, posição ou ação já iniciada estabelecem precedência.
 
-Ações independentes podem simplesmente acontecer dentro do mesmo intervalo sem ordenação artificial.
+Ações independentes podem coexistir sem ordenação artificial.
 
-Quando duas intenções competirem pelo mesmo instante e a ficção não estabelecer precedência, usar uma **oposição comum** com os Atributos coerentes com cada ação.
+Quando duas ações competirem pelo mesmo instante e a ficção não decidir a precedência, usar uma oposição comum conforme `../resolucao/motor-de-disputa.md`.
 
-Esse teste resolve apenas aquela precedência local e não cria ordem permanente de iniciativa.
+Esse teste decide apenas aquela interferência local; não cria iniciativa permanente.
 
-## 5. Resolver
+## 5. Aplicar a resolução necessária
 
-Para cada aplicação relevante:
+Para cada incerteza relevante:
 
 ```text
 configurar o uso, quando necessário
 → pagar custo válido
-→ resolver oposição ou Dificuldade apenas se houver incerteza
+→ resolver CD ou oposição somente se houver incerteza
 → aplicar Dano/Efeito/Status conforme a regra específica
-→ estabelecer a consequência
+→ estabelecer consequência
 ```
 
-Referências principais:
+Fontes mecânicas principais:
 
 ```text
-motor universal        → motor-de-disputa.md
-Dano / RD / Barreira   → combate-e-dano.md
-Vida                    → vida.md
-Mana                    → mana.md
-Poderes e Hubs          → poderes/
-Status                  → status/
-Trama do protagonista   → ../personagem/trama.md
-Cura / recuperação      → poderes/cura.md + recuperacao-da-vida.md
+motor universal        → ../resolucao/motor-de-disputa.md
+combate / Dano / RD    → ../resolucao/combate-e-dano.md
+Vida                    → ../resolucao/vida.md
+recuperação             → ../resolucao/recuperacao-da-vida.md
+Mana                    → ../resolucao/mana.md
+Poderes e Hubs          → ../resolucao/poderes/
+Status                  → ../resolucao/status/
+Trama                    → ../personagem/trama.md
 ```
 
-A ficção continua determinando quais capacidades, defesas e proteções realmente participam.
+## 6. Atualização causal imediata
 
-## 6. Atualização imediata
-
-Assim que uma consequência é estabelecida, atualizar imediatamente o estado correspondente antes de resolver algo que dependa dela.
+Assim que uma consequência for estabelecida, atualizar o estado antes de resolver outra intenção que dependa dela.
 
 Isso pode alterar:
 
@@ -116,37 +110,38 @@ Isso pode alterar:
 - Barreiras;
 - posição;
 - alterações temporárias de Atributo;
-- capacidade de continuar uma intenção já declarada;
-- qualquer outro fato causalmente relevante.
+- possibilidade de continuar uma intenção já declarada.
 
-Se uma consequência muda a viabilidade de outra intenção do mesmo turno, reavaliar essa intenção com o novo estado.
-
-Isso representa interferência causal dentro dos mesmos segundos compartilhados; **não cria iniciativa fixa**.
+Se a nova consequência muda outra ação do mesmo intervalo, reavaliar essa ação com o estado atualizado.
 
 > **Resolveu, atualizou.**
 
-## 7. Apresentação do resultado
+Isso representa causalidade dentro do mesmo turno simultâneo; não cria fila fixa.
 
-Mostrar ao JOGADOR HUMANO apenas os resultados mecânicos relevantes para sua decisão e aquilo que a ficção torna observável.
+## 7. Apresentação
 
-Por padrão, mostrar **o resultado, não a conta completa**.
+Mostrar ao JOGADOR HUMANO apenas resultados mecânicos relevantes à decisão e aquilo que a ficção torna observável.
 
-Fórmulas e cálculos intermediários aparecem somente em auditoria, teste de regra ou quando forem necessários para resolver uma dúvida real.
+Por padrão, mostrar o resultado, não toda a conta intermediária.
 
-A narração permanece em texto normal; HUD e resultados mecânicos permanecem discretos.
+A forma narrativa pertence a `../narracao/`.
 
 ## 8. Fechamento do turno
 
 Resolver somente o que cabe no intervalo atual.
 
-Se surgir uma nova decisão relevante não coberta pela declaração anterior, parar no ponto causal e abrir nova oportunidade de decisão.
+```text
+surge nova decisão relevante
+→ parar no ponto causal
 
-Antes do próximo turno, o estado atual deve refletir todas as consequências já estabelecidas.
+intervalo chega ao limite
+→ fechar o turno
+```
 
-No início da próxima ação humana, mostrar novamente o HUD atualizado.
+Antes do próximo turno, `../persistencia/` deve refletir o estado já estabelecido.
 
-Quando o confronto deixar de exigir acompanhamento em segundos, encerrar o combate e retornar ao fluxo normal de cena.
+Se o confronto deixar de exigir acompanhamento em segundos, retornar a `janelas-e-interrupcoes.md`.
 
 ## Regra final
 
-> **HUD → declaração → escolhas faltantes → IAs/Opositor → julgar interferência → resolver → atualizar → mostrar resultado → novo HUD. O turno continua simultâneo; nenhuma regra de Poder ou Status cria uma fila paralela de iniciativa.**
+> **HUD → declarações → interferência → resolução necessária → atualização → apresentação → novo HUD. `operacao/` determina a ordem; `resolucao/` determina os resultados.**
