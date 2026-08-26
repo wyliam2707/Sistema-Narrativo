@@ -76,11 +76,24 @@ O Teleporte não adivinha destinos. Para teleportar-se, o usuário precisa conse
 - **Descrita:** um local em que o usuário nunca esteve, mas cuja posição pode ser estabelecida por uma referência externa suficiente, como mapa, coordenadas, endereço, carta, descrição geográfica ou equivalente. O Teleporte leva a um ponto coerente próximo ao local identificado e não revela posições internas desconhecidas.
 - **Astral:** permite alcançar outro plano, dimensão ou espaço equivalente, mas continua exigindo uma referência válida capaz de identificar esse destino. O usuário não precisa ter visitado o plano, porém não pode viajar para um plano que não consiga referenciar minimamente.
 
+## Precisão e lógica da cena
+
+A precisão do ponto de chegada é limitada pela **qualidade real da referência disponível na ficção**.
+
+> **Conhecer onde fica um lugar não significa conhecer todos os pontos dentro dele.**
+
+Quando a referência identifica apenas uma região, construção, cidade, fortaleza ou outro local amplo, o Teleporte leva a um **ponto coerente que essa referência permita estabelecer**. Ele não cria conhecimento que o personagem não possui.
+
 Exemplos:
 
 - um mapa que mostre onde fica uma fortaleza pode permitir chegar próximo dela usando **Descrita**;
+- nunca ter estado no castelo de um vilão, mas saber onde ele fica, pode permitir chegar ao castelo, à entrada, ao pátio, à muralha ou a outro ponto plausível conforme a referência disponível;
+- isso **não** permite aparecer automaticamente na sala onde está um item específico apenas porque esse seria o ponto mais conveniente para roubá-lo e fugir;
 - conhecer a localização de um edifício não permite escolher uma sala interna desconhecida sem referência suficiente para essa sala;
+- se o personagem conhece exatamente uma sala, corredor ou outro ponto interno por experiência própria ou por uma referência suficientemente precisa, esse ponto pode ser um destino válido;
 - um mapa planar, coordenada mística, texto ou outra referência capaz de identificar um plano pode permitir **Astral** mesmo sem visita anterior.
+
+> **O Teleporte leva até onde a referência permite. Ele não transforma informação incompleta em precisão perfeita.**
 
 > **Se o destino não puder ser minimamente localizado ou identificado, o Teleporte é impossível.**
 
