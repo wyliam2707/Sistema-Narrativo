@@ -13,14 +13,16 @@ Esta pasta responde à pergunta:
 - `principio-de-resolucao.md` — quando estabelecer diretamente, quando resolver incerteza e como tratar dúvida restante;
 - `leitura-da-ficha-na-resolucao.md` — como identificar Atributo, Perícia, meio, situação e oposição realmente aplicáveis;
 - `motor-de-disputa.md` — motor universal de testes contra cenário e oposição ativa;
-- `efeitos/` — páginas de efeitos específicos;
-- `escalas-de-efeito.md` — índice de compatibilidade que aponta para `efeitos/`;
-- `fonte-e-vida-estrutural.md` — Fonte da manifestação, Atributo estrutural e Vida dos efeitos persistentes;
-- `consolidacao.md` — Alcance, Alvos, Área/Tamanho, Duração e configuração de efeitos;
+- `vida.md` — Vida Máxima derivada, 0 Vida e incapacidade;
+- `mana.md` — Mana Máxima, recuperação e `[X]`;
+- `recuperacao-da-vida.md` — recuperação natural e Medicina;
 - `combate-e-dano.md` — regras específicas de combate e Dano;
 - `ordem-de-resolucao-do-combate.md` — ordem operacional de resolução do combate;
-- `energia.md` — recurso legado ainda aguardando migração para Mana;
-- `recuperacao-da-vida.md` — recuperação e Medicina;
+- `energia.md` — página de compatibilidade para referências antigas a ENERGIA;
+- `efeitos/` — páginas legadas de efeitos específicos enquanto a migração de Poderes e Status não for concluída;
+- `escalas-de-efeito.md` — índice de compatibilidade que aponta para `efeitos/`;
+- `fonte-e-vida-estrutural.md` — regra legada de efeitos persistentes, sujeita à etapa de Poderes/Status;
+- `consolidacao.md` — configuração legada de alcance, alvos, área/tamanho e duração, sujeita à etapa de Poderes;
 - `resolucao-social.md` — influência social e preservação de agência;
 - `informacao-e-investigacao.md` — percepção, repertório e investigação normal.
 
@@ -109,6 +111,25 @@ Quando a ficção conceder a um lado uma vantagem **óbvia e inegável** naquela
 Se a vantagem já tornar o resultado evidente, não se rola.
 
 Em oposição, empate favorece quem iniciou a ação. A resposta precisa superar o resultado da ação para impedi-la.
+
+## Vida e Mana
+
+A Vida Máxima é derivada dos seis Atributos conforme `vida.md`.
+
+A Mana Máxima é derivada dos seis Atributos conforme `mana.md`.
+
+```text
+Vida atual
+Mana atual
+condições temporárias
+→ pertencem ao STATUS
+
+Vida Máxima
+Mana Máxima
+→ podem aparecer na ficha para consulta
+```
+
+`ENERGIA` não é mais a reserva universal ativa; referências antigas devem ser tratadas pela compatibilidade em `energia.md` e migradas para Mana.
 
 ## Tarefas demoradas
 
