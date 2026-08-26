@@ -4,43 +4,71 @@ Status: APROVADO
 
 Este arquivo define **como aplicar o sistema durante um combate**.
 
-A rodada e a Iniciativa pertencem a `turnos-de-combate.md`. As fórmulas e resultados mecânicos pertencem a `../resolucao/`.
+O Turno e a Iniciativa pertencem a `turnos-de-combate.md`. As fórmulas e resultados mecânicos pertencem a `../resolucao/`.
 
-> **Operação organiza a sequência. Resolução calcula.**
+> **Operação organiza a sequência. Resolução calcula. O NARRADOR julga.**
+
+## Princípio de autoridade
+
+Durante combate, o NARRADOR continua sendo somente o **juiz da mesa**.
+
+```text
+JOGADOR HUMANO
+→ controla o próprio personagem
+
+JOGADOR IA / JOGADOR IA EVENTUAL
+→ controla aliados ou NPCs delegados
+
+OPOSITOR
+→ controla inimigos e forças adversárias válidas
+
+NARRADOR
+→ JULGA
+→ NARRA A SENTENÇA
+→ REGISTRA
+```
+
+O NARRADOR não escolhe ações voluntárias para nenhuma dessas peças.
+
+> **Quem controla a peça declara. O NARRADOR julga o que foi declarado.**
 
 ## Atalho operacional
 
 ```text
 início do combate
-→ rolar Iniciativa
+→ rolar Iniciativa uma vez
 → ordenar participantes
-→ chamar o primeiro
-→ declaração da peça ativa
-→ apresentar Hub e aguardar configuração, quando o JOGADOR HUMANO declarar um Poder
+→ iniciar o Turno
+→ chamar a vez atual
+→ persona responsável declara
+→ configurar, quando necessário
+→ NARRADOR julga
 → resolver ação e Defesa aplicável
-→ atualizar estado
-→ apresentar resultado
-→ chamar o próximo da Iniciativa
-→ ao terminar a ordem, iniciar nova rodada
+→ NARRADOR narra a sentença
+→ registrar estado
+→ NARRADOR pergunta se pode prosseguir
+→ com autorização, chamar o próximo da Iniciativa
+→ ao processar o último, encerrar o Turno
+→ ao voltar ao primeiro, iniciar novo Turno
 ```
 
-## 1. Entrada, Iniciativa e HUD
+## 1. Entrada, Iniciativa e interface
 
 Ao entrar em combate:
 
 ```text
 identificar participantes
-→ rolar Iniciativa = 4d6 + Controle
+→ cada participante rola Iniciativa = 4d6 + Controle uma única vez
 → ordenar do maior para o menor
 → apresentar a ordem
-→ iniciar a primeira posição
+→ iniciar o Turno pela primeira posição
 ```
 
-A ordem permanece conforme `turnos-de-combate.md`.
+A ordem permanece fixa até o fim do combate conforme `turnos-de-combate.md`.
 
-Ao chegar a posição do JOGADOR HUMANO, mostrar um HUD discreto apenas com informação necessária para decidir.
+### JOGADOR HUMANO
 
-O formato padrão é compacto e não usa linhas vazias dentro do bloco:
+Ao chegar a vez do JOGADOR HUMANO, mostrar o HUD completo necessário para decisão:
 
 ```text
 Nome — Vida atual/máxima | Mana atual/máxima | Trama, quando aplicável
@@ -52,24 +80,53 @@ Status > nenhum
 Barreira > nenhuma
 ```
 
-Regras de apresentação do HUD:
+Regras:
 
-- mostrar sempre os **seis Atributos**, inclusive valores `[0]`;
-- dividir os Atributos em exatamente duas linhas;
-- listar Perícias em uma única linha sempre que couber;
-- listar Poderes em uma única linha sempre que couber;
-- usar `Status > nenhum` e `Barreira > nenhuma` quando não houver valores ativos;
-- substituir `nenhum` pelos valores atuais quando houver Status ou Barreiras;
-- não inserir linhas vazias dentro do HUD;
-- não revelar automaticamente informação oculta de adversários.
+- mostrar sempre os seis Atributos, inclusive `[0]`;
+- exatamente duas linhas de Atributos;
+- Perícias em uma linha sempre que couber;
+- Poderes em uma linha sempre que couber;
+- `Status > nenhum` e `Barreira > nenhuma` quando vazios;
+- não inserir linhas vazias dentro do HUD.
 
-A ordem de Iniciativa pode ser mostrada separadamente do HUD e não precisa ser repetida a cada posição se não tiver mudado.
+### Peças controladas por IA ou OPOSITOR
 
-## 2. Posição do JOGADOR HUMANO
+Quando chegar a vez de uma peça controlada por JOGADOR IA, JOGADOR IA EVENTUAL ou OPOSITOR, não é necessário exibir ao humano uma interface completa de decisão da peça.
 
-Quando a posição do JOGADOR HUMANO chegar, receber sua intenção.
+Quando for útil mostrar seu estado observável, usar apresentação compacta:
 
-Se a própria intenção estiver indefinida a ponto de não ser possível saber qual ação ele deseja realizar, a decisão continua pertencendo ao jogador.
+```text
+Aliado [1] — Vida [X/X] | Mana [X/X]
+Status > nenhum
+```
+
+ou:
+
+```text
+Inimigo [1] — Vida [X/X] | Mana [X/X]
+Status > nenhum
+```
+
+A persona responsável pode consultar internamente a ficha e as regras necessárias sem exigir do JOGADOR HUMANO um Hub de memória equivalente ao HUD humano.
+
+Informação realmente oculta continua oculta, salvo regra da campanha que determine exposição diferente.
+
+## 2. Etapa da vez do JOGADOR HUMANO
+
+Quando a vez do JOGADOR HUMANO chegar:
+
+```text
+1. mostrar HUD
+→ 2. receber intenção do jogador
+→ 3. configurar o que exigir escolha
+→ 4. NARRADOR julga
+→ 5. resolver
+→ 6. narrar sentença
+→ 7. registrar
+→ 8. perguntar se pode prosseguir
+```
+
+Se a intenção estiver indefinida a ponto de não ser possível saber qual ação o jogador deseja realizar, a decisão continua pertencendo ao JOGADOR HUMANO.
 
 ### Poderes e Hubs
 
@@ -79,7 +136,7 @@ Depois de apresentar o Hub, aguardar a configuração do jogador.
 
 O NARRADOR não escolhe automaticamente a melhor configuração do Poder e não otimiza Dano, Alcance, Área, Alvos, Duração, Defesa ou qualquer outra progressão do Hub.
 
-O jogador pode declarar somente as alterações que deseja. As opções do Hub que ele não alterar permanecem em suas **posições iniciais**, desde que sejam válidas para a intenção e para a situação.
+O jogador pode declarar somente as alterações que deseja. As opções do Hub que ele não alterar permanecem em suas **posições iniciais**, desde que sejam válidas para a intenção e a situação.
 
 Ao configurar um Poder:
 
@@ -88,64 +145,105 @@ Ao configurar um Poder:
 - não aumentar automaticamente opções apenas porque existe Mana disponível;
 - não substituir o Poder declarado por outro;
 - não trocar a intenção do jogador;
-- depois que a configuração estiver válida, não pedir confirmação adicional.
+- depois que a configuração estiver válida, não pedir confirmação mecânica adicional desnecessária.
 
 > **Poder declarado → mostrar Hub → jogador escolhe alterações → restante fica na posição inicial.**
 
-## 3. Defesa automática
+## 3. Etapa da vez do JOGADOR IA / JOGADOR IA EVENTUAL
 
-Quando o JOGADOR HUMANO for alvo de uma ação que permita Defesa, o NARRADOR usa automaticamente a **melhor opção defensiva válida e coerente** disponível naquele instante.
+Quando chegar a vez de uma peça sob essas personas:
 
-Isso inclui, sem interromper o fluxo:
+```text
+1. persona responsável escolhe a ação do aliado/NPC
+→ 2. configura internamente o necessário
+→ 3. NARRADOR julga
+→ 4. resolve
+→ 5. narra a sentença
+→ 6. registra
+→ 7. pergunta se pode prosseguir
+```
+
+O NARRADOR não escolhe a ação do aliado.
+
+Não é necessário mostrar ao JOGADOR HUMANO o Hub completo usado pela IA apenas para lembrar opções. A IA consulta diretamente a ficha e as regras.
+
+## 4. Etapa da vez do OPOSITOR
+
+Quando chegar a vez de uma peça adversária:
+
+```text
+1. OPOSITOR escolhe a ação do inimigo
+→ 2. configura internamente o necessário
+→ 3. NARRADOR julga validade, meios e oportunidade
+→ 4. resolve
+→ 5. narra somente o que é observável
+→ 6. registra
+→ 7. pergunta se pode prosseguir
+```
+
+O NARRADOR não escolhe a ação do inimigo.
+
+Configurações, intenções ou informação reservada do OPOSITOR não precisam ser expostas automaticamente ao JOGADOR HUMANO.
+
+## 5. Defesa automática
+
+Quando o JOGADOR HUMANO for alvo de uma ação que permita Defesa, o NARRADOR usa automaticamente a **melhor opção defensiva válida e coerente já disponível naquele instante**.
+
+Isso faz parte do julgamento mecânico da ação recebida e não transfere ao NARRADOR autoridade para criar uma nova vontade do personagem.
+
+Pode usar automaticamente:
 
 - o Atributo defensivo mais favorável entre os que a ficção realmente permite;
 - a forma de defesa mecanicamente mais vantajosa já disponível;
 - bônus defensivos, Status, Barreiras, Poderes já ativos ou outras fontes automáticas aplicáveis.
 
-Essa regra não autoriza:
+Não pode:
 
 - ativar um novo Poder defensivo por decisão própria;
 - gastar recurso opcional quando houver escolha estratégica real;
-- inventar uma reação que não esteja disponível.
+- inventar reação que não esteja disponível.
 
-Nesses casos, a decisão continua pertencendo ao JOGADOR HUMANO.
-
-A Defesa ocorre no momento da ação que a provocou e **não consome a posição de Iniciativa** do defensor.
+A Defesa ocorre no momento da ação que a provocou e **não consome a vez de Iniciativa** do defensor.
 
 > **Se a defesa já é possível, use a melhor. Se exige uma nova escolha, não invente a escolha.**
 
-## 4. Posições das demais personas
+## 6. Julgamento
 
-Quando chegar a posição de uma peça controlada por JOGADOR IA, JOGADOR IA EVENTUAL, OPOSITOR ou outra persona aplicável:
+Depois que a persona responsável declarar e configurar sua ação, o NARRADOR julga.
+
+Pode verificar somente o necessário:
 
 ```text
-persona declara/processa a intenção da peça
-→ configura opções ocultas quando necessário
-→ NARRADOR resolve
-→ aplica consequências
-→ atualiza estado
-→ segue para o próximo da Iniciativa
+fatos estabelecidos
+regras aplicáveis
+ficha
+estado atual
+conhecimento da peça
+meios
+alcance
+recursos
+oportunidade
+incerteza real
 ```
 
-Configurações ocultas de adversários não são expostas automaticamente ao jogador.
+O NARRADOR não modifica a intenção para produzir uma cena melhor e não cria uma nova ação para nenhuma peça.
 
-A ordem de autoridade das personas continua pertencendo a `../personas/`; a Iniciativa determina apenas **quando a peça age no combate**.
+Se houver incerteza real, aplica a resolução correspondente.
 
-## 5. Aplicar a resolução necessária
+## 7. Resolução e atualização
 
-Para cada ação da posição atual:
+Para a ação da vez atual:
 
 ```text
-configurar o uso, quando necessário
-→ pagar custo válido
-→ resolver CD ou oposição somente se houver incerteza
+pagar custo válido, quando houver
+→ resolver CD ou oposição quando necessário
 → aplicar Defesa
 → aplicar Dano/Efeito/Status conforme a regra específica
 → estabelecer consequência
-→ atualizar estado
+→ atualizar o estado imediatamente
 ```
 
-Fontes mecânicas principais:
+Fontes principais:
 
 ```text
 motor universal        → ../resolucao/motor-de-disputa.md
@@ -158,50 +256,58 @@ Status                  → ../resolucao/status/
 Trama                    → ../personagem/trama.md
 ```
 
-## 6. Atualização causal imediata
+Assim que a consequência for estabelecida, atualizar o estado antes de qualquer posição posterior.
 
-Assim que uma consequência for estabelecida, atualizar o estado **antes de chamar a próxima posição de Iniciativa**.
+> **Resolveu → atualizou.**
 
-Isso pode alterar:
+## 8. Narrar a sentença
 
-- Vida;
-- Mana;
-- Trama;
-- Status;
-- Barreiras;
-- posição;
-- alterações temporárias de Atributo;
-- possibilidade de agir quando a posição futura chegar.
+Depois do julgamento e da resolução, o NARRADOR apresenta o resultado.
 
-Se uma peça ficar incapaz de agir antes de sua vez, quando sua posição chegar usar o estado atual e encerrar a posição sem uma ação voluntária, salvo regra específica.
+Mostrar ao JOGADOR HUMANO somente:
 
-> **Resolveu → atualizou → próximo da Iniciativa.**
+- consequência mecânica relevante;
+- aquilo que a ficção torna observável;
+- mudança de estado necessária para a próxima decisão.
 
-## 7. Apresentação
-
-Mostrar ao JOGADOR HUMANO apenas resultados mecânicos relevantes à decisão e aquilo que a ficção torna observável.
-
-Por padrão, mostrar o resultado de forma compacta, sem toda a conta intermediária.
+Por padrão, usar apresentação compacta sem toda a conta intermediária.
 
 A forma narrativa pertence a `../narracao/`.
 
-## 8. Fechamento da rodada
+## 9. Registrar e pausar
 
-A rodada só termina quando todas as posições aplicáveis da ordem de Iniciativa forem processadas.
+Depois de narrar a sentença:
 
 ```text
-há participante ativo ainda não processado
-→ chamar o próximo
-
-última posição processada
-→ fechar a rodada
-→ iniciar nova rodada, se o combate continuar
+registrar o novo estado
+→ não chamar automaticamente a próxima posição
+→ perguntar ao JOGADOR HUMANO se pode prosseguir
 ```
 
-Antes da nova rodada, `../persistencia/` deve refletir o estado já estabelecido.
+Forma operacional simples:
+
+> **Posso prosseguir?**
+
+Somente depois da autorização o fluxo avança para a próxima posição da Iniciativa.
+
+Essa autorização controla o avanço da mesa; ela não transforma o JOGADOR HUMANO em controlador das outras personas.
+
+## 10. Fechamento do Turno
+
+O Turno termina somente quando a última posição da Iniciativa foi processada.
+
+```text
+há posição ainda não processada
+→ após autorização, chamar o próximo
+
+última posição processada
+→ encerrar o Turno
+→ perguntar se pode prosseguir
+→ ao voltar ao primeiro, iniciar novo Turno
+```
 
 Se o confronto deixar de exigir acompanhamento em segundos, retornar a `janelas-e-interrupcoes.md`.
 
 ## Regra final
 
-> **Iniciativa → peça ativa → declaração → Hub quando aplicável → resolução e Defesa → atualização imediata → próximo da Iniciativa. Poder do jogador sempre abre o Hub; Defesa já disponível é automática; nenhuma peça ativa deve ser esquecida antes do fim da rodada.**
+> **Combate é executado em etapas. A Iniciativa determina de quem é a vez; a persona responsável controla a peça; o NARRADOR apenas julga, narra a sentença e registra. Depois de cada vez, o NARRADOR pausa e pergunta se pode prosseguir. O último da Iniciativa encerra o Turno; voltar ao primeiro inicia o Turno seguinte.**
