@@ -13,7 +13,8 @@ A duração e simultaneidade do turno pertencem a `turnos-de-combate.md`. As fó
 ```text
 HUD
 → declaração humana
-→ completar somente escolhas mecânicas faltantes
+→ apresentar Hub, quando um Poder for declarado
+→ completar automaticamente escolhas mecânicas não declaradas
 → declarações das demais personas
 → julgar interferência e precedência
 → aplicar resoluções necessárias
@@ -53,15 +54,26 @@ O HUD é uma interface de decisão, não uma ficha completa. Informações que n
 
 A forma visual pode seguir `../narracao/` sem transformar apresentação em regra mecânica.
 
-## 2. Declaração humana
+## 2. Declaração humana e configuração
 
 Receber a intenção do JOGADOR HUMANO.
 
-Se faltar uma escolha que realmente altere custo ou resultado — Poder, alvo, Alcance, Área, Duração, intensidade, modo ou outra opção de Hub — perguntar somente essa escolha.
+Quando o JOGADOR HUMANO declarar o uso de um Poder, consultar a resolução desse Poder e apresentar seu Hub aplicável antes de resolver o uso, para que o jogador possa ver as opções disponíveis e declarar as escolhas que desejar.
 
-Se tudo já estiver claro, não criar confirmação burocrática adicional.
+Depois da declaração do jogador, qualquer escolha mecânica que permaneça não declarada — alvo, Alcance, Área, Duração, intensidade, modo, Defesa, Atributo defensivo ou outra configuração aplicável — é completada automaticamente pelo NARRADOR com a **melhor opção válida para realizar a intenção declarada**.
 
-> **Perguntar somente o que ainda pode mudar a resolução.**
+Ao completar automaticamente:
+
+- respeitar todas as escolhas já declaradas pelo JOGADOR HUMANO;
+- respeitar limites, custos, alcance, recursos disponíveis e demais regras do Poder;
+- usar a melhor opção mecanicamente válida dentro da ação já escolhida;
+- não substituir o Poder declarado por outro;
+- não trocar a intenção do jogador por uma ação diferente;
+- não interromper o fluxo apenas para perguntar uma configuração que possa ser completada dessa forma.
+
+Se a própria intenção estiver indefinida a ponto de não ser possível saber qual ação o jogador deseja realizar, a decisão continua pertencendo ao JOGADOR HUMANO.
+
+> **O jogador escolhe a ação. O sistema completa a mecânica que ele deixou em aberto.**
 
 ## 3. Demais declarações
 
@@ -160,4 +172,4 @@ Se o confronto deixar de exigir acompanhamento em segundos, retornar a `janelas-
 
 ## Regra final
 
-> **HUD → declarações → interferência → resolução necessária → atualização → apresentação → novo HUD. `operacao/` determina a ordem; `resolucao/` determina os resultados.**
+> **HUD → declaração → Hub quando aplicável → completar mecânica omitida → demais declarações → interferência → resolução necessária → atualização → apresentação → novo HUD. `operacao/` determina a ordem; `resolucao/` determina os resultados.**
