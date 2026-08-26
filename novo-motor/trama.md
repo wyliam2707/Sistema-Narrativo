@@ -87,15 +87,25 @@ A redução pode ser parcial ou suficiente para anular todo o Dano, limitada ape
 
 Trama pode ser gasta **depois que o resultado e sua consequência imediata forem conhecidos**.
 
+Essa correção não se limita a combate. Ela pode alterar qualquer consequência narrativa que acabou de acontecer: dano, falha, reação social, descoberta, coincidência, oportunidade perdida ou outro desfecho imediato compatível com um uso válido de Trama.
+
 O jogador pode corrigir o acontecimento que acabou de ser narrado, desde que a narrativa ainda não tenha avançado para outro evento relevante decorrente dele.
 
 Quando isso acontece, o Narrador volta ao instante necessário e narra novamente o acontecimento já considerando o gasto de Trama. A versão corrigida passa a ser aquilo que realmente aconteceu na ficção.
 
-Exemplo:
+Exemplo de combate:
 
 Um ataque causa **12 de Dano** e levaria o protagonista a **0 de Vida**. Depois de conhecer essa consequência, o jogador declara que gastará **12 Pontos de Trama** para reduzir o Dano a `0`.
 
 O Narrador retorna ao momento do golpe e reescreve sua resolução: o ataque erra por pouco, atinge uma proteção, é desviado no último instante ou encontra outra explicação coerente. O protagonista nunca chegou a sofrer aqueles 12 pontos de Dano na versão definitiva da cena.
+
+Exemplo social:
+
+O protagonista faz uma cantada para duas heroínas e ambas rejeitam a ideia de forma imediata, tratando a proposta como absurda. Antes que a cena avance, o jogador gasta **10 Pontos de Trama** para abrir essa possibilidade narrativa.
+
+O Narrador volta ao momento da reação e reescreve a cena. Elas podem continuar respondendo **não**, mas a ideia deixa de ser simplesmente inimaginável: hesitam, consideram a possibilidade ou passam a enxergá-la como algo que talvez possa ser discutido no futuro.
+
+O gasto não muda automaticamente a decisão final das personagens. Ele muda o espaço de possibilidades disponível naquele momento.
 
 > **Trama pode corrigir o instante recém-acontecido; ela não reescreve livremente acontecimentos antigos depois que a história já avançou.**
 
@@ -127,7 +137,9 @@ Esse gasto **abre a possibilidade; não força o resultado**.
 
 A situação passa a admitir seriamente aquela direção narrativa, mas personagens envolvidos continuam tomando suas próprias decisões de acordo com seu CONTROLE, Personalidade, Tendências, Desejos, Relacionamentos, limites e tudo que já aconteceu na ficção.
 
-Por exemplo, se duas heroínas jamais considerariam dividir uma relação com o protagonista, o jogador pode gastar 10 Pontos de Trama para fazer com que essa ideia deixe de ser descartada de imediato e passe a ser **realmente considerada**. Isso não obriga nenhuma delas a aceitar. A partir daí, a reação e o desenvolvimento da possibilidade pertencem normalmente à narrativa e às decisões de cada personagem.
+O efeito pode ser usado antes da resposta ou imediatamente depois dela, por meio da regra de correção retroativa imediata. Nesse segundo caso, a cena é reescrita apenas o suficiente para que a nova possibilidade passe a existir.
+
+Por exemplo, se duas heroínas jamais considerariam dividir uma relação com o protagonista, o jogador pode gastar 10 Pontos de Trama para fazer com que essa ideia deixe de ser descartada de imediato e passe a ser **realmente considerada**. Isso não obriga nenhuma delas a aceitar. A resposta ainda pode ser **não agora**, mas deixa de ser necessariamente **nunca**.
 
 > **Trama pode mudar o espaço das possibilidades da história; ela não toma a decisão pelos personagens.**
 
