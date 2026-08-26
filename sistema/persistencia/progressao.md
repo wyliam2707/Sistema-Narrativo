@@ -2,219 +2,146 @@
 
 Status: APROVADO
 
-Progressão registra consequências estabelecidas que continuam causalmente vivas.
+Neste sistema, **Progressão** significa memória de consequências estabelecidas que continuam causalmente vivas.
 
-Ela preserva o fato. Não decide quando nem como ele voltará à história.
+> **Não é XP, evolução de poder, recompensa de missão nem crescimento mecânico.**
 
-## Fronteira com outras camadas
+Ela registra o fato; não decide quando ele voltará à história nem quem o movimentará.
+
+## Fronteira
 
 ```text
 FICHA
-→ quem o personagem é.
+→ quem a personagem é
 
 STATUS
-→ como ele está agora.
+→ como ela está agora
 
 PROGRESSÃO
-→ o que aconteceu e continua causalmente vivo.
+→ fato passado que ainda pode produzir consequência futura
 
 LIVRO
-→ o que aconteceu no passado, mesmo quando já não produz consequência futura.
+→ histórico do que aconteceu, mesmo quando já não produz consequência
 ```
-
-Progressão não é evolução de poder, XP, recompensa de missão nem crescimento automático.
-
-Ela existe para preservar consequências que:
-
-- não são apenas estado atual;
-- não precisam integrar a ficha;
-- não devem ser esquecidas apenas porque ficaram fora de cena;
-- ainda podem alterar decisões, oportunidades, obrigações, ameaças, acessos, relações ou reações futuras.
 
 ## O que registrar
 
-Registrar apenas fatos estabelecidos que ainda possuam potencial causal futuro plausível.
+Registrar somente fatos já estabelecidos que ainda possam alterar de forma plausível:
+
+- decisões;
+- oportunidades;
+- obrigações;
+- ameaças;
+- acessos;
+- relações;
+- reações futuras;
+- outras continuidades causais.
 
 Exemplos:
 
 ```text
-PROGRESSÃO:
-- Rei Alaric ainda deve um favor importante a Corvin.
-- A investigação da Guarda de Valéria continua aberta.
+- Rei Alaric ainda deve um favor importante.
+- A investigação da Guarda continua aberta.
 - Darek sobreviveu e jurou vingança.
-- Corvin possui acesso autorizado aos Arquivos Reais.
+- Existe acesso temporário autorizado aos Arquivos Reais.
 - Uma promessa ainda precisa ser cumprida.
-- Uma pessoa ficou favorável ao personagem após o resgate, mas ainda não é uma relação recorrente.
 ```
 
-A pergunta prática é:
+Pergunta prática:
 
-> **Isso ainda pode mudar uma decisão, oportunidade, obrigação, ameaça, acesso, relação ou reação futura?**
+> **Isso continua verdadeiro e ainda pode importar depois?**
 
-Se sim, pode pertencer à Progressão.
+Se não, o fato pode permanecer apenas no Livro.
 
-Se não, o acontecimento permanece apenas no Livro.
+## Forma
 
-## Forma de registro
+Progressão não possui:
 
-Progressão não usa categorias obrigatórias.
-
-Favor, acesso, hostilidade, dívida, promessa, restrição, investigação e outras formas de consequência podem aparecer como descrições naturais, quando forem verdadeiras na ficção.
-
-> **Uma entrada de Progressão deve dizer o que continua verdadeiro e, quando necessário, quem ou o que está envolvido.**
-
-Não existe:
-
-- nível de Progressão;
+- nível;
 - valor numérico obrigatório;
-- duração abstrata;
-- economia de pontos;
+- duração abstrata universal;
+- pontos;
 - lista fechada de tipos.
 
-## Relação com REL e RECURSOS
+A entrada deve dizer naturalmente **o que continua verdadeiro** e, quando necessário, quem está envolvido.
 
-Progressão não vira automaticamente `REL`, `RECURSOS` ou ficha.
+## REL, RECURSOS e ficha
 
-Ela só muda de lugar quando a natureza do fato muda.
+Progressão não vira automaticamente outra parte da ficha.
 
-Exemplo:
-
-```text
-Princesa Elara ficou favorável após o resgate.
-→ Progressão.
-
-Ela passa a integrar de forma recorrente a vida do personagem.
-→ pode passar para REL.
-```
-
-Outro exemplo:
+Ela muda de destino quando a natureza do fato muda.
 
 ```text
-Um acesso temporário aos Arquivos Reais foi concedido.
-→ Progressão.
+reação favorável circunstancial
+→ Progressão
 
-O acesso se torna uma capacidade externa estável e acionável do personagem.
-→ pode passar para RECURSOS, se isso representar melhor a nova realidade.
+vínculo passa a ser recorrente
+→ pode virar REL
 ```
-
-## Relação com o OPOSITOR
-
-Progressão preserva fatos. O OPOSITOR pode consultar esses fatos e apresentá-los como pressão quando houver causa, oportunidade e meios coerentes.
-
-Exemplo:
 
 ```text
-PROGRESSÃO:
-- Darek sobreviveu e jurou vingança.
+acesso temporário
+→ Progressão
+
+acesso vira meio estável da personagem
+→ pode virar RECURSO
 ```
 
-O fato pertence à Persistência.
+A consolidação permanente segue `atualizacao-de-ficha.md` e `relevancia-da-ficha.md`.
 
-A possibilidade de Darek agir contra o personagem pode ser usada pelo OPOSITOR quando a ficção justificar.
+## Agência e oposição
 
-> **Progressão preserva a verdade causal. O OPOSITOR pode transformar verdades existentes em pressão.**
+Este arquivo **não decide quem pode agir sobre uma consequência**.
 
-Nem toda Progressão é oposição.
+A continuidade ativa de personagens, planos e ganchos pertence a `../agencia/`.
 
-Um favor ainda devido, um acesso ainda válido ou uma promessa favorável continuam sendo Progressão mesmo sem fornecer qualquer pressão ao OPOSITOR.
+A autoridade das peças pertence a `../personas/`.
 
-## Autoridade sobre Progressão
+Progressão apenas preserva a verdade causal necessária para que essas áreas não precisem inventá-la depois.
 
-Progressão só registra consequências já estabelecidas pela ficção.
-
-Nenhum papel pode criar uma consequência persistente apenas porque ela seria interessante, conveniente ou útil para a trama.
-
-### JOGADOR / JOGADOR IA
-
-Podem declarar ações e decisões capazes de produzir consequências futuras.
-
-Não podem transformar unilateralmente uma intenção em fato persistente.
-
-### OPOSITOR
-
-Pode apontar consequências existentes e apresentá-las como pressão quando houver causa, oportunidade e meios coerentes.
-
-Não pode inventar retroativamente uma Progressão para justificar oposição.
-
-### NARRADOR
-
-Determina, pela ficção e pelas regras de resolução, quando uma consequência foi realmente estabelecida, alterada ou encerrada.
-
-### PERSISTÊNCIA
-
-Registra, atualiza ou remove a entrada depois que o fato já foi estabelecido.
-
-> **NARRADOR estabelece o fato. PERSISTÊNCIA registra o fato. OPOSITOR pode explorar o fato.**
-
-Exemplo:
-
-```text
-[JOGADOR]
-Quero convencer o rei a me dever um favor.
-
-Isso ainda é intenção.
-
-Se a cena for resolvida e o rei realmente assumir a obrigação:
-
-PROGRESSÃO:
-- Rei Alaric deve um favor importante.
-```
-
-O mesmo princípio vale para oposição: uma ameaça, hostilidade, promessa, investigação ou outra consequência só entra na Progressão quando já existir como fato da ficção.
+> **Persistência guarda o fato. Agência decide se ainda existe um fio capaz de voltar a se mover.**
 
 ## Entrada, mudança e saída
 
 ### ENTRA
 
-Uma entrada surge quando um fato estabelecido passa a possuir potencial causal futuro.
-
-```text
-- Rei Alaric deve um favor a Corvin.
-```
+Quando um fato já estabelecido passa a ter continuidade causal relevante.
 
 ### MUDA
 
-Uma entrada muda quando a própria ficção altera a consequência de forma relevante.
-
-```text
-Antes:
-- Rei Alaric deve um favor a Corvin.
-
-Depois:
-- Rei Alaric deve apenas um favor limitado a questões políticas.
-```
+Quando a própria ficção altera a consequência.
 
 ### SAI
 
-Uma entrada sai quando deixa de possuir potencial causal futuro.
+Quando a consequência deixa de possuir potencial causal futuro ou é consolidada em outra fonte.
 
 Exemplos:
 
-- o favor foi cobrado e quitado;
-- a dívida foi paga;
-- a promessa foi cumprida;
-- a ameaça deixou de existir sem continuidade relevante;
-- a investigação foi encerrada;
-- a consequência foi substituída por uma verdade estável em outra camada;
-- a relação circunstancial passou a ser recorrente e foi incorporada a `REL`.
+- favor quitado;
+- dívida paga;
+- promessa cumprida;
+- investigação encerrada;
+- ameaça eliminada sem continuidade;
+- vínculo circunstancial convertido em `REL`;
+- acesso convertido em RECURSO estável.
 
-## O tempo não apaga Progressão
+## Tempo
 
-Uma consequência não deixa de existir apenas porque ficou muitos capítulos fora de cena.
+Tempo por si só não apaga uma consequência.
 
-Se continua verdadeira e ainda possui potencial causal futuro, permanece válida.
+Se ela continua verdadeira e relevante, permanece.
 
-> **Progressão só muda ou sai quando a própria ficção altera ou encerra a consequência.**
+## O que não registrar
 
-## O que não é Progressão
+Não usar Progressão para:
 
-Não registrar como Progressão:
+- tudo que aconteceu por completude histórica;
+- estado momentâneo que pertence ao STATUS;
+- capacidade estável que pertence à ficha;
+- relação recorrente já registrada em `REL`;
+- fato encerrado sem consequência futura;
+- possibilidade ainda não estabelecida.
 
-- tudo que aconteceu apenas por completude histórica;
-- estados atuais que pertencem ao STATUS;
-- características estáveis que pertencem à ficha;
-- relações já recorrentes que pertencem a `REL`;
-- fatos já encerrados sem consequência futura;
-- possibilidades inventadas que ainda não foram estabelecidas na ficção.
+## Regra final
 
-> **Progressão é memória causal da campanha, não arquivo de tudo que aconteceu.**
+> **Progressão é memória causal: guarda somente fatos já estabelecidos que ainda podem produzir consequências futuras. Não cria agência, oposição ou evolução mecânica.**
