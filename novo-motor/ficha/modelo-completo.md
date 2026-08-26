@@ -91,6 +91,10 @@ Este bloco registra como a personagem pensa, reage e orienta suas escolhas no pr
 - **Desejos:** aquilo que atualmente procura, protege ou pretende alcançar.
 - **Medos e Limites:** aquilo que teme, evita ou dificilmente aceita.
 
+**Personalidade e Tendências orientam toda decisão voluntária e toda forma de expressão da personagem**, incluindo fala, humor, reações, demonstrações de afeto, conflitos, silêncio, exposição ou ocultação de sentimentos e relacionamentos.
+
+Quando a personagem estiver sob `CONTROLE: JOGADOR IA`, cabe ao **JOGADOR IA** aplicar essas informações ao decidir como ela age, reage e se expressa. O NARRADOR descreve as consequências e o mundo, mas não escolhe essas decisões voluntárias por ela.
+
 ---
 
 # Bloco 6 — Relacionamentos
