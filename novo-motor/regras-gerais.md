@@ -26,19 +26,76 @@ O Narrador pode criar situações, perigos, reações e consequências, mas não
 
 # 2. Testes
 
-Quando uma ação incerta exigir teste, a base é:
+Todo teste do sistema termina sempre com:
+
+> **resultado de 4 dados + Atributo**
+
+Bônus e penalidades não alteram a quantidade de dados que entra no resultado final. Eles alteram quantos dados são rolados e quais quatro resultados são mantidos.
+
+## Rolagem normal
+
+Sem bônus ou penalidades:
 
 > **4d6 + Atributo**
 
-Quando uma Perícia relevante fizer parte da ação:
+## Bônus
 
-> **5d6, mantenha os 4 maiores resultados, + Atributo**
+- **+1d:** role `5d6` e mantenha os **4 melhores** resultados;
+- **+2d:** role `6d6` e mantenha os **4 melhores** resultados.
 
-A Perícia melhora a consistência da ação; ela não acrescenta um valor fixo.
+## Penalidades
 
-Quando houver oposição ativa, cada lado utiliza a resolução apropriada àquilo que está fazendo.
+- **-1d:** role `5d6` e mantenha os **4 piores** resultados;
+- **-2d:** role `6d6` e mantenha os **4 piores** resultados.
 
-Quando a oposição for fixa, pode existir uma **CD** definida para a situação. A escala geral de CDs ainda precisa ser consolidada em regra própria.
+## Bônus e penalidades
+
+Bônus e penalidades se anulam antes da rolagem.
+
+Exemplos:
+
+- `+1d` e `-1d` resultam em `0`: teste normal;
+- `+2d` e `-1d` resultam em `+1d`;
+- `+1d` e `-3d` resultam em `-2d` após o limite.
+
+Independentemente de quantas fontes estejam presentes, o modificador final nunca pode ser maior que **+2d** nem menor que **-2d**.
+
+Assim, mesmo que um personagem acumule penalidades suficientes para chegar a `-10d`, o teste continua limitado a **-2d**.
+
+## Perícias
+
+Uma Perícia relevante concede **+1d** ao teste.
+
+Ela segue as mesmas regras gerais de bônus e penalidades: pode ser anulada por uma penalidade e participa do limite final de `-2d` a `+2d`.
+
+## Formas universais de comparação
+
+Existem duas formas de resolver qualquer teste do sistema.
+
+### Contra o cenário
+
+O cenário não rola dados contra o personagem. Quando existe incerteza real, o resultado é comparado a uma **Dificuldade** definida pela situação:
+
+> **4 dados mantidos + Atributo × Dificuldade**
+
+A Dificuldade varia de **10 a 24**:
+
+- **10** representa uma ação banal quando ainda existe motivo para testar;
+- **24** representa uma ação quase impossível.
+
+Os valores entre 10 e 24 representam graus intermediários de dificuldade conforme a situação concreta.
+
+A Dificuldade deve representar **a dificuldade real da ação dentro da ficção**. Ela não deve ser aumentada ou reduzida para ajustar a campanha, acompanhar o poder dos personagens ou produzir artificialmente uma determinada chance de sucesso.
+
+> **O que é fácil deve continuar fácil. O que é difícil deve continuar difícil.**
+
+### Contra outro personagem ou entidade
+
+Quando existe oposição ativa, os dois lados fazem seus testes:
+
+> **4 dados mantidos + Atributo × 4 dados mantidos + Atributo**
+
+Essas regras se aplicam a **qualquer teste do sistema**. Combate, Poderes, Perícias, resistências e demais resoluções utilizam a mesma estrutura; muda apenas o Atributo coerente, os bônus e penalidades aplicáveis e aquilo contra o qual o resultado é comparado.
 
 ## Atributo pela finalidade
 
@@ -337,13 +394,11 @@ Isso entra em conflito conceitual com efeitos claramente mentais, como Terror, I
 
 É necessária uma regra contextual ou um mapeamento explícito para Efeitos. Enquanto isso não for decidido, não existe uma solução universal completamente consistente.
 
-## 14.3 Empates e CDs
+## 14.3 Empates
 
-A base `4d6 + Atributo` está definida, mas ainda falta uma regra central que estabeleça:
+A estrutura universal dos testes está definida, assim como a faixa de Dificuldade de **10 a 24** para testes contra o cenário.
 
-- quem vence um empate em uma oposição;
-- a escala padrão de CDs, caso ela seja utilizada;
-- quando uma oposição deve substituir uma CD.
+Ainda falta estabelecer **quem vence um empate em uma oposição direta**.
 
 ## 14.4 Mana e `[X]`
 
