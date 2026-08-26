@@ -3,7 +3,7 @@
 **Ilusão [X]**
 
 **Alcance:** Toque → Curto → Médio  
-**Área:** Próximo → Curto → Médio → Longo  
+**Área:** Alvo → Curto → Médio → Longo  
 **Modo:** Alterar → Ocultar → Criar / Destruir  
 **Sentidos:** Geral → Todos  
 **Efeito:** Parcial  
