@@ -1,109 +1,191 @@
-# LEIA PRIMEIRO — Como usar o Sistema Narrativo
+# LEIA PRIMEIRO — Roteador do Sistema
 
-Este arquivo é a **porta de entrada operacional** do sistema.
+Este arquivo é a **porta de entrada** de `sistema/`.
 
-Ele não redefine mecânicas. Sua função é encaminhar cada tarefa para a fonte correta.
+Ele não redefine regras. Sua função é responder:
 
-## Entrada do sistema
+> **Qual pasta é dona desta informação ou procedimento?**
 
-Ao iniciar um RPG, perguntar:
+## Entrada
+
+Ao iniciar um RPG:
 
 > **Nova campanha ou continuar uma campanha existente?**
 
 ```text
 NOVA CAMPANHA
-→ sistema/criacao/README.md
+→ criacao/README.md
 
 CONTINUAR
 → campanhas/<nome>/README.md
 ```
 
-Para nova campanha, `sistema/criacao/README.md` é a referência principal.
+Não pedir novamente ao jogador informação que a campanha já possui em fonte canônica.
 
-Para continuar uma campanha atual, o `README.md` da própria campanha é a primeira fonte concreta. Não pedir ao jogador para repetir informações que os arquivos já fornecem.
+## As oito identidades
 
-## Arquitetura atual
+```text
+CRIAÇÃO
+→ CONSTRÓI
+→ como uma campanha/ficha nasce e fica pronta para jogar
+
+PERSONAGEM
+→ DEFINE
+→ quem a peça é e quais capacidades consolidadas possui
+
+PERSONAS
+→ AUTORIZA
+→ quem pode decidir, declarar, opor e julgar
+
+AGÊNCIA
+→ CONTINUA
+→ quais vontades, planos e fios permanecem capazes de voltar a agir
+
+OPERAÇÃO
+→ ORGANIZA
+→ quando e em que ordem consultar/aplicar as regras durante o jogo
+
+RESOLUÇÃO
+→ CALCULA
+→ qual é o resultado quando existe incerteza mecânica
+
+NARRAÇÃO
+→ APRESENTA
+→ como um resultado já estabelecido aparece como cena
+
+PERSISTÊNCIA
+→ PRESERVA
+→ o que continua verdadeiro e onde deve ser salvo
+```
+
+## Arquitetura
 
 ```text
 sistema/
 ├── criacao/
 ├── personagem/
 ├── personas/
-├── resolucao/
 ├── agencia/
+├── operacao/
+├── resolucao/
 ├── narracao/
-├── persistencia/
-└── operacao/
+└── persistencia/
 ```
 
+A ordem acima representa responsabilidades, não uma obrigação de ler todas as pastas em toda ação.
+
+> **Consultar somente o que a situação realmente exigir.**
+
+## Roteamento por pergunta
+
 ```text
-criacao/      → como uma campanha nasce
-personagem/   → quem a entidade é e do que é capaz
-personas/     → quem decide e qual autoridade possui
-resolucao/    → o que acontece
-agencia/      → continuidade de vontade própria
-narracao/     → como mostrar o que aconteceu
-persistencia/ → o que precisa permanecer
-operacao/     → em que ordem aplicar e consultar as áreas
+Como crio a campanha ou reviso a ficha inicial?
+→ criacao/
+
+Quem esta personagem é? Que Atributos, Perícias, Poderes ou Traços possui?
+→ personagem/
+
+Quem decide esta ação? Quem joga este NPC? Quem julga?
+→ personas/
+
+Este plano, promessa, NPC ou gancho continua vivo fora da cena?
+→ agencia/
+
+Qual é a próxima etapa da mesa? É hora de abrir janela, turno ou interrupção?
+→ operacao/
+
+Preciso rolar? Qual CD, oposição, Dano, Poder ou Status se aplica?
+→ resolucao/
+
+Como transformar o resultado em cena sem mudá-lo?
+→ narracao/
+
+O que precisa ser salvo? Em estado, ficha, mestre, mundo ou Livro?
+→ persistencia/
 ```
 
-## Ordem operacional de consulta
+## Fluxo durante uma sessão
 
-Consultar somente o necessário para a função atual.
-
-Para uma sessão em andamento:
-
-1. `sistema/operacao/ciclo-de-cena.md` — ordem das declarações e julgamento;
-2. `sistema/personas/` — autoridade de cada persona;
-3. `sistema/personagem/` — definição das peças;
-4. `sistema/resolucao/` — mecânica necessária;
-5. `sistema/agencia/` — continuidade e ganchos quando relevantes;
-6. `sistema/narracao/` — apresentação da ficção;
-7. `sistema/persistencia/` — registro do resultado e continuidade.
-
-## Estrutura das campanhas atuais
+Uma sessão normalmente atravessa as áreas assim:
 
 ```text
-campanhas/<nome-da-campanha>/
+OPERAÇÃO
+→ abre a janela e organiza declarações
+
+PERSONAS
+→ define quem tem autoridade para declarar
+
+PERSONAGEM + AGÊNCIA
+→ fornecem capacidades, vontade, conhecimento e continuidade relevantes
+
+RESOLUÇÃO
+→ entra somente se ainda houver incerteza real
+
+NARRAÇÃO
+→ apresenta a sentença
+
+PERSISTÊNCIA
+→ registra aquilo que passou a ser verdade e precisa continuar
+```
+
+Isso não significa que toda cena precise consultar todas as áreas.
+
+## Combate
+
+```text
+operacao/turnos-de-combate.md
+→ define o intervalo simultâneo
+
+operacao/ordem-de-resolucao-do-combate.md
+→ organiza HUD, declarações, interferência, atualização e fechamento
+
+resolucao/
+→ calcula somente as incertezas e consequências necessárias
+```
+
+Não existe iniciativa fixa criada por `resolucao/` ou por Poderes.
+
+## Campanha concreta
+
+```text
+campanhas/<nome>/
 ├── README.md
 ├── personagens/
-│   └── README.md
 ├── estado/
 │   └── atual.md
 ├── mundo/
-│   └── README.md
 ├── mestre/
-│   └── README.md
 └── livro/
-    └── README.md
 ```
 
 ```text
-PERSONAGENS → quem são as peças
-ESTADO      → como as coisas estão agora
-MUNDO       → o que existe
+PERSONAGENS → fichas consolidadas
+ESTADO      → presente necessário para retomar
+MUNDO       → verdades estáveis do cenário
 MESTRE      → material reservado
-LIVRO       → o que aconteceu
+LIVRO       → histórico consolidado do que aconteceu
 ```
 
-## Material legado de campanhas
+A regra de onde persistir cada verdade pertence a `persistencia/`.
 
-Material antigo em:
+## Material legado
 
-```text
-aventuras/
-```
+`aventuras/` permanece como legado de campanhas antigas.
 
-permanece preservado como legado de campanhas. Não mover, apagar, reestruturar ou converter automaticamente.
+Não mover, apagar, converter ou usar automaticamente esse material como regra universal atual.
 
-Arquivos universais legados já removidos de `sistema/` não são fontes válidas e não devem ser restaurados.
+Arquivos universais antigos já removidos de `sistema/` não devem ser restaurados como segunda camada de regras.
 
 ## Prioridade
 
-Quando houver conflito:
+Quando houver conflito real:
 
 1. correção explícita mais recente do `JOGADOR HUMANO`;
-2. regra canônica atual da arquitetura;
-3. fonte canônica da própria campanha.
+2. regra canônica atual da área responsável;
+3. fonte canônica da própria campanha, quando a questão for um fato daquela campanha.
 
-> **As subpastas atuais governam o sistema. Não existe uma segunda camada histórica de regras dentro de `sistema/`.**
+Uma pasta não deve sobrescrever silenciosamente a responsabilidade de outra.
+
+## Regra final
+
+> **Criação constrói. Personagem define. Personas autorizam. Agência continua. Operação organiza. Resolução calcula. Narração apresenta. Persistência preserva.**
