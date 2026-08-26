@@ -29,8 +29,10 @@ O custo total é a soma dos avanços escolhidos e nunca pode ultrapassar `[X]`.
 ## Conjuração
 
 - **Cena:** exige preparação ao longo da Cena antes de produzir o efeito.
-- **Turno:** o usuário começa a conjuração em sua vez; os demais personagens agem normalmente e o efeito é concluído quando chegar novamente a vez do usuário.
-- **Instante:** o efeito é declarado e resolvido na mesma vez.
+- **Turno:** exige preparação durante um intervalo simultâneo completo de até 10 segundos. O efeito é concluído no fechamento daquele Turno se a preparação continuar válida e não tiver sido interrompida.
+- **Instante:** o efeito é produzido no instante causal em que for resolvido dentro do Turno ou da cena, sem exigir um intervalo completo de preparação.
+
+`Conjuração` mede tempo necessário para produzir o efeito. Ela não cria iniciativa, fila de atuação ou economia de uma ação por Turno. Interferências durante a preparação seguem `../../operacao/turnos-de-combate.md`.
 
 ## Modos
 
