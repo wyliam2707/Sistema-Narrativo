@@ -116,7 +116,9 @@ Exemplo:
 - **Titãs:** equipe principal, círculo de confiança e referência de pertencimento.
 - **[Membro]:** relação individual que possua nuance própria suficiente para ser registrada.
 
-A categoria **Romance** não exige amor declarado, namoro formal ou uma relação já definida. Ela também registra vínculos que ultrapassaram amizade comum por intimidade, desejo, envolvimento ou compromisso, mesmo quando a própria personagem ainda considera a relação complexa, ambígua ou difícil de nomear.
+A categoria **Romance** não exige amor declarado, namoro formal ou uma relação já definida. Ela registra vínculos que ultrapassaram amizade comum por intimidade, desejo realizado, envolvimento afetivo ou compromisso, mesmo quando a própria personagem ainda considera a relação complexa, ambígua ou difícil de nomear.
+
+**Atração isolada não cria um relacionamento.** Achar alguém bonito, sentir curiosidade, ter interesse passageiro, fantasiar ou reconhecer desejo sem intenção ou vínculo concreto não coloca essa pessoa em Romance. O campo existe para relações que realmente passaram a fazer parte da vida afetiva da personagem.
 
 Relacionamentos registram **como a personagem sente e entende o vínculo no presente**. A origem e os acontecimentos que formaram essas relações pertencem ao Histórico quando forem relevantes.
 
