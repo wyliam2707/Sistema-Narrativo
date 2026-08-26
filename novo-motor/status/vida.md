@@ -88,28 +88,25 @@ Assim, um **Poder de Cura** utiliza a quantidade indicada em seu Hub ou descriç
 
 Essas fontes nunca elevam a Vida acima da Vida Máxima, salvo se alguma regra específica declarar expressamente o contrário.
 
-## Dano, arredondamento e Redução de Dano
+## Dano, arredondamento, Redução de Dano e Barreira
 
 Quando uma regra produzir uma fração, **arredonde sempre para baixo**.
 
 Quando um dano chegar à etapa final de aplicação, ele causa no mínimo **1 ponto de dano**. Reduções não podem diminuir um dano que chegou a essa etapa abaixo de 1.
 
-A ordem entre Defesa e Redução de Dano é:
+A ordem completa de aplicação do dano é:
 
-> **Defesa → redução causada pela Defesa → RD → dano final**
+> **Defesa → redução causada pela Defesa → RD → Barreira → Vida**
 
-Assim, quando uma **Defesa [Parcial]** for bem-sucedida, primeiro reduza o dano pela metade e arredonde para baixo. Depois aplique a maior RD válida.
+Assim, quando uma **Defesa [Parcial]** for bem-sucedida, primeiro reduza o dano pela metade e arredonde para baixo. Depois aplique a maior RD válida. O dano restante atinge primeiro qualquer **Barreira** aplicável e somente depois reduz a **Vida**.
 
-Exemplo: um ataque causa `9` de dano contra um alvo que vence uma Defesa [Parcial] e possui RD `2`:
+Se a Barreira absorver todo o dano restante, a Vida não é reduzida. Se a Barreira chegar a 0 e ainda houver dano excedente, apenas esse excedente passa para a Vida.
+
+Exemplo: um ataque causa `9` de dano contra um alvo que vence uma Defesa [Parcial], possui RD `2` e uma Barreira com `1 PV`:
 
 1. `9 ÷ 2 = 4,5` → arredonda para **4**;
 2. `4 - 2 = 2`;
-3. o alvo sofre **2 de dano**.
+3. a Barreira absorve **1** e é destruída;
+4. o **1** excedente reduz a Vida.
 
-Se a RD reduzisse o resultado a `0` ou menos, o alvo ainda sofreria **1 de dano**, desde que o ataque tenha chegado à etapa final de dano.
-
-## Ainda a definir
-
-Permanece em aberto:
-
-- posição de **Barreiras** na ordem completa de aplicação do dano.
+Se a RD reduzisse o resultado a `0` ou menos, o dano final ainda seria **1**, desde que o ataque tenha chegado à etapa de dano. Esse dano seria então aplicado primeiro à Barreira, se houver, e depois à Vida.
