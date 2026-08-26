@@ -2,135 +2,57 @@
 
 Status: APROVADO
 
-Este arquivo define como uma personagem nasce, é registrada e depois revisada dentro do sistema.
+Este arquivo define **o procedimento para construir e revisar uma ficha** durante a criação da campanha.
 
-Ele não substitui o processo completo de criação de campanha em `../criacao/README.md`.
+Ele complementa `README.md`. As definições estáveis da personagem pertencem a `../personagem/`; este arquivo apenas organiza como essas definições são propostas, aprovadas e registradas.
 
----
+> **`criacao/` conduz o processo. `personagem/` define o conteúdo da ficha.**
 
 ## Princípio central
 
-> **A ficha nasce completa em estrutura e mínima em conteúdo.**
+A ficha nasce completa em estrutura e mínima em conteúdo.
 
-Antes da revisão, definir somente:
+Antes da revisão, preencher somente:
 
 ```text
-1 - NOME
-2 - IMPORTÂNCIA
-3 - CONTROLE
+NOME
+IMPORTÂNCIA
+CONTROLE
 ```
 
-Se uma dessas informações já tiver sido fornecida explicitamente, registrá-la e não perguntar novamente.
+Se alguma dessas informações já foi fornecida, não perguntar novamente.
 
-`IMPORTÂNCIA` e `CONTROLE` são independentes. Suas regras pertencem a `ficha.md` e `../personas/`.
-
----
+O modelo da ficha pertence a `../personagem/ficha.md`. O significado operacional de `CONTROLE` pertence a `../personas/`.
 
 ## Método de criação assistida
 
-A revisão usa como padrão:
-
 ```text
 base disponível
-→ proposta coerente do NARRADOR
-→ correções do JOGADOR HUMANO
-→ reapresentação quando necessário
+→ proposta coerente
+→ correção do JOGADOR HUMANO
+→ reapresentação quando necessária
 → aprovação explícita
-→ persistência
+→ persistência do bloco aprovado
 ```
 
-A base disponível pode vir de:
+A proposta pode usar Conceito, versão canônica escolhida, fatos já discutidos, relações estabelecidas e blocos anteriores aprovados.
 
-- versão conhecida ou canônica escolhida;
-- Conceito e fatos já discutidos;
-- blocos anteriores aprovados;
-- relações e decisões já estabelecidas;
-- material original criado para a personagem.
+> **Proposta não é fato. Somente conteúdo aprovado entra na ficha.**
 
-A proposta evita criação burocrática do zero, mas não vira fato antes da aprovação.
+## Campo desconhecido
 
-> **Proposta não é fato. Aprovação transforma a proposta em informação persistente.**
-
-Uma correção pontual altera somente aquilo que realmente foi pedido, salvo quando a mudança exigir reorganização mais ampla.
-
----
-
-## Nascimento da ficha
-
-Assim que `NOME + IMPORTÂNCIA + CONTROLE` estiverem definidos:
-
-1. criar o arquivo da personagem;
-2. copiar o modelo-base completo de `ficha.md`;
-3. usar `Status: PENDENTE DE REVISÃO`;
-4. preencher apenas Nome, Importância e CONTROLE;
-5. deixar os demais campos vazios.
-
-Exemplo estrutural:
+Nunca usar `[0]` como marcador de pendência.
 
 ```text
-# Nome
-
-Status: PENDENTE DE REVISÃO
-Importância: ...
-CONTROLE: ...
-Patamar: [ ]
-
-Nome real:
-Idade:
-Aparência:
-Estilo:
-Conceito:
-Descrição:
-
-TRAÇOS:
-
-ATR:
-Corpo  → Potência [ ] | Controle [ ] | Resistência [ ]
-Mente  → Intelecto [ ] | Presença [ ] | Vontade [ ]
-
-Vida Máxima [ ] | Mana Máxima [ ]
-
-PERÍCIAS:
-PODERES:
-RECURSOS:
-REL:
-
-## Personalidade e tendências
-## Desejos / objetivos atuais
-## Medos / limites relevantes
-## Conhecimento atual relevante
-## História consolidada relevante
+Controle [ ] → ainda não definido
+Controle [0] → valor mecanicamente definido
 ```
 
-Não inventar nem persistir antecipadamente os campos ainda não revisados.
-
----
-
-## Campo desconhecido fica vazio
-
-Nunca usar `[0]` para representar pendência.
-
-```text
-Controle [ ]
-```
-
-significa valor ainda não definido.
-
-```text
-Controle [0]
-```
-
-significa valor mecanicamente definido.
-
-Perícias não usam `[+0]`. Uma Perícia ainda não escolhida simplesmente não aparece.
-
-> **Zero é valor real, nunca marcador de informação ausente.**
-
----
+Perícia ainda não escolhida simplesmente não aparece.
 
 ## Ordem da revisão
 
-Cada ficha é construída uma por vez em cinco blocos:
+Cada ficha é revisada em cinco blocos:
 
 ```text
 1 - Identidade e Conceito
@@ -143,255 +65,131 @@ Cada ficha é construída uma por vez em cinco blocos:
 Em todos os blocos:
 
 ```text
-base disponível
-→ proposta
-→ discussão e correção
-→ aprovação
-→ salvar
-→ próximo bloco
+propor
+→ discutir/corrigir
+→ aprovar
+→ salvar somente o aprovado
+→ avançar
 ```
 
----
+### Bloco 1 — Identidade e Conceito
 
-## Bloco 1 — Identidade e Conceito
-
-Nome, Importância e CONTROLE já chegam definidos.
-
-Revisar, quando relevantes:
+Revisar somente o que for relevante para reconhecer e interpretar a personagem, como:
 
 - nome real;
 - idade;
 - aparência;
 - estilo;
-- origem;
-- natureza;
+- origem/natureza;
 - Conceito;
-- descrição;
-- demais elementos necessários para reconhecer e interpretar a personagem.
+- descrição.
 
-Para personagem conhecido ou licenciado, a versão-base serve como proposta reconhecível. O jogador pode adaptá-la antes de aprovar.
+### Bloco 2 — Patamar, Atributos e Perícias
 
-Depois da aprovação, a versão da campanha se torna a referência canônica local.
+Usar as fontes de definição:
 
----
+```text
+../personagem/patamar.md
+../personagem/atributos.md
+../personagem/pericias.md
+../personagem/calibracao.md
+```
 
-## Bloco 2 — Patamar, Atributos e Perícias
-
-Definir o **Patamar** coerente com o desenvolvimento mecânico pretendido.
-
-Aplicar `patamar.md`:
+Aplicar:
 
 ```text
 Pontos de Atributo = Patamar × 4
-Limite inicial por Atributo = Patamar + 2
+Limite inicial = Patamar + 2
 máximo permanente = [7]
 ```
 
-Distribuir os seis Atributos:
+Definir os seis Atributos e registrar apenas Perícias realmente pertencentes à personagem.
+
+Depois de aprovados os Atributos permanentes, calcular:
 
 ```text
-Potência
-Controle
-Resistência
-Intelecto
-Presença
-Vontade
+Vida Máxima → ../resolucao/vida.md
+Mana Máxima → ../resolucao/mana.md
 ```
 
-Valores negativos podem devolver pontos conforme `patamar.md`.
+### Bloco 3 — Poderes e capacidades
 
-Registrar apenas as Perícias realmente pertencentes à personagem.
+Registrar quais Poderes pertencem ao arsenal funcional da personagem.
 
-Perícias não possuem grau; sua relevância concede `+1d` conforme `pericias.md` e `../resolucao/`.
+A posse pertence a `../personagem/poderes.md`; a mecânica concreta e os Hubs pertencem a `../resolucao/poderes/`.
 
-Depois dos Atributos permanentes serem aprovados, calcular automaticamente:
+Não criar Poder para ação comum já coberta por Atributos, equipamento ordinário e ficção.
+
+### Bloco 4 — Traços, Recursos e relações
+
+Usar:
 
 ```text
-Vida Máxima
-Mana Máxima
+Traços      → ../personagem/tracos.md e ../personagem/tracos/
+Relações    → ../personagem/relacoes.md
+RECURSOS    → ../personagem/ficha.md
 ```
 
-pelas regras de `../resolucao/vida.md` e `../resolucao/mana.md`.
+Vícios e Corrupções usam a economia definida em `../personagem/patamar.md`.
 
-Não escolher Vida por Importância narrativa e não calcular Mana pelo maior Atributo.
+Informações já aprovadas reaparecem automaticamente; não perguntar de novo.
 
----
+### Bloco 5 — Conferência final
 
-## Bloco 3 — Poderes e capacidades
+Revisar a ficha inteira e completar apenas informações úteis para interpretação e continuidade, como:
 
-Registrar quais Poderes realmente fazem parte do arsenal funcional da personagem.
+- personalidade e tendências;
+- desejos/objetivos;
+- medos/limites;
+- conhecimento relevante;
+- história consolidada relevante.
 
-Poderes não usam graduação genérica `[1]–[5]`.
+Conferir:
 
-A quantidade inicial segue `patamar.md` quando a personagem estiver sendo criada mecanicamente pelo Novo Motor.
+- Conceito × Patamar coerentes;
+- pontos e limites de Atributos válidos;
+- Perícias sem graduação;
+- Vida/Mana derivadas corretamente;
+- Poderes sem grau genérico `[1–5]`;
+- ausência de ENERGIA universal;
+- ausência de campos inventados ou não aprovados.
 
-Cada Poder possui funcionamento e Hub próprios.
-
-Revisar:
-
-- quais Poderes existem;
-- limites conceituais;
-- fonte ou manifestação narrativa quando relevante;
-- equipamentos tratados como capacidade especial;
-- demais capacidades ativas que precisem de regra própria.
-
-Não criar um Poder para uma ação comum que Atributos e ficção já resolvam adequadamente.
-
----
-
-## Bloco 4 — Traços, Recursos e relações
-
-Revisar:
-
-- Traços Comuns;
-- Traços Sobrenaturais;
-- Vícios;
-- Corrupções;
-- RECURSOS recorrentes;
-- relações que realmente pertençam à ficha.
-
-Traços positivos usam valores de aquisição `[1–3]` quando a regra específica exigir.
-
-Vícios valem `[-1]`; Corrupções podem valer `[-1]` ou `[-2]`.
-
-Esses valores não viram bônus genérico de teste.
-
-A economia adicional gerada por Traços negativos segue `patamar.md`.
-
-Relações e fatos já aprovados anteriormente devem reaparecer automaticamente na proposta; não perguntar de novo aquilo que já está estabelecido.
-
----
-
-## Bloco 5 — Conferência final
-
-Revisar a ficha inteira para transformar os blocos aprovados em uma personagem completa para interpretação e continuidade.
-
-É apropriado completar e revisar aqui:
-
-```text
-Personalidade e tendências
-Desejos / objetivos atuais
-Medos / limites relevantes
-Conhecimento atual relevante
-História consolidada relevante
-```
-
-Também verificar:
-
-- coerência entre Conceito e Patamar;
-- soma e limites dos Atributos;
-- Perícias sem graduação antiga;
-- Vida e Mana derivadas corretamente;
-- ausência de Poder `[1–5]` legado;
-- ausência de ENERGIA como reserva universal;
-- ausência de campos preenchidos sem aprovação.
-
-Campos comprovadamente inúteis podem ser removidos somente depois desta conferência.
-
----
-
-## Calibração independente
-
-Cada personagem é construído pelo que ele próprio é, conforme `calibracao.md`.
-
-Não usar outra ficha como régua automática.
-
-Equilíbrio deliberado entre personagens só entra quando o JOGADOR HUMANO pedir explicitamente.
-
-Patamar e Dificuldade também não são a mesma coisa.
-
-> **A ficha descreve a personagem. A Dificuldade descreve o problema.**
-
----
+A regra sobre **o que realmente merece permanecer na ficha** pertence a `../persistencia/relevancia-da-ficha.md`.
 
 ## Salvamento durante a revisão
 
 Cada bloco aprovado é persistido antes de avançar.
 
-```text
-bloco apresentado
-→ discutir e corrigir
-→ jogador aprova
-→ atualizar ficha
-→ avançar
-```
+Conteúdo em discussão, alternativas rejeitadas e rascunhos não entram como cânone.
 
-Conteúdo ainda em discussão, alternativas recusadas e tentativas intermediárias não entram na ficha definitiva.
+O destino concreto da ficha depende da estrutura da campanha definida em `estrutura-da-campanha.md` e das regras de persistência.
 
-> **Bloco aprovado vira estado persistente. Conteúdo em discussão permanece fora da ficha.**
+## Pareamento
 
----
-
-## Organização dos arquivos na campanha
-
-Personagens com agência de jogador ficam em:
-
-```text
-campanhas/<nome>/personagens/<personagem>.md
-```
-
-Isso inclui:
-
-```text
-CONTROLE: JOGADOR HUMANO
-CONTROLE: JOGADOR IA
-CONTROLE: JOGADOR IA EVENTUAL
-```
-
-NPCs persistentes sem agência de jogador ficam em:
-
-```text
-campanhas/<nome>/mestre/
-```
-
-ou, quando útil:
-
-```text
-campanhas/<nome>/mestre/npcs/
-```
-
-Não usar `mundo/npcs/` como destino padrão.
-
----
-
-## Antagonistas reservados
-
-Antagonistas podem receber ficha reservada em `mestre/` quando a revisão aberta revelaria informação que precisa permanecer secreta.
-
-Isso não altera as regras mecânicas nem a calibração.
-
-Capacidades ocultas usadas contra outras peças devem estar previamente estabelecidas sempre que isso for necessário para continuidade e justiça ficcional.
-
-Não alterar capacidades retroativamente apenas para contrariar uma solução válida.
-
----
+Depois que todas as fichas iniciais com agência estiverem aprovadas, aplicar `pareamento.md` antes de definir a situação inicial da história.
 
 ## Estado de aprovação
 
-Uma ficha apresentável ao jogador permanece:
+Durante a revisão:
 
 ```text
 Status: PENDENTE DE REVISÃO
 ```
 
-até a conferência final ser aprovada.
-
-Depois:
+Depois do Bloco 5 aprovado:
 
 ```text
 Status: APROVADO
 ```
 
----
-
 ## Alterações posteriores
 
-A ficha não recebe melhorias automáticas apenas por missão, capítulo ou passagem de tempo narrativa.
+Depois que a criação terminou, mudanças permanentes deixam de ser procedimento de criação e passam a seguir:
 
-Quando a ficção altera de forma estável a personagem, a ficha pode ser atualizada conforme as regras de progressão vigentes.
-
-Mudanças permanentes nos Atributos exigem recálculo de Vida Máxima e Mana Máxima.
+```text
+../persistencia/atualizacao-de-ficha.md
+```
 
 ## Regra final
 
-> **Criar personagem significa consolidar conceito e agência primeiro, depois Patamar, seis Atributos, Perícias sem graduação, Poderes por arsenal funcional, Traços e recursos. Nada é persistido antes de aprovação quando a ficha é aberta ao jogador.**
+> **Criação organiza proposta, aprovação e salvamento. As regras que dizem o que Patamar, Atributos, Perícias, Poderes e Traços são permanecem em `personagem/`.**
