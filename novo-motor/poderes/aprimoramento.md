@@ -22,6 +22,14 @@ Eles **não recalculam Vida Máxima nem Mana Máxima**.
 
 Vida e Mana continuam sendo calculadas apenas a partir dos valores permanentes dos Atributos.
 
+## Limite temporário
+
+O limite normal de **[7]** representa o máximo permanente da escala de Atributos.
+
+Efeitos temporários podem elevar um Atributo acima de [7] enquanto durarem.
+
+Exemplo: **Potência [7] +2 temporário = Potência [9]** durante a duração do efeito.
+
 ## Sobreposição no mesmo Atributo
 
 Efeitos concorrentes de **Aprimoramento** sobre o mesmo Atributo não se somam entre si.
