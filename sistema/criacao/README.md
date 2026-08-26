@@ -6,7 +6,7 @@ Esta pasta responde à pergunta:
 
 > **Como uma campanha nasce e fica pronta para começar?**
 
-`criacao/` contém procedimentos de construção. Ela materializa a campanha, transforma conceitos em fichas, conduz aprovação, pareia informações e prepara o estado inicial.
+`criacao/` contém procedimentos de construção. Ela materializa a campanha, transforma conceitos em fichas, conduz aprovação, pareia informações, prepara o estado inicial e só libera o START quando a mesa operacional estiver completa.
 
 Ela não redefine o conteúdo mecânico da personagem, autoridade das personas, resolução de ações, narração ou persistência.
 
@@ -18,13 +18,15 @@ criacao/
 ├── estrutura-da-campanha.md
 ├── calibracao.md
 ├── personagem.md
-└── pareamento.md
+├── pareamento.md
+└── start-da-campanha.md
 ```
 
 - `estrutura-da-campanha.md` — scaffold inicial que deve ser criado;
 - `calibracao.md` — como converter conceito/cânone em capacidades mecânicas;
 - `personagem.md` — como construir e revisar uma ficha em blocos;
-- `pareamento.md` — como verificar consistência entre fichas antes da abertura.
+- `pareamento.md` — como verificar consistência entre fichas antes da abertura;
+- `start-da-campanha.md` — trava final que instancia, vincula e confere todas as personas necessárias antes da primeira cena.
 
 ## Princípios
 
@@ -36,9 +38,10 @@ Durante a criação:
 - perguntar somente o que ainda fizer diferença real;
 - consolidar uma etapa antes de avançar;
 - salvar somente conteúdo aprovado;
-- não preencher campo de ficha antes do momento de sua revisão.
+- não preencher campo de ficha antes do momento de sua revisão;
+- não iniciar a história enquanto faltar qualquer persona obrigatória.
 
-> **Criação conduz. `personagem/` define o que os campos significam. `persistencia/` define onde a verdade aprovada permanece.**
+> **Criação conduz. `personagem/` define o que os campos significam. `personas/` define quem decide. `persistencia/` define onde a verdade aprovada permanece.**
 
 ## Fluxo geral
 
@@ -53,13 +56,18 @@ Nome da campanha
 → parear informações
 → definir início da história
 → consolidar estado inicial
+→ preparar Mesa operacional
+→ executar CHECK DE START
 → CRIAÇÃO: CONCLUÍDA
+→ START
 → primeira cena
 ```
 
 Nenhuma ficha entra em revisão enquanto ainda houver personagem inicial com agência a registrar.
 
 A situação inicial só é definida depois que as fichas relevantes foram aprovadas e pareadas.
+
+A primeira cena só começa depois que `start-da-campanha.md` aprovar todas as personas obrigatórias.
 
 ## Checkpoint
 
@@ -70,6 +78,13 @@ CRIAÇÃO: EM ANDAMENTO
 Etapa atual: Revisão das fichas
 Personagem atual: ...
 Bloco atual: ...
+```
+
+A etapa final pode aparecer como:
+
+```text
+CRIAÇÃO: EM ANDAMENTO
+Etapa atual: CHECK DE START
 ```
 
 Quando terminar:
@@ -214,16 +229,50 @@ conforme `../personagem/trama.md`.
 
 Se a abertura já estabelecer ferimento, gasto, Status ou outra condição, registrar o estado realmente aprovado.
 
-Depois:
+Definir o estado inicial ainda **não** autoriza a primeira cena.
+
+## Etapa — Mesa operacional e START
+
+Depois que cenário, fichas, pareamento e estado inicial estiverem prontos, aplicar obrigatoriamente:
+
+```text
+start-da-campanha.md
+```
+
+A preparação deve:
+
+```text
+vincular JOGADOR HUMANO ao protagonista
+→ criar um JOGADOR IA exclusivo para cada CONTROLE: JOGADOR IA
+→ instanciar JOGADOR IA EVENTUAL
+→ instanciar OPOSITOR
+→ instanciar NARRADOR
+→ conferir escopos de consulta
+→ registrar Mesa operacional no README da campanha
+→ executar CHECK DE START
+```
+
+Se faltar qualquer persona obrigatória:
+
+```text
+START BLOQUEADO
+→ CRIAÇÃO: EM ANDAMENTO
+→ primeira cena proibida
+```
+
+Somente com o CHECK aprovado:
 
 ```text
 README da campanha
 → CRIAÇÃO: CONCLUÍDA
 → remover checkpoint
+→ manter Mesa operacional
 → apontar para estado/atual.md
+→ START
+→ primeira cena
 ```
 
-Somente então começar a primeira cena.
+> **A história é obrigada a começar com todas as personas necessárias já atribuídas.**
 
 ## Fronteiras
 
@@ -239,4 +288,4 @@ onde guardar depois de estabelecido?→ ../persistencia/
 
 ## Regra final
 
-> **`criacao/` existe para transformar escolhas aprovadas em uma campanha pronta para jogar. Quando a primeira cena começa, a construção inicial terminou e as demais áreas assumem suas responsabilidades.**
+> **`criacao/` existe para transformar escolhas aprovadas em uma campanha pronta para jogar. Pronta significa também ter a Mesa operacional completa: nenhuma primeira cena pode começar antes do CHECK DE START aprovar todas as personas obrigatórias.**
