@@ -120,6 +120,14 @@ A categoria **Romance** não exige amor declarado, namoro formal ou uma relaçã
 
 **Atração isolada não cria um relacionamento.** Achar alguém bonito, sentir curiosidade, ter interesse passageiro, fantasiar ou reconhecer desejo sem intenção ou vínculo concreto não coloca essa pessoa em Romance. O campo existe para relações que realmente passaram a fazer parte da vida afetiva da personagem.
 
+Um vínculo pode **mudar de categoria conforme evolui na ficção**. Alguém pode começar em Aliados e depois passar para Romance quando a relação ultrapassar amizade comum de forma concreta. A ficha deve registrar a categoria que melhor descreve o vínculo atual, não todas as etapas anteriores.
+
+Exemplo:
+
+- **Corvin Blackwood — Aliado:** conhecido confiável e presença recorrente.
+- Depois de encontros, flerte assumido ou envolvimento concreto, pode passar para:
+- **Corvin Blackwood — Romance:** flerte constante, interesse declarado; ela o considera interessante e existe intenção real de explorar essa relação.
+
 Relacionamentos registram **como a personagem sente e entende o vínculo no presente**. A origem e os acontecimentos que formaram essas relações pertencem ao Histórico quando forem relevantes.
 
 ---
