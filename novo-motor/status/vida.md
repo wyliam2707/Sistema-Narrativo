@@ -78,10 +78,19 @@ Resultados intermediários utilizam o último patamar alcançado. Exemplo: resul
 
 A recuperação por Medicina nunca pode elevar a Vida acima da Vida Máxima.
 
+## Poderes e Traços de recuperação
+
+Poderes e Traços podem recuperar Vida quando sua própria descrição estabelecer isso.
+
+> **Não existe uma quantidade universal de Vida recuperada por Poderes ou Traços. A fonte define sua própria recuperação.**
+
+Assim, um **Poder de Cura** utiliza a quantidade indicada em seu Hub ou descrição, enquanto um **Traço de Recuperação** segue a regra escrita no próprio Traço.
+
+Essas fontes nunca elevam a Vida acima da Vida Máxima, salvo se alguma regra específica declarar expressamente o contrário.
+
 ## Ainda a definir
 
 Permanecem em aberto:
 
-- interação detalhada com Cura;
 - dano mínimo e arredondamentos;
 - ordem completa entre Defesa Parcial, Redução de Dano, Barreiras e outras reduções.
