@@ -39,6 +39,23 @@ Da mesma forma, em **Influência**, uma tentativa de **Dominar** pode resultar a
 
 Um mesmo estado pode aparecer em mais de uma família quando cumprir exatamente a mesma função, sem receber uma nova definição mecânica apenas por estar em outra progressão.
 
+### Sobreposição entre efeitos
+
+Efeitos de **famílias diferentes** podem permanecer ativos ao mesmo tempo.
+
+Exemplo: um personagem pode estar simultaneamente **Abalado** (Terror), **Fraco** (Debilitação) e **Lento** (Contenção).
+
+Quando dois efeitos pertencem à **mesma família**, apenas o efeito mais forte fica ativo.
+
+- se os dois tiverem a mesma força, permanece o de maior duração;
+- se o efeito mais fraco possuir duração menor ou igual à do mais forte, ele é descartado;
+- se o efeito mais fraco possuir duração maior, ele fica inativo enquanto o mais forte estiver ativo e sua duração continua passando normalmente;
+- quando o efeito mais forte terminar, o mais fraco volta a valer se ainda restar duração.
+
+> **Dentro da mesma família, o efeito mais forte domina o mais fraco. Famílias diferentes coexistem.**
+
+A fonte do efeito não muda essa regra: dois efeitos da mesma família competem entre si mesmo quando vierem de fontes diferentes.
+
 As famílias atuais são:
 
 - **[Sentidos](nocivos/sentidos.md)** — Ofuscado; Cego, Surdo ou Mudo; Privado.
@@ -72,7 +89,7 @@ Esta pasta **não define por enquanto**:
 
 - como um Poder aplica um efeito;
 - qual Atributo é usado para resistir;
-- custo de Energia;
+- custo de Mana;
 - alcance, área ou quantidade de alvos;
 - duração geral de efeitos.
 
