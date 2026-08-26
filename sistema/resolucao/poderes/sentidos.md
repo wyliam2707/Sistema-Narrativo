@@ -44,9 +44,9 @@ O custo final é a soma dos avanços escolhidos e nunca pode ultrapassar `[X]`.
 
 ## Uso e Resolução
 
-O Narrador apresenta o Hub configurado, mostra o custo e pede **Confirmar uso por X Mana?** antes da resolução.
+O NARRADOR apresenta o Hub configurado, mostra o custo e pede **Confirmar uso por X Mana?** antes da resolução.
 
-A sequência normal é **Defesa → Dano → Resistência → Efeito**. Acerto e Defesa seguem a regra geral por contexto; em aplicação ambígua, o Acerto usa o melhor entre **Controle** e **Intelecto**, salvo descrição deliberada.
+A sequência normal é **Defesa → Dano → Resistência → Efeito**. Acerto e Defesa seguem a regra geral por contexto. O Atributo de Acerto é sempre o que corresponde à forma real da ação e à finalidade declarada. Se a aplicação estiver ambígua, o NARRADOR interpreta a ação; nunca se escolhe automaticamente o maior Atributo.
 
 - **Efeito [Total]:** Resistência bem-sucedida anula o Efeito.
 - **Efeito [Parcial]:** Resistência bem-sucedida reduz o Efeito em uma posição.
