@@ -2,202 +2,163 @@
 
 Status: APROVADO
 
-Este arquivo define as escalas numéricas usadas na construção de personagens.
+Este arquivo resume as escalas mecânicas atuais usadas na construção e leitura de personagens.
 
-As três escalas do sistema respondem a perguntas diferentes:
-
-```text
-ATRIBUTO → qual capacidade o personagem possui?
-PERÍCIA  → quão eficazmente ele atua dentro de um campo aprendido?
-PODER    → qual capacidade extraordinária ele possui e em que escala?
-```
-
-Atributos e perícias não são somados automaticamente. Cada um descreve uma dimensão diferente do personagem.
-
----
-
-## 1. PATAMAR não é linear
-
-As escalas do sistema são **qualitativas e não lineares**.
-
-Cada avanço representa um salto progressivamente maior dentro daquela capacidade. Subir de `[3]` para `[4]` não significa apenas acrescentar um pouco mais, e `[5]` não é apenas mais um ponto acima de `[4]`.
-
-Os graus altos devem carregar peso narrativo compatível com aquilo que representam:
-
-- `[3]` já descreve uma capacidade excepcional ou poderosa;
-- `[4]` representa um nível extremo e raro;
-- `[5]` representa o ápice da capacidade, próximo de uma referência máxima daquela área.
-
-> **Se `[3]` já descreve corretamente a capacidade, não usar `[4]`. Se `[4]` já basta, não usar `[5]`.**
-
-Essa regra não existe para equilibrar personagens. Ela preserva o significado da escala.
-
-As regras completas para escolher e calibrar os graus pertencem a `calibracao.md`.
-
----
-
-## 2. Escala de atributos — [0] a [5]
-
-Atributos usam a seguinte escala:
-
-| Grau | Referência narrativa |
-|---|---|
-| **[0]** | Patamar humano |
-| **[1]** | Além do humano |
-| **[2]** | Super-humano |
-| **[3]** | Poderoso |
-| **[4]** | Extremo |
-| **[5]** | Ápice daquela capacidade |
-
-`[0]` representa todo o patamar humano natural daquela capacidade, não apenas uma pessoa humana média.
-
-Diferenças importantes entre humanos continuam existindo dentro de `[0]`, por meio de perícias, conceito, treinamento, experiência, circunstância e outras características pertinentes.
-
-O atributo passa para `[1]` quando a própria capacidade ultrapassa de forma real o patamar humano.
-
-O grau não é uma medida física exata. Não existe obrigação de converter capacidades em toneladas, quilômetros por hora ou outra unidade rígida.
-
-> **O grau informa em que patamar daquela capacidade o personagem opera.**
-
-`[5]` representa o ápice da escala e deve ser tratado narrativamente como tal.
-
-> **5 sempre precisa parecer 5.**
-
----
-
-## 3. Natureza não é grau
-
-Natureza e grau são informações diferentes.
-
-`Humano`, `Vampiro`, `Demônio` ou outra natureza descreve o que o personagem é.
-
-`[0]`, `[1]`, `[2]`, `[3]`, `[4]` ou `[5]` descreve o patamar de uma capacidade específica.
-
-Por isso, um personagem humano pode possuir capacidades acima de `[0]` quando a própria ficção justificar isso.
-
-A natureza do personagem não preenche automaticamente seus atributos nem determina um grau único para todas as capacidades.
-
----
-
-## 4. Escala de perícias — [+0] a [+5]
-
-Perícias representam conhecimento adquirido, treinamento, experiência e domínio prático dentro de um campo.
-
-| Grau | Referência |
-|---|---|
-| **[+0]** | cotidiano / conhecimento comum plausível |
-| **[+1]** | treinado / formação ou prática real |
-| **[+2]** | forte competência profissional |
-| **[+3]** | excepcional / claramente fora da curva |
-| **[+4]** | extraordinário / entre os melhores |
-| **[+5]** | ápice / referência máxima daquela área |
-
-Toda perícia não registrada na ficha é considerada implicitamente `[+0]` quando precisar ser avaliada.
-
-`[+0]` não significa ausência absoluta de conhecimento. Representa aquilo que uma pessoa comum daquele cenário poderia plausivelmente saber, reconhecer ou improvisar sem treinamento especializado.
-
-Exemplo: `Medicina [+0]` pode permitir cuidados cotidianos, um curativo simples ou uma tentativa básica de conter sangramento, mas não concede diagnóstico avançado, cirurgia ou conhecimento técnico especializado.
-
-Da mesma forma, `[+0]` não autoriza uma versão simples de qualquer tarefa especializada. Uma pessoa comum não pilota um caça, realiza uma cirurgia ou executa um ritual complexo apenas porque aquela perícia existe implicitamente em `[+0]`.
-
-O sinal `+` diferencia visualmente perícias das demais capacidades graduadas.
-
----
-
-## 5. Relação entre atributo e perícia
-
-O atributo descreve a capacidade disponível.
-
-A perícia descreve a eficácia adquirida para empregar essa capacidade dentro de um campo específico.
-
-> **Atributo não fornece repertório. Perícia não cria capacidade.**
-
-Exemplos:
+As capacidades não compartilham uma única escala universal. Cada grupo responde a uma pergunta diferente.
 
 ```text
-FIS [5]
-Luta [+1]
+ATRIBUTO
+→ qual capacidade fundamental o personagem possui?
+
+PERÍCIA
+→ em quais campos possui treinamento relevante?
+
+PATAMAR
+→ qual é seu grau geral de desenvolvimento mecânico?
+
+PODER
+→ que parte de seu arsenal funcional ele possui e como seu Hub a configura?
 ```
 
-Representa capacidade física extrema com técnica de combate apenas básica.
-
-```text
-FIS [0]
-Luta [+5]
-```
-
-Representa capacidade física dentro do patamar humano com domínio marcial de ápice.
-
-Da mesma forma:
-
-```text
-MEN [5]
-Engenharia [+0]
-```
-
-representa uma mente em grau ápice, capaz de perceber, analisar, raciocinar e aprender em escala compatível com esse atributo, mas sem possuir automaticamente conhecimento avançado de engenharia.
-
-```text
-MEN [5]
-Engenharia [+5]
-```
-
-combina capacidade cognitiva de ápice com domínio de ápice naquele campo.
-
-Atributo e perícia não são somados automaticamente.
+A ficha não usa essas informações para equilibrar personagens entre si. Elas descrevem o que o personagem realmente é capaz de fazer.
 
 ---
 
-## 6. Escala de poderes — [1] a [5]
+## 1. Atributos — [-2] a [7]
 
-Poderes representam capacidades extraordinárias que não pertencem naturalmente ao patamar humano comum.
-
-A fonte pode ser sobrenatural, biológica, tecnológica ou qualquer outra compatível com o conceito do personagem. Uma armadura, arsenal, veículo ou sistema tecnológico pode ser registrado como PODER quando funciona como capacidade incorporada e estável do personagem.
-
-Poderes usam apenas:
+Os seis Atributos são:
 
 ```text
-[1] [2] [3] [4] [5]
+CORPO
+→ Potência
+→ Controle
+→ Resistência
+
+MENTE
+→ Intelecto
+→ Presença
+→ Vontade
 ```
 
-> **Poder [0] não existe.**
+A escala permanente normal é:
 
-Se o personagem não possui determinada capacidade extraordinária, o poder simplesmente não aparece na ficha.
+> **[-2] a [7]**
 
-`Teleporte [0]`, `Telecinese [0]`, `Invisibilidade [0]` ou equivalentes são registros inválidos.
+`[0]` representa a referência comum.
 
-O grau do poder descreve sua potência ou escala dentro do conceito daquela capacidade.
+Valores negativos representam capacidade abaixo da média, mas ainda funcional.
 
-| Grau | Referência narrativa |
-|---|---|
-| **[1]** | primeiro patamar realmente extraordinário |
-| **[2]** | super-humano significativo |
-| **[3]** | poderoso |
-| **[4]** | extremo |
-| **[5]** | ápice daquela capacidade |
+Valores positivos representam capacidades progressivamente superiores.
 
-O grau de um poder não representa automaticamente técnica, conhecimento ou controle refinado sobre ele. Essas dimensões dependem da ficha, das perícias, dos atributos e da natureza concreta da ação.
+Efeitos temporários podem ultrapassar `[-2]` e `[7]`; esses são limites dos valores permanentes, não limites absolutos de efeitos temporários.
 
-Duas capacidades no mesmo grau não fazem a mesma coisa. Elas apenas operam em patamares equivalentes dentro das próprias categorias.
+A descrição completa dos Atributos pertence a `atributos.md`.
 
 ---
 
-## 7. Zero é um valor real
+## 2. Perícias — sem graduação numérica
 
-Durante criação ou revisão, um campo ainda desconhecido deve permanecer em branco.
+Perícias não usam mais escala `[+0]` a `[+5]`.
 
-> **Nunca usar `[0]` ou `[+0]` como marcador de informação ainda não definida.**
+Uma Perícia é registrada pela sua presença na ficha.
 
-`[0]` é um valor real de atributo.
+Quando for realmente relevante para um teste:
 
-`[+0]` é um valor real de perícia.
+> **Perícia relevante = +1d**
 
-Poderes não possuem grau `[0]`.
+Várias Perícias aplicáveis ao mesmo teste continuam concedendo no máximo `+1d` por Perícias.
+
+Perícias não possuem Atributo fixo e não substituem o Atributo usado na resolução.
+
+Informação ausente não deve ser preenchida com `[+0]`; uma Perícia simplesmente não aparece quando não faz parte da ficha.
+
+A descrição completa pertence a `pericias.md`.
 
 ---
 
-## 8. Calibração
+## 3. Patamar — [1] a [7]
 
-Este arquivo define o significado das escalas.
+Patamar representa o grau geral de desenvolvimento mecânico do personagem.
 
-As regras para escolher qual grau uma capacidade recebe durante criação ou conversão pertencem a `calibracao.md`.
+Sua escala é:
+
+> **[1] a [7]**
+
+Ele organiza, entre outras coisas:
+
+- pontos de Atributo na criação;
+- limite de Atributo na criação;
+- quantidade inicial de Perícias;
+- quantidade inicial de Traços e Poderes;
+- o valor `[X]` usado em regras de Poder.
+
+Patamar não altera automaticamente a Dificuldade do cenário e não funciona como medida de importância narrativa.
+
+A regra completa pertence a `patamar.md`.
+
+---
+
+## 4. Poderes — sem escala genérica [1] a [5]
+
+Poderes não usam mais uma graduação universal de `[1]` a `[5]`.
+
+> **Poder representa parte do arsenal funcional do personagem.**
+
+Cada Poder define suas próprias possibilidades e é configurado por seu Hub.
+
+Quando uma regra de Poder usa `[X]`, `[X]` representa o Patamar do personagem e normalmente limita a Mana que pode ser investida em um único uso.
+
+O Poder define **o que é possível produzir**; o Hub define **como aquela utilização é configurada**.
+
+A ausência de um Poder significa apenas que aquela capacidade não faz parte do arsenal funcional registrado do personagem. Não se usa `Poder [0]` como marcador.
+
+A migração completa dos Poderes pertence à etapa específica de Poderes e Status.
+
+---
+
+## 5. Zero é um valor real de Atributo
+
+`[0]` é um valor real de Atributo.
+
+Nunca usar `[0]` para representar informação ainda não definida.
+
+Perícias não possuem valor zero e Poderes não possuem uma graduação zero.
+
+Quando uma informação ainda não foi estabelecida, ela permanece ausente ou em branco conforme a estrutura da ficha.
+
+---
+
+## 6. Capacidade não é balanceamento
+
+As escalas descrevem o personagem; não ajustam o mundo para produzir chances consideradas justas.
+
+```text
+Atributo alto
+→ personagem realmente mais capaz naquela dimensão
+
+Perícia presente
+→ treinamento relevante naquele campo
+
+Patamar alto
+→ maior desenvolvimento mecânico
+
+Dificuldade alta ou baixa
+→ propriedade da situação concreta
+```
+
+> **A ficha descreve quem tenta. A situação descreve o problema.**
+
+---
+
+## 7. Referência rápida
+
+| Elemento | Escala / forma | Função |
+|---|---|---|
+| **Atributos** | `[-2] a [7]` | capacidades fundamentais |
+| **Perícias** | sem grau; relevante = `+1d` | treinamento e experiência |
+| **Patamar** | `[1] a [7]` | desenvolvimento e limites mecânicos |
+| **Poderes** | sem grau genérico; configurados por Hub | arsenal funcional |
+
+## Regra final
+
+> **Cada tipo de capacidade usa apenas a escala que realmente pertence à sua função. Atributos, Perícias, Patamar e Poderes não devem ser convertidos uns nos outros nem tratados como versões diferentes da mesma graduação.**
