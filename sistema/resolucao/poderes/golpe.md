@@ -54,21 +54,28 @@ O Acerto de Golpe usa **Controle**:
 
 Golpe representa contato, técnica e precisão de combate. A **Potência** já entra no Dano.
 
+Como Golpe é um ataque físico, o resultado é comparado à:
+
+> **DF do alvo = 14 + Controle do alvo**
+
+```text
+Acerto ≥ DF
+→ ataque acerta
+
+Acerto < DF
+→ a Defesa impede o ataque conforme a configuração do Hub
+```
+
 ### Defesa
 
-A Defesa usa o Atributo coerente com a forma como o alvo responde ao ataque.
+Se o Acerto alcançar ou superar a DF, o Dano é aplicado normalmente.
 
-Exemplos:
-
-- esquivar ou aparar com técnica → **Controle**;
-- absorver ou suportar fisicamente o impacto → **Resistência**, quando isso for coerente com a ação e a ficção.
-
-Se o atacante vencer, o Dano é aplicado normalmente.
-
-Se a Defesa vencer:
+Se ficar abaixo da DF:
 
 - **Defesa [Total]:** não sofre Dano;
 - **Defesa [Parcial]:** sofre metade do Dano.
+
+O alvo não faz rolagem defensiva comum.
 
 ### Dano
 
@@ -76,7 +83,7 @@ Role a quantidade de `d8` escolhida no Hub e some **Potência uma única vez ao 
 
 Exemplo: `3d8 [+Potência]`.
 
-Em Defesa [Parcial] bem-sucedida, reduza o Dano final pela metade.
+Em Defesa [Parcial] que impeça o Acerto pleno, reduza o Dano final pela metade.
 
 ## Efeito
 
