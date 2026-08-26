@@ -96,6 +96,71 @@ PERSONA SABE
 PERSONAGEM SABE
 ```
 
+## Instanciação por campanha
+
+As definições desta pasta são globais, mas uma campanha precisa **instanciar as personas que realmente ocuparão sua mesa** antes da primeira cena.
+
+O processo de criação e a trava de START pertencem a:
+
+```text
+../criacao/start-da-campanha.md
+```
+
+Antes do START, toda campanha deve possuir operacionalmente:
+
+```text
+JOGADOR HUMANO
+→ vinculado à peça humana
+
+JOGADOR IA EVENTUAL
+→ persona compartilhada da campanha
+
+OPOSITOR
+→ persona da oposição
+
+NARRADOR
+→ persona de julgamento, narração e registro
+```
+
+E para cada ficha com:
+
+```text
+CONTROLE: JOGADOR IA
+```
+
+instanciar um `JOGADOR IA` exclusivo para aquela personagem.
+
+Exemplo:
+
+```text
+Kael   → JOGADOR HUMANO
+Ravena → JOGADOR IA — Ravena
+Wanda  → JOGADOR IA — Wanda
+
+JOGADOR IA EVENTUAL → ATIVO
+OPOSITOR → ATIVO
+NARRADOR → ATIVO
+```
+
+> **Definir uma cadeira não basta. Antes do jogo, a campanha precisa ocupá-la.**
+
+## Mesa operacional persistente
+
+A composição de personas da campanha é registrada no `README.md` da própria campanha sob:
+
+```text
+## Mesa operacional
+```
+
+Esse registro serve para reinstanciar o mesmo arranjo ao continuar a campanha.
+
+Ele não substitui:
+
+- `CONTROLE` nas fichas;
+- regras de autoridade desta pasta;
+- escopo de consulta;
+- estado atual da campanha.
+
 ## Importância não define controle
 
 `IMPORTÂNCIA` mede peso estrutural da personagem.
@@ -134,4 +199,4 @@ Quando, depois de fatos, regras e resolução aplicáveis, ainda restarem interp
 
 ## Regra final
 
-> **Quem quer algo declara pela cadeira que possui autoridade sobre aquela peça. Quem se opõe apresenta sua jogada. O NARRADOR apenas julga, narra a sentença e registra. NPC comum também segue essa separação: rotina não exige jogador; vontade relevante exige.**
+> **Quem quer algo declara pela cadeira que possui autoridade sobre aquela peça. Quem se opõe apresenta sua jogada. O NARRADOR apenas julga, narra a sentença e registra. Antes da primeira cena, todas as cadeiras necessárias da campanha devem estar instanciadas e registradas na Mesa operacional.**
