@@ -1,27 +1,24 @@
 # Ficha — Novo Motor
 
-Esta pasta reúne o material de **consulta e preenchimento da ficha de personagem**.
+Esta pasta reúne os modelos de ficha e materiais de consulta rápida do **Novo Motor**.
 
-Ela não substitui os capítulos de regras. Seu objetivo é oferecer uma visão curta e organizada das informações que normalmente aparecem na ficha, apontando para os arquivos oficiais quando for necessário consultar a regra completa.
+## Modelos
 
-## Índice
+Existem três modelos de ficha, todos usando exatamente as mesmas regras:
 
-- [Modelo de Ficha](./modelo.md) — estrutura básica para registrar um personagem.
-- [Atributos](./atributos.md) — resumo dos seis Atributos e de suas funções.
-- [Perícias](./pericias.md) — lista das Perícias com descrição curta.
-- [Traços](./tracos.md) — índice dos Traços positivos, Vícios e Corrupções.
-- [Poderes](./poderes.md) — índice dos Poderes existentes e sua função geral.
+- [Modelo Completo](./modelo-completo.md) — para protagonistas, personagens importantes e personagens persistentes que precisem de informação ampla para interpretação e continuidade.
+- [Modelo Rápido](./modelo-rapido.md) — para NPCs, aliados, inimigos e personagens secundários que precisem funcionar mecanicamente sem uma ficha extensa.
+- [Modelo Mínimo](./modelo-minimo.md) — para figurantes, criaturas simples e peças que precisem apenas das informações relevantes para uma resolução pontual.
 
-## Fontes oficiais
+A diferença entre os modelos é somente a quantidade de informação registrada. **Ficha rápida ou mínima não cria uma categoria mecânica diferente de personagem.**
 
-As regras completas permanecem nos capítulos próprios:
+Uma ficha pode ser expandida quando mais informações passarem a ser necessárias, sem conceder capacidades novas ao personagem.
 
-- [Regras Gerais](../regras-gerais.md)
-- [Atributos](../atributos.md)
-- [Perícias](../pericias.md)
-- [Traços](../tracos/)
-- [Poderes](../poderes/)
-- [Status](../status/)
-- [Trama](../trama.md)
+## Consulta
 
-> **Regra de organização:** os arquivos desta pasta resumem e indexam. Em caso de dúvida mecânica, vale o capítulo oficial correspondente.
+- [Atributos](./atributos.md)
+- [Perícias](./pericias.md)
+- [Traços](./tracos.md)
+- [Poderes](./poderes.md)
+
+Os arquivos desta pasta servem para registro e consulta. As regras completas permanecem nos capítulos oficiais do Novo Motor.
