@@ -46,8 +46,20 @@ Descansar significa permanecer sem atividade relevante, esforço significativo o
 
 Um descanso longo completo restaura a Mana até a Mana Máxima, independentemente da Vontade do personagem.
 
-## Ainda a definir
+## [X] e Patamar de Poder
 
-Permanece em aberto:
+`[X]` representa o máximo de Mana que pode ser gasto em um único uso de um Poder.
 
-- origem e progressão de `[X]` nos Poderes.
+> **[X] = Patamar de Poder do personagem**
+
+O **Patamar de Poder** varia de **[1] a [7]**.
+
+Exemplos:
+
+- Patamar de Poder `[1]` → `[X] = 1`;
+- Patamar de Poder `[4]` → `[X] = 4`;
+- Patamar de Poder `[7]` → `[X] = 7`.
+
+O Patamar de Poder também servirá como base para definir a progressão de **Atributos, Perícias, Traços e Poderes** do personagem.
+
+A quantidade e distribuição desses recursos por Patamar serão definidas posteriormente em uma regra própria de progressão e criação de personagem.
