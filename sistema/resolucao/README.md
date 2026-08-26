@@ -8,38 +8,43 @@ Esta pasta responde à pergunta:
 
 `resolucao/` calcula e interpreta resultados. Ela não decide quem controla uma peça, não organiza a ordem das cadeiras e não define como a cena é escrita.
 
+---
+
 ## Estrutura principal
 
-- `principio-de-resolucao.md` — quando estabelecer diretamente, quando resolver incerteza e como tratar dúvida restante;
-- `leitura-da-ficha-na-resolucao.md` — como identificar Atributo, Perícia, meio, situação e oposição realmente aplicáveis;
-- `motor-de-disputa.md` — motor universal de testes contra cenário e oposição ativa;
-- `vida.md` — Vida Máxima derivada, 0 Vida e incapacidade;
-- `mana.md` — Mana Máxima, recuperação e `[X]`;
+- `principio-de-resolucao.md` — quando estabelecer diretamente, quando testar e como tratar impossibilidade;
+- `leitura-da-ficha-na-resolucao.md` — como identificar Atributo, Perícia, meio, situação e oposição aplicáveis;
+- `motor-de-disputa.md` — motor universal contra cenário e oposição ativa;
+- `combate-e-dano.md` — ataque, Defesa, Dano, RD, Barreira e aplicação em Vida;
+- `vida.md` — Vida Máxima e Incapacitado;
 - `recuperacao-da-vida.md` — recuperação natural e Medicina;
-- `combate-e-dano.md` — regras específicas de combate e Dano;
-- `ordem-de-resolucao-do-combate.md` — ordem operacional de resolução do combate;
-- `energia.md` — página de compatibilidade para referências antigas a ENERGIA;
-- `efeitos/` — páginas legadas de efeitos específicos enquanto a migração de Poderes e Status não for concluída;
-- `escalas-de-efeito.md` — índice de compatibilidade que aponta para `efeitos/`;
-- `fonte-e-vida-estrutural.md` — regra legada de efeitos persistentes, sujeita à etapa de Poderes/Status;
-- `consolidacao.md` — configuração legada de alcance, alvos, área/tamanho e duração, sujeita à etapa de Poderes;
-- `resolucao-social.md` — influência social e preservação de agência;
-- `informacao-e-investigacao.md` — percepção, repertório e investigação normal.
+- `mana.md` — Mana Máxima, recuperação e `[X]`;
+- `poderes/` — Hubs e regras concretas dos Poderes;
+- `status/` — famílias de condições temporárias e sobreposição;
+- `ordem-de-resolucao-do-combate.md` — ordem operacional de consulta durante combate;
+- `resolucao-social.md` — resolução social sem substituir agência;
+- `informacao-e-investigacao.md` — informação, repertório e investigação.
+
+Traços e Trama pertencem à definição mecânica da personagem em `../personagem/`, embora possam modificar uma resolução quando suas regras disserem isso explicitamente.
+
+---
 
 ## Entrada
 
 ```text
 RESULTADO EVIDENTE
-→ estabelecer.
+→ estabelecer
 
 IMPOSSIBILIDADE EVIDENTE
-→ estabelecer.
+→ estabelecer
 
 INCERTEZA REAL
-→ usar somente a regra necessária.
+→ usar somente a regra necessária
 ```
 
 A resolução não fabrica dúvida quando o resultado já está claro.
+
+---
 
 ## Motor universal
 
@@ -69,7 +74,9 @@ Bônus e penalidades se cancelam antes da rolagem. O modificador final nunca ult
 
 Perícia relevante concede `+1d`. Várias Perícias aplicáveis continuam concedendo no máximo `+1d`.
 
-Dados adicionais ou removidos vêm de fontes mecânicas explícitas, como Perícia, Poder, Status, Trama ou outra regra que diga diretamente `+Xd` ou `-Xd`.
+Dados adicionais ou removidos vêm de fontes mecânicas explícitas, como Perícia, Poder, Status, Traço, Trama ou outra regra que diga diretamente `+Xd` ou `-Xd`.
+
+---
 
 ## Contra o cenário
 
@@ -94,6 +101,8 @@ Circunstâncias comuns da cena podem aumentar ou reduzir a Dificuldade quando re
 
 > **A Dificuldade descreve o problema. A ficha descreve quem tenta resolvê-lo.**
 
+---
+
 ## Oposição ativa
 
 Quando outra personagem ou entidade se opõe ativamente:
@@ -112,50 +121,35 @@ Se a vantagem já tornar o resultado evidente, não se rola.
 
 Em oposição, empate favorece quem iniciou a ação. A resposta precisa superar o resultado da ação para impedi-la.
 
-## Vida e Mana
-
-A Vida Máxima é derivada dos seis Atributos conforme `vida.md`.
-
-A Mana Máxima é derivada dos seis Atributos conforme `mana.md`.
-
-```text
-Vida atual
-Mana atual
-condições temporárias
-→ pertencem ao STATUS
-
-Vida Máxima
-Mana Máxima
-→ podem aparecer na ficha para consulta
-```
-
-`ENERGIA` não é mais a reserva universal ativa; referências antigas devem ser tratadas pela compatibilidade em `energia.md` e migradas para Mana.
+---
 
 ## Tarefas demoradas
 
-O antigo sistema de `Exigência`, `Progresso por aplicação` e `Aplicações necessárias` não faz mais parte do motor universal.
+O antigo sistema de `Exigência`, `Progresso por aplicação` e `Aplicações necessárias` não faz parte do motor atual.
 
 Uma tarefa não recebe várias rolagens apenas porque demora.
 
 ```text
 resultado evidente com tempo suficiente
-→ estabelecer o resultado e o tempo coerente.
+→ estabelecer resultado e tempo coerente
 
 impossibilidade evidente
-→ estabelecer a impossibilidade.
+→ estabelecer a impossibilidade
 
 incerteza real contra a situação
-→ um teste contra Dificuldade.
+→ um teste contra Dificuldade
 
 oposição ativa
-→ uma oposição comum quando necessário.
+→ uma oposição comum quando necessário
 ```
 
-Rolagens adicionais só existem quando a ficção realmente cria uma nova incerteza relevante depois da resolução anterior.
+Rolagens adicionais só existem quando a ficção cria uma nova incerteza relevante depois da resolução anterior.
 
-## Atalho de combate
+---
 
-Quando houver combate, consultar primeiro:
+## Combate
+
+Quando houver combate, consultar:
 
 ```text
 ordem-de-resolucao-do-combate.md
@@ -164,16 +158,41 @@ ordem-de-resolucao-do-combate.md
 Atalho operacional:
 
 ```text
-HUD → declaração → escolhas faltantes → IAs/Opositor → resolver → atualizar → novo HUD
+HUD
+→ declaração
+→ escolhas mecânicas realmente faltantes
+→ demais declarações
+→ julgar interferência e precedência
+→ resolver
+→ atualizar
+→ novo HUD
 ```
 
-A operação dos turnos continua pertencendo a `../operacao/`. O motor universal apenas resolve as incertezas que surgem dentro desse fluxo.
+A simultaneidade e o intervalo de até 10 segundos pertencem a `../operacao/turnos-de-combate.md`.
 
-## Efeitos
+`resolucao/` não cria iniciativa, fila fixa nem economia universal de uma ação por turno.
 
-Para um efeito específico, consultar diretamente sua página em `efeitos/` enquanto essa área não for migrada para a estrutura final de Poderes e Status.
+---
 
-Regras específicas podem acrescentar etapas próprias, mas não recriam o antigo motor de Base/Suporte/Progresso.
+## Poderes
+
+Para uso configurável ou capacidade extraordinária, consultar `poderes/`.
+
+O Hub individual substitui a antiga regra universal de Ampliação. Não existe mais uma fórmula geral `patamar + Ampliação` aplicada a todos os efeitos.
+
+Mana é o recurso técnico universal de Poderes e `[X]` é igual ao Patamar da personagem.
+
+---
+
+## Status
+
+Condições temporárias mecânicas pertencem a `status/`.
+
+Dentro da mesma família, vale o efeito mais forte conforme a regra de sobreposição. Famílias diferentes podem coexistir.
+
+Persistência apenas registra o Status ativo; não recalcula sua mecânica.
+
+---
 
 ## Fronteiras
 
@@ -183,6 +202,7 @@ quem move oposição?             → ../personas/opositor/
 ordem e turnos?                 → ../operacao/
 como mostrar o resultado?       → ../narracao/
 o que permanece depois?         → ../persistencia/
+quem a personagem é?            → ../personagem/
 como calcular o resultado?      → resolucao/
 ```
 
