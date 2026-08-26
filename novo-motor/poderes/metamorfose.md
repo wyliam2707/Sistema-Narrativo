@@ -8,7 +8,7 @@ Transforma o corpo do alvo em uma nova forma física. A aparência exata é defi
 
 **Alvos:** 1
 
-**Conjuração:** Turno `+0` → Imediata `+1`
+**Conjuração:** Turno `+0` → Instante `+1`
 
 **Forma:** Predadora `+0` → Nadadora / Voadora / Furtiva `+1`
 
@@ -27,7 +27,7 @@ A Forma descreve as capacidades naturais adquiridas pela transformação. Ela n�
 - **Voadora:** permite deslocamento e atuação coerentes com uma criatura capaz de voar.
 - **Furtiva:** permite assumir uma forma naturalmente adequada a se esconder, infiltrar ou passar despercebida.
 
-A aparência concreta é livre dentro da descrição do Poder. Uma Forma Voadora, por exemplo, pode assumir a aparência de uma ave, morcego ou outra criatura coerente.
+A aparência concreta é livre dentro da descrição do Poder.
 
 ## Tamanho
 
@@ -41,16 +41,22 @@ O Tamanho é relativo ao tamanho comum do alvo antes da transformação.
 
 Os demais Atributos permanecem os do alvo.
 
-## Resistência
+## Alvo e oposição
 
-Quando a Metamorfose é usada em **Si Mesmo**, não exige resistência.
+Quando a Metamorfose é usada em **Si Mesmo** ou em um alvo voluntário, não existe oposição apenas para aceitar a transformação.
 
-Quando usada em outra criatura, o alvo pode resistir usando o melhor Atributo coerente entre **Corpo** e **Mente**.
+Quando usada contra uma criatura **involuntária**, a tentativa é tratada como uma **ação de combate**:
 
-Como o Poder possui **Efeito [Total]**, se a resistência vencer, a transformação é anulada por completo.
+> **Acerto × Defesa**
+
+Os Atributos são escolhidos conforme a forma real como a transformação é imposta e como o alvo tenta evitá-la ou resistir a ela.
+
+Se o usuário vencer, a transformação é aplicada. Se a Defesa vencer, ela é anulada.
+
+Essa oposição resolve a tentativa inteira. **Não existe uma segunda Resistência depois da Defesa**, e não se escolhe automaticamente o melhor Atributo entre Corpo e Mente.
 
 ## Regra Geral
 
-A Forma concede apenas capacidades coerentes com sua natureza e descrição. Ela não recebe ND, atributos próprios ou uma ficha separada. A Metamorfose altera o corpo do alvo, mas preserva seus Atributos, exceto pelos ajustes de Potência ou Controle causados pelo Tamanho.
+A Forma concede apenas capacidades coerentes com sua natureza e descrição. Ela não recebe ND, Atributos próprios ou uma ficha separada. A Metamorfose altera o corpo do alvo, mas preserva seus Atributos, exceto pelos ajustes de Potência ou Controle causados pelo Tamanho.
 
 O custo total em Mana é a soma dos avanços selecionados e não pode ultrapassar o valor `[X]` do Poder.
