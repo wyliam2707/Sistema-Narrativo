@@ -42,7 +42,7 @@ Define como preservar o ponto atual sem fechar capítulo nem criar nova ficção
 
 ### `status.md`
 
-Define o conceito de STATUS: como uma peça está agora — Vida, Dano acumulado, Energia, Condições, Efeitos Ativos, Local e outros estados temporários relevantes.
+Define o conceito de STATUS: como uma peça está agora — Vida, Mana, Trama quando aplicável, Status mecânicos, efeitos ativos, Barreiras, alterações temporárias e posição relevante.
 
 Na campanha, STATUS persistente fica dentro de `estado/atual.md`; não exige arquivo próprio.
 
@@ -105,19 +105,19 @@ Distribuição básica:
 
 ```text
 PERSONAGENS
-→ quem as peças com agência são.
+→ quem as peças são e suas informações consolidadas
 
 ESTADO / atual.md
-→ como continuar agora.
+→ como continuar agora
 
 MUNDO
-→ verdades estáveis do cenário.
+→ verdades estáveis do cenário
 
 MESTRE
-→ NPCs e material reservado.
+→ NPCs e material reservado
 
 LIVRO
-→ o que aconteceu.
+→ o que aconteceu
 ```
 
 ## Regra contra duplicação
@@ -139,22 +139,22 @@ Se a mesma informação já possui fonte canônica suficiente, não duplicá-la 
 
 ```text
 personagem/
-→ define quem a peça é.
+→ define quem a peça é
 
 resolucao/
-→ estabelece consequências mecânicas.
+→ estabelece consequências mecânicas
 
 agencia/ e personas/
-→ definem quem decide e quais fios podem se mover.
+→ definem quem decide e quais fios podem se mover
 
 operacao/
-→ define quando julgar, narrar e registrar.
+→ define quando julgar, narrar e registrar
 
 narracao/
-→ apresenta a sentença.
+→ apresenta a sentença
 
 persistencia/
-→ preserva somente o que passou a ser verdade.
+→ preserva somente o que passou a ser verdade
 ```
 
 ## Regra final
