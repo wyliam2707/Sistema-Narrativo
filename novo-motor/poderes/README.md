@@ -1,297 +1,237 @@
 # Poderes
 
-Esta pasta reúne a estrutura básica dos **Poderes** do novo motor.
+Esta pasta reúne as regras gerais e os arquivos individuais dos **Poderes** do Novo Motor.
 
-Por enquanto, este arquivo registra apenas a base já aprovada para não misturar resolução, alcance, área e ampliações antes de cada parte ser definida.
+Um Poder representa uma ação extraordinária usada deliberadamente para produzir um efeito. A descrição define sua aparência e origem ficcional; o **Hub** define aquilo que ele pode fazer mecanicamente.
 
-## Estrutura geral
+---
+
+# Estrutura geral
 
 Um Poder pode possuir **Dano**, **Efeito** ou ambos.
-
-Esses componentes são resolvidos em etapas próprias.
 
 A sequência padrão dos Poderes ofensivos é:
 
 > **Defesa → Dano → Resistência → Efeito**
 
-Nem todo Poder precisa usar todas essas etapas. Poderes como **Portal, Invocação, Teleporte, Barreira, Cura, Detecção** e outros efeitos não ofensivos usam apenas as etapas que fizerem sentido para sua própria natureza.
+Nem todo Poder utiliza todas as etapas. Poderes não ofensivos usam apenas as etapas que fizerem sentido para sua própria natureza.
 
-## Distâncias narrativas
+Toda resolução segue a regra universal do sistema: o resultado final sempre conserva **4 dados + Atributo**. Bônus e penalidades modificam a quantidade de dados rolados antes da escolha dos quatro resultados, conforme [../regras-gerais.md](../regras-gerais.md).
 
-As distâncias dos Poderes são tratadas de forma **narrativa**. Os valores em metros são médias de referência para ajudar o Narrador a interpretar a cena com consistência, e não uma régua rígida.
+---
 
-A escala é:
+# Acerto e Defesa por contexto
 
-- **Si Mesmo** — apenas o próprio usuário.
-- **Toque** — exige contato físico.
-- **Próximo** — cerca de **3 m**; poucos passos, alcance imediato dentro da cena.
-- **Curto** — cerca de **20 m**; uma distância pequena e claramente próxima dentro da cena.
-- **Médio** — cerca de **45 m**; uma distância significativa, mas ainda claramente presente na cena.
-- **Longo** — cerca de **90 m**; uma distância distante dentro da cena.
+Quando um Poder precisa atingir ou superar alguém, Acerto e Defesa são resolvidos como uma oposição:
 
-Acima de **Longo**, a distância deixa de ser tratada como alcance comum e passa a depender de Poderes próprios, como **Teleporte**, **Portal** ou outros efeitos capazes de atravessar grandes distâncias.
+> **4 dados + Atributo de Acerto × 4 dados + Atributo de Defesa**
 
-Quando uma dessas categorias aparecer em **Alcance** ou **Área**, o Narrador usa essa média como referência e interpreta a posição real conforme a ficção.
+O Atributo é determinado pela **forma real da ação e da reação**.
 
-## Regra geral — Acerto e Defesa por contexto
-
-Quando um Poder precisa atingir alguém, Acerto e Defesa são resolvidos de forma oposta:
-
-- **Acerto:** `4d6 + Atributo de Acerto`
-- **Defesa:** `4d6 + Atributo de Defesa`
-
-**Regra:** o Atributo não precisa ser escrito em cada Poder. O Narrador determina quais Atributos fazem sentido pela forma como a ação está sendo realizada e pela forma como o alvo tenta evitá-la ou resisti-la.
-
-### Ações claramente definidas
-
-Quando a própria natureza da ação já define como ela é executada, usa-se o Atributo correspondente.
+- o Acerto usa o Atributo coerente com a maneira como o Poder está sendo aplicado;
+- a Defesa usa o Atributo coerente com a maneira como o alvo tenta evitar, bloquear ou resistir à ação;
+- não existe escolha automática do maior Atributo apenas para obter vantagem;
+- se um Poder possuir uma regra própria explícita de Atributo, essa regra é usada naquele Poder.
 
 Exemplos:
 
-- **soco, garras, empurrão ou arremesso físico:** usam **Controle** para o Acerto;
-- **compulsão, invasão mental ou efeito aplicado diretamente à mente:** usam **Intelecto** para o Acerto.
+- um ataque dirigido por precisão física pode usar **Controle**;
+- uma tentativa de impor força física pode usar **Potência**;
+- uma invasão mental pode usar um Atributo de Mente coerente com sua forma;
+- esquivar-se normalmente pode usar **Controle**;
+- suportar fisicamente algo pode usar **Resistência**;
+- resistir a uma agressão mental pode usar **Vontade**.
 
-Nesses casos, não existe escolha automática pelo maior Atributo apenas para obter vantagem.
+A origem de um Poder não fixa sozinha o Atributo. Um efeito mágico pode produzir uma ameaça física, e um efeito físico pode exigir uma resposta diferente conforme a ficção.
 
-### Poderes ambíguos
+---
 
-Quando um Poder puder ser aplicado de mais de uma forma coerente e o jogador apenas declarar seu uso, sem especificar o método, o Narrador usa para o atacante o **melhor entre Controle e Intelecto**.
-
-Isso representa o personagem usando naturalmente o Poder da forma mais eficiente que sabe.
-
-Exemplo:
-
-> **Uso Raio.**
-
-Se Raio puder ser lançado tanto por condução mágica quanto por um gesto ou arremesso dirigido, usa-se automaticamente o melhor entre **Controle** e **Intelecto** para o Acerto.
-
-### Declaração deliberada
-
-Se o jogador descrever deliberadamente como está usando o Poder, essa descrição define o Atributo quando ela tornar a forma de ataque clara.
-
-Exemplos:
-
-> **Conjuro uma lança de energia e arremesso contra o alvo.**
-
-O ataque usa **Controle**.
-
-> **Faço a energia perseguir e atingir o alvo por condução mágica.**
-
-O ataque usa **Intelecto**.
-
-A descrição deliberada tem prioridade sobre a escolha automática do melhor Atributo.
-
-### Defesa
-
-O Atributo de Defesa é escolhido de forma independente do Atributo de Acerto.
-
-O Narrador observa **como o alvo pode evitar ou resistir ao ataque** e usa o Atributo coerente com essa resposta.
-
-Assim, um Poder produzido por magia ainda pode exigir uma defesa física se o alvo puder esquivar, bloquear ou sair da trajetória; um ataque que age diretamente sobre a mente pode exigir uma defesa mental.
-
-Quando mais de uma defesa for plausível, usa-se a melhor combinação coerente com a ficção para quem está se defendendo.
-
-## Defesa
+# Defesa
 
 A Defesa é resolvida antes do Dano e da Resistência do Efeito.
 
-Cada Poder indica qual tipo de Defesa possui.
+## Defesa [Absoluta]
 
-### Defesa [Absoluta]
+Se a Defesa vencer:
 
-Se a defesa vencer:
+- não há Dano;
+- o Efeito é anulado antes da Resistência.
 
-- o alvo **não sofre Dano**;
-- o **Efeito é anulado** e não segue para a etapa de Resistência.
+## Defesa [Total]
 
-Representa uma defesa capaz de evitar completamente o ataque.
+Se a Defesa vencer:
 
-### Defesa [Total]
+- não há Dano;
+- o Efeito ainda pode seguir para Resistência.
 
-Se a defesa vencer:
+## Defesa [Parcial]
 
-- o alvo **não sofre Dano**;
-- o **Efeito ainda segue para a etapa de Resistência**.
+Se a Defesa vencer:
 
-### Defesa [Parcial]
+- o alvo sofre metade do Dano;
+- o Efeito ainda pode seguir para Resistência.
 
-Se a defesa vencer:
+## Defesa [Nula]
 
-- o alvo sofre **metade do Dano**;
-- o **Efeito ainda segue para a etapa de Resistência**.
+Não existe etapa de Defesa.
 
-### Defesa [Nula]
+Isso não transforma uma ação ficcionalmente impossível em possível. Alvo, alcance e demais condições ainda precisam existir.
 
-Não existe defesa aplicável nessa etapa.
+---
 
-- o Dano é aplicado normalmente;
-- o **Efeito segue para a etapa de Resistência**.
-
-**Defesa [Nula] não significa que toda ação é automaticamente possível.** A ficção ainda determina se existe alvo, alcance, linha de ação ou qualquer outra condição necessária para o Poder funcionar.
-
-## Dano
+# Dano
 
 O Dano é aplicado depois da Defesa.
 
-O resultado da Defesa determina se o alvo sofre:
+O resultado da Defesa determina se o alvo sofre Dano normal, metade do Dano ou nenhum Dano.
 
-- **Dano normal**;
-- **metade do Dano**;
-- **nenhum Dano**.
+Cada Poder define sua própria progressão de Dano e o Atributo somado quando houver um.
 
-Poderes voltados principalmente para Dano usam a progressão indicada em seu próprio Hub. Os Poderes de Efeito usam como opção de Dano imediato:
+---
 
-`Nenhum → 1d6 → 2d6`
+# Resistência do Efeito
 
-A primeira posição da progressão não aumenta o custo. Cada avanço posterior acrescenta `+1` ao custo.
+Quando um Efeito possuir Resistência, a oposição usa os Atributos coerentes com a **natureza do Efeito e com a forma de resistência do alvo**.
 
-## Resistência do Efeito
+> **Não existe uma combinação universal obrigatória de Atributos para todos os Efeitos.**
 
-Se o Efeito não tiver sido anulado pela Defesa, ele segue para uma resolução própria.
+Use **Potência × Resistência** apenas quando essa oposição realmente representar o que está acontecendo, como em certas formas de contenção ou imposição física.
 
-Quando houver Resistência, a base é:
+Outros efeitos podem usar Atributos de Mente ou outras combinações coerentes. Por exemplo, medo sobrenatural pode envolver **Presença × Vontade**, enquanto uma invasão mental pode envolver **Intelecto × Vontade**.
 
-**Efeito:** `Potência × Resistência`
+A Resistência só ocorre quando o próprio Poder possuir essa etapa. Ações que já forem tratadas integralmente como uma oposição de combate não recebem uma segunda Resistência por inferência.
 
-- o usuário usa **Potência** para impor o Efeito;
-- o alvo usa **Resistência** para suportar ou reduzir o Efeito.
+## Efeito [Total]
 
-A Resistência só é resolvida depois da Defesa.
+Se a Resistência vencer, o Efeito é anulado.
 
-Cada Poder indica qual tipo de Resistência seu Efeito possui.
+## Efeito [Parcial]
 
-### Efeito [Total]
+Se a Resistência vencer, o Efeito é reduzido em uma posição da progressão.
 
-Se a Resistência vencer, o **Efeito é anulado**.
+Se o primeiro estágio for reduzido, nenhum Efeito é aplicado.
 
-Nenhum efeito da progressão é aplicado.
+## Efeito [Nula]
 
-### Efeito [Parcial]
+Não existe etapa de Resistência.
 
-Se a Resistência vencer, o Efeito é reduzido em **uma posição na progressão**.
+---
 
-Exemplo:
+# Distâncias narrativas
 
-**Contenção:** `Lento → Imóvel → Paralisado`
+As distâncias são categorias narrativas. Os valores em metros são referências médias, não uma régua rígida.
 
-Se o Poder tentar aplicar **Paralisado** e a Resistência vencer, aplica **Imóvel**.
+- **Si Mesmo** — o próprio usuário.
+- **Toque** — contato físico.
+- **Próximo** — cerca de 3 m.
+- **Curto** — cerca de 20 m.
+- **Médio** — cerca de 45 m.
+- **Longo** — cerca de 90 m.
 
-Se o Poder tentar aplicar **Imóvel** e a Resistência vencer, aplica **Lento**.
+Acima de Longo, a distância normalmente depende de um Poder próprio, como Teleporte.
 
-Se o Poder tentar aplicar o primeiro efeito da progressão e a Resistência vencer, **nenhum Efeito é aplicado**.
+---
 
-### Efeito [Nula]
+# Hub e custo
 
-Não existe Resistência aplicável nessa etapa.
+Um Poder é configurado por seu **Hub**.
 
-Se o Efeito chegar a essa etapa da resolução, ele é aplicado conforme sua própria definição e progressão.
+`[X]` representa o máximo de **Mana** que pode ser gasto em um único uso daquele Poder. A origem de Mana e de `[X]` será definida na regra central de Mana.
 
-**Efeito [Nula] não ignora as exigências da ficção.** O Poder ainda precisa possuir alvo, alcance e demais condições necessárias para produzir o Efeito.
+Salvo quando o arquivo do Poder disser o contrário:
 
-## Efeito
+- a primeira posição de uma progressão custa `+0`;
+- cada avanço seguinte custa `+1`;
+- opções ramificadas no mesmo estágio possuem o mesmo custo daquele estágio;
+- o custo final é a soma das escolhas;
+- o custo nunca pode ultrapassar `[X]`.
 
-O Efeito utiliza as famílias e progressões apropriadas do sistema.
+Não é necessário repetir esses custos em todos os arquivos de Poder.
 
-Quando a Resistência não vencer, o efeito pretendido é aplicado normalmente.
-
-Quando o Poder possuir **Efeito [Parcial]**, uma Resistência bem-sucedida reduz o resultado em uma posição da progressão. Quando possuir **Efeito [Total]**, uma Resistência bem-sucedida anula o resultado. Em **Efeito [Nula]**, não existe essa etapa de Resistência.
-
-## Dano e Efeito no mesmo Poder
-
-Um mesmo Poder pode possuir Dano e Efeito.
-
-A resolução segue a ordem:
-
-1. resolve-se a **Defesa**;
-2. aplica-se o **Dano** conforme o tipo de Defesa e seu resultado;
-3. se o Efeito ainda puder ocorrer e possuir Resistência, resolve-se `Potência × Resistência`;
-4. aplica-se o **Efeito** conforme seu tipo de Resistência e o resultado obtido.
-
-Assim, um Poder pode causar Dano sem conseguir impor o Efeito, pode não causar Dano mas ainda tentar impor o Efeito, ou pode ter ambos anulados por uma Defesa apropriada.
-
-## Função dos Atributos
-
-- **Controle** pode representar precisão, coordenação ou execução física do ataque.
-- **Intelecto** pode representar direção, cálculo ou condução mental do ataque.
-- **Potência** representa a capacidade de impor a intensidade de um Efeito físico.
-- **Resistência** representa a capacidade de suportar ou resistir ao Efeito recebido.
-- O **maior Atributo Físico** do personagem é a referência para limitar o gasto de Mana/Energia do Poder. Essa regra ainda será detalhada em seção própria.
-
-## Progressões já definidas
-
-Alguns campos dos Poderes usam progressões. O primeiro passo da progressão não aumenta o custo; cada avanço posterior acrescenta `+1` ao custo.
-
-### Alcance
-
-`Si Mesmo → Toque → Próximo → Curto → Médio → Longo`
-
-As posições usadas e seus custos dependem da progressão apresentada em cada Poder.
-
-## Campos comuns de um Poder
-
-Um Poder apresenta apenas os campos que façam sentido para sua natureza. Entre os campos já usados estão:
-
-- **Alcance**;
-- **Alvos**;
-- **Área**;
-- **Dano**;
-- **Efeito**;
-- **Defesa**;
-- **Duração**.
-
-Cada arquivo de Poder deve ser suficientemente claro para ser usado sem consultar regras externas além das regras gerais do motor.
-
-## Chassi padrão dos Poderes de Efeito
-
-As famílias de Efeito nocivo usam o mesmo chassi modular. O que muda de um Poder para outro é principalmente a progressão central da família.
-
-> **[Efeito] [X]**  
-> **Alcance:** Curto (~20 m) → Médio (~45 m) → Longo (~90 m)  
-> **Alvos:** 1 → 2 → 4 → 8  
-> **Área:** Toque → Próximo (~3 m) → Curto (~20 m)  
-> **Dano:** Nenhum → 1d6 → 2d6  
-> **Efeito:** progressão da família  
-> **Defesa:** Total → Parcial  
-> **Efeito:** Total → Parcial → Nula  
-> **Duração:** Turno → Cena → Hora
-
-### Alvos ou Área
-
-**Alvos** e **Área** são modos alternativos de aplicação e nunca são somados no mesmo uso.
-
-- **Alvos:** escolhe individualmente até a quantidade selecionada dentro do Alcance.
-- **Área:** afeta todos dentro da Área escolhida, exceto o próprio conjurador.
-
-A opção não usada não entra no custo do Poder.
-
-### Custos do chassi
-
-- **Alcance:** Curto `+0` → Médio `+1` → Longo `+2`
-- **Alvos:** 1 `+0` → 2 `+1` → 4 `+2` → 8 `+3`
-- **Área:** Toque `+0` → Próximo `+1` → Curto `+2`
-- **Dano:** Nenhum `+0` → 1d6 `+1` → 2d6 `+2`
-- **Efeito da família:** primeiro estágio `+0` → segundo `+1` → terceiro `+2`
-- **Defesa:** Total `+0` → Parcial `+1`
-- **Resistência do Efeito:** Total `+0` → Parcial `+1` → Nula `+2`
-- **Duração:** Turno `+0` → Cena `+1` → Hora `+2`
-
-O custo final é a soma dos avanços escolhidos e nunca pode ultrapassar `[X]`.
-
-Antes da resolução, o Narrador mostra a configuração e o custo e pede apenas:
+Antes de resolver um uso configurável, o Narrador apresenta a configuração e o custo e pergunta apenas:
 
 > **Confirmar uso por X Mana?**
 
-### Poderes de Efeito atuais
+---
 
-- **Sentidos:** Ofuscado → Cego / Surdo / Mudo → Privado.
-- **Contenção:** Lento → Imóvel → Paralisado.
-- **Terror:** Abalado → Apavorado → Aterrorizado.
-- **Exaustão:** Fatigado → Exausto → Inconsciente.
-- **Perturbação:** Desorientado → Confuso → Atordoado.
-- **Aflição:** 1 de dano → 1d3 de dano → 1d6 de dano por turno.
-- **Posição:** Caído → Movido → Conduzido.
-- **Influência:** Enfeitiçado → Compelido → Dominado.
-- **Ruína:** Desprevenido → Exposto → Indefeso.
+# Campos do Hub
+
+Um Poder apresenta apenas os campos necessários à sua função. Entre os campos já utilizados estão:
+
+- Alcance;
+- Alvos;
+- Área;
+- Dano;
+- Efeito;
+- Defesa;
+- Duração;
+- Conjuração;
+- Referência;
+- Tipo;
+- Modo;
+- Distância;
+- Escopo;
+- Contra;
+- Tamanho;
+- Material;
+- outras progressões específicas do próprio Poder.
+
+A existência de um campo em um Poder não obriga outros Poderes a possuírem o mesmo campo.
+
+---
+
+# Alvos e Área
+
+Nos Poderes que indicarem **Alvos ou Área**, as duas linhas são modos alternativos de aplicação:
+
+- **Alvos:** escolhe entidades individualmente;
+- **Área:** afeta a região determinada conforme a regra do Poder;
+- apenas a opção usada entra no custo.
+
+Outros Poderes podem usar Área com função diferente, como busca, percepção ou espaço de uma Ilusão.
+
+---
+
+# Chassi padrão dos Poderes de Efeito nocivo
+
+As famílias de Efeito nocivo normalmente usam:
+
+> **Alcance:** Curto → Médio → Longo  
+> **Alvos:** 1 → 2 → 4 → 8  
+> **Área:** Toque → Próximo → Curto  
+> **Dano:** Nenhum → 1d6 → 2d6  
+> **Efeito:** progressão da família  
+> **Defesa:** Total → Parcial  
+> **Resistência do Efeito:** Total → Parcial → Nula  
+> **Duração:** Turno → Cena → Hora
+
+Esse chassi é uma base, não uma obrigação quando a natureza do Efeito exigir uma estrutura própria. **Posição**, por exemplo, possui resultados de deslocamento instantâneo e não utiliza Duração comprada.
+
+As famílias atuais são:
+
+- **Sentidos:** Ofuscado → Cego / Surdo / Mudo → Privado;
+- **Contenção:** Lento → Imóvel → Paralisado;
+- **Terror:** Abalado → Apavorado → Aterrorizado;
+- **Exaustão:** Fatigado → Exausto → Inconsciente;
+- **Perturbação:** Desorientado → Confuso → Atordoado;
+- **Aflição:** 1 de dano → 1d3 de dano → 1d6 de dano por turno;
+- **Posição:** Caído → Movido → Conduzido;
+- **Influência:** Enfeitiçado → Compelido → Dominado;
+- **Ruína:** Desprevenido → Exposto → Indefeso;
 - **Debilitação:** Fraco → Debilitado → Prostrado.
 
-**Sentidos** possui uma escolha no segundo estágio: Cego, Surdo ou Mudo têm o mesmo custo. **Aflição** distingue o Dano imediato opcional do chassi do Dano persistente causado por sua própria progressão.
+---
+
+# Tempo
+
+A terminologia temporal do Novo Motor é:
+
+> **Instante → Turno → Cena → Hora → Dia**
+
+Quando um Poder produz seu efeito imediatamente, use **Instante**. Arquivos antigos que ainda usem “Imediata”, “Instantâneo” ou “Instantânea” devem ser entendidos como versões antigas do mesmo conceito e podem ser padronizados.
+
+---
+
+# Índice dos Poderes
+
+A lista curta para consulta da ficha está em [../ficha/poderes.md](../ficha/poderes.md). Cada regra completa permanece no arquivo individual deste diretório.
