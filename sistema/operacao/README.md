@@ -17,6 +17,7 @@ operacao/
 ├── janelas-e-interrupcoes.md
 ├── turnos-de-combate.md
 ├── ordem-de-resolucao-do-combate.md
+├── rotina-de-trama-em-combate.md
 └── comandos-administrativos.md
 ```
 
@@ -38,7 +39,7 @@ Governa o fluxo normal fora de combate, passagem de tempo, interrupções e aber
 
 ### `turnos-de-combate.md`
 
-Define rodadas de até 10 segundos e a **ordem fixa de Iniciativa** do combate.
+Define a Rodada global, o Turno pessoal e a **ordem fixa de Iniciativa** do combate.
 
 Cada participante rola uma única vez no início:
 
@@ -57,12 +58,29 @@ Iniciativa
 → peça ativa
 → declaração
 → Hub quando aplicável
-→ resolução e Defesa
+→ resolução e Defesa/Resistência
 → atualização imediata
 → próximo da Iniciativa
 ```
 
 Ele consulta `../resolucao/`; não contém um segundo motor mecânico.
+
+### `rotina-de-trama-em-combate.md`
+
+Define as janelas obrigatórias em que o combate deve devolver ao JOGADOR HUMANO a decisão de usar Trama.
+
+```text
+antes de rolagem elegível
+→ checar Trama
+
+Mana faltante em configuração válida
+→ checar Trama
+
+Dano prestes a atingir Vida
+→ checar Trama
+```
+
+A checagem é obrigatória. O gasto continua opcional.
 
 ### `comandos-administrativos.md`
 
@@ -99,6 +117,7 @@ Em combate:
 ciclo-de-cena.md
 → turnos-de-combate.md
 → ordem-de-resolucao-do-combate.md
+→ rotina-de-trama-em-combate.md sempre que surgir uma janela válida
 → ../resolucao/ para cada cálculo necessário
 ```
 
@@ -126,4 +145,4 @@ O roteador geral permanece `../00-LEIA-PRIMEIRO.md`.
 
 ## Regra final
 
-> **`operacao/` organiza janelas, rodadas e sequência. Em combate, a Iniciativa é rolada uma vez e sua ordem permanece até o confronto terminar. As outras pastas continuam donas de suas próprias regras.**
+> **`operacao/` organiza janelas, Rodadas, Turnos, sequência e decisões obrigatórias de fluxo. Em combate, a Iniciativa é rolada uma vez, sua ordem permanece até o confronto terminar e toda janela válida de Trama deve ser aberta ao JOGADOR HUMANO antes de prosseguir. As outras pastas continuam donas de suas próprias regras.**
