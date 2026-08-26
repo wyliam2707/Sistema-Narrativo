@@ -4,30 +4,25 @@ Status: APROVADO
 
 Esta pasta responde à pergunta:
 
-> **Dadas as intenções, capacidades, circunstâncias e oposição, como descobrimos o que acontece?**
+> **Dadas as capacidades, circunstâncias e oposição, qual é o resultado mecânico?**
 
-`resolucao/` calcula e interpreta resultados. Ela não decide quem controla uma peça, não organiza a ordem das cadeiras e não define como a cena é escrita.
+`resolucao/` contém regras de cálculo e interpretação mecânica. Ela não distribui autoridade, não organiza a sequência da mesa, não escreve a cena e não decide onde salvar o resultado.
 
----
-
-## Estrutura principal
+## Estrutura
 
 - `principio-de-resolucao.md` — quando estabelecer diretamente, quando testar e como tratar impossibilidade;
-- `leitura-da-ficha-na-resolucao.md` — como identificar Atributo, Perícia, meio, situação e oposição aplicáveis;
+- `leitura-da-ficha-na-resolucao.md` — quais partes da ficha entram numa resolução;
 - `motor-de-disputa.md` — motor universal contra cenário e oposição ativa;
-- `combate-e-dano.md` — ataque, Defesa, Dano, RD, Barreira e aplicação em Vida;
+- `combate-e-dano.md` — ataque, Defesa, Dano, RD, Barreira, Trama e Vida;
 - `vida.md` — Vida Máxima e Incapacitado;
 - `recuperacao-da-vida.md` — recuperação natural e Medicina;
 - `mana.md` — Mana Máxima, recuperação e `[X]`;
-- `poderes/` — Hubs e regras concretas dos Poderes;
-- `status/` — famílias de condições temporárias e sobreposição;
-- `ordem-de-resolucao-do-combate.md` — ordem operacional de consulta durante combate;
-- `resolucao-social.md` — resolução social sem substituir agência;
+- `poderes/` — Hubs e mecânicas concretas de Poder;
+- `status/` — condições temporárias e sobreposição;
+- `resolucao-social.md` — incerteza social sem substituir agência;
 - `informacao-e-investigacao.md` — informação, repertório e investigação.
 
-Traços e Trama pertencem à definição mecânica da personagem em `../personagem/`, embora possam modificar uma resolução quando suas regras disserem isso explicitamente.
-
----
+A sequência operacional de combate pertence a `../operacao/ordem-de-resolucao-do-combate.md`.
 
 ## Entrada
 
@@ -39,51 +34,37 @@ IMPOSSIBILIDADE EVIDENTE
 → estabelecer
 
 INCERTEZA REAL
-→ usar somente a regra necessária
+→ aplicar somente a resolução necessária
 ```
 
 A resolução não fabrica dúvida quando o resultado já está claro.
 
----
-
 ## Motor universal
 
-Todo teste termina com o resultado de **4 dados mantidos + Atributo**.
+Todo teste termina com:
 
-Teste normal:
-
-```text
-4d6 + Atributo
-```
-
-Bônus:
+> **resultado de 4 dados mantidos + Atributo**
 
 ```text
-+1d → rola 5d6 e mantém os 4 melhores
-+2d → rola 6d6 e mantém os 4 melhores
+normal → 4d6, mantém 4
++1d    → 5d6, mantém 4 melhores
++2d    → 6d6, mantém 4 melhores
+-1d    → 5d6, mantém 4 piores
+-2d    → 6d6, mantém 4 piores
 ```
 
-Penalidades:
+Bônus e penalidades se cancelam. O modificador final não ultrapassa `-2d` a `+2d`.
 
-```text
--1d → rola 5d6 e mantém os 4 piores
--2d → rola 6d6 e mantém os 4 piores
-```
+Perícia relevante concede `+1d`; várias Perícias aplicáveis continuam concedendo no máximo `+1d` por Perícias.
 
-Bônus e penalidades se cancelam antes da rolagem. O modificador final nunca ultrapassa `-2d` a `+2d`.
-
-Perícia relevante concede `+1d`. Várias Perícias aplicáveis continuam concedendo no máximo `+1d`.
-
-Dados adicionais ou removidos vêm de fontes mecânicas explícitas, como Perícia, Poder, Status, Traço, Trama ou outra regra que diga diretamente `+Xd` ou `-Xd`.
-
----
+Outros dados vêm apenas de regras explícitas, como Poder, Status, Traço, Trama ou outra fonte que determine `+Xd/-Xd`.
 
 ## Contra o cenário
 
-Quando a incerteza vem de uma dificuldade fixa da situação:
-
 ```text
-4 dados mantidos + Atributo × Dificuldade
+4 dados mantidos + Atributo
+×
+Dificuldade
 ```
 
 A Dificuldade varia normalmente de `10` a `24`.
@@ -93,19 +74,13 @@ resultado ≥ Dificuldade → sucesso
 resultado < Dificuldade → falha
 ```
 
-Igualar a Dificuldade é sucesso.
+A Dificuldade descreve a tentativa concreta, incluindo circunstâncias comuns que realmente a tornam mais fácil ou difícil.
 
-A Dificuldade representa a realidade concreta da tentativa, não o Patamar da campanha nem uma tentativa de balanceamento.
-
-Circunstâncias comuns da cena podem aumentar ou reduzir a Dificuldade quando realmente alterarem a tarefa. Não existe incremento fixo obrigatório: o NARRADOR escolhe o valor que melhor represente a situação.
+Não acompanha Patamar e não é ajustada para balancear personagens.
 
 > **A Dificuldade descreve o problema. A ficha descreve quem tenta resolvê-lo.**
 
----
-
 ## Oposição ativa
-
-Quando outra personagem ou entidade se opõe ativamente:
 
 ```text
 4 dados mantidos + Atributo
@@ -115,101 +90,70 @@ Quando outra personagem ou entidade se opõe ativamente:
 
 Cada lado usa o Atributo coerente com sua própria ação ou reação.
 
-Quando a ficção conceder a um lado uma vantagem **óbvia e inegável** naquela oposição, esse lado recebe `+1d`.
+Quando um lado possui vantagem ficcional **óbvia e inegável** naquela oposição:
+
+> **+1d ao lado favorecido**
 
 Se a vantagem já tornar o resultado evidente, não se rola.
 
-Em oposição, empate favorece quem iniciou a ação. A resposta precisa superar o resultado da ação para impedi-la.
-
----
+Em empate, vence quem iniciou a ação; a resposta precisa superar o iniciador para impedi-lo.
 
 ## Tarefas demoradas
 
-O antigo sistema de `Exigência`, `Progresso por aplicação` e `Aplicações necessárias` não faz parte do motor atual.
-
-Uma tarefa não recebe várias rolagens apenas porque demora.
+Tempo por si só não cria várias rolagens nem barra de progresso.
 
 ```text
 resultado evidente com tempo suficiente
 → estabelecer resultado e tempo coerente
 
 impossibilidade evidente
-→ estabelecer a impossibilidade
+→ estabelecer impossibilidade
 
-incerteza real contra a situação
-→ um teste contra Dificuldade
-
-oposição ativa
-→ uma oposição comum quando necessário
+incerteza real
+→ uma resolução adequada
 ```
 
-Rolagens adicionais só existem quando a ficção cria uma nova incerteza relevante depois da resolução anterior.
-
----
+Nova rolagem só existe se surgir nova incerteza relevante.
 
 ## Combate
 
-Quando houver combate, consultar:
+A mecânica de ataque, Defesa e Dano pertence a `combate-e-dano.md`.
+
+A ordem da mesa durante combate pertence a:
 
 ```text
-ordem-de-resolucao-do-combate.md
+../operacao/turnos-de-combate.md
+../operacao/ordem-de-resolucao-do-combate.md
 ```
 
-Atalho operacional:
-
-```text
-HUD
-→ declaração
-→ escolhas mecânicas realmente faltantes
-→ demais declarações
-→ julgar interferência e precedência
-→ resolver
-→ atualizar
-→ novo HUD
-```
-
-A simultaneidade e o intervalo de até 10 segundos pertencem a `../operacao/turnos-de-combate.md`.
-
-`resolucao/` não cria iniciativa, fila fixa nem economia universal de uma ação por turno.
-
----
+`resolucao/` não cria iniciativa, fila fixa, HUD ou economia universal de ações.
 
 ## Poderes
 
-Para uso configurável ou capacidade extraordinária, consultar `poderes/`.
+A posse de Poderes pertence a `../personagem/poderes.md`.
 
-O Hub individual substitui a antiga regra universal de Ampliação. Não existe mais uma fórmula geral `patamar + Ampliação` aplicada a todos os efeitos.
+A mecânica concreta pertence a `poderes/`.
 
-Mana é o recurso técnico universal de Poderes e `[X]` é igual ao Patamar da personagem.
-
----
+Cada Hub define somente as dimensões necessárias ao Poder; `[X]` representa Patamar e normalmente limita o máximo de Mana por uso.
 
 ## Status
 
-Condições temporárias mecânicas pertencem a `status/`.
+`status/` define as condições mecânicas temporárias.
 
-Dentro da mesma família, vale o efeito mais forte conforme a regra de sobreposição. Famílias diferentes podem coexistir.
-
-Persistência apenas registra o Status ativo; não recalcula sua mecânica.
-
----
+`../persistencia/` apenas registra quais condições continuam ativas; não recalcula seus efeitos.
 
 ## Fronteiras
 
 ```text
-quem decide?                    → ../personas/
-quem move oposição?             → ../personas/opositor/
-ordem e turnos?                 → ../operacao/
-como mostrar o resultado?       → ../narracao/
-o que permanece depois?         → ../persistencia/
 quem a personagem é?            → ../personagem/
-como calcular o resultado?      → resolucao/
+quem decide?                     → ../personas/
+como vontades continuam?         → ../agencia/
+em que ordem aplicar?            → ../operacao/
+como apresentar?                 → ../narracao/
+o que permanece?                 → ../persistencia/
+como calcular?                   → resolucao/
 ```
 
-## Princípios finais
+## Regra final
 
-> **A ficção decide se existe teste, qual Atributo é pertinente e qual é a dificuldade real.**
-
-> **A resolução usa o menor número possível de rolagens.**
-
-> **Importância dramática e Patamar não alteram artificialmente a Dificuldade.**
+> **`resolucao/` existe para determinar resultados mecânicos quando a ficção ainda deixa mais de uma possibilidade plausível. Todo procedimento de mesa permanece em `operacao/`.**
