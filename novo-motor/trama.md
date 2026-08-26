@@ -115,6 +115,14 @@ Por exemplo, se duas heroínas jamais considerariam dividir uma relação com o 
 
 > **Trama pode mudar o espaço das possibilidades da história; ela não toma a decisão pelos personagens.**
 
+### Conveniência de roteiro
+
+Trama também explica aquelas situações comuns em filmes, séries e romances em que o protagonista recebe uma abertura improvável, alguém toma uma decisão questionável mas ainda plausível, uma coincidência útil acontece ou uma situação segue por um caminho que normalmente pareceria pouco provável.
+
+O gasto de Trama autoriza a narrativa a admitir essa **conveniência de roteiro** como parte do privilégio do protagonista. Isso não significa que qualquer comportamento possa ser imposto. A decisão ainda precisa continuar possível para o personagem envolvido, mesmo que antes fosse improvável, inesperada ou difícil de imaginar.
+
+Assim, a Trama não obriga a história a entregar o resultado desejado. Ela apenas permite que a história **tenha uma razão para considerar aquele caminho**.
+
 ---
 
 ## Limites da Trama
