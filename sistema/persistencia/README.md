@@ -4,11 +4,11 @@ Status: APROVADO
 
 Esta pasta responde:
 
-> **O que precisa continuar verdadeiro depois da cena e em qual fonte da campanha isso deve ser registrado?**
+> **O que precisa continuar verdadeiro depois da cena e em qual fonte isso deve ser registrado?**
 
-Persistência não cria fatos. Ela registra fatos já estabelecidos na fonte correta.
+Persistência não cria fatos, não calcula resultados e não decide ações. Ela registra verdades já estabelecidas na fonte correta.
 
-## Estrutura canônica
+## Estrutura
 
 ```text
 persistencia/
@@ -17,6 +17,7 @@ persistencia/
 ├── salvar-estado.md
 ├── status.md
 ├── progressao.md
+├── relevancia-da-ficha.md
 ├── atualizacao-de-ficha.md
 ├── material-reservado.md
 ├── livro.md
@@ -24,69 +25,67 @@ persistencia/
 └── correcao-de-canone.md
 ```
 
-## Arquivos
+## Identidades internas
 
 ### `estado-atual.md`
 
-Define a fonte concreta de retomada:
+Define o retrato concreto de retomada:
 
 ```text
 campanhas/<nome>/estado/atual.md
 ```
 
-Guarda somente o presente necessário para continuar corretamente.
+Guarda o presente necessário para continuar corretamente.
 
 ### `salvar-estado.md`
 
-Define como preservar o ponto atual sem fechar capítulo nem criar nova ficção.
+Preserva o ponto atual sem fechar capítulo nem criar nova ficção.
 
 ### `status.md`
 
-Define o conceito de STATUS: como uma peça está agora — Vida, Mana, Trama quando aplicável, Status mecânicos, efeitos ativos, Barreiras, alterações temporárias e posição relevante.
+Define **STATUS persistente**: como a peça está agora — Vida, Mana, Trama quando aplicável, condições mecânicas, efeitos ativos, Barreiras, alterações temporárias e posição relevante.
 
-Na campanha, STATUS persistente fica dentro de `estado/atual.md`; não exige arquivo próprio.
+A mecânica dos Status pertence a `../resolucao/status/`.
 
 ### `progressao.md`
 
-Define consequências estabelecidas que continuam causalmente vivas.
+Registra consequências já estabelecidas que continuam causalmente vivas.
 
-Na campanha atual, esses fios ficam em `estado/atual.md`, ou em `mestre/` quando forem reservados. Não existe obrigação de criar `progressao.md` dentro da campanha.
+Não significa XP, evolução de poder ou crescimento mecânico.
+
+### `relevancia-da-ficha.md`
+
+Define **o que merece ser consolidado numa ficha** e evita guardar meta-informação ou redundância sem utilidade futura.
+
+A estrutura e significado dos campos continuam em `../personagem/ficha.md`.
 
 ### `atualizacao-de-ficha.md`
 
 Define quando uma mudança deixa de ser apenas estado e passa a integrar de forma estável quem a personagem é.
 
-Alteração permanente de ficha exige a aprovação prevista nesse arquivo.
+Mudança permanente segue a aprovação prevista nesse arquivo.
 
 ### `material-reservado.md`
 
-Define a função de:
+Define o uso de:
 
 ```text
 campanhas/<nome>/mestre/
 ```
 
-Ali ficam NPCs persistentes sem agência de jogador, segredos, planos, preparações e outras fontes reservadas.
+para NPCs persistentes sem agência de jogador, segredos, planos, preparações e outras fontes reservadas.
 
 ### `livro.md`
 
 Define o registro histórico literário do que realmente aconteceu.
 
-Capítulos pertencem a:
-
-```text
-campanhas/<nome>/livro/
-```
-
-O Livro não é a fonte operacional padrão de retomada.
-
 ### `fechamento-de-capitulo.md`
 
-Define a consolidação de uma unidade narrativa encerrada no Livro e a atualização das fontes necessárias para continuar.
+Consolida uma unidade narrativa encerrada e atualiza somente as fontes que precisam continuar válidas.
 
 ### `correcao-de-canone.md`
 
-Define como uma correção explicitamente aprovada substitui a versão anterior de um fato sem manter duas realidades concorrentes.
+Define como uma correção aprovada substitui a versão anterior sem manter duas realidades concorrentes.
 
 ## Estrutura concreta da campanha
 
@@ -105,16 +104,16 @@ Distribuição básica:
 
 ```text
 PERSONAGENS
-→ quem as peças são e suas informações consolidadas
+→ quem as peças são
 
-ESTADO / atual.md
+ESTADO
 → como continuar agora
 
 MUNDO
 → verdades estáveis do cenário
 
 MESTRE
-→ NPCs e material reservado
+→ material reservado
 
 LIVRO
 → o que aconteceu
@@ -122,41 +121,25 @@ LIVRO
 
 ## Regra contra duplicação
 
-Um conceito do sistema não exige automaticamente um arquivo homônimo na campanha.
+Um conceito do sistema não exige automaticamente um arquivo homônimo dentro da campanha.
 
-Não criar por padrão:
+Não criar por padrão arquivos paralelos de STATUS, Progressão, cronologia ou intenções quando a mesma informação já possui fonte canônica suficiente.
 
-```text
-status.md da campanha
-progressao.md da campanha
-cronologia.md
-intencoes.md
-```
+> **Cada verdade deve ter uma fonte principal.**
 
-Se a mesma informação já possui fonte canônica suficiente, não duplicá-la em outra camada.
-
-## Relação com as outras áreas
+## Fronteiras
 
 ```text
-personagem/
-→ define quem a peça é
-
-resolucao/
-→ estabelece consequências mecânicas
-
-agencia/ e personas/
-→ definem quem decide e quais fios podem se mover
-
-operacao/
-→ define quando julgar, narrar e registrar
-
-narracao/
-→ apresenta a sentença
-
-persistencia/
-→ preserva somente o que passou a ser verdade
+como construir inicialmente?      → ../criacao/
+quem a personagem é?              → ../personagem/
+quem decide?                       → ../personas/
+quais fios podem voltar a agir?    → ../agencia/
+como calcular consequência?        → ../resolucao/
+quando registrar?                  → ../operacao/
+como apresentar?                   → ../narracao/
+onde a verdade permanece?          → persistencia/
 ```
 
 ## Regra final
 
-> **README roteia. `estado-atual.md` guarda o presente; `mestre/` guarda o reservado; `livro/` guarda a história; fichas guardam mudanças estáveis. Persistir corretamente é registrar cada verdade uma única vez na fonte certa.**
+> **`persistencia/` é a memória canônica do sistema. Ela não cria a verdade: guarda cada verdade já estabelecida uma única vez, na fonte correta.**
