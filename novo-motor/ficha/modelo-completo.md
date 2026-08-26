@@ -124,6 +124,10 @@ Um vínculo pode **mudar de categoria conforme evolui na ficção**. Alguém pod
 
 **Romance não implica exclusividade e estado civil não determina quantidade de vínculos.** Uma personagem solteira, namorando, casada ou em qualquer outra situação pode possuir um ou vários vínculos românticos quando isso fizer parte de sua vida afetiva atual. Relações a três, a quatro ou outras estruturas consensuais podem registrar todos os integrantes envolvidos em Romance quando eles realmente fizerem parte daquele vínculo. Da mesma forma, vínculos que deixarem de fazer parte da relação atual saem de Romance e podem retornar para Aliados quando ainda existir amizade ou confiança. A ficha não presume monogamia, não-monogamia ou qualquer formato específico; registra quem realmente faz parte da relação afetiva atual da personagem.
 
+A descrição de um relacionamento **não possui tamanho fixo**. Relações simples podem ser resumidas em uma linha; relações complexas podem usar várias frases quando isso for necessário para registrar nuances, intimidade, conflitos, limites, ambiguidade ou dinâmica conjunta.
+
+**A existência do vínculo e sua expressão pública são coisas diferentes.** O campo Relacionamentos registra o que realmente existe; a Personalidade e as Tendências determinam como a personagem externaliza, esconde, assume ou explica esse vínculo para outras pessoas. Uma personagem reservada pode viver uma relação intensa sem anunciá-la, enquanto uma personagem expansiva pode falar dela abertamente.
+
 Exemplo:
 
 - **Corvin Blackwood — Aliado:** conhecido confiável e presença recorrente.
