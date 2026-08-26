@@ -1,6 +1,22 @@
 # Mana
 
-Mana representa a reserva utilizada para sustentar e ampliar o uso dos Poderes.
+Mana é a **reserva técnica abstrata** utilizada para alimentar o uso dos Poderes.
+
+Ela não representa necessariamente energia mística. Sua manifestação narrativa depende da natureza do personagem e daquilo que seus Poderes representam na ficção.
+
+Exemplos:
+
+- para um personagem místico, pode representar **energia mágica ou sobrenatural**;
+- para um guarda ou atirador, pode representar **munição, recursos de combate ou preparo disponível**;
+- para um robô, pode representar **carga de energia, bateria ou capacidade operacional**;
+- para um personagem baseado em equipamentos, pode representar **dispositivos, ferramentas e recursos preparados**;
+- para um personagem de grande capacidade física, pode representar **fôlego, esforço ou reserva física extraordinária**.
+
+> **A mecânica é sempre Mana; a ficção determina o que essa reserva significa para cada personagem.**
+
+Quando Mana é gasta ou recuperada, a narração deve respeitar essa manifestação. O personagem místico pode consumir e recuperar energia; um combatente pode gastar recursos; um robô pode descarregar e recuperar capacidade; um personagem físico pode demonstrar esforço e recuperar o fôlego.
+
+Mana não precisa corresponder literalmente a uma contagem exata do recurso narrado. Ela representa a **capacidade técnica disponível para continuar usando Poderes**.
 
 ## Mana Máxima
 
@@ -37,6 +53,8 @@ Exemplos:
 - Vontade `[3]` → **3 Mana por hora**.
 
 A recuperação por hora nunca ultrapassa a Mana Máxima.
+
+A forma narrativa dessa recuperação acompanha o conceito do personagem. Pode representar recuperar energia, reorganizar recursos, estabilizar sistemas, retomar o fôlego ou outra explicação coerente com aquilo que sua Mana representa.
 
 ### Descanso longo
 
