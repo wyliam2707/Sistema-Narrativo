@@ -105,11 +105,11 @@ Resistência [1]
 PERÍCIAS:
 - Sociedade
 
-Vida Máxima [14]
-Mana Máxima [18]
+Vida Máxima [resultado derivado, se necessário]
+Mana Máxima [resultado derivado, se necessário]
 ```
 
-Esse exemplo é apenas estrutural. Os valores reais dependem da construção do personagem.
+Esse exemplo é apenas estrutural. Os valores derivados dependem da construção completa da personagem, inclusive de Atributos que podem ter sido omitidos visualmente da ficha rápida.
 
 ---
 
