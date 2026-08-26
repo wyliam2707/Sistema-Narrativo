@@ -188,17 +188,19 @@ A resposta precisa superar o resultado da ação para impedi-la.
 17 × 18 → resposta vence
 ```
 
-## 7. Precedência entre ações
+## 7. Iniciativa em combate
 
-Quando duas ações disputarem o mesmo instante dentro de um turno simultâneo e a ficção não determinar claramente qual acontece primeiro, a precedência é resolvida como uma oposição comum.
+A ordem de ação de combate não é resolvida por uma oposição local deste motor.
 
-Não existe fórmula especial de Iniciativa.
+Ela pertence a `../operacao/turnos-de-combate.md`:
 
-Cada lado usa o Atributo coerente com a forma pela qual tenta agir primeiro.
+```text
+Iniciativa = 4d6 + Controle
+```
 
-A resolução vale apenas para aquela interferência concreta e não cria ordem fixa para o restante do turno ou do combate.
+Cada participante rola uma única vez no início do combate e a ordem resultante permanece até o confronto terminar.
 
-A operação dos turnos permanece em `../operacao/turnos-de-combate.md`.
+A Iniciativa determina **quando** a peça age. Este motor continua determinando apenas **como resolver** as incertezas da ação quando sua posição chegar.
 
 ## 8. Tarefas demoradas
 
@@ -249,4 +251,4 @@ Não separar em vários testes aquilo que uma única resolução consegue decidi
 
 ## Regra final
 
-> **A ficção decide se existe incerteza e qual Atributo é pertinente. Contra o cenário, usa-se Dificuldade. Contra oposição ativa, ambos rolam. Perícias e regras explícitas alteram os dados. O motor não fabrica dificuldade nem progresso artificial.**
+> **A ficção decide se existe incerteza e qual Atributo é pertinente. Contra o cenário, usa-se Dificuldade. Contra oposição ativa, ambos rolam. Perícias e regras explícitas alteram os dados. Em combate, a ordem de ação vem da Iniciativa definida em `operacao/`.**
