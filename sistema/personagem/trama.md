@@ -49,6 +49,8 @@ Antes de resolver um teste:
 
 O limite universal final continua `±2d`, conforme `../resolucao/motor-de-disputa.md`.
 
+Fora de combate, quando o JOGADOR HUMANO quiser usar esse gasto para reforçar uma ação, declara a Trama junto da própria intenção conforme `../operacao/trama-fora-de-combate.md`.
+
 ## Reduzir penalidade de dados
 
 ```text
@@ -57,6 +59,8 @@ O limite universal final continua `±2d`, conforme `../resolucao/motor-de-disput
 ```
 
 Isso não torna possível uma ação objetivamente impossível.
+
+Fora de combate, esse gasto também deve ser declarado junto da ação que será reforçada.
 
 ## Reduzir Dano
 
@@ -82,6 +86,29 @@ Trama não:
 - aumenta `[X]`;
 - permite configuração acima do limite normal;
 - cria Poder que a personagem não possui.
+
+## Fora de combate
+
+A operação de Trama fora de combate pertence a:
+
+`../operacao/trama-fora-de-combate.md`
+
+Para melhorar uma rolagem ou reduzir penalidade de dados:
+
+```text
+JOGADOR HUMANO
+→ declara a ação
+→ declara o gasto de Trama junto da ação
+→ NARRADOR julga
+→ resolve
+→ narra
+```
+
+Se o gasto não foi declarado antes da resolução, não pode ser acrescentado retroativamente depois de conhecido o resultado daquela rolagem.
+
+O NARRADOR não possui rotina obrigatória de perguntar por esse gasto fora de combate.
+
+> **Fora de combate, o jogador anuncia a Trama junto da intenção.**
 
 ## Rotina obrigatória em combate
 
@@ -150,4 +177,4 @@ A ficha pode indicar que a personagem é elegível à regra por seu `CONTROLE`, 
 
 ## Regra final
 
-> **Trama é um recurso mecânico da personagem humana: melhora dados, reduz penalidades, absorve Dano e substitui Mana dentro de `[X]`. Em combate, toda janela válida de uso deve ser aberta obrigatoriamente antes de a resolução prosseguir. Autoridade e registro pertencem às áreas responsáveis.**
+> **Trama é um recurso mecânico da personagem humana: melhora dados, reduz penalidades, absorve Dano e substitui Mana dentro de `[X]`. Fora de combate, o jogador declara junto da intenção a Trama usada para reforçar sua ação. Em combate, toda janela válida de uso deve ser aberta obrigatoriamente antes de a resolução prosseguir.**
