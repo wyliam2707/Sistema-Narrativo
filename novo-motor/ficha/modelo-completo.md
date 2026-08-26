@@ -144,6 +144,24 @@ Relacionamentos registram **como a personagem sente e entende o vínculo no pres
 
 # Bloco 7 — Histórico
 
-Este bloco registra o passado consolidado necessário para compreender a personagem e sua situação atual.
+Este bloco registra o passado consolidado necessário para compreender a personagem e sua situação atual, sem transformar a ficha em uma biografia completa.
 
-A estrutura detalhada deste bloco será consolidada separadamente.
+**Origem:**  
+**Formação:**  
+**Eventos Marcantes:**  
+**Campanha:**  
+
+- **Origem:** de onde a personagem veio e quais elementos essenciais explicam quem ela é.
+- **Formação:** como adquiriu suas capacidades, conhecimentos, treinamento ou papel atual.
+- **Eventos Marcantes:** acontecimentos anteriores à campanha que ainda influenciam sua identidade, escolhas ou situação presente.
+- **Campanha:** acontecimentos ocorridos durante a própria campanha que se tornaram relevantes para a personagem e precisam permanecer disponíveis como memória consolidada.
+
+**Histórico não é uma biografia completa.** Registre apenas o passado que ainda importa para interpretar a personagem no presente.
+
+**Campanha não é diário de sessão.** Esse campo guarda apenas acontecimentos que mudaram, ensinaram, revelaram ou afetaram a personagem de forma suficientemente relevante para que o JOGADOR IA ou outro controlador não precise consultar todos os capítulos, livros ou registros anteriores para lembrar deles.
+
+O campo Campanha pode crescer ao longo do jogo e ser resumido ou consolidado quando informações antigas deixarem de precisar de detalhes separados.
+
+---
+
+> **A ficha completa reúne o necessário para reconhecer, resolver, interpretar e manter continuidade de uma personagem persistente. Ela registra o que importa; detalhes circunstanciais pertencem às demais camadas de estado e campanha.**
