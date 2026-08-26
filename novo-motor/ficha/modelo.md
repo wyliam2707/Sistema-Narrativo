@@ -1,8 +1,10 @@
-# Modelo de Ficha
+# Modelo de Ficha Completa
 
-Este arquivo é um modelo simples para registrar um personagem do **Novo Motor**.
+Este é o modelo completo de personagem do **Novo Motor**.
 
-As regras de criação, Vida e Mana ainda serão consolidadas em capítulos próprios. Os campos abaixo apenas reservam espaço para essas informações.
+Ele é indicado para protagonistas, personagens importantes e qualquer personagem persistente que precise de informação suficiente para resolução, interpretação e continuidade.
+
+A ficha completa é a referência estrutural. Os modelos rápido e mínimo são simplificações dela e não utilizam regras diferentes.
 
 ---
 
@@ -11,6 +13,14 @@ As regras de criação, Vida e Mana ainda serão consolidadas em capítulos pró
 **Nome:**  
 **Conceito:**  
 **Descrição:**  
+
+---
+
+# Patamar
+
+**Patamar:** `[ ]`
+
+O Patamar define `[X]`, o limite de Mana que pode ser gasto em um único uso de Poder.
 
 ---
 
@@ -36,7 +46,7 @@ As regras de criação, Vida e Mana ainda serão consolidadas em capítulos pró
 - `[ ]`
 - `[ ]`
 
-Adicione ou remova linhas conforme a quantidade de Perícias do personagem.
+Adicione ou remova linhas conforme as Perícias realmente possuídas pelo personagem.
 
 ---
 
@@ -58,9 +68,9 @@ Adicione ou remova linhas conforme a quantidade de Perícias do personagem.
 
 # Poderes
 
-Registre o nome do Poder, seu valor `[X]` e, quando necessário, uma descrição curta de sua manifestação.
+Registre os Poderes que o personagem realmente possui. O valor máximo configurável de cada uso é limitado pelo Patamar `[X]` do personagem.
 
-- **[Poder] [X]** — `[descrição]`
+- **[Poder]** — `[descrição ou manifestação, quando necessária]`
 
 ---
 
@@ -70,16 +80,20 @@ Registre o nome do Poder, seu valor `[X]` e, quando necessário, uma descrição
 **Mana:** `[ ] / [ ]`  
 **Trama:** `[ ]`
 
-A forma de calcular Vida e Mana ainda será definida nas regras centrais. A regra atual de Trama está em [../trama.md](../trama.md).
+A Vida Máxima e a Mana Máxima são calculadas pelas regras centrais do Novo Motor. Valores atuais devem ser atualizados durante a campanha quando sofrerem alteração.
 
 ---
 
 # Status Atuais
+
+Registre somente Status e efeitos temporários que ainda estejam ativos e sejam relevantes.
 
 - `[ ]`
 
 ---
 
 # Notas
+
+Use esta área somente para informações que realmente precisem acompanhar a ficha e não pertençam melhor a outro campo.
 
 - `[ ]`
