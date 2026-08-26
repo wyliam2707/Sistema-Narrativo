@@ -123,25 +123,36 @@ A ordem permanece fixa até o fim do combate conforme `turnos-de-combate.md`.
 
 ### JOGADOR HUMANO
 
-Ao chegar a vez do JOGADOR HUMANO, mostrar o HUD completo necessário para decisão:
+Ao chegar a vez do JOGADOR HUMANO, mostrar somente o HUD útil para a decisão de combate:
 
 ```text
-Nome — Vida atual/máxima | Mana atual/máxima | Trama, quando aplicável
-Potência [X] · Controle [X] · Resistência [X]
-Intelecto [X] · Presença [X] · Vontade [X]
-Perícias > Perícia 1, Perícia 2, Perícia 3
+Nome — Vida atual/máxima | Mana atual/máxima | Trama atual/máxima
+POT [X] | CON [X] | RES [X] | INT [X] | PRES [X] | VON [X]
+DF [X] | RF [X] | DM [X] | RM [X] | Escudo [X] | RD [X]
 Poderes > Poder 1, Poder 2, Poder 3
 Status > nenhum
-Barreira > nenhuma
+```
+
+Exemplo:
+
+```text
+Kael — Vida 20/20 | Mana 18/18 | Trama 30/30
+POT [2] | CON [1] | RES [1] | INT [0] | PRES [0] | VON [0]
+DF [X] | RF [X] | DM [X] | RM [X] | Escudo [0] | RD [0]
+Poderes > Golpe, Proteção
+Status > nenhum
 ```
 
 Regras:
 
-- mostrar sempre os seis Atributos, inclusive `[0]`;
-- exatamente duas linhas de Atributos;
-- Perícias em uma linha sempre que couber;
-- Poderes em uma linha sempre que couber;
-- `Status > nenhum` e `Barreira > nenhuma` quando vazios;
+- mostrar sempre os seis Atributos, inclusive `[0]`, em uma única linha compacta;
+- usar as abreviações `POT`, `CON`, `RES`, `INT`, `PRES` e `VON` somente como forma de apresentação do HUD;
+- mostrar `DF`, `RF`, `DM` e `RM` na terceira linha; suas fórmulas pertencem à resolução e devem ser definidas separadamente;
+- mostrar `Escudo` e `RD` na terceira linha, inclusive quando `[0]`;
+- não mostrar Perícias no HUD de combate;
+- não mostrar uma linha separada de Barreira;
+- Poderes permanecem em uma linha sempre que couber;
+- usar `Status > nenhum` quando não houver Status relevante;
 - não inserir linhas vazias dentro do HUD.
 
 ### Peças controladas por IA ou OPOSITOR
