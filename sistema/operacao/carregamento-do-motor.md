@@ -55,7 +55,7 @@ narracao/
 persistencia/
 ```
 
-Não é necessário carregar `aventuras/` ou campanhas concretas para aprender as regras universais.
+Para aprender as regras universais, `sistema/` é suficiente. Não carregar campanhas concretas antes de concluir o carregamento universal e o JOGADOR HUMANO escolher Nova ou Continuar.
 
 > **Primeiro aprende o motor. Depois pergunta qual mesa será aberta.**
 
