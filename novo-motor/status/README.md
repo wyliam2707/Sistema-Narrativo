@@ -53,11 +53,14 @@ Quando dois ou mais efeitos pertencem à **mesma família**, apenas o efeito mai
 
 - se dois efeitos tiverem a mesma força, permanece o de maior duração;
 - **durações não se somam**: receber várias aplicações do mesmo efeito não acumula suas durações;
+- uma nova aplicação pode **renovar a duração** do mesmo efeito: compare a duração restante com a duração completa da nova aplicação e mantenha a maior;
 - se o efeito mais fraco possuir duração menor ou igual à do mais forte, ele é descartado;
 - se o efeito mais fraco possuir duração maior, ele fica inativo enquanto o mais forte estiver ativo e sua duração continua passando normalmente;
 - quando o efeito mais forte terminar, o mais fraco volta a valer se ainda restar duração.
 
 Exemplo: receber **Cego [Cena]** dez vezes, mesmo de dez fontes diferentes, continua resultando apenas em **Cego [Cena]**. As dez aplicações não se transformam em dez Cenas de duração.
+
+Exemplo: um personagem está sob **Cego [Hora]** e falta apenas 1 minuto para o efeito terminar. Se receber novamente **Cego [Hora]**, a duração volta para **1 hora**. A nova duração substitui a duração restante porque é maior; ela não é somada ao tempo que ainda faltava.
 
 Exemplo: **Paralisado** domina **Imóvel** e **Lento** por pertencerem todos à família Contenção. Porém um efeito de **Aflição** continua ativo normalmente ao mesmo tempo, pois pertence a outra família.
 
