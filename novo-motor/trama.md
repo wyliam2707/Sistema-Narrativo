@@ -6,7 +6,7 @@ Eles representam aquele recurso comum às histórias em que o protagonista conse
 
 > **Mana representa a capacidade técnica do personagem. Trama representa a margem narrativa do protagonista.**
 
-Trama não garante vitória e não transforma automaticamente qualquer desejo do jogador em realidade. Ela permite ao jogador humano investir sua importância narrativa para melhorar suas chances, suportar consequências, continuar utilizando seus recursos ou abrir possibilidades que normalmente seriam muito improváveis.
+Trama não garante vitória e não transforma automaticamente qualquer desejo do jogador em realidade. Ela permite ao jogador humano investir sua importância narrativa para melhorar suas chances, suportar consequências, continuar utilizando seus recursos, corrigir um acontecimento recém-narrado ou abrir possibilidades que normalmente seriam muito improváveis.
 
 ---
 
@@ -83,6 +83,22 @@ O jogador pode gastar Trama para reduzir o Dano que o personagem sofreria:
 
 A redução pode ser parcial ou suficiente para anular todo o Dano, limitada apenas pela quantidade de Trama disponível.
 
+### Correção retroativa imediata
+
+Trama pode ser gasta **depois que o resultado e sua consequência imediata forem conhecidos**.
+
+O jogador pode corrigir o acontecimento que acabou de ser narrado, desde que a narrativa ainda não tenha avançado para outro evento relevante decorrente dele.
+
+Quando isso acontece, o Narrador volta ao instante necessário e narra novamente o acontecimento já considerando o gasto de Trama. A versão corrigida passa a ser aquilo que realmente aconteceu na ficção.
+
+Exemplo:
+
+Um ataque causa **12 de Dano** e levaria o protagonista a **0 de Vida**. Depois de conhecer essa consequência, o jogador declara que gastará **12 Pontos de Trama** para reduzir o Dano a `0`.
+
+O Narrador retorna ao momento do golpe e reescreve sua resolução: o ataque erra por pouco, atinge uma proteção, é desviado no último instante ou encontra outra explicação coerente. O protagonista nunca chegou a sofrer aqueles 12 pontos de Dano na versão definitiva da cena.
+
+> **Trama pode corrigir o instante recém-acontecido; ela não reescreve livremente acontecimentos antigos depois que a história já avançou.**
+
 ### Usar Poderes sem Mana suficiente
 
 Quando o personagem não possuir Mana suficiente para pagar um uso de Poder, o jogador pode substituir a Mana faltante por Trama:
@@ -135,9 +151,10 @@ Pontos de Trama:
 - não tornam possível uma ação absolutamente impossível;
 - não anulam uma Restrição absoluta apenas por serem gastos;
 - não garantem que uma rolagem será bem-sucedida;
+- podem corrigir uma consequência recém-narrada antes que a história avance para outro evento relevante;
 - podem abrir uma nova possibilidade narrativa, mas não obrigam outro personagem a escolher o resultado desejado.
 
-> **Trama oferece ao protagonista uma nova chance ou uma nova possibilidade; ela não determina o resultado da história.**
+> **Trama oferece ao protagonista uma nova chance, uma correção imediata ou uma nova possibilidade; ela não determina livremente o resultado da história.**
 
 ---
 
@@ -169,4 +186,4 @@ Ter 0 Pontos de Trama não impede o personagem de quebrar o Código; significa a
 
 # Regra fundamental
 
-> **Trama é o privilégio narrativo do protagonista. Ela permite ao jogador humano melhorar uma rolagem, reduzir penalidades, suportar Dano, sustentar o uso de Poderes, obter uma pista ou abrir uma nova possibilidade narrativa. Ela pode alterar as chances e o espaço de possibilidades da história, mas não garante vitória nem força as decisões de outros personagens.**
+> **Trama é o privilégio narrativo do protagonista. Ela permite ao jogador humano melhorar uma rolagem, reduzir penalidades, corrigir uma consequência recém-narrada, suportar Dano, sustentar o uso de Poderes, obter uma pista ou abrir uma nova possibilidade narrativa. Ela pode alterar as chances, corrigir o instante recém-acontecido e ampliar o espaço de possibilidades da história, mas não garante vitória nem força as decisões de outros personagens.**
