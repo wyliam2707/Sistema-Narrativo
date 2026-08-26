@@ -8,92 +8,58 @@ A ficha completa é a referência estrutural. Os modelos rápido e mínimo são 
 
 ---
 
-# Identidade
+# Bloco 1 — Descrição
+
+Este bloco registra a identificação da personagem e aquilo que pode ser percebido ou compreendido em uma **primeira impressão**.
+
+Ele não deve antecipar personalidade, motivações, medos, desejos, comportamento interno ou histórico. Essas informações pertencem aos blocos próprios.
 
 **Nome:**  
+**CONTROLE:**  
+**Importância:**  
+**Patamar:** `[ ]`  
 **Conceito:**  
+**Aparência:**  
 **Descrição:**  
 
----
+## Função dos campos
 
-# Patamar
+- **Nome:** nome de uso e, quando útil, identidade principal no mesmo campo. Exemplo: `Ravena / Rachel Roth`.
+- **CONTROLE:** registra quem possui autoridade normal sobre as decisões voluntárias da personagem.
+- **Importância:** registra o peso estrutural da personagem na campanha.
+- **Patamar:** registra o Patamar de Poder `[X]` da personagem.
+- **Conceito:** síntese curta do que a personagem é.
+- **Aparência:** características visuais imediatamente reconhecíveis.
+- **Descrição:** presença, estilo e primeira impressão percebida em cena.
 
-**Patamar:** `[ ]`
-
-O Patamar define `[X]`, o limite de Mana que pode ser gasto em um único uso de Poder.
-
----
-
-# Atributos
-
-## Corpo
-
-- **Potência:** `[ ]`
-- **Controle:** `[ ]`
-- **Resistência:** `[ ]`
-
-## Mente
-
-- **Intelecto:** `[ ]`
-- **Presença:** `[ ]`
-- **Vontade:** `[ ]`
+> **O Bloco 1 mostra quem entrou em cena e qual impressão essa presença produz. Ele não revela automaticamente quem a personagem é por dentro.**
 
 ---
 
-# Perícias
+# Bloco 2 — Atributos e Perícias
 
-- `[ ]`
-- `[ ]`
-- `[ ]`
-
-Adicione ou remova linhas conforme as Perícias realmente possuídas pelo personagem.
+A estrutura detalhada deste bloco será consolidada separadamente.
 
 ---
 
-# Traços
+# Bloco 3 — Traços e Poderes
 
-## Positivos
-
-- `[ ]`
-
-## Vícios
-
-- `[ ]`
-
-## Corrupções
-
-- `[ ]`
+A estrutura detalhada deste bloco será consolidada separadamente.
 
 ---
 
-# Poderes
+# Bloco 4 — Vida, Mana e Movimento
 
-Registre os Poderes que o personagem realmente possui. O valor máximo configurável de cada uso é limitado pelo Patamar `[X]` do personagem.
-
-- **[Poder]** — `[descrição ou manifestação, quando necessária]`
+A estrutura detalhada deste bloco será consolidada separadamente.
 
 ---
 
-# Recursos
+# Bloco 5 — Personalidade
 
-**Vida:** `[ ] / [ ]`  
-**Mana:** `[ ] / [ ]`  
-**Trama:** `[ ]`
-
-A Vida Máxima e a Mana Máxima são calculadas pelas regras centrais do Novo Motor. Valores atuais devem ser atualizados durante a campanha quando sofrerem alteração.
+A estrutura detalhada deste bloco será consolidada separadamente.
 
 ---
 
-# Status Atuais
+# Bloco 6 — Histórico
 
-Registre somente Status e efeitos temporários que ainda estejam ativos e sejam relevantes.
-
-- `[ ]`
-
----
-
-# Notas
-
-Use esta área somente para informações que realmente precisem acompanhar a ficha e não pertençam melhor a outro campo.
-
-- `[ ]`
+A estrutura detalhada deste bloco será consolidada separadamente.
