@@ -8,6 +8,13 @@ Essa divisão não determina aquilo que o personagem pode ou não fazer. Ela ind
 
 Os Atributos normalmente variam entre **[-2] e [7]**, sendo **[0]** a referência de uma pessoa comum.
 
+Efeitos temporários podem ultrapassar essa escala nos dois sentidos. Assim, **[-2] e [7] são limites dos valores permanentes, não limites absolutos durante efeitos temporários**.
+
+Exemplos:
+
+- Atributo `[7]` com `+2` temporário → `[9]` enquanto o efeito durar;
+- Atributo `[-2]` com `-2` temporário → `[-4]` enquanto o efeito durar.
+
 ---
 
 ## Para que servem os Atributos
