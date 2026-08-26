@@ -1,30 +1,26 @@
 # Regras Gerais — Novo Motor
 
-Este capítulo consolida as regras gerais já definidas no **Novo Motor** e registra as dúvidas encontradas durante a revisão dos Poderes, Atributos, Perícias, Traços e Status.
+Este capítulo reúne as **regras centrais consolidadas** do Novo Motor.
 
-As seções de **Regras Consolidadas** podem ser usadas normalmente por um Narrador humano ou IA. A seção **Pendências de Consistência** registra pontos que ainda precisam de decisão e **não deve ser usada para inventar uma regra nova durante o jogo**.
+O sistema é narrativo e ficcional primeiro. As regras existem para resolver incerteza; elas não substituem aquilo que já é evidente ou impossível dentro da ficção.
 
 ---
 
-# 1. Princípio do sistema
+# 1. Princípio de resolução
 
-O Novo Motor é um sistema **narrativo e ficcional primeiro**.
-
-A ordem de resolução é:
+A ordem básica é:
 
 1. o jogador declara o que seu personagem pretende fazer;
-2. o Narrador interpreta a intenção, a situação e as capacidades registradas na ficha;
+2. o Narrador interpreta a intenção, a situação e a ficha;
 3. se o resultado for evidente, ele acontece sem teste;
 4. se a ação for impossível na ficção, ela não acontece apenas porque existe uma mecânica relacionada;
-5. quando houver incerteza real, oposição ou risco relevante, utiliza-se a resolução mecânica apropriada.
-
-As regras existem para resolver incerteza. Elas não substituem consequências evidentes da ficção.
+5. quando houver incerteza real, oposição ou risco relevante, utiliza-se um teste.
 
 O Narrador pode criar situações, perigos, reações e consequências, mas não escolhe voluntariamente as ações do personagem controlado pelo jogador.
 
 ---
 
-# 2. Testes
+# 2. Regra universal dos testes
 
 Todo teste do sistema termina sempre com:
 
@@ -32,115 +28,159 @@ Todo teste do sistema termina sempre com:
 
 Bônus e penalidades não alteram a quantidade de dados que entra no resultado final. Eles alteram quantos dados são rolados e quais quatro resultados são mantidos.
 
-## Rolagem normal
-
-Sem bônus ou penalidades:
+## Teste normal
 
 > **4d6 + Atributo**
 
 ## Bônus
 
-- **+1d:** role `5d6` e mantenha os **4 melhores** resultados;
-- **+2d:** role `6d6` e mantenha os **4 melhores** resultados.
+- **+1d:** role `5d6` e mantenha os **4 melhores**;
+- **+2d:** role `6d6` e mantenha os **4 melhores**.
 
 ## Penalidades
 
-- **-1d:** role `5d6` e mantenha os **4 piores** resultados;
-- **-2d:** role `6d6` e mantenha os **4 piores** resultados.
+- **-1d:** role `5d6` e mantenha os **4 piores**;
+- **-2d:** role `6d6` e mantenha os **4 piores**.
 
-## Bônus e penalidades
+## Cancelamento e limite
 
 Bônus e penalidades se anulam antes da rolagem.
 
 Exemplos:
 
-- `+1d` e `-1d` resultam em `0`: teste normal;
-- `+2d` e `-1d` resultam em `+1d`;
-- `+1d` e `-3d` resultam em `-2d` após o limite.
+- `+1d` e `-1d` → `0` → teste normal;
+- `+2d` e `-1d` → `+1d`;
+- `+1d` e `-3d` → saldo `-2d` após o limite.
 
-Independentemente de quantas fontes estejam presentes, o modificador final nunca pode ser maior que **+2d** nem menor que **-2d**.
+Independentemente de quantas fontes existam, o modificador final nunca pode ultrapassar:
 
-Assim, mesmo que um personagem acumule penalidades suficientes para chegar a `-10d`, o teste continua limitado a **-2d**.
+> **-2d a +2d**
+
+Assim, mesmo que uma situação produza `-10d` em penalidades, o teste continua sendo resolvido como `-2d`.
 
 ## Perícias
 
-Uma Perícia relevante concede **+1d** ao teste.
+Uma **Perícia relevante** concede `+1d` ao teste.
 
-Ela segue as mesmas regras gerais de bônus e penalidades: pode ser anulada por uma penalidade e participa do limite final de `-2d` a `+2d`.
+Esse dado segue a mesma regra de qualquer outro bônus: pode ser anulado por penalidades e participa do limite final de `-2d` a `+2d`.
 
-## Formas universais de comparação
+Perícias não possuem Atributo fixo. O Atributo é determinado pela ação realizada.
 
-Existem duas formas de resolver qualquer teste do sistema.
+---
 
-### Contra o cenário
+# 3. Resolução contra o cenário
 
-O cenário não rola dados contra o personagem. Quando existe incerteza real, o resultado é comparado a uma **Dificuldade** definida pela situação:
+O cenário não rola dados contra o personagem.
+
+Quando houver incerteza real diante de uma dificuldade fixa da situação:
 
 > **4 dados mantidos + Atributo × Dificuldade**
 
-A Dificuldade varia de **10 a 24**:
+A **Dificuldade** varia de **10 a 24**.
 
 - **10** representa uma ação banal quando ainda existe motivo para testar;
-- **24** representa uma ação quase impossível.
+- **24** representa uma ação quase impossível;
+- os valores intermediários representam graus intermediários conforme a situação concreta.
 
-Os valores entre 10 e 24 representam graus intermediários de dificuldade conforme a situação concreta.
+## A dificuldade pertence à situação
 
-A Dificuldade deve representar **a dificuldade real da ação dentro da ficção**. Ela não deve ser aumentada ou reduzida para ajustar a campanha, acompanhar o poder dos personagens ou produzir artificialmente uma determinada chance de sucesso.
+A Dificuldade representa **o quanto aquela ação realmente é difícil dentro da ficção**.
+
+Ela não deve ser aumentada ou reduzida para:
+
+- acompanhar o poder dos personagens;
+- equilibrar artificialmente uma campanha;
+- garantir determinada chance de sucesso ou fracasso;
+- tornar um desafio mais difícil apenas porque o personagem é competente.
 
 > **O que é fácil deve continuar fácil. O que é difícil deve continuar difícil.**
 
-### Contra outro personagem ou entidade
+Se a capacidade do personagem tornar o resultado evidente, a própria regra ficcional pode eliminar a necessidade do teste.
+
+---
+
+# 4. Resolução contra outro personagem ou entidade
 
 Quando existe oposição ativa, os dois lados fazem seus testes:
 
 > **4 dados mantidos + Atributo × 4 dados mantidos + Atributo**
 
-Essas regras se aplicam a **qualquer teste do sistema**. Combate, Poderes, Perícias, resistências e demais resoluções utilizam a mesma estrutura; muda apenas o Atributo coerente, os bônus e penalidades aplicáveis e aquilo contra o qual o resultado é comparado.
+Cada lado utiliza o Atributo coerente com aquilo que está fazendo.
 
-## Atributo pela finalidade
+Essa é a mesma estrutura usada em combate, disputas físicas, conflitos mentais, Poderes e qualquer outra oposição ativa.
 
-O Atributo é determinado pela **finalidade e pela forma real da ação**, não simplesmente pelo nome do movimento e nem pelo maior valor da ficha.
+A regra específica para **empates** ainda será definida.
+
+---
+
+# 5. Atributo pela finalidade
+
+O Atributo é determinado pela **finalidade e pela forma real da ação**, não pelo nome do movimento e nem pelo maior valor da ficha.
+
+## Corpo
+
+- **Potência:** força, impacto e intensidade física.
+- **Controle:** coordenação, precisão, velocidade de execução e domínio dos movimentos.
+- **Resistência:** capacidade de suportar esforço, dor, desgaste e agressões físicas.
+
+## Mente
+
+- **Intelecto:** raciocínio, compreensão, análise e elaboração de soluções.
+- **Presença:** capacidade de influenciar e provocar reações nas outras pessoas.
+- **Vontade:** concentração, determinação, disciplina e resistência mental.
 
 Exemplos:
 
 - produzir força ou impacto → **Potência**;
-- agir com precisão, coordenação ou domínio físico → **Controle**;
-- suportar esforço, dor ou pressão física → **Resistência**;
-- compreender, calcular ou elaborar → **Intelecto**;
-- influenciar ou provocar uma reação social → **Presença**;
-- concentrar-se, manter determinação ou resistir mentalmente → **Vontade**.
+- agir com precisão ou técnica → **Controle**;
+- suportar fisicamente alguma coisa → **Resistência**;
+- compreender ou analisar → **Intelecto**;
+- influenciar ou intimidar → **Presença**;
+- concentrar-se ou resistir mentalmente → **Vontade**.
 
-Poderes cuja própria descrição permita formas de execução diferentes podem possuir uma regra específica de escolha contextual. Isso não transforma o maior Atributo em escolha automática para qualquer ação.
+A regra completa está em [atributos.md](./atributos.md).
 
 ---
 
-# 3. Escala de tempo
+# 6. Perícias
+
+Perícias representam treinamento e experiência em áreas amplas.
+
+Quando uma Perícia for realmente relevante para a ação, ela concede `+1d`. O jogador não precisa pedir explicitamente para utilizá-la: o Narrador deve ler a ficha e reconhecer automaticamente conhecimentos e treinamentos aplicáveis.
+
+Perícias não fornecem bônus genérico de combate.
+
+A lista e as descrições completas estão em [pericias.md](./pericias.md).
+
+---
+
+# 7. Escala de tempo
 
 A escala geral é:
 
 > **Instante → Turno → Cena → Hora → Dia**
 
-- **Instante:** acontece imediatamente e não permanece por uma unidade de tempo própria.
-- **Turno:** corresponde a aproximadamente **10 segundos**.
-- **Cena:** corresponde narrativamente a uma sequência curta de acontecimentos; como referência, cerca de **6 Turnos**, aproximadamente **1 minuto**, quando essa conversão for necessária.
-- **Hora:** duração prolongada dentro da narrativa.
-- **Dia:** duração extensa, normalmente suficiente para atravessar várias cenas.
+- **Instante:** acontece imediatamente.
+- **Turno:** aproximadamente **10 segundos**.
+- **Cena:** sequência curta de acontecimentos; quando for necessária uma conversão, cerca de **6 Turnos**, aproximadamente **1 minuto**.
+- **Hora:** duração prolongada.
+- **Dia:** duração extensa, atravessando várias cenas quando apropriado.
 
-Se uma ação, efeito ou consequência não possuir tempo ou duração determinados por uma regra, o padrão é **Instante**.
+Se uma ação ou efeito não possuir duração própria, o padrão é **Instante**.
 
 ## Conjuração
 
-Quando um Poder possuir **Conjuração**, ela indica quanto tempo é necessário antes de o efeito acontecer.
+Quando um Poder possuir Conjuração:
 
-- **Cena:** exige preparação durante a Cena.
-- **Turno:** começa na vez do usuário; os demais personagens agem normalmente; o efeito é concluído quando chegar novamente a vez do usuário.
-- **Imediata:** acontece na mesma vez em que é declarada e resolvida.
+- **Cena:** exige preparação durante a Cena;
+- **Turno:** começa na ação do usuário e termina quando chegar novamente sua ação, depois que os demais participantes tiverem agido;
+- **Instante:** acontece na mesma ação em que é declarado e resolvido.
 
-Arquivos antigos ainda usam palavras como **Instantâneo**, **Instantânea** ou **Instante** para representar resultados imediatos. Para a leitura geral, esses termos representam a mesma ideia temporal. A terminologia dos arquivos ainda pode ser padronizada posteriormente.
+**Instante** é o termo oficial para efeitos imediatos.
 
 ---
 
-# 4. Distâncias narrativas
+# 8. Distâncias narrativas
 
 As distâncias são categorias narrativas, não uma régua rígida.
 
@@ -151,90 +191,74 @@ As distâncias são categorias narrativas, não uma régua rígida.
 - **Médio:** cerca de **45 m**.
 - **Longo:** cerca de **90 m**.
 
-Acima de **Longo**, a distância normalmente depende de um efeito próprio, como Teleporte ou outra capacidade que atravesse grandes distâncias.
+Acima de Longo, a distância normalmente depende de uma capacidade própria, como Teleporte.
 
-Quando um Poder possuir **Indeterminado**, a distância física deixa de ser o principal limite, mas as demais exigências do Poder continuam existindo. Indeterminado não cria automaticamente um alvo, uma referência ou um destino válido.
+Quando um Poder utilizar **Indeterminado**, a distância deixa de ser o principal limite, mas alvo, referência, destino e demais condições ainda precisam existir conforme o Poder.
 
 ---
 
-# 5. Traços e Poderes
+# 9. Traços e Poderes
 
-A diferença fundamental é:
+A distinção central é:
 
 > **Traço descreve algo que o personagem é, possui ou faz naturalmente. Poder representa uma ação extraordinária usada deliberadamente para produzir um efeito.**
 
-Uma capacidade passiva pode ser um Traço. Quando a capacidade é deliberadamente usada para ferir, controlar, prender, empurrar, transformar ou produzir outro efeito extraordinário sobre alguém ou sobre a cena, ela normalmente é representada por um Poder.
+Traços são passivos e garantem apenas aquilo que sua descrição afirma.
 
-Essa divisão evita criar uma regra diferente para cada manifestação do mesmo conceito.
+Poderes representam funções extraordinárias ativas. Eles devem ser amplos o bastante para evitar criar uma categoria nova para cada manifestação específica.
 
----
+Exemplos:
 
-# 6. Poderes são efeitos gerais
+- invisibilidade e falsas percepções → **Ilusão**;
+- duplicatas ou criaturas auxiliares → **Invocação**;
+- remodelagem ou produção de objetos → **Criação**;
+- voo ativado e outras formas especiais de deslocamento → **Movimento**.
 
-Os Poderes devem representar **funções amplas**, e não listas de magias, técnicas ou efeitos excessivamente específicos.
-
-A descrição do personagem determina a aparência e a origem ficcional do Poder. O Hub determina aquilo que ele consegue fazer mecanicamente.
-
-Sempre que uma função já puder ser representada de forma coerente por um Poder geral, não é necessário criar outro Poder apenas para uma manifestação específica.
-
-Exemplos de interpretação já adotados durante o desenvolvimento:
-
-- invisibilidade, disfarces e falsas percepções → **Ilusão**;
-- voar, escalar ou nadar por uma capacidade ativada → **Movimento**;
-- adaptação a frio, calor, falta de ar e ambientes hostis → **Adaptação**;
-- duplicatas ou criaturas auxiliares → **Invocação**, quando a função mecânica for a de uma criatura invocada;
-- alterações e manipulações de matéria que possam ser tratadas como produção ou remodelagem de objetos → **Criação**;
-- contramágica, enfraquecimento de efeitos e dano a manifestações sobrenaturais sustentadas → **Dissipação**.
-
-A descrição não concede vantagens mecânicas adicionais que não estejam sustentadas pelo Poder, por um Traço ou pela própria ficção evidente.
+A fonte oficial dos Traços está em [tracos/](./tracos/) e a dos Poderes em [poderes/](./poderes/).
 
 ---
 
-# 7. Hub e custo dos Poderes
+# 10. Hub e custo dos Poderes
 
 Um Poder é configurado por seu **Hub**.
 
-`[X]` no nome do Poder representa o máximo de **Mana** que pode ser gasto em um único uso daquele Poder.
+`[X]` representa o máximo de **Mana** que pode ser gasto em um único uso daquele Poder.
 
-Salvo quando o próprio Poder indicar uma regra diferente:
+Salvo quando o próprio Poder determinar outra coisa:
 
 - a primeira posição de uma progressão custa `+0`;
 - cada avanço seguinte custa `+1`;
-- opções ramificadas no mesmo estágio possuem o mesmo custo daquele estágio;
-- o custo final é a soma dos avanços selecionados;
+- opções ramificadas no mesmo estágio possuem o mesmo custo;
+- o custo final é a soma dos avanços escolhidos;
 - o custo nunca pode ultrapassar `[X]`.
 
-Campos descritivos ou fixos que não apresentam progressão não recebem custo adicional por inferência.
-
-Antes de resolver um uso configurável, o Narrador apresenta a configuração e o custo. Se estiver dentro de `[X]`, pergunta apenas:
+Antes da resolução, o Narrador apresenta a configuração e o custo e pergunta apenas:
 
 > **Confirmar uso por X Mana?**
 
-A resolução acontece depois da confirmação.
-
-A origem de `[X]`, a quantidade total de Mana/Energia do personagem e sua recuperação ainda precisam de uma regra central própria.
+A quantidade total de Mana, sua recuperação e a origem do valor `[X]` serão definidas na regra central de Mana.
 
 ---
 
-# 8. Alcance, Alvos e Área
+# 11. Alcance, Alvos e Área
 
-**Alcance** determina até onde o usuário pode selecionar um alvo, ponto de origem ou local de aplicação, conforme a natureza do Poder.
+**Alcance** determina até onde um alvo, ponto ou origem pode ser selecionado.
 
 **Alvos** determina quantas entidades são escolhidas individualmente.
 
-**Área** representa uma região afetada ou pesquisada. Seu significado exato depende da função do Poder.
+**Área** determina uma região afetada, pesquisada ou ocupada pelo efeito, conforme a função do Poder.
 
-Nos Poderes de Efeito nocivo que usam o chassi padrão, **Alvos e Área são alternativas**:
+Quando um Poder indicar **Alvos ou Área**, as duas opções são alternativas:
 
-- usando **Alvos**, escolhem-se entidades individualmente;
-- usando **Área**, afetam-se aqueles que estiverem dentro da região definida, conforme a regra daquele Poder;
-- a opção não utilizada não entra no custo.
+- usando Alvos, escolhem-se entidades individualmente;
+- usando Área, aplica-se o efeito à região definida;
+- a opção não usada não entra no custo.
 
-Essa alternância só deve ser presumida quando fizer parte do chassi ou estiver indicada no próprio Poder. Outros Poderes podem usar Área com outra função, como uma região de busca, campo perceptivo ou espaço de uma Ilusão.
+Área pode possuir outras funções em Poderes específicos, como Detecção ou Ilusão.
 
 ---
 
-# 9. Resolução de Poderes ofensivos
+# 12. Poderes ofensivos
 
 A sequência geral é:
 
@@ -242,14 +266,12 @@ A sequência geral é:
 
 Nem todo Poder utiliza todas as etapas.
 
-Um Poder apenas de Dano pode terminar após o Dano. Um Poder não ofensivo pode não utilizar nenhuma dessas etapas.
-
 ## Defesa [Absoluta]
 
 Se a Defesa vencer:
 
 - não há Dano;
-- o Efeito é anulado antes de chegar à Resistência.
+- o Efeito é anulado antes da Resistência.
 
 ## Defesa [Total]
 
@@ -267,13 +289,36 @@ Se a Defesa vencer:
 
 ## Defesa [Nula]
 
-Não existe etapa de Defesa. Isso não torna uma ação ficcionalmente impossível em possível e não dispensa alvo, alcance ou outras condições necessárias.
+Não existe etapa de Defesa.
+
+Isso nunca transforma uma ação ficcionalmente impossível em possível.
 
 ---
 
-# 10. Resistência do Efeito
+# 13. Atributos de Acerto, Defesa e Resistência
 
-Quando um Efeito possuir Resistência, seu tipo determina o resultado de uma resistência bem-sucedida.
+Acerto, Defesa e Resistência usam a mesma regra geral dos Atributos:
+
+> **use o Atributo coerente com a forma real da ação ou da reação.**
+
+Não existe uma combinação universal obrigatória para todos os Poderes.
+
+Exemplos:
+
+- conter alguém fisicamente pode envolver **Potência × Resistência**;
+- medo sobrenatural pode envolver **Presença × Vontade**;
+- invasão mental pode envolver **Intelecto × Vontade**;
+- esquivar-se de um ataque pode usar **Controle**.
+
+Quando uma ação contra um alvo involuntário já é resolvida integralmente como **Acerto × Defesa**, não se acrescenta uma segunda Resistência por inferência.
+
+Um Poder pode possuir uma regra específica quando sua própria natureza fixa claramente algum Atributo, como ocorre com certas formas de Golpe ou com Atributos somados ao Dano.
+
+---
+
+# 14. Resistência do Efeito
+
+Quando um Efeito possuir uma etapa de Resistência, seu tipo define o que acontece se o alvo vencer.
 
 ## Efeito [Total]
 
@@ -287,15 +332,13 @@ Se o primeiro estágio for reduzido, nenhum Efeito é aplicado.
 
 ## Efeito [Nula]
 
-Não existe etapa de Resistência para o Efeito.
-
-A regra atual de quais Atributos são usados universalmente para **impor e resistir a Efeitos** ainda apresenta conflito entre os documentos e permanece como pendência. Não se deve inventar uma combinação universal nova até essa questão ser fechada.
+Não existe etapa de Resistência.
 
 ---
 
-# 11. Status e progressões
+# 15. Status e progressões
 
-Os efeitos nocivos estão organizados em famílias:
+As famílias nocivas atuais são:
 
 - **Sentidos:** Ofuscado → Cego / Surdo / Mudo → Privado;
 - **Contenção:** Lento → Imóvel → Paralisado;
@@ -308,384 +351,46 @@ Os efeitos nocivos estão organizados em famílias:
 - **Ruína:** Desprevenido → Exposto → Indefeso;
 - **Debilitação:** Fraco → Debilitado → Prostrado.
 
-Uma progressão representa **graus possíveis do mesmo tipo de resultado**. Ela não exige aplicar o primeiro estágio antes de tentar um estágio superior.
+Uma progressão representa graus possíveis do mesmo tipo de resultado. Não é necessário aplicar os estágios anteriores antes de tentar um estágio superior.
 
-As definições dos Estados pertencem ao capítulo de **Status**. Os arquivos de Poder dizem como um Poder tenta produzir esses Estados, mas não devem criar uma segunda definição diferente para o mesmo Estado.
+As definições completas ficam em [status/](./status/).
 
 ---
 
-# 12. Redução de Dano
+# 16. Redução de Dano
 
 Quando mais de uma **RD** se aplicar ao mesmo dano, use apenas a **maior RD aplicável**.
 
 > **Reduções de Dano não se somam.**
 
-Exemplo: RD 2 contra Fogo e RD 3 Total contra um ataque de fogo resultam apenas em **RD 3**.
-
-A posição exata da RD dentro da sequência entre Defesa, redução pela metade e Dano ainda precisa ser formalmente consolidada.
+A ordem exata entre RD e outras formas de redução, como a metade do Dano causada por Defesa [Parcial], ainda será definida na regra central de Dano.
 
 ---
 
-# 13. Panorama dos Poderes atuais
+# 17. Trama
 
-Os Poderes atuais formam um conjunto amplo de funções.
+Pontos de Trama são o recurso narrativo do sistema e seguem sua regra própria em [trama.md](./trama.md).
 
-## Dano direto
-
-- **Golpe:** dano de combate próximo.
-- **Disparo:** dano projetado de natureza física.
-- **Raio:** dano projetado de natureza mágica ou energética.
-
-## Famílias de Efeito nocivo
-
-- **Aflição**;
-- **Contenção**;
-- **Debilitação**;
-- **Exaustão**;
-- **Influência**;
-- **Perturbação**;
-- **Posição**;
-- **Ruína**;
-- **Sentidos**;
-- **Terror**.
-
-## Funções gerais
-
-- **Adaptação:** funcionar e sobreviver sob condições especiais.
-- **Aprimoramento:** elevar temporariamente Atributos.
-- **Comunicação:** transmitir informação à distância.
-- **Criação:** produzir ou remodelar objetos conforme a descrição do Poder.
-- **Cura:** restaurar Vida e reduzir Estados nocivos.
-- **Detecção:** procurar presença ou direção de uma referência.
-- **Dissipação:** enfraquecer efeitos ou atingir manifestações sobrenaturais sustentadas.
-- **Escudo:** criar uma Barreira com capacidade própria de proteção.
-- **Ilusão:** alterar, ocultar, criar ou destruir percepções.
-- **Invocação:** criar ou trazer criaturas auxiliares.
-- **Metamorfose:** transformar fisicamente um alvo.
-- **Movimento:** conceder formas ativadas de deslocamento.
-- **Proteção:** conceder Redução de Dano.
-- **Telecinese:** manipular algo à distância através de capacidades mentais.
-- **Teleporte:** deslocar instantaneamente ou criar Portal.
+Quando Trama conceder ou remover dados de uma resolução, esses dados seguem normalmente a regra universal de bônus e penalidades e o limite final de `-2d` a `+2d`.
 
 ---
 
-# 14. Pendências de consistência
+# 18. Ficha
 
-Os pontos abaixo foram encontrados durante a revisão. Eles **não são novas regras**. São decisões que ainda precisam ser fechadas ou correções documentais que precisam ser feitas depois da decisão.
+O material de consulta e o modelo de personagem ficam em [ficha/](./ficha/).
 
-## 14.1 Atributos em combate
-
-O capítulo de Atributos estabelece que a **finalidade da ação determina o Atributo**. Um soco focado em impacto, por exemplo, usa Potência.
-
-Entretanto, o README de Poderes possui um exemplo antigo dizendo que soco, garras, empurrão e arremesso físico usam Controle para Acerto, e **Golpe** fixa Controle tanto para atacar quanto para defender.
-
-É necessário decidir se:
-
-- Golpe é uma exceção deliberada baseada em técnica; ou
-- esses trechos antigos devem ser atualizados para seguir integralmente a regra de finalidade/contexto.
-
-**Disparo** usar Controle para acertar é coerente com sua função de precisão de projétil e não apresenta o mesmo conflito de forma tão forte.
-
-## 14.2 Atributos para Efeitos
-
-O README de Poderes registra atualmente uma oposição universal de **Potência × Resistência** para Efeitos.
-
-Isso entra em conflito conceitual com efeitos claramente mentais, como Terror, Influência, Perturbação e certas formas de Ilusão, porque o sistema possui **Presença, Intelecto e Vontade** justamente para funções mentais.
-
-É necessária uma regra contextual ou um mapeamento explícito para Efeitos. Enquanto isso não for decidido, não existe uma solução universal completamente consistente.
-
-## 14.3 Empates
-
-A estrutura universal dos testes está definida, assim como a faixa de Dificuldade de **10 a 24** para testes contra o cenário.
-
-Ainda falta estabelecer **quem vence um empate em uma oposição direta**.
-
-## 14.4 Mana e `[X]`
-
-Os Poderes usam Mana e `[X]`, mas ainda não está consolidado:
-
-- quanto Mana um personagem possui;
-- como recupera Mana;
-- de onde vem o valor `[X]`;
-- se o termo final será **Mana**, **Energia** ou outro nome;
-- se alterações temporárias de Atributo podem alterar algum limite de Mana ou `[X]`.
-
-O README de Poderes menciona uma futura relação com o maior Atributo Físico, mas essa regra ainda não está fechada.
-
-## 14.5 Atributos temporários
-
-**Aprimoramento** permite até dois efeitos simultâneos por alvo, e **Metamorfose** também pode alterar Potência ou Controle.
-
-Ainda falta definir:
-
-- se dois Aprimoramentos podem aumentar o mesmo Atributo;
-- se bônus de Aprimoramento e Metamorfose se acumulam;
-- se Atributos temporários podem ultrapassar o limite normal `[7]`.
-
-## 14.6 Redução de Dano
-
-Já está definido que várias RDs não se somam e apenas a maior é usada.
-
-Ainda falta definir em que momento a RD é aplicada quando uma **Defesa [Parcial]** também reduz o dano pela metade.
-
-## 14.7 Documentos de Traços duplicados
-
-Atualmente existem:
-
-- `novo-motor/tracos.md`;
-- `novo-motor/tracos-gerais.md`;
-- a estrutura mais recente em `novo-motor/tracos/`.
-
-Esses documentos já possuem diferenças entre si. O índice principal de `novo-motor/README.md` ainda aponta para `tracos.md`.
-
-É necessário escolher uma fonte principal e remover ou marcar as versões antigas para impedir que um Narrador IA leia regras divergentes.
-
-## 14.8 Campos gerais do Hub
-
-O README de Poderes lista principalmente Alcance, Alvos, Área, Dano, Efeito, Defesa e Duração, mas os Poderes atuais já utilizam também:
-
-- Conjuração;
-- Referência;
-- Tipo;
-- Modo;
-- Distância;
-- Escopo;
-- Contra;
-- Tamanho;
-- Material;
-- outras progressões específicas.
-
-O README de Poderes precisa futuramente reconhecer que um Hub pode possuir qualquer campo modular necessário à função geral do Poder.
+A pasta de Ficha resume e indexa as informações, mas não substitui os capítulos oficiais das regras.
 
 ---
 
-# 15. Auditoria individual dos Poderes
+# 19. Regras centrais ainda a construir
 
-## Adaptação — atenção
+Os seguintes pontos permanecem deliberadamente abertos e serão tratados em capítulos próprios:
 
-A estrutura está clara, mas existem duas dúvidas:
+- **Vida:** valor, limites, dano, recuperação e interação com Cura;
+- **Mana:** quantidade, recuperação e origem de `[X]`;
+- **Empates:** resultado de igualdade em testes opostos;
+- **Dano:** ordem completa de aplicação de RD e outras reduções;
+- **Atributos temporários:** limites e acúmulo quando mais de um efeito altera o mesmo Atributo.
 
-1. **Resistência** diz que concede o Traço Resistência contra aquilo definido em Contra, enquanto os Traços de Resistência possuem categorias próprias. É necessário esclarecer se a Adaptação pode conceder uma Resistência temporária de escopo livre ou se deve mapear para uma categoria oficial.
-2. **Imunidade da Adaptação** é ambiental e ainda permite dano por ataque direto, enquanto o **Traço Imunidade** ignora totalmente a categoria correspondente. Os dois conceitos precisam permanecer explicitamente distintos.
-
-Também deve ser esclarecido se o limite de apenas uma Adaptação ativa é **por alvo**.
-
-## Aflição — coerente
-
-O Hub e a progressão funcionam de forma consistente. O único ponto geral a consolidar é a relação entre a Duração comprada e a remoção ficcional da fonte: fogo apagado, veneno neutralizado, sangramento contido etc.
-
-## Aprimoramento — atenção
-
-O Poder está funcional. Permanecem as dúvidas gerais de acúmulo de bônus, limite `[7]` e interação com futuros limites derivados de Atributos.
-
-## Comunicação — atenção
-
-A função geral é válida, mas ainda faltam definições para:
-
-- como identificar um alvo em Alcance **Indeterminado**;
-- diferença mecânica exata entre **Conversa** e **Elo**;
-- combinações como Mensagem com Duração de Cena ou Hora;
-- funcionamento contra um alvo que não deseja receber ou manter a comunicação.
-
-## Contenção — coerente
-
-A progressão Lento → Imóvel → Paralisado e o chassi de Efeito estão consistentes.
-
-## Criação — atenção
-
-A criação de objetos, Tamanho, Material, PV, RD e Duração estão definidos.
-
-Durante o desenvolvimento, funções de transmutação e remodelagem de matéria foram direcionadas para **Criação** em vez de receber um Poder separado, mas o arquivo atual ainda descreve principalmente criar um objeto. Essa abrangência precisa ser escrita explicitamente se continuar sendo a intenção final.
-
-Também merece futura avaliação o acúmulo de objetos com Duração Permanente; não há atualmente outro limite além do custo do uso.
-
-## Cura — atenção
-
-A função está clara, mas a regra geral de Vida ainda precisa dizer:
-
-- o máximo de Vida;
-- se Cura pode ultrapassar esse máximo;
-- o resultado mínimo quando `[+Atributo]` for negativo.
-
-`Defesa: Nula` e `Efeito: Nula` aparecem no Hub apesar de outros Poderes benéficos mais recentes omitirem campos sem escolha. Isso é principalmente uma diferença editorial.
-
-## Debilitação — coerente
-
-A progressão Fraco → Debilitado → Prostrado está consistente com o chassi nocivo.
-
-## Detecção — atenção
-
-O Poder está funcional para busca, mas faltam respostas para:
-
-- quando uma Referência Geral ou Específica possui muitos resultados, qual deles fornece **Direção**;
-- se **Indeterminado** pode ser combinado livremente com uma Referência Geral;
-- se Presença/Direção é atualizada continuamente durante a Duração ou apenas no momento da detecção.
-
-A Detecção ativa também deve permanecer distinta do Traço passivo **Detecção [X]**.
-
-## Disparo — majoritariamente coerente
-
-A estrutura de dano projetado funciona. O uso de Controle para acertar é coerente com a precisão de um projétil.
-
-Há apenas inconsistências editoriais de nomenclatura, como Curta/Média/Longa em vez de Curto/Médio/Longo, e a presença redundante de Efeito Nenhum / Efeito [Nula].
-
-## Dissipação — atenção alta
-
-A função geral é clara, mas é necessário definir o que significa **reduzir 1, 2 ou 3 níveis** quando o efeito alvo possui várias progressões independentes ou não possui uma progressão central simples.
-
-Exemplos: Escudo, Movimento, Teleporte e Aprimoramento não possuem uma única linha equivalente a um Estado nocivo.
-
-Também precisa ficar explícito no arquivo se:
-
-- Enfraquecer e Dano são sempre modos alternativos no mesmo uso;
-- Alvos e Área são alternativas;
-- qual atributo entra em `[+Atributo]` conforme a natureza do uso.
-
-## Escudo — atenção alta
-
-O Hub define a rolagem de Barreira, mas o arquivo atual não registra de forma suficientemente explícita:
-
-- que o valor rolado representa os PV da Barreira;
-- que a Barreira recebe dano no lugar do alvo enquanto possuir PV;
-- o que acontece quando chega a 0 PV;
-- se vários alvos recebem uma Barreira completa individual ou compartilham a mesma reserva.
-
-Esses pontos são necessários para o Poder funcionar sem contexto externo.
-
-## Exaustão — coerente
-
-A progressão Fatigado → Exausto → Inconsciente está consistente.
-
-## Golpe — atenção alta
-
-É o arquivo mais claramente preso a uma versão anterior das regras.
-
-Problemas encontrados:
-
-- fixa Controle para ataque e defesa, enquanto o capítulo de Atributos determina o Atributo pela finalidade;
-- possui Área Alvo → Curta → Média, diferente dos demais chassis e sem explicar como uma Área de combate corpo a corpo alcança essa escala;
-- não explica claramente se Alvos e Área são alternativas.
-
-Golpe precisa de revisão específica antes de ser considerado consolidado.
-
-## Ilusão — atenção
-
-A estrutura Alterar → Ocultar → Criar / Destruir está clara.
-
-O principal problema aparece quando **Efeito [Parcial]** reduz Criar/Destruir para Ocultar: em algumas ilusões, o estágio inferior pode não representar semanticamente uma versão reduzida da mesma intenção.
-
-É necessário decidir como o Narrador deve reinterpretar uma redução quando o estágio anterior não fizer sentido para aquela ilusão.
-
-Também depende da futura regra contextual de Atributos para Resistência de Efeito.
-
-## Influência — atenção
-
-A progressão está clara e respeita agência até o nível que explicitamente concede controle.
-
-A principal pendência é a regra universal de Atributos de Efeito, pois Influência é claramente mental/social e não combina naturalmente com uma regra física fixa de Potência × Resistência.
-
-## Invocação — atenção alta
-
-ND, Atributos, Vida, Ataque, Dano e deslocamento da criatura estão definidos.
-
-Ainda faltam regras para:
-
-- quando a criatura age na ordem da cena;
-- quantas ações pode realizar;
-- se o usuário precisa gastar alguma ação para comandá-la;
-- qual o grau de obediência da criatura e como sua natureza interfere em ordens;
-- o que acontece quando a Duração termina;
-- como duplicatas criadas por esse Poder devem ser interpretadas caso essa função permaneça dentro de Invocação.
-
-## Metamorfose — atenção
-
-Forma e Tamanho estão definidos, mas faltam esclarecimentos sobre:
-
-- qual Atributo exatamente é usado quando outro alvo resiste à transformação;
-- acúmulo com Aprimoramento e limite máximo de Atributos;
-- se capacidades ofensivas naturais da nova forma concedem apenas possibilidade ficcional ou também algum Dano próprio.
-
-## Movimento — atenção
-
-A função geral é válida, mas Corrida Curto, Escalada em superfície escalável e Natação podem ser capacidades que uma pessoa comum já possui.
-
-É necessário confirmar se os níveis básicos representam apenas uma manifestação extraordinária do mesmo movimento ou se deveriam conceder algo que realmente ultrapasse a capacidade comum. **Voo** já possui função extraordinária inequívoca.
-
-## Perturbação — atenção
-
-A progressão está clara. A pendência é a regra contextual de Atributos para Efeitos mentais.
-
-## Posição — atenção alta
-
-Caído é um Estado que pode permanecer, mas **Movido** e **Conduzido** são deslocamentos que acontecem no momento em que o efeito é aplicado.
-
-Por isso, a progressão padrão de Duração Turno → Cena → Hora não possui significado evidente para todos os seus estágios.
-
-É necessário decidir se Posição terá uma regra própria de Duração ou se a Duração representa alguma forma de deslocamento sustentado apenas quando isso fizer sentido.
-
-## Proteção — atenção
-
-Escopo, RD e sobreposição estão claros.
-
-Falta apenas consolidar a ordem de aplicação da RD quando outras reduções de dano, especialmente Defesa [Parcial], também estiverem presentes.
-
-## Raio — majoritariamente coerente
-
-A regra contextual de Acerto está alinhada ao modelo modular: Controle para manifestação dirigida fisicamente, Intelecto para condução mental, e melhor opção coerente quando o método não é declarado.
-
-O Dano usa Presença conforme definido no próprio Poder.
-
-Permanece apenas a necessidade geral de padronizar a regra de Atributos entre todos os Poderes.
-
-## Ruína — coerente
-
-A progressão Desprevenido → Exposto → Indefeso está consistente com a família de Status correspondente.
-
-## Sentidos — coerente
-
-A progressão Ofuscado → Cego / Surdo / Mudo → Privado está consistente e a ramificação no segundo estágio possui função clara.
-
-## Telecinese — atenção alta
-
-A ideia de usar Atributos mentais como equivalentes aos Atributos do Corpo está definida, mas o arquivo não registra o **mapeamento exato** entre eles.
-
-Também falta distinguir claramente:
-
-- manipular um objeto sem oposição;
-- tentar mover, conter ou sustentar uma criatura que não quer ser manipulada;
-- atacar com Telecinese para causar o Dano configurado.
-
-O Poder possui Defesa [Total], mas não está claro se essa Defesa se aplica a todas essas situações da mesma maneira.
-
-## Teleporte — atenção alta
-
-Distância, Conjuração e os modos Direto/Portal estão claros.
-
-Faltam definições importantes:
-
-- se um alvo involuntário pode ser teleportado e qual resolução o protege;
-- quantas pessoas podem atravessar um Portal durante a Cena, já que a linha Alvos está descrita apenas para o modo Direto;
-- se o Portal é automaticamente de mão dupla ou apenas no sentido definido pelo usuário.
-
-## Terror — atenção
-
-A progressão está clara e preserva agência dentro das limitações descritas. A pendência é a mesma regra contextual de Atributos para Efeitos mentais.
-
----
-
-# 16. Prioridades para a próxima revisão
-
-Pelo impacto sobre todo o sistema, as pendências devem ser resolvidas nesta ordem:
-
-1. **Atributos de Acerto, Defesa e Resistência de Efeito** — remover o conflito entre regra contextual e hardcodes antigos.
-2. **Mana e `[X]`** — definir a economia que sustenta todos os Hubs.
-3. **Golpe** — alinhar o arquivo ao motor atual.
-4. **Escudo** — fechar o funcionamento da Barreira.
-5. **Telecinese e Teleporte** — fechar oposição contra alvos involuntários.
-6. **Invocação** — fechar ação, comando e término da criatura.
-7. **Dissipação** — definir como enfraquece Poderes que possuem várias linhas.
-8. **Posição** — resolver o conflito entre deslocamento instantâneo e Duração.
-9. **Aprimoramento e Metamorfose** — definir acúmulo e limite temporário de Atributos.
-10. **limpeza documental** — escolher a fonte oficial de Traços, atualizar índices e padronizar termos.
-
-Depois dessas decisões, o conjunto de Poderes já possui cobertura ampla o bastante para evitar a criação de novas categorias apenas para efeitos específicos.
+Até essas regras serem definidas, não se deve criar uma solução permanente por inferência.
