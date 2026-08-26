@@ -12,6 +12,14 @@ Fichas, estado inicial e cenário podem estar prontos sem que a mesa ainda estej
 
 `CONTROLE` na ficha identifica qual autoridade decide pela peça, mas isso não substitui a preparação da persona que ocupará essa autoridade durante o jogo.
 
+Instanciar uma persona não exige subagente externo. Quando houver apenas uma IA técnica, aplicar obrigatoriamente:
+
+```text
+../personas/instanciacao-da-mesa.md
+```
+
+e executar as cadeiras sequencialmente com contextos e autoridades separados.
+
 No START:
 
 ```text
@@ -60,6 +68,26 @@ Dois personagens com `CONTROLE: JOGADOR IA` nunca compartilham a mesma persona d
 
 Personagens com `CONTROLE: JOGADOR IA EVENTUAL` não exigem uma persona dedicada própria; são atendidos pela persona compartilhada conforme `../personas/`.
 
+## O que conta como persona instanciada
+
+Uma cadeira está instanciada quando estão definidos:
+
+- sua função;
+- sua autoridade;
+- a peça ou conjunto permitido;
+- seu escopo de consulta;
+- o contexto mínimo necessário para começar a jogar.
+
+Isso pode existir:
+
+```text
+como subagente separado
+OU
+como contexto operacional separado dentro da mesma IA
+```
+
+As duas formas são válidas. O sistema não depende tecnicamente de multiagentes.
+
 ## Mesa operacional
 
 O `README.md` da campanha registra a composição operacional necessária para retomada.
@@ -88,6 +116,7 @@ Instanciar uma persona não significa entregar a ela todo o material da campanha
 Antes do START, cada persona deve estar ligada ao escopo de consulta correto conforme:
 
 ```text
+../personas/instanciacao-da-mesa.md
 ../personas/escopo-de-consulta.md
 ```
 
@@ -127,6 +156,7 @@ Antes da primeira cena, conferir obrigatoriamente:
 [ ] NARRADOR instanciado
 [ ] escopos de consulta conferidos
 [ ] Mesa operacional registrada
+[ ] a mesa pode ser reconstruída apenas pelos arquivos da campanha + sistema/
 ```
 
 Se qualquer item obrigatório estiver pendente:
@@ -167,12 +197,27 @@ Depois do START, a criação inicial deixa de conduzir o jogo. `operacao/`, `res
 
 ## Continuação de campanha
 
-Ao continuar uma campanha já iniciada, não recriar personas do zero por hábito.
+Ao continuar uma campanha já iniciada, não recriar fatos nem personagens do zero por hábito.
 
-Usar a `Mesa operacional` registrada para reinstanciar o mesmo arranjo de autoridades e recuperar os escopos corretos antes de retomar a cena.
+Usar a `Mesa operacional` registrada para reconstruir o mesmo arranjo de autoridades conforme:
+
+```text
+../personas/instanciacao-da-mesa.md
+```
+
+Depois:
+
+```text
+conferir escopos
+→ ler estado/atual.md
+→ consultar fichas/fontes necessárias
+→ retomar
+```
 
 Se uma mudança de `CONTROLE` tiver sido aprovada desde então, atualizar a Mesa operacional conforme a nova verdade antes de continuar.
 
+Se a campanha não possuir Mesa operacional mas estiver marcada como `CRIAÇÃO: CONCLUÍDA`, tratar como inconsistência de compatibilidade e não iniciar silenciosamente até reparar ou migrar o registro.
+
 ## Regra final
 
-> **Nenhuma campanha recebe START enquanto faltar uma persona obrigatória. A primeira cena só pode começar depois que todas as cadeiras necessárias estiverem instanciadas, vinculadas, com escopo correto e registradas na Mesa operacional da campanha.**
+> **Nenhuma campanha recebe START enquanto faltar uma persona obrigatória. A primeira cena só pode começar depois que todas as cadeiras necessárias estiverem instanciadas, vinculadas, com escopo correto, registradas na Mesa operacional e reconstruíveis apenas pelos arquivos do repositório.**
