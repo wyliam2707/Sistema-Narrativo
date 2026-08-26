@@ -79,10 +79,35 @@ Exemplo:
 
 # Bloco 5 — Personalidade
 
-A estrutura detalhada deste bloco será consolidada separadamente.
+Este bloco registra como a personagem pensa, reage e orienta suas escolhas no presente. Ele não substitui Vícios, Corrupções ou Histórico.
+
+**Personalidade:**  
+**Tendências:**  
+**Desejos:**  
+**Medos e Limites:**  
+
+- **Personalidade:** como a personagem é no convívio e na expressão de si mesma.
+- **Tendências:** como costuma agir ou reagir diante das situações.
+- **Desejos:** aquilo que atualmente procura, protege ou pretende alcançar.
+- **Medos e Limites:** aquilo que teme, evita ou dificilmente aceita.
 
 ---
 
-# Bloco 6 — Histórico
+# Bloco 6 — Relacionamentos
+
+Este bloco registra vínculos atuais importantes para interpretação e continuidade.
+
+Use uma linha para cada relação relevante, indicando de forma breve **quem é a pessoa ou grupo e qual é a natureza atual do vínculo**.
+
+- **[Nome ou grupo]:** `[relação atual]`
+- **[Nome ou grupo]:** `[relação atual]`
+
+Relacionamentos registram o estado atual dos vínculos. A origem e os acontecimentos que formaram essas relações pertencem ao Histórico quando forem relevantes.
+
+---
+
+# Bloco 7 — Histórico
+
+Este bloco registra o passado consolidado necessário para compreender a personagem e sua situação atual.
 
 A estrutura detalhada deste bloco será consolidada separadamente.
