@@ -58,7 +58,7 @@ A descrição completa dos Atributos pertence a `atributos.md`.
 
 ## 2. Perícias — sem graduação numérica
 
-Perícias não usam mais escala `[+0]` a `[+5]`.
+Perícias não usam escala `[+0]` a `[+5]`.
 
 Uma Perícia é registrada pela sua presença na ficha.
 
@@ -100,7 +100,7 @@ A regra completa pertence a `patamar.md`.
 
 ## 4. Poderes — sem escala genérica [1] a [5]
 
-Poderes não usam mais uma graduação universal de `[1]` a `[5]`.
+Poderes não usam uma graduação universal de `[1]` a `[5]`.
 
 > **Poder representa parte do arsenal funcional do personagem.**
 
@@ -112,7 +112,7 @@ O Poder define **o que é possível produzir**; o Hub define **como aquela utili
 
 A ausência de um Poder significa apenas que aquela capacidade não faz parte do arsenal funcional registrado do personagem. Não se usa `Poder [0]` como marcador.
 
-A migração completa dos Poderes pertence à etapa específica de Poderes e Status.
+As regras concretas e os Hubs estão em `../resolucao/poderes/`.
 
 ---
 
