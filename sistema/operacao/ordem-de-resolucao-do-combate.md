@@ -13,8 +13,9 @@ A duração e simultaneidade do turno pertencem a `turnos-de-combate.md`. As fó
 ```text
 HUD
 → declaração humana
-→ apresentar Hub, quando um Poder for declarado
-→ completar automaticamente escolhas mecânicas não declaradas
+→ apresentar Hub e aguardar configuração, quando um Poder for declarado
+→ aplicar posições iniciais às opções do Hub não alteradas pelo jogador
+→ completar automaticamente apenas defesas já disponíveis
 → declarações das demais personas
 → julgar interferência e precedência
 → aplicar resoluções necessárias
@@ -58,18 +59,24 @@ A forma visual pode seguir `../narracao/` sem transformar apresentação em regr
 
 Receber a intenção do JOGADOR HUMANO.
 
-Quando o JOGADOR HUMANO declarar o uso de um Poder, consultar a resolução desse Poder e apresentar seu Hub aplicável antes de resolver o uso, para que o jogador possa ver as opções disponíveis e declarar as escolhas que desejar.
+### Poderes e Hubs
 
-Depois da declaração do jogador, qualquer escolha mecânica que permaneça não declarada — alvo, Alcance, Área, Duração, intensidade, modo, Defesa, Atributo defensivo ou outra configuração aplicável — é completada automaticamente pelo NARRADOR com a **melhor opção válida para realizar a intenção declarada**.
+Quando o JOGADOR HUMANO declarar o uso de um Poder, consultar a resolução desse Poder e **apresentar seu Hub aplicável antes de resolver o uso**.
 
-Ao completar automaticamente:
+Depois de apresentar o Hub, aguardar a configuração do jogador. O NARRADOR não escolhe automaticamente a melhor configuração do Poder e não otimiza Dano, Alcance, Área, Alvos, Duração, Defesa ou qualquer outra progressão do Hub.
 
-- respeitar todas as escolhas já declaradas pelo JOGADOR HUMANO;
-- respeitar limites, custos, alcance, recursos disponíveis e demais regras do Poder;
-- usar a melhor opção mecanicamente válida dentro da ação já escolhida;
+O jogador pode declarar somente as alterações que deseja. As opções do Hub que ele não alterar permanecem em suas **posições iniciais**, desde que sejam válidas para a intenção e para a situação.
+
+Ao configurar um Poder:
+
+- respeitar todas as escolhas declaradas pelo JOGADOR HUMANO;
+- respeitar `[X]`, custos, alcance, recursos disponíveis e demais regras do Poder;
+- não aumentar automaticamente opções do Hub apenas porque existe Mana disponível;
 - não substituir o Poder declarado por outro;
 - não trocar a intenção do jogador por uma ação diferente;
-- não interromper o fluxo apenas para perguntar uma configuração que possa ser completada dessa forma.
+- depois que o jogador declarar as alterações desejadas, não pedir confirmação adicional se a configuração já for válida.
+
+> **Poder declarado → mostrar Hub → jogador escolhe alterações → restante fica na posição inicial.**
 
 ### Defesa automática
 
@@ -87,7 +94,7 @@ Essa regra não autoriza criar uma nova ação defensiva que exija uma decisão 
 
 Se a própria intenção estiver indefinida a ponto de não ser possível saber qual ação o jogador deseja realizar, a decisão continua pertencendo ao JOGADOR HUMANO.
 
-> **O jogador escolhe a ação. O sistema completa a mecânica que ele deixou em aberto.**
+> **O jogador escolhe a ação. O sistema automatiza apenas a defesa que já está disponível.**
 
 ## 3. Demais declarações
 
@@ -186,4 +193,4 @@ Se o confronto deixar de exigir acompanhamento em segundos, retornar a `janelas-
 
 ## Regra final
 
-> **HUD → declaração → Hub quando aplicável → completar mecânica omitida → demais declarações → interferência → resolução necessária → atualização → apresentação → novo HUD. `operacao/` determina a ordem; `resolucao/` determina os resultados.**
+> **HUD → declaração → Hub e configuração quando aplicável → defesa automática já disponível → demais declarações → interferência → resolução necessária → atualização → apresentação → novo HUD. `operacao/` determina a ordem; `resolucao/` determina os resultados.**
