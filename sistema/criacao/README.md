@@ -6,7 +6,7 @@ Esta pasta responde à pergunta:
 
 > **Como uma campanha nasce e fica pronta para começar?**
 
-`criacao/` contém **procedimentos de construção**. Ela organiza perguntas, aprovação, criação/revisão das fichas, pareamento e formação do estado inicial.
+`criacao/` contém procedimentos de construção. Ela materializa a campanha, transforma conceitos em fichas, conduz aprovação, pareia informações e prepara o estado inicial.
 
 Ela não redefine o conteúdo mecânico da personagem, autoridade das personas, resolução de ações, narração ou persistência.
 
@@ -16,13 +16,15 @@ Ela não redefine o conteúdo mecânico da personagem, autoridade das personas, 
 criacao/
 ├── README.md
 ├── estrutura-da-campanha.md
+├── calibracao.md
 ├── personagem.md
 └── pareamento.md
 ```
 
-- `estrutura-da-campanha.md` — quais diretórios e fontes uma campanha nova possui;
+- `estrutura-da-campanha.md` — scaffold inicial que deve ser criado;
+- `calibracao.md` — como converter conceito/cânone em capacidades mecânicas;
 - `personagem.md` — como construir e revisar uma ficha em blocos;
-- `pareamento.md` — como conferir informações compartilhadas entre fichas antes da abertura.
+- `pareamento.md` — como verificar consistência entre fichas antes da abertura.
 
 ## Princípios
 
@@ -36,20 +38,21 @@ Durante a criação:
 - salvar somente conteúdo aprovado;
 - não preencher campo de ficha antes do momento de sua revisão.
 
-> **Criação conduz. `personagem/` define a ficha. `persistencia/` define onde a verdade aprovada permanece.**
+> **Criação conduz. `personagem/` define o que os campos significam. `persistencia/` define onde a verdade aprovada permanece.**
 
 ## Fluxo geral
 
 ```text
 Nome da campanha
+→ materializar estrutura
 → Direção narrativa e cenário
-→ Registrar protagonista humano
-→ Registrar os demais personagens iniciais com agência
-→ Confirmar elenco inicial
-→ Revisar fichas
-→ Parear informações
-→ Definir início da história
-→ Consolidar estado inicial
+→ registrar protagonista humano
+→ registrar demais personagens iniciais com agência
+→ confirmar elenco inicial
+→ calibrar e revisar fichas
+→ parear informações
+→ definir início da história
+→ consolidar estado inicial
 → CRIAÇÃO: CONCLUÍDA
 → primeira cena
 ```
@@ -62,13 +65,11 @@ A situação inicial só é definida depois que as fichas relevantes foram aprov
 
 Enquanto a criação estiver em andamento, o `README.md` da campanha registra somente onde retomar.
 
-Exemplo:
-
 ```text
 CRIAÇÃO: EM ANDAMENTO
 Etapa atual: Revisão das fichas
-Personagem atual: Ravena
-Bloco atual: 3 - Poderes e capacidades
+Personagem atual: ...
+Bloco atual: ...
 ```
 
 Quando terminar:
@@ -79,11 +80,9 @@ CRIAÇÃO: CONCLUÍDA
 
 O conteúdo concreto permanece nas fontes próprias; o checkpoint apenas orienta a retomada.
 
-## Etapa — Nome da campanha
+## Etapa — Nome e estrutura
 
-Perguntar o nome.
-
-Antes de criar, verificar se `campanhas/<nome>/` já existe.
+Perguntar o nome e verificar se `campanhas/<nome>/` já existe.
 
 ```text
 já existe
@@ -99,7 +98,7 @@ nome livre
 
 Definir somente o suficiente para saber que campanha está sendo criada, como gênero, tom, foco, ritmo, humor, romance/intimidade e atmosfera quando relevantes.
 
-Registrar o resumo necessário no README da campanha e verdades estáveis adicionais em `mundo/`.
+Durante a criação, registrar apenas aquilo que já foi aprovado e necessário para continuidade.
 
 ## Etapa — Registrar protagonista
 
@@ -116,8 +115,6 @@ O protagonista humano usa:
 ```text
 CONTROLE: JOGADOR HUMANO
 ```
-
-A campanha possui uma única peça com esse `CONTROLE` por regra geral.
 
 Criar sua ficha usando `../personagem/ficha.md`, preencher apenas os três campos acima e manter:
 
@@ -138,13 +135,21 @@ CONTROLE: JOGADOR IA EVENTUAL
 
 Cada peça recebe sua própria ficha. Não iniciar a revisão antes de o JOGADOR HUMANO confirmar que o elenco inicial com agência está completo.
 
-Autoridade e significado de `CONTROLE` pertencem a `../personas/`.
+O significado de `CONTROLE` pertence a `../personas/`.
 
-## Etapa — Revisão das fichas
+## Etapa — Calibração e revisão
 
-Aplicar `personagem.md`.
+Usar:
 
-A revisão usa cinco blocos:
+```text
+calibracao.md
+→ transforma Conceito em Patamar, Atributos, Perícias, Poderes e Traços coerentes
+
+personagem.md
+→ organiza proposta, discussão, aprovação e salvamento em cinco blocos
+```
+
+Os cinco blocos são:
 
 ```text
 1 - Identidade e Conceito
@@ -182,27 +187,15 @@ Status: APROVADO
 
 Depois que todas as fichas iniciais estiverem aprovadas, aplicar `pareamento.md`.
 
-O pareamento resolve apenas lacunas cruzadas realmente necessárias para iniciar a história sem contradições importantes.
-
-Não é uma biografia coletiva nem um questionário exaustivo.
+O pareamento resolve somente lacunas cruzadas necessárias para iniciar a história sem contradições importantes.
 
 ## Etapa — Início da história
 
-Somente depois da revisão e pareamento, definir a situação concreta inicial em:
+Somente depois da revisão e do pareamento, definir a situação concreta inicial em:
 
 ```text
 campanhas/<nome>/estado/atual.md
 ```
-
-Registrar o necessário para abrir a primeira cena:
-
-- quem está presente;
-- onde está;
-- situação imediata;
-- estados relevantes;
-- fios causais já estabelecidos.
-
-### Estado mecânico inicial
 
 Quando não houver desgaste previamente estabelecido:
 
@@ -232,18 +225,18 @@ README da campanha
 
 Somente então começar a primeira cena.
 
-## Destino das responsabilidades
+## Fronteiras
 
 ```text
-como construir a campanha/ficha?  → criacao/
-o que existe na ficha?            → ../personagem/
-quem decide?                       → ../personas/
-como calcular?                     → ../resolucao/
-como aplicar durante o jogo?       → ../operacao/
-como narrar?                       → ../narracao/
-o que salvar e onde?               → ../persistencia/
+como construir inicialmente?       → criacao/
+o que cada campo/capacidade é?     → ../personagem/
+quem decide?                        → ../personas/
+como calcular?                      → ../resolucao/
+como aplicar durante o jogo?        → ../operacao/
+como narrar?                        → ../narracao/
+onde guardar depois de estabelecido?→ ../persistencia/
 ```
 
 ## Regra final
 
-> **`criacao/` existe para transformar escolhas aprovadas em uma campanha pronta para jogar. Quando a primeira cena começa, a construção inicial terminou e as outras áreas assumem suas responsabilidades próprias.**
+> **`criacao/` existe para transformar escolhas aprovadas em uma campanha pronta para jogar. Quando a primeira cena começa, a construção inicial terminou e as demais áreas assumem suas responsabilidades.**
