@@ -15,6 +15,18 @@ Exemplos:
 - Atributo `[7]` com `+2` temporário → `[9]` enquanto o efeito durar;
 - Atributo `[-2]` com `-2` temporário → `[-4]` enquanto o efeito durar.
 
+## Limite de ampliação temporária
+
+Um personagem pode ter no máximo **2 Atributos diferentes ampliados temporariamente ao mesmo tempo**.
+
+Esse limite considera quais Atributos estão acima de seus valores permanentes por efeitos temporários, independentemente da origem desses efeitos.
+
+Se dois Atributos já estiverem ampliados, um efeito que tentaria ampliar um terceiro Atributo não produz esse aumento enquanto o limite continuar ocupado.
+
+**Reduções temporárias não possuem limite equivalente.** Qualquer quantidade de Atributos pode estar reduzida simultaneamente quando efeitos válidos produzirem essas reduções.
+
+Esse limite controla apenas a quantidade de Atributos ampliados. Ele não impede que efeitos temporários ultrapassem `[7]` ou reduzam um Atributo abaixo de `[-2]` quando outra regra permitir isso.
+
 ---
 
 ## Para que servem os Atributos
