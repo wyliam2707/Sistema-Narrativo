@@ -41,11 +41,29 @@ Exemplo: cair de um avião sem qualquer meio aparente de se salvar ou sobreviver
 
 Da mesma forma, quando a situação não determinar claramente a morte, chegar a 0 Vida significa **Incapacitado**, e não morto.
 
+## Recuperação natural
+
+Com **descanso válido**, o personagem recupera Vida uma vez por dia conforme sua Resistência:
+
+> **Recuperação diária = Resistência × 2, mínimo 2 de Vida**
+
+A recuperação nunca ultrapassa a Vida Máxima.
+
+Valores baixos ou negativos de Resistência não reduzem essa recuperação abaixo do mínimo de **2 Vida por dia**.
+
+Exemplos:
+
+- Resistência `[-2]`, `[-1]`, `[0]` ou `[1]` → **2 Vida por dia**;
+- Resistência `[2]` → **4 Vida por dia**;
+- Resistência `[3]` → **6 Vida por dia**;
+- Resistência `[4]` → **8 Vida por dia**.
+
+Um descanso só conta quando for válido para aquele personagem. Traços ou condições que definam exigências especiais de repouso, como **Repouso Especial**, também determinam quando essa recuperação pode ocorrer.
+
 ## Ainda a definir
 
 Permanecem em aberto:
 
-- recuperação natural de Vida;
 - interação detalhada com Cura;
 - dano mínimo e arredondamentos;
 - ordem completa entre Defesa Parcial, Redução de Dano, Barreiras e outras reduções.
