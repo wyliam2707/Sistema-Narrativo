@@ -73,7 +73,7 @@ O Teleporte não adivinha destinos. Para teleportar-se, o usuário precisa conse
 - **Longa:** qualquer ponto válido dentro do alcance narrativo Longo.
 - **Familiar:** um local que o usuário conhece bem por presença frequente ou convivência direta suficiente para reconhecê-lo com segurança.
 - **Conhecida:** um local em que o usuário já esteve pelo menos uma vez ou cuja posição conhece exatamente, mesmo sem grande familiaridade.
-- **Descrita:** um local em que o usuário nunca esteve, mas cuja posição pode ser estabelecida por uma referência externa suficiente, como mapa, coordenadas, endereço, carta, descrição geográfica ou equivalente. O Teleporte leva a um ponto coerente próximo ao local identificado e não revela posições internas desconhecidas.
+- **Descrita:** um local em que o usuário nunca esteve, mas cuja posição pode ser estabelecida por uma referência externa suficiente, como mapa, coordenadas, endereço, carta, descrição geográfica ou equivalente. A precisão é limitada pela própria referência: se ela identifica apenas uma região ou construção ampla, o ponto de chegada também será aproximado.
 - **Astral:** permite alcançar outro plano, dimensão ou espaço equivalente, mas continua exigindo uma referência válida capaz de identificar esse destino. O usuário não precisa ter visitado o plano, porém não pode viajar para um plano que não consiga referenciar minimamente.
 
 ## Precisão e lógica da cena
@@ -82,14 +82,16 @@ A precisão do ponto de chegada é limitada pela **qualidade real da referência
 
 > **Conhecer onde fica um lugar não significa conhecer todos os pontos dentro dele.**
 
-Quando a referência identifica apenas uma região, construção, cidade, fortaleza ou outro local amplo, o Teleporte leva a um **ponto coerente que essa referência permita estabelecer**. Ele não cria conhecimento que o personagem não possui.
+Quando a referência identifica apenas uma região, construção, cidade, fortaleza ou outro local amplo, o Teleporte leva para as **proximidades coerentes daquela referência**. A margem pode ser pequena ou chegar a alguns quilômetros quando a informação disponível for ampla ou imprecisa.
+
+O Teleporte não cria conhecimento que o personagem não possui e não transforma uma referência ampla em coordenadas internas exatas.
 
 Exemplos:
 
-- um mapa que mostre onde fica uma fortaleza pode permitir chegar próximo dela usando **Descrita**;
-- nunca ter estado no castelo de um vilão, mas saber onde ele fica, pode permitir chegar ao castelo, à entrada, ao pátio, à muralha ou a outro ponto plausível conforme a referência disponível;
-- isso **não** permite aparecer automaticamente na sala onde está um item específico apenas porque esse seria o ponto mais conveniente para roubá-lo e fugir;
-- conhecer a localização de um edifício não permite escolher uma sala interna desconhecida sem referência suficiente para essa sala;
+- teleportar-se para o **banheiro da própria casa** é plausível quando o personagem conhece aquele ponto de forma familiar e precisa;
+- um mapa que apenas mostre onde fica o **castelo do vilão** permite chegar às proximidades do castelo, talvez ainda a alguns quilômetros dele conforme a escala e a precisão do mapa;
+- nunca ter estado no castelo não permite escolher automaticamente o pátio, a sala do tesouro, um quarto específico ou qualquer outro ponto interno desconhecido;
+- saber que um item está em algum lugar dentro do castelo não cria uma referência suficiente para teleportar-se diretamente até ele;
 - se o personagem conhece exatamente uma sala, corredor ou outro ponto interno por experiência própria ou por uma referência suficientemente precisa, esse ponto pode ser um destino válido;
 - um mapa planar, coordenada mística, texto ou outra referência capaz de identificar um plano pode permitir **Astral** mesmo sem visita anterior.
 
