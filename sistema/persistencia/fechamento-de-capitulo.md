@@ -151,9 +151,12 @@ O arquivo deve representar exatamente o ponto em que a campanha parou.
 
 Podem permanecer ali, quando ainda relevantes:
 
-- STATUS;
-- Vida, Dano acumulado e Energia;
-- Condições e Efeitos Ativos;
+- Vida atual/máxima;
+- Mana atual/máxima;
+- Trama atual, quando aplicável;
+- Status e condições;
+- Barreiras e efeitos ativos;
+- alterações temporárias de Atributo;
 - local e situação presente;
 - ações ainda em andamento;
 - consequências causalmente vivas necessárias para retomada.
@@ -273,25 +276,25 @@ Se houve nova ficção, ela pertence ao capítulo seguinte.
 
 ```text
 PARAR
-→ último fato estabelecido.
+→ último fato estabelecido
 
 LIVRO
-→ consolidar o que aconteceu.
+→ consolidar o que aconteceu
 
 ESTADO ATUAL
-→ deixar a campanha pronta para retomar.
+→ deixar a campanha pronta para retomar
 
 FICHA
-→ atualizar somente mudança estável aprovada.
+→ atualizar somente mudança estável aprovada
 
 MUNDO
-→ atualizar somente verdade estável.
+→ atualizar somente verdade estável
 
 MESTRE
-→ atualizar somente material reservado que realmente mudou.
+→ atualizar somente material reservado que realmente mudou
 
 ENCERRAR
-→ informar o salvamento sem iniciar nova ficção.
+→ informar o salvamento sem iniciar nova ficção
 ```
 
 > **Fechar capítulo = preservar a história no Livro e deixar o presente correto em `estado/atual.md`, sem criar nenhum fato novo durante o salvamento.**
