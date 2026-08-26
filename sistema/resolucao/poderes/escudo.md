@@ -30,10 +30,12 @@ Exemplo: uma Barreira com 5 PV recebe 8 de dano. Ela é destruída e o alvo sofr
 
 ## Atributo do Dano
 
-O Atributo somado ao Dano depende da natureza da Barreira:
+O Atributo somado ao Dano depende da natureza real da manifestação.
 
-- **Barreira física:** usa o Atributo físico coerente com a manifestação.
-- **Barreira mágica:** usa o Atributo de Poder coerente com a manifestação.
+- **Barreira física:** usa o Atributo corporal coerente com a forma como produz o impacto.
+- **Barreira mágica, psíquica, tecnológica ou equivalente:** usa o Atributo coerente com a forma como aquela manifestação produz o Dano.
+
+> **Não existe Atributo universal de Poder. A origem do Poder não escolhe sozinha o Atributo.**
 
 ## Especial
 
