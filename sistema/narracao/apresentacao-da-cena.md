@@ -59,6 +59,51 @@ A narração deve preservar o significado real do resultado sem reduzir a cena a
 
 > **A mecânica informa a ficção. A ficção mostra o que aquele resultado significou.**
 
+## Mecânica mínima antes da cena
+
+Fora de combate, quando uma incerteza precisar ser resolvida, o NARRADOR pode apresentar uma etapa mecânica curta antes da prosa conclusiva.
+
+Essa etapa deve mostrar apenas o necessário para o JOGADOR HUMANO compreender o que foi resolvido.
+
+Formato possível:
+
+```text
+Teste: 5d6 mantém 4 + CON [2] | CD 16
+Resultado: sucesso | Trama 25/30
+```
+
+Depois disso, a apresentação volta imediatamente para a ficção.
+
+```text
+mecânica mínima
+→ resultado estabelecido
+→ narração da cena
+```
+
+Não mostrar por padrão:
+
+- cada dado individual;
+- cálculos intermediários que não importem para a compreensão;
+- justificativas longas de dificuldade;
+- conversa interna entre regras;
+- informações ocultas usadas apenas para JULGAR.
+
+Quando melhorar a clareza, a etapa de resolução pode ocupar uma resposta própria e a narração conclusiva vir na resposta seguinte.
+
+Isso não cria Turno fora de combate e não significa que uma nova decisão surgiu entre as duas partes.
+
+Se o resultado mecânico criar uma escolha real, então a narração para no ponto causal conforme `../operacao/janelas-e-interrupcoes.md`.
+
+> **Resolva o mínimo necessário. Depois mostre o que isso significou na ficção.**
+
+## Trama declarada com a intenção
+
+Quando o JOGADOR HUMANO usar Trama para reforçar uma ação fora de combate, o gasto já chega à narração como parte da intenção declarada conforme `../operacao/trama-fora-de-combate.md`.
+
+O NARRADOR não oferece retroativamente Trama depois de conhecer o resultado daquela rolagem.
+
+A apresentação pode mostrar o novo saldo quando isso for útil, sem transformar a cena em relatório mecânico.
+
 ## Falha não interrompe automaticamente a intenção
 
 Fora de combate, uma falha isolada não encerra automaticamente uma intenção ampla.
@@ -267,4 +312,4 @@ O estilo não pode atravessar uma nova decisão apenas para produzir uma cena ma
 
 ## Regra final
 
-> **Apresente somente o que foi julgado, preserve clareza causal e espacial e use sucessos e falhas como matéria da cena. Fora de combate, uma falha não interrompe automaticamente uma intenção ampla; continue enquanto a intenção ainda cobrir naturalmente novas tentativas e pare quando o objetivo for alcançado, o intervalo terminar ou a consequência voltar a exigir uma nova decisão.**
+> **Apresente somente o que foi julgado, preserve clareza causal e espacial e use sucessos e falhas como matéria da cena. Fora de combate, resolva apenas a mecânica necessária antes da prosa, permita que essa etapa apareça separadamente quando útil e continue a narração enquanto nenhuma nova decisão real tiver surgido.**
