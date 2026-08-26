@@ -190,6 +190,18 @@ Nos Poderes que indicarem **Alvos ou Área**, as duas linhas são modos alternat
 
 Outros Poderes podem usar Área com função diferente, como busca, percepção ou espaço de uma Ilusão.
 
+## Múltiplos Alvos e Acerto
+
+Quando um único uso de Poder atingir **mais de um Alvo** e exigir uma rolagem de Acerto, o usuário realiza **uma única rolagem de Acerto** para todo o uso.
+
+Cada Alvo resolve sua própria Defesa contra esse mesmo resultado de Acerto.
+
+> **Um uso do Poder = uma rolagem de Acerto; cada Alvo = sua própria Defesa.**
+
+Assim, diferentes Alvos podem sofrer resultados diferentes dentro do mesmo uso: alguns podem ser atingidos e outros podem se defender.
+
+Empates seguem a regra geral de oposição: favorecem quem iniciou a ação.
+
 ---
 
 # Chassi padrão dos Poderes de Efeito nocivo
