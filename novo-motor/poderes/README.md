@@ -142,7 +142,7 @@ Acima de Longo, a distância normalmente depende de um Poder próprio, como Tele
 
 Um Poder é configurado por seu **Hub**.
 
-`[X]` representa o máximo de **Mana** que pode ser gasto em um único uso daquele Poder. A origem de Mana e de `[X]` será definida na regra central de Mana.
+`[X]` representa o máximo de **Mana** que pode ser gasto em um único uso daquele Poder. Mana é a **reserva técnica abstrata** do personagem: mecanicamente é sempre o mesmo recurso, mas na ficção pode representar energia mística, munição, bateria, equipamentos, recursos preparados, esforço, fôlego ou outra manifestação coerente com o conceito do personagem. A definição completa está em [../mana.md](../mana.md).
 
 Salvo quando o arquivo do Poder disser o contrário:
 
