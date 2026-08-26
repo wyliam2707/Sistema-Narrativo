@@ -24,18 +24,34 @@ HUD
 
 ## 1. Entrada e HUD
 
-Ao entrar em combate, sinalizar claramente e mostrar um HUD discreto do JOGADOR HUMANO apenas com informação necessária para decidir:
+Ao entrar em combate, sinalizar claramente e mostrar um HUD discreto do JOGADOR HUMANO apenas com informação necessária para decidir.
+
+O formato padrão é compacto e não usa linhas vazias dentro do bloco:
 
 ```text
 Nome — Vida atual/máxima | Mana atual/máxima | Trama, quando aplicável
-Atributos e Perícias relevantes
-Poderes e recursos relevantes
-Status, Barreiras e efeitos ativos relevantes
+Potência [X] · Controle [X] · Resistência [X]
+Intelecto [X] · Presença [X] · Vontade [X]
+Perícias > Perícia 1, Perícia 2, Perícia 3
+Poderes > Poder 1, Poder 2, Poder 3
+Status > nenhum
+Barreira > nenhuma
 ```
 
-Não revelar automaticamente informação oculta de adversários.
+Regras de apresentação do HUD:
 
-A forma visual do HUD pode seguir `../narracao/` sem transformar apresentação em regra mecânica.
+- mostrar sempre os **seis Atributos**, inclusive valores `[0]`;
+- dividir os Atributos em exatamente duas linhas: Corpo e Mente;
+- listar Perícias em uma única linha sempre que couber;
+- listar Poderes em uma única linha sempre que couber;
+- usar `Status > nenhum` e `Barreira > nenhuma` quando não houver valores ativos;
+- quando houver Status, Barreiras ou outros efeitos ativos relevantes, substituir `nenhum` pelos valores atuais;
+- não inserir linhas vazias dentro do HUD;
+- não revelar automaticamente informação oculta de adversários.
+
+O HUD é uma interface de decisão, não uma ficha completa. Informações que não ajudam a decisão imediata não precisam ser repetidas.
+
+A forma visual pode seguir `../narracao/` sem transformar apresentação em regra mecânica.
 
 ## 2. Declaração humana
 
