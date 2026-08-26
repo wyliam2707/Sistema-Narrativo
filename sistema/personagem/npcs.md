@@ -29,7 +29,7 @@ Central
 ≠ mecanicamente mais resistente
 ```
 
-A calibração segue `calibracao.md`: cada NPC é construído pelo que ele realmente é, não para equilibrar outra ficha.
+A calibração inicial segue `../criacao/calibracao.md`: cada NPC é construído pelo que ele realmente é, não para equilibrar outra ficha.
 
 ## CONTROLE na ficha
 
