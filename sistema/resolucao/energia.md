@@ -1,83 +1,77 @@
-# Energia
+# Energia — compatibilidade
 
-Status: APROVADO
+Status: LEGADO / COMPATIBILIDADE
 
-ENERGIA representa a reserva limitada usada por capacidades que possuem custo ativo.
+`ENERGIA` é a nomenclatura antiga da reserva usada por capacidades ativas.
 
-Sua explicação ficcional pode ser mana, esforço, carga tecnológica, munição abstrata, combustível, cargas de artefato ou outro recurso coerente.
+A regra atual do sistema usa:
 
-> **Energia mede quanto recurso ainda pode ser gasto; não aumenta a potência de uma capacidade.**
+> **Mana**
 
-## 1. Reserva
+A fonte canônica é:
 
-A Reserva própria é determinada pelo maior Atributo da personagem:
+```text
+mana.md
+```
 
-`maior Atributo [0] → 10 Energia` | `[1] → 20` | `[2] → 40` | `[3] → 60` | `[4] → 80` | `[5] → 100`
+---
 
-Exceções aprovadas podem registrar outro valor diretamente na ficha.
+## Regra de transição
 
-## 2. Custo do uso
+Sempre que um arquivo legado disser `ENERGIA`, interpretar como referência antiga que precisa ser migrada para **Mana**, salvo quando o próprio contexto estiver tratando de um recurso ficcional específico que realmente não seja a reserva universal dos Poderes.
 
-Quando uma capacidade consome Energia, seu custo-base é o patamar efetivamente usado:
+As seguintes regras antigas deste arquivo não fazem mais parte do motor:
 
-`uso [0] → 0` | `[1] → 1` | `[2] → 2` | `[3] → 3` | `[4] → 4` | `[5] → 5`
+- Reserva definida pelo maior Atributo;
+- faixas `10 / 20 / 40 / 60 / 80 / 100`;
+- custo universal por grau antigo do Poder;
+- `Ampliação` somada a um patamar antigo de uso;
+- recuperação de 50% após 5 minutos;
+- desgaste profundo recuperado em 1–2 horas;
+- `Bateria [1–5]` como regra universal.
 
-Quando houver Ampliação:
+Não reutilizar essas fórmulas em novas fichas ou resoluções.
 
-`Custo = patamar efetivamente usado + Ampliação usada`
+---
 
-As dimensões, limites e cálculo de Ampliação pertencem exclusivamente a `consolidacao.md`.
+## Mana atual
 
-O custo é pago antes da resolução da aplicação.
+A Mana Máxima é calculada por:
 
-Se não houver Energia suficiente, a configuração precisa ser reduzida antes da resolução.
+> **Mana = 10 + 2 × (Potência + Controle + Resistência + Intelecto + Presença + Vontade)**
 
-Capacidades passivas não gastam Energia apenas por existirem, salvo regra específica da própria capacidade.
+A recuperação comum é:
 
-## 3. Recuperação
+> **Vontade Mana por hora, mínimo 1**
 
-Todo gasto realizado desde o último fôlego forma um bloco de esforço recente.
+Após 8 horas de descanso válido:
 
-Após aproximadamente `5 minutos` de descanso real, recupera-se `50%` da Energia gasta nesse bloco. Essa parcela só pode ser recuperada uma vez pelo fôlego curto.
+> **Mana completa**
 
-A metade restante exige aproximadamente `1 a 2 horas` de descanso real.
+Quando uma regra de Poder usar `[X]`:
 
-Novos gastos depois do fôlego formam um novo bloco sem apagar o desgaste profundo já acumulado.
+> **[X] = Patamar da personagem**
 
-Enquanto houver desgaste profundo pendente, ele limita quanto da Reserva pode ser recuperado naturalmente:
+Consultar `mana.md` para a regra completa.
 
-`máximo recuperável antes do descanso longo = Energia máxima − desgaste profundo`
+---
 
-> **Fôlego recupera metade do esforço recente. Descanso prolongado recupera o restante.**
+## Reservas externas
 
-## 4. Bateria
+Bateria, munição, carga, combustível, reservatório ou outra reserva externa ainda podem existir na ficção.
 
-`Bateria [X]` representa uma reserva externa separada.
+Elas não usam uma tabela universal automática.
 
-Capacidade:
+Quando forem mecanicamente relevantes, devem existir como:
 
-`Bateria [1] → 20` | `[2] → 40` | `[3] → 60` | `[4] → 80` | `[5] → 100`
+- Traço;
+- Poder;
+- Recurso;
+- equipamento;
+- ou regra específica apropriada.
 
-A Bateria não aumenta a Reserva própria nem altera Atributos ou patamares.
-
-Sua natureza e forma de recarga pertencem à própria capacidade ou recurso. Na ausência de regra específica, recupera sua carga completa uma vez por dia.
-
-Quando a Bateria puder alimentar a Reserva, transfere-se até a quantidade disponível ou até completar a Reserva máxima.
-
-## 5. Notação operacional
-
-Quando necessário:
-
-`Energia [atual/máxima] - Bateria [atual/máxima] - Descanso [curto]-[profundo]`
-
-Exemplo:
-
-`Energia [55/100] - Bateria [40/40] - Descanso [0]-[45]`
-
-Trechos sem valor relevante podem ser omitidos.
-
-O STATUS apenas preserva esses valores atuais; os cálculos pertencem a este arquivo.
+---
 
 ## Regra final
 
-> **Reserva diz quanto recurso existe. A configuração define quanto custa. Bateria fornece reserva externa. Descanso recupera o que foi gasto.**
+> **`energia.md` existe apenas para impedir que referências antigas quebrem durante a migração. A reserva universal ativa do sistema é Mana, e sua fonte canônica é `mana.md`.**
