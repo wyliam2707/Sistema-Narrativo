@@ -14,6 +14,14 @@ Aumenta temporariamente um Atributo escolhido do alvo.
 
 Cada alvo pode manter no máximo **2 efeitos de Aprimoramento** ao mesmo tempo.
 
+## Atributos temporários, Vida e Mana
+
+Aumentos temporários de Atributo afetam normalmente testes e efeitos que utilizam aquele Atributo enquanto estiverem ativos.
+
+Eles **não recalculam Vida Máxima nem Mana Máxima**.
+
+Vida e Mana continuam sendo calculadas apenas a partir dos valores permanentes dos Atributos.
+
 ## Sobreposição no mesmo Atributo
 
 Efeitos concorrentes de **Aprimoramento** sobre o mesmo Atributo não se somam entre si.
