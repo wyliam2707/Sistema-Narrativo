@@ -48,11 +48,7 @@ Se nenhuma alteração for declarada, Disparo usa as posições iniciais das lin
 
 ## Uso
 
-Ao declarar Disparo, escolha apenas os avanços desejados. O Narrador apresenta o Hub já configurado, mostra o custo total e, se ele estiver dentro de `[X]`, pede apenas a confirmação.
-
-> **Confirmar uso por X Mana?**
-
-A resolução só acontece depois da confirmação.
+Ao declarar Disparo, o JOGADOR HUMANO escolhe apenas os avanços desejados. A operação de combate segue `../../operacao/ordem-de-resolucao-do-combate.md`; não criar confirmação mecânica adicional quando configuração, alvo e custo já estiverem inequívocos.
 
 ## Resolução
 
@@ -68,15 +64,23 @@ O Acerto usa:
 
 > `4d6 + Controle`
 
-A Defesa usa:
+Como é um ataque físico, o resultado é comparado à:
 
-> `4d6 + Atributo de Defesa`
+> **DF do alvo = 14 + Controle do alvo**
 
-O Narrador escolhe o Atributo de Defesa pela forma como o alvo evita o ataque. Em condições normais, desviar, aparar ou sair da trajetória é uma defesa física.
+```text
+Acerto ≥ DF
+→ ataque acerta
 
-Se o atacante vencer, o Dano é aplicado normalmente.
+Acerto < DF
+→ a Defesa impede o Acerto pleno conforme a configuração do Hub
+```
 
-Se a Defesa vencer:
+O alvo não faz rolagem defensiva comum.
+
+Se o Acerto alcançar ou superar a DF, o Dano é aplicado normalmente.
+
+Se ficar abaixo da DF:
 
 - **Defesa [Total]:** o alvo não sofre Dano;
 - **Defesa [Parcial]:** o alvo sofre metade do Dano.
@@ -91,7 +95,7 @@ Exemplo:
 
 Se os dados resultarem em `14` e a Potência for `3`, o Dano final é `17`.
 
-Em **Defesa [Parcial]** bem-sucedida, reduza esse Dano final pela metade.
+Em **Defesa [Parcial]** que impeça o Acerto pleno, reduza esse Dano final pela metade.
 
 ## Efeito
 
