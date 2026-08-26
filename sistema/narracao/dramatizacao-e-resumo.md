@@ -22,10 +22,115 @@ Exemplos:
 - rotina repetitiva;
 - treino sem novidade;
 - pesquisa prolongada sem decisão intermediária importante;
+- trabalho repetido ao longo de horas;
+- várias tentativas cobertas pela mesma intenção;
 - dias semelhantes entre si;
 - passagem de tempo já coberta por uma intenção ampla.
 
 Resumo não apaga fatos que mudaram a situação.
+
+## Tentativas prolongadas fora de combate
+
+Quando uma intenção cobre um intervalo amplo, o NARRADOR pode resolver várias tentativas dentro desse período sem transformar cada teste em uma nova cena.
+
+Exemplo:
+
+```text
+JOGADOR HUMANO
+→ passo o dia tentando consertar o gerador.
+```
+
+A intenção já autoriza continuar tentando enquanto o método continuar possível e nenhuma nova decisão for exigida.
+
+Uma sequência interna pode ser:
+
+```text
+manhã → falha
+meio-dia → falha
+tarde → sucesso
+```
+
+Isso pode ser apresentado como uma única passagem narrativa:
+
+```text
+A manhã se perde em hipóteses erradas e peças desmontadas.
+Perto do almoço, o defeito finalmente é localizado, mas o reparo ainda resiste.
+No meio da tarde, depois de horas de ajuste, o gerador volta a funcionar.
+```
+
+As falhas continuam sendo fatos reais da resolução, mas funcionam como **fatores da cena**: tempo gasto, hipótese descartada, dificuldade percebida, progresso, desgaste ou outra consequência coerente.
+
+> **Falha não precisa virar trava. Pode virar história.**
+
+## Quando resumir até o fim do intervalo
+
+Se a intenção cobre um período inteiro e nenhuma tentativa alcançar o objetivo, o NARRADOR pode narrar o intervalo completo.
+
+Exemplo:
+
+```text
+manhã → falha
+meio-dia → falha
+tarde → falha
+fim do dia → objetivo não alcançado
+```
+
+Possível resumo:
+
+```text
+O dia inteiro desaparece entre ferramentas, medições repetidas e hipóteses descartadas. Ao anoitecer, o problema está melhor compreendido, mas o gerador continua parado.
+```
+
+O fato de não haver sucesso não obriga uma interrupção anterior se a intenção ainda cobria continuar tentando.
+
+## Quando parar antes do fim
+
+Uma janela ampla termina antes do período declarado em dois casos principais:
+
+```text
+OBJETIVO ALCANÇADO
+→ a intenção se cumpre antes do fim do intervalo.
+→ o restante do tempo volta a ficar aberto para novas decisões.
+
+NOVA DECISÃO NECESSÁRIA
+→ a consequência muda a situação de modo que a intenção original já não determina o próximo passo.
+→ interromper no ponto causal.
+```
+
+Exemplo:
+
+```text
+15h → gerador consertado
+```
+
+A narração não precisa consumir o restante do dia.
+
+Outro exemplo:
+
+```text
+tentativa falha
+→ uma peça essencial quebra
+→ agora é necessário escolher entre improvisar, buscar reposição, pedir ajuda ou desistir
+```
+
+Nesse caso, sair do resumo e devolver a decisão à persona responsável.
+
+## Quantidade de testes e ritmo
+
+A quantidade de testes dentro de uma janela ampla não é fixa.
+
+O NARRADOR decide quantas resoluções objetivas fazem sentido com base em:
+
+- tempo plausível de cada tentativa;
+- natureza da tarefa;
+- recursos disponíveis;
+- mudanças produzidas pelas tentativas anteriores;
+- regras específicas;
+- ritmo necessário para representar corretamente o intervalo.
+
+O objetivo não é rolar por hábito. O objetivo é resolver as incertezas que realmente distinguem como o período se desenvolveu.
+
+Quando vários testes não acrescentariam informação nova, não multiplicar rolagens apenas para ocupar tempo.
 
 ## Voltar do resumo para a cena
 
@@ -38,6 +143,15 @@ Na quarta manhã, alguém bate à porta.
 ```
 
 Se a batida cria uma decisão relevante, a cena volta a ser dramatizada nesse ponto.
+
+Da mesma forma, durante uma intenção longa:
+
+```text
+horas de trabalho resumidas
+→ consequência inesperada cria escolha
+→ parar o resumo
+→ dramatizar a nova situação
+```
 
 ## Direção narrativa local
 
@@ -57,7 +171,7 @@ Da mesma forma, uma ação já estabelecida pode ser resumida quando seu process
 
 A narração pode resumir o intervalo permitido, mas não atravessar um ponto que a operação exige devolver à mesa.
 
-Durante combate, `../operacao/turnos-de-combate.md` limita a sentença a cada turno de até 10 segundos. Não resumir vários turnos ativos quando ainda existem decisões concorrentes não resolvidas.
+Durante combate, `../operacao/turnos-de-combate.md` organiza Iniciativa, Rodadas, Turnos pessoais e vezes. Não resumir várias posições de combate ativas quando ainda existem decisões concorrentes não resolvidas.
 
 ## Quebra de cena
 
@@ -77,4 +191,4 @@ O livro não precisa parecer uma transcrição de sessão.
 
 ## Regra final
 
-> **Cena em detalhe quando o momento precisa ser experimentado. Resumo quando basta preservar que aconteceu. Em ambos os casos, não atravesse uma decisão que ainda pertence à mesa.**
+> **Cena em detalhe quando o momento precisa ser experimentado. Resumo quando basta preservar que aconteceu. Fora de combate, várias tentativas podem ser costuradas numa mesma passagem: sucessos e falhas alimentam a narrativa, e a janela só para quando o objetivo é alcançado, o intervalo termina ou surge uma nova decisão real.**
