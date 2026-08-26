@@ -1,10 +1,8 @@
 # Modelo de Ficha Rápida
 
-Este modelo é indicado para NPCs, inimigos, aliados e personagens secundários que precisam funcionar mecanicamente, mas não exigem uma ficha completa.
+Este modelo é indicado para **NPCs** que precisam agir, resistir, usar capacidades e manter consistência durante a campanha, mas não exigem a profundidade de uma Ficha Completa.
 
 A Ficha Rápida usa exatamente as mesmas regras da Ficha Completa. Ela apenas registra menos informação.
-
-> **Ficha rápida não inventa valores apenas para preencher campos. Registre somente aquilo que realmente precisa ser conhecido.**
 
 ---
 
@@ -16,59 +14,52 @@ A Ficha Rápida usa exatamente as mesmas regras da Ficha Completa. Ela apenas re
 
 ---
 
-# Atributos Relevantes
+# Atributos e Perícias
 
-Registre apenas os Atributos que possam realmente importar para a personagem.
+Os seis Atributos permanecem registrados mesmo na Ficha Rápida, pois podem ser exigidos inesperadamente durante uma resolução.
 
-- **Potência:** `[ ]`
-- **Controle:** `[ ]`
-- **Resistência:** `[ ]`
-- **Intelecto:** `[ ]`
-- **Presença:** `[ ]`
-- **Vontade:** `[ ]`
+**Corpo:** Potência `[ ]` / Controle `[ ]` / Resistência `[ ]`  
+**Mente:** Intelecto `[ ]` / Presença `[ ]` / Vontade `[ ]`  
+**Perícias:** `[ ]` / `[ ]`
 
-Campos irrelevantes podem ser omitidos.
+Registre apenas as Perícias realmente possuídas pelo NPC.
 
 ---
 
-# Perícias Relevantes
+# Traços e Poderes
 
-- `[ ]`
+**Traços:** `[ ]` / `[ ]`  
+**Poderes:** `[ ]` / `[ ]`
 
----
-
-# Traços Relevantes
-
-- `[ ]`
+Registre apenas Traços e Poderes relevantes para o NPC.
 
 ---
 
-# Poderes Relevantes
+# Recursos e Movimento
 
-- **[Poder]** — `[descrição ou manifestação, quando necessária]`
+**Vida:** `[ ]/[ ]` / **Mana:** `[ ]/[ ]`  
+**Movimento:** Andar `[Curto]` / `[outras formas, quando existirem]`
 
----
-
-# Recursos
-
-Registre apenas os recursos que realmente precisem ser acompanhados.
-
-**Vida:** `[ ] / [ ]`  
-**Mana:** `[ ] / [ ]`  
-**Trama:** `[ ]`
-
-Campos que não forem necessários podem ser omitidos.
+Registre apenas formas de deslocamento que o NPC realmente possua.
 
 ---
 
-# Status Atuais
+# Conduta
 
-- `[ ]`
+**Conduta:** `[como o NPC normalmente age, reage e conduz suas decisões]`
+
+Conduta é uma síntese curta de comportamento. Ela não substitui uma Personalidade completa; serve para manter consistência suficiente na interpretação de um NPC sem ampliar sua ficha desnecessariamente.
+
+Exemplo:
+
+**Conduta:** profissional e desconfiado; prefere impedir problemas conversando, mas cumpre ordens quando pressionado.
 
 ---
 
 # Regra de uso
 
-Se durante a campanha surgir uma situação que exija uma informação ainda não registrada, ela deve ser definida conforme o conceito e as regras do personagem naquele momento.
+A Ficha Rápida deve conter informação suficiente para que o NPC funcione sem improvisar seus valores básicos durante uma resolução.
 
-A ausência de um campo na Ficha Rápida não significa automaticamente valor `[0]`, inexistência ou incapacidade. Significa apenas que aquela informação ainda não precisou ser registrada.
+Informações temporárias, condições ativas, ferimentos específicos, localização e outros estados circunstanciais não pertencem ao modelo-base da ficha.
+
+Se um NPC passar a exigir agência própria, interpretação aprofundada ou memória extensa de campanha, sua ficha pode ser expandida para o Modelo Completo sem alterar automaticamente suas capacidades.
