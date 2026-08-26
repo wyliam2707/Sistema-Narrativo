@@ -1,28 +1,44 @@
-# Aventuras
+# Aventuras — Arquivo Legado
 
-Cada subpasta deste diretório representa **uma campanha concreta** criada a partir das regras de `sistema/`.
+Esta pasta preserva campanhas criadas por versões anteriores da arquitetura do Sistema Narrativo.
 
-Antes de criar ou continuar uma aventura, leia:
+Ela **não faz parte do fluxo normal atual**.
 
-1. `sistema/00-LEIA-PRIMEIRO.md`
-2. `sistema/README.md`
-3. `sistema/agencia-de-personagens.md`
-4. `sistema/organizacao-de-aventura.md`
-5. `sistema/modelos.md`
+## Regra de uso
 
-Depois, entre na pasta da aventura e siga o `README.md` dela.
+Por padrão:
 
-## Regra
+- não listar estas aventuras como campanhas atuais;
+- não usar suas fichas, estruturas, diretórios ou mecânicas como referência para criar campanhas novas;
+- não continuar uma aventura daqui automaticamente;
+- não migrar, mover, reestruturar ou apagar seu conteúdo sem pedido explícito do JOGADOR HUMANO.
 
-Nada criado para uma aventura específica deve alterar automaticamente as regras universais de `sistema/`.
+A única fonte canônica das regras atuais é:
 
-Uma aventura contém seus próprios:
-- personagens;
-- mundo;
-- diretrizes de narração;
-- relacionamentos;
-- cronologia;
-- estado atual;
-- capítulos/história canônica.
+```text
+sistema/
+```
 
-O sistema é o manual. A aventura é a execução concreta desse manual.
+Campanhas do fluxo atual pertencem a:
+
+```text
+campanhas/
+```
+
+## Quando consultar
+
+Consultar `aventuras/` somente quando o JOGADOR HUMANO pedir explicitamente para:
+
+- recuperar uma campanha antiga;
+- consultar seu histórico;
+- extrair personagens, cenário ou capítulos;
+- comparar arquitetura antiga e atual;
+- migrar uma aventura específica para `campanhas/`.
+
+Ao consultar uma aventura legada, tratar suas regras e fichas como **dados históricos daquela versão**, nunca como definição do sistema atual.
+
+## Conteúdo preservado
+
+- `Castelo dos Corvos/` — campanha legada preservada.
+
+> **Legado preserva história. `sistema/` define regras. `campanhas/` guarda campanhas atuais.**
