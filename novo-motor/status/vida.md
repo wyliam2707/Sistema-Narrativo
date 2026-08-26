@@ -88,9 +88,28 @@ Assim, um **Poder de Cura** utiliza a quantidade indicada em seu Hub ou descriç
 
 Essas fontes nunca elevam a Vida acima da Vida Máxima, salvo se alguma regra específica declarar expressamente o contrário.
 
+## Dano, arredondamento e Redução de Dano
+
+Quando uma regra produzir uma fração, **arredonde sempre para baixo**.
+
+Quando um dano chegar à etapa final de aplicação, ele causa no mínimo **1 ponto de dano**. Reduções não podem diminuir um dano que chegou a essa etapa abaixo de 1.
+
+A ordem entre Defesa e Redução de Dano é:
+
+> **Defesa → redução causada pela Defesa → RD → dano final**
+
+Assim, quando uma **Defesa [Parcial]** for bem-sucedida, primeiro reduza o dano pela metade e arredonde para baixo. Depois aplique a maior RD válida.
+
+Exemplo: um ataque causa `9` de dano contra um alvo que vence uma Defesa [Parcial] e possui RD `2`:
+
+1. `9 ÷ 2 = 4,5` → arredonda para **4**;
+2. `4 - 2 = 2`;
+3. o alvo sofre **2 de dano**.
+
+Se a RD reduzisse o resultado a `0` ou menos, o alvo ainda sofreria **1 de dano**, desde que o ataque tenha chegado à etapa final de dano.
+
 ## Ainda a definir
 
-Permanecem em aberto:
+Permanece em aberto:
 
-- dano mínimo e arredondamentos;
-- ordem completa entre Defesa Parcial, Redução de Dano, Barreiras e outras reduções.
+- posição de **Barreiras** na ordem completa de aplicação do dano.
