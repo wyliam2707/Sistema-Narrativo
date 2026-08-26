@@ -186,18 +186,34 @@ Barreira possui PV suficiente
 
 Dano supera os PV restantes da Barreira
 → Barreira chega a 0
-→ excedente passa para Vida
+→ excedente continua para as etapas seguintes
 ```
 
 Barreiras diferentes só existem e interagem conforme as regras específicas que as criaram.
 
 ---
 
-## 8. Ordem de aplicação do Dano
+## 8. Trama e Dano
+
+Somente a personagem sob `CONTROLE: JOGADOR HUMANO` possui Trama por regra geral.
+
+Depois de Defesa, RD e Barreira determinarem quanto Dano realmente alcançaria a personagem, o jogador pode usar `../personagem/trama.md`:
+
+> **1 Trama = reduz 1 ponto do Dano restante**
+
+Esse gasto acontece depois que o valor é conhecido e antes de reduzir a Vida.
+
+Trama pode reduzir o Dano restante até `0`.
+
+Essa é uma redução própria e posterior ao mínimo final da etapa de Dano; portanto, não se reaplica o mínimo de `1` depois do gasto de Trama.
+
+---
+
+## 9. Ordem de aplicação do Dano
 
 A ordem universal é:
 
-> **Defesa → redução causada pela Defesa → RD → mínimo final → Barreira → Vida**
+> **Defesa → redução causada pela Defesa → RD → mínimo final → Barreira → Trama, quando aplicável → Vida**
 
 Quando uma regra produzir fração:
 
@@ -211,11 +227,13 @@ Assim, se a maior RD reduzir o valor a `0` ou menos, o Dano final ainda será `1
 
 Esse mínimo não se aplica quando uma etapa anterior anulou completamente o Dano, como uma Defesa que impede o ataque antes da aplicação.
 
-A Barreira ainda pode absorver integralmente esse Dano mínimo antes que ele alcance a Vida.
+A Barreira ainda pode absorver integralmente esse Dano mínimo.
+
+Depois da Barreira, Trama pode reduzir o Dano restante a `0` conforme sua regra específica.
 
 ---
 
-## 9. Exemplo completo
+## 10. Exemplo completo
 
 Um Poder causa `9` de Dano.
 
@@ -233,14 +251,17 @@ Barreira absorve 1
 → Barreira 0
 
 1 excedente
-→ Vida perde 1
+→ chega à etapa de Trama, se aplicável
+→ sem gasto de Trama, Vida perde 1
 ```
+
+Se essa personagem for o protagonista humano e gastar `1 Trama`, o Dano restante cai para `0` e a Vida não é reduzida.
 
 ---
 
-## 10. Vida e incapacidade
+## 11. Vida e incapacidade
 
-O Dano que ultrapassa as proteções reduz a Vida atual.
+O Dano que ultrapassa as proteções e qualquer gasto de Trama reduz a Vida atual.
 
 A Vida Máxima pertence a `vida.md`.
 
@@ -258,7 +279,7 @@ Uma consequência evidentemente letal continua podendo ser estabelecida pela fic
 
 ---
 
-## 11. Perícias em combate
+## 12. Perícias em combate
 
 Não existe Perícia genérica obrigatória de combate.
 
@@ -281,7 +302,7 @@ Condução durante perseguição de veículos
 
 ---
 
-## 12. Menor número possível de rolagens
+## 13. Menor número possível de rolagens
 
 Uma ação ofensiva usa o menor número de rolagens necessário.
 
@@ -296,16 +317,16 @@ Regras específicas de Poder podem estabelecer outra necessidade.
 
 ---
 
-## 13. Regras antigas removidas
+## 14. Regras antigas removidas
 
-Não fazem mais parte do combate:
+Não fazem parte do combate:
 
 ```text
 Perícia efetiva = ofensiva − defensiva
 Ataque efetivo = Dano + 1 + (Perícia × 0,2)
 Dano = 2^(Ataque − Defesa)
 Dano mínimo acumulável 0,25
-FIS / RES como estrutura antiga universal
+FIS / RES como estrutura universal
 ```
 
 Não reutilizar essas fórmulas em novas resoluções.
@@ -330,10 +351,11 @@ ataque chegou ao Dano?
 → aplicar maior RD
 → mínimo final 1, se a etapa de Dano foi alcançada
 → Barreira
+→ Trama, quando aplicável
 → Vida
 → interpretar consequência
 ```
 
 ## Regra final
 
-> **Combate usa o mesmo motor universal do restante do sistema. Ataques comuns causam Dano igual ao Atributo usado; Poderes e fontes específicas usam seu próprio Dano. Defesa, RD, Barreira e Vida são aplicadas apenas quando realmente pertencem ao mecanismo da ação.**
+> **Combate usa o mesmo motor universal do restante do sistema. Ataques comuns causam Dano igual ao Atributo usado; Poderes e fontes específicas usam seu próprio Dano. Defesa, RD, Barreira, Trama e Vida são aplicadas apenas quando realmente pertencem ao mecanismo da ação.**
