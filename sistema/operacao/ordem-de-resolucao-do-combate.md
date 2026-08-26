@@ -97,7 +97,7 @@ início do combate
 → persona responsável declara
 → configurar, quando necessário
 → NARRADOR julga
-→ resolver ação e Defesa aplicável
+→ resolver ação e Defesa/Resistência aplicável
 → NARRADOR apresenta o resultado mecânico relevante
 → NARRADOR transforma o resultado em cena
 → registrar estado
@@ -138,7 +138,7 @@ Exemplo:
 ```text
 Kael — Vida 20/20 | Mana 18/18 | Trama 30/30
 POT [2] | CON [1] | RES [1] | INT [0] | PRES [0] | VON [0]
-DF [X] | RF [X] | DM [X] | RM [X] | Escudo [0] | RD [0]
+DF [15] | RF [15] | DM [14] | RM [14] | Escudo [0] | RD [0]
 Poderes > Golpe, Proteção
 Status > nenhum
 ```
@@ -147,7 +147,11 @@ Regras:
 
 - mostrar sempre os seis Atributos, inclusive `[0]`, em uma única linha compacta;
 - usar as abreviações `POT`, `CON`, `RES`, `INT`, `PRES` e `VON` somente como forma de apresentação do HUD;
-- mostrar `DF`, `RF`, `DM` e `RM` na terceira linha; suas fórmulas pertencem à resolução e devem ser definidas separadamente;
+- mostrar `DF`, `RF`, `DM` e `RM` na terceira linha com os valores atuais calculados pela resolução;
+- `DF = 14 + Controle`;
+- `RF = 14 + Resistência`;
+- `DM = 14 + Intelecto`;
+- `RM = 14 + Vontade`;
 - mostrar `Escudo` e `RD` na terceira linha, inclusive quando `[0]`;
 - não mostrar Perícias no HUD de combate;
 - não mostrar uma linha separada de Barreira;
@@ -294,27 +298,44 @@ A configuração mecânica pode acontecer internamente entre OPOSITOR e NARRADOR
 
 O OPOSITOR escolhe a jogada. O NARRADOR apenas julga e resolve.
 
-## 5. Defesa automática
+## 5. Defesa e Resistência fixas
 
-Quando o JOGADOR HUMANO for alvo de uma ação que permita Defesa, o NARRADOR usa automaticamente a **melhor opção defensiva válida e coerente já disponível naquele instante**.
+Durante combate, DF, RF, DM e RM são valores fixos definidos em `../resolucao/combate-e-dano.md`.
 
-Isso faz parte do julgamento mecânico da ação recebida e não transfere ao NARRADOR autoridade para criar uma nova vontade do personagem.
+Quando o JOGADOR HUMANO for alvo, o NARRADOR aplica automaticamente o valor coerente com a natureza da ação:
 
-Pode usar automaticamente:
+```text
+DF
+→ Defesa Física
+→ 14 + Controle
 
-- o Atributo defensivo mais favorável entre os que a ficção realmente permite;
-- a forma de defesa mecanicamente mais vantajosa já disponível;
-- bônus defensivos, Status, Barreiras, Poderes já ativos ou outras fontes automáticas aplicáveis.
+RF
+→ Resistência Física
+→ 14 + Resistência
 
-Não pode:
+DM
+→ Defesa Mental
+→ 14 + Intelecto
+
+RM
+→ Resistência Mental
+→ 14 + Vontade
+```
+
+A peça atacada não faz uma rolagem defensiva comum apenas por ser alvo.
+
+Bônus automáticos, Status, Escudos, Poderes já ativos e outras fontes válidas são aplicados normalmente quando a regra determinar.
+
+O NARRADOR não pode:
 
 - ativar um novo Poder defensivo por decisão própria;
 - gastar recurso opcional quando houver escolha estratégica real;
-- inventar reação que não esteja disponível.
+- inventar reação que não esteja disponível;
+- trocar DF por DM ou RF por RM apenas porque outro valor é mais favorável.
 
-A Defesa ocorre no momento da ação que a provocou e **não consome a vez de Iniciativa** do defensor.
+Defesa e Resistência acontecem no momento da ação que as provoca e **não consomem a vez de Iniciativa** do defensor.
 
-> **Se a defesa já é possível, use a melhor. Se exige uma nova escolha, não invente a escolha.**
+> **Quem age rola. Quem é alvo oferece o valor fixo aplicável.**
 
 ## 6. Julgamento
 
@@ -345,8 +366,8 @@ Para a ação da vez atual:
 
 ```text
 pagar custo válido, quando houver
-→ resolver CD ou oposição quando necessário
-→ aplicar Defesa
+→ resolver Acerto contra Defesa fixa, quando necessário
+→ resolver Resistência fixa, quando aplicável
 → aplicar Dano/Efeito/Status conforme a regra específica
 → estabelecer consequência
 → atualizar o estado imediatamente
@@ -434,4 +455,4 @@ Se o confronto deixar de exigir acompanhamento em segundos, retornar a `janelas-
 
 ## Regra final
 
-> **Esta estrutura pertence ao combate. A Rodada percorre toda a Iniciativa, do primeiro ao último. O Turno é pessoal: começa na vez de uma peça e termina no início da próxima vez dessa mesma peça, podendo atravessar o fim da Rodada. A persona responsável declara; o NARRADOR julga e resolve. Para JOGADOR IA e OPOSITOR, a mecânica intermediária pode permanecer interna: na tela aparecem a declaração, o resultado mecânico relevante, a descrição da cena e a pergunta para prosseguir. Fora do combate, usar as janelas normais de cena.**
+> **Esta estrutura pertence ao combate. A Rodada percorre toda a Iniciativa, do primeiro ao último. O Turno é pessoal: começa na vez de uma peça e termina no início da próxima vez dessa mesma peça, podendo atravessar o fim da Rodada. A persona responsável declara; o NARRADOR julga e resolve. DF, RF, DM e RM são valores fixos de combate. Para JOGADOR IA e OPOSITOR, a mecânica intermediária pode permanecer interna: na tela aparecem a declaração, o resultado mecânico relevante, a descrição da cena e a pergunta para prosseguir. Fora do combate, usar as janelas normais de cena.**
