@@ -2,93 +2,157 @@
 
 Status: APROVADO
 
-Este documento define como informação existente na ficção é percebida, reconhecida e investigada por meios normais.
+Este documento define como informação existente na ficção é percebida, reconhecida, pesquisada e investigada por meios normais.
 
-O efeito extraordinário `Informação` pertence a `efeitos/informacao.md`.
+> **A informação vem da ficção. A ficha determina o que a personagem reconhece e quais métodos ela sabe aplicar. A resolução só entra quando ainda existe incerteza real.**
 
-> **A informação vem da ficção. A competência determina o que a personagem reconhece. A investigação determina como ela procura o que ainda falta.**
+---
 
-## Regra central
+## 1. Fluxo
 
-Usar o fluxo mais simples possível:
+Usar o caminho mais simples possível:
 
 ```text
-informação existe e está acessível?
-→ sim: verificar o que é evidente para a personagem
-→ se ainda faltar algo: escolher um método de investigação
-→ se houver incerteza real: resolver
-→ evidência suficiente: confirmar a conclusão
+informação existe e é acessível?
+→ verificar o que já é evidente para a personagem
+
+algo ainda precisa ser descoberto?
+→ identificar o método real usado
+
+resultado evidente pelo método e pela competência?
+→ estabelecer
+
+impossível obter por esse método?
+→ estabelecer a impossibilidade
+
+incerteza real?
+→ usar o motor universal
 ```
 
-Não transformar cada etapa em um teste separado.
+Não transformar cada detalhe de uma investigação em uma rolagem separada.
 
-## Informação precisa existir
+---
+
+## 2. Informação precisa existir
 
 Investigação normal não cria fatos, pistas ou evidências inexistentes.
 
-Ela trabalha com aquilo que realmente existe e pode ser alcançado por um mecanismo plausível: observar, examinar, pesquisar, testar, comparar, perguntar, seguir rastros, analisar amostras ou outro método coerente.
+Ela trabalha com aquilo que realmente existe e pode ser alcançado por um mecanismo plausível:
+
+- observar;
+- examinar;
+- pesquisar;
+- testar;
+- comparar;
+- perguntar;
+- seguir rastros;
+- analisar amostras;
+- consultar arquivos;
+- outro método coerente.
 
 Se uma resposta depende de algo que não existe ou não pode ser acessado pelo método usado, a ação não produz essa informação.
 
-## Competência passiva
+---
 
-O JOGADOR não precisa declarar uma busca para perceber ou reconhecer aquilo que seria evidente para aquela personagem.
+## 3. Competência passiva
 
-Perícias e capacidades relevantes devem aparecer passivamente quando a cena oferece informação suficiente.
+O JOGADOR não precisa declarar uma ação mecânica para perceber ou reconhecer aquilo que seria evidente para aquela personagem.
+
+Atributos, Perícias, Traços, Poderes e conhecimento já estabelecido devem ser lidos ativamente pelo NARRADOR.
 
 Exemplo:
 
 ```text
-Médico [+5] diante de sinais clínicos óbvios
-→ reconhece o que um médico desse nível reconheceria sem exigir uma declaração mecânica.
+personagem possui Medicina
++ sinais clínicos rotineiros e claramente observáveis
+
+→ reconhece aquilo que seu treinamento tornaria evidente
 ```
 
-Isso não concede informação secreta, invisível ou fora do repertório disponível.
+Não exigir um teste apenas para esconder informação que a competência já resolve.
 
-> **Não esconda informação evidente atrás de uma ação que a competência já resolve.**
+Isso não cria informação secreta, invisível, inacessível ou fora do repertório da personagem.
 
-## Perícia e MEN
+> **Competência não cria fatos; evita testes desnecessários para reconhecer o que já está disponível.**
 
-Perícia representa repertório, experiência, padrões reconhecíveis e procedimentos aprendidos.
+---
 
-MEN representa percepção, análise, memória, raciocínio, conexão de informações e capacidade de construir caminhos de descoberta.
+## 4. Atributo e Perícia
 
-Quando uma investigação exige conhecimento especializado, a Perícia aplicável pode ser a Base da ação e MEN pode funcionar como Suporte quando realmente ajudar o mecanismo.
+Quando houver incerteza real, escolher o Atributo pela forma concreta da investigação.
+
+Exemplos possíveis:
 
 ```text
-Ação efetiva = Base + 1 + (Suporte × 0,2)
+analisar relações entre evidências
+→ Intelecto
+
+manipular fisicamente um mecanismo delicado durante exame
+→ Controle
+
+sustentar uma busca exaustiva sob pressão mental
+→ Vontade, quando essa for realmente a dificuldade principal
 ```
 
-Um MEN alto não substitui conhecimento que a personagem nunca adquiriu.
+Perícia relevante concede `+1d`.
 
-Uma Perícia alta também não cria acesso, ferramentas, amostras ou evidências inexistentes.
-
-> **Perícia fornece repertório. MEN ajuda a perceber e raciocinar sobre o que está disponível.**
-
-## Investigação ativa
-
-Uma investigação ativa é necessária quando obter mais informação exige uma escolha real de método, foco, tempo, recurso ou risco.
-
-O JOGADOR pode declarar a intenção em linguagem natural. Não precisa nomear a Perícia nem a fórmula correta.
-
-O NARRADOR identifica o mecanismo usado e, se houver incerteza real, aplica `leitura-da-ficha-na-resolucao.md` e `motor-de-disputa.md`.
-
-Exemplos de mecanismos diferentes podem encontrar resistências diferentes:
+Exemplos:
 
 ```text
-pesquisar arquivos protegidos
-→ resistência pode ser segurança, acesso ou dificuldade documental
-
-examinar uma cena de crime
-→ resistência pode ser escassez, degradação ou ocultação das evidências
-
-analisar uma substância
-→ resistência pode vir da complexidade da amostra ou da falta de equipamento apropriado
+Intelecto + Investigar
+Intelecto + Ciência
+Intelecto + Medicina
+Controle + Crime
+Intelecto + Ocultismo
 ```
 
-A resistência pertence ao problema e ao método usado, não a uma dificuldade universal de "investigação".
+Essas combinações não são fixas. A ação determina o Atributo; o treinamento relevante determina a Perícia.
 
-## Hipótese e confirmação
+> **Atributo não fornece repertório. Perícia não cria acesso nem evidência.**
+
+---
+
+## 5. Contra o cenário
+
+Quando a dificuldade vem do próprio problema:
+
+> **4 dados mantidos + Atributo × Dificuldade**
+
+A Dificuldade representa a situação concreta.
+
+Exemplos de fatores que podem mudar a Dificuldade:
+
+- evidência degradada;
+- arquivo mal organizado;
+- amostra incompleta;
+- iluminação ruim;
+- pouco tempo disponível;
+- equipamento adequado ou inadequado;
+- complexidade real do problema.
+
+Esses fatores alteram a Dificuldade quando mudam a própria tentativa. Perícia continua sendo `+1d` quando relevante.
+
+---
+
+## 6. Oposição ativa
+
+Se outra personagem estiver **ativamente** escondendo, falsificando, confundindo, destruindo ou manipulando a informação durante a disputa, pode existir oposição comum.
+
+```text
+investigador
+→ 4 dados mantidos + Atributo coerente
+
+opositor ativo
+→ 4 dados mantidos + Atributo coerente com seu método
+```
+
+Cada lado pode receber sua Perícia relevante normalmente.
+
+Uma vantagem ficcional óbvia e inegável na oposição pode conceder `+1d` ao lado favorecido conforme `motor-de-disputa.md`.
+
+---
+
+## 7. Hipótese e confirmação
 
 Uma conclusão provisória pode existir antes da confirmação.
 
@@ -98,26 +162,45 @@ Ela se torna conhecimento confirmado quando existe fundamento suficiente na fic�
 
 > **Hipótese plausível não é automaticamente fato conhecido.**
 
-## Resultado evidente e incerteza
+---
 
-Investigação segue o princípio geral da resolução:
+## 8. Tarefas demoradas
 
-`RESULTADO EVIDENTE → estabelece | IMPOSSIBILIDADE EVIDENTE → estabelece | INCERTEZA REAL → resolve`
+Investigação demorada não cria uma barra universal de Progresso.
 
-Um especialista diante de uma informação rotineira e acessível pode simplesmente reconhecê-la.
+```text
+resultado evidente com tempo suficiente
+→ estabelecer o resultado e o tempo necessário
 
-Uma resposta impossível de obter pelo método escolhido continua impossível até existir outro mecanismo capaz de alcançá-la.
+incerteza real sobre conseguir nas condições atuais
+→ um teste adequado
 
-Quando a ação permitir progresso acumulável, usar o motor geral para transformar dificuldade em mais tempo, esforço ou exposição em vez de criar falha automática.
+surge nova incerteza depois
+→ nova resolução somente para o novo problema
+```
 
-## Efeito Informação
+Não repetir o mesmo teste apenas porque a pesquisa leva horas ou dias.
 
-Capacidades que obtêm informação por meios extraordinários usam exclusivamente `efeitos/informacao.md`.
+---
 
-Investigação normal não precisa duplicar a escala, alcance, Resultado ou regras desse efeito.
+## 9. Capacidades extraordinárias de informação
 
-> **Investigação encontra conhecimento por evidências e métodos disponíveis. O efeito Informação usa um mecanismo extraordinário próprio.**
+Quando a personagem usa uma capacidade extraordinária, consultar o Poder correspondente em `poderes/`.
 
-## Princípio final
+Exemplos:
 
-> **Mostre automaticamente o que a personagem já conseguiria reconhecer. Quando ainda faltar algo, deixe a ficção escolher o método e use mecânica apenas se houver incerteza real.**
+```text
+localizar presença ou direção extraordinariamente
+→ poderes/deteccao.md
+
+alterar ou ampliar sentidos por Poder
+→ poderes/sentidos.md ou outra capacidade específica
+```
+
+O Poder define o que consegue obter. Ele não autoriza inventar informação que sua própria regra não forneça.
+
+---
+
+## Regra final
+
+> **Mostre automaticamente o que a personagem já conseguiria reconhecer. Quando ainda faltar algo, identifique o método real e use 4 dados mantidos + Atributo somente se houver incerteza. Perícia relevante concede +1d; investigação nunca cria fatos inexistentes.**
