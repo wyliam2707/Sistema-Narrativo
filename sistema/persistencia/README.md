@@ -81,11 +81,39 @@ Define o registro histórico literário do que realmente aconteceu.
 
 ### `fechamento-de-capitulo.md`
 
-Consolida uma unidade narrativa encerrada e atualiza somente as fontes que precisam continuar válidas.
+Consolida uma unidade narrativa encerrada, atualiza somente as fontes que precisam continuar válidas e, depois que todo o salvamento terminar, aciona obrigatoriamente:
+
+```text
+../operacao/carregamento-do-motor.md
+```
+
+A IA relê integralmente `sistema/`, reconstrói seu modelo mental e recarrega o presente operacional da campanha antes que qualquer nova ficção possa começar.
 
 ### `correcao-de-canone.md`
 
 Define como uma correção aprovada substitui a versão anterior sem manter duas realidades concorrentes.
+
+## Fechamento como ponto de sincronização
+
+Salvar um capítulo não encerra apenas o registro literário.
+
+Depois que Livro, estado, ficha, mundo e mestre aplicáveis estiverem persistidos:
+
+```text
+CAPÍTULO SALVO
+→ ficção permanece parada
+→ reler sistema/ integralmente
+→ reconstruir modelo mental
+→ recarregar README da campanha
+→ reconstruir Mesa operacional
+→ reler estado/atual.md
+→ carregar fontes necessárias
+→ liberar próximo capítulo
+```
+
+Essa rotina existe para impedir que sessões longas dependam de uma lembrança envelhecida das regras.
+
+> **Persistência salva a verdade da campanha. Operação sincroniza novamente a IA com a verdade do sistema.**
 
 ## Estrutura concreta da campanha
 
@@ -136,10 +164,11 @@ quem decide?                       → ../personas/
 quais fios podem voltar a agir?    → ../agencia/
 como calcular consequência?        → ../resolucao/
 quando registrar?                  → ../operacao/
+como carregar/recarregar o motor?  → ../operacao/carregamento-do-motor.md
 como apresentar?                   → ../narracao/
 onde a verdade permanece?          → persistencia/
 ```
 
 ## Regra final
 
-> **`persistencia/` é a memória canônica do sistema. Ela não cria a verdade: guarda cada verdade já estabelecida uma única vez, na fonte correta.**
+> **`persistencia/` é a memória canônica da campanha. Ao fechar um capítulo, ela salva cada verdade estabelecida e só então entrega a mesa para a recarga obrigatória do motor antes da continuação.**
