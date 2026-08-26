@@ -58,6 +58,21 @@ A criatura não possui uma iniciativa separada.
 
 Assim, depois que o invocador age e fornece um comando, os demais participantes da cena agem normalmente. Antes de chegar novamente a ação do invocador, a criatura realiza sua ação para cumprir o comando atual.
 
+## Fim da Invocação
+
+Quando a duração da Invocação termina, a criatura **deixa de permanecer ativa na cena**.
+
+Mecanicamente, ela simplesmente desaparece. A forma como isso acontece é determinada pela origem e pela descrição da própria Invocação.
+
+Exemplos:
+
+- uma criatura extraplanar pode **retornar ao seu plano de origem**;
+- um robô invocado pode **se autodestruir ou se desmontar**;
+- um golem formado de areia pode **voltar a ser areia**;
+- uma criatura feita de sombras pode **se dissipar**.
+
+> **A regra é o desaparecimento da Invocação; a ficção determina como esse desaparecimento se manifesta.**
+
 ## Exemplos
 
 Um **pássaro ND 0** possui todos os Atributos em `[0]`, 5 PV e Deslocamento Curto voando. Ele pode levar uma mensagem até um destino coerente com sua descrição. Isso não exige teste se o resultado for evidente; tempestade, predadores, interceptação ou outras incertezas podem exigir resolução mecânica.
