@@ -4,7 +4,11 @@ Status: APROVADO
 
 NPC não é uma categoria mecânica diferente.
 
-Todos os personagens usam as mesmas regras de:
+> **NPC usa as mesmas regras de personagem; o que muda é quanto precisa ser representado na ficha e como sua agência é atribuída por outras áreas.**
+
+## Mesma mecânica
+
+NPCs usam normalmente:
 
 - Patamar;
 - Atributos;
@@ -13,82 +17,53 @@ Todos os personagens usam as mesmas regras de:
 - Traços;
 - Vida;
 - Mana;
-- relações e recursos.
+- relações e recursos, quando relevantes.
 
-A diferença está em **quem controla o personagem** e em **quanto vale a pena registrar para garantir continuidade**.
+Importância não modifica automaticamente nenhuma dessas capacidades.
 
----
+```text
+Figurante
+≠ mecanicamente fraco
 
-## CONTROLE: NPC
+Central
+≠ mecanicamente mais resistente
+```
 
-Um NPC possui:
+A calibração segue `calibracao.md`: cada NPC é construído pelo que ele realmente é, não para equilibrar outra ficha.
+
+## CONTROLE na ficha
+
+Uma ficha de NPC pode registrar:
 
 ```text
 CONTROLE: NPC
 ```
 
-Isso significa que ele não possui um jogador dedicado.
+Este arquivo apenas registra o campo.
 
-Quando sua presença exigir agência:
+Quem joga o NPC, quando existe delegação e como decisões voluntárias são atribuídas pertencem a:
 
 ```text
-ROTINA EVIDENTE
-→ NARRADOR pode narrar como consequência já determinada
-
-DECISÃO VOLUNTÁRIA RELEVANTE, NÃO ADVERSARIAL
-→ JOGADOR IA EVENTUAL assume temporariamente a peça
-
-OPOSIÇÃO ATIVA
-→ NPC pode ser delegado ao OPOSITOR depois que o NARRADOR julgar sua disponibilidade
+../personas/npcs-e-delegacao.md
 ```
 
-A assunção temporária não altera o `CONTROLE` da ficha.
+Continuidade fora de cena pertence a:
 
-Isso vale para civis, comerciantes, guardas, monstros, inimigos, aliados circunstanciais, antagonistas recorrentes e entidades muito poderosas.
+```text
+../agencia/continuidade-de-npcs.md
+```
 
-> **NPC não pertence ao NARRADOR como jogador. Rotina pode ser narrada; vontade relevante precisa da cadeira apropriada.**
+## Ficha completa, rápida ou mínima
 
----
+NPC usa o nível de detalhe necessário para funcionar e permanecer coerente.
 
-## OPOSITOR e delegação temporária
+### Ficha completa
 
-`OPOSITOR` não é uma categoria de `CONTROLE`.
+Pode usar o mesmo modelo de `ficha.md` quando todas as informações forem relevantes.
 
-O OPOSITOR pode propor problemas, pressões, interrupções e ações usando elementos legítimos da ficção. O NARRADOR julga se a proposta é plausível e coerente.
+### Ficha rápida
 
-Quando apropriado, o NARRADOR pode delegar temporariamente um NPC ao OPOSITOR para executar aquela oposição.
-
-A delegação operacional não altera a ficha.
-
----
-
-## Importância e mecânica
-
-NPCs podem ser `Centrais`, `Relevantes` ou `Figurantes` conforme sua função estrutural na campanha.
-
-Importância não modifica automaticamente:
-
-- Patamar;
-- Atributos;
-- Perícias;
-- Poderes;
-- Traços;
-- Vida;
-- Mana;
-- chance de sucesso;
-- Dificuldade do cenário.
-
-Vida e Mana são calculadas pelas mesmas regras usadas por qualquer outro personagem.
-
-> **Figurante não significa mecanicamente fraco. Central não significa mecanicamente mais resistente.**
-
----
-
-## Ficha rápida
-
-NPCs simples não usam modelos automáticos que preencham capacidades inexistentes.
-
-Uma ficha rápida registra apenas aquilo que realmente precisa ser conhecido para o NPC funcionar.
+Registra somente capacidades que precisam ser consultadas com frequência.
 
 Exemplo:
 
@@ -109,52 +84,40 @@ Vida Máxima [resultado derivado, se necessário]
 Mana Máxima [resultado derivado, se necessário]
 ```
 
-Esse exemplo é apenas estrutural. Os valores derivados dependem da construção completa da personagem, inclusive de Atributos que podem ter sido omitidos visualmente da ficha rápida.
+### Ficha mínima
 
----
-
-## Ficha mínima
-
-Um NPC ainda mais simples pode possuir apenas:
+Pode conter apenas:
 
 ```text
 Nome
 Conceito
 Importância
 CONTROLE
-Patamar, quando necessário
+Patamar, se necessário
 capacidades realmente relevantes
-Vida/Mana, apenas se forem acompanhadas
+Vida/Mana, se forem acompanhadas
 ```
 
-> **Informação ausente não significa valor zero.**
+> **Informação omitida não significa valor zero.**
 
-Se Potência não aparece na ficha mínima, isso não significa `Potência [0]`. Significa apenas que esse valor não precisou ser registrado ainda.
+Se Potência não aparece, isso não estabelece `Potência [0]`; significa apenas que o valor não precisou ser registrado ainda.
 
-Quando uma capacidade omitida se tornar mecanicamente relevante, ela deve ser estabelecida de forma coerente com o Conceito, a calibração e o que já foi definido; nunca inventada retroativamente apenas para contrariar uma solução válida.
+Quando um valor omitido se tornar necessário, ele deve ser estabelecido de forma coerente com Conceito, Patamar, calibração e fatos já definidos — nunca retroativamente para contrariar uma solução válida.
 
----
+## Vida e Mana
 
-## Vida e Mana em fichas compactas
-
-Quando Vida ou Mana precisarem ser acompanhadas, seus valores máximos podem aparecer diretamente na ficha rápida como resultados derivados.
-
-A ficha compacta não precisa exibir todos os seis Atributos apenas para mostrar esses resultados, desde que a construção subjacente seja coerente com as regras do personagem.
+Quando forem acompanhadas, Vida e Mana seguem as mesmas fórmulas de qualquer personagem:
 
 ```text
-Vida Máxima [X]
-Mana Máxima [Y]
+Vida → ../resolucao/vida.md
+Mana → ../resolucao/mana.md
 ```
 
-Valores atuais pertencem ao STATUS.
+A ficha pode registrar os máximos. Valores atuais pertencem a `../persistencia/`.
 
----
+## Perícias
 
-## Perícias em NPCs
-
-Perícias não possuem graduação numérica.
-
-Exemplo:
+Perícias de NPC não possuem graduação.
 
 ```text
 PERÍCIAS:
@@ -162,21 +125,13 @@ PERÍCIAS:
 - Investigar
 ```
 
-Quando uma Perícia for realmente relevante, concede `+1d` conforme `pericias.md`.
+Quando relevante, a Perícia concede `+1d` conforme `pericias.md`.
 
-Não criar `Soldado [+2]`, `Combate [+3]` ou qualquer outra graduação antiga.
+Não criar `Soldado [+2]`, `Combate [+3]` ou Perícia genérica de combate apenas para aumentar ataques.
 
-Também não criar Perícia genérica de combate apenas para aumentar ataques.
+## Poderes
 
----
-
-## Poderes em NPCs
-
-Poderes não usam escala genérica `[1]` a `[5]`.
-
-A ficha registra quais partes do arsenal funcional o NPC realmente possui.
-
-Exemplo conceitual:
+Poderes de NPC também não usam grau genérico `[1–5]`.
 
 ```text
 PODERES:
@@ -185,17 +140,15 @@ PODERES:
 - Terror
 ```
 
-Configuração, Dano, Efeito, custo, alcance e demais opções pertencem aos Hubs e regras dos próprios Poderes.
+A ficha registra a posse; funcionamento e Hub pertencem a `../resolucao/poderes/`.
 
----
+## NPC poderoso pode ter ficha curta
 
-## NPCs poderosos
+Quantidade de texto não mede poder.
 
-Poder narrativo ou mecânico não exige uma ficha maior.
+Um NPC de Patamar alto pode possuir ficha compacta se ela contiver tudo que precisa ser resolvido.
 
-Um NPC extremamente poderoso pode possuir uma ficha operacional curta, desde que contenha tudo que precisa ser resolvido em jogo.
-
-Exemplo estrutural:
+Exemplo:
 
 ```text
 Entidade antiga
@@ -217,128 +170,28 @@ PODERES:
 - Influência
 - Proteção
 - Invocação
-
-RECURSOS:
-- domínio próprio
-- servos
-- conhecimento antigo
 ```
 
-A ficha curta não reduz a capacidade do personagem.
+## Persistência e continuidade
 
----
+Este arquivo não decide onde NPCs são salvos nem quando continuam sendo acompanhados.
 
-## Vitória não é poder bruto
-
-Confrontos não precisam ser simétricos.
-
-Um personagem pode vencer alguém superior em certas capacidades por meio de especialização, conhecimento, preparação, relação favorável entre capacidades, ambiente, recursos ou exploração correta de uma vulnerabilidade.
-
-> **Capacidade de vencer não é a mesma coisa que poder bruto.**
-
-Uma ficha não deve ser inflada apenas para garantir determinado resultado de confronto.
-
----
-
-## Persistência
-
-Um NPC simples pode existir somente durante a cena e nunca receber arquivo persistente.
-
-Criar registro persistente quando houver informação que realmente precise sobreviver entre cenas, por exemplo:
-
-- relações recorrentes;
-- desavenças;
-- promessas e pactos;
-- objetivos próprios;
-- conhecimento relevante;
-- recursos estabelecidos;
-- limitações;
-- consequências ainda ativas;
-- mudanças que possam afetar decisões futuras.
-
-Ter arquivo persistente não altera `Importância` nem `CONTROLE`.
-
----
-
-## Onde registrar NPCs persistentes
-
-NPCs sem agência de jogador pertencem ao material de condução da campanha.
-
-Destino padrão:
+Usar:
 
 ```text
-campanhas/<nome>/mestre/
+onde salvar NPC persistente?
+→ ../persistencia/material-reservado.md
+
+quando continuar acompanhando fora de cena?
+→ ../agencia/continuidade-de-npcs.md
+
+ganchos que podem voltar a mover a história?
+→ ../agencia/ganchos-do-opositor.md
+
+quem joga ou recebe delegação da peça?
+→ ../personas/npcs-e-delegacao.md
 ```
-
-Quando houver vários NPCs persistentes:
-
-```text
-campanhas/<nome>/mestre/npcs/
-```
-
-Personagens com agência de jogador pertencem a:
-
-```text
-campanhas/<nome>/personagens/
-```
-
-`mundo/` guarda fatos estáveis do cenário e não é o destino padrão de fichas de NPC.
-
-> **Personagem com agência → `personagens/`. NPC persistente → `mestre/`.**
-
----
-
-## Mudança de CONTROLE
-
-Se um NPC passar a receber formalmente:
-
-```text
-CONTROLE: JOGADOR IA EVENTUAL
-```
-
-então ele passa a ser uma peça com agência de jogador.
-
-Sua ficha canônica deve ficar em:
-
-```text
-campanhas/<nome>/personagens/<personagem>.md
-```
-
-Não manter uma segunda ficha completa em `mestre/`.
-
-Informações genuinamente reservadas podem permanecer em `mestre/` como material separado.
-
----
-
-## Ganchos para o OPOSITOR
-
-Uma ficha persistente de NPC pode preservar fatos capazes de gerar movimento futuro quando existirem de verdade na ficção.
-
-Isso pode incluir:
-
-- relações tensas;
-- interesses conflitantes;
-- obrigações;
-- pactos;
-- recursos vulneráveis;
-- limitações;
-- inimigos;
-- desavenças não resolvidas.
-
-Esses elementos não são acontecimentos pré-programados.
-
-O OPOSITOR pode propor movimento a partir deles, mas não pode inventar retroativamente conhecimento, recursos, fraquezas ou preparações apenas para contrariar uma solução válida.
-
-O NARRADOR continua julgando a proposta.
-
----
-
-## Calibração
-
-NPCs, antagonistas, aliados e protagonistas obedecem à mesma regra de `calibracao.md`:
-
-> **cada personagem é construído pelo que ele é, nunca para equilibrar outra ficha por iniciativa do sistema.**
 
 ## Regra final
 
-> **NPC usa as mesmas regras de qualquer personagem. O que muda é agência e quantidade de informação persistida. Ficha compacta omite o desnecessário; nunca transforma ausência de informação em valor zero.**
+> **`personagem/npcs.md` define somente como representar mecanicamente NPCs. Autoridade pertence a `personas/`, continuidade a `agencia/` e armazenamento a `persistencia/`.**
