@@ -95,14 +95,30 @@ Este bloco registra como a personagem pensa, reage e orienta suas escolhas no pr
 
 # Bloco 6 — Relacionamentos
 
-Este bloco registra vínculos atuais importantes para interpretação e continuidade.
+Este bloco responde somente a três perguntas sobre os vínculos atuais da personagem: **quem está com ela, quem está contra ela e com quem existe envolvimento romântico ou íntimo além de uma amizade comum**.
 
-Use uma linha para cada relação relevante, indicando de forma breve **quem é a pessoa ou grupo e qual é a natureza atual do vínculo**.
+## Aliados
 
 - **[Nome ou grupo]:** `[relação atual]`
+
+## Inimigos
+
 - **[Nome ou grupo]:** `[relação atual]`
 
-Relacionamentos registram o estado atual dos vínculos. A origem e os acontecimentos que formaram essas relações pertencem ao Histórico quando forem relevantes.
+## Romance
+
+- **[Nome]:** `[relação atual]`
+
+Uma entrada coletiva pode resumir a relação com um grupo. Quando a personagem possuir uma relação particular importante com membros específicos desse grupo, eles podem receber entradas próprias além da entrada geral.
+
+Exemplo:
+
+- **Titãs:** equipe principal, círculo de confiança e referência de pertencimento.
+- **[Membro]:** relação individual que possua nuance própria suficiente para ser registrada.
+
+A categoria **Romance** não exige amor declarado, namoro formal ou uma relação já definida. Ela também registra vínculos que ultrapassaram amizade comum por intimidade, desejo, envolvimento ou compromisso, mesmo quando a própria personagem ainda considera a relação complexa, ambígua ou difícil de nomear.
+
+Relacionamentos registram **como a personagem sente e entende o vínculo no presente**. A origem e os acontecimentos que formaram essas relações pertencem ao Histórico quando forem relevantes.
 
 ---
 
