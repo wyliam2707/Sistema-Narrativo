@@ -52,9 +52,12 @@ Exemplo: um personagem pode sofrer ao mesmo tempo o melhor efeito de **Aflição
 Quando dois ou mais efeitos pertencem à **mesma família**, apenas o efeito mais forte fica ativo.
 
 - se dois efeitos tiverem a mesma força, permanece o de maior duração;
+- **durações não se somam**: receber várias aplicações do mesmo efeito não acumula suas durações;
 - se o efeito mais fraco possuir duração menor ou igual à do mais forte, ele é descartado;
 - se o efeito mais fraco possuir duração maior, ele fica inativo enquanto o mais forte estiver ativo e sua duração continua passando normalmente;
 - quando o efeito mais forte terminar, o mais fraco volta a valer se ainda restar duração.
+
+Exemplo: receber **Cego [Cena]** dez vezes, mesmo de dez fontes diferentes, continua resultando apenas em **Cego [Cena]**. As dez aplicações não se transformam em dez Cenas de duração.
 
 Exemplo: **Paralisado** domina **Imóvel** e **Lento** por pertencerem todos à família Contenção. Porém um efeito de **Aflição** continua ativo normalmente ao mesmo tempo, pois pertence a outra família.
 
