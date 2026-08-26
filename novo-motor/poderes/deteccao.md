@@ -35,9 +35,11 @@ A Detecção **não funciona como radar e não produz um mapa exato**.
 
 Quando várias ocorrências compatíveis existirem dentro da Área, o resultado pode indicar que existem várias presenças e apontar direções gerais, agrupamentos ou regiões aproximadas, sem revelar automaticamente a posição individual de cada uma.
 
-A precisão da informação depende da escala da busca e da ficção. Localizar algo em uma área muito ampla pode fornecer primeiro apenas uma região aproximada; novas buscas, aproximação ou contexto podem estreitar progressivamente a localização.
+A precisão da informação depende da escala da busca, da distância e da posição atual do personagem. Quanto mais ampla a busca, mais ampla pode ser a resposta. Conforme o personagem se aproxima e realiza novas buscas, a localização pode ser estreitada progressivamente.
 
-Exemplo: ao procurar uma pessoa em escala muito ampla, a Detecção pode indicar primeiro uma **cidade**, depois um **bairro ou quarteirão** e, com nova aproximação ou busca, talvez um **prédio**. Ela não precisa revelar a posição exata do alvo na primeira utilização.
+Exemplo: ao procurar uma pessoa em escala muito ampla, uma primeira utilização pode indicar apenas um **país ou grande região**. Ao chegar nessa região e usar Detecção novamente, o resultado pode indicar uma **cidade**. Dentro da cidade, novas utilizações podem fornecer uma **direção**, depois um **bairro ou quarteirão** e, com aproximação suficiente, até um **prédio ou casa**.
+
+> **Detecção localiza por aproximação progressiva; não entrega precisão máxima de uma vez.**
 
 Da mesma forma, detectar várias criaturas pode revelar que existem **várias presenças nessas direções**, sem transformar o Poder em um minimapa.
 
