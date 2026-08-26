@@ -84,7 +84,7 @@ Patamar [6] → máximo [7]
 Patamar [7] → máximo [7]
 ```
 
-Esse limite vale para criação. Outras regras de progressão permanente devem respeitar o máximo permanente geral `[7]`, salvo regra futura explicitamente aprovada que estabeleça outra exceção.
+Esse limite vale para criação. Outras regras de alteração permanente devem respeitar o máximo permanente geral `[7]`, salvo regra específica explicitamente aprovada que estabeleça outra exceção.
 
 ---
 
@@ -123,7 +123,7 @@ Patamar [4] → 5 pontos
 Patamar [7] → 8 pontos
 ```
 
-A regra específica de valores e aquisição de Traços pertence a `tracos.md` e à futura migração mecânica da criação.
+Valores, grupos e aquisição de Traços pertencem a `tracos.md` e aos catálogos em `tracos/`.
 
 ---
 
@@ -144,6 +144,8 @@ Patamar [7] → 8 Poderes
 Poderes não possuem uma escala genérica própria de `[1]` a `[5]`.
 
 Cada Poder define seu funcionamento e é configurado por seu próprio Hub. O Patamar entra quando uma regra usar `[X]` ou quando a criação determinar quantidades e limites.
+
+As regras concretas dos Poderes estão em `../resolucao/poderes/`.
 
 ---
 
