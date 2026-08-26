@@ -1,53 +1,160 @@
-# TRAÇOS
+# Traços
 
 Status: APROVADO
 
-`TRAÇOS` registram verdades qualitativas permanentes sobre um personagem que importam para a ficção, mas não possuem Patamar.
+Traços registram características **passivas e estáveis** da personagem: propriedades, condições, recursos, relações, limitações ou capacidades que já são verdadeiras sobre ela.
+
+Um Traço não precisa ser ativado para existir.
+
+> **Traço descreve algo que a personagem é, possui ou faz naturalmente. Poder representa uma ação extraordinária usada deliberadamente para produzir um efeito.**
+
+---
+
+## 1. Traço é verdade da ficha
+
+Um Traço:
+
+- existe passivamente;
+- garante apenas aquilo que sua descrição afirma;
+- não substitui Atributos ou Perícias;
+- não concede bônus genérico de rolagem;
+- pode resolver diretamente uma questão quando sua própria redação já responde ao problema;
+- pode limitar possibilidades quando sua condição realmente se aplica.
 
 Exemplos:
 
-- Não envelhece.
-- Não precisa respirar.
-- Corpo artificial.
-- Herança demoníaca.
-- Não pode mentir.
-- Vulnerável à luz solar.
-- Não pode entrar em cemitérios.
+```text
+Não precisa respirar.
+Não envelhece.
+Corpo artificial.
+Não pode mentir.
+Vulnerável à luz solar.
+```
 
-## O que é um TRAÇO
+Se a personagem não precisa respirar, ela não começa a sufocar apenas porque não existe um número associado a essa verdade.
 
-Um TRAÇO:
+> **Traço não é bônus abstrato. É uma regra factual sobre a personagem.**
 
-- é qualitativo;
-- é permanente;
-- não possui grau oculto;
-- não é somado a atributos, perícias ou poderes;
-- pode ajudar, limitar ou criar consequências conforme a situação;
-- pode resolver diretamente uma questão quando sua própria natureza já responde ao problema.
+---
+
+## 2. Grupos de Traços
+
+Os Traços são organizados em quatro grupos:
+
+```text
+Comuns
+Sobrenaturais
+Vícios
+Corrupções
+```
+
+### Comuns
+
+Vantagens pessoais, sociais, financeiras, materiais ou outras propriedades passivas compatíveis com personagens comuns do cenário.
+
+### Sobrenaturais
+
+Propriedades passivas além das capacidades normais, como fisiologia incomum, imunidades, sentidos especiais, recuperação ou outras características extraordinárias que já estejam sempre presentes.
+
+### Vícios
+
+Traços negativos comuns: hábitos, medos, conflitos, compromissos, relações problemáticas ou outras limitações mundanas relevantes.
+
+### Corrupções
+
+Traços negativos sobrenaturais: fraquezas, vulnerabilidades, necessidades e restrições extraordinárias ligadas à natureza da personagem.
+
+---
+
+## 3. Valores dos Traços positivos
+
+Traços positivos podem possuir valor de aquisição de:
+
+> **[1] a [3]**
+
+Esse valor representa **impacto e utilidade para construção**, não um bônus aplicado automaticamente a testes.
+
+Referência:
+
+```text
+[1]
+→ vantagem menor ou situacional
+
+[2]
+→ vantagem relevante e de uso amplo
+
+[3]
+→ vantagem maior, capaz de alterar fortemente possibilidades
+```
+
+Um Traço só possui múltiplos níveis quando sua própria descrição os definir.
+
+Não criar níveis extras por inferência.
+
+---
+
+## 4. Valores dos Traços negativos
+
+Vícios valem:
+
+> **[-1]**
+
+Corrupções podem valer:
+
+> **[-1] ou [-2]**
+
+conforme sua abrangência e impacto prático.
+
+Esses valores servem à economia de criação definida em `patamar.md`.
+
+Cada ponto negativo pode comprar **uma** destas opções:
+
+- `+1` ponto de Traço positivo;
+- `+1` Poder.
+
+O mesmo ponto negativo não pode ser usado para as duas coisas.
+
+---
+
+## 5. Valor de Traço não entra automaticamente no teste
+
+Um Traço `[1]`, `[2]` ou `[3]` não adiciona `+1`, `+2`, `+3` nem `+Xd` ao teste por si só.
+
+```text
+Traço [3]
+≠ +3 no resultado
+≠ +3d
+```
+
+Se um Traço conceder uma modificação mecânica específica, isso precisa estar escrito na própria regra do Traço.
+
+Caso contrário, ele atua como verdade ficcional e como elemento de construção.
+
+---
+
+## 6. Traços e resultado evidente
+
+Se a própria redação do Traço já resolve uma questão, não é necessário testar.
 
 Exemplo:
 
 ```text
-TRAÇOS:
-- Não precisa respirar.
+Traço:
+Não precisa respirar.
+
+situação:
+ambiente sem ar
+
+→ ausência de ar não produz sufocamento
 ```
 
-O personagem não começa a sufocar debaixo d'água apenas porque não existe um valor numérico associado ao TRAÇO.
+Quando o Traço apenas torna uma ação possível, mas ainda existe incerteza real sobre a execução, o teste pode continuar existindo normalmente.
 
-Da mesma forma:
+---
 
-```text
-TRAÇOS:
-- Não pode mentir.
-```
+## 7. Permanência e condição
 
-O personagem continua limitado por essa verdade mesmo quando mentir seria conveniente.
-
-> **TRAÇO não é bônus nem penalidade. É uma verdade permanente da ficção.**
-
-## Permanência e condições
-
-Um TRAÇO é permanente, mas sua consequência pode depender de uma condição.
+Um Traço pode ser permanente mesmo quando sua consequência só aparece sob determinada condição.
 
 Exemplos:
 
@@ -57,169 +164,101 @@ Enfraquece enquanto estiver em água corrente.
 Não pode entrar em cemitérios.
 ```
 
-A condição não torna o TRAÇO temporário. Ela apenas define quando aquela verdade produz consequência.
+A condição define **quando** a verdade produz consequência; não transforma o Traço em estado temporário.
 
-Estados passageiros, ferimentos, condições momentâneas ou efeitos temporários não devem ser registrados como TRAÇOS.
+Ferimentos, Status e efeitos passageiros pertencem ao estado atual, não aos Traços permanentes.
 
-## Um TRAÇO pode conter várias consequências
+---
 
-Quando várias consequências pertencem à mesma verdade permanente, elas podem fazer parte de um único TRAÇO.
+## 8. Conhecimento de ficha não é conhecimento de personagem
 
-Exemplo:
-
-```text
-Imortalidade vinculada:
-- não envelhece;
-- se morrer, retorna à vida no Local X.
-```
-
-Não é necessário fragmentar uma mesma natureza em vários TRAÇOS apenas para separar cada consequência.
-
-Quando as verdades forem independentes, devem ser registradas separadamente.
+A ficha pode registrar a verdade completa de um Traço sem que todas as personagens da ficção conheçam essa informação.
 
 Exemplo:
 
 ```text
-Não envelhece.
-Não pode mentir.
 Vulnerável à prata.
 ```
 
-## Conhecimento do TRAÇO
+O OPOSITOR pode apresentar a consequência quando prata já estiver legitimamente presente e a condição for acionada.
 
-A ficha registra a verdade completa do personagem, mas os personagens da ficção podem conhecê-la por inteiro, parcialmente ou não conhecê-la.
+Isso não autoriza decidir retroativamente que um inimigo trouxe prata especificamente para explorar uma fraqueza que nunca descobriu.
 
-Exemplo:
+> **A regra pode conhecer a vulnerabilidade. As personagens da ficção conhecem apenas o que realmente descobriram.**
 
-```text
-Imortalidade vinculada:
-- não envelhece;
-- se morrer, retorna à vida no Local X.
-```
+---
 
-Uma pessoa pode saber apenas que o personagem não envelhece. Outra pode saber que ele já morreu e voltou. Pouquíssimos podem conhecer o Local X.
+## 9. OPOSITOR e NARRADOR
 
-> **Conhecimento de ficha não é conhecimento de personagem.**
+O OPOSITOR pode apresentar um Traço aplicável como fundamento de oposição quando a situação realmente o aciona.
 
-Um personagem dentro da ficção não recebe informação, preparação ou recursos que ainda não possui apenas porque o TRAÇO existe na ficha.
+O NARRADOR julga:
 
-## O OPOSITOR e os TRAÇOS
+- se o Traço realmente se aplica;
+- se a circunstância apresentada existe;
+- qual consequência decorre da redação do Traço.
 
-O OPOSITOR pode apresentar qualquer TRAÇO aplicável como fundamento de oposição quando a situação realmente o aciona.
+Isso preserva a separação de funções definida em `../personas/`.
 
-Ele funciona como um promotor: procura os ganchos legítimos que trabalham contra a ação e os apresenta ao NARRADOR.
+---
 
-Exemplo:
+## 10. Aplicação literal
 
-```text
-TRAÇO:
-- Não pode atravessar água corrente.
-```
+Um Traço produz apenas as consequências descritas em sua redação.
 
-O jogador declara:
-
-```text
-Vou atravessar o rio.
-```
-
-Se o rio é realmente água corrente, o OPOSITOR pode apresentar o TRAÇO como oposição de cenário.
-
-Outro exemplo:
-
-```text
-TRAÇO:
-- Vulnerável à luz solar.
-```
-
-Se o personagem está exposto ao sol, o OPOSITOR pode aplicar o TRAÇO mesmo que nenhum personagem da cena conheça essa vulnerabilidade.
-
-O mesmo vale para uma fraqueza que seja acionada acidentalmente. Se uma faca já presente na cena é de prata e o personagem é vulnerável à prata, o OPOSITOR pode apresentar essa consequência mesmo que o atacante não soubesse da fraqueza.
-
-## Conhecimento ficcional não pode ser fabricado
-
-Embora o OPOSITOR possa usar um TRAÇO quando a própria circunstância o aciona, ele não pode conceder aos personagens da ficção conhecimento ou preparação que eles não possuem.
+Não ampliar uma limitação artificialmente para impedir uma solução válida.
 
 Exemplo:
 
 ```text
-TRAÇO:
-- Vulnerável à prata.
+Não pode atravessar água corrente.
 ```
 
-O OPOSITOR não pode decidir que um inimigo trouxe munição de prata especificamente para explorar essa fraqueza se esse inimigo nunca teve motivo para conhecê-la.
+Um Teleporte diretamente para o outro lado pode contornar essa limitação se, pela redação e pela ficção, a personagem não estiver atravessando a água.
 
-Se o inimigo descobriu a vulnerabilidade anteriormente, preparar uma arma de prata passa a ser uma ação ficcional legítima.
-
-> **O OPOSITOR conhece os ganchos mecânicos relevantes; os personagens da ficção conhecem apenas o que efetivamente descobriram.**
-
-## Papel do NARRADOR
-
-O NARRADOR não precisa procurar fraquezas na ficha para criar oposição.
-
-O OPOSITOR apresenta o TRAÇO e a circunstância que o torna relevante. O NARRADOR julga:
-
-- se o TRAÇO realmente se aplica;
-- se a circunstância apresentada existe na ficção;
-- qual consequência decorre da redação do TRAÇO.
-
-Assim, o NARRADOR permanece como julgador da oposição apresentada, e não como um segundo adversário.
-
-## Aplicação literal
-
-Um TRAÇO produz apenas as consequências definidas por sua redação. Ele não deve ser ampliado artificialmente para preservar uma fraqueza.
-
-Exemplo:
+Mas:
 
 ```text
-TRAÇO:
-- Não pode atravessar água corrente.
+Não pode entrar em cemitérios.
 ```
 
-Se o personagem possui:
+não é contornado apenas por trocar o método de entrada se o resultado continua sendo entrar no cemitério.
 
-```text
-Teleporte [4]
-```
+> **Traços definem verdades. Poderes podem contornar uma condição quando realmente evitam aquilo que a redação proíbe.**
 
-teleportar-se diretamente para o outro lado pode contornar a barreira, porque o personagem não atravessou a água corrente.
+---
 
-Já:
+## 11. Evitar duplicação
 
-```text
-TRAÇO:
-- Não pode entrar em cemitérios.
-```
-
-não é contornado apenas pelo teleporte, porque a restrição diz respeito a entrar naquele local, e não ao método de deslocamento.
-
-Outro caso:
-
-```text
-TRAÇO:
-- Enfraquece enquanto estiver em água corrente.
-```
-
-Se o personagem estiver dentro do rio, o TRAÇO se aplica. Teleportar-se para fora pode ser uma forma legítima de encerrar a condição.
-
-> **TRAÇOS não vencem poderes. TRAÇOS definem verdades. Poderes podem contornar essas verdades quando realmente evitam a condição descrita.**
-
-## O que não deve ser TRAÇO
-
-Quando uma característica representa capacidade graduada, potência, resistência, domínio ou algo que precisa ser comparado em escala, ela deve ser registrada como atributo, perícia ou poder.
+Não criar Traço para repetir algo já representado adequadamente por outra parte da ficha.
 
 Exemplos:
 
 ```text
-Herança demoníaca   → pode ser TRAÇO
-Empatia [3]         → Poder
-RES [4]             → Atributo
-Médico [+3]         → Perícia
+Potência alta
+→ normalmente já representa força natural elevada
+
+Medicina
+→ já representa treinamento médico
+
+Teleporte
+→ já representa a capacidade ativa correspondente
 ```
 
-## Evitar duplicação
+Criar Traço apenas quando houver uma verdade passiva própria que ainda precise ser registrada.
 
-TRAÇOS não devem repetir desnecessariamente capacidades já registradas mecanicamente.
+---
 
-Se `RES [4]` já descreve a resistência física excepcional do personagem, não é necessário criar um TRAÇO genérico de “muito resistente” apenas para repetir a mesma informação.
+## 12. Trama
 
-> **TRAÇO = verdade qualitativa permanente. Atributo, perícia ou poder = capacidade graduada.**
+A existência de Traços não ativa automaticamente nenhuma regra narrativa de Trama dentro de `sistema/`.
+
+Integrações de Traços com ganho, gasto ou reescrita narrativa de Trama permanecem fora desta migração até decisão específica.
+
+Isso não impede uma futura integração mecânica; apenas preserva a fronteira atual entre resolução mecânica e mecanismos narrativos protegidos.
+
+---
+
+## Regra final
+
+> **Traço é uma verdade passiva da personagem. Valores positivos [1–3], Vícios [-1] e Corrupções [-1/-2] servem à construção e ao impacto declarado, não como bônus genérico de resolução. Poderes continuam sendo as ações extraordinárias deliberadas.**
