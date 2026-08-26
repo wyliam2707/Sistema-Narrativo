@@ -83,6 +83,20 @@ O jogador pode gastar Trama para reduzir o Dano que o personagem sofreria:
 
 A redução pode ser parcial ou suficiente para anular todo o Dano, limitada apenas pela quantidade de Trama disponível.
 
+### Suavizar uma consequência narrativa
+
+O jogador pode gastar:
+
+> **5 Pontos de Trama para reduzir em um grau a gravidade de uma consequência narrativa que acabou de acontecer.**
+
+Esse uso exige que exista uma versão menos grave e ainda plausível do mesmo acontecimento. A Trama não apaga gratuitamente toda consequência; ela transforma um desfecho extremo em outro que preserve a cena sem encerrar aquela possibilidade narrativa.
+
+Exemplo:
+
+Um aliado é narrado como **morto** por um acontecimento da cena. Antes que a história avance, o jogador gasta **5 Pontos de Trama**. O Narrador volta ao instante da consequência e a versão definitiva passa a ser: o aliado está **incapacitado, gravemente ferido ou inconsciente, mas vivo**.
+
+A consequência continua existindo, apenas em uma forma menos definitiva.
+
 ### Correção retroativa imediata
 
 Trama pode ser gasta **depois que o resultado e sua consequência imediata forem conhecidos**.
@@ -163,10 +177,11 @@ Pontos de Trama:
 - não tornam possível uma ação absolutamente impossível;
 - não anulam uma Restrição absoluta apenas por serem gastos;
 - não garantem que uma rolagem será bem-sucedida;
+- podem suavizar em um grau uma consequência narrativa recém-acontecida quando existir uma versão menos grave plausível;
 - podem corrigir uma consequência recém-narrada antes que a história avance para outro evento relevante;
 - podem abrir uma nova possibilidade narrativa, mas não obrigam outro personagem a escolher o resultado desejado.
 
-> **Trama oferece ao protagonista uma nova chance, uma correção imediata ou uma nova possibilidade; ela não determina livremente o resultado da história.**
+> **Trama oferece ao protagonista uma nova chance, uma consequência menos definitiva, uma correção imediata ou uma nova possibilidade; ela não determina livremente o resultado da história.**
 
 ---
 
@@ -198,4 +213,4 @@ Ter 0 Pontos de Trama não impede o personagem de quebrar o Código; significa a
 
 # Regra fundamental
 
-> **Trama é o privilégio narrativo do protagonista. Ela permite ao jogador humano melhorar uma rolagem, reduzir penalidades, corrigir uma consequência recém-narrada, suportar Dano, sustentar o uso de Poderes, obter uma pista ou abrir uma nova possibilidade narrativa. Ela pode alterar as chances, corrigir o instante recém-acontecido e ampliar o espaço de possibilidades da história, mas não garante vitória nem força as decisões de outros personagens.**
+> **Trama é o privilégio narrativo do protagonista. Ela permite ao jogador humano melhorar uma rolagem, reduzir penalidades, suavizar ou corrigir uma consequência recém-narrada, suportar Dano, sustentar o uso de Poderes, obter uma pista ou abrir uma nova possibilidade narrativa. Ela pode alterar as chances, corrigir o instante recém-acontecido e ampliar o espaço de possibilidades da história, mas não garante vitória nem força as decisões de outros personagens.**
