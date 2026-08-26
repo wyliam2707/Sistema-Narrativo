@@ -1,150 +1,96 @@
-# Pareamento de informações entre fichas
+# Pareamento de Informações
 
 Status: APROVADO
 
-O pareamento é uma etapa de consistência cruzada realizada **depois que todas as fichas iniciais com agência foram aprovadas e antes de definir a situação inicial da história**.
+O pareamento é uma etapa de **criação da campanha** realizada depois que todas as fichas iniciais com agência foram aprovadas e antes de definir a situação inicial da história.
 
-Seu objetivo é descobrir somente as informações compartilhadas necessárias para que personagens relacionados sejam interpretados sem contradições.
+> **Pareamento verifica se fichas relacionadas conseguem coexistir sem contradições importantes.**
 
-> **Pareamento não é biografia completa. É apenas o mínimo necessário para as fichas conversarem entre si.**
+Ele não define a mecânica das relações — isso pertence a `../personagem/relacoes.md` — e não cria uma nova fonte de persistência.
 
 ## Princípio central
 
-Quando a comparação entre fichas revelar uma lacuna realmente relevante, o narrador:
+Quando duas ou mais fichas relacionadas deixam uma lacuna realmente relevante:
 
 ```text
-compara as fichas relacionadas
-→ identifica a próxima informação essencial que falta
-→ faz UMA pergunta ao JOGADOR HUMANO
-→ guarda a resposta sem alterar ainda as fichas
-→ repete somente enquanto ainda houver lacuna importante
-→ consolida as respostas
-→ ajusta em conjunto todas as fichas afetadas
+comparar as fichas
+→ identificar a próxima lacuna essencial
+→ fazer UMA pergunta ao JOGADOR HUMANO
+→ guardar a resposta
+→ repetir somente se ainda houver lacuna importante
+→ consolidar o conjunto
+→ atualizar as fichas afetadas
 ```
 
-As perguntas são feitas uma por vez, mas as fichas não precisam ser alteradas a cada resposta.
+Perguntas são sequenciais; a persistência pode ser feita em lote ao final do conjunto.
 
-## Regra de minimalidade
+## O que verificar
 
-Perguntar apenas o que puder causar diferença real em:
+Somente quando necessário:
 
-- interpretação;
-- conhecimento entre personagens;
-- relação atual;
-- história compartilhada importante;
-- acesso ou confiança recorrente;
-- continuidade da campanha.
-
-Não transformar o pareamento em questionário exaustivo.
-
-Não perguntar por:
-
-- curiosidades;
-- hábitos sem efeito narrativo;
-- detalhes íntimos irrelevantes;
-- cronologia minuciosa quando uma referência aproximada basta;
-- informações de terceiros que não alterem nenhuma ficha atual;
-- detalhes que podem surgir naturalmente durante o jogo sem criar contradição.
-
-> **Se a informação pode tranquilamente ser descoberta em cena depois, normalmente ela não precisa ser definida no pareamento.**
-
-## O que normalmente basta em um par
-
-Para um par relevante, verificar somente quando necessário:
-
-- se se conhecem;
+- se as pessoas se conhecem;
 - há quanto tempo, aproximadamente;
 - como surgiu o vínculo, se isso importar;
 - natureza atual da relação;
-- fatos importantes que um sabe sobre o outro;
-- segredos ou desconhecimentos que mudariam a interpretação;
-- algum evento compartilhado essencial.
+- fatos importantes que uma sabe sobre a outra;
+- segredos ou desconhecimentos relevantes;
+- acesso, confiança ou obrigação recorrente;
+- evento compartilhado essencial.
 
-Nem todos esses itens precisam ser perguntados.
+Não transformar pareamento em biografia completa.
+
+> **Se a informação pode surgir normalmente em cena sem gerar contradição, ela provavelmente não precisa ser definida aqui.**
 
 ## Conhecimento é direcional
 
-`A sabe X sobre B` não implica que `B sabe que A sabe X`.
+```text
+A sabe algo sobre B
+≠
+B sabe que A sabe
+```
 
-Também não implica conhecimento total.
-
-Registrar apenas o nível de conhecimento necessário para evitar erros de interpretação.
+Registrar somente o conhecimento necessário para evitar erro futuro de interpretação.
 
 ## Relações são direcionais
 
-A relação de A com B pode diferir da relação de B com A.
+A relação de A com B pode ser diferente da relação de B com A.
 
-O objetivo do pareamento é coerência cruzada, não simetria forçada.
+Pareamento busca coerência, não simetria.
 
-## Relações de grupo
+## Grupos
 
-Quando existir um grupo recorrente, verificar apenas fatos coletivos essenciais que não estejam claros nas relações individuais.
+Quando houver grupo recorrente, definir apenas os fatos coletivos realmente necessários que não estejam claros nas relações individuais.
 
-Exemplo:
+Rotinas menores podem surgir durante o jogo.
 
-```text
-Corvin + Wanda + Ravena
-```
+## Atualização das fichas
 
-Pode ser suficiente saber que vivem juntos, há quanto tempo aproximadamente e qual é a natureza geral do vínculo. Rotinas menores podem surgir em jogo.
+O pareamento pode atualizar fichas já `APROVADO` sem reiniciar a revisão em cinco blocos.
 
-## Coleta sequencial, persistência em lote
+Atualizar somente campos afetados, principalmente:
 
-Durante o pareamento:
+- `REL`;
+- conhecimento atual relevante;
+- história consolidada relevante;
+- RECURSOS quando o vínculo realmente concede acesso recorrente;
+- Traços apenas quando surgir uma verdade estável que pertença à personagem.
 
-```text
-pergunta essencial
-→ resposta
-→ próxima pergunta essencial
-→ resposta
-→ ...
-```
-
-As respostas podem permanecer no contexto de trabalho.
-
-Quando houver informação suficiente:
-
-```text
-consolidar respostas
-→ atualizar somente os campos afetados
-→ persistir todas as fichas necessárias em conjunto
-→ encerrar o pareamento
-```
-
-Se uma resposta posterior corrigir uma anterior, vale a informação mais recente explicitamente dada pelo JOGADOR HUMANO.
-
-## Ajuste das fichas
-
-O pareamento pode atualizar fichas já `APROVADO` sem reiniciar os cinco blocos.
-
-As fichas permanecem `APROVADO`.
-
-Atualizar somente campos realmente afetados, principalmente:
-
-- `Relações`;
-- `Conhecimento atual relevante`;
-- `História consolidada relevante`;
-- `Recursos`, quando um vínculo concede acesso recorrente real;
-- `Traços`, quando houver uma verdade estável que realmente importe.
-
-Não duplicar a mesma informação em vários campos sem necessidade.
+O critério do que merece permanecer na ficha pertence a `../persistencia/relevancia-da-ficha.md`.
 
 ## Persistência
 
-O pareamento não cria arquivo paralelo de campanha para repetir relações ou conhecimento.
+Não criar arquivo paralelo de relacionamento apenas para repetir a mesma informação.
 
-As informações são persistidas diretamente nas fichas afetadas:
+As verdades aprovadas são consolidadas nas fontes adequadas conforme `../persistencia/`.
 
-```text
-personagens/<nome>.md
-```
+Se uma resposta posterior corrigir uma anterior durante a criação, vale a informação explícita mais recente.
 
-O checkpoint da campanha registra apenas onde retomar.
+## Encerramento
 
-## Critério de encerramento
+O pareamento termina quando já existe informação suficiente para iniciar a campanha sem contradições importantes entre as fichas.
 
-O pareamento termina quando já existe informação suficiente para começar a campanha sem contradições importantes entre as fichas.
+Depois disso, `README.md` avança o checkpoint para **Início da história**.
 
-Ele **não** precisa responder tudo sobre a vida dos personagens.
+## Regra final
 
-> **Pergunte o essencial, pare quando estiver suficiente e deixe o restante para a história.**
+> **Pareamento é uma verificação mínima de consistência entre fichas antes da primeira cena. Pergunte o essencial, consolide o aprovado e deixe o restante para a história.**
