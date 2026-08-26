@@ -4,7 +4,7 @@ Status: APROVADO
 
 STATUS registra **como a peça está agora**.
 
-Ele não redefine mecânicas. Sua função é preservar o estado atual já estabelecido pela ficção e por `../resolucao/`.
+Ele não redefine mecânicas. Sua função é preservar o estado atual já estabelecido pela ficção e pelas regras apropriadas.
 
 ```text
 FICHA
@@ -21,6 +21,7 @@ Quando relevantes, registrar:
 ```text
 Vida atual / máxima
 Mana atual / máxima
+Trama atual, somente quando a peça possuir essa reserva
 Status e condições temporárias
 Efeitos Ativos
 Barreiras atuais
@@ -33,32 +34,29 @@ Nem todo campo precisa existir para toda peça.
 
 > **STATUS guarda somente o que ainda pode importar agora.**
 
-## Vida e Mana
+---
+
+## Vida, Mana e Trama
 
 STATUS registra apenas os valores atuais já determinados pelas regras correspondentes.
 
-As regras de Vida e incapacidade pertencem a:
+Fontes mecânicas:
 
 ```text
-../resolucao/vida.md
-```
+Vida e incapacidade
+→ ../resolucao/vida.md
 
-As regras de Dano pertencem a:
+Dano
+→ ../resolucao/combate-e-dano.md
 
-```text
-../resolucao/combate-e-dano.md
-```
+recuperação natural e Medicina
+→ ../resolucao/recuperacao-da-vida.md
 
-A recuperação natural e Medicina pertencem a:
+Mana e recuperação
+→ ../resolucao/mana.md
 
-```text
-../resolucao/recuperacao-da-vida.md
-```
-
-A regra de Mana e recuperação pertence a:
-
-```text
-../resolucao/mana.md
+Trama do protagonista humano
+→ ../personagem/trama.md
 ```
 
 Exemplo:
@@ -66,32 +64,40 @@ Exemplo:
 ```text
 Vida [18/29]
 Mana [9/24]
+Trama [27]
 ```
 
-`ENERGIA` e `Bateria [1–5]` são nomenclaturas/regras legadas e não devem ser usadas em novos registros universais.
+Trama só aparece quando a personagem realmente possuir essa reserva pelas regras aplicáveis.
 
-O STATUS não recalcula Vida ou Mana; apenas preserva o resultado atual.
+`ENERGIA` e `Bateria [1–5]` não são campos universais do motor atual.
+
+O STATUS não recalcula Vida, Mana ou Trama; apenas preserva seus valores atuais.
+
+---
 
 ## Status e condições
 
-Status nocivos, condições e outros estados temporários descrevem aquilo que continua mecanicamente ou ficcionalmente relevante.
-
-Exemplos possíveis:
+As famílias mecânicas de Status pertencem a:
 
 ```text
-Cego
-Imóvel
-Apavorado
-Exausto
-Atordoado
+../resolucao/status/
+```
+
+O STATUS persistente apenas registra quais condições continuam ativas e, quando necessário, sua duração ou outra informação operacional.
+
+Exemplos:
+
+```text
+Cego — Cena
+Imóvel — 2 Turnos
+Apavorado — Cena
+Atordoado — 1 Turno
 Caído
 ```
 
-A consequência vem da regra que criou o Status ou daquilo que foi estabelecido pela cena.
+Nem toda descrição momentânea precisa ser registrada. Só permanece no STATUS aquilo que ainda puder alterar decisões, continuidade ou resoluções futuras.
 
-Nem toda descrição momentânea precisa ser registrada. Só permanece no STATUS aquilo que ainda puder alterar decisões ou resoluções futuras.
-
-Quando a migração das famílias de Status estiver concluída, suas regras específicas passam a ser a fonte mecânica; persistência continua apenas registrando o estado atual.
+---
 
 ## Efeitos Ativos
 
@@ -109,11 +115,11 @@ Preservar somente as informações necessárias para continuidade, como:
 
 O STATUS não define como esses valores são calculados.
 
+---
+
 ## Barreiras
 
 Quando uma Barreira precisar persistir entre resoluções, registrar seus PV atuais.
-
-Exemplo:
 
 ```text
 Barreira [7/15]
@@ -121,11 +127,11 @@ Barreira [7/15]
 
 A criação e o cálculo da Barreira pertencem à regra que a produziu.
 
+---
+
 ## Alterações temporárias de Atributo
 
-Quando um Atributo estiver temporariamente diferente de seu valor permanente e isso ainda importar, registrar a alteração no STATUS.
-
-Exemplo:
+Quando um Atributo estiver temporariamente diferente de seu valor permanente e isso ainda importar, registrar a alteração.
 
 ```text
 Potência +2 temporário — Cena
@@ -133,6 +139,8 @@ Controle -1 temporário — 3 Turnos
 ```
 
 Essas alterações não recalculam Vida Máxima ou Mana Máxima.
+
+---
 
 ## Localização
 
@@ -145,6 +153,8 @@ Local: corredor, junto à saída
 ```
 
 Posição exata só precisa ser registrada enquanto continuar relevante.
+
+---
 
 ## Entrada, mudança e saída
 
@@ -163,13 +173,17 @@ SAI
 
 Quando algo deixa de ser relevante, remover do STATUS em vez de manter histórico.
 
+---
+
 ## Atualização imediata
 
 Assim que uma consequência é estabelecida, o STATUS é atualizado.
 
-Mana muda quando um custo é efetivamente pago. Vida muda quando Dano ou recuperação são resolvidos. Status, Barreiras e Efeitos Ativos entram, mudam ou saem quando a cena estabelece isso.
+Mana muda quando um custo é efetivamente pago. Trama muda quando é gasta ou recebida. Vida muda quando Dano ou recuperação são resolvidos. Status, Barreiras e Efeitos Ativos entram, mudam ou saem quando a cena estabelece isso.
 
 > **Resolveu, atualizou. STATUS representa o presente.**
+
+---
 
 ## Autoridade
 
@@ -187,6 +201,8 @@ PERSISTÊNCIA
 ```
 
 Uma declaração por si só não altera STATUS.
+
+---
 
 ## Fronteiras
 
