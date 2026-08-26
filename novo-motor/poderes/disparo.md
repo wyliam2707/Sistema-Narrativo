@@ -5,9 +5,9 @@ Poder ofensivo de ataque projetado, com base física.
 ## Hub
 
 **Disparo [X]**  
-**Alcance:** Curta (~20 m) → Média (~45 m) → Longa (~90 m)  
+**Alcance:** Curto (~20 m) → Médio (~45 m) → Longo (~90 m)  
 **Alvos:** 1 → 2 → 4 → 8  
-**Área:** Toque → Próximo (~3 m) → Curta (~20 m)  
+**Área:** Toque → Próximo (~3 m) → Curto (~20 m)  
 **Dano:** 1d8 → 2d8 → 3d8 → 4d8 **[+Potência]**  
 **Efeito:** Nenhum  
 **Defesa:** Total → Parcial  
@@ -24,7 +24,7 @@ As distâncias são referências narrativas. Os valores em metros servem como m�
 Ao usar Disparo, escolha **Alvos** ou **Área**.
 
 - **Alvos:** permite escolher individualmente até a quantidade selecionada de alvos dentro do Alcance do Poder.
-- **Área:** afeta todos que estiverem dentro da Área escolhida, exceto o próprio conjurador.
+- **Área:** afeta todos que estiverem dentro da Área escolhida, exceto o próprio usuário.
 
 A linha que não for escolhida naquele uso não entra no custo nem na aplicação do Poder.
 
@@ -34,13 +34,13 @@ Cada linha é uma progressão própria.
 
 A primeira posição custa `+0 Mana`. Cada avanço posterior custa `+1 Mana`.
 
-- **Alcance:** Curta (~20 m) `+0` → Média (~45 m) `+1` → Longa (~90 m) `+2`
+- **Alcance:** Curto (~20 m) `+0` → Médio (~45 m) `+1` → Longo (~90 m) `+2`
 - **Alvos:** 1 `+0` → 2 `+1` → 4 `+2` → 8 `+3`
-- **Área:** Toque `+0` → Próximo (~3 m) `+1` → Curta (~20 m) `+2`
+- **Área:** Toque `+0` → Próximo (~3 m) `+1` → Curto (~20 m) `+2`
 - **Dano:** 1d8 `+0` → 2d8 `+1` → 3d8 `+2` → 4d8 `+3`
 - **Defesa:** Total `+0` → Parcial `+1`
 
-O custo final é a soma dos avanços escolhidos e nunca pode ultrapassar `[X]`.
+O custo final é a soma de todos os avanços escolhidos e nunca pode ultrapassar `[X]`.
 
 Como **Alvos** e **Área** são alternativos, apenas a opção usada é somada ao custo.
 
@@ -60,7 +60,7 @@ Disparo não possui Efeito adicional. Portanto, sua resolução usa apenas:
 
 > **Defesa → Dano**
 
-### 1. Acerto e Defesa
+### Acerto e Defesa
 
 Disparo representa um ataque projetado fisicamente: tiro, flecha, projétil, arremesso ou manifestação equivalente.
 
@@ -76,12 +76,12 @@ O Narrador escolhe o Atributo de Defesa pela forma como o alvo evita o ataque. E
 
 Se o atacante vencer, o Dano é aplicado normalmente.
 
-Se a defesa vencer:
+Se a Defesa vencer:
 
 - **Defesa [Total]:** o alvo não sofre Dano;
 - **Defesa [Parcial]:** o alvo sofre metade do Dano.
 
-### 2. Dano
+### Dano
 
 Role a quantidade de `d8` escolhida no Hub e some **Potência uma única vez ao total dos dados**.
 
@@ -91,7 +91,7 @@ Exemplo:
 
 Se os dados resultarem em `14` e a Potência for `3`, o Dano final é `17`.
 
-Em **Defesa [Parcial]** bem-sucedida, reduza o Dano final pela metade.
+Em **Defesa [Parcial]** bem-sucedida, reduza esse Dano final pela metade.
 
 ## Efeito
 
