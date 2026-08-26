@@ -159,6 +159,33 @@ O custo final é a soma das escolhas usadas naquela configuração.
 
 `[X]` é o Patamar da personagem e representa o máximo de Mana que pode ser gasto em um único uso. A regra completa está em `../mana.md`.
 
+### Apresentação do Hub ao jogador
+
+O arquivo do Poder pode conter explicações, exemplos e regras detalhadas, mas a versão mostrada ao JOGADOR HUMANO deve ser **compacta e limpa**.
+
+Na apresentação ao jogador:
+
+- não inserir linhas em branco dentro do Hub;
+- mostrar uma linha por campo relevante;
+- não repetir explicações que já pertencem ao arquivo do Poder;
+- não mostrar cálculos internos, justificativas ou texto de apoio salvo quando forem necessários para uma decisão real;
+- manter somente as opções que o jogador pode consultar ou configurar naquele uso.
+
+Formato preferido:
+
+```text
+Golpe [X]
+Alcance: Toque → Próximo (~3 m)
+Alvos: 1 → 2 → 4
+Área: Alvo → Próximo (~3 m)
+Dano: 1d8 → 2d8 → 3d8 → 4d8 [+Potência]
+Efeito: Nenhum
+Defesa: Total → Parcial
+Efeito [Nula]
+```
+
+> **Arquivo detalha. Hub apresentado resume.**
+
 ---
 
 ## 5. Configuração e confirmação
