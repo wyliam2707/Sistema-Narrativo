@@ -82,6 +82,10 @@ A **Dificuldade** varia de **10 a 24**.
 - **24** representa uma ação quase impossível;
 - os valores intermediários representam graus intermediários conforme a situação concreta.
 
+Para obter sucesso, o resultado precisa **igualar ou superar** a Dificuldade.
+
+> **Resultado igual à Dificuldade é sucesso.**
+
 ## A dificuldade pertence à situação
 
 A Dificuldade representa **o quanto aquela ação realmente é difícil dentro da ficção**.
@@ -109,7 +113,18 @@ Cada lado utiliza o Atributo coerente com aquilo que está fazendo.
 
 Essa é a mesma estrutura usada em combate, disputas físicas, conflitos mentais, Poderes e qualquer outra oposição ativa.
 
-A regra específica para **empates** ainda será definida.
+## Empates
+
+Em uma oposição, **o empate favorece quem iniciou a ação**.
+
+Isso significa que a resposta precisa **superar** o resultado da ação para impedi-la.
+
+Exemplo:
+
+- Ataque `17` × Defesa `17` → o **Ataque vence**;
+- Ataque `17` × Defesa `18` → a **Defesa vence**.
+
+> **A Defesa precisa superar o Ataque para impedir a ação.**
 
 ---
 
@@ -177,6 +192,44 @@ Quando um Poder possuir Conjuração:
 - **Instante:** acontece na mesma ação em que é declarado e resolvido.
 
 **Instante** é o termo oficial para efeitos imediatos.
+
+## Rodadas e Turnos em combate
+
+Uma **Rodada** representa o ciclo em que todos os participantes têm a oportunidade de agir.
+
+Um **Turno** é o momento de um participante dentro da Rodada e representa aproximadamente **10 segundos** de ação.
+
+Quando chega seu Turno, o personagem declara o que pretende fazer. Durante esse Turno, ele pode:
+
+- **realizar uma ação**;
+- **mover-se normalmente**.
+
+O movimento não consome a ação. Ele pode acontecer antes, durante ou depois da ação, conforme a ficção permitir.
+
+Pequenas interações coerentes com a ação e com o movimento não precisam ser separadas artificialmente em várias ações. O Narrador considera o que é razoável realizar dentro de aproximadamente 10 segundos.
+
+A ação é resolvida **imediatamente** quando acontece. Acerto, Defesa, Dano, Resistência, Efeito e demais consequências aplicáveis são resolvidos antes de passar ao próximo participante.
+
+A **Defesa** é uma resposta à ação que está sendo realizada contra o personagem e não consome, por si só, a ação do próximo Turno do defensor.
+
+Quando todos os participantes tiverem realizado seus Turnos, começa uma nova Rodada.
+
+## Iniciativa
+
+No início do combate, cada participante determina sua Iniciativa:
+
+> **Iniciativa = 4d6 + Controle + Intelecto**
+
+Os participantes agem do **maior resultado para o menor**.
+
+Iniciativa mede conjuntamente:
+
+- **Controle:** rapidez física, coordenação e capacidade de reagir;
+- **Intelecto:** percepção da situação, interpretação e rapidez para decidir.
+
+A Iniciativa é uma **rolagem de ordem**, não um teste comum, e por isso utiliza dois Atributos.
+
+A regra para **empates de Iniciativa** ainda será definida.
 
 ---
 
@@ -389,7 +442,7 @@ Os seguintes pontos permanecem deliberadamente abertos e serão tratados em cap�
 
 - **Vida:** valor, limites, dano, recuperação e interação com Cura;
 - **Mana:** quantidade, recuperação e origem de `[X]`;
-- **Empates:** resultado de igualdade em testes opostos;
+- **Empate de Iniciativa:** ordem quando dois participantes obtêm o mesmo resultado de Iniciativa;
 - **Dano:** ordem completa de aplicação de RD e outras reduções;
 - **Atributos temporários:** limites e acúmulo quando mais de um efeito altera o mesmo Atributo.
 
