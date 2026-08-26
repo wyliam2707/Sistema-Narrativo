@@ -42,9 +42,9 @@ O custo final é a soma dos avanços escolhidos e nunca pode ultrapassar `[X]`.
 
 ## Uso e Resolução
 
-O Narrador apresenta o Hub configurado, mostra o custo e pede **Confirmar uso por X Mana?** antes da resolução.
+O NARRADOR apresenta o Hub configurado, mostra o custo e pede **Confirmar uso por X Mana?** antes da resolução.
 
-A sequência normal é **Defesa → Dano → Resistência → Efeito**. Acerto e Defesa seguem a regra geral por contexto; em aplicação ambígua, o Acerto usa o melhor entre **Controle** e **Intelecto**, salvo descrição deliberada.
+A sequência normal é **Defesa → Dano → Resistência → Efeito**. Acerto e Defesa seguem a regra geral por contexto. O Atributo de Acerto é sempre o que corresponde à forma real da ação e à finalidade declarada. Se a aplicação estiver ambígua, o NARRADOR interpreta a ação; nunca se escolhe automaticamente o maior Atributo.
 
 - **Efeito [Total]:** Resistência bem-sucedida anula o Efeito.
 - **Efeito [Parcial]:** Resistência bem-sucedida reduz o Efeito em uma posição.
@@ -52,8 +52,8 @@ A sequência normal é **Defesa → Dano → Resistência → Efeito**. Acerto e
 
 ## Progressão de Terror
 
-- **Abalado:** `-1d` nas resoluções.
-- **Apavorado:** `-2d` nas resoluções e não pode se aproximar voluntariamente da fonte do medo.
-- **Aterrorizado:** não consegue realizar ações físicas; ações puramente mentais possíveis sofrem `-2d`.
+- **Abalado:** `-1d` nas resoluções em que o medo seja realmente relevante.
+- **Apavorado:** `-2d` nessas resoluções e não pode se aproximar voluntariamente da fonte do medo enquanto o efeito impedir isso.
+- **Aterrorizado:** não consegue realizar ações físicas enquanto o estado durar; ações puramente mentais possíveis sofrem `-2d` quando o terror interferir diretamente.
 
-Terror limita o personagem, mas não determina automaticamente suas decisões.
+Terror limita possibilidades conforme sua definição, mas não concede ao NARRADOR autoridade geral sobre as decisões voluntárias da personagem.
