@@ -4,7 +4,7 @@ Status: APROVADO
 
 Este arquivo define como uma ação ofensiva é resolvida mecanicamente quando o resultado não é evidente.
 
-A ordem operacional do combate pertence a `ordem-de-resolucao-do-combate.md` e `../operacao/turnos-de-combate.md`.
+A ordem operacional do combate pertence a `../operacao/ordem-de-resolucao-do-combate.md` e `../operacao/turnos-de-combate.md`.
 
 > **Este arquivo não cria iniciativa, fila fixa ou economia universal de ações. Ele apenas resolve ataque, Defesa e Dano dentro do turno simultâneo.**
 
