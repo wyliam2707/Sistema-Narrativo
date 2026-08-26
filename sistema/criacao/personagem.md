@@ -86,13 +86,13 @@ Revisar somente o que for relevante para reconhecer e interpretar a personagem, 
 
 ### Bloco 2 — Patamar, Atributos e Perícias
 
-Usar as fontes de definição:
+Usar as fontes:
 
 ```text
-../personagem/patamar.md
-../personagem/atributos.md
-../personagem/pericias.md
-../personagem/calibracao.md
+calibração  → calibracao.md
+Patamar     → ../personagem/patamar.md
+Atributos   → ../personagem/atributos.md
+Perícias    → ../personagem/pericias.md
 ```
 
 Aplicar:
@@ -154,7 +154,7 @@ Conferir:
 - ausência de ENERGIA universal;
 - ausência de campos inventados ou não aprovados.
 
-A regra sobre **o que realmente merece permanecer na ficha** pertence a `../persistencia/relevancia-da-ficha.md`.
+A regra sobre o que merece permanecer na ficha pertence a `../persistencia/relevancia-da-ficha.md`.
 
 ## Salvamento durante a revisão
 
@@ -162,11 +162,11 @@ Cada bloco aprovado é persistido antes de avançar.
 
 Conteúdo em discussão, alternativas rejeitadas e rascunhos não entram como cânone.
 
-O destino concreto da ficha depende da estrutura da campanha definida em `estrutura-da-campanha.md` e das regras de persistência.
+O destino concreto da ficha depende de `estrutura-da-campanha.md` e das regras de `../persistencia/`.
 
 ## Pareamento
 
-Depois que todas as fichas iniciais com agência estiverem aprovadas, aplicar `pareamento.md` antes de definir a situação inicial da história.
+Depois que todas as fichas iniciais com agência estiverem aprovadas, aplicar `pareamento.md` antes de definir a situação inicial.
 
 ## Estado de aprovação
 
@@ -184,11 +184,7 @@ Status: APROVADO
 
 ## Alterações posteriores
 
-Depois que a criação terminou, mudanças permanentes deixam de ser procedimento de criação e passam a seguir:
-
-```text
-../persistencia/atualizacao-de-ficha.md
-```
+Depois que a criação terminou, mudanças permanentes deixam de ser procedimento de criação e passam a seguir `../persistencia/atualizacao-de-ficha.md`.
 
 ## Regra final
 
