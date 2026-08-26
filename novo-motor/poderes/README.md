@@ -18,6 +18,12 @@ Nem todo Poder utiliza todas as etapas. Poderes não ofensivos usam apenas as et
 
 Toda resolução segue a regra universal do sistema: o resultado final sempre conserva **4 dados + Atributo**. Bônus e penalidades modificam a quantidade de dados rolados antes da escolha dos quatro resultados, conforme [../regras-gerais.md](../regras-gerais.md).
 
+## Menor número possível de rolagens
+
+Sempre resolva uma ação ou uso de Poder com o **menor número possível de rolagens**.
+
+Uma mesma rolagem deve ser reaproveitada sempre que puder representar corretamente todos os resultados envolvidos. Rolagens separadas só são feitas quando resultados individuais realmente precisarem ser distintos.
+
 ---
 
 # Acerto e Defesa por contexto
@@ -190,15 +196,19 @@ Nos Poderes que indicarem **Alvos ou Área**, as duas linhas são modos alternat
 
 Outros Poderes podem usar Área com função diferente, como busca, percepção ou espaço de uma Ilusão.
 
-## Múltiplos Alvos e Acerto
+## Múltiplos Alvos
 
-Quando um único uso de Poder atingir **mais de um Alvo** e exigir uma rolagem de Acerto, o usuário realiza **uma única rolagem de Acerto** para todo o uso.
+Quando um único uso de Poder atingir **mais de um Alvo**:
 
-Cada Alvo resolve sua própria Defesa contra esse mesmo resultado de Acerto.
+- se exigir Acerto, o usuário realiza **uma única rolagem de Acerto** para todo o uso;
+- cada Alvo resolve sua própria Defesa contra esse mesmo resultado;
+- se houver Dano, ele é **rolado uma única vez** e o mesmo resultado é aplicado a todos os Alvos atingidos;
+- cada Alvo aplica individualmente sua Defesa, RD, Barreira e demais proteções ou reduções;
+- Resistências individuais continuam separadas quando o Efeito exigir que cada Alvo possa resistir de forma diferente.
 
-> **Um uso do Poder = uma rolagem de Acerto; cada Alvo = sua própria Defesa.**
+> **Um uso do Poder = uma rolagem de Acerto e uma rolagem de Dano, quando essas etapas existirem.**
 
-Assim, diferentes Alvos podem sofrer resultados diferentes dentro do mesmo uso: alguns podem ser atingidos e outros podem se defender.
+Assim, o sistema preserva resultados individuais onde eles importam sem multiplicar rolagens desnecessárias.
 
 Empates seguem a regra geral de oposição: favorecem quem iniciou a ação.
 
