@@ -41,20 +41,24 @@ Um mesmo estado pode aparecer em mais de uma família quando cumprir exatamente 
 
 ### Sobreposição entre efeitos
 
-Efeitos de **famílias diferentes** podem permanecer ativos ao mesmo tempo.
+Cada família de Status é resolvida **separadamente**.
 
-Exemplo: um personagem pode estar simultaneamente **Abalado** (Terror), **Fraco** (Debilitação) e **Lento** (Contenção).
+> **Em cada família, apenas o melhor efeito fica ativo. Famílias diferentes coexistem normalmente.**
 
-Quando dois efeitos pertencem à **mesma família**, apenas o efeito mais forte fica ativo.
+Assim, vários efeitos podem estar presentes ao mesmo tempo desde que pertençam a famílias diferentes.
 
-- se os dois tiverem a mesma força, permanece o de maior duração;
+Exemplo: um personagem pode sofrer ao mesmo tempo o melhor efeito de **Aflição** aplicável a ele e o melhor efeito de **Contenção** aplicável a ele. Um não substitui nem desativa o outro porque pertencem a famílias diferentes.
+
+Quando dois ou mais efeitos pertencem à **mesma família**, apenas o efeito mais forte fica ativo.
+
+- se dois efeitos tiverem a mesma força, permanece o de maior duração;
 - se o efeito mais fraco possuir duração menor ou igual à do mais forte, ele é descartado;
 - se o efeito mais fraco possuir duração maior, ele fica inativo enquanto o mais forte estiver ativo e sua duração continua passando normalmente;
 - quando o efeito mais forte terminar, o mais fraco volta a valer se ainda restar duração.
 
-> **Dentro da mesma família, o efeito mais forte domina o mais fraco. Famílias diferentes coexistem.**
+Exemplo: **Paralisado** domina **Imóvel** e **Lento** por pertencerem todos à família Contenção. Porém um efeito de **Aflição** continua ativo normalmente ao mesmo tempo, pois pertence a outra família.
 
-A fonte do efeito não muda essa regra: dois efeitos da mesma família competem entre si mesmo quando vierem de fontes diferentes.
+A fonte do efeito não muda essa regra: efeitos da mesma família competem entre si mesmo quando vierem de fontes diferentes.
 
 As famílias atuais são:
 
