@@ -138,9 +138,9 @@ Não existe passo obrigatório de ajuste. O NARRADOR escolhe o valor final que m
 
 > **A Dificuldade descreve o problema; a ficha descreve quem tenta resolvê-lo.**
 
-## 6. Oposição ativa
+## 6. Oposição ativa fora da defesa fixa de combate
 
-Quando outra personagem ou entidade se opõe ativamente:
+Quando outra personagem ou entidade se opõe ativamente **e nenhuma regra específica substituir essa disputa por um valor fixo**:
 
 ```text
 4 dados mantidos + Atributo
@@ -152,10 +152,10 @@ Cada lado usa o Atributo coerente com sua própria ação ou reação.
 
 Os dois lados não precisam usar o mesmo Atributo.
 
-Exemplos:
+Exemplos fora da defesa fixa de combate:
 
 ```text
-empurrar alguém
+empurrar alguém numa disputa física
 → Potência × Resistência
 
 passar por alguém com rapidez
@@ -165,9 +165,36 @@ intimidar alguém que tenta manter a compostura
 → Presença × Vontade
 ```
 
+### Exceção obrigatória durante combate
+
+Durante combate, ataques e efeitos que usam as Defesas fixas **não fazem a peça-alvo rolar uma oposição comum**.
+
+Usar `combate-e-dano.md`:
+
+```text
+DF = 14 + Controle
+RF = 14 + Resistência
+DM = 14 + Intelecto
+RM = 14 + Vontade
+```
+
+Então:
+
+```text
+quem age
+→ faz a rolagem ativa necessária
+
+quem é alvo
+→ oferece DF, RF, DM ou RM aplicável
+```
+
+Uma regra específica de Poder pode modificar, substituir ou ignorar uma dessas etapas.
+
+> **Oposição ativa geral usa duas rolagens. Defesa/Resistência de combate usa valor fixo.**
+
 ### Vantagem ficcional óbvia
 
-Quando a situação conceder a um lado uma vantagem **óbvia e inegável** naquela oposição, o lado favorecido recebe:
+Quando a situação conceder a um lado uma vantagem **óbvia e inegável** naquela oposição rolada, o lado favorecido recebe:
 
 > **+1d**
 
@@ -177,7 +204,7 @@ Se a situação já tornar o resultado evidente, não se rola.
 
 ### Empates
 
-Em oposição:
+Em oposição rolada:
 
 > **empate favorece quem iniciou a ação.**
 
@@ -186,6 +213,13 @@ A resposta precisa superar o resultado da ação para impedi-la.
 ```text
 17 × 17 → iniciador vence
 17 × 18 → resposta vence
+```
+
+Nos valores fixos de combate, o equivalente é:
+
+```text
+resultado ativo ≥ DF/RF/DM/RM
+→ sucesso da ação naquela etapa
 ```
 
 ## 7. Iniciativa em combate
@@ -202,7 +236,7 @@ Cada participante rola uma única vez no início do combate e a ordem resultante
 
 A Iniciativa determina **quando** a peça age. Este motor continua determinando apenas **como resolver** as incertezas da ação quando sua posição chegar.
 
-## 8. Tarefas demoradas
+## 8. Tarefas demoradas e novas tentativas
 
 O antigo sistema de:
 
@@ -221,9 +255,25 @@ Uma tarefa não recebe várias rolagens apenas porque demora.
 
 Se o resultado é evidente com tempo suficiente, estabelece-se o resultado e o tempo coerente.
 
-Se existe uma incerteza real sobre conseguir realizar a tarefa nas condições presentes, faz-se uma resolução adequada uma vez.
+Se existe uma incerteza real sobre **uma tentativa concreta**, resolve-se essa tentativa uma vez.
 
-Uma nova rolagem só ocorre quando surge **uma nova incerteza relevante** depois da resolução anterior.
+Depois de uma falha, uma nova rolagem só ocorre quando existe **uma nova tentativa plausível**, portanto uma nova incerteza real.
+
+Fora de combate, uma intenção ampla pode já cobrir várias tentativas durante um intervalo. Nesse caso, `../operacao/janelas-e-interrupcoes.md` e `../narracao/apresentacao-da-cena.md` determinam se novas tentativas continuam naturalmente sem devolver uma nova decisão ao jogador.
+
+Exemplo:
+
+```text
+“passo o dia tentando consertar o gerador”
+→ tentativa da manhã: incerteza real
+→ falhou, mas intenção ainda cobre tentar de novo
+→ tentativa posterior: nova incerteza real
+→ cada tentativa consome tempo/oportunidade coerentes
+```
+
+Isso não é “rolar de novo o mesmo evento até vencer”. Cada rolagem representa uma nova tentativa real dentro da ficção.
+
+> **Não multiplicar rolagens por duração. Repetir somente quando existir uma nova tentativa que realmente precise ser resolvida.**
 
 ## 9. Poderes, equipamentos e regras específicas
 
@@ -241,6 +291,8 @@ Eles não recriam automaticamente Base ou Suporte e não são somados ao Atribut
 
 Regras específicas prevalecem quando definirem etapas próprias, mas usam o motor universal sempre que exigirem um teste comum ou uma oposição.
 
+Durante combate, `combate-e-dano.md` prevalece sobre a oposição geral quando a etapa usa DF, RF, DM ou RM.
+
 ## 10. Menor número possível de rolagens
 
 Sempre use o menor número de rolagens capaz de resolver corretamente a incerteza.
@@ -249,6 +301,8 @@ Não repetir um teste para representar apenas passagem de tempo.
 
 Não separar em vários testes aquilo que uma única resolução consegue decidir de forma coerente.
 
+Quando uma intenção ampla realmente gerar várias tentativas distintas, cada rolagem deve corresponder a uma tentativa nova e significativa.
+
 ## Regra final
 
-> **A ficção decide se existe incerteza e qual Atributo é pertinente. Contra o cenário, usa-se Dificuldade. Contra oposição ativa, ambos rolam. Perícias e regras explícitas alteram os dados. Em combate, a ordem de ação vem da Iniciativa definida em `operacao/`.**
+> **A ficção decide se existe incerteza e qual Atributo é pertinente. Contra o cenário, usa-se Dificuldade. Em oposição ativa geral, ambos rolam; durante combate, Defesa e Resistência usam DF, RF, DM ou RM quando aplicáveis. Perícias e regras explícitas alteram os dados. Iniciativa e repetição de tentativas são organizadas por suas regras próprias.**
