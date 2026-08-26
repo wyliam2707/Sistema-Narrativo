@@ -2,19 +2,11 @@
 
 Status: APROVADO
 
-Este arquivo define o padrão visual usado pelas fichas de personagem quando renderizadas em Markdown, especialmente no GitHub.
+Este arquivo define **como apresentar uma ficha de personagem de forma legível**, especialmente em Markdown.
 
-Ele complementa `ficha.md` e `criacao.md` sem alterar o significado dos campos.
+Ele complementa `ficha.md`. O procedimento de preenchimento e revisão pertence a `../criacao/personagem.md`.
 
-> **A ficha deve ser fácil de consultar. Informações diferentes não devem aparecer grudadas em um único bloco de texto.**
-
-## Regra principal
-
-Organizar a ficha por tópicos claros, usando títulos Markdown para separar grupos de informação.
-
-Campos curtos pertencentes ao mesmo tópico podem usar lista com rótulos em negrito.
-
-Textos descritivos maiores ficam em parágrafo próprio abaixo de seu título.
+> **`ficha.md` define o conteúdo; este arquivo define sua organização visual.**
 
 ## Estrutura visual padrão
 
@@ -61,66 +53,67 @@ Textos descritivos maiores ficam em parágrafo próprio abaixo de seu título.
 ## História consolidada relevante
 ```
 
+Campos curtos do mesmo tópico podem compartilhar uma linha ou lista. Textos maiores ficam em seção própria.
+
 ## Identidade visual
 
-`Aparência` responde principalmente como a pessoa é fisicamente reconhecida.
+```text
+Aparência → como a pessoa é fisicamente reconhecida
+Estilo    → como costuma se apresentar
+Conceito  → síntese do que ela é
+Descrição → presença e impressão geral útil
+```
 
-`Estilo` responde principalmente como ela costuma se apresentar: roupas, cores, acessórios, uniforme, armadura, maquiagem, símbolos ou outros elementos visuais recorrentes.
+A ficha não precisa virar catálogo de medidas; precisa permitir reconhecimento e consistência.
 
-`Descrição` pode complementar esses tópicos com presença geral, impressão visual ou outro resumo útil.
+## Valores atuais
 
-## Vida e Mana atuais
-
-A ficha consolidada mostra normalmente apenas os valores máximos.
+A ficha consolidada mostra normalmente:
 
 ```text
 Vida Máxima
 Mana Máxima
 ```
 
-Os valores atuais pertencem ao STATUS e ao HUD operacional quando necessários.
+Vida/Mana/Trama atuais, Status, Barreiras e outras condições momentâneas pertencem a `../persistencia/` e ao HUD quando necessário.
 
-Não duplicar estado momentâneo na ficha apenas para manter a apresentação simétrica.
+Não duplicar estado atual apenas por simetria visual.
 
 ## Perícias
 
-Perícias são listadas pelo nome, sem graduação antiga.
-
-Exemplo:
+Listar pelo nome, sem graduação:
 
 ```markdown
 - **PERÍCIAS:** Medicina, Investigar, Ocultismo
 ```
 
-Não usar `Medicina [+3]` ou sintaxe equivalente.
+Não usar `Medicina [+3]`.
 
 ## Poderes
 
-Poderes são listados pelo nome do arsenal funcional.
-
-Exemplo:
+Listar os Poderes possuídos:
 
 ```markdown
 - **PODERES:** Teleporte, Proteção, Ilusão
 ```
 
-Não usar um grau genérico `[1–5]` no nome do Poder.
+Não usar grau genérico `[1–5]`.
 
-Configurações de Hub pertencem às regras e só precisam aparecer na ficha quando houver uma configuração persistente realmente relevante.
+Configurações de Hub só entram na ficha quando alguma configuração persistente realmente precisar ser registrada.
 
 ## Flexibilidade
 
-A estrutura acima é o padrão, não uma prisão.
+O modelo é padrão de leitura, não prisão.
 
-Subtópicos adicionais podem ser criados quando melhorarem a consulta. Campos comprovadamente inúteis podem ser removidos somente no momento permitido pelas regras de revisão.
-
-Fichas rápidas e mínimas podem omitir informação desnecessária, conforme `ficha.md` e `npcs.md`.
+Fichas rápidas ou mínimas podem omitir campos desnecessários conforme `npcs.md`.
 
 > **Informação omitida não significa valor zero.**
 
-## Compatibilidade com exemplos antigos
+O critério para remover campos ou persistir informação pertence a `../persistencia/relevancia-da-ficha.md`.
 
-Quando um exemplo legado mostrar:
+## Compatibilidade
+
+Exemplos legados com:
 
 ```text
 FIS / RES / MEN / VON
@@ -129,6 +122,8 @@ Perícia [+X]
 Poder [1–5]
 ```
 
-tratar essa apresentação como material antigo que precisa ser migrado para a estrutura atual.
+não definem o formato atual.
 
-> **A estrutura informa o que existe. A organização visual determina como isso é apresentado de forma legível.**
+## Regra final
+
+> **A organização visual serve à consulta. Ela não cria campos, mecânicas, autoridade nem estado que não estejam definidos nas áreas responsáveis.**
