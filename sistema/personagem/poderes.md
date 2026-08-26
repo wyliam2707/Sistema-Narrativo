@@ -23,13 +23,11 @@ A origem pode ser:
 
 ## 1. Poder não usa grau genérico
 
-Poderes não usam mais uma escala universal:
+Poderes não usam uma escala universal:
 
 ```text
 [1] [2] [3] [4] [5]
 ```
-
-Essa graduação antiga não faz parte do motor atual.
 
 A ficha registra apenas quais Poderes o personagem possui.
 
@@ -240,17 +238,19 @@ A regra completa pertence a `calibracao.md`.
 
 ---
 
-## 11. Migração dos arquivos específicos
+## 11. Onde ficam as regras concretas
 
 A posse e o registro de Poderes pertencem a `personagem/`.
 
-As regras concretas de cada Poder e seus Hubs pertencem à camada de resolução e serão organizadas em:
+As regras mecânicas de cada Poder e seus Hubs pertencem a:
 
 ```text
 ../resolucao/poderes/
 ```
 
-Enquanto a migração desses arquivos específicos não estiver concluída, não inventar novas graduações genéricas para preencher a lacuna.
+O índice e as regras compartilhadas dos Hubs estão em `../resolucao/poderes/README.md`.
+
+> **Ficha registra o arsenal. Resolução define como cada parte desse arsenal funciona.**
 
 ---
 
