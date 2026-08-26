@@ -12,12 +12,19 @@ Todos os seis Atributos contribuem com o mesmo peso para a Mana Máxima.
 
 Assim, um personagem com todos os Atributos em `[0]` possui **10 de Mana**.
 
-O tratamento de Atributos negativos nesse cálculo ainda será definido.
+Ao contrário da Vida, **Atributos negativos reduzem normalmente a Mana Máxima**.
+
+Cada ponto positivo ou negativo de Atributo altera a Mana em **2 pontos**.
+
+Exemplos:
+
+- Potência `[-1]` reduz a Mana Máxima em **2**;
+- Vontade `[-2]` reduz a Mana Máxima em **4**;
+- um personagem com soma total dos Atributos igual a `3` possui **16 de Mana**.
 
 ## Ainda a definir
 
 Permanecem em aberto:
 
-- como Atributos negativos entram no cálculo;
 - recuperação de Mana;
 - origem e progressão de `[X]` nos Poderes.
