@@ -4,7 +4,7 @@ Status: APROVADO
 
 Este arquivo define **como aplicar o sistema durante um combate**.
 
-O Turno e a Iniciativa pertencem a `turnos-de-combate.md`. As fórmulas e resultados mecânicos pertencem a `../resolucao/`.
+A Rodada, o Turno e a Iniciativa pertencem a `turnos-de-combate.md`. As fórmulas e resultados mecânicos pertencem a `../resolucao/`.
 
 > **Operação organiza a sequência. Resolução calcula. O NARRADOR julga.**
 
@@ -32,14 +32,48 @@ O NARRADOR não escolhe ações voluntárias para nenhuma dessas peças.
 
 > **Quem controla a peça declara. O NARRADOR julga o que foi declarado.**
 
+## Termos operacionais
+
+```text
+RODADA
+→ ciclo completo da Iniciativa
+→ começa no primeiro e termina no último
+
+VEZ
+→ momento em que uma peça age em sua posição
+
+TURNO
+→ intervalo pessoal de uma peça
+→ começa em sua vez atual
+→ atravessa o restante da Rodada e o começo da seguinte
+→ termina no início de sua próxima vez
+```
+
+Exemplo:
+
+```text
+Iniciativa
+10 → 9 → 8 → 7 → 6
+
+Rodada
+10 → 9 → 8 → 7 → 6
+
+Turno da peça na posição 8
+8 → 7 → 6 → 10 → 9
+→ termina quando a posição 8 chega novamente
+```
+
+A cada Rodada, cada participante ativo recebe uma vez. Essa vez inicia um novo Turno pessoal para aquela peça.
+
 ## Atalho operacional
 
 ```text
 início do combate
 → rolar Iniciativa uma vez
 → ordenar participantes
-→ iniciar o Turno
-→ chamar a vez atual
+→ iniciar a Rodada
+→ chamar a primeira posição
+→ ao chegar a vez da peça, encerra seu Turno anterior e começa seu novo Turno
 → persona responsável declara
 → configurar, quando necessário
 → NARRADOR julga
@@ -48,8 +82,8 @@ início do combate
 → registrar estado
 → NARRADOR pergunta se pode prosseguir
 → com autorização, chamar o próximo da Iniciativa
-→ ao processar o último, encerrar o Turno
-→ ao voltar ao primeiro, iniciar novo Turno
+→ ao processar o último, encerrar a Rodada
+→ ao voltar ao primeiro, iniciar nova Rodada
 ```
 
 ## 1. Entrada, Iniciativa e interface
@@ -61,7 +95,7 @@ identificar participantes
 → cada participante rola Iniciativa = 4d6 + Controle uma única vez
 → ordenar do maior para o menor
 → apresentar a ordem
-→ iniciar o Turno pela primeira posição
+→ iniciar a Rodada pela primeira posição
 ```
 
 A ordem permanece fixa até o fim do combate conforme `turnos-de-combate.md`.
@@ -113,7 +147,7 @@ Informação realmente oculta continua oculta, salvo regra da campanha que deter
 
 ## 2. Etapa da vez do JOGADOR HUMANO
 
-Quando a vez do JOGADOR HUMANO chegar:
+Quando a vez do JOGADOR HUMANO chegar, seu Turno anterior termina e seu novo Turno começa.
 
 ```text
 1. mostrar HUD
@@ -136,7 +170,7 @@ Depois de apresentar o Hub, aguardar a configuração do jogador.
 
 O NARRADOR não escolhe automaticamente a melhor configuração do Poder e não otimiza Dano, Alcance, Área, Alvos, Duração, Defesa ou qualquer outra progressão do Hub.
 
-O jogador pode declarar somente as alterações que deseja. As opções do Hub que ele não alterar permanecem em suas **posições iniciais**, desde que sejam válidas para a intenção e a situação.
+O jogador pode declarar somente as alterações que deseja. As opções do Hub que ele não alterar permanecem em suas **posições iniciais**, desde que sejam válidas para a intenção e para a situação.
 
 Ao configurar um Poder:
 
@@ -151,7 +185,7 @@ Ao configurar um Poder:
 
 ## 3. Etapa da vez do JOGADOR IA / JOGADOR IA EVENTUAL
 
-Quando chegar a vez de uma peça sob essas personas:
+Quando chegar a vez de uma peça sob essas personas, seu Turno anterior termina e seu novo Turno começa.
 
 ```text
 1. persona responsável escolhe a ação do aliado/NPC
@@ -169,7 +203,7 @@ Não é necessário mostrar ao JOGADOR HUMANO o Hub completo usado pela IA apena
 
 ## 4. Etapa da vez do OPOSITOR
 
-Quando chegar a vez de uma peça adversária:
+Quando chegar a vez de uma peça adversária, seu Turno anterior termina e seu novo Turno começa.
 
 ```text
 1. OPOSITOR escolhe a ação do inimigo
@@ -292,22 +326,24 @@ Somente depois da autorização o fluxo avança para a próxima posição da Ini
 
 Essa autorização controla o avanço da mesa; ela não transforma o JOGADOR HUMANO em controlador das outras personas.
 
-## 10. Fechamento do Turno
+## 10. Fechamento da Rodada
 
-O Turno termina somente quando a última posição da Iniciativa foi processada.
+A Rodada termina somente quando a última posição da Iniciativa foi processada.
 
 ```text
 há posição ainda não processada
 → após autorização, chamar o próximo
 
 última posição processada
-→ encerrar o Turno
+→ encerrar a Rodada
 → perguntar se pode prosseguir
-→ ao voltar ao primeiro, iniciar novo Turno
+→ ao voltar ao primeiro, iniciar nova Rodada
 ```
+
+O fechamento da Rodada **não encerra automaticamente o Turno pessoal de todas as peças**. Cada Turno termina apenas quando chega novamente a vez da própria peça.
 
 Se o confronto deixar de exigir acompanhamento em segundos, retornar a `janelas-e-interrupcoes.md`.
 
 ## Regra final
 
-> **Combate é executado em etapas. A Iniciativa determina de quem é a vez; a persona responsável controla a peça; o NARRADOR apenas julga, narra a sentença e registra. Depois de cada vez, o NARRADOR pausa e pergunta se pode prosseguir. O último da Iniciativa encerra o Turno; voltar ao primeiro inicia o Turno seguinte.**
+> **Combate é executado em etapas. A Rodada percorre toda a Iniciativa, do primeiro ao último. O Turno é pessoal: começa na vez de uma peça e termina no início da próxima vez dessa mesma peça, podendo atravessar o fim da Rodada. A persona responsável controla a peça; o NARRADOR apenas julga, narra a sentença e registra. Depois de cada vez, o NARRADOR pausa e pergunta se pode prosseguir.**
