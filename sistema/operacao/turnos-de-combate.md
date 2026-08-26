@@ -2,91 +2,105 @@
 
 Status: APROVADO
 
-Este arquivo define **como o tempo é dividido quando existe combate ativo**.
+Este arquivo define **como o tempo e a ordem de ação são organizados quando existe combate ativo**.
 
 As mecânicas de ataque, Dano, Cura, Mana, Poderes, Status, proteção, contenção e demais resoluções pertencem a `../resolucao/`.
 
-> **Operação organiza o tempo. Resolução calcula o resultado.**
+> **Operação organiza o tempo e a ordem. Resolução calcula o resultado.**
 
 ## Regra central
 
-Durante combate, a ficção é dividida em **turnos simultâneos de até 10 segundos**.
+Durante combate, a ficção é dividida em **rodadas de até 10 segundos**.
 
-Esses 10 segundos pertencem a todas as peças envolvidas.
-
-O turno não concede uma única ação e não cria uma economia abstrata de ações.
-
-Ele limita quanto da disputa pode ser resolvido antes que todos recebam nova oportunidade de decidir.
+Todos os participantes pertencem ao mesmo intervalo de tempo, mas suas ações são **resolvidas em ordem de Iniciativa**.
 
 ```text
-TURNO DE COMBATE
-→ até 10 segundos compartilhados
-→ todas as peças podem agir, reagir ou interferir
-→ o NARRADOR julga o mesmo intervalo para todos
+RODADA DE COMBATE
+→ até 10 segundos
+→ seguir a ordem de Iniciativa
+→ resolver uma posição por vez
+→ atualizar o estado imediatamente
+→ depois seguir para a próxima posição
 ```
 
-## Ordem operacional do turno
+A Iniciativa existe para garantir uma ordem operacional clara e impedir que alguma peça seja esquecida durante a resolução.
 
-Cada turno usa as mesmas cadeiras da mesa:
+## Iniciativa
+
+Quando o combate começa, cada participante ativo faz:
 
 ```text
-1. JOGADOR HUMANO declara para o turno
-↓
-2. JOGADORES IA aplicáveis declaram, cada um por sua peça
-↓
-3. JOGADOR IA EVENTUAL declara pelas peças ativas, se houver
-↓
-4. OPOSITOR declara pelas peças e recursos adversários disponíveis
-↓
-5. NARRADOR JULGA o intervalo
-↓
-6. NARRADOR NARRA A SENTENÇA
-↓
-7. NARRADOR REGISTRA o estado resultante
-↓
-8. próximo turno, se o combate continuar
+Iniciativa = 4d6 + Controle
 ```
 
-A ordem de declaração organiza autoridade. Ela **não determina automaticamente a ordem cronológica das ações** dentro do turno.
-
-## Simultaneidade
-
-As peças estão agindo dentro do mesmo intervalo.
-
-O NARRADOR julga precedência e interferência conforme os fatos e as regras aplicáveis, incluindo quando relevante:
-
-- velocidade;
-- distância;
-- surpresa;
-- preparação;
-- posição;
-- oportunidade;
-- mecanismo da ação;
-- ação já iniciada;
-- interferência entre as peças.
+Ordenar do maior resultado para o menor.
 
 Exemplo:
 
 ```text
-JOGADOR
-→ saco a arma e atiro.
-
-OPOSITOR
-→ o guarda, que já estava com a arma apontada, dispara.
-
-NARRADOR
-→ julga a precedência dentro dos mesmos segundos do turno.
+Kael 18
+Mercenário 15
+Cultista 12
 ```
 
-Declarar primeiro não significa agir primeiro.
+Essa ordem permanece durante o combate.
 
-Quando duas intenções realmente competirem pelo mesmo instante e nenhum fato estabelecer precedência, a resolução pode usar uma **oposição comum** com os Atributos coerentes de cada abordagem.
+### Empate
 
-Esse teste resolve somente aquela precedência local e não cria iniciativa para os turnos seguintes.
+Em empate de Iniciativa:
 
-## Declaração ampla em combate
+```text
+maior Controle age primeiro
+→ persistindo o empate, somente os empatados rolam novamente
+```
 
-Uma declaração ampla continua sendo uma intenção válida, mas não pode resolver antecipadamente vários intervalos de oposição.
+### Entrada posterior
+
+Uma peça que entrar no confronto depois do início:
+
+```text
+rola Iniciativa
+→ entra imediatamente na posição correspondente da ordem
+```
+
+A ordem só é refeita por uma regra específica ou quando um novo combate começa.
+
+## Ordem operacional da rodada
+
+No início do combate, o NARRADOR registra a ordem de Iniciativa.
+
+Depois, cada rodada segue essa ordem integralmente:
+
+```text
+1. primeiro da Iniciativa
+→ declarar intenção
+→ configurar Poder, quando aplicável
+→ resolver ação e defesas
+→ aplicar consequências
+→ atualizar estado
+
+2. próximo da Iniciativa
+→ repetir o mesmo procedimento
+
+...
+
+último da Iniciativa
+→ resolver e atualizar
+
+→ nova rodada, se o combate continuar
+```
+
+Cada participante ativo deve receber sua posição antes de a rodada terminar.
+
+> **Não encerrar a rodada enquanto existir participante ativo ainda não processado na ordem de Iniciativa.**
+
+## Janela de ação
+
+A posição de Iniciativa concede uma **janela de ação** dentro daqueles até 10 segundos.
+
+Ela não cria uma economia abstrata universal de “uma ação, uma ação bônus, um movimento”. A personagem declara uma intenção coerente e o sistema julga o que cabe naquela janela conforme a ficção e as regras específicas.
+
+Uma declaração ampla não resolve várias rodadas de uma vez.
 
 Exemplo:
 
@@ -101,52 +115,77 @@ Leitura operacional:
 OBJETIVO
 → entrar na sala
 → tentar derrotar todos os adversários
+
+RODADA ATUAL
+→ resolver somente o que cabe na janela atual
 ```
 
-O primeiro turno resolve somente aquilo que realmente pode ocorrer dentro de até 10 segundos.
+Se o objetivo continuar, a personagem recebe nova oportunidade quando sua próxima posição de Iniciativa chegar.
 
-Durante o mesmo intervalo, os adversários também podem:
+## Defesas e reações
 
-- atacar;
-- fugir;
-- procurar cobertura;
-- render-se;
-- usar poderes;
-- pedir ajuda;
-- mudar de posição;
-- executar outra ação legítima.
+Uma Defesa permitida pela ação acontece quando o ataque ou efeito é resolvido.
 
-> **A intenção ampla define o objetivo. O turno impede que o objetivo apague as ações e reações das outras peças.**
-
-Se o objetivo continuar depois da sentença, no turno seguinte a peça pode simplesmente declarar que continua o mesmo plano ou alterá-lo diante da nova situação.
-
-## Limite da sentença
-
-A sentença de combate não pode atravessar o turno.
-
-Ela termina no primeiro destes limites:
+Ela **não consome a posição de Iniciativa** do defensor e não altera sua posição na rodada.
 
 ```text
-SURGE NOVA DECISÃO RELEVANTE ANTES DO LIMITE
-→ parar no ponto causal da mudança
-
-CHEGA AO LIMITE DE 10 SEGUNDOS
-→ fechar o turno
+atacante age
+→ alvo realiza Defesa aplicável
+→ resolve consequência
+→ atualiza estado
+→ segue a ordem
 ```
 
-Assim, mesmo uma intenção que levaria muito mais tempo precisa ser acompanhada turno a turno enquanto o combate permanecer ativo.
+A defesa automática do JOGADOR HUMANO segue `ordem-de-resolucao-do-combate.md`.
 
-## Fechamento mecânico
+Poderes, reações ou interrupções que possuam regra própria podem ocorrer fora da posição normal somente quando sua regra permitir explicitamente.
 
-Antes do próximo turno, todas as consequências mecânicas produzidas pelo intervalo resolvido devem estar aplicadas ao estado atual.
+## Consequências antes da própria vez
 
-Isso inclui somente quando for pertinente:
+Como o estado é atualizado após cada ação, uma consequência anterior pode alterar uma posição posterior da mesma rodada.
+
+Exemplos:
+
+- ficar Inconsciente;
+- ser imobilizado;
+- perder acesso a um recurso;
+- mudar de posição;
+- receber proteção;
+- deixar o confronto.
+
+Quando a posição daquela peça chegar, usar o **estado atual**, não o estado que existia no início da rodada.
+
+Se a peça não puder mais agir, sua posição é processada e encerrada sem ação voluntária.
+
+> **Resolveu, atualizou, depois chamou o próximo.**
+
+## Início do combate
+
+O combate começa quando existe confronto ativo em que várias peças podem agir ou se opor em intervalos curtos.
+
+Ao entrar em combate:
+
+```text
+identificar participantes ativos
+→ rolar Iniciativa
+→ ordenar
+→ apresentar a ordem
+→ iniciar a primeira posição
+```
+
+Não é necessário esperar o primeiro Dano.
+
+## Fechamento da rodada
+
+A rodada termina depois que todas as posições de Iniciativa aplicáveis foram processadas.
+
+Antes da nova rodada, o estado deve refletir todas as consequências estabelecidas, incluindo quando pertinente:
 
 ```text
 Vida e Dano
 Mana
-Trama, quando aplicável
-Poderes e seus efeitos ativos
+Trama
+Poderes e efeitos ativos
 Status
 Barreiras e proteções
 alterações temporárias de Atributo
@@ -154,62 +193,37 @@ posição relevante
 outros valores afetados
 ```
 
-Nenhum desses cálculos é redefinido aqui.
-
-Usar as fontes atuais:
-
-```text
-../resolucao/combate-e-dano.md
-../resolucao/vida.md
-../resolucao/mana.md
-../resolucao/poderes/
-../resolucao/status/
-../personagem/trama.md
-```
-
-O registro final segue `../persistencia/`.
-
-> **Antes do próximo turno, a mesa precisa saber como cada peça realmente terminou o intervalo anterior.**
-
-## Início do combate
-
-O relógio de turnos começa quando existe confronto ativo em que várias peças podem agir, reagir ou interferir em intervalos curtos e concorrentes.
-
-Não é necessário esperar o primeiro ataque causar Dano.
-
-Uma perseguição imediata, invasão já contestada, duelo, troca de poderes ou outra disputa física em tempo curto pode justificar a entrada em turnos.
+O registro segue `../persistencia/`.
 
 ## Fim do combate
 
-O relógio deixa de ser necessário quando a disputa curta e concorrente termina.
+A Iniciativa deixa de ser usada quando a disputa curta termina.
 
 Exemplos:
 
 - oposição derrotada;
 - rendição;
-- fuga efetivamente concluída;
+- fuga concluída;
 - separação que encerra a interação imediata;
 - conflito deixa de exigir acompanhamento em segundos.
 
-Depois disso, volta a valer `janelas-e-interrupcoes.md`.
+Depois disso, voltar a `janelas-e-interrupcoes.md`.
 
 ## Relação com as mecânicas
 
-Turno de 10 segundos **não altera as regras de resolução**.
+A Iniciativa determina **quando cada peça age**, não se a ação tem sucesso.
 
 ```text
 OPERAÇÃO
-→ define o intervalo e a oportunidade de decisão
+→ Iniciativa, rodada e sequência
 
 RESOLUÇÃO
-→ define testes, Defesa, Dano, Cura, Poderes, Status, custos e demais consequências
+→ testes, Defesa, Dano, Cura, Poderes, Status e custos
 
 PERSISTÊNCIA
-→ guarda o estado resultante
+→ estado resultante
 ```
-
-Se uma mecânica possui duração, custo, aplicação ou referência temporal própria, seguir a regra específica dela. O turno apenas fornece o relógio comum do combate.
 
 ## Regra final
 
-> **Em combate, todas as peças compartilham turnos simultâneos de até 10 segundos. A ordem de declaração não é iniciativa; uma intenção ampla não resolve vários turnos de uma vez; as mecânicas continuam em `resolucao/`; e cada turno termina com um estado claro para o intervalo seguinte.**
+> **Combate usa rodadas de até 10 segundos e uma ordem fixa de Iniciativa. Iniciativa = 4d6 + Controle. Resolver cada participante do maior para o menor, aplicar a consequência e atualizar o estado antes de chamar o próximo. Defesas não consomem a posição de Iniciativa.**
