@@ -16,6 +16,10 @@ Na criação do personagem:
 
 Esses pontos são distribuídos entre os seis Atributos.
 
+Atributos podem receber valores negativos normalmente. **Cada ponto reduzido abaixo de [0] devolve 1 ponto para a distribuição dos demais Atributos.**
+
+Assim, um Atributo em `[-2]` libera **2 pontos** que precisam ser redistribuídos entre os outros Atributos. A distribuição muda, mas a soma total dos Atributos construída com a reserva inicial permanece a mesma.
+
 O valor máximo que um Atributo pode possuir na criação é:
 
 > **Limite por Atributo = Patamar + 2, máximo [7]**
