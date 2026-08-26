@@ -91,7 +91,7 @@ Resistência bem-sucedida reduz o Efeito em uma posição da progressão. Se o p
 
 Não existe etapa de Resistência.
 
-A ordem de RD, Barreira e Vida pertence a `../combate-e-dano.md`.
+A ordem de RD, Barreira, Trama e Vida pertence a `../combate-e-dano.md`.
 
 ---
 
@@ -200,7 +200,7 @@ Acima de Longo, a própria capacidade precisa justificar a distância, como Tele
 
 ---
 
-## 8. Tempo e turnos
+## 8. Tempo, Conjuração e turnos
 
 A terminologia temporal mecânica pode usar:
 
@@ -210,6 +210,22 @@ No combate:
 
 > **Turno = intervalo simultâneo de até 10 segundos compartilhado por todas as peças.**
 
+Quando um Hub possuir **Conjuração**, salvo regra específica diferente:
+
+```text
+Conjuração: Cena
+→ exige preparação ao longo da Cena antes de produzir o efeito
+
+Conjuração: Turno
+→ exige preparação durante um intervalo simultâneo completo de até 10 segundos
+→ conclui no fechamento daquele Turno se a preparação continuar válida e não tiver sido interrompida
+
+Conjuração: Instante
+→ produz o efeito no instante causal em que for resolvido dentro do Turno ou da cena
+```
+
+Conjuração mede tempo de preparação. Ela não cria uma fila própria.
+
 Poderes não criam por si mesmos:
 
 - iniciativa fixa;
@@ -217,7 +233,7 @@ Poderes não criam por si mesmos:
 - uma ação universal por turno;
 - ação bônus ou economia abstrata equivalente.
 
-Interferência e precedência pertencem a `../../operacao/turnos-de-combate.md`.
+Interferência, interrupção e precedência pertencem a `../../operacao/turnos-de-combate.md`.
 
 ---
 
