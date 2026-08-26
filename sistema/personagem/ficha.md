@@ -6,25 +6,28 @@ A ficha é o **dossiê consolidado do personagem**: registra quem ele é, o que 
 
 Ela não precisa ser curta. Precisa ser organizada e conter informação útil para decisão, interpretação, capacidade ou continuidade.
 
+---
+
 ## Ficha não é STATUS
 
 A ficha pode guardar, quando relevantes:
 
 - identidade;
 - nome real;
-- importância;
+- Importância;
 - `CONTROLE`;
 - idade;
 - aparência;
 - estilo;
-- conceito;
+- Conceito;
 - descrição;
+- Patamar;
 - TRAÇOS;
-- atributos;
-- VIDA de referência;
-- ENERGIA máxima;
-- perícias;
-- poderes;
+- Atributos permanentes;
+- Vida Máxima;
+- Mana Máxima;
+- Perícias;
+- Poderes;
 - RECURSOS;
 - relações recorrentes;
 - personalidade e tendências;
@@ -35,10 +38,13 @@ A ficha pode guardar, quando relevantes:
 
 Não pertencem à ficha apenas por estarem ativos agora:
 
-- VIDA atual ou Dano acumulado atual;
-- ENERGIA atual;
+- Vida atual;
+- Mana atual;
+- Dano sofrido no momento;
 - condições temporárias;
-- efeitos ativos;
+- Status e efeitos ativos;
+- alterações temporárias de Atributo;
+- Barreiras atuais;
 - localização atual;
 - ferimentos transitórios;
 - favores circunstanciais;
@@ -51,7 +57,9 @@ Esses elementos pertencem ao STATUS ou a outras camadas de persistência.
 
 A diferença principal não é entre “permanente” e “atual”, mas entre **informação consolidada necessária para interpretar o personagem** e **estado circunstancial da cena ou campanha**.
 
-Os valores máximos ou de referência de VIDA e ENERGIA podem aparecer diretamente na ficha para acelerar consulta e verificação. O valor atual consumido, perdido ou recuperado continua pertencendo ao STATUS.
+Vida Máxima e Mana Máxima podem aparecer diretamente na ficha para acelerar consulta. Os valores atuais pertencem ao STATUS.
+
+---
 
 ## Organização visual
 
@@ -67,6 +75,7 @@ Ordem recomendada:
 Status:
 Importância:
 CONTROLE:
+Patamar: [ ]
 
 Nome real:
 Idade:
@@ -77,8 +86,10 @@ Descrição:
 
 TRAÇOS:
 ATR:
-VIDA [ ] | ENERGIA [ ]
-PER:
+  Corpo  → Potência [ ] | Controle [ ] | Resistência [ ]
+  Mente  → Intelecto [ ] | Presença [ ] | Vontade [ ]
+Vida Máxima [ ] | Mana Máxima [ ]
+PERÍCIAS:
 PODERES:
 RECURSOS:
 REL:
@@ -90,31 +101,35 @@ REL:
 ## História consolidada relevante
 ```
 
-Essa ordem é apenas uma referência estética. **Qualquer personagem pode ter uma ficha de qualquer tamanho ou formato**, independentemente de sua Importância.
+Essa ordem é uma referência estética. **Qualquer personagem pode ter uma ficha de qualquer tamanho ou formato**, independentemente de sua Importância.
 
-Um Figurante pode possuir dez páginas de informação se isso for útil. Um Relevante pode ter apenas três linhas se isso for suficiente.
+Um Figurante pode possuir uma ficha extensa se isso for útil. Um Relevante pode ter poucas linhas se isso for suficiente.
+
+---
 
 ## Identidade visual padrão
 
-O modelo-base separa três informações que não devem ser confundidas:
+O modelo-base separa informações que não devem ser confundidas:
 
 ```text
 Nome real → identidade pessoal/civil quando diferente do nome de uso
 Aparência → como o personagem é fisicamente reconhecido
 Estilo → como costuma se apresentar visualmente
+Conceito → síntese do que o personagem é
+Descrição → presença e impressão geral útil à interpretação
 ```
 
-`Aparência:` registra os elementos físicos que realmente ajudam a reconhecer a pessoa em cena, como constituição, pele, olhos, cabelo, feições, marcas ou outras características persistentes relevantes.
+`Aparência:` registra elementos físicos que ajudam a reconhecer a pessoa em cena.
 
-`Estilo:` registra a apresentação habitual: roupas, cores recorrentes, acessórios, uniforme, armadura, maquiagem, símbolos, cabelo quando tratado como escolha estética ou outros elementos visuais recorrentes.
-
-`Descrição:` pode complementar aparência e estilo com presença, impressão geral ou outra síntese útil, mas não deve substituir esses campos quando ambos forem relevantes.
+`Estilo:` registra sua apresentação habitual, como roupas, cores, acessórios, uniforme, armadura, maquiagem ou símbolos recorrentes.
 
 A ficha não precisa virar catálogo de medidas. O objetivo é permitir que o personagem seja **reconhecível e descrito de forma consistente quando entrar em cena**.
 
+---
+
 ## Nascimento da ficha
 
-Ao criar uma nova ficha apresentável ao jogador, usar desde o início o **modelo-base completo** definido neste arquivo.
+Ao criar uma nova ficha apresentável ao jogador, usar desde o início o modelo-base completo definido neste arquivo.
 
 Antes da revisão, preencher somente:
 
@@ -130,98 +145,188 @@ O `Status` nasce como:
 Status: PENDENTE DE REVISÃO
 ```
 
-Todos os demais campos e seções do modelo já devem existir no arquivo, mas permanecem vazios até serem tratados no bloco correspondente da revisão.
+Todos os demais campos já devem existir no arquivo, mas permanecem vazios até serem tratados no bloco correspondente da revisão.
 
-Não preencher antecipadamente nome real, aparência, estilo, idade, conceito, personalidade, história, atributos, VIDA, ENERGIA, perícias, poderes, recursos, relações ou qualquer outro conteúdo apenas para completar a ficha.
+Não preencher antecipadamente Patamar, Atributos, Vida, Mana, Perícias, Poderes, Traços, recursos, relações ou informações narrativas apenas para completar a ficha.
 
 ```text
 NOME + IMPORTÂNCIA + CONTROLE
-→ criar o modelo-base completo
-→ deixar os demais campos vazios
+→ criar modelo-base completo
+→ deixar demais campos vazios
 → iniciar revisão
 ```
 
 > **A ficha nasce completa em estrutura e mínima em conteúdo.**
+
+---
 
 ## Campo desconhecido fica em branco
 
 Durante criação ou revisão, não usar zero para significar “ainda não definido”.
 
 ```text
-ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
-VIDA [ ] | ENERGIA [ ]
+Potência [ ]
+Controle [ ]
+Resistência [ ]
+Intelecto [ ]
+Presença [ ]
+Vontade [ ]
 ```
 
 é diferente de:
 
 ```text
-ATR: FIS [0] | RES [0] | MEN [0] | VON [0]
-VIDA [35] | ENERGIA [10]
+Potência [0]
+Controle [0]
+Resistência [0]
+Intelecto [0]
+Presença [0]
+Vontade [0]
 ```
 
-No segundo caso, todos os valores já foram mecanicamente definidos.
+No segundo caso, os valores já foram mecanicamente definidos.
 
 > **Zero é valor real, nunca marcador de pendência.**
 
-## VIDA e ENERGIA na ficha
+O mesmo princípio vale para informação omitida em fichas rápidas: ausência de campo não significa valor zero.
+
+---
+
+## Patamar
+
+A ficha registra:
+
+```text
+Patamar: [X]
+```
+
+Patamar varia de `[1]` a `[7]` e representa desenvolvimento mecânico geral.
+
+Sua regra completa pertence a `patamar.md`.
+
+Patamar organiza limites e quantidades de criação e fornece o valor `[X]` usado pelos Poderes.
+
+> **Patamar não mede Importância narrativa e não altera a Dificuldade do cenário.**
+
+---
+
+## Atributos
+
+A ficha completa registra os seis Atributos:
+
+```text
+CORPO
+Potência [ ]
+Controle [ ]
+Resistência [ ]
+
+MENTE
+Intelecto [ ]
+Presença [ ]
+Vontade [ ]
+```
+
+A escala permanente normal é `[-2]` a `[7]`.
+
+A regra completa pertence a `atributos.md`.
+
+`Controle` como Atributo corporal não deve ser confundido com `CONTROLE`, o metadado estrutural de agência.
+
+---
+
+## Perícias
+
+Perícias são registradas apenas pelo nome.
+
+Exemplo:
+
+```text
+PERÍCIAS:
+- Medicina
+- Investigar
+- Ocultismo
+```
+
+Perícias não possuem graduação `[+0]` a `[+5]`.
+
+Quando uma Perícia for realmente relevante para uma resolução, concede `+1d` conforme `pericias.md` e `../resolucao/`.
+
+Várias Perícias aplicáveis ao mesmo teste continuam concedendo no máximo `+1d` por Perícias.
+
+---
+
+## Poderes
+
+Poderes representam partes do arsenal funcional do personagem.
+
+Eles não usam uma escala genérica `[1]` a `[5]`.
+
+A ficha registra quais Poderes o personagem possui; funcionamento, Hub, custo, alcance, Dano, Efeito e outras opções pertencem às regras específicas dos Poderes.
+
+Exemplo estrutural:
+
+```text
+PODERES:
+- Teleporte
+- Proteção
+- Ilusão
+```
+
+Quando uma regra de Poder usar `[X]`:
+
+> **[X] = Patamar do personagem**
+
+---
+
+## Vida Máxima e Mana Máxima
 
 Para consulta rápida, a ficha registra:
 
 ```text
-VIDA [X] | ENERGIA [Y]
+Vida Máxima [X] | Mana Máxima [Y]
 ```
 
-### VIDA
+Os valores são derivados dos Atributos permanentes.
 
-`VIDA` representa quanto Dano acumulado a personagem suporta antes de atingir seu limite de incapacidade.
+### Vida Máxima
 
-Ela **não é derivada de RES** e não possui um teto universal.
+A fórmula canônica pertence a `../resolucao/vida.md`:
 
-`RES` responde a quanto um ataque consegue realmente afetar a personagem. `VIDA` responde a quanto desgaste relevante ela consegue acumular depois que o dano atravessa suas defesas.
+> **Vida = 10 + (Resistência ×4) + (Potência ×2) + (Controle ×2) + Intelecto + Presença + Vontade**
 
-Isso permite combinações muito diferentes, por exemplo:
+Para Vida, Atributos negativos contam como `0`.
+
+Vida não é escolhida de acordo com protagonismo, Importância ou duração desejada de confronto.
+
+Uma mudança permanente nos Atributos recalcula a Vida Máxima. Alterações temporárias não recalculam.
+
+### Mana Máxima
+
+A fórmula canônica pertence a `../resolucao/mana.md`:
+
+> **Mana = 10 + 2 × (Potência + Controle + Resistência + Intelecto + Presença + Vontade)**
+
+Para Mana, Atributos negativos contam normalmente.
+
+Uma mudança permanente nos Atributos recalcula a Mana Máxima. Alterações temporárias não recalculam.
+
+### Valores atuais
+
+A ficha registra os máximos; o STATUS registra os atuais.
+
+Exemplo:
 
 ```text
-Monstro resistente → RES [4] | VIDA [5]
+FICHA
+Vida Máxima [29] | Mana Máxima [24]
+
+STATUS
+Vida [18/29] | Mana [9/24]
 ```
-
-Ele é difícil de ferir, mas não precisa sustentar um confronto longo quando um ataque capaz realmente o atinge.
-
-A VIDA é definida pela natureza da personagem e pelo papel que ela precisa sustentar na história. A Importância pode orientar esse valor, mas não o calcula automaticamente.
-
-Referências úteis, sem formar uma lista fechada:
-
-```text
-VIDA [5]  → minion, figurante ou criatura que pode cair após pouco dano relevante
-VIDA [10] → figurante resistente ou ameaça menor
-VIDA [15] → elite ou ameaça secundária
-VIDA [20] → personagem capaz de sustentar um confronto relevante
-VIDA [35] → referência comum de herói, protagonista ou vilão central
-VIDA [50+] → entidade, chefe excepcional ou ameaça de durabilidade extraordinária
-```
-
-Valores intermediários ou superiores são válidos quando fizerem sentido. `25`, `30`, `40`, `50`, `60` ou qualquer outro valor não precisam de uma categoria especial para existir.
-
-Um personagem muito poderoso pode possuir VIDA baixa se sua função não exigir grande duração em cena; uma entidade central pode possuir VIDA muito acima de 35.
-
-> **RES mede resistência ao dano. VIDA mede quanto dano relevante pode ser acumulado. Poder bruto e duração narrativa não são a mesma coisa.**
-
-### ENERGIA
-
-`ENERGIA` mostra a reserva máxima final da personagem. Por padrão, ela é calculada pelo maior Atributo conforme `../resolucao/energia.md`.
-
-Uma exceção aprovada para uma personagem pode alterar seu valor final e deve ser registrada na própria ficha. Isso não cria uma diretriz geral para as demais personagens.
-
-Os valores atuais continuam no STATUS. Exemplo:
-
-```text
-Ficha → VIDA [35] | ENERGIA [80]
-STATUS → Dano [12/35] | Energia [53/80]
-```
-
-Depois da aprovação dos Atributos no Bloco 2, registrar `VIDA` e `ENERGIA` na ficha conforme as regras aplicáveis à personagem. ENERGIA normalmente é derivada dos Atributos; VIDA é escolhida como referência de durabilidade conforme natureza e função narrativa.
 
 > **A ficha mostra a capacidade de referência. O STATUS mostra a condição atual.**
+
+---
 
 ## IMPORTÂNCIA
 
@@ -232,14 +337,15 @@ Ela **não determina `CONTROLE`** e não impõe quantidade máxima universal de 
 Ela também não determina automaticamente:
 
 - tamanho da ficha;
-- quantidade obrigatória de informações;
-- atributos;
-- perícias;
-- poderes;
-- dificuldade;
+- Patamar;
+- Atributos;
+- Perícias;
+- Poderes;
+- Traços;
+- Vida;
+- Mana;
+- Dificuldade;
 - proteção narrativa.
-
-A Importância pode, porém, orientar a VIDA quando a duração esperada da personagem em confronto faz parte de sua função narrativa. Isso não cria uma fórmula rígida: a VIDA final continua sendo um valor explícito da ficha.
 
 As categorias são:
 
@@ -255,13 +361,9 @@ Importância: Figurante
 
 Uma campanha pode possuir quantos personagens Centrais forem realmente definidos como parte desse núcleo.
 
-Um personagem Central pode usar qualquer categoria de `CONTROLE` aprovada para aquela peça.
-
 ### Relevante
 
 É um personagem estruturalmente importante para a campanha, mas que não pertence ao núcleo central.
-
-Um personagem Relevante pode usar qualquer categoria de `CONTROLE` aprovada para aquela peça.
 
 > **Ser Relevante não determina quem controla o personagem.**
 
@@ -269,21 +371,21 @@ Um personagem Relevante pode usar qualquer categoria de `CONTROLE` aprovada para
 
 É um personagem sem papel estrutural central ou relevante para a campanha naquele momento.
 
-A frequência de aparição não altera essa classificação. Um entregador, guarda, comerciante ou outro personagem pode aparecer repetidamente durante toda a campanha e continuar Figurante.
-
-`IMPORTÂNCIA` por si só não determina `CONTROLE`.
+A frequência de aparição não altera automaticamente essa classificação.
 
 ### Importância é quase fixa
 
 IMPORTÂNCIA representa função estrutural na campanha e não deve subir ou descer apenas porque um personagem apareceu mais vezes ou ganhou momentaneamente destaque.
 
-Se surgir proposta de mudar a Importância de um personagem, ela deve ser apresentada ao JOGADOR HUMANO antes da alteração.
+Se surgir proposta de mudar a Importância, ela deve ser apresentada ao JOGADOR HUMANO antes da alteração.
 
 Sem aprovação, a classificação permanece como está.
 
-Uma mudança aprovada de Importância não altera automaticamente nenhuma outra parte da ficha, inclusive `CONTROLE`, atributos, perícias, poderes, recursos ou VIDA. Se a função narrativa também justificar alteração de VIDA, essa mudança deve ser tratada separadamente.
+Uma mudança aprovada de Importância não altera automaticamente `CONTROLE`, Patamar, Atributos, Perícias, Poderes, Traços, Vida, Mana ou recursos.
 
 > **Na dúvida, manter a classificação atual.**
+
+---
 
 ## CONTROLE
 
@@ -296,35 +398,25 @@ CONTROLE: JOGADOR IA EVENTUAL
 CONTROLE: NPC
 ```
 
-`CONTROLE` é metadado estrutural e não atributo mecânico.
+`CONTROLE` é metadado estrutural e não Atributo mecânico.
 
-Ele informa como a personagem participa normalmente do ciclo. Nas peças com jogador dedicado, também indica quem possui autoridade usual sobre suas decisões. `CONTROLE: NPC` indica ausência de jogador dedicado e segue as regras de delegação de `../personas/npcs-e-delegacao.md`.
+Ele informa como a personagem participa normalmente do ciclo. Nas peças com jogador dedicado, também indica quem possui autoridade usual sobre suas decisões.
 
-`CONTROLE` é independente de `IMPORTÂNCIA`.
+`CONTROLE` é independente de `IMPORTÂNCIA` e de Patamar.
 
 > **IMPORTÂNCIA diz qual é o peso estrutural da peça. CONTROLE diz como sua agência é atribuída. Uma informação não determina automaticamente a outra.**
 
 ### JOGADOR HUMANO
 
-É o personagem cujas decisões voluntárias pertencem ao jogador humano.
-
-Sua Importância é definida separadamente.
+As decisões voluntárias pertencem ao jogador humano.
 
 ### JOGADOR IA
 
-É um personagem com uma IA dedicada exclusivamente a ele. É apropriado quando sua agência individual precisa ser preservada continuamente.
-
-Sua Importância é definida separadamente.
+A personagem possui uma IA dedicada à sua agência contínua.
 
 ### JOGADOR IA EVENTUAL
 
-É uma categoria de controle possível para qualquer personagem cuja agência eventual tenha sido definida dessa forma.
-
-Uma mesma IA EVENTUAL pode assumir simultaneamente todos os personagens dessa categoria que precisarem de agência própria naquela situação.
-
-A categoria precisa estar registrada na ficha conforme as regras operacionais da campanha.
-
-Sua Importância é definida separadamente.
+A personagem pode receber agência da persona eventual conforme as regras de `../personas/`.
 
 ### NPC
 
@@ -332,97 +424,75 @@ Sua Importância é definida separadamente.
 
 ```text
 ROTINA EVIDENTE
-→ NARRADOR pode narrar como consequência já determinada.
+→ NARRADOR pode narrar como consequência já determinada
 
 DECISÃO VOLUNTÁRIA RELEVANTE, NÃO ADVERSARIAL
-→ JOGADOR IA EVENTUAL assume temporariamente a peça.
+→ JOGADOR IA EVENTUAL assume temporariamente
 
 OPOSIÇÃO ATIVA
-→ NPC pode ser delegado ao OPOSITOR depois que o NARRADOR julgar sua disponibilidade.
+→ NPC pode ser delegado ao OPOSITOR depois do julgamento de disponibilidade
 ```
 
 A assunção temporária não muda o `CONTROLE` da ficha.
 
-A categoria `NPC` também não define Importância: um NPC pode ser Figurante, Relevante ou Central se a estrutura da campanha assim estabelecer.
+As regras completas pertencem a `../personas/`.
 
-## OPOSITOR não é um tipo de CONTROLE
+---
 
-O OPOSITOR não possui uma categoria permanente de personagem.
+## OPOSITOR não é tipo de CONTROLE
 
-Sua função é **gerar problemas e apresentar oposição**.
+O OPOSITOR não possui categoria permanente de personagem.
 
-Ele pode propor a entrada de NPCs, forças, ameaças, interrupções ou outros elementos capazes de produzir oposição. O NARRADOR julga se a proposta é válida e coerente com a ficção.
+Sua função é gerar problemas e apresentar oposição legítima conforme `../personas/`.
 
-Exemplo:
+NPCs podem ser delegados temporariamente ao OPOSITOR quando a ficção e a disponibilidade permitirem, sem alterar o `CONTROLE` registrado na ficha.
 
-```text
-OPOSITOR:
-Trigon envia dois assassinos.
+> **O OPOSITOR joga a oposição legitimamente delegada. O NARRADOR julga.**
 
-NARRADOR:
-Julga se Trigon pode fazer isso e se a entrada desses assassinos é coerente.
-```
-
-Se a proposta for aceita e os assassinos estiverem legitimamente disponíveis para aquela oposição, eles continuam sendo `NPC`, mas podem ser **delegados temporariamente ao OPOSITOR** para que ele jogue com eles durante a disputa.
-
-Quando a delegação termina, eles continuam sendo NPCs. Não existe `CONTROLE: OPOSITOR` na ficha.
-
-O mesmo vale para qualquer NPC já existente. Rotina evidente pode ser narrada pelo NARRADOR como consequência determinada; decisão voluntária relevante não adversarial pertence ao JOGADOR IA EVENTUAL; participação em oposição ativa pode ser delegada ao OPOSITOR.
-
-> **O OPOSITOR provoca e joga a oposição legitimamente delegada. O NARRADOR julga; não assume a vontade do NPC.**
-
-As regras operacionais detalhadas dessas categorias pertencem a `../personas/` e ao ciclo do sistema. Esta área apenas registra a estrutura da ficha.
+---
 
 ## RECURSOS
 
-`RECURSOS` registra o mínimo necessário sobre meios, infraestrutura, instalações, organizações, objetos únicos ou preparações específicas que já foram estabelecidos e podem alterar possibilidades na ficção.
+`RECURSOS` registra o mínimo necessário sobre meios, infraestrutura, instalações, organizações, objetos únicos ou preparações específicas já estabelecidas e capazes de alterar possibilidades na ficção.
 
 Não é inventário e não é catálogo de patrimônio.
 
-Um recurso só precisa ser registrado quando sua existência, ausência ou estado puder efetivamente ser útil para decisões futuras.
+Um recurso só precisa ser registrado quando sua existência, ausência ou estado puder ser útil para decisões futuras.
 
 Exemplo:
 
 ```text
 RECURSOS:
-Castelo dos Corvos => Forja antiga, Biblioteca imensa, Laboratório de alquimia, Sala de tango, Solar, 5 quartos
-Chave do Cofre de Balaladom [perdida]
-Fórmula anti-Charada [uso único]
+Castelo dos Corvos => Forja antiga, Biblioteca, Laboratório
+Chave do Cofre [perdida]
+Fórmula experimental [uso único]
 ```
 
-O objetivo é estabelecer fatos simples.
+RECURSOS não possuem Patamar por padrão e não concedem bônus automáticos.
 
-Ter um castelo não significa automaticamente possuir toda instalação que venha a ser conveniente depois. Se a ficha registra `Forja antiga`, então existe uma forja. Se não registra uma instalação e ela nunca foi estabelecida na ficção, sua existência não deve ser presumida apenas por conveniência.
+Eles estabelecem meios, infraestrutura, acesso e possibilidades concretas.
 
-Novos RECURSOS podem ser adicionados naturalmente quando forem estabelecidos e passarem a ter utilidade real.
-
-Não é necessário grande evento mecânico para atualizar essa linha. A ficha apenas passa a refletir o que já existe.
-
-RECURSOS não possuem Patamar por padrão e não concedem bônus automáticos. Eles estabelecem meios, infraestrutura, acesso e possibilidades concretas.
-
-A ausência de um meio necessário pode ser apresentada pelo OPOSITOR como fundamento de oposição.
-
-Exemplo:
-
-```text
-JOGADOR:
-“Vou forjar uma espada.”
-
-OPOSITOR:
-“Com qual forja?”
-```
-
-Se a ficha já estabelece uma `Forja antiga`, existe suporte ficcional para essa parte da ação. Se não existe forja ou meio equivalente, o NARRADOR julga a oposição apresentada.
-
-RECURSOS também não anulam limites físicos ou ficcionais. Se novas instalações começarem a parecer incompatíveis com o espaço ou estrutura já estabelecidos, o OPOSITOR pode questionar se realmente cabem, se exigem reforma, expansão ou demolição de algo existente. O NARRADOR julga.
+A ausência de um meio necessário pode ser relevante para a resolução.
 
 > **RECURSOS registram apenas o que foi efetivamente estabelecido e pode ser útil depois.**
 
+---
+
+## REL e relações recorrentes
+
+`REL` registra relações que precisam permanecer disponíveis para interpretação e continuidade.
+
+A regra detalhada pertence a `relacoes.md` e `pareamento.md`.
+
+Relação não é bônus mecânico automático. Ela pode alterar possibilidades, informação, disposição e contexto quando a ficção realmente tornar isso relevante.
+
+---
+
 ## Modelo-base de ficha
 
-O sistema não exige modelos diferentes para Central, Relevante ou Figurante. O mesmo formato pode ser expandido ou reduzido livremente conforme a necessidade real.
+O sistema não exige modelos diferentes para Central, Relevante ou Figurante.
 
-Durante a criação inicial, porém, o arquivo nasce com este modelo completo; somente depois da revisão campos comprovadamente inúteis podem ser removidos.
+Durante a criação inicial, porém, a ficha apresentável ao jogador nasce com este modelo completo; somente depois da revisão campos comprovadamente inúteis podem ser removidos.
 
 ```text
 # Nome
@@ -430,6 +500,7 @@ Durante a criação inicial, porém, o arquivo nasce com este modelo completo; s
 Status: PENDENTE DE REVISÃO
 Importância: ...
 CONTROLE: ...
+Patamar: [ ]
 
 Nome real:
 Idade:
@@ -440,9 +511,13 @@ Descrição:
 
 TRAÇOS:
 
-ATR: FIS [ ] | RES [ ] | MEN [ ] | VON [ ]
-VIDA [ ] | ENERGIA [ ]
-PER:
+ATR:
+Corpo  → Potência [ ] | Controle [ ] | Resistência [ ]
+Mente  → Intelecto [ ] | Presença [ ] | Vontade [ ]
+
+Vida Máxima [ ] | Mana Máxima [ ]
+
+PERÍCIAS:
 PODERES:
 RECURSOS:
 REL:
@@ -460,13 +535,35 @@ REL:
 
 Na ficha recém-criada, somente Nome, Importância e CONTROLE recebem conteúdo. Os demais campos permanecem vazios.
 
-No **Bloco 1 — Identidade e conceito**, `Nome real`, `Idade`, `Aparência` e `Estilo` são tratados junto com origem, natureza e conceito para que a personagem fique concreta e reconhecível antes da revisão mecânica.
+No **Bloco 1 — Identidade e conceito**, tratar identidade, aparência e Conceito.
 
-No **Bloco 2 — Atributos e perícias**, depois da aprovação dos Atributos, `VIDA` e `ENERGIA` são preenchidas como referências de consulta rápida conforme as regras aplicáveis à personagem.
+No **Bloco 2 — Atributos e Perícias**, definir Patamar quando necessário à construção mecânica, distribuir Atributos conforme `patamar.md` e registrar Perícias reais.
+
+Depois dos Atributos permanentes estarem fechados, calcular Vida Máxima e Mana Máxima automaticamente pelas regras de `../resolucao/vida.md` e `../resolucao/mana.md`.
+
+No **Bloco 3 — Poderes e capacidades**, registrar o arsenal funcional e suas capacidades realmente possuídas.
+
+No **Bloco 4 — Traços e relações**, registrar apenas verdades estáveis e vínculos relevantes.
+
+---
+
+## Fichas rápidas e mínimas
+
+Todos os personagens usam as mesmas regras, mas nem todos precisam registrar a mesma quantidade de informação.
+
+Uma ficha rápida ou mínima pode omitir campos que ainda não sejam necessários.
+
+> **Informação ausente não significa valor zero.**
+
+Quando Vida Máxima ou Mana Máxima precisarem ser acompanhadas, seus valores podem ser registrados diretamente na ficha compacta como resultados derivados, mesmo que Atributos não relevantes naquele momento tenham sido omitidos visualmente.
+
+Isso não altera as regras de construção do personagem; apenas reduz o que precisa ser exibido e persistido.
+
+---
 
 ## Informação reservada do NARRADOR
 
-Quando uma ficha pertencente ao mundo precisar guardar uma verdade que não pode ser apresentada ao jogador, ela pode incluir uma seção reservada como:
+Quando uma ficha do mundo precisar guardar uma verdade que não pode ser apresentada ao jogador, ela pode incluir:
 
 ```text
 ## Informação reservada do NARRADOR
@@ -474,7 +571,7 @@ Quando uma ficha pertencente ao mundo precisar guardar uma verdade que não pode
 - plano ainda não descoberto;
 - conhecimento secreto;
 - pacto desconhecido;
-- capacidade ou limitação que ainda não foi revelada;
+- capacidade ou limitação ainda não revelada;
 - outro fato consolidado que precise permanecer secreto.
 ```
 
@@ -482,15 +579,17 @@ Essa seção é opcional e só deve existir quando houver informação realmente
 
 Ela não autoriza criar fatos retroativamente para contrariar uma ação válida, restaurar dificuldade ou proteger a trama.
 
-A informação pode ser secreta para os personagens e para o jogador, mas continua sendo uma verdade já estabelecida da campanha.
+> **Informação pode ser secreta. A realidade da campanha não pode ser criada retroativamente apenas para impedir uma solução válida.**
+
+---
 
 ## Ficha reservada
 
-Quando um personagem precisa de continuidade sem revelar suas capacidades ou segredos ao jogador, pode usar a mesma linguagem de ficha em uma área reservada da aventura.
+Quando um personagem precisa de continuidade sem revelar suas capacidades ou segredos ao jogador, pode usar a mesma linguagem de ficha em uma área reservada da campanha.
 
-A ficha reservada pode usar `## Informação reservada do NARRADOR` quando isso for útil.
+A ficha reservada preserva segredo; não autoriza alterar capacidades retroativamente.
 
-A ficha reservada preserva segredo; não autoriza alterar capacidades retroativamente apenas para contrariar uma solução válida.
+---
 
 ## Aprovação
 
@@ -508,14 +607,20 @@ Status: APROVADO
 
 Fichas reservadas do NARRADOR podem usar estado canônico próprio quando uma aprovação aberta revelaria segredos.
 
+---
+
 ## Alterações posteriores
 
-A ficha não recebe XP ou melhorias automáticas por missão ou capítulo.
+A ficha não recebe XP ou melhorias automáticas por missão ou capítulo apenas por passagem narrativa.
 
-Se a ficção alterar de verdade o personagem — por transformação permanente, aquisição real de uma capacidade, perda estrutural, mudança estável de identidade ou equivalente — a parte mecânica da ficha pode ser atualizada para representar a nova realidade.
+Se a ficção alterar de verdade o personagem — por transformação permanente, aquisição real de capacidade, perda estrutural, mudança estável de identidade ou equivalente — a parte mecânica pode ser atualizada para representar a nova realidade conforme as regras de progressão vigentes.
+
+Mudanças permanentes de Atributo recalculam Vida Máxima e Mana Máxima.
 
 As partes narrativas também podem ser atualizadas quando novos objetivos, conhecimentos, relações, limites ou fatos consolidados passarem a ser necessários para interpretar corretamente o personagem.
 
 > **A ficha acompanha quem o personagem é e o que precisa ser lembrado para interpretá-lo corretamente.**
 
-O procedimento de atualização e persistência pertence a `../persistencia/`.
+## Regra final
+
+> **A ficha guarda identidade, capacidade consolidada e continuidade. Patamar, seis Atributos, Perícias sem graduação, Poderes por arsenal funcional, Vida Máxima e Mana Máxima formam sua base mecânica atual; estado momentâneo continua pertencendo ao STATUS.**
