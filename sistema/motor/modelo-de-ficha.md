@@ -24,6 +24,11 @@ Resistência [X] + VIG = [+X] | Ciência [X] + INT = [+X] | Investigação [X] +
 Ocultismo [X] + INT = [+X] | Percepção [X] + SAB = [+X] | Medicina [X] + SAB = [+X]
 Sobrevivência [X] + SAB = [+X] | Manipulação [X] + CAR = [+X] | Expressão [X] + CAR = [+X]
 
+### Bloco 4
+
+Traços Positivos [X]
+Traços Negativos [X]
+
 ### Recursos
 
 Vida Atual [X]
