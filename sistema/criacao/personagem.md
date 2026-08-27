@@ -52,14 +52,13 @@ Perícia ainda não escolhida simplesmente não aparece.
 
 ## Ordem da revisão
 
-Cada ficha é revisada em cinco blocos:
+Cada ficha é revisada em quatro blocos:
 
 ```text
 1 - Identidade e Conceito
 2 - Patamar, Atributos e Perícias
-3 - Poderes e capacidades
-4 - Traços, Recursos e relações
-5 - Conferência final
+3 - Poderes, Traços, Recursos e relações
+4 - Conferência final
 ```
 
 Em todos os blocos:
@@ -112,29 +111,33 @@ Vida Máxima → ../resolucao/vida.md
 Mana Máxima → ../resolucao/mana.md
 ```
 
-### Bloco 3 — Poderes e capacidades
+### Bloco 3 — Poderes, Traços, Recursos e relações
 
-Registrar quais Poderes pertencem ao arsenal funcional da personagem.
-
-A posse pertence a `../personagem/poderes.md`; a mecânica concreta e os Hubs pertencem a `../resolucao/poderes/`.
-
-Não criar Poder para ação comum já coberta por Atributos, equipamento ordinário e ficção.
-
-### Bloco 4 — Traços, Recursos e relações
+Revisar em conjunto o arsenal funcional, as verdades passivas estáveis, os recursos externos consolidados e as relações recorrentes da personagem.
 
 Usar:
 
 ```text
+Poderes     → ../personagem/poderes.md e ../resolucao/poderes/
 Traços      → ../personagem/tracos.md e ../personagem/tracos/
 Relações    → ../personagem/relacoes.md
 RECURSOS    → ../personagem/ficha.md
+Patamar     → ../personagem/patamar.md
 ```
+
+Registrar quais Poderes pertencem ao arsenal funcional da personagem. A posse pertence a `../personagem/poderes.md`; a mecânica concreta e os Hubs pertencem a `../resolucao/poderes/`.
+
+Não criar Poder para ação comum já coberta por Atributos, equipamento ordinário e ficção.
 
 Vícios e Corrupções usam a economia definida em `../personagem/patamar.md`.
 
+Como cada ponto negativo pode ser convertido em `+1` Traço positivo ou `+1` Poder, **Poderes e Traços devem ser calibrados e aprovados no mesmo bloco**. Primeiro considerar as quantidades básicas fornecidas pelo Patamar; depois aplicar, dentro da mesma proposta, as escolhas extras geradas por Vícios e Corrupções.
+
+O mesmo ponto negativo nunca compra simultaneamente um Poder e um Traço positivo.
+
 Informações já aprovadas reaparecem automaticamente; não perguntar de novo.
 
-### Bloco 5 — Conferência final
+### Bloco 4 — Conferência final
 
 Revisar a ficha inteira e completar apenas informações úteis para interpretação e continuidade, como:
 
@@ -151,6 +154,7 @@ Conferir:
 - Perícias sem graduação;
 - Vida/Mana derivadas corretamente;
 - Poderes sem grau genérico `[1–5]`;
+- economia entre Traços negativos, Traços positivos extras e Poderes extras válida;
 - ausência de ENERGIA universal;
 - ausência de campos inventados ou não aprovados.
 
@@ -176,7 +180,7 @@ Durante a revisão:
 Status: PENDENTE DE REVISÃO
 ```
 
-Depois do Bloco 5 aprovado:
+Depois do Bloco 4 aprovado:
 
 ```text
 Status: APROVADO
