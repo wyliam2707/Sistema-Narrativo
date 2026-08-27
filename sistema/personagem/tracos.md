@@ -97,10 +97,14 @@ Criar um Traço pago quando a característica realmente estabelecer uma vantagem
 
 ## Valores negativos
 
+Todo Traço negativo padrão vale:
+
 ```text
 Vício      → [-1]
-Corrupção  → [-1] ou [-2]
+Corrupção  → [-1]
 ```
+
+Vícios e Corrupções não possuem níveis de preço. Diferenças de intensidade são tratadas pela própria definição: limitações pequenas demais são ampliadas ou unidas; limitações amplas demais são restringidas.
 
 A economia de criação pertence a `patamar.md` e ao processo de `../criacao/`.
 
@@ -188,4 +192,4 @@ Quando uma complicação de Traço for voluntariamente aceita pela peça elegív
 
 ## Regra final
 
-> **Todo Traço positivo custa 1 espaço. Sua redação define sua consequência; qualquer nível interno pertence ao efeito, nunca ao preço. Traço continua sendo uma verdade passiva consolidada da personagem.**
+> **Traços positivos custam 1 espaço. Vícios e Corrupções padrão valem [-1]. A redação de cada Traço define sua consequência; níveis internos, categorias ou parâmetros pertencem ao efeito, nunca ao preço.**
