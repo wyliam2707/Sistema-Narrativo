@@ -40,14 +40,24 @@ PODERES:
 - Comunicação
 
 RECURSOS:
+- Acervo ocultista pessoal — grimórios, livros, anotações e materiais para pesquisa sobrenatural.
+- Recursos dos Titãs — acesso à base, equipamentos e infraestrutura compartilhada da equipe.
 
 ## Personalidade e tendências
 ## Desejos / objetivos atuais
 ## Medos / limites relevantes
 
 ## Amigos
+- Estelar — amiga muito próxima; confiança e afeto fortes.
+- Dick Grayson — amigo e companheiro de equipe em quem confia.
+- Ciborg — amizade sólida e confiança.
+- Mutano — amigo próximo; relação marcada por provocações, convivência e afeto.
+
 ## Inimigos
+- Agentes de Trigon — inimigos recorrentes ligados à sua origem demoníaca.
+
 ## Romance
+- Nenhum vínculo no início da campanha.
 
 ## Conhecimento atual relevante
 ## História consolidada relevante
