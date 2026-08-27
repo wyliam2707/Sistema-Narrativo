@@ -31,9 +31,7 @@ Traços Negativos [X]
 
 ### Bloco 5 — Estatísticas
 
-Pontos de Vida [X]
-Pontos de Mana [X]
-Defesa [X/Y]
+Pontos de Vida [X] | Pontos de Mana [X] | Defesa [X/Y]
 
 Defesa:
 - X = 8 + ATR
