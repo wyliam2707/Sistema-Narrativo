@@ -33,33 +33,37 @@ Corvin abriu a porta traseira da pensão, que não estava trancada, e os três e
 
 Ravena confirmou que a distorção mística/dimensional fica mais nítida dentro da pensão e se intensifica na direção do segundo andar.
 
-Corvin, Ravena e Estelar subiram ao segundo andar. O rastro físico continua pelo corredor e termina diante de uma das últimas portas do lado esquerdo, onde há marcas recentes no batente e rodapé compatíveis com a mala. Ravena confirmou que a distorção mística/dimensional também se concentra e fica mais forte do outro lado dessa mesma porta. Não há ninguém visível no corredor.
+Corvin, Ravena e Estelar subiram ao segundo andar. O rastro físico continuou pelo corredor até uma das últimas portas do lado esquerdo, onde marcas recentes no batente e rodapé reforçaram que a mala entrou naquele quarto. Ravena confirmou que a distorção também se concentra ali.
+
+Corvin abriu a porta com cuidado e os três investigaram o quarto. Não havia ninguém dentro. Uma mala aberta, ainda contendo roupas, estava no quarto e faltava uma rodinha; o encaixe quebrado corresponde ao fragmento encontrado anteriormente. Outros objetos pessoais permanecem no cômodo, incluindo um celular desligado sobre o criado-mudo. Não existem sinais evidentes de luta nem de uma partida normal organizada.
+
+Corvin encontrou sinais discretos de circulação no piso que seguem da área da cama até um guarda-roupa de madeira e terminam ali, sem rastro equivalente retornando para a porta. Ravena determinou que a distorção mística/dimensional está concentrada atrás ou dentro desse guarda-roupa e percebe que o espaço naquele ponto foi alterado de alguma forma, embora ainda não saiba exatamente como. Estelar confirmou pela leitura do rastro que, se Stancy tivesse saído normalmente do quarto, seria esperado encontrar sinais continuando de volta para o corredor.
 
 ## Personagens diretamente envolvidos
 
 ### Ravena
 Vida: 27/27
 Mana: 34/34
-Local: segundo andar da pensão, diante da porta indicada pelo rastro de Stancy.
-Conhecimento atual: sabe que a cidade impede a saída de modo anômalo, que os moradores parecem genuinamente satisfeitos em permanecer, que Stancy está desaparecida, que o rastro físico leva a um quarto específico da pensão e que a distorção mística/dimensional se concentra do outro lado da mesma porta.
+Local: quarto ligado ao rastro de Stancy, no segundo andar da pensão.
+Conhecimento atual: sabe que Stancy esteve no quarto, que seus pertences continuam ali, que o rastro físico termina no guarda-roupa e que a distorção mística/dimensional está concentrada atrás ou dentro dele. Percebe que o espaço naquele ponto foi alterado de alguma forma.
 
 ### Estelar
 Vida: 34/34
 Mana: 34/34
-Local: segundo andar da pensão, junto de Corvin e Ravena diante da porta indicada pelo rastro.
-Conhecimento atual: confirmou pessoalmente que voar para fora da cidade a faz retornar pelo lado oposto; sabe que Stancy está desaparecida e que o rastro físico encontrado por Corvin conduz a um quarto específico no segundo andar.
+Local: mesmo quarto, junto de Corvin e Ravena.
+Conhecimento atual: sabe que Stancy esteve no quarto, que seus pertences continuam ali e que o rastro físico termina no guarda-roupa sem retorno aparente para o corredor.
 
 ### Corvin Black
 Vida: 45/45
 Mana: 50/50
 Trama: 30
-Local: segundo andar da pensão, diante da porta indicada pelo rastro de Stancy, junto de Ravena e Estelar.
-Situação: seguiu o rastro físico de Stancy até uma porta específica no segundo andar; marcas recentes junto ao batente e rodapé reforçam que a mala passou por ali.
+Local: mesmo quarto, diante do guarda-roupa indicado pelo rastro de Stancy.
+Situação: confirmou a presença recente de Stancy pela mala e demais pertences; encontrou um rastro interno que termina no guarda-roupa e não retorna para a porta.
 Contato com Ravena e Estelar: primeiro contato pessoal estabelecido nesta manhã.
 
 ## Fios atuais
-- Investigar o quarto indicado pelo rastro físico de Stancy.
-- Investigar a distorção mística/dimensional concentrada do outro lado da mesma porta.
+- Investigar o guarda-roupa onde termina o rastro físico de Stancy.
+- Investigar a alteração mística/dimensional concentrada atrás ou dentro do guarda-roupa.
 - Descobrir onde Stancy está e o que aconteceu com ela.
 - Investigar a natureza da cidade e por que sair dela não é simples.
 - Ir ao observatório com Marta, Ravena e Estelar por volta das 20h.
