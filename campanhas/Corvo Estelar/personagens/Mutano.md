@@ -17,6 +17,7 @@ TRAÇOS:
 - Fama [Mutano]
 - Reputação [Herói veterano]
 - Conexões [Comunidade heroica]
+- Laço [Titãs] [-1]
 
 ATR:
 Corpo  → Potência [1] | Controle [3] | Resistência [2]
@@ -33,6 +34,7 @@ PODERES:
 - Aprimoramento
 - Adaptação
 - Proteção
+- Golpe
 
 RECURSOS:
 - Recursos dos Titãs — acesso à base, equipamentos, veículos e infraestrutura compartilhada da equipe.
