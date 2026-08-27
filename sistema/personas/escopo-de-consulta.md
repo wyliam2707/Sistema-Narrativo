@@ -78,6 +78,88 @@ Se depois o personagem realmente sair e existir vigilância já estabelecida, o 
 
 > **Declaração de jogador não é conhecimento do mundo.**
 
+# Personagens conhecem personagens pela ficção
+
+A ficha completa de uma peça descreve a verdade daquela personagem para sua própria cadeira e para o julgamento quando necessário. Ela **não é a descrição automática que outras personagens recebem dela**.
+
+Quando um JOGADOR IA, JOGADOR IA EVENTUAL ou NPC forma sua visão sobre outra personagem, usar somente o que essa peça poderia legitimamente conhecer:
+
+```text
+DESCRIÇÃO INICIAL PERCEPTÍVEL
+→ aparência, roupa, postura, equipamento evidente, voz e outros sinais imediatamente observáveis.
+
+CONHECIMENTO PÚBLICO LEGÍTIMO
+→ fama, reputação, identidade pública ou informação que aquela peça realmente teria motivo para conhecer.
+
+OBSERVAÇÃO ADQUIRIDA
+→ ações, hábitos, capacidades demonstradas, falas e comportamentos presenciados durante a ficção.
+
+INFORMAÇÃO RECEBIDA
+→ aquilo que alguém lhe contou, mostrou ou comunicou legitimamente.
+
+INVESTIGAÇÃO OU DETECÇÃO
+→ somente o que uma perícia, poder ou traço realmente permite descobrir.
+
+INFERÊNCIA
+→ conclusão plausível feita a partir de sinais legítimos; continua sendo interpretação da personagem, não verdade automática.
+```
+
+Não fornecer automaticamente a outra cadeira:
+
+- Atributos;
+- Perícias;
+- lista completa de Poderes;
+- Traços ocultos;
+- limitações secretas;
+- história privada;
+- objetivos internos;
+- recursos ainda não revelados;
+- origem de capacidades;
+- pensamentos;
+- relações privadas;
+- qualquer outro conteúdo da ficha que ainda não tenha se tornado conhecimento ficcional legítimo.
+
+Exemplo:
+
+```text
+CORVIN POSSUI DETECÇÃO [MENTIRAS]
+≠
+RAVENA SABE QUE CORVIN POSSUI DETECÇÃO [MENTIRAS]
+```
+
+Ravena só pode levar essa capacidade em conta depois de descobri-la por um meio legítimo dentro da ficção.
+
+> **A ficha determina quem a personagem é. A experiência determina como as outras a enxergam.**
+
+Duas personagens podem formar impressões diferentes sobre a mesma pessoa, inclusive impressões incompletas ou erradas, desde que sejam coerentes com aquilo que cada uma percebeu.
+
+# A capacidade do observador não decide pelo alvo
+
+Uma capacidade de percepção, detecção, resistência ou análise pertencente a uma peça **não altera retroativamente a decisão voluntária de outra peça**.
+
+Ordem correta:
+
+```text
+1. A peça decide segundo sua própria personalidade, objetivo e conhecimento.
+2. A janela é completada normalmente.
+3. O NARRADOR aplica capacidades legítimas de percepção, detecção e resolução.
+```
+
+Exemplo:
+
+```text
+NPC quer esconder informação
+→ pode mentir, omitir, evadir ou manipular se isso fizer sentido para ele.
+
+CORVIN possui Detecção [Mentiras]
+→ isso não torna o NPC automaticamente honesto.
+→ apenas afeta o que Corvin percebe da afirmação depois que ela é feita.
+```
+
+Se o NPC descobrir dentro da ficção que Corvin detecta mentiras, ele pode mudar sua estratégia futuramente porque **agora possui esse conhecimento**. Antes disso, não.
+
+> **Capacidade alheia resolve percepção. Não escreve a intenção de quem está sendo observado.**
+
 # JOGADOR IA
 
 O JOGADOR IA recebe a visão da própria personagem.
@@ -92,7 +174,8 @@ O JOGADOR IA recebe a visão da própria personagem.
 - fatos que presenciou ou aprendeu;
 - situação conforme percebida;
 - regras necessárias para declarar sua ação;
-- conhecimentos de mundo justificados por sua história e capacidades.
+- conhecimentos de mundo justificados por sua história e capacidades;
+- de outras personagens, somente a descrição perceptível e o conhecimento legitimamente adquirido conforme as regras acima.
 
 ## Não recebe automaticamente
 
@@ -103,7 +186,8 @@ O JOGADOR IA recebe a visão da própria personagem.
 - intenções não comunicadas;
 - fatos fora de sua percepção;
 - resultado futuro da resolução;
-- Livro multiperspectivo completo.
+- Livro multiperspectivo completo;
+- ficha completa de outra peça apenas porque ela existe no repositório.
 
 > **O ideal não é pedir à persona que finja ignorar algo. É não colocar no contexto dela aquilo que sua personagem não sabe.**
 
@@ -118,7 +202,8 @@ Recebe somente:
 - conhecimento legítimo daquela peça;
 - relações e objetivos próprios;
 - regras necessárias;
-- fatos percebidos ou comunicados legitimamente.
+- fatos percebidos ou comunicados legitimamente;
+- de outras personagens, somente descrição perceptível, conhecimento público legítimo e informação adquirida na ficção.
 
 Vários personagens eventuais podem compartilhar a mesma persona operacional, mas não formam mente coletiva.
 
@@ -299,4 +384,4 @@ Uma persona pode perceber que falta contexto sem ganhar acesso irrestrito às fo
 
 # Regra final
 
-> **JOGADORES recebem a visão de suas peças. O OPOSITOR recebe as pontas que pode explorar. O NARRADOR recebe somente o necessário para julgar. Conhecimento operacional da persona nunca vira conhecimento automático da personagem.**
+> **JOGADORES recebem a visão de suas peças. Uma personagem conhece outra pela ficção, não pela ficha completa. O OPOSITOR recebe as pontas que pode explorar. O NARRADOR recebe somente o necessário para julgar. Conhecimento operacional da persona nunca vira conhecimento automático da personagem.**
