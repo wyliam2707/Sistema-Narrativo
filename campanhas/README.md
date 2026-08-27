@@ -43,7 +43,7 @@ sistema/personas/instanciacao-da-mesa.md
 
 ## Arquivos presentes
 
-Nenhuma campanha cadastrada no momento.
+- Corvo Estelar — CRIAÇÃO: EM ANDAMENTO
 
 ## Criação
 
