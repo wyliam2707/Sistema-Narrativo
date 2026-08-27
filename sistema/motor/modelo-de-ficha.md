@@ -7,9 +7,10 @@ Objetivo: testar uma ficha física de uma página em que os valores usados duran
 ## Estrutura proposta
 
 ```text
+BLOCO [1]
 ┌─────────────────────────────────────────────────────────────────────┐
-│ NOME __________________________  CONCEITO _________________________ │
-│ PATAMAR [   ]                  ORIGEM/ARQUÉTIPO _________________ │
+│ NOME __________________________  CONTROLE _________________________ │
+│ IMPORTÂNCIA ___________________  PATAMAR [   ]                     │
 └─────────────────────────────────────────────────────────────────────┘
 
 ATRIBUTOS
