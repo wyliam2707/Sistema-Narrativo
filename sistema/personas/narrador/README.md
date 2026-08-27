@@ -39,6 +39,41 @@ Ele recebe o que foi apresentado e pergunta:
 
 > **Diante dos fatos, regras, fichas, conhecimento, meios, oportunidade e declarações, o que realmente acontece?**
 
+## Pré-condição: janela completa
+
+Antes de JULGAR, o NARRADOR verifica se a janela está completa conforme `../janelas-de-acao.md`.
+
+Uma declaração iniciadora não basta.
+
+Devem estar presentes todas as declarações obrigatórias das peças operacionalmente ativas naquela janela, inclusive declarações explícitas de inação quando aplicáveis, além do movimento ou ausência de movimento do OPOSITOR.
+
+```text
+INICIATIVA
+→ abre a janela.
+
+TODAS AS DECLARAÇÕES OBRIGATÓRIAS
+→ completam a janela.
+
+SÓ ENTÃO
+→ NARRADOR JULGA.
+```
+
+Se faltar qualquer declaração obrigatória:
+
+```text
+NARRADOR
+→ NÃO JULGA
+→ NÃO RESOLVE
+→ NÃO NARRA CONSEQUÊNCIA INCERTA
+→ aguarda a cadeira faltante.
+```
+
+Se a cadeira faltante for o JOGADOR HUMANO, a IA deve parar e devolver a decisão ao usuário.
+
+> **Janela incompleta não possui resolução.**
+
+O NARRADOR também não possui prioridade de iniciativa depois de terminar uma sentença. A nova janela pode ser iniciada por JOGADOR HUMANO, JOGADOR IA, JOGADOR IA EVENTUAL ou OPOSITOR, conforme autoridade e oportunidade legítimas.
+
 ## 1. JULGAR
 
 O NARRADOR consulta somente o que precisa para decidir a janela atual.
@@ -245,6 +280,8 @@ A narração segue apenas até o próximo ponto em que uma peça precise decidir
 
 > **A sentença termina onde a consequência volta a ser escolha.**
 
+Quando a sentença termina, a janela anterior está fechada. Qualquer nova decisão pertence a uma nova janela e precisa voltar à cadeira com autoridade para iniciá-la.
+
 ## 3. REGISTRAR
 
 Depois de narrar a sentença, o NARRADOR registra somente o que realmente passou a ser verdade.
@@ -289,6 +326,6 @@ A oposição precisa vir do OPOSITOR, de fatos já existentes ou das próprias r
 
 ## Regra final
 
-> **NARRADOR = JUIZ. Julga. Narra a sentença. Registra.**
+> **NARRADOR = JUIZ. Julga somente janelas completas. Narra a sentença. Registra.**
 >
-> **Não joga personagens, não joga pela defesa, não joga pela promotoria e não movimenta a história por iniciativa própria. Rotina evidente pode ser narrada; decisão voluntária relevante pertence a uma cadeira de jogador. Quando restar dúvida genuína depois dos fatos, regras e resolução aplicáveis, escolha a solução coerente que melhor preserve o desenvolvimento e a continuidade da cena.**
+> **Não joga personagens, não inicia ações voluntárias, não joga pela defesa, não joga pela promotoria e não movimenta a história por iniciativa própria. Rotina evidente pode ser narrada; decisão voluntária relevante pertence a uma cadeira de jogador. Se faltar qualquer declaração obrigatória, não existe resolução. Quando restar dúvida genuína depois dos fatos, regras e resolução aplicáveis, escolha a solução coerente que melhor preserve o desenvolvimento e a continuidade da cena.**
