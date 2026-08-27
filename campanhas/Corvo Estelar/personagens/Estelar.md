@@ -5,12 +5,12 @@ Importância: Central
 CONTROLE: JOGADOR IA
 Patamar: [ ]
 
-Nome real:
-Idade:
-Aparência:
-Estilo:
-Conceito:
-Descrição:
+Nome real: Koriand'r
+Idade: 24
+Aparência: pele levemente alaranjada, cabelos longos e intensamente ruivos, olhos verdes luminosos, porte alto e atlético.
+Estilo: roupas de inspiração tamaraniana, visual marcante e colorido, normalmente com tons de roxo, prata e detalhes que remetem à sua origem alienígena.
+Conceito: princesa tamaraniana e guerreira extraterrestre de grande poder físico, capaz de voar e projetar energia estelar.
+Descrição: versão adulta inspirada principalmente na Estelar de Jovens Titãs (2003), adaptada à continuidade de Corvo Estelar. É uma alienígena de Tamaran, criada em uma cultura diferente da terrestre e plenamente acostumada a expressar emoções e afeto de maneira mais aberta.
 
 TRAÇOS:
 
