@@ -71,9 +71,13 @@ Corvin não conhece sua família nem a origem de seus poderes e convive com a po
 ## Conhecimento atual relevante
 Experiência extensa explorando ruínas, cavernas, regiões remotas e locais incomuns ao redor do mundo. Conhecimento prático de sobrevivência, exploração, Ciência e Ofícios. Acumulou experiência pesquisando objetos antigos, materiais raros, livros, tomos e itens encontrados durante suas viagens. Conhece bem o funcionamento prático de sua própria energia da criação, embora não compreenda sua origem verdadeira.
 
+Conhece Ravena, Estelar e os demais Titãs apenas por exposição pública — televisão, internet, celular, jornais e notícias. Sabe quem eles são, mas nunca teve contato pessoal com nenhum deles no início da campanha.
+
 ## História consolidada relevante
 Corvin Black cresceu sem conhecer a própria família, em um orfanato de uma pequena cidade próxima a Gotham. Aos 12 anos descobriu que possuía capacidades extraordinárias e fugiu do orfanato. Desde então passou a maior parte da vida viajando pelo mundo, explorando ruínas, lugares exóticos e regiões difíceis de alcançar em busca de respostas sobre sua origem e sobre a natureza de seus poderes.
 
 Ao longo dessas viagens, reuniu livros, tomos, objetos, metais preciosos, ouro, pedras preciosas e outros materiais, além de acumular conhecimento científico e técnico. Com o tempo estabeleceu uma base isolada no interior de uma montanha na Groenlândia, transformando uma caverna em uma residência subterrânea equipada com laboratório, oficina, internet, energia, água, esgoto e espaço para seu crescente acervo. Quando não está explorando, costuma retornar para lá.
+
+Corvin nunca adotou uniforme ou nome de herói e não construiu uma identidade heroica pública. Como vive viajando, relatos sobre seus feitos tendem a permanecer locais e fragmentados; quando algum reconhecimento começa a surgir, ele normalmente já deixou a região.
 
 Desde cedo também percebe que consegue saber quando alguém mente e descobriu que é incapaz de fazer afirmações que sabe serem falsas. Até hoje não entende se essas características, sua imortalidade e seus demais dons fazem parte da mesma origem.
