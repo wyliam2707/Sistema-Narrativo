@@ -5,12 +5,12 @@ Importância: Central
 CONTROLE: JOGADOR HUMANO
 Patamar: [ ]
 
-Nome real:
-Idade:
-Aparência:
-Estilo:
-Conceito:
-Descrição:
+Nome real: Corvin Black
+Idade: 28
+Aparência: humano de aparência comum e mediana, sem traços físicos particularmente chamativos. Possui cabelos com alguns fios já brancos apesar da idade, contrastando discretamente com sua aparência relativamente jovem.
+Estilo: extremamente despojado; prefere calção, camisa comum e chinelo e, quando pode, anda descalço. Não costuma se preocupar em parecer elegante ou heroico.
+Conceito: humano de aparência absolutamente comum, sem presença visual que revele de imediato qualquer capacidade extraordinária.
+Descrição: Corvin Black tem 28 anos e poderia facilmente passar despercebido em qualquer lugar. Sua aparência é comum, seu jeito de vestir é casual ao extremo e ele não parece alguém que esteja tentando impressionar ninguém. É bem-humorado, descontraído e levemente paquerador, especialmente quando encontra alguém que chama sua atenção.
 
 TRAÇOS:
 
