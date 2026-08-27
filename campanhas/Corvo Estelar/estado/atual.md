@@ -16,32 +16,37 @@ Stancy, a pessoa que Corvin veio procurar a pedido de um conhecido, chegou à ci
 
 Marta aceitou levar Corvin, Ravena e Estelar ao observatório depois que fechar a lanchonete, por volta das 20h.
 
-Corvin saiu para procurar um rastro de Stancy pela cidade. Ravena e Estelar decidiram acompanhá-lo. Durante a busca, Corvin encontrou uma etiqueta de bagagem com o nome STANCY presa sob uma grade de drenagem numa rua lateral. O objeto parece recente e oferece um primeiro rastro físico concreto de que ela passou por aquela área.
+Corvin saiu para procurar um rastro de Stancy pela cidade. Ravena e Estelar decidiram acompanhá-lo e também investigaram por seus próprios métodos.
+
+A investigação conjunta produziu três resultados convergentes:
+- Corvin encontrou uma etiqueta de bagagem com o nome STANCY presa sob uma grade de drenagem numa rua lateral. O objeto parece recente e confirma fisicamente que ela passou por aquela área.
+- Ravena examinou o local e reconstruiu a passagem a partir dos sinais disponíveis, concluindo que a etiqueta provavelmente se desprendeu durante deslocamento pela rua e não parece ter sido colocada ali deliberadamente como mensagem.
+- Estelar conversou com pessoas das proximidades. Uma moradora se recorda de ter visto Stancy naquela região alguns dias atrás, mas, como os demais, afirma com naturalidade que ela está bem sem conseguir dizer onde ela foi depois.
 
 ## Personagens diretamente envolvidos
 
 ### Ravena
 Vida: 27/27
 Mana: 34/34
-Local: junto de Corvin e Estelar, investigando o rastro de Stancy.
-Conhecimento atual: sabe que a cidade impede a saída de modo anômalo, que os moradores parecem genuinamente satisfeitos em permanecer, que Stancy está desaparecida e que Corvin está procurando por ela.
+Local: junto de Corvin e Estelar, na rua lateral onde surgiu o primeiro rastro físico de Stancy.
+Conhecimento atual: sabe que a cidade impede a saída de modo anômalo, que os moradores parecem genuinamente satisfeitos em permanecer, que Stancy está desaparecida e que a etiqueta encontrada indica passagem recente dela pela área.
 
 ### Estelar
 Vida: 34/34
 Mana: 34/34
-Local: junto de Corvin e Ravena, investigando o rastro de Stancy.
-Conhecimento atual: confirmou pessoalmente que voar para fora da cidade a faz retornar pelo lado oposto; sabe que Stancy está desaparecida e que Corvin procura por ela.
+Local: junto de Corvin e Ravena, na rua lateral onde surgiu o primeiro rastro físico de Stancy.
+Conhecimento atual: confirmou pessoalmente que voar para fora da cidade a faz retornar pelo lado oposto; sabe que Stancy está desaparecida; obteve de uma moradora confirmação de que Stancy foi vista naquela região alguns dias atrás.
 
 ### Corvin Black
 Vida: 45/45
 Mana: 50/50
 Trama: 30
 Local: rua lateral da pequena cidade, junto de Ravena e Estelar.
-Situação: investigando um rastro físico de Stancy.
+Situação: encontrou o primeiro rastro físico concreto de Stancy e continua investigando com Ravena e Estelar.
 Contato com Ravena e Estelar: primeiro contato pessoal estabelecido nesta manhã.
 
 ## Fios atuais
-- Seguir o rastro físico de Stancy e descobrir onde ela está.
+- Seguir o rastro físico e testemunhal de Stancy e descobrir onde ela está.
 - Investigar a natureza da cidade e por que sair dela não é simples.
 - Ir ao observatório com Marta, Ravena e Estelar por volta das 20h.
 - Investigar a assinatura anômala do observatório.
