@@ -40,6 +40,10 @@ Mana [X] | Efeito [X]
 Se o poder não usar Mana, não existe segunda linha.
 
 Ataque Desarmado [1d20 + FOR] x Defesa | Toque | Dano 1d6 + FOR
+
+Arte Marcial [1d20 + FOR] x Defesa | Toque | Dano 1d6 + FOR
+Mana [X] | +1d6 de dano por ponto de Mana gasto
+
 Poderes [segundo lista de Poderes padrão]
 
 ### Bloco 7
