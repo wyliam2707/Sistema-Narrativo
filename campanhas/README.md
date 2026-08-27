@@ -1,6 +1,42 @@
 # Campanhas
 
-Esta pasta é a raiz das campanhas do Sistema Narrativo.
+Esta pasta é a raiz de **todos os dados vivos das campanhas** do Sistema Narrativo.
+
+As regras ficam em `regras-basicas/`.
+
+Tudo que for verdade específica de uma campanha deve ser salvo dentro de sua própria pasta em `campanhas/<nome>/`.
+
+```text
+regras-basicas/
+→ regras, procedimentos e modelos
+
+campanhas/<nome>/
+→ estado real da mesa
+```
+
+## O que pertence à campanha
+
+Podem e devem ser preservados aqui, conforme a estrutura de cada campanha:
+
+- fichas reais;
+- personagens;
+- estado atual;
+- Vida, Mana, condições e recursos;
+- conhecimento das personagens;
+- relações;
+- mundo e cenário;
+- acontecimentos estabelecidos;
+- processos em andamento;
+- prazos;
+- eventos futuros já julgados;
+- planos e registros do Opositor;
+- registros do Narrador;
+- capítulos e livro;
+- qualquer outra verdade que precise continuar existindo naquela campanha.
+
+> **Se é uma verdade da mesa e não uma regra do sistema, pertence a `campanhas/<nome>/`.**
+
+## Estrutura
 
 Cada campanha ou arquivo de teste deve existir em sua própria subpasta:
 
@@ -11,7 +47,24 @@ campanhas/
 └── <outra-campanha>/
 ```
 
-O arquivo `campanhas/README.md` é permanente e não pertence a nenhuma campanha específica.
+A estrutura interna pode conter áreas como:
+
+```text
+campanhas/<nome>/
+├── README.md
+├── estado/
+├── personagens/
+├── mundo/
+├── mestre/
+├── opositor/
+└── livro/
+```
+
+Nem toda campanha precisa usar exatamente todas essas pastas, mas nenhum dado vivo deve ser deslocado para `regras-basicas/` apenas para ser lembrado.
+
+Os arquivos podem permanecer visíveis e fáceis de localizar para inspeção e ajuste manual.
+
+Restrições como `reservado` indicam somente **quem pode usar aquela informação dentro da ficção**, não quem pode abrir o arquivo no repositório.
 
 ## Regra para continuar
 
@@ -34,25 +87,12 @@ TESTE / LEGADO / INCOMPATÍVEL
 → migrar somente se o jogador pedir
 ```
 
-Campanhas já iniciadas no motor atual devem possuir **Mesa operacional** no próprio README conforme:
-
-```text
-sistema/criacao/start-da-campanha.md
-sistema/personas/instanciacao-da-mesa.md
-```
+Campanhas já iniciadas no motor atual podem manter referências antigas enquanto a reformulação não for concluída.
 
 ## Arquivos presentes
 
 - Corvo Estelar — CRIAÇÃO: EM ANDAMENTO
 
-## Criação
+## Regra final
 
-Regras de criação e estrutura:
-
-```text
-sistema/criacao/README.md
-sistema/criacao/estrutura-da-campanha.md
-sistema/criacao/start-da-campanha.md
-```
-
-> **A presença de uma pasta em `campanhas/` não basta para torná-la jogável. O README da própria pasta declara sua compatibilidade e estado de criação.**
+> **`regras-basicas/` explica como jogar. `campanhas/<nome>/` guarda tudo que aconteceu, existe, está em andamento ou está previsto naquela campanha.**
