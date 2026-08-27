@@ -11,3 +11,4 @@ Ravena — Central — JOGADOR IA
 Estelar — Central — JOGADOR IA
 Dick Grayson — Relevante — JOGADOR IA EVENTUAL
 Mutano — Relevante — JOGADOR IA EVENTUAL
+Ciborg — Relevante — JOGADOR IA EVENTUAL
