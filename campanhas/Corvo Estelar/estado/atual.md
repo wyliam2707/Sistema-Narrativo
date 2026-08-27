@@ -1,72 +1,130 @@
 # Estado atual
 
 ## Momento
-Primeiro dia de jogo, durante a manhã.
+Primeiro dia de jogo, durante a manhã, imediatamente após o encerramento do Capítulo 1 — **A Porta Atrás do Guarda-Roupa**.
 
 ## Situação atual
-Corvin Black está na pequena cidade há aproximadamente uma semana. Já confirmou que sair fisicamente não é simples: tentativas por estrada, carro e moto acabam levando de volta à cidade. Estelar também tentou sair voando em linha reta e retornou pelo lado oposto sem ter mudado voluntariamente de direção.
+Corvin está preso na pequena cidade há aproximadamente uma semana. Tentativas de sair fisicamente por estrada, carro e moto acabam devolvendo-o à cidade. Estelar também tentou sair voando em linha reta e retornou pelo horizonte oposto sem ter mudado voluntariamente de direção.
 
-Os moradores não aparentam estar sendo coagidos a permanecer. Quando dizem que gostam da cidade e não veem motivo para ir embora, Corvin não detecta mentira, e Ravena percebe emoções compatíveis com o que dizem.
+Os moradores não aparentam estar fingindo a própria satisfação. Quando dizem que gostam da cidade e não veem motivo para ir embora, Corvin não detecta mentira, e Ravena percebe emoções compatíveis com o que dizem.
 
-Corvin encontrou Ravena e Estelar pela primeira vez nesta manhã. As duas vieram investigar um observatório abandonado que começou a emitir uma assinatura anômala misturando componentes extraterrestres e místico-dimensionais.
+Corvin conheceu Ravena e Estelar pessoalmente nesta manhã. As duas vieram investigar um observatório abandonado que emite uma assinatura anômala com componentes extraterrestres e místico-dimensionais.
 
-Na lanchonete, Marta contou que chegou à cidade por acaso depois de se perder na estrada e pretendia ficar apenas alguns dias, mas acabou permanecendo por anos. Outros moradores parecem ter histórias semelhantes.
+Na lanchonete, Marta contou que chegou à cidade por acaso depois de se perder na estrada, pretendia ficar apenas alguns dias e acabou permanecendo por anos. Ela gosta da cidade e não vê motivo para partir; Corvin não detectou mentira. Marta aceitou levar Corvin, Ravena e Estelar ao observatório depois do fechamento da lanchonete, por volta das 20h.
 
-Stancy, a pessoa que Corvin veio procurar a pedido de um conhecido, chegou à cidade quatro dias antes dele. Marta conseguiu confirmar com moradores que todos dizem que Stancy está bem, mas ninguém soube informar onde ela está.
+Stancy, a pessoa que Corvin veio procurar a pedido de um conhecido, chegou à cidade quatro dias antes dele. A investigação conjunta de Corvin, Ravena e Estelar encontrou um rastro físico que passou por uma rua lateral, uma viela e uma antiga pensão de dois andares.
 
-Marta aceitou levar Corvin, Ravena e Estelar ao observatório depois que fechar a lanchonete, por volta das 20h.
+No quarto de Stancy, no segundo andar da pensão, foram encontrados:
+- a mala de Stancy aberta, ainda contendo roupas;
+- uma roda faltando, compatível com a peça quebrada encontrada anteriormente no rastro;
+- o celular desligado sobre o criado-mudo;
+- ausência de sinais evidentes de luta;
+- um rastro físico que termina diante de um guarda-roupa e não retorna para a porta;
+- uma distorção místico-dimensional concentrada atrás do guarda-roupa.
 
-Corvin saiu para procurar um rastro de Stancy pela cidade. Ravena e Estelar decidiram acompanhá-lo e também investigaram por seus próprios métodos.
+O guarda-roupa foi afastado. Atrás dele existe uma passagem espacial de proporções impossíveis, escondida na parede. Uma fibra compatível com a cor de uma roupa de Stancy estava presa no limiar.
 
-A investigação conjunta produziu três resultados convergentes:
-- Corvin encontrou uma etiqueta de bagagem com o nome STANCY presa sob uma grade de drenagem numa rua lateral. O objeto parece recente e confirma fisicamente que ela passou por aquela área.
-- Ravena examinou o local e reconstruiu a passagem a partir dos sinais disponíveis, concluindo que a etiqueta provavelmente se desprendeu durante deslocamento pela rua e não parece ter sido colocada ali deliberadamente como mensagem.
-- Estelar conversou com pessoas das proximidades. Uma moradora se recorda de ter visto Stancy naquela região alguns dias atrás, mas, como os demais, afirma com naturalidade que ela está bem sem conseguir dizer onde ela foi depois.
+Corvin, Ravena e Estelar atravessaram a passagem. Do outro lado existe um corredor de concreto frio, comprido demais para caber fisicamente dentro da pensão. A abertura permaneceu visível para o quarto durante a exploração inicial.
 
-Ao ampliar a busca dentro e ao redor do ponto onde a etiqueta foi encontrada:
-- Corvin identificou marcas paralelas compatíveis com rodas de uma mala sendo puxada. Elas seguem da grade de drenagem para uma viela estreita entre dois prédios.
-- Na continuação do rastro, perto de uma porta traseira, Corvin encontrou uma pequena rodinha de mala quebrada; o tamanho é compatível com as marcas observadas no chão.
-- Estelar verificou a área pelo alto e confirmou que a viela termina nos fundos de uma construção antiga de dois andares, aparentemente uma pequena pensão ou hospedaria, com entrada frontal na rua seguinte e porta de serviço nos fundos.
-- Ravena percebeu na direção da viela uma assinatura fraca de natureza mística ou dimensional.
+Antes de avançar, Corvin testou sem se teleportar se ainda possuía uma referência válida para retornar ao quarto por Teleporte caso a passagem se fechasse. O teste indicou uma referência viável e nenhum bloqueio evidente, mas não garante que qualquer tentativa futura funcionará em toda parte da estrutura.
 
-Corvin abriu a porta traseira da pensão, que não estava trancada, e os três entraram para continuar a investigação. Dentro do corredor, Corvin seguiu novos sinais físicos compatíveis com a passagem de uma mala: riscos curtos no piso, poeira deslocada junto ao rodapé e marcas de impacto na madeira. O rastro não entra nas primeiras portas e conduz até uma escada para o segundo andar. Nos degraus existem riscos recentes compatíveis com uma mala sendo puxada para cima.
+Seguindo rastros pelo corredor, o grupo encontrou quatro marcas profundas e paralelas em uma parede e depois encontrou Stancy viva, consciente e tranquila junto de uma criatura alta, encurvada e não humana.
 
-Ravena confirmou que a distorção mística/dimensional fica mais nítida dentro da pensão e se intensifica na direção do segundo andar.
+A criatura fala e se apresentou como **Vael**.
 
-Corvin, Ravena e Estelar subiram ao segundo andar. O rastro físico continuou pelo corredor até uma das últimas portas do lado esquerdo, onde marcas recentes no batente e rodapé reforçaram que a mala entrou naquele quarto. Ravena confirmou que a distorção também se concentra ali.
+### O que foi estabelecido sobre Stancy
+- Stancy afirmou que estava bem e que entrou na passagem por vontade própria.
+- Corvin não detectou mentira nessas afirmações.
+- Ravena percebeu que Stancy não estava com medo.
+- Stancy confirmou que Vael não a trouxe para o corredor.
+- Ela não estava sendo mantida presa.
+- Quando convidada por Corvin, Stancy se levantou e foi voluntariamente para junto de Ravena e Estelar.
+- Stancy aceitou voltar à pensão e demonstrou interesse no café proposto por Corvin.
+- De volta ao quarto, aceitou mudar para outro quarto e levar seus pertences.
 
-Corvin abriu a porta com cuidado e os três investigaram o quarto. Não havia ninguém dentro. Uma mala aberta, ainda contendo roupas, estava no quarto e faltava uma rodinha; o encaixe quebrado corresponde ao fragmento encontrado anteriormente. Outros objetos pessoais permanecem no cômodo, incluindo um celular desligado sobre o criado-mudo. Não existem sinais evidentes de luta nem de uma partida normal organizada.
+### O que foi estabelecido sobre Vael
+- Vael não é humano.
+- Ele se define como um vigia e é mais adaptado a espaços que não obedecem à geometria comum.
+- Vael não trouxe Stancy para a passagem.
+- Ele permanece no corredor e observa quem atravessa.
+- Sua função é principalmente impedir que certas criaturas vindas do seu lado alcancem o lado humano.
+- Também impede algumas pessoas do lado humano de avançar quando acredita que elas não sobreviveriam ao que existe adiante.
+- Vael não é o carcereiro da cidade.
+- Ele não trabalha para quem criou a cidade.
+- Vael pode deixar o local e pretende fazê-lo algum dia, mas possui motivos próprios para permanecer por enquanto.
+- Vael prefere conversar quando isso resolve a situação.
+- Existem criaturas mais agressivas além daquele ponto, algumas sem interesse ou capacidade de diálogo.
+- Vael afirmou que o setor encontrado pelo grupo ainda é relativamente seguro e aconselhou não avançar demais além do próximo setor.
+- Nenhuma das afirmações relevantes acima disparou a Detecção [Mentiras] de Corvin.
 
-Corvin encontrou sinais discretos de circulação no piso que seguem da área da cama até um guarda-roupa de madeira e terminam ali, sem rastro equivalente retornando para a porta. Ravena determinou que a distorção mística/dimensional está concentrada atrás ou dentro desse guarda-roupa e percebe que o espaço naquele ponto foi alterado de alguma forma, embora ainda não saiba exatamente como. Estelar confirmou pela leitura do rastro que, se Stancy tivesse saído normalmente do quarto, seria esperado encontrar sinais continuando de volta para o corredor.
+### O que Vael revelou sobre a cidade e a rede espacial
+- A cidade funciona como uma gaiola.
+- O espaço é dobrado para devolver quem tenta sair.
+- Quanto mais tempo alguém permanece na cidade, menor tende a se tornar sua urgência de partir.
+- Isso não significa que os moradores estejam fingindo felicidade; em geral, quando dizem estar satisfeitos, realmente estão.
+- O efeito não parece depender de a pessoa ser humana, mas não age com a mesma intensidade em todos.
+- Vael não sabe quem criou a cidade nem para que ela foi criada originalmente.
+- Há partes da cidade conectadas a espaços como o corredor encontrado atrás do guarda-roupa.
+- Além do ponto onde Stancy foi encontrada existem mais passagens, espaços ligados de maneiras que não correspondem ao mapa físico da cidade, lugares abandonados e coisas que atravessaram de outros lados.
+- Se alguém avançar longe o bastante, existem pontos em que essa estrutura se conecta a algo maior que a própria cidade.
+- Vael não conhece toda a extensão da rede.
+
+Antes de retornar, Corvin entregou a Vael uma chave pessoal e pediu que ele a guardasse até sua volta. Vael aceitou. Para Corvin, a chave também serve como referencial pessoal útil para Teleporte; **Corvin não explicou essa função a Vael, Ravena, Estelar ou Stancy**.
+
+Corvin prometeu trazer um café para Vael quando voltasse. Vael afirmou nunca ter tomado café e aceitou experimentar.
+
+Corvin, Ravena, Estelar e Stancy retornaram pela passagem ao quarto da pensão. Vael permaneceu em seu posto e não os impediu de sair.
+
+O grupo decidiu não continuar explorando a rede dimensional por enquanto. Stancy está preparando a mudança para outro quarto, Estelar se dispôs a ajudá-la com a mala e Ravena prefere deixar a passagem atrás do guarda-roupa descoberta para perceber caso ela mude, feche ou algo atravesse.
 
 ## Personagens diretamente envolvidos
 
 ### Ravena
 Vida: 27/27
 Mana: 34/34
-Local: quarto ligado ao rastro de Stancy, no segundo andar da pensão.
-Conhecimento atual: sabe que Stancy esteve no quarto, que seus pertences continuam ali, que o rastro físico termina no guarda-roupa e que a distorção mística/dimensional está concentrada atrás ou dentro dele. Percebe que o espaço naquele ponto foi alterado de alguma forma.
+Local: quarto de Stancy, segundo andar da pensão.
+Situação: voltou do corredor dimensional sem ferimentos. Pretende permanecer na cidade e continuar a investigação. Prefere manter a passagem descoberta e observável.
+Relação atual com Corvin: primeiro dia de convivência; responde ao humor e ao flerte leve com ironia seca, sem hostilidade. Nenhum romance estabelecido.
+Conhecimento importante: sabe que Vael não parece ser o responsável pela prisão da cidade e conhece as informações que ele revelou durante a conversa. Corvin ainda não sabe que Ravena possui Detecção [Magia].
 
 ### Estelar
 Vida: 34/34
 Mana: 34/34
-Local: mesmo quarto, junto de Corvin e Ravena.
-Conhecimento atual: sabe que Stancy esteve no quarto, que seus pertences continuam ali e que o rastro físico termina no guarda-roupa sem retorno aparente para o corredor.
+Local: quarto de Stancy, segundo andar da pensão.
+Situação: voltou do corredor dimensional sem ferimentos. Pretende permanecer com o grupo e ajudar Stancy a mudar de quarto.
+Relação atual com Corvin: primeiro dia de convivência; demonstra abertamente que se diverte com o humor e as provocações dele. Nenhum romance estabelecido.
 
 ### Corvin Black
 Vida: 45/45
 Mana: 50/50
 Trama: 30
-Local: mesmo quarto, diante do guarda-roupa indicado pelo rastro de Stancy.
-Situação: confirmou a presença recente de Stancy pela mala e demais pertences; encontrou um rastro interno que termina no guarda-roupa e não retorna para a porta.
+Local: quarto de Stancy, segundo andar da pensão.
+Situação: encontrou Stancy viva e livre, estabeleceu contato não hostil com Vael e possui agora informações concretas sobre a natureza da prisão espacial da cidade.
+Teleporte: confirmou anteriormente uma referência plausível do corredor para o quarto. Também deixou com Vael uma chave pessoal que pode servir como referência de Teleporte; os demais não conhecem essa finalidade.
 Contato com Ravena e Estelar: primeiro contato pessoal estabelecido nesta manhã.
+Comportamento já observado: humor leve e flerte casual; tende a se colocar à frente quando existe risco para quem está atrás dele.
+
+### Stancy
+Local: quarto onde seus pertences foram encontrados, segundo andar da pensão.
+Situação: viva, consciente, sem evidência de coerção e de volta à pensão. Está se preparando para mudar para outro quarto com seus pertences.
+
+### Vael
+Local: corredor dimensional além da passagem escondida na pensão.
+Situação: não hostil e permanecendo em seu posto. Guarda uma chave entregue por Corvin e espera o café prometido quando ele voltar.
+
+## Dinâmica atual
+- Corvin chamou Ravena e Estelar de “duas gracinhas” durante a negociação com Vael; Estelar se divertiu e Ravena reagiu com ironia seca.
+- Corvin continua chamando a ida ao observatório com Marta, Ravena e Estelar de “encontro”. Ravena não adota essa definição; Estelar se diverte com ela.
+- Ravena e Estelar investigam e tomam decisões próprias; não são acompanhantes passivas de Corvin.
+- Nenhum romance está estabelecido neste ponto.
 
 ## Fios atuais
-- Investigar o guarda-roupa onde termina o rastro físico de Stancy.
-- Investigar a alteração mística/dimensional concentrada atrás ou dentro do guarda-roupa.
-- Descobrir onde Stancy está e o que aconteceu com ela.
-- Investigar a natureza da cidade e por que sair dela não é simples.
+- Encontrar outro quarto para Stancy e retirar seus pertences do quarto ligado à passagem dimensional.
+- Observar se a passagem atrás do guarda-roupa permanece estável ou sofre alterações.
+- Retornar futuramente a Vael e cumprir a promessa do café.
+- Decidir até onde explorar a rede dimensional além do posto de Vael.
+- Investigar a natureza da cidade, sua origem e seu propósito.
+- Entender por que os moradores deixam gradualmente de querer partir.
 - Ir ao observatório com Marta, Ravena e Estelar por volta das 20h.
 - Investigar a assinatura anômala do observatório.
-- Entender por que os moradores que chegaram de fora deixam de querer partir.
 - A investigação maior de Dick, Batman, Mutano e Ciborgue continua em paralelo.
