@@ -4,7 +4,7 @@ CRIAÇÃO: EM ANDAMENTO
 
 Etapa atual: Revisão das fichas
 Personagem atual: Dick Grayson
-Bloco atual: 4 - Recursos e relações
+Bloco atual: 5 - Conferência final
 
 ## Personagens com agência
 
