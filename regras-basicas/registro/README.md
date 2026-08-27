@@ -2,9 +2,21 @@
 
 Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
-Reúne as regras sobre o que precisa continuar verdadeiro entre ações, cenas, capítulos e retomadas.
+Esta pasta contém **as regras de Registro**.
 
-Inclui, quando forem definidas:
+Os dados reais de uma campanha não ficam aqui.
+
+```text
+regras-basicas/registro/
+→ regras sobre o que registrar e como interpretar
+
+campanhas/<nome>/
+→ todos os registros vivos daquela campanha
+```
+
+## O que uma campanha pode preservar
+
+Dentro de `campanhas/<nome>/`, conforme sua estrutura, podem ser salvos:
 
 - ficha consolidada;
 - Vida e Mana atuais;
@@ -14,19 +26,20 @@ Inclui, quando forem definidas:
 - acontecimentos importantes;
 - intenções e processos em andamento;
 - prazos e eventos futuros já estabelecidos;
+- planos adversariais;
 - estado da campanha.
 
 ## Registro como fonte de conhecimento
 
-Para Jogador Humano, Jogador IA e Jogador IA Eventual, o Registro funciona como a fonte persistente daquilo que a personagem legitimamente sabe além do que já está definido em sua própria ficha.
+Para Jogador Humano, Jogador IA e Jogador IA Eventual, os arquivos da própria campanha funcionam como fonte persistente daquilo que a personagem legitimamente sabe além do que já está definido em sua ficha.
 
 ```text
 DECISÃO DE UM JOGADOR
 → própria ficha
-+ Registro que represente o conhecimento de sua personagem
++ arquivos da campanha que representem o conhecimento de sua personagem
 ```
 
-O Registro pode preservar, quando necessário:
+Esses arquivos podem preservar, quando necessário:
 
 - fatos percebidos;
 - informações recebidas;
@@ -37,32 +50,32 @@ O Registro pode preservar, quando necessário:
 - estado atual relevante;
 - outras verdades que aquela personagem possa legitimamente usar em decisões futuras.
 
-Informação existente em outra fonte do sistema não se torna automaticamente conhecimento da personagem.
+Informação existente em outra área da campanha não se torna automaticamente conhecimento da personagem.
 
 ```text
-SISTEMA SABE
+CAMPANHA SABE
 ≠
 PERSONAGEM SABE
 ```
 
-Quando um novo fato percebido precisar continuar disponível em cenas ou retomadas futuras, ele deve ser preservado no Registro apropriado.
+Quando um novo fato percebido precisar continuar disponível em cenas ou retomadas futuras, ele deve ser preservado no local apropriado dentro de `campanhas/<nome>/`.
 
 ## Registro comum e Registro reservado
 
 Nem toda verdade da campanha precisa ser fonte de conhecimento para todas as personagens.
 
-O sistema pode manter áreas diferentes de Registro conforme a função da informação.
+A campanha pode manter áreas diferentes conforme a função da informação.
 
 ```text
-REGISTRO COMUM / DA PERSONAGEM
+REGISTRO DA PERSONAGEM / ESTADO COMUM
 → fatos que aquela personagem pode usar legitimamente para decidir.
 
-REGISTRO RESERVADO DO OPOSITOR
+REGISTRO DO OPOSITOR
 → planos, processos, prazos e informações do lado adversarial.
 → uso operacional de Opositor e Narrador.
 ```
 
-O Registro reservado pode permanecer totalmente visível no repositório.
+Os arquivos podem permanecer totalmente visíveis no repositório.
 
 `Reservado` descreve **quem pode usar aquela informação dentro do jogo**, não quem pode abrir o arquivo.
 
@@ -72,7 +85,7 @@ ARQUIVO VISÍVEL
 CONHECIMENTO DA PERSONAGEM
 ```
 
-Isso permite ao responsável pela campanha localizar, revisar e ajustar qualquer arquivo sem quebrar a separação de conhecimento entre as personas.
+Isso permite ao responsável pela campanha localizar, revisar e ajustar qualquer registro sem quebrar a separação de conhecimento entre as personas.
 
 ## Processos em andamento
 
@@ -87,12 +100,12 @@ NARRADOR
 → julga a investigação.
 → estabelece: primeiras pistas em 10 dias.
 
-REGISTRO
-→ investigação de Dick em andamento.
-→ primeiras pistas em 10 dias.
+CAMPANHA
+→ registra investigação em andamento.
+→ registra primeiras pistas em 10 dias.
 ```
 
-Depois de registrado, o processo não precisa ser reinventado nem redeclarado em todas as cenas em que a personagem não for relevante.
+Depois de salvo na campanha, o processo não precisa ser reinventado nem redeclarado em todas as cenas em que a personagem não for relevante.
 
 Ele permanece verdadeiro até:
 
@@ -106,7 +119,7 @@ Tempo sozinho não cria novas decisões nem novos testes.
 
 ## Prazos
 
-Quando o Narrador estabelece uma duração ou momento futuro relevante, o Registro preserva esse prazo para que a história não dependa da memória da IA.
+Quando o Narrador estabelece uma duração ou momento futuro relevante, a campanha preserva esse prazo para que a história não dependa da memória da IA.
 
 Exemplos:
 
@@ -120,7 +133,7 @@ Mutano chega amanhã.
 primeiras pistas da investigação em 10 dias.
 ```
 
-O Registro preserva o prazo; ele não decide sozinho como o evento será executado.
+O registro preserva o prazo; ele não decide sozinho como o evento será executado.
 
 ## Natureza do evento registrado
 
@@ -139,22 +152,6 @@ INIMIGO OU FORÇA ADVERSARIAL
 → OPOSITOR assume e declara.
 ```
 
-Exemplos:
-
-```text
-tempestade chega
-→ Narrador aplica.
-
-veneno produz efeito
-→ Narrador aplica conforme a regra estabelecida.
-
-Mutano chega
-→ Eventual assume Mutano.
-
-inimigo entra em campo
-→ Opositor assume a força adversarial.
-```
-
 O prazo pode tornar uma personagem relevante, mas não decide voluntariamente por ela.
 
 ## Intenções longas e eventos pendentes
@@ -167,7 +164,7 @@ Exemplo:
 JOGADOR HUMANO
 → vou estudar o dia todo.
 
-REGISTRO
+CAMPANHA
 → veneno produz efeito em 1 hora.
 ```
 
@@ -186,12 +183,12 @@ OPOSITOR
 → lembra que o veneno produz efeito em 1 hora.
 
 NARRADOR
-→ verifica o Registro.
+→ verifica a campanha.
 → aplica o fato no momento correto.
 ```
 
-Se o fato não estiver estabelecido, a fiscalização não pode inventá-lo.
+Se o fato não estiver estabelecido na campanha, a fiscalização não pode inventá-lo.
 
 ## Regra final
 
-> **Registro preserva verdades, conhecimentos, processos, efeitos e prazos já estabelecidos. Os arquivos podem permanecer visíveis e fáceis de auditar; o que muda entre registros é a autoridade de uso dentro do jogo. Fatos naturais e efeitos automáticos pertencem ao Narrador; personagens eventuais retornam ao Jogador IA Eventual; forças adversariais retornam ao Opositor.**
+> **Esta pasta contém somente regras de Registro. Toda verdade viva, conhecimento, processo, efeito ou prazo deve ser salvo dentro de `campanhas/<nome>/`. Os arquivos podem permanecer visíveis e fáceis de auditar; o que muda é a autoridade de uso dentro do jogo.**
