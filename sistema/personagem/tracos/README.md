@@ -31,15 +31,26 @@ Os Traços estão organizados em quatro grupos:
 
 ---
 
-## 2. Valores
+## 2. Custo dos Traços positivos
 
-Traços positivos usam valores de `[1]` a `[3]` conforme utilidade e impacto.
+Todo Traço positivo custa:
+
+> **1 espaço de Traço positivo**
+
+Não existe custo variável `[1–3]` para adquirir um Traço positivo.
+
+Se um Traço possuir níveis, estágios ou categorias internas, esses elementos pertencem à sua própria mecânica e **não alteram o custo de aquisição**.
 
 ```text
-[1] → vantagem menor ou situacional
-[2] → vantagem relevante e ampla
-[3] → vantagem maior, capaz de alterar fortemente possibilidades
+1 Traço positivo
+→ 1 espaço
+
+nível interno do Traço
+→ parte do efeito
+→ não aumenta o preço
 ```
+
+Como cada Traço ocupa um espaço inteiro, características pequenas demais para alterar de modo relevante as possibilidades da personagem pertencem normalmente ao Conceito ou à descrição, e não ao catálogo pago.
 
 Vícios valem:
 
@@ -49,9 +60,7 @@ Corrupções valem:
 
 > **[-1] ou [-2]**, conforme abrangência prática da limitação.
 
-Esses valores servem principalmente para **construção e aquisição**.
-
-> **O número do Traço não é bônus genérico de rolagem.**
+> **O número de um Traço nunca é bônus genérico de rolagem.**
 
 Um Traço só concede `+d`, `-d`, Dano, RD, recuperação ou outra consequência numérica quando sua própria descrição disser isso explicitamente.
 
@@ -59,18 +68,16 @@ Um Traço só concede `+d`, `-d`, Dano, RD, recuperação ou outra consequência
 
 ## 3. Economia de criação
 
-Os pontos iniciais de Traços positivos são definidos por `../patamar.md`:
+Os espaços iniciais de Traços positivos são definidos por `../patamar.md`:
 
-> **Pontos de Traços positivos = Patamar + 1**
+> **Traços positivos iniciais = Patamar + 1**
 
-Cada ponto negativo obtido por Vício ou Corrupção fornece **1 ponto adicional**, que pode ser usado em apenas uma destas opções:
+Cada ponto negativo obtido por Vício ou Corrupção fornece **1 escolha adicional**, usada em apenas uma destas opções:
 
-- `+1` ponto de Traço positivo;
+- `+1` Traço positivo;
 - `+1` Poder.
 
 > **O mesmo ponto negativo nunca compra as duas coisas.**
-
-Essa regra de `patamar.md` prevalece sobre qualquer formulação legada nos catálogos que trate o ponto negativo como compra exclusiva de Traço positivo.
 
 ---
 
@@ -132,4 +139,4 @@ corrupcao.md
 
 ## Regra final
 
-> **O catálogo estabelece opções e consequências específicas. `tracos.md` define o que é um Traço; `patamar.md` define sua economia; `trama.md` define apenas a interação mecânica com a reserva do protagonista humano.**
+> **Todo Traço positivo custa 1 espaço. O catálogo estabelece sua consequência específica; `tracos.md` define o conceito geral, `patamar.md` define quantidades e `trama.md` define apenas a interação com a reserva do protagonista humano.**
