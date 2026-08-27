@@ -3,7 +3,7 @@
 Status: PENDENTE DE REVISÃO
 Importância: Central
 CONTROLE: JOGADOR IA
-Patamar: [ ]
+Patamar: [3]
 
 Nome real: Koriand'r
 Idade: 24
@@ -15,12 +15,16 @@ Descrição: versão adulta inspirada principalmente na Estelar de Jovens Titãs
 TRAÇOS:
 
 ATR:
-Corpo  → Potência [ ] | Controle [ ] | Resistência [ ]
-Mente  → Intelecto [ ] | Presença [ ] | Vontade [ ]
+Corpo  → Potência [4] | Controle [2] | Resistência [2]
+Mente  → Intelecto [0] | Presença [2] | Vontade [2]
 
-Vida Máxima [ ] | Mana Máxima [ ]
+Vida Máxima [34] | Mana Máxima [34]
 
 PERÍCIAS:
+- Esportes
+- Idiomas
+- Condução
+
 PODERES:
 RECURSOS:
 
