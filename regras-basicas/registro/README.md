@@ -12,6 +12,8 @@ Inclui, quando forem definidas:
 - relações relevantes;
 - conhecimento atual;
 - acontecimentos importantes;
+- intenções e processos em andamento;
+- prazos e eventos futuros já estabelecidos;
 - estado da campanha.
 
 ## Registro como fonte de conhecimento
@@ -45,4 +47,124 @@ PERSONAGEM SABE
 
 Quando um novo fato percebido precisar continuar disponível em cenas ou retomadas futuras, ele deve ser preservado no Registro apropriado.
 
-> **Registro preserva o que já foi estabelecido. Ele não decide nem recalcula uma ação. Para os jogadores, ele também delimita o que suas personagens podem legitimamente levar para decisões futuras.**
+## Processos em andamento
+
+Uma ação julgada pode produzir um processo que continua durante a passagem do tempo.
+
+Exemplo:
+
+```text
+Dick começa a investigar o desaparecimento de Ravena.
+
+NARRADOR
+→ julga a investigação.
+→ estabelece: primeiras pistas em 10 dias.
+
+REGISTRO
+→ investigação de Dick em andamento.
+→ primeiras pistas em 10 dias.
+```
+
+Depois de registrado, o processo não precisa ser reinventado nem redeclarado em todas as cenas em que a personagem não for relevante.
+
+Ele permanece verdadeiro até:
+
+- atingir seu prazo;
+- ser concluído;
+- ser interrompido por fato legítimo;
+- tornar-se impossível;
+- exigir uma nova decisão da personagem.
+
+Tempo sozinho não cria novas decisões nem novos testes.
+
+## Prazos
+
+Quando o Narrador estabelece uma duração ou momento futuro relevante, o Registro preserva esse prazo para que a história não dependa da memória da IA.
+
+Exemplos:
+
+```text
+veneno produz efeito em 1 hora.
+
+tempestade chega em 2 dias.
+
+Mutano chega amanhã.
+
+primeiras pistas da investigação em 10 dias.
+```
+
+O Registro preserva o prazo; ele não decide sozinho como o evento será executado.
+
+## Natureza do evento registrado
+
+Quando o prazo chega, a forma de execução depende da natureza do fato.
+
+```text
+FATO NATURAL OU EFEITO AUTOMÁTICO
+→ NARRADOR aplica como parte do cenário.
+
+PERSONAGEM ALIADA OU EVENTUAL
+→ torna-se relevante.
+→ JOGADOR IA EVENTUAL assume e declara.
+
+INIMIGO OU FORÇA ADVERSARIAL
+→ torna-se oposição relevante.
+→ OPOSITOR assume e declara.
+```
+
+Exemplos:
+
+```text
+tempestade chega
+→ Narrador aplica.
+
+veneno produz efeito
+→ Narrador aplica conforme a regra estabelecida.
+
+Mutano chega
+→ Eventual assume Mutano.
+
+inimigo entra em campo
+→ Opositor assume a força adversarial.
+```
+
+O prazo pode tornar uma personagem relevante, mas não decide voluntariamente por ela.
+
+## Intenções longas e eventos pendentes
+
+Uma intenção pode abranger um período maior do que um evento já registrado.
+
+Exemplo:
+
+```text
+JOGADOR HUMANO
+→ vou estudar o dia todo.
+
+REGISTRO
+→ veneno produz efeito em 1 hora.
+```
+
+O tempo não pode avançar além de 1 hora ignorando o fato registrado.
+
+Quando o prazo chega, o evento entra na situação e a sentença deve respeitá-lo antes de continuar.
+
+O Opositor pode fiscalizar esses prazos e trazê-los para a janela para impedir que sejam esquecidos, mas isso não transforma o Opositor em autor do fato.
+
+## Fiscalização não altera o Registro
+
+Apontar um fato registrado não cria, modifica ou antecipa esse fato.
+
+```text
+OPOSITOR
+→ lembra que o veneno produz efeito em 1 hora.
+
+NARRADOR
+→ verifica o Registro.
+→ aplica o fato no momento correto.
+```
+
+Se o fato não estiver estabelecido, a fiscalização não pode inventá-lo.
+
+## Regra final
+
+> **Registro preserva verdades, conhecimentos, processos, efeitos e prazos já estabelecidos. Ele não decide ações. Quando um prazo chega, fatos naturais e efeitos automáticos pertencem ao Narrador; personagens eventuais retornam ao Jogador IA Eventual; forças adversariais retornam ao Opositor. O Registro garante continuidade para que nada precise ser reinventado ou lembrado informalmente.**
