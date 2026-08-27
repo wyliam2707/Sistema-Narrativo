@@ -184,7 +184,9 @@ Quando um Poder usar `[X]`:
 
 A ficha registra Traços consolidados conforme `tracos.md` e `tracos/`.
 
-Se houver valor de aquisição, ele não se transforma automaticamente em bônus de teste.
+Cada Traço positivo ocupa **1 espaço de Traço** na criação.
+
+Se um Traço possuir número, nível, estágio ou categoria interna, isso faz parte do efeito específico daquele Traço e não representa custo de aquisição nem bônus genérico de teste.
 
 Vícios e Corrupções continuam sendo Traços da personagem, não Status temporários.
 
