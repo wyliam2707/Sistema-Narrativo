@@ -72,34 +72,150 @@ Pensamento direto dessa peça aparece quando foi declarado ou autorizado pelo pr
 
 Sensações, reflexos involuntários e percepções objetivas podem ser narrados normalmente quando forem consequência legítima da situação, sem transformar isso em decisão ou interpretação voluntária inventada.
 
-## Livro consolidado
+## Livro consolidado: terceira pessoa e protagonismo compartilhado
 
-O material literário consolidado é escrito em **terceira pessoa** e pode apresentar a visão de **cada personagem realmente envolvido na cena**.
+O Livro é escrito como **conto ou romance em terceira pessoa**, não como relatório, log de sessão ou transcrição mecânica.
 
-Isso inclui, quando relevante:
+As peças controladas por JOGADOR HUMANO e JOGADORES IA que participam da história são tratadas como **protagonistas compartilhados**.
 
-- o que cada um percebe;
-- o que pensa;
-- sua opinião sobre o que está acontecendo;
-- sua leitura dos outros personagens;
-- emoções e conflitos internos coerentes com sua personalidade;
-- diferenças de interpretação entre pessoas que presenciaram o mesmo acontecimento.
+Isso significa:
 
-A narrativa pode alternar o foco entre os envolvidos para mostrar que uma mesma cena é vivida de maneiras diferentes. Não é necessário limitar o capítulo inteiro a uma única mente, mas cada passagem deve deixar claro de quem é a percepção ou interioridade apresentada.
+- a câmera literária não pertence automaticamente ao personagem humano;
+- uma cena iniciada por Ravena pode permanecer centrada em Ravena;
+- uma conversa conduzida por Estelar pode ser narrativamente conduzida por Estelar;
+- se Corvin estiver apenas reagindo em determinado trecho, o Livro não reescreve a cena para fazê-lo parecer o motor daquela sequência;
+- protagonismo compartilhado não exige dividir espaço matematicamente igual, mas exige preservar a agência e importância real de cada protagonista.
 
-Pensamentos de qualquer personagem podem aparecer quando:
+JOGADOR IA EVENTUAL e NPCs podem receber foco quando a cena exigir, mas não precisam ser transformados artificialmente em protagonistas permanentes.
 
-- forem coerentes com o que realmente aconteceu;
-- respeitarem o ponto de vista usado;
-- não criarem conhecimento inexistente;
-- não inventarem decisão retroativa;
-- não contradisserem a agência demonstrada durante o jogo.
+> **A literatura preserva quem realmente moveu cada parte da história.**
 
-O livro pode oferecer interioridade maior que a sessão ao vivo, mas não pode reescrever o cânone.
+## Pensamentos no Livro
 
-Para a peça do JOGADOR HUMANO, pensamentos e opiniões já estabelecidos pelo jogador podem ser literariamente desenvolvidos sem alterar seu sentido. Quando uma motivação, opinião ou decisão interna nunca foi estabelecida e não puder ser inferida com segurança do que o jogador demonstrou, preservar a ambiguidade em vez de fabricar uma justificativa posterior.
+Pensamentos diretos continuam usando:
 
-> **O livro registra não apenas o que aconteceu, mas como os envolvidos viveram aquilo — em terceira pessoa, sem transformar interpretação literária em alteração retroativa do cânone.**
+```text
+[Nome, pensa] — Pensamento.
+```
+
+O Livro pode mostrar pensamentos de diferentes protagonistas, mas **não pode inventá-los retrospectivamente apenas porque seriam convenientes ou literariamente bonitos**.
+
+Um pensamento pode aparecer quando:
+
+- foi declarado pelo JOGADOR HUMANO;
+- foi estabelecido pela cadeira JOGADOR IA que controla aquela personagem;
+- foi estabelecido pela cadeira EVENTUAL quando legitimamente controlava aquela peça;
+- representa uma interioridade já canonicamente estabelecida sem criar nova decisão, conhecimento ou motivação.
+
+Quando a motivação interna nunca foi estabelecida com segurança, preservar a ambiguidade.
+
+Exemplo correto:
+
+```text
+JOGADOR IA — Ravena havia decidido não revelar ainda que percebe magia.
+
+No Livro:
+[Ravena, pensa] — Ainda não preciso explicar isso a ele.
+```
+
+Exemplo incorreto:
+
+```text
+O Livro inventa que Ravena se apaixonou naquele instante
+→ sem que essa interioridade tenha sido estabelecida durante a história.
+```
+
+> **O Livro pode dar forma literária à interioridade estabelecida. Não cria uma interioridade nova para explicar o passado.**
+
+## Detecção [Mentiras] — apresentação
+
+Uma personagem pode mentir, omitir, evadir, manipular ou usar meia-verdade quando isso fizer sentido para ela e sua própria ficha não impedir.
+
+A existência de Detecção [Mentiras] em outra peça **não torna o mundo mais honesto** e não deve influenciar a decisão de quem desconhece essa capacidade.
+
+Quando Corvin — ou outra personagem com efeito equivalente — percebe legitimamente uma afirmação conscientemente falsa, a apresentação marca **somente o menor trecho necessário da mentira em negrito**.
+
+Exemplos:
+
+```text
+[Pessoa] — Eu **não** gosto de você.
+```
+
+```text
+[Homem] — Éramos **três**.
+```
+
+```text
+[Mulher] — Eu cheguei **ontem**.
+```
+
+Não adicionar automaticamente comentários como:
+
+```text
+isso é mentira
+Detecção reagiu
+ela está dizendo a verdade
+nenhuma mentira detectada
+```
+
+O próprio negrito é a apresentação da percepção.
+
+### O que a marcação revela
+
+O negrito revela somente:
+
+> **essa parte da afirmação é conscientemente falsa para quem a disse.**
+
+Não revela automaticamente:
+
+- qual é a verdade;
+- o motivo da mentira;
+- o que foi omitido;
+- a intenção secreta;
+- pensamentos;
+- contexto não declarado.
+
+Exemplo:
+
+```text
+[Pessoa] — Eu **não** gosto de você.
+```
+
+Corvin sabe que a negação é falsa. Isso não define sozinho se a pessoa sente amor, atração, amizade, obsessão ou outro sentimento.
+
+### Erro sincero
+
+Uma afirmação objetivamente errada, mas sinceramente acreditada, não recebe marcação.
+
+```text
+[Pessoa] — Ela saiu às oito.
+```
+
+Se a pessoa realmente acredita que foi às oito, não existe mentira consciente para marcar, mesmo que a hora real tenha sido nove.
+
+### Omissão e evasiva
+
+Uma frase verdadeira que omite informação continua sem marcação.
+
+```text
+[Pessoa] — Eu vi Stancy ontem.
+```
+
+Se isso for verdade, Detecção [Mentiras] não revela automaticamente o que a pessoa deixou de contar.
+
+Uma evasiva também não é mentira por definição:
+
+```text
+[Pessoa] — Não quero responder isso.
+```
+
+### Alcance narrativo
+
+A marcação só aparece quando a personagem detectora realmente percebe e compreende a afirmação dentro das condições de sua capacidade.
+
+O Livro pode preservar essa mesma marcação quando estiver registrando uma fala que a personagem detectora presenciou.
+
+> **Detectar mentira identifica falsidade consciente. Não é leitura de mente nem detector automático da verdade completa.**
 
 ## Voz individual
 
@@ -139,4 +255,4 @@ Se o comportamento já comunica claramente, não explicar novamente por obrigaç
 
 ## Regra final
 
-> **Fala é identificada. Pensamento direto é controlado. No RPG ao vivo, a mente das outras peças permanece fora de acesso direto; no livro consolidado, a narrativa em terceira pessoa pode mostrar a visão, pensamentos e opiniões dos personagens envolvidos sem alterar fatos, decisões ou conhecimento.**
+> **Falas usam `[Nome] —`; pensamentos diretos usam `[Nome, pensa] —`. No RPG ao vivo, interioridade privada permanece protegida. No Livro, a terceira pessoa trata os jogadores relevantes como protagonistas compartilhados e só desenvolve pensamentos legitimamente estabelecidos. Detecção [Mentiras] marca em negrito apenas o menor fragmento conscientemente falso, sem revelar a verdade escondida.**
