@@ -45,6 +45,11 @@ Defesa:
 
 Poderes [segundo lista de Poderes padrão]
 
+### Bloco 7 — Descrição do Personagem
+
+Descrição Física [X]
+Descrição Conceitual [X]
+
 ### Pontos de Perícia
 
 Total [X]
