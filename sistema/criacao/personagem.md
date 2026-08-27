@@ -52,13 +52,14 @@ Perícia ainda não escolhida simplesmente não aparece.
 
 ## Ordem da revisão
 
-Cada ficha é revisada em quatro blocos:
+Cada ficha é revisada em cinco blocos:
 
 ```text
 1 - Identidade e Conceito
 2 - Patamar, Atributos e Perícias
-3 - Poderes, Traços, Recursos e relações
-4 - Conferência final
+3 - Poderes e Traços
+4 - Recursos e relações
+5 - Conferência final
 ```
 
 Em todos os blocos:
@@ -111,17 +112,15 @@ Vida Máxima → ../resolucao/vida.md
 Mana Máxima → ../resolucao/mana.md
 ```
 
-### Bloco 3 — Poderes, Traços, Recursos e relações
+### Bloco 3 — Poderes e Traços
 
-Revisar em conjunto o arsenal funcional, as verdades passivas estáveis, os recursos externos consolidados e as relações recorrentes da personagem.
+Revisar em conjunto o arsenal funcional e as verdades passivas estáveis da personagem.
 
 Usar:
 
 ```text
 Poderes     → ../personagem/poderes.md e ../resolucao/poderes/
 Traços      → ../personagem/tracos.md e ../personagem/tracos/
-Relações    → ../personagem/relacoes.md
-RECURSOS    → ../personagem/ficha.md
 Patamar     → ../personagem/patamar.md
 ```
 
@@ -135,9 +134,22 @@ Como cada ponto negativo pode ser convertido em `+1` Traço positivo ou `+1` Pod
 
 O mesmo ponto negativo nunca compra simultaneamente um Poder e um Traço positivo.
 
+### Bloco 4 — Recursos e relações
+
+Revisar separadamente os meios externos consolidados e as relações recorrentes da personagem.
+
+Usar:
+
+```text
+Relações    → ../personagem/relacoes.md
+RECURSOS    → ../personagem/ficha.md
+```
+
+Registrar apenas Recursos que representem meios externos estáveis e relevantes para a personagem, e apenas relações recorrentes que mereçam permanecer consolidadas na ficha.
+
 Informações já aprovadas reaparecem automaticamente; não perguntar de novo.
 
-### Bloco 4 — Conferência final
+### Bloco 5 — Conferência final
 
 Revisar a ficha inteira e completar apenas informações úteis para interpretação e continuidade, como:
 
@@ -155,6 +167,7 @@ Conferir:
 - Vida/Mana derivadas corretamente;
 - Poderes sem grau genérico `[1–5]`;
 - economia entre Traços negativos, Traços positivos extras e Poderes extras válida;
+- Recursos e relações coerentes e não duplicados com Traços;
 - ausência de ENERGIA universal;
 - ausência de campos inventados ou não aprovados.
 
@@ -180,7 +193,7 @@ Durante a revisão:
 Status: PENDENTE DE REVISÃO
 ```
 
-Depois do Bloco 4 aprovado:
+Depois do Bloco 5 aprovado:
 
 ```text
 Status: APROVADO
