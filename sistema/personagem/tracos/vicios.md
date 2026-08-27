@@ -1,8 +1,10 @@
 # Vícios
 
+Status: APROVADO
+
 Este arquivo reúne os **Traços negativos comuns** do sistema.
 
-Vícios representam limitações, hábitos, conflitos pessoais, compromissos, relações ou problemas mundanos que fazem parte do personagem e podem gerar desconforto ou complicações narrativas.
+Vícios representam limitações, hábitos, conflitos pessoais, compromissos, relações ou problemas mundanos que fazem parte da personagem e podem gerar pressão, dificuldade ou complicações reais.
 
 Eles não são Poderes, não substituem Atributos ou Perícias e não devem ser usados como penalidades permanentes fora de contexto.
 
@@ -16,142 +18,346 @@ Cada Vício adquirido acrescenta **1 ponto negativo de criação**.
 
 Cada ponto negativo pode ser usado em apenas uma destas opções, conforme `../patamar.md`:
 
-- `+1` ponto de Traço positivo;
+- `+1` Traço positivo;
 - `+1` Poder.
 
 O mesmo ponto negativo nunca compra as duas coisas ao mesmo tempo.
 
-O valor negativo é cumulativo. Um personagem com dois Vícios possui `[-2]` em Vícios e recebeu 2 pontos negativos de criação; com três Vícios, possui `[-3]`, e assim por diante.
+Um mesmo Vício não possui níveis de preço. Cada entrada individual vale sempre **[-1]**.
 
-Um mesmo Vício não possui níveis. Cada entrada individual vale sempre **[-1]**.
+Como todo Vício fornece o mesmo benefício de criação, seu equilíbrio vem da própria definição:
 
-Vícios existem para criar **desconforto, escolhas difíceis, limitações e complicações narrativas** quando a situação apropriada aparece.
+```text
+limitação pequena demais
+→ ampliar ou unir
 
-O **OPOSITOR** pode explorar um Vício como fonte de pressão, tentação, cobrança, ameaça ou complicação quando houver oportunidade ficcional legítima. Isso não permite decidir pelo personagem. O jogador continua escolhendo se cede, resiste, evita ou enfrenta a situação.
+limitação ampla demais
+→ restringir o gatilho ou a consequência
+
+limitação puramente cosmética
+→ não concede ponto negativo
+```
+
+> **Vício precisa poder criar uma complicação real. Não existe ponto negativo por detalhe que nunca atrapalha a personagem.**
+
+---
+
+## Critério mínimo de validade
+
+Um Vício só concede `[-1]` quando possuir os três elementos abaixo:
+
+1. **gatilho concreto** — existe uma situação identificável que pode colocá-lo em jogo;
+2. **consequência relevante** — quando aparece, pode dificultar escolhas, ações, relações, segurança ou recursos;
+3. **presença plausível na campanha** — o problema pode realmente surgir na ficção atual.
+
+Um Vício não é válido quando depende de uma condição praticamente impossível de ocorrer ou quando sua consequência seria irrelevante para a personagem.
+
+Também não é permitido comprar várias vezes a mesma limitação usando nomes diferentes.
+
+```text
+mesmo problema
+→ um único Vício
+
+pressões realmente independentes
+→ Vícios diferentes
+```
 
 ---
 
 ## Vícios e Pontos de Trama
 
-Quando um Vício realmente coloca o personagem diante de uma escolha relevante e ele **cede ao Traço**, aceitando a dificuldade ou complicação que isso produz, recebe **+1 Ponto de Trama**, respeitando o limite diário definido em **[../trama.md](../trama.md)**.
+Quando um Vício realmente coloca a personagem elegível diante de uma escolha relevante e ela **aceita voluntariamente a complicação**, recebe normalmente:
 
-Se o personagem **resiste, enfrenta, ignora ou procura contornar o Vício**, normalmente não recebe esse ponto.
+> **+1 Trama**
 
-A escolha precisa ter consequência narrativa real. Ações triviais ou sem custo não geram Trama apenas porque combinam superficialmente com a descrição do personagem.
+respeitando o limite diário de complicações definido em `../trama.md`.
 
-O Narrador ou OPOSITOR não pode declarar que o personagem cedeu. A decisão continua pertencendo à persona que controla o personagem.
+Evitar, resistir ou contornar o Vício normalmente não concede esse ponto.
+
+O **OPOSITOR** pode apresentar o gatilho, a tentação, a cobrança, o risco ou a consequência legítima do Vício.
+
+Ele não pode decidir que a personagem cedeu quando ainda existe escolha voluntária.
+
+> **O Vício cria pressão. A persona da peça continua escolhendo.**
 
 ---
 
 # Lista de Vícios Mundanos
 
-## Vício [X] [-1]
+## Dependência [X] [-1]
 
-Possui desejo recorrente por uma substância, sensação ou atividade e pode ter dificuldade em ignorá-la quando surge oportunidade ou quando passa muito tempo sem ela.
+A personagem possui dependência recorrente de uma substância, sensação ou atividade.
 
-Exemplos: **Vício [Álcool]**, **Vício [Cigarro]**, **Vício [Drogas]**, **Vício [Jogo]**, **Vício [Adrenalina]**.
+Exemplos:
 
-Se `[X]` for uma necessidade sobrenatural necessária para recuperação ou existência, use **Dieta Especial**, não Vício.
+```text
+Dependência [Álcool]
+Dependência [Nicotina]
+Dependência [Droga]
+Dependência [Jogo]
+Dependência [Adrenalina]
+```
+
+A Dependência deve ser relevante o bastante para criar pelo menos uma destas pressões:
+
+- necessidade recorrente de obter ou consumir `[X]`;
+- risco, gasto, exposição ou perda de tempo para satisfazê-la;
+- desconforto ou abstinência quando a privação realmente se prolongar;
+- dificuldade em ignorar uma oportunidade forte relacionada a `[X]`.
+
+Quando a abstinência ou desejo estiverem diretamente interferindo em uma resolução, aplica-se:
+
+> **-1d**
+
+somente naquela resolução realmente afetada.
+
+A Dependência não obriga consumo automático e não cria penalidade constante apenas por existir na ficha.
+
+Se `[X]` for uma necessidade sobrenatural necessária para existência, repouso ou recuperação, usar uma **Corrupção** apropriada em vez de Dependência.
+
+---
 
 ## Fobia [X] [-1]
 
-Possui medo intenso de uma criatura, situação, ambiente ou condição específica.
+A personagem possui medo intenso de uma criatura, situação, ambiente ou condição específica.
 
-Quando confrontado diretamente com a fonte da Fobia e o medo for realmente relevante para a situação, o personagem sofre **-1 dado em suas resoluções**.
+Quando confrontada diretamente com a fonte da Fobia e o medo for realmente relevante para a situação:
 
-A Fobia não impede ações e não obriga o personagem a fugir, recuar ou perder o controle. Ela representa a dificuldade causada pelo medo; o jogador continua escolhendo como reagir.
+> **-1d nas resoluções afetadas pelo medo**
 
-Exemplos: **Fobia [Altura]**, **Fobia [Fogo]**, **Fobia [Lugares Fechados]**, **Fobia [Aranhas]**, **Fobia [Multidões]**.
+A Fobia não obriga fuga, pânico ou perda automática de controle.
 
-**Fobia** é uma limitação mundana e aplica `-1 dado`. **Repulsa** é sobrenatural e aplica `-2 dados` enquanto sua fonte estiver presente.
+Exemplos:
 
-## Obsessão [X] [-1]
+```text
+Fobia [Altura]
+Fobia [Fogo]
+Fobia [Lugares Fechados]
+Fobia [Aranhas]
+Fobia [Multidões]
+```
 
-Existe uma pessoa, objetivo, ideia ou desejo que ocupa atenção excessiva e pode levar o personagem a priorizá-lo mesmo quando existirem opções mais sensatas.
+A fonte precisa ser específica o bastante para não funcionar como penalidade universal.
 
-Exemplos: **Obsessão [Vingança]**, **Obsessão [Riqueza]**, **Obsessão [Conhecimento]**, **Obsessão [Reconhecimento]**, **Obsessão [Pessoa Específica]**.
+---
 
-## Impulsivo [-1]
+## Compulsão [X] [-1]
 
-Diante de provocação, oportunidade, urgência ou perigo, tende a agir antes de considerar completamente as consequências.
+A personagem possui um padrão comportamental forte que reaparece diante de gatilhos definidos.
 
-O Traço não obriga ações irracionais em toda cena; ele cria pressão para decisões precipitadas quando a situação favorece esse comportamento.
+Esse Vício reúne limitações que antes poderiam aparecer separadamente como obsessão, impulsividade, ira ou orgulho quando sua função prática fosse a mesma: **pressionar a personagem a agir de determinada maneira**.
 
-Exemplos de situações em que o Traço pode pressionar o personagem: aceitar um desafio sem pensar; entrar em uma briga por provocação; agir antes do grupo combinar; perseguir alguém imediatamente; arriscar-se por uma oportunidade que pode desaparecer.
+Exemplos:
 
-## Irascível [-1]
+```text
+Compulsão [Vingança]
+Compulsão [Buscar Conhecimento Proibido]
+Compulsão [Aceitar Desafios]
+Compulsão [Responder a Insultos]
+Compulsão [Nunca Demonstrar Fraqueza]
+Compulsão [Agir Antes de Pensar]
+```
 
-Insultos, humilhações, frustrações ou provocações despertam sua raiva com facilidade e podem levá-lo a confrontos, ameaças ou reações agressivas.
+Ao registrar a Compulsão, definir:
 
-Exemplos de gatilhos relevantes: insulto público; humilhação; provocação direta; ameaça a alguém próximo; ser tratado com desprezo.
+```text
+Gatilho
+→ o que a coloca em jogo
 
-## Orgulhoso [-1]
+Tendência
+→ qual comportamento ela pressiona
+```
 
-Tem dificuldade em admitir erro, aceitar humilhação, pedir ajuda ou recuar quando sua dignidade é diretamente desafiada.
+A Compulsão não obriga uma decisão voluntária.
 
-O personagem continua capaz de fazer essas coisas, mas fazê-las deve representar uma decisão significativa quando seu orgulho estiver envolvido.
+Quando a personagem tenta manter foco, negociar, ocultar intenção ou realizar outra ação incerta **enquanto a Compulsão interfere diretamente**, pode sofrer:
 
-Exemplos de pressão: recusar ajuda; não admitir um erro; insistir depois de uma derrota; aceitar um desafio dirigido ao ego; evitar pedir desculpas.
+> **-1d**
+
+apenas na resolução realmente afetada.
+
+Ceder à Compulsão e aceitar uma complicação real pode gerar Trama conforme a regra geral.
+
+---
 
 ## Código [X] [-1]
 
-Segue voluntariamente uma regra pessoal que limita suas escolhas mesmo quando quebrá-la seria vantajoso.
+A personagem segue voluntariamente uma regra pessoal que limita suas escolhas mesmo quando quebrá-la seria vantajoso.
 
-Exemplos: **Código [Nunca Matar]**, **Código [Nunca Mentir]**, **Código [Nunca Abandonar um Aliado]**, **Código [Sempre Cumprir uma Promessa]**, **Código [Nunca Ferir Inocentes]**.
+Exemplos:
 
-Quando cumprir o Código apesar de isso criar dificuldade, custo ou complicação relevante, o personagem pode receber **+1 Ponto de Trama**, respeitando o limite diário.
+```text
+Código [Nunca Matar]
+Código [Nunca Mentir]
+Código [Nunca Abandonar um Aliado]
+Código [Sempre Cumprir uma Promessa]
+Código [Nunca Ferir Inocentes]
+```
 
-O personagem **pode quebrar o Código**, mas perde imediatamente **5 Pontos de Trama**.
+O Código precisa realmente poder limitar decisões durante a campanha.
 
-Antes que o jogador conclua uma ação que viole claramente seu Código, o **Narrador deve avisar explicitamente que essa escolha fará o personagem perder 5 Pontos de Trama**. Se o jogador mantiver a decisão, a ação acontece normalmente e a perda é aplicada.
+Quando cumprir o Código apesar de isso criar dificuldade ou custo relevante, a complicação pode gerar Trama conforme `../trama.md`.
 
-Pontos de Trama nunca ficam negativos. Se o personagem possuir menos de 5, perde apenas os pontos que tiver. Ter 0 Pontos de Trama não o impede de quebrar o Código.
+A personagem **pode quebrar o Código**, mas perde imediatamente:
 
-**Código é um compromisso pessoal e pode ser violado. Restrição é uma impossibilidade sobrenatural e não pode ser violada apenas por escolha.**
+> **5 Trama**
 
-Um Código só conta como Vício quando realmente pode limitar o personagem durante a história.
+Antes que uma ação viole claramente o Código, o NARRADOR deve informar o custo enquanto ele ainda puder alterar a decisão.
+
+Se a personagem possuir menos de 5 Trama, perde apenas o que possuir. Trama nunca fica negativa e ter `0` não impede a violação.
+
+> **Código pode ser violado por escolha. Restrição sobrenatural pertence a Corrupção e pode representar impossibilidade real.**
+
+---
 
 ## Laço [X] [-1]
 
-Possui uma pessoa, grupo, comunidade ou lugar pelo qual sente responsabilidade verdadeira. Ameaças, necessidades ou problemas envolvendo esse Laço podem exigir sua atenção mesmo quando seria mais conveniente ignorá-los.
+A personagem possui uma pessoa, grupo, comunidade ou lugar pelo qual sente responsabilidade real e recorrente.
 
-Exemplos: **Laço [Filho]**, **Laço [Parceiro]**, **Laço [Família]**, **Laço [Protegido]**, **Laço [Comunidade]**.
+Exemplos:
+
+```text
+Laço [Filho]
+Laço [Parceiro]
+Laço [Família]
+Laço [Protegido]
+Laço [Comunidade]
+Laço [Cidade Natal]
+```
+
+Para valer `[-1]`, o Laço precisa poder criar pressão concreta, como:
+
+- necessidade de proteção;
+- pedido de ajuda;
+- conflito de prioridades;
+- risco de perda;
+- responsabilidade difícil de ignorar;
+- inimigos usando a relação como ponto de pressão quando isso for ficcionalmente legítimo.
+
+O Laço não concede ao OPOSITOR autoridade sobre a decisão da personagem, mas torna aquela relação uma fonte legítima de complicações.
+
+Uma relação importante mas incapaz de produzir qualquer limitação não é Vício; pode simplesmente existir em `REL`.
+
+---
 
 ## Inimigo [X] [-1]
 
-Uma pessoa, grupo ou organização possui motivo real para prejudicar, capturar, expor ou derrotar o personagem e pode agir contra ele quando houver oportunidade narrativa plausível.
+Uma pessoa, grupo ou organização possui motivo real e recorrente para prejudicar, capturar, expor, impedir ou derrotar a personagem.
 
-O Inimigo deve existir concretamente na ficção e possuir capacidade razoável de causar problemas.
+Para valer `[-1]`, o Inimigo precisa possuir:
 
-Exemplos: **Inimigo [Rival Pessoal]**, **Inimigo [Gangue]**, **Inimigo [Organização Criminosa]**, **Inimigo [Autoridade]**, **Inimigo [Ex-Aliado]**.
+```text
+motivação real
++ capacidade plausível de agir
++ possibilidade concreta de reaparecer
+```
+
+Exemplos:
+
+```text
+Inimigo [Rival Pessoal]
+Inimigo [Gangue]
+Inimigo [Organização Criminosa]
+Inimigo [Autoridade]
+Inimigo [Ex-Aliado]
+```
+
+Um inimigo preso para sempre, incapaz de agir, sem agentes e sem possibilidade plausível de retorno não sustenta este Vício enquanto essa situação permanecer verdadeira.
+
+Inimigo autoriza pressão e ações coerentes dessa peça ou organização; não garante que ela apareça artificialmente em toda história.
+
+---
 
 ## Dívida [X] [-1]
 
-Deve algo importante a alguém: dinheiro, favor, serviço, promessa ou obrigação. O credor pode cobrar essa dívida em momentos inconvenientes, dentro dos limites estabelecidos pelo Conceito.
+A personagem possui uma obrigação relevante que outra parte pode legitimamente cobrar.
 
-Exemplos: **Dívida [Dinheiro]**, **Dívida [Favor]**, **Dívida [Proteção Recebida]**, **Dívida [Serviço Prometido]**, **Dívida [Obrigação Familiar]**.
+Pode envolver:
+
+```text
+dinheiro
+favor
+serviço
+promessa
+proteção recebida
+obrigação familiar
+compromisso profissional
+```
+
+Para valer `[-1]`, a Dívida precisa ter:
+
+- um credor ou beneficiário identificável;
+- algo significativo que ainda esteja pendente;
+- possibilidade real de cobrança;
+- consequência plausível para recusa, atraso ou descumprimento.
+
+A cobrança pode surgir em momento inconveniente e criar conflito entre a obrigação e os objetivos atuais da personagem.
+
+Uma dívida trivial, já quitada ou que ninguém pode cobrar não sustenta este Vício.
+
+---
 
 ## Segredo [X] [-1]
 
-Existe uma verdade sobre o personagem cuja revelação pode causar consequências relevantes para sua vida, relações, posição ou segurança.
+Existe uma verdade sobre a personagem cuja revelação pode causar consequência relevante para sua segurança, posição, relações, recursos ou liberdade.
 
-O Traço não significa que o segredo será descoberto automaticamente. Ele estabelece algo concreto que precisa ser protegido e que pode se tornar uma complicação quando ameaçado.
+Exemplos:
 
-Exemplos: **Segredo [Identidade Falsa]**, **Segredo [Crime Passado]**, **Segredo [Relação Proibida]**, **Segredo [Verdadeira Origem]**, **Segredo [Informação Comprometedora]**.
+```text
+Segredo [Identidade Falsa]
+Segredo [Crime Passado]
+Segredo [Relação Proibida]
+Segredo [Verdadeira Origem]
+Segredo [Informação Comprometedora]
+```
+
+Para valer `[-1]`, o Segredo precisa cumprir duas condições:
+
+```text
+se revelado
+→ consequência realmente importante
+
+na campanha
+→ existe caminho plausível para descoberta, suspeita, investigação ou exposição
+```
+
+O Segredo não é descoberto automaticamente.
+
+Ele estabelece que proteger a informação pode exigir mentiras, escolhas difíceis, custo, fuga, investigação defensiva ou outras complicações legítimas.
+
+Um fato que ninguém pode descobrir ou cuja revelação não mudaria nada não concede ponto negativo.
 
 ---
 
 # Princípios de interpretação
 
 1. Todo Vício individual vale sempre **[-1]**.
-2. Cada Vício fornece **1 ponto negativo de criação**, utilizável em `+1` ponto de Traço positivo **ou** `+1` Poder conforme `../patamar.md`.
-3. Vícios não possuem níveis próprios; o valor total negativo aumenta pela quantidade de Vícios adquiridos.
-4. Um Vício só deve gerar consequência quando sua condição estiver realmente presente na narrativa.
-5. Vícios não aplicam penalidades numéricas permanentes. **Fobia** aplica sua penalidade apenas quando a fonte do medo estiver diretamente presente e relevante.
-6. O OPOSITOR pode pressionar um Vício, mas não decide que o personagem cedeu a ele.
-7. Ceder a um Vício em uma escolha relevante pode gerar Ponto de Trama; resistir ou contorná-lo normalmente não gera esse ponto.
-8. **Código** é uma exceção explícita: quebrá-lo custa 5 Pontos de Trama e exige aviso prévio do Narrador.
-9. Traços com a mesma função narrativa devem ser unidos em uma entrada mais ampla sempre que possível.
-10. Características sobrenaturais negativas não pertencem a esta lista; devem ser tratadas como **Corrupções**.
-11. Características físicas mundanas que pertençam apenas à natureza ou condição do personagem ficam no **Conceito** e na ficção, em vez de serem agrupadas em um Vício genérico de Condição.
-12. A descrição de cada Vício deve ser suficiente para que um Narrador humano ou IA o interprete sem depender de informação externa.
+2. Cada Vício fornece **1 ponto negativo de criação**, utilizável em `+1` Traço positivo **ou** `+1` Poder conforme `../patamar.md`.
+3. Vícios não possuem níveis de preço.
+4. Um Vício só é válido quando possui gatilho, consequência e possibilidade plausível de aparecer na campanha.
+5. Não conceder ponto por limitação puramente cosmética, remota ou impossível de entrar em jogo.
+6. Não comprar várias vezes o mesmo problema com nomes diferentes.
+7. **Dependência**, **Fobia** e **Compulsão** podem aplicar `-1d` apenas quando sua condição estiver diretamente interferindo na resolução.
+8. O OPOSITOR pode pressionar um Vício, mas não decide escolhas voluntárias da personagem.
+9. Aceitar uma complicação real de Vício pode gerar `+1 Trama`, respeitando o limite diário de `../trama.md`.
+10. **Código** é exceção explícita: violá-lo custa `5 Trama` e exige aviso antes da conclusão da escolha.
+11. Laço, Inimigo, Dívida e Segredo precisam representar fontes concretas de complicação; se deixarem permanentemente de cumprir essa função, sua permanência na ficha deve ser reavaliada conforme `../persistencia/`.
+12. Características sobrenaturais negativas pertencem a `corrupcao.md`, não a esta lista.
+13. A descrição de cada Vício deve ser suficiente para interpretação sem depender de informação externa.
+
+## Lista rápida
+
+```text
+Dependência [X] [-1]
+Fobia [X] [-1]
+Compulsão [X] [-1]
+Código [X] [-1]
+Laço [X] [-1]
+Inimigo [X] [-1]
+Dívida [X] [-1]
+Segredo [X] [-1]
+```
+
+## Regra final
+
+> **Todo Vício vale [-1]. Os menores são unidos ou fortalecidos; os amplos recebem gatilhos e consequências claras. Um Vício só concede ponto quando puder realmente complicar a vida da personagem.**
