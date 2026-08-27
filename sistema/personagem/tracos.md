@@ -54,19 +54,46 @@ Limitações negativas mundanas, hábitos, medos, conflitos, compromissos e prob
 
 Fraquezas, necessidades, vulnerabilidades e restrições sobrenaturais.
 
-## Valores positivos
+## Custo dos Traços positivos
 
-Traços positivos podem usar valor de aquisição:
+Todo Traço positivo custa:
 
-> **[1] a [3]**
+> **1 espaço de Traço positivo**
+
+Não existe preço de aquisição `[1]`, `[2]` ou `[3]` para Traços positivos.
+
+Na criação:
 
 ```text
-[1] → vantagem menor ou situacional
-[2] → vantagem relevante e ampla
-[3] → vantagem maior que altera fortemente possibilidades
+1 Traço positivo
+→ ocupa 1 espaço de Traço
+
+1 Poder
+→ ocupa 1 espaço de Poder
 ```
 
-Esse valor serve à construção. Não é bônus automático.
+Essa equivalência é de **custo de construção**, não de função. Traços e Poderes continuam fazendo coisas diferentes.
+
+Um Traço pode possuir níveis, categorias ou estágios internos quando sua própria regra realmente precisar deles. Nesse caso, o número faz parte do **efeito do Traço**, não aumenta seu custo de aquisição.
+
+> **Nível interno não é preço. Todo Traço positivo continua custando 1.**
+
+## Relevância mínima
+
+Como cada Traço positivo ocupa um espaço inteiro de construção, ele deve estabelecer uma vantagem passiva relevante.
+
+Detalhes menores que apenas descrevem a personagem, sem alterar de forma significativa o que ela pode fazer, acessar, possuir ou estabelecer na ficção, pertencem normalmente ao Conceito ou à descrição.
+
+Exemplos de detalhes que não precisam virar Traço pago por si só:
+
+```text
+ser ambidestro
+ter bom senso de direção
+ter aparência pouco chamativa
+preferir determinada mão, roupa ou hábito
+```
+
+Criar um Traço pago quando a característica realmente estabelecer uma vantagem persistente própria.
 
 ## Valores negativos
 
@@ -79,17 +106,18 @@ A economia de criação pertence a `patamar.md` e ao processo de `../criacao/`.
 
 Cada ponto negativo pode comprar **uma** destas opções:
 
-- `+1` ponto de Traço positivo;
+- `+1` Traço positivo;
 - `+1` Poder.
 
 O mesmo ponto não compra as duas coisas.
 
-## Valor não entra automaticamente na rolagem
+## Número não entra automaticamente na rolagem
+
+Qualquer número que faça parte de um Traço:
 
 ```text
-Traço [3]
-≠ +3
-≠ +3d
+≠ bônus genérico
+≠ +Xd automático
 ```
 
 Só existe modificação mecânica quando a própria descrição do Traço disser explicitamente `+Xd`, `-Xd`, RD, Imunidade, recuperação ou outra consequência específica.
@@ -160,4 +188,4 @@ Quando uma complicação de Traço for voluntariamente aceita pela peça elegív
 
 ## Regra final
 
-> **Traço é uma verdade passiva consolidada da personagem. Seu valor serve à construção; sua redação define sua consequência. Autoridade, resolução e persistência continuam nas áreas responsáveis.**
+> **Todo Traço positivo custa 1 espaço. Sua redação define sua consequência; qualquer nível interno pertence ao efeito, nunca ao preço. Traço continua sendo uma verdade passiva consolidada da personagem.**
