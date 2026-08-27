@@ -26,7 +26,7 @@ Traços Negativos [X]
 ### Bloco 5 — Estatísticas
 
 Pontos de Vida [X] | Pontos de Mana [X] | Defesa [X/Y]
-Reflexos [X/Y] | Fortitude [X/Y] | Vontade [X/Y]
+Reflexos [X/Y] — melhor entre DES e INT | Fortitude [X/Y] — melhor entre FOR e VIG | Vontade [X/Y] — melhor entre CAR e SAB
 Resistências [segundo Traços]
 Fraquezas [segundo Traços]
 Movimento: Andar [Curto] | [X]
