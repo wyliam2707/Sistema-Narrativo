@@ -22,7 +22,7 @@ Um Traço:
 Exemplos:
 
 ```text
-Não precisa respirar.
+Fisiologia Sobrenatural.
 Não envelhece.
 Corpo artificial.
 Não pode mentir.
@@ -127,9 +127,9 @@ Só existe modificação mecânica quando a própria descrição do Traço disse
 Se o Traço já responde à questão, não se cria teste.
 
 ```text
-Traço: Sem Respiração
+Traço: Fisiologia Sobrenatural
 Situação: ambiente sem ar
-→ ausência de ar não causa sufocamento
+→ ausência de oxigênio por si só não causa sufocamento
 ```
 
 Quando o Traço apenas torna uma ação possível e ainda existe incerteza real na execução, `../resolucao/` continua aplicável.
