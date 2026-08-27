@@ -38,14 +38,23 @@ PODERES:
 - Golpe
 
 RECURSOS:
+- Recursos dos Titãs — acesso à base, equipamentos e infraestrutura compartilhada da equipe.
 
 ## Personalidade e tendências
 ## Desejos / objetivos atuais
 ## Medos / limites relevantes
 
 ## Amigos
+- Ravena — amiga muito próxima; forte confiança, carinho e intimidade emocional apesar das personalidades opostas.
+- Dick Grayson — amigo próximo e companheiro de equipe em quem confia.
+- Ciborg — amizade sólida e confiança.
+- Mutano — amigo próximo; relação afetuosa e descontraída.
+
 ## Inimigos
+- Nenhum inimigo específico consolidado no início da campanha além das possíveis ameaças relacionadas a Tamaran.
+
 ## Romance
+- Nenhum vínculo no início da campanha.
 
 ## Conhecimento atual relevante
 ## História consolidada relevante
