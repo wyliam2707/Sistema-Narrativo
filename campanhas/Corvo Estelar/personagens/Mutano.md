@@ -3,7 +3,7 @@
 Status: PENDENTE DE REVISÃO
 Importância: Relevante
 CONTROLE: JOGADOR IA EVENTUAL
-Patamar: [ ]
+Patamar: [3]
 
 Nome real: Garfield “Gar” Logan
 Idade: 23
@@ -15,12 +15,15 @@ Descrição: versão adulta inspirada principalmente no Mutano de Jovens Titãs 
 TRAÇOS:
 
 ATR:
-Corpo  → Potência [ ] | Controle [ ] | Resistência [ ]
-Mente  → Intelecto [ ] | Presença [ ] | Vontade [ ]
+Corpo  → Potência [1] | Controle [3] | Resistência [2]
+Mente  → Intelecto [1] | Presença [3] | Vontade [2]
 
-Vida Máxima [ ] | Mana Máxima [ ]
+Vida Máxima [32] | Mana Máxima [34]
 
 PERÍCIAS:
+- Animais
+- Esportes
+
 PODERES:
 RECURSOS:
 
