@@ -3,7 +3,7 @@
 Status: PENDENTE DE REVISÃO
 Importância: Central
 CONTROLE: JOGADOR IA
-Patamar: [ ]
+Patamar: [3]
 
 Nome real: Rachel Roth
 Idade: 24
@@ -15,12 +15,16 @@ Descrição: versão adulta inspirada principalmente na Ravena de Jovens Titãs 
 TRAÇOS:
 
 ATR:
-Corpo  → Potência [ ] | Controle [ ] | Resistência [ ]
-Mente  → Intelecto [ ] | Presença [ ] | Vontade [ ]
+Corpo  → Potência [0] | Controle [2] | Resistência [1]
+Mente  → Intelecto [3] | Presença [2] | Vontade [4]
 
-Vida Máxima [ ] | Mana Máxima [ ]
+Vida Máxima [27] | Mana Máxima [34]
 
 PERÍCIAS:
+- Ocultismo
+- Investigar
+- Idiomas
+
 PODERES:
 RECURSOS:
 REL:
