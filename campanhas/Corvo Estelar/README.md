@@ -2,8 +2,8 @@
 
 CRIAÇÃO: EM ANDAMENTO
 
-Etapa atual: Registrar protagonista
+Etapa atual: Registrar outros personagens com agência
 
 ## Personagens com agência
 
-Nenhum personagem registrado ainda.
+Corvin Black — Central — JOGADOR HUMANO
