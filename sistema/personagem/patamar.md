@@ -113,17 +113,23 @@ Perícias não possuem grau; sua presença relevante concede `+1d` conforme `per
 
 Na criação:
 
-> **Pontos de Traços positivos = Patamar + 1**
+> **Traços positivos iniciais = Patamar + 1**
+
+Cada Traço positivo ocupa exatamente **1 espaço**.
 
 Exemplos:
 
 ```text
-Patamar [1] → 2 pontos
-Patamar [4] → 5 pontos
-Patamar [7] → 8 pontos
+Patamar [1] → 2 Traços positivos
+Patamar [4] → 5 Traços positivos
+Patamar [7] → 8 Traços positivos
 ```
 
-Valores, grupos e aquisição de Traços pertencem a `tracos.md` e aos catálogos em `tracos/`.
+Não existe custo variável `[1–3]` para adquirir Traços positivos.
+
+Se um Traço possuir níveis ou categorias internas, isso pertence ao seu efeito específico e não altera o custo de aquisição.
+
+As definições, grupos e catálogos pertencem a `tracos.md` e `tracos/`.
 
 ---
 
@@ -155,7 +161,7 @@ Vícios e Corrupções podem gerar pontos adicionais conforme seus valores negat
 
 Cada ponto negativo pode ser convertido em **uma** destas opções:
 
-- `+1` ponto de Traço positivo;
+- `+1` Traço positivo;
 - `+1` Poder.
 
 O mesmo ponto negativo nunca compra as duas coisas ao mesmo tempo.
@@ -164,8 +170,8 @@ Exemplo:
 
 ```text
 Traços negativos somando [-3]
-→ 3 pontos extras
-→ podem ser distribuídos entre Traços positivos e Poderes
+→ 3 escolhas extras
+→ podem ser distribuídas entre Traços positivos e Poderes
 ```
 
 A distribuição deve respeitar o Conceito e as regras específicas de Traços.
@@ -192,4 +198,4 @@ Uma ação quase impossível pode ter Dificuldade alta mesmo em Patamar `[1]`, e
 
 ## Regra final
 
-> **Patamar organiza desenvolvimento, limites de criação, quantidade inicial de capacidades e o valor `[X]`. Ele não substitui Atributos, não gradua Perícias e não serve para balancear a dificuldade do mundo.**
+> **Patamar organiza desenvolvimento, limites de criação, quantidade inicial de capacidades e o valor `[X]`. Cada Traço positivo ocupa 1 espaço, assim como cada Poder ocupa 1 espaço de Poder. Patamar não serve para balancear a dificuldade do mundo.**
