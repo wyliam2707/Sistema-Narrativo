@@ -4,7 +4,7 @@ CRIAÇÃO: EM ANDAMENTO
 
 Etapa atual: Revisão das fichas
 Personagem atual: Ravena
-Bloco atual: 2 - Patamar, Atributos e Perícias
+Bloco atual: 3 - Poderes e capacidades
 
 ## Personagens com agência
 
