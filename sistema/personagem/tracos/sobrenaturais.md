@@ -1,32 +1,32 @@
 # Traços Sobrenaturais Positivos
 
-Este arquivo contém os **Traços positivos sobrenaturais** do Novo Motor.
+Status: APROVADO
 
-Traços são características passivas do personagem: propriedades, condições ou capacidades que já são verdadeiras sobre ele. Um Traço não precisa ser ativado para existir.
+Este arquivo contém os **Traços positivos sobrenaturais** do sistema.
+
+Traços são características passivas da personagem: propriedades, condições ou capacidades que já são verdadeiras sobre ela. Um Traço não precisa ser ativado para existir.
 
 A regra central é:
 
-> **Traço descreve algo que o personagem é, possui ou faz naturalmente. Poder representa uma ação extraordinária usada deliberadamente para produzir um efeito.**
+> **Traço descreve algo que a personagem é, possui ou faz naturalmente. Poder representa uma ação extraordinária usada deliberadamente para produzir um efeito.**
 
 Se uma capacidade for usada para ferir, controlar, prender, empurrar, transformar ou afetar diretamente outra pessoa, essa aplicação normalmente deve ser tratada como **Poder**, não como Traço.
 
 Traços não substituem Atributos, Perícias ou Poderes. Eles garantem apenas aquilo que sua descrição afirma e não concedem sucesso automático em ações que continuem incertas.
 
-## Valores
+## Custo
 
-Traços positivos usam valores de **[1] a [3]** conforme impacto narrativo e utilidade:
+Todo Traço positivo sobrenatural custa:
 
-- **[1]** — vantagem menor ou situacional.
-- **[2]** — vantagem relevante e de uso amplo.
-- **[3]** — vantagem maior, capaz de alterar fortemente as possibilidades do personagem.
+> **1 espaço de Traço positivo**
 
-O valor não representa raridade. Um Traço só possui múltiplos níveis quando sua própria descrição os define.
+Parâmetros como `[X]`, categorias ou variantes pertencem à definição do efeito e **não aumentam o custo de aquisição**.
 
 ---
 
 ## Fisiologia
 
-### Imortal [1]
+### Imortal
 
 Não envelhece e não morre por velhice ou outras causas naturais ligadas ao envelhecimento. Ainda pode ser ferido, incapacitado ou morto por outras causas.
 
@@ -34,7 +34,7 @@ Exemplos: vampiro que não envelhece, elfo eterno, androide cujo corpo não sofr
 
 **Imortal não significa invulnerável, indestrutível ou capaz de voltar da morte.**
 
-### Anfíbio [1]
+### Anfíbio
 
 Respira normalmente dentro e fora da água e se adapta naturalmente ao ambiente aquático. Isso remove limitações comuns causadas por permanência submersa, respiração e condições aquáticas compatíveis com a natureza da criatura. Nadar continua sendo uma capacidade normal e não recebe bônus automático por este Traço.
 
@@ -42,52 +42,60 @@ Exemplos: atlante, tritão, criatura anfíbia, humano mutante com guelras, ser a
 
 **Anfíbio não concede velocidade aquática especial, sonar, visão no escuro ou resistência a condições extremas além do que estiver explicitamente descrito.**
 
-### Sem Respiração [1]
+### Fisiologia Sobrenatural
 
-Não precisa respirar para sobreviver. Não sofre sufocamento, afogamento por falta de ar nem efeitos causados apenas pela ausência de oxigênio.
+A personagem possui uma fisiologia que não depende das três necessidades biológicas comuns abaixo:
 
-Exemplos: androide, golem, morto-vivo, espírito materializado, criatura que realiza trocas gasosas por outro mecanismo sobrenatural.
+- **Respiração —** não precisa respirar para sobreviver e não sofre sufocamento, afogamento por falta de ar nem efeitos causados apenas pela ausência de oxigênio.
+- **Sono —** não precisa dormir e não sofre as consequências normais da privação de sono. Pode permanecer consciente e funcional continuamente enquanto nenhuma outra condição o impedir.
+- **Alimentação —** não precisa comer nem beber normalmente para sobreviver e não sofre as consequências comuns da privação de alimento ou água.
 
-**Sem Respiração remove a necessidade de ar.** Não concede natação especial, movimento aquático, resistência a pressão nem imunidade automática a gases ou toxinas que possam afetar o corpo por outros meios.
+Exemplos: androide, golem, morto-vivo, espírito materializado, construto ou criatura sustentada por energia sobrenatural.
 
-### Sem Sono [1]
+Fisiologia Sobrenatural não concede automaticamente:
 
-Não precisa dormir e não sofre as consequências normais da privação de sono. Pode permanecer consciente e funcional continuamente enquanto nenhuma outra condição o impedir.
+- imunidade a gases, venenos ou toxinas que possam afetar o corpo por outros meios;
+- resistência a pressão;
+- natação ou movimento aquático especial;
+- resistência mental;
+- imunidade a sono forçado, inconsciência ou outros Status;
+- recuperação adicional de Vida ou Mana.
 
-Exemplos: androide, golem, morto-vivo, espírito encarnado, criatura sobrenatural cuja mente não depende de ciclos de sono.
+Ela também não elimina necessidades sobrenaturais independentes.
 
-**Sem Sono não concede recuperação de Vida, resistência mental ou imunidade a efeitos que induzam inconsciência por outras causas.** Também não elimina automaticamente uma **Corrupção de Repouso Especial**: um personagem pode não precisar dormir e ainda precisar cumprir uma condição específica quando quiser realizar um repouso válido.
+```text
+Fisiologia Sobrenatural
++ Dieta Especial [Sangue Humano]
+→ não precisa de comida ou água comuns
+→ continua sujeito à necessidade sobrenatural de sangue
+```
 
-### Sem Alimentação [1]
+Da mesma forma, uma Corrupção de Repouso Especial pode continuar exigindo sua condição própria para que determinado repouso seja válido, mesmo que a personagem não precise dormir biologicamente.
 
-Não precisa comer nem beber normalmente para sobreviver e não sofre as consequências comuns da privação de alimento ou água.
-
-Exemplos: androide, golem, morto-vivo, espírito materializado, criatura sustentada por energia sobrenatural.
-
-**Sem Alimentação remove apenas a necessidade comum de comida e água.** Não concede imunidade a venenos ou toxinas e não elimina uma **Dieta Especial**, pois ela representa uma necessidade sobrenatural diferente.
-
-Exemplo: um vampiro pode possuir **Sem Alimentação [1]** e **Dieta Especial [Sangue Humano] [-2]**. Ele não precisa de alimentação comum, mas ainda precisa satisfazer sua necessidade sobrenatural de sangue para recuperar Vida por descanso.
+> **Fisiologia Sobrenatural reúne Sem Respiração, Sem Sono e Sem Alimentação em um único Traço. Essas três opções não existem separadamente no catálogo atual.**
 
 ---
 
 ## Estrutura
 
-### Indestrutível [X] [1–2]
+### Indestrutível [X]
 
 A estrutura indicada não pode ser quebrada, separada ou destruída. Isso não impede dano, dor, inconsciência ou morte; protege apenas a integridade física da estrutura escolhida.
 
-- **[1] Parte específica —** protege uma estrutura delimitada. Exemplos: ossos de adamantium, garras impossíveis de quebrar, chifres indestrutíveis, carapaça específica, coração cristalino que não pode ser destruído.
-- **[2] Corpo —** o corpo inteiro não pode ser fisicamente destruído, desmembrado ou reduzido a partes, embora o personagem ainda possa sofrer dano e morrer por outros meios. Exemplos: corpo feito de metal absolutamente resistente, forma pétrea impossível de fragmentar, construto místico estruturalmente inviolável, criatura cujo corpo sempre permanece inteiro, entidade materializada que não pode ser desmembrada.
+Ao adquirir o Traço, definir o escopo coerente com o Conceito:
 
-**Indestrutível não é Imunidade [Físico].** O personagem pode sofrer normalmente o impacto; apenas a estrutura protegida não quebra nem se separa.
+- **Parte específica —** protege uma estrutura delimitada. Exemplos: ossos de adamantium, garras impossíveis de quebrar, chifres indestrutíveis, carapaça específica, coração cristalino que não pode ser destruído.
+- **Corpo —** o corpo inteiro não pode ser fisicamente destruído, desmembrado ou reduzido a partes, embora a personagem ainda possa sofrer dano e morrer por outros meios. Exemplos: corpo feito de metal absolutamente resistente, forma pétrea impossível de fragmentar, construto místico estruturalmente inviolável, criatura cujo corpo sempre permanece inteiro, entidade materializada que não pode ser desmembrada.
 
-A natureza básica de um corpo, como ser **androide, golem, morto-vivo ou construto**, pertence ao **Conceito** e não exige um Traço positivo próprio. Qualquer vantagem concreta dessa natureza — como Sem Respiração, Sem Sono, Sem Alimentação, Resistência ou Imunidade — precisa existir separadamente quando aplicável.
+**Indestrutível não é Imunidade [Físico].** A personagem pode sofrer normalmente o impacto; apenas a estrutura protegida não quebra nem se separa.
+
+A natureza básica de um corpo, como ser **androide, golem, morto-vivo ou construto**, pertence ao **Conceito** e não exige um Traço positivo próprio. Vantagens concretas dessa natureza — como Fisiologia Sobrenatural, Resistência ou Imunidade — precisam existir separadamente quando aplicável.
 
 ---
 
 ## Mobilidade
 
-### Voo Natural [2]
+### Voo Natural
 
 Pode voar como forma normal de deslocamento, sem precisar ativar um Poder. Pode decolar, pousar, pairar e se mover pelo ar dentro das limitações físicas coerentes com seu Conceito.
 
@@ -95,7 +103,7 @@ Exemplos: criatura com asas funcionais, demônio alado, fada, ser sustentado nat
 
 **Voo Natural não concede velocidade extraordinária, manobras impossíveis, imunidade a quedas ou capacidade de transportar grandes cargas por si só.**
 
-### Andar pelas Paredes [1]
+### Andar pelas Paredes
 
 Pode caminhar e se deslocar por paredes e tetos como se fossem superfícies normais, desde que exista uma superfície física adequada para sustentar esse deslocamento.
 
@@ -103,7 +111,7 @@ Exemplos: criatura com aderência natural, mutante com microestruturas nas mãos
 
 **O Traço não concede voo, aderência a superfícies inexistentes nem imunidade a ser arrancado da superfície por força externa.**
 
-### Escavador [1]
+### Escavador
 
 Pode se deslocar naturalmente através de solo, terra, areia, argila e outros materiais escaváveis coerentes com sua natureza, abrindo passagem por onde avança.
 
@@ -111,21 +119,21 @@ Exemplos: criatura subterrânea com garras escavadoras, verme gigante, mutante a
 
 **Escavador não permite atravessar pedra maciça, metal, concreto reforçado ou outros materiais que não sejam plausivelmente escaváveis para a criatura sem outro Traço ou Poder.**
 
-### Super Salto [1]
+### Super Salto
 
 Pode realizar saltos muito além da capacidade humana normal, usando-os como forma habitual de deslocamento para alcançar alturas, atravessar grandes distâncias ou superar obstáculos.
 
 Exemplos: criatura com pernas extremamente potentes, mutante com força explosiva, demônio de grande impulsão, construto com pistões nas pernas, guerreiro sobrenatural capaz de saltar entre telhados.
 
-**Super Salto não é voo.** O personagem segue uma trajetória de salto, precisa de um ponto de partida e continua sujeito às consequências de aterrissagem, colisão ou queda quando isso for relevante.
+**Super Salto não é voo.** A personagem segue uma trajetória de salto, precisa de um ponto de partida e continua sujeita às consequências de aterrissagem, colisão ou queda quando isso for relevante.
 
-### Velocidade [1]
+### Velocidade
 
-Aumenta em **um grau de alcance** a distância que o personagem consegue percorrer normalmente com suas formas de deslocamento já existentes. Se normalmente alcançaria **Curto**, passa a alcançar **Médio** na mesma situação.
+Aumenta em **um grau de alcance** a distância que a personagem consegue percorrer normalmente com suas formas de deslocamento já existentes. Se normalmente alcançaria **Curto**, passa a alcançar **Médio** na mesma situação.
 
 Exemplos: velocista sobre-humano, fera quadrúpede extremamente rápida, androide com pernas de alta performance, criatura alada naturalmente veloz, ser aquático com propulsão excepcional.
 
-**Velocidade não concede uma nova forma de deslocamento.** Ela melhora apenas aquelas que o personagem já possui. Também não concede ações extras, reflexos superiores ou ataques adicionais por si só.
+**Velocidade não concede uma nova forma de deslocamento.** Ela melhora apenas aquelas que a personagem já possui. Também não concede ações extras, reflexos superiores ou ataques adicionais por si só.
 
 Pessoas comuns já podem nadar. Não existe um Traço separado de Movimento Aquático; capacidades especiais relacionadas à água devem vir de Traços que realmente alterem essa limitação, como **Anfíbio**, ou de outro efeito explicitamente definido.
 
@@ -133,7 +141,7 @@ Pessoas comuns já podem nadar. Não existe um Traço separado de Movimento Aqu�
 
 ## Sentidos
 
-### [X] Aguçado [1]
+### [X] Aguçado
 
 O sentido indicado funciona com alcance e precisão muito acima do normal. Para efeitos de percepção, fontes relacionadas a esse sentido são tratadas como se estivessem **um grau de alcance mais próximas**.
 
@@ -141,7 +149,7 @@ Exemplos: **Visão Aguçada**, **Audição Aguçada**, **Olfato Aguçado**, **Ta
 
 **[X] Aguçado melhora apenas o sentido escolhido.** Não concede automaticamente visão no escuro, Detecção sobrenatural, identificação perfeita nem conhecimento sobre aquilo que foi percebido.
 
-### Visão no Escuro [1]
+### Visão no Escuro
 
 Enxerga normalmente em escuridão comum sem precisar de uma fonte de luz. Consegue perceber formas, movimento, detalhes e profundidade como faria em condições normais de iluminação.
 
@@ -149,7 +157,7 @@ Exemplos: vampiro, criatura subterrânea, mutante com visão adaptada, demônio,
 
 **Visão no Escuro não permite enxergar através de fumaça, neblina, paredes ou ocultação sobrenatural.** Também não concede automaticamente visão térmica, infravermelha ou qualquer outra forma especial de percepção.
 
-### Detecção [X] [2]
+### Detecção [X]
 
 Percebe automaticamente a presença da categoria escolhida quando ela estiver dentro de uma situação em que possa ser detectada. A Detecção informa que algo está presente, mas não revela automaticamente origem, funcionamento, identidade ou detalhes além do que sua própria descrição permitir.
 
@@ -158,7 +166,7 @@ Cada compra deve escolher uma das cinco opções oficiais abaixo:
 - **Detecção [Magia] —** percebe a presença de magia. Exemplos: feitiço ativo, objeto encantado, área magicamente alterada, criatura envolta por efeito mágico, portal arcano.
 - **Detecção [Vida] —** percebe a presença de seres vivos dentro do alcance de sua percepção. Exemplos: pessoa escondida, animal atrás de uma porta, criatura viva em escuridão, grupo próximo, presença biológica sob escombros.
 - **Detecção [Perigo] —** percebe perigo iminente contra si. Exemplos: emboscada prestes a ocorrer, armadilha ativada, ataque vindo de ponto cego, estrutura prestes a desabar, veículo em rota de colisão.
-- **Detecção [Alvo] —** permite perceber a **direção de um alvo específico** quando existe um vínculo válido com ele. Esse vínculo pode ser um objeto pertencente ao alvo, sangue, cabelo, outra amostra, uma marca sobrenatural, relíquia vinculada ou conexão equivalente coerente com o Conceito. Funciona como rastreamento sobrenatural: indica para onde seguir, mas não revela automaticamente distância exata, localização precisa ou aquilo que existe entre o personagem e o alvo.
+- **Detecção [Alvo] —** permite perceber a **direção de um alvo específico** quando existe um vínculo válido com ele. Esse vínculo pode ser um objeto pertencente ao alvo, sangue, cabelo, outra amostra, uma marca sobrenatural, relíquia vinculada ou conexão equivalente coerente com o Conceito. Funciona como rastreamento sobrenatural: indica para onde seguir, mas não revela automaticamente distância exata, localização precisa ou aquilo que existe entre a personagem e o alvo.
 - **Detecção [Mentiras] —** percebe quando alguém afirma deliberadamente algo que acredita ser falso. Exemplos: testemunha mentindo, identidade falsa declarada, promessa feita sem acreditar nela, álibi inventado, afirmação deliberadamente enganosa que o próprio falante sabe ser falsa.
 
 **Detecção não substitui Investigação, Ocultismo ou outras Perícias.** Ela garante perceber aquilo que sua categoria estabelece; compreender o significado ainda pode exigir resolução.
@@ -167,16 +175,18 @@ Cada compra deve escolher uma das cinco opções oficiais abaixo:
 
 ## Recuperação
 
-### Recuperação [1–2]
+### Recuperação
 
 Recupera automaticamente **1 de Vida por minuto** quando sua condição de recuperação estiver satisfeita. A forma dessa recuperação depende do Conceito e pode representar regeneração biológica, autorreparo mecânico, recomposição mágica, carne necromântica que se recompõe ou corpo elemental que restaura sua forma.
 
-- **[1] Condicionada —** a recuperação depende de uma condição clara e realmente limitante. Fora dela, o Traço não recupera Vida. Exemplos: **Recuperação [Luz Solar] [1]**, **Recuperação [Noite] [1]**, **Recuperação [Solo Sagrado] [1]**, **Recuperação [Água] [1]**, **Recuperação [Terra Natal] [1]**.
-- **[2] Natural —** recupera **1 de Vida por minuto** normalmente, sem depender de uma condição externa específica.
+Ao adquirir o Traço, registrar uma das formas coerentes com o Conceito:
 
-A condição de **Recuperação [1]** não pode ser algo normalmente permanente, inevitável ou disponível ao personagem em praticamente qualquer situação apenas para reduzir o custo. Se a condição raramente impedir a recuperação, use **Recuperação Natural [2]**.
+- **Condicionada —** a recuperação depende de uma condição clara e realmente limitante. Fora dela, o Traço não recupera Vida. Exemplos: `Recuperação [Luz Solar]`, `Recuperação [Noite]`, `Recuperação [Solo Sagrado]`, `Recuperação [Água]`, `Recuperação [Terra Natal]`.
+- **Natural —** recupera **1 de Vida por minuto** normalmente, sem depender de uma condição externa específica.
 
-**Recuperação não impede dano, não funciona como Imunidade e afeta apenas o próprio personagem.** Restaurar Vida de outra pessoa é um efeito ativo e deve ser tratado como Poder.
+A condição de Recuperação Condicionada não pode ser algo normalmente permanente, inevitável ou disponível à personagem em praticamente qualquer situação apenas para simular uma limitação que nunca importa.
+
+**Recuperação não impede dano, não funciona como Imunidade e afeta apenas a própria personagem.** Restaurar Vida de outra pessoa é um efeito ativo e deve ser tratado como Poder.
 
 Se outra regra impedir recuperação em determinada condição, essa limitação deve ser respeitada.
 
@@ -184,19 +194,19 @@ Se outra regra impedir recuperação em determinada condição, essa limitação
 
 ## Resistências
 
-### Resistência [X] [1]
+### Resistência [X]
 
 Recebe **+1 dado** em qualquer resolução usada para resistir, reduzir ou suportar um efeito da categoria escolhida, inclusive quando essa resolução fizer parte do dano.
 
-A Resistência considera a **natureza imediata do efeito que realmente atinge o personagem**, não apenas sua origem.
+A Resistência considera a **natureza imediata do efeito que realmente atinge a personagem**, não apenas sua origem.
 
 As cinco categorias oficiais são:
 
-- **Resistência [Mental] [1] —** medo, compulsão, controle mental, telepatia invasiva e efeitos diretamente mentais.
-- **Resistência [Status] [1] —** veneno, doença, paralisia, atordoamento, sono forçado e condições semelhantes.
-- **Resistência [Magia] [1] —** maldições, energia arcana e efeitos cuja própria natureza imediata seja mágica.
-- **Resistência [Elementos] [1] —** fogo, frio, eletricidade, ácido e forças elementais semelhantes.
-- **Resistência [Físico] [1] —** golpes, tiros, quedas, esmagamento, pressão e outros efeitos puramente físicos.
+- **Resistência [Mental] —** medo, compulsão, controle mental, telepatia invasiva e efeitos diretamente mentais.
+- **Resistência [Status] —** veneno, doença, paralisia, atordoamento, sono forçado e condições semelhantes.
+- **Resistência [Magia] —** maldições, energia arcana e efeitos cuja própria natureza imediata seja mágica.
+- **Resistência [Elementos] —** fogo, frio, eletricidade, ácido e forças elementais semelhantes.
+- **Resistência [Físico] —** golpes, tiros, quedas, esmagamento, pressão e outros efeitos puramente físicos.
 
 Exemplos de classificação:
 
@@ -206,7 +216,7 @@ Exemplos de classificação:
 - gás venenoso ou lacrimogêneo produz um efeito de **Status**;
 - uma maldição cuja própria natureza seja arcana pode ser tratada como **Magia**.
 
-**Resistências não se acumulam na mesma resolução.** Se mais de uma Resistência puder ser aplicada ao mesmo efeito, use apenas uma delas. O personagem recebe no máximo **+1 dado** de Resistências naquela resolução.
+**Resistências não se acumulam na mesma resolução.** Se mais de uma Resistência puder ser aplicada ao mesmo efeito, usar apenas uma delas. A personagem recebe no máximo **+1 dado** de Resistências naquela resolução.
 
 **Resistência não impede automaticamente o efeito.** Ela melhora a resolução quando existir uma forma mecânica de resistir, reduzir ou suportá-lo.
 
@@ -214,19 +224,19 @@ Exemplos de classificação:
 
 ## Imunidades
 
-### Imunidade [X] [3]
+### Imunidade [X]
 
-Efeitos da categoria escolhida simplesmente não afetam o personagem. Quando a Imunidade se aplica, não há teste, redução de dano ou resistência: o efeito correspondente é ignorado.
+Efeitos da categoria escolhida simplesmente não afetam a personagem. Quando a Imunidade se aplica, não há teste, redução de dano ou resistência: o efeito correspondente é ignorado.
 
-A Imunidade considera a **natureza imediata do efeito que realmente atinge o personagem**, não apenas sua origem.
+A Imunidade considera a **natureza imediata do efeito que realmente atinge a personagem**, não apenas sua origem.
 
 As cinco categorias oficiais são:
 
-- **Imunidade [Mental] [3] —** controle mental, medo sobrenatural, compulsão, telepatia invasiva e efeitos diretamente mentais.
-- **Imunidade [Status] [3] —** veneno, doença, paralisia, atordoamento, sono forçado e condições semelhantes.
-- **Imunidade [Magia] [3] —** efeitos cuja própria natureza imediata seja mágica.
-- **Imunidade [Elementos] [3] —** fogo, frio, eletricidade, ácido e forças elementais semelhantes.
-- **Imunidade [Físico] [3] —** golpes, tiros, quedas, esmagamento, pressão e outros efeitos puramente físicos.
+- **Imunidade [Mental] —** controle mental, medo sobrenatural, compulsão, telepatia invasiva e efeitos diretamente mentais.
+- **Imunidade [Status] —** veneno, doença, paralisia, atordoamento, sono forçado e condições semelhantes.
+- **Imunidade [Magia] —** efeitos cuja própria natureza imediata seja mágica.
+- **Imunidade [Elementos] —** fogo, frio, eletricidade, ácido e forças elementais semelhantes.
+- **Imunidade [Físico] —** golpes, tiros, quedas, esmagamento, pressão e outros efeitos puramente físicos.
 
 Exemplos de classificação:
 
@@ -240,23 +250,23 @@ Exemplos de classificação:
 
 Uma **Fraqueza [X]** pode criar uma exceção a uma Imunidade que normalmente impediria aquela fonte de produzir efeito.
 
-Se o personagem possui uma Imunidade aplicável e também **Fraqueza [X]**, os dois efeitos se anulam naquela interação: a fonte `[X]` afeta o personagem normalmente, sem a Imunidade e sem receber também o **+1 dado** da Fraqueza.
+Se a personagem possui uma Imunidade aplicável e também **Fraqueza [X]**, os dois efeitos se anulam naquela interação: a fonte `[X]` afeta a personagem normalmente, sem a Imunidade e sem receber também o `+1 dado` da Fraqueza.
 
-Exemplo: um personagem com **Imunidade [Físico] [3]** e **Fraqueza [Prata] [-1]** ignora golpes e tiros comuns, mas uma arma de prata pode feri-lo normalmente.
+Exemplo: uma personagem com **Imunidade [Físico]** e **Fraqueza [Prata] [-1]** ignora golpes e tiros comuns, mas uma arma de prata pode feri-la normalmente.
 
 ### Vulnerabilidade como exceção
 
 Uma **Vulnerabilidade [X]** específica prevalece sobre uma Imunidade mais ampla quando sua fonte estiver presente. Nesse caso, a fonte atravessa a Imunidade e aplica o efeito dobrado da Vulnerabilidade.
 
-Exemplo: **Imunidade [Físico] [3] + Vulnerabilidade [Prata] [-1]** é uma combinação válida. Ataques físicos comuns não afetam o personagem, mas uma arma de prata atravessa a Imunidade e causa **dano dobrado**.
+Exemplo: **Imunidade [Físico] + Vulnerabilidade [Prata] [-1]** é uma combinação válida. Ataques físicos comuns não afetam a personagem, mas uma arma de prata atravessa a Imunidade e causa **dano dobrado**.
 
-Um personagem não pode possuir **Imunidade e Vulnerabilidade exatamente para a mesma fonte ou categoria**. Assim, **Imunidade [Físico] + Vulnerabilidade [Físico]** é inválido, enquanto **Imunidade [Físico] + Vulnerabilidade [Prata]** é válido.
+Uma personagem não pode possuir **Imunidade e Vulnerabilidade exatamente para a mesma fonte ou categoria**. Assim, **Imunidade [Físico] + Vulnerabilidade [Físico]** é inválido, enquanto **Imunidade [Físico] + Vulnerabilidade [Prata]** é válido.
 
 **Imunidade não protege contra categorias diferentes apenas porque vieram da mesma fonte.**
 
 ### Limite de Imunidade
 
-Um personagem pode possuir no máximo **uma Imunidade [X] [3]**.
+Uma personagem pode possuir no máximo **uma Imunidade [X]**.
 
 Imunidade é um Traço extremo e é recomendado principalmente para vilões, criaturas especiais ou personagens construídos em torno de um objetivo narrativo muito específico.
 
@@ -268,8 +278,33 @@ Seu uso em personagens jogadores não é recomendado, pois pode remover completa
 
 1. Não faça um teste para algo que o Traço já garante em condições normais.
 2. Testes continuam possíveis quando houver oposição, perigo, dificuldade ou necessidade de interpretar e usar aquilo que o Traço permite.
-3. O Narrador não deve criar limitações artificiais para enfraquecer um Traço poderoso ou uma combinação válida de Traços.
+3. O NARRADOR não deve criar limitações artificiais para enfraquecer um Traço poderoso ou uma combinação válida de Traços.
 4. O Conceito define a origem e a aparência ficcional do Traço, mas não concede efeitos extras sem regra explícita.
-5. Uma característica passiva que apenas afeta o próprio personagem pode ser Traço. Produzir deliberadamente um efeito sobre outra pessoa normalmente é Poder.
-6. Se um Atributo ou o próprio Conceito já representa suficientemente uma característica sem conceder vantagem adicional, não crie um Traço redundante.
+5. Uma característica passiva que apenas afeta a própria personagem pode ser Traço. Produzir deliberadamente um efeito sobre outra pessoa normalmente é Poder.
+6. Se um Atributo ou o próprio Conceito já representa suficientemente uma característica sem conceder vantagem adicional, não criar um Traço redundante.
 7. Traços com funções narrativas iguais ou muito semelhantes devem ser unidos sempre que possível.
+8. Todo Traço positivo sobrenatural custa exatamente 1 espaço de construção.
+
+## Lista rápida
+
+```text
+Imortal
+Anfíbio
+Fisiologia Sobrenatural
+Indestrutível [X]
+Voo Natural
+Andar pelas Paredes
+Escavador
+Super Salto
+Velocidade
+[X] Aguçado
+Visão no Escuro
+Detecção [X]
+Recuperação
+Resistência [X]
+Imunidade [X]
+```
+
+## Regra final
+
+> **Traço sobrenatural positivo custa 1 espaço e estabelece uma propriedade passiva extraordinária. Fisiologia Sobrenatural reúne ausência de necessidade de respirar, dormir e se alimentar normalmente em uma única vantagem.**
