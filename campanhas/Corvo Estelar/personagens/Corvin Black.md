@@ -3,7 +3,7 @@
 Status: PENDENTE DE REVISÃO
 Importância: Central
 CONTROLE: JOGADOR HUMANO
-Patamar: [ ]
+Patamar: [5]
 
 Nome real: Corvin Black
 Idade: 28
@@ -15,12 +15,16 @@ Descrição: Corvin Black tem 28 anos e poderia facilmente passar despercebido e
 TRAÇOS:
 
 ATR:
-Corpo  → Potência [ ] | Controle [ ] | Resistência [ ]
-Mente  → Intelecto [ ] | Presença [ ] | Vontade [ ]
+Corpo  → Potência [3] | Controle [3] | Resistência [3]
+Mente  → Intelecto [4] | Presença [4] | Vontade [3]
 
-Vida Máxima [ ] | Mana Máxima [ ]
+Vida Máxima [45] | Mana Máxima [50]
 
 PERÍCIAS:
+- Explorar
+- Ofícios
+- Ciência
+
 PODERES:
 RECURSOS:
 
