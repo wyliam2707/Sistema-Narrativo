@@ -113,6 +113,21 @@ A mecânica concreta pertence a `../resolucao/poderes/`.
 
 Traços registram verdades passivas estáveis. Recursos registram meios externos consolidados.
 
+Cada Traço positivo custa **1 espaço de Traço**, independentemente da amplitude ficcional que seu Conceito legitimamente sustente.
+
+Por isso, durante a calibração:
+
+```text
+vantagem pequena ou apenas descritiva
+→ registrar no Conceito/descrição
+→ não gastar Traço
+
+vantagem passiva persistente que altera acesso, posição, patrimônio, relações, informação ou possibilidades
+→ considerar Traço positivo
+```
+
+Um Traço pode possuir escala interna quando sua própria regra exigir, mas isso pertence ao efeito e não ao custo.
+
 Não criar Traço ou Recurso apenas para compensar outra personagem.
 
 ## Calibração conservadora
@@ -161,4 +176,4 @@ Ela não substitui o procedimento de aprovação da criação.
 
 ## Regra final
 
-> **Calibrar é converter fielmente uma personagem para as estruturas atuais do sistema. É construção, não balanceamento automático e não garantia de resultado.**
+> **Calibrar é converter fielmente uma personagem para as estruturas atuais do sistema. Traços positivos custam 1 espaço e só devem ser usados quando a vantagem persistente realmente justificar esse espaço. É construção, não balanceamento automático e não garantia de resultado.**
