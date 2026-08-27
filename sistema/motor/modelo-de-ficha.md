@@ -19,11 +19,10 @@ FOR [X] | DES [X] | VIG [X] | INT [X] | SAB [X] | CAR [X]
 
 ### Bloco 3
 
-Esportes [X] + FOR = [+X] / Furtividade [X] + DES = [+X] / Crime [X] + DES = [+X]
-Resistência [X] + VIG = [+X] / Ciência [X] + INT = [+X] / Investigação [X] + INT = [+X]
-Ocultismo [X] + INT = [+X] / Percepção [X] + SAB = [+X] / Medicina [X] + SAB = [+X]
-Sobrevivência [X] + SAB = [+X] / Influência [X] + CAR = [+X] / Manipulação [X] + CAR = [+X]
-Expressão [X] + CAR = [+X]
+Esportes [X] + FOR = [+X] | Furtividade [X] + DES = [+X] | Crime [X] + DES = [+X]
+Resistência [X] + VIG = [+X] | Ciência [X] + INT = [+X] | Investigação [X] + INT = [+X]
+Ocultismo [X] + INT = [+X] | Percepção [X] + SAB = [+X] | Medicina [X] + SAB = [+X]
+Sobrevivência [X] + SAB = [+X] | Manipulação [X] + CAR = [+X] | Expressão [X] + CAR = [+X]
 
 ### Recursos
 
