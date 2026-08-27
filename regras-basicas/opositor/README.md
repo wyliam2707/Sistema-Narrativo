@@ -2,15 +2,23 @@
 
 Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
-Reúne as regras e registros usados para movimentar o lado adversarial da trama.
+Esta pasta contém **somente as regras do Opositor**.
 
-O Opositor decide ações voluntárias dos adversários e pode manter planos fora de cena. O Narrador continua sendo o juiz e resolve o que realmente acontece.
+Nenhum plano real, prazo real ou estado vivo de campanha deve ser salvo aqui.
+
+```text
+regras-basicas/opositor/
+→ regras e modelos
+
+campanhas/<nome>/opositor/
+→ planos, processos, prazos e informações reais daquela campanha
+```
 
 ## Conteúdo
 
 ```text
 registro-reservado.md
-→ planos, processos, prazos e informações adversariais compartilhadas entre Opositor e Narrador.
+→ regra e modelo para o registro adversarial da campanha.
 ```
 
 Também pertencem a esta área, quando forem definidos:
@@ -24,7 +32,7 @@ Também pertencem a esta área, quando forem definidos:
 
 ## Visibilidade
 
-Os arquivos desta pasta devem permanecer claros, visíveis e fáceis de localizar.
+Os arquivos reais do Opositor dentro de uma campanha devem permanecer claros, visíveis e fáceis de localizar.
 
 `Reservado` não significa oculto do responsável pela campanha ou protegido contra leitura.
 
@@ -47,10 +55,10 @@ OPOSITOR
 NARRADOR
 → julga possibilidade, meios, conhecimento, tempo e resultado.
 
-REGISTRO RESERVADO
-→ preserva o que foi legitimamente estabelecido para o lado adversarial.
+CAMPANHA
+→ preserva o que foi legitimamente estabelecido para aquele lado adversarial.
 ```
 
 O conhecimento operacional do Opositor não se torna automaticamente conhecimento dos NPCs ou vilões que ele controla.
 
-> **O Opositor movimenta o outro lado da trama. O Narrador julga. O Registro reservado impede que planos e prazos adversariais sejam esquecidos.**
+> **Regra do Opositor fica aqui. Dados do Opositor ficam em `campanhas/<nome>/`.**
