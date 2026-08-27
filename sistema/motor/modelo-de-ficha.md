@@ -13,14 +13,9 @@ Controle [X]
 Importância [X]
 Patamar [X]
 
-### Atributos
+### Bloco 2
 
-FOR [X]
-DES [X]
-VIG [X]
-INT [X]
-SAB [X]
-CAR [X]
+FOR [X] | DES [X] | VIG [X] | INT [X] | SAB [X] | CAR [X]
 
 ### Recursos
 
