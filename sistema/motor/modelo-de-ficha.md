@@ -17,6 +17,14 @@ Patamar [X]
 
 FOR [X] | DES [X] | VIG [X] | INT [X] | SAB [X] | CAR [X]
 
+### Bloco 3
+
+Esportes [X] + FOR = [+X] / Furtividade [X] + DES = [+X] / Crime [X] + DES = [+X]
+Resistência [X] + VIG = [+X] / Ciência [X] + INT = [+X] / Investigação [X] + INT = [+X]
+Ocultismo [X] + INT = [+X] / Percepção [X] + SAB = [+X] / Medicina [X] + SAB = [+X]
+Sobrevivência [X] + SAB = [+X] / Influência [X] + CAR = [+X] / Manipulação [X] + CAR = [+X]
+Expressão [X] + CAR = [+X]
+
 ### Recursos
 
 Vida Atual [X]
@@ -30,27 +38,6 @@ Defesa — Reduzido [X] / Completo [X]
 Reflexos — Reduzido [X] / Completo [X]
 Fortitude — Reduzido [X] / Completo [X]
 Vontade — Reduzido [X] / Completo [X]
-
-### Perícias
-
-FOR — Esportes: Bônus [X] / Passivo [X]
-
-DES — Furtividade: Bônus [X] / Passivo [X]
-DES — Crime: Bônus [X] / Passivo [X]
-
-VIG — Resistência: Bônus [X] / Passivo [X]
-
-INT — Ciência: Bônus [X] / Passivo [X]
-INT — Investigação: Bônus [X] / Passivo [X]
-INT — Ocultismo: Bônus [X] / Passivo [X]
-
-SAB — Percepção: Bônus [X] / Passivo [X]
-SAB — Medicina: Bônus [X] / Passivo [X]
-SAB — Sobrevivência: Bônus [X] / Passivo [X]
-
-CAR — Influência: Bônus [X] / Passivo [X]
-CAR — Manipulação: Bônus [X] / Passivo [X]
-CAR — Expressão: Bônus [X] / Passivo [X]
 
 ### Pontos de Perícia
 
