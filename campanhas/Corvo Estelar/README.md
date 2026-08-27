@@ -7,3 +7,4 @@ Etapa atual: Registrar outros personagens com agência
 ## Personagens com agência
 
 Corvin Black — Central — JOGADOR HUMANO
+Ravena — Central — JOGADOR IA
