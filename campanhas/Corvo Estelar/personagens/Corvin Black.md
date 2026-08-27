@@ -1,6 +1,6 @@
 # Corvin Black
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 Importância: Central
 CONTROLE: JOGADOR HUMANO
 Patamar: [5]
@@ -51,8 +51,13 @@ RECURSOS:
 - Reserva de riqueza — ouro, metais valiosos, pedras preciosas e outros materiais raros acumulados ao longo de suas viagens e explorações.
 
 ## Personalidade e tendências
+Bem-humorado, descontraído e pouco preocupado com formalidade ou aparência. Costuma lidar com situações estranhas com naturalidade e prefere uma vida simples apesar dos recursos que possui. É levemente paquerador e tende a demonstrar curiosidade por pessoas e lugares incomuns. Tem forte inclinação a ajudar quem encontra em necessidade, mesmo quando isso atrapalha seus próprios planos. Como percebe mentiras naturalmente e não consegue fazer afirmações que sabe serem falsas, desenvolveu uma relação muito direta com a verdade e pouca paciência para falsidade deliberada.
+
 ## Desejos / objetivos atuais
+Descobrir a verdadeira origem de seus poderes e compreender por que nasceu com capacidades tão incomuns. Explorar ruínas, lugares remotos e fenômenos estranhos que possam oferecer respostas. Continuar ampliando seu conhecimento, seu acervo e sua base. Ajudar pessoas que encontra durante suas viagens, mesmo quando não existe recompensa ou obrigação pessoal.
+
 ## Medos / limites relevantes
+Corvin não conhece sua família nem a origem de seus poderes e convive com a possibilidade de nunca encontrar respostas. Sua incapacidade sobrenatural de fazer afirmações que sabe serem falsas pode colocá-lo em situações sociais ou perigosas em que uma mentira simples resolveria o problema. Seu Código de sempre ajudar um necessitado também pode fazê-lo abandonar objetivos pessoais ou aceitar riscos que poderia evitar.
 
 ## Amigos
 - Nenhum vínculo atual conhecido no início da campanha.
@@ -64,4 +69,11 @@ RECURSOS:
 - Nenhum vínculo no início da campanha.
 
 ## Conhecimento atual relevante
+Experiência extensa explorando ruínas, cavernas, regiões remotas e locais incomuns ao redor do mundo. Conhecimento prático de sobrevivência, exploração, Ciência e Ofícios. Acumulou experiência pesquisando objetos antigos, materiais raros, livros, tomos e itens encontrados durante suas viagens. Conhece bem o funcionamento prático de sua própria energia da criação, embora não compreenda sua origem verdadeira.
+
 ## História consolidada relevante
+Corvin Black cresceu sem conhecer a própria família, em um orfanato de uma pequena cidade próxima a Gotham. Aos 12 anos descobriu que possuía capacidades extraordinárias e fugiu do orfanato. Desde então passou a maior parte da vida viajando pelo mundo, explorando ruínas, lugares exóticos e regiões difíceis de alcançar em busca de respostas sobre sua origem e sobre a natureza de seus poderes.
+
+Ao longo dessas viagens, reuniu livros, tomos, objetos, metais preciosos, ouro, pedras preciosas e outros materiais, além de acumular conhecimento científico e técnico. Com o tempo estabeleceu uma base isolada no interior de uma montanha na Groenlândia, transformando uma caverna em uma residência subterrânea equipada com laboratório, oficina, internet, energia, água, esgoto e espaço para seu crescente acervo. Quando não está explorando, costuma retornar para lá.
+
+Desde cedo também percebe que consegue saber quando alguém mente e descobriu que é incapaz de fazer afirmações que sabe serem falsas. Até hoje não entende se essas características, sua imortalidade e seus demais dons fazem parte da mesma origem.
