@@ -41,12 +41,58 @@ instanciacao-da-mesa.md
 
 > **Uma IA técnica pode executar várias personas. Uma persona nunca recebe automaticamente o contexto das outras.**
 
+## Janelas de ação
+
+O fluxo da mesa não pertence ao protagonista humano.
+
+Depois que o NARRADOR termina uma sentença, uma nova situação fica disponível para iniciativa. Qualquer cadeira com autoridade legítima pode abrir a próxima janela:
+
+```text
+JOGADOR HUMANO
+JOGADOR IA
+JOGADOR IA EVENTUAL
+OPOSITOR
+```
+
+O NARRADOR não inicia ações voluntárias.
+
+A primeira declaração legítima apenas **abre a janela**. Ela não autoriza resolução imediata.
+
+Antes de qualquer julgamento significativo, todas as declarações obrigatórias daquela janela devem estar presentes:
+
+```text
+INICIATIVA
+→ abre a janela.
+
+TODAS AS DECLARAÇÕES OBRIGATÓRIAS
+→ completam a janela.
+
+NARRADOR
+→ julga.
+→ resolve, se necessário.
+→ narra a sentença.
+→ registra.
+```
+
+Se uma peça operacionalmente ativa não pretende agir, sua inação também deve ser declarada explicitamente.
+
+Se o JOGADOR HUMANO ainda precisar declarar, o NARRADOR não resolve nada até receber sua decisão.
+
+A regra completa pertence a:
+
+```text
+janelas-de-acao.md
+```
+
+> **Iniciativa abre a janela. Declarações completam a janela. O NARRADOR somente resolve a janela completa.**
+
 ## Estrutura
 
 ```text
 personas/
 ├── README.md
 ├── instanciacao-da-mesa.md
+├── janelas-de-acao.md
 ├── escopo-de-consulta.md
 ├── npcs-e-delegacao.md
 ├── jogador-humano/
@@ -59,6 +105,10 @@ personas/
 ### `instanciacao-da-mesa.md`
 
 Define como preparar as cadeiras no START e na retomada, inclusive quando toda a mesa é executada por uma única IA sem subagentes externos.
+
+### `janelas-de-acao.md`
+
+Define quem pode iniciar uma janela, quais declarações são obrigatórias e a proibição de o NARRADOR resolver enquanto faltar qualquer declaração necessária.
 
 ### `jogador-humano/`
 
@@ -103,7 +153,7 @@ Juiz da mesa:
 3. REGISTRAR
 ```
 
-Não toma decisões voluntárias por personagens.
+Não toma decisões voluntárias por personagens e não julga uma janela incompleta.
 
 ### `escopo-de-consulta.md`
 
@@ -143,7 +193,7 @@ NARRADOR → ATIVO
 
 A montagem inicial pertence a `../criacao/start-da-campanha.md`.
 
-A retomada usa essa Mesa operacional junto de `instanciacao-da-mesa.md` e `escopo-de-consulta.md`.
+A retomada usa essa Mesa operacional junto de `instanciacao-da-mesa.md`, `janelas-de-acao.md` e `escopo-de-consulta.md`.
 
 ## Mesa como tribunal
 
@@ -171,4 +221,4 @@ Quando, depois de fatos, regras e resolução aplicáveis, ainda restarem interp
 
 ## Regra final
 
-> **Quem quer algo declara pela cadeira que possui autoridade sobre aquela peça. Quem se opõe apresenta sua jogada. O NARRADOR apenas julga, narra a sentença e registra. As cadeiras podem ser executadas por uma única IA, mas seus contextos e autoridades permanecem separados.**
+> **Quem quer algo declara pela cadeira que possui autoridade sobre aquela peça. Qualquer cadeira legítima pode iniciar uma nova janela. A iniciativa não resolve nada: todas as declarações obrigatórias precisam ser coletadas primeiro. Só então o NARRADOR julga, narra a sentença e registra. As cadeiras podem ser executadas por uma única IA, mas seus contextos e autoridades permanecem separados.**
