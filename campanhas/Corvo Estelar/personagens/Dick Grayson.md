@@ -3,7 +3,7 @@
 Status: PENDENTE DE REVISÃO
 Importância: Relevante
 CONTROLE: JOGADOR IA EVENTUAL
-Patamar: [ ]
+Patamar: [3]
 
 Nome real: Richard “Dick” Grayson
 Idade: 26
@@ -15,12 +15,15 @@ Descrição: versão adulta inspirada no Robin de Jovens Titãs (2003), já tend
 TRAÇOS:
 
 ATR:
-Corpo  → Potência [ ] | Controle [ ] | Resistência [ ]
-Mente  → Intelecto [ ] | Presença [ ] | Vontade [ ]
+Corpo  → Potência [2] | Controle [4] | Resistência [2]
+Mente  → Intelecto [2] | Presença [1] | Vontade [1]
 
-Vida Máxima [ ] | Mana Máxima [ ]
+Vida Máxima [34] | Mana Máxima [34]
 
 PERÍCIAS:
+- Esportes
+- Investigar
+
 PODERES:
 RECURSOS:
 
