@@ -27,7 +27,9 @@ Quando relevantes:
 - Perícias;
 - Poderes possuídos;
 - RECURSOS consolidados;
-- relações recorrentes (`REL`);
+- amigos recorrentes;
+- inimigos recorrentes;
+- vínculos românticos atuais;
 - personalidade e tendências;
 - desejos e objetivos relevantes;
 - medos e limites;
@@ -88,9 +90,11 @@ RECURSOS:
 ## Personalidade e tendências
 ## Desejos / objetivos atuais
 ## Medos / limites relevantes
+
 ## Amigos
 ## Inimigos
 ## Romance
+
 ## Conhecimento atual relevante
 ## História consolidada relevante
 ```
@@ -282,15 +286,21 @@ Não é um inventário obrigatório nem concede bônus automático.
 
 Uma informação circunstancial ainda não consolidada pode pertencer ao estado ou às consequências persistentes em vez da ficha.
 
-## REL
+## Relacionamentos
 
-`REL` registra relações recorrentes que precisam permanecer disponíveis para interpretação e continuidade.
+A ficha separa vínculos recorrentes em três campos:
 
-A definição pertence a `relacoes.md`.
+```text
+## Amigos
+## Inimigos
+## Romance
+```
+
+Esses campos registram relações consolidadas que precisam permanecer disponíveis para interpretação e continuidade. A definição e evolução das relações pertencem a `relacoes.md`.
 
 Durante a criação, a consistência cruzada entre fichas é verificada por `../criacao/pareamento.md`.
 
-Relação não é bônus mecânico automático.
+Relacionamentos não concedem bônus mecânico automático nem controlam decisões voluntárias.
 
 ## NPCs e fichas compactas
 
