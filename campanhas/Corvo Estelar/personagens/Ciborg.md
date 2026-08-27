@@ -1,6 +1,6 @@
 # Ciborg
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADA
 Importância: Relevante
 CONTROLE: JOGADOR IA EVENTUAL
 Patamar: [3]
@@ -39,8 +39,13 @@ RECURSOS:
 - Oficina e manutenção tecnológica — ferramentas, peças e equipamentos necessários para manutenção do próprio corpo cibernético e desenvolvimento técnico.
 
 ## Personalidade e tendências
+Pragmático, confiável e protetor. Victor costuma ser uma presença estável dentro dos Titãs, equilibrando a impulsividade dos outros com bom senso e experiência. Gosta de brincar e competir, especialmente com Mutano, mas assume rapidamente uma postura séria quando há perigo. Tem orgulho de suas capacidades tecnológicas, embora ainda valorize profundamente tudo que o lembra de que continua sendo humano.
+
 ## Desejos / objetivos atuais
+Proteger os Titãs e manter a equipe funcionando; continuar aprimorando e compreendendo o próprio corpo cibernético; preservar sua autonomia sobre a tecnologia integrada a ele; construir uma vida que não seja definida apenas pelo acidente que o transformou em Ciborg.
+
 ## Medos / limites relevantes
+Perder o controle do próprio corpo ou ter seus sistemas comprometidos por terceiros; deixar de conseguir distinguir quanto de si ainda é humano; colocar os amigos em risco por alguma falha tecnológica; tende a assumir responsabilidade técnica mesmo quando o problema não depende apenas dele.
 
 ## Amigos
 - Mutano — melhor amigo; relação marcada por brincadeiras, competições e confiança absoluta quando a situação fica séria.
@@ -55,4 +60,7 @@ RECURSOS:
 - Nenhum vínculo no início da campanha.
 
 ## Conhecimento atual relevante
+Engenharia, eletrônica, sistemas computacionais, redes, manutenção tecnológica e análise científica; conhece profundamente a infraestrutura e os sistemas dos Titãs; possui experiência enfrentando tecnologia alienígena, armas avançadas e ameaças metahumanas.
+
 ## História consolidada relevante
+Victor Stone sofreu um acidente grave e sobreviveu graças a uma reconstrução cibernética que integrou tecnologia avançada permanentemente ao seu corpo. Inicialmente teve dificuldade em aceitar a transformação, mas encontrou nos Titãs amizade, propósito e uma nova família. Com os anos, tornou-se um dos membros mais experientes e confiáveis da equipe, além de seu principal especialista tecnológico.
