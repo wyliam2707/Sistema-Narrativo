@@ -1,248 +1,378 @@
 # Corrupção
 
-Corrupções são **Traços negativos sobrenaturais**. Elas representam fraquezas, vulnerabilidades, necessidades e regras extraordinárias que fazem parte da natureza do personagem.
+Status: APROVADO
 
-Uma Corrupção não é uma decisão do personagem e não precisa ser ativada. Ela descreve uma limitação que já é verdadeira e que passa a importar quando a condição correspondente aparece na ficção.
+Corrupções são **Traços negativos sobrenaturais**. Elas representam fraquezas, vulnerabilidades, necessidades e regras extraordinárias que fazem parte da natureza da personagem.
 
-> **Corrupções criam travas reais na ficção. Algumas alteram uma resolução mecânica; outras estabelecem diretamente aquilo que acontece ou aquilo que o personagem não consegue fazer.**
+Uma Corrupção não precisa ser ativada. Ela já é verdadeira e passa a importar quando sua condição aparece na ficção.
 
-O OPOSITOR pode explorar uma Corrupção como fonte legítima de pressão, oportunidade ou complicação, mas não recebe controle sobre as decisões voluntárias do personagem.
+> **Corrupção estabelece uma limitação sobrenatural real. Ela pode modificar uma resolução, causar consequência automática ou tornar uma ação impossível quando sua própria descrição disser isso.**
+
+O OPOSITOR pode explorar uma Corrupção quando possuir oportunidade e conhecimento legítimos, mas não recebe autoridade para decidir escolhas voluntárias da personagem.
 
 ---
 
-## Valor das Corrupções
+## Valor
 
-Cada Corrupção possui valor **[-1]** ou **[-2]**.
+Toda Corrupção vale:
 
-- **[-1] — Restrição limitada:** depende de uma condição específica, relativamente rara, localizada ou razoavelmente fácil de contornar.
-- **[-2] — Restrição ampla:** aparece com frequência, é difícil de evitar ou limita de maneira importante a existência, deslocamento, sobrevivência ou funcionamento do personagem.
+> **[-1]**
 
-O valor mede principalmente a **abrangência prática da limitação**, não o quanto sua descrição parece dramática.
+Cada Corrupção fornece **1 ponto negativo de criação**, que pode ser convertido conforme `../patamar.md` em apenas uma destas opções:
 
-Os exemplos deste arquivo servem como referência para Narradores humanos e IAs. Uma nova variação `[X]` deve receber valor comparando sua abrangência com exemplos equivalentes.
-
-Cada ponto negativo de Corrupção fornece **1 ponto negativo de criação**. Conforme `../patamar.md`, cada ponto pode ser usado em apenas uma destas opções:
-
-- `+1` ponto de Traço positivo;
+- `+1` Traço positivo;
 - `+1` Poder.
 
-O mesmo ponto nunca compra as duas coisas ao mesmo tempo.
+O mesmo ponto nunca compra as duas coisas.
+
+Não existem Corrupções comuns de `[-2]` no catálogo atual.
+
+O equilíbrio vem da própria definição:
+
+```text
+limitação pequena demais
+→ ampliar ou unir
+
+limitação ampla demais
+→ restringir fonte, gatilho ou consequência
+
+limitação impossível de entrar em jogo
+→ não concede ponto negativo
+```
+
+> **Uma Corrupção só vale [-1] quando puder realmente complicar a existência da personagem.**
 
 ---
 
-## Corrupções e Pontos de Trama
+## Critério mínimo de validade
 
-Quando uma Corrupção coloca o personagem diante de uma **escolha real** e ele cede ao Traço, aceitando a dificuldade ou complicação que isso produz, pode receber **+1 Ponto de Trama**, respeitando o limite diário definido em **[../trama.md](../trama.md)**.
+Uma Corrupção precisa possuir:
 
-Se o personagem resiste, enfrenta ou procura contornar a Corrupção, normalmente não recebe esse ponto.
+1. **gatilho concreto** — a condição que a coloca em funcionamento;
+2. **consequência objetiva** — o que muda quando o gatilho ocorre;
+3. **possibilidade plausível de aparecer** — a condição pode realmente surgir na campanha.
 
-Consequências automáticas não retiram a agência do jogador. Uma Corrupção pode causar dano, impedir uma ação ou aplicar uma penalidade como regra objetiva sem permitir que o Narrador decida voluntariamente pelo personagem.
+Não comprar a mesma limitação várias vezes sob nomes diferentes.
 
-Pontos de Trama podem reduzir penalidades numéricas quando a regra de Trama permitir, mas não anulam por si só uma impossibilidade absoluta estabelecida por **Restrição**.
+Fontes extremamente amplas como `Físico`, `Mental`, `Magia`, `Elementos` ou `Status` não são válidas como `[X]` em Corrupções que exigem uma fonte específica, salvo regra que diga explicitamente o contrário.
+
+---
+
+## Corrupções e Trama
+
+Quando uma Corrupção oferece uma escolha real e a personagem elegível **aceita voluntariamente** uma complicação evitável causada por ela, pode receber `+1 Trama` conforme `../trama.md`.
+
+Consequência automática, por si só, não significa que houve escolha voluntária.
+
+```text
+fonte aparece e causa Dano automaticamente
+→ aplicar a Corrupção
+→ não pressupõe ganho de Trama
+
+personagem poderia evitar a fonte
+mas decide enfrentá-la e aceita a complicação
+→ pode existir complicação válida de Trama
+```
+
+Pontos de Trama podem reduzir penalidades ou Dano quando sua própria regra permitir, mas não anulam uma impossibilidade absoluta de **Restrição**.
 
 ---
 
 # Corrupções
 
-## Fraqueza [X] [-1 ou -2]
+## Fraqueza [X] [-1]
 
-O personagem é especialmente suscetível à fonte indicada.
+A personagem é especialmente suscetível a uma **fonte específica** registrada em `[X]`.
 
-Quando `[X]` participa diretamente de uma resolução contra o personagem, a fonte recebe **+1 dado** nessa resolução.
+Exemplos válidos:
 
-Fraqueza não causa dano por existir e não dobra automaticamente um efeito. Ela apenas torna aquela fonte mecanicamente mais eficaz quando houver uma resolução aplicável.
+```text
+Fraqueza [Prata]
+Fraqueza [Ferro Frio]
+Fraqueza [Água Sagrada]
+Fraqueza [Fogo]
+Fraqueza [Som Ultrassônico]
+```
+
+Quando `[X]` participa diretamente de uma resolução contra a personagem, aplica-se **1 dado de desvantagem ao lado da personagem**:
+
+- se outra peça fizer a rolagem contra ela, essa peça recebe `+1d`;
+- se somente a personagem fizer uma rolagem para resistir ou suportar `[X]`, recebe `-1d`;
+- nunca aplicar os dois na mesma resolução.
+
+Fraqueza não causa Dano por existir e não dobra consequências.
+
+Categorias excessivamente amplas não são válidas:
+
+```text
+Fraqueza [Físico] → inválida
+Fraqueza [Mental] → inválida
+Fraqueza [Magia]  → inválida
+```
 
 ### Fraqueza e Imunidade
 
-Quando uma **Fraqueza [X]** encontra uma Imunidade que normalmente impediria o efeito de `[X]`, os dois efeitos **se anulam naquela interação**: a fonte afeta o personagem normalmente, sem a Imunidade e sem receber também o **+1 dado** da Fraqueza.
+Se a personagem possuir **Imunidade [X]** e **Fraqueza [X]** exatamente para a mesma fonte, a combinação é inválida.
 
-Exemplo: um personagem com **Imunidade [Físico]** e **Fraqueza [Prata]** ignora golpes físicos comuns, mas uma arma de prata causa dano físico normal. A prata não recebe também +1 dado nessa situação.
-
-### Exemplos
-
-- **Fraqueza [Prata] [-1]** — prata é uma fonte específica e normalmente evitável.
-- **Fraqueza [Ferro Frio] [-1]** — ferro frio afeta a criatura com eficiência incomum.
-- **Fraqueza [Água Sagrada] [-1]** — água devidamente consagrada recebe +1 dado quando usada contra a criatura.
-- **Fraqueza [Fogo] [-2]** — fogo é uma ameaça ampla e relativamente comum.
-- **Fraqueza [Magia] [-2]** — efeitos cuja natureza imediata é mágica recebem +1 dado contra o personagem.
+Uma Fraqueza específica também não transforma automaticamente uma Imunidade diferente em proteção inútil; aplicar literalmente as fontes registradas.
 
 ---
 
-## Vulnerabilidade [X] [-1 ou -2]
+## Vulnerabilidade [X] [-1]
 
-A fonte indicada produz consequências muito mais severas sobre o personagem.
+A personagem sofre consequência física muito maior quando recebe **Dano de uma fonte específica** registrada em `[X]`.
 
-Quando `[X]` causa **dano ou outro efeito mensurável**, o resultado final produzido por essa fonte é **dobrado**.
+Exemplos:
 
-Vulnerabilidade não concede dados adicionais. Resolve-se o efeito normalmente e, quando a Vulnerabilidade for aplicável, sua consequência final é dobrada.
+```text
+Vulnerabilidade [Prata]
+Vulnerabilidade [Fogo]
+Vulnerabilidade [Eletricidade]
+Vulnerabilidade [Sagrado]
+Vulnerabilidade [Ácido]
+```
 
-### Vulnerabilidade e Imunidade
+Quando Dano de `[X]` alcançaria a personagem, resolver normalmente:
 
-Uma Vulnerabilidade específica **prevalece sobre uma Imunidade mais ampla** quando sua fonte estiver presente. Nesse caso, a fonte atravessa a proteção e aplica o efeito dobrado da Vulnerabilidade.
+```text
+Defesa
+→ redução da Defesa
+→ RD
+→ mínimo aplicável
+→ Escudo
+```
 
-Exemplo: **Imunidade [Físico] + Vulnerabilidade [Prata]** é uma combinação válida. Ataques físicos comuns não afetam o personagem, mas uma arma de prata atravessa essa Imunidade e causa **dano dobrado**.
+Depois do Escudo e **antes da janela de Trama**, dobrar o Dano restante.
 
-Um personagem não pode possuir **Imunidade e Vulnerabilidade exatamente para a mesma fonte ou categoria**.
+```text
+Dano restante 3
+→ Vulnerabilidade aplicável
+→ 6 Dano
+→ abrir Trama, quando elegível
+→ Vida
+```
 
-Exemplos de combinações inválidas:
+Vulnerabilidade não dobra duração de Status, número de alvos, penalidades ou efeitos narrativos que não sejam Dano, salvo regra específica.
 
-- **Imunidade [Físico] + Vulnerabilidade [Físico]**;
-- **Imunidade [Elementos] + Vulnerabilidade [Elementos]**;
-- **Imunidade [Magia] + Vulnerabilidade [Magia]**.
+A fonte precisa ser específica. `Vulnerabilidade [Físico]`, `[Magia]`, `[Elementos]`, `[Mental]` ou `[Status]` não é válida como Corrupção padrão.
 
-### Exemplos
-
-- **Vulnerabilidade [Prata] [-1]** — dano ou efeito diretamente provocado por prata é dobrado.
-- **Vulnerabilidade [Ferro Frio] [-1]** — ferro frio produz efeito dobrado sobre a criatura.
-- **Vulnerabilidade [Sagrado] [-1]** — efeitos diretamente sagrados ou consagrados têm consequência dobrada.
-- **Vulnerabilidade [Fogo] [-2]** — dano ou efeito direto de fogo é dobrado.
-- **Vulnerabilidade [Elementos] [-2]** — fogo, frio, eletricidade, ácido e forças elementais semelhantes têm consequência dobrada.
-
----
-
-## Exposição [X] [-1 ou -2]
-
-A simples exposição direta à condição indicada causa dano contínuo ao personagem.
-
-Enquanto permanecer diretamente exposto a `[X]`, o personagem sofre **1 de dano por turno**.
-
-Neste sistema, **Turno é o intervalo simultâneo de até 10 segundos compartilhado pelas peças**, conforme `../../operacao/turnos-de-combate.md`.
-
-Esse dano é **automático**: não exige teste, não entra em uma resolução comum de dano e não pode ser reduzido por Resistência, defesa ou outro mecanismo normal de redução, salvo regra específica que diga explicitamente o contrário.
-
-A Exposição deixa de causar dano assim que a exposição direta termina.
-
-### Exemplos
-
-- **Exposição [Água Sagrada] [-1]** — sofre 1 de dano por turno enquanto permanecer em contato direto com água devidamente consagrada.
-- **Exposição [Solo Consagrado] [-1]** — sofre 1 de dano por turno enquanto permanecer diretamente sobre uma área verdadeiramente consagrada.
-- **Exposição [Ferro Frio] [-1]** — contato contínuo e direto com ferro frio causa 1 de dano por turno.
-- **Exposição [Luz Solar] [-2]** — sofre 1 de dano por turno enquanto estiver diretamente sob a luz do Sol.
-- **Exposição [Água Corrente] [-2]** — contato direto e contínuo com água corrente causa 1 de dano por turno.
-
-**Exposição** não precisa de um ataque ou resolução para funcionar. A própria presença da condição já produz o dano descrito.
+Não possuir Imunidade e Vulnerabilidade exatamente para a mesma fonte.
 
 ---
 
-## Dieta Especial [X] [-1 ou -2]
+## Exposição [X] [-1]
 
-Alimentação comum não satisfaz a necessidade sobrenatural do personagem. Para se alimentar adequadamente, ele precisa consumir a fonte indicada por `[X]`.
+A simples exposição direta a uma condição específica causa Dano contínuo.
 
-Enquanto essa necessidade não tiver sido satisfeita, o personagem **não recupera Vida por descanso**.
+Exemplos:
 
-A Dieta Especial é considerada satisfeita quando o personagem consome uma quantidade adequada da fonte, conforme a ficção. Depois disso, ele pode recuperar Vida normalmente no **próximo repouso válido**. Após esse repouso, a necessidade precisa ser satisfeita novamente para uma nova recuperação de Vida por descanso.
+```text
+Exposição [Luz Solar]
+Exposição [Água Sagrada]
+Exposição [Ferro Frio]
+Exposição [Solo Consagrado]
+Exposição [Água Corrente]
+```
 
-Dieta Especial não causa dano automaticamente e não obriga o personagem a consumir a fonte. Ela estabelece uma necessidade sobrenatural real e a consequência específica de ignorá-la.
+Em combate, enquanto a exposição direta permanecer:
 
-A disponibilidade de `[X]` importa para o valor da Corrupção: uma fonte simples e acessível é uma limitação menor; uma fonte perigosa, rara ou socialmente problemática é uma limitação maior.
+> **1 Dano por Turno pessoal da personagem afetada**
 
-### Exemplos
+O primeiro Dano ocorre quando a exposição direta é estabelecida. Se ela continuar, aplica-se novamente no início das VEZES seguintes da personagem enquanto a condição persistir.
 
-- **Dieta Especial [Carne Crua] [-1]** — alimentação depende de carne crua, mas a fonte normalmente pode ser obtida sem grande conflito.
-- **Dieta Especial [Sangue Animal] [-1]** — precisa de sangue, mas animais oferecem uma fonte relativamente acessível.
-- **Dieta Especial [Emoções] [-1]** — alimenta-se de uma emoção específica quando ela pode ser encontrada sem necessariamente ferir alguém.
-- **Dieta Especial [Sangue Humano] [-2]** — precisa de sangue humano, criando uma necessidade difícil de satisfazer de maneira comum.
-- **Dieta Especial [Energia Vital] [-2]** — precisa extrair energia vital de seres vivos para se alimentar adequadamente.
+Esse Dano é automático e não exige rolagem. Não é reduzido por Defesa, Resistência ou RD comum, salvo regra específica que diga o contrário. Trama ainda pode reduzir Dano quando a janela normal for aplicável.
 
-Se `[X]` for apenas um desejo, hábito ou compulsão, e não uma necessidade sobrenatural do corpo ou da existência do personagem, deve ser tratado como **Vício**, não como Dieta Especial.
+Fora de combate, não criar Turnos artificiais. Resolver pela duração ficcional da exposição. Quando for realmente necessário acompanhar numericamente uma exposição curta, usar como referência **1 Dano por aproximadamente 10 segundos** de contato contínuo.
 
----
-
-## Repulsa [X] [-1 ou -2]
-
-A presença direta da fonte indicada provoca rejeição ou enfraquecimento sobrenatural.
-
-Enquanto estiver sob a presença direta de `[X]`, o personagem sofre **-2 dados em suas resoluções**.
-
-A penalidade pode representar desconforto sobrenatural, desorientação, enfraquecimento ou rejeição física ou mística. Repulsa não impede automaticamente o personagem de agir, aproximar-se ou atravessar a fonte.
-
-### Exemplos
-
-- **Repulsa [Símbolo Sagrado] [-1]** — sofre -2 dados enquanto estiver diante de um símbolo sagrado legitimamente apresentado contra ele.
-- **Repulsa [Alho] [-1]** — sofre -2 dados sob presença direta e relevante de alho preparado contra sua natureza sobrenatural.
-- **Repulsa [Sal] [-1]** — sofre -2 dados diante de sal disposto de forma apropriada contra a criatura.
-- **Repulsa [Fogo] [-2]** — sofre -2 dados enquanto estiver diretamente diante de fogo aberto e relevante para a cena.
-- **Repulsa [Luz Solar] [-2]** — sofre -2 dados enquanto estiver diretamente sob luz solar.
-
-**Repulsa dificulta; não proíbe.** Quando a fonte torna uma ação literalmente impossível, a limitação adequada é **Restrição**.
+A mesma Corrupção não acumula múltiplas instâncias simultâneas da mesma fonte.
 
 ---
 
-## Restrição [X] [-1 ou -2]
+## Dieta Especial [X] [-1]
 
-O personagem está sujeito a uma **regra sobrenatural absoluta que não consegue violar** enquanto a condição correspondente estiver válida.
+A personagem possui uma necessidade sobrenatural de alimentação que comida comum não satisfaz.
 
-Quando a Restrição se aplica, **não há teste** apenas para tentar contrariá-la. O Narrador pode impedir diretamente uma ação incompatível com a Restrição porque, para aquele personagem, ela é ficcionalmente impossível.
+Exemplos:
 
-Restrição deve sempre dizer claramente **o que o personagem não consegue fazer e em qual circunstância**.
+```text
+Dieta Especial [Sangue]
+Dieta Especial [Energia Vital]
+Dieta Especial [Emoções]
+Dieta Especial [Carne Crua]
+```
 
-### Exemplos
+Enquanto a necessidade não tiver sido satisfeita desde o último descanso válido:
 
-- **Restrição [Convite] [-1]** — não consegue entrar em uma residência privada sem receber convite legítimo de alguém capaz de concedê-lo.
-- **Restrição [Água Corrente] [-1]** — não consegue atravessar água corrente pelos próprios meios.
-- **Restrição [Solo Sagrado] [-1]** — não consegue entrar voluntariamente em local verdadeiramente consagrado.
-- **Restrição [Verdade] [-1]** — não consegue afirmar deliberadamente algo que sabe ser falso; ainda pode omitir, permanecer em silêncio ou escolher palavras verdadeiras.
-- **Restrição [Luz do Dia] [-2]** — não consegue permanecer ou agir voluntariamente sob luz direta do dia.
+> **a personagem não recebe a recuperação natural diária de Vida por descanso**
 
-**Repulsa** aplica uma penalidade e ainda permite agir. **Restrição** estabelece uma impossibilidade e não exige resolução mecânica para ser respeitada.
+Consumir uma quantidade adequada de `[X]`, conforme a ficção, torna a personagem apta a receber a recuperação no próximo descanso válido. Depois dessa recuperação, a necessidade volta a precisar ser satisfeita para a próxima recuperação natural.
 
----
+Dieta Especial não causa Dano automaticamente e não obriga consumo.
 
-## Repouso Especial [X] [-1 ou -2]
+Para valer `[-1]`, `[X]` precisa criar dificuldade real de obtenção, risco, conflito ou limitação. Uma fonte trivialmente disponível em qualquer lugar não sustenta esta Corrupção.
 
-O personagem **só consegue realizar um repouso válido** quando estiver no local ou condição indicada por `[X]`.
-
-Fora dessa condição, ele pode permanecer imóvel, dormir, esconder-se ou passar tempo sem agir, mas isso **não conta como repouso** para qualquer regra que dependa de um repouso válido.
-
-Repouso Especial não define por si só quais recursos ou condições um repouso recupera. Ele apenas estabelece onde ou em qual condição o personagem consegue realmente repousar.
-
-O valor depende principalmente de quão fácil é levar, encontrar ou reproduzir a condição necessária.
-
-### Exemplos
-
-- **Repouso Especial [Caixão] [-1]** — só consegue realizar repouso válido dentro de um caixão apropriado.
-- **Repouso Especial [Escuridão Total] [-1]** — só consegue repousar em ambiente completamente protegido de luz.
-- **Repouso Especial [Círculo Ritual] [-1]** — só consegue repousar dentro de um círculo preparado segundo sua natureza sobrenatural.
-- **Repouso Especial [Solo Natal] [-2]** — só consegue repousar enquanto estiver em contato com terra de seu local de origem.
-- **Repouso Especial [Tumba de Origem] [-2]** — só consegue realizar repouso válido em uma tumba ou local específico ligado à sua existência.
+Se `[X]` for desejo ou hábito, não necessidade sobrenatural, usar **Dependência** em `vicios.md`.
 
 ---
 
-## Âncora [X] [-1 ou -2]
+## Repulsa [X] [-1]
 
-A estabilidade sobrenatural do personagem depende de um objeto, lugar ou vínculo externo específico indicado por `[X]`.
+A presença direta de uma fonte sobrenatural específica enfraquece ou desorganiza a personagem.
 
-Quando a ligação com a Âncora é perdida, destruída, rompida ou deixa de estar disponível de modo relevante, aplica-se imediatamente a consequência correspondente ao valor da Corrupção.
+Enquanto `[X]` estiver diretamente presente e relevante:
 
-- **[-1] Instável —** o personagem perde **toda a Mana atual**.
-- **[-2] Vital —** se possuir mais de **1 de Vida**, sua Vida atual é reduzida imediatamente para **1**.
+> **-2d nas resoluções diretamente afetadas pela Repulsa**
 
-**Âncora nunca aumenta Vida.** Se o personagem já estiver com 1 ou menos de Vida, permanece com o valor atual.
+Exemplos:
 
-### Exemplos
+```text
+Repulsa [Símbolo Sagrado]
+Repulsa [Alho]
+Repulsa [Sal Ritual]
+Repulsa [Luz Solar]
+Repulsa [Fogo Aberto]
+```
 
-- **Âncora [Amuleto] [-1]** — se perder o amuleto ou ele for destruído, perde toda a Mana atual.
-- **Âncora [Arma Vinculada] [-1]** — se a arma vinculada for destruída ou separada de modo relevante, perde toda a Mana atual.
-- **Âncora [Filactério] [-2]** — se o filactério for destruído e possuir mais de 1 de Vida, sua Vida atual é reduzida para 1.
-- **Âncora [Coração Oculto] [-2]** — se o coração preservado fora do corpo for destruído e possuir mais de 1 de Vida, sua Vida atual é reduzida para 1.
-- **Âncora [Território] [-2]** — se o vínculo sobrenatural com o território for rompido e possuir mais de 1 de Vida, sua Vida atual é reduzida para 1.
+A penalidade não se aplica a ações sem relação real com a presença da fonte.
+
+Repulsa não obriga fuga e não torna uma ação automaticamente impossível.
+
+> **Repulsa dificulta. Restrição proíbe.**
+
+Como `-2d` já alcança o limite universal de penalidade de dados, outras penalidades de dados continuam sujeitas ao teto final do motor.
+
+---
+
+## Restrição [X] [-1]
+
+A personagem está sujeita a uma **regra sobrenatural absoluta e específica** que não consegue violar enquanto a condição registrada for válida.
+
+Quando a Restrição se aplica, não existe teste para simplesmente contrariá-la.
+
+Exemplos válidos:
+
+```text
+Restrição [Convite]
+→ não consegue atravessar o limiar de residência privada sem convite legítimo
+
+Restrição [Verdade]
+→ não consegue afirmar deliberadamente algo que sabe ser falso
+
+Restrição [Água Corrente]
+→ não consegue atravessar água corrente por deslocamento próprio
+
+Restrição [Solo Consagrado]
+→ não consegue entrar voluntariamente em local verdadeiramente consagrado
+```
+
+A Restrição deve bloquear **uma ação ou relação específica**, não uma parte enorme da existência da personagem.
+
+Exemplo amplo demais para uma Corrupção padrão:
+
+```text
+Restrição [Luz do Dia]
+→ "não consegue fazer nada durante o dia"
+→ inválida por abrangência excessiva
+```
+
+Para luz solar, usar normalmente **Exposição**, **Repulsa**, **Fraqueza** ou outra Corrupção específica conforme o efeito desejado.
+
+Uma Restrição pode ser contornada quando a própria redação permitir outro método.
+
+```text
+não consegue atravessar água corrente por deslocamento próprio
+→ Teleporte pode contornar se não existir travessia física
+```
+
+---
+
+## Repouso Especial [X] [-1]
+
+A personagem só consegue realizar **descanso válido** quando estiver em uma condição sobrenatural específica registrada em `[X]`.
+
+Exemplos:
+
+```text
+Repouso Especial [Caixão]
+Repouso Especial [Escuridão Total]
+Repouso Especial [Círculo Ritual]
+Repouso Especial [Contato com Solo Natal]
+```
+
+Fora dessa condição, dormir, permanecer imóvel ou esperar não conta como descanso válido para regras que dependam de repouso.
+
+A condição precisa ser exigente, mas **plausivelmente alcançável ou preparável** durante a campanha.
+
+Uma condição única, remota e praticamente impossível de acessar na maior parte da campanha é ampla demais para a Corrupção padrão de `[-1]` e exige aprovação específica da criação.
+
+Repouso Especial não altera por si só quanto Vida ou Mana é recuperado; ele apenas determina se o descanso é válido.
+
+---
+
+## Âncora [X] [-1]
+
+A estabilidade sobrenatural da personagem depende de um objeto, lugar ou vínculo externo concreto registrado em `[X]`.
+
+Exemplos:
+
+```text
+Âncora [Amuleto]
+Âncora [Arma Vinculada]
+Âncora [Filactério]
+Âncora [Coração Oculto]
+Âncora [Território]
+```
+
+Quando a ligação com a Âncora é destruída, rompida ou perdida de maneira realmente relevante:
+
+1. a personagem perde imediatamente **toda a Mana atual**;
+2. não recupera Mana por repouso enquanto a ligação não for restaurada, substituída ou reparada de modo coerente com o Conceito.
+
+Âncora não reduz Vida diretamente.
+
+Para valer `[-1]`, a Âncora precisa existir concretamente, poder ser ameaçada e não estar protegida por uma impossibilidade absoluta de interação.
+
+Perder contato momentâneo sem romper o vínculo não ativa automaticamente a Corrupção, salvo se a descrição registrada disser explicitamente que distância ou separação é o gatilho.
 
 ---
 
 # Relação com agência e narrativa
 
-Corrupções não entregam o personagem ao Narrador ou ao OPOSITOR.
+Corrupções não entregam a personagem ao NARRADOR ou ao OPOSITOR.
 
-Uma **Dieta Especial [Sangue]** pode tornar a necessidade de sangue uma pressão real, mas quem decide procurar sangue, resistir, fugir ou aceitar ajuda continua sendo a persona que controla o personagem.
+```text
+Dieta Especial [Sangue]
+→ necessidade existe
+→ a persona decide como lidar com ela
 
-Da mesma forma, o OPOSITOR pode explorar uma Fraqueza conhecida, colocar o personagem diante de uma fonte de Repulsa ou ameaçar uma Âncora quando possuir meios legítimos para isso. A Corrupção fornece um **gancho válido de oposição**, não conhecimento automático nem controle sobre a peça.
+Repulsa [Símbolo Sagrado]
+→ penalidade objetiva existe
+→ a persona ainda decide sua ação
 
-A exceção são as próprias **travas objetivas** estabelecidas pela Corrupção. Se uma Restrição declara que uma ação é impossível, o Narrador deve respeitar essa impossibilidade sem criar um teste artificial. Isso não significa decidir pelo personagem; significa aplicar uma verdade já existente em sua ficha.
+Restrição [Convite]
+→ atravessar o limiar é impossível sem convite
+→ a persona decide o que tentar em vez disso
+```
 
-Quando uma Corrupção modifica uma situação realmente incerta, aplica-se seu efeito mecânico e a resolução continua normalmente.
+O OPOSITOR só pode explorar uma Corrupção usando conhecimento e meios que realmente possua.
+
+Uma Corrupção registrada na ficha não concede automaticamente esse conhecimento a outras personagens.
 
 ---
 
+# Lista rápida
+
+```text
+Fraqueza [X] [-1]
+Vulnerabilidade [X] [-1]
+Exposição [X] [-1]
+Dieta Especial [X] [-1]
+Repulsa [X] [-1]
+Restrição [X] [-1]
+Repouso Especial [X] [-1]
+Âncora [X] [-1]
+```
+
 # Regra fundamental
 
-> **Corrupções são regras negativas da natureza sobrenatural do personagem. Elas entram em cena somente quando sua condição é verdadeira, produzem apenas as consequências escritas em sua descrição e nunca autorizam o Narrador ou o OPOSITOR a decidir voluntariamente pelo personagem.**
+> **Toda Corrupção vale [-1]. Para ser justa, precisa produzir uma limitação sobrenatural real e plausível; efeitos muito amplos são restringidos a fontes ou condições específicas. Corrupções criam consequências objetivas, nunca autoridade sobre escolhas voluntárias da personagem.**
