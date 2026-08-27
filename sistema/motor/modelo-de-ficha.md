@@ -6,110 +6,125 @@ Objetivo: testar uma ficha física de uma página em que os valores usados duran
 
 ## Estrutura proposta
 
-```text
-BLOCO [1]
-┌─────────────────────────────────────────────────────────────────────┐
-│ NOME __________________________  CONTROLE _________________________ │
-│ IMPORTÂNCIA ___________________  PATAMAR [   ]                     │
-└─────────────────────────────────────────────────────────────────────┘
+### Bloco 1
 
-ATRIBUTOS
-┌────────┬────────┬────────┬────────┬────────┬────────┐
-│ FOR    │ DES    │ VIG    │ INT    │ SAB    │ CAR    │
-│ [   ]  │ [   ]  │ [   ]  │ [   ]  │ [   ]  │ [   ]  │
-└────────┴────────┴────────┴────────┴────────┴────────┘
+Nome: ______________________________
+Controle: __________________________
+Importância: _______________________
+Patamar: ______
 
-RECURSOS
-Vida Atual [      ] / Máxima [      ]
+### Atributos
+
+FOR [   ]
+DES [   ]
+VIG [   ]
+INT [   ]
+SAB [   ]
+CAR [   ]
+
+### Recursos
+
+Vida Atual: ______ / Vida Máxima: ______
 Vida Máxima em estudo: Patamar × (5 + VIG)
-Mana Atual [      ] / Máxima [      ]
 
-DEFESAS / RESISTÊNCIAS
-                    REDUZIDO     COMPLETO
-Defesa              [      ]     [      ]
-Reflexos             [      ]     [      ]
-Fortitude            [      ]     [      ]
-Vontade              [      ]     [      ]
+Mana Atual: ______ / Mana Máxima: ______
+
+### Defesas / Resistências
+
+Defesa: Reduzido [   ] / Completo [   ]
+Reflexos: Reduzido [   ] / Completo [   ]
+Fortitude: Reduzido [   ] / Completo [   ]
+Vontade: Reduzido [   ] / Completo [   ]
 
 Leitura em estudo:
-resultado < Reduzido       → sem dano/efeito
-resultado ≥ Reduzido       → metade/reduzido
-resultado ≥ Completo       → dano/efeito completo
+- resultado abaixo de Reduzido → sem dano/efeito;
+- resultado entre Reduzido e Completo → metade/reduzido;
+- resultado igual ou acima de Completo → dano/efeito completo.
 
 Defesa física em estudo:
-Reduzido = 8 + DES
-Completo = 12 + DES
+- Reduzido = 8 + DES
+- Completo = 12 + DES
 
-PERÍCIAS
-                               BÔNUS    PASSIVO
-FOR  Esportes                  [   ]    [   ]
-DES  Furtividade               [   ]    [   ]
-DES  Crime                     [   ]    [   ]
-VIG  Resistência               [   ]    [   ]
-INT  Ciência                   [   ]    [   ]
-INT  Investigação              [   ]    [   ]
-INT  Ocultismo                 [   ]    [   ]
-SAB  Percepção                 [   ]    [   ]
-SAB  Medicina                  [   ]    [   ]
-SAB  Sobrevivência             [   ]    [   ]
-CAR  Influência                [   ]    [   ]
-CAR  Manipulação               [   ]    [   ]
-CAR  Expressão                 [   ]    [   ]
+### Perícias
+
+FOR — Esportes: Bônus [   ] / Passivo [   ]
+
+DES — Furtividade: Bônus [   ] / Passivo [   ]
+DES — Crime: Bônus [   ] / Passivo [   ]
+
+VIG — Resistência: Bônus [   ] / Passivo [   ]
+
+INT — Ciência: Bônus [   ] / Passivo [   ]
+INT — Investigação: Bônus [   ] / Passivo [   ]
+INT — Ocultismo: Bônus [   ] / Passivo [   ]
+
+SAB — Percepção: Bônus [   ] / Passivo [   ]
+SAB — Medicina: Bônus [   ] / Passivo [   ]
+SAB — Sobrevivência: Bônus [   ] / Passivo [   ]
+
+CAR — Influência: Bônus [   ] / Passivo [   ]
+CAR — Manipulação: Bônus [   ] / Passivo [   ]
+CAR — Expressão: Bônus [   ] / Passivo [   ]
 
 Teste de Perícia: 1d20 + Bônus
+
 Passivo: 8 + Bônus
+
 Se CD ≤ Passivo, não há teste.
 
-PONTOS DE PERÍCIA
+### Pontos de Perícia
+
 Total em estudo:
+
 (INT × 4) + (SAB × 2) + (CAR × 2) + FOR + DES + VIG + (Patamar × 2)
 
 Somente valores permanentes dos Atributos entram nesse cálculo.
 
-PODERES
-┌─────────────────────────────────────────────────────────────────────┐
-│ NOME DO PODER                                                       │
-│ Atributo: ____   Custo: ____   Alcance: ____   Alvo/Área: ______ │
-│ Acerto/Efeito: _________________________________________________ │
-│ Dano/Cura/Proteção: ____________________________________________ │
-│ Defesa/Resistência alvo: _______________________________________ │
-│ Efeito especial / observações: _________________________________ │
-└─────────────────────────────────────────────────────────────────────┘
+### Poderes
 
-┌─────────────────────────────────────────────────────────────────────┐
-│ NOME DO PODER                                                       │
-│ Atributo: ____   Custo: ____   Alcance: ____   Alvo/Área: ______ │
-│ Acerto/Efeito: _________________________________________________ │
-│ Dano/Cura/Proteção: ____________________________________________ │
-│ Defesa/Resistência alvo: _______________________________________ │
-│ Efeito especial / observações: _________________________________ │
-└─────────────────────────────────────────────────────────────────────┘
+Nome do Poder: ______________________________
+Atributo: ______
+Custo: ______
+Alcance: ______
+Alvo/Área: ______________________________
+Acerto/Efeito: ___________________________
+Dano/Cura/Proteção: ______________________
+Defesa/Resistência alvo: _________________
+Efeito especial / observações: ___________
 
-CONDIÇÕES / ANOTAÇÕES
-___________________________________________________________________
-___________________________________________________________________
-___________________________________________________________________
-```
+Nome do Poder: ______________________________
+Atributo: ______
+Custo: ______
+Alcance: ______
+Alvo/Área: ______________________________
+Acerto/Efeito: ___________________________
+Dano/Cura/Proteção: ______________________
+Defesa/Resistência alvo: _________________
+Efeito especial / observações: ___________
+
+### Condições / Anotações
+
+____________________________________________
+____________________________________________
+____________________________________________
 
 ## Princípio da ficha
 
 A ficha deve mostrar diretamente os números usados em sessão.
 
-```text
-Atributos
-→ bases de construção
-→ não são rolados diretamente
+Atributos:
+- bases de construção;
+- não são rolados diretamente.
 
-Perícias
-→ bônus final já calculado
-→ passivo já calculado
+Perícias:
+- bônus final já calculado;
+- passivo já calculado.
 
-Defesas
-→ limiares já calculados
+Defesas:
+- limiares já calculados.
 
-Poderes
-→ fórmula e Atributo definidos na própria habilidade
-```
+Poderes:
+- fórmula e Atributo definidos na própria habilidade.
 
 A intenção é que o jogador não precise consultar fórmulas durante uma ação comum.
 
