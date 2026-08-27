@@ -13,6 +13,11 @@ Conceito: ex-Robin, atualmente Asa Noturna; acrobata, combatente e investigador 
 Descrição: versão adulta inspirada no Robin de Jovens Titãs (2003), já tendo assumido a identidade de Asa Noturna. Continua muito ligado aos Titãs, mas também mantém responsabilidades próprias e trabalhos ligados a Gotham e Batman, o que faz com que nem sempre esteja presente com a equipe.
 
 TRAÇOS:
+- Afiliação [Titãs]
+- Conexões [Batfamília e rede de Gotham]
+- Reputação [Heróis e vigilantes]
+- Identidade Alternativa [Asa Noturna]
+- Código [Nunca Matar] [-1]
 
 ATR:
 Corpo  → Potência [2] | Controle [4] | Resistência [2]
@@ -25,6 +30,12 @@ PERÍCIAS:
 - Investigar
 
 PODERES:
+- Golpe
+- Movimento
+- Disparo
+- Contenção
+- Debilitação
+
 RECURSOS:
 
 ## Personalidade e tendências
