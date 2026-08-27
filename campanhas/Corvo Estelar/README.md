@@ -3,8 +3,8 @@
 CRIAÇÃO: EM ANDAMENTO
 
 Etapa atual: Revisão das fichas
-Personagem atual: Mutano
-Bloco atual: 5 - Conferência final
+Personagem atual: Ciborg
+Bloco atual: 1 - Identidade e Conceito
 
 ## Personagens com agência
 
