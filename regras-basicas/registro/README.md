@@ -47,6 +47,33 @@ PERSONAGEM SABE
 
 Quando um novo fato percebido precisar continuar disponível em cenas ou retomadas futuras, ele deve ser preservado no Registro apropriado.
 
+## Registro comum e Registro reservado
+
+Nem toda verdade da campanha precisa ser fonte de conhecimento para todas as personagens.
+
+O sistema pode manter áreas diferentes de Registro conforme a função da informação.
+
+```text
+REGISTRO COMUM / DA PERSONAGEM
+→ fatos que aquela personagem pode usar legitimamente para decidir.
+
+REGISTRO RESERVADO DO OPOSITOR
+→ planos, processos, prazos e informações do lado adversarial.
+→ uso operacional de Opositor e Narrador.
+```
+
+O Registro reservado pode permanecer totalmente visível no repositório.
+
+`Reservado` descreve **quem pode usar aquela informação dentro do jogo**, não quem pode abrir o arquivo.
+
+```text
+ARQUIVO VISÍVEL
+≠
+CONHECIMENTO DA PERSONAGEM
+```
+
+Isso permite ao responsável pela campanha localizar, revisar e ajustar qualquer arquivo sem quebrar a separação de conhecimento entre as personas.
+
 ## Processos em andamento
 
 Uma ação julgada pode produzir um processo que continua durante a passagem do tempo.
@@ -167,4 +194,4 @@ Se o fato não estiver estabelecido, a fiscalização não pode inventá-lo.
 
 ## Regra final
 
-> **Registro preserva verdades, conhecimentos, processos, efeitos e prazos já estabelecidos. Ele não decide ações. Quando um prazo chega, fatos naturais e efeitos automáticos pertencem ao Narrador; personagens eventuais retornam ao Jogador IA Eventual; forças adversariais retornam ao Opositor. O Registro garante continuidade para que nada precise ser reinventado ou lembrado informalmente.**
+> **Registro preserva verdades, conhecimentos, processos, efeitos e prazos já estabelecidos. Os arquivos podem permanecer visíveis e fáceis de auditar; o que muda entre registros é a autoridade de uso dentro do jogo. Fatos naturais e efeitos automáticos pertencem ao Narrador; personagens eventuais retornam ao Jogador IA Eventual; forças adversariais retornam ao Opositor.**
