@@ -22,6 +22,22 @@ Também pertencem a esta área, quando forem definidos:
 - planejamento fora de cena;
 - fiscalização de prazos e consequências registradas.
 
+## Visibilidade
+
+Os arquivos desta pasta devem permanecer claros, visíveis e fáceis de localizar.
+
+`Reservado` não significa oculto do responsável pela campanha ou protegido contra leitura.
+
+Significa apenas que o conteúdo não pode ser usado como conhecimento de uma personagem que ainda não o descobriu na ficção.
+
+```text
+ARQUIVO VISÍVEL
+≠
+CONHECIMENTO DA PERSONAGEM
+```
+
+Isso permite revisar, auditar e ajustar manualmente os planos adversariais sem alterar as regras de conhecimento das personas.
+
 ## Separação de autoridade
 
 ```text
