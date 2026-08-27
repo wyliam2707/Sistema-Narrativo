@@ -4,15 +4,9 @@ Status: APROVADO
 
 Este arquivo contém os **Traços positivos sobrenaturais** do sistema.
 
-Traços são características passivas da personagem: propriedades, condições ou capacidades que já são verdadeiras sobre ela. Um Traço não precisa ser ativado para existir.
+Traços são propriedades passivas e estáveis da personagem. Eles não precisam ser ativados para existir.
 
-A regra central é:
-
-> **Traço descreve algo que a personagem é, possui ou faz naturalmente. Poder representa uma ação extraordinária usada deliberadamente para produzir um efeito.**
-
-Se uma capacidade for usada para ferir, controlar, prender, empurrar, transformar ou afetar diretamente outra pessoa, essa aplicação normalmente deve ser tratada como **Poder**, não como Traço.
-
-Traços não substituem Atributos, Perícias ou Poderes. Eles garantem apenas aquilo que sua descrição afirma e não concedem sucesso automático em ações que continuem incertas.
+> **Traço descreve algo que a personagem é, possui ou faz naturalmente. Poder representa uma função ativa do arsenal.**
 
 ## Custo
 
@@ -22,7 +16,7 @@ Todo Traço positivo sobrenatural custa:
 
 Não existe custo maior ou menor entre as opções deste catálogo.
 
-O equilíbrio vem da própria definição:
+O equilíbrio vem da definição do efeito:
 
 ```text
 Traço pequeno demais
@@ -32,7 +26,7 @@ Traço amplo demais
 → recebe escopo mais restrito
 ```
 
-Parâmetros como `[X]`, categorias ou variantes pertencem à definição do efeito e não alteram o custo.
+Parâmetros como `[X]`, categorias ou variantes pertencem ao efeito e não alteram o custo.
 
 ---
 
@@ -42,9 +36,7 @@ Parâmetros como `[X]`, categorias ou variantes pertencem à definição do efei
 
 A personagem não envelhece, não sofre deterioração natural causada pela idade e não morre por velhice ou outras causas naturais ligadas ao envelhecimento.
 
-Isso não impede ferimentos, doenças não relacionadas ao envelhecimento, incapacidade ou morte por outras causas.
-
-Exemplos: vampiro que não envelhece, elfo eterno, androide sem senescência, criatura amaldiçoada com juventude permanente ou entidade espiritual presa a uma forma física.
+Ainda pode sofrer ferimentos, doenças não relacionadas à idade, incapacidade e morte por outras causas.
 
 > **Imortal impede envelhecimento; não concede invulnerabilidade nem retorno da morte.**
 
@@ -54,22 +46,22 @@ A personagem é plenamente adaptada à vida dentro e fora da água.
 
 Ela:
 
-- respira normalmente em ambos os ambientes;
+- respira normalmente nos dois ambientes;
 - nada e se desloca na água sem limitações comuns de uma criatura terrestre;
-- executa ações corporais normalmente em ambiente aquático quando a água, por si só, seria o único impedimento;
+- executa ações corporais normalmente quando a água, por si só, seria o único impedimento;
 - não sofre penalidades apenas por permanecer submersa.
 
-Anfíbio não concede velocidade aquática extraordinária, sonar, visão no escuro, resistência a pressão extrema ou proteção contra frio, toxinas ou outros perigos independentes.
+Anfíbio não concede velocidade aquática extraordinária, sonar, resistência a pressão extrema ou proteção contra frio, toxinas e outros perigos independentes.
 
 ### Fisiologia Sobrenatural
 
-A personagem possui uma fisiologia que não depende das três necessidades biológicas comuns abaixo:
+A personagem não depende das três necessidades biológicas comuns abaixo:
 
-- **Respiração —** não precisa respirar e não sofre sufocamento, afogamento por falta de ar ou efeitos causados apenas pela ausência de oxigênio.
-- **Sono —** não precisa dormir e não sofre as consequências normais da privação de sono.
-- **Alimentação —** não precisa comer nem beber normalmente e não sofre as consequências comuns da privação de alimento ou água.
+- **Respiração —** não precisa respirar e não sofre efeitos causados apenas pela ausência de oxigênio;
+- **Sono —** não precisa dormir e não sofre privação normal de sono;
+- **Alimentação —** não precisa comer nem beber normalmente e não sofre privação comum de alimento ou água.
 
-Fisiologia Sobrenatural não concede automaticamente imunidade a gases, venenos, toxinas, sono forçado, inconsciência, pressão, recuperação adicional ou movimento aquático especial.
+Fisiologia Sobrenatural não concede automaticamente imunidade a gases, venenos, toxinas, sono forçado, inconsciência, pressão ou recuperação adicional.
 
 Necessidades sobrenaturais independentes continuam funcionando normalmente.
 
@@ -79,8 +71,6 @@ Fisiologia Sobrenatural
 → não precisa de comida comum
 → continua precisando de sangue
 ```
-
-> **Fisiologia Sobrenatural reúne Sem Respiração, Sem Sono e Sem Alimentação em um único Traço.**
 
 ---
 
@@ -101,13 +91,7 @@ Indestrutível [Corpo]
 
 O efeito é literal e limitado ao que foi registrado.
 
-Mesmo quando `[X] = Corpo`, a personagem ainda pode:
-
-- sofrer Dano;
-- sentir dor;
-- ficar Incapacitada;
-- sofrer efeitos internos;
-- morrer por uma causa que não dependa de destruir fisicamente o corpo.
+Mesmo com `Indestrutível [Corpo]`, a personagem ainda pode sofrer Dano, dor, incapacidade, efeitos internos e morte por causas que não dependam de destruir fisicamente seu corpo.
 
 Indestrutível não fornece RD e não equivale a Imunidade.
 
@@ -119,25 +103,19 @@ Indestrutível não fornece RD e não equivale a Imunidade.
 
 A personagem pode voar, decolar, pousar e pairar como forma normal de deslocamento, sem ativar Poder e sem custo de Mana.
 
-O voo usa as mesmas referências narrativas de deslocamento aplicáveis à cena.
-
-Voo Natural não concede velocidade extraordinária, ações extras, reflexos superiores ou capacidade automática de transportar cargas além do que os Atributos sustentam.
+Não concede velocidade extraordinária, ações extras, reflexos superiores ou capacidade automática de transportar cargas além do que seus Atributos sustentam.
 
 ### Andar pelas Paredes
 
 A personagem pode caminhar por paredes, tetos e outras superfícies sólidas adequadas como se fossem piso normal.
 
-Ela mantém as mãos livres e não precisa fazer teste apenas para permanecer aderida em condições normais.
+Mantém as mãos livres e não precisa de teste apenas para permanecer aderida em condições normais.
 
 Forças externas, destruição da superfície ou condições que realmente rompam a aderência ainda podem removê-la.
-
-Andar pelas Paredes não é voo e não funciona onde não existir superfície física adequada.
 
 ### Escavador
 
 A personagem pode se deslocar naturalmente através de terra, areia, argila, solo compacto e materiais escaváveis semelhantes, abrindo passagem enquanto avança.
-
-Dentro desses materiais, o deslocamento faz parte de sua mobilidade normal e não exige teste apenas pela escavação em si.
 
 Pedra maciça, metal, concreto reforçado ou materiais equivalentes continuam exigindo outra capacidade quando não forem normalmente escaváveis para o Conceito.
 
@@ -145,7 +123,7 @@ Pedra maciça, metal, concreto reforçado ou materiais equivalentes continuam ex
 
 A personagem pode usar saltos sobre-humanos como forma normal de deslocamento.
 
-Ela pode alcançar por salto uma distância de até **Curto**, inclusive verticalmente, quando existir espaço e ponto de apoio plausíveis.
+Pode alcançar por salto uma distância de até **Curto**, inclusive verticalmente, quando existir espaço e ponto de apoio plausíveis.
 
 A aterrissagem de um salto realizado dentro dessa capacidade não causa Dano por si só.
 
@@ -158,9 +136,7 @@ A personagem se desloca muito mais rápido do que seria normal para sua forma de
 Efeitos:
 
 - aumenta em **um grau de alcance** a distância que consegue percorrer normalmente com cada forma de deslocamento que já possui;
-- em uma disputa em que **velocidade de deslocamento** seja claramente o fator decisivo, recebe **+1d**.
-
-Exemplo:
+- em disputa em que **velocidade de deslocamento** seja claramente o fator decisivo, recebe **+1d**.
 
 ```text
 Curto → Médio
@@ -182,32 +158,33 @@ Quando a acuidade sensorial for realmente útil:
 - recebe **+1d** em uma resolução de percepção;
 - fontes percebidas por esses sentidos podem ser tratadas como estando **um grau de alcance mais próximas** para determinar se detalhes podem ser percebidos.
 
-O Conceito define quais sentidos naturais a personagem realmente possui.
-
 Sentidos Aguçados não percebe automaticamente magia, vida, perigo, mentiras ou outras categorias sobrenaturais; isso pertence a **Detecção [X]**.
 
-### Visão no Escuro
+### Visão Especial
 
-A personagem enxerga normalmente em escuridão comum ou total sem precisar de fonte de luz.
+A personagem possui modos visuais extraordinários integrados à própria percepção.
 
-Escuridão, por si só, não reduz sua capacidade de perceber formas, movimento, profundidade ou detalhes visuais.
+Visão Especial reúne três capacidades:
 
-Visão no Escuro não permite enxergar através de paredes, fumaça densa, neblina opaca ou ocultação sobrenatural que bloqueie efetivamente a visão.
+- **Visão no Escuro —** enxerga normalmente em escuridão comum ou total sem precisar de fonte de luz;
+- **Visão Térmica —** percebe calor, diferenças de temperatura e silhuetas térmicas, permitindo localizar fontes quentes ou frias quando essa informação estiver visualmente acessível;
+- **Visão de Raio X —** pode enxergar através de objetos, paredes e materiais opacos comuns quando a espessura e a composição não forem suficientes para bloquear esse sentido.
+
+Visão Especial não concede conhecimento automático sobre aquilo que é visto.
+
+A Visão de Raio X pode ser bloqueada por materiais densos, blindagem específica, grande espessura ou proteção sobrenatural coerente com a ficção.
+
+A Visão Térmica pode ser confundida ou bloqueada por isolamento térmico, fontes intensas de calor, ausência de contraste térmico ou proteção apropriada.
+
+Visão Especial não permite enxergar através de qualquer barreira sem limite e não substitui **Detecção [X]**.
 
 ### Detecção [X]
 
 A personagem possui um sentido passivo sobrenatural voltado para uma categoria específica registrada em `[X]`.
 
-Dentro de **Curto**, ela percebe automaticamente a presença da categoria quando nada estiver explicitamente bloqueando aquele sentido.
+Dentro de **Curto**, percebe automaticamente a presença da categoria quando nada estiver explicitamente bloqueando aquele sentido.
 
-Quando a natureza da Detecção permitir, também percebe uma **direção aproximada**, mas não recebe automaticamente:
-
-- identidade exata;
-- distância precisa;
-- quantidade precisa;
-- funcionamento;
-- história;
-- significado oculto.
+Quando a natureza da Detecção permitir, também percebe uma **direção aproximada**, mas não recebe automaticamente identidade, distância precisa, quantidade, funcionamento, história ou significado oculto.
 
 Exemplos:
 
@@ -221,9 +198,7 @@ Detecção [Mentiras]
 Detecção [Alvo Vinculado]
 ```
 
-A categoria precisa ser clara e coerente com o Conceito.
-
-Detecção como Traço é **passiva e local**. Procurar ativamente algo a grandes distâncias, ampliar alcance, buscar referência específica ou obter precisão superior pertence ao Poder **Detecção** quando necessário.
+Detecção como Traço é **passiva e local**. Busca ativa a grandes distâncias, ampliação de alcance ou precisão superior pertence ao Poder **Detecção** quando necessário.
 
 ---
 
@@ -233,13 +208,11 @@ Detecção como Traço é **passiva e local**. Procurar ativamente algo a grande
 
 A personagem recompõe naturalmente o próprio corpo muito mais rápido do que o normal.
 
-Ela recupera automaticamente:
+Recupera automaticamente:
 
 > **1 de Vida por minuto**
 
 quando sua forma de recuperação estiver disponível.
-
-A origem pode ser regeneração, autorreparo, recomposição mágica, carne necromântica, corpo elemental ou equivalente.
 
 A Recuperação pode possuir uma condição registrada quando isso fizer parte do Conceito:
 
@@ -250,7 +223,7 @@ Recuperação [Luz Solar]
 Recuperação [Terra Natal]
 ```
 
-A condição limita **quando** o Traço funciona; não reduz seu custo.
+A condição limita quando o Traço funciona; não reduz seu custo.
 
 Recuperação afeta apenas a própria personagem, não impede Dano e não substitui o Poder Cura.
 
@@ -274,8 +247,8 @@ Físico
 
 Quando a categoria escolhida for a natureza imediata do efeito:
 
-- **fora de combate:** recebe `+1d` em uma resolução usada para resistir, suportar ou reduzir esse efeito;
-- **em combate:** recebe `+2` no valor fixo de Defesa ou Resistência aplicável àquela resolução.
+- **fora de combate:** recebe `+1d` em resolução usada para resistir, suportar ou reduzir esse efeito;
+- **em combate:** recebe `+2` no valor fixo de Defesa ou Resistência realmente aplicável à resolução.
 
 Exemplos:
 
@@ -286,8 +259,6 @@ Resistência [Mental]
 Resistência [Físico]
 → +2 em DF ou RF quando o efeito físico realmente usar aquele valor
 ```
-
-A regra usa somente o valor fixo realmente aplicável; não soma todos os valores possíveis.
 
 Resistências não se acumulam na mesma resolução. Se mais de uma puder se aplicar, usar apenas uma.
 
@@ -322,7 +293,7 @@ Imunidade [Sufocamento]
 Imunidade [Ácido]
 ```
 
-Categorias amplas demais não são válidas para Imunidade:
+Categorias amplas demais não são válidas:
 
 ```text
 Imunidade [Físico]    → inválida
@@ -332,11 +303,9 @@ Imunidade [Elementos] → inválida
 Imunidade [Status]    → inválida
 ```
 
-Para resistência ampla, usar **Resistência [X]**.
+Para proteção ampla, usar **Resistência [X]**.
 
-Uma personagem pode possuir mais de uma Imunidade se pagar um espaço de Traço para cada fonte específica e o Conceito sustentar cada uma.
-
-### Fraqueza e Vulnerabilidade
+A personagem pode possuir mais de uma Imunidade se gastar um espaço de Traço para cada fonte específica e o Conceito sustentar cada uma.
 
 Uma Fraqueza ou Vulnerabilidade específica pode criar exceção quando sua própria regra disser explicitamente que supera aquela proteção.
 
@@ -352,7 +321,7 @@ Não registrar simultaneamente Imunidade e Vulnerabilidade exatamente para a mes
 4. O NARRADOR não deve criar limitações artificiais apenas para enfraquecer um Traço.
 5. O Conceito define origem e aparência, mas não concede efeitos adicionais não registrados.
 6. Produzir deliberadamente efeito sobre outra entidade normalmente pertence a Poder.
-7. Se um Atributo, Perícia, Poder ou Conceito já representar suficientemente a característica, não criar Traço redundante.
+7. Se Atributo, Perícia, Poder ou Conceito já representar suficientemente a característica, não criar Traço redundante.
 8. Traços semelhantes devem ser unidos quando tiverem a mesma função prática.
 
 ## Lista rápida
@@ -368,7 +337,7 @@ Escavador
 Super Salto
 Velocidade
 Sentidos Aguçados
-Visão no Escuro
+Visão Especial
 Detecção [X]
 Recuperação
 Resistência [X]
