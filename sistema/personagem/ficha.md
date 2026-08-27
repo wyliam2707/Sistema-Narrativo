@@ -84,7 +84,6 @@ Vida Máxima [ ] | Mana Máxima [ ]
 PERÍCIAS:
 PODERES:
 RECURSOS:
-REL:
 
 ## Personalidade e tendências
 ## Desejos / objetivos atuais
