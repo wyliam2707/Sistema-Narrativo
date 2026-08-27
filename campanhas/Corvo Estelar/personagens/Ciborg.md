@@ -3,7 +3,7 @@
 Status: PENDENTE DE REVISÃO
 Importância: Relevante
 CONTROLE: JOGADOR IA EVENTUAL
-Patamar: [ ]
+Patamar: [3]
 
 Nome real: Victor Stone
 Idade: 25
@@ -15,12 +15,15 @@ Descrição: versão adulta inspirada principalmente no Ciborg de Jovens Titãs 
 TRAÇOS:
 
 ATR:
-Corpo  → Potência [ ] | Controle [ ] | Resistência [ ]
-Mente  → Intelecto [ ] | Presença [ ] | Vontade [ ]
+Corpo  → Potência [4] | Controle [1] | Resistência [4]
+Mente  → Intelecto [2] | Presença [0] | Vontade [1]
 
-Vida Máxima [ ] | Mana Máxima [ ]
+Vida Máxima [39] | Mana Máxima [34]
 
 PERÍCIAS:
+- Engenharia
+- Ciência
+
 PODERES:
 RECURSOS:
 
