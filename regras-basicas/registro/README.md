@@ -1,56 +1,138 @@
-# Registro
+# Manual de Registro da Campanha
 
 Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
-Esta pasta contém **as regras de Registro**.
+Esta pasta é o **manual de persistência da história**.
 
-Os dados reais de uma campanha não ficam aqui.
+Ela explica como transformar acontecimentos já julgados e narrados em arquivos permanentes dentro de:
 
 ```text
-regras-basicas/registro/
-→ regras sobre o que registrar e como interpretar
-
 campanhas/<nome>/
-→ todos os registros vivos daquela campanha
 ```
 
-## O que uma campanha pode preservar
+`regras-basicas/registro/` contém somente regras e modelos.
 
-Dentro de `campanhas/<nome>/`, conforme sua estrutura, podem ser salvos:
+Nenhum fato vivo de uma campanha deve ser salvo aqui.
 
-- ficha consolidada;
-- Vida e Mana atuais;
-- condições e efeitos ativos;
-- relações relevantes;
-- conhecimento atual;
-- acontecimentos importantes;
-- intenções e processos em andamento;
-- prazos e eventos futuros já estabelecidos;
-- planos adversariais;
-- estado da campanha.
+> **O jogo acontece na mesa. O Registro preserva o que precisa continuar verdadeiro depois da resposta.**
 
-## Registro como fonte de conhecimento
+## Função do Registro
 
-Para Jogador Humano, Jogador IA e Jogador IA Eventual, os arquivos da própria campanha funcionam como fonte persistente daquilo que a personagem legitimamente sabe além do que já está definido em sua ficha.
+O Registro responde a quatro perguntas:
 
 ```text
-DECISÃO DE UM JOGADOR
-→ própria ficha
-+ arquivos da campanha que representem o conhecimento de sua personagem
+O QUE ACONTECEU?
+→ Livro / histórico canônico.
+
+COMO A CAMPANHA ESTÁ AGORA?
+→ Estado atual.
+
+O QUE CADA PERSONAGEM SABE?
+→ fontes de conhecimento daquela personagem.
+
+O QUE CONTINUA EXISTINDO FORA DA CENA?
+→ mundo, processos, prazos, planos e outras fontes apropriadas.
 ```
 
-Esses arquivos podem preservar, quando necessário:
+Registrar não cria ficção.
 
-- fatos percebidos;
-- informações recebidas;
-- descobertas realizadas;
-- relações conhecidas;
-- acontecimentos presenciados;
-- compromissos e intenções persistentes;
-- estado atual relevante;
-- outras verdades que aquela personagem possa legitimamente usar em decisões futuras.
+```text
+DECLARAÇÃO
+→ intenção.
 
-Informação existente em outra área da campanha não se torna automaticamente conhecimento da personagem.
+JULGAMENTO / RESOLUÇÃO
+→ estabelece realidade.
+
+NARRAÇÃO
+→ apresenta a realidade.
+
+REGISTRO
+→ preserva a realidade que precisa sobreviver.
+```
+
+## Arquitetura deste manual
+
+```text
+registro/
+├── README.md
+├── fontes-da-campanha.md
+├── salvar-a-historia.md
+├── estado-atual.md
+└── livro-e-capitulos.md
+```
+
+### `fontes-da-campanha.md`
+
+Explica **onde cada tipo de verdade deve ser salvo**.
+
+Princípio:
+
+> **Cada verdade deve ter uma fonte principal.**
+
+### `salvar-a-historia.md`
+
+Manual operacional para salvar sem avançar a ficção.
+
+Explica:
+
+- o que registrar depois de uma sentença;
+- como salvar no meio de uma cena;
+- como preservar processos e prazos;
+- como atualizar conhecimento;
+- como evitar registrar intenção como fato.
+
+### `estado-atual.md`
+
+Define a fotografia operacional necessária para retomar a campanha exatamente de onde ela parou.
+
+### `livro-e-capitulos.md`
+
+Define o histórico canônico: como consolidar o que realmente aconteceu em capítulos sem transformar o Livro em log técnico da sessão.
+
+## Estrutura recomendada de uma campanha
+
+A estrutura concreta pode variar, mas a referência geral é:
+
+```text
+campanhas/<nome>/
+├── README.md
+├── personagens/
+├── estado/
+│   └── atual.md
+├── mundo/
+├── mestre/
+├── opositor/
+└── livro/
+```
+
+Função de cada área:
+
+```text
+README
+→ identidade, estado geral e roteamento da campanha.
+
+PERSONAGENS
+→ quem as personagens são e, quando necessário, o que cada uma conhece.
+
+ESTADO
+→ como a campanha precisa ser retomada agora.
+
+MUNDO
+→ verdades estáveis do cenário.
+
+MESTRE
+→ dados operacionais próprios do Narrador quando necessários.
+
+OPOSITOR
+→ planos, processos e informações do outro lado da trama.
+
+LIVRO
+→ o que efetivamente aconteceu na história.
+```
+
+## Verdade estabelecida x informação disponível
+
+Um fato pode ser verdadeiro na campanha sem ser conhecido por todas as personagens.
 
 ```text
 CAMPANHA SABE
@@ -58,137 +140,154 @@ CAMPANHA SABE
 PERSONAGEM SABE
 ```
 
-Quando um novo fato percebido precisar continuar disponível em cenas ou retomadas futuras, ele deve ser preservado no local apropriado dentro de `campanhas/<nome>/`.
+Arquivos podem permanecer visíveis no repositório.
 
-## Registro comum e Registro reservado
-
-Nem toda verdade da campanha precisa ser fonte de conhecimento para todas as personagens.
-
-A campanha pode manter áreas diferentes conforme a função da informação.
+A separação é operacional:
 
 ```text
-REGISTRO DA PERSONAGEM / ESTADO COMUM
-→ fatos que aquela personagem pode usar legitimamente para decidir.
+arquivo visível
+→ pode ser auditado e editado pelo responsável pela campanha.
 
-REGISTRO DO OPOSITOR
-→ planos, processos, prazos e informações do lado adversarial.
-→ uso operacional de Opositor e Narrador.
+informação reservada
+→ não pode ser usada como conhecimento da personagem que ainda não a descobriu.
 ```
 
-Os arquivos podem permanecer totalmente visíveis no repositório.
+## O Registro também é memória da personagem
 
-`Reservado` descreve **quem pode usar aquela informação dentro do jogo**, não quem pode abrir o arquivo.
+O jogador não precisa memorizar perfeitamente tudo que sua personagem já sabe.
+
+Quando uma informação foi legitimamente adquirida e precisa sobreviver entre cenas ou retomadas, ela deve estar disponível em uma fonte apropriada da campanha.
+
+Assim:
 
 ```text
-ARQUIVO VISÍVEL
-≠
-CONHECIMENTO DA PERSONAGEM
+FICHA
++
+FATOS ESTABELECIDOS NA CENA ATUAL
++
+REGISTRO LEGÍTIMO DA PERSONAGEM
+→ base de memória e decisão da personagem.
 ```
 
-Isso permite ao responsável pela campanha localizar, revisar e ajustar qualquer registro sem quebrar a separação de conhecimento entre as personas.
+## Registrar somente fatos concluídos
 
-## Processos em andamento
-
-Uma ação julgada pode produzir um processo que continua durante a passagem do tempo.
-
-Exemplo:
+Nunca salvar como acontecimento algo que ainda é somente intenção, hipótese ou plano.
 
 ```text
-Dick começa a investigar o desaparecimento de Ravena.
+JOGADOR
+→ vou procurar Ravena amanhã.
 
-NARRADOR
-→ julga a investigação.
-→ estabelece: primeiras pistas em 10 dias.
-
-CAMPANHA
-→ registra investigação em andamento.
-→ registra primeiras pistas em 10 dias.
+NÃO SALVAR COMO HISTÓRIA
+→ encontrou Ravena amanhã.
 ```
 
-Depois de salvo na campanha, o processo não precisa ser reinventado nem redeclarado em todas as cenas em que a personagem não for relevante.
-
-Ele permanece verdadeiro até:
-
-- atingir seu prazo;
-- ser concluído;
-- ser interrompido por fato legítimo;
-- tornar-se impossível;
-- exigir uma nova decisão da personagem.
-
-Tempo sozinho não cria novas decisões nem novos testes.
-
-## Prazos
-
-Quando o Narrador estabelece uma duração ou momento futuro relevante, a campanha preserva esse prazo para que a história não dependa da memória da IA.
-
-Exemplos:
+Pode ser registrado, quando relevante:
 
 ```text
-veneno produz efeito em 1 hora.
-
-tempestade chega em 2 dias.
-
-Mutano chega amanhã.
-
-primeiras pistas da investigação em 10 dias.
+INTENÇÃO ATUAL
+→ pretende procurar Ravena amanhã.
 ```
 
-O registro preserva o prazo; ele não decide sozinho como o evento será executado.
-
-## Natureza do evento registrado
-
-Quando o prazo chega, a forma de execução depende da natureza do fato.
-
-```text
-FATO NATURAL OU EFEITO AUTOMÁTICO
-→ NARRADOR aplica como parte do cenário.
-
-PERSONAGEM ALIADA OU EVENTUAL
-→ torna-se relevante.
-→ JOGADOR IA EVENTUAL assume e declara.
-
-INIMIGO OU FORÇA ADVERSARIAL
-→ torna-se oposição relevante.
-→ OPOSITOR assume e declara.
-```
-
-O prazo pode tornar uma personagem relevante, mas não decide voluntariamente por ela.
-
-## Intenções longas e eventos pendentes
-
-Uma intenção pode abranger um período maior do que um evento já registrado.
-
-Exemplo:
-
-```text
-JOGADOR HUMANO
-→ vou estudar o dia todo.
-
-CAMPANHA
-→ veneno produz efeito em 1 hora.
-```
-
-O tempo não pode avançar além de 1 hora ignorando o fato registrado.
-
-Quando o prazo chega, o evento entra na situação e a sentença deve respeitá-lo antes de continuar.
-
-O Opositor pode fiscalizar esses prazos e trazê-los para a janela para impedir que sejam esquecidos, mas isso não transforma o Opositor em autor do fato.
-
-## Fiscalização não altera o Registro
-
-Apontar um fato registrado não cria, modifica ou antecipa esse fato.
+Da mesma forma:
 
 ```text
 OPOSITOR
-→ lembra que o veneno produz efeito em 1 hora.
+→ Vilão X prepara um sequestro para daqui a 5 dias.
 
-NARRADOR
-→ verifica a campanha.
-→ aplica o fato no momento correto.
+NARRADOR julga como válido
+→ processo/plano pode entrar no Registro do Opositor.
+
+LIVRO
+→ não registra o sequestro como acontecido enquanto ele não acontecer.
 ```
 
-Se o fato não estiver estabelecido na campanha, a fiscalização não pode inventá-lo.
+## Processos e prazos
+
+Um resultado pode continuar vivo mesmo fora da cena.
+
+Exemplo:
+
+```text
+Dick inicia investigação.
+NARRADOR estabelece: primeiras pistas em 10 dias.
+```
+
+Salvar:
+
+```text
+Processo: investigação de Dick
+Estado: em andamento
+Prazo: primeiras pistas em 10 dias
+```
+
+O processo não precisa ser redeclarado em toda janela distante.
+
+O Registro mantém a continuidade.
+
+## Não duplicar tudo
+
+Não copiar a mesma informação inteira para vários arquivos apenas por segurança.
+
+Exemplo:
+
+```text
+Livro
+→ registra que o envenenamento aconteceu.
+
+Estado atual
+→ registra que a personagem continua Envenenada.
+```
+
+Isso não é duplicação ruim porque cada fonte responde a uma pergunta diferente.
+
+Mas não é necessário copiar toda a cena do envenenamento para `estado/atual.md`.
+
+> **Livro guarda passado. Estado guarda presente.**
+
+## Salvamento não joga
+
+Quando o usuário pedir para salvar, registrar ou fechar capítulo:
+
+- parar no último fato estabelecido;
+- não criar uma cena extra;
+- não resolver ação ainda pendente;
+- não decidir pelo jogador;
+- não executar automaticamente plano futuro;
+- não inventar consequência para produzir fechamento.
+
+```text
+SALVAR
+→ preservar.
+
+SALVAR
+≠
+continuar jogando.
+```
+
+## Dados vivos ficam somente em `campanhas/`
+
+Tudo que pertence a uma história específica deve ser salvo em:
+
+```text
+campanhas/<nome>/
+```
+
+Isso inclui:
+
+- fichas reais;
+- conhecimentos;
+- relações;
+- estado atual;
+- Vida, Mana, condições e recursos;
+- acontecimentos;
+- capítulos;
+- mundo;
+- processos;
+- prazos;
+- eventos futuros já estabelecidos;
+- planos do Opositor;
+- registros do Mestre.
 
 ## Regra final
 
-> **Esta pasta contém somente regras de Registro. Toda verdade viva, conhecimento, processo, efeito ou prazo deve ser salvo dentro de `campanhas/<nome>/`. Os arquivos podem permanecer visíveis e fáceis de auditar; o que muda é a autoridade de uso dentro do jogo.**
+> **Registro é a memória canônica da campanha. Salve somente o que foi legitimamente estabelecido, coloque cada verdade em sua fonte principal e mantenha separados o passado da história, o presente operacional, o conhecimento das personagens e os processos ainda em andamento. Tudo que for dado vivo deve existir dentro de `campanhas/<nome>/`.**
