@@ -33,6 +33,9 @@ Traços Negativos [X]
 
 Pontos de Vida [X] | Pontos de Mana [X] | Defesa [X/Y]
 Reflexos [X/Y] | Fortitude [X/Y] | Vontade [X/Y]
+Resistências [segundo Traços]
+Fraquezas [segundo Traços]
+Movimento: Andar [Curto] | [X]
 
 Defesa:
 - X = 8 + ATR
