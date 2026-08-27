@@ -8,3 +8,4 @@ Etapa atual: Registrar outros personagens com agência
 
 Corvin Black — Central — JOGADOR HUMANO
 Ravena — Central — JOGADOR IA
+Estelar — Central — JOGADOR IA
