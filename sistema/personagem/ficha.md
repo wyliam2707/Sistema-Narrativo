@@ -88,6 +88,9 @@ RECURSOS:
 ## Personalidade e tendências
 ## Desejos / objetivos atuais
 ## Medos / limites relevantes
+## Amigos
+## Inimigos
+## Romance
 ## Conhecimento atual relevante
 ## História consolidada relevante
 ```
