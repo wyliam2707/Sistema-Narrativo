@@ -47,8 +47,28 @@ Poderes [segundo lista de Poderes padrão]
 
 ### Bloco 7 — Descrição do Personagem
 
-Descrição Física [X]
-Descrição Conceitual [X]
+Idade [X]
+Aparência [X]
+Estilo [X]
+Conceito [X]
+Descrição [X]
+
+### Bloco 8
+
+Personalidade e tendências [X]
+Desejos / objetivos atuais [X]
+Medos / limites relevantes [X]
+
+### Bloco 9
+
+Amigos [X]
+Inimigos [X]
+Romance [X]
+
+### Bloco 10
+
+Conhecimento atual relevante [X]
+História consolidada relevante [X]
 
 ### Pontos de Perícia
 
