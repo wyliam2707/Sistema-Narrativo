@@ -1,11 +1,5 @@
 # Modelo de Ficha — Rascunho
 
-Status: RASCUNHO / NÃO IMPLEMENTADO
-
-Objetivo: usar este arquivo como modelo de dados para preencher personagens depois. Os campos aparecem apenas com `[X]`, sem linhas, caixas ou espaços de formulário.
-
-## Estrutura proposta
-
 ### Bloco 1
 
 Nome [X]
@@ -37,15 +31,12 @@ Resistências [segundo Traços]
 Fraquezas [segundo Traços]
 Movimento: Andar [Curto] | [X]
 
-Defesa:
-- X = 8 + ATR
-- Y = 12 + ATR
-
 ### Bloco 6 — Poderes
 
+Ataque Desarmado [1d20 + FOR] x Defesa | Toque | Dano 1d6 + FOR
 Poderes [segundo lista de Poderes padrão]
 
-### Bloco 7 — Descrição do Personagem
+### Bloco 7
 
 Idade [X]
 Aparência [X]
@@ -69,40 +60,3 @@ Romance [X]
 
 Conhecimento atual relevante [X]
 História consolidada relevante [X]
-
-### Pontos de Perícia
-
-Total [X]
-
-### Condições / Anotações
-
-[X]
-
-## Regras em estudo relacionadas ao modelo
-
-Teste de Perícia: `1d20 + Bônus`
-
-Passivo: `8 + Bônus`
-
-Se `CD ≤ Passivo`, não há teste.
-
-Vida Máxima em estudo: `Patamar × (5 + VIG)`
-
-Leitura da Defesa em estudo:
-- resultado abaixo de X → sem dano/efeito;
-- resultado entre X e Y → metade/reduzido;
-- resultado igual ou acima de Y → dano/efeito completo.
-
-Pontos de Perícia em estudo:
-
-`(INT × 4) + (SAB × 2) + (CAR × 2) + FOR + DES + VIG + (Patamar × 2)`
-
-Somente valores permanentes dos Atributos entram no cálculo de Pontos de Perícia.
-
-## Princípio da ficha
-
-Os Atributos são bases de construção e não são rolados diretamente.
-
-Perícias, Defesas, Recursos e Poderes devem aparecer com seus valores já calculados para uso em sessão.
-
-> Este documento é apenas um modelo em teste e não altera regras aprovadas.
