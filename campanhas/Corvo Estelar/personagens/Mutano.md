@@ -13,6 +13,10 @@ Conceito: metamorfo capaz de assumir a forma de animais, usando versatilidade, m
 Descrição: versão adulta inspirada principalmente no Mutano de Jovens Titãs (2003). Continua brincalhão, provocador e expansivo, mas amadureceu com os anos e com a experiência dos Titãs. Por trás do humor, é profundamente leal aos amigos e leva situações realmente graves a sério.
 
 TRAÇOS:
+- Afiliação [Titãs]
+- Fama [Mutano]
+- Reputação [Herói veterano]
+- Conexões [Comunidade heroica]
 
 ATR:
 Corpo  → Potência [1] | Controle [3] | Resistência [2]
@@ -25,6 +29,11 @@ PERÍCIAS:
 - Esportes
 
 PODERES:
+- Metamorfose
+- Aprimoramento
+- Adaptação
+- Proteção
+
 RECURSOS:
 
 ## Personalidade e tendências
