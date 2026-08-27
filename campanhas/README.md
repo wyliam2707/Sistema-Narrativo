@@ -43,20 +43,7 @@ sistema/personas/instanciacao-da-mesa.md
 
 ## Arquivos presentes
 
-### `capanha de texte/`
-
-```text
-STATUS: TESTE ANTIGO — INCOMPATÍVEL COM O MOTOR ATUAL
-```
-
-Essa pasta contém uma campanha usada em testes de versões anteriores do motor. Suas fichas e estado ainda usam elementos legados como `FIS / RES / MEN / VON`, Perícias graduadas e `ENERGIA`.
-
-Portanto:
-
-- não oferecer como continuação normal;
-- não usar como exemplo de ficha ou combate atual;
-- não aplicar suas instruções mecânicas antigas sobre `sistema/`;
-- migrar somente mediante pedido explícito.
+Nenhuma campanha cadastrada no momento.
 
 ## Criação
 
