@@ -37,14 +37,25 @@ PODERES:
 - Debilitação
 
 RECURSOS:
+- Equipamento do Asa Noturna — uniforme, bastões, wingdings, cabos, dispositivos de contenção e demais ferramentas próprias.
+- Recursos dos Titãs — acesso à base, equipamentos e infraestrutura compartilhada da equipe.
+- Rede de Gotham/Batfamília — contatos, informações e apoio ocasional quando coerente com a situação.
 
 ## Personalidade e tendências
 ## Desejos / objetivos atuais
 ## Medos / limites relevantes
 
 ## Amigos
+- Ravena — amiga e companheira de equipe em quem confia.
+- Estelar — amiga muito próxima; forte confiança e longa história compartilhada.
+- Ciborg — amigo próximo e aliado confiável.
+- Mutano — amigo próximo; relação de companheirismo e provocações.
+
 ## Inimigos
+- Inimigos recorrentes ligados a Gotham, à Batfamília e ao passado como Robin podem reaparecer, mas nenhum inimigo específico está consolidado no início da campanha.
+
 ## Romance
+- Nenhum vínculo no início da campanha.
 
 ## Conhecimento atual relevante
 ## História consolidada relevante
