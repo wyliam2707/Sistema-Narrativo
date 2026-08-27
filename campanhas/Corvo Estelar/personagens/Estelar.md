@@ -13,6 +13,12 @@ Conceito: princesa tamaraniana e guerreira extraterrestre de grande poder físic
 Descrição: versão adulta inspirada principalmente na Estelar de Jovens Titãs (2003), adaptada à continuidade de Corvo Estelar. É uma alienígena de Tamaran, criada em uma cultura diferente da terrestre e plenamente acostumada a expressar emoções e afeto de maneira mais aberta.
 
 TRAÇOS:
+- Voo Natural
+- Resistência [Físico]
+- Afiliação [Titãs]
+- Herança [Linhagem real de Tamaran]
+- Recuperação [Luz Solar]
+- Laço [Tamaran] [-1]
 
 ATR:
 Corpo  → Potência [4] | Controle [2] | Resistência [2]
@@ -26,6 +32,11 @@ PERÍCIAS:
 - Sociedade
 
 PODERES:
+- Raio
+- Movimento
+- Aprimoramento
+- Golpe
+
 RECURSOS:
 
 ## Personalidade e tendências
