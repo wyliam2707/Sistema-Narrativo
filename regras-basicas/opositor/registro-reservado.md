@@ -2,11 +2,25 @@
 
 Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
-Este arquivo define como preservar o lado adversarial da trama fora do conhecimento dos jogadores.
+Este arquivo preserva o lado adversarial da trama para uso operacional de `OPOSITOR` e `NARRADOR`.
 
-O Registro Reservado é compartilhado operacionalmente entre `OPOSITOR` e `NARRADOR`.
+`Reservado` não significa escondido no repositório.
 
-Ele existe para que planos, prazos e processos de antagonistas continuem verdadeiros sem depender da memória da IA.
+Todos os arquivos podem permanecer visíveis, nomeados e fáceis de localizar para inspeção, auditoria e edição manual.
+
+A restrição é somente de **uso dentro do jogo**:
+
+```text
+ARQUIVO VISÍVEL
+→ pode ser lido e editado pelo responsável pelo sistema.
+
+CONTEÚDO RESERVADO
+→ Jogador Humano, Jogador IA e Jogador IA Eventual
+   não usam esse conteúdo como conhecimento de suas personagens
+   enquanto ele não for descoberto legitimamente na ficção.
+```
+
+O Registro Reservado existe para que planos, prazos e processos de antagonistas continuem verdadeiros sem depender da memória da IA.
 
 ## O que pode ser registrado
 
@@ -139,12 +153,22 @@ Cada peça adversarial só pode agir com o conhecimento que ela própria possui 
 
 O Registro deve manter essa distinção quando ela for relevante.
 
-## Sigilo
+## Restrição operacional
 
-O conteúdo deste Registro não é fonte de decisão para Jogador Humano, Jogador IA ou Jogador IA Eventual enquanto não for descoberto legitimamente na ficção.
+O conteúdo deste arquivo pode estar totalmente visível no repositório.
 
-Se uma informação reservada for descoberta, o Narrador pode transferir o fato correspondente para o Registro apropriado da personagem que o descobriu.
+A regra não tenta impedir que o responsável pela campanha o leia.
+
+Ela apenas impede que uma persona use esse conteúdo como conhecimento ficcional sem fundamento.
+
+```text
+RESPONSÁVEL PELO SISTEMA LEU O ARQUIVO
+≠
+PERSONAGEM DESCOBRIU A INFORMAÇÃO
+```
+
+Se uma informação adversarial for descoberta legitimamente, o Narrador registra o fato correspondente no Registro apropriado da personagem que a descobriu.
 
 ## Regra final
 
-> **O Registro Reservado do Opositor preserva o outro lado da trama: planos, processos, prazos e conhecimento adversarial já julgados como válidos. Ele mantém continuidade sem transformar plano em sucesso automático e sem transferir conhecimento secreto para personagens que não o possuem.**
+> **O Registro Reservado do Opositor é reservado por função, não por ocultação física. Ele pode permanecer totalmente visível para inspeção e edição, mas seu conteúdo só entra nas decisões das personagens quando for descoberto legitimamente na ficção.**
