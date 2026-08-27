@@ -95,8 +95,8 @@ treinamento médico
 teleportar deliberadamente
 → Poder Teleporte
 
-não precisar respirar
-→ Traço
+não precisar respirar, dormir ou comer
+→ Traço Fisiologia Sobrenatural
 ```
 
 Uma capacidade passiva pode ser Traço. Produzir deliberadamente um efeito sobre outra entidade normalmente pertence a Poder.
@@ -110,7 +110,7 @@ Quando um Traço já determina diretamente a resposta, não fabricar teste.
 Exemplo:
 
 ```text
-Sem Respiração
+Fisiologia Sobrenatural
 → ausência de oxigênio por si só não causa sufocamento
 ```
 
