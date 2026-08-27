@@ -29,19 +29,15 @@ Sobrevivência [X] + SAB = [+X] | Manipulação [X] + CAR = [+X] | Expressão [X
 Traços Positivos [X]
 Traços Negativos [X]
 
-### Recursos
+### Bloco 5 — Estatísticas
 
-Vida Atual [X]
-Vida Máxima [X]
-Mana Atual [X]
-Mana Máxima [X]
+Pontos de Vida [X]
+Pontos de Mana [X]
+Defesa [X/Y]
 
-### Defesas / Resistências
-
-Defesa — Reduzido [X] / Completo [X]
-Reflexos — Reduzido [X] / Completo [X]
-Fortitude — Reduzido [X] / Completo [X]
-Vontade — Reduzido [X] / Completo [X]
+Defesa:
+- X = 8 + ATR
+- Y = 12 + ATR
 
 ### Pontos de Perícia
 
@@ -73,14 +69,10 @@ Se `CD ≤ Passivo`, não há teste.
 
 Vida Máxima em estudo: `Patamar × (5 + VIG)`
 
-Defesa física em estudo:
-- Reduzido = `8 + DES`
-- Completo = `12 + DES`
-
-Leitura das Defesas em estudo:
-- resultado abaixo de Reduzido → sem dano/efeito;
-- resultado entre Reduzido e Completo → metade/reduzido;
-- resultado igual ou acima de Completo → dano/efeito completo.
+Leitura da Defesa em estudo:
+- resultado abaixo de X → sem dano/efeito;
+- resultado entre X e Y → metade/reduzido;
+- resultado igual ou acima de Y → dano/efeito completo.
 
 Pontos de Perícia em estudo:
 
