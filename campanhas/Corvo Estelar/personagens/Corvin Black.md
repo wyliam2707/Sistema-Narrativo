@@ -44,14 +44,24 @@ PODERES:
 - Teleporte
 
 RECURSOS:
+- Base isolada na Groenlândia — uma caverna adaptada como residência e centro de operações, escondida no interior de uma montanha em uma região remota. A entrada é discreta e o interior funciona quase como uma mansão subterrânea.
+- Infraestrutura da base — energia, água, esgoto, internet, áreas de descanso, armazenamento, oficina e instalações científicas suficientes para viver e trabalhar por longos períodos de forma autônoma.
+- Laboratório e oficina — equipamentos, ferramentas e materiais para pesquisa científica, análise, reparos, fabricação e experimentação ligados a Ciência e Ofícios.
+- Acervo particular — livros, tomos, documentos, registros, objetos históricos e outros itens reunidos durante explorações de ruínas e locais incomuns ao redor do mundo.
+- Reserva de riqueza — ouro, metais valiosos, pedras preciosas e outros materiais raros acumulados ao longo de suas viagens e explorações.
 
 ## Personalidade e tendências
 ## Desejos / objetivos atuais
 ## Medos / limites relevantes
 
 ## Amigos
+- Nenhum vínculo atual conhecido no início da campanha.
+
 ## Inimigos
+- Nenhum inimigo específico conhecido no início da campanha.
+
 ## Romance
+- Nenhum vínculo no início da campanha.
 
 ## Conhecimento atual relevante
 ## História consolidada relevante
