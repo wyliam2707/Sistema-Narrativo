@@ -1,6 +1,6 @@
 # Dick Grayson
 
-Status: PENDENTE DE REVISÃO
+Status: APROVADO
 Importância: Relevante
 CONTROLE: JOGADOR IA EVENTUAL
 Patamar: [3]
@@ -42,8 +42,13 @@ RECURSOS:
 - Rede de Gotham/Batfamília — contatos, informações e apoio ocasional quando coerente com a situação.
 
 ## Personalidade e tendências
+Disciplinado, observador e responsável, mas bem mais sociável e leve do que Batman. Costuma assumir naturalmente a liderança quando uma situação exige coordenação, embora não precise comandar tudo. Usa humor e provocações com pessoas próximas, mantendo uma postura muito mais séria quando vidas estão em risco.
+
 ## Desejos / objetivos atuais
+Proteger as pessoas próximas; continuar construindo uma identidade própria como Asa Noturna, sem viver apenas como antigo parceiro de Batman; manter os Titãs unidos mesmo sem estar sempre presente; equilibrar suas responsabilidades em Gotham com a vida pessoal.
+
 ## Medos / limites relevantes
+Falhar com alguém que depende dele; tornar-se excessivamente parecido com Batman e deixar a missão consumir sua vida; possui dificuldade em abandonar uma situação quando acredita que ainda pode salvar alguém; seu Código de nunca matar continua sendo um limite consciente mesmo quando seria a solução mais fácil.
 
 ## Amigos
 - Ravena — amiga e companheira de equipe em quem confia.
@@ -58,4 +63,7 @@ RECURSOS:
 - Nenhum vínculo no início da campanha.
 
 ## Conhecimento atual relevante
+Investigação criminal, vigilância, técnicas de infiltração, combate, acrobacia, comportamento criminoso e operações de campo; conhece profundamente Gotham, a Batfamília e os Titãs, além de possuir experiência enfrentando ameaças sobre-humanas apesar de ser humano.
+
 ## História consolidada relevante
+Dick Grayson perdeu os pais ainda jovem e foi acolhido e treinado por Bruce Wayne, tornando-se Robin. Mais tarde deixou essa identidade para construir seu próprio caminho como Asa Noturna. Foi um dos principais membros e líderes dos Titãs e mantém com a equipe uma relação que se aproxima de família. Atualmente divide seu tempo entre responsabilidades próprias, Gotham, a Batfamília e os Titãs.
