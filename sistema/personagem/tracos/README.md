@@ -31,7 +31,7 @@ Os Traços estão organizados em quatro grupos:
 
 ---
 
-## 2. Custo dos Traços positivos
+## 2. Custo e valor dos Traços
 
 Todo Traço positivo custa:
 
@@ -52,13 +52,14 @@ nível interno do Traço
 
 Como cada Traço ocupa um espaço inteiro, características pequenas demais para alterar de modo relevante as possibilidades da personagem pertencem normalmente ao Conceito ou à descrição, e não ao catálogo pago.
 
-Vícios valem:
+Todo Traço negativo padrão vale:
 
-> **[-1] por Vício**
+```text
+Vício      → [-1]
+Corrupção  → [-1]
+```
 
-Corrupções valem:
-
-> **[-1] ou [-2]**, conforme abrangência prática da limitação.
+Não existe preço `[-2]` padrão. Uma limitação pequena demais deve ser ampliada ou unida; uma limitação ampla demais deve ser restringida até representar uma Corrupção ou Vício justo de `[-1]`.
 
 > **O número de um Traço nunca é bônus genérico de rolagem.**
 
@@ -139,4 +140,4 @@ corrupcao.md
 
 ## Regra final
 
-> **Todo Traço positivo custa 1 espaço. O catálogo estabelece sua consequência específica; `tracos.md` define o conceito geral, `patamar.md` define quantidades e `trama.md` define apenas a interação com a reserva do protagonista humano.**
+> **Traços positivos custam 1 espaço. Vícios e Corrupções padrão valem [-1]. O catálogo estabelece a consequência específica; `tracos.md` define o conceito geral, `patamar.md` define quantidades e `trama.md` define a interação com a reserva do protagonista humano.**
