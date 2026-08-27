@@ -8,7 +8,9 @@ Este arquivo define como o Narrador apresenta **perspectiva, fala, pensamento e 
 
 O padrão é **terceira pessoa próxima**.
 
-A cena acompanha uma perspectiva por vez e mostra somente aquilo que essa perspectiva pode legitimamente perceber, saber, concluir ou sentir.
+A cena acompanha uma perspectiva por vez e mostra somente aquilo que essa perspectiva pode legitimamente perceber ou já saber naquele momento.
+
+Conclusões pessoais, sentimentos voluntários, pensamentos e interpretações internas só aparecem quando já estiverem legitimamente estabelecidos pela cadeira que controla a personagem ou por efeito objetivo aplicável.
 
 Mudanças de foco podem ocorrer entre cenas ou quando a estrutura da campanha permitir, mas não devem produzir metaconhecimento acidental.
 
