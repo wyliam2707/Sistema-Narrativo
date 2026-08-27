@@ -13,6 +13,10 @@ Conceito: humano reconstruído com tecnologia cibernética avançada; combina fo
 Descrição: versão adulta inspirada principalmente no Ciborg de Jovens Titãs (2003). Victor já convive há anos com o corpo cibernético e não está mais na fase de descobrir quem é, embora a tensão entre humanidade e máquina ainda faça parte de sua identidade. É um dos pilares mais confiáveis dos Titãs e frequentemente atua como suporte técnico e força pesada da equipe.
 
 TRAÇOS:
+- Afiliação [Titãs]
+- Resistência [Físico]
+- Visão Especial
+- Sentidos Aguçados
 
 ATR:
 Corpo  → Potência [4] | Controle [1] | Resistência [4]
@@ -25,6 +29,11 @@ PERÍCIAS:
 - Ciência
 
 PODERES:
+- Disparo
+- Proteção
+- Detecção
+- Comunicação
+
 RECURSOS:
 
 ## Personalidade e tendências
