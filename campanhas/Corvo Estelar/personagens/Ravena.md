@@ -13,6 +13,12 @@ Conceito: empata e ocultista de grande poder, com capacidades ligadas à magia, 
 Descrição: versão adulta inspirada principalmente na Ravena de Jovens Titãs (2003), adaptada para a continuidade própria de Corvo Estelar. Origem/natureza: híbrida humana e demoníaca, filha de Trigon.
 
 TRAÇOS:
+- Detecção [Emoções]
+- Detecção [Magia]
+- Resistência [Mental]
+- Resistência [Magia]
+- Segredo [Herança demoníaca] [-1]
+- Inimigo [Agentes de Trigon] [-1]
 
 ATR:
 Corpo  → Potência [0] | Controle [2] | Resistência [1]
@@ -26,6 +32,13 @@ PERÍCIAS:
 - Idiomas
 
 PODERES:
+- Telecinese
+- Escudo
+- Movimento
+- Raio
+- Teleporte
+- Comunicação
+
 RECURSOS:
 REL:
 
