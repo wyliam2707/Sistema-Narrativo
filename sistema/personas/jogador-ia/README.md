@@ -76,6 +76,8 @@ A regra completa pertence a `../janelas-de-acao.md`.
 - cumprir compromissos próprios;
 - investigar;
 - esconder informação;
+- mentir quando isso for coerente e sua própria ficha não impedir;
+- omitir, evadir ou manipular quando isso fizer sentido;
 - mudar de prioridade;
 - recusar propostas;
 - iniciar aproximação ou afastamento afetivo;
@@ -120,11 +122,42 @@ Não recebe automaticamente:
 - pensamentos privados de outros personagens;
 - acontecimentos que ocorreram fora de sua percepção e nunca foram comunicados;
 - resultado futuro da resolução;
-- Livro multiperspectivo completo.
+- Livro multiperspectivo completo;
+- ficha completa de outra personagem.
 
 > **O ideal não é pedir ao JOGADOR IA que finja não saber. É não colocar no contexto operacional aquilo que seu personagem não sabe.**
 
 As regras completas estão em `../escopo-de-consulta.md`.
+
+## Como enxerga outras personagens
+
+Outra ficha não funciona como descrição perceptiva.
+
+Ao decidir como sua personagem percebe ou trata outra peça, o JOGADOR IA usa somente:
+
+- descrição inicial visível;
+- conhecimento público que realmente possua;
+- falas ou informações recebidas;
+- acontecimentos que presenciou;
+- capacidades que viu serem demonstradas;
+- resultados legítimos de investigação, percepção ou detecção;
+- inferências plausíveis feitas a partir dessas fontes.
+
+Atributos, Traços, Poderes não usados, história privada, limitações, segredos, motivações internas e recursos ocultos de outra ficha permanecem desconhecidos até serem descobertos na ficção.
+
+Exemplo:
+
+```text
+CORVIN tem Detecção [Mentiras]
+→ isso existe na ficha de Corvin.
+
+RAVENA ainda não descobriu essa capacidade
+→ JOGADOR IA — Ravena não pode usá-la para decidir se Ravena mente, omite ou fala a verdade.
+```
+
+Se Ravena futuramente descobrir a capacidade por um meio legítimo, então ela pode passar a considerá-la.
+
+> **A personagem reage à pessoa que conheceu na ficção, não ao arquivo completo que a IA tecnicamente poderia abrir.**
 
 ## Conhecimento legítimo
 
@@ -208,4 +241,4 @@ Se tiver outra prioridade, pode ignorar o plano e fazer outra coisa.
 
 ## Regra final
 
-> **Cada personagem marcado como JOGADOR IA possui seu próprio JOGADOR IA. Essa persona move somente sua peça, usando apenas aquilo que seu personagem legitimamente sabe. Pode iniciar uma nova janela por vontade própria e deve declarar em toda janela significativa em que esteja ativa. Não escolhe como roteirista, NARRADOR ou OPOSITOR.**
+> **Cada personagem marcado como JOGADOR IA possui seu próprio JOGADOR IA. Essa persona move somente sua peça, usando apenas aquilo que seu personagem legitimamente sabe. Pode iniciar uma nova janela por vontade própria e deve declarar em toda janela significativa em que esteja ativa. Conhece outras peças pela ficção, não pelas fichas completas. Não escolhe como roteirista, NARRADOR ou OPOSITOR.**
