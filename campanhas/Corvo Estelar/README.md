@@ -2,7 +2,7 @@
 
 CRIAÇÃO: EM ANDAMENTO
 
-Etapa atual: Direção narrativa e cenário
+Etapa atual: Registrar protagonista
 
 ## Personagens com agência
 
