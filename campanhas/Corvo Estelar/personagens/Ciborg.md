@@ -35,14 +35,24 @@ PODERES:
 - Comunicação
 
 RECURSOS:
+- Recursos dos Titãs — acesso à base, veículos, sistemas, equipamentos e infraestrutura compartilhada da equipe.
+- Oficina e manutenção tecnológica — ferramentas, peças e equipamentos necessários para manutenção do próprio corpo cibernético e desenvolvimento técnico.
 
 ## Personalidade e tendências
 ## Desejos / objetivos atuais
 ## Medos / limites relevantes
 
 ## Amigos
+- Mutano — melhor amigo; relação marcada por brincadeiras, competições e confiança absoluta quando a situação fica séria.
+- Dick Grayson — amigo próximo e antigo líder; forte confiança profissional e pessoal.
+- Ravena — amiga e companheira de equipe em quem confia.
+- Estelar — amiga próxima; relação afetuosa e de longa convivência.
+
 ## Inimigos
+- Nenhum inimigo específico consolidado no início da campanha.
+
 ## Romance
+- Nenhum vínculo no início da campanha.
 
 ## Conhecimento atual relevante
 ## História consolidada relevante
