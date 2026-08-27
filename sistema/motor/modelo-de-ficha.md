@@ -41,21 +41,13 @@ Defesa:
 - X = 8 + ATR
 - Y = 12 + ATR
 
+### Bloco 6 — Poderes
+
+Poderes [segundo lista de Poderes padrão]
+
 ### Pontos de Perícia
 
 Total [X]
-
-### Poderes
-
-Nome [X]
-Atributo [X]
-Custo [X]
-Alcance [X]
-Alvo/Área [X]
-Acerto/Efeito [X]
-Dano/Cura/Proteção [X]
-Defesa/Resistência alvo [X]
-Efeito especial / observações [X]
 
 ### Condições / Anotações
 
