@@ -23,7 +23,7 @@ Vida Máxima [34] | Mana Máxima [34]
 PERÍCIAS:
 - Esportes
 - Idiomas
-- Condução
+- Sociedade
 
 PODERES:
 RECURSOS:
