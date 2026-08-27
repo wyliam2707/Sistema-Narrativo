@@ -2,17 +2,52 @@
 
 Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
-Reúne as regras comuns que todos os papéis da mesa usam.
+Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade e como conflitos são resolvidos.
 
-Inclui, quando forem definidas:
+## Estrutura atual
 
-- quando existe teste;
-- testes e dificuldades;
-- leitura de resultados;
-- Defesas e Resistências;
-- alcance e movimento;
-- dano, Vida e Mana;
-- condições básicas;
-- outras regras universais.
+```text
+0.1-resolucao.md
+→ arquitetura da resolução de conflitos e testes.
 
-> O Núcleo define a mecânica comum. Jogador, Mestre e Opositor usam essa mesma base.
+1.0-tribunal.md
+→ procedimento geral da mesa e interação entre as cadeiras.
+
+1.1-narrador.md
+→ juiz da mesa: julga, resolve, narra e registra.
+
+1.2-jogador-humano.md
+→ autoridade e funcionamento da personagem controlada pelo usuário.
+
+1.3-jogador-ia.md
+→ personagem autônoma com jogador IA dedicado.
+
+1.4-jogador-ia-eventual.md
+→ personagens eventuais e NPCs ad hoc com agência própria.
+
+1.5-opositor.md
+→ promotoria da mesa, ganchos, planos e oposição ativa.
+```
+
+## Princípio estrutural
+
+```text
+JOGADORES
+→ decidem por suas próprias peças.
+
+OPOSITOR
+→ movimenta a oposição legítima.
+
+NARRADOR
+→ julga o conjunto apresentado.
+
+RESOLUÇÃO
+→ decide incertezas quando necessário.
+
+REGISTRO
+→ preserva o que passou a ser verdade.
+```
+
+As regras específicas de Defesas, Resistências, alcance, movimento, dano, Vida, Mana, condições, Poderes e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
+
+> O Núcleo define a arquitetura comum da mesa. Regras específicas usam essa base sem redefinir autoridade ou procedimento.
