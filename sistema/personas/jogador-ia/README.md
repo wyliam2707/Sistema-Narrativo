@@ -33,6 +33,38 @@ Antes de qualquer resolução significativa, o JOGADOR IA pergunta:
 
 A resposta é uma declaração de intenção. O JOGADOR IA move sua peça; não determina sozinho o resultado.
 
+## Iniciativa própria
+
+O JOGADOR IA não precisa esperar o JOGADOR HUMANO criar movimento.
+
+Depois que o NARRADOR termina uma sentença e a nova situação está aberta, um JOGADOR IA pode ser a primeira cadeira a declarar e assim iniciar a próxima janela.
+
+Pode iniciar, por exemplo:
+
+- uma conversa;
+- uma investigação;
+- uma proposta de plano;
+- um deslocamento;
+- uma aproximação ou afastamento;
+- o cumprimento de um compromisso próprio;
+- uma pergunta;
+- uma recusa;
+- uma mudança de prioridade;
+- qualquer outra ação coerente com a personagem e a oportunidade presente.
+
+Essa iniciativa não concede resultado automático.
+
+```text
+JOGADOR IA — declaração iniciadora
+→ abre a janela
+→ demais declarações obrigatórias ainda precisam ser coletadas
+→ NARRADOR só julga depois que a janela estiver completa
+```
+
+A regra completa pertence a `../janelas-de-acao.md`.
+
+> **Personagem autônoma também possui iniciativa autônoma. Agência não significa apenas reagir ao protagonista.**
+
 ## O JOGADOR IA pode
 
 - ajudar o JOGADOR HUMANO;
@@ -110,6 +142,12 @@ Conhecimento do usuário, do NARRADOR, do OPOSITOR ou de outra persona não se t
 
 Em toda janela significativa na qual o personagem esteja operacionalmente ativo, sua intenção deve ser considerada antes do julgamento do NARRADOR.
 
+Isso vale independentemente de quem abriu a janela.
+
+Se outro personagem iniciou a ação, o JOGADOR IA declara sua resposta, intenção paralela ou inação.
+
+Se o próprio JOGADOR IA iniciou, a declaração iniciadora já conta como sua declaração naquela janela.
+
 Inação também vale:
 
 ```text
@@ -121,6 +159,8 @@ JOGADOR IA — aceita a proximidade, mas pretende sair depois para cumprir um co
 ```
 
 O importante é que a ausência de ação venha de uma escolha, não de esquecimento.
+
+> **Enquanto faltar a declaração obrigatória de uma peça ativa, a janela ainda não pode ser resolvida.**
 
 ## Reação a sementes do OPOSITOR
 
@@ -168,4 +208,4 @@ Se tiver outra prioridade, pode ignorar o plano e fazer outra coisa.
 
 ## Regra final
 
-> **Cada personagem marcado como JOGADOR IA possui seu próprio JOGADOR IA. Essa persona move somente sua peça, usando apenas aquilo que seu personagem legitimamente sabe. Não escolhe como roteirista, NARRADOR ou OPOSITOR.**
+> **Cada personagem marcado como JOGADOR IA possui seu próprio JOGADOR IA. Essa persona move somente sua peça, usando apenas aquilo que seu personagem legitimamente sabe. Pode iniciar uma nova janela por vontade própria e deve declarar em toda janela significativa em que esteja ativa. Não escolhe como roteirista, NARRADOR ou OPOSITOR.**
