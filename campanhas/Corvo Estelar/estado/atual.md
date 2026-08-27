@@ -12,6 +12,8 @@ Por isso, Ravena e Estelar foram enviadas juntas para verificar o observatório,
 
 Ravena e Estelar acabam de chegar à pequena cidade. Ainda não investigaram suficientemente o local, não descobriram a natureza real da anomalia e não encontraram Corvin Black pessoalmente.
 
+Corvin Black já está na cidade há aproximadamente uma semana. Durante esse período percebeu que existe algo errado e que sair não é simples, mas ainda não possui uma ideia clara de como escapar nem de como resolver a situação da cidade.
+
 ## Personagens diretamente envolvidos
 
 ### Ravena
@@ -28,10 +30,13 @@ Local: chegada à pequena cidade, junto de Ravena.
 Vida: 45/45
 Mana: 50/50
 Trama: 30
-Local: ainda não estabelecido na abertura aprovada.
+Local: dentro da pequena cidade há aproximadamente uma semana.
+Situação: investigando a anomalia local, ainda sem uma solução clara para sair ou resolver o problema.
 Contato com Ravena e Estelar: nenhum contato pessoal até este momento.
 
 ## Fios atuais
 - Investigar a assinatura anômala ligada ao observatório abandonado.
+- Descobrir a natureza da cidade e por que sair dela não é simples.
+- Corvin ainda procura uma forma de sair ou resolver a situação.
 - A investigação maior de Dick, Batman, Mutano e Ciborgue continua em paralelo.
 - O encontro entre Corvin, Ravena e Estelar ainda não ocorreu.
