@@ -2,9 +2,7 @@
 
 CRIAÇÃO: EM ANDAMENTO
 
-Etapa atual: Revisão das fichas
-Personagem atual: Corvin Black
-Bloco atual: 5 - Conferência final
+Etapa atual: Pareamento de informações
 
 ## Personagens com agência
 
