@@ -1,99 +1,393 @@
 # Traços Comuns Positivos
 
-Este arquivo contém os **Traços positivos comuns** do Novo Motor.
+Status: APROVADO
+
+Este arquivo contém os **Traços positivos comuns** do sistema.
 
 Traços são características passivas do personagem: propriedades, recursos, relações ou capacidades que já são verdadeiras sobre ele. Um Traço não precisa ser ativado para existir.
 
+Todo Traço positivo desta lista custa:
+
+> **1 espaço de Traço positivo**
+
 Traços não substituem Atributos, Perícias ou Poderes. Eles garantem apenas aquilo que sua descrição afirma e não concedem sucesso automático em ações que continuem incertas.
 
-## Valores
+> **Como cada Traço custa 1, cada opção abaixo precisa estabelecer uma vantagem persistente realmente relevante.**
 
-Traços positivos usam valores de **[1] a [3]** conforme impacto narrativo e utilidade:
-
-- **[1]** — vantagem menor ou situacional.
-- **[2]** — vantagem relevante e de uso amplo.
-- **[3]** — vantagem maior, capaz de alterar fortemente as possibilidades do personagem.
-
-O valor não representa raridade. Um Traço só possui múltiplos níveis quando sua própria descrição os define.
+Detalhes menores como ser ambidestro, ter bom senso de direção, aparência pouco chamativa, preferência de mão ou hábito pessoal pertencem normalmente ao Conceito ou à descrição e não consomem um Traço positivo.
 
 ---
 
-## Características Pessoais
+## Características pessoais
 
-- **Ambidestro [1] —** usa qualquer uma das mãos com a mesma eficiência e não sofre limitações por trocar de mão ou perder temporariamente o uso da mão dominante. O Traço não concede ações extras nem melhora ataques por si só.
-- **Memória Excepcional [2] —** possui uma capacidade incomum de recordar fatos, rostos, lugares, conversas e informações que já percebeu ou aprendeu. O Narrador pode fornecer diretamente lembranças relevantes já consolidadas pelo personagem. O Traço não cria informações que ele nunca percebeu ou aprendeu.
-- **Orientação [2] —** possui excelente senso de direção e noção de tempo. Dificilmente se perde em condições normais, reconhece rotas já percorridas e consegue reconstruir caminhos ou estimar direções com grande precisão quando possui referências plausíveis.
-- **Aparência Discreta [1] —** à primeira vista, parece comum, pouco ameaçador e fácil de ignorar enquanto não houver motivo para receber atenção especial. Isso pode fazer com que seja subestimado ou passe despercebido em situações sociais comuns. O Traço não substitui Furtividade, disfarce ou Manipulação e deixa de ser relevante quando o personagem chama atenção por suas próprias ações.
+### Memória Excepcional
 
----
+A personagem possui capacidade extraordinária de recordar fatos, rostos, lugares, conversas e informações que realmente percebeu ou aprendeu.
 
-## Posição e Relações
+Quando uma informação já foi legitimamente registrada como conhecida pela personagem, o NARRADOR pode recuperá-la diretamente sem exigir teste apenas para lembrar.
 
-- **Fama [1] —** é reconhecido publicamente por pessoas para quem sua reputação seria relevante. Esse reconhecimento pode facilitar atenção, acesso ou tratamento especial quando apropriado, mas também aumenta exposição e dificulta agir anonimamente. Fama não concede autoridade, contatos ou lealdade; esses efeitos pertencem a **Status**, **Conexões** ou **Afiliação**.
+Memória Excepcional:
 
-- **Status [1–2] —** ocupa uma posição formal reconhecida que concede autoridade, acesso ou tratamento especial dentro de um meio ou instituição.
-  - **[1] Relevante —** possui autoridade ou prestígio limitado a uma área, função ou jurisdição específica, como delegado, oficial, professor renomado ou chefe de setor.
-  - **[2] Elevado —** ocupa uma posição de grande autoridade ou influência dentro dessa estrutura, como prefeito, diretor de grande instituição, alto oficial ou autoridade regional.
+- não cria informação nunca percebida;
+- não transforma impressão incompleta em verdade precisa;
+- não substitui Investigação, Ciência, Ocultismo ou outra Perícia quando o problema exige interpretação ou descoberta.
 
-Status não concede automaticamente subordinados. Pessoas sob comando regular pertencem a **Conexões** ou **Afiliação**, conforme o caso.
-
-- **Conexões [1–2] —** possui uma rede pessoal ou profissional de pessoas às quais pode recorrer de forma coerente com sua história e posição, sem exigir uma organização formal.
-  - **[1] Contatos —** conhece aliados, informantes, especialistas ou pessoas influentes que podem fornecer informação, acesso, serviços ou ajuda, normalmente mediante boa vontade, pagamento, favores ou condições.
-  - **[2] Rede —** além de contatos, possui pessoas que trabalham regularmente sob sua direção ou estão disponíveis por causa de sua posição, profissão ou estrutura pessoal.
-
-- **Afiliação [1–2] —** pertence formalmente a uma organização e pode recorrer a recursos, informações ou apoio coerentes com sua função.
-  - **[1] Membro —** faz parte da organização e pode receber suporte compatível com seu papel.
-  - **[2] Liderança —** ocupa posição de comando e pode mobilizar membros e recursos dentro dos limites de sua autoridade.
-
-O valor da Afiliação representa a posição do personagem dentro da organização, não a escala ou o poder da própria organização.
-
-### Interpretação de Posição e Relações
-
-**Conexões** representa uma rede pessoal ou profissional ligada diretamente ao personagem. **Afiliação** representa acesso e autoridade derivados de pertencer formalmente a uma organização. Um personagem pode possuir ambos quando realmente tiver as duas estruturas.
-
-Fama, Status, Conexões e Afiliação não garantem sucesso automático. Eles estabelecem reconhecimento, autoridade, relações ou acesso que existem na ficção.
-
-Contatos e subordinados continuam sendo pessoas com limites e interesses próprios. Organizações podem fornecer informação, abrigo, recursos, transporte, treinamento ou apoio coerente com sua natureza, mas também podem exigir deveres, favores ou lealdade.
-
-Identidades secretas, nomes falsos, licenças e credenciais comuns não são Traços por si só. Quando apropriado, derivam do Conceito, profissão, Status, Afiliação ou da própria ficção do personagem.
+> **Se a personagem sabia, ela dificilmente perde essa informação por simples esquecimento.**
 
 ---
 
-## Recursos e Patrimônio
+## Reconhecimento, posição e relações
 
-- **Recursos [1–3] —** representa a capacidade financeira habitual do personagem, sem exigir controle constante de dinheiro.
-  - **[1] Confortável —** vive bem, possui alguns luxos e consegue arcar com despesas comuns sem preocupação relevante.
-  - **[2] Rico —** consegue adquirir praticamente qualquer bem ou serviço comum do cenário e sustentar despesas elevadas com regularidade.
-  - **[3] Magnata —** possui riqueza excepcional, capaz de manter grandes propriedades, empresas, equipes, projetos caros e despesas extraordinárias como parte normal de sua vida.
+### Fama
 
-Recursos não cria imediatamente bens raros, ilegais, únicos ou indisponíveis. Ter dinheiro não elimina problemas de acesso, tempo, localização ou disponibilidade.
+A personagem é publicamente reconhecida por um público relevante definido pelo Conceito.
 
-- **Base [1–3] —** possui ou controla um local permanente adequado ao seu Conceito.
-  - **[1] Comum —** casa segura, oficina, esconderijo, laboratório, garagem ou instalação equivalente.
-  - **[2] Fortificada —** bunker, mansão altamente protegida, complexo secreto ou instalação muito difícil de invadir por meios comuns.
-  - **[3] Excepcional —** uma base de grande escala, proteção ou isolamento, como um castelo fortificado, uma instalação remota na Antártida, uma fortaleza militar ou complexo autossuficiente.
+Onde essa fama se aplica, pessoas plausivelmente sabem quem ela é antes de apresentação formal.
 
-Base define principalmente o local, sua escala, proteção e estrutura física. Equipamentos e instalações normais da própria Base fazem parte dela, mas o Traço não concede automaticamente **Conexões, Afiliação, Veículos, Acervo ou Recursos** que não estejam justificados separadamente.
+Isso pode produzir naturalmente:
 
-- **Acervo [1] —** possui uma coleção relevante de livros, documentos, registros ou dados sobre determinados assuntos. Quando realiza uma pesquisa em que o Acervo contenha material plausivelmente útil, recebe **+1 dado** na resolução. O bônus exige acesso ao Acervo, tempo suficiente para pesquisar e relação real entre o material disponível e a informação procurada. Acervo não cria informações inexistentes, secretas ou que nunca foram registradas.
+- atenção imediata;
+- facilidade de acesso social;
+- tratamento especial;
+- convites ou oportunidades;
+- exposição, assédio, vigilância ou dificuldade de agir anonimamente.
 
-- **Veículos [1] —** possui ou tem acesso regular aos veículos coerentes com sua vida, Conceito, profissão, Recursos ou Base. O Traço representa **acesso habitual**, não uma quantidade fixa. Esses veículos existem previamente na ficção e ficam guardados em locais plausíveis, como casa, garagem, Base, hangar ou porto. O Traço não faz um veículo aparecer onde o personagem está e não concede automaticamente tripulação, autoridade, combustível especial, armamentos ou acesso irrestrito a veículos raros, militares ou extraordinários sem justificativa na ficção.
+Fama não concede automaticamente autoridade, contatos, recursos ou lealdade.
 
-### Interpretação de Recursos e Patrimônio
+### Reputação
 
-**Recursos** representa dinheiro e capacidade de aquisição. **Base** representa um lugar especial que já existe na ficção. O nível de Base indica principalmente sua escala, proteção ou isolamento.
+A personagem possui uma reputação consolidada dentro de um meio específico.
 
-**Acervo** é uma exceção explícita à regra de que Traços normalmente não concedem bônus numéricos: ele fornece **+1 dado** apenas em pesquisas relacionadas ao material plausivelmente disponível. A principal limitação prática do Acervo é possuir acesso e tempo suficiente para realizar a pesquisa.
+Diferente de Fama, Reputação não exige reconhecimento público amplo. Ela representa aquilo que pessoas de um círculo relevante já acreditam sobre a personagem.
+
+Exemplos:
+
+```text
+caçador de monstros que cumpre contratos
+advogada conhecida por nunca perder negociação
+mercenária que não abandona clientes
+médico confiável entre equipes de emergência
+```
+
+Quando a reputação for conhecida por alguém daquele meio, ela estabelece a reação inicial plausível antes de nova interação.
+
+A reputação pode ser positiva, intimidante, controversa ou ambígua conforme registrada.
+
+### Status
+
+A personagem ocupa uma posição formal reconhecida que concede autoridade, acesso ou prerrogativas dentro de uma estrutura definida.
+
+Exemplos:
+
+```text
+delegado
+juíza
+oficial militar
+prefeito
+nobre reconhecido
+professor titular
+alto executivo
+```
+
+Status permite exercer os direitos normais daquela função quando a jurisdição realmente se aplica, como:
+
+- dar ordens legítimas;
+- requisitar acesso;
+- usar credenciais;
+- representar a instituição;
+- receber tratamento protocolar apropriado.
+
+O alcance concreto do Status é definido pelo cargo registrado, não por um nível abstrato.
+
+Status não cria automaticamente subordinados pessoais nem recursos que não façam parte da função.
+
+### Conexões
+
+A personagem possui uma rede pessoal ou profissional estável de contatos.
+
+Quando precisa de algo dentro dessa rede, existe alguém plausível a quem recorrer para:
+
+- informação;
+- apresentação;
+- acesso;
+- especialista;
+- mercado ou fornecedor;
+- serviço;
+- favor;
+- intermediação.
+
+O contato continua sendo uma pessoa com vontade, interesses, limites e possíveis custos próprios.
+
+Conexões garante **a existência plausível da rede**, não obediência automática.
+
+### Afiliação
+
+A personagem pertence formalmente a uma organização e recebe os direitos normais de sua posição nela.
+
+A organização e o papel devem ser registrados.
+
+A Afiliação pode conceder, quando coerente com aquela função:
+
+- credenciais;
+- acesso a instalações;
+- informação interna apropriada;
+- treinamento;
+- transporte;
+- equipamentos comuns da organização;
+- suporte institucional;
+- possibilidade de solicitar ajuda.
+
+Se a personagem possuir posição de liderança, isso deve constar na descrição da Afiliação ou em Status quando a autoridade formal exigir destaque próprio.
+
+Afiliação não transforma todos os recursos da organização em propriedade pessoal da personagem.
+
+### Patrono
+
+Existe uma pessoa, família, instituição ou entidade influente disposta a apoiar a personagem dentro de uma relação previamente estabelecida.
+
+O Patrono pode fornecer de forma coerente:
+
+- informação;
+- proteção;
+- recursos;
+- acesso;
+- orientação;
+- influência;
+- ajuda excepcional ocasional.
+
+O Patrono possui vontade própria, interesses, limites e condições.
+
+> **Patrono garante uma relação poderosa disponível; não garante que todo pedido será aceito.**
+
+---
+
+## Identidade e legado
+
+### Identidade Alternativa
+
+A personagem possui uma identidade falsa, secreta ou paralela realmente estabelecida na sociedade.
+
+Quando apropriado ao cenário, ela inclui elementos suficientes para funcionar normalmente, como:
+
+- nome consistente;
+- documentação plausível;
+- histórico básico;
+- registros necessários;
+- cobertura social ou profissional coerente.
+
+A identidade funciona enquanto nada concreto revelar inconsistências relevantes.
+
+Ela não garante sucesso contra investigação extraordinária, provas diretas ou acesso legítimo a informação que contradiga a cobertura.
+
+### Herança
+
+A personagem possui um direito, legado ou vínculo patrimonial/institucional relevante que já existe na ficção.
+
+Exemplos:
+
+```text
+linhagem reconhecida
+herança familiar
+participação societária
+propriedade histórica
+direito sobre território
+relíquia de família
+direito sucessório
+legado institucional
+```
+
+Herança garante a existência e legitimidade básica daquilo que foi registrado.
+
+Ela não concede automaticamente dinheiro líquido, autoridade operacional, poderes extraordinários ou acesso irrestrito além do que aquela herança realmente representa.
+
+---
+
+## Recursos e patrimônio
+
+### Recursos
+
+A personagem possui riqueza e capacidade financeira relevantes conforme o Conceito aprovado.
+
+O Traço elimina a necessidade de controlar pequenas despesas compatíveis com seu padrão de vida.
+
+Exemplos de escala podem variar desde profissional muito bem remunerado até magnata, desde que a versão da personagem realmente sustente isso.
+
+Recursos permite adquirir normalmente bens e serviços disponíveis que façam sentido para essa capacidade financeira.
+
+Recursos não cria imediatamente:
+
+- itens únicos;
+- itens indisponíveis;
+- material ilegal sem acesso;
+- tecnologia que não existe;
+- mercadorias que exigem tempo, localização ou fornecedor especial.
+
+> **Dinheiro resolve preço. Não resolve automaticamente disponibilidade, acesso ou tempo.**
+
+### Base
+
+A personagem possui ou controla um local permanente relevante ao Conceito.
+
+Exemplos:
+
+```text
+oficina equipada
+laboratório
+mansão
+bunker
+quartel particular
+castelo
+complexo isolado
+hangar
+fortaleza
+```
+
+A descrição aprovada define escala, localização, proteção e instalações normais da Base.
+
+O Traço garante que esse lugar existe e permanece disponível enquanto nada na ficção o alterar.
+
+Base não concede automaticamente:
+
+- pessoal;
+- organização;
+- veículos;
+- riqueza;
+- acervo especializado;
+- arsenal extraordinário;
+- Poderes.
+
+Essas vantagens precisam existir por Conceito, Afiliação, Conexões, outro Traço ou capacidade apropriada.
+
+### Acervo
+
+A personagem possui uma coleção especializada e relevante de livros, documentos, registros, bancos de dados, amostras ou material equivalente sobre um campo definido.
+
+Quando:
+
+```text
+há acesso ao Acervo
++ existe tempo suficiente para pesquisa
++ o assunto realmente pode estar representado naquele material
+```
+
+recebe:
+
+> **+1d na pesquisa relacionada.**
+
+Acervo não cria informação que nunca foi registrada nem substitui acesso a fontes secretas externas.
+
+O bônus representa a vantagem concreta de possuir uma fonte excepcional disponível para consulta.
+
+### Veículos
+
+A personagem possui ou tem acesso habitual a veículos coerentes com sua vida e Conceito.
+
+O Traço representa acesso persistente, não uma quantidade fixa abstrata.
+
+Exemplos:
+
+```text
+carros pessoais
+motocicletas
+barco
+avião particular
+helicóptero
+veículos profissionais
+```
+
+Os veículos existem previamente na ficção e permanecem em locais plausíveis como casa, garagem, Base, hangar ou porto.
+
+Veículos não faz um veículo aparecer instantaneamente ao lado da personagem e não concede automaticamente:
+
+- tripulação;
+- licença especial;
+- armamento;
+- combustível extraordinário;
+- acesso militar;
+- tecnologia impossível.
+
+### Equipamento Excepcional
+
+A personagem possui um item ou conjunto muito especial que existe de forma persistente e cuja importância supera equipamento comum, mas que não produz por si só uma função extraordinária que exija Poder.
+
+Exemplos:
+
+```text
+armadura histórica de alta qualidade
+ferramenta científica única
+kit forense excepcional
+arma artesanal famosa
+instrumento musical raro
+traje técnico especializado
+```
+
+Equipamento Excepcional garante a existência, posse e qualidade especial registrada do item.
+
+Se o equipamento produzir uma capacidade extraordinária ativa — teleporte, rajada energética, invisibilidade, domínio mental ou função equivalente — essa função deve ser representada por um **Poder**, ainda que a origem ficcional do Poder seja o equipamento.
+
+---
+
+## Relações entre Traços comuns
+
+Traços diferentes podem coexistir quando realmente representam vantagens diferentes.
+
+Exemplo:
+
+```text
+Status
+→ autoridade formal
+
+Afiliação
+→ pertencimento e suporte institucional
+
+Conexões
+→ rede pessoal
+
+Fama
+→ reconhecimento público
+
+Reputação
+→ opinião consolidada em um meio
+```
+
+Um personagem pode possuir vários deles se sua história realmente sustentar cada vantagem separadamente.
+
+Evitar comprar dois Traços para descrever a mesma coisa com nomes diferentes.
 
 ---
 
 ## Regras de uso
 
-1. Não faça um teste para algo que o Traço já garante em condições normais.
+1. Não faça teste para algo que o Traço já garante em condições normais.
 2. Testes continuam possíveis quando houver oposição, perigo, dificuldade ou necessidade de transformar a vantagem em um resultado incerto.
-3. O Narrador não deve criar limitações artificiais para enfraquecer o Traço.
+3. O NARRADOR não deve criar limitações artificiais para enfraquecer o Traço.
 4. O Traço não concede capacidades além das declaradas em sua descrição.
-5. Se uma vantagem puder ser explicada apenas pelo Conceito, profissão, Atributo ou Perícia, não crie um Traço redundante.
-6. Traços com funções narrativas iguais ou muito semelhantes devem ser unidos sempre que possível.
+5. Se uma vantagem puder ser explicada apenas pelo Conceito, profissão, Atributo ou Perícia e não alterar significativamente as possibilidades da personagem, não criar Traço redundante.
+6. Cada Traço positivo custa exatamente 1 espaço de construção.
+7. A escala concreta de riqueza, cargo, base, organização ou legado vem do Conceito aprovado e da descrição registrada, não de pagar várias vezes pelo mesmo Traço.
+8. Traços com funções narrativas iguais ou muito semelhantes devem ser unidos sempre que possível.
 
 **Sorte** não faz parte desta lista por enquanto, pois sua função pode se sobrepor aos **Pontos de Trama**.
+
+## Lista rápida
+
+```text
+Memória Excepcional
+Fama
+Reputação
+Status
+Conexões
+Afiliação
+Patrono
+Identidade Alternativa
+Herança
+Recursos
+Base
+Acervo
+Veículos
+Equipamento Excepcional
+```
+
+## Regra final
+
+> **Traço comum positivo custa 1 espaço e precisa estabelecer uma vantagem passiva relevante. Pequenos detalhes pertencem ao Conceito; Traços pagos mudam acesso, posição, patrimônio, informação, relações ou possibilidades persistentes da personagem.**
