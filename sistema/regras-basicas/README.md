@@ -4,17 +4,57 @@ Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
 Esta pasta existe para reconstruir e simplificar as regras fundamentais do Sistema Narrativo sem alterar automaticamente as regras aprovadas atuais.
 
-## Objetivo
+## Estrutura
 
-Concentrar aqui a nova versão das regras essenciais de jogo, com prioridade para:
+```text
+regras-basicas/
+├── nucleo/
+├── jogador/
+├── mestre/
+├── opositor/
+└── registro/
+```
 
-- resolução simples de ações;
-- testes de Perícia;
-- combate;
-- Defesas e Resistências;
-- Vida e Mana;
-- Poderes em formato direto de ficha;
-- regras universais realmente necessárias durante a sessão.
+### Núcleo
+
+Regras comuns usadas por todos: testes, dificuldades, resultados, Defesas, Resistências, alcance, dano, Vida, Mana e outras mecânicas universais.
+
+### Jogador
+
+Regras necessárias para usar a própria ficha, Perícias, Poderes, recursos e opções durante a sessão.
+
+### Mestre
+
+Regras de julgamento: decidir quando testar, estabelecer dificuldades, interpretar circunstâncias e aplicar consequências.
+
+O Mestre não controla o Opositor.
+
+### Opositor
+
+Regras para decidir e executar as ações voluntárias de adversários e forças contrárias ao Jogador.
+
+### Registro
+
+Regras sobre o que precisa permanecer verdadeiro: ficha, recursos atuais, condições, relações, conhecimento e estado da campanha.
+
+## Roteamento simples
+
+```text
+É uma regra comum a todos?
+→ Núcleo
+
+É uma escolha ou uso da personagem do jogador?
+→ Jogador
+
+É julgamento ou aplicação imparcial da regra?
+→ Mestre
+
+É decisão de um adversário?
+→ Opositor
+
+Precisa continuar verdadeiro depois da resolução?
+→ Registro
+```
 
 ## Princípio de trabalho
 
