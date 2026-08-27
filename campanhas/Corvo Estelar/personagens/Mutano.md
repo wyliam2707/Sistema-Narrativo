@@ -35,14 +35,23 @@ PODERES:
 - Proteção
 
 RECURSOS:
+- Recursos dos Titãs — acesso à base, equipamentos, veículos e infraestrutura compartilhada da equipe.
 
 ## Personalidade e tendências
 ## Desejos / objetivos atuais
 ## Medos / limites relevantes
 
 ## Amigos
+- Ciborg — amigo muito próximo; talvez a amizade masculina mais forte dentro dos Titãs, marcada por brincadeiras, competições e confiança real.
+- Ravena — amiga próxima; vive provocando e tentando arrancar reações dela, mas existe bastante carinho e confiança por trás disso.
+- Estelar — amiga próxima; relação afetuosa e descontraída.
+- Dick Grayson — amigo e antigo líder em quem confia, embora goste de provocar sua seriedade.
+
 ## Inimigos
+- Nenhum inimigo específico consolidado no início da campanha.
+
 ## Romance
+- Nenhum vínculo no início da campanha.
 
 ## Conhecimento atual relevante
 ## História consolidada relevante
