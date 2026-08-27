@@ -4,7 +4,7 @@ CRIAÇÃO: EM ANDAMENTO
 
 Etapa atual: Revisão das fichas
 Personagem atual: Dick Grayson
-Bloco atual: 2 - Patamar, Atributos e Perícias
+Bloco atual: 3 - Poderes e Traços
 
 ## Personagens com agência
 
