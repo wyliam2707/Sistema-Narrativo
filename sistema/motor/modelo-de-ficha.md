@@ -33,6 +33,12 @@ Movimento: Andar [Curto] | [X]
 
 ### Bloco 6 — Poderes
 
+Padrão de ataque:
+Nome [X] | Acerto [X] x Defesa/Fortitude/Reflexos/Vontade | Alcance [X] | Efeito [X]
+Mana [X] | Efeito [X]
+
+Se o poder não usar Mana, não existe segunda linha.
+
 Ataque Desarmado [1d20 + FOR] x Defesa | Toque | Dano 1d6 + FOR
 Poderes [segundo lista de Poderes padrão]
 
