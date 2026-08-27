@@ -2,7 +2,8 @@
 
 CRIAÇÃO: EM ANDAMENTO
 
-Etapa atual: Pareamento de informações
+Etapa atual: Início da história
+Pendente: posição inicial de Corvin Black
 
 ## Personagens com agência
 
