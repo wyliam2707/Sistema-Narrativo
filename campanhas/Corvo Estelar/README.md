@@ -10,3 +10,4 @@ Corvin Black — Central — JOGADOR HUMANO
 Ravena — Central — JOGADOR IA
 Estelar — Central — JOGADOR IA
 Dick Grayson — Relevante — JOGADOR IA EVENTUAL
+Mutano — Relevante — JOGADOR IA EVENTUAL
