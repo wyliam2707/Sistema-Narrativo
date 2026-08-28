@@ -18,7 +18,7 @@ Não transforma a narração em descrição pornográfica ou anatômica.
 
 ## Romance não cria entrave automático
 
-Se duas personagens adultas estão disponíveis, interessadas e não existe medo, limite, trauma, relação ou circunstância estabelecida contra a aproximação, a relação pode avançar normalmente.
+Se duas ou mais personagens adultas estão disponíveis, interessadas e não existe medo, limite, trauma, relação ou circunstância estabelecida contra a aproximação, a relação pode avançar normalmente.
 
 Não inventar por hábito:
 
@@ -57,16 +57,19 @@ Uma situação incomum pode causar estranhamento sem produzir resistência profu
 
 ## Premissa relacional da campanha
 
-O roteiro pode declarar estruturas relacionais como parte válida da proposta, por exemplo romance múltiplo, relação a três ou harém.
+A **Narrativa da Campanha** pode declarar estruturas relacionais como parte válida da proposta, por exemplo romance múltiplo, relação a três ou harém.
 
 Nesse caso:
 
 ```text
-PREMISSA
-→ permite que essa estrutura exista normalmente.
+NARRATIVA DA CAMPANHA
+→ permite que essa estrutura exista normalmente na proposta.
 
 FICHA
-→ determina quem deseja participar, como reage e quais limites possui.
+→ determina quem a considera válida, deseja participar, como reage e quais limites possui.
+
+ROTEIRO DA TEMPORADA
+→ pode criar situações em que essas possibilidades se tornem relevantes, sem decidir o resultado.
 ```
 
 O Narrador não transforma a própria premissa em obstáculo moral ou dramático apenas para dificultar sua existência.
@@ -81,7 +84,24 @@ relação múltipla permitida
 ≠ agência ou limites deixam de existir.
 ```
 
-> **A premissa abre possibilidades; a ficha determina como cada personagem reage a elas.**
+> **A premissa abre possibilidades; a ficha determina quais possibilidades realmente pertencem a cada personagem.**
+
+## Informação relacional útil na ficha
+
+Quando romance é parte importante da Narrativa da Campanha, a criação da ficha pode aprofundar justamente as informações que mudam decisões nesse tipo de história, conforme `../jogador/1.3-criacao-da-ficha.md`.
+
+Exemplos de perguntas úteis:
+
+```text
+como entende amor e compromisso?
+o que considera uma relação válida?
+como demonstra interesse?
+toma iniciativa ou tende a esperar?
+que modelos de relação fazem parte de sua cultura ou experiência?
+o que realmente faria rejeitar uma relação?
+```
+
+Essas respostas não obrigam uma relação específica. Elas evitam que o Jogador IA invente valores, medos ou proibições quando a situação romântica realmente surgir.
 
 ## Não usar fade to black automático
 
@@ -245,4 +265,4 @@ Não substituir automaticamente uma cena importante por uma frase vaga apenas po
 
 ## Regra final
 
-> **Em campanhas adultas de romance, a personalidade determina a forma da aproximação; somente conflitos estabelecidos justificam resistência. A premissa da campanha pode permitir relações múltiplas sem obrigar nenhuma personagem a desejá-las. Mostre desejo, consentimento, proximidade, diálogo e consequências emocionais sem criar obstáculos artificiais nem descrição sexual gráfica.**
+> **Em campanhas adultas de romance, a personalidade determina a forma da aproximação; somente conflitos estabelecidos justificam resistência. A Narrativa da Campanha pode permitir relações múltiplas sem obrigar nenhuma personagem a desejá-las. A ficha define quais possibilidades realmente pertencem a cada personagem. Mostre desejo, consentimento, proximidade, diálogo e consequências emocionais sem criar obstáculos artificiais nem descrição sexual gráfica.**
