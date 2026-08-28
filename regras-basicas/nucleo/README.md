@@ -37,6 +37,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 0.10-mana.md
 → define Mana como esforço extra distribuído na declaração entre ação, efeito e Defesa, com até +2 por componente e recuperação total após 1 hora de descanso curto.
 
+0.11-vida-e-mente.md
+→ define dois trilhos universais, Vida e Mente, com a mesma progressão Leve/Sério/Grave/Crítico/Incapacitado e descrição narrativa do estado concreto.
+
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
 
@@ -135,6 +138,15 @@ MANA
 → reserva normal 5 ou 10.
 → 1 hora de descanso curto adequado restaura a reserva ao máximo.
 
+VIDA E MENTE
+→ a ficha usa dois trilhos paralelos e independentes.
+→ ambos usam Leve, Sério, Grave, Crítico e Incapacitado.
+→ marcas iguais acumulam e sobem uma categoria.
+→ Vida registra comprometimento físico ou corporal.
+→ Mente registra comprometimento mental, emocional ou psíquico.
+→ a categoria informa a gravidade técnica; a descrição narrativa informa o estado concreto.
+→ Incapacitado é um ponto final técnico, não um resultado narrativo automático específico.
+
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
 
@@ -154,6 +166,6 @@ A criação emergente não autoriza o Narrador a alterar retroativamente uma sit
 
 A origem de conflito pertence ao Opositor, mas não é resultado automático. O Opositor propõe; o Narrador valida coerência, meios, tempo e oportunidade; o Registro fixa o que passou a existir; somente depois a oposição pode ser movimentada normalmente.
 
-As regras específicas de condições e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
+As demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
 
 > O Núcleo define a arquitetura comum da mesa. Regras específicas usam essa base sem redefinir autoridade ou procedimento.
