@@ -2,65 +2,102 @@
 
 Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
-Este arquivo é o manual operacional usado pelo `NARRADOR` para transformar uma janela completa em uma sentença já estabelecida.
+Este arquivo orienta o `NARRADOR` a transformar intenções, estado e oposição em uma sentença já estabelecida.
 
 A regra mecânica de referência é `../nucleo/0.1-resolucao.md`.
 
-A autoridade da persona está em `../nucleo/1.1-narrador.md`.
+> **Julgar é descobrir o que realmente acontece. Não é escolher o resultado mais conveniente.**
 
-> **Julgar é descobrir o que realmente acontece. Não é escolher o resultado mais interessante.**
+## Entrada
 
-## Entrada do julgamento
+O Narrador julga quando possui informação suficiente sobre as intenções relevantes daquele momento.
 
-O Narrador só começa a julgar quando a janela está completa.
+Não é necessário exigir uma nova declaração formal de toda cadeira a cada pequena passagem de tempo.
 
 ```text
-TODAS AS CADEIRAS PARTICIPANTES DECLARARAM?
+INTENÇÃO PERSISTENTE CLARA
+→ continua válida.
 
-não
-→ janela incompleta
-→ parar
-→ não resolver
-→ não narrar consequência incerta
+CADEIRA IA TEM MOTIVO PARA NOVA DECISÃO
+→ executá-la dentro de seu próprio escopo.
 
-sim
-→ iniciar julgamento
+NOVA DECISÃO HUMANA É NECESSÁRIA
+→ parar antes de julgar além desse ponto.
+→ devolver controle ao jogador.
 ```
 
-A ordem em que as declarações chegaram não determina automaticamente a ordem ficcional.
+## 1 — Separar intenção de pressuposto
 
-## Passo 1 — separar intenção de fato
-
-Ler cada declaração como aquilo que a peça pretende fazer.
+Toda declaração informa aquilo que a própria peça pretende fazer.
 
 ```text
-"eu abro a porta"
+"abro a porta"
 → intenção de abrir.
 
-"eu convenço ela a vir comigo"
-→ intenção de convencer.
-
-"eu percebo que ele está mentindo"
-→ não estabelece percepção.
+"vou ao quarto e beijo Ravena"
+→ intenção de ir ao quarto e tentar o beijo se houver oportunidade.
 ```
 
-Depois separar o que já é verdade antes da resolução:
+A declaração não estabelece por si:
 
-- posição;
-- distância;
-- ambiente;
-- efeitos ativos;
-- equipamentos;
-- conhecimentos legítimos;
-- processos em andamento;
-- prazos registrados;
-- capacidades estabelecidas.
+- que outra personagem está onde o jogador presume;
+- que permaneceu esperando;
+- que percebeu algo;
+- que aceita aproximação;
+- que reage de determinada forma;
+- que uma ação já teve sucesso.
 
-Não preencher lacunas importantes por conveniência.
+Antes de resolver, conferir o estado real da campanha.
 
-## Passo 2 — verificar possibilidade
+> **Pressuposto da declaração não vira fato sobre outra peça.**
 
-Antes de qualquer teste, perguntar:
+Também não criar retroativamente uma ação alheia apenas porque agora conhece a declaração humana.
+
+## 2 — Preservar decisões independentes
+
+Cada Jogador IA e peça adversarial decide com seu próprio conhecimento antes que o Narrador use informações ocultas para julgar.
+
+```text
+PERSONAGEM DECIDE
+→ com o que sabe, quer, sente e pode fazer.
+
+NARRADOR JULGA
+→ com o conjunto da realidade necessária.
+```
+
+Não corrigir uma decisão porque uma capacidade alheia escondida a tornaria ruim.
+
+Exemplo:
+
+```text
+personagem decide mentir
+→ não sabe que o alvo detecta mentiras
+→ manter a mentira.
+→ depois resolver a detecção.
+```
+
+Da mesma forma, não fazer uma personagem esperar o protagonista resolver algo que ela mesma faria normalmente sem existir motivo próprio para esperar.
+
+## 3 — Conferir o estado antes da ação
+
+Separar o que já é verdade:
+
+```text
+posição
+tempo
+ambiente
+intenções persistentes
+condições e efeitos
+processos e prazos
+conhecimento legítimo
+capacidades disponíveis
+```
+
+A declaração atual encontra esse estado; não o reescreve.
+
+## 4 — Verificar possibilidade
+
+Perguntar:
 
 > **Existe capacidade, meio e condição real para produzir o efeito pretendido?**
 
@@ -68,328 +105,204 @@ Se não:
 
 ```text
 IMPOSSIBILIDADE EVIDENTE
-→ não rolar
-→ estabelecer que o efeito pretendido não pode acontecer dessa forma
+→ não rolar.
+→ estabelecer que não acontece dessa forma.
 ```
 
-A rolagem nunca cria um mecanismo inexistente.
+Se uma capacidade extraordinária torna a ação possível, isso pode bastar como permissão ficcional sem gerar bônus ou subsistema novo.
 
-Exemplos:
+## 5 — Identificar oposição ou incerteza
 
-```text
-convencer alguém de algo plausível
-→ pode ser possível.
-
-convencer uma pessoa comum, sem qualquer fundamento adicional, a se jogar voluntariamente num moedor de carne
-→ normalmente impossível nas condições comuns.
-
-agir como se soubesse que alguém lê mentes sem qualquer pista ou conhecimento legítimo
-→ conhecimento inexistente; a decisão não pode se apoiar nisso.
-```
-
-A impossibilidade vem antes da disputa.
-
-## Passo 3 — identificar disputa legítima
-
-Perguntar:
-
-> **Existe outra vontade, ação ou competência legítima se opondo diretamente ao resultado?**
-
-Se sim, existe disputa.
-
-```text
-Furtividade
-contra
-Percepção
-
-Manipulação
-contra
-Percepção ou outra Perícia pertinente
-
-perseguição
-contra
-fuga
-```
-
-Toda disputa legítima exige resolução mecânica pela regra aplicável.
-
-O Narrador não elimina o teste porque um lado parece muito melhor.
+Se existe outra vontade ou competência legítima se opondo diretamente:
 
 ```text
 DISPUTA
-→ teste obrigatório
+→ resolver pela regra aplicável.
 ```
 
-## Passo 4 — ação sem disputa
+Sem disputa, perguntar:
 
-Se não existe disputa, perguntar:
-
-> **Depois de considerar capacidade, método e condições, ainda existem dois ou mais resultados plausíveis?**
-
-Se não:
+> **Depois de considerar personagem, método e condições, ainda existem resultados plausíveis diferentes?**
 
 ```text
-RESULTADO EVIDENTE
-→ estabelecer diretamente
+não
+→ resultado evidente.
+
+sim
+→ testar.
 ```
 
-Se sim:
+Não rolar por hábito ou apenas porque a cena é importante.
 
-```text
-INCERTEZA REAL
-→ aplicar teste apropriado
-```
-
-Não rolar por hábito, importância dramática ou desejo de criar tensão.
-
-## Passo 5 — definir modificador da situação quando necessário
-
-Quando existir incerteza sem disputa, avaliar o conjunto das circunstâncias concretas antes da rolagem.
-
-O sistema não usa uma escala separada de Dificuldades numéricas.
-
-Se as condições forem especialmente favoráveis ou desfavoráveis, aplicar um único modificador conforme `0.1-resolucao.md`:
-
-```text
-+2 → muito favorável
-+1 → favorável
- 0 → normal
--1 → difícil
--2 → muito difícil
-```
-
-O modificador é definido olhando apenas para:
-
-- ação;
-- método;
-- ambiente;
-- tempo;
-- condições concretas.
-
-Não consultar o valor da Perícia da personagem para aumentar ou diminuir esse modificador.
-
-```text
-AÇÃO + CONDIÇÕES
-→ modificador da situação
-
-DEPOIS
-→ consultar a Perícia da personagem
-→ resolver o teste
-```
-
-Não somar vários pequenos bônus ou penalidades. Julgar o conjunto das circunstâncias e aplicar um único modificador final.
-
-## Passo 6 — usar a menor resolução necessária
+## 6 — Usar a menor resolução necessária
 
 Uma incerteza normalmente pede uma resolução.
 
-Não dividir artificialmente uma única pergunta em vários testes.
-
 ```text
-uma disputa
-→ normalmente um teste.
-
-uma tarefa longa
-→ novos testes somente se houver nova tentativa plausível, nova incerteza ou nova disputa.
+uma incerteza
+→ um teste suficiente.
 ```
 
-Tempo sozinho não cria teste.
+Tempo sozinho não cria novos testes.
 
-## Passo 7 — interpretar a faixa alcançada
+Nova rolagem exige nova tentativa, nova incerteza ou nova oposição real.
 
-Quando houver teste, estabelecer exatamente o que a faixa significa.
+Quando circunstâncias externas realmente importarem, aplicar somente o modificador de situação previsto em `0.1-resolucao.md`.
+
+## 7 — Interpretar o resultado dentro da cena
+
+As faixas universais continuam sendo:
 
 ```text
-6 OU MENOS — FALHA
-→ o efeito pretendido não foi obtido.
-→ consequência somente quando fizer parte do risco concreto da ação ou oposição.
-
-7–9 — SUCESSO COM CONSEQUÊNCIA
-→ a intenção principal acontece.
-→ uma consequência relevante e diretamente ligada ao risco permanece ou surge.
-
-10–11 — SUCESSO
-→ o efeito pretendido acontece sem consequência adicional criada pelo teste.
-
-12 OU MAIS — SUCESSO EXCEPCIONAL
-→ o efeito pretendido acontece.
-→ quando houver espaço ficcional, surge também um benefício diretamente relacionado à ação.
+6-     → falha
+7–9    → sucesso com consequência
+10–11  → sucesso
+12+    → sucesso excepcional
 ```
 
-Não aumentar nem reduzir a faixa porque outro resultado parecer narrativamente melhor.
+A faixa resolve a incerteza que provocou o teste.
 
-Um `7–9` não deve ser transformado em falha disfarçada: o objetivo principal continua acontecendo.
+A consequência de `7–9` deve nascer do risco, oposição ou situação já presentes; não inventar punição desconectada.
 
-## Passo 8 — cruzar todas as intenções
+Quando a força do efeito realmente importar, usar Potência conforme a regra própria.
 
-Depois de resolver os pontos de incerteza, observar todas as declarações juntas.
+## 8 — Cruzar as intenções
 
-Perguntar:
+Depois das resoluções necessárias, considerar as intenções juntas.
 
 ```text
 podem coexistir?
-
 acontecem em paralelo?
-
 uma interfere na outra?
-
-uma termina antes da outra?
-
-algum prazo entra no meio?
-
-alguma consequência cria nova escolha?
+uma termina antes?
+quem possui oportunidade?
+uma consequência cria nova escolha?
 ```
 
-A ordem de fala não resolve isso.
+A ordem em que as declarações foram escritas não determina automaticamente a ordem dos acontecimentos.
 
-Tempo, posição, causalidade e oportunidade resolvem.
+Tempo, posição, causalidade e iniciativa quando necessária determinam isso.
 
-## Passo 9 — verificar processos e prazos
+## 9 — Avançar intenções prolongadas
 
-Antes de avançar uma intenção ampla, consultar o Registro aplicável.
+Uma intenção longa define um horizonte máximo.
+
+```text
+"vou estudar até o almoço"
+"vou dormir até amanhã"
+"vou pesquisar por uma semana"
+```
+
+Antes de avançar até o fim, verificar:
+
+- iniciativas de Jogadores IA;
+- ações do Opositor;
+- processos e prazos;
+- efeitos automáticos;
+- mudanças que tornem a intenção impossível;
+- situações que exijam nova escolha.
+
+Avançar somente até o **primeiro ponto relevante**.
+
+```text
+nada interrompe
+→ pode chegar ao horizonte.
+
+algo acontece, mas não exige nova escolha humana
+→ a intenção pode continuar.
+
+algo exige nova decisão humana
+→ parar exatamente ali.
+```
 
 Exemplo:
 
 ```text
-JOGADOR
-→ vou estudar o dia todo.
+JOGADOR HUMANO
+→ vou estudar por uma semana.
 
-REGISTRO
-→ veneno produz efeito em 1 hora.
+5 minutos depois
+→ Estelar entra com chá e quer conversar.
+
+JULGAMENTO
+→ passaram 5 minutos.
+→ a intenção de estudar não controla a decisão de Estelar.
+→ apresentar a iniciativa dela.
+→ parar antes de decidir a resposta humana.
 ```
 
-O julgamento não pode concluir o dia inteiro.
+## 10 — Não congelar personagens fora da câmera
+
+Uma intenção do protagonista não suspende outras peças.
+
+Personagens autônomas podem continuar rotinas, objetivos, relações, investigações e decisões próprias durante o mesmo intervalo.
+
+Não é necessário narrar tudo em detalhe.
+
+Registrar ou mostrar apenas o que afetar a continuidade, a cena ou conhecimento futuro.
+
+## 11 — Parar na nova agência humana
+
+O Narrador pode avançar consequências, ações de outras cadeiras, passagem de tempo e fatos automáticos.
+
+Mas quando surge uma nova escolha voluntária da personagem humana:
 
 ```text
-estudo começa
-→ 1 hora passa
-→ veneno entra em efeito
-→ aplicar consequência
-→ parar no novo estado
+PARAR A SENTENÇA
+→ mostrar a situação.
+→ devolver controle ao Jogador Humano.
 ```
 
-Outro caso:
+Não completar silenciosamente a resposta humana para manter o ritmo.
+
+## 12 — Estabelecer sentença antes da prosa
+
+Antes de narrar, saber internamente:
 
 ```text
-REGISTRO
-→ primeiras pistas de Dick em 10 dias.
+O que aconteceu?
+O que não aconteceu?
+Quanto tempo passou?
+Onde cada peça terminou?
+O que cada uma percebeu?
+Que estado mudou?
+Qual intenção continua?
+Existe nova decisão humana agora?
 ```
 
-Se nada interromper o processo, o prazo continua contando mesmo fora de cena.
-
-## Passo 10 — identificar quem recebe agência quando algo amadurece
-
-Quando um prazo ou processo chega ao ponto relevante:
-
-```text
-FATO NATURAL / EFEITO AUTOMÁTICO
-→ Narrador aplica.
-
-ALIADO / FIGURANTE RELEVANTE
-→ Jogador IA Eventual assume.
-
-INIMIGO / FORÇA ADVERSARIAL
-→ Opositor assume.
-```
-
-O Narrador reconhece que o momento chegou, mas não escolhe a próxima decisão voluntária da peça.
-
-## Passo 11 — estabelecer a sentença antes da prosa
-
-Antes de escrever a cena, o Narrador deve saber internamente:
-
-```text
-O QUE ACONTECEU?
-
-O QUE NÃO ACONTECEU?
-
-QUANTO TEMPO PASSOU?
-
-QUEM TERMINOU ONDE?
-
-O QUE FOI PERCEBIDO?
-
-QUAL ESTADO MUDOU?
-
-ALGUMA NOVA DECISÃO SURGIU?
-```
-
-Somente depois disso começa `narracao-da-sentenca.md`.
+Somente então narrar.
 
 ## Neutralidade
 
-Durante o julgamento, não criar:
+Não criar por conveniência:
 
 - obstáculo para impedir sucesso;
 - ajuda para proteger protagonista;
-- inimigo retroativo;
+- ação retroativa de outra personagem;
 - recurso conveniente;
-- imunidade não estabelecida;
 - conhecimento impossível;
-- coincidência feita apenas para corrigir a direção da história.
+- passividade artificial para deixar o protagonista resolver tudo;
+- mudança de personalidade para preservar harmonia.
 
-A história pode ficar fácil, difícil, estranha ou inesperada.
+O julgamento preserva a realidade e as personagens, não uma direção desejada da história.
 
-O Narrador não corrige isso por preferência.
-
-## Exemplo rápido — sem disputa
-
-```text
-JOGADOR
-→ abro a porta destrancada.
-
-FATOS
-→ porta comum
-→ destrancada
-→ personagem ao alcance
-
-JULGAMENTO
-→ possível
-→ sem disputa
-→ resultado evidente
-
-SENTENÇA
-→ a porta abre.
-```
-
-Sem teste.
-
-## Exemplo rápido — disputa
+## Fluxo resumido
 
 ```text
-JOGADOR
-→ atravesso o corredor sem ser percebido.
-
-GUARDA
-→ está em posição de observar.
-
-JULGAMENTO
-→ possível
-→ Furtividade contra Percepção
-→ disputa legítima
-→ teste obrigatório conforme 0.1-resolucao.md
-```
-
-O resultado define o que foi percebido.
-
-## Exemplo rápido — intenção longa interrompida
-
-```text
-JOGADOR
-→ vou estudar o dia todo.
-
-OPOSITOR
-→ o veneno registrado produz efeito em 1 hora.
-
-JULGAMENTO
-→ estudar é possível
-→ intenção cobre o dia
-→ prazo do veneno ocorre antes
-→ sentença só pode avançar 1 hora
-→ efeito do veneno é aplicado
-→ nova situação exige julgamento/declaração conforme o efeito
+INTENÇÕES + ESTADO
+→ separar pressupostos
+→ preservar decisões independentes
+→ verificar possibilidade
+→ oposição ou incerteza?
+→ menor resolução necessária
+→ cruzar intenções no tempo
+→ avançar até o primeiro ponto relevante
+→ parar se surgir nova decisão humana
+→ estabelecer sentença
+→ narrar
+→ registrar
 ```
 
 ## Regra final
 
-> **Janela completa primeiro. Possibilidade antes de teste. Disputa legítima sempre resolve mecanicamente. Sem disputa, só teste quando existir incerteza real. Quando houver circunstâncias relevantes, aplique um único modificador de situação conforme `0.1-resolucao.md`. Cruze todas as intenções no tempo, respeite processos e prazos, estabeleça a realidade inteira da sentença e somente depois narre.**
+> **O Narrador recebe intenções independentes, confere o estado real, resolve apenas a incerteza necessária e cruza tudo no tempo. Declarações não controlam outras peças; personagens IA não usam conhecimento oculto para otimizar decisões; intenções longas avançam somente até a primeira interrupção relevante; e qualquer nova escolha voluntária humana encerra a sentença e devolve o controle ao jogador.**
