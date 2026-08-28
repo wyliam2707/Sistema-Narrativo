@@ -13,7 +13,7 @@ Ao receber `Nova campanha`:
 ```text
 1. nome da campanha
 2. materializar a estrutura
-3. direção narrativa e cenário suficiente
+3. roteiro de direção e cenário suficiente
 4. registrar o elenco inicial
 5. criar e aprovar as fichas
 6. parear somente informações cruzadas essenciais
@@ -39,7 +39,8 @@ campanhas/<nome>/
 ├── mundo/
 │   └── README.md
 ├── mestre/
-│   └── README.md
+│   ├── README.md
+│   └── roteiro.md
 ├── opositor/
 │   └── README.md
 └── livro/
@@ -55,11 +56,68 @@ CRIAÇÃO: EM ANDAMENTO
 Etapa atual: ...
 ```
 
-## 2 — Direção narrativa e cenário
+## 2 — Roteiro de direção e cenário
 
-Definir apenas o suficiente para saber que campanha está sendo criada e como ela deve ser apresentada.
+Definir apenas o suficiente para saber **sobre o que a campanha é**, como deve ser apresentada e que tipos de trama devem servir ao foco principal.
 
-Quando relevante:
+Registrar em:
+
+```text
+campanhas/<nome>/mestre/roteiro.md
+```
+
+Estrutura simples:
+
+```text
+# Roteiro da Campanha
+
+## Foco principal
+→ o que a campanha explora principalmente.
+
+## Trama de fundo
+→ situação, prazo ou problema que sustenta a campanha.
+
+## Miniquests / variações
+→ conflitos menores que podem variar o ritmo sem substituir o foco.
+
+## Tom e premissa
+→ gênero, tom, humor, romance, atmosfera e elementos que são normais nesta campanha.
+
+## Direção
+→ limites de foco e orientações que o Narrador precisa preservar.
+```
+
+Preencher somente os blocos que realmente forem úteis.
+
+Exemplo de função:
+
+```text
+FOCO PRINCIPAL
+→ convivência e romance.
+
+TRAMA DE FUNDO
+→ artefato só pode ser destruído em 90 dias.
+
+MINIQUESTS
+→ monstros, desaparecimentos e pequenas anomalias.
+```
+
+Nesse caso, uma miniquest pode ocupar uma cena ou episódio, mas não assume automaticamente o lugar do romance como foco da campanha.
+
+O roteiro **não determina cenas futuras nem resultados**. Ele preserva a direção.
+
+```text
+ROTEIRO
+→ sobre o que a história é.
+
+FICHAS
+→ quem são as personagens.
+
+ESTADO
+→ o que está acontecendo agora.
+```
+
+Quando relevante, definir também:
 
 ```text
 gênero
@@ -71,6 +129,8 @@ romance ou vínculos
 atmosfera
 premissa e cenário inicial
 ```
+
+Uma premissa explicitamente aceita deve poder existir normalmente na campanha. O Narrador não cria resistência apenas para impedir aquilo que a própria proposta foi criada para explorar.
 
 Não preencher o mundo inteiro antes de jogar.
 
@@ -184,7 +244,7 @@ Antes da primeira cena, conferir apenas se a campanha consegue funcionar correta
 
 ```text
 estrutura existe?
-direção narrativa e cenário são suficientes?
+roteiro existe e a direção é suficiente?
 elenco inicial foi confirmado?
 fichas necessárias estão aprovadas?
 pareamento essencial foi resolvido?
@@ -227,7 +287,7 @@ MUNDO
 → verdades estáveis do cenário.
 
 MESTRE
-→ material reservado do Narrador.
+→ roteiro de direção e material reservado do Narrador.
 
 OPOSITOR
 → planos, processos e informações adversariais.
@@ -244,6 +304,8 @@ Não é necessário prever tudo antes da primeira cena.
 
 Lacunas futuras podem ser completadas conforme `nucleo/1.7-criacao-emergente.md`, desde que não sejam inventadas retroativamente para favorecer ou impedir uma ação já apresentada.
 
+Uma trama secundária pode crescer organicamente, mas não substitui automaticamente o foco registrado em `mestre/roteiro.md`. Mudança de foco é mudança de direção da campanha.
+
 ## Regra final
 
-> **Nova campanha segue: nome, estrutura, direção narrativa, elenco, fichas, pareamento mínimo, situação inicial, Mesa operacional e START. A IA propõe quando puder, o jogador corrige ou aprova, e somente conteúdo aprovado vira cânone. Depois que a mesa estiver jogável, a história começa e o restante do mundo pode crescer durante a campanha.**
+> **Nova campanha segue: nome, estrutura, roteiro de direção, elenco, fichas, pareamento mínimo, situação inicial, Mesa operacional e START. O roteiro preserva sobre o que a história é sem determinar cenas ou resultados. A IA propõe quando puder, o jogador corrige ou aprova, e somente conteúdo aprovado vira cânone. Depois que a mesa estiver jogável, a história começa e o restante do mundo pode crescer durante a campanha.**
