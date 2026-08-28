@@ -104,7 +104,11 @@ Pontos de Poder: [12] / [12]
 
 ### Relacionamentos
 
---- [Relacionamento] [descrição pelo ponto de vista da personagem]
+--- Corvin pode flertar e se envolver emocionalmente com mais de uma pessoa ao mesmo tempo, mas não trata isso de forma irresponsável: deixa sua posição clara para todos os envolvidos e não esconde uma relação da outra.
+
+--- Se desejar duas pessoas, não promete abandonar uma para manter a outra. Para Corvin, um relacionamento múltiplo só é válido quando todos sabem no que estão entrando e podem aceitar ou rejeitar isso livremente.
+
+--- Mulheres comuns raramente despertam nele uma atração intensa. Seu interesse tende a surgir diante de alguém cuja presença, natureza, força ou singularidade lhe pareça excepcional — alguém que seus instintos reconheçam como uma presença do mesmo porte.
 
 ## Conhecimento relevante
 
