@@ -22,8 +22,10 @@ Registrar somente o que ainda é útil para a continuação imediata, por exempl
 - local atual;
 - quem está presente;
 - posição relevante;
-- Vida e Mana atuais quando aplicáveis;
+- marcas atuais de Vida e Mente quando aplicáveis;
+- Mana atual quando aplicável;
 - condições e efeitos ativos;
+- alterações temporárias de deslocamento;
 - recursos temporários importantes;
 - intenção persistente ainda em curso;
 - ação interrompida;
@@ -34,6 +36,40 @@ Registrar somente o que ainda é útil para a continuação imediata, por exempl
 Nem todos esses campos precisam existir sempre.
 
 > **Entrar no Estado Atual exige utilidade para a retomada, não apenas ter acontecido.**
+
+## Vida e Mente no Estado Atual
+
+A estrutura dos trilhos pertence à ficha da personagem. O Estado Atual registra as marcas presentes usando essa mesma estrutura quando elas precisarem ser acompanhadas.
+
+Exemplo para uma personagem com cinco blocos:
+
+```text
+Vida:  Leve [x] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
+Mente: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
+```
+
+Se a personagem possuir menos ou mais blocos, respeitar exatamente o trilho definido na ficha.
+
+Não converter Vida ou Mente para pontos numéricos.
+
+## Mana no Estado Atual
+
+A reserva normal vem da Importância e da ficha:
+
+```text
+FIGURANTE   → 0
+COADJUVANTE → 5
+PROTAGONISTA → 10
+```
+
+O Estado Atual acompanha o valor corrente quando necessário:
+
+```text
+Mana: 3/5
+Mana: 7/10
+```
+
+Recuperação normal e exceções seguem `../nucleo/0.10-mana.md` e Traços aplicáveis.
 
 ## O que não entra
 
@@ -61,10 +97,10 @@ Local: biblioteca da mansão
 - Ravena
 
 ## Corvin
-Vida: 18/24
-Mana: 10/16
+Vida: Leve [x] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
+Mana: 7/10
 Condição: Envenenado
-Efeito do veneno: próximo dano em 1 hora
+Efeito do veneno: próximo comprometimento em 1 hora
 
 ## Ravena
 Estado: presente na biblioteca
@@ -110,7 +146,7 @@ LIVRO
 → continua registrando o acontecimento.
 
 ESTADO ATUAL
-→ remove Envenenado.
+→ remove Envenenado e atualiza as marcas que tiverem sido recuperadas.
 ```
 
 ## Processos longos
@@ -158,4 +194,4 @@ se isso ainda não aconteceu.
 
 ## Regra final
 
-> **`estado/atual.md` é uma fotografia do presente, não um diário. Guarde somente aquilo que precisa estar imediatamente correto para a próxima janela começar sem reconstruir a campanha inteira.**
+> **`estado/atual.md` é uma fotografia do presente. Vida e Mente usam os blocos definidos na ficha; Mana atual usa a reserva estrutural da personagem. Guarde somente aquilo que precisa estar imediatamente correto para a próxima janela começar sem reconstruir a campanha inteira.**
