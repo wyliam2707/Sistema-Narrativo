@@ -12,6 +12,7 @@ Descrição:
 
 Vida: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
 Mente: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
+Mana [ ] / Deslocamento: andar [ ]
 
 ## Atributos
 
