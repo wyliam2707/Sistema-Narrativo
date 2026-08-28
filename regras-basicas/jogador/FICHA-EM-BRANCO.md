@@ -1,12 +1,8 @@
 # [NOME DA PERSONAGEM]
 
 ESTADO DA FICHA: EM CRIAÇÃO
-Importância:
-CONTROLE:
-Patamar:
-
-Nome real:
-Idade:
+Importância: / CONTROLE: / Patamar:
+Nome real: / Idade:
 Aparência:
 Estilo:
 Conceito:
