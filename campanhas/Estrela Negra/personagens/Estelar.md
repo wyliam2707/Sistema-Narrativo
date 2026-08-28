@@ -3,7 +3,7 @@
 ESTADO DA FICHA: EM CRIAÇÃO
 Importância: / CONTROLE: / Patamar: 3
 Nome real: / Idade: cerca de 40 anos (aparência de 26 anos)
-Aparência: mulher de aparência jovem, pele morena de tom quente, cabelos ruivos, olhos vermelhos marcantes e corpo sensual, atlético e bem torneado; sua presença é vibrante, calorosa e imediatamente chamativa.
+Aparência: mulher de aparência jovem, 1,83 m de altura, pele morena de tom quente, cabelos ruivos, olhos vermelhos marcantes e corpo sensual, atlético e bem torneado; sua presença é vibrante, calorosa e imediatamente chamativa.
 Estilo:
 Conceito: princesa de Tamaran, calorosa, direta, sensual e emocionalmente aberta; deixou seu mundo para escolher por si mesma com quem e como deseja construir sua vida. Fisicamente e emocionalmente, funciona como contraste de Ravena: expansiva onde Ravena é contida, luminosa onde Ravena é sombria.
 Descrição:
