@@ -39,8 +39,8 @@ Pontos de Poder: [9] / [9]
 
 ## Traços
 
---- TRAÇO: [ ]
-[descrição objetiva, no máximo duas linhas]
+--- TRAÇO: Herança de Trigon
+[Elara possui natureza parcialmente abissal; entidades, rituais e efeitos sobrenaturais capazes de reconhecer linhagem podem perceber nela a marca de Trigon.]
 
 ## Recursos
 
