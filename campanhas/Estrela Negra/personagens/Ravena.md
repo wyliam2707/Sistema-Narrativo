@@ -58,7 +58,7 @@ Pontos de Poder: [9] / [9]
 
 ## Desejos / objetivos
 
---- [ ]
+--- Viver segundo a própria vontade, livre da influência de Trigon, construir vínculos íntimos sem precisar manter distância por medo do que suas emoções podem causar e, um dia, conseguir revelar a alguém sua verdadeira natureza sem que essa pessoa a rejeite por quem ela é.
 
 ## Medos / limites
 
