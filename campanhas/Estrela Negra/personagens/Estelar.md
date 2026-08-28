@@ -62,7 +62,7 @@ Pontos de Poder: [9] / [9]
 
 ## Desejos / objetivos
 
---- [ ]
+--- Estelar quer construir uma vida escolhida por ela mesma, cercada por pessoas que ame e que também a escolham livremente. Deseja conhecer melhor a Terra, criar vínculos verdadeiros e, um dia, decidir por conta própria se quer ou não voltar a Tamaran — não porque alguém mandou, mas porque essa decisão finalmente será dela.
 
 ## Medos / limites
 
