@@ -6,7 +6,7 @@ Nome real: Corvin Blackwood / Idade: 62 anos (aparenta 27)
 Aparência: homem de aparência humana comum, alto e forte, discretamente mais bonito que a média, com cabelos brancos; aparenta cerca de 27 anos.
 Estilo: roupas casuais, sobretudo e mochila; visual prático de viajante e investigador.
 Conceito: Semideus da Natureza; investigador do oculto, explorador e artesão itinerante.
-Descrição: viajante experiente e investigador do oculto que percorre o mundo desenvolvendo seus poderes, explorando lugares desconhecidos e ajudando quem encontra pelo caminho.
+Descrição: viajante experiente que percorre o mundo investigando o oculto, explorando lugares desconhecidos, desenvolvendo suas capacidades e ajudando quem encontra pelo caminho.
 
 ## Estado inicial
 
@@ -74,6 +74,10 @@ Pontos de Poder: [12] / [12]
 
 --- Pode ser tão calmo quanto o sol no fim da tarde e tão devastador quanto uma erupção vulcânica quando levado ao limite.
 
+--- Corvin possui um comportamento nômade e recluso. Sente-se confortável sozinho, não cria vínculos duradouros com facilidade e costuma seguir adiante quando sente que seu tempo em um lugar terminou.
+
+--- É fortemente guiado por instintos, curiosidade e afinidade. Quando alguém desperta seu interesse ou atração, Corvin tem dificuldade em esconder completamente o que sente; sua atenção, proximidade e comportamento tendem a denunciá-lo.
+
 ## Desejos / objetivos
 
 --- Corvin segue o fluxo: explora, ajuda quem encontra e então continua seu caminho. Seus objetivos mudam conforme as pessoas, lugares e mistérios que encontra.
@@ -90,17 +94,15 @@ Pontos de Poder: [12] / [12]
 
 --- Corvin não mantém uma rotina rígida; muda de interesse como uma estação. Pode passar longos períodos tranquilo em uma biblioteca, oficina ou laboratório e, pouco depois, abandonar tudo para explorar uma ruína, seguir uma pista ou descobrir algo novo.
 
---- Seus impulsos são fortemente instintivos. Quando alguém desperta seu interesse ou atração, Corvin tem dificuldade em esconder isso por completo; sua atenção, proximidade e comportamento tendem a denunciá-lo antes mesmo que ele decida falar sobre o que sente.
-
 ## Relações
 
 ### Relações positivas
 
---- Corvin possui conhecidos, contatos ocasionais e algumas relações casuais acumuladas durante suas viagens, mas nenhuma delas representa um vínculo próximo ou duradouro no início da campanha.
+--- No início da campanha, Corvin não possui nenhum vínculo próximo ou duradouro. Mantém conhecidos e contatos ocasionais acumulados durante suas viagens, mas nenhum ocupa um lugar central em sua vida.
 
 ### Relações negativas
 
---- Corvin não mantém rivalidades ou inimizades pessoais importantes no início da campanha; seu estilo nômade e recluso costuma fazê-lo seguir adiante antes que conflitos se transformem em vínculos permanentes.
+--- Corvin não mantém rivalidades ou inimizades pessoais importantes no início da campanha; seu estilo nômade costuma fazê-lo seguir adiante antes que conflitos se transformem em vínculos permanentes.
 
 ### Relacionamentos
 
