@@ -20,7 +20,10 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 → resolve ações realmente simultâneas com uma única rolagem e faixas espelhadas em torno de 7, sem vantagem artificial por ordem de declaração.
 
 0.5-combate.md
-→ define a resolução mínima de ataques e defesas: um teste decide se a ofensiva supera a defesa; o efeito é aplicado depois sem nova rolagem de acerto.
+→ separa técnica de efeito: Ataque contra Defesa decide se a ofensiva entra; Poderes de escala ofensiva ou proteção participam depois da Potência ou Resistência.
+
+0.6-dano-e-ferimentos.md
+→ resolve `1d6 + Potência` contra `1d6 + Resistência`, converte a diferença em gravidade e acumula ferimentos por caixas, sem pontos de Vida.
 
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
@@ -71,9 +74,16 @@ RESOLUÇÃO
 → disputas realmente simultâneas usam 0.4-disputas-simultaneas.md para evitar vantagem artificial de lado ativo.
 
 COMBATE
-→ ataque declara primeiro o efeito pretendido.
-→ uma única disputa entre Valor de Ataque e Valor de Defesa decide se o efeito entra.
-→ não existe segunda rolagem apenas para confirmar o acerto.
+→ técnica e escala são separadas.
+→ Ataque usa Atributo + Combate ou Conjuração.
+→ Defesa usa Atributo + Defesa.
+→ Poderes que representam potência ou proteção entram na etapa de efeito, não automaticamente no teste técnico.
+
+DANO
+→ depois de um acerto, resolver `1d6 + Potência` contra `1d6 + Resistência`.
+→ diferença positiva determina gravidade do ferimento.
+→ não existem pontos de Vida.
+→ ferimentos iguais acumulam e sobem uma categoria.
 
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
@@ -94,6 +104,6 @@ A criação emergente não autoriza o Narrador a alterar retroativamente uma sit
 
 A origem de conflito pertence ao Opositor, mas não é resultado automático. O Opositor propõe; o Narrador valida coerência, meios, tempo e oportunidade; o Registro fixa o que passou a existir; somente depois a oposição pode ser movimentada normalmente.
 
-As regras específicas de Resistências, alcance, movimento, dano, Vida, Mana, condições, Poderes, iniciativa e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
+As regras específicas de alcance, movimento, iniciativa, recuperação, Mana, condições e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
 
 > O Núcleo define a arquitetura comum da mesa. Regras específicas usam essa base sem redefinir autoridade ou procedimento.
