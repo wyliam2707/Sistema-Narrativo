@@ -28,6 +28,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 0.7-iniciativa.md
 → usa a ordem ficcional quando evidente e só resolve prioridade quando agir primeiro realmente estiver em disputa; não mantém iniciativa permanente.
 
+0.8-tempo-e-acoes.md
+→ define rodadas de aproximadamente 10 segundos e permite uma intenção principal plausível com os movimentos e gestos necessários, sem economia rígida de ações.
+
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
 
@@ -101,6 +104,13 @@ INICIATIVA
 → normalmente usa Agilidade + Percepção e a resolução espelhada de 0.4.
 → não existe lista permanente de iniciativa.
 → em rodadas, registrar apenas se cada participante já usou sua ação principal.
+
+TEMPO E AÇÕES
+→ uma rodada representa aproximadamente 10 segundos.
+→ cada participante realiza uma intenção principal plausível nesse intervalo.
+→ movimentos e gestos necessários podem integrar a mesma intenção.
+→ não há divisão automática em ação, movimento, bônus e reação.
+→ o Narrador julga o que cabe pela ficção, capacidades e unidade da intenção.
 
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
