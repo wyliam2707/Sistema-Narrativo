@@ -12,7 +12,7 @@ Descrição: usuária de magia sombria e espiritual, contida e observadora. Quan
 
 Vida [5 blocos]: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
 Mente [5 blocos]: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
-Mana [ ] / Deslocamento: andar [ ]
+Mana [10] / Deslocamento: andar [curto]
 
 ## Atributos
 
@@ -44,6 +44,9 @@ Pontos de Poder: [9] / [9]
 
 --- TRAÇO: Emoções Abissais
 [Quando perde o controle emocional, a magia de Elara reage involuntariamente ao impulso do momento e tende a acompanhar sua intensidade; desejar que alguém se afaste pode gerar um empurrão telecinético. Em raros casos, o efeito pode escalar ou atrair manifestações sobrenaturais.]
+
+--- TRAÇO: Vontade Indomável
+[Tentativas de dominar, possuir, controlar ou forçar Elara a agir contra a própria vontade encontram uma resistência excepcional.]
 
 ## Recursos
 
