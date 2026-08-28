@@ -1,72 +1,56 @@
 # Estado Atual
 
-STATUS: PRONTO PARA JOGAR
+STATUS: PRONTO PARA CONTINUAR
 TEMPORADA: 1
-MOMENTO: início absoluto da história, antes do primeiro turno de Corvin dentro da cidade.
+ÚLTIMO CAPÍTULO: `livro/001.md`
+MOMENTO: manhã do dia seguinte à chegada de Corvin a Black Harbor, diante de uma entrada selada das ruínas sob o farol.
 
-## Elenco protagonista inicial
+## Ponto exato de continuação
 
-- Corvin Blackwood — PROTAGONISTA / JOGADOR.
-- Ravena (Elara Voss) — PROTAGONISTA / IA.
-- Estelar — PROTAGONISTA / IA.
+Corvin está numa parte mais baixa da encosta, aproximadamente trinta metros afastado do farol.
 
-Nenhum outro Titã participa presencialmente da primeira temporada. Dick Grayson, Mutano, Ciborgue e os demais aparecem somente depois que os três saírem da cidade, na segunda temporada.
+Depois de quase uma hora investigando o terreno e usando sua ligação com a terra, encontrou o contorno de uma passagem antiga escondida por vegetação, raízes e terra.
 
-## Ponto exato para iniciar uma nova conversa
+A entrada original foi bloqueada posteriormente com pedras menores e argamassa mais recente do que a estrutura das ruínas. Perto do chão existe uma pequena abertura entre duas pedras; ar frio sai por ela e Corvin sabe que existe espaço vazio e passagem do outro lado.
 
-A nova IA deve começar a história com Corvin chegando à região **um dia antes de Ravena e Estelar**.
+**A nova decisão pertence ao jogador.** Não assumir que Corvin abre, quebra, atravessa ou abandona a entrada.
 
-Corvin estava apenas atravessando a região durante a noite. Ele não veio procurando a cidade nem investigando desaparecimentos. Durante a passagem, percebe uma energia estranha e vê luzes ao longe onde, segundo as informações que possuía, não deveria existir uma cidade.
+## Estado de Corvin
 
-A curiosidade o leva até o lugar.
+- Local: encosta junto ao farol de Black Harbor, diante da entrada selada.
+- Vida: sem ferimentos.
+- Mente: sem marcas.
+- Mana: 10.
+- Equipamento de campo: roupas casuais, sobretudo, mochila e materiais pequenos usuais de viagem/Forja/Alquimia.
+- Ao despertar nesta manhã, Corvin estava a **três dias de completar o Ciclo da Vida atual**.
 
-A cidade é real, habitada e aparentemente normal, mas **não constava na descrição da região**. Esse é o primeiro mistério.
+## Conhecimento adquirido por Corvin
 
-Já dentro da cidade, Corvin descobre por moradores que existe um farol na costa construído sobre ruínas antigas. A origem e a natureza dessas ruínas são desconhecidas.
+- Black Harbor é uma cidade real e habitada que não constava nas informações que Corvin possuía sobre a região.
+- A placa da cidade indicava população de 2.814 habitantes.
+- Corvin passou a primeira noite no Harbor Rest, quarto 207.
+- A recepcionista informou que Black Harbor não aparece em muitos mapas e que a estrada principal passa longe da cidade.
+- A cidade mais próxima indicada pelos moradores é Greyhaven: estrada principal até a rodovia estadual e depois ao sul, aproximadamente quarenta minutos de carro.
+- Moradores falam sobre sair da cidade pela estrada como se isso fosse normal. Corvin ainda **não testou a saída física pela estrada**.
+- Um Caminho aberto do quarto 207 para o Refúgio Ártico retornou ao próprio quarto 207 em vez de alcançar o destino.
+- Depois disso, Corvin invocou e dispensou normalmente um pequeno espírito de borboleta. Portanto, ele sabe que sua magia não está simplesmente bloqueada como um todo.
+- O farol fica ao norte de Black Harbor e foi construído sobre ruínas muito mais antigas.
+- Pela Dádiva da Terra, Corvin estimou que a estrutura artificial subterrânea se estende por aproximadamente cinquenta ou sessenta metros e provavelmente possui mais de um nível.
+- Algumas raízes evitam determinadas pedras antigas, crescendo ao redor delas sem penetrar suas juntas.
+- A energia estranha percebida desde a chegada fica mais intensa na região do farol, mas é difusa e atravessa partes da estrutura subterrânea; Corvin ainda não identificou uma origem única.
+- A entrada encontrada foi selada em época posterior à construção original das ruínas.
 
-O narrador deve devolver o controle ao jogador ainda nessa chegada / primeira noite. Não deve pular automaticamente um dia, não deve levar Corvin ao farol sem decisão do jogador e não deve revelar que a cidade impede a saída.
+## Intenção anterior de Corvin
 
-## Gancho que acontecerá depois
+Antes de encontrar a entrada, Corvin pretendia observar o farol e depois tentar deixar Black Harbor pela estrada como uma pessoa comum. A descoberta da passagem criou uma nova escolha; essa intenção anterior não obriga sua próxima ação.
 
-Somente depois de aproximadamente um dia de jogo, quando for natural para a história, Corvin poderá perceber duas presenças extraordinárias seguindo em direção ao farol.
+## Protagonistas IA ainda fora da cena
 
-Essas presenças são Ravena e Estelar.
+- Ravena (Elara Voss) e Estelar ainda não foram encontradas nem percebidas por Corvin.
+- Elas chegam juntas à região neste período da história e seguem sua própria investigação do farol conforme `mestre/roteiro.md`.
+- O encontro entre os três não deve ser forçado; cada uma conserva sua agência.
+- Nenhum outro Titã participa presencialmente da primeira temporada.
 
-Ravena e Estelar chegam juntas, pois já são amigas próximas antes da campanha. Elas vieram analisar o farol e o fenômeno associado a ele. Investigam o local e inicialmente não encontram nada conclusivo.
+## Verdades estruturais ainda ativas
 
-Ao tentarem deixar a região, acabam retornando ao mesmo ponto. O portal de Ravena também não funciona como deveria para escapar. Só então percebem com clareza que existe uma cidade próxima e que há algo anormal prendendo quem entra na região.
-
-## Verdades que o narrador deve preservar
-
-- O aprisionamento da primeira temporada dura 90 dias; ninguém consegue sair antes do final do arco.
-- Os 90 dias devem ser sentidos como tempo real de convivência. Relações não evoluem em poucas cenas.
-- Ravena e Estelar começam como amigas íntimas, não amantes e não pessoas com paixão reprimida uma pela outra.
-- Ravena não procura mulheres como parceiras românticas no início e entende Estelar como amiga.
-- Em Tamaran, casamentos formais pressupõem possibilidade reprodutiva; relações múltiplas podem existir, mas incluem pelo menos uma combinação de parceiros de sexos opostos.
-- Estelar possui um instinto cultural/biológico que associa atração profunda à percepção de poder. Poder pode ser força, magia, combate, coragem, presença, resistência ou autoridade natural.
-- Humanos comuns costumam parecer fisicamente frágeis demais para despertar facilmente esse instinto em Estelar.
-- Corvin parece um homem humano relativamente comum. Ravena e Estelar não sabem inicialmente que ele é um semideus da natureza.
-- Ravena pode sentir interesse por Corvin e freá-lo por medo de machucá-lo.
-- Estelar pode sentir atração por Corvin, mas rejeitar ou racionalizar a sensação porque ela não combina com a aparente fragilidade dele.
-- Como acreditam que Corvin é relativamente comum, Ravena e Estelar tendem a protegê-lo e assumir a linha de frente diante do perigo.
-- Corvin pode deixar que façam o trabalho pesado e ajudar por meios que pareçam itens, runas, preparação, conhecimento ou cura.
-- Ravena e Estelar são protagonistas ativas. O narrador deve fazê-las tomar decisões, investigar, lutar, proteger, discordar, correr riscos e propor soluções. Nunca devem virar adereços esperando Corvin resolver a cena.
-- Próximo ao clímax, Corvin pode revelar seu verdadeiro poder para tornar possível destruir ou desativar o elemento central do fenômeno. Essa revelação não substitui as ações das duas: Ravena e Estelar precisam conquistar a oportunidade e participar diretamente da vitória.
-- A cidade e o mistério permanecem locais; não transformar a temporada em conspiração mundial, guerra ou caça contínua a monstros.
-- Os moradores podem estar sob influência e não devem ser tratados automaticamente como inimigos.
-
-## Direção de romance
-
-O romance deve nascer da convivência dos 90 dias, da falsa vida familiar, da rotina, da proteção mútua, dos conflitos, dos ciúmes e das descobertas sobre cada personagem.
-
-Não antecipar um relacionamento a três como fato consumado. Ele é uma possibilidade e uma direção temática da campanha, mas deve ser conquistado narrativamente.
-
-Ravena trata ciúmes primeiro com humor ácido, sarcasmo, ironia e pequenas provocações, não com isolamento automático.
-
-Estelar demonstra sentimentos de maneira mais aberta e direta.
-
-## Abertura recomendada
-
-A cena inicial deve mostrar Corvin percebendo a energia estranha durante sua viagem noturna, vendo as luzes da cidade que não deveria existir e decidindo aproximar-se. A cidade deve parecer suficientemente normal para ser inquietante. Ao conversar com moradores, ele pode descobrir a existência do farol construído sobre ruínas antigas.
-
-A primeira cena termina devolvendo o controle ao jogador, com Corvin recém-chegado e livre para decidir o que investigar.
+As premissas permanentes de romance, protagonismo compartilhado, duração de 90 dias, aprisionamento da região, falsa leitura de Corvin como humano relativamente comum e demais verdades da temporada permanecem em `mestre/narrativa.md` e `mestre/roteiro.md` e não devem ser duplicadas aqui.
