@@ -10,6 +10,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 0.1-resolucao.md
 → arquitetura da resolução de conflitos e testes.
 
+0.2-rolagens.md
+→ define que o Narrador executa todas as rolagens usando fonte aleatória real disponível.
+
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
 
@@ -43,6 +46,9 @@ NARRADOR
 
 RESOLUÇÃO
 → decide incertezas quando necessário.
+
+ROLAGENS
+→ são executadas pelo Narrador com fonte aleatória real disponível.
 
 REGISTRO
 → preserva o que passou a ser verdade.
