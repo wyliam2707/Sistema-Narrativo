@@ -1,7 +1,7 @@
 # Estelar
 
 ESTADO DA FICHA: EM CRIAÇÃO
-Importância: / CONTROLE: / Patamar:
+Importância: / CONTROLE: / Patamar: 3
 Nome real: / Idade: cerca de 40 anos (aparência de 26 anos)
 Aparência:
 Estilo:
