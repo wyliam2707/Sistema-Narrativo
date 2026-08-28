@@ -66,7 +66,7 @@ Pontos de Poder: [9] / [9]
 
 ## Rotina e hábitos persistentes
 
---- [ ]
+--- Elara medita diariamente, costuma procurar silêncio quando está emocionalmente sobrecarregada e prefere ler, observar ou ficar sozinha a participar de ambientes muito agitados.
 
 ## Relações
 
