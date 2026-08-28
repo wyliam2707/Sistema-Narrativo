@@ -25,6 +25,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 0.6-dano-e-ferimentos.md
 → resolve `1d6 + Potência` contra `1d6 + Resistência`, converte a diferença em gravidade, acumula ferimentos por caixas e define recuperação por Cura, sem pontos de Vida.
 
+0.7-iniciativa.md
+→ usa a ordem ficcional quando evidente e só resolve prioridade quando agir primeiro realmente estiver em disputa; não mantém iniciativa permanente.
+
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
 
@@ -92,6 +95,13 @@ RECUPERAÇÃO
 → Cura é aplicada automaticamente do ferimento menos grave para o mais grave.
 → ferimentos regridem pelos custos 1/2/4/8/16 até desaparecer.
 
+INICIATIVA
+→ ordem evidente vem da ficção.
+→ só existe disputa quando agir primeiro realmente importa e a prioridade não está estabelecida.
+→ normalmente usa Agilidade + Percepção e a resolução espelhada de 0.4.
+→ não existe lista permanente de iniciativa.
+→ em rodadas, registrar apenas se cada participante já usou sua ação principal.
+
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
 
@@ -111,6 +121,6 @@ A criação emergente não autoriza o Narrador a alterar retroativamente uma sit
 
 A origem de conflito pertence ao Opositor, mas não é resultado automático. O Opositor propõe; o Narrador valida coerência, meios, tempo e oportunidade; o Registro fixa o que passou a existir; somente depois a oposição pode ser movimentada normalmente.
 
-As regras específicas de alcance, movimento, iniciativa, Mana, condições e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
+As regras específicas de alcance, movimento, Mana, condições e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
 
 > O Núcleo define a arquitetura comum da mesa. Regras específicas usam essa base sem redefinir autoridade ou procedimento.
