@@ -76,7 +76,7 @@ Pontos de Poder: [9] / [9]
 
 ### Relações positivas
 
---- Ravena: uma de suas amigas mais próximas na Terra e uma das poucas pessoas que se encaixam quase naturalmente no instinto tamaraneano de atração de Estelar. Sua linhagem meio-abissal, presença e poder mágico fazem Ravena parecer alguém capaz de permanecer ao lado dela sem fragilidade, e Trigon é visto por Estelar como mais um inimigo poderoso a enfrentar, não como motivo para temer Ravena. Mesmo assim, nenhuma das duas viveu até agora uma situação que as obrigasse a encarar esse potencial como algo além da amizade, do carinho e da confiança que já compartilham.
+--- Ravena: uma de suas amigas mais próximas na Terra. Estelar confia profundamente nela, não teme sua natureza meio-abissal e encara Trigon como um inimigo poderoso, não como razão para tratar Ravena com receio. O poder e a presença de Ravena se encaixam naturalmente em qualidades que o instinto tamaraneano de Estelar reconhece e respeita, mas no início da campanha isso permanece dentro de uma amizade profunda; não existe paixão reprimida estabelecida entre as duas.
 
 --- Titãs: considera a equipe sua família escolhida na Terra e um dos primeiros lugares em que pôde pertencer sem ser definida apenas por sua posição como princesa.
 
@@ -102,7 +102,9 @@ Pontos de Poder: [9] / [9]
 
 --- A diferença física ainda pesa. Humanos comuns costumam ser muito mais frágeis que Estelar, o que a obriga a se conter constantemente em treino, brincadeiras e intimidade. Ela não os considera inferiores, mas essa diferença torna mais raro que seu instinto reconheça um humano comum como parceiro romântico em potencial.
 
---- Os Titãs são profundamente amados por Estelar, mas o vínculo com eles se consolidou como família e companheirismo. Ravena é a exceção mais próxima da fronteira: seu poder, sua natureza sobrenatural e a ausência de medo entre as duas fazem com que exista um potencial que nunca precisou ser reconhecido ou testado até agora.
+--- No modelo cultural de casamento de Tamaran, a formação familiar pressupõe possibilidade reprodutiva. Relações múltiplas são aceitas, mas um casamento formal inclui pelo menos uma combinação de parceiros de sexos opostos capaz de cumprir essa função. Uma união formada apenas por duas mulheres não corresponde ao modelo de casamento que Estelar conhece de sua cultura.
+
+--- Os Titãs são profundamente amados por Estelar, mas o vínculo com eles se consolidou como família e companheirismo. A existência de poder, carinho ou intimidade não transforma automaticamente amizade em romance.
 
 ## Conhecimento relevante
 
