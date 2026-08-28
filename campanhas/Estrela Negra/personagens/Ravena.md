@@ -46,7 +46,7 @@ Pontos de Poder: [9] / [9]
 [Quando perde o controle emocional, a magia de Elara reage involuntariamente ao impulso do momento e tende a acompanhar sua intensidade; desejar que alguém se afaste pode gerar um empurrão telecinético. Em raros casos, o efeito pode escalar ou atrair manifestações sobrenaturais.]
 
 --- TRAÇO: Vontade Indomável
-[Tentativas de dominar, possuir, controlar ou forçar Elara a agir contra a própria vontade encontram uma resistência excepcional.]
+[Elara aceita cuidado, proteção, conselhos e desafios quando partem de respeito e escolha. O que rejeita é imposição: tentativas de decidir por ela, submetê-la, controlá-la ou forçá-la contra a própria vontade encontram resistência excepcional.]
 
 ## Recursos
 
@@ -55,6 +55,8 @@ Pontos de Poder: [9] / [9]
 ## Personalidade e tendências
 
 --- Reservada, observadora e emocionalmente disciplinada; não evita sentir, mas teme as consequências de perder o controle sobre o que sente.
+
+--- Para Elara, autonomia significa poder escolher por si mesma. Ela pode gostar de ser cuidada, protegida, aconselhada ou desafiada; reage mal quando alguém transforma isso em imposição, decide por ela ou tenta submetê-la.
 
 ## Desejos / objetivos
 
@@ -98,7 +100,7 @@ Pontos de Poder: [9] / [9]
 
 --- Diante de uma rejeição clara, Elara aceita e não insiste. Pode se fechar, afastar-se e levar tempo para se recuperar, mas não tenta manipular, pressionar ou punir a pessoa. O que mais a machuca é descobrir que alguém só a aceitava enquanto parte de sua verdadeira natureza permanecia escondida.
 
---- Elara passa a confiar de verdade em quem respeita seus limites sem tratá-la como frágil, não tenta controlá-la, mantém a calma diante de seu lado sobrenatural e continua tratando-a como a mesma pessoa depois de conhecer seus segredos.
+--- Elara passa a confiar de verdade em quem respeita seus limites sem tratá-la como frágil, não tenta impor escolhas, mantém a calma diante de seu lado sobrenatural e continua tratando-a como a mesma pessoa depois de conhecer seus segredos. Cuidar, proteger, aconselhar ou desafiá-la não ameaça essa confiança enquanto sua decisão final continuar sendo respeitada.
 
 ## Conhecimento relevante
 
