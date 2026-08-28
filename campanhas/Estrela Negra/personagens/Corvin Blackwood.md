@@ -6,7 +6,7 @@ Nome real: Corvin Blackwood / Idade: 62 anos (aparenta 27)
 Aparência: homem de aparência humana comum, alto e forte, discretamente mais bonito que a média, com cabelos brancos; aparenta cerca de 27 anos.
 Estilo: roupas casuais, sobretudo e mochila; visual prático de viajante e investigador.
 Conceito: Semideus de linhagem divina; investigador do oculto e explorador.
-Descrição:
+Descrição: viajante experiente e investigador do oculto que percorre o mundo desenvolvendo seus poderes, explorando lugares desconhecidos e ajudando quem encontra pelo caminho.
 
 ## Estado inicial
 
@@ -72,6 +72,8 @@ Pontos de Poder: [12] / [12]
 
 --- Nascido dos raios e da ira dos vulcões, Corvin não sente medo nem perde a compostura diante de perigos, ameaças ou desafios.
 
+--- Pode ser tão calmo quanto o sol no fim da tarde e tão devastador quanto uma erupção vulcânica quando levado ao limite.
+
 ## Desejos / objetivos
 
 --- [ ]
@@ -104,4 +106,4 @@ Pontos de Poder: [12] / [12]
 
 ## História consolidada relevante
 
---- [ ]
+--- Corvin é órfão de origem desconhecida. Ainda criança, foi encontrado em uma floresta por um casal de idosos que o criou como filho. Seus pais adotivos morreram quando ele tinha 14 anos; desde então, passou a viajar pelo mundo, explorar, desenvolver seus poderes e ajudar as pessoas que encontra pelo caminho.
