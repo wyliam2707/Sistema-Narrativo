@@ -112,7 +112,7 @@ Usar para:
 - verificar possibilidade;
 - identificar disputa;
 - decidir quando testar ou não;
-- aplicar Dificuldade e oposição;
+- aplicar modificador de situação e oposição;
 - cruzar intenções paralelas;
 - respeitar tempo, processos e prazos;
 - estabelecer exatamente o que aconteceu antes de escrever a cena.
