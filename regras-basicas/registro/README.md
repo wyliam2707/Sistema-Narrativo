@@ -66,6 +66,7 @@ registro/
 ├── README.md
 ├── fontes-da-campanha.md
 ├── salvar-a-historia.md
+├── fechar-capitulo.md
 ├── estado-atual.md
 └── livro-e-capitulos.md
 ```
@@ -79,6 +80,20 @@ Explica onde cada tipo de verdade deve ser salvo.
 ### `salvar-a-historia.md`
 
 Manual operacional para salvar sem avançar a ficção, incluindo o fechamento de temporada.
+
+### `fechar-capitulo.md`
+
+Define o comando **`fechar o capítulo`** como checkpoint completo:
+
+```text
+salvar
+→ atualizar
+→ reset operacional
+→ recarregar
+→ continuar
+```
+
+O reset não apaga o cânone. Ele faz regras e fontes consolidadas voltarem a ser a base principal antes do próximo capítulo.
 
 ### `estado-atual.md`
 
@@ -254,6 +269,28 @@ Prazo: primeiras pistas em 10 dias
 
 O processo não precisa ser redeclarado em toda janela distante.
 
+## Fechamento de capítulo
+
+O comando **`fechar o capítulo`** possui função especial e segue `fechar-capitulo.md`.
+
+Durante a fase de salvamento:
+
+- parar no último fato estabelecido;
+- não criar cena extra;
+- não resolver ação pendente;
+- não decidir pelo jogador;
+- não fabricar fechamento dramático.
+
+Depois que o capítulo foi consolidado e as fontes atualizadas:
+
+```text
+→ resetar o operacional
+→ recarregar regras e fontes essenciais
+→ continuar a partir do Estado Atual
+```
+
+Assim, o próximo capítulo não depende da inércia de uma conversa muito longa para lembrar como o sistema deve funcionar.
+
 ## Fechamento de temporada
 
 Quando a condição de encerramento do roteiro for alcançada:
@@ -306,17 +343,16 @@ ESTADO ATUAL
 
 Isso não é duplicação ruim porque cada fonte responde a uma pergunta diferente.
 
-## Salvamento não joga
+## Salvar não joga
 
-Quando o usuário pedir para salvar, registrar, fechar capítulo ou fechar temporada:
+Quando o usuário pedir apenas para **salvar** ou **registrar**:
 
 - parar no último fato estabelecido;
 - não criar uma cena extra;
 - não resolver ação ainda pendente;
 - não decidir pelo jogador;
 - não executar automaticamente plano futuro;
-- não inventar consequência para produzir fechamento;
-- não criar a próxima temporada durante o epílogo.
+- não inventar consequência para produzir fechamento.
 
 ```text
 SALVAR
@@ -326,6 +362,10 @@ SALVAR
 ≠
 continuar jogando.
 ```
+
+Isso é diferente do comando `fechar o capítulo`, que inclui continuação **depois** do salvamento, reset e reancoragem.
+
+`Fechar temporada` também não continua para um novo arco: termina em **“E agora?”**.
 
 ## Dados vivos ficam somente em `campanhas/`
 
@@ -352,4 +392,4 @@ Recursos permanentes pertencem à ficha; recursos temporários podem pertencer a
 
 ## Regra final
 
-> **Registro é a memória canônica da campanha. A Narrativa preserva a identidade persistente; o Roteiro preserva a temporada ativa; a ficha preserva a interpretação da personagem; o Livro preserva o passado; o Estado preserva o presente. Quando a temporada termina, o epílogo consolida o resultado e a próxima só nasce depois de “E agora?”.**
+> **Registro é a memória canônica da campanha. A Narrativa preserva a identidade persistente; o Roteiro preserva a temporada ativa; a ficha preserva a interpretação da personagem; o Livro preserva o passado; o Estado preserva o presente. `Fechar o capítulo` acrescenta um reset operacional entre capítulos para reancorar regras e fontes antes de continuar. Quando a temporada termina, o epílogo consolida o resultado e a próxima só nasce depois de “E agora?”.**
