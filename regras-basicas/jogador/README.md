@@ -35,13 +35,17 @@ Define a estrutura conceitual da ficha:
 
 Define a base de Atributos, Perícias e Patamares.
 
-As partes antigas sobre construção e uso de Poderes permanecem em consolidação. Para **Pontos de Poder, custo por abrangência, Poder como opção de ação e equipamentos permanentes**, prevalece `1.2-poderes-e-equipamentos.md`.
+As partes antigas sobre construção e uso de Poderes permanecem em consolidação. Para **Pontos de Poder, custo por abrangência, Poder como opção de ação, equipamentos permanentes e composição dos valores**, prevalece `1.2-poderes-e-equipamentos.md`.
+
+Qualquer exemplo antigo que some `Atributo + Perícia + Poder` está superado.
 
 ## `1.2-poderes-e-equipamentos.md`
 
 Define a regra simples de Poderes:
 
 - Poder é uma opção de ação;
+- toda resolução usa exatamente dois fatores: `Atributo + Perícia` ou `Atributo + Poder`;
+- nunca usar `Atributo + Perícia + Poder`;
 - graduação `[1]` a `[3]` mede a força da capacidade;
 - abrangência serve apenas para calcular custo na criação;
 - simples custa graduação ×1;
