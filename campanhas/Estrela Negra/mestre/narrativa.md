@@ -7,7 +7,7 @@
 → Leve e divertido, sem deixar de ser adulto e muito sensual.
 
 ## Experiência desejada
-→ A definir.
+→ Acompanhar aproximação entre personagens, flerte, ciúme, intimidade, vida cotidiana compartilhada, construção de relacionamento, encontros e conflitos, com lutas e investigação pontual.
 
 ## Temas e conflitos recorrentes
 → A definir.
