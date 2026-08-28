@@ -12,20 +12,23 @@ Este arquivo define **onde salvar cada tipo de verdade** dentro de `campanhas/<n
 QUEM É A PERSONAGEM E O QUE ELA PRECISA LEMBRAR PARA SER INTERPRETADA?
 → ficha da personagem.
 
+SOBRE O QUE A CAMPANHA É E QUE DIREÇÃO O NARRADOR DEVE PRESERVAR?
+→ mestre/roteiro.md.
+
 COMO A CAMPANHA ESTÁ AGORA?
-→ estado/atual.md
+→ estado/atual.md.
 
 O QUE É VERDADE ESTÁVEL NO CENÁRIO?
-→ mundo/
+→ mundo/.
 
-O QUE O MESTRE PRECISA PRESERVAR?
-→ mestre/
+O QUE MAIS O MESTRE PRECISA PRESERVAR?
+→ mestre/.
 
 O QUE O OUTRO LADO DA TRAMA ESTÁ FAZENDO?
-→ opositor/
+→ opositor/.
 
 O QUE REALMENTE ACONTECEU?
-→ livro/
+→ livro/.
 ```
 
 ## `personagens/`
@@ -133,9 +136,37 @@ Não usar para planos secretos ou condições temporárias de personagens.
 
 Guarda informações operacionais próprias do Narrador quando a campanha realmente precisar delas.
 
-Pode conter:
+### `mestre/roteiro.md`
 
-- direção narrativa local;
+É a fonte principal da **direção persistente da campanha**.
+
+Pode registrar de forma curta:
+
+```text
+foco principal
+trama de fundo
+miniquests ou variações
+tom e premissa
+direção que o Narrador precisa preservar
+```
+
+O roteiro não determina acontecimentos nem resultados. Ele impede que uma trama secundária, improvisação ou mudança automática de tom substitua aquilo que a campanha foi criada para explorar.
+
+```text
+ROTEIRO
+→ sobre o que a história é.
+
+ESTADO
+→ o que está acontecendo agora.
+
+LIVRO
+→ o que aconteceu.
+```
+
+A classificação operacional de NPCs ou criaturas (`ALIADO`, `NEUTRO`, `HOSTIL`, `INIMIGO`) pode aparecer no material do Mestre quando for útil, sempre relativa aos personagens principais e conforme `../mestre/julgamento.md`.
+
+Outros arquivos de `mestre/` podem conter:
+
 - referências de cena;
 - fatos ocultos que não pertencem especificamente ao Opositor;
 - material necessário para julgamento futuro.
@@ -212,10 +243,11 @@ Não repetir por padrão:
 - todos os segredos em vários arquivos;
 - todo o Livro em Conhecimento relevante;
 - toda a lore do mundo dentro de cada ficha;
-- todo plano do Opositor em Estado Atual.
+- todo plano do Opositor em Estado Atual;
+- o roteiro inteiro em vários arquivos.
 
 Se uma informação já possui fonte principal suficiente, apontar para ela ou consultá-la quando necessário.
 
 ## Regra final
 
-> **Escolha a fonte pela função da verdade: a ficha guarda quem a personagem é e o que precisa permanecer disponível para interpretá-la; Estado Atual guarda o presente; mundo guarda contexto estável; mestre e opositor guardam material operacional próprio; Livro guarda o que aconteceu.**
+> **Escolha a fonte pela função da verdade: o roteiro guarda a direção da campanha; a ficha guarda quem a personagem é e o que precisa permanecer disponível para interpretá-la; Estado Atual guarda o presente; mundo guarda contexto estável; mestre e opositor guardam material operacional próprio; Livro guarda o que aconteceu.**
