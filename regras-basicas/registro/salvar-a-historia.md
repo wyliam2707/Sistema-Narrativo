@@ -10,7 +10,7 @@ Salvar significa persistir somente o que já foi estabelecido.
 
 ## Quando registrar
 
-O Registro pode ser atualizado em três escalas:
+O Registro pode ser atualizado em quatro escalas:
 
 ```text
 DEPOIS DE UMA SENTENÇA
@@ -21,6 +21,9 @@ SALVAR ESTADO
 
 FECHAR / SALVAR CAPÍTULO
 → consolidar o trecho encerrado no Livro e atualizar as fontes operacionais afetadas.
+
+FECHAR TEMPORADA
+→ consolidar o resultado do arco, escrever epílogo, atualizar fichas/estado e arquivar o roteiro.
 ```
 
 ## Depois de uma sentença
@@ -160,7 +163,7 @@ Se uma personagem aprende algo que deverá influenciar decisões futuras, verifi
 Regra prática:
 
 ```text
-se esquecer provavelmente faria a personagem interpretar ou decidir de forma incoerente
+se esquecer provavelmente faria a personagem interpretar ou decidir de forma incoerente nesta história
 → atualizar a ficha.
 
 se é apenas detalhe momentâneo
@@ -263,6 +266,122 @@ Durante a sessão, o mais importante é não perder:
 - prazos;
 - mudanças estáveis do mundo.
 
+# Fechar temporada
+
+O fechamento de temporada só começa quando a condição de encerramento registrada em `mestre/roteiro.md` foi realmente alcançada.
+
+Seguir também `../CRIACAO-DE-TEMPORADA.md`.
+
+## 1 — Parar no resultado real
+
+Concluir somente a situação já em resolução.
+
+Não criar:
+
+- nova ameaça para terminar com gancho;
+- decisão futura das personagens;
+- destino ainda não escolhido;
+- romance ainda não decidido;
+- nova missão;
+- próxima temporada.
+
+## 2 — Escrever o epílogo
+
+Salvar em:
+
+```text
+campanhas/<nome>/livro/temporada-[N]-epilogo.md
+```
+
+O epílogo responde **como esta temporada realmente terminou**, priorizando perguntas relevantes ao tipo de campanha.
+
+Exemplos possíveis:
+
+```text
+Onde as personagens terminaram?
+Quais relações mudaram?
+Quem está com quem?
+Todos ainda vivem juntos?
+Quem sabe quais fatos importantes?
+Que objetivos foram concluídos?
+Que mudanças ficaram consolidadas?
+Que problemas realmente permanecem abertos?
+```
+
+Em outra campanha, as perguntas mudam:
+
+```text
+TERROR
+→ quem sobreviveu?
+→ que medos, perdas ou ameaças permanecem?
+
+INVESTIGAÇÃO
+→ o que foi confirmado?
+→ que casos ou perguntas continuam abertos?
+
+AÇÃO
+→ que forças, alianças ou consequências permanecem?
+```
+
+O epílogo não precisa responder perguntas sem relevância para aquela história.
+
+> **Epílogo registra resultado. Não escolhe futuro.**
+
+## 3 — Consolidar fontes operacionais
+
+Depois do epílogo, atualizar somente o que realmente mudou:
+
+```text
+FICHAS
+→ relações, conhecimento, objetivos, medos, hábitos ou história consolidada que mudaram de forma duradoura.
+
+ESTADO
+→ situação presente deixada pelo encerramento.
+
+MUNDO
+→ mudanças estáveis do cenário.
+
+OPOSITOR
+→ processos ou planos ainda existentes.
+```
+
+A nova temporada não deve precisar redescobrir essas mudanças.
+
+## 4 — Arquivar o roteiro
+
+Preservar o roteiro encerrado em:
+
+```text
+campanhas/<nome>/mestre/temporadas/temporada-[N].md
+```
+
+Marcar:
+
+```text
+Status: ENCERRADA
+```
+
+O roteiro arquivado deixa de dirigir o jogo presente.
+
+## 5 — Perguntar “E agora?”
+
+Depois que epílogo e consolidação estiverem concluídos:
+
+> **E agora?**
+
+Não escolher automaticamente a próxima temporada a partir de um problema pendente.
+
+```text
+PROBLEMA ABERTO
+→ continua verdadeiro.
+
+PROBLEMA ABERTO
+≠
+próximo arco obrigatório.
+```
+
+A resposta do usuário serve de base para `../CRIACAO-DE-TEMPORADA.md`.
+
 ## Checklist rápido
 
 Antes de encerrar um salvamento:
@@ -281,6 +400,16 @@ Antes de encerrar um salvamento:
 [ ] não avancei a ficção durante o salvamento?
 ```
 
+Se for fechamento de temporada:
+
+```text
+[ ] a condição de encerramento realmente foi alcançada?
+[ ] o epílogo descreve apenas o resultado real?
+[ ] fichas e estado foram consolidados?
+[ ] o roteiro foi arquivado como encerrado?
+[ ] nenhuma próxima temporada foi criada antes de “E agora?”?
+```
+
 ## Regra final
 
-> **Salvar a história é distribuir verdades já estabelecidas nas fontes corretas. O Livro preserva o passado, o Estado preserva o presente e a ficha preserva quem a personagem é e o conhecimento que ela precisa levar para futuras interpretações. Consolidar não é redescobrir nem criar fato novo.**
+> **Salvar a história é distribuir verdades já estabelecidas nas fontes corretas. O Livro preserva o passado, o Estado preserva o presente e a ficha preserva quem a personagem é e o conhecimento que precisa levar para futuras interpretações. Ao fechar uma temporada, o epílogo consolida o resultado, o roteiro é arquivado e a próxima direção só nasce depois da pergunta “E agora?”.**
