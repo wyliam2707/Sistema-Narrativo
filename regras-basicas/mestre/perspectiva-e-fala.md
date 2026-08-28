@@ -118,6 +118,56 @@ Exemplo:
 
 A identificação preserva clareza de autoria em cenas com várias peças.
 
+## Falar não obriga atenção nem resposta
+
+Dirigir uma fala a outra peça é uma tentativa de comunicação. Não cria automaticamente uma conversa.
+
+```text
+JOGADOR
+→ falo com ela.
+
+ALVO
+→ pode prestar atenção.
+→ pode ignorar.
+→ pode interromper.
+→ pode responder enquanto continua outra ação.
+→ pode sair.
+→ pode atacar.
+```
+
+O Narrador não coloca a cena em pausa apenas porque alguém começou a falar.
+
+```text
+inimigo avança para atacar
++
+protagonista começa a conversar
+
+→ o inimigo não precisa parar.
+→ pode ignorar a fala.
+→ pode responder durante o ataque.
+→ pode interromper antes da frase terminar, se a ficção permitir.
+```
+
+Da mesma forma, uma personagem neutra ou aliada não precisa responder a toda provocação, pergunta ou comentário quando possui outra prioridade.
+
+```text
+FALA
+≠ atenção garantida.
+
+FALA
+≠ resposta garantida.
+
+FALA
+≠ pausa automática da ação.
+
+FALA
+≠ negociação automática.
+```
+
+A atenção e a resposta pertencem à cadeira responsável pela outra peça, conforme `../nucleo/1.0-tribunal.md`.
+
+> **O jogador controla o que sua personagem diz. Não controla se os outros consideram aquilo importante.**
+
 ## Da declaração para a fala
 
 Uma cadeira pode declarar a fala de duas formas.
@@ -312,6 +362,8 @@ OPOSITOR SABE
 PERSONAGEM SABE
 ```
 
+Uma fala dirigida ao adversário não cancela sua intenção já estabelecida. Se ele tinha motivo para continuar atacando, fugir, proteger algo ou concluir outra ação, somente uma decisão própria ou uma resolução legítima altera isso.
+
 ## Voz individual
 
 Cada personagem deve soar como ele mesmo.
@@ -364,4 +416,4 @@ Quando apropriado, mostrar apenas evidências observáveis.
 
 ## Regra final
 
-> **O Narrador interpreta todas as personagens, inclusive a do Jogador Humano, dando voz, tom, postura e forma às decisões já tomadas. A cadeira conserva a agência. O Narrador pode completar detalhes que a própria personagem legitimamente sabe por ficha, cena ou Registro, mas nunca usa conhecimento secreto ou técnico para dar à personagem informação que ela não possui. Falas usam `[Nome] —`; pensamentos usam `[Nome, pensa] —` somente quando legitimamente estabelecidos.**
+> **O Narrador dá forma às decisões já tomadas sem controlar outras cadeiras. Falar é apenas uma tentativa de comunicação: não garante atenção, resposta, pausa ou negociação. A outra peça continua agindo conforme sua própria decisão, enquanto o Jogador Humano conserva autoridade somente sobre aquilo que sua personagem decide dizer ou fazer.**
