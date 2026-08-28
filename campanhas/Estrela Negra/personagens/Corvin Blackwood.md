@@ -35,7 +35,10 @@ Escopo: permite criar e fabricar uma grande variedade de objetos por meios sobre
 --- Portal [1] - custo 1 ponto.
 Escopo: permite abrir um portal e se teleportar diretamente para um local conhecido por Corvin. Não permite escolher destinos desconhecidos apenas por descrição, coordenadas ou suposição.
 
-Pontos de Poder: [7] / [12]
+--- Deus da Morte [3] - custo 3 pontos.
+Escopo: magia ofensiva direta que permite a Corvin projetar poder sobrenatural para causar dano mágico. Não concede por si só drenagem, maldição, morte instantânea ou outros efeitos adicionais.
+
+Pontos de Poder: [10] / [12]
 
 ## Traços
 
