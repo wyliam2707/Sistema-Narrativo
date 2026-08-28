@@ -76,11 +76,21 @@ Pontos de Poder: [9] / [9]
 
 ### Relações positivas
 
---- [Nome] [relação objetiva pelo ponto de vista da personagem]
+--- Ravena: uma de suas amigas mais próximas na Terra. Estelar confia profundamente nela, gosta de sua companhia mesmo quando Ravena está em silêncio e não se intimida com seu jeito reservado ou sombrio. Demonstra carinho com naturalidade, respeita quando Ravena precisa de espaço e valoriza muito os raros momentos em que ela baixa a guarda.
+
+--- Titãs: considera a equipe sua família escolhida na Terra e um dos primeiros lugares em que pôde pertencer sem ser definida apenas por sua posição como princesa.
+
+--- Dick Grayson: amigo e líder em quem confia. Respeita sua experiência e seu julgamento, embora não deixe de discordar dele quando acredita que algo importante deve ser dito diretamente.
+
+--- Mutano: amigo próximo cuja leveza e humor aprecia; gosta de sua companhia e tende a responder às brincadeiras com entusiasmo em vez de constrangimento.
+
+--- Ciborgue: amigo em quem confia pela lealdade, estabilidade e franqueza. Também valoriza sua facilidade com tecnologia e sua disposição para ajudá-la a compreender melhor equipamentos e costumes terrestres.
+
+--- Tamaran: apesar de ter fugido das decisões impostas por sua corte, Estelar continua amando seu mundo, sua cultura e seu povo. Sua rejeição é à perda de escolha, não à sua origem.
 
 ### Relações negativas
 
---- [Nome] [relação objetiva pelo ponto de vista da personagem]
+--- Conselho de Regentes de Tamaran: Estelar guarda ressentimento e desconfiança do conselho por tentar decidir seu futuro político e impor um casamento arranjado que ela não desejava, tratando sua vida pessoal como instrumento de Estado.
 
 ### Relacionamentos
 
