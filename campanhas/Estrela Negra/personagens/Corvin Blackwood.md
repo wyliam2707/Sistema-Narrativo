@@ -88,7 +88,9 @@ Pontos de Poder: [12] / [12]
 
 ## Rotina e hábitos persistentes
 
---- [ ]
+--- Corvin não mantém uma rotina rígida; muda de interesse como uma estação. Pode passar longos períodos tranquilo em uma biblioteca, oficina ou laboratório e, pouco depois, abandonar tudo para explorar uma ruína, seguir uma pista ou descobrir algo novo.
+
+--- Seus impulsos são fortemente instintivos. Quando alguém desperta seu interesse ou atração, Corvin tem dificuldade em esconder isso por completo; sua atenção, proximidade e comportamento tendem a denunciá-lo antes mesmo que ele decida falar sobre o que sente.
 
 ## Relações
 
