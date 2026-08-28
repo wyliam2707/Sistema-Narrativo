@@ -30,6 +30,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 
 1.5-opositor.md
 → promotoria da mesa, ganchos, planos e oposição ativa.
+
+1.6-execucao-por-uma-unica-ia.md
+→ protocolo para uma única IA técnica executar várias cadeiras sem misturar conhecimento, objetivos ou autoridade.
 ```
 
 ## Princípio estrutural
@@ -50,9 +53,17 @@ RESOLUÇÃO
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
 
+EXECUÇÃO TÉCNICA
+→ uma única IA pode executar várias cadeiras.
+→ cada cadeira continua usando somente seu próprio escopo decisório.
+
 REGISTRO
 → preserva o que passou a ser verdade.
 ```
+
+A ordem usada pela IA para executar internamente as cadeiras não determina ordem ficcional, iniciativa ou prioridade.
+
+As declarações operacionais das cadeiras da IA podem permanecer internas durante o jogo normal; o usuário recebe principalmente a sentença narrada e o próximo ponto em que sua própria decisão é necessária.
 
 As regras específicas de Defesas, Resistências, alcance, movimento, dano, Vida, Mana, condições, Poderes e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
 
