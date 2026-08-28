@@ -12,7 +12,7 @@ Descrição: viajante experiente e investigador do oculto que percorre o mundo d
 
 Vida [5 blocos]: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
 Mente [5 blocos]: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
-Mana [10] / Deslocamento: andar [ ]
+Mana [10] / Deslocamento: andar [curto]
 
 ## Atributos
 
@@ -27,7 +27,7 @@ Total de Perícias: [15] / [15]
 ## Poderes e Equipamentos
 
 --- Dádiva da Terra [2] - custo 6 pontos.
-Escopo: expressão protetora e vital do domínio natural de Corvin. Permite curar e restaurar, estimular ou controlar plantas, comunicar-se e interagir sobrenaturalmente com animais e com a natureza, invocar espíritos animais para auxílio, assumir a forma de um pássaro para deslocamento ou exploração e criar proteções, barreiras e runas naturais ou místicas.
+Escopo: expressão protetora e vital do domínio natural de Corvin. Permite curar e restaurar, estimular ou controlar plantas, comunicar-se e interagir sobrenaturalmente com animais e com a natureza, invocar espíritos animais para auxílio, manifestar dádivas espirituais de animais que lhe permitem voar, nadar ou cavar e criar proteções, barreiras e runas naturais ou místicas.
 
 --- Forja Primordial [1] - custo 2 pontos.
 Escopo: expressão criadora e transformadora do domínio natural. Permite fabricar uma grande variedade de objetos por meios sobrenaturais, desde que Corvin disponha dos materiais adequados, tempo suficiente e do conhecimento pertinente de Forja ou Alquimia. Não cria matéria do nada.
