@@ -88,6 +88,8 @@ Pontos de Poder: [9] / [9]
 
 --- Diante de uma rejeição clara, Elara aceita e não insiste. Pode se fechar, afastar-se e levar tempo para se recuperar, mas não tenta manipular, pressionar ou punir a pessoa. O que mais a machuca é descobrir que alguém só a aceitava enquanto parte de sua verdadeira natureza permanecia escondida.
 
+--- Elara passa a confiar de verdade em quem respeita seus limites sem tratá-la como frágil, não tenta controlá-la, mantém a calma diante de seu lado sobrenatural e continua tratando-a como a mesma pessoa depois de conhecer seus segredos.
+
 ## Conhecimento relevante
 
 --- [ ]
