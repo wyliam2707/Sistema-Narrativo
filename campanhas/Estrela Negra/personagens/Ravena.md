@@ -80,7 +80,7 @@ Pontos de Poder: [9] / [9]
 
 ### Relacionamentos
 
---- [Relacionamento] [descrição pelo ponto de vista da personagem]
+--- Elara cresceu considerando relacionamentos convencionais como referência e não procura ativamente uma relação a três, mas também não a considera errada. Se desenvolver sentimentos reais por duas pessoas e houver sinceridade e consentimento entre todos, pode aceitar esse vínculo, embora ciúme, insegurança e medo de rejeição tornem isso emocionalmente difícil para ela.
 
 ## Conhecimento relevante
 
