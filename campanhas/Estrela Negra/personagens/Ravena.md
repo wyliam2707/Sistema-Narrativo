@@ -78,7 +78,7 @@ Pontos de Poder: [9] / [9]
 
 ### Relações positivas
 
---- Titãs: Elara considera os Titãs sua família escolhida. Foi ao lado deles que aprendeu a confiar, dividir responsabilidades e aceitar que pertencer a algum lugar não significa perder a própria autonomia. Mesmo quando precisa se afastar ou ficar sozinha, continua considerando o grupo sua casa.
+--- Titãs: Elara considera os Titãs sua família escolhida e os enxerga de forma essencialmente fraterna, como irmãos. Foi ao lado deles que aprendeu a confiar, dividir responsabilidades e aceitar que pertencer a algum lugar não significa perder a própria autonomia. O vínculo é profundo, mas nunca se tornou romântico para ela.
 
 --- Dick Grayson: uma das pessoas em quem Elara mais confia quando precisa de alguém capaz de pensar com calma em situações difíceis. Respeita sua liderança, embora não aceite que ele tente decidir por ela. A relação entre os dois é marcada por confiança, respeito e uma familiaridade construída ao longo dos anos.
 
@@ -96,13 +96,17 @@ Pontos de Poder: [9] / [9]
 
 ### Relacionamentos
 
+--- O maior obstáculo de Elara em um relacionamento é o medo de machucar justamente quem ama. Uma pessoa comum já é vulnerável demais às consequências de uma perda de controle; quem conhece sua verdadeira natureza, por outro lado, quase sempre carrega algum grau de medo, cautela ou receio diante do que ela pode se tornar. Isso torna intimidade romântica rara e difícil mesmo quando existe atração.
+
+--- Os Titãs nunca ocuparam esse espaço para Elara. Ela os ama como família e os percebe de maneira fraterna, não como possíveis parceiros românticos; a ausência de romance não diminui a profundidade desses vínculos.
+
 --- Elara cresceu considerando relacionamentos convencionais como referência e não procura ativamente uma relação a três, mas também não a considera errada. Se desenvolver sentimentos reais por duas pessoas e houver sinceridade e consentimento entre todos, pode aceitar esse vínculo, embora ciúme, insegurança e medo de rejeição tornem isso emocionalmente difícil para ela.
 
 --- Quando se interessa romanticamente por alguém, Elara raramente flerta de forma aberta. Demonstra interesse permanecendo mais tempo perto da pessoa, buscando conversas privadas, permitindo maior proximidade física e revelando pequenas partes de si que normalmente esconderia. Quando confia de verdade, pode tomar a iniciativa, mas tende a fazê-lo de forma discreta e intensa.
 
 --- Elara pode ser a primeira a se apaixonar e a última a admitir. Seus sentimentos costumam se aprofundar antes que esteja disposta a reconhecer em voz alta o quanto alguém passou a importar; tenta racionalizar o apego e manter a compostura mesmo quando suas atitudes, atenção, ciúme e necessidade de proximidade já deixam isso evidente.
 
---- Elara sente ciúme com intensidade, mas tende a escondê-lo primeiro. Fica mais fria, silenciosa e observadora antes de confrontar a situação quando a insegurança cresce. Seu medo principal não é possuir alguém, mas ser substituída ou rejeitada quando a pessoa conhecer sua verdadeira natureza.
+--- Elara sente ciúme com intensidade, mas costuma tratá-lo primeiro com humor ácido. Em vez de se isolar, tende a lançar comentários secos, sarcasmo, ironias ou pequenas provocações que deixam transparecer a insegurança antes que admita diretamente o que está sentindo. Seu medo principal não é possuir alguém, mas ser substituída ou rejeitada quando a pessoa conhecer sua verdadeira natureza.
 
 --- Diante de uma rejeição clara, Elara aceita e não insiste. Pode se fechar, afastar-se e levar tempo para se recuperar, mas não tenta manipular, pressionar ou punir a pessoa. O que mais a machuca é descobrir que alguém só a aceitava enquanto parte de sua verdadeira natureza permanecia escondida.
 
