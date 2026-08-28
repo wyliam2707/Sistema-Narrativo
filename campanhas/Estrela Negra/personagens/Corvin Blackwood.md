@@ -26,8 +26,8 @@ Total de Perícias: [15] / [15]
 
 ## Poderes e Equipamentos
 
---- Magia Natural [2] - custo 4 pontos.
-Escopo: magia druídica de suporte e utilidade. Permite curar e restaurar, estimular ou controlar plantas, comunicar-se e interagir sobrenaturalmente com animais e com a natureza, invocar espíritos animais para auxílio e assumir a forma de um pássaro para deslocamento ou exploração. Não é focada em ataque direto.
+--- Magia Natural [2] - custo 6 pontos.
+Escopo: magia druídica ampla de suporte, utilidade e proteção. Permite curar e restaurar, estimular ou controlar plantas, comunicar-se e interagir sobrenaturalmente com animais e com a natureza, invocar espíritos animais para auxílio, assumir a forma de um pássaro para deslocamento ou exploração e criar proteções, barreiras e runas naturais ou místicas. Não é focada em ataque direto.
 
 --- Magia de Criação [1] - custo 2 pontos.
 Escopo: permite criar e fabricar uma grande variedade de objetos por meios sobrenaturais, desde que Corvin disponha dos materiais adequados, tempo suficiente e do conhecimento pertinente de Forja ou Alquimia. Não cria matéria do nada.
@@ -38,7 +38,7 @@ Escopo: permite abrir um portal e se teleportar diretamente para um local conhec
 --- Deus da Morte [3] - custo 3 pontos.
 Escopo: magia ofensiva direta que permite a Corvin projetar poder sobrenatural para causar dano mágico. Não concede por si só drenagem, maldição, morte instantânea ou outros efeitos adicionais.
 
-Pontos de Poder: [10] / [12]
+Pontos de Poder: [12] / [12]
 
 ## Traços
 
