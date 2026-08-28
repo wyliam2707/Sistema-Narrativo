@@ -18,20 +18,23 @@ Nenhum fato vivo de uma campanha deve ser salvo aqui.
 
 ## Função do Registro
 
-O Registro responde a quatro perguntas:
+O Registro responde:
 
 ```text
+QUEM É A PERSONAGEM E O QUE ELA PRECISA LEMBRAR PARA SER INTERPRETADA?
+→ ficha da personagem.
+
 O QUE ACONTECEU?
 → Livro / histórico canônico.
 
 COMO A CAMPANHA ESTÁ AGORA?
-→ Estado atual.
+→ Estado Atual.
 
-O QUE CADA PERSONAGEM SABE?
-→ fontes de conhecimento daquela personagem.
+O QUE É VERDADE EXTERNA À PERSONAGEM?
+→ mundo, livros e demais fontes apropriadas.
 
 O QUE CONTINUA EXISTINDO FORA DA CENA?
-→ mundo, processos, prazos, planos e outras fontes apropriadas.
+→ processos, prazos, planos e outras fontes apropriadas.
 ```
 
 Registrar não cria ficção.
@@ -63,9 +66,7 @@ registro/
 
 ### `fontes-da-campanha.md`
 
-Explica **onde cada tipo de verdade deve ser salvo**.
-
-Princípio:
+Explica onde cada tipo de verdade deve ser salvo.
 
 > **Cada verdade deve ter uma fonte principal.**
 
@@ -73,25 +74,15 @@ Princípio:
 
 Manual operacional para salvar sem avançar a ficção.
 
-Explica:
-
-- o que registrar depois de uma sentença;
-- como salvar no meio de uma cena;
-- como preservar processos e prazos;
-- como atualizar conhecimento;
-- como evitar registrar intenção como fato.
-
 ### `estado-atual.md`
 
 Define a fotografia operacional necessária para retomar a campanha exatamente de onde ela parou.
 
 ### `livro-e-capitulos.md`
 
-Define o histórico canônico: como consolidar o que realmente aconteceu em capítulos sem transformar o Livro em log técnico da sessão.
+Define o histórico canônico do que realmente aconteceu.
 
 ## Estrutura recomendada de uma campanha
-
-A estrutura concreta pode variar, mas a referência geral é:
 
 ```text
 campanhas/<nome>/
@@ -112,7 +103,7 @@ README
 → identidade, estado geral e roteamento da campanha.
 
 PERSONAGENS
-→ quem as personagens são e, quando necessário, o que cada uma conhece.
+→ fichas reais; principal fonte de interpretação de cada personagem.
 
 ESTADO
 → como a campanha precisa ser retomada agora.
@@ -130,6 +121,27 @@ LIVRO
 → o que efetivamente aconteceu na história.
 ```
 
+## Ficha e memória da personagem
+
+A ficha é a principal fonte de interpretação da personagem.
+
+Quando um fato adquirido passa a ser importante para decisões futuras, relações, evolução emocional ou leitura recorrente de situações, ele deve ser consolidado em `Conhecimento relevante` ou no bloco apropriado da própria ficha.
+
+```text
+se esquecer provavelmente faria a personagem agir de forma incoerente
+→ consolidar na ficha.
+
+se importa apenas para o momento atual
+→ Estado Atual.
+
+se é contexto externo já bem guardado em livro, mundo ou outra fonte
+→ não duplicar integralmente na ficha.
+```
+
+O que merece consolidação depende do foco da campanha. Romance, terror e investigação podem tornar informações diferentes importantes para interpretação.
+
+Conhecimento consolidado não deve ser tratado novamente como descoberta apenas porque a campanha foi retomada depois.
+
 ## Verdade estabelecida x informação disponível
 
 Um fato pode ser verdadeiro na campanha sem ser conhecido por todas as personagens.
@@ -140,34 +152,9 @@ CAMPANHA SABE
 PERSONAGEM SABE
 ```
 
-Arquivos podem permanecer visíveis no repositório.
+Arquivos podem permanecer visíveis no repositório, mas informação reservada não pode ser usada por uma personagem que ainda não a descobriu.
 
-A separação é operacional:
-
-```text
-arquivo visível
-→ pode ser auditado e editado pelo responsável pela campanha.
-
-informação reservada
-→ não pode ser usada como conhecimento da personagem que ainda não a descobriu.
-```
-
-## O Registro também é memória da personagem
-
-O jogador não precisa memorizar perfeitamente tudo que sua personagem já sabe.
-
-Quando uma informação foi legitimamente adquirida e precisa sobreviver entre cenas ou retomadas, ela deve estar disponível em uma fonte apropriada da campanha.
-
-Assim:
-
-```text
-FICHA
-+
-FATOS ESTABELECIDOS NA CENA ATUAL
-+
-REGISTRO LEGÍTIMO DA PERSONAGEM
-→ base de memória e decisão da personagem.
-```
+Relações registradas na ficha representam o ponto de vista do dono daquela ficha. A percepção de outra personagem só entra como conhecimento quando for legitimamente conhecida.
 
 ## Registrar somente fatos concluídos
 
@@ -181,25 +168,14 @@ NÃO SALVAR COMO HISTÓRIA
 → encontrou Ravena amanhã.
 ```
 
-Pode ser registrado, quando relevante:
+Pode ser preservado, quando relevante:
 
 ```text
 INTENÇÃO ATUAL
 → pretende procurar Ravena amanhã.
 ```
 
-Da mesma forma:
-
-```text
-OPOSITOR
-→ Vilão X prepara um sequestro para daqui a 5 dias.
-
-NARRADOR julga como válido
-→ processo/plano pode entrar no Registro do Opositor.
-
-LIVRO
-→ não registra o sequestro como acontecido enquanto ele não acontecer.
-```
+Da mesma forma, um plano futuro do Opositor permanece plano até realmente acontecer.
 
 ## Processos e prazos
 
@@ -222,27 +198,29 @@ Prazo: primeiras pistas em 10 dias
 
 O processo não precisa ser redeclarado em toda janela distante.
 
-O Registro mantém a continuidade.
+## Duplicação legítima
 
-## Não duplicar tudo
-
-Não copiar a mesma informação inteira para vários arquivos apenas por segurança.
-
-Exemplo:
+Uma mesma realidade pode aparecer em duas fontes quando cada uma possui função diferente.
 
 ```text
-Livro
-→ registra que o envenenamento aconteceu.
+LIVRO
+→ registra que a personagem descobriu um fato.
 
-Estado atual
-→ registra que a personagem continua Envenenada.
+FICHA / CONHECIMENTO RELEVANTE
+→ preserva o fato que ela precisa continuar sabendo.
+```
+
+Outro exemplo:
+
+```text
+LIVRO
+→ registra que houve um ferimento.
+
+ESTADO ATUAL
+→ preserva as marcas de Vida que ainda estão presentes.
 ```
 
 Isso não é duplicação ruim porque cada fonte responde a uma pergunta diferente.
-
-Mas não é necessário copiar toda a cena do envenenamento para `estado/atual.md`.
-
-> **Livro guarda passado. Estado guarda presente.**
 
 ## Salvamento não joga
 
@@ -266,19 +244,13 @@ continuar jogando.
 
 ## Dados vivos ficam somente em `campanhas/`
 
-Tudo que pertence a uma história específica deve ser salvo em:
-
-```text
-campanhas/<nome>/
-```
-
 Isso inclui:
 
 - fichas reais;
-- conhecimentos;
-- relações;
-- estado atual;
-- Vida, Mana, condições e recursos;
+- relações consolidadas;
+- conhecimento relevante;
+- Estado Atual;
+- Vida, Mente, Mana e condições atuais;
 - acontecimentos;
 - capítulos;
 - mundo;
@@ -288,6 +260,8 @@ Isso inclui:
 - planos do Opositor;
 - registros do Mestre.
 
+Recursos permanentes pertencem à ficha; recursos temporários podem pertencer ao Estado Atual quando precisarem ser acompanhados.
+
 ## Regra final
 
-> **Registro é a memória canônica da campanha. Salve somente o que foi legitimamente estabelecido, coloque cada verdade em sua fonte principal e mantenha separados o passado da história, o presente operacional, o conhecimento das personagens e os processos ainda em andamento. Tudo que for dado vivo deve existir dentro de `campanhas/<nome>/`.**
+> **Registro é a memória canônica da campanha. A ficha é a principal memória de interpretação da personagem; o Livro preserva o passado, o Estado preserva o presente e as demais fontes guardam contexto e processos externos. Salve somente o que foi legitimamente estabelecido e não faça uma personagem esquecer conhecimento já consolidado.**
