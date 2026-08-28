@@ -36,15 +36,6 @@ Não escrever como forma principal:
 
 A mecânica desaparece na consolidação e permanece apenas o acontecimento ficcional que ela produziu.
 
-```text
-MESA
-Jogador → tento abrir a porta sem fazer barulho.
-Resultado → sucesso.
-
-LIVRO
-Corvin girou a maçaneta devagar e abriu a porta sem produzir mais que um leve roce das dobradiças.
-```
-
 ## O que o Livro registra
 
 Registrar no Livro:
@@ -97,18 +88,6 @@ O foco literário acompanha quem realmente teve agência, iniciativa ou peso naq
 
 O Livro não transforma automaticamente a personagem do Jogador Humano no centro de toda cena.
 
-```text
-Ravena iniciou a cena
-+ tomou as decisões centrais
-→ o capítulo pode acompanhar Ravena.
-
-Estelar conduziu a conversa
-→ a cena pode permanecer centrada nela.
-
-personagem humano apenas reagiu
-→ não reescrever a sequência como se ele tivesse conduzido tudo.
-```
-
 Não é necessário dividir espaço igualmente entre protagonistas.
 
 > **O foco acompanha a história que aconteceu, não uma hierarquia artificial de câmera.**
@@ -148,30 +127,9 @@ O pensamento não precisa ter sido escrito literalmente durante a sessão para a
 
 Ele pode ser criado como **forma literária de uma interioridade que já estava determinada pelo cânone**.
 
-Exemplo:
-
-```text
-CÂNONE
-→ Ravena já conhecia a identidade do homem.
-→ decidiu não revelar isso.
-→ permaneceu observando durante a conversa.
-
-LIVRO
-Ravena reconheceu o nome antes mesmo de ele terminar a frase. Não demonstrou. Ainda não havia motivo para dizer que já sabia.
-```
-
-Isso não cria uma nova decisão; apenas torna legível uma realidade interna que os fatos já sustentavam.
-
 ### Limite da reconstrução
 
-A interioridade literária não pode ser usada para inventar retroativamente:
-
-- conhecimento que a personagem não possuía;
-- uma decisão que nunca tomou;
-- amor, medo, ciúme, desejo ou confiança sem base na ficção;
-- um plano secreto novo;
-- uma justificativa conveniente para corrigir uma contradição;
-- uma motivação que mude o sentido de uma ação já estabelecida.
+A interioridade literária não pode inventar retroativamente conhecimento, decisão, sentimento ou plano que o cânone não sustente.
 
 ```text
 CÂNONE SUSTENTA
@@ -185,19 +143,13 @@ CÂNONE NÃO SUSTENTA
 
 ### Pensamento direto e indireto
 
-A interioridade pode aparecer naturalmente em terceira pessoa próxima, sem transformar todo pensamento em fala marcada.
+A interioridade pode aparecer naturalmente em terceira pessoa próxima.
 
-```text
-Ela já sabia. A pergunta servia apenas para descobrir quanto ele pretendia admitir.
-```
-
-Quando um pensamento direto for usado, pode seguir a convenção:
+Quando um pensamento direto for usado, pode seguir:
 
 ```text
 [Nome, pensa] — Pensamento.
 ```
-
-A escolha entre pensamento direto e interioridade indireta é literária, desde que o conteúdo seja legitimamente sustentado.
 
 ## Interpretação literária
 
@@ -209,15 +161,56 @@ O Livro pode usar as regras de narração do Mestre para:
 - transformar declarações curtas em atuação coerente;
 - completar nomes e detalhes que a personagem legitimamente conhecia;
 - mostrar causa e consequência com clareza;
-- reconstruir transições que ocorreram entre momentos já estabelecidos.
+- reconstruir transições entre momentos já estabelecidos.
 
 Isso continua sujeito à agência e ao cânone.
+
+## Romance e intimidade
+
+Quando a campanha tiver direção romântica adulta, aplicar também `../mestre/intimidade-e-romance.md`.
+
+Uma cena íntima importante pode permanecer como cena literária.
+
+Não substituir automaticamente a passagem por frases vagas como:
+
+```text
+"a noite pertence somente a eles"
+"o resto fica entre os dois"
+```
+
+quando isso apaga justamente o desenvolvimento da relação.
+
+O Livro pode acompanhar:
+
+```text
+aproximação
+→ desejo e tensão.
+
+consentimento
+→ resposta, hesitação, reciprocidade ou recuo.
+
+contato
+→ beijo, abraço, toque e proximidade de forma não gráfica.
+
+diálogo
+→ humor, provocação, carinho, vulnerabilidade e conversa importante.
+
+interioridade
+→ pensamentos e emoções sustentados pelo cânone.
+
+continuidade
+→ silêncio, cuidado, descanso, conversa posterior e consequência emocional.
+```
+
+A passagem pode ser adulta e sensual sem se tornar descrição sexual gráfica ou anatômica.
+
+Se a intimidade alterou confiança, vínculo, desejo, conflito ou percepção entre as personagens, essa mudança merece espaço no Livro.
+
+> **Não cortar a cena por vergonha do tema. Não transformar a cena em pornografia. Narrar a relação.**
 
 ## Condensar e expandir
 
 O Livro não precisa dar o mesmo espaço a tudo que aconteceu na mesa.
-
-Como referência:
 
 ```text
 CONDENSAR
@@ -235,33 +228,24 @@ EXPANDIR
 → mudança de relação
 → conversa significativa
 → momento emocional relevante
+→ intimidade que altere ou revele o vínculo
 ```
 
 Condensar não apaga fatos necessários para compreender causa e consequência.
 
 Expandir não autoriza inventar acontecimentos novos.
 
-> **O Livro escolhe o espaço literário de cada acontecimento; não muda o acontecimento.**
-
 ## Ações secretas
 
 Se uma ação do Opositor realmente aconteceu fora da percepção dos protagonistas, ela pode fazer parte do cânone mesmo sem ser conhecida por eles.
 
-A campanha pode optar por:
-
-- registrar no Livro quando a estrutura literária permitir;
-- manter primeiro no registro do Opositor e incorporá-la ao Livro depois;
-- preservar a revelação para momento posterior.
-
-A escolha de apresentação não muda a verdade do acontecimento.
+A campanha pode optar por registrar no Livro quando a estrutura literária permitir, manter primeiro no registro do Opositor ou preservar a revelação para momento posterior.
 
 ```text
 LIVRO SABE
 ≠
 PERSONAGEM SABE
 ```
-
-Assim, o leitor pode descobrir algo antes de uma personagem sem conceder esse conhecimento a ela dentro da ficção.
 
 ## Fechar capítulo
 
@@ -294,7 +278,7 @@ O capítulo termina onde a ficção realmente parou.
 
 Usar a convenção já existente na campanha.
 
-Se não houver uma, pode-se adotar uma sequência simples:
+Se não houver uma, pode-se adotar:
 
 ```text
 001.md
@@ -310,18 +294,6 @@ Se um capítulo salvo contiver erro e a correção for aprovada, substituir a ve
 
 Não manter duas versões contraditórias como igualmente verdadeiras.
 
-Exemplo:
-
-```text
-VERSÃO ERRADA
-→ Ravena saiu às 22h.
-
-CORREÇÃO CANÔNICA
-→ Ravena saiu às 23h.
-```
-
-Depois da correção, qualquer Estado, prazo ou referência que dependa desse horário deve ser ajustado.
-
 ## Capítulo x conhecimento
 
 O fato de algo aparecer no Livro não significa que todas as personagens sabem disso.
@@ -331,8 +303,6 @@ LIVRO SABE
 ≠
 PERSONAGEM SABE
 ```
-
-Conhecimento continua sendo controlado por suas fontes próprias.
 
 ## Capítulo x estado atual
 
@@ -348,4 +318,4 @@ ESTADO ATUAL
 
 ## Regra final
 
-> **O Livro é a memória literária da campanha. Ele registra o que realmente aconteceu em forma de conto ou romance, acompanha quem realmente teve agência, pode revelar interioridade sustentada pelo cânone e reorganiza o foco para que o leitor compreenda a história melhor do que seria possível durante o RPG ao vivo. A prosa pode revelar, condensar e expandir; nunca pode alterar o que aconteceu. Fechar capítulo preserva esse passado sem criar nova ficção.**
+> **O Livro é a memória literária da campanha. Ele registra o que realmente aconteceu em forma de conto ou romance, acompanha quem realmente teve agência, pode revelar interioridade sustentada pelo cânone e pode manter cenas românticas e íntimas adultas sem fade to black automático. A prosa pode revelar, condensar e expandir; nunca pode alterar o que aconteceu nem transformar intimidade em descrição sexual gráfica. Fechar capítulo preserva esse passado sem criar nova ficção.**
