@@ -39,8 +39,14 @@ Pontos de Poder: [9] / [9]
 
 ## Traços
 
---- TRAÇO: [ ]
-[descrição objetiva, no máximo duas linhas]
+--- TRAÇO: Fisiologia Tamaraneana
+[Estelar possui biologia extraterrestre, envelhecimento diferente do humano e força, resistência e vitalidade naturalmente extraordinárias, representadas por seus atributos e demais capacidades.]
+
+--- TRAÇO: Princesa de Tamaran
+[Sua linhagem real pode ser reconhecida por quem conhece Tamaran, trazendo prestígio, expectativas políticas, deveres e possíveis complicações ligadas à sua origem.]
+
+--- TRAÇO: Coração Aberto
+[Estelar tende a expressar carinho, atração, alegria, raiva e ciúme de forma direta e transparente; esconder o que sente não é seu comportamento natural.]
 
 ## Recursos
 
