@@ -59,7 +59,9 @@ Pontos de Poder: [12] / [12]
 
 ## Recursos
 
---- [Recurso]: [descrição objetiva]
+--- Refúgio Ártico: grande caverna em uma montanha isolada do Ártico, transformada por Corvin ao longo dos últimos 30 anos em base, oficina e residência. Possui forja, laboratório de alquimia, biblioteca, energia, internet e infraestrutura mundana, além de estruturas, itens e proteções mágicas criadas ao longo de anos.
+
+--- Reservas e patrimônio: Corvin acumulou pedras, metais, ouro e outros materiais em quantidade suficiente para ser considerado rico, mantendo grande parte dessas reservas em seu Refúgio Ártico para uso em criação, pesquisa e manutenção da base.
 
 ## Personalidade e tendências
 
