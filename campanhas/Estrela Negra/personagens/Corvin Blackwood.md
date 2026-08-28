@@ -5,7 +5,7 @@ Importância: PROTAGONISTA / CONTROLE: JOGADOR / Patamar: 4
 Nome real: Corvin Blackwood / Idade: 62 anos (aparenta 27)
 Aparência: homem de aparência humana comum, alto e forte, discretamente mais bonito que a média, com cabelos brancos; aparenta cerca de 27 anos.
 Estilo: roupas casuais, sobretudo e mochila; visual prático de viajante e investigador.
-Conceito: Semideus de linhagem divina; investigador do oculto e explorador.
+Conceito: Semideus da Natureza; investigador do oculto, explorador e artesão itinerante.
 Descrição: viajante experiente e investigador do oculto que percorre o mundo desenvolvendo seus poderes, explorando lugares desconhecidos e ajudando quem encontra pelo caminho.
 
 ## Estado inicial
