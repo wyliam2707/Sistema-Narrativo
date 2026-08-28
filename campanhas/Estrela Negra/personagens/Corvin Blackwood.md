@@ -114,7 +114,15 @@ Pontos de Poder: [12] / [12]
 
 ## Conhecimento relevante
 
---- [ ]
+--- Ocultismo prático: reconhece padrões de maldições, rituais, entidades, relíquias e fenômenos sobrenaturais, mesmo quando não conhece sua origem exata.
+
+--- Ruínas e lugares antigos: sabe interpretar arquitetura, símbolos, sinais de ocupação ou abandono e armadilhas simples encontradas durante explorações.
+
+--- Natureza anômala: percebe quando animais, plantas, clima ou terreno estão se comportando de forma antinatural e costuma reconhecer quando algo simplesmente não deveria estar acontecendo naquele lugar.
+
+--- Forja e alquimia de campo: conhece materiais, ligas, reagentes, venenos, antídotos e formas improvisadas de produzir ferramentas ou soluções rápidas com os recursos disponíveis.
+
+--- Caminhos do mundo: acumulou conhecimento sobre lugares remotos, rotas esquecidas, refúgios, passagens e pontos seguros durante décadas de viagem, sem conhecer todos os lugares ou fenômenos existentes.
 
 ## História consolidada relevante
 
