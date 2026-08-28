@@ -36,36 +36,42 @@ Pontos de Poder: [ ] / [ ]
 
 ## Recursos
 
-- 
-
-## Mana
-
-Mana Máxima [ ]
+--- [Recurso]: [descrição objetiva]
 
 ## Personalidade e tendências
 
+--- [ ]
 
 ## Desejos / objetivos
 
+--- [ ]
 
 ## Medos / limites
 
+--- [ ]
 
 ## Rotina e hábitos persistentes
 
+--- [ ]
 
 ## Relações
 
 ### Relações positivas
 
+--- [Nome] [relação objetiva pelo ponto de vista da personagem]
 
 ### Relações negativas
 
+--- [Nome] [relação objetiva pelo ponto de vista da personagem]
 
 ### Relacionamentos
 
+--- [Relacionamento] [descrição pelo ponto de vista da personagem]
 
 ## Conhecimento relevante
 
+--- [ ]
 
 ## História consolidada relevante
+
+--- [ ]
