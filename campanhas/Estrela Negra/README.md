@@ -1,11 +1,11 @@
 # Estrela Negra
 
 CRIAÇÃO: EM ANDAMENTO
-Etapa atual: PASSO 01 — CAMPANHA
+Etapa atual: PASSO 02 — TEMPORADA
 
 ## Identidade
 
-Campanha em criação.
+Narrativa da campanha aprovada em `mestre/narrativa.md`.
 
 ## Mesa operacional
 
