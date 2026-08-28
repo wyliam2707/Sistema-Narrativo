@@ -72,11 +72,21 @@ Pontos de Poder: [9] / [9]
 
 ### Relações positivas
 
---- [Nome] [relação objetiva pelo ponto de vista da personagem]
+--- Titãs: Elara considera os Titãs sua família escolhida. Foi ao lado deles que aprendeu a confiar, dividir responsabilidades e aceitar que pertencer a algum lugar não significa perder a própria autonomia. Mesmo quando precisa se afastar ou ficar sozinha, continua considerando o grupo sua casa.
+
+--- Dick Grayson: uma das pessoas em quem Elara mais confia quando precisa de alguém capaz de pensar com calma em situações difíceis. Respeita sua liderança, embora não aceite que ele tente decidir por ela. A relação entre os dois é marcada por confiança, respeito e uma familiaridade construída ao longo dos anos.
+
+--- Mutano: amigo próximo que frequentemente consegue fazê-la sorrir mesmo quando ela prefere fingir que não achou graça. Elara reclama de sua energia e de suas brincadeiras, mas é muito mais tolerante com ele do que aparenta. Considera sua presença parte importante da leveza que encontrou entre os Titãs.
+
+--- Ciborgue: alguém em quem Elara confia pela estabilidade, lealdade e capacidade de permanecer racional quando as coisas ficam caóticas. Sente-se confortável com sua presença e sabe que pode contar com ele tanto em uma crise quanto nos momentos comuns da vida em equipe.
+
+--- Estelar: uma das amigas mais próximas de Elara. Sua natureza calorosa, direta e afetuosa conseguiu atravessar barreiras que Elara normalmente mantém com quase todos. Ela confia profundamente em Estelar, aceita sua proximidade física e emocional com naturalidade e consegue mostrar vulnerabilidades que dificilmente revelaria a outras pessoas. Entre as duas existe um vínculo muito forte, construído sobre amizade, carinho e confiança.
 
 ### Relações negativas
 
 --- Trigon: poderosa entidade abissal e extraplanar que procura dominar Elara, quebrar sua autonomia e fazê-la se submeter à vontade dele. Ela o reconhece como uma ameaça pessoal constante e rejeita qualquer autoridade que ele reivindique sobre sua vida.
+
+--- Culto de Trigon: seguidores e agentes que veneram Trigon e procuram favorecer sua influência sobre Elara. Ela os considera perigosos por tentarem localizá-la, manipulá-la, enfraquecer sua resistência ou usá-la em rituais destinados a aproximá-la da vontade de Trigon.
 
 ### Relacionamentos
 
