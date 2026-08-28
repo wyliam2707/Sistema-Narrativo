@@ -43,6 +43,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 0.12-ataques-mentais.md
 → espelha o dano físico para Mente: acerto técnico, Potência Mental contra Resistência Mental e a mesma escala de gravidade.
 
+0.13-cura-e-recuperacao.md
+→ aplica a mesma matemática de Cura a Vida e Mente e separa potência de escopo: Física, Mental ou Completa.
+
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
 
@@ -104,11 +107,15 @@ DANO
 → ferimentos iguais acumulam e sobem uma categoria.
 
 RECUPERAÇÃO
-→ Medicina produz Cura conforme o resultado do teste.
-→ Poder de Cura soma sua graduação, com Cura Total máxima 6.
-→ Medicina comum opera em horas ou dias; Poder de Cura pode operar por ação.
-→ Cura é aplicada automaticamente do ferimento menos grave para o mais grave.
-→ ferimentos regridem pelos custos 1/2/4/8/16 até desaparecer.
+→ Vida e Mente usam a mesma matemática de Cura.
+→ testes de recuperação produzem Cura 0/1/2/3 conforme o resultado.
+→ Poder de Cura pode somar sua graduação, com Cura Total máxima 6.
+→ Cura é aplicada automaticamente do comprometimento menos grave para o mais grave.
+→ marcas regridem pelos custos 1/2/4/8/16 até desaparecer.
+→ Cura possui escopo: Física, Mental ou Completa.
+→ Cura Física só afeta Vida; Cura Mental só afeta Mente.
+→ Cura Completa escolhe Vida ou Mente em cada aplicação e não é numericamente mais potente por isso.
+→ uma mesma aplicação não se divide entre os dois trilhos sem permissão explícita da capacidade.
 
 INICIATIVA
 → ordem evidente vem da ficção.
