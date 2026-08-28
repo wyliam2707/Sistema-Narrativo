@@ -4,7 +4,7 @@ Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
 Este arquivo define o **Passo 02** da criação: transformar a identidade da campanha em um arco atual que começa, se desenvolve e termina.
 
-O Passo 01 está em `CRIACAO-DE-CAMPANHA.md`. O Passo 03 está em `jogador/1.3-criacao-da-ficha.md`.
+O Passo 01 está em `CRIACAO-DE-CAMPANHA.md`. O Passo 03 está em `jogador/1.3-criacao-da-ficha.md` e pertence principalmente à criação inicial da campanha.
 
 > **A campanha diz sobre o que a história é. A temporada diz como esse foco será explorado agora.**
 
@@ -19,13 +19,16 @@ mestre/narrativa.md
 Se não for a primeira temporada, carregar também apenas o necessário do encerramento anterior:
 
 ```text
-epílogo da temporada anterior
-+ fichas atualizadas
+resposta a “E agora?”
++ epílogo da temporada anterior
++ fichas consolidadas
 + estado consolidado
 + problemas realmente abertos, quando relevantes
 ```
 
 A nova temporada parte do que realmente aconteceu. Não reinicia relações, conhecimento, mudanças ou consequências já consolidadas.
+
+A temporada anterior pode fornecer o ponto de partida, mas não obriga a próxima a continuar todos os seus fios.
 
 ## Perguntas da temporada
 
@@ -136,7 +139,10 @@ Quando a condição de encerramento do roteiro for realmente alcançada:
 4. consolidar fichas e estado;
 5. arquivar o roteiro encerrado;
 6. perguntar: “E agora?”
+7. voltar ao PASSO 02 somente depois da resposta.
 ```
+
+O encerramento existe para marcar um ponto real de resolução. A campanha pode continuar, mas aquele roteiro deixa de dirigir a história.
 
 ### Epílogo
 
@@ -199,7 +205,7 @@ quero uma temporada de terror
 quero investigar um problema que ficou aberto
 ```
 
-Um problema aberto no epílogo **não vira automaticamente a Temporada 2**.
+Um problema aberto no epílogo **não vira automaticamente a próxima temporada**.
 
 ```text
 PROBLEMA CONTINUA EXISTINDO
@@ -209,21 +215,74 @@ PRÓXIMA TEMPORADA É SOBRE ELE
 
 Somente depois da resposta a “E agora?” criar o novo `mestre/roteiro.md`.
 
-## Temporadas seguintes e fichas
+## O ciclo retorna ao Passo 02
 
-Antes de iniciar uma nova temporada, não reconstruir todas as fichas do zero.
+Depois que a campanha já existe, uma nova temporada **não reinicia a criação inteira**.
 
-Usar:
+```text
+TEMPORADA ENCERRADA
+→ epílogo
+→ consolidação
+→ “E agora?”
+→ PASSO 02 — NOVA TEMPORADA
+```
+
+Não voltar automaticamente ao Passo 01. A Narrativa da Campanha continua válida até que uma mudança deliberada de proposta seja aprovada.
+
+Não repetir automaticamente o Passo 03. As fichas aprovadas continuam sendo as mesmas personagens.
+
+```text
+CAMPANHA
+→ persistente.
+
+FICHAS
+→ persistentes.
+
+TEMPORADA
+→ renovável.
+```
+
+## Nova temporada e fichas
+
+Ao criar uma nova temporada, usar normalmente:
 
 ```text
 narrativa da campanha
-+ novo roteiro
-+ fichas consolidadas
++ resposta a “E agora?”
 + epílogo anterior
++ estado consolidado
++ fichas existentes
 ```
 
-Se o novo arco tornar importante uma área interpretativa ainda pouco definida, revisar apenas os blocos necessários conforme `jogador/1.3-criacao-da-ficha.md`.
+A mudança de situação, local, antagonista ou tipo de problema **não é motivo suficiente para revisar ficha**.
+
+Só complementar uma ficha quando surgir uma lacuna cuja ausência tenha alta chance de fazer a personagem interpretar ou decidir de forma incoerente de maneira recorrente no novo arco.
+
+```text
+NOVA TEMPORADA
+→ manter ficha como está por padrão.
+
+INFORMAÇÃO PASSOU A SER REALMENTE NECESSÁRIA
+→ acrescentar somente o mínimo útil.
+
+DADO APENAS INTERESSANTE OU POSSIVELMENTE ÚTIL
+→ não precisa entrar na ficha.
+```
+
+Exemplo de função:
+
+```text
+nova temporada acontece em ambiente político familiar
++
+como a personagem entende dever familiar versus liberdade
+vai afetar repetidamente suas decisões
++
+a ficha não deixa isso claro
+→ complementar esse ponto.
+```
+
+Não usar a nova temporada como desculpa para escrever biografia, rever personalidade inteira ou preencher detalhes que o Narrador pode resolver normalmente em cena.
 
 ## Regra final
 
-> **Toda temporada nasce da narrativa da campanha, possui um roteiro próprio e uma condição de encerramento. Quando termina, o Narrador escreve um epílogo do que realmente ficou estabelecido, consolida as fontes, arquiva o roteiro e pergunta “E agora?”. Só a resposta a essa pergunta autoriza a criação da próxima temporada.**
+> **Toda temporada nasce da Narrativa da Campanha, possui um roteiro próprio e uma condição de encerramento. Quando termina, o Narrador escreve um epílogo do que realmente ficou estabelecido, consolida as fontes, arquiva o roteiro e pergunta “E agora?”. A resposta retorna o processo ao Passo 02. Campanha e fichas persistem; uma ficha só é complementada entre temporadas quando uma lacuna realmente importante puder causar interpretação incoerente no novo arco.**
