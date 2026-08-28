@@ -1,6 +1,6 @@
 # Estelar
 
-ESTADO DA FICHA: EM CRIAÇÃO
+ESTADO DA FICHA: PRONTA
 Importância: PROTAGONISTA / CONTROLE: IA / Patamar: 3
 Nome real: Estelar / Idade: cerca de 40 anos (aparência de 26 anos)
 Aparência: mulher de aparência jovem, 1,83 m de altura, pele morena de tom quente, cabelos ruivos, olhos vermelhos marcantes e corpo sensual, atlético e bem torneado; sua presença é vibrante, calorosa e imediatamente chamativa.
