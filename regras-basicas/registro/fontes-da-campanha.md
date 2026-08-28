@@ -12,7 +12,10 @@ Este arquivo define **onde salvar cada tipo de verdade** dentro de `campanhas/<n
 QUEM É A PERSONAGEM E O QUE ELA PRECISA LEMBRAR PARA SER INTERPRETADA?
 → ficha da personagem.
 
-SOBRE O QUE A CAMPANHA É E QUE DIREÇÃO O NARRADOR DEVE PRESERVAR?
+SOBRE O QUE A CAMPANHA É AO LONGO DAS TEMPORADAS?
+→ mestre/narrativa.md.
+
+QUAL É O ARCO QUE ESTÁ SENDO JOGADO AGORA?
 → mestre/roteiro.md.
 
 COMO A CAMPANHA ESTÁ AGORA?
@@ -58,7 +61,7 @@ Informação que uma personagem precisa lembrar para interpretar, decidir ou rea
 Regra prática:
 
 ```text
-se esquecer provavelmente faria a personagem agir de forma incoerente
+se esquecer provavelmente faria a personagem agir de forma incoerente nesta história
 → ficha / Conhecimento relevante.
 
 se importa apenas para a situação presente
@@ -68,7 +71,7 @@ se é contexto externo amplo já guardado em outra fonte
 → consultar essa fonte quando necessário.
 ```
 
-O que é relevante depende da campanha. Romance, terror, investigação ou outros focos podem tornar conhecimentos diferentes importantes.
+O que é relevante depende da Narrativa da Campanha e do Roteiro da Temporada. Romance, terror, investigação, ação ou outros focos podem tornar conhecimentos diferentes importantes.
 
 Uma campanha ainda pode possuir arquivos adicionais de conhecimento quando o volume ou a organização justificar, mas eles não devem esconder da ficha uma informação essencial para interpretar a personagem corretamente.
 
@@ -136,31 +139,65 @@ Não usar para planos secretos ou condições temporárias de personagens.
 
 Guarda informações operacionais próprias do Narrador quando a campanha realmente precisar delas.
 
-### `mestre/roteiro.md`
+### `mestre/narrativa.md`
 
-É a fonte principal da **direção persistente da campanha**.
+É a fonte principal da **identidade persistente da campanha**.
 
 Pode registrar de forma curta:
 
 ```text
 foco principal
-trama de fundo
-miniquests ou variações
-tom e premissa
-direção que o Narrador precisa preservar
+gênero e tom
+experiência desejada
+temas e conflitos recorrentes
+o que não deve dominar
+premissas gerais
 ```
 
-O roteiro não determina acontecimentos nem resultados. Ele impede que uma trama secundária, improvisação ou mudança automática de tom substitua aquilo que a campanha foi criada para explorar.
+A Narrativa continua válida entre temporadas e só muda por decisão deliberada sobre a proposta da campanha.
+
+### `mestre/roteiro.md`
+
+É a fonte principal da **temporada ativa**.
+
+Pode registrar:
 
 ```text
+situação inicial
+foco aplicado
+trama de fundo
+prazo ou processo
+miniquests ou variações
+direção da temporada
+condição de encerramento
+```
+
+O roteiro não determina acontecimentos nem resultados. Ele transforma a Narrativa da Campanha em um arco jogável atual.
+
+```text
+NARRATIVA
+→ sobre o que a campanha é.
+
 ROTEIRO
-→ sobre o que a história é.
+→ que arco está sendo jogado agora.
 
 ESTADO
 → o que está acontecendo agora.
 
 LIVRO
 → o que aconteceu.
+```
+
+### `mestre/temporadas/`
+
+Guarda roteiros de temporadas já encerradas.
+
+```text
+mestre/roteiro.md
+→ temporada ativa.
+
+mestre/temporadas/temporada-[N].md
+→ roteiro arquivado; não dirige mais o presente.
 ```
 
 A classificação operacional de NPCs ou criaturas (`ALIADO`, `NEUTRO`, `HOSTIL`, `INIMIGO`) pode aparecer no material do Mestre quando for útil, sempre relativa aos personagens principais e conforme `../mestre/julgamento.md`.
@@ -210,6 +247,27 @@ O Livro não registra:
 - discussão de regra;
 - versões anuladas ou substituídas.
 
+### Epílogo de temporada
+
+Quando uma temporada termina, o epílogo registra como ela **realmente** terminou:
+
+```text
+livro/temporada-[N]-epilogo.md
+```
+
+Pode consolidar, conforme o tipo de campanha:
+
+```text
+relações resultantes
+onde as personagens terminaram
+conhecimento importante adquirido
+objetivos concluídos
+mudanças consolidadas
+problemas ainda abertos
+```
+
+O epílogo não cria a próxima temporada nem decide acontecimentos futuros.
+
 ## Duplicação legítima
 
 Uma mesma realidade pode aparecer em duas fontes quando cada uma possui função diferente.
@@ -219,7 +277,7 @@ LIVRO
 → registra que Ravena descobriu um costume importante de Estelar.
 
 FICHA DE RAVENA / CONHECIMENTO RELEVANTE
-→ preserva aquilo que Raven agora sabe e deve considerar no futuro.
+→ preserva aquilo que Ravena agora sabe e deve considerar no futuro.
 ```
 
 Outro exemplo:
@@ -244,10 +302,11 @@ Não repetir por padrão:
 - todo o Livro em Conhecimento relevante;
 - toda a lore do mundo dentro de cada ficha;
 - todo plano do Opositor em Estado Atual;
-- o roteiro inteiro em vários arquivos.
+- toda a Narrativa dentro do Roteiro;
+- o roteiro inteiro em vários arquivos ativos.
 
 Se uma informação já possui fonte principal suficiente, apontar para ela ou consultá-la quando necessário.
 
 ## Regra final
 
-> **Escolha a fonte pela função da verdade: o roteiro guarda a direção da campanha; a ficha guarda quem a personagem é e o que precisa permanecer disponível para interpretá-la; Estado Atual guarda o presente; mundo guarda contexto estável; mestre e opositor guardam material operacional próprio; Livro guarda o que aconteceu.**
+> **Escolha a fonte pela função da verdade: Narrativa guarda a identidade persistente da campanha; Roteiro guarda a temporada ativa; a ficha guarda quem a personagem é e o que precisa permanecer disponível para interpretá-la; Estado Atual guarda o presente; mundo guarda contexto estável; mestre e opositor guardam material operacional próprio; Livro guarda o que aconteceu, incluindo o epílogo de cada temporada.**
