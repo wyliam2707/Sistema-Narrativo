@@ -100,7 +100,11 @@ Pontos de Poder: [9] / [9]
 
 ## Conhecimento relevante
 
---- [ ]
+--- Possui conhecimento amplo sobre Tamaran, sua cultura, costumes, política, etiqueta real e tradições ligadas à família governante.
+
+--- Tem experiência prática com navegação espacial e tecnologia tamaraneana, incluindo operação de naves e sistemas capazes de viagens interestelares.
+
+--- Conhece culturas alienígenas e situações de contato entre diferentes povos, além de possuir experiência prática de combate e sobrevivência fora de seu mundo natal.
 
 ## História consolidada relevante
 
