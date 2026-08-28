@@ -28,7 +28,7 @@ regras-basicas/
 → regras de resolução
 → autoridade das personas
 → procedimentos
-→ modelos de registro
+→ modelos de ficha e registro
 
 campanhas/<nome>/
 → o que é verdade naquela campanha
@@ -65,11 +65,26 @@ Regras comuns usadas por todos: resolução, combate, tempo, alcance, Vida, Ment
 
 ### Jogador
 
-Ficha, Atributos, Perícias, Poderes, equipamentos e uso da própria personagem.
+Ficha, Atributos, Perícias, Poderes, equipamentos, Traços e uso da própria personagem.
+
+A linguagem central é:
+
+```text
+ATRIBUTO + PERÍCIA
+→ mede execução.
+
+PODER
+→ capacidade extraordinária utilizável e graduável.
+
+TRAÇO
+→ verdade absoluta daquela personagem dentro da descrição aprovada.
+```
+
+Traço não é bônus. Quando relevante, o Narrador aplica exatamente a verdade descrita e somente depois resolve o que ainda permanecer incerto.
 
 ### Mestre
 
-Julgamento e apresentação da sentença: quando testar, como interpretar, narrar, manter perspectiva e parar diante de nova escolha.
+Julgamento e apresentação da sentença: quando testar, como interpretar, aplicar Traços relevantes, narrar, manter perspectiva e parar diante de nova escolha.
 
 O Mestre não controla o Opositor.
 
@@ -95,7 +110,7 @@ Quero começar ou continuar
 É uma regra comum a todos?
 → Núcleo
 
-É ficha ou capacidade de personagem?
+É ficha, capacidade ou verdade própria de personagem?
 → Jogador
 
 É julgamento ou narração imparcial?
