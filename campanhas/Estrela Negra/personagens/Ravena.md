@@ -70,7 +70,7 @@ Pontos de Poder: [9] / [9]
 
 ### Relações negativas
 
---- Pai: poderosa entidade abissal e extraplanar que procura dominar Elara, quebrar sua autonomia e fazê-la se submeter à vontade dele. Ela o reconhece como uma ameaça pessoal constante e rejeita qualquer autoridade que ele reivindique sobre sua vida.
+--- Trigon: poderosa entidade abissal e extraplanar que procura dominar Elara, quebrar sua autonomia e fazê-la se submeter à vontade dele. Ela o reconhece como uma ameaça pessoal constante e rejeita qualquer autoridade que ele reivindique sobre sua vida.
 
 ### Relacionamentos
 
@@ -82,6 +82,6 @@ Pontos de Poder: [9] / [9]
 
 ## História consolidada relevante
 
---- Elara é filha de uma mulher humana com uma poderosa entidade abissal e extraplanar. Herdou dessa origem sua afinidade com magia sombria e espiritual e uma instabilidade sobrenatural que pode se intensificar quando perde o controle emocional.
+--- Elara é filha de uma mulher humana com Trigon, uma poderosa entidade abissal e extraplanar. Herdou dessa origem sua afinidade com magia sombria e espiritual e uma instabilidade sobrenatural que pode se intensificar quando perde o controle emocional.
 
---- Seu pai não busca necessariamente destruir o mundo por causa dela; seu objetivo principal é dominá-la, quebrar sua resistência e fazê-la aceitar a autoridade dele sobre sua vida e seus poderes.
+--- Trigon não busca necessariamente destruir o mundo por causa dela; seu objetivo principal é dominá-la, quebrar sua resistência e fazê-la aceitar a autoridade dele sobre sua vida e seus poderes.
