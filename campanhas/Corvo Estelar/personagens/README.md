@@ -2,7 +2,9 @@
 
 Esta pasta guarda as fichas das personagens com agência da campanha.
 
-Cada personagem possui seu próprio arquivo.
+Cada personagem possui seu próprio arquivo canônico.
+
+Arquivos com sufixo `- revisao.md` são **rascunhos de migração** e não substituem a ficha canônica até aprovação explícita.
 
 Modelo atual da ficha:
 → `regras-basicas/jogador/MODELO-DE-FICHA.md`
