@@ -50,7 +50,7 @@ Pontos de Poder: [9] / [9]
 
 ## Recursos
 
---- [ ]
+--- Acesso aos Titãs: enquanto integrante da equipe, Estelar pode utilizar a base, equipamentos comuns, transporte e apoio dos Titãs quando apropriado.
 
 ## Personalidade e tendências
 
