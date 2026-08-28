@@ -28,7 +28,11 @@ Total de Perícias: [15] / [15]
 
 --- Magia Natural [2] - custo 4 pontos.
 Escopo: forças naturais, incluindo raios, clima, plantas e cura. Não inclui mudança de forma.
-Pontos de Poder: [4] / [12]
+
+--- Magia de Criação [1] - custo 2 pontos.
+Escopo: permite criar e fabricar uma grande variedade de objetos por meios sobrenaturais, desde que Corvin disponha dos materiais adequados, tempo suficiente e do conhecimento pertinente de Forja ou Alquimia. Não cria matéria do nada.
+
+Pontos de Poder: [6] / [12]
 
 ## Traços
 
