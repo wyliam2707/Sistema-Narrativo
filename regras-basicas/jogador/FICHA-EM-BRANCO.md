@@ -10,8 +10,8 @@ Descrição:
 
 ## Estado inicial
 
-Vida: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
-Mente: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
+Vida [5 blocos]: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
+Mente [5 blocos]: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
 Mana [ ] / Deslocamento: andar [ ]
 
 ## Atributos
