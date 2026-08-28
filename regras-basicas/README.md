@@ -4,6 +4,18 @@ Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
 Esta pasta existe para reconstruir e simplificar as regras fundamentais do Sistema Narrativo sem alterar automaticamente as regras aprovadas atuais.
 
+## Entrada
+
+```text
+Nova campanha
+→ CRIACAO-DE-CAMPANHA.md
+
+Continuar campanha
+→ INICIO-E-RETOMADA.md
+```
+
+Esses dois arquivos são apenas portas de entrada. Eles reutilizam as áreas existentes e não criam uma segunda camada de operação.
+
 ## Regra de localização
 
 `regras-basicas/` contém somente **regras, procedimentos e modelos de funcionamento**.
@@ -32,22 +44,14 @@ campanhas/<nome>/
 → livro e demais dados da campanha
 ```
 
-Exemplo:
-
-```text
-regras-basicas/opositor/registro-reservado.md
-→ explica COMO funciona o registro adversarial.
-
-campanhas/<nome>/opositor/...
-→ guarda os planos adversariais REAIS daquela campanha.
-```
-
 > **Regra fica em `regras-basicas/`. Verdade da mesa fica em `campanhas/<nome>/`.**
 
 ## Estrutura
 
 ```text
 regras-basicas/
+├── CRIACAO-DE-CAMPANHA.md
+├── INICIO-E-RETOMADA.md
 ├── nucleo/
 ├── jogador/
 ├── mestre/
@@ -57,48 +61,51 @@ regras-basicas/
 
 ### Núcleo
 
-Regras comuns usadas por todos: testes, dificuldades, resultados, Defesas, Resistências, alcance, dano, Vida, Mana e outras mecânicas universais.
+Regras comuns usadas por todos: resolução, combate, tempo, alcance, Vida, Mente, Mana, Potência e autoridade das cadeiras.
 
 ### Jogador
 
-Regras necessárias para usar a própria ficha, Perícias, Poderes, recursos e opções durante a sessão.
+Ficha, Atributos, Perícias, Poderes, equipamentos e uso da própria personagem.
 
 ### Mestre
 
-Regras de julgamento: decidir quando testar, estabelecer dificuldades, interpretar circunstâncias e aplicar consequências.
+Julgamento e apresentação da sentença: quando testar, como interpretar, narrar, manter perspectiva e parar diante de nova escolha.
 
 O Mestre não controla o Opositor.
 
 ### Opositor
 
-Regras para decidir e executar as ações voluntárias de adversários e forças contrárias ao Jogador.
+Decisões e continuidade do lado adversarial.
 
-Arquivos desta pasta podem definir modelos de registro do Opositor, mas os planos e prazos reais pertencem à campanha correspondente.
+Planos e prazos reais pertencem à campanha correspondente.
 
 ### Registro
 
-Regras sobre o que precisa permanecer verdadeiro: ficha, recursos atuais, condições, relações, conhecimento e estado da campanha.
-
-Os dados efetivamente preservados por essas regras ficam dentro de `campanhas/<nome>/`.
+Regras sobre o que precisa permanecer verdadeiro e onde salvar dentro de `campanhas/<nome>/`.
 
 ## Roteamento simples
 
 ```text
+Quero criar uma campanha
+→ CRIACAO-DE-CAMPANHA.md
+
+Quero começar ou continuar
+→ INICIO-E-RETOMADA.md
+
 É uma regra comum a todos?
 → Núcleo
 
-É uma escolha ou uso da personagem do jogador?
+É ficha ou capacidade de personagem?
 → Jogador
 
-É julgamento ou aplicação imparcial da regra?
+É julgamento ou narração imparcial?
 → Mestre
 
-É decisão de um adversário?
+É decisão adversarial?
 → Opositor
 
-Precisa continuar verdadeiro depois da resolução?
-→ aplicar a regra de Registro
-→ salvar em campanhas/<nome>/
+Precisa continuar verdadeiro?
+→ Registro
 ```
 
 ## Princípio de trabalho
@@ -112,10 +119,10 @@ regra nova
 → somente depois substituir a regra antiga correspondente
 ```
 
-Enquanto a reformulação estiver em andamento, os arquivos desta pasta não substituem automaticamente `sistema/resolucao/`, `sistema/personagem/`, `sistema/operacao/` ou outras regras aprovadas.
+Enquanto a reformulação estiver em andamento, os arquivos desta pasta não substituem automaticamente as regras aprovadas em `sistema/`.
 
 ## Direção
 
-A meta é reduzir consultas durante a sessão e colocar na ficha os valores finais que o jogador realmente usa.
+A meta é reduzir consultas durante a sessão e deixar o sistema simples de executar por uma IA.
 
-> Complexidade na construção; simplicidade na mesa.
+> **Complexidade na construção; simplicidade na mesa.**
