@@ -86,7 +86,7 @@ Pontos de Poder: [9] / [9]
 
 --- Ciborgue: alguém em quem Elara confia pela estabilidade, lealdade e capacidade de permanecer racional quando as coisas ficam caóticas. Sente-se confortável com sua presença e sabe que pode contar com ele tanto em uma crise quanto nos momentos comuns da vida em equipe.
 
---- Estelar: uma das amigas mais próximas de Elara. Sua natureza calorosa, direta e afetuosa conseguiu atravessar barreiras que Elara normalmente mantém com quase todos. Ela confia profundamente em Estelar, aceita sua proximidade física e emocional com naturalidade e consegue mostrar vulnerabilidades que dificilmente revelaria a outras pessoas. Entre as duas existe um vínculo muito forte, construído sobre amizade, carinho e confiança.
+--- Estelar: uma das amigas mais próximas de Elara e uma das poucas pessoas com quem a fronteira entre amizade e atração poderia ter sido atravessada. Estelar é poderosa o bastante para não parecer frágil diante dela, conhece sua verdadeira natureza sem tratá-la com medo e encara Trigon como um inimigo perigoso, não como uma razão para temer Elara. Ainda assim, nenhuma das duas viveu até agora uma situação que as obrigasse a encarar esse potencial como algo além de amizade, carinho e confiança.
 
 ### Relações negativas
 
