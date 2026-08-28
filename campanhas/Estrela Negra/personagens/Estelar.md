@@ -26,8 +26,8 @@ Total de Perícias: [12] / [12]
 
 ## Poderes e Equipamentos
 
---- Voo [3] - custo 3 pontos.
-Escopo: permite voar livremente, pairar e se deslocar pelo ar em alta velocidade.
+--- Voo Estelar [3] - custo 3 pontos.
+Escopo: permite voar livremente, pairar e se deslocar em alta velocidade tanto na atmosfera quanto no espaço, além de suportar as condições normais do vácuo durante a viagem. Não substitui uma nave para deslocamentos interestelares em hiperdrive.
 
 --- Rajadas Estelares [3] - custo 3 pontos.
 Escopo: permite disparar energia estelar pelas mãos ou olhos para causar dano à distância.
@@ -44,7 +44,7 @@ Pontos de Poder: [9] / [9]
 
 ## Recursos
 
---- [Recurso]: [descrição objetiva]
+--- Nave Tamaraneana: nave espacial usada por Estelar para viagens interestelares. Possui propulsão capaz de hiperdrive, permitindo percorrer distâncias que seriam impraticáveis apenas com seu voo natural.
 
 ## Personalidade e tendências
 
@@ -87,3 +87,5 @@ Pontos de Poder: [9] / [9]
 --- Estelar é princesa de Tamaran. Fugiu de seu mundo para escapar de um casamento político com um príncipe que já possuía quatro esposas. Ela não rejeitou a união por ser múltipla, mas porque não gostava do príncipe, não possuía vínculo com as outras esposas e se recusava a aceitar que escolhessem sua vida por ela.
 
 --- Para Estelar, se um dia se casar, será com alguém escolhido por ela. Se esse vínculo incluir outra esposa ou companheira, ela deseja que exista amizade, respeito e afinidade entre todos, e não apenas obrigação política ou conveniência.
+
+--- Estelar deixou Tamaran em uma nave própria, usando hiperdrive para percorrer as grandes distâncias interestelares até chegar à Terra; seu voo natural permite deslocamento pelo espaço, mas não substitui esse tipo de propulsão para viagens entre sistemas.
