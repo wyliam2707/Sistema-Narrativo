@@ -56,19 +56,13 @@ Mana Máxima [ ]
 
 ## Relações
 
-### Família
+### Relações positivas
 
 
-### Amigos / aliados
+### Relações negativas
 
 
-### Rivais / inimigos
-
-
-### Romance
-
-
-### Outros vínculos relevantes
+### Relacionamentos
 
 
 ## Conhecimento relevante
