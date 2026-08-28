@@ -70,7 +70,7 @@ Pontos de Poder: [9] / [9]
 
 ## Rotina e hábitos persistentes
 
---- [ ]
+--- Estelar gosta de passar tempo ao ar livre e sob luz solar, tanto por prazer quanto por sua fisiologia. É muito sociável, procura companhia espontaneamente, demonstra afeto com contato físico e costuma explorar costumes, comidas e atividades humanas com curiosidade. Mantém treino físico e de combate regularmente, mas prefere atividades compartilhadas a ficar isolada.
 
 ## Relações
 
