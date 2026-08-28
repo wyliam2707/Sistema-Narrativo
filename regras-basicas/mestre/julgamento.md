@@ -45,7 +45,9 @@ A declaração não estabelece por si:
 - que percebeu algo;
 - que aceita aproximação;
 - que reage de determinada forma;
-- que uma ação já teve sucesso.
+- que uma ação já teve sucesso;
+- que outra peça prestará atenção;
+- que alguém aceitará liderança, ordem ou posição proposta.
 
 Antes de resolver, conferir o estado real da campanha.
 
@@ -77,6 +79,35 @@ personagem decide mentir
 ```
 
 Da mesma forma, não fazer uma personagem esperar o protagonista resolver algo que ela mesma faria normalmente sem existir motivo próprio para esperar.
+
+Também não usar competência desconhecida do protagonista para justificar deferência.
+
+```text
+IA sabe que ele é muito resistente
++
+personagem não sabe
+
+→ ela não pode concluir que é seguro deixá-lo assumir o risco por causa disso.
+```
+
+## 2.1 — Não transformar iniciativa em autoridade
+
+Uma ação declarada pelo protagonista não define automaticamente a formação, o foco ou o ritmo das demais peças.
+
+```text
+protagonista avança primeiro
+→ outras peças decidem se acompanham, passam na frente, interferem ou seguem outra prioridade.
+
+protagonista começa a falar
+→ o alvo decide se presta atenção, responde ou continua agindo.
+
+protagonista dá uma ordem
+→ a ordem só produz obediência se houver motivo legítimo para isso.
+```
+
+> **Iniciativa do jogador não é autoridade sobre a cena.**
+
+O Narrador deve representar as outras decisões antes de assumir que a iniciativa humana foi aceita.
 
 ## 3 — Conferir o estado antes da ação
 
@@ -324,6 +355,47 @@ A ordem em que as declarações foram escritas não determina automaticamente a 
 
 Tempo, posição, causalidade e iniciativa quando necessária determinam isso.
 
+## 9.1 — Interferência produz novo estado, não nova decisão humana
+
+Quando outra peça interfere legitimamente na ação do Jogador Humano, julgar somente até saber o novo estado da situação.
+
+```text
+JOGADOR HUMANO
+→ avanço.
+
+OUTRA PEÇA
+→ bloqueia, segura, empurra, ataca, interrompe ou cria outro impedimento.
+
+NARRADOR
+→ resolve o encontro das intenções.
+→ estabelece posição e consequência.
+```
+
+Se depois disso o personagem humano precisa escolher novamente:
+
+```text
+PARAR
+→ mostrar a interferência e o novo estado.
+→ devolver controle.
+```
+
+Não completar por ele:
+
+```text
+aceita
+insiste
+resiste
+recua
+muda de plano
+perdoa
+fica irritado
+concorda com quem interferiu
+```
+
+Essas são novas decisões quando não estiverem já estabelecidas.
+
+> **Interferir numa ação humana não retira agência. O erro seria o Narrador decidir também a reação humana à interferência.**
+
 ## 10 — Avançar intenções prolongadas
 
 Uma intenção longa define um horizonte máximo.
@@ -425,6 +497,8 @@ Não criar por conveniência:
 - recurso conveniente;
 - conhecimento impossível;
 - passividade artificial para deixar o protagonista resolver tudo;
+- deferência porque o protagonista declarou primeiro;
+- confiança baseada em capacidade que a personagem não conhece;
 - mudança de personalidade para preservar harmonia;
 - receptividade social para premiar uma tentativa de conversa;
 - solução social para uma peça definida como `INIMIGO`;
@@ -438,13 +512,14 @@ O julgamento preserva a realidade e as personagens, não uma direção desejada 
 INTENÇÕES + ESTADO
 → separar pressupostos
 → preservar decisões independentes
+→ não presumir atenção ou deferência
 → conferir Traços relevantes
 → verificar possibilidade
 → respeitar classificação narrativa quando existir
 → oposição ou incerteza?
 → menor resolução necessária
 → cruzar intenções no tempo
-→ avançar até o primeiro ponto relevante
+→ estabelecer interferências
 → parar se surgir nova decisão humana
 → estabelecer sentença
 → narrar
@@ -453,4 +528,4 @@ INTENÇÕES + ESTADO
 
 ## Regra final
 
-> **O Narrador recebe intenções independentes, confere o estado e aplica as verdades relevantes antes da resolução. Uma abordagem só funciona quando a situação realmente a permite; falar não cria receptividade e um `INIMIGO` continua sendo uma ameaça de confronto. Depois, resolver somente a incerteza restante, avançar a ficção até o primeiro ponto relevante e devolver qualquer nova escolha humana ao jogador.**
+> **O Narrador cruza intenções independentes sem transformar a iniciativa do protagonista em liderança, atenção ou obediência automática. Outras peças podem ignorar, interromper ou interferir conforme seus próprios motivos e conhecimento. A interferência estabelece um novo estado; se esse estado exige uma nova escolha voluntária humana, a sentença para ali e o controle retorna ao jogador.**
