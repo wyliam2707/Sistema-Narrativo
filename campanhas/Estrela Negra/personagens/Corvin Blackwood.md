@@ -26,8 +26,9 @@ Total de Perícias: [15] / [15]
 
 ## Poderes e Equipamentos
 
---- [Nome] [ ] - custo [ ] pontos.
-Pontos de Poder: [ ] / [ ]
+--- Magia Natural [2] - custo 4 pontos.
+Escopo: forças naturais, incluindo raios, clima, plantas e cura. Não inclui mudança de forma.
+Pontos de Poder: [4] / [12]
 
 ## Traços
 
