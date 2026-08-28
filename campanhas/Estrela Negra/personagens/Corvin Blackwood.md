@@ -52,7 +52,7 @@ Pontos de Poder: [12] / [12]
 [Corvin não consegue mentir deliberadamente; quando tenta, acaba expressando a verdade que conhece da forma mais nua e direta possível.]
 
 --- TRAÇO: Ciclo da Vida
-[A cada 30 dias, ao pôr do sol, Corvin se desfaz em pó e renasce ao amanhecer seguinte em um terreno próximo, iniciando um novo ciclo. Se morrer antes disso, também se desfaz em pó e renasce no amanhecer seguinte, reiniciando o ciclo de 30 dias.]
+[A cada 30 dias, ao pôr do sol, Corvin se desfaz em pó e renasce ao amanhecer seguinte em um terreno próximo, iniciando um novo ciclo. Se morrer antes do encerramento do ciclo atual, também se desfaz em pó, mas permanece assim e só renasce no próximo ciclo de 30 dias; não retorna no dia seguinte à morte.]
 
 ## Recursos
 
