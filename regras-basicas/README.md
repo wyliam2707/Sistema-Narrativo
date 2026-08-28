@@ -65,7 +65,7 @@ Regras comuns usadas por todos: resolução, combate, tempo, alcance, Vida, Ment
 
 ### Jogador
 
-Ficha, Atributos, Perícias, Poderes, equipamentos, Traços e uso da própria personagem.
+Ficha, Atributos, Perícias, Poderes, equipamentos, Traços, Recursos e uso da própria personagem.
 
 A linguagem central é:
 
@@ -73,11 +73,27 @@ A linguagem central é:
 ATRIBUTO + PERÍCIA
 → mede execução.
 
-PODER
+PODER / EQUIPAMENTO
 → capacidade extraordinária utilizável e graduável.
 
 TRAÇO
 → verdade absoluta daquela personagem dentro da descrição aprovada.
+
+RECURSO
+→ posse, acesso ou infraestrutura estável sustentada pela história.
+```
+
+A ficha da personagem é sua principal fonte de interpretação. Ela preserva personalidade, desejos, medos, hábitos, relações e conhecimento relevante sem precisar duplicar livros ou cenário inteiro.
+
+```text
+FICHA
+→ quem a personagem é e o que precisa permanecer disponível para interpretá-la.
+
+ESTADO ATUAL
+→ como ela está agora.
+
+LIVROS / CENÁRIO / ARQUIVOS
+→ contexto externo consultado quando necessário.
 ```
 
 Traço não é bônus. Quando relevante, o Narrador aplica exatamente a verdade descrita e somente depois resolve o que ainda permanecer incerto.
