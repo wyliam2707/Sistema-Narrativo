@@ -91,15 +91,67 @@ condições e efeitos
 processos e prazos
 conhecimento legítimo
 capacidades disponíveis
+Traços relevantes
 ```
 
 A declaração atual encontra esse estado; não o reescreve.
 
-## 4 — Verificar possibilidade
+## 4 — Aplicar Traços relevantes
+
+Traços seguem `../jogador/1.4-tracos.md`.
+
+Antes de rolar, verificar se algum Traço realmente toca a situação.
+
+```text
+TRAÇO relevante
+→ aplicar exatamente a verdade descrita.
+→ não extrapolar.
+→ resolver somente o que ainda permanecer incerto.
+```
+
+Traço não é bônus genérico.
+
+Ele pode, quando sua descrição disser isso:
+
+```text
+permitir algo
+impedir algo
+estabelecer percepção automática
+impedir dano específico
+alterar recuperação de Mana
+criar necessidade ou limitação
+modificar outra regra específica
+```
+
+Exemplos:
+
+```text
+TRAÇO: Imunidade Física
+[não sofre dano causado por meios mundanos]
+
+ataque mundano
+→ o dano mundano não se aplica.
+→ não aumentar Resistência para representar a imunidade.
+```
+
+```text
+TRAÇO: Detecta Magia
+[percebe automaticamente a presença de magia; não identifica sua natureza]
+
+magia presente
+→ percebe sem teste.
+
+identificar o que é
+→ ainda pode exigir investigação apropriada.
+```
+
+O Narrador pode narrar uma consequência automática do Traço somente dentro da descrição aprovada.
+
+## 5 — Verificar possibilidade
 
 Perguntar:
 
-> **Existe capacidade, meio e condição real para produzir o efeito pretendido?**
+> **Depois de aplicar as verdades relevantes da cena, existe capacidade, meio e condição real para produzir o que foi pretendido?**
 
 Se não:
 
@@ -109,9 +161,9 @@ IMPOSSIBILIDADE EVIDENTE
 → estabelecer que não acontece dessa forma.
 ```
 
-Se uma capacidade extraordinária torna a ação possível, isso pode bastar como permissão ficcional sem gerar bônus ou subsistema novo.
+Se uma capacidade ou Traço torna a ação possível ou impossível de forma evidente, isso já resolve essa parte sem bônus ou subsistema novo.
 
-## 5 — Identificar oposição ou incerteza
+## 6 — Identificar oposição ou incerteza
 
 Se existe outra vontade ou competência legítima se opondo diretamente:
 
@@ -122,7 +174,7 @@ DISPUTA
 
 Sem disputa, perguntar:
 
-> **Depois de considerar personagem, método e condições, ainda existem resultados plausíveis diferentes?**
+> **Depois de considerar personagem, método, Traços e condições, ainda existem resultados plausíveis diferentes?**
 
 ```text
 não
@@ -134,7 +186,7 @@ sim
 
 Não rolar por hábito ou apenas porque a cena é importante.
 
-## 6 — Usar a menor resolução necessária
+## 7 — Usar a menor resolução necessária
 
 Uma incerteza normalmente pede uma resolução.
 
@@ -149,7 +201,7 @@ Nova rolagem exige nova tentativa, nova incerteza ou nova oposição real.
 
 Quando circunstâncias externas realmente importarem, aplicar somente o modificador de situação previsto em `0.1-resolucao.md`.
 
-## 7 — Interpretar o resultado dentro da cena
+## 8 — Interpretar o resultado dentro da cena
 
 As faixas universais continuam sendo:
 
@@ -166,7 +218,9 @@ A consequência de `7–9` deve nascer do risco, oposição ou situação já pr
 
 Quando a força do efeito realmente importar, usar Potência conforme a regra própria.
 
-## 8 — Cruzar as intenções
+Traços continuam valendo depois da rolagem. Um sucesso técnico não ignora uma verdade que limite dano, Mana, percepção ou outra mecânica específica.
+
+## 9 — Cruzar as intenções
 
 Depois das resoluções necessárias, considerar as intenções juntas.
 
@@ -183,7 +237,7 @@ A ordem em que as declarações foram escritas não determina automaticamente a 
 
 Tempo, posição, causalidade e iniciativa quando necessária determinam isso.
 
-## 9 — Avançar intenções prolongadas
+## 10 — Avançar intenções prolongadas
 
 Uma intenção longa define um horizonte máximo.
 
@@ -199,6 +253,7 @@ Antes de avançar até o fim, verificar:
 - ações do Opositor;
 - processos e prazos;
 - efeitos automáticos;
+- Traços ou necessidades que se tornem relevantes;
 - mudanças que tornem a intenção impossível;
 - situações que exijam nova escolha.
 
@@ -231,7 +286,7 @@ JULGAMENTO
 → parar antes de decidir a resposta humana.
 ```
 
-## 10 — Não congelar personagens fora da câmera
+## 11 — Não congelar personagens fora da câmera
 
 Uma intenção do protagonista não suspende outras peças.
 
@@ -241,7 +296,7 @@ Não é necessário narrar tudo em detalhe.
 
 Registrar ou mostrar apenas o que afetar a continuidade, a cena ou conhecimento futuro.
 
-## 11 — Parar na nova agência humana
+## 12 — Parar na nova agência humana
 
 O Narrador pode avançar consequências, ações de outras cadeiras, passagem de tempo e fatos automáticos.
 
@@ -255,7 +310,7 @@ PARAR A SENTENÇA
 
 Não completar silenciosamente a resposta humana para manter o ritmo.
 
-## 12 — Estabelecer sentença antes da prosa
+## 13 — Estabelecer sentença antes da prosa
 
 Antes de narrar, saber internamente:
 
@@ -265,6 +320,7 @@ O que não aconteceu?
 Quanto tempo passou?
 Onde cada peça terminou?
 O que cada uma percebeu?
+Que Traço alterou a aplicação de alguma regra?
 Que estado mudou?
 Qual intenção continua?
 Existe nova decisão humana agora?
@@ -282,7 +338,8 @@ Não criar por conveniência:
 - recurso conveniente;
 - conhecimento impossível;
 - passividade artificial para deixar o protagonista resolver tudo;
-- mudança de personalidade para preservar harmonia.
+- mudança de personalidade para preservar harmonia;
+- interpretação de Traço além do que sua descrição realmente afirma.
 
 O julgamento preserva a realidade e as personagens, não uma direção desejada da história.
 
@@ -292,6 +349,7 @@ O julgamento preserva a realidade e as personagens, não uma direção desejada 
 INTENÇÕES + ESTADO
 → separar pressupostos
 → preservar decisões independentes
+→ conferir Traços relevantes
 → verificar possibilidade
 → oposição ou incerteza?
 → menor resolução necessária
@@ -305,4 +363,4 @@ INTENÇÕES + ESTADO
 
 ## Regra final
 
-> **O Narrador recebe intenções independentes, confere o estado real, resolve apenas a incerteza necessária e cruza tudo no tempo. Declarações não controlam outras peças; personagens IA não usam conhecimento oculto para otimizar decisões; intenções longas avançam somente até a primeira interrupção relevante; e qualquer nova escolha voluntária humana encerra a sentença e devolve o controle ao jogador.**
+> **O Narrador recebe intenções independentes, confere o estado e aplica Traços relevantes antes da resolução. Traço é verdade, não bônus: aplica-se exatamente dentro da descrição e nunca por extrapolação. Depois, resolver somente a incerteza restante, avançar a ficção até o primeiro ponto relevante e devolver qualquer nova escolha humana ao jogador.**
