@@ -20,14 +20,13 @@ Total de Perícias: [ ] / [ ]
 
 ## Poderes e Equipamentos
 
-- 
-
+--- [Nome] [ ] - custo [ ] pontos.
 Pontos de Poder: [ ] / [ ]
 
 ## Traços
 
-TRAÇO:
-[ ]
+--- TRAÇO: [ ]
+[descrição objetiva, no máximo duas linhas]
 
 ## Recursos
 
