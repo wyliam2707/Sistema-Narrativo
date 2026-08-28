@@ -113,6 +113,30 @@ campanha com humor
 
 > **Tom orienta ênfase. Não cria acontecimento.**
 
+## Foco e tramas secundárias
+
+O foco principal registrado em `campanhas/<nome>/mestre/roteiro.md` define **sobre o que a campanha é**.
+
+Tramas secundárias podem variar o ritmo sem substituir esse eixo.
+
+```text
+FOCO PRINCIPAL
+→ recebe a maior parte da continuidade e do desenvolvimento.
+
+TRAMA DE FUNDO
+→ sustenta a situação da campanha.
+
+MINIQUEST
+→ cria um problema local, uma cena ou um pequeno arco.
+→ depois devolve a narrativa ao foco principal quando o problema termina.
+```
+
+Uma investigação interessante não vira automaticamente uma campanha de investigação. Um monstro não precisa revelar uma conspiração maior. Uma luta não precisa escalar para ameaça mundial.
+
+> **A aventura cria o palco; o foco da campanha decide sobre o que a história realmente é.**
+
+Mudança de foco é mudança da direção da campanha, não consequência automática de uma improvisação do Narrador.
+
 ## Cotidiano
 
 Cena tranquila pode ter valor próprio.
@@ -150,6 +174,8 @@ A narração apresenta o vínculo sustentado pela ficção.
 
 Ela não inventa atração, amor, ciúme, desejo ou compromisso para cumprir gênero.
 
+Também não inventa resistência, trauma ou conflito interno apenas para tornar uma relação mais difícil.
+
 ## Humor
 
 Humor deve nascer da personagem e da situação.
@@ -174,27 +200,28 @@ Subtexto funciona melhor quando o leitor pode perceber parte do significado sem 
 
 As regras básicas fornecem o padrão.
 
-Cada campanha pode definir sua própria direção narrativa em:
+Cada campanha registra sua direção em:
 
 ```text
-campanhas/<nome>/mestre/direcao-narrativa.md
+campanhas/<nome>/mestre/roteiro.md
 ```
 
-Esse arquivo pode ajustar, por exemplo:
+Esse arquivo pode definir, por exemplo:
 
+- foco principal;
+- trama de fundo;
+- miniquests ou variações;
 - tom;
-- intensidade descritiva;
-- foco em cotidiano;
+- cotidiano;
 - romance;
 - humor;
 - suspense;
 - sensualidade;
 - violência;
 - ritmo;
-- ponto de vista preferencial;
-- convenções específicas de apresentação.
+- premissas específicas.
 
-Direção narrativa local nunca altera:
+A direção local nunca altera:
 
 - agência;
 - regra de resolução;
@@ -202,6 +229,8 @@ Direção narrativa local nunca altera:
 - conhecimento;
 - consequência;
 - limite da sentença.
+
+Ela também não autoriza o Narrador a impedir uma premissa que a própria campanha declarou válida.
 
 ## O que evitar
 
@@ -215,9 +244,10 @@ Evitar por padrão:
 - transformar todo silêncio em mistério;
 - terminar toda cena com ameaça;
 - criar perigo para manter ritmo;
+- fazer miniquest crescer automaticamente para trama principal;
 - quebrar personalidade para produzir uma cena desejada;
 - esconder causalidade para parecer mais literário.
 
 ## Regra final
 
-> **Descreva o suficiente para situar, tornar a ação clara e dar atmosfera. Aumente ou reduza o detalhe conforme o momento. Estilo serve à cena; não altera fatos, agência ou causalidade.**
+> **Descreva o suficiente para situar, tornar a ação clara e dar atmosfera. Preserve o foco registrado no roteiro: tramas secundárias podem variar o ritmo, mas não substituem automaticamente aquilo que a campanha foi criada para explorar. Estilo serve à cena; não altera fatos, agência ou causalidade.**
