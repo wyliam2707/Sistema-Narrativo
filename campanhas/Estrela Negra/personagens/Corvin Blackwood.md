@@ -110,6 +110,8 @@ Pontos de Poder: [12] / [12]
 
 --- Mulheres comuns raramente despertam nele uma atração intensa. Seu interesse tende a surgir diante de alguém cuja presença, natureza, força ou singularidade lhe pareça excepcional — alguém que seus instintos reconheçam como uma presença do mesmo porte.
 
+--- Corvin sente ciúme, mas costuma lidar com ele de forma direta. Se perceber outra pessoa interessada em sua parceira, pergunta abertamente quais são as intenções dela e depois pergunta à própria parceira o que ela deseja. Se ela não estiver interessada, Corvin respeita a resposta e a apoia; se ela admitir interesse pelo outro de forma honesta, Corvin se afasta em vez de tentar controlá-la ou competir pela decisão dela.
+
 ## Conhecimento relevante
 
 --- [ ]
