@@ -21,7 +21,7 @@ Podem e devem ser preservados aqui, conforme a estrutura de cada campanha:
 - fichas reais;
 - personagens;
 - estado atual;
-- Vida, Mana, condições e recursos;
+- Vida, Mente, Mana, condições e recursos;
 - conhecimento das personagens;
 - relações;
 - mundo e cenário;
@@ -31,14 +31,14 @@ Podem e devem ser preservados aqui, conforme a estrutura de cada campanha:
 - eventos futuros já julgados;
 - planos e registros do Opositor;
 - registros do Narrador;
-- capítulos e livro;
+- capítulos e Livro;
 - qualquer outra verdade que precise continuar existindo naquela campanha.
 
 > **Se é uma verdade da mesa e não uma regra do sistema, pertence a `campanhas/<nome>/`.**
 
 ## Estrutura
 
-Cada campanha ou arquivo de teste deve existir em sua própria subpasta:
+Cada campanha deve existir em sua própria subpasta:
 
 ```text
 campanhas/
@@ -60,39 +60,60 @@ campanhas/<nome>/
 └── livro/
 ```
 
-Nem toda campanha precisa usar exatamente todas essas pastas, mas nenhum dado vivo deve ser deslocado para `regras-basicas/` apenas para ser lembrado.
+Nem toda campanha precisa usar exatamente todas essas pastas.
 
-Os arquivos podem permanecer visíveis e fáceis de localizar para inspeção e ajuste manual.
+## Como localizar campanhas disponíveis
 
-Restrições como `reservado` indicam somente **quem pode usar aquela informação dentro da ficção**, não quem pode abrir o arquivo no repositório.
+Não manter neste arquivo uma lista manual de campanhas ou de seus estados, porque ela pode envelhecer.
 
-## Regra para continuar
+Quando o jogador escolher **continuar uma campanha existente**:
 
-Antes de oferecer uma pasta ao jogador como campanha continuável, abrir o `README.md` dela.
+```text
+1. listar as subpastas atuais de campanhas/.
+2. abrir campanhas/<nome>/README.md de cada candidata.
+3. usar o estado declarado no README da própria campanha.
+4. apresentar ao jogador somente opções realmente disponíveis.
+```
+
+O README de cada campanha é a fonte principal para dizer se ela está:
 
 ```text
 CRIAÇÃO: EM ANDAMENTO
-→ campanha atual
-→ pode retomar a criação pelo checkpoint
+→ pode retomar a criação pelo checkpoint apropriado.
 
 CRIAÇÃO: CONCLUÍDA
-+ Mesa operacional válida
-+ sem marca de incompatibilidade
-→ campanha atual
-→ pode continuar
+→ pode continuar conforme regras-basicas/INICIO-E-RETOMADA.md.
 
 TESTE / LEGADO / INCOMPATÍVEL
-→ não oferecer como campanha jogável por padrão
-→ não continuar silenciosamente
-→ migrar somente se o jogador pedir
+→ não oferecer como campanha jogável por padrão.
+→ migrar ou examinar somente se o jogador pedir.
 ```
 
-Campanhas já iniciadas no motor atual podem manter referências antigas enquanto a reformulação não for concluída.
+Se existir apenas uma campanha válida, ainda assim confirmar com o jogador que deseja continuar aquela campanha antes de abrir a ficção.
 
-## Arquivos presentes
+## Fonte da verdade
 
-- Corvo Estelar — CRIAÇÃO: EM ANDAMENTO
+Não inferir o estado da campanha pelo nome da pasta, pela memória da conversa ou por uma lista antiga.
+
+```text
+campanhas/<nome>/README.md
+→ estado geral e roteamento da campanha.
+
+campanhas/<nome>/estado/atual.md
+→ ponto operacional de retomada.
+
+campanhas/<nome>/personagens/
+→ fichas relevantes.
+
+campanhas/<nome>/mestre/narrativa.md
+→ identidade persistente.
+
+campanhas/<nome>/mestre/roteiro.md
+→ temporada ativa, quando existir.
+```
+
+Depois da escolha da campanha, seguir `regras-basicas/INICIO-E-RETOMADA.md` e consultar somente o que for necessário para reconstruir a mesa.
 
 ## Regra final
 
-> **`regras-basicas/` explica como jogar. `campanhas/<nome>/` guarda tudo que aconteceu, existe, está em andamento ou está previsto naquela campanha.**
+> **`regras-basicas/` explica como jogar. `campanhas/<nome>/` guarda o que existe e aconteceu. Para continuar, descobrir as campanhas pela estrutura atual e confiar no README de cada campanha, não em listas manuais.**
