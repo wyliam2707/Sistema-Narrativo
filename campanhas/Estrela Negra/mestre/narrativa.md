@@ -10,7 +10,7 @@
 → Acompanhar aproximação entre personagens, flerte, ciúme, intimidade, vida cotidiana compartilhada, construção de relacionamento, encontros e conflitos, com lutas e investigação pontual.
 
 ## Temas e conflitos recorrentes
-→ A definir.
+→ Relacionamento a três, diferenças culturais ganhando mais importância conforme a relação avança e perigo ocasional como pressão externa.
 
 ## Não dominar
 → A definir.
