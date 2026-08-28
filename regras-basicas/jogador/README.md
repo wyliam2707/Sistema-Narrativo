@@ -9,7 +9,8 @@ Ela serve tanto para personagens de jogadores quanto para NPCs, porque todos usa
 ```text
 jogador/
 ├── README.md
-└── 1.0-descricao-da-ficha.md
+├── 1.0-descricao-da-ficha.md
+└── 1.1-atributos-pericias-poderes.md
 ```
 
 ## `1.0-descricao-da-ficha.md`
@@ -29,7 +30,19 @@ Define a estrutura conceitual da ficha:
 - ficha completa, rápida e mínima;
 - uso da mesma lógica para jogadores e NPCs.
 
-As fórmulas e regras específicas de Atributos, Perícias, Poderes, Vida, Mana, recursos e combate serão consolidadas em arquivos seguintes.
+## `1.1-atributos-pericias-poderes.md`
+
+Define a estrutura mecânica básica da personagem:
+
+- seis Atributos;
+- doze Perícias gerais;
+- graduação de Atributos, Perícias e Poderes;
+- uso de Poderes na mesma posição mecânica das Perícias;
+- Valor de Ação;
+- cinco Patamares;
+- orçamentos separados de Atributos, Perícias e Poderes.
+
+Vida, Mana, recursos e combate serão consolidados em arquivos seguintes.
 
 ## Princípio
 
