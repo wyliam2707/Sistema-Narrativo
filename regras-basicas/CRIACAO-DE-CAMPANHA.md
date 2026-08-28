@@ -4,23 +4,27 @@ Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
 Este arquivo define como uma nova campanha nasce usando `regras-basicas/`.
 
-> **A organização nasce completa. A criação avança por etapas curtas, salva somente o aprovado e só começa a ficção quando já existe uma mesa jogável.**
+> **Cada passo usa o anterior como base: primeiro definir a narrativa, depois criar a temporada, depois construir as fichas para aquela história.**
 
 ## Fluxo geral
 
 Ao receber `Nova campanha`:
 
 ```text
-1. nome da campanha
-2. materializar a estrutura
-3. roteiro de direção e cenário suficiente
-4. registrar o elenco inicial
-5. criar e aprovar as fichas
-6. parear somente informações cruzadas essenciais
-7. definir a situação inicial
-8. registrar a Mesa operacional
-9. conferir START
-10. primeira cena
+PASSO 01 — CAMPANHA
+→ definir a identidade narrativa persistente.
+
+PASSO 02 — TEMPORADA
+→ criar o arco atual a partir dessa identidade.
+
+PASSO 03 — FICHAS
+→ construir as personagens usando campanha + temporada como contexto.
+
+DEPOIS
+→ pareamento mínimo
+→ situação inicial
+→ Mesa operacional
+→ START
 ```
 
 Não pedir novamente informação já fornecida.
@@ -40,7 +44,10 @@ campanhas/<nome>/
 │   └── README.md
 ├── mestre/
 │   ├── README.md
-│   └── roteiro.md
+│   ├── narrativa.md
+│   ├── roteiro.md
+│   └── temporadas/
+│       └── README.md
 ├── opositor/
 │   └── README.md
 └── livro/
@@ -53,88 +60,158 @@ O `README.md` da campanha começa com:
 
 ```text
 CRIAÇÃO: EM ANDAMENTO
-Etapa atual: ...
+Etapa atual: PASSO 01 — CAMPANHA
 ```
 
-## 2 — Roteiro de direção e cenário
+## PASSO 01 — Narrativa da campanha
 
-Definir apenas o suficiente para saber **sobre o que a campanha é**, como deve ser apresentada e que tipos de trama devem servir ao foco principal.
+O primeiro passo não cria ainda o arco da aventura. Ele define **que tipo de história esta campanha quer ser ao longo das temporadas**.
+
+Perguntar somente o necessário:
+
+```text
+Qual é o foco principal?
+Qual é o gênero?
+Qual é o tom?
+Que tipo de experiência queremos acompanhar?
+Que temas ou relações devem receber mais espaço?
+Que tipos de conflito combinam com a campanha?
+O que não deve dominar a história?
+Que premissas gerais já são válidas neste mundo ou nesta proposta?
+```
+
+As respostas podem ser curtas.
+
+Exemplo:
+
+```text
+FOCO
+→ romance e convivência.
+
+GÊNERO
+→ romance, comédia e aventura.
+
+TOM
+→ adulto, leve e divertido, com perigo ocasional.
+
+EXPERIÊNCIA
+→ acompanhar aproximação, vínculos e vida compartilhada.
+
+NÃO DOMINAR
+→ conspiração mundial, tragédia constante ou investigação pesada.
+```
 
 Registrar em:
+
+```text
+campanhas/<nome>/mestre/narrativa.md
+```
+
+Estrutura mínima:
+
+```text
+# Narrativa da Campanha
+
+## Foco principal
+→ sobre o que a campanha é.
+
+## Gênero e tom
+→ como essa história normalmente se apresenta.
+
+## Experiência desejada
+→ o que deve receber desenvolvimento e continuidade.
+
+## Temas e conflitos recorrentes
+→ que tipos de situação combinam com a proposta.
+
+## Não dominar
+→ o que pode existir, mas não deve tomar automaticamente o centro.
+
+## Premissas gerais
+→ elementos considerados normais ou válidos nesta campanha.
+```
+
+Preencher somente os blocos úteis.
+
+A narrativa da campanha é **persistente entre temporadas**.
+
+```text
+NARRATIVA
+→ identidade da campanha.
+
+TEMPORADA
+→ arco atual.
+```
+
+Alterar a narrativa depois exige uma mudança deliberada de proposta. Uma miniquest, um vilão interessante ou uma temporada diferente não reescrevem automaticamente o foco da campanha.
+
+## PASSO 02 — Criar a temporada
+
+Depois que a narrativa estiver aprovada, seguir:
+
+```text
+CRIACAO-DE-TEMPORADA.md
+```
+
+A temporada usa `mestre/narrativa.md` como base e cria o arco que será jogado agora.
+
+O roteiro ativo fica em:
 
 ```text
 campanhas/<nome>/mestre/roteiro.md
 ```
 
-Estrutura simples:
+Ele deve definir somente o necessário para o arco atual, incluindo uma **condição de encerramento**.
 
 ```text
-# Roteiro da Campanha
+CAMPANHA
+→ diz sobre o que a história é.
 
-## Foco principal
-→ o que a campanha explora principalmente.
-
-## Trama de fundo
-→ situação, prazo ou problema que sustenta a campanha.
-
-## Miniquests / variações
-→ conflitos menores que podem variar o ritmo sem substituir o foco.
-
-## Tom e premissa
-→ gênero, tom, humor, romance, atmosfera e elementos que são normais nesta campanha.
-
-## Direção
-→ limites de foco e orientações que o Narrador precisa preservar.
+TEMPORADA
+→ cria uma situação concreta para explorar isso agora.
 ```
 
-Preencher somente os blocos que realmente forem úteis.
+O roteiro não determina cenas futuras nem resultados.
 
-Exemplo de função:
+Quando a temporada termina, ele é arquivado, o Narrador escreve o epílogo, consolida as mudanças e pergunta **“E agora?”** antes de criar a próxima temporada.
+
+## PASSO 03 — Criar as fichas
+
+Somente depois de existir:
 
 ```text
-FOCO PRINCIPAL
-→ convivência e romance.
-
-TRAMA DE FUNDO
-→ artefato só pode ser destruído em 90 dias.
-
-MINIQUESTS
-→ monstros, desaparecimentos e pequenas anomalias.
+mestre/narrativa.md
++
+mestre/roteiro.md
 ```
 
-Nesse caso, uma miniquest pode ocupar uma cena ou episódio, mas não assume automaticamente o lugar do romance como foco da campanha.
-
-O roteiro **não determina cenas futuras nem resultados**. Ele preserva a direção.
+criar ou revisar as fichas iniciais conforme:
 
 ```text
-ROTEIRO
-→ sobre o que a história é.
-
-FICHAS
-→ quem são as personagens.
-
-ESTADO
-→ o que está acontecendo agora.
+jogador/1.3-criacao-da-ficha.md
 ```
 
-Quando relevante, definir também:
+Isso permite que os últimos blocos da ficha sejam construídos de acordo com **o tipo de história e de decisões que realmente importam nesta campanha**.
 
 ```text
-gênero
-tom
-foco
-ritmo
-humor
-romance ou vínculos
-atmosfera
-premissa e cenário inicial
+ROMANCE
+→ vínculos, atração, compromisso, iniciativa, ciúme, modelos de relação, limites.
+
+TERROR
+→ medo, confiança, reação sob pressão, sinais de ameaça, proteção, perdas.
+
+INVESTIGAÇÃO
+→ conhecimento, suspeitas, métodos, padrões, contatos, fatos confirmados.
+
+AÇÃO
+→ risco, proteção, iniciativa, liderança, recuo, prioridades em perigo.
 ```
 
-Uma premissa explicitamente aceita deve poder existir normalmente na campanha. O Narrador não cria resistência apenas para impedir aquilo que a própria proposta foi criada para explorar.
+A mesma informação pode ser central numa campanha e quase irrelevante em outra.
 
-Não preencher o mundo inteiro antes de jogar.
+> **A ficha não tenta responder tudo sobre a personagem. Ela preserva principalmente o que a IA precisará para interpretá-la com coerência nesta história.**
 
-## 3 — Elenco inicial
+## 4 — Elenco inicial
 
 Antes de revisar fichas completas, registrar todas as personagens iniciais que já precisam possuir agência.
 
@@ -148,28 +225,9 @@ Conceito, quando já conhecido
 ESTADO DA FICHA: EM CRIAÇÃO
 ```
 
-Confirmar o elenco inicial antes de avançar para a revisão detalhada das fichas.
+Confirmar o elenco inicial antes de avançar para a revisão detalhada.
 
 Isso evita terminar uma ficha sem ainda saber quais outras peças centrais precisam coexistir com ela.
-
-## 4 — Criação das fichas
-
-Criar cada ficha conforme:
-
-```text
-jogador/1.3-criacao-da-ficha.md
-```
-
-O padrão é:
-
-```text
-IA propõe quando houver base suficiente
-→ jogador corrige ou aprova
-→ salvar o aprovado
-→ próximo bloco
-```
-
-Quando todas as fichas iniciais necessárias estiverem aprovadas, avançar.
 
 ## 5 — Pareamento mínimo
 
@@ -244,7 +302,9 @@ Antes da primeira cena, conferir apenas se a campanha consegue funcionar correta
 
 ```text
 estrutura existe?
-roteiro existe e a direção é suficiente?
+narrativa da campanha foi aprovada?
+roteiro da temporada existe e possui direção suficiente?
+condição de encerramento da temporada existe quando necessária?
 elenco inicial foi confirmado?
 fichas necessárias estão aprovadas?
 pareamento essencial foi resolvido?
@@ -286,14 +346,20 @@ ESTADO
 MUNDO
 → verdades estáveis do cenário.
 
-MESTRE
-→ roteiro de direção e material reservado do Narrador.
+MESTRE / narrativa.md
+→ identidade persistente da campanha.
+
+MESTRE / roteiro.md
+→ temporada ativa.
+
+MESTRE / temporadas/
+→ roteiros de temporadas já encerradas.
 
 OPOSITOR
 → planos, processos e informações adversariais.
 
 LIVRO
-→ histórico consolidado do que aconteceu.
+→ histórico consolidado, capítulos e epílogos.
 ```
 
 As regras completas de onde salvar cada verdade pertencem a `registro/`.
@@ -304,8 +370,8 @@ Não é necessário prever tudo antes da primeira cena.
 
 Lacunas futuras podem ser completadas conforme `nucleo/1.7-criacao-emergente.md`, desde que não sejam inventadas retroativamente para favorecer ou impedir uma ação já apresentada.
 
-Uma trama secundária pode crescer organicamente, mas não substitui automaticamente o foco registrado em `mestre/roteiro.md`. Mudança de foco é mudança de direção da campanha.
+Uma trama secundária pode crescer organicamente, mas não substitui automaticamente a narrativa da campanha nem o arco atual da temporada.
 
 ## Regra final
 
-> **Nova campanha segue: nome, estrutura, roteiro de direção, elenco, fichas, pareamento mínimo, situação inicial, Mesa operacional e START. O roteiro preserva sobre o que a história é sem determinar cenas ou resultados. A IA propõe quando puder, o jogador corrige ou aprova, e somente conteúdo aprovado vira cânone. Depois que a mesa estiver jogável, a história começa e o restante do mundo pode crescer durante a campanha.**
+> **Nova campanha segue três passos dependentes: a Narrativa define que história queremos jogar; a Temporada transforma essa identidade em um arco atual com começo e fim; as Fichas usam as duas como base para registrar aquilo que realmente ajudará as personagens a decidir com coerência. Depois vêm pareamento, Estado, Mesa e START. Cada temporada termina com epílogo, consolidação e a pergunta “E agora?” antes de qualquer novo roteiro.**
