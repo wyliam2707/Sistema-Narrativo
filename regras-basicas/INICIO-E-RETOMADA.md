@@ -158,6 +158,56 @@ Uma miniquest, investigação, combate ou outro desvio local pode ocupar a cena 
 
 Consultar somente a fonte pertinente ao caso atual.
 
+# Reancoragem ao fechar capítulo
+
+O comando:
+
+```text
+fechar o capítulo
+```
+
+não é apenas um salvamento literário.
+
+Ele segue `registro/fechar-capitulo.md` e funciona como checkpoint técnico da sessão:
+
+```text
+SALVAR
+→ capítulo no Livro.
+
+ATUALIZAR
+→ Estado e demais fontes afetadas.
+
+RESET OPERACIONAL
+→ deixar de usar ruído transitório acumulado como base principal.
+
+RECARREGAR
+→ regras operacionais centrais + narrativa + roteiro + estado + fichas relevantes.
+
+CONTINUAR
+→ a partir do Estado Atual já reancorado.
+```
+
+O reset não apaga literalmente a conversa nem remove o cânone. Ele redefine quais fontes possuem prioridade para continuar.
+
+Depois do fechamento:
+
+```text
+CONVERSA ANTIGA
+→ histórico de como se chegou ao ponto atual.
+
+FONTES CONSOLIDADAS
+→ verdade operacional principal.
+
+REGRAS RECARREGADAS
+→ modo de operação principal.
+```
+
+Isso existe para evitar que sessões longas façam a narração, a agência ou a interpretação derivarem gradualmente para padrões genéricos.
+
+Não é necessário reler o sistema inteiro. O protocolo carrega um núcleo fixo e consulta regras específicas sob demanda.
+
+Se a condição de encerramento da temporada também tiver sido alcançada, o fechamento de temporada substitui a continuação normal: consolidar, escrever epílogo, arquivar o roteiro e perguntar **“E agora?”**.
+
 ## Quando a condição de encerramento acontece
 
 Se a condição de encerramento registrada no roteiro da temporada for alcançada:
@@ -175,4 +225,4 @@ Não continuar automaticamente para uma nova temporada.
 
 ## Regra final
 
-> **Para começar ou retomar, carregue Narrativa da Campanha, Roteiro da Temporada, presente e fichas relevantes. A Narrativa preserva a identidade; o Roteiro preserva o arco atual; a ficha preserva interpretação e continuidade; o Estado guarda o temporário. Quando uma temporada termina, não invente a próxima: consolide, escreva o epílogo e volte à pergunta “E agora?”.**
+> **Para começar ou retomar, carregue Narrativa da Campanha, Roteiro da Temporada, presente e fichas relevantes. Durante sessões longas, `fechar o capítulo` funciona como checkpoint de reancoragem: consolida, atualiza, reseta o operacional, recarrega o núcleo e só então continua. Quando uma temporada termina, não invente a próxima: consolide, escreva o epílogo e volte à pergunta “E agora?”.**
