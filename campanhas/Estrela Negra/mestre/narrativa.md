@@ -1,11 +1,10 @@
 # Narrativa da Campanha
 
 ## Foco principal
-→ Romance e convivência.
+→ Romance e convivência, com pontos de comédia e aventura eventual.
 
 ## Gênero e tom
-→ Gêneros presentes: romance, comédia e aventura eventual.
-→ Tom: a definir.
+→ Leve e divertido, sem deixar de ser adulto e muito sensual.
 
 ## Experiência desejada
 → A definir.
@@ -14,7 +13,7 @@
 → A definir.
 
 ## Não dominar
-→ Aventura pode acontecer, mas não deve substituir automaticamente o foco em romance e convivência.
+→ A definir.
 
 ## Premissas gerais
 → A definir.
