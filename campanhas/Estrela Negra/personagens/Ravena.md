@@ -6,7 +6,7 @@ Nome real: Elara Voss / Idade: 24 anos
 Aparência: jovem de aparência humana, pele clara, cabelos escuros com tonalidade violeta e presença discreta, sombria e marcante.
 Estilo: roupas escuras e práticas, com elementos místicos e uma estética sóbria inspirada em uma ocultista urbana.
 Conceito: mística sombria, reservada e extremamente poderosa; mantém forte disciplina emocional porque sentimentos intensos podem desestabilizar sua magia.
-Descrição: usuária de magia sombria e espiritual, contida e observadora. Quando perde o controle emocional, sua magia pode escapar de forma perigosa, destruindo o ambiente, ferindo pessoas próximas ou, em raras ocasiões, abrindo passagem para entidades e manifestações indesejadas.
+Descrição: usuária de magia sombria e espiritual, contida e observadora. Quando perde o controle emocional, sua magia pode reagir involuntariamente ao impulso do momento e acompanhar a intensidade do que sente; em raras ocasiões, essa manifestação pode escalar ou atrair algo sobrenatural.
 
 ## Estado inicial
 
@@ -43,7 +43,7 @@ Pontos de Poder: [9] / [9]
 [Elara possui natureza parcialmente abissal; entidades, rituais e efeitos sobrenaturais capazes de reconhecer linhagem podem perceber nela a marca de Trigon.]
 
 --- TRAÇO: Emoções Abissais
-[Quando Elara perde o controle emocional, sua magia pode se manifestar involuntariamente, afetando o ambiente, ferindo quem estiver próximo ou, em raros casos, atraindo manifestações sobrenaturais.]
+[Quando perde o controle emocional, a magia de Elara reage involuntariamente ao impulso do momento e tende a acompanhar sua intensidade; desejar que alguém se afaste pode gerar um empurrão telecinético. Em raros casos, o efeito pode escalar ou atrair manifestações sobrenaturais.]
 
 ## Recursos
 
@@ -59,7 +59,7 @@ Pontos de Poder: [9] / [9]
 
 ## Medos / limites
 
---- Perder o controle emocional pode fazer sua magia atingir o ambiente ou pessoas próximas e, em raros casos, atrair ou invocar algo que não deveria estar presente.
+--- Perder o controle emocional pode fazer sua magia reagir involuntariamente ao que Elara deseja ou sente naquele instante. Quanto maior a intensidade emocional, maior o risco de a manifestação sair do controle; em raros casos, algo sobrenatural pode ser atraído.
 
 ## Rotina e hábitos persistentes
 
