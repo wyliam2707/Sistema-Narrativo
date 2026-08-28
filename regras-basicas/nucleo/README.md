@@ -31,6 +31,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 0.8-tempo-e-acoes.md
 → define rodadas de aproximadamente 10 segundos e permite uma intenção principal plausível com os movimentos e gestos necessários, sem economia rígida de ações.
 
+0.9-alcance-e-movimento.md
+→ usa quatro faixas relativas — Toque, Perto, Médio e Longe — e movimento abstrato sem exigir mapa ou metros.
+
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
 
@@ -112,6 +115,13 @@ TEMPO E AÇÕES
 → não há divisão automática em ação, movimento, bônus e reação.
 → o Narrador julga o que cabe pela ficção, capacidades e unidade da intenção.
 
+ALCANCE E MOVIMENTO
+→ usar Toque, Perto, Médio e Longe.
+→ as faixas são relativas entre os elementos da cena, não zonas fixas de um mapa.
+→ movimento comum usa 1 faixa por rodada como referência.
+→ movimento pode integrar a intenção principal quando isso couber nos aproximadamente 10 segundos.
+→ Poderes e obstáculos podem ampliar, restringir ou ignorar essa referência.
+
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
 
@@ -131,6 +141,6 @@ A criação emergente não autoriza o Narrador a alterar retroativamente uma sit
 
 A origem de conflito pertence ao Opositor, mas não é resultado automático. O Opositor propõe; o Narrador valida coerência, meios, tempo e oportunidade; o Registro fixa o que passou a existir; somente depois a oposição pode ser movimentada normalmente.
 
-As regras específicas de alcance, movimento, Mana, condições e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
+As regras específicas de Mana, condições e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
 
 > O Núcleo define a arquitetura comum da mesa. Regras específicas usam essa base sem redefinir autoridade ou procedimento.
