@@ -6,7 +6,7 @@ Nome real: Estelar / Idade: cerca de 40 anos (aparência de 26 anos)
 Aparência: mulher de aparência jovem, 1,83 m de altura, pele morena de tom quente, cabelos ruivos, olhos vermelhos marcantes e corpo sensual, atlético e bem torneado; sua presença é vibrante, calorosa e imediatamente chamativa.
 Estilo: roupas de corte tamaraneano adaptadas à Terra, justas e práticas, com visual marcante e sensual sem perder mobilidade para combate.
 Conceito: princesa de Tamaran, calorosa, direta, sensual e emocionalmente aberta; deixou seu mundo para escolher por si mesma com quem e como deseja construir sua vida. Fisicamente e emocionalmente, funciona como contraste de Ravena: expansiva onde Ravena é contida, luminosa onde Ravena é sombria.
-Descrição:
+Descrição: Estelar chama atenção mesmo quando não tenta. Alta, atlética e de presença luminosa, costuma ocupar os ambientes com naturalidade, aproximando-se das pessoas com facilidade e demonstrando interesse sem muitos filtros. Em combate, essa mesma energia se transforma em confiança física e agressividade direta; fora dele, aparece como calor, curiosidade e afeto aberto.
 
 ## Estado inicial
 
