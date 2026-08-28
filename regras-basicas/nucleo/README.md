@@ -38,7 +38,10 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 → define Mana como esforço extra distribuído na declaração entre ação, efeito e Defesa, com até +2 por componente e recuperação total após 1 hora de descanso curto.
 
 0.11-vida-e-mente.md
-→ define dois trilhos universais, Vida e Mente, com a mesma progressão Leve/Sério/Grave/Crítico/Incapacitado e descrição narrativa do estado concreto.
+→ define dois trilhos universais em linha, Vida e Mente, com a mesma progressão Leve/Sério/Grave/Crítico/Incapacitado e descrição narrativa do estado concreto.
+
+0.12-ataques-mentais.md
+→ espelha o dano físico para Mente: acerto técnico, Potência Mental contra Resistência Mental e a mesma escala de gravidade.
 
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
@@ -139,13 +142,21 @@ MANA
 → 1 hora de descanso curto adequado restaura a reserva ao máximo.
 
 VIDA E MENTE
-→ a ficha usa dois trilhos paralelos e independentes.
-→ ambos usam Leve, Sério, Grave, Crítico e Incapacitado.
+→ a ficha usa dois trilhos paralelos e independentes:
+→ `Vida: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]`
+→ `Mente: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]`
 → marcas iguais acumulam e sobem uma categoria.
 → Vida registra comprometimento físico ou corporal.
 → Mente registra comprometimento mental, emocional ou psíquico.
 → a categoria informa a gravidade técnica; a descrição narrativa informa o estado concreto.
 → Incapacitado é um ponto final técnico, não um resultado narrativo automático específico.
+
+ATAQUES MENTAIS
+→ usam o mesmo fluxo de dano físico.
+→ primeiro resolvem acerto técnico contra Defesa quando houver defesa legítima.
+→ depois resolvem `1d6 + Potência Mental` contra `1d6 + Resistência Mental`.
+→ diferença 0 / 1–2 / 3–4 / 5–6 / 7+ gera nenhum comprometimento / Leve / Sério / Grave / Crítico.
+→ o resultado marca o trilho de Mente.
 
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
