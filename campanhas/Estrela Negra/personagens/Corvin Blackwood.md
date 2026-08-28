@@ -42,8 +42,14 @@ Pontos de Poder: [12] / [12]
 
 ## Traços
 
---- TRAÇO: [ ]
-[descrição objetiva, no máximo duas linhas]
+--- TRAÇO: Meio-Deus da Natureza
+[Corvin possui uma ligação instintiva com o mundo natural; animais raramente o percebem como ameaça ou demonstram agressividade contra ele sem motivo.]
+
+--- TRAÇO: A Verdade da Natureza
+[Ao observar um ser vivo, Corvin reconhece sua natureza essencial, origem, linhagem e autoridade herdada. Isso não revela memórias, intenções ou história oculta.]
+
+--- TRAÇO: A Natureza Não Mente
+[Corvin não consegue mentir deliberadamente; quando tenta, acaba expressando a verdade que conhece da forma mais nua e direta possível.]
 
 ## Recursos
 
