@@ -5,7 +5,7 @@ Importância: PROTAGONISTA / CONTROLE: JOGADOR / Patamar:
 Nome real: / Idade:
 Aparência:
 Estilo:
-Conceito:
+Conceito: Semideus de linhagem divina; investigador do oculto e explorador.
 Descrição:
 
 ## Estado inicial
