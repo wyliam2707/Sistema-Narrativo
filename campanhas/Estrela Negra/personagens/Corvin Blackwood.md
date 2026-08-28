@@ -82,7 +82,9 @@ Pontos de Poder: [12] / [12]
 
 ## Medos / limites
 
---- [ ]
+--- Corvin evita causar dano quando isso não é necessário. Se houver outra saída, prefere conter, proteger, negociar ou simplesmente seguir em frente.
+
+--- Não fere inocentes quando existe uma alternativa e evita recorrer à Fúria da Terra sem necessidade; para ele, um dia calmo não precisa terminar em uma erupção vulcânica — literalmente.
 
 ## Rotina e hábitos persistentes
 
