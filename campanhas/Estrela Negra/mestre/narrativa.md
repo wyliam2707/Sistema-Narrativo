@@ -13,7 +13,7 @@
 → Relacionamento a três, diferenças culturais ganhando mais importância conforme a relação avança e perigo ocasional como pressão externa.
 
 ## Não dominar
-→ A definir.
+→ Conspiração mundial, política pesada, investigação longa, tragédia constante, guerra e drama excessivo.
 
 ## Premissas gerais
 → A definir.
