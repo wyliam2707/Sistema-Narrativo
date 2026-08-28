@@ -16,6 +16,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 0.3-consequencias.md
 → define como interpretar 7–9 sem criar punições arbitrárias; usa consequência do risco concreto ou resultado limitado ligado ao próprio objetivo.
 
+0.4-disputas-simultaneas.md
+→ resolve ações realmente simultâneas com uma única rolagem e faixas espelhadas em torno de 7, sem vantagem artificial por ordem de declaração.
+
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
 
@@ -62,6 +65,7 @@ NARRADOR
 RESOLUÇÃO
 → decide incertezas quando necessário.
 → 7–9 nunca obriga a criar punição desconectada; seguir 0.3-consequencias.md.
+→ disputas realmente simultâneas usam 0.4-disputas-simultaneas.md para evitar vantagem artificial de lado ativo.
 
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
