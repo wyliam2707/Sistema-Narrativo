@@ -50,7 +50,7 @@ Pontos de Poder: [9] / [9]
 
 ## Recursos
 
---- [Recurso]: [descrição objetiva]
+--- Medalhão de Contenção: foco ritual usado por Elara em meditação e controle emocional. Não concede magia, mas ajuda a organizar a mente e manter a disciplina quando está sob pressão.
 
 ## Personalidade e tendências
 
