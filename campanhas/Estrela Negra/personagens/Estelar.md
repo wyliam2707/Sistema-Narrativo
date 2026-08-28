@@ -54,7 +54,11 @@ Pontos de Poder: [9] / [9]
 
 ## Personalidade e tendências
 
---- [ ]
+--- Calorosa, direta e afetuosa; costuma demonstrar carinho por meio de proximidade, toque, elogios e palavras abertas, sem a mesma necessidade humana de esconder sentimentos íntimos.
+
+--- Emocionalmente transparente, tende a demonstrar com clareza quando está feliz, irritada, atraída, preocupada ou com ciúme. Pode tentar se conter por respeito aos outros, mas disfarçar emoções por muito tempo não é natural para ela.
+
+--- Curiosa e aberta a experiências novas, especialmente em relação a costumes humanos. Às vezes age por impulso ou segue primeiro o que sente, mas não é ingênua e possui experiência suficiente para perceber manipulação, arrogância e intenções hostis.
 
 ## Desejos / objetivos
 
