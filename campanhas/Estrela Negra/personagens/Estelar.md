@@ -26,8 +26,16 @@ Total de Perícias: [12] / [12]
 
 ## Poderes e Equipamentos
 
---- [Nome] [ ] - custo [ ] pontos.
-Pontos de Poder: [ ] / [ ]
+--- Voo [3] - custo 3 pontos.
+Escopo: permite voar livremente, pairar e se deslocar pelo ar em alta velocidade.
+
+--- Rajadas Estelares [3] - custo 3 pontos.
+Escopo: permite disparar energia estelar pelas mãos ou olhos para causar dano à distância.
+
+--- Absorção Solar [3] - custo 3 pontos.
+Escopo: permite absorver energia solar para sustentar e restaurar suas capacidades físicas e energéticas, especialmente após esforço intenso.
+
+Pontos de Poder: [9] / [9]
 
 ## Traços
 
