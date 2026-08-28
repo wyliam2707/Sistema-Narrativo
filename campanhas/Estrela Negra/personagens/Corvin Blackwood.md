@@ -1,7 +1,7 @@
 # Corvin Blackwood
 
 ESTADO DA FICHA: EM CRIAÇÃO
-Importância: PROTAGONISTA / CONTROLE: JOGADOR / Patamar:
+Importância: PROTAGONISTA / CONTROLE: JOGADOR / Patamar: 4
 Nome real: / Idade:
 Aparência:
 Estilo:
