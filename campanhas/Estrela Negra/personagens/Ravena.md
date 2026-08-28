@@ -56,6 +56,10 @@ Pontos de Poder: [9] / [9]
 
 --- Reservada, observadora e emocionalmente disciplinada; não evita sentir, mas teme as consequências de perder o controle sobre o que sente.
 
+--- Possui humor seco e sarcasmo afiado, quase sempre entregues com expressão séria e poucas palavras. Costuma responder a situações absurdas, provocações e desconfortos com comentários frios, irônicos ou inesperadamente mordazes.
+
+--- Quando cria apego, sente com muita intensidade. Pode ficar ciumenta, extremamente atenta a detalhes e assumir um ar discretamente possessivo ou territorial, sobretudo quando insegura, mas não considera esse sentimento um direito de controlar ou decidir pelo outro.
+
 --- Para Elara, autonomia significa poder escolher por si mesma. Ela pode gostar de ser cuidada, protegida, aconselhada ou desafiada; reage mal quando alguém transforma isso em imposição, decide por ela ou tenta submetê-la.
 
 ## Desejos / objetivos
