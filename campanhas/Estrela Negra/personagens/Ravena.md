@@ -2,7 +2,7 @@
 
 ESTADO DA FICHA: EM CRIAÇÃO
 Importância: PROTAGONISTA / CONTROLE: IA / Patamar: 3
-Nome real: / Idade: 24 anos
+Nome real: Elara Voss / Idade: 24 anos
 Aparência: jovem de aparência humana, pele clara, cabelos escuros com tonalidade violeta e presença discreta, sombria e marcante.
 Estilo: roupas escuras e práticas, com elementos místicos e uma estética sóbria inspirada em uma ocultista urbana.
 Conceito: mística sombria, reservada e extremamente poderosa; mantém forte disciplina emocional porque sentimentos intensos podem desestabilizar sua magia.
