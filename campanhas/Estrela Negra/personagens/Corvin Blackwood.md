@@ -96,11 +96,11 @@ Pontos de Poder: [12] / [12]
 
 ### Relações positivas
 
---- [Nome] [relação objetiva pelo ponto de vista da personagem]
+--- Corvin possui conhecidos, contatos ocasionais e algumas relações casuais acumuladas durante suas viagens, mas nenhuma delas representa um vínculo próximo ou duradouro no início da campanha.
 
 ### Relações negativas
 
---- [Nome] [relação objetiva pelo ponto de vista da personagem]
+--- Corvin não mantém rivalidades ou inimizades pessoais importantes no início da campanha; seu estilo nômade e recluso costuma fazê-lo seguir adiante antes que conflitos se transformem em vínculos permanentes.
 
 ### Relacionamentos
 
