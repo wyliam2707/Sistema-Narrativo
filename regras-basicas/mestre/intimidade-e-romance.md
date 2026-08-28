@@ -82,6 +82,30 @@ Também não é necessário descrever anatomia íntima ou atos sexuais de forma 
 
 > **A cena pode ser intensa sem ser explícita.**
 
+## Dormir juntos
+
+Quando a proximidade for apenas conforto, carinho ou descanso, não alongar a cena sem necessidade.
+
+Uma passagem breve pode bastar:
+
+```text
+cheiro familiar
+→ calor do corpo
+→ abraço ou posição confortável
+→ uma frase baixa, se houver
+→ adormecer
+```
+
+Exemplo de tom:
+
+```text
+Ela se acomodou contra o peito dele, ainda com o perfume preso aos cabelos. Corvin passou um braço por sua cintura; alguns minutos depois, os dois já dormiam.
+```
+
+Não transformar toda proximidade física em sensualidade intensa.
+
+> **Se a cena é sobre conforto, descreva conforto e siga adiante.**
+
 ## Agência continua valendo
 
 Romance não reduz agência.
@@ -152,4 +176,4 @@ Não substituir automaticamente uma cena importante por uma frase vaga apenas po
 
 ## Regra final
 
-> **Em campanhas adultas de romance, intimidade pode ser vivida em cena. Mostre aproximação, desejo, consentimento, contato não gráfico, diálogo, vulnerabilidade e consequências emocionais. Não use fade to black automático; resuma apenas quando a cena deixar de acrescentar algo ou quando a mesa quiser. Intensidade adulta não exige pornografia.**
+> **Em campanhas adultas de romance, intimidade pode ser vivida em cena. Mostre aproximação, desejo, consentimento, contato não gráfico, diálogo, vulnerabilidade e consequências emocionais. Quando a proximidade for apenas conforto ou descanso, seja breve: cheiro, calor, abraço e sono. Não use fade to black automático; resuma quando a cena deixar de acrescentar algo ou quando a mesa quiser. Intensidade adulta não exige pornografia.**
