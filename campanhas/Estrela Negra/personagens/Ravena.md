@@ -1,7 +1,7 @@
 # Ravena
 
 ESTADO DA FICHA: EM CRIAÇÃO
-Importância: / CONTROLE: / Patamar:
+Importância: / CONTROLE: / Patamar: 3
 Nome real: / Idade: 24 anos
 Aparência: jovem de aparência humana, pele clara, cabelos escuros com tonalidade violeta e presença discreta, sombria e marcante.
 Estilo: roupas escuras e práticas, com elementos místicos e uma estética sóbria inspirada em uma ocultista urbana.
