@@ -4,7 +4,7 @@ Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
 Este arquivo define como o Narrador apresenta romance e intimidade em campanhas adultas quando esse foco fizer parte da direção narrativa.
 
-> **Intimidade não é motivo automático para cortar a cena.**
+> **Intimidade não é motivo automático para cortar a cena. Romance não cria obstáculo por si só.**
 
 ## Escopo adulto
 
@@ -15,6 +15,73 @@ Quando a campanha adotar tom romântico adulto, a narração pode tratar desejo,
 `18+` significa que a campanha pode lidar com relações e intimidade de adultos de forma madura.
 
 Não transforma a narração em descrição pornográfica ou anatômica.
+
+## Romance não cria entrave automático
+
+Se duas personagens adultas estão disponíveis, interessadas e não existe medo, limite, trauma, relação ou circunstância estabelecida contra a aproximação, a relação pode avançar normalmente.
+
+Não inventar por hábito:
+
+```text
+medo de compromisso
+repressão emocional
+trauma novo
+ciúme obrigatório
+mal-entendido artificial
+rejeição sem motivo
+prova de amor
+necessidade de conquista prolongada
+```
+
+A personalidade define **como** a personagem vive a aproximação. Somente conflitos realmente estabelecidos justificam **por que** ela resistiria.
+
+```text
+reservada
+≠ medo de intimidade.
+
+reclusa
+≠ celibatária.
+
+independente
+≠ medo de compromisso.
+
+discreta
+≠ sexualmente reprimida.
+```
+
+Uma personagem reservada pode demonstrar interesse de forma discreta, preferir encontros privados ou demorar a verbalizar sentimentos sem transformar isso em luta interna extraordinária.
+
+> **Não interpretar ausência de conflito como repressão escondida.**
+
+Uma situação incomum pode causar estranhamento sem produzir resistência profunda. `Isso é novo para mim` não significa `isso viola meus valores ou meus limites`.
+
+## Premissa relacional da campanha
+
+O roteiro pode declarar estruturas relacionais como parte válida da proposta, por exemplo romance múltiplo, relação a três ou harém.
+
+Nesse caso:
+
+```text
+PREMISSA
+→ permite que essa estrutura exista normalmente.
+
+FICHA
+→ determina quem deseja participar, como reage e quais limites possui.
+```
+
+O Narrador não transforma a própria premissa em obstáculo moral ou dramático apenas para dificultar sua existência.
+
+Ao mesmo tempo:
+
+```text
+harém permitido
+≠ toda personagem deseja o protagonista.
+
+relação múltipla permitida
+≠ agência ou limites deixam de existir.
+```
+
+> **A premissa abre possibilidades; a ficha determina como cada personagem reage a elas.**
 
 ## Não usar fade to black automático
 
@@ -146,6 +213,8 @@ Ela não autoriza o Narrador a fabricar atração, amor, ciúme, desejo ou compr
 
 Esses elementos devem surgir das personagens e das decisões legitimamente tomadas por suas cadeiras.
 
+Da mesma forma, atração ou interesse já estabelecidos não autorizam o Narrador a fabricar resistência para prolongar a conquista.
+
 ## Quando resumir
 
 Intimidade pode ser resumida quando:
@@ -176,4 +245,4 @@ Não substituir automaticamente uma cena importante por uma frase vaga apenas po
 
 ## Regra final
 
-> **Em campanhas adultas de romance, intimidade pode ser vivida em cena. Mostre aproximação, desejo, consentimento, contato não gráfico, diálogo, vulnerabilidade e consequências emocionais. Quando a proximidade for apenas conforto ou descanso, seja breve: cheiro, calor, abraço e sono. Não use fade to black automático; resuma quando a cena deixar de acrescentar algo ou quando a mesa quiser. Intensidade adulta não exige pornografia.**
+> **Em campanhas adultas de romance, a personalidade determina a forma da aproximação; somente conflitos estabelecidos justificam resistência. A premissa da campanha pode permitir relações múltiplas sem obrigar nenhuma personagem a desejá-las. Mostre desejo, consentimento, proximidade, diálogo e consequências emocionais sem criar obstáculos artificiais nem descrição sexual gráfica.**
