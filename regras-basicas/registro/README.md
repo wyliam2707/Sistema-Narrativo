@@ -21,6 +21,9 @@ Nenhum fato vivo de uma campanha deve ser salvo aqui.
 O Registro responde:
 
 ```text
+SOBRE O QUE A CAMPANHA É E QUE DIREÇÃO O NARRADOR PRECISA PRESERVAR?
+→ mestre/roteiro.md.
+
 QUEM É A PERSONAGEM E O QUE ELA PRECISA LEMBRAR PARA SER INTERPRETADA?
 → ficha da personagem.
 
@@ -92,6 +95,7 @@ campanhas/<nome>/
 │   └── atual.md
 ├── mundo/
 ├── mestre/
+│   └── roteiro.md
 ├── opositor/
 └── livro/
 ```
@@ -111,8 +115,8 @@ ESTADO
 MUNDO
 → verdades estáveis do cenário.
 
-MESTRE
-→ dados operacionais próprios do Narrador quando necessários.
+MESTRE / ROTEIRO
+→ direção persistente da campanha e dados operacionais próprios do Narrador.
 
 OPOSITOR
 → planos, processos e informações do outro lado da trama.
@@ -120,6 +124,24 @@ OPOSITOR
 LIVRO
 → o que efetivamente aconteceu na história.
 ```
+
+## Roteiro e direção da campanha
+
+`mestre/roteiro.md` preserva o que não deve ser redescoberto ou reinventado a cada sessão:
+
+```text
+foco principal
+trama de fundo
+miniquests ou variações
+tom e premissa
+direção narrativa
+```
+
+O roteiro não é histórico nem Estado Atual. Ele não registra cada cena e não determina resultados.
+
+Uma miniquest pode terminar, surgir outra e o Estado pode mudar sem que o foco principal seja reescrito.
+
+Mudança real de direção deve ser registrada deliberadamente no roteiro; não acontece automaticamente porque uma trama secundária ficou interessante.
 
 ## Ficha e memória da personagem
 
@@ -246,6 +268,7 @@ continuar jogando.
 
 Isso inclui:
 
+- roteiro da campanha;
 - fichas reais;
 - relações consolidadas;
 - conhecimento relevante;
@@ -264,4 +287,4 @@ Recursos permanentes pertencem à ficha; recursos temporários podem pertencer a
 
 ## Regra final
 
-> **Registro é a memória canônica da campanha. A ficha é a principal memória de interpretação da personagem; o Livro preserva o passado, o Estado preserva o presente e as demais fontes guardam contexto e processos externos. Salve somente o que foi legitimamente estabelecido e não faça uma personagem esquecer conhecimento já consolidado.**
+> **Registro é a memória canônica da campanha. O roteiro preserva a direção, a ficha preserva a interpretação da personagem, o Livro preserva o passado, o Estado preserva o presente e as demais fontes guardam contexto e processos externos. Salve somente o que foi legitimamente estabelecido e não faça uma personagem esquecer conhecimento já consolidado.**
