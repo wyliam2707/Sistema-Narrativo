@@ -191,7 +191,18 @@ Furtividade contra Percepção
 → teste obrigatório.
 ```
 
-Suponha que o resultado alcance efeito parcial.
+A resolução segue `0.1-resolucao.md`:
+
+```text
+2d6 + Furtividade - Percepção + situação
+```
+
+Suponha que o resultado final seja **9**.
+
+```text
+7–9
+→ sucesso com consequência
+```
 
 O Mestre precisa determinar o significado concreto antes de escrever.
 
@@ -203,7 +214,7 @@ Exemplo possível, se coerente com a situação:
 - ele não identifica todos os detalhes da fuga.
 ```
 
-A faixa não pode ser transformada em sucesso pleno nem em falha total apenas para melhorar a cena.
+O sucesso principal não pode ser retirado, e a consequência deve nascer do risco concreto da tentativa furtiva.
 
 ## Narração
 
