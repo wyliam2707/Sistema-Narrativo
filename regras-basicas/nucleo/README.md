@@ -13,6 +13,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 0.2-rolagens.md
 → define que o Narrador executa todas as rolagens usando fonte aleatória real disponível.
 
+0.3-consequencias.md
+→ define como interpretar 7–9 sem criar punições arbitrárias; usa consequência do risco concreto ou resultado limitado ligado ao próprio objetivo.
+
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
 
@@ -58,6 +61,7 @@ NARRADOR
 
 RESOLUÇÃO
 → decide incertezas quando necessário.
+→ 7–9 nunca obriga a criar punição desconectada; seguir 0.3-consequencias.md.
 
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
