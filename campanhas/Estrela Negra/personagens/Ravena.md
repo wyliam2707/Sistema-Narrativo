@@ -26,8 +26,16 @@ Total de Perícias: [12] / [12]
 
 ## Poderes e Equipamentos
 
---- [Nome] [ ] - custo [ ] pontos.
-Pontos de Poder: [ ] / [ ]
+--- Alma Sombria [2] - custo 6 pontos.
+Escopo: expressão ampla da magia sombria e espiritual de Ravena. Permite mover e conter objetos ou pessoas à distância, projetar rajadas, criar escudos e contenções, levitar ou voar e manifestar energia ou sombras sobrenaturais de formas compatíveis com sua magia.
+
+--- Empatia [2] - custo 2 pontos.
+Escopo: permite perceber emoções com intensidade sobrenatural e interagir com essa carga emocional, podendo acalmar, influenciar ou absorver parte dela quando houver abertura ou oportunidade para isso.
+
+--- Passagem Sombria [1] - custo 1 ponto.
+Escopo: permite abrir breves passagens pelo espaço ou pelo plano espiritual para atravessar obstáculos ou se reposicionar a curta distância.
+
+Pontos de Poder: [9] / [9]
 
 ## Traços
 
