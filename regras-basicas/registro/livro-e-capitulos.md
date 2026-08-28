@@ -249,18 +249,27 @@ PERSONAGEM SABE
 
 ## Fechar capítulo
 
-Fechar capítulo significa:
+O comando **`fechar o capítulo`** segue integralmente:
 
 ```text
-PARAR no último fato estabelecido
-→ consolidar o trecho no Livro
-→ atualizar Estado Atual
-→ atualizar conhecimentos afetados
-→ atualizar processos e prazos
-→ atualizar Mundo somente se uma verdade estável mudou
-→ atualizar Mestre/Opositor somente se seus dados mudaram
-→ encerrar sem iniciar nova ficção
+registro/fechar-capitulo.md
 ```
+
+Ele não significa apenas escrever o capítulo.
+
+```text
+FECHAR O CAPÍTULO
+→ parar no último fato estabelecido
+→ consolidar o trecho no Livro
+→ atualizar Estado e demais fontes afetadas
+→ fazer reset operacional
+→ recarregar regras e fontes essenciais
+→ continuar a partir do Estado Atual
+```
+
+Durante a etapa de consolidação, não criar nova ficção. A continuação só acontece **depois** que o capítulo foi salvo, as fontes foram atualizadas e a operação foi reancorada.
+
+O reset operacional não apaga o cânone nem a conversa literalmente. Ele faz as fontes consolidadas e as regras recarregadas voltarem a ser a base principal do próximo capítulo.
 
 ## Não fabricar um final
 
@@ -268,11 +277,11 @@ Ao fechar capítulo:
 
 - não criar despedida que não aconteceu;
 - não acrescentar cliffhanger artificial;
-- não avançar até a próxima manhã;
-- não executar evento futuro só para encerrar bem;
+- não avançar até a próxima manhã só para encerrar;
+- não executar evento futuro só para fechar bem;
 - não decidir reação ainda pendente.
 
-O capítulo termina onde a ficção realmente parou.
+O capítulo termina onde a ficção realmente parou. Depois da reancoragem, o próximo capítulo continua desse ponto ou devolve a decisão humana que estiver pendente.
 
 # Epílogo de temporada
 
@@ -370,4 +379,4 @@ ESTADO ATUAL
 
 ## Regra final
 
-> **O Livro é a memória literária da campanha. Ele registra o que realmente aconteceu em forma de conto ou romance, acompanha quem realmente teve agência e pode revelar interioridade sustentada pelo cânone. O epílogo de temporada consolida como o arco terminou sem escolher o futuro; depois dele, a próxima direção só nasce a partir de “E agora?”.**
+> **O Livro é a memória literária da campanha. Ele registra o que realmente aconteceu em forma de conto ou romance e preserva agência e cânone. `Fechar o capítulo` também executa o reset operacional definido em `fechar-capitulo.md`: salva, atualiza, reancora e só então continua. O epílogo de temporada consolida como o arco terminou sem escolher o futuro; depois dele, a próxima direção só nasce a partir de “E agora?”.**
