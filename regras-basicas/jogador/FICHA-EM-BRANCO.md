@@ -10,7 +10,8 @@ Descrição:
 
 ## Estado inicial
 
-[ ]
+Vida: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
+Mente: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
 
 ## Atributos
 
