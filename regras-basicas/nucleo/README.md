@@ -23,7 +23,7 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 → separa técnica de efeito: Ataque contra Defesa decide se a ofensiva entra; Poderes de escala ofensiva ou proteção participam depois da Potência ou Resistência.
 
 0.6-dano-e-ferimentos.md
-→ resolve `1d6 + Potência` contra `1d6 + Resistência`, converte a diferença em gravidade e acumula ferimentos por caixas, sem pontos de Vida.
+→ resolve `1d6 + Potência` contra `1d6 + Resistência`, converte a diferença em gravidade, acumula ferimentos por caixas e define recuperação por Cura, sem pontos de Vida.
 
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
@@ -85,6 +85,13 @@ DANO
 → não existem pontos de Vida.
 → ferimentos iguais acumulam e sobem uma categoria.
 
+RECUPERAÇÃO
+→ Medicina produz Cura conforme o resultado do teste.
+→ Poder de Cura soma sua graduação, com Cura Total máxima 6.
+→ Medicina comum opera em horas ou dias; Poder de Cura pode operar por ação.
+→ Cura é aplicada automaticamente do ferimento menos grave para o mais grave.
+→ ferimentos regridem pelos custos 1/2/4/8/16 até desaparecer.
+
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
 
@@ -104,6 +111,6 @@ A criação emergente não autoriza o Narrador a alterar retroativamente uma sit
 
 A origem de conflito pertence ao Opositor, mas não é resultado automático. O Opositor propõe; o Narrador valida coerência, meios, tempo e oportunidade; o Registro fixa o que passou a existir; somente depois a oposição pode ser movimentada normalmente.
 
-As regras específicas de alcance, movimento, iniciativa, recuperação, Mana, condições e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
+As regras específicas de alcance, movimento, iniciativa, Mana, condições e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
 
 > O Núcleo define a arquitetura comum da mesa. Regras específicas usam essa base sem redefinir autoridade ou procedimento.
