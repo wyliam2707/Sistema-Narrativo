@@ -57,6 +57,9 @@ Pontos de Poder: [12] / [12]
 --- TRAÇO: Semente Imortal
 [Corvin não envelhece. Sua imortalidade pode ser rompida se ele morrer duas vezes dentro do mesmo Ciclo da Vida.]
 
+--- TRAÇO: Aparência Inofensiva
+[Corvin passa por comum porque sua natureza não se destaca do mundo ao redor; seus poderes se escondem no ambiente como uma sombra no escuro.]
+
 ## Recursos
 
 --- Refúgio Ártico: grande caverna em uma montanha isolada do Ártico, transformada por Corvin ao longo dos últimos 30 anos em base, oficina e residência. Possui forja, laboratório de alquimia, biblioteca, energia, internet e infraestrutura mundana, além de estruturas, itens e proteções mágicas criadas ao longo de anos.
