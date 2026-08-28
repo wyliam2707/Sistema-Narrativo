@@ -20,7 +20,7 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 → resolve ações realmente simultâneas com uma única rolagem e faixas espelhadas em torno de 7, sem vantagem artificial por ordem de declaração.
 
 0.5-combate.md
-→ separa técnica de efeito: Ataque contra Defesa decide se a ofensiva entra; Poderes de escala ofensiva ou proteção participam depois da Potência ou Resistência.
+→ Ataque contra Defesa resolve técnica e já gera Potência de Execução 0/1/2/3; Poder ou equipamento ofensivo soma depois para formar a Potência Final.
 
 0.6-dano-e-ferimentos.md
 → resolve `1d6 + Potência` contra `1d6 + Resistência`, converte a diferença em gravidade, acumula ferimentos por caixas e define recuperação por Cura, sem pontos de Vida.
@@ -98,10 +98,14 @@ RESOLUÇÃO
 → disputas realmente simultâneas usam 0.4-disputas-simultaneas.md para evitar vantagem artificial de lado ativo.
 
 COMBATE
-→ técnica e escala são separadas.
 → Ataque usa Atributo + Combate ou Conjuração.
 → Defesa usa Atributo + Defesa.
-→ Poderes que representam potência ou proteção entram na etapa de efeito, não automaticamente no teste técnico.
+→ a única rolagem técnica usa `2d6 + Ataque - Defesa + situação`.
+→ resultado 6-/7–9/10–11/12+ gera Potência de Execução 0/1/2/3.
+→ em 6-, o ataque falha e o efeito não entra.
+→ em um acerto, somar depois Poder ou equipamento ofensivo pertinente.
+→ `Potência Final = Potência de Execução + Poder`.
+→ proteção não aumenta automaticamente Defesa técnica; entra na Resistência quando pertinente.
 
 POTÊNCIA DE EFEITO
 → um teste de execução usa `2d6 + Atributo + Perícia`.
@@ -112,7 +116,7 @@ POTÊNCIA DE EFEITO
 → efeito resistido usa `1d6 + Potência` contra `1d6 + Resistência`.
 
 DANO
-→ depois de um acerto, resolver `1d6 + Potência` contra `1d6 + Resistência`.
+→ depois de um acerto, resolver `1d6 + Potência Final` contra `1d6 + Resistência`.
 → diferença positiva determina gravidade do ferimento.
 → não existem pontos de Vida.
 → ferimentos iguais acumulam e sobem uma categoria.
