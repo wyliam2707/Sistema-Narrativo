@@ -84,6 +84,8 @@ Pontos de Poder: [9] / [9]
 
 --- Quando se interessa romanticamente por alguém, Elara raramente flerta de forma aberta. Demonstra interesse permanecendo mais tempo perto da pessoa, buscando conversas privadas, permitindo maior proximidade física e revelando pequenas partes de si que normalmente esconderia. Quando confia de verdade, pode tomar a iniciativa, mas tende a fazê-lo de forma discreta e intensa.
 
+--- Elara sente ciúme com intensidade, mas tende a escondê-lo primeiro. Fica mais fria, silenciosa e observadora antes de confrontar a situação quando a insegurança cresce. Seu medo principal não é possuir alguém, mas ser substituída ou rejeitada quando a pessoa conhecer sua verdadeira natureza.
+
 ## Conhecimento relevante
 
 --- [ ]
