@@ -26,6 +26,14 @@ Seguir:
 CRIACAO-DE-CAMPANHA.md
 ```
 
+A criação segue:
+
+```text
+PASSO 01 — Narrativa da Campanha
+PASSO 02 — Temporada
+PASSO 03 — Fichas
+```
+
 A ficção só começa quando existir informação suficiente para apresentar a primeira cena sem inventar escolhas ou fatos estruturais essenciais.
 
 ## Continuar campanha
@@ -39,16 +47,20 @@ campanhas/<nome>/README.md
 Depois carregar, no mínimo:
 
 ```text
-mestre/roteiro.md
+mestre/narrativa.md
++ mestre/roteiro.md
 + estado/atual.md
 + fichas das personagens atualmente relevantes
 ```
 
-Essas três fontes possuem funções diferentes:
+Essas fontes possuem funções diferentes:
 
 ```text
-ROTEIRO DA CAMPANHA
-→ foco, tom, premissa, trama de fundo e limites de direção.
+NARRATIVA DA CAMPANHA
+→ foco persistente, gênero, tom, experiência desejada e premissas gerais.
+
+ROTEIRO DA TEMPORADA
+→ situação, trama de fundo, prazo, miniquests, direção atual e condição de encerramento.
 
 FICHA DA PERSONAGEM
 → principal fonte de interpretação, capacidades, relações e conhecimento consolidado.
@@ -60,7 +72,7 @@ LIVROS / MUNDO / OUTROS ARQUIVOS
 → contexto externo consultado quando necessário.
 ```
 
-O roteiro não determina resultados nem substitui o julgamento. Ele impede que a campanha perca sua direção por causa de uma trama secundária, improvisação ou mudança automática de tom.
+A Narrativa impede que a campanha perca sua identidade. O Roteiro impede que a temporada perca seu arco atual. Nenhum dos dois determina resultados nem substitui julgamento.
 
 Conhecimento registrado na ficha já faz parte da personagem. Não apresentar novamente como descoberta, nem reiniciar automaticamente um conflito de aceitação ou aprendizado que já esteja consolidado.
 
@@ -76,12 +88,26 @@ CRIAÇÃO: EM ANDAMENTO
 → não iniciar ficção ainda
 ```
 
+## Entre temporadas
+
+Se a temporada anterior já terminou e ainda não existe um novo `mestre/roteiro.md` ativo:
+
+```text
+→ não iniciar uma nova trama por conta própria.
+→ conferir o epílogo e as fontes consolidadas.
+→ perguntar ou retomar a pergunta: “E agora?”
+→ seguir CRIACAO-DE-TEMPORADA.md somente depois da nova direção.
+```
+
+Um problema aberto no epílogo não autoriza assumir que a próxima temporada será sobre ele.
+
 ## Campanha pronta
 
 ```text
 CRIAÇÃO: CONCLUÍDA
 → reconstruir as cadeiras necessárias
-→ carregar Roteiro da Campanha
+→ carregar Narrativa da Campanha
+→ carregar Roteiro da Temporada ativa
 → carregar Estado Atual
 → carregar personagens relevantes
 → reconstruir intenções persistentes relevantes
@@ -98,6 +124,7 @@ Basta existir o necessário para a situação atual:
 
 ```text
 sobre o que esta campanha é
+qual temporada está ativa
 quem são as peças relevantes
 quem controla cada uma
 o que está acontecendo agora
@@ -114,23 +141,38 @@ Não exigir preenchimento de informação que ainda não tenha utilidade real.
 Fluxo normal:
 
 ```text
-roteiro + estado + intenções persistentes
+narrativa + roteiro da temporada + estado + intenções persistentes
 → alguma cadeira possui motivo para nova iniciativa?
 → interpretar cada personagem a partir da própria ficha
 → Narrador cruza as intenções relevantes
 → resolve somente se houver incerteza ou oposição
 → avança até o próximo ponto relevante
 → para se surgir nova decisão humana
-→ narra a sentença dentro da direção da campanha
+→ narra a sentença dentro da identidade da campanha e do arco atual
 → registra o que precisa continuar verdadeiro
 ```
 
 O mundo pode continuar agindo durante uma intenção longa do Jogador Humano. Isso não autoriza a IA a escolher uma nova decisão por ele.
 
-Uma miniquest, investigação, combate ou outro desvio local pode ocupar a cena quando fizer sentido, mas não substitui automaticamente o foco principal registrado no roteiro.
+Uma miniquest, investigação, combate ou outro desvio local pode ocupar a cena quando fizer sentido, mas não substitui automaticamente o foco persistente da campanha nem o arco atual da temporada.
 
 Consultar somente a fonte pertinente ao caso atual.
 
+## Quando a condição de encerramento acontece
+
+Se a condição de encerramento registrada no roteiro da temporada for alcançada:
+
+```text
+→ concluir somente a situação já em resolução
+→ seguir o fechamento definido em CRIACAO-DE-TEMPORADA.md
+→ escrever epílogo
+→ consolidar fontes
+→ arquivar o roteiro
+→ perguntar “E agora?”
+```
+
+Não continuar automaticamente para uma nova temporada.
+
 ## Regra final
 
-> **Para começar ou retomar, carregue o roteiro, o presente e as fichas das peças relevantes. O roteiro preserva a direção da campanha; a ficha é a principal fonte de interpretação da personagem; Estado Atual registra o temporário e livros ou outros arquivos fornecem contexto externo sob demanda. Conhecimento já consolidado não deve ser redescoberto sem fato novo.**
+> **Para começar ou retomar, carregue Narrativa da Campanha, Roteiro da Temporada, presente e fichas relevantes. A Narrativa preserva a identidade; o Roteiro preserva o arco atual; a ficha preserva interpretação e continuidade; o Estado guarda o temporário. Quando uma temporada termina, não invente a próxima: consolide, escreva o epílogo e volte à pergunta “E agora?”.**
