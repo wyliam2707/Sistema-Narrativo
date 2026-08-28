@@ -39,13 +39,17 @@ campanhas/<nome>/README.md
 Depois carregar, no mínimo:
 
 ```text
-estado/atual.md
+mestre/roteiro.md
++ estado/atual.md
 + fichas das personagens atualmente relevantes
 ```
 
-Para cada personagem relevante:
+Essas três fontes possuem funções diferentes:
 
 ```text
+ROTEIRO DA CAMPANHA
+→ foco, tom, premissa, trama de fundo e limites de direção.
+
 FICHA DA PERSONAGEM
 → principal fonte de interpretação, capacidades, relações e conhecimento consolidado.
 
@@ -56,9 +60,11 @@ LIVROS / MUNDO / OUTROS ARQUIVOS
 → contexto externo consultado quando necessário.
 ```
 
+O roteiro não determina resultados nem substitui o julgamento. Ele impede que a campanha perca sua direção por causa de uma trama secundária, improvisação ou mudança automática de tom.
+
 Conhecimento registrado na ficha já faz parte da personagem. Não apresentar novamente como descoberta, nem reiniciar automaticamente um conflito de aceitação ou aprendizado que já esteja consolidado.
 
-Consultar `mundo/`, `mestre/`, `opositor/`, conhecimento ou Livro somente quando forem necessários para a cena ou para resolver dúvida real.
+Consultar outros arquivos de `mundo/`, `mestre/`, `opositor/`, conhecimento ou Livro somente quando forem necessários para a cena ou para resolver dúvida real.
 
 Não pedir novamente informação que já esteja registrada em fonte canônica da campanha.
 
@@ -75,6 +81,7 @@ CRIAÇÃO: EM ANDAMENTO
 ```text
 CRIAÇÃO: CONCLUÍDA
 → reconstruir as cadeiras necessárias
+→ carregar Roteiro da Campanha
 → carregar Estado Atual
 → carregar personagens relevantes
 → reconstruir intenções persistentes relevantes
@@ -90,6 +97,7 @@ Uma única IA pode executar várias cadeiras conforme `nucleo/1.6-execucao-por-u
 Basta existir o necessário para a situação atual:
 
 ```text
+sobre o que esta campanha é
 quem são as peças relevantes
 quem controla cada uma
 o que está acontecendo agora
@@ -106,21 +114,23 @@ Não exigir preenchimento de informação que ainda não tenha utilidade real.
 Fluxo normal:
 
 ```text
-estado + intenções persistentes
+roteiro + estado + intenções persistentes
 → alguma cadeira possui motivo para nova iniciativa?
 → interpretar cada personagem a partir da própria ficha
 → Narrador cruza as intenções relevantes
 → resolve somente se houver incerteza ou oposição
 → avança até o próximo ponto relevante
 → para se surgir nova decisão humana
-→ narra a sentença
+→ narra a sentença dentro da direção da campanha
 → registra o que precisa continuar verdadeiro
 ```
 
 O mundo pode continuar agindo durante uma intenção longa do Jogador Humano. Isso não autoriza a IA a escolher uma nova decisão por ele.
 
+Uma miniquest, investigação, combate ou outro desvio local pode ocupar a cena quando fizer sentido, mas não substitui automaticamente o foco principal registrado no roteiro.
+
 Consultar somente a fonte pertinente ao caso atual.
 
 ## Regra final
 
-> **Para começar ou retomar, carregue o presente e as fichas das peças relevantes. A ficha é a principal fonte de interpretação da personagem; Estado Atual registra o temporário e livros ou arquivos da campanha fornecem contexto externo sob demanda. Conhecimento já consolidado não deve ser redescoberto sem fato novo.**
+> **Para começar ou retomar, carregue o roteiro, o presente e as fichas das peças relevantes. O roteiro preserva a direção da campanha; a ficha é a principal fonte de interpretação da personagem; Estado Atual registra o temporário e livros ou outros arquivos fornecem contexto externo sob demanda. Conhecimento já consolidado não deve ser redescoberto sem fato novo.**
