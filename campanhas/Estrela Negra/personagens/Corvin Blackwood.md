@@ -26,17 +26,17 @@ Total de Perícias: [15] / [15]
 
 ## Poderes e Equipamentos
 
---- Magia Natural [2] - custo 6 pontos.
-Escopo: magia druídica ampla de suporte, utilidade e proteção. Permite curar e restaurar, estimular ou controlar plantas, comunicar-se e interagir sobrenaturalmente com animais e com a natureza, invocar espíritos animais para auxílio, assumir a forma de um pássaro para deslocamento ou exploração e criar proteções, barreiras e runas naturais ou místicas. Não é focada em ataque direto.
+--- Dádiva da Terra [2] - custo 6 pontos.
+Escopo: expressão protetora e vital do domínio natural de Corvin. Permite curar e restaurar, estimular ou controlar plantas, comunicar-se e interagir sobrenaturalmente com animais e com a natureza, invocar espíritos animais para auxílio, assumir a forma de um pássaro para deslocamento ou exploração e criar proteções, barreiras e runas naturais ou místicas.
 
---- Magia de Criação [1] - custo 2 pontos.
-Escopo: permite criar e fabricar uma grande variedade de objetos por meios sobrenaturais, desde que Corvin disponha dos materiais adequados, tempo suficiente e do conhecimento pertinente de Forja ou Alquimia. Não cria matéria do nada.
+--- Forja Primordial [1] - custo 2 pontos.
+Escopo: expressão criadora e transformadora do domínio natural. Permite fabricar uma grande variedade de objetos por meios sobrenaturais, desde que Corvin disponha dos materiais adequados, tempo suficiente e do conhecimento pertinente de Forja ou Alquimia. Não cria matéria do nada.
 
---- Portal [1] - custo 1 ponto.
-Escopo: permite abrir um portal e se teleportar diretamente para um local conhecido por Corvin. Não permite escolher destinos desconhecidos apenas por descrição, coordenadas ou suposição.
+--- Caminhos [1] - custo 1 ponto.
+Escopo: permite a Corvin atravessar caminhos sobrenaturais do mundo e abrir um portal diretamente para um local que ele já conhece. Não permite escolher destinos desconhecidos apenas por descrição, coordenadas ou suposição.
 
---- Deus da Morte [3] - custo 3 pontos.
-Escopo: magia ofensiva direta que permite a Corvin projetar poder sobrenatural para causar dano mágico. Não concede por si só drenagem, maldição, morte instantânea ou outros efeitos adicionais.
+--- Fúria da Terra [3] - custo 3 pontos.
+Escopo: expressão destrutiva do domínio natural de Corvin. Permite causar dano mágico por manifestações violentas da natureza, como tempestades, relâmpagos, nevascas, vendavais, erupções, magma e fenômenos semelhantes. Não concede efeitos adicionais automáticos além do dano.
 
 Pontos de Poder: [12] / [12]
 
