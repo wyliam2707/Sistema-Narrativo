@@ -163,6 +163,91 @@ IMPOSSIBILIDADE EVIDENTE
 
 Se uma capacidade ou Traço torna a ação possível ou impossível de forma evidente, isso já resolve essa parte sem bônus ou subsistema novo.
 
+A abordagem declarada também precisa ser plausível para o problema.
+
+```text
+jogador escolheu conversar
+≠ toda ameaça possui solução social.
+
+jogador escolheu força
+≠ todo problema pode ser resolvido à força.
+```
+
+> **Não adaptar todo obstáculo à abordagem escolhida pelo jogador. A situação determina quais abordagens realmente existem.**
+
+Isso preserva a utilidade prática de capacidades diferentes: combate, defesa, cura, furtividade, investigação, magia, influência e outras não precisam resolver os mesmos problemas.
+
+## 5.1 — Classificação narrativa de NPCs e criaturas
+
+Quando uma peça precisar de uma referência simples de posição em relação aos **personagens principais**, usar:
+
+```text
+ALIADO
+→ possui motivo para ajudar os personagens principais.
+→ ajuda dentro de seus interesses, capacidades e função.
+→ não significa obediência automática.
+
+NEUTRO
+→ não possui compromisso persistente de ajudar ou impedir.
+→ pode conversar, negociar, cooperar, recusar ou seguir a própria vida.
+
+HOSTIL
+→ possui uma oposição concreta aos personagens principais.
+→ pode conversar, ameaçar, barganhar, recuar ou ser convencido a não agir naquele momento.
+→ a oposição permanece.
+
+INIMIGO
+→ foi criado como ameaça de confronto contra os personagens principais.
+→ quando o encontro acontece, o confronto faz parte da função da cena.
+→ diálogo não cria uma resolução social que remova esse confronto.
+```
+
+A classificação é sempre relativa aos personagens principais e serve como **referência operacional do Narrador**. Não é moralidade, personalidade completa nem opinião universal sobre a peça.
+
+Quando `HOSTIL`, registrar também contra o quê existe oposição quando isso não for óbvio:
+
+```text
+José [ALIADO — também quer sair da cidade]
+
+Comerciante [NEUTRO]
+
+Vael [HOSTIL — impedir entrada no labirinto]
+
+Moradores [HOSTIS — impedir que os protagonistas deixem a cidade]
+
+Saar [INIMIGO — predador; confronto ao encontrar os protagonistas]
+```
+
+A classificação permanece estável durante as interações comuns.
+
+```text
+NEUTRO ajuda numa ocasião
+→ continua NEUTRO.
+
+HOSTIL aceita uma trégua
+→ continua HOSTIL.
+
+HOSTIL é convencido a não atacar agora
+→ continua HOSTIL.
+
+INIMIGO fala, ameaça ou provoca
+→ continua INIMIGO.
+```
+
+Uma criatura inteligente pode ser `INIMIGO`. Inteligência permite estratégia, fala, ameaça, manipulação ou emboscada; não cria interesses compatíveis.
+
+```text
+INIMIGO encontra os protagonistas
+→ pode atacar diretamente.
+→ pode caçar.
+→ pode emboscar.
+→ pode falar antes ou durante o confronto.
+```
+
+> **Falar antes de lutar não significa tentar evitar a luta.**
+
+Se o jogador faz uma piada, provoca, ameaça ou diz “eu tentei” antes de atacar, o Narrador não inventa uma rota diplomática apenas porque houve fala.
+
 ## 6 — Identificar oposição ou incerteza
 
 Se existe outra vontade ou competência legítima se opondo diretamente:
@@ -219,6 +304,8 @@ A consequência de `7–9` deve nascer do risco, oposição ou situação já pr
 Quando a força do efeito realmente importar, usar Potência conforme a regra própria.
 
 Traços continuam valendo depois da rolagem. Um sucesso técnico não ignora uma verdade que limite dano, Mana, percepção ou outra mecânica específica.
+
+Um sucesso social também não cria uma possibilidade que a cena não oferecia. Ele resolve somente aquilo que era legitimamente influenciável.
 
 ## 9 — Cruzar as intenções
 
@@ -339,6 +426,8 @@ Não criar por conveniência:
 - conhecimento impossível;
 - passividade artificial para deixar o protagonista resolver tudo;
 - mudança de personalidade para preservar harmonia;
+- receptividade social para premiar uma tentativa de conversa;
+- solução social para uma peça definida como `INIMIGO`;
 - interpretação de Traço além do que sua descrição realmente afirma.
 
 O julgamento preserva a realidade e as personagens, não uma direção desejada da história.
@@ -351,6 +440,7 @@ INTENÇÕES + ESTADO
 → preservar decisões independentes
 → conferir Traços relevantes
 → verificar possibilidade
+→ respeitar classificação narrativa quando existir
 → oposição ou incerteza?
 → menor resolução necessária
 → cruzar intenções no tempo
@@ -363,4 +453,4 @@ INTENÇÕES + ESTADO
 
 ## Regra final
 
-> **O Narrador recebe intenções independentes, confere o estado e aplica Traços relevantes antes da resolução. Traço é verdade, não bônus: aplica-se exatamente dentro da descrição e nunca por extrapolação. Depois, resolver somente a incerteza restante, avançar a ficção até o primeiro ponto relevante e devolver qualquer nova escolha humana ao jogador.**
+> **O Narrador recebe intenções independentes, confere o estado e aplica as verdades relevantes antes da resolução. Uma abordagem só funciona quando a situação realmente a permite; falar não cria receptividade e um `INIMIGO` continua sendo uma ameaça de confronto. Depois, resolver somente a incerteza restante, avançar a ficção até o primeiro ponto relevante e devolver qualquer nova escolha humana ao jogador.**
