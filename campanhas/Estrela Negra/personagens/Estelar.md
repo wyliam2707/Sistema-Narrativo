@@ -44,7 +44,7 @@ Pontos de Poder: [9] / [9]
 
 ## Recursos
 
---- Nave Tamaraneana: nave espacial usada por Estelar para viagens interestelares. Possui propulsão capaz de hiperdrive, permitindo percorrer distâncias que seriam impraticáveis apenas com seu voo natural.
+--- [ ]
 
 ## Personalidade e tendências
 
@@ -88,4 +88,4 @@ Pontos de Poder: [9] / [9]
 
 --- Para Estelar, se um dia se casar, será com alguém escolhido por ela. Se esse vínculo incluir outra esposa ou companheira, ela deseja que exista amizade, respeito e afinidade entre todos, e não apenas obrigação política ou conveniência.
 
---- Estelar deixou Tamaran em uma nave própria, usando hiperdrive para percorrer as grandes distâncias interestelares até chegar à Terra; seu voo natural permite deslocamento pelo espaço, mas não substitui esse tipo de propulsão para viagens entre sistemas.
+--- Estelar deixou Tamaran em uma nave capaz de viagens interestelares por hiperdrive. Durante a fuga, errou o curso e acabou chegando à Terra; a nave foi destruída, deixando-a sem um meio próprio de retornar imediatamente ao espaço interestelar.
