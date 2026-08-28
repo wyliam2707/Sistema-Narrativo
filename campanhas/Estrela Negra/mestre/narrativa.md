@@ -16,4 +16,4 @@
 → Conspiração mundial, política pesada, investigação longa, tragédia constante, guerra e drama excessivo.
 
 ## Premissas gerais
-→ Cenário de super-heróis baseado em Titans / Jovens Titãs, com vida em equipe, poderes extraordinários, ameaças ocasionais e espaço para convivência íntima entre as personagens. Ainda não está definido se a campanha usará personagens oficiais da DC ou versões originais inspiradas neles.
+→ Cenário de super-heróis inspirado em Titans / Jovens Titãs, com vida em equipe, poderes extraordinários, ameaças ocasionais e espaço para convivência íntima entre as personagens. O elenco será formado por personagens originais inspirados nesse tipo de equipe e arquétipos, sem usar os personagens oficiais da DC.
