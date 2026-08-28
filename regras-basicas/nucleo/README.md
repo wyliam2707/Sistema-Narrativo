@@ -33,6 +33,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 
 1.6-execucao-por-uma-unica-ia.md
 → protocolo para uma única IA técnica executar várias cadeiras sem misturar conhecimento, objetivos ou autoridade.
+
+1.7-criacao-emergente.md
+→ autoridade limitada do Narrador para completar partes ainda indefinidas do mundo com fatos neutros, sem criar vantagens, obstáculos ou oposição retroativa.
 ```
 
 ## Princípio estrutural
@@ -46,6 +49,7 @@ OPOSITOR
 
 NARRADOR
 → julga o conjunto apresentado.
+→ pode completar espaços ainda indefinidos do mundo somente dentro dos limites de criação emergente neutra.
 
 RESOLUÇÃO
 → decide incertezas quando necessário.
@@ -64,6 +68,8 @@ REGISTRO
 A ordem usada pela IA para executar internamente as cadeiras não determina ordem ficcional, iniciativa ou prioridade.
 
 As declarações operacionais das cadeiras da IA podem permanecer internas durante o jogo normal; o usuário recebe principalmente a sentença narrada e o próximo ponto em que sua própria decisão é necessária.
+
+A criação emergente não autoriza o Narrador a alterar retroativamente uma situação em resposta à ação declarada. Fatos neutros podem completar o mundo ainda indefinido; fatos consequenciais precisam de fundamento legítimo conforme `1.7-criacao-emergente.md`.
 
 As regras específicas de Defesas, Resistências, alcance, movimento, dano, Vida, Mana, condições, Poderes e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
 
