@@ -142,9 +142,23 @@ INCERTEZA REAL
 
 Não rolar por hábito, importância dramática ou desejo de criar tensão.
 
-## Passo 5 — definir Dificuldade quando necessária
+## Passo 5 — definir modificador da situação quando necessário
 
-Quando existir incerteza sem disputa, definir a Dificuldade olhando apenas para:
+Quando existir incerteza sem disputa, avaliar o conjunto das circunstâncias concretas antes da rolagem.
+
+O sistema não usa uma escala separada de Dificuldades numéricas.
+
+Se as condições forem especialmente favoráveis ou desfavoráveis, aplicar um único modificador conforme `0.1-resolucao.md`:
+
+```text
++2 → muito favorável
++1 → favorável
+ 0 → normal
+-1 → difícil
+-2 → muito difícil
+```
+
+O modificador é definido olhando apenas para:
 
 - ação;
 - método;
@@ -152,17 +166,18 @@ Quando existir incerteza sem disputa, definir a Dificuldade olhando apenas para:
 - tempo;
 - condições concretas.
 
-Não consultar a ficha da personagem para aumentar ou diminuir a Dificuldade.
+Não consultar o valor da Perícia da personagem para aumentar ou diminuir esse modificador.
 
 ```text
 AÇÃO + CONDIÇÕES
-→ Dificuldade
+→ modificador da situação
 
 DEPOIS
-→ consultar a Perícia da personagem para resolver
+→ consultar a Perícia da personagem
+→ resolver o teste
 ```
 
-Usar a escala de `0.1-resolucao.md`.
+Não somar vários pequenos bônus ou penalidades. Julgar o conjunto das circunstâncias e aplicar um único modificador final.
 
 ## Passo 6 — usar a menor resolução necessária
 
@@ -185,20 +200,25 @@ Tempo sozinho não cria teste.
 Quando houver teste, estabelecer exatamente o que a faixa significa.
 
 ```text
-FALHA
-→ efeito pretendido não foi obtido.
+6 OU MENOS — FALHA
+→ o efeito pretendido não foi obtido.
+→ consequência somente quando fizer parte do risco concreto da ação ou oposição.
 
-EFEITO MÍNIMO
-→ menor efeito previsto pela situação.
+7–9 — SUCESSO COM CONSEQUÊNCIA
+→ a intenção principal acontece.
+→ uma consequência relevante e diretamente ligada ao risco permanece ou surge.
 
-EFEITO PARCIAL
-→ parte relevante do efeito.
+10–11 — SUCESSO
+→ o efeito pretendido acontece sem consequência adicional criada pelo teste.
 
-EFEITO PRETENDIDO
-→ objetivo declarado dentro do alcance real da ação.
+12 OU MAIS — SUCESSO EXCEPCIONAL
+→ o efeito pretendido acontece.
+→ quando houver espaço ficcional, surge também um benefício diretamente relacionado à ação.
 ```
 
-Não aumentar nem reduzir a faixa porque o resultado parecer narrativamente melhor.
+Não aumentar nem reduzir a faixa porque outro resultado parecer narrativamente melhor.
+
+Um `7–9` não deve ser transformado em falha disfarçada: o objetivo principal continua acontecendo.
 
 ## Passo 8 — cruzar todas as intenções
 
@@ -347,7 +367,7 @@ JULGAMENTO
 → possível
 → Furtividade contra Percepção
 → disputa legítima
-→ teste obrigatório
+→ teste obrigatório conforme 0.1-resolucao.md
 ```
 
 O resultado define o que foi percebido.
@@ -372,4 +392,4 @@ JULGAMENTO
 
 ## Regra final
 
-> **Janela completa primeiro. Possibilidade antes de teste. Disputa legítima sempre resolve mecanicamente. Sem disputa, só teste quando existir incerteza real. Cruze todas as intenções no tempo, respeite processos e prazos, estabeleça a realidade inteira da sentença e somente depois narre.**
+> **Janela completa primeiro. Possibilidade antes de teste. Disputa legítima sempre resolve mecanicamente. Sem disputa, só teste quando existir incerteza real. Quando houver circunstâncias relevantes, aplique um único modificador de situação conforme `0.1-resolucao.md`. Cruze todas as intenções no tempo, respeite processos e prazos, estabeleça a realidade inteira da sentença e somente depois narre.**
