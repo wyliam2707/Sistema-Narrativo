@@ -20,7 +20,7 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 → resolve ações realmente simultâneas com uma única rolagem e faixas espelhadas em torno de 7, sem vantagem artificial por ordem de declaração.
 
 0.5-combate.md
-→ Ataque contra Defesa resolve técnica e já gera Potência de Execução 0/1/2/3; Poder ou equipamento ofensivo soma depois para formar a Potência Final.
+→ Ataque contra Defesa resolve técnica e gera Potência Nula/1/2/3; Poder ou equipamento ofensivo soma depois somente quando o efeito entra.
 
 0.6-dano-e-ferimentos.md
 → resolve `1d6 + Potência` contra `1d6 + Resistência`, converte a diferença em gravidade e aplica a recuperação pelos degraus de Cura, sem pontos de Vida.
@@ -29,13 +29,13 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 → usa a ordem ficcional quando evidente e só resolve prioridade quando agir primeiro realmente estiver em disputa; não mantém iniciativa permanente.
 
 0.8-tempo-e-acoes.md
-→ define rodadas de aproximadamente 10 segundos e permite uma intenção principal plausível com os movimentos e gestos necessários, sem economia rígida de ações.
+→ define rodada como aproximadamente 10 segundos, turno como oportunidade operacional da personagem e uma intenção principal plausível sem economia rígida de ações.
 
 0.9-alcance-e-movimento.md
 → usa quatro faixas relativas — Toque, Perto, Médio e Longe — e movimento abstrato sem exigir mapa ou metros.
 
 0.10-mana.md
-→ define Mana como esforço extra com limite total de 2 por turno, distribuído na declaração entre Ação, Efeito e Defesa, com recuperação total após 1 hora de descanso curto.
+→ define Mana como esforço extra com limite total de 2 por turno, distribuído na declaração entre Ação, Efeito e Defesa; Mana defensiva dura até o início do próximo turno da personagem.
 
 0.11-vida-e-mente.md
 → define dois trilhos universais em linha, Vida e Mente, com a mesma progressão Leve/Sério/Grave/Crítico/Incapacitado e descrição narrativa do estado concreto.
@@ -47,7 +47,7 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 → usa a Potência de Efeito universal para gerar Cura e aplica o resultado diretamente em Vida ou Mente conforme o escopo Física, Mental ou Completa.
 
 0.14-potencia-de-efeito.md
-→ transforma o resultado de `Atributo + Perícia` em Potência de Execução `0/1/2/3`, soma a graduação do Poder depois e usa a Potência final diretamente ou contra Resistência conforme o efeito.
+→ transforma o resultado de `Atributo + Perícia` em Potência Nula/1/2/3; Poder soma depois somente quando a execução produz efeito.
 
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
@@ -101,18 +101,19 @@ COMBATE
 → Ataque usa Atributo + Combate ou Conjuração.
 → Defesa usa Atributo + Defesa.
 → a única rolagem técnica usa `2d6 + Ataque - Defesa + situação`.
-→ resultado 6-/7–9/10–11/12+ gera Potência de Execução 0/1/2/3.
-→ em 6-, o ataque falha e o efeito não entra.
+→ 6- gera Potência Nula: o ataque falha, o efeito não entra e a resolução ofensiva encerra.
+→ 7–9 / 10–11 / 12+ geram Potência de Execução 1 / 2 / 3.
 → em um acerto, somar depois Poder ou equipamento ofensivo pertinente.
 → `Potência Final = Potência de Execução + Poder`.
 → proteção não aumenta automaticamente Defesa técnica; entra na Resistência quando pertinente.
 
 POTÊNCIA DE EFEITO
 → um teste de execução usa `2d6 + Atributo + Perícia`.
-→ resultado 6-/7–9/10–11/12+ gera Potência de Execução 0/1/2/3.
+→ 6- gera Potência Nula e encerra o efeito.
+→ 7–9 / 10–11 / 12+ geram Potência de Execução 1 / 2 / 3.
 → se um Poder ou equipamento fornecer a força do efeito, somar sua graduação depois.
 → `Potência Final = Potência de Execução + Poder`.
-→ efeito direto usa a Potência final diretamente.
+→ efeito direto usa a Potência Final diretamente.
 → efeito resistido usa `1d6 + Potência` contra `1d6 + Resistência`.
 
 DANO
@@ -124,7 +125,8 @@ DANO
 RECUPERAÇÃO
 → Vida e Mente usam a mesma matemática de Cura.
 → quando houver teste, usar `2d6 + Atributo + Perícia`.
-→ o resultado gera Potência de Execução 0/1/2/3 conforme 0.14.
+→ 6- gera Potência Nula: não existe Cura Final naquela tentativa.
+→ 7–9 / 10–11 / 12+ geram Potência de Execução 1 / 2 / 3.
 → Poder ou equipamento de Cura soma sua graduação depois.
 → `Cura Final = Potência de Execução + Cura`.
 → Cura é efeito direto: aplicar a Cura Final sem nova rolagem de efeito.
@@ -141,13 +143,16 @@ INICIATIVA
 → só existe disputa quando agir primeiro realmente importa e a prioridade não está estabelecida.
 → normalmente usa Agilidade + Percepção e a resolução espelhada de 0.4.
 → não existe lista permanente de iniciativa.
-→ em rodadas, registrar apenas se cada participante já usou sua ação principal.
+→ iniciativa decide apenas prioridade e não gera Potência de Execução.
+→ em rodadas, registrar apenas se cada participante já usou sua intenção principal.
 
 TEMPO E AÇÕES
-→ uma rodada representa aproximadamente 10 segundos.
-→ cada participante realiza uma intenção principal plausível nesse intervalo.
+→ rodada representa aproximadamente 10 segundos de ficção.
+→ turno é a oportunidade operacional de uma personagem dentro da rodada.
+→ cada participante realiza uma intenção principal plausível.
 → movimentos e gestos necessários podem integrar a mesma intenção.
 → não há divisão automática em ação, movimento, bônus e reação.
+→ a ordem operacional dos turnos não cria prioridade ficcional por si só.
 → o Narrador julga o que cabe pela ficção, capacidades e unidade da intenção.
 
 ALCANCE E MOVIMENTO
@@ -164,8 +169,8 @@ MANA
 → os 2 pontos podem ser concentrados ou divididos entre Ação, Efeito e Defesa.
 → Mana na Ação melhora o teste, ajudando a evitar falha e podendo elevar a Potência de Execução.
 → Mana no Efeito aumenta diretamente a Potência Final.
-→ Mana na Defesa aumenta a Defesa técnica durante aquele turno.
-→ Mana defensiva declarada vale para as defesas legítimas daquele turno sem novo gasto por atacante.
+→ Mana na Defesa aumenta a Defesa técnica desde a declaração até o início do próximo turno da personagem.
+→ o mesmo bônus defensivo vale para todas as defesas legítimas nesse intervalo, sem novo gasto por atacante.
 → os gastos não podem ser realocados depois dos resultados.
 → reserva normal 5 ou 10.
 → 1 hora de descanso curto adequado restaura a reserva ao máximo.
