@@ -36,6 +36,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 
 1.7-criacao-emergente.md
 → autoridade limitada do Narrador para completar partes ainda indefinidas do mundo com fatos neutros, sem criar vantagens, obstáculos ou oposição retroativa.
+
+1.8-origem-de-conflitos.md
+→ permite ao Opositor originar novos conflitos coerentes em campanhas emergentes, sujeitos à validação do Narrador e sem construção retroativa contra ações ou fichas.
 ```
 
 ## Princípio estrutural
@@ -46,10 +49,12 @@ JOGADORES
 
 OPOSITOR
 → movimenta a oposição legítima.
+→ pode originar novos conflitos dentro dos limites de 1.8-origem-de-conflitos.md.
 
 NARRADOR
 → julga o conjunto apresentado.
 → pode completar espaços ainda indefinidos do mundo somente dentro dos limites de criação emergente neutra.
+→ valida a existência de conflitos novos antes que sejam usados na ficção.
 
 RESOLUÇÃO
 → decide incertezas quando necessário.
@@ -70,6 +75,8 @@ A ordem usada pela IA para executar internamente as cadeiras não determina orde
 As declarações operacionais das cadeiras da IA podem permanecer internas durante o jogo normal; o usuário recebe principalmente a sentença narrada e o próximo ponto em que sua própria decisão é necessária.
 
 A criação emergente não autoriza o Narrador a alterar retroativamente uma situação em resposta à ação declarada. Fatos neutros podem completar o mundo ainda indefinido; fatos consequenciais precisam de fundamento legítimo conforme `1.7-criacao-emergente.md`.
+
+A origem de conflito pertence ao Opositor, mas não é resultado automático. O Opositor propõe; o Narrador valida coerência, meios, tempo e oportunidade; o Registro fixa o que passou a existir; somente depois a oposição pode ser movimentada normalmente.
 
 As regras específicas de Defesas, Resistências, alcance, movimento, dano, Vida, Mana, condições, Poderes e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
 
