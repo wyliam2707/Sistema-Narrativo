@@ -11,7 +11,8 @@ jogador/
 ├── README.md
 ├── 1.0-descricao-da-ficha.md
 ├── 1.1-atributos-pericias-poderes.md
-└── 1.2-poderes-e-equipamentos.md
+├── 1.2-poderes-e-equipamentos.md
+└── 1.3-criacao-da-ficha.md
 ```
 
 ## `1.0-descricao-da-ficha.md`
@@ -63,6 +64,31 @@ Define a regra de Poderes e equipamentos:
 - equipamentos usam a mesma regra;
 - o que é comprado com Pontos de Poder pertence permanentemente à ficha;
 - perda ou indisponibilidade na cena não apaga o investimento.
+
+## `1.3-criacao-da-ficha.md`
+
+Define o roteiro assistido de criação:
+
+```text
+Identidade e Conceito
+→ Patamar, Atributos e Perícias
+→ Poderes e Equipamentos
+→ Personalidade e Continuidade
+→ Conferência Final
+```
+
+Quando houver base suficiente, a IA propõe uma solução coerente em vez de perguntar campo por campo.
+
+Cada bloco segue:
+
+```text
+propor
+→ corrigir ou aprovar
+→ salvar o aprovado
+→ avançar
+```
+
+A ficha é calibrada pelo que a própria personagem é, salvo pedido explícito de balanceamento com outra peça.
 
 ## Princípio
 
