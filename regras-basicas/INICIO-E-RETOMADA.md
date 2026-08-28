@@ -43,6 +43,21 @@ estado/atual.md
 + fichas das personagens atualmente relevantes
 ```
 
+Para cada personagem relevante:
+
+```text
+FICHA DA PERSONAGEM
+→ principal fonte de interpretação, capacidades, relações e conhecimento consolidado.
+
+ESTADO ATUAL
+→ situação temporária, marcas, Mana, posição e processos atuais.
+
+LIVROS / MUNDO / OUTROS ARQUIVOS
+→ contexto externo consultado quando necessário.
+```
+
+Conhecimento registrado na ficha já faz parte da personagem. Não apresentar novamente como descoberta, nem reiniciar automaticamente um conflito de aceitação ou aprendizado que já esteja consolidado.
+
 Consultar `mundo/`, `mestre/`, `opositor/`, conhecimento ou Livro somente quando forem necessários para a cena ou para resolver dúvida real.
 
 Não pedir novamente informação que já esteja registrada em fonte canônica da campanha.
@@ -93,6 +108,7 @@ Fluxo normal:
 ```text
 estado + intenções persistentes
 → alguma cadeira possui motivo para nova iniciativa?
+→ interpretar cada personagem a partir da própria ficha
 → Narrador cruza as intenções relevantes
 → resolve somente se houver incerteza ou oposição
 → avança até o próximo ponto relevante
@@ -107,4 +123,4 @@ Consultar somente a fonte pertinente ao caso atual.
 
 ## Regra final
 
-> **Para começar ou retomar, carregue o presente, as peças relevantes, suas autoridades e as intenções que ainda continuam válidas. Depois deixe cada cadeira agir dentro do próprio escopo, avance somente até a próxima decisão humana necessária e consulte detalhes sob demanda.**
+> **Para começar ou retomar, carregue o presente e as fichas das peças relevantes. A ficha é a principal fonte de interpretação da personagem; Estado Atual registra o temporário e livros ou arquivos da campanha fornecem contexto externo sob demanda. Conhecimento já consolidado não deve ser redescoberto sem fato novo.**
