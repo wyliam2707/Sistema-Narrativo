@@ -274,6 +274,56 @@ Ao fechar capítulo:
 
 O capítulo termina onde a ficção realmente parou.
 
+# Epílogo de temporada
+
+O epílogo é um fechamento especial do Livro usado quando a condição de encerramento da temporada foi realmente alcançada.
+
+Destino:
+
+```text
+campanhas/<nome>/livro/temporada-[N]-epilogo.md
+```
+
+Ele responde **como a temporada terminou**, não o que acontecerá depois.
+
+As perguntas dependem da Narrativa da Campanha.
+
+Exemplos:
+
+```text
+ROMANCE
+→ quais relações existem agora?
+→ quem está com quem?
+→ quem ainda vive junto?
+→ que entendimento ou conhecimento relacional ficou consolidado?
+
+TERROR
+→ quem sobreviveu?
+→ que perdas, medos ou ameaças permanecem?
+
+INVESTIGAÇÃO
+→ que fatos foram confirmados?
+→ que perguntas ou casos continuam realmente abertos?
+
+AÇÃO
+→ que alianças, consequências ou forças permanecem?
+```
+
+O epílogo pode ter forma literária, mas não usa a liberdade literária para avançar decisões futuras.
+
+```text
+EPÍLOGO
+→ consolida o último estado real da temporada.
+
+EPÍLOGO
+≠
+montagem automática do futuro.
+```
+
+Depois do epílogo, seguir `salvar-a-historia.md` e `../CRIACAO-DE-TEMPORADA.md`: consolidar fichas e Estado, arquivar o roteiro encerrado e perguntar **“E agora?”**.
+
+Um problema aberto pode aparecer no epílogo sem se tornar automaticamente a trama da próxima temporada.
+
 ## Numeração
 
 Usar a convenção já existente na campanha.
@@ -288,9 +338,11 @@ Se não houver uma, pode-se adotar:
 
 Antes de criar novo capítulo, verificar os arquivos existentes em `livro/` para não duplicar numeração.
 
+Epílogos de temporada usam a identificação da própria temporada e não precisam ocupar a numeração normal dos capítulos.
+
 ## Correção de cânone
 
-Se um capítulo salvo contiver erro e a correção for aprovada, substituir a versão incorreta e alinhar somente as fontes afetadas.
+Se um capítulo ou epílogo salvo contiver erro e a correção for aprovada, substituir a versão incorreta e alinhar somente as fontes afetadas.
 
 Não manter duas versões contraditórias como igualmente verdadeiras.
 
@@ -306,7 +358,7 @@ PERSONAGEM SABE
 
 ## Capítulo x estado atual
 
-Depois do fechamento, o Estado Atual deve representar somente o ponto final do capítulo.
+Depois do fechamento, o Estado Atual deve representar somente o ponto final do capítulo ou temporada.
 
 ```text
 LIVRO
@@ -318,4 +370,4 @@ ESTADO ATUAL
 
 ## Regra final
 
-> **O Livro é a memória literária da campanha. Ele registra o que realmente aconteceu em forma de conto ou romance, acompanha quem realmente teve agência, pode revelar interioridade sustentada pelo cânone e pode manter cenas românticas e íntimas adultas sem fade to black automático. A prosa pode revelar, condensar e expandir; nunca pode alterar o que aconteceu nem transformar intimidade em descrição sexual gráfica. Fechar capítulo preserva esse passado sem criar nova ficção.**
+> **O Livro é a memória literária da campanha. Ele registra o que realmente aconteceu em forma de conto ou romance, acompanha quem realmente teve agência e pode revelar interioridade sustentada pelo cânone. O epílogo de temporada consolida como o arco terminou sem escolher o futuro; depois dele, a próxima direção só nasce a partir de “E agora?”.**
