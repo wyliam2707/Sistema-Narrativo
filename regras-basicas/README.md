@@ -1,8 +1,12 @@
 # Regras Básicas
 
-Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
+Status: CANÔNICO / ATUAL
 
-Esta pasta existe para reconstruir e simplificar as regras fundamentais do Sistema Narrativo sem alterar automaticamente as regras aprovadas atuais.
+Esta pasta é a **fonte canônica das regras atuais do Sistema Narrativo**.
+
+Sua finalidade é manter o motor leve, narrativo e executável por IA sem depender de uma segunda camada de regras.
+
+> **Complexidade na construção; simplicidade na mesa.**
 
 ## Entrada
 
@@ -13,81 +17,50 @@ Nova campanha
 Nova temporada
 → CRIACAO-DE-TEMPORADA.md
 
-Continuar campanha
+Começar ou continuar campanha
 → INICIO-E-RETOMADA.md
 ```
-
-Esses arquivos são portas de entrada. Eles reutilizam as áreas existentes e não criam uma segunda camada de operação.
 
 ## Fluxo de criação
 
 ```text
-PASSO 01 — CAMPANHA
-→ define a narrativa persistente.
-
-PASSO 02 — TEMPORADA
-→ cria o arco atual com começo e encerramento.
-
-PASSO 03 — FICHAS
-→ usa campanha + temporada para decidir o que precisa ser definido nas personagens.
-```
-
-Cada passo serve de base para o seguinte sem predeterminar suas respostas.
-
-```text
 CAMPANHA
-→ sobre o que a história é.
+→ define sobre o que a história é.
 
 TEMPORADA
-→ como esse foco será explorado agora.
+→ define o arco atual.
 
 FICHAS
-→ quem são as personagens e o que precisam levar para tomar decisões coerentes nesta história.
+→ definem quem são as personagens e o que precisam levar para decidir de forma coerente nessa história.
 ```
 
 Quando uma temporada termina:
 
 ```text
 EPÍLOGO
-→ consolida como ela realmente terminou.
+→ consolida o resultado real.
 
 “E AGORA?”
-→ define a direção da próxima temporada.
+→ abre a definição da próxima direção.
 ```
 
-Problemas abertos não escolhem automaticamente o próximo arco.
+Problemas ainda abertos continuam verdadeiros, mas não escolhem automaticamente o próximo arco.
 
 ## Regra de localização
 
-`regras-basicas/` contém somente **regras, procedimentos e modelos de funcionamento**.
+`regras-basicas/` contém somente regras, procedimentos e modelos de funcionamento.
 
-Nenhum estado vivo de uma campanha deve ser armazenado aqui.
+Nenhum estado vivo de campanha deve ser armazenado aqui.
 
 ```text
 regras-basicas/
-→ como o sistema funciona
-→ regras de resolução
-→ autoridade das personas
-→ procedimentos
-→ modelos de ficha e registro
+→ como o sistema funciona.
 
 campanhas/<nome>/
-→ o que é verdade naquela campanha
-→ narrativa persistente
-→ roteiro da temporada ativa
-→ fichas reais
-→ estado atual
-→ conhecimentos
-→ relações
-→ processos em andamento
-→ prazos
-→ eventos futuros estabelecidos
-→ planos do Opositor
-→ registros do Narrador
-→ livro e demais dados da campanha
+→ o que é verdade naquela mesa.
 ```
 
-> **Regra fica em `regras-basicas/`. Verdade da mesa fica em `campanhas/<nome>/`.**
+> **Regra fica aqui. Verdade concreta fica na campanha.**
 
 ## Estrutura
 
@@ -105,13 +78,23 @@ regras-basicas/
 
 ### Núcleo
 
-Regras comuns usadas por todos: resolução, combate, tempo, alcance, Vida, Mente, Mana, Potência e autoridade das cadeiras.
+Regras comuns: resolução, combate, tempo, alcance, movimento, Vida, Mente, Mana, Potência e autoridade das cadeiras.
+
+Também define:
+
+```text
+JOGADOR HUMANO
+JOGADOR IA
+JOGADOR IA EVENTUAL
+OPOSITOR
+NARRADOR
+```
+
+Iniciativa de uma peça não concede autoridade sobre as demais. Conhecimento técnico da IA não se transforma automaticamente em conhecimento da personagem.
 
 ### Jogador
 
-Ficha, Atributos, Perícias, Poderes, equipamentos, Traços, Recursos e uso da própria personagem.
-
-A linguagem central é:
+Ficha, Atributos, Perícias, Poderes, equipamentos, Traços, Recursos e interpretação da própria personagem.
 
 ```text
 ATRIBUTO + PERÍCIA
@@ -121,34 +104,19 @@ PODER / EQUIPAMENTO
 → capacidade extraordinária utilizável e graduável.
 
 TRAÇO
-→ verdade absoluta daquela personagem dentro da descrição aprovada.
+→ verdade absoluta dentro da descrição aprovada.
 
 RECURSO
-→ posse, acesso ou infraestrutura estável sustentada pela história.
+→ posse, acesso ou infraestrutura estável.
 ```
 
-A ficha da personagem é sua principal fonte de interpretação. Ela preserva personalidade, desejos, medos, hábitos, relações e conhecimento relevante sem precisar duplicar livros ou cenário inteiro.
+A ficha é a principal fonte de interpretação da personagem, mas não substitui cenário, Livro ou outras fontes externas quando elas forem necessárias.
 
-Os blocos interpretativos não precisam responder às mesmas perguntas em toda campanha. Eles são orientados pela Narrativa da Campanha e pelo Roteiro da Temporada.
-
-```text
-FICHA
-→ quem a personagem é e o que precisa permanecer disponível para interpretá-la nesta história.
-
-ESTADO ATUAL
-→ como ela está agora.
-
-LIVROS / CENÁRIO / ARQUIVOS
-→ contexto externo consultado quando necessário.
-```
-
-Traço não é bônus. Quando relevante, o Narrador aplica exatamente a verdade descrita e somente depois resolve o que ainda permanecer incerto.
+Blocos interpretativos devem priorizar aquilo que realmente pode mudar decisões dentro do foco da campanha.
 
 ### Mestre
 
-Julgamento e apresentação da sentença: quando testar, como interpretar, aplicar Traços relevantes, narrar, manter perspectiva e parar diante de nova escolha.
-
-O Mestre preserva duas direções diferentes:
+Julgamento e apresentação da sentença: interpretar intenções, aplicar verdades relevantes, testar somente quando existir incerteza real, narrar o resultado e parar quando surgir nova decisão voluntária.
 
 ```text
 mestre/narrativa.md
@@ -158,61 +126,103 @@ mestre/roteiro.md
 → temporada ativa.
 ```
 
-O Mestre não controla o Opositor.
+O Mestre julga; não joga pelo Opositor nem transforma iniciativa do protagonista em obediência alheia.
 
 ### Opositor
 
-Decisões e continuidade do lado adversarial.
+Movimenta o lado adversarial dentro de conhecimento, meios, tempo e oportunidades legítimos.
 
-Planos e prazos reais pertencem à campanha correspondente.
+Planos, processos e prazos reais pertencem à campanha correspondente.
+
+Oposição nova não deve ser criada retroativamente para invalidar uma solução já declarada ou julgada.
 
 ### Registro
 
-Regras sobre o que precisa permanecer verdadeiro e onde salvar dentro de `campanhas/<nome>/`.
+Preserva o que precisa continuar verdadeiro e define onde salvar dentro de `campanhas/<nome>/`.
+
+```text
+registro/fontes-da-campanha.md
+→ onde cada verdade pertence.
+
+registro/salvar-a-historia.md
+→ salvar sem continuar jogando.
+
+registro/fechar-capitulo.md
+→ checkpoint, reset operacional e reancoragem.
+
+registro/estado-atual.md
+→ fotografia do presente.
+
+registro/livro-e-capitulos.md
+→ histórico canônico.
+
+registro/canonizacao-e-correcoes.md
+→ mudanças permanentes e correções de cânone.
+```
 
 ## Roteamento simples
 
 ```text
-Quero criar uma campanha
+Criar campanha
 → CRIACAO-DE-CAMPANHA.md
 
-Quero criar a próxima temporada
+Criar próxima temporada
 → CRIACAO-DE-TEMPORADA.md
 
-Quero começar ou continuar
+Começar ou continuar
 → INICIO-E-RETOMADA.md
 
-É uma regra comum a todos?
-→ Núcleo
+Regra comum a todos
+→ nucleo/
 
-É ficha, capacidade ou verdade própria de personagem?
-→ Jogador
+Ficha ou capacidade própria de personagem
+→ jogador/
 
-É julgamento ou narração imparcial?
-→ Mestre
+Julgamento ou apresentação imparcial
+→ mestre/
 
-É decisão adversarial?
-→ Opositor
+Decisão adversarial
+→ opositor/
 
-Precisa continuar verdadeiro?
-→ Registro
+Algo precisa continuar verdadeiro
+→ registro/
+
+Corrigir fato já canônico ou consolidar mudança permanente
+→ registro/canonizacao-e-correcoes.md
 ```
 
-## Princípio de trabalho
+## Carregamento
+
+Não reler toda a árvore por hábito.
 
 ```text
-regra nova
-→ discutir
-→ testar
-→ registrar aqui
-→ revisar
-→ somente depois substituir a regra antiga correspondente
+entrada da campanha
+→ carregar núcleo operacional.
+
+situação exige detalhe específico
+→ consultar a regra pertinente.
+
+fim de capítulo
+→ seguir registro/fechar-capitulo.md e reancorar as fontes essenciais.
 ```
 
-Enquanto a reformulação estiver em andamento, os arquivos desta pasta não substituem automaticamente as regras aprovadas em `sistema/`.
+O sistema deve operar por **consulta sob demanda**, não por carregamento integral obrigatório de todo arquivo em toda sessão.
 
-## Direção
+## Vigência dos arquivos
 
-A meta é reduzir consultas durante a sessão e deixar o sistema simples de executar por uma IA.
+A partir desta consolidação, `regras-basicas/` substitui integralmente a antiga árvore `sistema/`.
 
-> **Complexidade na construção; simplicidade na mesa.**
+Cabeçalhos editoriais antigos dentro de alguns arquivos, como `REFORMULAÇÃO / NÃO IMPLEMENTADO`, não reativam regras removidas nem tornam `sistema/` necessário. A vigência operacional é definida por esta pasta e pelas regras atuais nela contidas; um arquivo só deixa de valer se estiver explicitamente marcado como rascunho, legado ou incompatível.
+
+## Regra de trabalho
+
+Não criar subsistema preventivamente.
+
+```text
+necessidade real aparece
+→ identificar a função ausente ou ambígua
+→ corrigir somente essa função
+→ manter o restante simples.
+```
+
+> **Preservar função, remover duplicação e criar regra somente quando ela realmente evita ambiguidade ou perda de continuidade.**

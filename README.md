@@ -1,210 +1,135 @@
 # Sistema Narrativo
 
-Este repositório separa **o sistema do RPG** dos **dados concretos de cada campanha**.
+Este repositório separa **as regras universais do RPG** dos **dados concretos de cada campanha**.
 
 ## Estrutura atual
 
-- `sistema/` — única fonte canônica das regras atuais, criação, personagens, personas, agência, operação, resolução, narração e persistência.
-- `campanhas/` — campanhas criadas pelo fluxo atual ou arquivos explicitamente marcados como teste/incompatíveis.
-- `aventuras/` — arquivo legado de campanhas antigas; não faz parte do fluxo normal e não é fonte de regras.
-
-## Regra fundamental
-
-> **O sistema ensina como criar e operar. A campanha guarda o que foi criado e o que aconteceu.**
-
-Nada específico de uma campanha deve ser gravado como regra universal em `sistema/`.
-
----
-
-# Execução autossuficiente por IA
-
-Este repositório deve ser suficiente para uma IA executar o RPG **sem depender de memória de conversas anteriores, prompt privado, configuração externa ou conhecimento não registrado**.
-
-Ao receber somente o repositório e uma instrução como `inicie`, `vamos jogar`, `abra este sistema` ou equivalente:
-
 ```text
-1. ler este README
-→ 2. ler sistema/00-LEIA-PRIMEIRO.md
-→ 3. aplicar sistema/operacao/carregamento-do-motor.md
-→ 4. ler integralmente e de forma recursiva todos os arquivos atuais em sistema/
-→ 5. reconstruir o modelo mental do motor
-→ 6. somente então perguntar:
-   Nova campanha ou continuar uma campanha existente?
+regras-basicas/
+→ única fonte canônica das regras atuais.
+
+campanhas/
+→ campanhas, fichas, estado, mundo, material do Mestre, Opositor e Livro.
 ```
 
-A primeira pergunta ao jogador **não acontece antes do carregamento integral de `sistema/`**.
+> **Regra fica em `regras-basicas/`. Verdade da mesa fica em `campanhas/<nome>/`.**
 
-Depois dessa leitura inicial, a IA pode consultar arquivos específicos sob demanda durante o capítulo. A memória operacional acelera a execução, mas nunca substitui a fonte canônica.
+A antiga árvore `sistema/` foi aposentada depois da consolidação funcional. Ela não é mais fonte de regra nem dependência do motor atual.
 
-Ao terminar de salvar qualquer capítulo, aplicar novamente:
-
-```text
-sistema/operacao/carregamento-do-motor.md
-```
-
-antes de iniciar nova ficção.
-
-Não exigir código especial de inicialização.
-
-Não pedir ao jogador que reconte informação que já exista em fonte canônica da campanha.
-
-Se a plataforma possuir apenas **uma única IA**, isso não impede o jogo. As personas podem ser executadas sequencialmente pela mesma IA, desde que permaneçam separadas por autoridade e escopo conforme:
+## Como entrar
 
 ```text
-sistema/personas/instanciacao-da-mesa.md
-sistema/personas/escopo-de-consulta.md
+NOVA CAMPANHA
+→ regras-basicas/CRIACAO-DE-CAMPANHA.md
+
+NOVA TEMPORADA
+→ regras-basicas/CRIACAO-DE-TEMPORADA.md
+
+COMEÇAR OU CONTINUAR CAMPANHA
+→ regras-basicas/INICIO-E-RETOMADA.md
 ```
 
-Instanciar uma persona não exige criar um processo, bot ou agente externo. Significa manter uma cadeira operacional separada e obedecer ao contexto permitido para ela.
-
-> **Nenhuma capacidade externa além da leitura e aplicação destes arquivos é requisito do sistema.**
-
----
-
-# Como iniciar
-
-Depois de concluir o carregamento integral definido em `sistema/operacao/carregamento-do-motor.md`, perguntar ao jogador apenas:
-
-> **Nova campanha ou continuar uma campanha existente?**
-
-## NOVA CAMPANHA
-
-Abrir:
+Para entender a arquitetura atual, começar por:
 
 ```text
-sistema/criacao/README.md
+regras-basicas/README.md
 ```
 
-Esse é o processo canônico atual para criação de novas campanhas.
+Não é necessário reler toda a árvore de regras antes de cada ação. Carregar o núcleo operacional e consultar especialidades quando a situação realmente exigir.
 
-A nova campanha é criada em:
+## Execução por uma única IA
+
+Uma única IA técnica pode executar várias cadeiras desde que preserve autoridade e conhecimento separados.
 
 ```text
-campanhas/<nome-da-campanha>/
+JOGADOR HUMANO
+JOGADOR IA
+JOGADOR IA EVENTUAL
+OPOSITOR
+NARRADOR
 ```
 
-A criação registra seu próprio checkpoint no `README.md` da campanha e segue as regras definidas em `sistema/criacao/`.
-
-A primeira cena é proibida antes da aprovação de:
+As regras de autoridade, autonomia, conhecimento e execução estão em:
 
 ```text
-sistema/criacao/start-da-campanha.md
+regras-basicas/nucleo/
 ```
 
-> **NOVA CAMPANHA → `sistema/criacao/README.md`**
+A IA técnica poder acessar uma informação não significa que determinada personagem possa usá-la.
 
-## CONTINUAR CAMPANHA
+## Fonte da campanha
 
-Consultar primeiro:
-
-```text
-campanhas/README.md
-```
-
-Oferecer para continuação somente campanhas que não estejam explicitamente marcadas como **teste, legado ou incompatíveis com o motor atual**.
-
-Depois que o jogador escolher uma campanha válida, abrir:
+Para uma campanha concreta:
 
 ```text
 campanhas/<nome>/README.md
+→ identidade e roteamento.
+
+campanhas/<nome>/personagens/
+→ fichas.
+
+campanhas/<nome>/estado/atual.md
+→ presente necessário para retomar.
+
+campanhas/<nome>/mundo/
+→ verdades estáveis do cenário.
+
+campanhas/<nome>/mestre/
+→ narrativa, roteiro e material reservado.
+
+campanhas/<nome>/opositor/
+→ planos, processos e informações adversariais quando existirem.
+
+campanhas/<nome>/livro/
+→ histórico consolidado.
 ```
 
-O `README.md` da própria campanha define:
-
-- se a criação está em andamento ou concluída;
-- onde retomar;
-- quais personagens têm agência;
-- a Mesa operacional, quando a campanha já recebeu START;
-- onde consultar o estado atual.
-
-### Criação ainda em andamento
-
-```text
-CRIAÇÃO: EM ANDAMENTO
-→ retomar pelo checkpoint
-→ sistema/criacao/README.md
-→ não abrir cena antes do CHECK DE START
-```
-
-### Campanha já iniciada
-
-```text
-CRIAÇÃO: CONCLUÍDA
-→ reinstanciar Mesa operacional
-→ conferir escopos das personas
-→ ler estado/atual.md
-→ consultar somente fichas e fontes necessárias
-→ retomar a cena
-```
-
-Não recriar personagens, fatos ou relações que já estejam registrados.
-
-> **CONTINUAR → `campanhas/<nome>/README.md`**
-
-## Campanha marcada como incompatível
-
-Se uma pasta dentro de `campanhas/` estiver explicitamente marcada como teste antigo ou incompatível:
-
-```text
-não usar como exemplo do motor atual
-→ não continuar automaticamente
-→ não converter silenciosamente
-→ migrar somente mediante pedido explícito do jogador
-```
-
----
-
-## Arquivo legado
-
-`aventuras/` guarda campanhas produzidas por versões anteriores da arquitetura.
-
-Por padrão:
-
-- não listar seu conteúdo como campanha atual;
-- não usar suas fichas, estrutura ou mecânicas como exemplo das regras atuais;
-- não migrar, mover, reestruturar ou continuar automaticamente;
-- consultar somente quando o jogador pedir explicitamente para recuperar, examinar ou migrar material legado.
-
-As regras atuais pertencem exclusivamente a `sistema/`.
-
----
-
-## Comandos administrativos
-
-Operações de manutenção ficam separadas do fluxo normal de jogo.
-
-Para exclusão de campanha e demais procedimentos administrativos, consultar:
-
-```text
-sistema/operacao/comandos-administrativos.md
-```
-
-Nenhuma exclusão pode atingir `sistema/`, a raiz do repositório ou outra campanha por consequência indireta.
-
----
+Não pedir novamente ao jogador informação que já esteja registrada em fonte canônica suficiente.
 
 ## Prioridade das fontes
 
-Durante execução normal:
+Quando houver conflito real:
 
 ```text
+correção explícita mais recente do JOGADOR HUMANO
+→ prevalece depois de canonizada.
+
 regra universal atual
-→ sistema/
+→ regras-basicas/.
 
 fato concreto da campanha
-→ campanhas/<nome>/
+→ fonte canônica pertinente em campanhas/<nome>/.
 
-modelo mental / memória da IA
-→ cache operacional
-→ nunca prevalece sobre fonte canônica registrada
+memória, resumo ou modelo mental da IA
+→ cache operacional; nunca prevalece sobre os arquivos atuais.
 ```
 
-Se um arquivo de campanha contradizer claramente o motor atual por estar marcado como legado/incompatível, ele não deve ser usado numa campanha nova nem continuado silenciosamente.
+Correções e mudanças permanentes seguem:
+
+```text
+regras-basicas/registro/canonizacao-e-correcoes.md
+```
+
+## Operações destrutivas
+
+Exclusão de arquivo, campanha ou árvore do repositório é operação administrativa, não ficção.
+
+Antes de apagar material persistente:
+
+```text
+1. identificar exatamente o alvo;
+2. verificar que ele existe;
+3. não ampliar o alvo por inferência;
+4. obter autorização explícita do usuário para aquela exclusão;
+5. apagar somente o que foi autorizado.
+```
+
+Para apagar uma campanha inteira, usar o nome exato e deixar claro que toda a pasta `campanhas/<nome>/` será removida. Reclamação, comentário casual ou desejo de recomeçar não contam como autorização de exclusão.
 
 ## Continuidade
 
-Para iniciar ou continuar uma campanha atual, as fontes persistentes da própria campanha prevalecem sobre memória vaga de conversas anteriores.
+As fontes persistentes da campanha prevalecem sobre memória vaga de conversas anteriores.
 
-Depois de cada capítulo salvo, o motor é relido integralmente e o presente operacional da campanha é recarregado antes do capítulo seguinte.
+Ao fechar um capítulo, seguir o protocolo atual de Registro: consolidar o que aconteceu, atualizar o presente, reancorar o núcleo operacional e continuar somente depois dessa reancoragem.
 
-> **O link abre o sistema. A IA aprende o motor inteiro. Depois pergunta Nova ou Continuar. Os arquivos dizem o resto.**
+> **O repositório atual possui duas responsabilidades: `regras-basicas/` explica como jogar; `campanhas/` guarda o que existe e aconteceu.**
