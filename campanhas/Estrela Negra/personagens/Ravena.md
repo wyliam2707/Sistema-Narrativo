@@ -86,6 +86,8 @@ Pontos de Poder: [9] / [9]
 
 --- Elara sente ciúme com intensidade, mas tende a escondê-lo primeiro. Fica mais fria, silenciosa e observadora antes de confrontar a situação quando a insegurança cresce. Seu medo principal não é possuir alguém, mas ser substituída ou rejeitada quando a pessoa conhecer sua verdadeira natureza.
 
+--- Diante de uma rejeição clara, Elara aceita e não insiste. Pode se fechar, afastar-se e levar tempo para se recuperar, mas não tenta manipular, pressionar ou punir a pessoa. O que mais a machuca é descobrir que alguém só a aceitava enquanto parte de sua verdadeira natureza permanecia escondida.
+
 ## Conhecimento relevante
 
 --- [ ]
