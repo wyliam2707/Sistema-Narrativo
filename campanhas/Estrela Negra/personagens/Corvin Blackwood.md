@@ -16,8 +16,8 @@ Mana [10] / Deslocamento: andar [ ]
 
 ## Atributos
 
-Força [ ] Agilidade [ ] Vigor [ ] Intelecto [ ] Vontade [ ] Presença [ ]
-Total de Atributos: [ ] / [ ]
+Força [1] Agilidade [2] Vigor [2] Intelecto [3] Vontade [2] Presença [2]
+Total de Atributos: [12] / [12]
 
 ## Perícias
 
