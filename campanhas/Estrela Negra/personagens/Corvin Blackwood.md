@@ -54,8 +54,8 @@ Pontos de Poder: [12] / [12]
 --- TRAÇO: Ciclo da Vida
 [A cada 30 dias, ao pôr do sol, Corvin se desfaz em pó e deixa sementes ligadas ao próprio ciclo; ao amanhecer seguinte, uma delas germina em terreno próximo e forma seu novo corpo, iniciando outro ciclo. Se morrer antes disso, também se desfaz em pó e deixa sementes, mas nenhuma germina até completar o ciclo seguinte de 30 dias.]
 
---- TRAÇO: Filho da Tempestade
-[Nascido dos raios e da ira dos vulcões, Corvin não sente medo nem perde a compostura diante de perigos, ameaças ou desafios.]
+--- TRAÇO: Semente Imortal
+[Corvin não envelhece. Sua imortalidade pode ser rompida se ele morrer duas vezes dentro do mesmo Ciclo da Vida.]
 
 ## Recursos
 
@@ -63,7 +63,7 @@ Pontos de Poder: [12] / [12]
 
 ## Personalidade e tendências
 
---- [ ]
+--- Nascido dos raios e da ira dos vulcões, Corvin não sente medo nem perde a compostura diante de perigos, ameaças ou desafios.
 
 ## Desejos / objetivos
 
