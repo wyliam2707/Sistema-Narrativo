@@ -10,11 +10,52 @@ Esta pasta existe para reconstruir e simplificar as regras fundamentais do Siste
 Nova campanha
 → CRIACAO-DE-CAMPANHA.md
 
+Nova temporada
+→ CRIACAO-DE-TEMPORADA.md
+
 Continuar campanha
 → INICIO-E-RETOMADA.md
 ```
 
-Esses dois arquivos são apenas portas de entrada. Eles reutilizam as áreas existentes e não criam uma segunda camada de operação.
+Esses arquivos são portas de entrada. Eles reutilizam as áreas existentes e não criam uma segunda camada de operação.
+
+## Fluxo de criação
+
+```text
+PASSO 01 — CAMPANHA
+→ define a narrativa persistente.
+
+PASSO 02 — TEMPORADA
+→ cria o arco atual com começo e encerramento.
+
+PASSO 03 — FICHAS
+→ usa campanha + temporada para decidir o que precisa ser definido nas personagens.
+```
+
+Cada passo serve de base para o seguinte sem predeterminar suas respostas.
+
+```text
+CAMPANHA
+→ sobre o que a história é.
+
+TEMPORADA
+→ como esse foco será explorado agora.
+
+FICHAS
+→ quem são as personagens e o que precisam levar para tomar decisões coerentes nesta história.
+```
+
+Quando uma temporada termina:
+
+```text
+EPÍLOGO
+→ consolida como ela realmente terminou.
+
+“E AGORA?”
+→ define a direção da próxima temporada.
+```
+
+Problemas abertos não escolhem automaticamente o próximo arco.
 
 ## Regra de localização
 
@@ -32,6 +73,8 @@ regras-basicas/
 
 campanhas/<nome>/
 → o que é verdade naquela campanha
+→ narrativa persistente
+→ roteiro da temporada ativa
 → fichas reais
 → estado atual
 → conhecimentos
@@ -51,6 +94,7 @@ campanhas/<nome>/
 ```text
 regras-basicas/
 ├── CRIACAO-DE-CAMPANHA.md
+├── CRIACAO-DE-TEMPORADA.md
 ├── INICIO-E-RETOMADA.md
 ├── nucleo/
 ├── jogador/
@@ -85,9 +129,11 @@ RECURSO
 
 A ficha da personagem é sua principal fonte de interpretação. Ela preserva personalidade, desejos, medos, hábitos, relações e conhecimento relevante sem precisar duplicar livros ou cenário inteiro.
 
+Os blocos interpretativos não precisam responder às mesmas perguntas em toda campanha. Eles são orientados pela Narrativa da Campanha e pelo Roteiro da Temporada.
+
 ```text
 FICHA
-→ quem a personagem é e o que precisa permanecer disponível para interpretá-la.
+→ quem a personagem é e o que precisa permanecer disponível para interpretá-la nesta história.
 
 ESTADO ATUAL
 → como ela está agora.
@@ -101,6 +147,16 @@ Traço não é bônus. Quando relevante, o Narrador aplica exatamente a verdade 
 ### Mestre
 
 Julgamento e apresentação da sentença: quando testar, como interpretar, aplicar Traços relevantes, narrar, manter perspectiva e parar diante de nova escolha.
+
+O Mestre preserva duas direções diferentes:
+
+```text
+mestre/narrativa.md
+→ identidade persistente da campanha.
+
+mestre/roteiro.md
+→ temporada ativa.
+```
 
 O Mestre não controla o Opositor.
 
@@ -119,6 +175,9 @@ Regras sobre o que precisa permanecer verdadeiro e onde salvar dentro de `campan
 ```text
 Quero criar uma campanha
 → CRIACAO-DE-CAMPANHA.md
+
+Quero criar a próxima temporada
+→ CRIACAO-DE-TEMPORADA.md
 
 Quero começar ou continuar
 → INICIO-E-RETOMADA.md
