@@ -8,6 +8,10 @@ Estilo:
 Conceito:
 Descrição:
 
+## Estado inicial
+
+[ ]
+
 ## Atributos
 
 Força [ ] Agilidade [ ] Vigor [ ] Intelecto [ ] Vontade [ ] Presença [ ]
