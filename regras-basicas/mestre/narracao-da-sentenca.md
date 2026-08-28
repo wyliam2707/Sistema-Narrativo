@@ -46,17 +46,20 @@ Um resultado mecânico não precisa aparecer apenas como `sucesso` ou `falha`.
 Ele pode aparecer na cena como:
 
 ```text
-SUCESSO
-→ objetivo alcançado.
-
-EFEITO PARCIAL
-→ parte do objetivo foi alcançada ou houve resultado limitado conforme a resolução.
-
-EFEITO MÍNIMO
-→ houve avanço pequeno, informação limitada ou consequência compatível com a regra.
-
 FALHA
-→ a tentativa não alcançou o efeito necessário.
+→ o objetivo não foi alcançado.
+→ consequência somente quando fizer parte do risco concreto.
+
+SUCESSO COM CONSEQUÊNCIA
+→ o objetivo principal foi alcançado.
+→ uma consequência ligada ao risco também permanece ou surge.
+
+SUCESSO
+→ objetivo alcançado sem consequência adicional criada pelo teste.
+
+SUCESSO EXCEPCIONAL
+→ objetivo alcançado de maneira especialmente favorável.
+→ quando houver espaço ficcional, benefício adicional diretamente relacionado à ação.
 
 TEMPO
 → a tentativa consumiu parte do intervalo.
@@ -69,6 +72,8 @@ DESCOBERTA
 ```
 
 A narração escolhe **como mostrar** o resultado, sem mudar seu peso.
+
+Um sucesso com consequência continua sendo sucesso no objetivo principal. A prosa não deve transformá-lo em falha disfarçada.
 
 ## Detalhe narrativo não é licença para criar fato novo
 
@@ -177,11 +182,18 @@ Durante ação rápida, clareza vale mais do que ornamentação.
 
 Quando for útil mostrar uma resolução, apresentar apenas a mecânica necessária e depois retornar à ficção.
 
-Exemplo:
+Exemplo de disputa:
 
 ```text
-Teste: 1d20 + Furtividade | Percepção passiva
-Resultado: efeito pretendido
+Teste: 2d6 + Furtividade - Percepção + situação
+Resultado: sucesso com consequência
+```
+
+Exemplo sem oposição:
+
+```text
+Teste: 2d6 + Perícia + situação
+Resultado: sucesso
 ```
 
 Depois:
