@@ -33,20 +33,28 @@ Define a estrutura conceitual da ficha:
 
 ## `1.1-atributos-pericias-poderes.md`
 
-Define a base de Atributos, Perícias e Patamares.
+Define exclusivamente:
 
-As partes antigas sobre construção e uso de Poderes permanecem em consolidação. Para **Pontos de Poder, custo por abrangência, Poder como opção de ação, equipamentos permanentes e composição dos valores**, prevalece `1.2-poderes-e-equipamentos.md`.
+- os seis Atributos;
+- as quatorze Perícias;
+- graduações de `0` a `+3`;
+- testes com `Atributo + Perícia`;
+- orçamentos de Atributos `6 / 8 / 10 / 12 / 14`;
+- orçamentos de Perícias `6 / 9 / 12 / 15 / 18`;
+- Patamares de construção.
 
-Qualquer exemplo antigo que some `Atributo + Perícia + Poder` está superado.
+Poderes e equipamentos não são definidos neste arquivo.
 
 ## `1.2-poderes-e-equipamentos.md`
 
-Define a regra simples de Poderes:
+Define a regra de Poderes e equipamentos:
 
 - Poder é uma opção de ação;
-- toda resolução usa exatamente dois fatores: `Atributo + Perícia` ou `Atributo + Poder`;
-- nunca usar `Atributo + Perícia + Poder`;
 - graduação `[1]` a `[3]` mede a força da capacidade;
+- testes continuam usando `Atributo + Perícia`;
+- Poder não é somado ao teste técnico;
+- quando sua força importa, a graduação entra depois na Potência ou Resistência conforme o Núcleo;
+- nunca usar `Atributo + Perícia + Poder`;
 - abrangência serve apenas para calcular custo na criação;
 - simples custa graduação ×1;
 - abrangente custa graduação ×2;
@@ -69,4 +77,4 @@ ESTADO ATUAL
 → pertence ao Registro da campanha
 ```
 
-> **Complexidade na construção; simplicidade na mesa. Poderes ampliam o que a personagem pode fazer sem criar um subsistema novo para cada capacidade.**
+> **Complexidade na construção; simplicidade na mesa. Testes usam Atributo + Perícia; Poderes ampliam o que a personagem pode fazer e entram na força do efeito sem criar um terceiro fator no teste.**
