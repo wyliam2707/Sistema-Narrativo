@@ -82,6 +82,8 @@ Pontos de Poder: [9] / [9]
 
 --- Elara cresceu considerando relacionamentos convencionais como referência e não procura ativamente uma relação a três, mas também não a considera errada. Se desenvolver sentimentos reais por duas pessoas e houver sinceridade e consentimento entre todos, pode aceitar esse vínculo, embora ciúme, insegurança e medo de rejeição tornem isso emocionalmente difícil para ela.
 
+--- Quando se interessa romanticamente por alguém, Elara raramente flerta de forma aberta. Demonstra interesse permanecendo mais tempo perto da pessoa, buscando conversas privadas, permitindo maior proximidade física e revelando pequenas partes de si que normalmente esconderia. Quando confia de verdade, pode tomar a iniciativa, mas tende a fazê-lo de forma discreta e intensa.
+
 ## Conhecimento relevante
 
 --- [ ]
