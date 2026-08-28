@@ -32,7 +32,10 @@ Escopo: magia druídica de suporte e utilidade. Permite curar e restaurar, estim
 --- Magia de Criação [1] - custo 2 pontos.
 Escopo: permite criar e fabricar uma grande variedade de objetos por meios sobrenaturais, desde que Corvin disponha dos materiais adequados, tempo suficiente e do conhecimento pertinente de Forja ou Alquimia. Não cria matéria do nada.
 
-Pontos de Poder: [6] / [12]
+--- Portal [1] - custo 1 ponto.
+Escopo: permite abrir um portal e se teleportar diretamente para um local conhecido por Corvin. Não permite escolher destinos desconhecidos apenas por descrição, coordenadas ou suposição.
+
+Pontos de Poder: [7] / [12]
 
 ## Traços
 
