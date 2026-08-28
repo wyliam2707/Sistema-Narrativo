@@ -86,7 +86,7 @@ Pontos de Poder: [9] / [9]
 
 --- Ciborgue: alguém em quem Elara confia pela estabilidade, lealdade e capacidade de permanecer racional quando as coisas ficam caóticas. Sente-se confortável com sua presença e sabe que pode contar com ele tanto em uma crise quanto nos momentos comuns da vida em equipe.
 
---- Estelar: uma das amigas mais próximas de Elara e uma das poucas pessoas com quem a fronteira entre amizade e atração poderia ter sido atravessada. Estelar é poderosa o bastante para não parecer frágil diante dela, conhece sua verdadeira natureza sem tratá-la com medo e encara Trigon como um inimigo perigoso, não como uma razão para temer Elara. Ainda assim, nenhuma das duas viveu até agora uma situação que as obrigasse a encarar esse potencial como algo além de amizade, carinho e confiança.
+--- Estelar: uma das amigas mais próximas de Elara. Estelar é poderosa o bastante para não parecer frágil diante dela, conhece sua verdadeira natureza sem tratá-la com medo e encara Trigon como um inimigo perigoso, não como uma razão para temer Elara. Isso torna a amizade especialmente íntima e segura, mas no início da campanha Elara não interpreta esse vínculo como romance nem procura Estelar como parceira romântica.
 
 ### Relações negativas
 
@@ -99,6 +99,8 @@ Pontos de Poder: [9] / [9]
 --- O maior obstáculo de Elara em um relacionamento é o medo de machucar justamente quem ama. Uma pessoa comum já é vulnerável demais às consequências de uma perda de controle; quem conhece sua verdadeira natureza, por outro lado, quase sempre carrega algum grau de medo, cautela ou receio diante do que ela pode se tornar. Isso torna intimidade romântica rara e difícil mesmo quando existe atração.
 
 --- Os Titãs nunca ocuparam esse espaço para Elara. Ela os ama como família e os percebe de maneira fraterna, não como possíveis parceiros românticos; a ausência de romance não diminui a profundidade desses vínculos.
+
+--- No início da campanha, Elara não procura mulheres como parceiras românticas e entende sua proximidade com Estelar como amizade profunda. Qualquer mudança nessa leitura deve nascer de convivência, experiência e sentimentos desenvolvidos durante a história, não de uma paixão anterior escondida.
 
 --- Elara cresceu considerando relacionamentos convencionais como referência e não procura ativamente uma relação a três, mas também não a considera errada. Se desenvolver sentimentos reais por duas pessoas e houver sinceridade e consentimento entre todos, pode aceitar esse vínculo, embora ciúme, insegurança e medo de rejeição tornem isso emocionalmente difícil para ela.
 
