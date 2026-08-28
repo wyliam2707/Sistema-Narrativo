@@ -34,6 +34,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 0.9-alcance-e-movimento.md
 → usa quatro faixas relativas — Toque, Perto, Médio e Longe — e movimento abstrato sem exigir mapa ou metros.
 
+0.10-mana.md
+→ define Mana como esforço extra distribuído na declaração entre ação, efeito e Defesa, com até +2 por componente e recuperação total após 1 hora de descanso curto.
+
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
 
@@ -122,6 +125,16 @@ ALCANCE E MOVIMENTO
 → movimento pode integrar a intenção principal quando isso couber nos aproximadamente 10 segundos.
 → Poderes e obstáculos podem ampliar, restringir ou ignorar essa referência.
 
+MANA
+→ representa esforço extra, não combustível obrigatório de magia.
+→ a distribuição é declarada antes da resolução.
+→ cada componente pode receber até +2.
+→ Mana pode ser dividida entre ação, efeito e Defesa na mesma rodada.
+→ Mana defensiva declarada vale para as defesas legítimas daquela rodada sem novo gasto por atacante.
+→ os gastos não podem ser realocados depois dos resultados.
+→ reserva normal 5 ou 10.
+→ 1 hora de descanso curto adequado restaura a reserva ao máximo.
+
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
 
@@ -141,6 +154,6 @@ A criação emergente não autoriza o Narrador a alterar retroativamente uma sit
 
 A origem de conflito pertence ao Opositor, mas não é resultado automático. O Opositor propõe; o Narrador valida coerência, meios, tempo e oportunidade; o Registro fixa o que passou a existir; somente depois a oposição pode ser movimentada normalmente.
 
-As regras específicas de Mana, condições e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
+As regras específicas de condições e demais mecânicas universais serão adicionadas ao Núcleo conforme forem reformuladas.
 
 > O Núcleo define a arquitetura comum da mesa. Regras específicas usam essa base sem redefinir autoridade ou procedimento.
