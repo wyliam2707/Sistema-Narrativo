@@ -30,6 +30,8 @@ Depois que o Narrador julga e narra uma sentença, verificar apenas:
 ```text
 algo mudou de forma persistente?
 alguém aprendeu algo que precisa ser lembrado depois?
+uma relação mudou de forma consolidada?
+um desejo, medo, hábito ou percepção mudou de forma duradoura?
 um efeito ou condição continua ativo?
 um processo começou, terminou ou mudou?
 um prazo foi criado, reduzido ou venceu?
@@ -44,7 +46,7 @@ Se a resposta for não, não é necessário criar registro só porque houve uma 
 ```text
 1. PARAR no último fato estabelecido.
 2. IDENTIFICAR o que realmente mudou.
-3. SEPARAR passado, presente, conhecimento e processos.
+3. SEPARAR personagem, passado, presente, contexto e processos.
 4. ESCOLHER a fonte principal correta.
 5. ATUALIZAR somente os arquivos afetados.
 6. NÃO avançar a ficção durante o salvamento.
@@ -143,8 +145,6 @@ Não é necessário manter Dick ativo em todas as janelas apenas para esse proce
 
 Quando tempo efetivamente passa, atualizar o prazo quando isso facilitar a continuidade.
 
-Exemplo:
-
 ```text
 Prazo inicial: 10 dias
 Tempo transcorrido: 3 dias
@@ -153,32 +153,61 @@ Restante: 7 dias
 
 Ou manter uma data/momento-alvo quando a campanha usar calendário absoluto.
 
-O formato pode variar, mas o prazo precisa ser inequívoco.
-
 ## Conhecimento adquirido
 
-Se uma personagem aprende algo que deverá poder usar depois, salvar na fonte legítima dela.
+Se uma personagem aprende algo que deverá influenciar decisões futuras, verificar se esse conhecimento precisa entrar em `Conhecimento relevante` da ficha.
+
+Regra prática:
+
+```text
+se esquecer provavelmente faria a personagem interpretar ou decidir de forma incoerente
+→ atualizar a ficha.
+
+se é apenas detalhe momentâneo
+→ Estado Atual, se ainda importar.
+
+se é contexto amplo já preservado em livro, mundo ou outra fonte
+→ não copiar integralmente sem necessidade.
+```
 
 Exemplo:
 
 ```text
-Ravena descobre que o símbolo pertence à Ordem de X.
+Ravena descobre que relações múltiplas são culturalmente normais para Estelar.
 ```
 
-Pode gerar:
+Se isso passa a ser importante para interpretar sua relação futura, pode gerar na ficha de Ravena:
 
 ```text
-personagens/ravena/conhecimento.md
-→ Símbolo reconhecido como pertencente à Ordem de X.
+## Conhecimento relevante
+--- Sabe que relações múltiplas são culturalmente normais para Estelar.
 ```
 
 Não copiar automaticamente para outras personagens.
 
+## Evolução de interpretação
+
+Quando algo muda de forma duradoura em quem a personagem é ou em como ela entende uma relação, atualizar o bloco apropriado da ficha.
+
+Pode afetar:
+
+```text
+Personalidade e tendências
+Desejos / objetivos
+Medos / limites
+Rotina e hábitos persistentes
+Relações
+Conhecimento relevante
+História consolidada relevante
+```
+
+Não reescrever a ficha por uma emoção passageira. A mudança precisa estar realmente consolidada.
+
+Uma vez consolidada, a nova informação passa a orientar interpretações futuras e não deve ser tratada como descoberta novamente sem fato novo.
+
 ## Mudança de estado
 
-Se algo deixa de ser verdade, atualizar ou remover da fonte operacional atual.
-
-Exemplo:
+Se algo deixa de ser verdade no presente, atualizar ou remover da fonte operacional atual.
 
 ```text
 ANTES
@@ -188,13 +217,13 @@ DEPOIS DO ANTÍDOTO
 Status: nenhum
 ```
 
-O fato de ter sido envenenado continua pertencendo ao histórico no Livro.
+Marcas atuais de Vida/Mente e Mana atual são atualizadas em `estado/atual.md` quando precisarem ser acompanhadas.
 
-O estado atual mostra somente o presente.
+O fato histórico continua pertencendo ao Livro quando relevante.
 
 ## Mudança permanente
 
-Quando a campanha estabelecer mudança permanente de ficha, relação, mundo ou capacidade, atualizar a fonte estável correspondente.
+Quando a campanha estabelecer mudança permanente de ficha, relação, mundo, capacidade, Traço ou Recurso, atualizar a fonte estável correspondente.
 
 Não transformar automaticamente toda consequência temporária em mudança permanente.
 
@@ -227,11 +256,12 @@ A campanha pode acumular várias sentenças e depois consolidá-las em um capít
 
 Durante a sessão, o mais importante é não perder:
 
-- estado atual;
-- conhecimentos persistentes;
+- Estado Atual;
+- conhecimento relevante que afeta interpretação;
+- mudanças consolidadas de personagem;
 - processos;
 - prazos;
-- mudanças estáveis.
+- mudanças estáveis do mundo.
 
 ## Checklist rápido
 
@@ -240,7 +270,10 @@ Antes de encerrar um salvamento:
 ```text
 [ ] salvei somente fatos já estabelecidos?
 [ ] o presente está correto?
-[ ] conhecimento ficou com a personagem certa?
+[ ] Vida, Mente e Mana atuais estão corretas quando relevantes?
+[ ] conhecimento importante ficou com a personagem certa?
+[ ] alguma evolução consolidada precisa atualizar a ficha?
+[ ] relações continuam refletindo o ponto de vista do dono da ficha?
 [ ] processos e prazos continuam vivos?
 [ ] planos futuros não viraram acontecimentos?
 [ ] removi estados que já terminaram?
@@ -250,4 +283,4 @@ Antes de encerrar um salvamento:
 
 ## Regra final
 
-> **Salvar a história é distribuir as verdades já estabelecidas nas fontes corretas da campanha. Preserve o passado no Livro, o presente no Estado, a memória nas fontes de conhecimento e os processos futuros nas áreas responsáveis, sem criar nenhum fato novo durante o salvamento.**
+> **Salvar a história é distribuir verdades já estabelecidas nas fontes corretas. O Livro preserva o passado, o Estado preserva o presente e a ficha preserva quem a personagem é e o conhecimento que ela precisa levar para futuras interpretações. Consolidar não é redescobrir nem criar fato novo.**
