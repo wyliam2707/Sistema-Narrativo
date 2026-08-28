@@ -95,8 +95,8 @@ Atmosfera nasce da combinação entre:
 
 - fatos da cena;
 - perspectiva;
-- seleção de detalhes;
-- direção narrativa da campanha.
+- Narrativa da Campanha;
+- direção da temporada ativa.
 
 O gênero não obriga cada cena a repetir o mesmo tom.
 
@@ -113,29 +113,44 @@ campanha com humor
 
 > **Tom orienta ênfase. Não cria acontecimento.**
 
-## Foco e tramas secundárias
+## Foco persistente e arco da temporada
 
-O foco principal registrado em `campanhas/<nome>/mestre/roteiro.md` define **sobre o que a campanha é**.
-
-Tramas secundárias podem variar o ritmo sem substituir esse eixo.
+O foco principal registrado em:
 
 ```text
-FOCO PRINCIPAL
-→ recebe a maior parte da continuidade e do desenvolvimento.
+campanhas/<nome>/mestre/narrativa.md
+```
+
+define **sobre o que a campanha é ao longo das temporadas**.
+
+O arquivo:
+
+```text
+campanhas/<nome>/mestre/roteiro.md
+```
+
+define **que arco está sendo jogado agora**.
+
+```text
+NARRATIVA
+→ recebe a continuidade temática da campanha.
+
+ROTEIRO
+→ organiza a situação da temporada atual.
 
 TRAMA DE FUNDO
-→ sustenta a situação da campanha.
+→ sustenta o arco da temporada.
 
 MINIQUEST
 → cria um problema local, uma cena ou um pequeno arco.
-→ depois devolve a narrativa ao foco principal quando o problema termina.
+→ depois devolve a narrativa ao foco e ao roteiro quando o problema termina.
 ```
 
 Uma investigação interessante não vira automaticamente uma campanha de investigação. Um monstro não precisa revelar uma conspiração maior. Uma luta não precisa escalar para ameaça mundial.
 
-> **A aventura cria o palco; o foco da campanha decide sobre o que a história realmente é.**
+> **A aventura cria o palco; a Narrativa da Campanha decide sobre o que a história realmente é, e o Roteiro da Temporada decide qual arco está em jogo agora.**
 
-Mudança de foco é mudança da direção da campanha, não consequência automática de uma improvisação do Narrador.
+Mudança do foco persistente exige mudança deliberada da Narrativa da Campanha. Mudança de temporada acontece pelo procedimento de encerramento e pela pergunta **“E agora?”**, não por improvisação automática do Narrador.
 
 ## Cotidiano
 
@@ -196,32 +211,42 @@ fala já deixa claro
 
 Subtexto funciona melhor quando o leitor pode perceber parte do significado sem receber uma legenda emocional a cada gesto.
 
-## Direção narrativa da campanha
+## Direção narrativa em duas camadas
 
 As regras básicas fornecem o padrão.
 
-Cada campanha registra sua direção em:
+Cada campanha registra sua identidade em:
+
+```text
+campanhas/<nome>/mestre/narrativa.md
+```
+
+E sua temporada ativa em:
 
 ```text
 campanhas/<nome>/mestre/roteiro.md
 ```
 
-Esse arquivo pode definir, por exemplo:
+A Narrativa pode definir, por exemplo:
 
 - foco principal;
-- trama de fundo;
-- miniquests ou variações;
+- gênero;
 - tom;
-- cotidiano;
-- romance;
-- humor;
-- suspense;
-- sensualidade;
-- violência;
-- ritmo;
-- premissas específicas.
+- experiência desejada;
+- temas recorrentes;
+- premissas gerais;
+- o que não deve dominar.
 
-A direção local nunca altera:
+O Roteiro pode definir, por exemplo:
+
+- situação inicial;
+- trama de fundo;
+- prazo;
+- miniquests;
+- direção local;
+- condição de encerramento.
+
+Nenhuma das duas camadas altera:
 
 - agência;
 - regra de resolução;
@@ -230,7 +255,7 @@ A direção local nunca altera:
 - consequência;
 - limite da sentença.
 
-Ela também não autoriza o Narrador a impedir uma premissa que a própria campanha declarou válida.
+Também não autorizam o Narrador a impedir uma premissa que a própria campanha declarou válida.
 
 ## O que evitar
 
@@ -245,9 +270,10 @@ Evitar por padrão:
 - terminar toda cena com ameaça;
 - criar perigo para manter ritmo;
 - fazer miniquest crescer automaticamente para trama principal;
+- transformar problema aberto em próxima temporada sem a pergunta “E agora?”;
 - quebrar personalidade para produzir uma cena desejada;
 - esconder causalidade para parecer mais literário.
 
 ## Regra final
 
-> **Descreva o suficiente para situar, tornar a ação clara e dar atmosfera. Preserve o foco registrado no roteiro: tramas secundárias podem variar o ritmo, mas não substituem automaticamente aquilo que a campanha foi criada para explorar. Estilo serve à cena; não altera fatos, agência ou causalidade.**
+> **Descreva o suficiente para situar, tornar a ação clara e dar atmosfera. Preserve a Narrativa da Campanha e o Roteiro da Temporada: tramas secundárias podem variar o ritmo, mas não substituem automaticamente o foco persistente nem o arco atual. Estilo serve à cena; não altera fatos, agência ou causalidade.**
