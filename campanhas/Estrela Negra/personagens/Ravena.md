@@ -3,7 +3,7 @@
 ESTADO DA FICHA: EM CRIAÇÃO
 Importância: PROTAGONISTA / CONTROLE: IA / Patamar: 3
 Nome real: Elara Voss / Idade: 24 anos
-Aparência: jovem de aparência humana, 1,56 m de altura, baixa e de porte delicado, pele clara, traços faciais suaves com leve influência oriental, cabelos escuros com tonalidade violeta e presença discreta, sombria e marcante.
+Aparência: jovem de aparência humana, 1,56 m de altura, baixa e de porte delicado, pele clara, traços faciais suaves com leve influência oriental, cabelos muito escuros, quase negros, com reflexos violeta, olhos em tom violeta escuro e presença discreta, sombria e marcante.
 Estilo: roupas escuras e práticas, com elementos místicos e uma estética sóbria inspirada em uma ocultista urbana.
 Conceito: mística sombria, reservada e extremamente poderosa; mantém forte disciplina emocional porque sentimentos intensos podem desestabilizar sua magia.
 Descrição: usuária de magia sombria e espiritual, contida e observadora. Quando perde o controle emocional, sua magia pode reagir involuntariamente ao impulso do momento e acompanhar a intensidade do que sente; em raras ocasiões, essa manifestação pode escalar ou atrair algo sobrenatural.
