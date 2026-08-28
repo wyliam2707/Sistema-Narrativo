@@ -18,6 +18,7 @@ PASSO 02 — TEMPORADA
 → criar o arco atual a partir dessa identidade.
 
 PASSO 03 — FICHAS
+→ identificar o elenco inicial.
 → construir as personagens usando campanha + temporada como contexto.
 
 DEPOIS
@@ -185,7 +186,29 @@ mestre/narrativa.md
 mestre/roteiro.md
 ```
 
-criar ou revisar as fichas iniciais conforme:
+começar a construção das personagens.
+
+### 3.1 — Elenco inicial
+
+Primeiro identificar todas as personagens iniciais que já precisam possuir agência.
+
+Para cada uma, basta começar com:
+
+```text
+Nome
+Importância
+CONTROLE
+Conceito, quando já conhecido
+ESTADO DA FICHA: EM CRIAÇÃO
+```
+
+Confirmar o elenco inicial antes da revisão detalhada das fichas.
+
+Isso não exige conhecer toda a personagem antes da temporada. O elenco pode existir inicialmente apenas como conceito suficiente para saber **quem precisa ser construído**.
+
+### 3.2 — Construção das fichas
+
+Depois do elenco, criar ou revisar cada ficha conforme:
 
 ```text
 jogador/1.3-criacao-da-ficha.md
@@ -211,25 +234,7 @@ A mesma informação pode ser central numa campanha e quase irrelevante em outra
 
 > **A ficha não tenta responder tudo sobre a personagem. Ela preserva principalmente o que a IA precisará para interpretá-la com coerência nesta história.**
 
-## 4 — Elenco inicial
-
-Antes de revisar fichas completas, registrar todas as personagens iniciais que já precisam possuir agência.
-
-Para cada uma, basta começar com:
-
-```text
-Nome
-Importância
-CONTROLE
-Conceito, quando já conhecido
-ESTADO DA FICHA: EM CRIAÇÃO
-```
-
-Confirmar o elenco inicial antes de avançar para a revisão detalhada.
-
-Isso evita terminar uma ficha sem ainda saber quais outras peças centrais precisam coexistir com ela.
-
-## 5 — Pareamento mínimo
+## 4 — Pareamento mínimo
 
 Comparar apenas personagens cujas fichas possuam informações cruzadas relevantes.
 
@@ -252,7 +257,7 @@ pode surgir normalmente em cena sem contradição
 
 Pareamento busca coerência, não biografia completa nem simetria.
 
-## 6 — Situação inicial
+## 5 — Situação inicial
 
 Depois das fichas e do pareamento, registrar em:
 
@@ -276,7 +281,7 @@ processos ou prazos já em andamento
 
 Estado Atual não é histórico.
 
-## 7 — Mesa operacional
+## 6 — Mesa operacional
 
 Registrar no `README.md` da campanha quem ocupa cada cadeira necessária.
 
@@ -296,7 +301,7 @@ Cada personagem com `CONTROLE: JOGADOR IA` possui sua própria cadeira dedicada.
 
 Uma única IA técnica pode executar várias cadeiras conforme `nucleo/1.6-execucao-por-uma-unica-ia.md`, mantendo conhecimento, objetivo e autoridade separados.
 
-## 8 — START
+## 7 — START
 
 Antes da primeira cena, conferir apenas se a campanha consegue funcionar corretamente:
 
