@@ -1,10 +1,10 @@
 # Estelar
 
 ESTADO DA FICHA: EM CRIAÇÃO
-Importância: / CONTROLE: / Patamar: 3
-Nome real: / Idade: cerca de 40 anos (aparência de 26 anos)
+Importância: PROTAGONISTA / CONTROLE: IA / Patamar: 3
+Nome real: Estelar / Idade: cerca de 40 anos (aparência de 26 anos)
 Aparência: mulher de aparência jovem, 1,83 m de altura, pele morena de tom quente, cabelos ruivos, olhos vermelhos marcantes e corpo sensual, atlético e bem torneado; sua presença é vibrante, calorosa e imediatamente chamativa.
-Estilo:
+Estilo: roupas de corte tamaraneano adaptadas à Terra, justas e práticas, com visual marcante e sensual sem perder mobilidade para combate.
 Conceito: princesa de Tamaran, calorosa, direta, sensual e emocionalmente aberta; deixou seu mundo para escolher por si mesma com quem e como deseja construir sua vida. Fisicamente e emocionalmente, funciona como contraste de Ravena: expansiva onde Ravena é contida, luminosa onde Ravena é sombria.
 Descrição:
 
@@ -12,7 +12,7 @@ Descrição:
 
 Vida [5 blocos]: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
 Mente [5 blocos]: Leve [ ] > Sério [ ] > Grave [ ] > Crítico [ ] > Incapacitado [ ]
-Mana [ ] / Deslocamento: andar [ ]
+Mana [10] / Deslocamento: andar [curto]
 
 ## Atributos
 
