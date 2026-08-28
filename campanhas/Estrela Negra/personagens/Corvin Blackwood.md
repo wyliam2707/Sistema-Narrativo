@@ -2,9 +2,9 @@
 
 ESTADO DA FICHA: EM CRIAÇÃO
 Importância: PROTAGONISTA / CONTROLE: JOGADOR / Patamar: 4
-Nome real: / Idade:
-Aparência:
-Estilo:
+Nome real: Corvin Blackwood / Idade: 62 anos (aparenta 27)
+Aparência: homem de aparência humana comum, alto e forte, discretamente mais bonito que a média, com cabelos brancos; aparenta cerca de 27 anos.
+Estilo: roupas casuais, sobretudo e mochila; visual prático de viajante e investigador.
 Conceito: Semideus de linhagem divina; investigador do oculto e explorador.
 Descrição:
 
