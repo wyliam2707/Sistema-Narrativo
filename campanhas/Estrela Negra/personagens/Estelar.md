@@ -2,7 +2,7 @@
 
 ESTADO DA FICHA: EM CRIAÇÃO
 Importância: / CONTROLE: / Patamar:
-Nome real: / Idade:
+Nome real: / Idade: cerca de 40 anos (aparência de 26 anos)
 Aparência:
 Estilo:
 Conceito: princesa de Tamaran, calorosa, direta e emocionalmente aberta; deixou seu mundo para escolher por si mesma com quem e como deseja construir sua vida.
