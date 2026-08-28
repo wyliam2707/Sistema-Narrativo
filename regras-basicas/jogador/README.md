@@ -35,12 +35,15 @@ Define a estrutura conceitual da ficha:
 Define a estrutura mecânica básica da personagem:
 
 - seis Atributos;
-- doze Perícias gerais;
-- graduação de Atributos, Perícias e Poderes;
-- uso de Poderes na mesma posição mecânica das Perícias;
-- Valor de Ação;
+- quatorze Perícias gerais;
+- graduações de `0` a `+3`;
+- leitura própria da escala de Poderes;
+- `Combate`, `Defesa` e `Conjuração` como competências distintas;
+- Valor de Ação formado pelos componentes realmente pertinentes;
+- possibilidade de `Atributo + Perícia + Poder` quando os três participam legitimamente da mesma ação;
 - cinco Patamares;
-- orçamentos separados de Atributos, Perícias e Poderes.
+- orçamentos separados de Atributos, Perícias e Poderes;
+- construção criteriosa guiada pelo conceito da personagem.
 
 Vida, Mana, recursos e combate serão consolidados em arquivos seguintes.
 
