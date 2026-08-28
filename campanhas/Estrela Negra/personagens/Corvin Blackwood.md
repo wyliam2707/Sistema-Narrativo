@@ -76,7 +76,9 @@ Pontos de Poder: [12] / [12]
 
 ## Desejos / objetivos
 
---- [ ]
+--- Corvin segue o fluxo: explora, ajuda quem encontra e então continua seu caminho. Seus objetivos mudam conforme as pessoas, lugares e mistérios que encontra.
+
+--- No fundo, sempre desejou criar raízes e ter um lugar ao qual pertencer, mas até hoje nunca encontrou um lugar, uma razão ou alguém que o fizesse querer parar de viajar.
 
 ## Medos / limites
 
