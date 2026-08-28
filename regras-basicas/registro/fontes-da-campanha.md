@@ -9,11 +9,8 @@ Este arquivo define **onde salvar cada tipo de verdade** dentro de `campanhas/<n
 ## Regra de roteamento
 
 ```text
-QUEM É A PERSONAGEM?
-→ personagens/
-
-O QUE ELA SABE?
-→ personagem / arquivo de conhecimento apropriado
+QUEM É A PERSONAGEM E O QUE ELA PRECISA LEMBRAR PARA SER INTERPRETADA?
+→ ficha da personagem.
 
 COMO A CAMPANHA ESTÁ AGORA?
 → estado/atual.md
@@ -33,40 +30,44 @@ O QUE REALMENTE ACONTECEU?
 
 ## `personagens/`
 
-Guarda dados persistentes das personagens.
+Guarda as fichas reais das personagens.
 
-Pode incluir:
+A ficha é a **principal fonte de interpretação** e pode conter:
 
-- ficha;
-- personalidade;
-- relações estáveis;
-- capacidades;
-- recursos permanentes;
-- conhecimentos persistentes quando a campanha optar por separá-los por personagem.
+- identidade;
+- Estado inicial;
+- Atributos e Perícias;
+- Poderes e equipamentos;
+- Traços;
+- Recursos permanentes;
+- personalidade e tendências;
+- desejos, medos e hábitos;
+- relações pelo ponto de vista do dono da ficha;
+- conhecimento relevante;
+- história consolidada que ainda influencia a personagem.
 
 Não usar a ficha como diário completo de tudo que aconteceu.
 
-## Conhecimento da personagem
+## Conhecimento relevante da personagem
 
-Informação que uma personagem pode usar em decisões futuras precisa estar disponível em uma fonte legítima dela quando não puder depender apenas da cena atual.
+Informação que uma personagem precisa lembrar para interpretar, decidir ou reagir com continuidade deve ser consolidada em `Conhecimento relevante` na ficha quando isso for a forma mais direta de mantê-la disponível.
 
-Exemplos:
-
-```text
-Ravena descobriu que a mansão possui proteção contra demônios.
-
-Corvin descobriu o verdadeiro nome do ritual.
-
-Dick recebeu informação de que Ravena foi vista em outra cidade.
-```
-
-A forma exata pode variar por campanha:
+Regra prática:
 
 ```text
-personagens/<nome>/conhecimento.md
+se esquecer provavelmente faria a personagem agir de forma incoerente
+→ ficha / Conhecimento relevante.
+
+se importa apenas para a situação presente
+→ Estado Atual.
+
+se é contexto externo amplo já guardado em outra fonte
+→ consultar essa fonte quando necessário.
 ```
 
-ou outra fonte claramente indicada no README da campanha.
+O que é relevante depende da campanha. Romance, terror, investigação ou outros focos podem tornar conhecimentos diferentes importantes.
+
+Uma campanha ainda pode possuir arquivos adicionais de conhecimento quando o volume ou a organização justificar, mas eles não devem esconder da ficha uma informação essencial para interpretar a personagem corretamente.
 
 O importante é preservar a separação:
 
@@ -76,6 +77,24 @@ PERSONAGEM A SABE
 PERSONAGEM B SABE
 ```
 
+Conhecimento consolidado não deve ser reapresentado como descoberta apenas porque a campanha foi retomada depois.
+
+## Relações e ponto de vista
+
+Relações registradas na ficha pertencem ao ponto de vista íntimo do dono daquela ficha.
+
+```text
+FICHA DE A
+→ como A entende seus vínculos.
+
+FICHA DE B
+→ como B entende seus vínculos.
+```
+
+As duas leituras podem ser diferentes sem contradição.
+
+O que A sabe sobre a percepção de B pode ser registrado em `Conhecimento relevante` de A quando isso realmente importar.
+
 ## `estado/atual.md`
 
 Guarda o retrato operacional do presente.
@@ -84,13 +103,17 @@ Exemplos:
 
 - local e momento atuais;
 - quem está presente;
-- Vida e Mana atuais quando relevantes;
+- marcas atuais de Vida e Mente;
+- Mana atual;
 - condições e efeitos ativos;
 - posição importante;
+- alterações temporárias de deslocamento;
 - ação interrompida ou processo imediato;
 - fatos recentes que ainda alteram diretamente as opções atuais.
 
 Não é histórico.
+
+A estrutura de Vida, Mente, Mana máxima normal e deslocamentos básicos vem da ficha. O Estado Atual acompanha somente como esses elementos estão agora.
 
 ## `mundo/`
 
@@ -160,42 +183,39 @@ O Livro não registra:
 
 Uma mesma realidade pode aparecer em duas fontes quando cada uma possui função diferente.
 
-Exemplo:
-
 ```text
 LIVRO
-→ registra que Corvin foi envenenado durante o jantar.
+→ registra que Ravena descobriu um costume importante de Estelar.
 
-ESTADO ATUAL
-→ Envenenado | efeito ainda ativo.
+FICHA DE RAVENA / CONHECIMENTO RELEVANTE
+→ preserva aquilo que Raven agora sabe e deve considerar no futuro.
 ```
 
 Outro exemplo:
 
 ```text
 LIVRO
-→ Ravena descobriu o nome do culto.
+→ registra que Corvin foi ferido.
 
-CONHECIMENTO DE RAVENA
-→ nome do culto: Ordem de X.
+ESTADO ATUAL
+→ preserva as marcas de Vida que ainda estão presentes.
 ```
 
-O Livro preserva o acontecimento.
-
-A fonte operacional preserva aquilo que ainda precisa ser usado.
+O Livro preserva o acontecimento. A fonte operacional preserva aquilo que ainda precisa ser usado.
 
 ## Evitar cópia sem função
 
 Não repetir por padrão:
 
-- a cena inteira no estado atual;
+- a cena inteira no Estado Atual;
 - a ficha inteira no README;
 - todos os segredos em vários arquivos;
-- todos os fatos do Livro em conhecimento;
-- todo plano do Opositor em estado atual.
+- todo o Livro em Conhecimento relevante;
+- toda a lore do mundo dentro de cada ficha;
+- todo plano do Opositor em Estado Atual.
 
 Se uma informação já possui fonte principal suficiente, apontar para ela ou consultá-la quando necessário.
 
 ## Regra final
 
-> **Escolha a fonte pela função da verdade: personagens guardam quem são e o que sabem; estado guarda o presente; mundo guarda verdades estáveis; mestre guarda material operacional do Narrador; opositor guarda o outro lado da trama; Livro guarda o que aconteceu.**
+> **Escolha a fonte pela função da verdade: a ficha guarda quem a personagem é e o que precisa permanecer disponível para interpretá-la; Estado Atual guarda o presente; mundo guarda contexto estável; mestre e opositor guardam material operacional próprio; Livro guarda o que aconteceu.**
