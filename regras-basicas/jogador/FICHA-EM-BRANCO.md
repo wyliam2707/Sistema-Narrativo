@@ -10,13 +10,7 @@ Descrição:
 
 ## Atributos
 
-Força [ ]
-Agilidade [ ]
-Vigor [ ]
-Intelecto [ ]
-Vontade [ ]
-Presença [ ]
-
+Força [ ] Agilidade [ ] Vigor [ ] Intelecto [ ] Vontade [ ] Presença [ ]
 Total de Atributos: [ ] / [ ]
 
 ## Perícias
@@ -90,4 +84,3 @@ Mana Máxima [ ]
 
 
 ## História consolidada relevante
-
