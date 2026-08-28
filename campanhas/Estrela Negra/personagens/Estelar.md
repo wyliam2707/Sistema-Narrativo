@@ -66,7 +66,7 @@ Pontos de Poder: [9] / [9]
 
 ## Medos / limites
 
---- [ ]
+--- Estelar teme perder novamente o direito de escolher o próprio destino — especialmente ser forçada a retornar a Tamaran, aceitar obrigações políticas ou entrar em um vínculo que não escolheu. Também reage mal à ideia de ser tratada como propriedade, símbolo diplomático ou prêmio, em vez de como pessoa.
 
 ## Rotina e hábitos persistentes
 
