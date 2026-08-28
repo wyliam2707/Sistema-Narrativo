@@ -23,7 +23,7 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 → Ataque contra Defesa resolve técnica e já gera Potência de Execução 0/1/2/3; Poder ou equipamento ofensivo soma depois para formar a Potência Final.
 
 0.6-dano-e-ferimentos.md
-→ resolve `1d6 + Potência` contra `1d6 + Resistência`, converte a diferença em gravidade, acumula ferimentos por caixas e define recuperação por Cura, sem pontos de Vida.
+→ resolve `1d6 + Potência` contra `1d6 + Resistência`, converte a diferença em gravidade e aplica a recuperação pelos degraus de Cura, sem pontos de Vida.
 
 0.7-iniciativa.md
 → usa a ordem ficcional quando evidente e só resolve prioridade quando agir primeiro realmente estiver em disputa; não mantém iniciativa permanente.
@@ -44,7 +44,7 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 → espelha o dano físico para Mente: acerto técnico, Potência Mental contra Resistência Mental e a mesma escala de gravidade.
 
 0.13-cura-e-recuperacao.md
-→ aplica a mesma matemática de Cura a Vida e Mente e separa potência de escopo: Física, Mental ou Completa.
+→ usa a Potência de Efeito universal para gerar Cura e aplica o resultado diretamente em Vida ou Mente conforme o escopo Física, Mental ou Completa.
 
 0.14-potencia-de-efeito.md
 → transforma o resultado de `Atributo + Perícia` em Potência de Execução `0/1/2/3`, soma a graduação do Poder depois e usa a Potência final diretamente ou contra Resistência conforme o efeito.
@@ -123,8 +123,12 @@ DANO
 
 RECUPERAÇÃO
 → Vida e Mente usam a mesma matemática de Cura.
-→ testes de recuperação produzem Cura 0/1/2/3 conforme o resultado.
-→ Poder de Cura pode somar sua graduação, com Cura Total máxima 6.
+→ quando houver teste, usar `2d6 + Atributo + Perícia`.
+→ o resultado gera Potência de Execução 0/1/2/3 conforme 0.14.
+→ Poder ou equipamento de Cura soma sua graduação depois.
+→ `Cura Final = Potência de Execução + Cura`.
+→ Cura é efeito direto: aplicar a Cura Final sem nova rolagem de efeito.
+→ Mana na Ação pode melhorar o teste; Mana no Efeito pode aumentar a Cura Final conforme 0.10.
 → Cura é aplicada automaticamente do comprometimento menos grave para o mais grave.
 → marcas regridem pelos custos 1/2/4/8/16 até desaparecer.
 → Cura possui escopo: Física, Mental ou Completa.
