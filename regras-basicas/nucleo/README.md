@@ -46,6 +46,9 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 0.13-cura-e-recuperacao.md
 → aplica a mesma matemática de Cura a Vida e Mente e separa potência de escopo: Física, Mental ou Completa.
 
+0.14-potencia-de-efeito.md
+→ transforma o resultado de `Atributo + Perícia` em Potência de Execução `0/1/2/3`, soma a graduação do Poder depois e usa a Potência final diretamente ou contra Resistência conforme o efeito.
+
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
 
@@ -99,6 +102,14 @@ COMBATE
 → Ataque usa Atributo + Combate ou Conjuração.
 → Defesa usa Atributo + Defesa.
 → Poderes que representam potência ou proteção entram na etapa de efeito, não automaticamente no teste técnico.
+
+POTÊNCIA DE EFEITO
+→ um teste de execução usa `2d6 + Atributo + Perícia`.
+→ resultado 6-/7–9/10–11/12+ gera Potência de Execução 0/1/2/3.
+→ se um Poder ou equipamento fornecer a força do efeito, somar sua graduação depois.
+→ `Potência Final = Potência de Execução + Poder`.
+→ efeito direto usa a Potência final diretamente.
+→ efeito resistido usa `1d6 + Potência` contra `1d6 + Resistência`.
 
 DANO
 → depois de um acerto, resolver `1d6 + Potência` contra `1d6 + Resistência`.
