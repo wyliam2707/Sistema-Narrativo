@@ -35,7 +35,7 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 → usa quatro faixas relativas — Toque, Perto, Médio e Longe — e movimento abstrato sem exigir mapa ou metros.
 
 0.10-mana.md
-→ define Mana como esforço extra distribuído na declaração entre ação, efeito e Defesa, com até +2 por componente e recuperação total após 1 hora de descanso curto.
+→ define Mana como esforço extra com limite total de 2 por turno, distribuído na declaração entre Ação, Efeito e Defesa, com recuperação total após 1 hora de descanso curto.
 
 0.11-vida-e-mente.md
 → define dois trilhos universais em linha, Vida e Mente, com a mesma progressão Leve/Sério/Grave/Crítico/Incapacitado e descrição narrativa do estado concreto.
@@ -155,10 +155,13 @@ ALCANCE E MOVIMENTO
 
 MANA
 → representa esforço extra, não combustível obrigatório de magia.
+→ máximo de 2 Mana no total por turno.
 → a distribuição é declarada antes da resolução.
-→ cada componente pode receber até +2.
-→ Mana pode ser dividida entre ação, efeito e Defesa na mesma rodada.
-→ Mana defensiva declarada vale para as defesas legítimas daquela rodada sem novo gasto por atacante.
+→ os 2 pontos podem ser concentrados ou divididos entre Ação, Efeito e Defesa.
+→ Mana na Ação melhora o teste, ajudando a evitar falha e podendo elevar a Potência de Execução.
+→ Mana no Efeito aumenta diretamente a Potência Final.
+→ Mana na Defesa aumenta a Defesa técnica durante aquele turno.
+→ Mana defensiva declarada vale para as defesas legítimas daquele turno sem novo gasto por atacante.
 → os gastos não podem ser realocados depois dos resultados.
 → reserva normal 5 ou 10.
 → 1 hora de descanso curto adequado restaura a reserva ao máximo.
