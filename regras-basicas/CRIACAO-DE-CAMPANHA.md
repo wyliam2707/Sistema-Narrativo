@@ -4,7 +4,7 @@ Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
 Este arquivo define como uma nova campanha nasce usando `regras-basicas/`.
 
-> **Cada passo usa o anterior como base: primeiro definir a narrativa, depois criar a temporada, depois construir as fichas para aquela história.**
+> **Cada passo usa o anterior como base: primeiro definir a narrativa, depois criar a temporada, depois construir fichas persistentes para essa campanha.**
 
 ## Fluxo geral
 
@@ -19,7 +19,8 @@ PASSO 02 — TEMPORADA
 
 PASSO 03 — FICHAS
 → identificar o elenco inicial.
-→ construir as personagens usando campanha + temporada como contexto.
+→ construir as personagens através da lente da campanha.
+→ usar a primeira temporada apenas como contexto inicial.
 
 DEPOIS
 → pareamento mínimo
@@ -188,6 +189,19 @@ mestre/roteiro.md
 
 começar a construção das personagens.
 
+A **Narrativa da Campanha** é a lente principal da ficha. O roteiro da primeira temporada ajuda a revelar necessidades imediatas, mas não limita a personagem à situação daquele arco.
+
+```text
+CAMPANHA
+→ define quais aspectos da personagem tendem a importar ao longo da história.
+
+PRIMEIRA TEMPORADA
+→ ajuda a perceber o que já precisa estar claro no começo.
+
+FICHA
+→ permanece válida além da temporada atual.
+```
+
 ### 3.1 — Elenco inicial
 
 Primeiro identificar todas as personagens iniciais que já precisam possuir agência.
@@ -214,7 +228,7 @@ Depois do elenco, criar ou revisar cada ficha conforme:
 jogador/1.3-criacao-da-ficha.md
 ```
 
-Isso permite que os últimos blocos da ficha sejam construídos de acordo com **o tipo de história e de decisões que realmente importam nesta campanha**.
+Os últimos blocos da ficha são guiados principalmente pelo **tipo de história e de decisões que provavelmente importarão ao longo da campanha**.
 
 ```text
 ROMANCE
@@ -232,7 +246,7 @@ AÇÃO
 
 A mesma informação pode ser central numa campanha e quase irrelevante em outra.
 
-> **A ficha não tenta responder tudo sobre a personagem. Ela preserva principalmente o que a IA precisará para interpretá-la com coerência nesta história.**
+> **A ficha não tenta responder tudo sobre a personagem. Ela preserva principalmente o que a IA precisará para interpretá-la com coerência nesta campanha.**
 
 ## 4 — Pareamento mínimo
 
@@ -336,6 +350,45 @@ CRIAÇÃO: CONCLUÍDA
 
 START é apenas a passagem da criação para o jogo. Não é uma cena nem um acontecimento ficcional.
 
+## Ciclo depois da primeira temporada
+
+Os três passos completos são necessários para **criar a campanha pela primeira vez**.
+
+Depois disso, a campanha e as fichas continuam existindo.
+
+Quando uma temporada termina:
+
+```text
+RESOLUÇÃO DA TEMPORADA
+→ Epílogo
+→ consolidar mudanças
+→ “E agora?”
+→ voltar ao PASSO 02 — TEMPORADA
+```
+
+Não voltar automaticamente ao Passo 01 e não repetir o Passo 03 como rotina.
+
+```text
+CAMPANHA
+→ persistente.
+
+FICHAS
+→ persistentes.
+
+TEMPORADA
+→ renovável.
+```
+
+Uma nova temporada pode tornar uma informação antes secundária muito importante. Nesse caso, complementar uma ficha somente quando a ausência dessa informação tiver **alta chance de causar interpretação ou decisão incoerente** no novo arco.
+
+```text
+NOVA TEMPORADA
+≠ revisar todas as fichas.
+
+LACUNA REALMENTE CRÍTICA
+→ complementar apenas o necessário.
+```
+
 ## Função das áreas da campanha
 
 ```text
@@ -379,4 +432,4 @@ Uma trama secundária pode crescer organicamente, mas não substitui automaticam
 
 ## Regra final
 
-> **Nova campanha segue três passos dependentes: a Narrativa define que história queremos jogar; a Temporada transforma essa identidade em um arco atual com começo e fim; as Fichas usam as duas como base para registrar aquilo que realmente ajudará as personagens a decidir com coerência. Depois vêm pareamento, Estado, Mesa e START. Cada temporada termina com epílogo, consolidação e a pergunta “E agora?” antes de qualquer novo roteiro.**
+> **Nova campanha segue três passos dependentes: a Narrativa define que história queremos jogar; a primeira Temporada transforma essa identidade em um arco atual; as Fichas são construídas através da lente da campanha, usando a primeira temporada apenas como contexto inicial. Depois disso, campanha e fichas persistem. Cada temporada termina com resolução, epílogo, consolidação e “E agora?”, e o ciclo retorna ao Passo 02. Fichas só são complementadas entre temporadas quando uma lacuna realmente importante puder causar interpretação incoerente.**
