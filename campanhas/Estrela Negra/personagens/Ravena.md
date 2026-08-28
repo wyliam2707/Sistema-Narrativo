@@ -102,7 +102,15 @@ Pontos de Poder: [9] / [9]
 
 ## Conhecimento relevante
 
---- [ ]
+--- Magia e ocultismo: Elara possui conhecimento avançado sobre magia ritual, encantamentos, maldições, selos, invocações, proteção sobrenatural e manipulação de energias espirituais.
+
+--- Entidades e planos: conhece princípios sobre entidades extraplanares, demônios, espíritos, planos espirituais e formas de identificar influência, possessão, ruptura dimensional ou presença sobrenatural.
+
+--- Trigon e seu culto: conhece símbolos, práticas, métodos de invocação e padrões usados por seguidores de Trigon. Também reconhece sinais de tentativas de contato, influência ou preparação ritual ligada ao pai.
+
+--- Controle emocional e magia: entende profundamente como estados emocionais podem interferir em magia, especialmente na própria. Conhece técnicas de meditação, contenção, foco e isolamento de estímulos para recuperar estabilidade.
+
+--- Fenômenos sobrenaturais: consegue analisar eventos incomuns e separar, com alguma segurança, fenômenos mágicos, espirituais, dimensionais ou puramente físicos, embora nem sempre consiga identificar imediatamente sua origem exata.
 
 ## História consolidada relevante
 
