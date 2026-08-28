@@ -63,6 +63,8 @@ Pontos de Poder: [12] / [12]
 
 --- Reservas e patrimônio: Corvin acumulou pedras, metais, ouro e outros materiais em quantidade suficiente para ser considerado rico, mantendo grande parte dessas reservas em seu Refúgio Ártico para uso em criação, pesquisa e manutenção da base.
 
+--- Equipamento de campo: Corvin normalmente veste roupas casuais e carrega uma mochila com ferramentas e materiais pequenos para trabalhos rápidos de Forja e Alquimia, além de uma muda de roupa e itens pessoais básicos.
+
 ## Personalidade e tendências
 
 --- Nascido dos raios e da ira dos vulcões, Corvin não sente medo nem perde a compostura diante de perigos, ameaças ou desafios.
