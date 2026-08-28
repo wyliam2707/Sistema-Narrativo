@@ -21,8 +21,8 @@ Total de Atributos: [10] / [10]
 
 ## Perícias
 
-Esporte [ ] Combate [ ] Defesa [ ] Conjuração [ ] Furtividade [ ] Percepção [ ] Investigação [ ] Sobrevivência [ ] Medicina [ ] Tecnologia [ ] Ocultismo [ ] Influência [ ] Enganação [ ] Ofício: [especialidade] [ ]
-Total de Perícias: [ ] / [ ]
+Esporte [2] Combate [3] Defesa [2] Conjuração [0] Furtividade [0] Percepção [1] Investigação [0] Sobrevivência [1] Medicina [0] Tecnologia [1] Ocultismo [0] Influência [2] Enganação [0]
+Total de Perícias: [12] / [12]
 
 ## Poderes e Equipamentos
 
