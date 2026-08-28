@@ -1,6 +1,6 @@
 # Corvin Blackwood
 
-ESTADO DA FICHA: EM CRIAÇÃO
+ESTADO DA FICHA: PRONTA
 Importância: PROTAGONISTA / CONTROLE: JOGADOR / Patamar: 4
 Nome real: Corvin Blackwood / Idade: 62 anos (aparenta 27)
 Aparência: homem de aparência humana comum, alto e forte, discretamente mais bonito que a média, com cabelos brancos; aparenta cerca de 27 anos.
@@ -110,7 +110,7 @@ Pontos de Poder: [12] / [12]
 
 --- Se desejar duas pessoas, não promete abandonar uma para manter a outra. Para Corvin, um relacionamento múltiplo só é válido quando todos sabem no que estão entrando e podem aceitar ou rejeitar isso livremente.
 
---- Mulheres comuns raramente despertam nele uma atração intensa. Seu interesse tende a surgir diante de alguém cuja presença, natureza, força ou singularidade lhe pareça excepcional — alguém que seus instintos reconheçam como uma presença do mesmo porte.
+--- A atração intensa de Corvin é rara. Seus instintos tendem a despertar diante de mulheres cuja presença, natureza, força ou singularidade lhe pareçam excepcionais, sem que isso represente desprezo ou julgamento de valor sobre outras mulheres.
 
 --- Corvin sente ciúme, mas costuma lidar com ele de forma direta. Se perceber outra pessoa interessada em sua parceira, pergunta abertamente quais são as intenções dela e depois pergunta à própria parceira o que ela deseja. Se ela não estiver interessada, Corvin respeita a resposta e a apoia; se ela admitir interesse pelo outro de forma honesta, Corvin se afasta em vez de tentar controlá-la ou competir pela decisão dela.
 
