@@ -10,7 +10,8 @@ Ela serve tanto para personagens de jogadores quanto para NPCs, porque todos usa
 jogador/
 ├── README.md
 ├── 1.0-descricao-da-ficha.md
-└── 1.1-atributos-pericias-poderes.md
+├── 1.1-atributos-pericias-poderes.md
+└── 1.2-poderes-e-equipamentos.md
 ```
 
 ## `1.0-descricao-da-ficha.md`
@@ -32,20 +33,24 @@ Define a estrutura conceitual da ficha:
 
 ## `1.1-atributos-pericias-poderes.md`
 
-Define a estrutura mecânica básica da personagem:
+Define a base de Atributos, Perícias e Patamares.
 
-- seis Atributos;
-- quatorze Perícias gerais;
-- graduações de `0` a `+3`;
-- leitura própria da escala de Poderes;
-- `Combate`, `Defesa` e `Conjuração` como competências distintas;
-- Valor de Ação formado pelos componentes realmente pertinentes;
-- possibilidade de `Atributo + Perícia + Poder` quando os três participam legitimamente da mesma ação;
-- cinco Patamares;
-- orçamentos separados de Atributos, Perícias e Poderes;
-- construção criteriosa guiada pelo conceito da personagem.
+As partes antigas sobre construção e uso de Poderes permanecem em consolidação. Para **Pontos de Poder, custo por abrangência, Poder como opção de ação e equipamentos permanentes**, prevalece `1.2-poderes-e-equipamentos.md`.
 
-Vida, Mana, recursos e combate serão consolidados em arquivos seguintes.
+## `1.2-poderes-e-equipamentos.md`
+
+Define a regra simples de Poderes:
+
+- Poder é uma opção de ação;
+- graduação `[1]` a `[3]` mede a força da capacidade;
+- abrangência serve apenas para calcular custo na criação;
+- simples custa graduação ×1;
+- abrangente custa graduação ×2;
+- extremo custa graduação ×3;
+- Patamares possuem `3 / 6 / 9 / 12 / 15` Pontos de Poder;
+- equipamentos usam a mesma regra;
+- o que é comprado com Pontos de Poder pertence permanentemente à ficha;
+- perda ou indisponibilidade na cena não apaga o investimento.
 
 ## Princípio
 
@@ -60,4 +65,4 @@ ESTADO ATUAL
 → pertence ao Registro da campanha
 ```
 
-> **O Jogador decide o que sua personagem tenta fazer e usa a ficha como interface principal. NPCs usam a mesma lógica, com o nível de detalhe necessário para funcionar.**
+> **Complexidade na construção; simplicidade na mesa. Poderes ampliam o que a personagem pode fazer sem criar um subsistema novo para cada capacidade.**
