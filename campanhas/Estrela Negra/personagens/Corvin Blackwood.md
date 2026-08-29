@@ -48,9 +48,6 @@ Pontos de Poder: [12] / [12]
 --- TRAÇO: A Verdade da Natureza
 [Ao observar um ser vivo, Corvin reconhece sua natureza essencial, origem, linhagem e autoridade herdada. Isso não revela memórias, intenções ou história oculta.]
 
---- TRAÇO: Olhos da Verdade
-[Enquanto uma criatura mantém contato visual direto com os olhos de Corvin, ela não consegue expressar como verdade algo que seja falso. Se tentar mentir ou repetir como verdade uma falsidade imposta por influência externa, compulsão, encanto ou distorção de vontade, as palavras se corrigem e a verdade real daquela pessoa se manifesta, mesmo contra o que ela conscientemente queria dizer. O traço não concede conhecimento que a criatura realmente não possui, não força confissões espontâneas e pode ser evitado quebrando o contato visual, permanecendo em silêncio ou omitindo o assunto.]
-
 --- TRAÇO: A Natureza Não Mente
 [Corvin não consegue mentir deliberadamente; quando tenta, acaba expressando a verdade que conhece da forma mais nua e direta possível.]
 
