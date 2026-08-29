@@ -2,34 +2,39 @@
 
 STATUS: PRONTO PARA CONTINUAR
 TEMPORADA: 1
-ÚLTIMO CAPÍTULO FECHADO: `livro/002.md`
+ÚLTIMO CAPÍTULO FECHADO: `livro/003.md`
 MOMENTO: terceiro dia em Black Harbor, durante a investigação matinal do **Setor B — Interface de Distribuição**. Corvin, Ravena e Estelar estão juntos diante do modulador urbano e do terminal de diagnóstico em modo somente leitura.
 
 ## Ponto exato de continuação
 
-O trio acabou de compreender que o sistema possui faixas de intensidade e uma condição chamada **INTERVENÇÃO**, mas **não sabe o que níveis altos realmente fazem**.
+O trio acabou de concluir que **não pode continuar parecendo um grupo tentando fugir ou investigar Black Harbor abertamente**.
 
-Hipóteses discutidas, ainda não confirmadas:
+Corvin perguntou o que acontecerá quando os moradores perceberem que eles estão tentando sair — ou, pior, investigando a própria cidade.
 
-- níveis maiores podem apenas reforçar o mesmo efeito de aderência;
-- podem gerar ansiedade, confusão, cansaço, irritação ou alguma outra reação que torne abandonar Black Harbor mais difícil;
-- pode haver duas camadas distintas: uma barreira física que impede a saída e uma influência que reduz a vontade de tentar sair.
+Ravena e Estelar concluíram que:
 
-Estelar lembrou que tentou deixar a região voando e reapareceu pelo lado oposto sem mudar de direção.
+- se Black Harbor mede **ADERÊNCIA**, **AGITAÇÃO** e **IMPULSO DE SAÍDA**, ser percebido tentando partir pode alimentar exatamente os indicadores usados pelo sistema;
+- os moradores parecem sinceros, não guardas conscientes, mas podem funcionar como parte da malha de retorno do sistema;
+- comentários, perguntas e reações sociais podem se acumular e alimentar o Setor A/B;
+- investigar como desligar a prisão pode ser mais perigoso para o sistema do que simplesmente manifestar vontade de sair;
+- ainda não sabem se a reação seria apenas pressão social, aumento de intensidade ou algo mais grave.
 
-Ravena formulou a hipótese de que uma camada impede fisicamente a saída e a outra faz com que quase ninguém queira testar a primeira.
+A última conclusão expressa por Ravena foi:
 
-Corvin observou o histórico e sugeriu procurar o que acontece com alguém que continua insistindo em sair apesar da aderência.
+> **Precisamos investigar sem parecer que estamos investigando.**
 
-Ravena relacionou imediatamente a pergunta aos **quatro jovens que entraram nos túneis cerca de sessenta anos atrás: dois voltaram e dois desapareceram**.
+O terminal continua conectado em modo somente leitura. O modulador **não foi alterado**. Nenhuma limpeza ou saída do Setor B ocorreu ainda.
 
-Não existe ainda prova de que os desaparecimentos tenham relação com resistência ao sistema.
+A próxima decisão importante de Corvin pertence ao Jogador Humano. Ravena e Estelar permanecem protagonistas autônomas e podem agir segundo suas próprias conclusões e capacidades.
 
-**A pergunta aberta que encerra o ponto atual é:**
+## Perguntas abertas imediatas
 
-> O que Black Harbor faz com alguém que continua tentando sair mesmo depois de toda a “aderência” falhar?
-
-A próxima ação importante de Corvin pertence ao Jogador Humano. Ravena e Estelar continuam protagonistas autônomas e podem agir segundo suas próprias conclusões e capacidades.
+1. O que o modo **INTERVENÇÃO** realmente faz em intensidades altas?
+2. O que Black Harbor faz com alguém que continua tentando sair mesmo depois de toda a aderência falhar?
+3. Os dois jovens desaparecidos há cerca de sessenta anos possuem relação com resistência ao sistema?
+4. Onde fica o **Setor A**, que funciona como malha de retorno/feedback?
+5. Quem ainda realiza manutenção ocasional no Setor B?
+6. Como investigar essas respostas sem fazer a cidade perceber que o trio procura uma saída?
 
 ## Local atual — Setor B
 
@@ -39,20 +44,19 @@ A próxima ação importante de Corvin pertence ao Jogador Humano. Ravena e Este
 - Há sinais de manutenção posterior à instalação original; alguém ainda parece visitar o local ocasionalmente.
 - Corvin abriu a entrada sem dano aparente usando Forja de forma discreta.
 - O terminal portátil antigo está conectado ao porto **DIAGNÓSTICO / LEITURA SOMENTE**.
-- O modulador **não foi alterado**.
-- O trio ainda está dentro do Setor B neste ponto de retorno.
+- O modulador não foi alterado.
 
-## Arquitetura compreendida até agora
+## Arquitetura compreendida
 
 - **Setor C:** interface ligada à fonte/campo proveniente da instalação antiga sob o farol.
 - **Setor B:** estabiliza, separa características, modula e distribui o campo pela rede urbana.
-- **Setor A:** aparece no diagnóstico como **malha de retorno/feedback** da cidade; localização ainda desconhecida.
+- **Setor A:** aparece no diagnóstico como **malha de retorno/feedback** da cidade; localização desconhecida.
 
-O Setor B não deve operar sem retorno de A. Uma anotação manuscrita afirma:
+Uma anotação manuscrita no Setor B afirma:
 
 > **B não deve operar sem retorno de A. Sem feedback, compensação pode exceder níveis seguros.**
 
-Portanto, o trio não pretende desconectar setores às cegas.
+Por isso, o trio não pretende desconectar setores às cegas.
 
 ## Diagnóstico do Setor B
 
@@ -77,54 +81,54 @@ Faixas descobertas:
 - 61–85%: **COMPENSAÇÃO ELEVADA**;
 - 86–100%: **INTERVENÇÃO**.
 
-O sistema indica que, quando o **IMPULSO DE SAÍDA** ultrapassa um limiar, deve elevar a **ADERÊNCIA** conforme o perfil. A intervenção automática pode ocorrer se a aderência permanecer baixa, o impulso de saída persistir ou a agitação subir além do limite.
+Quando o **IMPULSO DE SAÍDA** ultrapassa um limiar, o sistema tenta elevar **ADERÊNCIA**. A intervenção automática pode ocorrer se aderência permanecer baixa, impulso de saída persistir ou agitação subir além do limite.
 
-**O efeito concreto de INTERVENÇÃO é desconhecido.**
+**O efeito concreto de INTERVENÇÃO continua desconhecido.**
 
 ## Histórico recente observado
 
-O histórico possui pequenos picos recentes que podem ser compatíveis, em tempo aproximado, com:
+O histórico possui pequenos picos recentes possivelmente compatíveis, em tempo aproximado, com:
 
 - a tentativa de Estelar de sair voando;
 - o momento no restaurante em que Corvin anunciou em voz alta que os três poderiam ir embora na manhã seguinte.
 
-Essa correlação ainda é hipótese, não prova definitiva.
+A correlação é hipótese, não prova definitiva.
 
 ## Hipótese sobre moradores e feedback
 
-O trio considera possível que os moradores funcionem como parte de uma malha distribuída de sensores/retorno:
+Hipótese operacional atual:
 
 - alguém manifesta intenção de sair;
-- moradores próximos reagem de modo sincero, oferecendo razões e soluções para permanecer;
-- essa resposta coletiva pode alimentar o retorno do Setor A;
-- o Setor B pode então ajustar a intensidade/aderência.
+- moradores próximos reagem sinceramente oferecendo razões e soluções para permanecer;
+- essa resposta coletiva pode alimentar a malha de retorno do Setor A;
+- o Setor B pode ajustar intensidade/aderência.
 
-A hipótese surgiu porque, no restaurante:
+Evidências sociais observadas no restaurante:
 
-- um morador conseguia citar Greyhaven, mas demonstrava pouco interesse em ir até lá;
-- quando Corvin afirmou que os três poderiam partir no dia seguinte, várias pessoas próximas começaram espontaneamente a sugerir motivos para ficar;
-- quando ele mencionou não possuir casa, moradores imediatamente ofereceram opções de aluguel e residência;
-- quando Corvin disse que talvez ficassem alguns dias, a tensão social diminuiu visivelmente.
+- um morador conhecia Greyhaven, mas demonstrava pouco interesse em ir até lá;
+- quando Corvin disse que poderiam partir na manhã seguinte, várias pessoas espontaneamente sugeriram motivos para ficar;
+- quando mencionou não possuir casa na cidade, surgiram rapidamente sugestões de aluguel e residência;
+- quando Corvin disse que talvez ficassem alguns dias, a tensão social diminuiu.
 
-Os moradores parecem agir sinceramente, e não como conspiradores conscientes.
+Os moradores parecem agir sinceramente, não como conspiradores conscientes.
 
 ## Setor C — farol
 
-Na manhã atual, antes de chegar ao Setor B, o trio encontrou sob o farol uma pequena câmara técnica humana construída em torno de componente mais antigo.
+Na manhã atual, antes do Setor B, o trio encontrou sob o farol uma pequena câmara técnica humana construída em torno de componente mais antigo.
 
-Elementos confirmados:
+Fatos confirmados:
 
 - acesso oculto atrás de armário/painel técnico na parte inferior do farol;
-- descida por escada curta até câmara industrial;
+- descida curta até câmara industrial;
 - placa: **UNIDADE DE INTERFACE — BLACK HARBOR / INSTALAÇÃO AUXILIAR / ACESSO RESTRITO**;
 - aviso: **NÃO DESCONECTAR DURANTE OPERAÇÃO DO SISTEMA PRINCIPAL**;
 - identificação: **SETOR C — FAROL / REDE URBANA**;
 - três caminhos/conexões: farol, subsolo antigo e distribuição em direção à cidade;
-- apenas a indicação ligada ao SUBSOLO apresentava atividade relevante durante a inspeção.
+- a indicação ligada ao SUBSOLO apresentava a atividade relevante durante a inspeção.
 
 O trio seguiu a linha lateral/distribuição e encontrou o Setor B.
 
-## Ruínas sob o farol — descobertas anteriores
+## Ruínas sob o farol — descobertas consolidadas
 
 ### Disco e pedestal
 
@@ -163,14 +167,12 @@ O trio seguiu a linha lateral/distribuição e encontrou o Setor B.
 - Telefonia/internet local funcionam; comunicações/serviços externos falham.
 - Estelar tentou sair voando em linha reta para o sul e reapareceu aproximando-se de Black Harbor pelo norte sem ter virado.
 - Corvin sabe secretamente que **Caminhos falha para alcançar seu Refúgio Ártico fora de Black Harbor**.
-- Na noite anterior, Corvin testou secretamente Caminhos dentro da própria região e conseguiu abrir do quarto 207 uma passagem até uma área conhecida do farol; concluiu que o poder funciona **dentro** da região presa.
+- Corvin também testou secretamente Caminhos dentro da região presa e conseguiu abrir passagem do quarto 207 até uma área conhecida do farol; concluiu que Caminhos funciona **dentro** da região.
 - Ravena e Estelar não sabem que Corvin possui Caminhos nem conhecem esses testes.
 
 ## Pesquisa histórica
 
-Corvin pesquisou a história local na tarde anterior.
-
-Fatos confirmados:
+Fatos confirmados por Corvin:
 
 - cerca de sessenta anos atrás, quatro jovens entraram nos túneis próximos ao farol;
 - dois retornaram e dois desapareceram;
@@ -181,7 +183,7 @@ Fatos confirmados:
 - fotografias mostram uma estrutura técnica temporária junto à base depois do acidente, depois removida;
 - legenda encontrada: **“Modernização técnica do Farol de Black Harbor após o incidente dos túneis.”**
 
-Não foram descobertos legitimamente nomes específicos dos jovens, nome de projeto governamental ou relatório técnico detalhado.
+Não foram descobertos nomes específicos dos jovens, nome de projeto governamental ou relatório técnico detalhado.
 
 ## Estado dos protagonistas
 
@@ -211,8 +213,7 @@ Não foram descobertos legitimamente nomes específicos dos jovens, nome de proj
 - O grande disco/chave circular restaurado está sob controle de Corvin.
 - Uma terceira barra permanece instalada nas ruínas.
 - Corvin possui mochila, ferramentas e materiais comuns de Forja/Alquimia de campo.
-
-Não assumir que as peças grandes estão visivelmente sendo carregadas durante a inspeção do Setor B; seu local exato de armazenamento nesta saída não foi estabelecido de forma necessária.
+- Não assumir que as peças grandes estão visivelmente sendo carregadas na inspeção do Setor B; o local exato de armazenamento nesta saída não precisa ser estabelecido até se tornar relevante.
 
 ## O que Ravena e Estelar sabem sobre Corvin
 
@@ -241,22 +242,14 @@ Não revelar ou usar automaticamente como solução:
 - imortalidade;
 - manifestações grandes.
 
-## CORREÇÃO / REBOBINAMENTO CANÔNICO
+## Verdades estruturais ativas
 
-Tudo o que foi jogado **depois da pergunta sobre o que acontece com quem insiste em sair apesar da aderência** foi anulado por decisão explícita do Jogador Humano.
+As premissas de protagonismo compartilhado, romance gradual ao longo de 90 dias, leitura de Corvin como relativamente comum, aprisionamento da região e demais direções permanecem em `mestre/narrativa.md` e `mestre/roteiro.md`.
 
-Portanto, neste ponto:
+Não existem ainda:
 
-- Corvin ainda **não realizou testes de verdade sobre a própria vontade em relação a Black Harbor**;
-- Ravena e Estelar ainda **não passaram por testes de verdade com Corvin**;
-- **Olhos da Verdade não foi introduzido nem existe como fato desta campanha neste ponto**;
-- não existe protocolo noturno de verdade;
-- não existe plano de “família feliz de dia / investigação à noite”;
-- nenhuma casa foi procurada ou alugada;
-- Sr. Bell e a casa Harper ainda não entraram na história atual;
-- não existe casamento/família de fachada definido;
-- Corvin não revelou o Ciclo da Vida às duas;
-- nenhuma cena de morte/renascimento do ciclo ocorreu;
-- `livro/003.md` fechado posteriormente foi invalidado pelo rebobinamento.
-
-A continuidade parte exclusivamente deste Estado e dos capítulos fechados até `livro/002.md`.
+- casa alugada pelo trio;
+- família/casamento de fachada;
+- protocolo noturno de verdade;
+- revelação do Ciclo da Vida;
+- Olhos da Verdade como traço ou poder desta campanha.
