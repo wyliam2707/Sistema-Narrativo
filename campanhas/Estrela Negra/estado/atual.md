@@ -2,39 +2,96 @@
 
 STATUS: PRONTO PARA CONTINUAR
 TEMPORADA: 1
-ÚLTIMO CAPÍTULO FECHADO: `livro/003.md`
-MOMENTO: terceiro dia em Black Harbor, durante a investigação matinal do **Setor B — Interface de Distribuição**. Corvin, Ravena e Estelar estão juntos diante do modulador urbano e do terminal de diagnóstico em modo somente leitura.
+ÚLTIMO CAPÍTULO FECHADO: `livro/004.md`
+MOMENTO: terceiro dia em Black Harbor, aproximadamente uma hora depois do teste social realizado por Corvin e Estelar no restaurante. Corvin, Ravena e Estelar estão novamente juntos dentro do **Setor B — Interface de Distribuição**, diante do terminal em modo somente leitura.
 
 ## Ponto exato de continuação
 
-O trio acabou de concluir que **não pode continuar parecendo um grupo tentando fugir ou investigar Black Harbor abertamente**.
+O trio acabou de completar um pequeno experimento para verificar se a rede urbana reage à forma como a cidade percebe a intenção dos protagonistas de **ficar ou sair**.
 
-Corvin perguntou o que acontecerá quando os moradores perceberem que eles estão tentando sair — ou, pior, investigando a própria cidade.
+Corvin anotou os valores iniciais do Setor B. Ravena permaneceu monitorando o terminal, enquanto Corvin e Estelar foram até o restaurante onde haviam almoçado antes.
 
-Ravena e Estelar concluíram que:
+Na cidade, Corvin e Estelar deliberadamente criaram uma narrativa pública de permanência:
 
-- se Black Harbor mede **ADERÊNCIA**, **AGITAÇÃO** e **IMPULSO DE SAÍDA**, ser percebido tentando partir pode alimentar exatamente os indicadores usados pelo sistema;
-- os moradores parecem sinceros, não guardas conscientes, mas podem funcionar como parte da malha de retorno do sistema;
-- comentários, perguntas e reações sociais podem se acumular e alimentar o Setor A/B;
-- investigar como desligar a prisão pode ser mais perigoso para o sistema do que simplesmente manifestar vontade de sair;
-- ainda não sabem se a reação seria apenas pressão social, aumento de intensidade ou algo mais grave.
+- disseram que pretendiam procurar uma casa grande para alugar;
+- Corvin falou em se estabelecer e “criar raízes” em Black Harbor;
+- usou a possibilidade de casamento como parte teatral da história;
+- perguntou abertamente se moradores se importariam com um possível casamento a três;
+- pediu à garçonete e às pessoas presentes que espalhassem a notícia de que talvez houvesse um casamento no fim do ano;
+- a garçonete Marta indicou a imobiliária local e disse para procurarem **Bell**.
 
-A última conclusão expressa por Ravena foi:
+**Importante:** não existe no momento noivado, casamento ou relacionamento formal entre Corvin, Ravena e Estelar. A conversa de casamento foi uma encenação/possibilidade hipotética usada para testar a reação social e tornar crível a ideia de permanência.
 
-> **Precisamos investigar sem parecer que estamos investigando.**
+Estelar acompanhou a atuação e chegou a segurar a mão de Corvin em público como parte natural da encenação. Isso não estabelece compromisso romântico.
 
-O terminal continua conectado em modo somente leitura. O modulador **não foi alterado**. Nenhuma limpeza ou saída do Setor B ocorreu ainda.
+Quando Corvin mencionou que Black Harbor “prende” quem entra e que não se consegue sair, houve aumento visível de atenção social e um pequeno pico posterior no terminal. Quando passou a falar em casa, raízes, permanência e futuro, os moradores relaxaram e começaram espontaneamente a oferecer soluções.
 
-A próxima decisão importante de Corvin pertence ao Jogador Humano. Ravena e Estelar permanecem protagonistas autônomas e podem agir segundo suas próprias conclusões e capacidades.
+Depois de retornarem discretamente ao Setor B, o trio esperou aproximadamente uma hora para permitir que a notícia circulasse.
+
+Ao final desse período, os números estabilizaram em:
+
+- Intensidade: **31%**
+- Retorno da rede: **88%**
+- Aderência: **84%**
+- Agitação: **8%**
+- Impulso de saída: **2%**
+
+Comparados aos valores iniciais, a cidade passou a apresentar **mais retorno e aderência, menos agitação e quase nenhum impulso de saída**, enquanto a intensidade necessária caiu.
+
+A correlação agora é significativamente mais forte, mas ainda não prova sozinha o mecanismo causal exato.
+
+Durante a espera, Corvin também encontrou atrás de uma chapa de manutenção um pequeno diagrama técnico do Setor B. A linha associada ao **Setor A** não termina num único ponto: ela se divide em várias ramificações identificadas parcialmente como **A-01, A-02, A-03** e outras marcações apagadas.
+
+A hipótese operacional atual é que **Setor A pode ser uma malha distribuída pela cidade, e não uma única instalação**.
+
+A última conclusão do capítulo foi:
+
+> Talvez a fofoca não seja apenas fofoca. Talvez seja exatamente como a malha atualiza o sistema.
+
+O terminal continua conectado em **DIAGNÓSTICO / LEITURA SOMENTE**. O modulador **não foi alterado**.
+
+A próxima decisão importante de Corvin pertence ao Jogador Humano. Ravena e Estelar permanecem protagonistas autônomas e podem agir conforme suas próprias conclusões e capacidades.
+
+## Valores comparativos do experimento
+
+### Antes do teste social
+
+- Intensidade: **37%**
+- Retorno da rede: **82%**
+- Aderência: **71%**
+- Agitação: **18%**
+- Impulso de saída: **11%**
+
+### Logo após Corvin e Estelar retornarem
+
+- Intensidade: **34%**
+- Retorno da rede: **84%**
+- Aderência: **77%**
+- Agitação: **13%**
+- Impulso de saída: **6%**
+
+### Aproximadamente uma hora depois
+
+- Intensidade: **31%**
+- Retorno da rede: **88%**
+- Aderência: **84%**
+- Agitação: **8%**
+- Impulso de saída: **2%**
+
+Durante o teste houve um pequeno pico inicial de **AGITAÇÃO / IMPULSO DE SAÍDA**, aproximadamente compatível com o momento em que Corvin falou publicamente que a cidade prende quem entra e impede a saída.
+
+Depois, à medida que a conversa mudou para casa, permanência, raízes e futuro, os indicadores começaram a caminhar na direção oposta.
 
 ## Perguntas abertas imediatas
 
 1. O que o modo **INTERVENÇÃO** realmente faz em intensidades altas?
 2. O que Black Harbor faz com alguém que continua tentando sair mesmo depois de toda a aderência falhar?
 3. Os dois jovens desaparecidos há cerca de sessenta anos possuem relação com resistência ao sistema?
-4. Onde fica o **Setor A**, que funciona como malha de retorno/feedback?
-5. Quem ainda realiza manutenção ocasional no Setor B?
-6. Como investigar essas respostas sem fazer a cidade perceber que o trio procura uma saída?
+4. O que exatamente são os pontos **A-01, A-02, A-03...** espalhados pela cidade?
+5. Onde ficam esses pontos do Setor A e como coletam retorno?
+6. A conversa entre moradores é literalmente o canal de feedback ou apenas acompanha outra forma de detecção?
+7. Quem ainda realiza manutenção ocasional no Setor B?
+8. Até que ponto a narrativa pública de que os três vão ficar pode ser usada como cobertura segura para investigar?
 
 ## Local atual — Setor B
 
@@ -45,12 +102,24 @@ A próxima decisão importante de Corvin pertence ao Jogador Humano. Ravena e Es
 - Corvin abriu a entrada sem dano aparente usando Forja de forma discreta.
 - O terminal portátil antigo está conectado ao porto **DIAGNÓSTICO / LEITURA SOMENTE**.
 - O modulador não foi alterado.
+- Ravena permaneceu no local durante o teste social e registrou os indicadores.
+
+### Novo diagrama encontrado
+
+Corvin encontrou uma chapa estreita de manutenção com sinais de remoção repetida. Atrás dela havia um pequeno diagrama de serviço:
+
+- **B — MODULAÇÃO** no centro;
+- uma linha de entrada proveniente de **C**;
+- uma linha de retorno associada a **A** que se divide em múltiplas ramificações;
+- marcações visíveis incluem **A-01**, **A-02**, **A-03** e outras parcialmente apagadas.
+
+O diagrama não identifica ainda a natureza física ou localização exata desses pontos.
 
 ## Arquitetura compreendida
 
 - **Setor C:** interface ligada à fonte/campo proveniente da instalação antiga sob o farol.
 - **Setor B:** estabiliza, separa características, modula e distribui o campo pela rede urbana.
-- **Setor A:** aparece no diagnóstico como **malha de retorno/feedback** da cidade; localização desconhecida.
+- **Setor A:** malha de retorno/feedback; agora existem evidências de que é composta por **múltiplos pontos distribuídos**, não necessariamente um único prédio.
 
 Uma anotação manuscrita no Setor B afirma:
 
@@ -60,17 +129,12 @@ Por isso, o trio não pretende desconectar setores às cegas.
 
 ## Diagnóstico do Setor B
 
-Leitura observada:
+Características confirmadas:
 
 - Estado da rede: ESTÁVEL.
 - Entrada primária: PRESENTE.
 - Perfil B-3: ATIVO.
 - Perfil de controle: **URBANO / ESTABILIZAÇÃO**.
-- Intensidade: **37%**.
-- Retorno da rede: **82% DENTRO DO PADRÃO**.
-- Aderência: **71%**.
-- Agitação: **18%**.
-- Impulso de saída: **11%**.
 - Compensação automática: ATIVA.
 - Fonte de campo: **EXTERNA — SETOR C**.
 - Malha de retorno: **SETOR A**.
@@ -85,32 +149,39 @@ Quando o **IMPULSO DE SAÍDA** ultrapassa um limiar, o sistema tenta elevar **AD
 
 **O efeito concreto de INTERVENÇÃO continua desconhecido.**
 
-## Histórico recente observado
-
-O histórico possui pequenos picos recentes possivelmente compatíveis, em tempo aproximado, com:
-
-- a tentativa de Estelar de sair voando;
-- o momento no restaurante em que Corvin anunciou em voz alta que os três poderiam ir embora na manhã seguinte.
-
-A correlação é hipótese, não prova definitiva.
-
 ## Hipótese sobre moradores e feedback
 
-Hipótese operacional atual:
+A hipótese ficou mais forte depois do teste controlado:
 
-- alguém manifesta intenção de sair;
-- moradores próximos reagem sinceramente oferecendo razões e soluções para permanecer;
-- essa resposta coletiva pode alimentar a malha de retorno do Setor A;
-- o Setor B pode ajustar intensidade/aderência.
+- alguém manifesta intenção de sair ou permanecer;
+- moradores próximos reagem de forma aparentemente sincera;
+- a informação social circula pela cidade;
+- o retorno do Setor A muda ao longo do tempo;
+- o Setor B ajusta intensidade/aderência conforme esse retorno.
 
-Evidências sociais observadas no restaurante:
+Comportamentos observados:
 
-- um morador conhecia Greyhaven, mas demonstrava pouco interesse em ir até lá;
-- quando Corvin disse que poderiam partir na manhã seguinte, várias pessoas espontaneamente sugeriram motivos para ficar;
-- quando mencionou não possuir casa na cidade, surgiram rapidamente sugestões de aluguel e residência;
-- quando Corvin disse que talvez ficassem alguns dias, a tensão social diminuiu.
+- falar em sair aumenta atenção social;
+- mencionar que a cidade prende quem entra gerou desconforto e aparente aumento de agitação;
+- falar em casa, raízes, permanência e futuro reduz a vigilância social;
+- moradores oferecem espontaneamente soluções que tornam permanecer mais fácil;
+- quanto mais a notícia de permanência parece circular, mais o retorno/aderência sobem e a agitação/impulso de saída caem.
 
-Os moradores parecem agir sinceramente, não como conspiradores conscientes.
+Os moradores continuam parecendo sinceros, não conspiradores conscientes.
+
+## Cobertura social emergente
+
+Ainda não existe um plano formal definitivo de fachada familiar, mas uma narrativa pública já começou a circular:
+
+- Corvin e Estelar foram vistos juntos procurando uma casa grande;
+- Corvin falou em permanecer em Black Harbor;
+- moradores do restaurante ouviram especulação sobre casamento, inclusive um possível casamento a três/“casamento duplo” no fim do ano;
+- Marta foi explicitamente incentivada a espalhar a notícia;
+- Bell foi indicado como contato para aluguel.
+
+Essa história pode se espalhar rapidamente pela cidade.
+
+**Não tratar essa narrativa como compromisso real entre os protagonistas.**
 
 ## Setor C — farol
 
@@ -246,10 +317,11 @@ Não revelar ou usar automaticamente como solução:
 
 As premissas de protagonismo compartilhado, romance gradual ao longo de 90 dias, leitura de Corvin como relativamente comum, aprisionamento da região e demais direções permanecem em `mestre/narrativa.md` e `mestre/roteiro.md`.
 
-Não existem ainda:
+Neste momento ainda **não existem como fatos reais entre os protagonistas**:
 
+- casamento ou noivado;
+- relacionamento a três estabelecido;
 - casa alugada pelo trio;
-- família/casamento de fachada;
 - protocolo noturno de verdade;
 - revelação do Ciclo da Vida;
 - Olhos da Verdade como traço ou poder desta campanha.
