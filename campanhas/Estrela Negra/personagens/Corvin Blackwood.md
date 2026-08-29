@@ -48,8 +48,8 @@ Pontos de Poder: [12] / [12]
 --- TRAÇO: A Verdade da Natureza
 [Ao observar um ser vivo, Corvin reconhece sua natureza essencial, origem, linhagem e autoridade herdada. Isso não revela memórias, intenções ou história oculta.]
 
---- TRAÇO: A Verdade Soa Errada
-[Quando Corvin ouve uma afirmação falsa ou profundamente incoerente com a realidade, ele pode sentir instintivamente que existe algo errado naquela frase. Isso não funciona como detector de mentiras: Corvin não sabe automaticamente se a pessoa está mentindo, enganada, omitindo algo, repetindo uma falsidade ou sofrendo alguma distorção; também não descobre qual é a verdade. Ele apenas percebe uma sensação de desencaixe, como se a frase não combinasse com a realidade, e precisa investigar normalmente para entender o motivo.]
+--- TRAÇO: Olhos da Verdade
+[Qualquer criatura que mantenha contato visual direto com os olhos de Corvin não consegue mentir deliberadamente para ele. A criatura ainda pode permanecer em silêncio, desviar o olhar, omitir informações, responder apenas parcialmente ou dizer algo falso que sinceramente acredita ser verdade; o traço não força confissões nem revela automaticamente qual é a verdade.]
 
 --- TRAÇO: A Natureza Não Mente
 [Corvin não consegue mentir deliberadamente; quando tenta, acaba expressando a verdade que conhece da forma mais nua e direta possível.]
