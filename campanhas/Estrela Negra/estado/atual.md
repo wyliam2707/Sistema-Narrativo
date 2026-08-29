@@ -2,33 +2,125 @@
 
 STATUS: PRONTO PARA CONTINUAR
 TEMPORADA: 1
-ÚLTIMO CAPÍTULO FECHADO: `livro/004.md`
-MOMENTO: terceiro dia em Black Harbor, aproximadamente uma hora depois do teste social realizado por Corvin e Estelar no restaurante. Corvin, Ravena e Estelar estão novamente juntos dentro do **Setor B — Interface de Distribuição**, diante do terminal em modo somente leitura.
+ÚLTIMO CAPÍTULO FECHADO: `livro/005.md`
+MOMENTO: fim do terceiro dia em Black Harbor. Corvin, Ravena e Estelar estão dormindo na nova casa em **Ridge Road, 18**, depois de um dia de investigação, compra da propriedade e uma conversa em que mediram parcialmente a influência da cidade sobre os próprios desejos e vínculos.
 
 ## Ponto exato de continuação
 
-O trio acabou de completar um pequeno experimento para verificar se a rede urbana reage à forma como a cidade percebe a intenção dos protagonistas de **ficar ou sair**.
+O trio encerrou o terceiro dia dentro da nova casa comprada em Black Harbor.
 
-Corvin anotou os valores iniciais do Setor B. Ravena permaneceu monitorando o terminal, enquanto Corvin e Estelar foram até o restaurante onde haviam almoçado antes.
+Durante a noite, depois de compras simples e jantar, Corvin, Ravena e Estelar dividiram a única cama disponível. Corvin ficou no meio. Não existe compromisso romântico formal estabelecido, e a proximidade não deve ser tratada como consentimento automático para qualquer avanço.
 
-Na cidade, Corvin e Estelar deliberadamente criaram uma narrativa pública de permanência:
+Antes de dormir, Corvin regulou a temperatura do quarto para um frio confortável e invocou pequenas borboletas luminosas de energia natural que também funcionam como sistema de segurança.
 
-- disseram que pretendiam procurar uma casa grande para alugar;
-- Corvin falou em se estabelecer e “criar raízes” em Black Harbor;
-- usou a possibilidade de casamento como parte teatral da história;
-- perguntou abertamente se moradores se importariam com um possível casamento a três;
-- pediu à garçonete e às pessoas presentes que espalhassem a notícia de que talvez houvesse um casamento no fim do ano;
-- a garçonete Marta indicou a imobiliária local e disse para procurarem **Bell**.
+O próximo capítulo deve começar na manhã seguinte, quarto dia em Black Harbor, salvo decisão diferente do Jogador Humano.
 
-**Importante:** não existe no momento noivado, casamento ou relacionamento formal entre Corvin, Ravena e Estelar. A conversa de casamento foi uma encenação/possibilidade hipotética usada para testar a reação social e tornar crível a ideia de permanência.
+## Descoberta central do capítulo 5
 
-Estelar acompanhou a atuação e chegou a segurar a mão de Corvin em público como parte natural da encenação. Isso não estabelece compromisso romântico.
+Corvin, Ravena e Estelar realizaram um acordo verdadeiro em nome de Gaia para responder obrigatoriamente e com sinceridade às mesmas três perguntas:
 
-Quando Corvin mencionou que Black Harbor “prende” quem entra e que não se consegue sair, houve aumento visível de atenção social e um pequeno pico posterior no terminal. Quando passou a falar em casa, raízes, permanência e futuro, os moradores relaxaram e começaram espontaneamente a oferecer soluções.
+1. Eu gosto dos outros ou a cidade está me obrigando a gostar?
+2. Eu quero ficar aqui?
+3. O que eu quero?
 
-Depois de retornarem discretamente ao Setor B, o trio esperou aproximadamente uma hora para permitir que a notícia circulasse.
+O resultado foi consistente entre os três:
 
-Ao final desse período, os números estabilizaram em:
+- os vínculos e atrações existentes **não parecem ter sido criados por Black Harbor**;
+- nenhum dos três quer realmente permanecer preso na cidade;
+- Black Harbor parece usar sentimentos reais, conforto, proximidade, casa e perspectiva de futuro como **âncoras de aderência**;
+- a cidade não precisa criar afeto: ela tenta transformar aquilo que já existe em motivo para permanecer.
+
+## Estado relacional atual
+
+### Corvin
+
+- Gosta genuinamente de Ravena e Estelar.
+- Não quer prometer um futuro antes de sair da influência de Black Harbor.
+- Não pretende tomar o que não lhe for livremente oferecido, mas também não pretende negar o que lhe for oferecido.
+- Quer descobrir o que existe entre os três fora da influência da cidade.
+
+### Ravena
+
+- Gosta genuinamente de Corvin.
+- Considera Estelar uma das pessoas mais importantes de sua vida e continua entendendo esse vínculo principalmente como amizade/família neste momento.
+- Não quer que sair da cidade signifique simplesmente abandonar os vínculos criados durante a convivência.
+- Fez com Corvin um acordo comum, sem magia: depois de sair, ambos vão reavaliar o que foi sentimento próprio e o que foi influência da cidade antes de decidir como ficam fora dali.
+
+### Estelar
+
+- Sente atração genuína por Corvin.
+- Ama Ravena como família e amiga profundamente íntima; isso ainda não foi definido como amor romântico.
+- Aceitou um acordo comum com Corvin: dentro de Black Harbor, cada um pode assumir livremente os papéis que desejar, sem dívida ou arrependimento futuro; fora da cidade, sem influência externa, cada pessoa poderá escolher novamente o que deseja.
+
+## Nomes pessoais usados por Corvin
+
+Os arquivos e registros continuam usando os nomes **Ravena** e **Estelar**.
+
+Em particular, Corvin passou a chamá-las pelos nomes pessoais:
+
+- Ravena → **Elara**.
+- Estelar → **Kori**, abreviação de **Koriand’r**.
+
+Isso é apenas uma forma íntima/pessoal de tratamento usada por Corvin e não altera os nomes oficiais nos arquivos da campanha.
+
+## Revelações de Corvin a Ravena e Estelar
+
+Corvin revelou que:
+
+- é um meio-deus da natureza / espécie de encarnação da natureza;
+- foi criado por pessoas que o encontraram e acredita não possuir pais em sentido literal comum;
+- não consegue mentir deliberadamente; se tenta mentir, sua natureza o força a expressar a verdade que reconhece;
+- pode escolher não responder perguntas que não deseja responder;
+- acordos feitos corretamente em nome de Gaia podem criar obrigação real entre partes livres, conscientes e em troca equivalente;
+- possui Caminhos e consegue abrir portais para lugares que conhece;
+- Caminhos funciona dentro de Black Harbor, inclusive permitindo acesso à sala de controle do farol;
+- Caminhos falha ao tentar alcançar qualquer destino conhecido fora da região presa;
+- também pode voar por manifestações da Dádiva da Terra, embora prefira manter isso desconhecido pela cidade.
+
+Ravena e Estelar agora sabem muito mais sobre a verdadeira natureza de Corvin, embora ainda não conheçam necessariamente todos os seus poderes, limites ou o Ciclo da Vida.
+
+## Cobertura social atual
+
+A narrativa pública usada para reduzir a pressão da cidade é simples:
+
+- Corvin veio investigar Black Harbor;
+- Ravena e Estelar vieram investigar o farol;
+- os três se conheceram, se apaixonaram rapidamente e também se apaixonaram pela cidade;
+- decidiram deixar a vida anterior para trás e criar raízes em Black Harbor;
+- compraram uma casa grande pensando em casamento, filhos, jardim, horta e futuro local.
+
+A cobertura agora possui evidência social concreta:
+
+- restaurante e moradores ouviram a história;
+- Bell intermediou a compra da casa;
+- Corvin, Ravena e Estelar agora possuem endereço em Ridge Road, 18;
+- foram vistos juntos em público;
+- Ravena e Estelar foram vistas voando como forma normal de deslocamento;
+- Corvin continua aparentando ser o membro humano/comum da família e deixa que Estelar o carregue em público para reforçar essa impressão.
+
+Plano atual:
+
+- **durante o dia:** sustentar a imagem de família feliz, integrada e decidida a permanecer;
+- **em privado:** usar Caminhos e investigação discreta para continuar examinando farol, ruínas, Setor B e pontos do Setor A sem criar rastros desnecessários.
+
+## Nova residência — Ridge Road, 18
+
+- Casa antiga de dois andares.
+- Quatro quartos.
+- Dois cômodos menores que podem servir de escritório ou depósito.
+- Terreno amplo.
+- Estrutura antiga de estufa.
+- Espaço suficiente para jardim, horta e possível pomar.
+- A casa foi comprada com parte dos metais e pedras preciosas que Corvin carregava como materiais de Forja.
+- Bell negociou aproximadamente 28% abaixo do preço anunciado.
+- Parte significativa dos materiais de Corvin permaneceu com ele.
+- A residência ainda possui pouca mobília solta.
+- Há uma única cama disponível no momento.
+- Itens recuperados das ruínas sob o farol estão guardados dentro de um armário do quarto.
+
+## Setor B — resultado do teste social
+
+Valores estabilizados ao final do experimento anterior:
 
 - Intensidade: **31%**
 - Retorno da rede: **88%**
@@ -36,51 +128,28 @@ Ao final desse período, os números estabilizaram em:
 - Agitação: **8%**
 - Impulso de saída: **2%**
 
-Comparados aos valores iniciais, a cidade passou a apresentar **mais retorno e aderência, menos agitação e quase nenhum impulso de saída**, enquanto a intensidade necessária caiu.
+A correlação entre percepção social de permanência e resposta da rede ficou forte, embora o mecanismo exato ainda não esteja provado.
 
-A correlação agora é significativamente mais forte, mas ainda não prova sozinha o mecanismo causal exato.
+O Setor B foi deixado aparentemente intacto, sem sinais evidentes da investigação do trio.
 
-Durante a espera, Corvin também encontrou atrás de uma chapa de manutenção um pequeno diagrama técnico do Setor B. A linha associada ao **Setor A** não termina num único ponto: ela se divide em várias ramificações identificadas parcialmente como **A-01, A-02, A-03** e outras marcações apagadas.
+## Farol e acesso às ruínas
 
-A hipótese operacional atual é que **Setor A pode ser uma malha distribuída pela cidade, e não uma única instalação**.
+Corvin usou Dádiva da Terra para ocultar a entrada da caverna com terra, pedras, raízes e vegetação, deixando-a semelhante ao terreno natural.
 
-A última conclusão do capítulo foi:
+Isso não impede o trio de voltar às ruínas porque Corvin agora revelou a Ravena e Estelar que consegue usar Caminhos para entrar em locais conhecidos dentro da região presa.
 
-> Talvez a fofoca não seja apenas fofoca. Talvez seja exatamente como a malha atualiza o sistema.
+## Arquitetura compreendida
 
-O terminal continua conectado em **DIAGNÓSTICO / LEITURA SOMENTE**. O modulador **não foi alterado**.
+- **Setor C:** interface ligada à fonte/campo proveniente da instalação antiga sob o farol.
+- **Setor B:** estabiliza, separa características, modula e distribui o campo pela rede urbana.
+- **Setor A:** malha de retorno/feedback composta aparentemente por múltiplos pontos distribuídos, incluindo A-01, A-02, A-03 e outros.
 
-A próxima decisão importante de Corvin pertence ao Jogador Humano. Ravena e Estelar permanecem protagonistas autônomas e podem agir conforme suas próprias conclusões e capacidades.
+Hipótese operacional atual:
 
-## Valores comparativos do experimento
-
-### Antes do teste social
-
-- Intensidade: **37%**
-- Retorno da rede: **82%**
-- Aderência: **71%**
-- Agitação: **18%**
-- Impulso de saída: **11%**
-
-### Logo após Corvin e Estelar retornarem
-
-- Intensidade: **34%**
-- Retorno da rede: **84%**
-- Aderência: **77%**
-- Agitação: **13%**
-- Impulso de saída: **6%**
-
-### Aproximadamente uma hora depois
-
-- Intensidade: **31%**
-- Retorno da rede: **88%**
-- Aderência: **84%**
-- Agitação: **8%**
-- Impulso de saída: **2%**
-
-Durante o teste houve um pequeno pico inicial de **AGITAÇÃO / IMPULSO DE SAÍDA**, aproximadamente compatível com o momento em que Corvin falou publicamente que a cidade prende quem entra e impede a saída.
-
-Depois, à medida que a conversa mudou para casa, permanência, raízes e futuro, os indicadores começaram a caminhar na direção oposta.
+- percepção/intenção social circula pela cidade;
+- o Setor A coleta ou acompanha esse retorno;
+- o Setor B ajusta aderência, intensidade, agitação e impulso de saída;
+- laços, conforto e perspectiva de futuro podem ser usados como ferramentas do sistema para reduzir desejo de fuga.
 
 ## Perguntas abertas imediatas
 
@@ -89,239 +158,27 @@ Depois, à medida que a conversa mudou para casa, permanência, raízes e futuro
 3. Os dois jovens desaparecidos há cerca de sessenta anos possuem relação com resistência ao sistema?
 4. O que exatamente são os pontos **A-01, A-02, A-03...** espalhados pela cidade?
 5. Onde ficam esses pontos do Setor A e como coletam retorno?
-6. A conversa entre moradores é literalmente o canal de feedback ou apenas acompanha outra forma de detecção?
+6. A conversa entre moradores é literalmente o canal de feedback ou acompanha outra forma de detecção?
 7. Quem ainda realiza manutenção ocasional no Setor B?
-8. Até que ponto a narrativa pública de que os três vão ficar pode ser usada como cobertura segura para investigar?
+8. Até que ponto a nova casa e a cobertura familiar podem ser usadas para investigar sem elevar a atenção do sistema?
+9. Quanto a influência de Black Harbor crescerá à medida que os vínculos reais entre os três se aprofundarem?
 
-## Local atual — Setor B
+## Estado de Corvin
 
-- Pequena instalação de concreto ao norte do farol, com nível subterrâneo maior do que a estrutura visível.
-- Identificação: **SETOR B — INTERFACE DE DISTRIBUIÇÃO**.
-- Aviso: **MANUTENÇÃO DO MODULADOR SOMENTE COM REDE EM ESTADO ESTÁVEL**.
-- Há sinais de manutenção posterior à instalação original; alguém ainda parece visitar o local ocasionalmente.
-- Corvin abriu a entrada sem dano aparente usando Forja de forma discreta.
-- O terminal portátil antigo está conectado ao porto **DIAGNÓSTICO / LEITURA SOMENTE**.
-- O modulador não foi alterado.
-- Ravena permaneceu no local durante o teste social e registrou os indicadores.
+- Vida: sem ferimentos relevantes.
+- Mente: sem marcas relevantes.
+- Mana: manter o último valor registrado antes do encerramento do capítulo, descontando apenas usos que a regra vigente exigir registrar.
+- Faltam aproximadamente **dois dias** para o fim do Ciclo da Vida atual.
+- Ravena e Estelar ainda não conhecem o Ciclo da Vida nem necessariamente todos os limites de Corvin.
 
-### Novo diagrama encontrado
+## Regra de retomada
 
-Corvin encontrou uma chapa estreita de manutenção com sinais de remoção repetida. Atrás dela havia um pequeno diagrama de serviço:
+A próxima decisão importante de Corvin pertence ao Jogador Humano.
 
-- **B — MODULAÇÃO** no centro;
-- uma linha de entrada proveniente de **C**;
-- uma linha de retorno associada a **A** que se divide em múltiplas ramificações;
-- marcações visíveis incluem **A-01**, **A-02**, **A-03** e outras parcialmente apagadas.
+Ravena e Estelar permanecem protagonistas autônomas e devem agir conforme suas próprias personalidades, conhecimentos, desejos e limites.
 
-O diagrama não identifica ainda a natureza física ou localização exata desses pontos.
+Não tratar a cobertura de casamento/família como compromisso romântico real já estabelecido.
 
-## Arquitetura compreendida
+Não tratar a cama compartilhada como consentimento automático para intimidade adicional.
 
-- **Setor C:** interface ligada à fonte/campo proveniente da instalação antiga sob o farol.
-- **Setor B:** estabiliza, separa características, modula e distribui o campo pela rede urbana.
-- **Setor A:** malha de retorno/feedback; agora existem evidências de que é composta por **múltiplos pontos distribuídos**, não necessariamente um único prédio.
-
-Uma anotação manuscrita no Setor B afirma:
-
-> **B não deve operar sem retorno de A. Sem feedback, compensação pode exceder níveis seguros.**
-
-Por isso, o trio não pretende desconectar setores às cegas.
-
-## Diagnóstico do Setor B
-
-Características confirmadas:
-
-- Estado da rede: ESTÁVEL.
-- Entrada primária: PRESENTE.
-- Perfil B-3: ATIVO.
-- Perfil de controle: **URBANO / ESTABILIZAÇÃO**.
-- Compensação automática: ATIVA.
-- Fonte de campo: **EXTERNA — SETOR C**.
-- Malha de retorno: **SETOR A**.
-
-Faixas descobertas:
-
-- 0–60%: **NORMAL**;
-- 61–85%: **COMPENSAÇÃO ELEVADA**;
-- 86–100%: **INTERVENÇÃO**.
-
-Quando o **IMPULSO DE SAÍDA** ultrapassa um limiar, o sistema tenta elevar **ADERÊNCIA**. A intervenção automática pode ocorrer se aderência permanecer baixa, impulso de saída persistir ou agitação subir além do limite.
-
-**O efeito concreto de INTERVENÇÃO continua desconhecido.**
-
-## Hipótese sobre moradores e feedback
-
-A hipótese ficou mais forte depois do teste controlado:
-
-- alguém manifesta intenção de sair ou permanecer;
-- moradores próximos reagem de forma aparentemente sincera;
-- a informação social circula pela cidade;
-- o retorno do Setor A muda ao longo do tempo;
-- o Setor B ajusta intensidade/aderência conforme esse retorno.
-
-Comportamentos observados:
-
-- falar em sair aumenta atenção social;
-- mencionar que a cidade prende quem entra gerou desconforto e aparente aumento de agitação;
-- falar em casa, raízes, permanência e futuro reduz a vigilância social;
-- moradores oferecem espontaneamente soluções que tornam permanecer mais fácil;
-- quanto mais a notícia de permanência parece circular, mais o retorno/aderência sobem e a agitação/impulso de saída caem.
-
-Os moradores continuam parecendo sinceros, não conspiradores conscientes.
-
-## Cobertura social emergente
-
-Ainda não existe um plano formal definitivo de fachada familiar, mas uma narrativa pública já começou a circular:
-
-- Corvin e Estelar foram vistos juntos procurando uma casa grande;
-- Corvin falou em permanecer em Black Harbor;
-- moradores do restaurante ouviram especulação sobre casamento, inclusive um possível casamento a três/“casamento duplo” no fim do ano;
-- Marta foi explicitamente incentivada a espalhar a notícia;
-- Bell foi indicado como contato para aluguel.
-
-Essa história pode se espalhar rapidamente pela cidade.
-
-**Não tratar essa narrativa como compromisso real entre os protagonistas.**
-
-## Setor C — farol
-
-Na manhã atual, antes do Setor B, o trio encontrou sob o farol uma pequena câmara técnica humana construída em torno de componente mais antigo.
-
-Fatos confirmados:
-
-- acesso oculto atrás de armário/painel técnico na parte inferior do farol;
-- descida curta até câmara industrial;
-- placa: **UNIDADE DE INTERFACE — BLACK HARBOR / INSTALAÇÃO AUXILIAR / ACESSO RESTRITO**;
-- aviso: **NÃO DESCONECTAR DURANTE OPERAÇÃO DO SISTEMA PRINCIPAL**;
-- identificação: **SETOR C — FAROL / REDE URBANA**;
-- três caminhos/conexões: farol, subsolo antigo e distribuição em direção à cidade;
-- a indicação ligada ao SUBSOLO apresentava a atividade relevante durante a inspeção.
-
-O trio seguiu a linha lateral/distribuição e encontrou o Setor B.
-
-## Ruínas sob o farol — descobertas consolidadas
-
-### Disco e pedestal
-
-- Corredor com marcas de arrasto levou a uma sala com três suportes.
-- Um suporte guardava um grande disco/chave circular de metal rachado com três saliências.
-- Corvin encontrou metal compatível e restaurou o disco usando Forja, gastando **2 Mana**.
-- O disco pulsa no mesmo ritmo da vibração profunda.
-- O disco corresponde ao pedestal central da câmara circular.
-- Leitura provável do mecanismo: **alinhar → inserir → girar → pressionar**.
-- O conjunto parece completar três caminhos de energia.
-- O disco/pedestal ainda não foi acionado.
-
-### Barras e subsistemas
-
-- Uma sala possui três nichos para barras/módulos metálicos removíveis.
-- Uma barra permanece instalada e alimenta um circuito que segue para baixo.
-- Duas barras ausentes foram encontradas numa sala técnica oculta e recuperadas por Corvin.
-- Essa sala possui três grandes subsistemas: dois inativos e um ativo.
-- O subsistema ativo envia energia para níveis inferiores.
-- Outro subsistema se espalha pela instalação.
-- O terceiro se relaciona ao núcleo/pedestal.
-
-### Câmara profunda
-
-- Grande câmara vertical com estrutura cilíndrica central que pulsa regularmente.
-- Várias passarelas e níveis.
-- Porta larga com três contatos, atualmente sem energia suficiente.
-- Porta estreita energizada pelo subsistema ativo, com controle circular de três anéis concêntricos.
-- Porta pesada em nível inferior.
-- Nenhuma dessas portas foi acionada.
-
-## Aprisionamento confirmado
-
-- Comunicadores de Ravena e Estelar funcionam localmente entre elas.
-- Não alcançam Ciborgue, Titãs ou destinos externos.
-- Telefonia/internet local funcionam; comunicações/serviços externos falham.
-- Estelar tentou sair voando em linha reta para o sul e reapareceu aproximando-se de Black Harbor pelo norte sem ter virado.
-- Corvin sabe secretamente que **Caminhos falha para alcançar seu Refúgio Ártico fora de Black Harbor**.
-- Corvin também testou secretamente Caminhos dentro da região presa e conseguiu abrir passagem do quarto 207 até uma área conhecida do farol; concluiu que Caminhos funciona **dentro** da região.
-- Ravena e Estelar não sabem que Corvin possui Caminhos nem conhecem esses testes.
-
-## Pesquisa histórica
-
-Fatos confirmados por Corvin:
-
-- cerca de sessenta anos atrás, quatro jovens entraram nos túneis próximos ao farol;
-- dois retornaram e dois desapareceram;
-- buscas foram suspensas por risco/instabilidade subterrânea;
-- uma equipe externa chegou com caminhões e equipamentos e interditou acessos;
-- houve manutenção extraordinária no farol na mesma época;
-- o farol ficou temporariamente apagado;
-- fotografias mostram uma estrutura técnica temporária junto à base depois do acidente, depois removida;
-- legenda encontrada: **“Modernização técnica do Farol de Black Harbor após o incidente dos túneis.”**
-
-Não foram descobertos nomes específicos dos jovens, nome de projeto governamental ou relatório técnico detalhado.
-
-## Estado dos protagonistas
-
-### Corvin
-
-- Vida: sem ferimentos.
-- Mente: sem marcas.
-- Mana: **8/10**.
-- Aproximadamente **dois dias** até o fim do Ciclo da Vida atual.
-- Ravena e Estelar não conhecem o Ciclo da Vida, Semente Imortal, natureza semidivina, Caminhos, Fúria da Terra ou a extensão real da Dádiva.
-
-### Ravena
-
-- Vida: sem ferimentos.
-- Mente: sem marcas.
-- Mana: 10/10.
-
-### Estelar
-
-- Vida: sem ferimentos.
-- Mente: sem marcas.
-- Mana: 10/10.
-
-## Equipamentos e peças
-
-- Duas barras/módulos metálicos recuperados das ruínas estão sob controle de Corvin.
-- O grande disco/chave circular restaurado está sob controle de Corvin.
-- Uma terceira barra permanece instalada nas ruínas.
-- Corvin possui mochila, ferramentas e materiais comuns de Forja/Alquimia de campo.
-- Não assumir que as peças grandes estão visivelmente sendo carregadas na inspeção do Setor B; o local exato de armazenamento nesta saída não precisa ser estabelecido até se tornar relevante.
-
-## O que Ravena e Estelar sabem sobre Corvin
-
-Elas sabem que Corvin:
-
-- é viajante, investigador e explorador experiente;
-- possui percepção de nascença capaz de reconhecer natureza/origem/linhagem de seres vivos;
-- demonstrou Forja sobrenatural ao reparar o disco e manipular mecanismos metálicos;
-- consegue manifestar capacidades naturais/animais discretas, tendo demonstrado velocidade comparável à de um guepardo sem transformação;
-- trata a natureza abissal de Ravena sem medo aparente.
-
-### Fachada de poder escolhida por Corvin
-
-Até nova decisão do Jogador Humano, usos abertos de poder diante de Ravena e Estelar devem parecer explicáveis como:
-
-- **Forja**;
-- pequenas capacidades animais/naturais equivalentes a aproximadamente Patamar 1.
-
-Não revelar ou usar automaticamente como solução:
-
-- Caminhos;
-- verdadeira extensão da Dádiva;
-- Fúria da Terra;
-- semidivindade;
-- Ciclo da Vida;
-- imortalidade;
-- manifestações grandes.
-
-## Verdades estruturais ativas
-
-As premissas de protagonismo compartilhado, romance gradual ao longo de 90 dias, leitura de Corvin como relativamente comum, aprisionamento da região e demais direções permanecem em `mestre/narrativa.md` e `mestre/roteiro.md`.
-
-Neste momento ainda **não existem como fatos reais entre os protagonistas**:
-
-- casamento ou noivado;
-- relacionamento a três estabelecido;
-- casa alugada pelo trio;
-- protocolo noturno de verdade;
-- revelação do Ciclo da Vida;
-- Olhos da Verdade como traço ou poder desta campanha.
+A influência de Black Harbor deve continuar sendo relevante, mas não deve invalidar automaticamente sentimentos reais já distinguidos pelo acordo em nome de Gaia.
