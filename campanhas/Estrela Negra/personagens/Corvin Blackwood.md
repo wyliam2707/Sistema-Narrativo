@@ -49,7 +49,7 @@ Pontos de Poder: [12] / [12]
 [Ao observar um ser vivo, Corvin reconhece sua natureza essencial, origem, linhagem e autoridade herdada. Isso não revela memórias, intenções ou história oculta.]
 
 --- TRAÇO: A Natureza Não Mente
-[Corvin não consegue mentir deliberadamente; quando tenta, acaba expressando a verdade que conhece da forma mais nua e direta possível.]
+[Corvin não consegue mentir deliberadamente; quando tenta, acaba expressando a verdade que conhece da forma mais nua e direta possível, se uma pessoa faz um acord com corvin essa pessoa e obrigada a cumprila, o acordo deve ser igual e feita de livre vontade, sabendo do que se trata].
 
 --- TRAÇO: Ciclo da Vida
 [A cada 30 dias, ao pôr do sol, Corvin se desfaz em pó e deixa sementes ligadas ao próprio ciclo; ao amanhecer seguinte, uma delas germina em terreno próximo e forma seu novo corpo, iniciando outro ciclo. Se morrer antes disso, também se desfaz em pó e deixa sementes, mas nenhuma germina até completar o ciclo seguinte de 30 dias.]
