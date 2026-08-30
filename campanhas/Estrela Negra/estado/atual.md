@@ -3,17 +3,19 @@
 STATUS: PRONTO PARA CONTINUAR
 TEMPORADA: 1
 ÚLTIMO CAPÍTULO FECHADO: `livro/017.md`
-MOMENTO: Dia 9 em Black Harbor, depois de uma longa exploração sob o farol. Corvin, Ravena e Estelar acabaram de retornar ao Refúgio Ártico através de Caminhos. Nenhuma nova ação voluntária de Corvin foi declarada depois do retorno.
+MOMENTO: Dia 9 em Black Harbor, depois de uma longa exploração sob o farol. Corvin, Ravena e Estelar acabaram de retornar à casa de Ridge Road, 18 através de Caminhos. Nenhuma nova ação voluntária de Corvin foi declarada depois do retorno.
 
 ## Ponto exato de continuação
 
-Os três estão no Refúgio Ártico, imediatamente após Corvin fechar o portal que os trouxe das áreas subterrâneas de Black Harbor.
+Os três estão na casa de Ridge Road, 18, em Black Harbor, imediatamente após Corvin fechar o portal que os trouxe das áreas subterrâneas sob o farol.
 
 - a exploração do dia terminou;
 - não existe urgência imediata na cena;
 - o restante do Dia 9 ainda não foi narrado nem consumido automaticamente;
 - nenhuma atividade futura do “amanhã” foi executada;
 - a próxima ação voluntária de Corvin pertence ao Jogador Humano.
+
+**O Refúgio Ártico continua fora de Black Harbor e permanece inacessível por Caminhos enquanto a contenção territorial estiver ativa.** O teste do Dia 9 no Setor B confirmou que uma tentativa de portal para o Ártico sofre resistência e não permite atravessar a fronteira.
 
 ## Estado de Corvin
 
@@ -314,14 +316,14 @@ Existem chaves mágicas de Corvin para destinos conhecidos, separadas do disco/c
 
 Estado atual:
 
-- Estelar possui uma chave vinculada ao Refúgio Ártico;
-- Ravena possui uma chave vinculada ao Refúgio Ártico;
+- Estelar possui uma chave vinculada à casa de Ridge Road, 18, em Black Harbor;
+- Ravena possui uma chave vinculada à casa de Ridge Road, 18, em Black Harbor;
 - Corvin tinha apenas **uma chave reserva**;
 - no fim do Dia 9 ele vinculou essa reserva ao **salão do pedestal**;
 - Corvin entregou essa chave do salão a Estelar;
 - Estelar agora possui uma chave para o salão e uma para a casa;
 - Ravena possui sua chave para a casa;
-- Corvin não possui outra chave reserva no momento, embora possa usar Caminhos normalmente para locais conhecidos.
+- Corvin não possui outra chave reserva no momento, embora possa usar Caminhos normalmente para locais conhecidos dentro dos limites impostos pela contenção.
 
 ## Direção estratégica atual
 
@@ -395,6 +397,6 @@ Essas intenções podem persistir se nenhuma cadeira decidir mudá-las, mas **n�
 
 ## Primeira decisão humana aberta
 
-Corvin acabou de voltar para casa com Ravena e Estelar.
+Corvin acabou de voltar para casa em Ridge Road, 18 com Ravena e Estelar.
 
 A próxima decisão voluntária dele ainda não foi declarada.
