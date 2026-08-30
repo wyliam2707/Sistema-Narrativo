@@ -2,384 +2,305 @@
 
 STATUS: PRONTO PARA CONTINUAR
 TEMPORADA: 1
-ÚLTIMO CAPÍTULO FECHADO: `livro/013.md`
-MOMENTO: manhã do sexto dia em Black Harbor. Corvin acabou de iniciar um novo Ciclo da Vida ao amanhecer. Ele, Ravena e Estelar estão dormindo juntos no quarto principal de **Ridge Road, 18**, depois de Ravena e Estelar passarem a noite no jardim acompanhando a morte cíclica e o renascimento de Corvin.
+ÚLTIMO CAPÍTULO FECHADO: `livro/016.md`
+MOMENTO: fim da tarde do oitavo dia em Black Harbor. Corvin, Ravena e Estelar acabaram de concluir um dia de pesquisa nos arquivos municipais sobre a história da cidade e o momento em que a contenção passou a impedir saídas.
 
 ## Ponto exato de continuação
 
-Os três estão na cama do quarto principal.
+Os três estão saindo dos arquivos municipais de Black Harbor no fim da tarde.
 
-- Corvin está no centro.
-- Estelar adormeceu primeiro.
-- Ravena adormeceu depois.
-- Corvin fez carinho na cabeça das duas e pediu que dormissem.
-- A manhã do sexto dia já começou.
-- Não existe urgência imediata nas próximas horas.
-
-A próxima ação voluntária de Corvin pertence ao Jogador Humano.
+- a pesquisa do dia foi concluída;
+- não existe urgência imediata;
+- nenhuma nova ação de Corvin foi declarada depois da pesquisa;
+- a próxima ação voluntária de Corvin pertence ao Jogador Humano.
 
 ## Estado de Corvin
 
 - Vida: sem ferimentos relevantes.
 - Mente: sem marcas relevantes.
 - Mana: 10/10.
-- Novo Ciclo da Vida: **Dia 1 de 30**.
-- Cabelo atual: **verde-escuro**.
-- Marcas nas costas: **brotos, folhas novas e ramos jovens** — Primavera.
-- Corvin continua escondendo boa parte das capacidades reais da cidade, mas Ravena e Estelar conhecem agora a mecânica essencial de seu Ciclo da Vida.
+- Ciclo da Vida: **Dia 3 de 30**.
+- Estação atual: **Primavera**.
+- Cabelo: **verde-escuro**.
+- Marcas nas costas: brotos, folhas novas e ramos jovens.
+- A morte natural do ciclo anterior ocorreu no pôr do sol do quinto dia; o renascimento ocorreu no amanhecer do sexto dia.
+- Nenhuma morte prematura ocorreu neste ciclo atual.
 
-### Ciclo da Vida — conhecimento agora compartilhado
+## Relações atuais
 
-Ravena e Estelar sabem:
+Não existe relacionamento formal, noivado, casamento ou definição final de relação entre os três.
 
-- o ciclo dura 30 dias a partir do nascimento/renascimento;
-- no pôr do sol do trigésimo dia, Corvin se desfaz em pó e sementes;
-- no amanhecer seguinte, um novo corpo nasce da terra;
-- a morte natural de fim de ciclo renova completamente o ciclo;
-- se Corvin morrer antes do trigésimo dia, também se desfaz em pó e sementes;
-- depois de uma morte prematura, ele retorna no primeiro nascer do sol seguinte;
-- essa morte prematura **não reinicia** o ciclo;
-- para renovar o ciclo novamente, ele precisa alcançar o próximo fim natural;
-- se morrer uma segunda vez antes de completar naturalmente esse mesmo ciclo, a morte é definitiva;
-- depois de uma morte prematura, o cabelo retorna **cinza**, sinal visível de que uma morte já ocorreu naquele ciclo.
+### Corvin e Estelar
 
-### Aparência sazonal do ciclo
+- atração mútua consolidada;
+- vários beijos mútuos já ocorreram;
+- Estelar estabeleceu anteriormente o limite “por enquanto, até aqui” e esse limite foi respeitado;
+- no Dia 7, Corvin e Estelar fizeram treino corpo a corpo voluntário no quintal;
+- Corvin usou proteção natural para permitir golpes mais fortes sem fragilidade humana comum;
+- ambos causaram pequenos ferimentos durante o treino e Corvin curou os ferimentos ao longo da brincadeira;
+- depois de Corvin ferir Estelar, ele a beijou enquanto a curava; Estelar correspondeu;
+- Estelar demonstra interesse aberto e confortável em Corvin sem existir compromisso formal.
 
-A aparência de Corvin acompanha as estações aproximadamente por semana:
+### Corvin e Ravena
 
-- **Primavera / Semana 1:** cabelo verde-escuro; brotos, folhas novas e ramos jovens nas costas.
-- **Verão / Semana 2:** cabelo verde; ramos cheios, folhas vivas e formas solares/vegetais.
-- **Outono / Semana 3:** cabelo verde-claro; folhas soltas, galhos mais secos e sementes ao vento.
-- **Inverno / Semana 4 até o fim:** cabelo branco; marcas claras e geométricas semelhantes a flocos de neve/cristais.
-- **Ciclo interrompido por morte prematura:** cabelo cinza até o ciclo ser concluído naturalmente.
+- atração e confiança estão em desenvolvimento real;
+- no Dia 6, Ravena e Corvin trocaram os primeiros beijos mútuos: um beijo curto e depois outro mais longo; Ravena interrompeu o segundo apenas por causa do almoço, não por rejeição;
+- no Dia 7, Ravena aceitou um duelo mágico com Corvin no quintal;
+- Corvin usou defesa e cura para encorajá-la a atacar sem se conter por medo de machucá-lo;
+- Ravena causou dano real em Corvin durante o duelo e viu que ele conseguia suportar, curar-se e continuar ali por escolha própria;
+- essa experiência não eliminou o medo de Ravena de perder o controle, mas criou evidência concreta de que intimidade com alguém resistente não precisa significar automaticamente feri-lo de forma irreparável;
+- depois do duelo, Corvin e Ravena trocaram novos beijos mútuos;
+- Ravena sabe que uma morte prematura de Corvin permite retorno no amanhecer seguinte, mas que uma segunda morte antes do fim natural do mesmo ciclo seria definitiva;
+- Ravena não lê pensamentos: Empatia percebe emoções, inclusive atração e desejo, quando suficientemente claros.
 
-O cabelo branco com que Ravena e Estelar conheceram Corvin era a marca do fim da estação anterior.
+### Ravena e Estelar
 
-## Relacionamentos e vínculos
+- continuam amigas muito próximas e confiáveis;
+- não existe romance anterior ou relação romântica estabelecida entre as duas;
+- a convivência compartilhada com Corvin permite brincadeiras, proximidade e novas leituras possíveis, mas qualquer mudança romântica entre elas precisa nascer de experiência futura e escolha real.
 
-Os registros continuam usando oficialmente **Ravena** e **Estelar**.
+### Convivência
 
-Em particular, Corvin pode chamá-las de:
+- os três dormiram juntos em mais de uma noite por escolha própria e conforto;
+- Corvin costuma deixar espaço para que Ravena e Estelar decidam se querem se aproximar;
+- Estelar tende a se aproximar de forma direta; Ravena é mais contida, mas já escolheu proximidade física por conta própria;
+- nenhum desses fatos constitui consentimento automático para intimidade adicional.
 
-- Ravena → **Elara**;
-- Estelar → **Kori**.
+## Planos pessoais pós-Black Harbor conhecidos
 
-Situação atual:
+Corvin contou às duas sobre seu **Refúgio Ártico** e pretende mostrá-lo quando puder sair da cidade.
 
-- os sentimentos entre os três continuam genuínos; Black Harbor parece amplificar razões para permanecer, não criar afeto do nada;
-- não existe compromisso romântico formal definitivo entre os três;
-- Estelar e Corvin tiveram o primeiro beijo mútuo durante o capítulo 012;
-- Estelar colocou por conta própria o limite da intimidade naquele momento: “por enquanto, até aqui”, deixando claro que não significava “nunca mais”;
-- Ravena sabe do beijo e reagiu com sarcasmo, não com ruptura;
-- Corvin continua demonstrando atração pelas duas de forma aberta;
-- Ravena e Estelar passaram a noite juntas no jardim com Corvin durante o fim do ciclo e ficaram até o renascimento;
-- depois do renascimento, Corvin carregou as duas para o quarto; ambas aceitaram, e os três dormiram juntos novamente.
+Ravena e Estelar sabem que o refúgio inclui:
 
-Ravena e Estelar permanecem protagonistas autônomas. Carinho, cama compartilhada ou relacionamento em evolução não estabelecem consentimento automático para intimidade adicional.
+- grande caverna adaptada ao longo de cerca de 30 anos;
+- residência, oficina e forja;
+- laboratório de alquimia;
+- energia e internet;
+- biblioteca enorme;
+- bonecos de treino muito resistentes;
+- lago termal transformado em piscina;
+- uma caverna menor de cerca de 3 metros usada como “ninho”, modelada e forrada com materiais macios e aromáticos e coberta com peles de animais.
 
-## Manutenção atual do Setor B
+Interesses declarados:
 
-Na manhã do quinto dia, o rato espiritual avisou Corvin que alguém havia entrado no Setor B.
+- Ravena demonstrou forte interesse pela biblioteca;
+- Estelar demonstrou forte interesse pelos bonecos de treino, lago e ninho;
+- ambas demonstraram vontade real de visitar o refúgio quando Black Harbor for libertada;
+- isso constitui plano e interesse, não acontecimento futuro garantido.
 
-O trio encontrou o atual mantenedor:
+## Jardim de Ridge Road, 18
 
-- homem de cerca de 40 anos;
-- roupas comuns de trabalho;
-- caixa de ferramentas/chave inglesa;
-- não hostil;
-- não armado;
-- aprendeu rotinas simples de manutenção com o pai;
-- sabe trocar peças, verificar cabos e reconhecer alguns sinais de problema;
-- não compreende a função real da rede;
-- alguns componentes vêm aquecendo mais rapidamente;
-- existe uma ligação antiga que o pai o proibiu de tocar.
+No Dia 6, Corvin meditou por cerca de uma hora no jardim e usou Dádiva da Terra para estimular crescimento natural.
 
-Motivação exata do mantenedor:
+O jardim permanece mais vivo:
 
-> “Se eu não fizer isso, vou ter que sair da cidade.”
+- plantas mais cheias;
+- flores abertas;
+- brotos novos;
+- alguns frutos adiantados.
 
-Ele não acredita conscientemente que uma catástrofe ocorrerá; a aversão a sair de Black Harbor é parte do condicionamento produzido pela rede.
+Não existe efeito hostil ou processo mágico instável associado ao crescimento.
 
-Corvin explicou que ninguém pretende obrigá-lo a deixar a cidade e deu o endereço de Ridge Road, 18.
+## Rede de runas — descoberta urbana
 
-## Casa do mantenedor / material do pai
+A investigação do Dia 6 confirmou:
 
-O escritório continha:
+- A-01 não contém uma única runa central; ele alimenta/concentra uma **malha distribuída**;
+- as runas aparecem em fragmentos espalhados por estruturas urbanas;
+- pequenos grupos de fragmentos formam **unidades funcionais** que se sustentam mutuamente;
+- o desenho segue também **fluxo humano e hábitos sociais**: entradas de ruas, bancos, comércio, pontos de espera, encontro e circulação;
+- reformas urbanas incorporaram partes antigas da rede em estruturas novas ao longo das décadas;
+- Ravena pode usar registros de reformas e padrões de fluxo para localizar conjuntos funcionais com mais eficiência no futuro.
 
-- fotografia do pai mais jovem com quatro adultos diante do farol; verso: `Equipe de manutenção — farol.`
-- crachá expirado: `MANUTENÇÃO MUNICIPAL — INFRAESTRUTURA`, com anotações `B` e `FAROL`;
-- chaveiro comum: `FAROL — SERVIÇO` e `B — EXTERNO`;
-- ordens de serviço sobre fusíveis, cabos, contatos e energia;
-- livro ritual escuro;
-- fragmento metálico tamaraneano;
-- casaco antigo `BLACK HARBOR — MANUTENÇÃO`, botas, luvas e lanterna industrial.
+Nenhuma runa foi neutralizada ou desligada.
 
-Não existe segundo arquivo secreto na casa.
+## Instalação profunda — segunda varredura
 
-As chaves/crachás são mundanos e não abrem passagens secretas tamaraneanas.
+A segunda varredura do Dia 6 confirmou uma separação física forte entre tecnologia tamaraneana original e enxertos humanos posteriores.
 
-O fragmento metálico é placa/identificador técnico tamaraneano, não uma chave.
+Corvin encontrou na área de serviço:
 
-Ravena pegou o livro ritual emprestado com promessa de devolução.
+- condução grossa ligada ao núcleo;
+- condução ligada à contenção;
+- condução posterior subindo para o sistema humano;
+- dois canais tamaraneanos originais e um canal humano posterior;
+- marcas antigas de sobrecarga;
+- pequena deformação num componente tamaraneano compatível com retirada/recolocação incorreta;
+- repetição dos conceitos `CONTENÇÃO`, `LIMITE` e ligação ao conjunto do ciclo 120.
 
-## Tradução de Ravena — livro ritual
+Conclusão forte:
 
-Ravena avançou na tradução.
+> o culto **parasitou** a instalação tamaraneana para obter energia; não reconstruiu nem dominou sua arquitetura profunda.
 
-Conceitos confirmados ou fortemente sustentados:
+## Ciclo 120 — informação confirmada
 
-- **fixação / ancoragem**;
-- permanência;
-- vínculo;
-- redução de impulso;
-- estrutura em **rede**, não ritual isolado;
-- a magia reforça sentimentos e razões já existentes, em vez de criá-los do nada;
-- conforto, pertencimento, afeto e perspectiva de futuro podem ganhar peso desproporcional e reduzir o desejo de sair;
-- o texto possui advertências associadas a **ruptura**, **retorno/refluxo** e interrupção inadequada da rede;
-- desligar a rede enquanto ainda está carregada pode fazer energia/efeito retornar pelos vínculos existentes;
-- os vínculos da rede envolvem pessoas.
+As leituras dos Dias 5, 6 e 7 permitiram determinar:
 
-Conclusão operacional registrada:
+- o valor `120` representa um **ciclo de 120 dias**;
+- o painel está ligado ao regime operacional da contenção;
+- ao final do ciclo existe um **retorno ao início / reset**;
+- quando a duração foi determinada, restavam aproximadamente **90 dias** para o próximo reset;
+- ciclo histórico de “cerca de 120 anos de culto” e ciclo técnico de **120 dias** são fatos diferentes e sem relação numérica causal estabelecida.
 
-**NÃO DESLIGAR NADA AINDA.**
+O reset é tratado como possível janela de transição, mas o procedimento seguro completo ainda não foi executado.
 
-Ainda falta traduzir exatamente o que retorna, em qual intensidade e sob quais condições.
+## Controle dos três anéis
 
-## Estrutura tamaraneana profunda — novo acesso
+A porta/controle estreito com três anéis concêntricos foi investigada sem qualquer alteração física.
 
-Corvin e Estelar retornaram à grande câmara do núcleo.
+Hipótese técnica atual de Corvin e Estelar:
 
-Das três portas já conhecidas:
+- anel externo: **modo de operação**;
+- anel intermediário: **direção / interno-externo**;
+- anel interno: **autorização ou estado de transição**.
 
-1. porta larga com 3 contatos: não ativada;
-2. porta estreita energizada com controle de 3 anéis concêntricos: não ativada;
-3. porta pesada inferior: aberta mecanicamente sem alterar energia.
+A configuração atual parece compatível com algo próximo de:
 
-A porta pesada leva a um corredor técnico tamaraneano de serviço.
+- contenção ativa;
+- direção interna;
+- transição bloqueada/não autorizada.
 
-Uma cobertura mecânica revelou 3 conduções principais:
+Existem marcas antigas de desgaste e desalinhamento mecânico coerentes com manipulação incorreta antiga.
 
-- 2 mortas;
-- 1 ativa, pulsando com o núcleo: `Tum... Tum... Tum...`.
+**Nenhum anel foi girado.**
 
-Identificações encontradas:
+## Livro ritual — retorno/fixação
 
-- **CONTENÇÃO**;
-- **CONTENÇÃO — LIMITE**.
+Ravena encontrou no livro ritual uma distinção relevante entre:
 
-A linha ativa parece fazer parte do sistema que define uma fronteira/limite.
+- **fixação**;
+- **retorno**.
 
-## Guardião tamaraneano
+A tradução sustenta:
 
-Antes de cruzarem uma faixa marcada como **SEGURANÇA**, um guardião automático tamaraneano despertou num nicho.
+- não interromper a ligação durante fixação;
+- durante retorno, a carga muda de direção ou entra em condição comparável a refluxo/transição;
+- ainda não está totalmente definido se “retorno” significa refluxo, devolução da carga ou outra transição específica;
+- a linguagem ritual e a tecnologia tamaraneana parecem descrever lados diferentes de um mesmo momento de mudança operacional.
 
-Implementação canônica do encontro:
+Conclusão operacional permanece:
 
-- guardião simples de segurança;
-- **Patamar 1**;
-- Figurante;
-- **2 caixas de Vida**;
-- não escalado para acompanhar Corvin/Estelar.
+**NÃO DESLIGAR NADA BRUSCAMENTE.**
 
-Estelar atacou antes que ele terminasse de emergir e o incapacitou em menos de 10 segundos.
+## Cronologia histórica consolidada de Black Harbor
 
-Todas as versões anteriores em que o guardião foi artificialmente escalado para funcionar como adversário equivalente aos protagonistas são inválidas e não fazem parte do cânone.
+A pesquisa do Dia 8, combinada com a verdade estrutural já confirmada, separa três sistemas/fases:
 
-## Treino entre Corvin e Estelar
+### 1. Instalação tamaraneana antiga
 
-Depois de destruir o guardião, Estelar aceitou continuar lutando por brincadeira com Corvin.
+- a contenção territorial original foi usada pelos sobreviventes tamaraneanos;
+- quando o último sobrevivente morreu, o campo de contenção foi desligado;
+- o núcleo permaneceu tecnicamente reativável;
+- **núcleo ativo e contenção ativa não são a mesma coisa**.
 
-Fatos relevantes:
+### 2. Culto e rede de influência — cerca de 120 anos atrás
 
-- Corvin conjurou pele de pedra com Dádiva da Terra;
-- Estelar testou golpes físicos contra a proteção;
-- Corvin usou Fúria da Terra reduzida a [1] como explosões de ar para não empregar força destrutiva total;
-- o treino foi voluntário e competitivo;
-- Corvin curou Estelar após golpes fortes;
-- o treino terminou sem ferimentos persistentes;
-- Corvin e Estelar se beijaram durante a interrupção do treino;
-- o segundo beijo ocorreu sem qualquer função de cura, por desejo mútuo;
-- Estelar decidiu quando parar e deixou claro que o limite era “por enquanto”.
+- cerca de 120 anos atrás, o culto encontrou a instalação;
+- reativou o núcleo energético e passou a retirar energia;
+- construiu A, B, C e a rede de influência mágico-tecnológica;
+- durante aproximadamente 60 anos, a contenção territorial permaneceu **desligada**;
+- Black Harbor ainda podia ser atravessada normalmente;
+- moradores podiam sair;
+- visitantes podiam entrar e depois partir;
+- membros do culto podiam viajar para fora e retornar;
+- a rede podia influenciar apego, conforto, desejo, medo e permanência, mas não impedia fisicamente alguém de cruzar a fronteira.
 
-Depois, Corvin criou uma proteção de pedra sobre Estelar antes de continuarem a exploração.
+### 3. Incidente dos quatro jovens — cerca de 60 anos atrás
 
-## Sistema de contenção / limite
+- quatro jovens invadiram o complexo;
+- o núcleo já estava ativo para o sistema do culto;
+- a contenção estava desligada;
+- eles mexeram nas barras e em vários controles tamaraneanos sem compreender sua função;
+- ativaram o sistema de contenção numa configuração incorreta;
+- a configuração atual **permite entrada e impede saída**;
+- eles também reativaram robôs e armadilhas nas áreas profundas;
+- dois jovens escaparam da instalação;
+- dois morreram nas áreas protegidas;
+- depois do incidente, adultos da cidade selaram fisicamente a entrada com pedra, argamassa e terra.
 
-Depois da faixa de segurança, a linha de contenção se divide:
+### Evidência histórica observada
 
-- um ramal acompanha o **limite**;
-- outro segue para algo que **controla o limite**.
+Registros anteriores ao incidente mostram:
 
-Corvin e Estelar se separaram temporariamente para investigar os dois lados.
+- viagens normais;
+- mudanças para outras cidades;
+- estudos fora;
+- linhas regionais;
+- tráfego marítimo normal;
+- circulação de visitantes.
 
-### Ramal do limite — investigação de Corvin
+Depois do incidente aparecem progressivamente:
 
-Corvin observou:
+- barcos que saem e retornam no mesmo dia;
+- viagens canceladas;
+- rotas abandonadas;
+- tentativas frustradas de saída;
+- redução gradual da quantidade de pessoas tentando sair.
 
-- a condução não parece ir de uma fonte até um emissor;
-- ela sobe pela parede, cruza o teto e reaparece do outro lado;
-- parece acompanhar um perímetro/geometria maior;
-- existe uma cavidade grande além de uma parede técnica, de onde vem ruído contínuo de ar;
-- o painel local está morto, mas a construção é tamaraneana original;
-- os conceitos presentes incluem `CONTENÇÃO`, `LIMITE` e um terceiro símbolo.
+Leitura conjunta:
 
-Estelar posteriormente traduziu o terceiro conceito como algo próximo de **PROJEÇÃO / EMISSÃO**.
+> **o campo impede a saída; a rede de influência reduz progressivamente a vontade de continuar tentando.**
 
-Hipótese atual forte:
+Depois de cerca de 60 anos com os sistemas conectados, ninguém conhecido conseguiu realmente deixar Black Harbor.
 
-> a linha não apenas alimenta a barreira; ela própria faz parte da estrutura que desenha/projeta o limite.
+## Origem da prisão — formulação canônica
 
-Ainda não se sabe:
+Não usar como resumo principal “o campo ativo foi invertido”.
 
-- a geometria exata da barreira;
-- para qual lado ela deveria originalmente impedir passagem;
-- se o comportamento atual corresponde à função original ou a uma inversão/falha.
+Formulação correta:
 
-## Sistema de controle / número 120
+> **o campo de contenção estava desligado; os jovens o ativaram numa configuração errada, permitindo entrada e impedindo saída.**
 
-No ramal seguido por Estelar existe uma porta técnica baixa/larga e um painel energizado.
+Sequência canônica curta:
 
-O painel exibe:
+> **culto reativa o núcleo → usa energia para a rede de influência com contenção OFF → jovens mexem nos controles → contenção é ativada na direção errada → Black Harbor passa a prender quem está dentro.**
 
-**120**
+## Estrutura A / B / C
 
-Conceitos associados traduzidos parcialmente:
+Conhecimento atual permanece:
 
-- **CICLO**;
-- **REINÍCIO / RETORNO AO INÍCIO**.
+- A-01 — coleta/agregação — região central/comercial;
+- A-02 — coleta/agregação — centro comunitário/região oeste;
+- A-03 — repasse/compensação local — antigo depósito/posto municipal;
+- B monitora e regula transmissão, eficiência e resposta da população;
+- C liga o sistema humano à instalação tamaraneana e ao núcleo;
+- nenhum dos setores foi desligado.
 
-Corvin observou que:
+## Risco de desligamento
 
-- 120 não parece leitura momentânea de potência;
-- está integrado a uma sequência circular;
-- a posição atual parece aproximadamente um quarto do caminho;
-- o painel está ligado ao controle da contenção.
+O núcleo, a contenção ativa e o sistema humano estão conectados há cerca de 60 anos.
 
-Ainda não se conhece a unidade de 120.
+Uma interrupção brusca continua perigosa porque:
 
-Pode ser horas, dias ou outra medida tamaraneana.
+- energia pode retornar pela rede de influência;
+- as runas estão ligadas a pessoas;
+- uma sobrecarga pode causar desmaios, dano neurológico grave ou morte;
+- desligar apenas a contenção pode desviar energia para B/A/runas.
 
-Durante algumas horas do quinto dia, a mudança do indicador foi pequena demais para produzir uma medição confiável.
+A libertação deve ser preparada para a janela correta ou para outra solução que respeite esses riscos reais.
 
-## Plano imediato para o 120
+## Oposição existente
 
-Plano definido pelo trio:
+Não criar nova facção estrutural.
 
-- posição inicial já registrada no quinto dia;
-- voltar no sexto dia e registrar segunda leitura;
-- voltar no sétimo dia e registrar terceira leitura;
-- comparar deslocamento para estimar a duração real do ciclo, se o avanço for regular.
+Continuam existindo apenas as oposições já estabelecidas quando legitimamente presentes:
 
-Caminhos agora conhece diretamente os pontos profundos visitados, permitindo acesso futuro sem percorrer toda a instalação.
+- guardiões/armadilhas tamaraneanos reativados;
+- criaturas sobrenaturais que ficaram presas dentro da barreira ao longo das décadas;
+- funcionamento automático e riscos técnicos da própria instalação/rede.
 
-## Hipótese conjunta atual
+O mantenedor atual não é vilão nem cultista iniciado.
 
-As evidências sugerem duas estruturas conectadas:
+## Direção imediata
 
-### Estrutura tamaraneana original
+Não existe uma tarefa urgente obrigatória para o próximo minuto de jogo.
 
-- núcleo antigo;
-- contenção;
-- limite;
-- projeção;
-- ciclo de 120 unidades;
-- controle/reinício.
+Linhas disponíveis já conhecidas incluem:
 
-### Rede humana posterior
+- continuar traduzindo o livro ritual;
+- mapear unidades funcionais de runas pela cidade;
+- estudar o controle dos três anéis sem alterá-lo prematuramente;
+- preparar o procedimento para a janela de reset;
+- viver a convivência cotidiana em Black Harbor durante o período restante.
 
-- Setores A, B e C;
-- magia ritual de ancoragem/fixação;
-- coleta, agregação, repasse e modulação;
-- influência sobre permanência, apego e impulso de saída.
-
-Hipótese de trabalho:
-
-> humanos conectaram uma rede mágico-tecnológica de influência urbana à infraestrutura tamaraneana antiga.
-
-Desligar uma parte sem preparar a outra pode ser perigoso.
-
-## Leituras conhecidas do Setor B
-
-Valores atuais conhecidos:
-
-- Intensidade: **27%**
-- Retorno da rede: **93%**
-- Aderência: **91%**
-- Agitação: **5%**
-- Impulso de saída: **1%**
-
-Valores anteriores:
-
-- Intensidade: 31%
-- Retorno: 88%
-- Aderência: 84%
-- Agitação: 8%
-- Impulso de saída: 2%
-
-Interpretação operacional permanece:
-
-quanto mais convincente a permanência do trio parece para Black Harbor, maior a aderência/retorno e menor a intensidade necessária do sistema.
-
-## Malha A
-
-Pontos conhecidos permanecem:
-
-- **A-01 — COLETA / AGREGAÇÃO** — praça central/região comercial antiga;
-- **A-02 — COLETA / AGREGAÇÃO** — centro comunitário/região oeste;
-- **A-03 — REPASSE / COMPENSAÇÃO LOCAL** — antigo depósito/posto municipal.
-
-Nenhum ponto foi aberto, danificado ou desconectado.
-
-## Setores B e C
-
-Conhecimento consolidado permanece:
-
-- Setor C parece ser interface, não fonte;
-- Setor B modula/distribui a rede;
-- a energia relevante vem ou passa pela estrutura antiga sob o farol;
-- o mantenedor atual cuida de rotinas técnicas sem compreender a função real;
-- não existe evidência de culto ativo atual.
-
-## Chaves de Retorno
-
-Distribuição conhecida permanece:
-
-- Ravena possui uma Chave de Retorno com aproximadamente 4 usos seguros;
-- Estelar possui uma Chave de Retorno com aproximadamente 4 usos seguros restantes;
-- Corvin possui uma chave reserva.
-
-Durante a exploração profunda do capítulo 012, as chaves foram deliberadamente deixadas em casa.
-
-## Regras operacionais importantes para a continuação
-
-- Corvin é controlado exclusivamente pelo Jogador Humano.
-- Ravena, Estelar, NPCs e mundo são controlados pelas cadeiras de IA/Narrador conforme as regras.
-- Não escolher pensamentos, falas, decisões ou ações voluntárias de Corvin.
-- Resolver apenas incerteza real.
-- Em combate, rodada ≈ 10 segundos e cada participante relevante possui uma intenção principal plausível.
-- Não escalar adversários para acompanhar protagonistas.
-- NPCs/criaturas são construídos pelo que são; Patamar, Vida, atributos, poderes e importância vêm da ficção e da ficha, não de balanceamento.
-- Toda rolagem necessária é executada pelo Narrador com fonte aleatória real disponível.
-- Mostrar dados em uma frase curta quando isso ajudar, sem quebrar o ritmo narrativo.
-- Parar na primeira nova decisão humana relevante.
-
-## Perguntas abertas imediatas
-
-1. Quanto o indicador 120 avançará entre o quinto e o sexto dia?
-2. Qual é a unidade real do ciclo de 120?
-3. O que acontece exatamente durante o reinício?
-4. Existe uma janela segura para interferir na contenção?
-5. O que exatamente retorna pela rede se ela for interrompida de forma errada?
-6. Como neutralizar ou desconectar a influência ritual sem ferir a população?
-7. Qual era a direção/orientação original do campo de contenção tamaraneano?
-8. Como a rede humana foi conectada ao núcleo e à contenção?
-9. O que o mantenedor fará agora que conhece Corvin, Ravena e Estelar e possui o endereço deles?
-10. Como o vínculo romântico entre Corvin, Ravena e Estelar evoluirá agora que Estelar e Corvin se beijaram e Ravena conhece o ocorrido?
-
-## Regra de retomada
-
-A próxima decisão importante de Corvin pertence ao Jogador Humano.
-
-Ravena e Estelar permanecem protagonistas autônomas e devem agir conforme suas próprias personalidades, conhecimentos, desejos e limites.
-
-Não inventar nova facção, conspiração, sobrevivente secreto, segundo guardião ou causa estrutural que não esteja sustentada pelo roteiro/cânone.
+Essas linhas são possibilidades conhecidas, não decisões automáticas de Corvin.
