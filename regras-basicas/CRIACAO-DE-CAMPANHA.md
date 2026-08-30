@@ -4,7 +4,7 @@ Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
 Este arquivo define como uma nova campanha nasce usando `regras-basicas/`.
 
-> **Cada passo usa o anterior como base: primeiro definir a narrativa, depois criar a temporada, depois construir fichas persistentes para essa campanha.**
+> **Cada passo usa o anterior como base: primeiro definir a narrativa, depois criar e fechar estruturalmente a temporada, depois construir fichas persistentes para essa campanha.**
 
 ## Fluxo geral
 
@@ -15,7 +15,11 @@ PASSO 01 — CAMPANHA
 → definir a identidade narrativa persistente.
 
 PASSO 02 — TEMPORADA
-→ criar o arco atual a partir dessa identidade.
+→ receber a direção do Jogador.
+→ criar o problema da temporada.
+→ listar o que precisa ser resolvido.
+→ responder previamente as questões estruturais.
+→ registrar a Diretriz Fechada.
 
 PASSO 03 — FICHAS
 → identificar o elenco inicial.
@@ -155,7 +159,21 @@ Depois que a narrativa estiver aprovada, seguir:
 CRIACAO-DE-TEMPORADA.md
 ```
 
-A temporada usa `mestre/narrativa.md` como base e cria o arco que será jogado agora.
+A temporada usa `mestre/narrativa.md` como base e transforma a direção do Jogador em um arco preparado antes do jogo.
+
+O fluxo obrigatório é:
+
+```text
+DIREÇÃO DO JOGADOR
+↓
+PROBLEMA DA TEMPORADA
+↓
+LISTA DO QUE PRECISA SER RESOLVIDO
+↓
+RESPOSTAS CANÔNICAS
+↓
+DIRETRIZ FECHADA
+```
 
 O roteiro ativo fica em:
 
@@ -163,17 +181,20 @@ O roteiro ativo fica em:
 campanhas/<nome>/mestre/roteiro.md
 ```
 
-Ele deve definir somente o necessário para o arco atual, incluindo uma **condição de encerramento**.
+Ele deve possuir direção suficiente, uma **condição de encerramento** e a **Diretriz Fechada** necessária para impedir que o Narrador invente continuamente a estrutura da temporada durante a sessão.
 
 ```text
 CAMPANHA
 → diz sobre o que a história é.
 
+JOGADOR
+→ indica o que deseja explorar agora.
+
 TEMPORADA
-→ cria uma situação concreta para explorar isso agora.
+→ cria um problema concreto e estabelece previamente seu espaço estrutural.
 ```
 
-O roteiro não determina cenas futuras nem resultados.
+O roteiro não determina cenas futuras nem resultados voluntários das personagens. Entretanto, problemas estruturais que exigem solução devem possuir respostas canônicas e pelo menos uma resolução possível antes do START.
 
 Quando a temporada termina, ele é arquivado, o Narrador escreve o epílogo, consolida as mudanças e pergunta **“E agora?”** antes de criar a próxima temporada.
 
@@ -322,8 +343,14 @@ Antes da primeira cena, conferir apenas se a campanha consegue funcionar correta
 ```text
 estrutura existe?
 narrativa da campanha foi aprovada?
-roteiro da temporada existe e possui direção suficiente?
-condição de encerramento da temporada existe quando necessária?
+direção do Jogador para a temporada está clara?
+problema da temporada foi criado?
+lista do que precisa ser resolvido existe?
+respostas canônicas necessárias foram definidas?
+resoluções possíveis existem onde forem necessárias?
+riscos, obstáculos e processos necessários possuem fundamento prévio?
+Diretriz Fechada está registrada no roteiro?
+condição de encerramento da temporada existe?
 elenco inicial foi confirmado?
 fichas necessárias estão aprovadas?
 pareamento essencial foi resolvido?
@@ -408,7 +435,7 @@ MESTRE / narrativa.md
 → identidade persistente da campanha.
 
 MESTRE / roteiro.md
-→ temporada ativa.
+→ temporada ativa e sua Diretriz Fechada.
 
 MESTRE / temporadas/
 → roteiros de temporadas já encerradas.
@@ -424,12 +451,22 @@ As regras completas de onde salvar cada verdade pertencem a `registro/`.
 
 ## Criação emergente depois do START
 
-Não é necessário prever tudo antes da primeira cena.
+Não é necessário prever todos os detalhes antes da primeira cena.
 
-Lacunas futuras podem ser completadas conforme `nucleo/1.7-criacao-emergente.md`, desde que não sejam inventadas retroativamente para favorecer ou impedir uma ação já apresentada.
+Lacunas menores podem ser completadas conforme `nucleo/1.7-criacao-emergente.md`, desde que não sejam inventadas retroativamente para favorecer ou impedir uma ação já apresentada.
 
-Uma trama secundária pode crescer organicamente, mas não substitui automaticamente a narrativa da campanha nem o arco atual da temporada.
+A criação emergente não pode alterar a Diretriz Fechada, introduzir um novo problema estrutural ou ampliar a temporada além dos limites preparados apenas porque o Jogador demonstrou interesse em um elemento.
+
+```text
+IMPROVISAR DETALHES, CAMINHOS E CENAS
+→ permitido.
+
+IMPROVISAR UMA NOVA VERDADE ESTRUTURAL DA TEMPORADA
+→ não permitido por padrão.
+```
+
+Uma trama secundária pode receber desenvolvimento dentro dos limites preparados, mas não substitui automaticamente a narrativa da campanha nem o arco atual da temporada.
 
 ## Regra final
 
-> **Nova campanha segue três passos dependentes: a Narrativa define que história queremos jogar; a primeira Temporada transforma essa identidade em um arco atual; as Fichas são construídas através da lente da campanha, usando a primeira temporada apenas como contexto inicial. Depois disso, campanha e fichas persistem. Cada temporada termina com resolução, epílogo, consolidação e “E agora?”, e o ciclo retorna ao Passo 02. Fichas só são complementadas entre temporadas quando uma lacuna realmente importante puder causar interpretação incoerente.**
+> **Nova campanha segue três passos dependentes: a Narrativa define que história queremos jogar; na primeira Temporada o Jogador fornece a direção e o Narrador cria o problema, lista o que precisa ser resolvido, responde previamente as questões estruturais e registra uma Diretriz Fechada; as Fichas são então construídas através da lente da campanha, usando a primeira temporada como contexto inicial. Depois do START, a IA improvisa dentro do tabuleiro preparado, não a verdade estrutural da temporada. Cada temporada termina com resolução, epílogo, consolidação e “E agora?”, e o ciclo retorna ao Passo 02.**
