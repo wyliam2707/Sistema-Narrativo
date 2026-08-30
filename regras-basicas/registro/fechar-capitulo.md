@@ -30,7 +30,7 @@ CONVERSA DO CAPÍTULO
 LIVRO + ESTADO + FICHAS + OUTRAS FONTES ATUALIZADAS
 → memória canônica depois do fechamento.
 
-REGRAS RECARREGADAS
+MODELO OPERACIONAL REANCORADO
 → modo de operação do próximo capítulo.
 ```
 
@@ -43,7 +43,7 @@ Ao receber `fechar o capítulo`:
 2. CONSOLIDAR
 3. ATUALIZAR
 4. RESETAR O OPERACIONAL
-5. RECARREGAR
+5. RECARREGAR E REANCORAR
 6. CONTINUAR
 ```
 
@@ -132,9 +132,15 @@ Se algo do capítulo precisa continuar importando, deve estar recuperável no Li
 
 > **Reset operacional não apaga o passado. Ele impede que ruído acumulado da conversa substitua regras e fontes canônicas.**
 
-## 5 — Recarregar
+## 5 — Recarregar e reancorar
 
-Antes de narrar o próximo capítulo, reancorar a operação.
+Antes de narrar o próximo capítulo, reancorar a operação conforme:
+
+```text
+registro/reancoragem-operacional.md
+```
+
+A reancoragem não significa apenas abrir arquivos. Ela reconstrói uma representação funcional e integrada do Motor, das personagens e do presente.
 
 ### Sempre recarregar
 
@@ -158,6 +164,8 @@ Se houver `JOGADOR IA EVENTUAL` ativo ou provável na abertura, recarregar tamb�
 regras-basicas/nucleo/1.4-jogador-ia-eventual.md
 ```
 
+Depois de carregar essas fontes, formar o modelo operacional descrito em `reancoragem-operacional.md` antes de continuar a ficção.
+
 ### Recarregar sob demanda
 
 Consultar somente quando o próximo trecho realmente precisar:
@@ -178,9 +186,11 @@ registro adicional
 
 Se o foco persistente da campanha depender fortemente de uma regra específica — por exemplo romance — essa regra pode fazer parte da reancoragem normal daquela campanha.
 
+Uma consulta específica deve detalhar ou corrigir o modelo já carregado; não deve substituir o restante do Motor por uma regra isolada.
+
 Não reler `regras-basicas/` inteiro sem necessidade.
 
-> **Recarregar o núcleo operacional. Consultar especialidades sob demanda.**
+> **Recarregar o núcleo operacional, formar a imagem integrada e consultar especialidades sob demanda.**
 
 ## 6 — Continuar
 
@@ -199,7 +209,7 @@ ESTADO PERMITE AVANÇO SEM NOVA ESCOLHA
 → continuar normalmente.
 ```
 
-O novo capítulo usa as fontes recarregadas como base, não a inércia narrativa do capítulo anterior.
+O novo capítulo usa as fontes reancoradas como base, não a inércia narrativa do capítulo anterior.
 
 ## Se o capítulo também encerrou a temporada
 
@@ -209,7 +219,7 @@ Se a condição de encerramento de `mestre/roteiro.md` foi alcançada, o fechame
 FECHAR CAPÍTULO
 → consolidar e atualizar
 → reset operacional
-→ reancorar
+→ recarregar e reancorar
 → reconhecer que a temporada terminou
 → escrever epílogo
 → arquivar roteiro
@@ -229,6 +239,7 @@ Não abrir uma nova temporada ou novo arco antes da resposta a **“E agora?”*
 [ ] deixei de tratar ruído transitório da conversa como fonte principal?
 [ ] recarreguei o núcleo operacional?
 [ ] recarreguei narrativa, roteiro, estado e fichas relevantes?
+[ ] formei o modelo integrado conforme reancoragem-operacional.md?
 [ ] consultei regras específicas somente se necessárias?
 [ ] continuei sem inventar passagem de tempo ou decisão humana?
 [ ] se a temporada terminou, parei em “E agora?”?
@@ -236,4 +247,4 @@ Não abrir uma nova temporada ou novo arco antes da resposta a **“E agora?”*
 
 ## Regra final
 
-> **`Fechar o capítulo` significa: consolidar o passado, atualizar o presente, resetar o contexto operacional, recarregar as regras e fontes essenciais e só então continuar. O Livro preserva o que aconteceu; o Estado mostra de onde continuar; as fichas preservam quem as personagens são; e a reancoragem impede que uma sessão longa substitua o sistema por hábitos narrativos acumulados.**
+> **`Fechar o capítulo` significa: consolidar o passado, atualizar o presente, resetar o contexto operacional, recarregar as regras e fontes essenciais, reancorá-las como um modelo integrado e só então continuar. O Livro preserva o que aconteceu; o Estado mostra de onde continuar; as fichas preservam quem as personagens são; e a reancoragem impede que uma sessão longa substitua o sistema por hábitos narrativos acumulados.**
