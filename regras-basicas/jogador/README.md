@@ -15,7 +15,8 @@ jogador/
 ├── 1.1-atributos-pericias-poderes.md
 ├── 1.2-poderes-e-equipamentos.md
 ├── 1.3-criacao-da-ficha.md
-└── 1.4-tracos.md
+├── 1.4-tracos.md
+└── 1.5-autoridade-da-ficha.md
 ```
 
 ## Estrutura
@@ -40,6 +41,9 @@ jogador/
 
 `1.4-tracos.md`
 → verdades absolutas próprias da personagem, cada uma em bloco independente, com descrição objetiva e sem extrapolação.
+
+`1.5-autoridade-da-ficha.md`
+→ estabelece a ficha como fonte canônica primária da personagem para narração, interpretação, resolução, Livro e representação visual.
 
 ## Linguagem central da ficha
 
@@ -69,20 +73,24 @@ ESTADO ATUAL
 → registra como a personagem está agora.
 ```
 
-## Ficha como fonte principal
+## Ficha como fonte canônica primária
 
-A ficha é a principal fonte de interpretação da personagem, mas não precisa copiar toda a campanha.
+A ficha é a **fonte canônica primária da personagem**.
 
 ```text
 FICHA
-→ quem a personagem é e o que precisa permanecer imediatamente disponível para interpretá-la.
+→ quem a personagem é e o que precisa permanecer imediatamente disponível para interpretá-la, representá-la e usar suas capacidades.
+
+ESTADO ATUAL
+→ como ela está agora e quais mudanças temporárias estão ativas.
 
 LIVROS / CENÁRIO / ARQUIVOS
 → contexto externo, lore e fatos do mundo.
-
-ESTADO ATUAL
-→ situação presente e mudanças temporárias.
 ```
+
+Toda narração, interpretação, resolução ou representação visual de uma personagem deve partir da ficha conforme `1.5-autoridade-da-ficha.md`.
+
+Se uma personagem for baseada em figura conhecida de outra obra, a versão genérica ou a memória da IA não substituem aquilo que a ficha da campanha já definiu.
 
 O que merece entrar na ficha depende do foco da campanha. Romance, terror e investigação podem exigir conhecimentos e relações diferentes.
 
@@ -105,4 +113,4 @@ A ficha é calibrada pelo que a própria personagem é, não para equilibrá-la 
 
 ## Princípio
 
-> **Complexidade na construção; simplicidade na mesa. A ficha preserva a continuidade da personagem sem virar enciclopédia: Atributo + Perícia mede execução, Poder define capacidade, Traço estabelece verdade, Recurso registra acesso e os blocos de interpretação mantêm quem a personagem é e o que ela sabe.**
+> **Complexidade na construção; simplicidade na mesa. A ficha preserva a continuidade da personagem e é sua fonte canônica primária: Atributo + Perícia mede execução, Poder define capacidade, Traço estabelece verdade, Recurso registra acesso e os blocos de interpretação mantêm quem a personagem é e o que ela sabe.**
