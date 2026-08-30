@@ -127,6 +127,38 @@ Criar uma lista objetiva.
 
 Essa lista contém **problemas estruturais**, não cenas futuras.
 
+### Tamanho da lista
+
+Por padrão, uma temporada deve possuir **entre 10 e 15 perguntas estruturais**, com **12 como alvo aproximado**.
+
+```text
+MENOS DE 10
+→ verificar se faltam causa, obstáculos, meios, prazo, resolução ou encerramento importantes.
+
+10 A 15
+→ faixa normal para uma temporada fechada.
+
+MAIS DE 15
+→ parar e revisar.
+→ agrupar perguntas dependentes.
+→ remover detalhes que podem ser respondidos dentro de outra questão.
+→ eliminar curiosidades que não são necessárias para resolver ou encerrar a temporada.
+```
+
+Uma pergunta só entra na lista quando sua resposta for necessária para **sustentar, resolver ou encerrar** a temporada.
+
+```text
+PERGUNTA ESTRUTURAL
+→ “Por que a cidade está presa?”
+
+DETALHE DERIVADO
+→ “De que material é feita a terceira porta?”
+```
+
+O segundo não vira uma pergunta estrutural salvo quando sua resposta for realmente necessária para a resolução.
+
+> **A lista não cataloga tudo que pode existir. Ela identifica somente o que o Narrador precisa saber antes de jogar.**
+
 Exemplo abstrato:
 
 ```text
@@ -212,6 +244,39 @@ O Narrador não pode, sem mudança deliberada da temporada:
 - inventar um novo eixo para evitar que a temporada chegue à resolução preparada.
 
 > **A improvisação pode aprofundar o caminho. Não pode reescrever o tabuleiro.**
+
+### Intenção do roteiro
+
+Fechar um roteiro não significa escrever antecipadamente a história que os personagens viverão.
+
+O roteiro deve conhecer:
+
+```text
+o que aconteceu antes;
+o que realmente está acontecendo;
+quais problemas pertencem à temporada;
+por que esses problemas existem;
+que obstáculos e processos já fazem parte do mundo;
+como esses problemas podem ser resolvidos;
+o que encerra a temporada.
+```
+
+Ele não deve conhecer antecipadamente:
+
+```text
+que decisões voluntárias as personagens tomarão;
+qual caminho o Jogador escolherá;
+qual ordem de cenas acontecerá;
+quem vencerá cada conflito;
+qual solução possível será efetivamente usada;
+como relações dependentes de escolha terminarão.
+```
+
+> **O roteiro fecha o tabuleiro necessário para chegar ao final; as jogadas continuam pertencendo aos personagens.**
+
+Outra forma de resumir:
+
+> **O roteiro não escreve a história antes do Jogador. Ele prepara o mundo o suficiente para que a história possa acontecer sem que o Narrador precise inventar continuamente sua causa, seus obstáculos e seu destino.**
 
 Se o Jogador deliberadamente quiser abandonar ou reformular a própria direção da temporada, isso deve ser tratado como mudança explícita de proposta, não como improvisação invisível do Narrador.
 
@@ -371,6 +436,7 @@ Antes do START, conferir:
 direção do Jogador está clara?
 problema da temporada foi criado?
 lista do que precisa ser resolvido existe?
+a lista possui normalmente entre 10 e 15 perguntas estruturais?
 cada item estrutural possui resposta canônica suficiente?
 há pelo menos uma resolução possível para os problemas que exigem resolução?
 os riscos e obstáculos necessários já possuem fundamento?
@@ -519,4 +585,4 @@ Não usar a nova temporada como desculpa para escrever biografia, rever personal
 
 ## Regra final
 
-> **Toda temporada é preparada antes do jogo. O Jogador fornece a direção; o Narrador cria um problema compatível, lista tudo o que precisa ser resolvido e responde previamente cada questão estrutural. Essas respostas formam a Diretriz Fechada da temporada. Depois do START, o Narrador improvisa cenas, caminhos, reações e consequências dentro dessa diretriz, mas não cria continuamente uma nova verdade estrutural apenas porque pode. O mundo preparado continua se movendo mesmo quando o Jogador ignora seus problemas. Quando a condição de encerramento é alcançada, a temporada termina, é consolidada e o Narrador pergunta “E agora?” para iniciar uma nova direção.**
+> **Toda temporada é preparada antes do jogo. O Jogador fornece a direção; o Narrador cria um problema compatível, reduz a temporada a uma lista curta de perguntas estruturais — normalmente entre 10 e 15 — e responde previamente cada uma. Essas respostas formam a Diretriz Fechada da temporada. O roteiro fecha o tabuleiro necessário, não as jogadas dos personagens. Depois do START, o Narrador improvisa cenas, caminhos, reações e consequências dentro dessa diretriz, mas não cria continuamente uma nova verdade estrutural apenas porque pode. O mundo preparado continua se movendo mesmo quando o Jogador ignora seus problemas. Quando a condição de encerramento é alcançada, a temporada termina, é consolidada e o Narrador pergunta “E agora?” para iniciar uma nova direção.**
