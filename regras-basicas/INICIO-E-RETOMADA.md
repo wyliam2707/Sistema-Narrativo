@@ -80,6 +80,14 @@ Consultar outros arquivos de `mundo/`, `mestre/`, `opositor/`, conhecimento ou L
 
 Não pedir novamente informação que já esteja registrada em fonte canônica da campanha.
 
+Depois de carregar as fontes necessárias, executar:
+
+```text
+registro/reancoragem-operacional.md
+```
+
+A reancoragem transforma as fontes carregadas numa representação operacional integrada do Motor, das personagens e do presente. Ela não exige reler a árvore inteira e não cria uma segunda camada de regras.
+
 ## Campanha em criação
 
 ```text
@@ -111,6 +119,7 @@ CRIAÇÃO: CONCLUÍDA
 → carregar Estado Atual
 → carregar personagens relevantes
 → reconstruir intenções persistentes relevantes
+→ executar registro/reancoragem-operacional.md
 → continuar exatamente do ponto registrado
 ```
 
@@ -134,13 +143,15 @@ quais fatos estabelecidos importam
 quais capacidades podem ser consultadas se necessárias
 ```
 
-Não exigir preenchimento de informação que ainda não tenha utilidade real.
+A reancoragem deve transformar isso em um modelo funcional sem exigir informação que ainda não tenha utilidade real.
 
 ## Durante a sessão
 
 Fluxo normal:
 
 ```text
+modelo operacional reancorado
++
 narrativa + roteiro da temporada + estado + intenções persistentes
 → alguma cadeira possui motivo para nova iniciativa?
 → interpretar cada personagem a partir da própria ficha
@@ -156,7 +167,7 @@ O mundo pode continuar agindo durante uma intenção longa do Jogador Humano. Is
 
 Uma miniquest, investigação, combate ou outro desvio local pode ocupar a cena quando fizer sentido, mas não substitui automaticamente o foco persistente da campanha nem o arco atual da temporada.
 
-Consultar somente a fonte pertinente ao caso atual.
+Consultar somente a fonte pertinente ao caso atual. Uma consulta específica detalha ou corrige o modelo já carregado; não substitui o restante do Motor por uma regra isolada.
 
 # Reancoragem ao fechar capítulo
 
@@ -183,6 +194,9 @@ RESET OPERACIONAL
 RECARREGAR
 → regras operacionais centrais + narrativa + roteiro + estado + fichas relevantes.
 
+REANCORAR
+→ seguir registro/reancoragem-operacional.md e reconstruir o modelo integrado.
+
 CONTINUAR
 → a partir do Estado Atual já reancorado.
 ```
@@ -198,13 +212,13 @@ CONVERSA ANTIGA
 FONTES CONSOLIDADAS
 → verdade operacional principal.
 
-REGRAS RECARREGADAS
+MODELO REANCORADO
 → modo de operação principal.
 ```
 
 Isso existe para evitar que sessões longas façam a narração, a agência ou a interpretação derivarem gradualmente para padrões genéricos.
 
-Não é necessário reler o sistema inteiro. O protocolo carrega um núcleo fixo e consulta regras específicas sob demanda.
+Não é necessário reler o sistema inteiro. O protocolo carrega um núcleo fixo, forma o modelo integrado e consulta regras específicas sob demanda.
 
 Se a condição de encerramento da temporada também tiver sido alcançada, o fechamento de temporada substitui a continuação normal: consolidar, escrever epílogo, arquivar o roteiro e perguntar **“E agora?”**.
 
@@ -217,7 +231,7 @@ Se a condição de encerramento registrada no roteiro da temporada for alcançad
 → seguir o fechamento definido em CRIACAO-DE-TEMPORADA.md
 → escrever epílogo
 → consolidar fontes
-→ arquivar o roteiro
+→ arquivar roteiro
 → perguntar “E agora?”
 ```
 
@@ -225,4 +239,4 @@ Não continuar automaticamente para uma nova temporada.
 
 ## Regra final
 
-> **Para começar ou retomar, carregue Narrativa da Campanha, Roteiro da Temporada, presente e fichas relevantes. Durante sessões longas, `fechar o capítulo` funciona como checkpoint de reancoragem: consolida, atualiza, reseta o operacional, recarrega o núcleo e só então continua. Quando uma temporada termina, não invente a próxima: consolide, escreva o epílogo e volte à pergunta “E agora?”.**
+> **Para começar ou retomar, carregue Narrativa da Campanha, Roteiro da Temporada, presente e fichas relevantes e reancore essas fontes como um modelo operacional integrado. Durante sessões longas, `fechar o capítulo` funciona como checkpoint: consolida, atualiza, reseta o operacional, recarrega e reancora antes de continuar. Quando uma temporada termina, não invente a próxima: consolide, escreva o epílogo e volte à pergunta “E agora?”.**
