@@ -72,17 +72,25 @@ A origem tamaraneana pode deixar informações incompletas para temporadas futur
 
 → Os sobreviventes mantiveram a proteção durante seu período no local.
 
-→ Quando o último tamaraneano morreu, ele desligou o campo de proteção.
+→ Quando o último tamaraneano morreu, ele desligou especificamente o campo de contenção territorial.
 
-→ A instalação permaneceu dormente, embora o núcleo ainda pudesse fornecer energia se reativado.
+→ A instalação entrou em estado dormente, mas o núcleo energético permaneceu tecnicamente reativável.
+
+→ Núcleo ativo e contenção ativa são sistemas relacionados, mas não são a mesma coisa.
+
+> **NÚCLEO ATIVO ≠ CONTENÇÃO ATIVA.**
 
 ## 4 — O culto e a criação do sistema humano
 
 → Séculos depois, um culto local encontrou a instalação.
 
-→ O culto não compreendia completamente a tecnologia tamaraneana, mas descobriu que podia ativar o núcleo e retirar energia usando as barras e o comando de START.
+→ O culto não compreendia completamente a tecnologia tamaraneana, mas descobriu que podia reativar o núcleo energético e retirar energia usando as barras e o comando de START.
 
-→ A chave/disco principal de controle já estava quebrada. Por isso, o culto conseguia obter energia, mas não controlar corretamente o antigo campo de contenção.
+→ O culto usava o núcleo como fonte de energia para sua própria estrutura híbrida.
+
+→ Durante esse período, o antigo campo de contenção territorial permanecia desligado. Pessoas ainda podiam entrar e sair de Black Harbor normalmente.
+
+→ A chave/disco principal de controle já estava quebrada. O culto conseguia obter energia do núcleo, mas não possuía controle confiável sobre os sistemas tamaraneanos profundos nem sobre a contenção.
 
 → O culto construiu A e B e criou uma rede de influência misturando tecnologia, energia do núcleo e magia negra.
 
@@ -93,6 +101,8 @@ A origem tamaraneana pode deixar informações incompletas para temporadas futur
 → B mede e regula a capacidade de transmissão, a eficiência da rede e a resposta da população.
 
 → C funciona como a interface híbrida que liga o sistema humano do culto à instalação tamaraneana e ao núcleo.
+
+→ A rede de influência, portanto, é anterior à prisão atual. Antes do incidente de cerca de 60 anos atrás ela podia influenciar pessoas, mas não existia uma barreira territorial impedindo a saída.
 
 ## 5 — Como funciona a influência da cidade?
 
@@ -114,29 +124,49 @@ A origem tamaraneana pode deixar informações incompletas para temporadas futur
 
 → Há cerca de 60 anos, quatro jovens invadiram o complexo.
 
-→ A chave/disco principal estava quebrada e eles não tinham acesso ao controle correto.
+→ Naquele momento, o núcleo já estava ativo e fornecia energia ao sistema do culto, mas o campo de contenção territorial estava desligado.
 
-→ Durante a exploração, mexeram nas barras e em outros componentes tamaraneanos sem compreender sua função.
+→ A chave/disco principal estava quebrada e os jovens não tinham acesso correto aos controles nem conhecimento sobre sua função.
 
-→ Uma barra foi deslocada para uma configuração que reativou o antigo campo de contenção de forma invertida.
+→ Durante a exploração, mexeram nas barras e em vários componentes tamaraneanos sem compreender o que estavam fazendo.
 
-→ O campo, que originalmente impedia a entrada, passou a permitir entrada e impedir saída.
+→ Ao mexerem em uma combinação errada de controle, ativaram o antigo sistema de contenção territorial.
+
+→ A contenção não foi simplesmente “invertida enquanto já funcionava”: ela estava desligada e foi ativada numa configuração incorreta.
+
+→ Nessa configuração, o campo permite a entrada, mas impede a saída — o lado oposto da função protetora original, que impedia invasores externos de entrar.
 
 → Nas áreas profundas, os jovens também mexeram em sistemas de segurança e reativaram robôs e armadilhas que protegiam o núcleo.
 
-→ Dois jovens conseguiram escapar. Dois não voltaram e morreram nas áreas protegidas pelo sistema de defesa.
+→ Dois jovens conseguiram escapar da instalação antes de ficarem presos nas áreas profundas. Dois não voltaram e morreram nas zonas protegidas pelo sistema de defesa.
 
 → Depois do incidente, adultos da cidade selaram fisicamente a entrada com pedra, argamassa e terra para impedir novas invasões.
 
 → Isso explica por que parte da entrada encontrada por Corvin foi fechada deliberadamente e não por desabamento natural.
 
+### Pesquisa histórica consolidada
+
+→ Registros municipais, jornais e dados de transporte mostram que Black Harbor podia ser deixada normalmente antes do incidente.
+
+→ Antes de cerca de 60 anos atrás existem mudanças de cidade, estudos fora, viagens, transporte regional e tráfego marítimo normal.
+
+→ O incidente dos quatro jovens coincide com o início histórico da prisão atual.
+
+→ Depois do incidente aparecem retornos anormais de barcos, viagens canceladas, rotas abandonadas e tentativas frustradas de deixar a cidade.
+
+→ Ao longo das décadas, as tentativas de saída diminuem progressivamente porque a barreira impede a passagem enquanto a rede de influência reforça apego, conforto e razões para permanecer.
+
+→ Portanto, os arquivos sustentam a sequência: **núcleo já ativo para o culto → contenção ainda desligada → incidente dos jovens → contenção ativada na direção errada → Black Harbor passa a prender quem está dentro.**
+
 ## 7 — O que aconteceu com o culto depois disso?
 
-→ O culto tentou desligar a instalação e restaurar o campo, mas não conseguiu.
+→ O culto tentou desligar novamente a contenção e devolver a instalação ao estado anterior ao incidente, mas não conseguiu.
 
 → A chave estava quebrada, os controles tamaraneanos estavam parcialmente inacessíveis e as áreas profundas haviam se tornado perigosas por causa dos robôs e armadilhas reativados.
 
 → Quando os membros tentaram deixar Black Harbor, descobriram que também estavam presos.
+
+→ O núcleo continuou fornecendo energia ao sistema humano, agora também ligado a uma contenção territorial ativa que o culto não sabia controlar corretamente.
 
 → Com o passar dos anos, o próprio sistema de influência criado pelo culto começou a agir sobre eles.
 
@@ -200,13 +230,13 @@ A origem tamaraneana pode deixar informações incompletas para temporadas futur
 
 → O núcleo está instável.
 
-→ Durante décadas, a instalação tamaraneana, a barreira e o sistema do culto ficaram funcionando conectados.
+→ Durante cerca de 60 anos, o núcleo energético, a contenção territorial ativa e o sistema do culto ficaram funcionando conectados.
 
 → Uma tentativa de desligamento brusco pode descarregar energia pelo sistema de influência.
 
 → Como as runas estão ligadas à mente e às emoções da população, uma sobrecarga forte pode causar desmaios, dano neurológico grave ou matar pessoas comuns.
 
-→ Desligar apenas a barreira também é perigoso: a energia antes consumida pelo campo pode ser desviada para B, A e as runas, sobrecarregando a rede do culto.
+→ Desligar apenas a contenção também é perigoso: a energia antes consumida pelo campo pode ser desviada para B, A e as runas, sobrecarregando a rede do culto.
 
 → Portanto, a libertação precisa ser preparada e executada no momento correto.
 
