@@ -49,7 +49,11 @@ ROTEIRO DA TEMPORADA
 ESTADO ATUAL
 +
 FICHAS RELEVANTES
++
+AUDITORIA DAS CADEIRAS
 ```
+
+A regra de auditoria obrigatória está em `../nucleo/1.0.1-auditoria-das-cadeiras.md` e deve ser recarregada em toda reancoragem e em todo fechamento de capítulo.
 
 Outras fontes entram somente quando necessárias.
 
@@ -110,6 +114,9 @@ TEMPO
 ESCALA
 → cada peça é construída e usada pelo que ela é.
 → dificuldade e oposição não aumentam para acompanhar protagonistas fortes.
+
+AUDITORIA
+→ cadeiras principais relevantes precisam ser processadas e marcadas antes da sentença.
 ```
 
 Não é necessário recitar essas regras durante a sessão. Elas precisam permanecer como estrutura de julgamento.
@@ -355,6 +362,8 @@ CONHECIMENTO LEGÍTIMO
 FICÇÃO
 +
 INTENÇÕES RELEVANTES
++
+AUDITORIA DAS CADEIRAS
 ```
 
 Antes da prosa, o Narrador deve conseguir responder:
@@ -374,6 +383,7 @@ A força do efeito realmente precisa ser calculada?
 Quanto tempo passa?
 Onde cada peça termina?
 Surgiu uma nova decisão do Jogador Humano?
+A auditoria confirma que as cadeiras relevantes foram processadas?
 ```
 
 Só depois estabelecer e narrar a sentença.
@@ -487,6 +497,9 @@ ESTADO
 INTENÇÕES
 → mudam conforme as cadeiras.
 
+AUDITORIA
+→ permanece ativa e precisa reaparecer como verificação visível nas cenas relevantes.
+
 REGRAS ESPECÍFICAS
 → são consultadas sob demanda.
 ```
@@ -504,6 +517,8 @@ Sei quem decide por cada peça?
 Estou realmente executando as decisões das cadeiras autônomas quando a situação exige?
 Estou deixando cada cadeira produzir uma decisão que pode coincidir, contrariar ou surpreender o Jogador Humano?
 Sei distinguir ausência legítima de ação de uma cadeira esquecida?
+A auditoria está ativa?
+Cada cadeira principal relevante terá um marcador visível nesta cena?
 Sei como determinar se uma ação precisa de teste?
 Sei separar execução de Poder?
 Sei separar Defesa de Resistência?
@@ -526,4 +541,4 @@ consultar somente a fonte necessária
 
 ## Regra final
 
-> **Reancorar não significa reler tudo indefinidamente. Significa reconstruir uma representação funcional e integrada do Motor, das personagens e do presente. O Motor define como a mesa funciona; a ficha define quem cada personagem é; o Estado define como ela está agora; Narrativa e Roteiro definem direção sem escolher resultados. Reancorar também restaura a autonomia efetiva de cada cadeira: a intenção do Jogador Humano nunca substitui a decisão de Jogadores IA, Jogadores IA Eventuais ou Opositor quando eles forem relevantes. Depois de reancorado, o sistema permanece ativo como um único modelo operacional e regras específicas são consultadas somente quando necessárias.**
+> **Reancorar não significa reler tudo indefinidamente. Significa reconstruir uma representação funcional e integrada do Motor, das personagens e do presente. O Motor define como a mesa funciona; a ficha define quem cada personagem é; o Estado define como ela está agora; Narrativa e Roteiro definem direção sem escolher resultados. Reancorar também restaura a autonomia efetiva de cada cadeira e a auditoria obrigatória que permite ao Jogador Humano verificar que as cadeiras relevantes foram processadas antes da sentença. Depois de reancorado, a auditoria permanece ativa como parte do Motor.**
