@@ -27,7 +27,6 @@ A próxima ação voluntária de Corvin pertence ao Jogador Humano.
 - Cabelo atual: **verde-escuro**.
 - Marcas nas costas: **brotos, folhas novas e ramos jovens** — Primavera.
 - Corvin continua escondendo boa parte das capacidades reais da cidade, mas Ravena e Estelar conhecem agora a mecânica essencial de seu Ciclo da Vida.
-- Capacidade declarada em jogo pelo Jogador Humano: **Força Sobre-Humana [1]**. Tratar como canônica em cena; a ficha principal ainda precisa ser conciliada mecanicamente com essa entrada antes de qualquer revisão de orçamento de Poderes.
 
 ### Ciclo da Vida — conhecimento agora compartilhado
 
