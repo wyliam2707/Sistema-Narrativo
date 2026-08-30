@@ -82,13 +82,19 @@ A origem tamaraneana pode deixar informações incompletas para temporadas futur
 
 ## 4 — O culto e a criação do sistema humano
 
-→ Séculos depois, um culto local encontrou a instalação.
+→ Há cerca de 120 anos, um culto local encontrou a instalação tamaraneana.
+
+→ Essa estimativa de cerca de 120 anos é histórica e não tem relação com o ciclo técnico de 120 dias do núcleo.
 
 → O culto não compreendia completamente a tecnologia tamaraneana, mas descobriu que podia reativar o núcleo energético e retirar energia usando as barras e o comando de START.
 
 → O culto usava o núcleo como fonte de energia para sua própria estrutura híbrida.
 
-→ Durante esse período, o antigo campo de contenção territorial permanecia desligado. Pessoas ainda podiam entrar e sair de Black Harbor normalmente.
+→ Durante esse período, o antigo campo de contenção territorial permanecia desligado.
+
+→ Black Harbor não era uma prisão: moradores podiam sair, visitantes podiam entrar e depois partir, e membros do próprio culto podiam viajar para fora da cidade e retornar.
+
+→ Pessoas de fora apareciam ocasionalmente na cidade, e o culto também podia usar essa circulação para contatos, materiais, recrutamento ou atividades comuns sem que a fronteira impedisse passagem.
 
 → A chave/disco principal de controle já estava quebrada. O culto conseguia obter energia do núcleo, mas não possuía controle confiável sobre os sistemas tamaraneanos profundos nem sobre a contenção.
 
@@ -102,7 +108,9 @@ A origem tamaraneana pode deixar informações incompletas para temporadas futur
 
 → C funciona como a interface híbrida que liga o sistema humano do culto à instalação tamaraneana e ao núcleo.
 
-→ A rede de influência, portanto, é anterior à prisão atual. Antes do incidente de cerca de 60 anos atrás ela podia influenciar pessoas, mas não existia uma barreira territorial impedindo a saída.
+→ Durante aproximadamente 60 anos, portanto, o culto utilizou a rede de influência sem existir prisão territorial. A rede podia afetar comportamento, apego, desejo, medo e permanência, mas uma pessoa que realmente saísse da cidade conseguia cruzar a fronteira normalmente.
+
+→ A rede de influência é anterior à prisão atual. A prisão começa somente no incidente de cerca de 60 anos atrás.
 
 ## 5 — Como funciona a influência da cidade?
 
@@ -118,13 +126,17 @@ A origem tamaraneana pode deixar informações incompletas para temporadas futur
 
 → Em potência extrema, se o núcleo e a instalação suportarem a carga, o sistema do culto é capaz de reduzir drasticamente a autonomia e transformar habitantes em marionetes obedientes.
 
+→ Antes da ativação da contenção, essa influência podia dificultar emocionalmente uma decisão de partir, mas não criava uma barreira física ou territorial: quem efetivamente atravessasse o limite conseguia sair.
+
+→ Depois da ativação da contenção, influência e barreira passaram a trabalhar juntas: o campo impede fisicamente a saída e a rede reduz progressivamente a vontade de continuar tentando.
+
 → A cobertura de família, casa, rotina e intenção aparente de permanência funciona porque reduz a necessidade percebida de intervenção.
 
 ## 6 — A origem da prisão atual
 
 → Há cerca de 60 anos, quatro jovens invadiram o complexo.
 
-→ Naquele momento, o núcleo já estava ativo e fornecia energia ao sistema do culto, mas o campo de contenção territorial estava desligado.
+→ Naquele momento, o núcleo já estava ativo havia décadas e fornecia energia ao sistema do culto, mas o campo de contenção territorial continuava desligado.
 
 → A chave/disco principal estava quebrada e os jovens não tinham acesso correto aos controles nem conhecimento sobre sua função.
 
@@ -136,9 +148,13 @@ A origem tamaraneana pode deixar informações incompletas para temporadas futur
 
 → Nessa configuração, o campo permite a entrada, mas impede a saída — o lado oposto da função protetora original, que impedia invasores externos de entrar.
 
+→ A partir desse incidente, pessoas de fora ainda podem entrar em Black Harbor, mas ninguém consegue atravessar o limite para sair enquanto a contenção permanecer ativa nessa configuração.
+
 → Nas áreas profundas, os jovens também mexeram em sistemas de segurança e reativaram robôs e armadilhas que protegiam o núcleo.
 
-→ Dois jovens conseguiram escapar da instalação antes de ficarem presos nas áreas profundas. Dois não voltaram e morreram nas zonas protegidas pelo sistema de defesa.
+→ Dois jovens conseguiram escapar das áreas profundas e voltar à superfície da própria cidade. Dois não voltaram e morreram nas zonas protegidas pelo sistema de defesa.
+
+→ Os dois sobreviventes não escaparam de Black Harbor; apenas conseguiram sair da instalação subterrânea.
 
 → Depois do incidente, adultos da cidade selaram fisicamente a entrada com pedra, argamassa e terra para impedir novas invasões.
 
@@ -146,17 +162,19 @@ A origem tamaraneana pode deixar informações incompletas para temporadas futur
 
 ### Pesquisa histórica consolidada
 
-→ Registros municipais, jornais e dados de transporte mostram que Black Harbor podia ser deixada normalmente antes do incidente.
+→ Registros municipais, jornais e dados de transporte mostram circulação normal durante o período em que o culto já utilizava o núcleo e a rede, mas a contenção ainda permanecia desligada.
 
-→ Antes de cerca de 60 anos atrás existem mudanças de cidade, estudos fora, viagens, transporte regional e tráfego marítimo normal.
+→ Entre aproximadamente 120 e 60 anos atrás existem moradores mudando de cidade, estudos fora, viagens, transporte regional, tráfego marítimo, visitantes chegando e partindo e pessoas ligadas ao culto circulando para fora de Black Harbor.
 
-→ O incidente dos quatro jovens coincide com o início histórico da prisão atual.
+→ O incidente dos quatro jovens coincide com uma ruptura brusca: a partir dali deixam de existir saídas bem-sucedidas confirmadas de Black Harbor.
 
-→ Depois do incidente aparecem retornos anormais de barcos, viagens canceladas, rotas abandonadas e tentativas frustradas de deixar a cidade.
+→ Depois do incidente ainda existem tentativas de saída, mas elas terminam em retornos, desvios, falhas de rota, cancelamentos ou outras formas de voltar para dentro da cidade.
 
-→ Ao longo das décadas, as tentativas de saída diminuem progressivamente porque a barreira impede a passagem enquanto a rede de influência reforça apego, conforto e razões para permanecer.
+→ Pessoas de fora continuam podendo chegar. Quem entra depois da ativação da contenção também fica preso quando tenta sair.
 
-→ Portanto, os arquivos sustentam a sequência: **núcleo já ativo para o culto → contenção ainda desligada → incidente dos jovens → contenção ativada na direção errada → Black Harbor passa a prender quem está dentro.**
+→ Ao longo das décadas, as tentativas de saída diminuem progressivamente porque a barreira torna toda saída impossível enquanto a rede de influência reforça apego, conforto e razões para permanecer.
+
+→ Portanto, os arquivos sustentam a sequência: **culto encontra a instalação há cerca de 120 anos → núcleo é reativado e alimenta a rede → cidade ainda possui entrada e saída normais por cerca de 60 anos → jovens ativam a contenção na direção errada → desde então entrada continua possível, mas saída deixa de ser possível.**
 
 ## 7 — O que aconteceu com o culto depois disso?
 
@@ -165,6 +183,8 @@ A origem tamaraneana pode deixar informações incompletas para temporadas futur
 → A chave estava quebrada, os controles tamaraneanos estavam parcialmente inacessíveis e as áreas profundas haviam se tornado perigosas por causa dos robôs e armadilhas reativados.
 
 → Quando os membros tentaram deixar Black Harbor, descobriram que também estavam presos.
+
+→ Integrantes que antes podiam circular para fora da cidade perderam essa possibilidade junto com todos os demais moradores.
 
 → O núcleo continuou fornecendo energia ao sistema humano, agora também ligado a uma contenção territorial ativa que o culto não sabia controlar corretamente.
 
@@ -212,7 +232,7 @@ A origem tamaraneana pode deixar informações incompletas para temporadas futur
 
 ## 10 — Obstáculos já existentes
 
-→ Existem criaturas sobrenaturais que também ficaram presas dentro da barreira ao longo das décadas.
+→ Existem criaturas sobrenaturais que entraram em Black Harbor ao longo das últimas décadas e também ficaram presas dentro da barreira quando tentaram sair.
 
 → Algumas são perigosas e podem atacar moradores ou reagir a falhas e alterações da rede.
 
