@@ -3,7 +3,7 @@
 ESTADO DA FICHA: PRONTA
 Importância: PROTAGONISTA / CONTROLE: JOGADOR / Patamar: 4
 Nome real: Corvin Blackwood / Idade: 62 anos (aparenta 27)
-Aparência: homem de aparência humana comum, alto e forte, discretamente mais bonito que a média, com cabelos brancos; aparenta cerca de 27 anos.
+Aparência: homem de aparência humana comum, alto e forte, discretamente mais bonito que a média; aparenta cerca de 27 anos. A cor do cabelo e as marcas naturais nas costas mudam conforme a estação de seu Ciclo da Vida: verde-escuro na Primavera, verde no Verão, verde-claro no Outono e branco no Inverno/fim do ciclo. Cabelo cinza indica um ciclo interrompido por morte prematura.
 Estilo: roupas casuais, sobretudo e mochila; visual prático de viajante e investigador.
 Conceito: Semideus da Natureza; investigador do oculto, explorador e artesão itinerante.
 Descrição: viajante experiente que percorre o mundo investigando o oculto, explorando lugares desconhecidos, desenvolvendo suas capacidades e ajudando quem encontra pelo caminho.
@@ -52,10 +52,13 @@ Pontos de Poder: [12] / [12]
 [Corvin não consegue mentir deliberadamente; quando tenta, acaba expressando a verdade que conhece da forma mais nua e direta possível, se uma pessoa faz um acord com corvin essa pessoa e obrigada a cumprila, o acordo deve ser igual e feita de livre vontade, sabendo do que se trata].
 
 --- TRAÇO: Ciclo da Vida
-[A cada 30 dias, ao pôr do sol, Corvin se desfaz em pó e deixa sementes ligadas ao próprio ciclo; ao amanhecer seguinte, uma delas germina em terreno próximo e forma seu novo corpo, iniciando outro ciclo. Se morrer antes disso, também se desfaz em pó e deixa sementes, mas nenhuma germina até completar o ciclo seguinte de 30 dias.]
+[O ciclo de Corvin dura 30 dias contados a partir de cada nascimento ou renovação natural. Ao pôr do sol do trigésimo dia, seu corpo se desfaz em pó e sementes; no amanhecer seguinte, raízes, ramos e matéria viva formam um novo corpo, iniciando outro ciclo. Se Corvin morrer antes do fim natural, também se desfaz em pó e sementes e retorna no primeiro nascer do sol seguinte, mas essa morte não reinicia a contagem: o mesmo ciclo permanece interrompido e precisa chegar ao fim natural antes de poder se renovar novamente.]
 
 --- TRAÇO: Semente Imortal
-[Corvin não envelhece. Sua imortalidade pode ser rompida se ele morrer duas vezes dentro do mesmo Ciclo da Vida.]
+[Corvin não envelhece. Se morrer uma vez antes de completar naturalmente o ciclo, retorna no amanhecer seguinte, mas fica vulnerável a uma segunda morte dentro desse mesmo ciclo interrompido. Se morrer novamente antes de alcançar o fim natural e renovar o ciclo, sua imortalidade é rompida e a morte é definitiva.]
+
+--- TRAÇO: Estações do Corpo
+[O corpo de Corvin manifesta visualmente o avanço do Ciclo da Vida. Aproximadamente a cada semana, cabelo e marcas naturais nas costas mudam de estação: Primavera — cabelo verde-escuro com brotos, folhas novas e ramos jovens; Verão — cabelo verde com ramos cheios e formas vegetais vivas; Outono — cabelo verde-claro com folhas soltas, galhos e sementes ao vento; Inverno — cabelo branco com marcas claras e geométricas semelhantes a flocos de neve e cristais. Após morte prematura, o cabelo retorna cinza até o ciclo ser concluído naturalmente, sinalizando que uma morte já ocorreu naquele ciclo.]
 
 --- TRAÇO: Aparência Inofensiva
 [Corvin passa por comum porque sua natureza não se destaca do mundo ao redor; seus poderes se escondem no ambiente como uma sombra no escuro.]
