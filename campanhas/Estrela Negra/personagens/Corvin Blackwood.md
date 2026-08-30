@@ -85,7 +85,7 @@ Pontos de Poder: [12] / [12]
 
 --- Corvin segue o fluxo: explora, ajuda quem encontra e então continua seu caminho. Seus objetivos mudam conforme as pessoas, lugares e mistérios que encontra.
 
---- No fundo, sempre desejou criar raízes e ter um lugar ao qual pertencer, mas até hoje nunca encontrou um lugar, uma razão ou alguém que o fizesse querer parar de viajar.
+--- No fundo, sempre desejou criar raízes e ter um lugar ao qual pertencer. Durante a campanha passou a formular isso de outra maneira: não precisa deixar de viajar; para ele, casa é o lugar ao qual escolhe voltar, e pessoas podem se tornar a razão de querer estar de volta para o jantar.
 
 ## Medos / limites
 
@@ -131,4 +131,14 @@ Pontos de Poder: [12] / [12]
 
 ## História consolidada relevante
 
---- Corvin é órfão de origem desconhecida. Ainda criança, foi encontrado em uma floresta por um casal de idosos que o criou como filho. Seus pais adotivos morreram quando ele tinha 14 anos; desde então, passou a viajar pelo mundo, explorar, desenvolver seus poderes e ajudar as pessoas que encontra pelo caminho.
+--- Corvin é órfão de origem desconhecida. Ainda bebê, foi encontrado em uma floresta por um casal de idosos que o criou como filho. Não possui lembranças confiáveis anteriores a eles e considera plausível, dada a própria natureza, que sua origem possa ter sido literalmente natural.
+
+--- O Ciclo da Vida de trinta dias já acontecia desde a infância e era conhecido por seus pais adotivos. Para a família, o fato de a criança periodicamente se desfazer em sementes e renascer acabou se tornando parte normal da vida doméstica.
+
+--- Por volta dos 13–14 anos, Corvin teve um namoro escolar. Durante uma discussão banal que escalou enquanto ainda era emocionalmente imaturo, sua ligação com a natureza reagiu e o chão começou a tremer. A garota perguntou se ele era responsável; Corvin tentou mentir, mas A Natureza Não Mente o obrigou a expressar a verdade diretamente. Depois do episódio, a garota e boa parte da cidade deixaram de falar com ele.
+
+--- Seus pais adotivos morreram quando Corvin tinha 14 anos. Ele os enterrou na mesma floresta onde haviam encontrado Corvin, esperou por uma semana mesmo sabendo que eles não retornariam como ele retornava, e então deixou a cidade.
+
+--- Depois disso, Corvin passou a viajar pelo mundo, muitas vezes mudando de lugar diariamente. Em algum momento escolheu uma caverna como ponto para o qual podia retornar entre viagens; a ideia de lar como um lugar escolhido para voltar permaneceu central e mais tarde encontrou sua forma mais completa no Refúgio Ártico.
+
+--- Ao longo das décadas, continuou explorando, desenvolvendo seus poderes, investigando o oculto e ajudando pessoas que encontrava pelo caminho.
