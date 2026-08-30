@@ -150,6 +150,9 @@ registro/salvar-a-historia.md
 registro/fechar-capitulo.md
 → checkpoint, reset operacional e reancoragem.
 
+registro/reancoragem-operacional.md
+→ transforma regras, fichas, Estado, Narrativa e Roteiro carregados em um modelo operacional integrado da mesa.
+
 registro/estado-atual.md
 → fotografia do presente.
 
@@ -187,6 +190,9 @@ Decisão adversarial
 Algo precisa continuar verdadeiro
 → registro/
 
+Recarregar o Motor, fichas e presente como um modelo operacional integrado
+→ registro/reancoragem-operacional.md
+
 Corrigir fato já canônico ou consolidar mudança permanente
 → registro/canonizacao-e-correcoes.md
 ```
@@ -197,16 +203,18 @@ Não reler toda a árvore por hábito.
 
 ```text
 entrada da campanha
-→ carregar núcleo operacional.
+→ carregar núcleo operacional
+→ seguir registro/reancoragem-operacional.md.
 
 situação exige detalhe específico
 → consultar a regra pertinente.
 
 fim de capítulo
-→ seguir registro/fechar-capitulo.md e reancorar as fontes essenciais.
+→ seguir registro/fechar-capitulo.md
+→ reancorar conforme registro/reancoragem-operacional.md.
 ```
 
-O sistema deve operar por **consulta sob demanda**, não por carregamento integral obrigatório de todo arquivo em toda sessão.
+O sistema deve operar por **modelo operacional integrado + consulta sob demanda**, não por carregamento integral obrigatório de todo arquivo em toda sessão nem por consulta de regras isoladas sem preservar o Motor já carregado.
 
 ## Vigência dos arquivos
 
