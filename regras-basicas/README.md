@@ -110,7 +110,9 @@ RECURSO
 → posse, acesso ou infraestrutura estável.
 ```
 
-A ficha é a principal fonte de interpretação da personagem, mas não substitui cenário, Livro ou outras fontes externas quando elas forem necessárias.
+A ficha é a **fonte canônica primária da personagem**. Narração, interpretação, resolução, escrita literária e representação visual devem partir dela e ser complementadas pelo Estado Atual e pelo contexto da campanha conforme `jogador/1.5-autoridade-da-ficha.md`.
+
+Versão genérica, memória da IA, adaptação famosa ou convenção de gênero não substituem características já definidas na ficha da campanha.
 
 Blocos interpretativos devem priorizar aquilo que realmente pode mudar decisões dentro do foco da campanha.
 
@@ -180,6 +182,9 @@ Regra comum a todos
 
 Ficha ou capacidade própria de personagem
 → jogador/
+
+Autoridade da ficha sobre representação e uso da personagem
+→ jogador/1.5-autoridade-da-ficha.md
 
 Julgamento ou apresentação imparcial
 → mestre/
