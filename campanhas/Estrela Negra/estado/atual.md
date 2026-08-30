@@ -2,7 +2,7 @@
 
 STATUS: PRONTO PARA CONTINUAR
 TEMPORADA: 1
-ÚLTIMO CAPÍTULO FECHADO: `livro/007.md`
+ÚLTIMO CAPÍTULO FECHADO: `livro/013.md`
 MOMENTO: manhã do sexto dia em Black Harbor. Corvin acabou de iniciar um novo Ciclo da Vida ao amanhecer. Ele, Ravena e Estelar estão dormindo juntos no quarto principal de **Ridge Road, 18**, depois de Ravena e Estelar passarem a noite no jardim acompanhando a morte cíclica e o renascimento de Corvin.
 
 ## Ponto exato de continuação
@@ -68,7 +68,7 @@ Situação atual:
 
 - os sentimentos entre os três continuam genuínos; Black Harbor parece amplificar razões para permanecer, não criar afeto do nada;
 - não existe compromisso romântico formal definitivo entre os três;
-- Estelar e Corvin tiveram o primeiro beijo mútuo durante o capítulo 007;
+- Estelar e Corvin tiveram o primeiro beijo mútuo durante o capítulo 012;
 - Estelar colocou por conta própria o limite da intimidade naquele momento: “por enquanto, até aqui”, deixando claro que não significava “nunca mais”;
 - Ravena sabe do beijo e reagiu com sarcasmo, não com ruptura;
 - Corvin continua demonstrando atração pelas duas de forma aberta;
@@ -348,7 +348,7 @@ Distribuição conhecida permanece:
 - Estelar possui uma Chave de Retorno com aproximadamente 4 usos seguros restantes;
 - Corvin possui uma chave reserva.
 
-Durante a exploração profunda do capítulo 007, as chaves foram deliberadamente deixadas em casa.
+Durante a exploração profunda do capítulo 012, as chaves foram deliberadamente deixadas em casa.
 
 ## Regras operacionais importantes para a continuação
 
