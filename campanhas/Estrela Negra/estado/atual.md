@@ -2,16 +2,17 @@
 
 STATUS: PRONTO PARA CONTINUAR
 TEMPORADA: 1
-ÚLTIMO CAPÍTULO FECHADO: `livro/016.md`
-MOMENTO: fim da tarde do oitavo dia em Black Harbor. Corvin, Ravena e Estelar acabaram de concluir um dia de pesquisa nos arquivos municipais sobre a história da cidade e o momento em que a contenção passou a impedir saídas.
+ÚLTIMO CAPÍTULO FECHADO: `livro/017.md`
+MOMENTO: Dia 9 em Black Harbor, depois de uma longa exploração sob o farol. Corvin, Ravena e Estelar acabaram de retornar ao Refúgio Ártico através de Caminhos. Nenhuma nova ação voluntária de Corvin foi declarada depois do retorno.
 
 ## Ponto exato de continuação
 
-Os três estão saindo dos arquivos municipais de Black Harbor no fim da tarde.
+Os três estão no Refúgio Ártico, imediatamente após Corvin fechar o portal que os trouxe das áreas subterrâneas de Black Harbor.
 
-- a pesquisa do dia foi concluída;
-- não existe urgência imediata;
-- nenhuma nova ação de Corvin foi declarada depois da pesquisa;
+- a exploração do dia terminou;
+- não existe urgência imediata na cena;
+- o restante do Dia 9 ainda não foi narrado nem consumido automaticamente;
+- nenhuma atividade futura do “amanhã” foi executada;
 - a próxima ação voluntária de Corvin pertence ao Jogador Humano.
 
 ## Estado de Corvin
@@ -19,288 +20,381 @@ Os três estão saindo dos arquivos municipais de Black Harbor no fim da tarde.
 - Vida: sem ferimentos relevantes.
 - Mente: sem marcas relevantes.
 - Mana: 10/10.
-- Ciclo da Vida: **Dia 3 de 30**.
+- Ciclo da Vida: **Dia 4 de 30**.
 - Estação atual: **Primavera**.
 - Cabelo: **verde-escuro**.
-- Marcas nas costas: brotos, folhas novas e ramos jovens.
-- A morte natural do ciclo anterior ocorreu no pôr do sol do quinto dia; o renascimento ocorreu no amanhecer do sexto dia.
+- Marcas naturais: brotos, folhas novas e ramos jovens.
+- A renovação natural do ciclo anterior ocorreu no amanhecer do Dia 6 da campanha.
 - Nenhuma morte prematura ocorreu neste ciclo atual.
+- Corvin não possui mais chave reserva de Caminhos: sua única reserva foi vinculada ao salão do pedestal e entregue a Estelar.
+
+## Regra relacional operacional — NÃO SINCRONIZAR
+
+Não existe uma barra coletiva de romance.
+
+Manter separadamente:
+
+```text
+CORVIN ↔ RAVENA
+CORVIN ↔ ESTELAR
+RAVENA ↔ ESTELAR
+```
+
+Cada vínculo possui ritmo próprio de desejo, confiança, intimidade, ciúme, iniciativa, limites e decisões.
+
+- avanço entre Corvin e Estelar não obriga Ravena a avançar, recuar, competir ou compensar;
+- avanço entre Corvin e Ravena não obriga Estelar a fazer o mesmo;
+- Ravena e Estelar podem desenvolver ou não uma relação própria independentemente de Corvin;
+- momentos entre dois não precisam incluir o terceiro;
+- proximidade compartilhada, cama conjunta ou abraço dos três não cria consentimento coletivo;
+- uma eventual relação a três só existe se as três relações e escolhas individuais realmente convergirem.
 
 ## Relações atuais
 
-Não existe relacionamento formal, noivado, casamento ou definição final de relação entre os três.
+Não existe relacionamento formal, noivado, casamento ou definição final entre os três.
 
 ### Corvin e Estelar
 
-- atração mútua consolidada;
-- vários beijos mútuos já ocorreram;
-- Estelar estabeleceu anteriormente o limite “por enquanto, até aqui” e esse limite foi respeitado;
-- no Dia 7, Corvin e Estelar fizeram treino corpo a corpo voluntário no quintal;
-- Corvin usou proteção natural para permitir golpes mais fortes sem fragilidade humana comum;
-- ambos causaram pequenos ferimentos durante o treino e Corvin curou os ferimentos ao longo da brincadeira;
-- depois de Corvin ferir Estelar, ele a beijou enquanto a curava; Estelar correspondeu;
-- Estelar demonstra interesse aberto e confortável em Corvin sem existir compromisso formal.
+- atração mútua forte e reconhecida;
+- vários beijos consensuais já ocorreram;
+- no Dia 7 houve treino físico com beijos depois e durante a recuperação;
+- no Dia 8 Estelar tomou iniciativa de um passeio privado com Corvin na região do farol;
+- durante esse passeio houve intimidade física significativa e beijos escolhidos pelos dois;
+- **não houve sexo estabelecido**;
+- Estelar declarou que seu antigo limite de “por enquanto, até aqui” havia mudado bastante;
+- no Dia 9 houve novo beijo consciente e correspondido no café da manhã;
+- Estelar demonstra desejo e proximidade de forma aberta, mas não existe compromisso formal definido.
 
 ### Corvin e Ravena
 
-- atração e confiança estão em desenvolvimento real;
-- no Dia 6, Ravena e Corvin trocaram os primeiros beijos mútuos: um beijo curto e depois outro mais longo; Ravena interrompeu o segundo apenas por causa do almoço, não por rejeição;
-- no Dia 7, Ravena aceitou um duelo mágico com Corvin no quintal;
-- Corvin usou defesa e cura para encorajá-la a atacar sem se conter por medo de machucá-lo;
-- Ravena causou dano real em Corvin durante o duelo e viu que ele conseguia suportar, curar-se e continuar ali por escolha própria;
-- essa experiência não eliminou o medo de Ravena de perder o controle, mas criou evidência concreta de que intimidade com alguém resistente não precisa significar automaticamente feri-lo de forma irreparável;
-- depois do duelo, Corvin e Ravena trocaram novos beijos mútuos;
-- Ravena sabe que uma morte prematura de Corvin permite retorno no amanhecer seguinte, mas que uma segunda morte antes do fim natural do mesmo ciclo seria definitiva;
-- Ravena não lê pensamentos: Empatia percebe emoções, inclusive atração e desejo, quando suficientemente claros.
+- atração, confiança e intimidade emocional continuam aumentando;
+- primeiros beijos mútuos ocorreram no Dia 6;
+- novo avanço ocorreu no Dia 7 depois do duelo mágico;
+- Ravena possui evidência concreta de que Corvin pode suportar e curar dano relevante, embora saiba que uma segunda morte prematura no mesmo ciclo interrompido seria definitiva;
+- no fim do Dia 8, depois do passeio privado de Corvin e Estelar, Ravena admitiu ter sentido falta da companhia de Corvin “um pouco”;
+- diante da possibilidade de um encontro privado futuro, Ravena respondeu: **“Talvez eu aceite. Mas eu escolho quando. E onde.”**;
+- no Dia 9 Corvin a beijou suavemente enquanto dormia, sem intenção de acordá-la; mais tarde o gesto virou provocação no café;
+- Corvin então tentou beijá-la novamente acordada e Ravena permitiu e correspondeu de leve;
+- Ravena resumiu a diferença com humor: **“Agora pelo menos existe consentimento registrado.”**;
+- Corvin se ofereceu para acompanhá-la no futuro trabalho de campo pela cidade; Ravena aceitou a companhia para essa atividade, caso a intenção continue no dia seguinte.
 
 ### Ravena e Estelar
 
 - continuam amigas muito próximas e confiáveis;
-- não existe romance anterior ou relação romântica estabelecida entre as duas;
-- a convivência compartilhada com Corvin permite brincadeiras, proximidade e novas leituras possíveis, mas qualquer mudança romântica entre elas precisa nascer de experiência futura e escolha real.
+- não existe romance anterior estabelecido entre elas;
+- a convivência compartilhada pode produzir novas leituras e sentimentos, mas nada é automático;
+- no Dia 9 Estelar perguntou se Ravena iria com ela a Tamaran numa hipótese futura e distante; Ravena respondeu que, **se chegassem a esse ponto**, iria;
+- essa resposta foi hipotética e própria de Ravena, não uma declaração de relacionamento a três nem promessa de futuro.
 
-### Convivência
+### Convivência compartilhada
 
-- os três dormiram juntos em mais de uma noite por escolha própria e conforto;
-- Corvin costuma deixar espaço para que Ravena e Estelar decidam se querem se aproximar;
-- Estelar tende a se aproximar de forma direta; Ravena é mais contida, mas já escolheu proximidade física por conta própria;
-- nenhum desses fatos constitui consentimento automático para intimidade adicional.
+- os três já dormiram na mesma cama em mais de uma noite por escolha própria;
+- no fim do Dia 8 voltaram a dormir juntos, com Corvin entre as duas;
+- no Dia 9 Corvin puxou Ravena para um abraço breve e Estelar entrou naturalmente, formando um abraço dos três por alguns segundos;
+- ambas aceitaram o gesto;
+- isso representa conforto e confiança compartilhada, não consentimento coletivo para intimidade adicional.
 
-## Planos pessoais pós-Black Harbor conhecidos
+## Conversa sobre Tamaran
 
-Corvin contou às duas sobre seu **Refúgio Ártico** e pretende mostrá-lo quando puder sair da cidade.
+Durante a exploração do Dia 9, Corvin perguntou a Estelar **como** ela chegou à Terra.
 
-Ravena e Estelar sabem que o refúgio inclui:
+Estelar explicou:
 
-- grande caverna adaptada ao longo de cerca de 30 anos;
-- residência, oficina e forja;
-- laboratório de alquimia;
-- energia e internet;
-- biblioteca enorme;
-- bonecos de treino muito resistentes;
-- lago termal transformado em piscina;
-- uma caverna menor de cerca de 3 metros usada como “ninho”, modelada e forrada com materiais macios e aromáticos e coberta com peles de animais.
+- fugiu de Tamaran sozinha numa nave tamaraneana com hiperdrive;
+- pretendia criar grande distância da corte e do casamento político imposto;
+- errou o curso e terminou no sistema solar;
+- a nave foi destruída na chegada;
+- Estelar pode voar e sobreviver no espaço, mas isso não substitui hiperdrive para deslocamento interestelar.
 
-Interesses declarados:
+Quando Corvin perguntou se sentia saudade de casa, Estelar respondeu que sim:
 
-- Ravena demonstrou forte interesse pela biblioteca;
-- Estelar demonstrou forte interesse pelos bonecos de treino, lago e ninho;
-- ambas demonstraram vontade real de visitar o refúgio quando Black Harbor for libertada;
-- isso constitui plano e interesse, não acontecimento futuro garantido.
+- não sente saudade da corte nem de decisões impostas;
+- sente saudade de Tamaran, da língua, comida, céu e cultura.
 
-## Jardim de Ridge Road, 18
+Corvin a abraçou e brincou sobre um dia visitar os “sogros”.
 
-No Dia 6, Corvin meditou por cerca de uma hora no jardim e usou Dádiva da Terra para estimular crescimento natural.
+Depois refinou a ideia para um encontro íntimo: pais de Estelar, Estelar, Ravena e ele, com ele tentando não fugir por Caminhos.
 
-O jardim permanece mais vivo:
+Isso foi humor e hipótese distante, não promessa de casamento ou viagem futura garantida.
 
-- plantas mais cheias;
-- flores abertas;
-- brotos novos;
-- alguns frutos adiantados.
+## Teste de saída no Setor B — Dia 9
 
-Não existe efeito hostil ou processo mágico instável associado ao crescimento.
+No café da manhã, os três reafirmaram que os vínculos e a casa são reais, mas que continuam querendo sair de Black Harbor.
 
-## Rede de runas — descoberta urbana
+Eles foram ao Setor B para testar a resposta da rede.
 
-A investigação do Dia 6 confirmou:
+Corvin tentou abrir Caminhos diretamente para o Refúgio Ártico enquanto Ravena observava o terminal.
 
-- A-01 não contém uma única runa central; ele alimenta/concentra uma **malha distribuída**;
-- as runas aparecem em fragmentos espalhados por estruturas urbanas;
-- pequenos grupos de fragmentos formam **unidades funcionais** que se sustentam mutuamente;
-- o desenho segue também **fluxo humano e hábitos sociais**: entradas de ruas, bancos, comércio, pontos de espera, encontro e circulação;
-- reformas urbanas incorporaram partes antigas da rede em estruturas novas ao longo das décadas;
-- Ravena pode usar registros de reformas e padrões de fluxo para localizar conjuntos funcionais com mais eficiência no futuro.
+Resultado observado:
 
-Nenhuma runa foi neutralizada ou desligada.
+- o portal sofreu forte resistência e não permitiu a travessia para fora de Black Harbor;
+- enquanto a tentativa estava ativa, o terminal reagiu imediatamente;
+- **agitação**, **impulso de saída** e **intensidade** subiram;
+- depois que Corvin interrompeu a tentativa, os valores começaram a cair novamente;
+- **nenhum novo percentual exato foi estabelecido**, portanto não inventar números para esse teste.
 
-## Instalação profunda — segunda varredura
+Leitura atual:
 
-A segunda varredura do Dia 6 confirmou uma separação física forte entre tecnologia tamaraneana original e enxertos humanos posteriores.
+- o sistema reage pelo menos em parte a uma tentativa operacional real de cruzar a fronteira;
+- ainda é plausível que intenção individual, tentativa física/mágica e reação social da cidade alimentem componentes diferentes da mesma malha;
+- isso não prova que todas as leituras de B sejam puramente emocionais nem puramente energéticas.
 
-Corvin encontrou na área de serviço:
+## Leituras de B já confirmadas
 
-- condução grossa ligada ao núcleo;
-- condução ligada à contenção;
-- condução posterior subindo para o sistema humano;
-- dois canais tamaraneanos originais e um canal humano posterior;
-- marcas antigas de sobrecarga;
-- pequena deformação num componente tamaraneano compatível com retirada/recolocação incorreta;
-- repetição dos conceitos `CONTENÇÃO`, `LIMITE` e ligação ao conjunto do ciclo 120.
+Manter as leituras históricas exatas já estabelecidas:
 
-Conclusão forte:
+### Inicial
 
-> o culto **parasitou** a instalação tamaraneana para obter energia; não reconstruiu nem dominou sua arquitetura profunda.
+- Intensidade 37%
+- Retorno da Rede 82%
+- Aderência 71%
+- Agitação 18%
+- Impulso de Saída 11%
 
-## Ciclo 120 — informação confirmada
+### Depois da narrativa pública de casa/raízes/casamento
 
-As leituras dos Dias 5, 6 e 7 permitiram determinar:
+- Intensidade 34%
+- Retorno 84%
+- Aderência 77%
+- Agitação 13%
+- Impulso de Saída 6%
 
-- o valor `120` representa um **ciclo de 120 dias**;
-- o painel está ligado ao regime operacional da contenção;
-- ao final do ciclo existe um **retorno ao início / reset**;
-- quando a duração foi determinada, restavam aproximadamente **90 dias** para o próximo reset;
-- ciclo histórico de “cerca de 120 anos de culto” e ciclo técnico de **120 dias** são fatos diferentes e sem relação numérica causal estabelecida.
+### Aproximadamente uma hora depois, com rumor espalhando
 
-O reset é tratado como possível janela de transição, mas o procedimento seguro completo ainda não foi executado.
+- Intensidade 31%
+- Retorno 88%
+- Aderência 84%
+- Agitação 8%
+- Impulso de Saída 2%
 
-## Controle dos três anéis
+### Depois de casa/móveis/raízes
 
-A porta/controle estreito com três anéis concêntricos foi investigada sem qualquer alteração física.
+- Intensidade 27%
+- Retorno 93%
+- Aderência 91%
+- Agitação 5%
+- Impulso de Saída 1%
 
-Hipótese técnica atual de Corvin e Estelar:
+Não concluir automaticamente que:
 
-- anel externo: **modo de operação**;
-- anel intermediário: **direção / interno-externo**;
-- anel interno: **autorização ou estado de transição**.
+- Aderência = porcentagem de pessoas controladas;
+- Retorno = apenas energia;
+- Retorno = apenas informação.
 
-A configuração atual parece compatível com algo próximo de:
+O aviso de B continua canônico:
 
-- contenção ativa;
-- direção interna;
-- transição bloqueada/não autorizada.
+> **B não deve operar sem retorno de A. Sem feedback, compensação pode exceder níveis seguros.**
 
-Existem marcas antigas de desgaste e desalinhamento mecânico coerentes com manipulação incorreta antiga.
+`MALHA DE RETORNO: SETOR A` sustenta que retorno envolve pelo menos feedback/sinal; a arquitetura tamaraneana encontrada no Dia 9 mostra que redes originais também podiam possuir retorno energético separado. A equivalência exata entre os dois conceitos ainda não foi provada.
 
-**Nenhum anel foi girado.**
+## Descobertas sob o farol — Dia 9
 
-## Livro ritual — retorno/fixação
+### Área protegida aberta com barras e disco/chave tamaraneano
 
-Ravena encontrou no livro ritual uma distinção relevante entre:
+Corvin recuperou as barras e o disco/chave principal restaurado.
 
-- **fixação**;
-- **retorno**.
+Antes de abrir a porta pesada de três contatos:
 
-A tradução sustenta:
+- Corvin confirmou que os mecanismos eram locais à porta e não ligação direta evidente com C/núcleo;
+- Ravena não detectou ligação ritual ou mental com a rede humana;
+- Estelar reconheceu três alimentações locais e interpretou as barras como ativação das travas e o disco como autorização.
 
-- não interromper a ligação durante fixação;
-- durante retorno, a carga muda de direção ou entra em condição comparável a refluxo/transição;
-- ainda não está totalmente definido se “retorno” significa refluxo, devolução da carga ou outra transição específica;
-- a linguagem ritual e a tecnologia tamaraneana parecem descrever lados diferentes de um mesmo momento de mudança operacional.
+A porta foi aberta sem alterar B, C, contenção ou núcleo.
 
-Conclusão operacional permanece:
+### Origem da instalação como abrigo/refúgio tamaraneano
 
-**NÃO DESLIGAR NADA BRUSCAMENTE.**
+A exploração confirmou que a antiga estrutura militar/nave foi reutilizada depois da queda por sobreviventes civis e refugiados.
 
-## Cronologia histórica consolidada de Black Harbor
+Foram encontrados:
 
-A pesquisa do Dia 8, combinada com a verdade estrutural já confirmada, separa três sistemas/fases:
+- cabines e espaços coletivos;
+- adaptações civis posteriores ao impacto;
+- referências a famílias e crianças;
+- áreas militares convertidas em abrigo;
+- enfermaria superlotada com estruturas de carga adaptadas como macas;
+- registros de trauma, queimaduras, fraturas e racionamento médico;
+- evidência de que a contenção externa original era mantida como proteção enquanto havia risco de perseguição.
 
-### 1. Instalação tamaraneana antiga
+Leitura atual:
 
-- a contenção territorial original foi usada pelos sobreviventes tamaraneanos;
-- quando o último sobrevivente morreu, o campo de contenção foi desligado;
-- o núcleo permaneceu tecnicamente reativável;
-- **núcleo ativo e contenção ativa não são a mesma coisa**.
+> a tecnologia de contenção original fazia sentido como proteção de refugiados contra perseguidores externos, não como prisão interna.
 
-### 2. Culto e rede de influência — cerca de 120 anos atrás
+### Equipamento de emergência recuperado
 
-- cerca de 120 anos atrás, o culto encontrou a instalação;
-- reativou o núcleo energético e passou a retirar energia;
-- construiu A, B, C e a rede de influência mágico-tecnológica;
-- durante aproximadamente 60 anos, a contenção territorial permaneceu **desligada**;
-- Black Harbor ainda podia ser atravessada normalmente;
-- moradores podiam sair;
-- visitantes podiam entrar e depois partir;
-- membros do culto podiam viajar para fora e retornar;
-- a rede podia influenciar apego, conforto, desejo, medo e permanência, mas não impedia fisicamente alguém de cruzar a fronteira.
+Num compartimento de emergência foram encontrados:
 
-### 3. Incidente dos quatro jovens — cerca de 60 anos atrás
+- um traje tamaraneano de evacuação/sobrevivência preservado e sem energia;
+- células de energia compatíveis;
+- três células completamente mortas;
+- **uma célula ainda com carga mínima após mais de 1.200 anos**;
+- ferramentas tamaraneanas;
+- módulos/conversores;
+- registros técnicos.
 
-- quatro jovens invadiram o complexo;
-- o núcleo já estava ativo para o sistema do culto;
-- a contenção estava desligada;
-- eles mexeram nas barras e em vários controles tamaraneanos sem compreender sua função;
-- ativaram o sistema de contenção numa configuração incorreta;
-- a configuração atual **permite entrada e impede saída**;
-- eles também reativaram robôs e armadilhas nas áreas profundas;
-- dois jovens escaparam da instalação;
-- dois morreram nas áreas protegidas;
-- depois do incidente, adultos da cidade selaram fisicamente a entrada com pedra, argamassa e terra.
+Nada foi conectado ou energizado no local.
 
-### Evidência histórica observada
+Estelar levou para casa o material selecionado para estudo seguro.
 
-Registros anteriores ao incidente mostram:
+Não inventar que o traje resolve a trama ou possui funções além das já reconhecidas de sobrevivência/emergência sem nova descoberta legítima.
 
-- viagens normais;
-- mudanças para outras cidades;
-- estudos fora;
-- linhas regionais;
-- tráfego marítimo normal;
-- circulação de visitantes.
+### Isolamento tamaraneano de setores
 
-Depois do incidente aparecem progressivamente:
+Na enfermaria e numa sala técnica de distribuição apareceram procedimentos originais que mostram:
 
-- barcos que saem e retornam no mesmo dia;
-- viagens canceladas;
-- rotas abandonadas;
-- tentativas frustradas de saída;
-- redução gradual da quantidade de pessoas tentando sair.
+- setores podiam ser retirados da distribuição principal sem desligar o núcleo;
+- o sistema distinguia alimentação normal, isolamento e redirecionamento;
+- um setor isolado corretamente era reconhecido pela rede como indisponível, em vez de ser tratado simplesmente como falha;
+- a transição/reset era o momento preferencial para reorganizar distribuição e isolamento com risco menor.
 
-Leitura conjunta:
+Essa informação cria uma diferença operacional importante:
 
-> **o campo impede a saída; a rede de influência reduz progressivamente a vontade de continuar tentando.**
+```text
+ARRANCAR / CORTAR UMA LIGAÇÃO
+≠
+ISOLAR CORRETAMENTE O RAMO PARA A REDE
+```
 
-Depois de cerca de 60 anos com os sistemas conectados, ninguém conhecido conseguiu realmente deixar Black Harbor.
+### Arquitetura de entrada / consumo / retorno
 
-## Origem da prisão — formulação canônica
+Na ala logística foram encontrados diagramas tamaraneanos mostrando:
 
-Não usar como resumo principal “o campo ativo foi invertido”.
+- entrada de energia;
+- reserva/consumo local;
+- retorno separado para distribuição.
 
-Formulação correta:
+Também foi encontrado um leitor portátil de fluxo energético possivelmente restaurável.
 
-> **o campo de contenção estava desligado; os jovens o ativaram numa configuração errada, permitindo entrada e impedindo saída.**
+Isso prova que a tecnologia tamaraneana original possuía circuitos de retorno energético, mas **não prova** que a leitura `RETORNO DA REDE` de B seja somente energia.
 
-Sequência canônica curta:
+### Ponto físico do enxerto de C
 
-> **culto reativa o núcleo → usa energia para a rede de influência com contenção OFF → jovens mexem nos controles → contenção é ativada na direção errada → Black Harbor passa a prender quem está dentro.**
+Foi encontrado o ramo original ao qual o culto conectou C.
 
-## Estrutura A / B / C
+Perto do enxerto existem mecanismos tamaraneanos de isolamento **anteriores ao ponto de ligação humana**.
 
-Conhecimento atual permanece:
+Hipótese operacional forte:
 
-- A-01 — coleta/agregação — região central/comercial;
-- A-02 — coleta/agregação — centro comunitário/região oeste;
-- A-03 — repasse/compensação local — antigo depósito/posto municipal;
-- B monitora e regula transmissão, eficiência e resposta da população;
-- C liga o sistema humano à instalação tamaraneana e ao núcleo;
-- nenhum dos setores foi desligado.
+> durante o reset, talvez seja possível isolar corretamente o ramo original antes do enxerto humano, separando C/A/B/população da parte profunda sem provocar a compensação descontrolada que um corte bruto poderia causar.
 
-## Risco de desligamento
+Isso ainda deve ser confirmado por estudo dos diagramas antes de qualquer tentativa.
 
-O núcleo, a contenção ativa e o sistema humano estão conectados há cerca de 60 anos.
+Nenhuma trava de isolamento foi acionada.
 
-Uma interrupção brusca continua perigosa porque:
+## Geografia correta do corredor do culto — SIMPLES
 
-- energia pode retornar pela rede de influência;
-- as runas estão ligadas a pessoas;
-- uma sobrecarga pode causar desmaios, dano neurológico grave ou morte;
-- desligar apenas a contenção pode desviar energia para B/A/runas.
+Não reintroduzir versões complicadas descartadas.
 
-A libertação deve ser preparada para a janela correta ou para outra solução que respeite esses riscos reais.
+A geografia canônica atual é:
+
+```text
+CÂMARA DO PEDESTAL
+→ CORREDOR CURTO ORIGINALMENTE ABERTO
+→ SALA ONDE O CULTO FEZ O ENXERTO DE C
+→ PORTA TAMARANEANA TRANCADA
+→ ÁREA PROFUNDA ORIGINAL / PROTEGIDA
+```
+
+História funcional:
+
+- o culto encontrou o corredor curto aberto e entrou normalmente;
+- chegou à sala técnica;
+- fez ali o enxerto de C na estrutura original;
+- depois tampou/fechou a entrada do corredor para esconder ou proteger o ponto;
+- a porta tamaraneana depois da sala estava trancada;
+- o culto não possuía o disco/chave principal e não conseguiu avançar além dela;
+- por isso nunca explorou nem acessou os controles originais de isolamento que ficavam do outro lado;
+- Corvin, Ravena e Estelar haviam contornado essa porta anteriormente com Passagem Sombria;
+- no Dia 9 usaram o disco/chave restaurado e confirmaram que ele abre essa porta normalmente.
+
+Não inserir magia do culto, rota secreta alternativa, segunda chave ou outro acesso sem novo fato estabelecido.
+
+## Chaves de Caminhos pessoais
+
+Existem chaves mágicas de Corvin para destinos conhecidos, separadas do disco/chave tamaraneano.
+
+Estado atual:
+
+- Estelar possui uma chave vinculada ao Refúgio Ártico;
+- Ravena possui uma chave vinculada ao Refúgio Ártico;
+- Corvin tinha apenas **uma chave reserva**;
+- no fim do Dia 9 ele vinculou essa reserva ao **salão do pedestal**;
+- Corvin entregou essa chave do salão a Estelar;
+- Estelar agora possui uma chave para o salão e uma para a casa;
+- Ravena possui sua chave para a casa;
+- Corvin não possui outra chave reserva no momento, embora possa usar Caminhos normalmente para locais conhecidos.
+
+## Direção estratégica atual
+
+O grupo decidiu não experimentar configurações profundas enquanto a população ainda estiver ligada ao sistema humano.
+
+Direção de trabalho discutida:
+
+### Ravena
+
+- estudar o livro ritual;
+- mapear melhor as runas espalhadas pela cidade;
+- descobrir como neutralizar/separar as runas das pessoas com segurança.
+
+### Estelar
+
+- estudar as peças e diagramas tamaraneanos recuperados;
+- compreender fluxo, isolamento e distribuição;
+- comparar B/C com a arquitetura original;
+- investigar a viabilidade do isolamento do ramo anterior ao enxerto.
+
+### Corvin
+
+- integrar a arquitetura profunda com o funcionamento do núcleo e do reset;
+- preparar forma de impedir o reinício normal da contenção quando a janela segura chegar;
+- Caminhos continua sendo a rota provável de fuga depois da intervenção.
+
+Essas são **frentes de trabalho**, não ordens irrevogáveis nem resultados garantidos.
+
+## Reset e resolução preparada
+
+- ciclo técnico: **120 dias**;
+- restam aproximadamente **90 dias** até a próxima janela de reset;
+- contenção, núcleo e rede humana estão conectados há cerca de 60 anos;
+- desligamento brusco continua capaz de causar refluxo/sobrecarga e ferir a população ligada às runas.
+
+A direção mais segura continua sendo:
+
+1. separar/neutralizar a ligação das runas com a população;
+2. interromper B/C de forma controlada, preferencialmente usando isolamento correto se confirmado;
+3. agir no núcleo durante a transição/reset;
+4. impedir a reinicialização normal;
+5. concentrar/destruir a energia restante dentro da própria contenção;
+6. escapar com Caminhos antes da destruição final.
+
+Nenhum desses passos foi executado ainda.
 
 ## Oposição existente
 
-Não criar nova facção estrutural.
+Não criar nova facção estrutural ou novo mistério principal.
 
-Continuam existindo apenas as oposições já estabelecidas quando legitimamente presentes:
+Continuam existindo apenas quando legitimamente presentes:
 
-- guardiões/armadilhas tamaraneanos reativados;
-- criaturas sobrenaturais que ficaram presas dentro da barreira ao longo das décadas;
-- funcionamento automático e riscos técnicos da própria instalação/rede.
+- guardiões e armadilhas tamaraneanos reativados;
+- criaturas sobrenaturais presas em Black Harbor ao longo das décadas;
+- riscos automáticos da instalação, da contenção e da rede;
+- problemas locais coerentes com a temporada.
 
 O mantenedor atual não é vilão nem cultista iniciado.
 
-## Direção imediata
+## Intenções futuras conhecidas, ainda não executadas
 
-Não existe uma tarefa urgente obrigatória para o próximo minuto de jogo.
+No fim do capítulo:
 
-Linhas disponíveis já conhecidas incluem:
+- Estelar demonstrou intenção de estudar o material tamaraneano recuperado antes de energizar qualquer peça;
+- Ravena pretende continuar o mapeamento e estudo das runas pela cidade;
+- Corvin ofereceu acompanhar Ravena nesse trabalho de campo;
+- Ravena aceitou a companhia;
+- os três falaram em voltar ao subterrâneo no dia seguinte, mas isso ainda não aconteceu.
 
-- continuar traduzindo o livro ritual;
-- mapear unidades funcionais de runas pela cidade;
-- estudar o controle dos três anéis sem alterá-lo prematuramente;
-- preparar o procedimento para a janela de reset;
-- viver a convivência cotidiana em Black Harbor durante o período restante.
+Essas intenções podem persistir se nenhuma cadeira decidir mudá-las, mas **não avançar automaticamente para amanhã sem processar qualquer iniciativa ou mudança relevante que ocorra antes**.
 
-Essas linhas são possibilidades conhecidas, não decisões automáticas de Corvin.
+## Primeira decisão humana aberta
+
+Corvin acabou de voltar para casa com Ravena e Estelar.
+
+A próxima decisão voluntária dele ainda não foi declarada.
