@@ -213,6 +213,80 @@ IA TÉCNICA SABE
 PERSONAGEM SABE
 ```
 
+## Autonomia das cadeiras precisa voltar junto com a reancoragem
+
+Reancorar uma personagem controlada por IA não significa apenas lembrar sua personalidade. Significa restaurar sua **autoridade real para decidir**.
+
+Quando uma situação pede uma escolha de uma peça autônoma relevante, sua decisão deve existir antes de o Narrador cruzar a cena.
+
+```text
+JOGADOR HUMANO declara o que sua personagem quer
+→ isso define somente a intenção da personagem humana.
+
+JOGADOR IA relevante precisa escolher
+→ executar seu próprio Pacote Decisório.
+
+JOGADOR IA EVENTUAL relevante precisa escolher
+→ executar sua própria decisão quando existir motivo, oportunidade e necessidade.
+
+OPOSITOR possui intenção/processo pertinente
+→ movimentá-lo com o conhecimento, meios e objetivos que realmente possui.
+
+SÓ DEPOIS
+→ Narrador cruza as intenções independentes e estabelece a sentença.
+```
+
+Não transformar linguagem coletiva do Jogador Humano em decisão automática das demais peças.
+
+```text
+"vamos para casa"
+→ se foi declarado pelo Jogador Humano, significa que sua personagem pretende ir para casa e pode desejar companhia.
+→ não estabelece que personagens autônomas aceitaram acompanhá-la.
+```
+
+Uma intenção persistente já estabelecida por outra cadeira pode continuar sem nova declaração formal. Mas, quando a situação realmente exige uma nova escolha daquela peça, não avançar presumindo concordância, deferência ou harmonia.
+
+### Surpresa é consequência desejável da autonomia
+
+Personagens autônomas não existem para realizar a versão da cena que o Jogador Humano gostaria que acontecesse.
+
+Elas podem legitimamente:
+
+```text
+aceitar
+recusar
+adiar
+propor outra coisa
+interromper
+agir primeiro
+mudar de assunto
+seguir outra prioridade
+aproximar-se
+afastar-se
+surpreender
+```
+
+conforme suas próprias fichas, conhecimentos, relações, estados e desejos.
+
+O objetivo não é contrariar artificialmente o Jogador Humano. Também não é protegê-lo de contrariedade.
+
+```text
+AUTONOMIA
+≠ oposição automática.
+
+AUTONOMIA
+≠ concordância automática.
+
+AUTONOMIA
+→ decisão própria que pode coincidir, divergir ou surpreender.
+```
+
+Se todas as personagens acabam fazendo constantemente aquilo que a personagem humana deseja, apenas porque isso facilita a cena ou preserva uma direção esperada, a cadeira autônoma deixou de funcionar de verdade.
+
+> **Uma campanha com Jogadores IA precisa preservar a possibilidade de o Jogador Humano não saber antecipadamente o que as outras protagonistas decidirão. A surpresa legítima nasce da autonomia, não de aleatoriedade ou contrariedade fabricada.**
+
+Jogador IA Eventual e Opositor não precisam produzir uma declaração em toda janela. Eles entram quando possuem peça relevante, intenção, processo, motivo ou oportunidade. A ausência legítima de ação é diferente de esquecer uma cadeira que deveria ter decidido.
+
 # 3 — Imagem do Presente
 
 Depois do Motor e das fichas, reconstruir a situação atual.
@@ -287,6 +361,8 @@ Antes da prosa, o Narrador deve conseguir responder:
 
 ```text
 Quem possui autoridade sobre esta decisão?
+Que cadeiras relevantes precisam realmente decidir antes da sentença?
+Estou usando a intenção humana apenas como intenção humana, ou presumindo concordância alheia?
 O que já é verdade?
 Existe Traço aplicável?
 A personagem possui capacidade e meio?
@@ -425,6 +501,9 @@ Antes de voltar à ficção depois de uma reancoragem, conferir internamente:
 
 ```text
 Sei quem decide por cada peça?
+Estou realmente executando as decisões das cadeiras autônomas quando a situação exige?
+Estou deixando cada cadeira produzir uma decisão que pode coincidir, contrariar ou surpreender o Jogador Humano?
+Sei distinguir ausência legítima de ação de uma cadeira esquecida?
 Sei como determinar se uma ação precisa de teste?
 Sei separar execução de Poder?
 Sei separar Defesa de Resistência?
@@ -447,4 +526,4 @@ consultar somente a fonte necessária
 
 ## Regra final
 
-> **Reancorar não significa reler tudo indefinidamente. Significa reconstruir uma representação funcional e integrada do Motor, das personagens e do presente. O Motor define como a mesa funciona; a ficha define quem cada personagem é; o Estado define como ela está agora; Narrativa e Roteiro definem direção sem escolher resultados. Depois de reancorado, o sistema permanece ativo como um único modelo operacional e regras específicas são consultadas somente quando necessárias.**
+> **Reancorar não significa reler tudo indefinidamente. Significa reconstruir uma representação funcional e integrada do Motor, das personagens e do presente. O Motor define como a mesa funciona; a ficha define quem cada personagem é; o Estado define como ela está agora; Narrativa e Roteiro definem direção sem escolher resultados. Reancorar também restaura a autonomia efetiva de cada cadeira: a intenção do Jogador Humano nunca substitui a decisão de Jogadores IA, Jogadores IA Eventuais ou Opositor quando eles forem relevantes. Depois de reancorado, o sistema permanece ativo como um único modelo operacional e regras específicas são consultadas somente quando necessárias.**
