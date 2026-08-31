@@ -7,8 +7,8 @@ EPÍLOGO MAIS RECENTE: `livro/temporada-1/epilogo.md`
 RESUMO ANTERIOR: `livro/temporada-1/resumo-da-temporada.md`
 MAPA DE EVENTOS: `livro/temporada-1/mapa-de-eventos.md`
 
-MOMENTO: **noite após a libertação de Black Harbor**.
-LOCAL: **Ridge Road, 18**.
+MOMENTO: **instantes após o colapso da instalação profunda**.
+LOCAL: **jardim de Ridge Road, 18, junto à árvore**.
 
 ## Presentes
 
@@ -18,43 +18,60 @@ LOCAL: **Ridge Road, 18**.
 
 ## Ponto exato deixado pela ficção
 
-Black Harbor deixou de ser uma prisão.
+A instalação profunda e o núcleo foram destruídos e sepultados em rocha fundida depois que Corvin executou a contingência geológica.
 
-A barreira territorial não redireciona mais quem tenta sair. A rede de influência não permanece ligada à população. A instalação profunda e o núcleo foram destruídos e sepultados depois que Corvin executou a contingência geológica.
+A rede de influência foi separada da população e B/C deixaram de sustentar o aprisionamento. A fonte da prisão de Black Harbor foi destruída.
 
-A libertação foi confirmada por estrada, barco, voo, Passagem Sombria e Caminhos.
+Corvin conseguiu atravessar um Caminho no instante em que o núcleo rachou. A onda de pressão o lançou para o jardim de Ridge Road, 18.
 
-Depois da operação, os três voltaram a Ridge Road, 18. Naquela noite permaneceram juntos por escolha própria e voltaram a dormir na mesma cama.
+Ele está **no chão**, ferido mas vivo, perto da árvore. A Dádiva da Terra começou a agir sobre os ferimentos.
 
-Nenhuma nova cena deve ser aberta enquanto a Temporada 2 não tiver sido criada conforme `regras-basicas/CRIACAO-DE-TEMPORADA.md`.
+Kori está ao lado dele. Ravena está ajoelhada do outro lado.
+
+Pouco antes de escapar, Corvin tentou mentir para tranquilizar as duas. A Natureza Não Mente o impediu e ele acabou declarando que ama Ravena e Estelar.
+
+As duas ouviram.
+
+**Nenhuma resposta formal foi estabelecida.**
+
+A última fala estabelecida de Corvin foi:
+
+[Corvin] — Excelente lugar para mim neste momento.
+
+A cena termina com ele ainda no chão entre as duas.
+
+Nenhuma confirmação prática pós-colapso da antiga fronteira foi executada em cena. Estrada, barco, voo, Passagem Sombria e Caminhos externo ainda podem ser testados depois deste ponto.
+
+Nenhuma cena noturna, retorno ao quarto, decisão sobre Ridge Road ou escolha de continuar morando juntos aconteceu depois do colapso.
 
 ## Corvin
 
 - vivo;
-- sofreu ferimentos físicos durante o colapso e iniciou recuperação com a Dádiva da Terra;
-- a cena não definiu retroativamente marcas mecânicas específicas de Vida ou gasto exato de Mana; não inventar esses valores no registro;
+- ferido durante o colapso e iniciando recuperação com a Dádiva da Terra;
+- ainda no chão do jardim;
+- a cena não definiu retroativamente marcas mecânicas específicas de Vida ou gasto exato de Mana; não inventar esses valores;
 - o Plano C ligado à árvore não precisou ser testado;
-- Caminhos voltou a alcançar normalmente locais externos conhecidos, incluindo o Refúgio Ártico;
-- durante a tentativa de saída, Corvin tentou mentir para tranquilizar Ravena e Estelar; A Natureza Não Mente transformou a tentativa em verdade direta e ele declarou que ama as duas.
+- o funcionamento externo de Caminhos depois da destruição ainda não foi testado em cena;
+- declarou que ama Ravena e Estelar ao tentar mentir para tranquilizá-las.
 
 ## Ravena
 
 - viva;
 - concluiu a neutralização/separação ritual da população sem refluxo estabelecido;
-- livre da função ritual ao fim da operação;
-- ouviu a declaração de amor de Corvin;
-- nenhuma resposta formal à declaração foi estabelecida antes do encerramento;
-- permaneceu em Ridge Road, 18, naquela noite por escolha própria.
+- livre da função ritual;
+- ajoelhada ao lado de Corvin no jardim;
+- ouviu a declaração de amor;
+- nenhuma resposta formal ainda foi estabelecida.
 
 ## Estelar
 
 - viva;
 - concluiu o isolamento técnico de B e C;
-- livre da interface ao fim da operação;
-- confirmou em voo que a antiga fronteira pode ser atravessada normalmente;
-- ouviu a declaração de amor de Corvin;
-- nenhuma resposta formal à declaração foi estabelecida antes do encerramento;
-- permaneceu em Ridge Road, 18, naquela noite por escolha própria.
+- livre da interface;
+- ao lado de Corvin no jardim;
+- ouviu a declaração de amor;
+- nenhuma resposta formal ainda foi estabelecida;
+- ainda não testou em cena a antiga fronteira em voo depois da destruição.
 
 ## Relações no encerramento
 
@@ -68,11 +85,11 @@ RAVENA ↔ ESTELAR
 
 ### Corvin ↔ Ravena
 
-Vínculo romântico e íntimo forte, com desejo, confiança, beijos, encontros privados e intimidade emocional já escolhidos em cena. A declaração de amor de Corvin foi ouvida por Ravena; a resposta dela ainda não foi estabelecida.
+Vínculo romântico e íntimo forte, com desejo, confiança, beijos, encontros privados e intimidade emocional já escolhidos em cena. A declaração de amor de Corvin foi ouvida por Ravena; a resposta dela permanece aberta.
 
 ### Corvin ↔ Estelar
 
-Vínculo romântico e íntimo forte, com atração aberta, beijos, intimidade física não gráfica, encontros privados e confiança crescente. A declaração de amor de Corvin foi ouvida por Estelar; a resposta dela ainda não foi estabelecida.
+Vínculo romântico e íntimo forte, com atração aberta, beijos, intimidade física não gráfica, encontros privados e confiança crescente. A declaração de amor de Corvin foi ouvida por Estelar; a resposta dela permanece aberta.
 
 ### Ravena ↔ Estelar
 
@@ -80,26 +97,33 @@ Amizade profunda, confiança e intimidade de convivência. Nenhum romance formal
 
 ### Convivência compartilhada
 
-Ridge Road, 18 deixou de ser apenas cobertura. Depois que Black Harbor foi libertada, os três ainda escolheram permanecer juntos na casa naquela noite. Isso demonstra escolha livre de convivência naquele momento, mas não cria automaticamente casamento, relação a três formal ou compromisso futuro.
+Ridge Road, 18 foi casa e cobertura durante a Temporada 1. O que ela será depois da libertação ainda não foi decidido em cena.
+
+Não registrar que os três escolheram permanecer juntos naquela noite, voltaram ao quarto ou dormiram juntos depois da libertação: isso não aconteceu antes do corte da temporada.
 
 ## Situação de Black Harbor
 
-- barreira territorial: encerrada;
-- influência sobre a população: encerrada;
+- rede de influência sobre a população: encerrada;
 - A/B/C como sistema funcional de aprisionamento: encerrado;
 - núcleo/instalação profunda: destruídos e sepultados;
-- população: livre para entrar e sair;
-- Ridge Road, 18: ainda existe e permanece acessível ao trio;
-- Refúgio Ártico: novamente acessível por Caminhos.
+- fonte da contenção territorial: destruída;
+- cidade: permaneceu de pé;
+- confirmação prática da antiga fronteira após a destruição: ainda não realizada em cena;
+- Ridge Road, 18: continua existindo;
+- Refúgio Ártico: não foi retestado por Caminhos depois do colapso.
 
 ## Pendências que não são próxima temporada automática
 
-- Corvin projetou no passado possíveis chaves/aneis de retorno para Ravena e Estelar; continuam apenas como projeto ainda não fabricado;
-- Ravena e Estelar querem conhecer o Refúgio Ártico, mas a viagem ainda não aconteceu;
-- Ravena e Estelar ainda não responderam formalmente à declaração de amor de Corvin;
-- a destruição automática do núcleo transmitiu o sinal tamaraneano já previsto no roteiro encerrado; os protagonistas não sabem quem o recebeu nem se terá consequência.
+- resposta de Ravena à declaração de Corvin;
+- resposta de Estelar à declaração de Corvin;
+- reação imediata das duas enquanto Corvin ainda está no chão;
+- confirmação prática de que estrada, barco, voo, Passagem Sombria e Caminhos atravessam o antigo limite;
+- decisão sobre permanecer ou não em Ridge Road, 18;
+- visita ao Refúgio Ártico;
+- projeto antigo de chaves/anéis de retorno ainda não fabricado;
+- sinal tamaraneano automático transmitido na destruição do núcleo, sem destinatário conhecido pelos protagonistas.
 
-Problemas ou possibilidades abertas permanecem verdadeiros, mas **não definem a Temporada 2**.
+Problemas e possibilidades abertas permanecem verdadeiros, mas **não definem automaticamente a Temporada 2**.
 
 ## Referência histórica da Temporada 1
 
@@ -114,13 +138,13 @@ Resumo e mapa são derivados e nunca substituem ficha, Estado ou capítulo quand
 
 ## Próxima operação
 
-Não continuar a ficção diretamente deste arquivo.
+Não continuar a ficção diretamente deste arquivo antes de criar a Temporada 2.
 
 Primeiro:
 
 1. obter a Direção do Jogador para a Temporada 2;
-2. seguir `regras-basicas/CRIACAO-DE-TEMPORADA.md` e `regras-basicas/registro/arquivo-de-temporada.md`;
+2. seguir `regras-basicas/CRIACAO-DE-TEMPORADA.md`;
 3. consolidar qualquer mudança permanente de ficha somente com aprovação do Jogador Humano;
 4. criar o novo `mestre/roteiro.md`;
-5. atualizar este Estado para a situação inicial escolhida da nova temporada;
+5. preservar como situação inicial, se desejado, este exato instante com Corvin ainda no chão;
 6. reancorar antes de START.
