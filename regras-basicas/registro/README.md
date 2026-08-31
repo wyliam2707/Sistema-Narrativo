@@ -68,7 +68,10 @@ registro/
 ├── salvar-a-historia.md
 ├── fechar-capitulo.md
 ├── estado-atual.md
-└── livro-e-capitulos.md
+├── livro-e-capitulos.md
+├── arquivo-de-temporada.md
+├── canonizacao-e-correcoes.md
+└── reancoragem-operacional.md
 ```
 
 ### `fontes-da-campanha.md`
@@ -103,6 +106,20 @@ Define a fotografia operacional necessária para retomar a campanha exatamente d
 
 Define o histórico canônico do que realmente aconteceu.
 
+### `arquivo-de-temporada.md`
+
+Define como uma temporada encerrada vira uma unidade histórica em:
+
+```text
+livro/temporada-[N]/
+```
+
+A pasta reúne capítulos, epílogo, `resumo-da-temporada.md` e `mapa-de-eventos.md`.
+
+Capítulos e epílogo preservam o cânone detalhado. Resumo e mapa são derivados de consulta e reancoragem e nunca substituem Ficha, Estado, Narrativa, Roteiro ou capítulo quando houver divergência.
+
+`arquivo-de-temporada.md` é a regra específica para a localização e organização de temporadas encerradas e, nesse escopo, prevalece sobre exemplos antigos que mantenham epílogos ou capítulos encerrados soltos na raiz de `livro/`.
+
 ## Estrutura recomendada de uma campanha
 
 ```text
@@ -118,6 +135,10 @@ campanhas/<nome>/
 │   └── temporadas/
 ├── opositor/
 └── livro/
+    ├── README.md
+    ├── temporada-1/
+    ├── temporada-2/
+    └── ...
 ```
 
 Função de cada área:
@@ -148,7 +169,7 @@ OPOSITOR
 → planos, processos e informações do outro lado da trama.
 
 LIVRO
-→ o que efetivamente aconteceu, incluindo epílogos de temporada.
+→ o que efetivamente aconteceu, organizado por temporada quando os arcos forem encerrados.
 ```
 
 ## Narrativa e roteiro
@@ -186,7 +207,7 @@ condição de encerramento
 
 O roteiro não é histórico nem Estado Atual. Ele não registra cada cena e não determina resultados.
 
-Quando sua condição de encerramento é alcançada, ele deixa de dirigir a campanha atual, é arquivado em `mestre/temporadas/`, e o Narrador escreve o epílogo antes de perguntar **“E agora?”**.
+Quando sua condição de encerramento é alcançada, ele deixa de dirigir a campanha atual, é arquivado em `mestre/temporadas/`, e o Narrador conclui o procedimento de arquivo da temporada antes de perguntar **“E agora?”**.
 
 Uma miniquest pode terminar, surgir outra e o Estado pode mudar sem que a Narrativa da Campanha seja reescrita.
 
@@ -297,17 +318,32 @@ Quando a condição de encerramento do roteiro for alcançada:
 
 ```text
 → parar no resultado real
-→ escrever epílogo
+→ fechar o último capítulo real
+→ escrever o epílogo
 → consolidar fichas e Estado
 → arquivar o roteiro encerrado
+→ agrupar capítulos em livro/temporada-[N]/
+→ criar/atualizar README da temporada
+→ criar resumo-da-temporada.md
+→ criar mapa-de-eventos.md
+→ atualizar referências para os novos caminhos
+→ reancorar
 → perguntar “E agora?”
 ```
+
+O procedimento detalhado está em `arquivo-de-temporada.md`.
 
 O epílogo responde as perguntas relevantes para aquele tipo de campanha e registra apenas o que realmente ficou estabelecido.
 
 ```text
 EPÍLOGO
 → resultado real da temporada.
+
+RESUMO DA TEMPORADA
+→ condensação derivada para reancoragem.
+
+MAPA DE EVENTOS
+→ índice cronológico e causal derivado.
 
 PROBLEMAS ABERTOS
 → continuam verdadeiros.
@@ -318,6 +354,24 @@ próxima temporada obrigatória.
 ```
 
 A próxima temporada só nasce depois da nova direção fornecida pelo usuário, conforme `../CRIACAO-DE-TEMPORADA.md`.
+
+## Uso do arquivo anterior na temporada seguinte
+
+Ao preparar uma temporada posterior, usar normalmente:
+
+```text
+mestre/narrativa.md
++ resposta a “E agora?”
++ resumo-da-temporada da temporada anterior
++ epílogo da temporada anterior
++ fichas consolidadas
++ Estado consolidado
++ processos/problemas ainda vivos pertinentes
+```
+
+Consultar `mapa-de-eventos.md` quando a cronologia ou origem de conhecimento importar e abrir capítulos completos somente quando o detalhe canônico for necessário.
+
+Isso reduz o carregamento sem transformar resumo ou mapa em novas fontes de verdade.
 
 ## Duplicação legítima
 
@@ -342,6 +396,8 @@ ESTADO ATUAL
 ```
 
 Isso não é duplicação ruim porque cada fonte responde a uma pergunta diferente.
+
+O mesmo vale para resumo e mapa, desde que sejam tratados explicitamente como derivados e não como autoridade concorrente.
 
 ## Salvar não joga
 
@@ -380,7 +436,7 @@ Isso inclui:
 - Estado Atual;
 - Vida, Mente, Mana e condições atuais;
 - acontecimentos;
-- capítulos e epílogos;
+- capítulos, epílogos, resumos e mapas de temporadas;
 - mundo;
 - processos;
 - prazos;
@@ -392,4 +448,4 @@ Recursos permanentes pertencem à ficha; recursos temporários podem pertencer a
 
 ## Regra final
 
-> **Registro é a memória canônica da campanha. A Narrativa preserva a identidade persistente; o Roteiro preserva a temporada ativa; a ficha preserva a interpretação da personagem; o Livro preserva o passado; o Estado preserva o presente. `Fechar o capítulo` acrescenta um reset operacional entre capítulos para reancorar regras e fontes antes de continuar. Quando a temporada termina, o epílogo consolida o resultado e a próxima só nasce depois de “E agora?”.**
+> **Registro é a memória canônica da campanha. A Narrativa preserva a identidade persistente; o Roteiro preserva a temporada ativa; a ficha preserva a interpretação da personagem; o Livro preserva o passado; o Estado preserva o presente. Temporadas encerradas são agrupadas conforme `arquivo-de-temporada.md`: capítulos e epílogo preservam o cânone, enquanto resumo e mapa facilitam reancoragem sem competir com as fontes principais. `Fechar o capítulo` acrescenta um reset operacional entre capítulos; `fechar temporada` consolida também sua unidade histórica antes de perguntar “E agora?”.**
