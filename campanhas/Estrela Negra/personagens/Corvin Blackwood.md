@@ -65,11 +65,13 @@ Pontos de Poder: [12] / [12]
 
 ## Recursos
 
---- Refúgio Ártico: grande caverna em uma montanha isolada do Ártico, transformada por Corvin ao longo dos últimos 30 anos em base, oficina e residência. Possui forja, laboratório de alquimia, biblioteca, energia, internet e infraestrutura mundana, além de estruturas, itens e proteções mágicas criadas ao longo de anos.
+--- Refúgio Ártico: grande caverna em uma montanha isolada do Ártico, encontrada por Corvin ao atravessar a própria montanha usando uma dádiva de escavação e transformada ao longo de décadas em residência, oficina e arquivo. Possui entrada física por um labirinto de canais/túneis, embora Corvin normalmente use Caminhos. A casa tem quatro grandes áreas: (1) forja, alquimia e materiais, com exaustão, energia, internet e refrigeração; (2) biblioteca/arquivo com livros, registros, objetos, sofás, pufes, runas e esculturas; (3) cozinha simples e, ao fundo, um ninho de cerca de 3 m feito de materiais macios e aromáticos, peles e cobertores; (4) câmara termal inferior com fonte quente, piscina de pedra de cerca de 4 m de diâmetro e até 1,3 m de profundidade, além de banheira menor alimentada pela mesma água. As runas de iluminação mudam de cor conforme o horário.
 
---- Reservas e patrimônio: Corvin acumulou pedras, metais, ouro e outros materiais em quantidade suficiente para ser considerado rico, mantendo grande parte dessas reservas em seu Refúgio Ártico para uso em criação, pesquisa e manutenção da base.
+--- Reservas e patrimônio: Corvin acumulou pedras, metais, ouro e outros materiais em quantidade suficiente para ser considerado rico, mantendo grande parte dessas reservas no Refúgio Ártico para uso em criação, pesquisa e manutenção da casa.
 
 --- Equipamento de campo: Corvin normalmente veste roupas casuais e carrega uma mochila com ferramentas e materiais pequenos para trabalhos rápidos de Forja e Alquimia, além de uma muda de roupa e itens pessoais básicos.
+
+--- Projetos de retorno de Ravena e Estelar: Corvin criou dois conjuntos de anel/âncora, um lunar para Ravena e outro solar para Estelar. Cada anel abre, a partir de qualquer lugar e após cerca de um minuto de concentração, uma passagem física para exatamente duas âncoras: a oficina de Corvin e a caixa correspondente guardada no quarto da usuária na Torre. Corvin entregou os projetos completos desses anéis a Victor Stone como presente.
 
 ## Personalidade e tendências
 
@@ -77,7 +79,7 @@ Pontos de Poder: [12] / [12]
 
 --- Pode ser tão calmo quanto o sol no fim da tarde e tão devastador quanto uma erupção vulcânica quando levado ao limite.
 
---- Corvin possui um comportamento nômade e recluso. Sente-se confortável sozinho, não cria vínculos duradouros com facilidade e costuma seguir adiante quando sente que seu tempo em um lugar terminou. A Temporada 1 rompeu esse padrão pela primeira vez em décadas: Ravena e Estelar tornaram-se vínculos que ele deseja levar consigo para além do lugar onde os conheceu.
+--- Corvin possui um comportamento nômade e recluso. Sente-se confortável sozinho, não cria vínculos duradouros com facilidade e costuma seguir adiante quando sente que seu tempo em um lugar terminou. Ravena e Estelar romperam esse padrão pela primeira vez em décadas e se tornaram pessoas que ele deseja incluir na própria ideia de casa sem abandonar sua natureza viajante.
 
 --- É fortemente guiado por instintos, curiosidade e afinidade. Quando alguém desperta seu interesse ou atração, Corvin tem dificuldade em esconder completamente o que sente; sua atenção, proximidade e comportamento tendem a denunciá-lo.
 
@@ -85,7 +87,11 @@ Pontos de Poder: [12] / [12]
 
 --- Corvin segue o fluxo: explora, ajuda quem encontra e então continua seu caminho. Seus objetivos mudam conforme as pessoas, lugares e mistérios que encontra.
 
---- No fundo, sempre desejou criar raízes e ter um lugar ao qual pertencer. Durante a Temporada 1 passou a formular isso de outra maneira: não precisa deixar de viajar; para ele, casa é o lugar ao qual escolhe voltar, e Ravena e Estelar tornaram-se pessoas que ele deseja incluir nessa ideia de retorno sem exigir que abandonem as próprias vidas.
+--- No fundo, sempre desejou criar raízes e ter um lugar ao qual pertencer. Para ele, casa não exige abandonar a viagem: é o lugar e as pessoas para os quais escolhe voltar.
+
+--- Depois da libertação de Black Harbor, Corvin passou a construir conscientemente uma vida em que Ravena e Estelar possam fazer parte de sua casa sem serem afastadas dos Titãs. Declarou que prefere uma família maior a uma fronteira entre “a vida delas” e “a vida com ele”.
+
+--- Corvin ofereceu liberdade para Ravena e Estelar participarem da transformação do Refúgio e quer que a casa passe a ter “cara de nossa em vez de minha”. O solário de Kori e as mudanças desejadas por Ravena ainda são projetos futuros, não obras concluídas.
 
 ## Medos / limites
 
@@ -97,13 +103,17 @@ Pontos de Poder: [12] / [12]
 
 --- Corvin não mantém uma rotina rígida; muda de interesse como uma estação. Pode passar longos períodos tranquilo em uma biblioteca, oficina ou laboratório e, pouco depois, abandonar tudo para explorar uma ruína, seguir uma pista ou descobrir algo novo.
 
+--- Quando entra profundamente em um projeto de Forja, pode perder a noção do tempo e do mundo ao redor. Durante a criação dos anéis de Ravena e Estelar, passou dois dias tão concentrado que esqueceu de responder às duas até terminar o trabalho.
+
 ## Relações
 
 ### Relações positivas
 
---- Ravena / Elara Voss: um dos vínculos mais importantes da vida de Corvin. Ele conhece sua natureza parcialmente abissal, seus medos ligados a Trigon e à perda de controle e a trata como a mesma pessoa depois dessas revelações. Entre os dois existem confiança, desejo, beijos, encontros privados e forte intimidade emocional escolhida em cena.
+--- Ravena / Elara Voss: um dos vínculos mais importantes da vida de Corvin. Ele conhece sua natureza parcialmente abissal, seus medos ligados a Trigon e à perda de controle e a trata como a mesma pessoa depois dessas revelações. Entre os dois existem confiança, desejo, beijos, encontros privados e forte intimidade emocional escolhida em cena. Corvin declarou que a ama e, já livre de Black Harbor, Ravena respondeu formalmente que também o ama.
 
---- Estelar / Kori: um dos vínculos mais importantes da vida de Corvin. Ele conhece sua origem tamaraneana, sua condição de princesa e a importância que liberdade de escolha possui para ela. Entre os dois existem forte atração, beijos, intimidade física e emocional, encontros privados e confiança crescente.
+--- Estelar / Kori: um dos vínculos mais importantes da vida de Corvin. Ele conhece sua origem tamaraneana, sua condição de princesa e a importância que liberdade de escolha possui para ela. Entre os dois existem forte atração, beijos, intimidade física e emocional, encontros privados e confiança crescente. Corvin declarou que a ama e, já livre de Black Harbor, Estelar respondeu formalmente que também o ama.
+
+--- Titãs: Corvin conheceu Dick Grayson, Mutano e Ciborgue depois da libertação de Black Harbor e os recebeu no Refúgio. Considera importante que a família escolhida de Ravena e Estelar não seja transformada em rival da família que está construindo com as duas. O vínculo com os Titãs ainda é novo e individual, não equivalendo a ingresso na equipe.
 
 ### Relações negativas
 
@@ -115,9 +125,11 @@ Pontos de Poder: [12] / [12]
 
 --- Se desejar duas pessoas, não promete abandonar uma para manter a outra. Para Corvin, um relacionamento múltiplo só é válido quando todos sabem no que estão entrando e podem aceitar ou rejeitar isso livremente.
 
---- Corvin declarou amar Ravena e Estelar no encerramento da Temporada 1. As duas ouviram; nenhuma resposta formal delas foi estabelecida antes do corte da temporada. Isso não formaliza automaticamente uma relação a três.
+--- Corvin ama Ravena e Estelar e recebeu das duas declarações formais de amor já fora da prisão de Black Harbor. Isso confirma os dois vínculos românticos por escolha livre, mas não define automaticamente um rótulo final para a estrutura compartilhada dos três.
 
---- Corvin ↔ Ravena e Corvin ↔ Estelar são vínculos românticos distintos e já desenvolvidos. Ravena ↔ Estelar continua sendo um vínculo próprio entre elas e não é definido pela relação de Corvin com cada uma.
+--- Corvin ↔ Ravena e Corvin ↔ Estelar são vínculos românticos distintos. Ravena ↔ Estelar continua sendo um vínculo próprio de amizade/família profunda e não é definido pela relação de Corvin com cada uma.
+
+--- Os três já começaram a se reconhecer como uma mesma família e a integrar Torre e Refúgio sem exigir que uma casa substitua a outra. A definição final da estrutura compartilhada ainda permanece aberta em cena.
 
 --- A atração intensa de Corvin é rara. Seus instintos tendem a despertar diante de mulheres cuja presença, natureza, força ou singularidade lhe pareçam excepcionais, sem que isso represente desprezo ou julgamento de valor sobre outras mulheres.
 
@@ -135,11 +147,11 @@ Pontos de Poder: [12] / [12]
 
 --- Caminhos do mundo: acumulou conhecimento sobre lugares remotos, rotas esquecidas, refúgios, passagens e pontos seguros durante décadas de viagem, sem conhecer todos os lugares ou fenômenos existentes.
 
---- Ravena / Elara: sabe que ela é filha humana de Trigon, possui natureza parcialmente abissal, teme perder o controle e machucar quem ama e valoriza profundamente autonomia e a possibilidade de ser conhecida sem ser rejeitada por sua origem.
+--- Ravena / Elara: sabe que ela é filha humana de Trigon, possui natureza parcialmente abissal, teme perder o controle e machucar quem ama e valoriza profundamente autonomia e a possibilidade de ser conhecida sem ser rejeitada por sua origem. Sabe também que Ravena considera os Titãs sua família e quer participar da transformação da biblioteca do Refúgio.
 
---- Estelar / Kori: sabe que ela é princesa de Tamaran, fugiu de um futuro político imposto, aceita culturalmente relações múltiplas quando escolhidas e considera perda de escolha — não pluralidade — o problema central do casamento do qual fugiu.
+--- Estelar / Kori: sabe que ela é princesa de Tamaran, fugiu de um futuro político imposto, aceita culturalmente relações múltiplas quando escolhidas e considera perda de escolha — não pluralidade — o problema central do casamento do qual fugiu. Sabe que Kori quer um solário com luz, plantas e possibilidade futura de espécies de Tamaran.
 
---- Titãs: sabe que Ravena e Estelar consideram os Titãs família escolhida e que essa vida continua importante para ambas; ainda não possui automaticamente conhecimento pessoal sobre cada integrante além do que elas lhe contaram.
+--- Titãs: sabe diretamente que Dick Grayson é humano altamente treinado, Victor Stone é humano profundamente integrado à tecnologia e Garfield Logan possui natureza metamórfica tão ampla que Corvin a descreveu poeticamente como um “Avatar da Vida”. Conheceu os três pessoalmente e os recebeu no Refúgio.
 
 ## História consolidada relevante
 
@@ -151,10 +163,12 @@ Pontos de Poder: [12] / [12]
 
 --- Seus pais adotivos morreram quando Corvin tinha 14 anos. Ele os enterrou na mesma floresta onde haviam encontrado Corvin, esperou por uma semana mesmo sabendo que eles não retornariam como ele retornava, e então deixou a cidade.
 
---- Depois disso, Corvin passou a viajar pelo mundo, muitas vezes mudando de lugar diariamente. Em algum momento escolheu uma caverna como ponto para o qual podia retornar entre viagens; a ideia de lar como um lugar escolhido para voltar permaneceu central e mais tarde encontrou sua forma mais completa no Refúgio Ártico.
+--- Depois disso, Corvin passou a viajar pelo mundo, muitas vezes mudando de lugar diariamente. Em algum momento encontrou a caverna que se tornaria o Refúgio Ártico enquanto atravessava/nadava pela própria montanha. A ideia de lar como um lugar escolhido para voltar permaneceu central.
 
---- Ao longo das décadas, continuou explorando, desenvolvendo seus poderes, investigando o oculto e ajudando pessoas que encontrava pelo caminho.
+--- Ao longo das décadas, continuou explorando, desenvolvendo seus poderes, investigando o oculto e ajudando pessoas que encontrava pelo caminho. O Refúgio cresceu sem projeto residencial único: primeiro depósito, depois forja/laboratório, biblioteca/arquivo, ninho, cozinha, banheiro e piscina termal.
 
 --- Em Black Harbor, Corvin conheceu Ravena e Estelar, viveu com as duas em Ridge Road, 18, ajudou a separar a população da rede de influência e destruiu a instalação profunda usando uma contingência geológica depois que o núcleo resistiu à sobrecarga planejada.
 
---- No encerramento da Temporada 1, Corvin escapou ferido pelo Caminho e caiu no jardim de Ridge Road. Pouco antes, ao tentar mentir para tranquilizar Ravena e Estelar, A Natureza Não Mente o levou a declarar que ama as duas. A Temporada 2 começa antes de qualquer resposta formal delas.
+--- No encerramento da Temporada 1, Corvin escapou ferido pelo Caminho e caiu no jardim de Ridge Road. Pouco antes, ao tentar mentir para tranquilizar Ravena e Estelar, A Natureza Não Mente o levou a declarar que ama as duas.
+
+--- No início da Temporada 2, Ravena e Estelar responderam que também o amam. Corvin conheceu os Titãs, passou dois dias sozinho criando os anéis de retorno, recebeu Dick, Mutano e Ciborgue no Refúgio e começou a transformar a montanha de uma casa construída para um homem só em uma casa que Ravena e Estelar também possam moldar.
