@@ -1,31 +1,45 @@
 # Estrela Negra
 
-STATUS: PRONTO PARA JOGAR
-Temporada atual: 1
+STATUS: TEMPORADA 1 ENCERRADA / AGUARDANDO TEMPORADA 2
+Temporada ativa: nenhuma
+Última temporada encerrada: 1
+Último capítulo fechado: `livro/020.md`
+Epílogo: `livro/temporada-1-epilogo.md`
 
 ## Identidade
 
-A narrativa da campanha está em `mestre/narrativa.md`.
-O roteiro da primeira temporada está em `mestre/roteiro.md`.
-O ponto exato de início / retomada está em `estado/atual.md`.
+A narrativa persistente da campanha está em `mestre/narrativa.md`.
 
-## Elenco protagonista inicial
+O roteiro encerrado da primeira temporada está em:
 
-- `personagens/Corvin Blackwood.md` — protagonista controlado pelo jogador.
+`mestre/temporadas/temporada-1.md`
+
+`mestre/roteiro.md` permanece sem temporada ativa até a nova Direção do Jogador ser convertida em roteiro conforme `regras-basicas/CRIACAO-DE-TEMPORADA.md`.
+
+O ponto operacional mais recente está em `estado/atual.md`.
+
+## Elenco protagonista
+
+- `personagens/Corvin Blackwood.md` — protagonista controlado pelo Jogador Humano.
 - `personagens/Ravena.md` — protagonista controlada pela IA.
 - `personagens/Estelar.md` — protagonista controlada pela IA.
 
-A primeira temporada usa somente esses três como núcleo protagonista presente.
+As fichas permanecem persistentes entre temporadas. Mudanças permanentes ainda não consolidadas nelas devem seguir a regra de canonização e aprovação do Jogador Humano.
 
-## Retomada em nova conversa
+## Encerramento da Temporada 1
 
-Ao iniciar uma nova sessão, a IA deve ler primeiro:
+Black Harbor foi libertada.
 
-1. `estado/atual.md`
-2. `mestre/narrativa.md`
-3. `mestre/roteiro.md`
-4. as fichas de Corvin Blackwood, Ravena e Estelar
+A rede de influência foi separada da população, B e C foram isolados, e a instalação profunda foi destruída depois que o núcleo resistiu à sobrecarga inicial e Corvin executou a contingência geológica.
 
-Depois deve começar exatamente no ponto indicado em `estado/atual.md`, sem depender de memória de conversas anteriores.
+O final completo está em `livro/020.md`.
 
-O início absoluto é Corvin chegando à região um dia antes de Ravena e Estelar, após perceber energia estranha e luzes de uma cidade que não constava nas informações que tinha sobre a área.
+A fotografia do resultado está em `livro/temporada-1-epilogo.md` e `estado/atual.md`.
+
+## Próxima etapa
+
+Não iniciar automaticamente a Temporada 2 a partir de um gancho aberto.
+
+Primeiro obter a nova **Direção do Jogador** e seguir a criação de temporada.
+
+Depois de o roteiro da Temporada 2 estar pronto e as fontes necessárias consolidadas, reancorar o sistema e somente então iniciar a nova ficção.
