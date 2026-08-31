@@ -87,6 +87,9 @@ Combate, investigação, percepção, furtividade, influência, perseguição, r
 1.0-tribunal.md
 → procedimento geral da mesa e interação entre as cadeiras.
 
+1.0.1-auditoria-das-cadeiras.md
+→ exige que a intenção concreta de cada cadeira principal relevante fique visível antes da sentença; “intenção processada” ou descrição retrospectiva não bastam.
+
 1.1-narrador.md
 → juiz da mesa: julga, resolve, narra e registra.
 
@@ -240,6 +243,8 @@ ROLAGENS
 EXECUÇÃO TÉCNICA
 → uma única IA pode executar várias cadeiras.
 → cada cadeira continua usando somente seu próprio escopo decisório.
+→ pacote decisório e raciocínio interno podem permanecer ocultos.
+→ a intenção concreta de cada Jogador IA principal relevante deve aparecer na auditoria antes da sentença.
 
 REGISTRO
 → preserva o que passou a ser verdade.
@@ -247,7 +252,7 @@ REGISTRO
 
 A ordem usada pela IA para executar internamente as cadeiras não determina ordem ficcional, iniciativa ou prioridade.
 
-As declarações operacionais das cadeiras da IA podem permanecer internas durante o jogo normal; o usuário recebe principalmente a sentença narrada e o próximo ponto em que sua própria decisão é necessária.
+Os pacotes decisórios, trocas internas de escopo e cadeias de raciocínio da IA podem permanecer internos. **As intenções operacionais das cadeiras principais não podem permanecer ocultas:** devem aparecer em `[AUDITORIA — INTENÇÕES]` antes do Narrador cruzá-las e estabelecer a sentença, conforme `1.0.1-auditoria-das-cadeiras.md`. Uma descrição posterior do que a personagem fez não substitui essa auditoria.
 
 A criação emergente não autoriza o Narrador a alterar retroativamente uma situação em resposta à ação declarada. Fatos neutros podem completar o mundo ainda indefinido; fatos consequenciais precisam de fundamento legítimo conforme `1.7-criacao-emergente.md`.
 
