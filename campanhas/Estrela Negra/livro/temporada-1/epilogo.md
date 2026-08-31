@@ -2,17 +2,17 @@
 
 Black Harbor deixou de ser uma prisão.
 
-A rede de influência foi neutralizada sem devolver sua carga à população. B e C foram isolados da estrutura humana. O núcleo tamaraneano resistiu à sobrecarga prevista, mas acabou destruído quando Corvin executou a contingência geológica preparada e fez a instalação colapsar para dentro, sendo finalmente sepultada em rocha fundida.
-
-A libertação foi confirmada por meios independentes: veículos, barcos, voo, Passagem Sombria e Caminhos voltaram a atravessar normalmente o antigo limite territorial.
+A rede de influência foi neutralizada sem devolver sua carga à população. B e C foram isolados do sistema humano. O núcleo tamaraneano resistiu à sobrecarga prevista, mas acabou destruído quando Corvin executou a contingência geológica preparada e fez a instalação colapsar para dentro e para baixo, sendo sepultada em rocha fundida.
 
 A cidade permaneceu de pé.
 
-Corvin sobreviveu ao colapso. Durante a tentativa de abrir um Caminho instável para Ridge Road, 18, tentou tranquilizar Ravena e Estelar com uma mentira. O Traço A Natureza Não Mente o impediu e a tentativa terminou numa declaração direta: Corvin afirmou que amava as duas.
+A fonte que sustentava o aprisionamento foi destruída e a rede humana deixou de atuar sobre a população. A confirmação prática pós-colapso por estrada, barco, voo, Passagem Sombria ou Caminhos ainda não aconteceu em cena e pertence ao que vier depois.
 
-Ravena e Estelar ouviram a declaração. Nenhuma delas respondeu formalmente antes do encerramento da temporada. As relações não foram convertidas automaticamente em uma relação a três nem formalizadas por causa da confissão.
+Corvin sobreviveu ao colapso. Durante a tentativa de abrir um Caminho instável para a região da árvore em Ridge Road, 18, tentou tranquilizar Ravena e Estelar com uma mentira. O Traço A Natureza Não Mente o impediu e a tentativa terminou numa declaração direta: Corvin afirmou que ama as duas.
 
-Na noite após a libertação, Corvin, Ravena e Estelar permaneceram juntos em Ridge Road, 18, e voltaram a dormir na mesma cama por escolha própria. A casa deixou de ser apenas cobertura: qualquer um dos três podia partir e, naquela noite, ninguém escolheu fazê-lo.
+Ravena e Estelar ouviram a declaração. Nenhuma delas respondeu formalmente antes do encerramento da temporada. A confissão não converte automaticamente os vínculos numa relação a três nem determina qualquer resposta futura.
+
+O ponto final da temporada acontece imediatamente depois da fuga de Corvin: ele está no chão do jardim, ferido mas vivo, Kori e Ravena ajoelhadas ao lado dele, enquanto a Dádiva da Terra começa a agir sobre seus ferimentos. A declaração ainda está sem resposta.
 
 Os vínculos permanecem distintos:
 
@@ -20,20 +20,26 @@ Os vínculos permanecem distintos:
 - Corvin ↔ Estelar: forte atração, intimidade física e emocional e confiança crescente;
 - Ravena ↔ Estelar: amizade profunda e intimidade de convivência, sem romance formalmente estabelecido até este encerramento.
 
-O Refúgio Ártico voltou a ser acessível por Caminhos. Ravena e Estelar continuam querendo conhecê-lo, mas a viagem ainda não foi executada como acontecimento da temporada.
+Ridge Road, 18 continua existindo. O que os três farão com a casa agora que a prisão acabou ainda não foi decidido em cena.
 
-Conforme a consequência automática já registrada no roteiro da Temporada 1, a destruição do núcleo transmitiu um último sinal tamaraneano de falha. Nenhuma das três protagonistas descobriu quem o recebeu, para onde foi ou que consequência poderá ter. Esse fato permanece aberto e não define por si só a próxima temporada.
+Ravena e Estelar continuam querendo conhecer o Refúgio Ártico, mas a acessibilidade pós-colapso de Caminhos ainda não foi testada em cena e a viagem não aconteceu.
+
+Conforme a consequência automática já registrada no roteiro da Temporada 1, a destruição do núcleo transmitiu um último sinal tamaraneano de falha. Nenhum dos protagonistas descobriu quem o recebeu, para onde foi ou que consequência poderá ter. Esse fato permanece aberto e não define por si só a próxima temporada.
 
 ## Estado final da Temporada 1
 
-- Black Harbor: livre; barreira territorial encerrada;
+- Black Harbor: livre; fonte do aprisionamento destruída;
 - rede de influência: sem ligação ativa com a população;
 - núcleo/instalação profunda: destruídos e sepultados;
-- Corvin: vivo, ferido durante o colapso e em recuperação;
-- Ravena: viva e livre da função ritual;
-- Estelar: viva e livre da interface técnica;
-- local final: Ridge Road, 18;
-- momento final: noite após a libertação de Black Harbor;
-- relação futura: ainda depende das escolhas livres das três personagens fora da prisão.
+- Corvin: vivo, ferido, no chão do jardim de Ridge Road, 18, iniciando recuperação;
+- Ravena: viva, livre da função ritual e ajoelhada ao lado de Corvin;
+- Estelar: viva, livre da interface técnica e ao lado de Corvin;
+- local final: jardim de Ridge Road, 18, junto à árvore;
+- momento final: instantes após o colapso da instalação;
+- declaração de Corvin: feita e ouvida, ainda sem resposta formal;
+- testes práticos da antiga fronteira após o colapso: ainda não realizados em cena;
+- relação futura: depende das escolhas livres das personagens depois deste ponto.
 
-A Temporada 1 encerra a pergunta: **eles conseguirão sair de Black Harbor?**
+A Temporada 1 encerra o problema estrutural de Black Harbor ao destruir a fonte da prisão.
+
+A Temporada 2 começa exatamente deste instante, se essa for a direção escolhida.
