@@ -242,7 +242,7 @@ informações pessoais mais profundas quando houver razão para compartilhá-las
 
 **Verdade:** eles são família de Ravena e Estelar e naturalmente terão interesse no desaparecimento, retorno e na pessoa nova que entrou profundamente na vida das duas.
 
-**Dependência antes do START:** criar/consolidar fichas de Dick Grayson, Mutano e Ciborgue para esta campanha.
+As fichas de Dick Grayson, Mutano e Ciborgue estão aprovadas como `JOGADOR IA EVENTUAL / Patamar 2` e são a fonte operacional para suas decisões e reações.
 
 As reações específicas devem nascer dessas fichas, não de improvisação genérica.
 
@@ -336,14 +336,22 @@ A Temporada 2 termina quando Corvin, Ravena e Estelar tiverem chegado, por decis
 
 A temporada pode então encerrar com a relação preparada para enfrentar problemas externos maiores em uma Temporada 3.
 
+## Preparação concluída
+
+As dependências de criação e consolidação de fichas foram concluídas:
+
+- Corvin Blackwood — ficha aprovada / Jogador Humano;
+- Ravena — ficha aprovada / Jogador IA;
+- Estelar — ficha aprovada / Jogador IA;
+- Dick Grayson — ficha aprovada / Jogador IA Eventual;
+- Mutano — ficha aprovada / Jogador IA Eventual;
+- Ciborgue — ficha aprovada / Jogador IA Eventual.
+
 ## Restrições de START
 
 Não iniciar a ficção ainda.
 
 Antes do START:
 
-1. criar/consolidar as fichas de Dick Grayson, Mutano e Ciborgue;
-2. revisar se alguma ficha persistente de Corvin, Ravena ou Estelar precisa de consolidação permanente aprovada pelo Jogador Humano;
-3. atualizar o Estado apenas quando necessário sem alterar seu ponto ficcional;
-4. reancorar regras, narrativa, roteiro, estado e fichas relevantes;
-5. somente então marcar a Temporada 2 como ATIVA e continuar exatamente do jardim.
+1. reancorar regras, narrativa, roteiro, estado e fichas relevantes;
+2. somente então marcar a Temporada 2 como ATIVA e continuar exatamente do jardim.
