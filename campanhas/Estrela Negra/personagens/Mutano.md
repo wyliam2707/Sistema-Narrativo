@@ -56,7 +56,7 @@ Pontos de Poder: [6] / [6]
 
 --- Ser levado a sério quando a situação realmente importa sem precisar abandonar a parte brincalhona de quem é.
 
---- Reencontrar Ravena e Estelar bem depois do desaparecimento e entender o suficiente do que aconteceu para saber que estão seguras.
+--- Depois do retorno de Ravena e Estelar, continuar próximo das duas sem transformar curiosidade sobre Corvin ou sobre a relação delas em invasão dos limites que estabelecerem.
 
 ## Medos / limites
 
@@ -84,6 +84,8 @@ Pontos de Poder: [6] / [6]
 
 --- Ciborgue [um de seus amigos mais próximos; parceiro recorrente de piadas, jogos, comida e conversas que alternam bobagem e sinceridade].
 
+--- Corvin Blackwood [novo parceiro de Ravena e Estelar. Garfield gosta de provocá-lo, adotou com entusiasmo o apelido “Avatar da Vida” que Corvin lhe deu e foi recebido no Refúgio Ártico. O vínculo ainda é novo, mas amistoso].
+
 ### Relacionamentos
 
 --- Vida afetiva dos amigos [Garfield não vê estruturas de relacionamento não convencionais como problema por si só. Sua reação natural é curiosidade e brincadeira, mas considera consentimento e felicidade dos envolvidos mais importantes do que a forma do vínculo].
@@ -96,7 +98,13 @@ Pontos de Poder: [6] / [6]
 
 --- Relação Ravena–Estelar: entende as duas como amigas profundamente próximas e família escolhida; não parte da suposição de romance entre elas.
 
---- Corvin Blackwood: no início da Temporada 2, sabe apenas aquilo que chegou aos Titãs antes da primeira interação em cena. Não conhece automaticamente a natureza, os poderes, o Ciclo da Vida ou os vínculos românticos existentes.
+--- Corvin Blackwood: conheceu Corvin pessoalmente após a libertação de Black Harbor. Sabe que ele ajudou Ravena e Estelar a escapar; que mantém vínculos românticos com as duas; que as duas afirmaram ter se apaixonado por ele; que Corvin não consegue mentir deliberadamente; que sua percepção natural reconhece a natureza essencial de seres vivos sem revelar memórias ou intenções; que Corvin tem 62 anos apesar da aparência jovem; e que seu corpo passa por um Ciclo da Vida de 30 dias em que uma morte prematura permite retorno no amanhecer seguinte com cabelo cinza e ausência temporária das marcas normais. Garfield não sabe que uma segunda morte prematura dentro do mesmo ciclo interrompido pode ser definitiva.
+
+--- “Avatar da Vida”: Corvin usou esse nome como interpretação pessoal e poética da natureza metamórfica de Garfield. Garfield gosta do apelido e o adotou em brincadeira; não o entende como título cósmico oficial.
+
+--- Refúgio Ártico: visitou a residência de Corvin e conheceu oficina, biblioteca, cozinha e piscina termal. Sabe que o ninho é área íntima fora dos limites estabelecidos por Corvin.
+
+--- Anéis de retorno: sabe que Ravena e Estelar possuem anéis que abrem uma passagem física para exatamente duas âncoras cada: a oficina de Corvin e a caixa correspondente guardada no quarto de cada uma na Torre.
 
 ## História consolidada relevante
 
@@ -105,3 +113,5 @@ Pontos de Poder: [6] / [6]
 --- Nos Titãs encontrou amigos que continuaram presentes depois que a novidade de seus poderes deixou de importar. A equipe se tornou sua principal família escolhida.
 
 --- Sua postura brincalhona não significa falta de experiência. Já participou de missões perigosas o suficiente para reconhecer quando uma situação deixou de ser brincadeira.
+
+--- Depois do desaparecimento de Ravena e Estelar em Black Harbor, reencontrou as duas livres, conheceu Corvin, ouviu parte da história da relação e passou um dia no Refúgio Ártico, respeitando os limites da casa apesar da curiosidade.
