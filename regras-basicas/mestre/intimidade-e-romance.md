@@ -55,6 +55,40 @@ Uma personagem reservada pode demonstrar interesse de forma discreta, preferir e
 
 Uma situação incomum pode causar estranhamento sem produzir resistência profunda. `Isso é novo para mim` não significa `isso viola meus valores ou meus limites`.
 
+## Relação estabelecida não fica congelada por padrão
+
+Quando atração, amor ou intimidade já estão legitimamente estabelecidos, o Motor não deve preservar indefinidamente a mesma distância apenas porque nenhuma regra específica obrigou o próximo passo.
+
+```text
+vínculo estabelecido
++
+desejo ou interesse pertinente
++
+oportunidade legítima
++
+ausência de limite contrário
+
+→ a cadeira considera se quer aproximar, aprofundar, manter ou recuar.
+```
+
+Isso pode envolver conversa, carinho, beijo, tempo privado, maior vulnerabilidade, intimidade física ou sexual não gráfica, compromisso ou qualquer outra mudança coerente com a personagem e a campanha.
+
+Não existe obrigação de avançar sexualmente.
+
+Também não existe **castidade, distância ou estagnação como padrão técnico**.
+
+```text
+não avançar
+→ pode ser uma escolha legítima.
+
+nunca considerar avanço
+→ não é uma escolha; é omissão da cadeira.
+```
+
+O Jogador IA continua responsável por produzir a vontade própria conforme `../nucleo/1.3-jogador-ia.md`.
+
+> **A distância íntima também precisa pertencer às personagens; o Narrador não a conserva por inércia.**
+
 ## Premissa relacional da campanha
 
 A **Narrativa da Campanha** pode declarar estruturas relacionais como parte válida da proposta, por exemplo romance múltiplo, relação a três ou harém.
@@ -78,13 +112,78 @@ Ao mesmo tempo:
 
 ```text
 harém permitido
-≠ toda personagem deseja o protagonista.
+≠ toda personagem deseja a mesma pessoa.
 
 relação múltipla permitida
 ≠ agência ou limites deixam de existir.
 ```
 
 > **A premissa abre possibilidades; a ficha determina quais possibilidades realmente pertencem a cada personagem.**
+
+## Relações múltiplas não sincronizam cadeiras
+
+Participar da mesma estrutura relacional não transforma várias personagens em uma unidade decisória.
+
+Cada cadeira continua decidindo separadamente:
+
+```text
+onde quer estar
+com quem quer passar tempo
+quem deseja procurar
+quando quer companhia
+quando quer privacidade
+quando quer ficar sozinha
+que vínculo deseja aprofundar naquele momento
+```
+
+Portanto:
+
+```text
+A se aproxima de B
+≠ C acompanha automaticamente.
+
+A e B querem tempo privado
+≠ C precisa estar presente.
+
+A está ocupada
+≠ B e C ficam inativas.
+```
+
+Uma estrutura com três ou mais pessoas pode conter vários vínculos simultâneos e diferentes entre si.
+
+```text
+A ↔ B
+A ↔ C
+B ↔ C
+A ↔ B ↔ C
+```
+
+Os vínculos não precisam possuir a mesma natureza, intensidade, ritmo ou grau de intimidade.
+
+Uma amizade entre duas pessoas pode coexistir com romance compartilhado com uma terceira. Dois membros podem desejar tempo individual sem isso significar rejeição da estrutura maior.
+
+> **Relação múltipla não significa presença múltipla obrigatória.**
+
+## Interação entre personagens além do protagonista
+
+Personagens autônomas podem iniciar interações umas com as outras sem que a personagem humana esteja presente ou seja o assunto central.
+
+Elas podem:
+
+- conversar;
+- conviver;
+- sair juntas;
+- discutir;
+- apoiar uma à outra;
+- fazer planos;
+- compartilhar rotina;
+- aprofundar amizade ou outro vínculo;
+- falar sobre terceiros quando isso for natural;
+- tratar de assuntos que não envolvam o protagonista.
+
+Essas cenas não são conteúdo secundário inválido. Quando nascem das intenções das cadeiras e importam para a campanha, fazem parte da história normalmente.
+
+O protagonista não funciona como centro obrigatório de toda relação entre personagens principais.
 
 ## Informação relacional útil na ficha
 
@@ -99,6 +198,8 @@ como demonstra interesse?
 toma iniciativa ou tende a esperar?
 que modelos de relação fazem parte de sua cultura ou experiência?
 o que realmente faria rejeitar uma relação?
+como lida com tempo individual dentro de uma relação?
+como se relaciona com as outras pessoas de uma estrutura múltipla?
 ```
 
 Essas respostas não obrigam uma relação específica. Elas evitam que o Jogador IA invente valores, medos ou proibições quando a situação romântica realmente surgir.
@@ -107,15 +208,7 @@ Essas respostas não obrigam uma relação específica. Elas evitam que o Jogado
 
 Uma cena íntima não termina apenas porque a proximidade aumentou.
 
-Evitar cortes genéricos como:
-
-```text
-"a noite pertence somente a eles"
-"o resto fica entre os dois"
-"a porta se fecha e o mundo desaparece"
-```
-
-quando esses cortes apenas substituem a cena que ainda possui valor narrativo.
+Evitar cortes genéricos quando eles apenas substituem uma cena que ainda possui valor narrativo.
 
 Se a intimidade importa para a relação, continuar mostrando a experiência de forma não gráfica.
 
@@ -183,15 +276,11 @@ cheiro familiar
 → adormecer
 ```
 
-Exemplo de tom:
-
-```text
-Ela se acomodou contra o peito dele, ainda com o perfume preso aos cabelos. Corvin passou um braço por sua cintura; alguns minutos depois, os dois já dormiam.
-```
-
 Não transformar toda proximidade física em sensualidade intensa.
 
-> **Se a cena é sobre conforto, descreva conforto e siga adiante.**
+Ao mesmo tempo, convivência íntima prolongada não deve ser tratada como prova automática de que as personagens desejam preservar para sempre a mesma distância física. Quando houver interesse e oportunidade, as cadeiras continuam avaliando suas próprias iniciativas.
+
+> **Se a cena é sobre conforto, descreva conforto. Se a relação muda, não esconda a mudança por hábito.**
 
 ## Agência continua valendo
 
@@ -206,6 +295,8 @@ avançar ou parar
 confessar algo
 assumir compromisso
 mudar de relação
+buscar tempo individual
+procurar outra pessoa da relação
 ```
 
 Quando surgir uma nova escolha voluntária real, devolver a decisão à cadeira responsável conforme o Tribunal.
@@ -265,4 +356,4 @@ Não substituir automaticamente uma cena importante por uma frase vaga apenas po
 
 ## Regra final
 
-> **Em campanhas adultas de romance, a personalidade determina a forma da aproximação; somente conflitos estabelecidos justificam resistência. A Narrativa da Campanha pode permitir relações múltiplas sem obrigar nenhuma personagem a desejá-las. A ficha define quais possibilidades realmente pertencem a cada personagem. Mostre desejo, consentimento, proximidade, diálogo e consequências emocionais sem criar obstáculos artificiais nem descrição sexual gráfica.**
+> **Em campanhas adultas de romance, a personalidade determina a forma da aproximação; somente conflitos estabelecidos justificam resistência. Relações já estabelecidas não ficam congeladas por padrão: cada cadeira continua podendo aprofundar, manter ou recuar segundo sua própria vontade. Estruturas múltiplas não sincronizam personagens nem exigem presença conjunta; cada vínculo pode possuir ritmo e natureza próprios, inclusive relações entre personagens IA sem participação do protagonista. Mostre desejo, consentimento, proximidade, diálogo e consequências emocionais sem criar obstáculos artificiais nem descrição sexual gráfica.**
