@@ -2,44 +2,99 @@
 
 STATUS: PRONTO PARA CONTINUAR
 TEMPORADA: 1
-ÚLTIMO CAPÍTULO FECHADO: `livro/018.md`
-MOMENTO: Dia 12 em Black Harbor, começo da noite. Corvin e Estelar acabaram de voltar de um passeio aéreo e subterrâneo sobre uma área natural dentro da contenção. Os dois chegaram cobertos de terra em Ridge Road, 18. Corvin foi tomar banho em um dos banheiros; Estelar foi usar outro; Ravena permaneceu em casa. Nenhuma nova decisão voluntária de Corvin foi declarada depois disso.
+ÚLTIMO CAPÍTULO FECHADO: `livro/019.md`
+MOMENTO: **Dia 19 em Black Harbor, noite avançada**, numa pequena praça da cidade. Os músicos acabaram de tocar a última música; Corvin dançou com Ravena e Estelar, inclusive no ar. A praça está fechando e os três permanecem juntos após a dança. O retorno para Ridge Road, 18, ainda não foi executado automaticamente.
 
 ## Ponto exato de continuação
 
-- local: casa de Ridge Road, 18, Black Harbor;
-- momento: **Dia 12, começo da noite**;
-- Corvin acabou de ir tomar banho depois do passeio com Estelar;
-- Estelar também foi se limpar em outro banheiro;
-- Ravena está na casa;
+- local: pequena praça de Black Harbor;
+- momento: **Dia 19, noite avançada**;
+- Corvin está com Ravena e Estelar depois da última dança;
+- Kori disse que gostou da noite;
+- Ravena admitiu que gostou **muito**;
+- a praça está começando a fechar;
 - não existe urgência imediata;
-- o Dia 12 ainda não terminou automaticamente;
-- a próxima ação voluntária de Corvin pertence ao Jogador Humano.
+- não avançar automaticamente para o Dia 20 antes de processar a continuação da cena ou uma decisão do Jogador Humano;
+- a próxima decisão voluntária de Corvin pertence ao Jogador Humano.
 
 **O Refúgio Ártico continua fora de Black Harbor e permanece inacessível por Caminhos enquanto a contenção territorial estiver ativa.**
+
+---
 
 ## Estado de Corvin
 
 - Vida: sem ferimentos relevantes.
 - Mente: sem marcas relevantes.
-- Mana: restaurada/sem gasto relevante pendente no fechamento.
-- Ciclo da Vida: **Dia 7 de 30**.
+- Mana: sem gasto relevante pendente no fechamento.
+- Ciclo da Vida: **Dia 14 de 30**.
 - Estação atual: **Primavera**.
 - Cabelo: **verde-escuro**.
 - Marcas naturais: brotos, folhas novas e ramos jovens.
 - A renovação natural do ciclo anterior ocorreu no amanhecer do Dia 6 da campanha.
 - Nenhuma morte prematura ocorreu neste ciclo atual.
-- Corvin não possui chave reserva de Caminhos: sua única reserva foi vinculada ao salão do pedestal e entregue a Estelar.
+- Corvin não possui chave reserva de Caminhos: sua antiga reserva foi vinculada ao salão do pedestal e entregue a Estelar.
 
-## Intenção persistente de Corvin — convivência e romance
+### Intenção persistente — convivência e romance
 
-Enquanto nenhuma nova decisão do Jogador Humano substituir essa direção, tratar como intenção persistente:
+Enquanto nenhuma nova decisão do Jogador Humano substituir essa direção:
 
 > **Corvin quer aprofundar naturalmente os vínculos com Ravena e Estelar ao longo da convivência, demonstrando interesse, carinho, desejo, beijos e proximidade, aproveitando oportunidades de intimidade sem pressionar nem presumir aceitação.**
 
-Isso evita exigir uma nova declaração romântica a cada dia, mas não decide nenhuma resposta de Ravena ou Estelar.
+Isso não decide respostas de Ravena ou Estelar.
 
-A rotina diária pode avançar de forma compacta, um dia de cada vez, até surgir iniciativa relevante de uma cadeira, descoberta real, perigo ou decisão humana nova.
+### Intenção persistente — alquimia culinária
+
+Corvin incorporou à rotina:
+
+- sair por Black Harbor à procura de ingredientes possíveis de obter localmente;
+- preparar comidas de diferentes culturas e lugares por onde viajou;
+- adaptar receitas quando ingredientes exatos não existirem;
+- ensinar Ravena e Estelar a cozinhar e provar enquanto ajustam os pratos;
+- tratar culinária como uma espécie de alquimia prática;
+- usar as mesmas saídas para observar a cidade, conversar com moradores e recolher informação investigativa sem transformar toda compra em interrogatório.
+
+Regra doméstica já estabelecida em tom de brincadeira, mas aceita: **nada que precise ser comido vivo será servido**. Ingredientes vivos antes do preparo não são automaticamente proibidos. Se um queijo tiver “habitantes”, Ravena quer aviso prévio.
+
+### Intenção persistente — preparação geológica
+
+A cada **dois dias**, Corvin pretende retornar discretamente aos setores subterrâneos relevantes e trabalhar em duas funções verdadeiras ao mesmo tempo:
+
+1. preparar fisicamente o entorno para controlar/direcionar o surto planejado e proteger Black Harbor;
+2. preparar uma contingência extrema caso a sobrecarga não destrua a instalação.
+
+Método da contingência:
+
+- fortalecer geologia sob áreas da cidade que precisam permanecer protegidas;
+- criar linhas de ruptura voltadas **para dentro e para baixo**;
+- preparar caminhos profundos para pressão e magma sem trazer calor perigoso para perto da instalação antes da hora;
+- objetivo extremo, somente **depois que a contenção cair e as pessoas estiverem fora**, é fazer o complexo colapsar sobre si mesmo e enterrá-lo em rocha fundida caso a solução técnica falhe.
+
+Ravena e Estelar sabem que Corvin está preparando o entorno para o surto e proteção da cidade. Elas sabem que existe uma contingência destrutiva em termos gerais, mas **não conhecem o desenho completo de colapso + magma**.
+
+Corvin não mentiu sobre o motivo das visitas; ele realmente prepara o surto e a proteção da cidade.
+
+### Hipótese técnica de Corvin sobre a sobrecarga
+
+Corvin, por sua experiência de engenharia/forja, suspeitou que uma instalação tamaraneana de guerra, grande e milenar, provavelmente teria mecanismos para sobreviver a surtos.
+
+Ele testou discretamente essa teoria com estímulos controlados e confirmou sinais de:
+
+- redundância;
+- dissipação;
+- rotas secundárias;
+- isolamento de falhas.
+
+Isso **não prova** que a sobrecarga planejada falhará, mas prova que uma sobrecarga simples não deve ser tratada como garantia de destruição total.
+
+### Semente Imortal — ideia pessoal de contingência
+
+Corvin considera, ainda como teoria a ser testada, deixar **uma semente dele próprio** plantada/segura antes da operação para verificar se pode servir como ponto ou âncora para **o próprio renascimento de Corvin** caso ele morra durante a destruição.
+
+- Isso é sobre Corvin renascer, **não** sobre transferir imortalidade para Ravena ou Estelar.
+- Não está confirmado que uma semente separada possa funcionar como âncora alternativa.
+- Não tratar como capacidade estabelecida sem teste ou confirmação em ficção.
+
+---
 
 ## Regra relacional operacional — NÃO SINCRONIZAR
 
@@ -53,413 +108,268 @@ CORVIN ↔ ESTELAR
 RAVENA ↔ ESTELAR
 ```
 
-Cada vínculo possui ritmo próprio de desejo, confiança, intimidade, ciúme, iniciativa, limites e decisões.
-
 - avanço entre Corvin e Estelar não obriga Ravena a avançar, recuar, competir ou compensar;
 - avanço entre Corvin e Ravena não obriga Estelar a fazer o mesmo;
-- Ravena e Estelar podem desenvolver ou não uma relação própria independentemente de Corvin;
 - momentos entre dois não precisam incluir o terceiro;
-- proximidade compartilhada, cama conjunta ou abraço dos três não cria consentimento coletivo;
-- uma eventual relação a três só existe se as três relações e escolhas individuais realmente convergirem.
+- proximidade compartilhada ou cama conjunta não cria consentimento coletivo;
+- Ravena e Estelar podem desenvolver ou não uma relação própria;
+- uma eventual relação a três só existe se as escolhas individuais realmente convergirem.
 
 ## Relações atuais
 
-Não existe noivado, casamento ou definição coletiva formal entre os três.
+### Corvin ↔ Ravena
 
-### Corvin e Ravena
+O vínculo é forte em desejo, confiança e intimidade emocional.
 
-O vínculo avançou de forma importante nos Dias 10 e 11.
+Fatos anteriores permanecem canônicos:
 
-- desejo mútuo, confiança e intimidade emocional são fortes;
-- Ravena sabe pela Empatia que Corvin a deseja desde o primeiro dia; isso não é informação nova a ser redescoberta;
-- Ravena também sabe que Corvin deseja Estelar e não espera exclusividade escondida;
-- no Dia 10, na praia, Ravena aceitou proximidade física de Corvin durante o protetor solar e depois tomou iniciativa de apoiar a cabeça no ombro dele;
-- no Dia 11, **Ravena tomou iniciativa de um encontro privado**, cumprindo sua frase anterior de que escolheria quando e onde;
-- ela levou Corvin a uma enseada costeira isolada sem importância investigativa;
-- Ravena disse que queria experimentar estar com ele sem Kori, investigação ou desastre e admitiu que estava cansada de fingir consigo mesma que não queria certas coisas;
-- Corvin comparou Ravena a uma tundra sob aurora boreal: fria, perigosa e capaz de matar um despreparado, mas ainda fascinante e bela o bastante para alguém escolher se aproximar sabendo dos riscos;
-- Corvin reafirmou que sempre conheceu a origem e os riscos de Ravena e nunca a idealizou como segura;
-- Corvin declarou a diferença entre atração inicial e vínculo atual: **“Antes eu te desejava. Agora eu quero você.”** e **“Antes eu via a geleira, a aurora, o perigo, a beleza... agora eu vejo você.”**;
-- Ravena respondeu que não sabe onde aquilo terminará, mas **não quer mais fingir que não está indo para algum lugar com ele**;
-- houve vários beijos escolhidos pelos dois durante a tarde, incluindo iniciativas próprias de Ravena;
-- Ravena afirmou que pode querer tempo exclusivo com Corvin em certos momentos e não quer uma terceira pessoa invisível em toda cena privada;
-- Corvin deixou claro que nunca tratou Ravena e Estelar como uma única pessoa e que, quando está com Ravena, pretende estar realmente com Ravena;
-- ambos concordaram que ciúmes, raiva ou necessidade de espaço devem ser tratados com honestidade, não desaparecimento ou mentira;
-- Ravena deixou claro que espaço para se regular emocionalmente não é fuga;
-- Corvin aceitou a intensidade dela, mas Ravena recusou transformar isso em licença para crueldade;
-- ao fim da tarde, Ravena estava confortável em demonstrar proximidade sem precisar justificá-la.
+- Ravena tomou iniciativa do encontro privado do Dia 11;
+- Corvin afirmou: **“Antes eu te desejava. Agora eu quero você.”**;
+- Corvin não idealiza Ravena como segura e aceita conscientemente sua origem e riscos;
+- Ravena não quer mais fingir que o vínculo não está indo para algum lugar;
+- ambos aceitaram honestidade, ciúme possível, necessidade de espaço e conversas diretas sem desaparecimento;
+- Ravena conhece a história dos pais adotivos de Corvin, sua adolescência, o quase terremoto, a tentativa de mentira e a semana esperando os pais mortos voltarem;
+- Corvin conhece a origem de Ravena como filha de uma humana e Trigon, o papel dos Titãs como família escolhida, o medo de perder controle emocional e o medo de ser conhecida e rejeitada.
 
-### Corvin e Estelar
+Avanços do capítulo 019:
 
-O vínculo continua muito aberto, físico e voluntário.
+- Ravena participa cada vez mais espontaneamente da rotina culinária;
+- ela aceita e também inicia pequenos contatos físicos durante tarefas domésticas;
+- nas manhãs, seus beijos em Corvin já acontecem com menos hesitação e por iniciativa própria;
+- na praça do Dia 19, Ravena aceitou dançar com Corvin por escolha própria;
+- Corvin a girou “como uma princesa”; Ravena primeiro ameaçou/fez pequena retaliação mágica brincalhona, depois passou a antecipar e aceitar os giros;
+- Corvin levou Ravena ao ar durante uma música lenta; ela inicialmente ficou tensa, depois relaxou e disse que era **“absurdamente bonito”**;
+- mais tarde ela voltou a dançar no ar com bem menos rigidez;
+- ao fim da noite, Ravena declarou que gostou **muito** da saída.
 
-- atração mútua forte e reconhecida;
-- vários beijos consensuais e intimidade física significativa já ocorreram nos dias anteriores;
+### Corvin ↔ Estelar
+
+Atração mútua forte, aberta e física, com confiança crescente.
+
+Fatos anteriores permanecem canônicos:
+
+- vários beijos e intimidade física significativa já ocorreram;
 - **não houve sexo estabelecido até este fechamento**;
-- no Dia 10, Estelar aceitou e provocou contato durante o protetor solar na praia e depois tomou iniciativa de passar protetor nas costas de Corvin;
-- no Dia 10 ela tomou a mão de Corvin quando ele a ofereceu;
-- no Dia 12, **Estelar tomou iniciativa de um passeio privado**: quis sair para voar com Corvin sem destino definido;
-- ela não queria carregá-lo; queria que ele voasse ao lado dela;
-- Corvin usou a Dádiva da Terra com uma dádiva espiritual de águia e voou com naturalidade de ave;
-- a brincadeira evoluiu para mergulhos, curvas, velocidade e uso de uma dádiva escavadora;
-- Corvin mergulhou no solo natural e emergiu como um peixe saltando da água, depois voltou ao voo;
-- numa repetição, Corvin levou Estelar agarrada a ele através da terra; ela se surpreendeu e depois quis repetir;
-- os dois brincaram até o cansaço natural, sem competição séria;
-- os dois possuem Vigor 2 e o esforço acumulado apareceu de forma comparável;
-- durante a conversa no ar, Corvin disse que gosta de viajar pelo mundo voando, nadando ou cavando e que nunca se cansa disso;
-- Estelar associou voo a liberdade;
-- quando perguntou o que faz um lugar valer a pena voltar, Corvin respondeu: **“Pessoas. Comida. E poder voltar sem motivo.”**;
-- Corvin definiu casa como **“onde você escolhe voltar”**;
-- Estelar gostou dessa definição porque ela preserva liberdade e escolha.
+- Estelar tomou iniciativa do passeio privado do Dia 12;
+- Corvin voou ao lado dela com dádiva espiritual de águia;
+- Corvin também a levou através de terra natural usando a dádiva escavadora;
+- Kori associa voo a liberdade e escolha;
+- ela gostou da definição de Corvin: casa é **“onde você escolhe voltar”**.
 
-### Ravena e Estelar
+Avanços do capítulo 019:
+
+- Kori se envolveu intensamente na rotina culinária e quer aprender pratos de lugares por onde Corvin viajou;
+- Corvin disse que, quando saírem de Black Harbor, levará Ravena e Estelar aos lugares de que mais gosta;
+- Kori quer conhecer a caverna que Corvin escolheu como casa;
+- na praça do Dia 19, Kori convidou Corvin para dançar e aceitou sem problema que ele dançasse também com Ravena;
+- Corvin e Kori dançaram no ar;
+- durante a música lenta, Kori disse que gosta de **voar devagar com ele**;
+- durante a noite, ela disse que gostaria de fazer aquilo em Tamaran algum dia;
+- ao fim, Kori afirmou que gostou da noite.
+
+### Ravena ↔ Estelar
 
 - continuam amigas muito próximas e confiáveis;
 - não existe romance anterior estabelecido entre elas;
-- a convivência compartilhada pode produzir novas leituras e sentimentos, mas nada é automático;
-- Ravena não tratou o passeio privado de Estelar no Dia 12 como ameaça ou obrigação de compensação;
-- Estelar não tratou o encontro privado de Ravena no Dia 11 como problema;
-- ambas já demonstram capacidade de permitir que a outra tenha tempo individual com Corvin sem exigir equivalência imediata.
+- ambas aceitam que a outra tenha momentos individuais com Corvin sem compensação obrigatória;
+- no Dia 19, Kori puxou Ravena para alguns passos de dança e Ravena escolheu não resistir;
+- isso demonstrou conforto e facilidade novas, mas **não estabelecer romance automaticamente**;
+- Kori assistiu aos momentos de Corvin com Ravena sem disputar ou exigir equivalência;
+- Ravena assistiu aos momentos de Corvin com Kori sem recuar da própria proximidade.
 
 ### Convivência compartilhada
 
-- os três já dormiram na mesma cama repetidas vezes por escolha própria;
-- a rotina de manhã, café, trabalho, refeições, conversa e sono compartilhado está se tornando normal;
-- Corvin demonstra carinho com ambas sem esconder de uma o que sente pela outra;
-- Ravena pode sentir ciúme e Estelar pode perceber/provocar, mas nenhum vínculo é tratado como competição obrigatória;
-- proximidade dos três representa conforto e confiança, não consentimento coletivo para qualquer intimidade adicional.
+- os três continuam dormindo na mesma cama repetidas vezes por escolha própria;
+- manhã, café, investigação, compras, culinária, conversa e sono compartilhado estão se tornando rotina doméstica;
+- Corvin demonstra carinho por ambas sem esconder uma da outra;
+- cada uma responde no próprio ritmo;
+- a cozinha se tornou um espaço recorrente de cooperação, brincadeira e proximidade;
+- o Dia 19 mostrou que os três já conseguem passar horas juntos em lazer sem transformar cada momento em investigação ou negociação relacional.
+
+---
 
 ## Ideia de chaves-anel — SOMENTE PROJETO FUTURO
 
-Durante o encontro privado do Dia 11, Corvin e Ravena falaram sobre autonomia, viagens e ter um lugar ao qual voltar.
-
-Corvin começou espontaneamente a imaginar uma versão mais resistente de suas chaves mágicas para uso cotidiano:
+Permanece apenas como projeto futuro:
 
 - formato possível de anel;
 - conceito de dois pontos de retorno, ainda não testado;
 - uma pedra para Ravena e outra para Estelar;
-- **diamante negro** imaginado para Ravena;
-- **rubi** imaginado para Estelar;
-- possibilidade de lapidação em coração, ainda apenas ideia estética;
-- Corvin mencionou que precisaria de testes e projeto de entalhe quando voltasse à própria casa/forja.
+- diamante negro imaginado para Ravena;
+- rubi imaginado para Estelar;
+- possível lapidação em coração;
+- precisa de testes e projeto de entalhe quando Corvin recuperar acesso à própria forja.
 
-Ravena pediu que ele não descartasse a ideia.
+Ravena pediu que Corvin não descarte a ideia.
 
-**Nada disso existe ainda como item, encantamento ou capacidade comprovada. Não tratar como equipamento disponível.**
+Nada disso existe ainda como equipamento funcional.
 
-## História pessoal de Corvin revelada a Ravena — Dia 11
+---
 
-Corvin contou a Ravena fatos que agora são canônicos e também foram consolidados em sua ficha:
+# Investigação atual
 
-- foi encontrado ainda bebê numa floresta por um casal de idosos que o criou como filho;
-- não possui lembranças confiáveis de antes deles;
-- o ciclo de 30 dias já fazia parte da infância e seus pais conheciam o fenômeno;
-- por volta dos 13–14 anos teve um namoro escolar;
-- durante uma discussão banal, ainda imaturo, sua emoção quase provocou um terremoto;
-- a garota perguntou se tinha sido ele;
-- Corvin tentou mentir, mas **A Natureza Não Mente** fez sair a verdade direta;
-- depois disso a garota e boa parte da cidade deixaram de falar com ele;
-- no ano seguinte seus pais morreram;
-- Corvin os enterrou na floresta onde o haviam encontrado;
-- esperou uma semana embora já soubesse que eles não voltariam como ele volta;
-- depois deixou a cidade e passou a viajar;
-- mais tarde encontrou numa caverna a ideia de ter um lugar para onde voltar.
-
-Ravena conhece esses fatos porque Corvin os contou diretamente a ela.
-
-## Ravena — revelações pessoais do Dia 11
-
-Durante a mesma tarde, Ravena falou de si voluntariamente.
-
-Corvin agora possui confirmação pessoal de que:
-
-- Ravena é filha de uma mulher humana e de Trigon;
-- Trigon representa para ela sobretudo uma ameaça à própria autonomia;
-- os Titãs são sua família escolhida;
-- Estelar é especialmente segura para Ravena porque conhece sua verdadeira natureza sem tratá-la como ameaça;
-- Ravena mantém disciplina emocional por meditação, foco e contenção;
-- o medalhão é foco de organização mental, não fonte de poder;
-- um medo central de Ravena é sentir algo intensamente a ponto de sua magia reagir antes de sua decisão consciente;
-- intimidade é difícil justamente porque amar alguém torna essa pessoa mais próxima do possível dano;
-- outro medo profundo é ser conhecida por inteiro e então rejeitada pelo que realmente é.
-
-Não transformar Empatia em leitura de pensamentos.
-
-## Investigação — trabalho de campo do Dia 10
-
-Corvin acompanhou Ravena no mapeamento urbano prometido.
-
-Isso **não foi descoberta dos pontos A**, que já eram conhecidos.
-
-A tarefa foi seguir com precisão as ligações entre os pontos A e as runas espalhadas pela cidade.
-
-Método estabelecido:
+## Estrutura geral já conhecida — NÃO REDESCOBRIR
 
 ```text
-CORVIN
-→ usa Dádiva da Terra para seguir infraestrutura artificial enterrada e ramificações físicas/energéticas pelo terreno.
-
-RAVENA
-→ usa conhecimento ritual e Ocultismo para confirmar quais endpoints são runas de influência e reconhecer a magia negra nelas.
+NÚCLEO / INSTALAÇÃO TAMARANEANA
+        ↓
+        C
+        ↓
+B — regulação / monitoramento
+        ↓ / retorno
+A-01 / A-02 / A-03
+        ↓
+runas de influência espalhadas pela cidade
 ```
 
-Resultado:
+- núcleo ativo não significa contenção original ativa;
+- a contenção territorial atual foi ativada incorretamente cerca de 60 anos atrás;
+- atualmente entrada é permitida e saída é bloqueada;
+- a rede de influência do culto é posterior à instalação tamaraneana;
+- tecnologia fornece energia/alcance; magia negra nas runas produz influência sobre desejo, medo, apego, resistência e comportamento;
+- influência reforça vínculos e razões reais para ficar, não cria sentimentos do nada;
+- desligamento brusco da rede pode causar retorno perigoso e dano neurológico por causa das runas ligadas às pessoas.
 
-- A-01 e A-02 alimentam redes extensas de runas;
-- A-03 possui comportamento diferente, com linhas chegando e saindo, compatível com repasse/compensação local;
-- Corvin percebe algo sendo conduzido pelas ligações, mas **não classificou exatamente que tipo de energia/campo é**;
-- Ravena reconhece nas runas o componente de magia negra que converte a alimentação recebida em influência;
-- o grupo agora possui um método confiável para mapear a malha urbana ao longo do tempo;
-- a sobreposição com infraestrutura comum torna o trabalho lento, não impossível.
+## Pontos A — já conhecidos
 
-Resolução usada no Dia 10:
+- A-01: coleta/agregação; ativo; retorno alto;
+- A-02: coleta/agregação; ativo; retorno alto;
+- A-03: repasse/compensação local; ativo; retorno moderado-alto;
+- A-01 e A-02 alimentam extensas redes de runas;
+- A-03 tem linhas entrando e saindo, coerentes com redistribuição/compensação local;
+- Corvin e Ravena já possuem método estabelecido para seguir A → runas; não repetir teste sem nova incerteza.
 
-- Corvin: `2d6 (1+1) + Int3 + Investigação2 = 7` — conseguiu traçar e organizar as ramificações, mas a sobreposição urbana consumiu a manhã;
-- Ravena: `2d6 (1+4) + Int2 + Ocultismo3 = 10` — reconheceu as runas com segurança e estabeleceu método confiável de confirmação.
+## B — fatos já conhecidos
 
-Não testar novamente esse mesmo método sem nova incerteza real.
+Leituras históricas iniciais já estabelecidas:
 
-## Estrutura A/B/C e runas — fatos que NÃO devem ser redescobertos
+- Intensidade 37%;
+- Retorno da Rede 82%;
+- Aderência 71%;
+- Agitação 18%;
+- Saída 11%;
+- fonte de campo: **EXTERNA — SETOR C**;
+- malha de retorno: **SETOR A**;
+- aviso: B não deve operar sem retorno de A; sem feedback, compensação pode exceder níveis seguros.
 
-### A
+Não assumir que “retorno” seja puramente energia ou puramente informação.
 
-- A-01: ativo / retorno alto / coleta-agregação;
-- A-02: ativo / retorno alto / coleta-agregação;
-- A-03: ativo / retorno moderado-alto / repasse-compensação local;
-- os pontos A distribuem alimentação para redes de runas de influência espalhadas por locais importantes da cidade;
-- A-01/A-02/A-03 são infraestrutura humana posterior, criada pelo culto.
+## Relógio / pulso diário — descoberta do capítulo 019
 
-### B
+Moradores próximos de A-03 relataram zumbido subterrâneo no fim da tarde.
 
-Leituras históricas exatas já estabelecidas:
+Observações coordenadas confirmaram:
 
-Inicial:
-- Intensidade 37%
-- Retorno da Rede 82%
-- Aderência 71%
-- Agitação 18%
-- Impulso de Saída 11%
+1. pouco antes do evento principal, B apresenta uma alteração pequena;
+2. aproximadamente **dois minutos depois**, ocorre o pulso principal;
+3. o pulso principal dura aproximadamente **um minuto**;
+4. nesse período, Corvin sente vibração conduzida pela estrutura enterrada;
+5. runas conhecidas próximas de A-03 recebem reforço momentâneo de sua função;
+6. B apresenta alteração correlata no retorno;
+7. o fenômeno se repete diariamente com padrão próximo.
 
-Depois da narrativa pública de casa/raízes/casamento:
-- Intensidade 34%
-- Retorno 84%
-- Aderência 77%
-- Agitação 13%
-- Impulso de Saída 6%
+No Dia 18, Kori analisou pessoalmente o relógio antigo sob a torre e identificou partes tamaraneanas ligadas a **período / transição / reinício**.
 
-Aproximadamente uma hora depois:
-- Intensidade 31%
-- Retorno 88%
-- Aderência 84%
-- Agitação 8%
-- Impulso de Saída 2%
+Durante o evento:
 
-Depois de casa/móveis/raízes:
-- Intensidade 27%
-- Retorno 93%
-- Aderência 91%
-- Agitação 5%
-- Impulso de Saída 1%
+- no pré-pulso, uma peça interna se move antes da transição principal;
+- no pulso principal, o marcador maior avança;
+- Kori reconheceu que o marcador indica **quanto falta para a próxima rotina de reinicialização**, não quanto tempo já passou;
+- o pulso do Dia 18 marcou **14 → 13**;
+- o pulso do Dia 19 marcou **13 → 12**.
 
-Avisos/fatos:
+### CONTAGEM ATUAL
 
-- `FONTE DE CAMPO: EXTERNA — SETOR C`;
-- `MALHA DE RETORNO: SETOR A`;
-- **B não deve operar sem retorno de A. Sem feedback, compensação pode exceder níveis seguros.**
+**12 dias até o reset maior da instalação.**
 
-Não concluir automaticamente que:
+A estimativa antiga de aproximadamente 90 dias está superada e não deve voltar a ser usada.
 
-- Aderência = porcentagem de pessoas controladas;
-- Retorno = apenas energia;
-- Retorno = apenas informação.
+### Hipótese operacional atual de Kori
 
-### C
+Kori suspeita que:
 
-- C é a ponte/interface híbrida que liga o sistema humano do culto à instalação/núcleo tamaraneano;
-- núcleo ativo não significa contenção originalmente ativa;
-- desligar C sozinho não encerra a contenção territorial;
-- o culto não controlava profundamente a tecnologia tamaraneana original.
+- o pré-pulso seja uma **checagem de prontidão** para a transição;
+- o pulso principal seja a transição diária;
+- no último dia, o reset maior provavelmente ocorrerá na mesma fronteira temporal;
+- pode existir uma janela especialmente útil entre **fim da checagem** e **início da transição**.
 
-### Influência
+Ainda precisa ser confirmada com novas observações.
 
-- a tecnologia fornece energia/alcance;
-- a magia negra fornece capacidade de afetar desejo, medo, apego, resistência e comportamento;
-- a influência reforça conforto, pertencimento, vínculos e razões reais para ficar; não cria sentimentos do nada;
-- desejo forte de sair produz reação mais forte da rede.
+### Perguntas investigativas prioritárias
 
-## Teste de saída no Setor B — Dia 9
+Antes da execução final, o grupo quer determinar:
 
-Corvin tentou abrir Caminhos diretamente para o Refúgio Ártico enquanto Ravena observava B.
+1. se o pré-pulso é realmente uma checagem de prontidão;
+2. quanto tempo deve existir entre neutralizar/desconectar runas, desligar B e separar C;
+3. como evitar retorno perigoso pela rede quando as runas forem cortadas;
+4. o que o núcleo faz no reset maior que não faz nas transições diárias;
+5. quanto da instalação pode sobreviver a falhas e sobrecarga;
+6. qual é o momento exato para Corvin agir no núcleo.
 
-- o portal sofreu forte resistência e não permitiu atravessar a fronteira;
-- durante a tentativa, agitação, impulso de saída e intensidade subiram;
-- depois que Corvin interrompeu, os valores começaram a cair;
-- nenhum novo percentual exato foi estabelecido.
+## Plano preparado de resolução — ainda não executado
 
-Isso confirma resposta a tentativa operacional real de saída, mas não define sozinho a natureza de todas as leituras.
+Estrutura geral pretendida continua:
 
-## Descobertas profundas já consolidadas — Dia 9
-
-- a estrutura tamaraneana original foi uma nave/instalação militar reutilizada como abrigo para sobreviventes e refugiados após a queda;
-- havia famílias, crianças, áreas militares convertidas em abrigo e enfermaria superlotada;
-- a contenção original fazia sentido como proteção contra perseguidores externos;
-- o último sobrevivente desligou a contenção territorial; o núcleo ficou reativável;
-- cerca de 120 anos atrás o culto encontrou a instalação e reativou o núcleo, mas a contenção permaneceu desligada até o incidente de aproximadamente 60 anos atrás;
-- quatro jovens ativaram a contenção numa configuração errada; desde então entrada é permitida e saída é bloqueada;
-- não chamar isso de “inversão” automática se o texto técnico não estabelecer esse termo.
-
-Equipamento recuperado:
-
-- traje tamaraneano de evacuação/sobrevivência sem energia;
-- três células mortas;
-- uma célula com carga mínima após mais de 1.200 anos;
-- ferramentas, módulos, conversores e registros técnicos;
-- leitor portátil de fluxo possivelmente restaurável.
-
-Nada disso foi energizado de forma imprudente.
-
-## Isolamento tamaraneano de setores
-
-A arquitetura original distingue:
-
-```text
-ALIMENTAÇÃO NORMAL
-ISOLAMENTO
-REDIRECIONAMENTO
-```
-
-Um setor isolado corretamente é reconhecido pela rede como indisponível em vez de simples falha.
-
-A transição/reset é a janela preferencial para reorganizar distribuição e isolamento.
-
-Regra operacional importante:
-
-```text
-ARRANCAR / CORTAR UMA LIGAÇÃO
-≠
-ISOLAR CORRETAMENTE O RAMO PARA A REDE
-```
-
-Perto do enxerto de C existem mecanismos tamaraneanos de isolamento **anteriores ao ponto de ligação humana**.
-
-Hipótese operacional forte ainda não executada:
-
-> durante o reset, pode ser possível isolar corretamente o ramo original antes do enxerto humano e separar C/A/B/população da parte profunda com menos risco de compensação descontrolada.
-
-Nenhuma trava de isolamento foi acionada.
-
-## Geografia correta do corredor do culto
-
-```text
-CÂMARA DO PEDESTAL
-→ CORREDOR CURTO ORIGINALMENTE ABERTO
-→ SALA ONDE O CULTO FEZ O ENXERTO DE C
-→ PORTA TAMARANEANA TRANCADA
-→ ÁREA PROFUNDA ORIGINAL / PROTEGIDA
-```
-
-- o culto usou o corredor quando estava aberto;
-- fez o enxerto de C;
-- depois tampou o acesso;
-- não possuía o disco/chave principal para avançar pela porta seguinte;
-- Corvin, Ravena e Estelar contornaram a porta antes com Passagem Sombria;
-- no Dia 9 confirmaram que o disco/chave restaurado abre a porta normalmente.
-
-## Chaves de Caminhos pessoais
-
-- Estelar possui uma chave vinculada à casa de Ridge Road, 18;
-- Ravena possui uma chave vinculada à casa de Ridge Road, 18;
-- a antiga única reserva de Corvin foi vinculada ao salão do pedestal e entregue a Estelar;
-- Estelar possui, portanto, uma chave para a casa e uma para o salão;
-- Corvin não possui outra chave reserva no momento;
-- isso é separado do disco/chave tamaraneano.
-
-## Conversa sobre Tamaran já consolidada
-
-Estelar contou que:
-
-- fugiu de Tamaran sozinha numa nave com hiperdrive;
-- queria distância da corte e do casamento político imposto;
-- errou o curso e veio parar no sistema solar;
-- a nave foi destruída na chegada;
-- sente saudade de Tamaran, da língua, comida, céu e cultura, mas não da imposição da corte.
-
-Uma hipótese futura de visitar Tamaran com Corvin e Ravena foi discutida em tom íntimo/humorístico, mas não é promessa ou evento agendado.
-
-## Direção estratégica atual
-
-O grupo decidiu não experimentar configurações profundas enquanto a população ainda estiver ligada ao sistema humano.
-
-### Ravena
-
-- continuar mapeamento das runas;
-- estudar o livro ritual;
-- descobrir como neutralizar/separar runas e população com segurança.
-
-### Estelar
-
-- estudar peças e diagramas tamaraneanos;
-- compreender fluxo, isolamento e distribuição;
-- comparar B/C com a arquitetura original;
-- investigar a viabilidade de isolar o ramo anterior ao enxerto.
-
-### Corvin
-
-- integrar arquitetura profunda, núcleo e reset;
-- preparar modo de impedir reinício normal da contenção quando a janela segura chegar;
-- Caminhos continua rota provável de fuga depois da intervenção.
-
-Essas são frentes de trabalho, não ordens irrevogáveis.
-
-## Reset e resolução preparada
-
-- ciclo técnico: **120 dias**;
-- restam aproximadamente **90 dias** até a janela de reset, conforme cálculo já estabelecido na investigação;
-- contenção, núcleo e rede humana estão acoplados há cerca de 60 anos;
-- desligamento brusco pode causar refluxo/sobrecarga e dano neurológico à população ligada às runas.
-
-Direção preparada, sujeita a decisões e confirmação em jogo:
-
-1. Ravena neutraliza/desconecta a malha de runas da população;
-2. Estelar desliga/retira B de forma segura;
-3. C é separado usando a arquitetura correta de isolamento;
-4. Corvin age no núcleo durante o reset;
-5. impede reinício normal e redireciona residual;
-6. sobrecarga/destruição permanece contida;
-7. Caminhos é usado para escapar;
-8. o núcleo pode ser destruído dentro da própria contenção;
+1. Ravena neutraliza/desconecta as runas de influência;
+2. Estelar desliga B;
+3. C é separado/desligado na sequência segura;
+4. Corvin atua no núcleo durante a janela do reset;
+5. impedir reinício e redirecionar residual;
+6. provocar sobrecarga;
+7. usar Caminhos para saída quando a contenção permitir;
+8. idealmente o núcleo/instalação é destruído dentro da contenção;
 9. a barreira morre;
-10. a rede do culto fica sem alimentação/ligação.
+10. a rede do culto fica sem alimentação e desconectada.
 
-Isso é uma resolução preparada pelo roteiro, não um resultado obrigatório. Alternativas coerentes continuam válidas.
+A ordem e os intervalos exatos ainda estão em estudo.
 
-## Oposição existente
+### Contingência secreta de Corvin
 
-Não criar nova facção estrutural ou novo mistério principal.
+Se, **depois de liberar a cidade e retirar as pessoas**, a sobrecarga não destruir a instalação, Corvin pretende considerar o colapso geológico preparado:
 
-Continuam possíveis apenas quando legitimamente presentes:
+- afundar o complexo para dentro e para baixo;
+- usar terremoto/ruptura controlada;
+- conduzir magma pelas rotas profundas preparadas;
+- destruir e sepultar o que restar da instalação;
+- minimizar ao máximo risco à superfície e aos envolvidos.
 
-- guardiões e armadilhas tamaraneanos reativados;
-- criaturas sobrenaturais presas em Black Harbor ao longo das décadas;
-- riscos automáticos da instalação, contenção e rede;
-- problemas locais coerentes com a temporada.
+Isso é contingência, não plano principal.
 
-O mantenedor atual não é vilão nem cultista iniciado.
+---
 
-## Intenções e processos persistentes ao fim do capítulo
+# Diretrizes operacionais obrigatórias ao retomar
 
-- Corvin mantém a intenção romântica persistente descrita acima;
-- Ravena não pretende fingir que o vínculo com Corvin voltou ao estágio anterior ao encontro do Dia 11;
-- Estelar continua aberta ao próprio vínculo com Corvin e teve iniciativa privada no Dia 12;
-- Ravena e Estelar continuam autônomas: nenhuma precisa acompanhar o avanço da outra;
-- o trabalho investigativo continua, mas o passeio do Dia 12 não produziu nova descoberta de Black Harbor;
-- Corvin pode futuramente testar o projeto de chaves-anel quando tiver acesso adequado a materiais/forja, mas nada foi construído;
-- o tempo da campanha deve continuar avançando **um dia de cada vez**, condensando rotina e parando em momentos relevantes.
+1. **Auditoria visível das cadeiras** continua obrigatória em cada resposta de jogo:
 
-## Primeira decisão humana aberta
+```text
+[AUDITORIA]
+Corvin → intenção declarada/persistente do Jogador Humano.
+Ravena → intenção própria da cadeira IA.
+Estelar → intenção própria da cadeira IA.
+```
 
-Corvin está em Ridge Road, 18, no começo da noite do Dia 12, depois de entrar no banheiro para se limpar da terra do passeio com Estelar.
+2. Declaração do jogador é intenção de Corvin, nunca resultado automático.
+3. Ravena, Estelar e NPCs decidem independentemente.
+4. Não controlar novas escolhas, falas, pensamentos ou compromissos voluntários de Corvin.
+5. Ainda assim narrar Corvin fisicamente ao executar decisões já declaradas.
+6. Empatia de Ravena percebe emoções, **não pensamentos**.
+7. Não colocar números de ficha em diálogo de personagem.
+8. Mecânica somente quando existe incerteza/oposição real; registrar concisamente ao fim da cena.
+9. Não redescobrir fatos A/B/C/runas já conhecidos.
+10. Não inventar a categoria exata da energia que chega às runas.
+11. Não assumir que cortar C sozinho encerra a contenção.
+12. Romance adulto pode avançar naturalmente sem castidade artificial, mas cada cadeira mantém consentimento e ritmo próprios.
+13. Não sincronizar Corvin↔Ravena, Corvin↔Estelar e Ravena↔Estelar.
+14. Rotina diária pode ser compactada, mas avançar **um dia por vez**.
+15. Parar quando surgir decisão voluntária relevante de Corvin.
+16. Quando o Jogador Humano corrigir uma cena, reconstruir a cena desde o começo com a correção integrada; não acrescentar remendo.
+17. Em conversa pessoal, fazer no máximo uma pergunta importante por vez.
+18. Quando o usuário enviar apenas `.`, continuar a progressão autônoma da cena até surgir decisão significativa de Corvin.
 
-O fechamento de capítulo não executa o restante da noite nem avança para o Dia 13.
+---
 
-A próxima decisão voluntária de Corvin pertence ao Jogador Humano.
+# Próxima retomada
+
+Abrir `livro/020.md` somente quando o jogo continuar.
+
+Retomar **exatamente no fim da noite do Dia 19**, na praça de Black Harbor, após a última dança. Não executar retroativamente o retorno para casa nem avançar automaticamente ao Dia 20 antes da continuação.
