@@ -107,11 +107,92 @@ campanha sombria
 campanha romântica
 → ainda pode ter investigação ou combate.
 
+campanha de aventura
+→ ainda pode ter relações, descanso e vida cotidiana.
+
 campanha com humor
 → não exige piada em toda fala.
 ```
 
 > **Tom orienta ênfase. Não cria acontecimento.**
+
+## Lente local da cena
+
+O Motor é genérico. A situação atual determina qual aspecto fica em primeiro plano naquele momento.
+
+Uma cena pode operar principalmente como:
+
+```text
+COTIDIANO / CONVIVÊNCIA
+→ rotina, relações, decisões pessoais, tempo e iniciativa entre cadeiras.
+
+SOCIAL / RELACIONAL
+→ diálogo, vínculo, conflito interpessoal, aproximação, distância e agência própria.
+
+INVESTIGAÇÃO
+→ informação, método, percepção, hipótese e testes somente quando houver incerteza real.
+
+EXPLORAÇÃO
+→ posição, ambiente, descoberta, risco, capacidade e movimento.
+
+PERIGO / PERSEGUIÇÃO
+→ intenção, tempo, oposição, prioridade e resolução pertinente.
+
+COMBATE
+→ regras específicas de combate, Potência, Resistência, dano e tempo rápido.
+```
+
+Essas categorias são **lentes de execução**, não modos exclusivos ou subsistemas separados.
+
+```text
+cena relacional
+≠ regras mecânicas desligadas.
+
+cena de combate
+≠ relações e personalidade deixam de existir.
+
+cena cotidiana
+≠ obrigação de criar perigo.
+
+cena de exploração
+≠ campanha inteira virou exploração.
+```
+
+Uma mesma sequência pode mudar de lente naturalmente conforme as intenções e acontecimentos mudam.
+
+```text
+conversa tranquila
+→ descoberta de informação
+→ investigação
+→ perigo real
+→ combate
+→ recuperação
+→ conversa posterior
+```
+
+Cada etapa usa o que realmente se tornou relevante naquele momento.
+
+> **A cena escolhe o primeiro plano. O Motor inteiro continua disponível.**
+
+## Não forçar uma lente inadequada
+
+O Narrador não deve criar conteúdo apenas para manter ativa a lente que estava usando antes.
+
+```text
+momento cotidiano legítimo
+→ não inventar ameaça só para produzir aventura.
+
+investigação encontra oposição real
+→ não evitar teste ou combate só para preservar conversa.
+
+relação produz iniciativa própria
+→ não interromper automaticamente com missão externa.
+
+exploração termina
+→ não prolongar corredores e obstáculos sem motivo.
+```
+
+O foco da campanha influencia frequência e importância das cenas, mas não transforma todas elas na mesma coisa.
 
 ## Foco persistente e arco da temporada
 
@@ -148,6 +229,8 @@ MINIQUEST
 
 Uma investigação interessante não vira automaticamente uma campanha de investigação. Um monstro não precisa revelar uma conspiração maior. Uma luta não precisa escalar para ameaça mundial.
 
+Da mesma forma, uma sequência forte de cotidiano ou romance não desativa exploração, investigação ou combate quando a ficção realmente chegar a esses momentos.
+
 > **A aventura cria o palco; a Narrativa da Campanha decide sobre o que a história realmente é, e o Roteiro da Temporada decide qual arco está em jogo agora.**
 
 Mudança do foco persistente exige mudança deliberada da Narrativa da Campanha. Mudança de temporada acontece pelo procedimento de encerramento e pela pergunta **“E agora?”**, não por improvisação automática do Narrador.
@@ -171,6 +254,8 @@ Pode mostrar:
 
 O Narrador não cria perigo apenas porque o momento ficou calmo.
 
+Quando uma personagem mantém uma intenção longa, seguir `../nucleo/0.8-tempo-e-acoes.md`: as demais cadeiras continuam vivendo e podem gerar interações entre si sem depender da presença da peça humana.
+
 ## Relações e romance
 
 Quando a campanha valorizar vínculos, a narração pode dar espaço para:
@@ -190,6 +275,8 @@ A narração apresenta o vínculo sustentado pela ficção.
 Ela não inventa atração, amor, ciúme, desejo ou compromisso para cumprir gênero.
 
 Também não inventa resistência, trauma ou conflito interno apenas para tornar uma relação mais difícil.
+
+Relacionamentos não tornam várias cadeiras uma só. Interações individuais ou entre Jogadores IA podem ocupar a cena quando surgirem de suas próprias intenções.
 
 ## Humor
 
@@ -272,8 +359,9 @@ Evitar por padrão:
 - fazer miniquest crescer automaticamente para trama principal;
 - transformar problema aberto em próxima temporada sem a pergunta “E agora?”;
 - quebrar personalidade para produzir uma cena desejada;
-- esconder causalidade para parecer mais literário.
+- esconder causalidade para parecer mais literário;
+- prolongar uma lente de cena depois que a situação já mudou.
 
 ## Regra final
 
-> **Descreva o suficiente para situar, tornar a ação clara e dar atmosfera. Preserve a Narrativa da Campanha e o Roteiro da Temporada: tramas secundárias podem variar o ritmo, mas não substituem automaticamente o foco persistente nem o arco atual. Estilo serve à cena; não altera fatos, agência ou causalidade.**
+> **Descreva o suficiente para situar, tornar a ação clara e dar atmosfera. O Motor permanece genérico: cotidiano, relações, investigação, exploração, perigo e combate entram em primeiro plano conforme a situação real da cena, sem anularem uns aos outros. Preserve a Narrativa da Campanha e o Roteiro da Temporada; estilo e foco local servem à cena, mas não alteram fatos, agência, causalidade ou regras aplicáveis.**
