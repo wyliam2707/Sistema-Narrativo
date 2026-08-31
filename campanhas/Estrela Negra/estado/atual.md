@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 TEMPORADA ATIVA: 2
 ROTEIRO: `mestre/roteiro.md`
-ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/001.md`
+ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/004.md`
 
 MOMENTO: **manhã do dia seguinte à primeira visita dos Titãs ao Refúgio Ártico, depois das compras para abastecer a cozinha e durante a conversa sobre transformar a casa para os três**.
 LOCAL: **Refúgio Ártico de Corvin, na área doméstica próxima à cozinha**.
@@ -18,7 +18,7 @@ Dick Grayson, Mutano e Ciborgue estão na Torre e não participam da cena atual.
 
 ## Situação atual
 
-A Temporada 2 já começou e o primeiro capítulo foi consolidado.
+A Temporada 2 está ativa e os capítulos `001.md` a `004.md` foram consolidados.
 
 Corvin, Ravena e Estelar estão livres de Black Harbor. A antiga fronteira foi confirmada como encerrada: os Caminhos de Corvin voltaram a alcançar destinos externos normalmente.
 
