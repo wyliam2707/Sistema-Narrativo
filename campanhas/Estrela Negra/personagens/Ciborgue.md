@@ -45,6 +45,8 @@ Pontos de Poder: [6] / [6]
 
 --- Oficina e laboratório técnico dos Titãs: infraestrutura estável para manutenção, fabricação e análise tecnológica; possuir o laboratório não cria automaticamente soluções que Victor ainda não sabe executar.
 
+--- Projetos dos Anéis de Retorno: Corvin entregou a Victor, de presente, os projetos completos usados na criação dos anéis e âncoras de Ravena e Estelar. Victor pode estudá-los livremente, mas reproduzir o sistema integral ainda exige descobrir substitutos para funções ligadas à Forja Primordial e à magia de Corvin.
+
 ## Personalidade e tendências
 
 --- Pragmático, leal e direto; tende a procurar primeiro o que está realmente quebrado antes de discutir teorias mais dramáticas.
@@ -61,7 +63,7 @@ Pontos de Poder: [6] / [6]
 
 --- Continuar desenvolvendo domínio sobre o próprio corpo e tecnologia sem perder a vida pessoal que construiu ao redor deles.
 
---- Entender o suficiente sobre o desaparecimento de Ravena e Estelar para saber se restou algum risco técnico ou sobrenatural imediato para elas ou para a equipe.
+--- Estudar os projetos de Corvin até onde sua própria engenharia permitir, sem presumir que compreender a lógica significa possuir automaticamente os componentes sobrenaturais necessários para reproduzi-la.
 
 ## Medos / limites
 
@@ -89,6 +91,8 @@ Pontos de Poder: [6] / [6]
 
 --- Mutano [um de seus amigos mais próximos; parceiro de jogos, piadas e rotina, mas também alguém em quem confia quando a situação fica séria].
 
+--- Corvin Blackwood [novo parceiro de Ravena e Estelar e colega de interesse técnico. Victor passou horas discutindo engenharia com ele no Refúgio e recebeu seus projetos dos anéis. O vínculo ainda é novo, mas marcado por respeito e curiosidade intelectual].
+
 ### Relacionamentos
 
 --- Vida afetiva dos amigos [Victor se importa principalmente com consentimento, honestidade e estabilidade emocional. Estruturas convencionais ou múltiplas não são problema por si mesmas, e ele não considera que os Titãs precisem aprovar relacionamentos pessoais de seus membros].
@@ -101,7 +105,11 @@ Pontos de Poder: [6] / [6]
 
 --- Titãs: conhece capacidades, rotinas e dinâmica geral de Ravena, Estelar, Dick e Mutano por anos de convivência.
 
---- Corvin Blackwood: no início da Temporada 2, sabe apenas o que tiver sido comunicado aos Titãs antes da primeira interação em cena; não conhece automaticamente natureza, poderes, Ciclo da Vida, Refúgio ou detalhes do relacionamento.
+--- Corvin Blackwood: conheceu Corvin pessoalmente após a libertação de Black Harbor. Sabe que ele ajudou Ravena e Estelar a escapar; que mantém vínculos românticos com as duas e que esses vínculos continuam por escolha fora da influência da cidade; que Corvin não consegue mentir deliberadamente; que sua percepção natural reconhece natureza essencial, origem, linhagem e autoridade herdada de seres vivos sem revelar memórias ou intenções; que Corvin tem 62 anos apesar da aparência jovem; e que passa por um Ciclo da Vida de 30 dias em que uma morte prematura permite retorno no amanhecer seguinte com cabelo cinza e ausência temporária das marcas normais. Victor não sabe que uma segunda morte prematura dentro do mesmo ciclo interrompido pode ser definitiva.
+
+--- Anéis e âncoras: sabe que cada anel de Ravena e Estelar é uma chave limitada a exatamente duas âncoras: a oficina de Corvin e a caixa correspondente no quarto da usuária na Torre. A passagem pode ser aberta de qualquer lugar após cerca de um minuto de concentração, é fisicamente atravessável por outras pessoas enquanto aberta e perde o destino da caixa se essa âncora for destruída.
+
+--- Refúgio Ártico: visitou a residência de Corvin e conhece diretamente a oficina/forja, a existência da biblioteca, cozinha e piscina termal. Sabe que o ninho é área íntima fora dos limites dados aos visitantes.
 
 ## História consolidada relevante
 
@@ -110,3 +118,5 @@ Pontos de Poder: [6] / [6]
 --- Passou por um período em que a nova condição ameaçou definir toda a sua identidade, mas construiu uma vida em que ser Ciborgue é parte de quem é, não a totalidade de quem é.
 
 --- Nos Titãs encontrou uma família capaz de tratá-lo como pessoa e companheiro, não apenas como recurso técnico ou arma pesada.
+
+--- Depois do desaparecimento de Ravena e Estelar em Black Harbor, reencontrou as duas livres, conheceu Corvin, visitou o Refúgio Ártico, passou horas discutindo engenharia com ele e recebeu os projetos completos dos anéis de retorno como presente.
