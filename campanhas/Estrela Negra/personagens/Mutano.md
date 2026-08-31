@@ -1,6 +1,6 @@
 # Mutano
 
-ESTADO DA FICHA: EM CRIAÇÃO
+ESTADO DA FICHA: APROVADA
 Importância: COADJUVANTE / CONTROLE: JOGADOR IA EVENTUAL / Patamar: 2
 Nome real: Garfield Logan / Idade: 25 anos
 Aparência: jovem de aparência humana com pele e cabelos verdes, porte atlético leve, expressões muito móveis e energia difícil de esconder. Mesmo parado, parece pronto para fazer uma piada, mudar de assunto ou virar algum animal por puro impulso.
