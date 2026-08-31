@@ -23,4 +23,8 @@ Os capítulos e o epílogo preservam o cânone detalhado do que aconteceu.
 
 ## Resultado da temporada
 
-Black Harbor deixou de ser uma prisão. A rede de influência foi separada da população e a instalação profunda foi destruída. Corvin, Ravena e Estelar sobreviveram e terminaram a temporada juntos em Ridge Road, 18, agora livres para decidir o que seus vínculos significam fora da influência da cidade.
+A fonte do aprisionamento de Black Harbor foi destruída. A rede de influência foi separada da população e a instalação profunda foi sepultada em rocha fundida sem destruir a cidade.
+
+O ponto final acontece no jardim de Ridge Road, 18: Corvin está ferido e ainda no chão junto à árvore, com Ravena e Estelar ao lado dele. Ele acabou de declarar que ama as duas ao tentar mentir para tranquilizá-las, e nenhuma resposta formal ainda foi dada.
+
+A verificação prática da antiga fronteira e qualquer decisão sobre o que os três farão depois pertencem ao que vier a seguir.
