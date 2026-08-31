@@ -1,9 +1,9 @@
 # Estado Atual
 
-STATUS: TEMPORADA 2 EM PREPARAÇÃO / NÃO INICIADA
+STATUS: TEMPORADA 2 PRONTA PARA START / NÃO INICIADA
 TEMPORADA ATIVA: nenhuma
-TEMPORADA EM PREPARAÇÃO: 2
-ROTEIRO EM PREPARAÇÃO: `mestre/roteiro.md`
+TEMPORADA PRONTA PARA START: 2
+ROTEIRO: `mestre/roteiro.md`
 ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-1/020.md`
 EPÍLOGO MAIS RECENTE: `livro/temporada-1/epilogo.md`
 RESUMO ANTERIOR: `livro/temporada-1/resumo-da-temporada.md`
@@ -128,14 +128,18 @@ A temporada precisa terminar com uma definição relacional suficientemente clar
 
 O planejamento detalhado está em `mestre/roteiro.md`.
 
-## Pendências imediatas antes do START
+## Preparação concluída
 
-- criar/consolidar ficha de Dick Grayson;
-- criar/consolidar ficha de Mutano;
-- criar/consolidar ficha de Ciborgue;
-- revisar consolidações permanentes necessárias nas fichas de Corvin, Ravena e Estelar com aprovação do Jogador Humano;
-- reancorar regras, narrativa, roteiro, estado e fichas relevantes;
-- somente então marcar a Temporada 2 como ATIVA.
+- Direção do Jogador e Diretriz Fechada salvas;
+- Narrativa persistente revisada para remover orientações exclusivas da Temporada 1;
+- Corvin Blackwood — ficha aprovada / Jogador Humano;
+- Ravena — ficha aprovada / Jogador IA;
+- Estelar — ficha aprovada / Jogador IA;
+- Dick Grayson — ficha aprovada / Jogador IA Eventual / Patamar 2;
+- Mutano — ficha aprovada / Jogador IA Eventual / Patamar 2;
+- Ciborgue — ficha aprovada / Jogador IA Eventual / Patamar 2;
+- Motor, Narrativa, Roteiro, Estado, fichas relevantes e Auditoria das Cadeiras reancorados;
+- nenhuma ficção foi avançada durante a preparação.
 
 ## Pendências ficcionais preservadas
 
@@ -148,7 +152,7 @@ O planejamento detalhado está em `mestre/roteiro.md`.
 - projeto antigo de chaves/anéis de retorno ainda não fabricado;
 - sinal tamaraneano automático transmitido na destruição do núcleo, sem destinatário conhecido pelos protagonistas.
 
-Nenhuma dessas pendências foi resolvida por este salvamento.
+Nenhuma dessas pendências foi resolvida pela preparação ou pela reancoragem.
 
 ## Referência histórica da Temporada 1
 
@@ -163,14 +167,14 @@ Resumo e mapa são derivados e nunca substituem ficha, Estado ou capítulo quand
 
 ## Próxima operação
 
-Não continuar a ficção ainda.
+A preparação e a reancoragem da Temporada 2 estão concluídas.
 
-A Direção do Jogador e a Diretriz Fechada da Temporada 2 já foram salvas.
+**Não continuar a ficção até o Jogador Humano dar START.**
 
-Próximo passo de preparação:
+Quando START for dado:
 
-1. criar/consolidar Dick Grayson, Mutano e Ciborgue;
-2. revisar fichas protagonistas persistentes quando necessário;
-3. reancorar;
-4. marcar a Temporada 2 como ATIVA;
-5. continuar exatamente deste jardim, com Corvin ainda no chão.
+1. marcar a Temporada 2 como ATIVA;
+2. restaurar a Auditoria das Cadeiras na primeira janela narrativa;
+3. continuar exatamente deste jardim, com Corvin ainda no chão;
+4. processar Ravena e Estelar como Jogadores IA independentes antes da sentença;
+5. processar Dick, Mutano e Ciborgue somente quando forem operacionalmente relevantes como Jogadores IA Eventuais.
