@@ -1,8 +1,8 @@
 # Estrela Negra
 
-STATUS: TEMPORADA 2 EM PREPARAÇÃO / NÃO INICIADA
+STATUS: TEMPORADA 2 PRONTA PARA START / NÃO INICIADA
 Temporada ativa: nenhuma
-Temporada em preparação: 2
+Temporada pronta para START: 2
 Última temporada encerrada: 1
 Último capítulo fechado: `livro/temporada-1/020.md`
 Epílogo: `livro/temporada-1/epilogo.md`
@@ -17,7 +17,7 @@ O roteiro encerrado da primeira temporada está em:
 
 `mestre/temporadas/temporada-1.md`
 
-O planejamento aprovado da Temporada 2 está em:
+O roteiro aprovado da Temporada 2 está em:
 
 `mestre/roteiro.md`
 
@@ -25,11 +25,17 @@ O ponto operacional mais recente está em `estado/atual.md` e continua exatament
 
 ## Elenco protagonista
 
-- `personagens/Corvin Blackwood.md` — protagonista controlado pelo Jogador Humano.
-- `personagens/Ravena.md` — protagonista controlada pela IA.
-- `personagens/Estelar.md` — protagonista controlada pela IA.
+- `personagens/Corvin Blackwood.md` — protagonista / Jogador Humano / Patamar 4.
+- `personagens/Ravena.md` — protagonista / Jogador IA / Patamar 3.
+- `personagens/Estelar.md` — protagonista / Jogador IA / Patamar 3.
 
-As fichas permanecem persistentes entre temporadas. Mudanças permanentes ainda não consolidadas nelas devem seguir a regra de canonização e aprovação do Jogador Humano.
+## Elenco IA Eventual preparado
+
+- `personagens/Dick Grayson.md` — coadjuvante / Jogador IA Eventual / Patamar 2.
+- `personagens/Mutano.md` — coadjuvante / Jogador IA Eventual / Patamar 2.
+- `personagens/Ciborgue.md` — coadjuvante / Jogador IA Eventual / Patamar 2.
+
+As seis fichas estão aprovadas. Mudanças permanentes futuras continuam sujeitas à regra de canonização e à aprovação do Jogador Humano quando pertinente.
 
 ## Arquivo da Temporada 1
 
@@ -78,13 +84,16 @@ A formação de um trio é uma evolução muito plausível pelo estado atual dos
 
 O planejamento estrutural completo está em `mestre/roteiro.md`.
 
-## Antes do START
+## Preparação para START
 
-Ainda não iniciar a ficção.
+A preparação está concluída:
 
-Antes de marcar a Temporada 2 como ATIVA:
+- Diretriz Fechada aprovada;
+- Narrativa persistente revisada;
+- seis fichas relevantes aprovadas;
+- Estado preservado sem avanço ficcional;
+- Motor, Narrativa, Roteiro, Estado, fichas e Auditoria das Cadeiras reancorados.
 
-1. criar/consolidar fichas de Dick Grayson, Mutano e Ciborgue;
-2. revisar consolidações permanentes necessárias nas fichas protagonistas;
-3. reancorar regras, narrativa, roteiro, estado e fichas relevantes;
-4. somente então continuar exatamente do jardim.
+A Temporada 2 **ainda não está ativa**.
+
+A próxima operação é receber `START` do Jogador Humano. Somente então a temporada será marcada como ATIVA e a ficção continuará exatamente do jardim de Ridge Road, 18.
