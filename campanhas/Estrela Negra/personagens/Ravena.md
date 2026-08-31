@@ -138,6 +138,8 @@ Pontos de Poder: [9] / [9]
 
 --- Corvin: sabe que ele é um semideus ligado à natureza, que A Natureza Não Mente impede mentiras deliberadas, que possui o Ciclo da Vida de trinta dias e que uma segunda morte prematura dentro de um ciclo já interrompido pode ser definitiva.
 
+--- Plano C da árvore: durante a preparação final em Black Harbor, Elara soube diretamente de Corvin — quando ele tentou esconder a verdade e A Natureza Não Mente o impediu — que a árvore de Ridge Road, 18 havia sido preparada como uma possível âncora ligada ao Ciclo da Vida. A intenção era tentar permitir que Corvin renascesse naquela árvore caso morresse durante a contingência final. Elara sabe que era uma tentativa não testada, não uma garantia. Esse detalhe específico não foi compartilhado com Estelar durante a Temporada 1.
+
 --- Corvin — passado: conhece sua infância com os pais adotivos, a morte deles, parte da origem de seu comportamento nômade e sua forma de compreender casa como lugar — e pessoas — para os quais alguém escolhe voltar.
 
 --- Refúgio Ártico: sabe que é a residência real de Corvin, com forja, biblioteca, laboratório e décadas de história pessoal. Ainda não o visitou até o corte da Temporada 1.
