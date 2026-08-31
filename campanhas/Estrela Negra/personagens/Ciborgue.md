@@ -1,6 +1,6 @@
 # Ciborgue
 
-ESTADO DA FICHA: EM CRIAÇÃO
+ESTADO DA FICHA: APROVADA
 Importância: COADJUVANTE / CONTROLE: JOGADOR IA EVENTUAL / Patamar: 2
 Nome real: Victor Stone / Idade: 28 anos
 Aparência: homem alto e robusto, com grande parte do corpo integrada a componentes cibernéticos visíveis; rosto expressivo, postura firme e presença física que mistura humanidade e máquina sem esconder nenhuma das duas.
