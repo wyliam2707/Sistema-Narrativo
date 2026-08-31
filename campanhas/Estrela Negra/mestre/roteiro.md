@@ -1,6 +1,6 @@
 # Roteiro da Temporada 2
 
-Status: PRONTA PARA START / NÃO INICIADA
+Status: ATIVA
 
 A Temporada 1 foi encerrada e arquivada em:
 
@@ -10,17 +10,17 @@ Sua unidade histórica está em:
 
 `livro/temporada-1/`
 
-A Temporada 2 ainda não começou em ficção. A Direção do Jogador, o problema da temporada, a Diretriz Fechada, as fichas necessárias e a reancoragem operacional estão concluídos. O roteiro aguarda somente o START do Jogador Humano.
+A Temporada 2 está ativa. A Direção do Jogador, o problema da temporada e a Diretriz Fechada permanecem válidos; o ponto de continuação exato fica em `estado/atual.md`.
 
 ## Direção do Jogador
 
 A Temporada 2 deve ser curta e íntima.
 
-Ela começa exatamente onde a Temporada 1 terminou: Corvin ainda está no chão do jardim de Ridge Road, 18, ferido mas vivo, com Ravena e Estelar ao lado dele e a declaração de amor ainda sem resposta formal.
+Ela começou exatamente onde a Temporada 1 terminou: Corvin ainda no chão do jardim de Ridge Road, 18, ferido mas vivo, com Ravena e Estelar ao lado dele e a declaração de amor ainda sem resposta formal.
 
-Os Titãs entram em contato quase imediatamente depois desse ponto.
+Os Titãs retomaram contato quase imediatamente depois desse ponto.
 
-Agora Ravena e Estelar voltam a ter acesso às próprias vidas, amigos, responsabilidades e escolhas fora de Black Harbor. Corvin também possui sua própria vida, seu Refúgio Ártico, seus interesses, viagens e independência.
+Agora Ravena e Estelar voltaram a ter acesso às próprias vidas, amigos, responsabilidades e escolhas fora de Black Harbor. Corvin também possui sua própria vida, seu Refúgio Ártico, seus interesses, viagens e independência.
 
 Corvin quer incluir Ravena e Estelar na vida dele sem absorvê-las ou exigir que abandonem a vida delas. Ravena e Estelar também não precisam abrir mão dos Titãs, de seus espaços, rotinas ou autonomia para continuar com Corvin.
 
@@ -54,20 +54,19 @@ O problema não é descobrir se os sentimentos anteriores eram falsos. Eles já 
 
 O problema é transformar sentimentos e vínculos já existentes em escolhas conscientes, integrá-los às vidas independentes dos três e decidir o que será assumido ou compartilhado com pessoas próximas.
 
-## Situação inicial
+## Situação inicial histórica
 
-A cena inicial permanece exatamente no ponto final de `livro/temporada-1/020.md` e `estado/atual.md`:
+A cena inicial partiu exatamente do ponto final de `livro/temporada-1/020.md`:
 
-- Corvin está no chão do jardim de Ridge Road, 18;
-- está ferido, vivo e iniciando recuperação pela Dádiva da Terra;
-- Kori está ao lado dele;
-- Ravena está ajoelhada do outro lado;
-- Corvin declarou que ama as duas ao tentar mentir para tranquilizá-las;
-- nenhuma resposta formal de Ravena ou Estelar foi estabelecida;
-- a antiga fronteira ainda não foi testada em cena após a destruição;
-- nenhum retorno ao quarto, decisão sobre Ridge Road ou escolha de continuar morando juntos aconteceu depois do colapso.
+- Corvin estava no chão do jardim de Ridge Road, 18;
+- estava ferido, vivo e iniciando recuperação pela Dádiva da Terra;
+- Kori estava ao lado dele;
+- Ravena estava ajoelhada do outro lado;
+- Corvin havia declarado que ama as duas ao tentar mentir para tranquilizá-las;
+- nenhuma resposta formal de Ravena ou Estelar havia sido estabelecida;
+- a antiga fronteira ainda não tinha sido testada em cena após a destruição.
 
-A Temporada 2 começa literalmente no segundo seguinte.
+Esse estado foi superado pelos acontecimentos já consolidados em `livro/temporada-2/001.md` a `004.md`.
 
 ## Foco aplicado
 
@@ -96,8 +95,8 @@ Não existe prazo apocalíptico ou antagonista estrutural principal nesta tempor
 
 Dois movimentos independentes existem:
 
-1. **Os Titãs retomam contato quase imediatamente.** A vida de Ravena e Estelar não ficou congelada enquanto estavam em Black Harbor.
-2. **Responsabilidades normais retornam.** Ravena e Estelar possuem vida com os Titãs; Corvin possui sua própria vida, Refúgio, interesses e tendência nômade.
+1. **Os Titãs retomaram contato.** A vida de Ravena e Estelar não ficou congelada enquanto estavam em Black Harbor.
+2. **Responsabilidades normais retornaram.** Ravena e Estelar possuem vida com os Titãs; Corvin possui sua própria vida, Refúgio, interesses e tendência nômade.
 
 Esses processos fornecem pressão natural para que o vínculo saia do estado de exceção e encontre uma forma praticável.
 
@@ -116,6 +115,28 @@ Esses processos fornecem pressão natural para que o vínculo saia do estado de 
 11. Como pequenas responsabilidades, missões ou separações temporárias afetam uma relação ainda em definição?
 12. Que definição clara precisa existir para que a Temporada 2 termine?
 
+## Progresso consolidado até o Capítulo 004
+
+Já resolvido ou fortemente estabelecido em cena:
+
+- Ravena e Estelar responderam formalmente que também amam Corvin;
+- os vínculos Corvin–Ravena e Corvin–Estelar continuaram conscientemente depois da libertação;
+- Ravena e Estelar passaram dois dias na Torre por escolha e depois voltaram ao Refúgio também por escolha;
+- Dick, Mutano e Ciborgue conheceram Corvin e sabem da existência dos vínculos românticos com as duas;
+- os Titãs conheceram o Refúgio e foram integrados inicialmente à vida pessoal de Corvin;
+- Corvin explicitou que não quer obrigar Ravena e Estelar a escolher entre a família dos Titãs e a relação com ele;
+- Ravena e Estelar aceitaram a ideia de uma família maior em vez de duas vidas concorrentes;
+- a Torre continua sendo casa para Ravena e Estelar e o Refúgio passou a ser tratado também como casa escolhida;
+- Ravena e Estelar receberam anéis/chaves com duas âncoras de retorno, tornando a circulação entre suas vidas uma escolha prática, não uma dependência de Corvin;
+- Corvin começou a oferecer o Refúgio como espaço a ser transformado pelos três, não apenas como sua casa onde elas são visitantes.
+
+Ainda aberto para a condição final da temporada:
+
+- um nome/definição suficientemente clara para o vínculo compartilhado dos três;
+- limites, ritmos e liberdades que ainda precisem ser verbalizados em cena;
+- decidir se há algo mais que o círculo próximo precisa saber neste momento e o que permanece privado;
+- consolidar a integração doméstica sem transformar projeto futuro em fato já executado.
+
 ## Diretriz Fechada
 
 ### 1. Reação à declaração
@@ -126,15 +147,12 @@ Estelar é emocionalmente aberta e tende a expressar carinho e atração diretam
 
 Ravena sente intensamente, mas tende a admitir sentimentos com mais dificuldade. Sua ficha permite que aceite uma relação a três quando houver sentimento real, sinceridade e consentimento, embora ciúme, insegurança e medo de rejeição possam tornar isso emocionalmente difícil.
 
-**Resolução possível:** cada uma assume, em algum momento da temporada, uma posição clara sobre o que sente e deseja fazer com o vínculo.
-
-**Obstáculos:** intensidade da confissão, Corvin ferido, personalidade reservada de Ravena e retorno abrupto das responsabilidades externas.
+**Resolução em andamento:** as duas já disseram claramente que amam Corvin. Isso resolve a reação à declaração, mas não define sozinho a estrutura compartilhada final.
 
 **Limites:**
-- nenhuma resposta é predeterminada;
-- nenhuma precisa responder no mesmo momento da outra;
-- não existe teste para decidir sentimento voluntário;
-- a resposta de uma não obriga a resposta da outra.
+- nenhuma resposta foi predeterminada;
+- a resposta de uma não obrigou a resposta da outra;
+- não existe teste para decidir sentimento voluntário.
 
 ### 2. Continuidade fora de Black Harbor
 
@@ -142,7 +160,7 @@ Ravena sente intensamente, mas tende a admitir sentimentos com mais dificuldade.
 
 A Temporada 1 estabeleceu que a influência de Black Harbor amplificava vínculos reais em vez de fabricar sentimentos do nada.
 
-**Resolução possível:** os vínculos continuam conscientemente porque as personagens escolhem agir sobre aquilo que já existe.
+**Resolução consolidada:** os vínculos continuaram conscientemente porque as personagens escolheram agir sobre aquilo que já existia depois que podiam partir.
 
 **Limite:** não reabrir artificialmente a pergunta “será que tudo era falso?” apenas para produzir drama.
 
@@ -158,9 +176,9 @@ RAVENA ↔ ESTELAR
 
 Corvin ama Ravena e Estelar romanticamente.
 
-Ravena e Estelar possuem amizade/família profundamente íntima, mas nenhum romance entre elas foi estabelecido até o final da Temporada 1.
+Ravena e Estelar possuem amizade/família profundamente íntima, mas nenhum romance entre elas foi estabelecido.
 
-**Resolução possível:** pode surgir uma estrutura afetiva a três em que Corvin mantenha relação romântica com ambas e Ravena–Estelar permaneça uma relação íntima de amizade/família; isso ainda pode ser reconhecido pelos três como uma família ou relacionamento compartilhado.
+**Resolução possível:** pode existir uma estrutura afetiva a três em que Corvin mantenha relação romântica com ambas e Ravena–Estelar permaneça uma relação íntima de amizade/família; isso ainda pode ser reconhecido pelos três como uma família ou relacionamento compartilhado.
 
 Se algo romântico surgir entre Ravena e Estelar, deve nascer de decisões delas em jogo.
 
@@ -170,7 +188,7 @@ Se algo romântico surgir entre Ravena e Estelar, deve nascer de decisões delas
 
 **Verdade:** nenhuma das fichas sustenta posse ou imposição.
 
-Corvin só considera válido um relacionamento múltiplo quando todos sabem no que estão entrando e podem aceitar ou rejeitar livremente.
+Corvin só considera válido um relacionamento múltiplo quando todos sabem no que estão entrando e podem aceitar ou rejeitar isso livremente.
 
 Estelar considera relacionamentos múltiplos compatíveis com sua cultura quando existe escolha, afeto e respeito.
 
@@ -185,9 +203,9 @@ Ravena pode sentir ciúme e insegurança, mas não considera isso direito de con
 
 ### 5. Casa e convivência
 
-**Verdade:** Corvin possui o Refúgio Ártico. Ravena e Estelar possuem vida e acesso aos Titãs. Ridge Road, 18 continua existindo, mas seu significado pós-libertação ainda não foi decidido.
+**Verdade atual:** Corvin possui o Refúgio Ártico. Ravena e Estelar possuem vida e acesso aos Titãs. Ridge Road, 18 continua existindo, mas seu significado pós-libertação ainda não foi decidido.
 
-**Resolução possível:** mais de uma casa pode continuar existindo. Refúgio Ártico, instalações dos Titãs e Ridge Road podem ter funções diferentes.
+A Torre e o Refúgio já foram aceitos em cena como casas que não precisam competir. Os anéis criados por Corvin reforçam essa integração prática ao permitir retorno para a oficina ou para as caixas guardadas nos quartos das duas na Torre.
 
 **Limite:** estar juntos não significa escolher uma única residência nem abandonar casas anteriores.
 
@@ -197,7 +215,7 @@ Ravena pode sentir ciúme e insegurança, mas não considera isso direito de con
 
 Durante a Temporada 1, Corvin passou a pensar em pessoas como razões para querer voltar para casa.
 
-**Resolução possível:** Ravena e Estelar podem conhecer gradualmente o Refúgio, rotina, trabalhos e partes da vida anterior de Corvin.
+**Progresso consolidado:** Ravena e Estelar já conheceram o Refúgio, dormiram ali por escolha e começaram a participar de sua transformação. Kori propôs um solário; Ravena quer refazer a biblioteca. Nenhuma obra futura está concluída ainda.
 
 **Limite:** quando convidar, o que mostrar e que espaço oferecer continuam sendo escolhas de Corvin controladas pelo Jogador Humano.
 
@@ -205,7 +223,7 @@ Durante a Temporada 1, Corvin passou a pensar em pessoas como razões para quere
 
 **Verdade:** os Titãs são família escolhida de Ravena e Estelar. Elas não devem simplesmente desaparecer dessa vida por causa de Corvin.
 
-**Resolução possível:** Corvin conhece esse círculo e descobre onde se encaixa nele enquanto parceiro delas.
+**Progresso consolidado:** Corvin conheceu Dick, Mutano e Ciborgue, visitou a Torre, recebeu os três no Refúgio e declarou que prefere integrar as famílias a criar uma escolha entre elas.
 
 **Limites:**
 - namoro não equivale a recrutamento;
@@ -220,19 +238,7 @@ Corvin não consegue mentir deliberadamente, mas isso não o obriga a oferecer e
 
 Ravena tende à privacidade; Estelar tende à franqueza.
 
-**Resolução possível:** informação é revelada em camadas conforme relações e circunstâncias justificarem.
-
-Exemplos possíveis de camadas:
-
-```text
-“Corvin estava conosco em Black Harbor.”
-↓
-percepção de intimidade
-↓
-definição do relacionamento quando ela existir
-↓
-informações pessoais mais profundas quando houver razão para compartilhá-las
-```
+**Progresso consolidado:** os Titãs já sabem da relação, idade de Corvin, parte do Ciclo da Vida, natureza de sua percepção e incapacidade de mentir, além de terem conhecido o Refúgio. A vulnerabilidade definitiva de uma segunda morte prematura no mesmo ciclo não foi revelada a eles.
 
 **Limites:**
 - não usar A Natureza Não Mente como máquina de exposição automática;
@@ -240,34 +246,23 @@ informações pessoais mais profundas quando houver razão para compartilhá-las
 
 ### 9. Reação de Dick, Mutano e Ciborgue
 
-**Verdade:** eles são família de Ravena e Estelar e naturalmente terão interesse no desaparecimento, retorno e na pessoa nova que entrou profundamente na vida das duas.
+**Verdade:** eles são família de Ravena e Estelar e naturalmente tiveram interesse no desaparecimento, retorno e na pessoa nova que entrou profundamente na vida das duas.
 
-As fichas de Dick Grayson, Mutano e Ciborgue estão aprovadas como `JOGADOR IA EVENTUAL / Patamar 2` e são a fonte operacional para suas decisões e reações.
+As fichas de Dick Grayson, Mutano e Ciborgue continuam sendo a fonte operacional para suas decisões e reações.
 
-As reações específicas devem nascer dessas fichas, não de improvisação genérica.
-
-**Limites já fechados:**
-- nenhum deles será transformado artificialmente em intolerante ao relacionamento apenas para gerar conflito;
-- também não precisam aceitar ou compreender tudo imediatamente;
-- cada um reage segundo personalidade, conhecimento e relação própria com Ravena e Estelar.
+**Progresso consolidado:** os três reagiram sem intolerância artificial, respeitaram a autonomia das duas, conheceram Corvin e passaram um dia no Refúgio. Victor estabeleceu forte interesse técnico; Garfield respondeu com curiosidade e humor; Dick observou a integração e respeitou as escolhas das duas.
 
 ### 10. Informações pessoais sensíveis
 
-**Verdade:** os Titãs já conhecem muito de Ravena e Estelar, mas Corvin é novo para eles.
+**Verdade:** os Titãs já conhecem muito de Ravena e Estelar, mas Corvin ainda é relativamente novo para eles.
 
-Semideus da Natureza, Ciclo da Vida, vulnerabilidade após morte prematura, riqueza, extensão do Refúgio e alcance completo de seus poderes não são automaticamente conhecimento dos Titãs.
-
-**Resolução possível:** Corvin escolhe gradualmente o que revelar. Ravena e Estelar podem aconselhar, mas não revelar segredos dele sem autoridade para isso.
-
-O mesmo princípio vale em sentido contrário.
-
-**Limite:** amizade ou relacionamento não concede acesso automático a toda informação privada.
+**Limite atual:** não promover automaticamente a conhecimento deles o segredo da segunda morte prematura definitiva nem qualquer informação pessoal que Corvin ainda não tenha escolhido compartilhar.
 
 ### 11. Vida normal como teste
 
 **Verdade:** Ravena e Estelar possuem responsabilidades com os Titãs. Corvin possui interesses, viagens e uma vida independente.
 
-**Resolução possível:** pequenas patrulhas, missão simples, treino, compromissos diferentes, noites separadas ou deslocamentos podem mostrar como a relação funciona quando nem todos estão disponíveis ao mesmo tempo.
+**Progresso consolidado:** os dois dias separados, a volta voluntária ao Refúgio, a visita dos Titãs, compras, comida, sono e planejamento doméstico já mostraram a relação funcionando fora do estado de exceção de Black Harbor.
 
 **Limites:**
 - pequenas aventuras são variação de ritmo, não arco secreto;
@@ -305,11 +300,11 @@ Mas a temporada não pode terminar novamente em “não sabemos o que somos”.
 Com base nos sentimentos e comportamentos já estabelecidos:
 
 - Corvin ama as duas e aceita relacionamentos múltiplos apenas com conhecimento e liberdade de todos;
-- Ravena possui sentimento, desejo, confiança e vínculo forte com Corvin e sua própria ficha permite uma relação a três quando houver sinceridade, consentimento e sentimento real;
-- Estelar possui vínculo romântico forte com Corvin e considera relações múltiplas compatíveis com sua cultura quando escolhidas livremente;
-- Ravena e Estelar já possuem amizade profunda e confiança mútua.
+- Ravena ama Corvin, possui desejo, confiança e vínculo forte com ele e sua ficha permite uma relação a três quando houver sinceridade, consentimento e sentimento real;
+- Estelar ama Corvin e considera relações múltiplas compatíveis com sua cultura quando escolhidas livremente;
+- Ravena e Estelar possuem amizade profunda e confiança mútua.
 
-Portanto, uma estrutura de trio é **muito plausível e provavelmente natural** se as decisões durante a temporada continuarem coerentes com o desenvolvimento anterior.
+Portanto, uma estrutura de trio continua **muito plausível e provavelmente natural** se as decisões durante a temporada seguirem coerentes com o desenvolvimento atual.
 
 Isso é tendência narrativa baseada no estado atual, não resultado obrigatório.
 
@@ -317,18 +312,21 @@ Isso é tendência narrativa baseada no estado atual, não resultado obrigatóri
 
 Podem surgir, quando naturais:
 
-- confirmação prática de que a antiga fronteira realmente deixou de funcionar;
-- retorno dos Titãs ao contato;
-- apresentação de Corvin;
-- visita ao Refúgio Ártico;
 - pequenas patrulhas ou missões;
 - treino;
 - cozinhar, descansar, viajar e reorganizar rotina;
-- situações sociais em que amigos percebam gradualmente a natureza dos vínculos;
+- situações sociais em que amigos percebam gradualmente novos aspectos dos vínculos;
 - momentos individuais entre cada par;
 - momentos compartilhados que testem o significado de “nós três”.
 
-Nenhuma dessas variações é cena obrigatória nem deve substituir decisões emergentes das personagens.
+Já aconteceram e não precisam ser repetidos como obrigação:
+
+- confirmação prática de que a antiga fronteira deixou de funcionar;
+- retorno dos Titãs ao contato;
+- apresentação de Corvin;
+- primeira visita ao Refúgio Ártico.
+
+Nenhuma variação é cena obrigatória nem deve substituir decisões emergentes das personagens.
 
 ## Condição de encerramento
 
@@ -336,31 +334,12 @@ A Temporada 2 termina quando Corvin, Ravena e Estelar tiverem chegado, por decis
 
 A temporada pode então encerrar com a relação preparada para enfrentar problemas externos maiores em uma Temporada 3.
 
-## Preparação concluída
+## Estado operacional atual
 
-As dependências de criação e consolidação de fichas foram concluídas:
+A temporada permanece **ATIVA**.
 
-- Corvin Blackwood — ficha aprovada / Jogador Humano;
-- Ravena — ficha aprovada / Jogador IA;
-- Estelar — ficha aprovada / Jogador IA;
-- Dick Grayson — ficha aprovada / Jogador IA Eventual;
-- Mutano — ficha aprovada / Jogador IA Eventual;
-- Ciborgue — ficha aprovada / Jogador IA Eventual.
+O ponto de continuação, presentes, conhecimentos atuais, pendências e último fato estabelecido estão em:
 
-A Narrativa persistente foi revisada e o Motor, a Narrativa, este Roteiro, o Estado, as fichas relevantes e a Auditoria das Cadeiras foram reancorados.
+`estado/atual.md`
 
-Nenhuma cena foi avançada durante a preparação.
-
-## START
-
-A Temporada 2 está pronta, mas ainda não está ativa.
-
-Aguardar o comando `START` do Jogador Humano.
-
-Somente depois desse comando:
-
-1. marcar a Temporada 2 como ATIVA;
-2. continuar exatamente do jardim de Ridge Road, 18, com Corvin ainda no chão;
-3. processar Corvin, Ravena e Estelar como cadeiras independentes na primeira janela;
-4. restaurar a Auditoria visível na narrativa;
-5. processar Dick, Mutano e Ciborgue apenas quando forem operacionalmente relevantes como Jogadores IA Eventuais.
+Não executar novamente START e não retornar à situação inicial. Continuar somente depois da reancoragem operacional do fechamento de capítulo.
