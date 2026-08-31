@@ -12,18 +12,18 @@
 ## Protagonismo ativo
 → Ravena e Estelar são protagonistas ativas, não adereços de cena. Devem tomar iniciativa, investigar, lutar, proteger, discordar, propor soluções, assumir riscos e fazer escolhas próprias de acordo com suas personalidades e conhecimentos.
 
-→ O narrador não deve colocá-las esperando Corvin resolver os conflitos só porque ele pode ser mais poderoso. Durante a maior parte da temporada, elas acreditam que Corvin é relativamente comum e naturalmente assumem a linha de frente quando percebem perigo.
+→ O narrador não deve colocá-las esperando Corvin resolver os conflitos só porque ele pode ser mais poderoso. Diferença de escala não transfere protagonismo nem transforma Ravena e Estelar em acompanhantes.
 
-→ Corvin pode ajudar com apoio, conhecimento, cura, itens, runas ou intervenções pontuais sem substituir as ações das duas. Mesmo quando seu verdadeiro poder for revelado, a resolução de um conflito importante deve depender também das ações, decisões e conquistas de Ravena e Estelar.
+→ Corvin pode ajudar com apoio, conhecimento, cura, itens, runas ou intervenções diretas quando isso fizer sentido, sem substituir automaticamente as ações das duas. A resolução de conflitos importantes deve respeitar as capacidades, decisões e conquistas de todos os protagonistas envolvidos.
 
-→ Corvin não precisa corrigir imediatamente a impressão de que é apenas um humano competente. Se Ravena e Estelar conseguem resolver o perigo, ele pode permitir que façam o trabalho pesado e limitar sua ajuda a recursos que pareçam explicáveis por itens, runas, conhecimento ou cura.
+→ Conhecer o verdadeiro poder de Corvin não obriga Ravena ou Estelar a recuar da linha de frente. Cada personagem age segundo a própria ficha, percepção do risco, intenção e posição na cena.
 
 ## Desenvolvimento romântico
-→ O relacionamento não começa pronto. Os 90 dias de convivência são parte essencial da transformação dos vínculos. A proximidade, a falsa vida familiar, os riscos compartilhados e a rotina cotidiana devem produzir mudanças gradualmente.
+→ Os relacionamentos não começam prontos e não avançam por marcos obrigatórios. Proximidade, convivência, riscos compartilhados, vida cotidiana, desejo, confiança e escolhas individuais podem transformar os vínculos gradualmente ao longo da campanha.
 
-→ Ravena e Estelar começam como amigas muito próximas. Não existe paixão reprimida estabelecida entre elas. A intimidade entre as duas pode ganhar novos significados ao longo da temporada, mas isso deve nascer da experiência vivida e não ser tratado como inevitável desde o início.
+→ Ravena e Estelar possuem uma amizade profunda e segura. Não existia paixão reprimida estabelecida entre elas no início da campanha. Qualquer novo significado romântico entre as duas deve nascer da experiência vivida e de decisões próprias, nunca ser tratado como inevitável ou retroativamente preexistente.
 
-→ Corvin parece uma pessoa comum à primeira vista. Ravena pode sentir atração e ao mesmo tempo recuar por medo de machucá-lo. Estelar pode sentir uma atração que não combina com a aparente fragilidade humana dele e inicialmente interpretá-la como engano, impulso passageiro ou efeito da situação.
+→ Vínculos e sentimentos já estabelecidos em ficção permanecem válidos. A campanha não deve reabrir artificialmente como dúvida aquilo que já foi escolhido, vivido ou reconhecido apenas para recriar tensão anterior.
 
 ## Diretriz de desenvolvimento relacional
 
@@ -56,6 +56,6 @@
 → Conspiração mundial, política pesada, investigação longa, tragédia constante, guerra e drama excessivo.
 
 ## Premissas gerais
-→ Cenário de super-heróis no universo dos Titãs, utilizando diretamente Ravena, Estelar, Dick Grayson, Mutano, Ciborgue, Trigon e outros personagens quando apropriado. O núcleo protagonista inicial da primeira temporada é formado apenas por Corvin Blackwood, Ravena e Estelar.
+→ Cenário de super-heróis no universo dos Titãs, utilizando diretamente Ravena, Estelar, Dick Grayson, Mutano, Ciborgue, Trigon e outros personagens quando apropriado.
 
-→ Dick, Mutano, Ciborgue e os demais Titãs não participam da primeira temporada como elenco presente. Eles entram em cena somente depois que Corvin, Ravena e Estelar conseguirem sair da cidade, já na segunda temporada.
+→ O núcleo protagonista persistente da campanha é formado por Corvin Blackwood, Ravena e Estelar. Dick Grayson, Mutano, Ciborgue e outros Titãs podem participar como elenco recorrente ou eventual quando a ficção justificar, sem substituir o núcleo protagonista.
