@@ -1,11 +1,12 @@
 # Estrela Negra
 
-STATUS: TEMPORADA 1 ENCERRADA / AGUARDANDO TEMPORADA 2
+STATUS: TEMPORADA 2 EM PREPARAÇÃO / NÃO INICIADA
 Temporada ativa: nenhuma
+Temporada em preparação: 2
 Última temporada encerrada: 1
 Último capítulo fechado: `livro/temporada-1/020.md`
 Epílogo: `livro/temporada-1/epilogo.md`
-Resumo da temporada: `livro/temporada-1/resumo-da-temporada.md`
+Resumo da temporada anterior: `livro/temporada-1/resumo-da-temporada.md`
 Mapa de eventos: `livro/temporada-1/mapa-de-eventos.md`
 
 ## Identidade
@@ -16,9 +17,11 @@ O roteiro encerrado da primeira temporada está em:
 
 `mestre/temporadas/temporada-1.md`
 
-`mestre/roteiro.md` permanece sem temporada ativa até a nova Direção do Jogador ser convertida em roteiro conforme `regras-basicas/CRIACAO-DE-TEMPORADA.md`.
+O planejamento aprovado da Temporada 2 está em:
 
-O ponto operacional mais recente está em `estado/atual.md`.
+`mestre/roteiro.md`
+
+O ponto operacional mais recente está em `estado/atual.md` e continua exatamente no jardim de Ridge Road, 18, com Corvin ainda no chão após o colapso e a declaração de amor sem resposta formal.
 
 ## Elenco protagonista
 
@@ -45,20 +48,43 @@ Capítulos e epílogo preservam o cânone detalhado. Resumo e mapa são derivado
 
 ## Encerramento da Temporada 1
 
-Black Harbor foi libertada.
-
-A rede de influência foi separada da população, B e C foram isolados, e a instalação profunda foi destruída depois que o núcleo resistiu à sobrecarga inicial e Corvin executou a contingência geológica.
+Black Harbor deixou de ser uma prisão em sua fonte estrutural: a rede de influência foi separada da população, B e C foram isolados e a instalação profunda foi destruída depois que o núcleo resistiu à sobrecarga inicial e Corvin executou a contingência geológica.
 
 O final completo está em `livro/temporada-1/020.md`.
 
-A fotografia narrativa do resultado está em `livro/temporada-1/epilogo.md`; a fotografia operacional atual permanece em `estado/atual.md`.
+A fotografia narrativa está em `livro/temporada-1/epilogo.md`; a fotografia operacional atual permanece em `estado/atual.md`.
 
-## Próxima etapa
+A confirmação prática pós-colapso da antiga fronteira ainda não foi executada em cena e pertence ao futuro da ficção.
 
-Não iniciar automaticamente a Temporada 2 a partir de um gancho aberto.
+## Temporada 2 — direção aprovada
 
-Primeiro obter a nova **Direção do Jogador** e seguir a criação de temporada.
+A Temporada 2 será curta e íntima.
 
-Para estruturar a Temporada 2, usar como base rápida `livro/temporada-1/resumo-da-temporada.md` e o epílogo; consultar `mapa-de-eventos.md` quando a cronologia importar e os capítulos completos quando for necessário recuperar detalhe canônico.
+Ela começa literalmente no segundo seguinte ao final da Temporada 1.
 
-Depois de o roteiro da Temporada 2 estar pronto e as fontes necessárias consolidadas, reancorar o sistema e somente então iniciar a nova ficção.
+O foco é liberdade, escolha, definição relacional e integração de vidas:
+
+- reação à declaração de Corvin;
+- continuidade consciente dos vínculos fora de Black Harbor;
+- possível definição de uma relação a três sem sincronizar os três vínculos;
+- integração entre a vida de Corvin e a vida de Ravena e Estelar com os Titãs;
+- casa, convivência e espaço individual;
+- o que contar aos amigos, para quem e quando;
+- revelação gradual de informações pessoais;
+- pequenas aventuras apenas como variação de ritmo;
+- definição relacional clara antes do encerramento.
+
+A formação de um trio é uma evolução muito plausível pelo estado atual dos vínculos, mas não é resultado predeterminado.
+
+O planejamento estrutural completo está em `mestre/roteiro.md`.
+
+## Antes do START
+
+Ainda não iniciar a ficção.
+
+Antes de marcar a Temporada 2 como ATIVA:
+
+1. criar/consolidar fichas de Dick Grayson, Mutano e Ciborgue;
+2. revisar consolidações permanentes necessárias nas fichas protagonistas;
+3. reancorar regras, narrativa, roteiro, estado e fichas relevantes;
+4. somente então continuar exatamente do jardim.
