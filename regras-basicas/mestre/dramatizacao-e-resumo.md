@@ -45,7 +45,7 @@ Resumo não apaga consequência, prazo ou informação importante.
 
 Uma intenção pode cobrir horas ou dias conforme `../nucleo/0.8-tempo-e-acoes.md`.
 
-Se a intenção já autoriza continuar e nenhuma nova decisão imediata surgir, o Narrador pode condensar o período.
+Se a intenção já autoriza continuar e nenhuma nova decisão relevante surgir, o Narrador pode condensar o período.
 
 Exemplo:
 
@@ -55,7 +55,7 @@ JOGADOR
 
 NARRADOR
 → julga a intenção.
-→ nada relevante exige decisão imediata.
+→ nada relevante cria uma nova escolha.
 → resume a tarde até o ponto permitido.
 ```
 
@@ -63,34 +63,41 @@ O resumo não significa que todo período declarado precisa necessariamente ser 
 
 Se o objetivo terminar antes, a sentença pode parar antes.
 
-## Eventos pendentes durante o resumo
+## Nova escolha relevante encerra o resumo
 
-Um acontecimento pode surgir durante uma intenção longa sem obrigar o Narrador a devolver imediatamente o foco à cadeira humana.
+O Narrador não pode resumir por cima de um acontecimento que ofereça à cadeira humana uma escolha voluntária significativa capaz de mudar sua continuidade.
 
-```text
-mensagem recebida
-convite sem urgência
-recado deixado
-pedido que admite espera
-notícia disponível para consulta posterior
-```
-
-Quando esse acontecimento não bloqueia a intenção atual, não exige reação imediata e não desaparecerá antes do próximo ponto natural de decisão:
+O critério não é urgência.
 
 ```text
-→ estabelecer ou registrar como pendência
-→ não inventar resposta da personagem
-→ continuar o resumo ou as cenas das outras cadeiras
+fato irrelevante para decidir
+→ continuar o resumo.
+
+fato cria escolha humana relevante
+→ PARAR.
 ```
 
-A existência de uma opção não obriga a abrir uma nova janela humana.
+Isso inclui acontecimentos sociais, afetivos e cotidianos quando realmente mudam as opções da personagem.
+
+Exemplos:
 
 ```text
-PODE responder agora
-≠ PRECISA decidir agora
+mensagem pessoal relevante
+→ pode levar a responder, procurar alguém, mudar o plano ou continuar como estava.
+→ parar.
+
+convite significativo
+→ aceitar, recusar, negociar ou alterar a intenção pertence ao jogador.
+→ parar.
+
+nova informação importante
+→ manter ou revisar o plano pertence ao jogador.
+→ parar.
 ```
 
-Seguir `../nucleo/0.8-tempo-e-acoes.md`.
+O Narrador não escolhe automaticamente que a personagem humana ignora algo apenas porque sua intenção anterior era longa.
+
+> **Resumo pode atravessar tempo; não pode atravessar uma nova escolha humana.**
 
 ## Processos registrados
 
@@ -109,9 +116,8 @@ Enquanto nada exige nova decisão, a campanha pode avançar sem dramatizar cada 
 Quando o prazo ou uma nova situação tornar essa personagem relevante novamente:
 
 ```text
-→ parar o avanço aplicável quando uma decisão realmente for necessária
 → cadeira responsável assume
-→ nova declaração
+→ forma nova intenção quando necessário
 ```
 
 ## Prazos interrompem resumo
@@ -141,7 +147,7 @@ O mesmo vale para:
 
 - tempestade registrada;
 - compromisso;
-- chegada de aliado quando sua presença exige decisão imediata;
+- chegada de aliado;
 - entrada de inimigo;
 - estágio de plano adversarial;
 - condição que muda no tempo;
@@ -152,69 +158,82 @@ O mesmo vale para:
 Quando um resumo alcança o momento em que uma personagem eventual precisa escolher algo:
 
 ```text
-RESUMO PODE CONTINUAR
-→ personagem torna-se relevante
-→ JOGADOR IA EVENTUAL assume
-→ forma sua própria intenção
+PERSONAGEM EVENTUAL
+→ cadeira correspondente decide.
 ```
 
-A escolha dessa personagem não exige automaticamente interromper a cadeira humana.
+A nova intenção dessa personagem pode continuar sendo processada sem devolver automaticamente o foco ao Jogador Humano.
 
-Somente parar para o Jogador Humano se o cruzamento produzido exigir uma decisão humana imediata.
+Mas, se sua ação produzir uma nova escolha relevante para a personagem humana:
 
-O Narrador não escolhe a nova ação apenas para continuar o resumo.
+```text
+→ PARAR nesse ponto
+→ apresentar a situação
+→ devolver controle ao humano
+```
+
+O Narrador não escolhe a reação humana apenas para preservar o resumo.
 
 ## Inimigo ou força adversarial
 
 Quando o resumo alcança uma entrada ou decisão adversarial:
 
 ```text
-RESUMO REAVALIA
-→ força torna-se relevante
 → OPOSITOR assume ou declara movimento
 → Tribunal julga a nova situação
 ```
 
 Um plano registrado não autoriza o Narrador a decidir como o vilão age quando chega o momento da escolha.
 
-Se o movimento adversarial ainda não exige resposta humana imediata, o mundo pode continuar até o ponto em que essa resposta realmente se torne necessária.
+Se o movimento adversarial criar uma nova decisão relevante para a personagem humana, o resumo para nesse ponto.
 
 ## Quando sair do resumo
 
 Interromper a condensação quando surgir:
 
-- nova decisão voluntária que precise existir naquele momento;
-- informação que exige reação antes de perder relevância;
-- obstáculo que bloqueia a intenção atual;
-- oportunidade relevante que desaparecerá antes do horizonte;
-- conflito que exige resposta imediata da cadeira humana;
-- descoberta importante que necessariamente muda o próximo passo da intenção;
+- nova decisão voluntária relevante;
+- informação capaz de mudar escolha;
+- obstáculo não coberto pela intenção;
+- oportunidade significativa;
+- conflito;
+- descoberta importante;
 - prazo ou efeito aplicável;
-- mudança causal que torne impossível continuar sem uma nova escolha.
+- iniciativa de outra personagem que crie uma escolha real para a cadeira humana;
+- mudança causal que torne o próximo passo incerto.
 
 ```text
 RESUMO
-→ algo exige agência imediata
+→ algo cria nova escolha
 → PARAR
 → apresentar a nova situação
 → abrir nova janela
 ```
 
-Não interromper apenas porque surgiu algo que a personagem **poderia** escolher responder mais tarde.
+A escolha não precisa ser urgente. Basta ser relevante o bastante para que continuar automaticamente significasse decidir pela personagem.
 
 ## Quando continuar resumindo
 
-Uma fala casual, gesto rotineiro, mensagem, convite sem urgência ou pequeno detalhe não exige automaticamente nova janela.
+Uma fala casual, gesto rotineiro ou pequeno detalhe não exige automaticamente nova janela.
 
 O resumo pode continuar quando:
 
-- não surge escolha imediata necessária;
+- não surge escolha nova relevante;
 - a intenção continua cobrindo o próximo passo;
-- nenhuma oposição bloqueia a continuidade;
+- nenhuma oposição entra;
 - nenhum prazo interfere;
-- nada muda as opções de forma que uma decisão precise acontecer agora.
+- nada muda as opções reais.
 
-> **Não interromper por hábito. Interromper quando a ficção realmente volta a precisar da agência daquela cadeira naquele momento.**
+Exemplos de fatos que normalmente podem ser absorvidos pelo resumo:
+
+```text
+notificação automática
+ruído cotidiano
+mudança comum de iluminação
+pequeno detalhe de rotina
+informação já esperada e sem efeito sobre a decisão atual
+```
+
+> **Não interromper por hábito. Interromper quando a ficção volta a precisar de agência.**
 
 ## Outras cadeiras podem continuar em cena
 
@@ -228,9 +247,9 @@ CADEIRA B ↔ CADEIRA C
 → conversa, conflito, rotina, relação ou outra ação própria.
 ```
 
-Se essas cenas não exigem decisão da cadeira A, elas podem ser dramatizadas ou resumidas normalmente sem devolver o foco a A.
+Se essas cenas ainda não criarem uma nova escolha relevante para A, elas podem continuar normalmente.
 
-Isso impede que toda iniciativa de outra personagem seja transformada em chamada automática ao protagonista.
+Quando alguma iniciativa alcançar A de modo significativo, o Narrador para no ponto de contato e devolve sua decisão.
 
 ## Condensar sem virar relatório
 
@@ -284,4 +303,4 @@ Depois da sentença, fatos que precisem continuar verdadeiros devem ser preserva
 
 ## Regra final
 
-> **Dramatize decisão, descoberta, conflito, relação e ação que precisa ser acompanhada. Resuma rotina, espera, repetição e processo já determinado. Eventos opcionais podem permanecer pendentes sem devolver automaticamente o foco ao Jogador Humano; interrompa somente quando uma decisão daquela cadeira precisar existir naquele momento para determinar a continuidade.**
+> **Dramatize decisão, descoberta, conflito, relação e ação que precisa ser acompanhada. Resuma rotina, espera, repetição e processo já determinado. Quando qualquer acontecimento criar uma nova escolha relevante para a cadeira humana, pare exatamente ali: o resumo nunca decide por cima da agência do jogador.**
