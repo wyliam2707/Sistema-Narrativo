@@ -61,7 +61,7 @@ Pontos de Poder: [6] / [6]
 
 --- Proteger pessoas sob sua responsabilidade sem substituir a autonomia delas por sua própria avaliação.
 
---- Entender o que aconteceu com Ravena e Estelar em Black Harbor antes de decidir se existe algum risco ainda ativo.
+--- Depois do retorno de Ravena e Estelar, manter espaço para que elas reintegrem a própria rotina e os vínculos novos sem transformar preocupação em controle.
 
 ## Medos / limites
 
@@ -89,6 +89,8 @@ Pontos de Poder: [6] / [6]
 
 --- Ciborgue [companheiro de equipe e uma das pessoas em quem mais confia para manter uma situação prática sob controle].
 
+--- Corvin Blackwood [novo parceiro de Ravena e Estelar. Dick o conheceu pessoalmente depois de Black Harbor, observou que as duas permanecem com ele por escolha e foi recebido no Refúgio Ártico. Ainda é um vínculo novo para Dick, mas não existe hostilidade consolidada].
+
 ### Relacionamentos
 
 --- Vida afetiva dos Titãs [Dick considera relacionamentos pessoais assunto das próprias pessoas envolvidas. Pode aconselhar ou questionar quando solicitado ou quando percebe risco concreto, mas não se considera autoridade para dar permissão].
@@ -101,7 +103,11 @@ Pontos de Poder: [6] / [6]
 
 --- Titãs: conhece bem capacidades, limites gerais, hábitos e formas de agir de Ravena, Estelar, Mutano e Ciborgue, sem possuir automaticamente acesso a todo segredo pessoal deles.
 
---- Corvin Blackwood: no início da Temporada 2, sabe apenas o que Ravena e Estelar já tiverem comunicado aos Titãs antes da primeira interação em cena; não conhece automaticamente natureza, poderes, Ciclo da Vida, Refúgio ou relação afetiva.
+--- Corvin Blackwood: conheceu Corvin pessoalmente após a libertação de Black Harbor. Sabe que ele ajudou Ravena e Estelar a escapar; que mantém vínculos românticos com as duas; que ambas afirmaram ter se apaixonado por ele e continuam escolhendo esse vínculo fora da influência da cidade; que Corvin não consegue mentir deliberadamente; que sua percepção natural reconhece natureza essencial, origem, linhagem e autoridade herdada de seres vivos sem revelar memórias ou intenções; que Corvin tem 62 anos apesar da aparência jovem; e que seu corpo passa por um Ciclo da Vida de 30 dias no qual uma morte prematura permite retorno no amanhecer seguinte com cabelo cinza e ausência temporária das marcas normais. Dick não sabe que uma segunda morte prematura dentro do mesmo ciclo interrompido pode ser definitiva.
+
+--- Refúgio Ártico: visitou a residência de Corvin. Conhece a existência da oficina/forja, biblioteca, cozinha e piscina termal e sabe que o ninho é área íntima que Corvin não abriu aos visitantes.
+
+--- Anéis de retorno: sabe que Ravena e Estelar possuem anéis que abrem uma passagem física, após concentração, para exatamente duas âncoras cada: a oficina de Corvin e a caixa correspondente guardada no quarto de cada uma na Torre.
 
 ## História consolidada relevante
 
@@ -110,3 +116,5 @@ Pontos de Poder: [6] / [6]
 --- Tornou-se uma das principais referências de liderança dos Titãs. A equipe deixou de ser apenas uma unidade de missão e se tornou sua família escolhida.
 
 --- Aprendeu por experiência que liderança funciona melhor quando organiza pessoas capazes de decidir por si mesmas; tenta não confundir responsabilidade tática com controle pessoal.
+
+--- Depois do desaparecimento de Ravena e Estelar em Black Harbor, reencontrou as duas livres, conheceu Corvin, ouviu parte da história da prisão e dos vínculos formados ali e visitou o Refúgio Ártico, aceitando que a vida nova das duas não precisa competir com a família dos Titãs.
