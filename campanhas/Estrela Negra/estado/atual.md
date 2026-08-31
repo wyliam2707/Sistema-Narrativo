@@ -1,7 +1,9 @@
 # Estado Atual
 
-STATUS: TEMPORADA 1 ENCERRADA / AGUARDANDO DIREÇÃO
+STATUS: TEMPORADA 2 EM PREPARAÇÃO / NÃO INICIADA
 TEMPORADA ATIVA: nenhuma
+TEMPORADA EM PREPARAÇÃO: 2
+ROTEIRO EM PREPARAÇÃO: `mestre/roteiro.md`
 ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-1/020.md`
 EPÍLOGO MAIS RECENTE: `livro/temporada-1/epilogo.md`
 RESUMO ANTERIOR: `livro/temporada-1/resumo-da-temporada.md`
@@ -112,7 +114,30 @@ Não registrar que os três escolheram permanecer juntos naquela noite, voltaram
 - Ridge Road, 18: continua existindo;
 - Refúgio Ártico: não foi retestado por Caminhos depois do colapso.
 
-## Pendências que não são próxima temporada automática
+## Direção aprovada da Temporada 2
+
+A Temporada 2 será curta e focada em liberdade, escolha, definição relacional e integração das três vidas.
+
+Os Titãs retomam contato quase imediatamente depois do ponto atual.
+
+A temporada deve explorar a reação à declaração de Corvin, a possível formação consciente de uma relação a três, a integração entre a vida de Corvin e a vida de Ravena/Estelar com os Titãs, casa e convivência, e o que contar aos amigos, para quem e quando.
+
+Informações pessoais devem surgir gradualmente conforme relações e circunstâncias justificarem; não há obrigação de exposição completa imediata.
+
+A temporada precisa terminar com uma definição relacional suficientemente clara, mas não predetermina qual será essa definição.
+
+O planejamento detalhado está em `mestre/roteiro.md`.
+
+## Pendências imediatas antes do START
+
+- criar/consolidar ficha de Dick Grayson;
+- criar/consolidar ficha de Mutano;
+- criar/consolidar ficha de Ciborgue;
+- revisar consolidações permanentes necessárias nas fichas de Corvin, Ravena e Estelar com aprovação do Jogador Humano;
+- reancorar regras, narrativa, roteiro, estado e fichas relevantes;
+- somente então marcar a Temporada 2 como ATIVA.
+
+## Pendências ficcionais preservadas
 
 - resposta de Ravena à declaração de Corvin;
 - resposta de Estelar à declaração de Corvin;
@@ -123,7 +148,7 @@ Não registrar que os três escolheram permanecer juntos naquela noite, voltaram
 - projeto antigo de chaves/anéis de retorno ainda não fabricado;
 - sinal tamaraneano automático transmitido na destruição do núcleo, sem destinatário conhecido pelos protagonistas.
 
-Problemas e possibilidades abertas permanecem verdadeiros, mas **não definem automaticamente a Temporada 2**.
+Nenhuma dessas pendências foi resolvida por este salvamento.
 
 ## Referência histórica da Temporada 1
 
@@ -138,13 +163,14 @@ Resumo e mapa são derivados e nunca substituem ficha, Estado ou capítulo quand
 
 ## Próxima operação
 
-Não continuar a ficção diretamente deste arquivo antes de criar a Temporada 2.
+Não continuar a ficção ainda.
 
-Primeiro:
+A Direção do Jogador e a Diretriz Fechada da Temporada 2 já foram salvas.
 
-1. obter a Direção do Jogador para a Temporada 2;
-2. seguir `regras-basicas/CRIACAO-DE-TEMPORADA.md`;
-3. consolidar qualquer mudança permanente de ficha somente com aprovação do Jogador Humano;
-4. criar o novo `mestre/roteiro.md`;
-5. preservar como situação inicial, se desejado, este exato instante com Corvin ainda no chão;
-6. reancorar antes de START.
+Próximo passo de preparação:
+
+1. criar/consolidar Dick Grayson, Mutano e Ciborgue;
+2. revisar fichas protagonistas persistentes quando necessário;
+3. reancorar;
+4. marcar a Temporada 2 como ATIVA;
+5. continuar exatamente deste jardim, com Corvin ainda no chão.
