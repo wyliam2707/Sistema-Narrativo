@@ -1,6 +1,6 @@
 # Dick Grayson
 
-ESTADO DA FICHA: EM CRIAÇÃO
+ESTADO DA FICHA: APROVADA
 Importância: COADJUVANTE / CONTROLE: JOGADOR IA EVENTUAL / Patamar: 2
 Nome real: Dick Grayson / Idade: 29 anos
 Aparência: homem humano de porte atlético, alto, cabelos negros curtos, olhos azuis e movimentos muito controlados; mesmo parado, mantém postura de quem percebe entradas, saídas e pessoas ao redor.
