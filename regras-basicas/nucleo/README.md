@@ -4,6 +4,41 @@ Status: REFORMULAÇÃO / NÃO IMPLEMENTADO
 
 Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade e como conflitos são resolvidos.
 
+## Trava operacional permanente
+
+O Núcleo sempre opera nesta ordem:
+
+```text
+DECLARAÇÃO / INTENÇÃO
+→ JULGAMENTO
+→ RESOLUÇÃO, quando necessária
+→ SENTENÇA ESTABELECIDA
+→ NARRAÇÃO
+```
+
+A ordem acima não é apenas uma forma de apresentar a cena. É uma **barreira operacional obrigatória**.
+
+Enquanto existir qualquer incerteza que as regras ainda precisem resolver, o Narrador não pode transformar essa incerteza em fato por meio da prosa.
+
+```text
+resultado evidente
+→ estabelecer diretamente
+→ narrar
+
+impossibilidade evidente
+→ estabelecer diretamente
+→ narrar
+
+resultado incerto
+→ resolver pelas regras pertinentes
+→ estabelecer a sentença
+→ narrar
+```
+
+Combate, investigação, percepção, furtividade, influência, perseguição, resistência, dano, cura e qualquer outra situação seguem a mesma separação.
+
+> **A literatura apresenta o resultado do Motor. Ela nunca substitui o Motor.**
+
 ## Estrutura atual
 
 ```text
@@ -11,7 +46,7 @@ Reúne as regras comuns que definem como a mesa funciona, quem possui autoridade
 → arquitetura da resolução de conflitos e testes.
 
 0.2-rolagens.md
-→ define que o Narrador executa todas as rolagens usando fonte aleatória real disponível.
+→ define que o Narrador executa todas as rolagens usando fonte aleatória real disponível e impede narrar resultados incertos antes da resolução.
 
 0.3-consequencias.md
 → define como interpretar 7–9 sem criar punições arbitrárias; usa consequência do risco concreto ou resultado limitado ligado ao próprio objetivo.
@@ -94,8 +129,14 @@ NARRADOR
 
 RESOLUÇÃO
 → decide incertezas quando necessário.
+→ nenhuma incerteza pendente pode ser convertida em resultado pela narração.
 → 7–9 nunca obriga a criar punição desconectada; seguir 0.3-consequencias.md.
 → disputas realmente simultâneas usam 0.4-disputas-simultaneas.md para evitar vantagem artificial de lado ativo.
+
+SENTENÇA E NARRAÇÃO
+→ primeiro estabelecer o que realmente aconteceu.
+→ depois transformar a sentença em prosa.
+→ a prosa não pode alterar, escolher ou antecipar o resultado mecânico.
 
 COMBATE
 → Ataque usa Atributo + Combate ou Conjuração.
@@ -194,6 +235,7 @@ ATAQUES MENTAIS
 
 ROLAGENS
 → são executadas pelo Narrador com fonte aleatória real disponível.
+→ quando uma rolagem é necessária, seu resultado deve existir antes da narração conclusiva.
 
 EXECUÇÃO TÉCNICA
 → uma única IA pode executar várias cadeiras.
