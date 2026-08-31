@@ -1,6 +1,6 @@
 # Roteiro da Temporada 2
 
-Status: EM PREPARAÇÃO / NÃO INICIADA
+Status: PRONTA PARA START / NÃO INICIADA
 
 A Temporada 1 foi encerrada e arquivada em:
 
@@ -10,7 +10,7 @@ Sua unidade histórica está em:
 
 `livro/temporada-1/`
 
-A Temporada 2 ainda não começou em ficção. Este arquivo registra somente a Direção do Jogador, o problema da temporada e a Diretriz Fechada aprovada para preparação.
+A Temporada 2 ainda não começou em ficção. A Direção do Jogador, o problema da temporada, a Diretriz Fechada, as fichas necessárias e a reancoragem operacional estão concluídos. O roteiro aguarda somente o START do Jogador Humano.
 
 ## Direção do Jogador
 
@@ -347,11 +347,20 @@ As dependências de criação e consolidação de fichas foram concluídas:
 - Mutano — ficha aprovada / Jogador IA Eventual;
 - Ciborgue — ficha aprovada / Jogador IA Eventual.
 
-## Restrições de START
+A Narrativa persistente foi revisada e o Motor, a Narrativa, este Roteiro, o Estado, as fichas relevantes e a Auditoria das Cadeiras foram reancorados.
 
-Não iniciar a ficção ainda.
+Nenhuma cena foi avançada durante a preparação.
 
-Antes do START:
+## START
 
-1. reancorar regras, narrativa, roteiro, estado e fichas relevantes;
-2. somente então marcar a Temporada 2 como ATIVA e continuar exatamente do jardim.
+A Temporada 2 está pronta, mas ainda não está ativa.
+
+Aguardar o comando `START` do Jogador Humano.
+
+Somente depois desse comando:
+
+1. marcar a Temporada 2 como ATIVA;
+2. continuar exatamente do jardim de Ridge Road, 18, com Corvin ainda no chão;
+3. processar Corvin, Ravena e Estelar como cadeiras independentes na primeira janela;
+4. restaurar a Auditoria visível na narrativa;
+5. processar Dick, Mutano e Ciborgue apenas quando forem operacionalmente relevantes como Jogadores IA Eventuais.
