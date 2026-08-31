@@ -18,6 +18,63 @@ ler regras-basicas/README.md
 
 Não é necessário reler todos os arquivos em toda resposta. Durante o jogo, consultar a regra específica somente quando ela realmente importar ou houver dúvida.
 
+## Reancoragem é a preparação operacional
+
+Antes de uma campanha pronta voltar à ficção, a IA precisa reconstruir **como jogar aquela mesa**.
+
+Isso não exige uma fase adicional chamada "aprender a jogar" nem uma leitura integral da árvore.
+
+```text
+CARREGAR FONTES NECESSÁRIAS
+→ REANCORAR
+→ formar modelo operacional integrado
+→ SÓ ENTÃO JOGAR
+```
+
+A reancoragem é a própria fase de aprendizagem operacional do início ou da retomada.
+
+Ela deve restaurar, no mínimo:
+
+```text
+como o Motor decide
+quem possui autoridade sobre cada peça
+como as cadeiras autônomas são executadas separadamente
+como a auditoria funciona
+como tempo e intenções persistentes avançam
+quando uma nova escolha humana obriga parar
+como diálogo preserva oportunidade de intervenção humana
+como relações, rotina e objetivos podem gerar iniciativa própria
+como a lente local da cena muda sem desligar o restante do Motor
+como resolução precede a prosa
+```
+
+Essas relações são invariantes operacionais. Regras especializadas continuam sendo consultadas sob demanda.
+
+> **Reconhecer a história não significa estar pronto para jogar. Antes da ficção, reconstruir também o funcionamento da mesa.**
+
+## Barreira antes da ficção
+
+Ao iniciar um novo chat, retomar depois de perda importante de contexto ou continuar uma campanha pronta, não produzir nova ficção antes de executar `registro/reancoragem-operacional.md`.
+
+```text
+"continue a campanha"
+→ localizar a campanha
+→ carregar as fontes mínimas
+→ reancorar o Motor, as fichas e o presente
+→ identificar a primeira decisão humana ainda aberta
+→ só então continuar
+```
+
+A IA não precisa exibir uma recitação longa das regras.
+
+Pode confirmar a preparação de forma curta quando isso for útil:
+
+```text
+Reancoragem concluída.
+```
+
+A confirmação não substitui a execução real da reancoragem.
+
 ## Nova campanha
 
 Seguir:
@@ -120,6 +177,7 @@ CRIAÇÃO: CONCLUÍDA
 → carregar personagens relevantes
 → reconstruir intenções persistentes relevantes
 → executar registro/reancoragem-operacional.md
+→ identificar a primeira decisão humana ainda aberta
 → continuar exatamente do ponto registrado
 ```
 
@@ -140,6 +198,7 @@ o que está acontecendo agora
 onde estão
 quais intenções continuam ativas
 quais fatos estabelecidos importam
+qual é a primeira decisão humana ainda aberta
 quais capacidades podem ser consultadas se necessárias
 ```
 
@@ -155,17 +214,25 @@ modelo operacional reancorado
 narrativa + roteiro da temporada + estado + intenções persistentes
 → alguma cadeira possui motivo para nova iniciativa?
 → interpretar cada personagem a partir da própria ficha
+→ processar separadamente as cadeiras principais relevantes
+→ mostrar a auditoria quando aplicável
 → Narrador cruza as intenções relevantes
 → resolve somente se houver incerteza ou oposição
-→ avança até o próximo ponto relevante
-→ para se surgir nova decisão humana
+→ avança somente até o próximo ponto relevante
+→ para quando surgir nova escolha humana significativa
 → narra a sentença dentro da identidade da campanha e do arco atual
 → registra o que precisa continuar verdadeiro
 ```
 
 O mundo pode continuar agindo durante uma intenção longa do Jogador Humano. Isso não autoriza a IA a escolher uma nova decisão por ele.
 
-Uma miniquest, investigação, combate ou outro desvio local pode ocupar a cena quando fizer sentido, mas não substitui automaticamente o foco persistente da campanha nem o arco atual da temporada.
+Uma intenção longa também não transforma o período em salto automático. Outras cadeiras continuam vivendo, tomando iniciativas, interagindo entre si e mudando de intenção quando suas próprias atividades terminam.
+
+Quando uma iniciativa, mensagem, informação, proposta, interação ou acontecimento criar uma escolha humana significativa capaz de mudar o que a personagem pretende fazer, parar naquele ponto conforme `nucleo/0.8-tempo-e-acoes.md` e `mestre/dramatizacao-e-resumo.md`.
+
+Em diálogo dramatizado, não encadear falas substanciais de outras cadeiras atravessando pontos nos quais a personagem humana poderia querer intervir. Preservar janelas naturais de participação sem transformar conversa em turnos rígidos.
+
+Uma miniquest, investigação, exploração, combate, cena social, relação ou cotidiano pode ocupar o primeiro plano quando fizer sentido. São lentes locais da cena; nenhuma substitui automaticamente o foco persistente da campanha nem desliga o restante do Motor.
 
 Consultar somente a fonte pertinente ao caso atual. Uma consulta específica detalha ou corrige o modelo já carregado; não substitui o restante do Motor por uma regra isolada.
 
@@ -239,4 +306,4 @@ Não continuar automaticamente para uma nova temporada.
 
 ## Regra final
 
-> **Para começar ou retomar, carregue Narrativa da Campanha, Roteiro da Temporada, presente e fichas relevantes e reancore essas fontes como um modelo operacional integrado. Durante sessões longas, `fechar o capítulo` funciona como checkpoint: consolida, atualiza, reseta o operacional, recarrega e reancora antes de continuar. Quando uma temporada termina, não invente a próxima: consolide, escreva o epílogo e volte à pergunta “E agora?”.**
+> **Para começar ou retomar uma campanha pronta, primeiro reconstruir como aquela mesa funciona: carregar as fontes mínimas, reancorar Motor, fichas e presente e identificar a primeira decisão humana ainda aberta. Só então produzir nova ficção. A reancoragem é a fase de aprendizagem operacional; não exige reler toda a árvore nem criar uma segunda camada de regras. Durante sessões longas, `fechar o capítulo` repete esse checkpoint para impedir deriva do Motor e das personagens.**
