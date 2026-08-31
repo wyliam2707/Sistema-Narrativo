@@ -99,6 +99,81 @@ O Narrador não escolhe automaticamente que a personagem humana ignora algo apen
 
 > **Resumo pode atravessar tempo; não pode atravessar uma nova escolha humana.**
 
+## Conversa dramatizada também preserva agência
+
+Uma conversa não é uma cutscene.
+
+Quando a personagem humana está presente e pode legitimamente ouvir ou participar, o Narrador não deve encadear várias falas substanciais de outras cadeiras atravessando pontos em que o jogador poderia querer falar, interromper, perguntar, discordar, mudar de assunto, agir ou sair.
+
+O critério não é quantidade fixa de falas.
+
+Usar o **menor bloco conversacional natural** que preserve o ritmo sem atravessar uma nova escolha humana relevante.
+
+```text
+fala ou troca breve
+→ nenhum novo ponto relevante de participação humana
+→ pode continuar.
+
+revelação, pergunta, proposta, acusação, provocação, decisão, mudança de assunto ou informação relevante
+→ pode mudar o que a personagem humana quer fazer ou dizer
+→ PARAR.
+```
+
+Exemplos de pontos que normalmente abrem uma janela de intervenção:
+
+- pergunta dirigida à personagem humana;
+- informação nova capaz de alterar sua posição;
+- comentário sobre alguém ou algo que ela pode querer contestar;
+- proposta, convite ou plano;
+- acusação ou provocação significativa;
+- revelação pessoal ou factual;
+- mudança importante de relação;
+- decisão de outra personagem que afete a cena;
+- mudança de assunto antes que a personagem humana tenha tido oportunidade razoável de reagir ao anterior;
+- pausa natural depois de uma fala substantiva quando a personagem humana está inserida na conversa.
+
+```text
+CADEIRA IA A
+→ diz algo relevante.
+
+CADEIRA IA B
+→ pode responder brevemente se a resposta for imediata e não atravessar a oportunidade humana.
+
+SURGE PONTO EM QUE O HUMANO PODE QUERER ENTRAR
+→ parar.
+→ devolver controle.
+```
+
+Não é necessário transformar diálogo em iniciativa rígida de uma frase por participante. Saudações, confirmações curtas, respostas automáticas e pequenos encadeamentos que não alterem opções podem permanecer no mesmo bloco.
+
+Mas o Narrador não pode produzir páginas de diálogo entre outras personagens e depois devolver ao humano apenas quando o assunto já mudou ou a oportunidade de intervenção passou.
+
+> **A personagem humana deve receber a conversa enquanto ainda pode participar dela, não um relatório depois que ela terminou.**
+
+### Permissão para apenas observar
+
+O Jogador Humano pode declarar que sua personagem pretende apenas ouvir, observar ou deixar as outras conversarem.
+
+```text
+"fico ouvindo"
+"deixo elas conversarem"
+"não interrompo por enquanto"
+```
+
+Essa intenção permite ao Narrador avançar a conversa por um bloco maior enquanto ela continuar válida.
+
+Ainda assim, uma mudança realmente nova pode devolver agência quando tornar plausível que a intenção anterior precise ser reconsiderada, por exemplo:
+
+```text
+assunto muda radicalmente
+segredo importante é revelado
+alguém se dirige diretamente à personagem humana
+conflito muda de natureza
+surge decisão que afeta diretamente sua personagem
+```
+
+O Narrador não interpreta silêncio anterior como autorização ilimitada para atravessar toda a conversa.
+
 ## Processos registrados
 
 Um processo já estabelecido pode avançar fora de cena sem precisar ser reencenado a cada janela distante.
@@ -303,4 +378,4 @@ Depois da sentença, fatos que precisem continuar verdadeiros devem ser preserva
 
 ## Regra final
 
-> **Dramatize decisão, descoberta, conflito, relação e ação que precisa ser acompanhada. Resuma rotina, espera, repetição e processo já determinado. Quando qualquer acontecimento criar uma nova escolha relevante para a cadeira humana, pare exatamente ali: o resumo nunca decide por cima da agência do jogador.**
+> **Dramatize decisão, descoberta, conflito, relação e ação que precisa ser acompanhada. Resuma rotina, espera, repetição e processo já determinado. Quando qualquer acontecimento criar uma nova escolha relevante para a cadeira humana, pare exatamente ali. Em conversas, preserve janelas naturais de intervenção: diálogo não é cutscene e não pode avançar por cima da oportunidade de participação do jogador.**
