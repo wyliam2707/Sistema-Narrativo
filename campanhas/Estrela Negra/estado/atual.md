@@ -2,8 +2,10 @@
 
 STATUS: TEMPORADA 1 ENCERRADA / AGUARDANDO DIREÇÃO
 TEMPORADA ATIVA: nenhuma
-ÚLTIMO CAPÍTULO FECHADO: `livro/020.md`
-EPÍLOGO MAIS RECENTE: `livro/temporada-1-epilogo.md`
+ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-1/020.md`
+EPÍLOGO MAIS RECENTE: `livro/temporada-1/epilogo.md`
+RESUMO ANTERIOR: `livro/temporada-1/resumo-da-temporada.md`
+MAPA DE EVENTOS: `livro/temporada-1/mapa-de-eventos.md`
 
 MOMENTO: **noite após a libertação de Black Harbor**.
 LOCAL: **Ridge Road, 18**.
@@ -99,6 +101,17 @@ Ridge Road, 18 deixou de ser apenas cobertura. Depois que Black Harbor foi liber
 
 Problemas ou possibilidades abertas permanecem verdadeiros, mas **não definem a Temporada 2**.
 
+## Referência histórica da Temporada 1
+
+Para retomar o passado sem reler vinte capítulos por padrão:
+
+1. carregar `livro/temporada-1/resumo-da-temporada.md`;
+2. carregar `livro/temporada-1/epilogo.md`;
+3. usar `livro/temporada-1/mapa-de-eventos.md` quando cronologia, origem de conhecimento ou sequência relacional importarem;
+4. consultar capítulos específicos em `livro/temporada-1/` quando detalhe canônico completo for necessário.
+
+Resumo e mapa são derivados e nunca substituem ficha, Estado ou capítulo quando houver divergência.
+
 ## Próxima operação
 
 Não continuar a ficção diretamente deste arquivo.
@@ -106,7 +119,7 @@ Não continuar a ficção diretamente deste arquivo.
 Primeiro:
 
 1. obter a Direção do Jogador para a Temporada 2;
-2. seguir `regras-basicas/CRIACAO-DE-TEMPORADA.md`;
+2. seguir `regras-basicas/CRIACAO-DE-TEMPORADA.md` e `regras-basicas/registro/arquivo-de-temporada.md`;
 3. consolidar qualquer mudança permanente de ficha somente com aprovação do Jogador Humano;
 4. criar o novo `mestre/roteiro.md`;
 5. atualizar este Estado para a situação inicial escolhida da nova temporada;
