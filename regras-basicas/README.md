@@ -130,6 +130,41 @@ mestre/roteiro.md
 
 O Mestre julga; não joga pelo Opositor nem transforma iniciativa do protagonista em obediência alheia.
 
+### Trava operacional — resolução antes da prosa
+
+O caráter narrativo do sistema não autoriza resolver incertezas por conveniência literária.
+
+Toda ação declarada passa primeiro pelo Motor. A prosa só apresenta uma realidade que já foi julgada.
+
+```text
+INTENÇÃO
+→ conferir estado, ficha, capacidade e método
+→ verificar oposição e incerteza
+
+resultado evidente ou impossível
+→ estabelecer sentença diretamente
+
+resultado incerto ou disputa legítima
+→ aplicar a resolução mecânica pertinente
+→ aceitar o resultado
+→ estabelecer sentença
+
+SÓ DEPOIS
+→ narrar
+```
+
+Enquanto houver uma rolagem, disputa, Potência, Resistência, dano, cura ou outra resolução específica pendente, o Narrador não pode antecipar o resultado em forma literária.
+
+```text
+NARRAÇÃO
+≠ mecanismo de resolução
+
+NARRAÇÃO
+→ apresentação da sentença já estabelecida
+```
+
+> **Primeiro o Motor decide o que aconteceu. Depois a literatura mostra como aconteceu.**
+
 ### Opositor
 
 Movimenta o lado adversarial dentro de conhecimento, meios, tempo e oportunidades legítimos.
@@ -220,6 +255,8 @@ fim de capítulo
 ```
 
 O sistema deve operar por **modelo operacional integrado + consulta sob demanda**, não por carregamento integral obrigatório de todo arquivo em toda sessão nem por consulta de regras isoladas sem preservar o Motor já carregado.
+
+A trava `INTENÇÃO → JULGAMENTO/RESOLUÇÃO → SENTENÇA → NARRAÇÃO` faz parte do modelo operacional permanente e não deve depender de consulta posterior a uma regra especializada.
 
 ## Vigência dos arquivos
 
