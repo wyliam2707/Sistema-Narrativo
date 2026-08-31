@@ -1,7 +1,7 @@
 # Corvin Blackwood
 
-ESTADO DA FICHA: PRONTA
-Importância: PROTAGONISTA / CONTROLE: JOGADOR / Patamar: 4
+ESTADO DA FICHA: APROVADA
+Importância: PROTAGONISTA / CONTROLE: JOGADOR HUMANO / Patamar: 4
 Nome real: Corvin Blackwood / Idade: 62 anos (aparenta 27)
 Aparência: homem de aparência humana comum, alto e forte, discretamente mais bonito que a média; aparenta cerca de 27 anos. A cor do cabelo e as marcas naturais nas costas mudam conforme a estação de seu Ciclo da Vida: verde-escuro na Primavera, verde no Verão, verde-claro no Outono e branco no Inverno/fim do ciclo. Cabelo cinza indica um ciclo interrompido por morte prematura.
 Estilo: roupas casuais, sobretudo e mochila; visual prático de viajante e investigador.
@@ -77,7 +77,7 @@ Pontos de Poder: [12] / [12]
 
 --- Pode ser tão calmo quanto o sol no fim da tarde e tão devastador quanto uma erupção vulcânica quando levado ao limite.
 
---- Corvin possui um comportamento nômade e recluso. Sente-se confortável sozinho, não cria vínculos duradouros com facilidade e costuma seguir adiante quando sente que seu tempo em um lugar terminou.
+--- Corvin possui um comportamento nômade e recluso. Sente-se confortável sozinho, não cria vínculos duradouros com facilidade e costuma seguir adiante quando sente que seu tempo em um lugar terminou. A Temporada 1 rompeu esse padrão pela primeira vez em décadas: Ravena e Estelar tornaram-se vínculos que ele deseja levar consigo para além do lugar onde os conheceu.
 
 --- É fortemente guiado por instintos, curiosidade e afinidade. Quando alguém desperta seu interesse ou atração, Corvin tem dificuldade em esconder completamente o que sente; sua atenção, proximidade e comportamento tendem a denunciá-lo.
 
@@ -85,7 +85,7 @@ Pontos de Poder: [12] / [12]
 
 --- Corvin segue o fluxo: explora, ajuda quem encontra e então continua seu caminho. Seus objetivos mudam conforme as pessoas, lugares e mistérios que encontra.
 
---- No fundo, sempre desejou criar raízes e ter um lugar ao qual pertencer. Durante a campanha passou a formular isso de outra maneira: não precisa deixar de viajar; para ele, casa é o lugar ao qual escolhe voltar, e pessoas podem se tornar a razão de querer estar de volta para o jantar.
+--- No fundo, sempre desejou criar raízes e ter um lugar ao qual pertencer. Durante a Temporada 1 passou a formular isso de outra maneira: não precisa deixar de viajar; para ele, casa é o lugar ao qual escolhe voltar, e Ravena e Estelar tornaram-se pessoas que ele deseja incluir nessa ideia de retorno sem exigir que abandonem as próprias vidas.
 
 ## Medos / limites
 
@@ -101,17 +101,23 @@ Pontos de Poder: [12] / [12]
 
 ### Relações positivas
 
---- No início da campanha, Corvin não possui nenhum vínculo próximo ou duradouro. Mantém conhecidos e contatos ocasionais acumulados durante suas viagens, mas nenhum ocupa um lugar central em sua vida.
+--- Ravena / Elara Voss: um dos vínculos mais importantes da vida de Corvin. Ele conhece sua natureza parcialmente abissal, seus medos ligados a Trigon e à perda de controle e a trata como a mesma pessoa depois dessas revelações. Entre os dois existem confiança, desejo, beijos, encontros privados e forte intimidade emocional escolhida em cena.
+
+--- Estelar / Kori: um dos vínculos mais importantes da vida de Corvin. Ele conhece sua origem tamaraneana, sua condição de princesa e a importância que liberdade de escolha possui para ela. Entre os dois existem forte atração, beijos, intimidade física e emocional, encontros privados e confiança crescente.
 
 ### Relações negativas
 
---- Corvin não mantém rivalidades ou inimizades pessoais importantes no início da campanha; seu estilo nômade costuma fazê-lo seguir adiante antes que conflitos se transformem em vínculos permanentes.
+--- Corvin não mantém rivalidades ou inimizades pessoais importantes consolidadas; seu estilo nômade costuma fazê-lo seguir adiante antes que conflitos se transformem em vínculos permanentes.
 
 ### Relacionamentos
 
 --- Corvin pode flertar e se envolver emocionalmente com mais de uma pessoa ao mesmo tempo, mas não trata isso de forma irresponsável: deixa sua posição clara para todos os envolvidos e não esconde uma relação da outra.
 
 --- Se desejar duas pessoas, não promete abandonar uma para manter a outra. Para Corvin, um relacionamento múltiplo só é válido quando todos sabem no que estão entrando e podem aceitar ou rejeitar isso livremente.
+
+--- Corvin declarou amar Ravena e Estelar no encerramento da Temporada 1. As duas ouviram; nenhuma resposta formal delas foi estabelecida antes do corte da temporada. Isso não formaliza automaticamente uma relação a três.
+
+--- Corvin ↔ Ravena e Corvin ↔ Estelar são vínculos românticos distintos e já desenvolvidos. Ravena ↔ Estelar continua sendo um vínculo próprio entre elas e não é definido pela relação de Corvin com cada uma.
 
 --- A atração intensa de Corvin é rara. Seus instintos tendem a despertar diante de mulheres cuja presença, natureza, força ou singularidade lhe pareçam excepcionais, sem que isso represente desprezo ou julgamento de valor sobre outras mulheres.
 
@@ -129,6 +135,12 @@ Pontos de Poder: [12] / [12]
 
 --- Caminhos do mundo: acumulou conhecimento sobre lugares remotos, rotas esquecidas, refúgios, passagens e pontos seguros durante décadas de viagem, sem conhecer todos os lugares ou fenômenos existentes.
 
+--- Ravena / Elara: sabe que ela é filha humana de Trigon, possui natureza parcialmente abissal, teme perder o controle e machucar quem ama e valoriza profundamente autonomia e a possibilidade de ser conhecida sem ser rejeitada por sua origem.
+
+--- Estelar / Kori: sabe que ela é princesa de Tamaran, fugiu de um futuro político imposto, aceita culturalmente relações múltiplas quando escolhidas e considera perda de escolha — não pluralidade — o problema central do casamento do qual fugiu.
+
+--- Titãs: sabe que Ravena e Estelar consideram os Titãs família escolhida e que essa vida continua importante para ambas; ainda não possui automaticamente conhecimento pessoal sobre cada integrante além do que elas lhe contaram.
+
 ## História consolidada relevante
 
 --- Corvin é órfão de origem desconhecida. Ainda bebê, foi encontrado em uma floresta por um casal de idosos que o criou como filho. Não possui lembranças confiáveis anteriores a eles e considera plausível, dada a própria natureza, que sua origem possa ter sido literalmente natural.
@@ -142,3 +154,7 @@ Pontos de Poder: [12] / [12]
 --- Depois disso, Corvin passou a viajar pelo mundo, muitas vezes mudando de lugar diariamente. Em algum momento escolheu uma caverna como ponto para o qual podia retornar entre viagens; a ideia de lar como um lugar escolhido para voltar permaneceu central e mais tarde encontrou sua forma mais completa no Refúgio Ártico.
 
 --- Ao longo das décadas, continuou explorando, desenvolvendo seus poderes, investigando o oculto e ajudando pessoas que encontrava pelo caminho.
+
+--- Em Black Harbor, Corvin conheceu Ravena e Estelar, viveu com as duas em Ridge Road, 18, ajudou a separar a população da rede de influência e destruiu a instalação profunda usando uma contingência geológica depois que o núcleo resistiu à sobrecarga planejada.
+
+--- No encerramento da Temporada 1, Corvin escapou ferido pelo Caminho e caiu no jardim de Ridge Road. Pouco antes, ao tentar mentir para tranquilizar Ravena e Estelar, A Natureza Não Mente o levou a declarar que ama as duas. A Temporada 2 começa antes de qualquer resposta formal delas.
