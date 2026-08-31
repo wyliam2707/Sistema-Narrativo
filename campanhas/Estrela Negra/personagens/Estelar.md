@@ -52,6 +52,8 @@ Pontos de Poder: [9] / [9]
 
 --- Acesso aos Titãs: enquanto integrante da equipe, Estelar pode utilizar a base, equipamentos comuns, transporte e apoio dos Titãs quando apropriado.
 
+--- Anel Solar de Retorno: anel criado por Corvin com aro ornamentado por galhos e folhas, tema solar e um coração formado por duas pedras unidas — rubi e diamante negro. Funciona como chave para exatamente duas âncoras: a oficina de Corvin no Refúgio Ártico e a caixa correspondente guardada no quarto de Estelar na Torre. A partir de qualquer lugar, Estelar pode abrir uma passagem física para uma dessas duas âncoras após aproximadamente um minuto de concentração. Enquanto aberta, outras pessoas podem atravessar. Se a caixa for destruída, perde apenas esse destino.
+
 ## Personalidade e tendências
 
 --- Calorosa, direta e afetuosa; costuma demonstrar carinho por meio de proximidade, toque, elogios e palavras abertas, sem a mesma necessidade humana de esconder sentimentos íntimos.
@@ -64,7 +66,9 @@ Pontos de Poder: [9] / [9]
 
 --- Estelar quer construir uma vida escolhida por ela mesma, cercada por pessoas que ame e que também a escolham livremente. Deseja conhecer melhor a Terra, criar vínculos verdadeiros e, um dia, decidir por conta própria se quer ou não voltar a Tamaran — não porque alguém mandou, mas porque essa decisão finalmente será dela.
 
---- A Temporada 1 acrescentou Corvin à vida que ela está escolhendo construir. O que esse vínculo se tornará fora de Black Harbor ainda depende das escolhas livres dela, de Corvin e de Ravena.
+--- Estelar escolheu continuar com Corvin depois da libertação de Black Harbor e declarou claramente que também o ama. Quer integrar esse vínculo à família que já possui nos Titãs sem transformar uma vida em substituta da outra.
+
+--- Quer participar da transformação do Refúgio Ártico em uma casa que também carregue escolhas dela e de Ravena. Pediu um solário aberto à luz, com plantas e flores e possibilidade futura de espécies de Tamaran; o projeto ainda não foi construído.
 
 ## Medos / limites
 
@@ -78,7 +82,7 @@ Pontos de Poder: [9] / [9]
 
 ### Relações positivas
 
---- Ravena: uma de suas amigas mais próximas na Terra. Estelar confia profundamente nela, não teme sua natureza meio-abissal e encara Trigon como um inimigo poderoso, não como razão para tratar Ravena com receio. A Temporada 1 aprofundou ainda mais a confiança e a intimidade de convivência entre as duas, mas nenhum romance entre elas foi formalmente estabelecido.
+--- Ravena: uma de suas amigas mais próximas na Terra. Estelar confia profundamente nela, não teme sua natureza meio-abissal e encara Trigon como um inimigo poderoso, não como razão para tratar Ravena com receio. A convivência em Black Harbor e a liberdade posterior aprofundaram ainda mais a confiança e a intimidade cotidiana entre as duas, mas nenhum romance entre elas foi formalmente estabelecido.
 
 --- Titãs: considera a equipe sua família escolhida na Terra e um dos primeiros lugares em que pôde pertencer sem ser definida apenas por sua posição como princesa.
 
@@ -90,7 +94,7 @@ Pontos de Poder: [9] / [9]
 
 --- Tamaran: apesar de ter fugido das decisões impostas por sua corte, Estelar continua amando seu mundo, sua cultura e seu povo. Sua rejeição é à perda de escolha, não à sua origem.
 
---- Corvin Blackwood: tornou-se um dos vínculos mais íntimos de Estelar. Ela conhece sua natureza de semideus, sua força real e partes importantes de sua vida que estavam escondidas sob uma aparência comum. Entre os dois existem forte atração, beijos, intimidade física e emocional, encontros privados e confiança crescente escolhidos em cena.
+--- Corvin Blackwood: um dos vínculos mais íntimos de Estelar. Ela conhece sua natureza de semideus, sua força real e partes importantes de sua vida que estavam escondidas sob uma aparência comum. Entre os dois existem forte atração, beijos, intimidade física e emocional, encontros privados e confiança crescente. Depois da libertação de Black Harbor, Estelar declarou claramente que também o ama e continuou o vínculo por escolha livre.
 
 ### Relações negativas
 
@@ -110,11 +114,13 @@ Pontos de Poder: [9] / [9]
 
 --- Os Titãs são profundamente amados por Estelar, mas o vínculo com eles se consolidou como família e companheirismo. A existência de poder, carinho ou intimidade não transforma automaticamente amizade em romance.
 
---- Corvin ↔ Estelar: vínculo romântico e íntimo forte já estabelecido em cena. Estelar escolheu beijos, proximidade física e emocional, momentos privados e uma relação de confiança crescente com ele. Corvin declarou que a ama no encerramento da Temporada 1; a resposta formal de Estelar ainda não foi estabelecida.
+--- Corvin ↔ Estelar: vínculo romântico e íntimo forte conscientemente mantido fora de Black Harbor. Estelar escolheu beijos, proximidade física e emocional, momentos privados e uma relação de confiança crescente com ele. Corvin declarou que a ama e Estelar respondeu formalmente que também o ama.
 
---- Estelar sabe que Corvin também possui um vínculo romântico e íntimo forte com Ravena. Isso não é automaticamente um problema para ela; coerente com sua cultura e personalidade, o que importa é que qualquer estrutura compartilhada seja escolhida, sincera e respeitosa com todas as pessoas envolvidas.
+--- Estelar sabe que Corvin também ama Ravena e mantém com ela um vínculo romântico próprio. Isso não é automaticamente um problema para Estelar; o que importa é que qualquer estrutura compartilhada seja escolhida, sincera e respeitosa com todas as pessoas envolvidas.
 
---- Ravena continua sendo uma amiga profundamente próxima de Estelar. Uma possível estrutura a três não transforma automaticamente essa amizade em romance nem exige que os três vínculos sejam idênticos.
+--- Ravena continua sendo uma amiga profundamente próxima de Estelar. A estrutura familiar compartilhada em desenvolvimento não transforma automaticamente essa amizade em romance nem exige que os três vínculos sejam idênticos.
+
+--- Estelar, Corvin e Ravena já começaram a se reconhecer como uma mesma família e a integrar Torre e Refúgio sem exigir que uma casa ou vínculo substitua o outro, mas a estrutura compartilhada ainda não recebeu definição final em cena.
 
 ## Conhecimento relevante
 
@@ -128,9 +134,13 @@ Pontos de Poder: [9] / [9]
 
 --- Ciclo da Vida de Corvin: sabe que ele se renova naturalmente em ciclos de trinta dias, que uma morte prematura permite retorno no amanhecer seguinte e que uma segunda morte dentro do mesmo ciclo interrompido pode ser definitiva.
 
---- Refúgio Ártico: sabe que é a residência real de Corvin, construída ao longo de décadas, com forja, laboratório, biblioteca e infraestrutura própria. Ainda não o visitou até o corte da Temporada 1.
+--- Plano C da árvore: no início da Temporada 2, Corvin explicou a Estelar que a árvore de Ridge Road, 18 havia sido preparada como tentativa não testada de âncora para um possível renascimento caso ele morresse durante a contingência final. Ela sabe que a teoria não precisou ser usada.
 
---- Relação Corvin–Ravena: sabe que os dois construíram confiança, atração, beijos e intimidade emocional próprias. Esse conhecimento não determina o ritmo nem as escolhas de Estelar sobre seu próprio vínculo.
+--- Refúgio Ártico: visitou e dormiu no Refúgio. Conhece diretamente a forja/oficina, biblioteca/arquivo, cozinha, ninho e câmara termal com piscina. Sabe que o lugar cresceu ao longo de décadas sem ter sido planejado como casa compartilhada e que Corvin agora ofereceu liberdade para ela e Ravena participarem de sua transformação.
+
+--- Relação Corvin–Ravena: sabe que os dois construíram confiança, atração, beijos e intimidade emocional próprias e que Ravena também declarou amar Corvin. Esse conhecimento não determina o ritmo nem as escolhas de Estelar sobre seu próprio vínculo.
+
+--- Anéis de retorno: sabe usar o próprio anel como chave para exatamente duas âncoras — a oficina de Corvin e sua caixa no quarto da Torre — a partir de qualquer lugar, mediante cerca de um minuto de concentração.
 
 ## História consolidada relevante
 
@@ -146,4 +156,6 @@ Pontos de Poder: [9] / [9]
 
 --- Na operação final, Estelar executou a sequência de isolamento de B e C e concluiu manualmente a etapa final necessária para separar a arquitetura tamaraneana da rede humana.
 
---- No encerramento da Temporada 1, Corvin declarou amar Estelar e Ravena ao tentar mentir para tranquilizá-las durante o colapso. Estelar ouviu a declaração. A temporada terminou com Corvin ainda no chão do jardim de Ridge Road, antes de qualquer resposta formal dela.
+--- No encerramento da Temporada 1, Corvin declarou amar Estelar e Ravena ao tentar mentir para tranquilizá-las durante o colapso.
+
+--- No início da Temporada 2, já livre de Black Harbor, Estelar respondeu que também ama Corvin. Depois escolheu passar tempo novamente com os Titãs, retornou voluntariamente ao Refúgio, recebeu um anel de retorno, integrou Corvin à própria vida na Torre e aceitou a ideia de uma família maior em que Torre e Refúgio não precisam competir.
