@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 Temporada ativa: 2
 Última temporada encerrada: 1
-Último capítulo fechado: `livro/temporada-2/008.md`
+Último capítulo fechado: `livro/temporada-2/009.md`
 Epílogo da Temporada 1: `livro/temporada-1/epilogo.md`
 Resumo da temporada anterior: `livro/temporada-1/resumo-da-temporada.md`
 Mapa de eventos da Temporada 1: `livro/temporada-1/mapa-de-eventos.md`
@@ -64,7 +64,8 @@ Capítulos fechados até agora:
 - `livro/temporada-2/005.md` — primeiro dia da reforma: ampliação inicial da biblioteca, avanço privado de Corvin e Ravena, escolha do local do solário e nascimento do projeto do “castelo” de Kori;
 - `livro/temporada-2/006.md` — segundo dia da reforma: estrutura da biblioteca concluída, vida dos Titãs funcionando em paralelo, Kori começando a ocupar o Refúgio e conversa central sobre escolha e identidade;
 - `livro/temporada-2/007.md` — terceiro dia: base estrutural do solário concluída, Kori participa da construção e as memórias pessoais de Tamaran começam a produzir uma resposta pequena e repetível em Caminhos, ainda sem rota ou localização;
-- `livro/temporada-2/008.md` — quarto dia: compras e primeira parede de vidro do solário, projeto de levar luz natural à biblioteca por fibra e noite na câmara termal com proposta de ampliar a piscina existente e ligá-la ao ninho.
+- `livro/temporada-2/008.md` — quarto dia: compras e primeira parede de vidro do solário, projeto de levar luz natural à biblioteca por fibra e noite na câmara termal com proposta de ampliar a piscina existente e ligá-la ao ninho;
+- `livro/temporada-2/009.md` — fim do quarto e quinto dia: jantar e conversa pessoal entre Kori, Elara e Corvin, avanço conceitual de Caminhos sobre familiaridade e associação, novas etapas da biblioteca e do solário e uma noite de jantar, dança no chão e no ar escolhida por Ravena e Kori.
 
 O foco continua sendo:
 
@@ -82,15 +83,16 @@ A formação familiar compartilhada está avançando em cena, mas a temporada ai
 
 A continuação exata está em `estado/atual.md`.
 
-O Capítulo 008 terminou na **noite do Dia 4 da reforma do Refúgio**, durante um banho na câmara termal.
+O Capítulo 009 terminou no **fim da noite do Dia 5 da reforma do Refúgio**.
 
-- Corvin, Ravena e Kori estão juntos na piscina termal;
-- Kori entrou nua com naturalidade, Corvin acompanhou esse tom e Ravena manteve seu jeito mais reservado;
-- o solário já possui fundação segura, estrutura inicial e primeiros grandes painéis de vidro instalados;
-- Kori participou diretamente das compras, escolhas de vidro e montagem;
-- Ravena avançou no projeto da biblioteca com Victor e propôs levar luz natural até ela;
-- a solução discutida para a biblioteca é captar luz no solário/superfície e conduzi-la por fibra óptica, mantendo ventilação separada por filtros e exaustão;
-- Corvin e Kori passaram parte do Dia 3 explorando memórias de Tamaran como referências para Caminhos; existe apenas uma resposta pequena e repetível, ainda sem rota, coordenada ou portal;
-- Corvin propôs ampliar moderadamente a piscina termal existente, aprofundar uma parte e criar uma ligação com o ninho com uma porta “anti-Mutano”; isso ainda é projeto, não obra executada.
+- Corvin, Ravena e Kori estão dormindo juntos no ninho depois de uma noite fora;
+- Corvin passou a expressar o Refúgio como lugar onde está fincando raízes, não apenas onde guarda suas coisas entre viagens;
+- a biblioteca avançou com escada curva funcional, parte do mezanino e primeiras estantes;
+- o solário ganhou mais estrutura e vidro, especialmente na parede oeste, e os três viram juntos o pôr do sol atravessando o espaço;
+- começou a preparação física das rotas para futura condução de luz natural da superfície/solário até a biblioteca, mas o sistema óptico ainda não está pronto;
+- a ampliação da piscina termal existente e a porta “anti-Mutano” para o ninho continuam apenas como projeto;
+- Caminhos continua incapaz de alcançar Tamaran, mas Corvin confirmou que associação pode ajudar a selecionar um ponto quando já existe familiaridade suficiente com o local ou contexto; isso não substitui familiaridade;
+- as memórias de Kori continuam construindo apenas uma familiaridade incipiente com Tamaran, sem rota, coordenada ou portal;
+- Ravena e Kori conduziram a noite do Dia 5, com jantar, caminhada, dança e beijos em ritmos próprios, sem paridade forçada entre os vínculos.
 
-A próxima cena continua **no mesmo banho**, sem decidir automaticamente qualquer nova ação voluntária de Corvin.
+A próxima continuação parte do fim dessa noite, sem decidir automaticamente qualquer nova ação voluntária de Corvin.
