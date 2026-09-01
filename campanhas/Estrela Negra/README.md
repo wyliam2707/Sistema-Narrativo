@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 Temporada ativa: 2
 Última temporada encerrada: 1
-Último capítulo fechado: `livro/temporada-2/012.md`
+Último capítulo fechado: `livro/temporada-2/013.md`
 Epílogo da Temporada 1: `livro/temporada-1/epilogo.md`
 Resumo da temporada anterior: `livro/temporada-1/resumo-da-temporada.md`
 Mapa de eventos da Temporada 1: `livro/temporada-1/mapa-de-eventos.md`
@@ -24,7 +24,7 @@ O ponto operacional mais recente está em `estado/atual.md`.
 
 ## Elenco protagonista
 
-- `personagens/Corvin Blackwood.md` — protagonista / Jogador Humano / Patamar 4.
+- `personagens/Corvin Blackwood.md` — protagonista / Jogador Humano / Patamar 4 natural; condição temporária atual detalhada em `estado/atual.md`.
 - `personagens/Ravena.md` — protagonista / Jogador IA / Patamar 3.
 - `personagens/Estelar.md` — protagonista / Jogador IA / Patamar 3.
 
@@ -68,36 +68,40 @@ Capítulos fechados até agora:
 - `livro/temporada-2/009.md` — fim do quarto e quinto dia: conversa pessoal entre Kori, Elara e Corvin, avanço conceitual de Caminhos sobre familiaridade e associação, novas etapas da biblioteca e do solário e uma noite de jantar e dança conduzida por Ravena e Kori;
 - `livro/temporada-2/010.md` — Kori parte para uma missão espacial, é localizada por um Núcleo de Guerra tamaraneano e escolhe voltar para Tamaran; sua mensagem revela que quer voltar para Corvin e Ravena e admite atração romântica por Ravena, que depois reconhece reciprocidade; Corvin inicia a tentativa obsessiva de encontrar um caminho;
 - `livro/temporada-2/011.md` — três dias de pesquisa, autonomia de Ravena, apoio dos Titãs, fechamento da teoria, descoberta do custo ligado ao Ciclo da Vida e construção física da máquina destinada a sustentar Corvin dentro da busca de Caminhos por Tamaran;
-- `livro/temporada-2/012.md` — quatro dias de Kori em Tamaran: viagem e reencontro familiar, retorno ao povo e à condição de princesa, surgimento do conflito entre suas duas casas e, no quarto dia, reação inédita do Anel Solar que a leva à praça onde Caminhos parece procurá-la do outro lado.
+- `livro/temporada-2/012.md` — quatro dias de Kori em Tamaran: viagem e reencontro familiar, retorno ao povo e à condição de princesa, surgimento do conflito entre suas duas casas e, no quarto dia, reação inédita do Anel Solar que a leva à praça onde Caminhos parece procurá-la do outro lado;
+- `livro/temporada-2/013.md` — o quarto dia do lado da Terra alcança o mesmo instante: Corvin ativa a máquina, Caminhos reconhece a praça de Tamaran, Dick, Garfield, Victor e Ravena atravessam primeiro, Corvin paga duas estações do próprio Ciclo da Vida e cruza por último; chega de cabelos brancos, faz uma piada, desmaia e é aparado e abraçado por Kori diante da família real e da Guarda.
 
 O foco continua sendo:
 
-- liberdade e escolha de Kori mesmo depois de retornar voluntariamente a Tamaran;
+- liberdade e escolha de Kori depois de retornar voluntariamente a Tamaran;
 - amor real de Kori por seus pais, seu povo e Tamaran, sem apagar a Terra como casa;
 - continuidade consciente dos vínculos fora de Black Harbor;
 - definição da forma compartilhada da relação sem exigir que todos os vínculos sejam idênticos;
 - novo interesse romântico recíproco Ravena–Kori ainda não explorado frente a frente;
 - integração entre Refúgio, Torre, Titãs e Tamaran sem substituir uma casa pela outra;
-- Corvin tentando alcançar Kori sem transformar a escolha dela em sequestro a ser desfeito;
+- a presença de Corvin e dos Titãs em Tamaran como contato com um planeta soberano, não invasão ou resgate de uma prisão;
 - resolução do arco de Tamaran como consequência dos temas íntimos da temporada.
 
-A formação familiar compartilhada avançou muito, mas a temporada ainda não terminou. Kori reencontrou a família e descobriu que o que a prende em Tamaran não é uma cela, mas vínculos, povo, responsabilidade e amor. Ravena e Kori ainda não tiveram a conversa que desejam ter frente a frente; e a ativação da máquina de Corvin ainda precisa ser jogada do lado da Terra.
+A formação familiar compartilhada avançou muito, mas a temporada ainda não terminou. Kori reencontrou a família e descobriu que o que a prende em Tamaran não é uma cela, mas vínculos, povo, responsabilidade e amor. Agora as duas casas estão literalmente no mesmo lugar: Corvin, Ravena e os Titãs chegaram à praça de Tamaran, enquanto Rei, Rainha e Guarda estão diante deles. Ravena e Kori ainda não tiveram a conversa que desejam ter frente a frente, e o conflito dinástico/familiar ainda não foi resolvido.
 
 ## Ponto atual
 
 A continuação exata está em `estado/atual.md`.
 
-O Capítulo 012 dramatizou a linha de Kori até o ponto de sincronização do quarto dia:
+O Capítulo 013 encerrou a dessincronização entre as duas linhas:
 
-- Kori chegou a Tamaran no mesmo dia da viagem e reencontrou pai e mãe;
-- o retorno começou como casa e família antes da política;
-- ela circulou livremente pela cidade e pelo planeta, deixando claro que não está presa fisicamente;
-- o povo a recebeu como princesa e a posição dinástica voltou a produzir obrigações reais;
-- Kori declarou que a Terra nunca a manteve prisioneira e que os Titãs são sua família;
-- o rei quer que ela fique, mas não declarou posse sobre sua vida; a rainha explicitamente não quer repetir a estrutura que fez Kori acreditar que precisava fugir para ser livre;
-- Kori percebeu que quer voltar para Corvin, Ravena e os Titãs e, ao mesmo tempo, quer continuar pertencendo a Tamaran;
-- a dificuldade de retorno nasce de família, povo, responsabilidade e necessidade de infraestrutura interestelar, não de uma cela;
-- no quarto dia, o Anel Solar começou a reagir como se Caminhos estivesse procurando por ela do outro lado;
-- Kori correu para a praça principal de Tamaran e terminou diante do espaço ainda vazio dizendo: `[Estelar] — Eu estou aqui.`
+- Corvin preparou a tentativa e instruiu o grupo a atravessar quando avisasse, deixando a si mesmo por último;
+- a máquina confirmou a teoria de busca por reconhecimento: não encontrou uma coordenada secreta, mas impediu Caminhos de se perder enquanto Corvin procurava;
+- o Anel Solar e a caixa correspondente reagiram como duas partes da mesma referência;
+- a passagem abriu na praça onde Kori já esperava;
+- Dick, Garfield, Victor e Ravena atravessaram primeiro;
+- Corvin forçou duas mudanças do Ciclo da Vida para sustentar a abertura;
+- seus cabelos ficaram brancos e sua capacidade sobrenatural disponível caiu drasticamente;
+- Corvin atravessou por último, disse `[Corvin] — Viu? Sabia que funcionaria.`, deu um passo e desmaiou;
+- Kori o aparou antes do impacto, confirmou com Ravena e Victor que ele está vivo e estável e o abraçou dizendo que ele realmente veio;
+- a passagem se fechou;
+- Rei, Rainha, Guarda Real, Kori, Ravena, Dick, Victor, Garfield e Corvin estão agora na mesma praça;
+- nenhuma resposta formal da Coroa à chegada foi ainda estabelecida;
+- Corvin permanece inconsciente nos braços de Kori.
 
-A linha de Corvin e Ravena ainda deve viver o quarto dia no Refúgio. A máquina está pronta, mas sua ativação e o custo real ainda não foram narrados do ponto de vista de Corvin. Quando essa linha alcançar o mesmo instante, as duas perspectivas poderão se sincronizar na praça.
+A próxima cena começa exatamente desse ponto, sem salto de tempo.
