@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 Temporada ativa: 2
 Última temporada encerrada: 1
-Último capítulo fechado: `livro/temporada-2/011.md`
+Último capítulo fechado: `livro/temporada-2/012.md`
 Epílogo da Temporada 1: `livro/temporada-1/epilogo.md`
 Resumo da temporada anterior: `livro/temporada-1/resumo-da-temporada.md`
 Mapa de eventos da Temporada 1: `livro/temporada-1/mapa-de-eventos.md`
@@ -53,7 +53,7 @@ Capítulos e epílogo preservam o cânone detalhado. Resumo e mapa são derivado
 
 ## Temporada 2 — ativa
 
-A Temporada 2 começou exatamente após o final da Temporada 1 e permanece focada em liberdade, escolha, definição relacional e integração de vidas. O arco íntimo agora convergiu para Tamaran sem abandonar esses temas: a crise nasceu justamente da liberdade de Kori, das casas que ela escolheu e dos vínculos que construiu.
+A Temporada 2 começou exatamente após o final da Temporada 1 e permanece focada em liberdade, escolha, definição relacional e integração de vidas. O arco íntimo convergiu para Tamaran sem abandonar esses temas: a crise nasceu justamente da liberdade de Kori, das casas que ela escolheu e dos vínculos que construiu.
 
 Capítulos fechados até agora:
 
@@ -67,37 +67,37 @@ Capítulos fechados até agora:
 - `livro/temporada-2/008.md` — quarto dia: compras e primeira parede de vidro do solário, projeto de levar luz natural à biblioteca por fibra e noite na câmara termal com proposta de ampliar a piscina existente e ligá-la ao ninho;
 - `livro/temporada-2/009.md` — fim do quarto e quinto dia: conversa pessoal entre Kori, Elara e Corvin, avanço conceitual de Caminhos sobre familiaridade e associação, novas etapas da biblioteca e do solário e uma noite de jantar e dança conduzida por Ravena e Kori;
 - `livro/temporada-2/010.md` — Kori parte para uma missão espacial, é localizada por um Núcleo de Guerra tamaraneano e escolhe voltar para Tamaran; sua mensagem revela que quer voltar para Corvin e Ravena e admite atração romântica por Ravena, que depois reconhece reciprocidade; Corvin inicia a tentativa obsessiva de encontrar um caminho;
-- `livro/temporada-2/011.md` — três dias de pesquisa, autonomia de Ravena, apoio dos Titãs, fechamento da teoria, descoberta do custo ligado ao Ciclo da Vida e construção física da máquina destinada a sustentar Corvin dentro da busca de Caminhos por Tamaran.
+- `livro/temporada-2/011.md` — três dias de pesquisa, autonomia de Ravena, apoio dos Titãs, fechamento da teoria, descoberta do custo ligado ao Ciclo da Vida e construção física da máquina destinada a sustentar Corvin dentro da busca de Caminhos por Tamaran;
+- `livro/temporada-2/012.md` — quatro dias de Kori em Tamaran: viagem e reencontro familiar, retorno ao povo e à condição de princesa, surgimento do conflito entre suas duas casas e, no quarto dia, reação inédita do Anel Solar que a leva à praça onde Caminhos parece procurá-la do outro lado.
 
 O foco continua sendo:
 
-- liberdade e escolha de Kori mesmo quando retorna voluntariamente a Tamaran;
+- liberdade e escolha de Kori mesmo depois de retornar voluntariamente a Tamaran;
+- amor real de Kori por seus pais, seu povo e Tamaran, sem apagar a Terra como casa;
 - continuidade consciente dos vínculos fora de Black Harbor;
 - definição da forma compartilhada da relação sem exigir que todos os vínculos sejam idênticos;
 - novo interesse romântico recíproco Ravena–Kori ainda não explorado frente a frente;
 - integração entre Refúgio, Torre, Titãs e Tamaran sem substituir uma casa pela outra;
-- casa, convivência e espaço individual;
-- Corvin tentando chegar a Kori sem transformar a escolha dela em sequestro a ser desfeito;
+- Corvin tentando alcançar Kori sem transformar a escolha dela em sequestro a ser desfeito;
 - resolução do arco de Tamaran como consequência dos temas íntimos da temporada.
 
-A formação familiar compartilhada avançou muito, mas a temporada ainda não terminou. Kori ainda precisa enfrentar o que significa voltar por escolha própria; Ravena e Kori ainda não tiveram a conversa que agora desejam ter frente a frente; e a tentativa de Corvin de alcançar Tamaran ainda não foi executada.
+A formação familiar compartilhada avançou muito, mas a temporada ainda não terminou. Kori reencontrou a família e descobriu que o que a prende em Tamaran não é uma cela, mas vínculos, povo, responsabilidade e amor. Ravena e Kori ainda não tiveram a conversa que desejam ter frente a frente; e a ativação da máquina de Corvin ainda precisa ser jogada do lado da Terra.
 
 ## Ponto atual
 
 A continuação exata está em `estado/atual.md`.
 
-O Capítulo 011 terminou no **fim do terceiro dia completo após a partida voluntária de Kori**.
+O Capítulo 012 dramatizou a linha de Kori até o ponto de sincronização do quarto dia:
 
-- Kori embarcou voluntariamente num Núcleo de Guerra tamaraneano e o salto em direção a Tamaran começou; os dias seguintes de sua perspectiva ainda serão dramatizados separadamente;
-- a mensagem de Kori tornou explícita sua atração romântica por Ravena, além do amor familiar já existente;
-- Ravena respondeu depois, na presença de Corvin, que acha que gosta de Kori também e queria ter a oportunidade de descobrir isso olhando para ela;
-- Kori ainda não sabe que Ravena correspondeu;
-- Corvin entrou em foco técnico obsessivo e, com dados de Victor, a caixa solar, o anel que Kori carrega, as memórias de Tamaran e Caminhos, desenvolveu uma teoria de busca por reconhecimento em vez de rastreamento por coordenadas;
-- a máquina está fisicamente pronta, mas nunca foi ativada;
-- Corvin concluiu em privado que a ativação exigiria forçar duas mudanças de seu Ciclo da Vida e o deixaria profundamente esgotado; Ravena sabe que ele alimentará a máquina, mas não conhece a extensão total do custo;
-- Ravena continua com seu anel lunar; a caixa solar está no Refúgio integrada como referência da máquina;
-- Dick, Victor e Garfield sabem da situação; Victor forneceu telemetria e módulos, e Dick começou a pensar no problema diplomático de uma eventual chegada a Tamaran;
-- Ravena acabou de perguntar a Corvin, diante da máquina concluída: `[Ravena] — Pronta?`;
-- Corvin ainda não respondeu.
+- Kori chegou a Tamaran no mesmo dia da viagem e reencontrou pai e mãe;
+- o retorno começou como casa e família antes da política;
+- ela circulou livremente pela cidade e pelo planeta, deixando claro que não está presa fisicamente;
+- o povo a recebeu como princesa e a posição dinástica voltou a produzir obrigações reais;
+- Kori declarou que a Terra nunca a manteve prisioneira e que os Titãs são sua família;
+- o rei quer que ela fique, mas não declarou posse sobre sua vida; a rainha explicitamente não quer repetir a estrutura que fez Kori acreditar que precisava fugir para ser livre;
+- Kori percebeu que quer voltar para Corvin, Ravena e os Titãs e, ao mesmo tempo, quer continuar pertencendo a Tamaran;
+- a dificuldade de retorno nasce de família, povo, responsabilidade e necessidade de infraestrutura interestelar, não de uma cela;
+- no quarto dia, o Anel Solar começou a reagir como se Caminhos estivesse procurando por ela do outro lado;
+- Kori correu para a praça principal de Tamaran e terminou diante do espaço ainda vazio dizendo: `[Estelar] — Eu estou aqui.`
 
-A intenção futura declarada é preparar a utilização no dia seguinte e tentar a travessia perto da noite, mas isso ainda não aconteceu.
+A linha de Corvin e Ravena ainda deve viver o quarto dia no Refúgio. A máquina está pronta, mas sua ativação e o custo real ainda não foram narrados do ponto de vista de Corvin. Quando essa linha alcançar o mesmo instante, as duas perspectivas poderão se sincronizar na praça.
