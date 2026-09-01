@@ -2,13 +2,13 @@
 
 Status: DIREÇÃO PLANEJADA DA TEMPORADA
 
-Este arquivo registra o rumo planejado para o encerramento da Temporada 2. Parte da preparação já aconteceu em jogo e deve ser tratada como cânone somente onde `livro/`, fichas e `estado/atual.md` confirmarem. O restante continua sendo direção futura, não acontecimento já executado.
+Este arquivo registra o rumo planejado para o encerramento da Temporada 2. A preparação e os quatro dias de Kori em Tamaran já foram parcialmente canonizados em `livro/`, fichas e `estado/atual.md`; tudo além do último fato dessas fontes continua sendo direção futura, não acontecimento executado.
 
 O eixo temático permanece **liberdade, escolha, amor e casa**.
 
-## Estado já alcançado antes do arco final
+## Estado já alcançado
 
-A temporada já consolidou:
+A temporada consolidou:
 
 - Corvin, Ravena e Kori vivendo uma relação íntima e familiar estável sem exigir que todos os vínculos sejam idênticos;
 - Torre e Refúgio coexistindo como casas, não como rivais;
@@ -16,199 +16,245 @@ A temporada já consolidou:
 - convivência entre Refúgio, Torre, Titãs e vida individual;
 - Corvin conhecendo Tamaran indiretamente por memórias genuínas de Kori;
 - Caminhos aprendendo que associação não substitui familiaridade, mas pode refiná-la;
-- uma familiaridade incipiente e repetível com Tamaran, ainda insuficiente para portal direto;
-- Kori sendo localizada no espaço por um Núcleo de Guerra tamaraneano enquanto cumpria uma missão legítima dos Titãs;
-- o retorno de Kori sendo **voluntário**, não captura;
-- Kori descobrindo que seus pais continuam vivos e passaram anos procurando por ela;
-- Kori deixando uma mensagem para Corvin, Ravena e os Titãs antes de partir;
-- Kori confessando que gosta de Ravena romanticamente, além da amizade/família;
-- Ravena admitindo depois que acha que também gosta de Kori e queria ter a chance de descobrir o que existe entre elas;
+- Kori sendo localizada no espaço por um Núcleo de Guerra tamaraneano durante missão legítima dos Titãs;
+- retorno de Kori voluntário, nunca captura;
+- mensagem de Kori confessando amor por Corvin e atração romântica por Ravena;
+- Ravena admitindo depois que também acha que gosta de Kori romanticamente;
 - Kori ainda não sabendo que Ravena correspondeu;
-- Corvin fechando uma teoria de busca por reconhecimento e construindo uma máquina para tentar alcançar Tamaran;
-- a máquina estando fisicamente pronta, mas ainda não ativada no ponto atual.
+- Corvin fechando a teoria de busca por reconhecimento e construindo a máquina;
+- Corvin descobrindo em privado o custo de duas mudanças de estação;
+- Kori vivendo quatro dias em Tamaran até a reação do Anel Solar na praça principal;
+- Kori comprovando que ama Tamaran, sua família e seu povo e que o que a prende não é uma cela;
+- o Anel Solar reagindo no quarto dia como se Caminhos estivesse procurando Kori do outro lado;
+- Kori correndo para a praça e terminando o Capítulo 012 com `[Estelar] — Eu estou aqui.`
 
-## O retorno voluntário de Kori substitui a antiga captura
+A linha de Corvin e Ravena ainda deve viver o quarto dia no Refúgio antes de alcançar esse mesmo instante.
 
-A versão anterior em que Kori seria derrotada e capturada está CANCELADA.
+## Retorno voluntário de Kori
+
+A versão antiga de captura está CANCELADA.
 
 O evento canônico é:
 
-- uma nave de guerra tamaraneana investiga a ativação de um antigo núcleo na região;
-- sensores reconhecem a assinatura biológica de Sangue Real de Kori;
-- o comandante Va'kor informa que agora outras forças podem saber que a princesa está na Terra;
-- a situação pode gerar conflito interestelar porque terceiros podem interpretar a Terra como retendo ou protegendo uma herdeira real contra Tamaran;
-- Va'kor não obriga Kori a ir e diz que sua própria nave não atacará a Terra se ela recusar;
-- ele não pode garantir o comportamento de outras forças quando a informação se espalhar;
-- Kori descobre que seus pais passaram anos procurando por ela;
-- Kori escolhe retornar porque não quer que a Terra pague pela liberdade que ela própria escolheu e porque continua amando os pais e Tamaran.
+- uma nave de guerra tamaraneana investigou um antigo núcleo na região;
+- sensores reconheceram a assinatura biológica de Sangue Real de Kori;
+- Va'kor informou que outras forças poderiam descobrir que a princesa estava na Terra;
+- a situação poderia gerar conflito caso terceiros interpretassem a Terra como retendo uma herdeira;
+- Va'kor não obrigou Kori a ir;
+- Kori descobriu que seus pais passaram anos procurando por ela;
+- Kori escolheu retornar porque não queria que a Terra pagasse por sua liberdade e porque ainda amava pais e Tamaran.
 
 Fala canônica:
 
 > **“Eles não estão me levando. Eu estou indo.”**
 
-Esse ponto é essencial para todo o final.
+Corvin e os Titãs não vão a Tamaran para desfazer essa escolha. Vão para **alcançá-la, estar ao lado dela e preservar sua possibilidade de continuar escolhendo**.
 
-Corvin e os Titãs não vão a Tamaran para “resgatar Kori da decisão dela”. Eles vão para **alcançá-la, estar ao lado dela e garantir que ela continue tendo escolha depois de chegar**.
+## Quatro dias de Kori — agora canônicos
 
-## Mensagem e novo eixo Ravena–Kori
-
-Antes de embarcar, Kori gravou uma mensagem que já é canônica.
-
-Nela:
-
-- reafirmou amor pelos Titãs como família;
-- disse a Corvin que o ama e que queria ter voltado para casa;
-- percebeu que Tamaran também é casa e que agora talvez possua mais de uma;
-- disse que quer voltar para Corvin e Ravena se existir uma maneira;
-- disse a Ravena que a ama;
-- declarou explicitamente: **“Eu gosto de você, Ravena. Não apenas como minha amiga.”**
-- admitiu que talvez só tenha percebido a atração quando imaginou perder a chance de explorá-la.
-
-Depois de ouvir a mensagem, Ravena admitiu a Corvin:
-
-> **“Eu acho que gosto dela também.”**
-
-Ravena não sabe ainda exatamente o que deseja construir com Kori, mas sabe que quer ter a oportunidade de descobrir olhando para ela frente a frente.
-
-Preservar:
-
-- não transformar isso em romance plenamente resolvido antes do reencontro;
-- não transformar em triângulo de ciúme;
-- não exigir paridade entre Corvin–Ravena, Corvin–Kori e Ravena–Kori;
-- lembrar que os três já dividem cama, carinho, nudez cotidiana e vida doméstica com naturalidade há muito tempo;
-- o novo elemento é **dar nome a uma possível dimensão romântica entre Ravena e Kori**;
-- Kori NÃO sabe ainda que Ravena correspondeu.
-
-A conversa delas frente a frente deve ser uma cena real quando a oportunidade surgir, não uma solução automática do narrador.
-
-## Cronologia paralela de quatro dias
-
-A estrutura planejada antes da travessia é:
-
-### Noite 0
-
-- Kori parte voluntariamente com o Núcleo de Guerra;
-- mensagem chega ao Refúgio;
-- Ravena acorda Corvin;
-- Corvin começa a pesquisa obsessiva.
+`livro/temporada-2/012.md` substitui a antiga previsão genérica desses dias.
 
 ### Dia 1
 
-- pesquisa bruta;
-- telemetria de Victor;
-- Ravena busca a caixa solar no quarto de Kori;
-- anel solar/caixa tornam-se referência concreta, não rastreador;
-- primeiras estruturas e falhas úteis.
+- viagem em menos de cinco horas terrestres;
+- chegada a Tamaran no mesmo dia;
+- reencontro privado com pai e mãe;
+- família antes da política;
+- primeiro jantar protegido pelo rei de interferência do Conselho;
+- reconhecimento de quarto, palácio, comida, calor e paisagens como casa real.
 
 ### Dia 2
 
-- Corvin fecha a teoria;
-- descobre o custo ligado ao próprio Ciclo da Vida;
-- Ravena continua administrando o próprio tempo entre Torre e Refúgio;
-- a noite Corvin–Ravena mantém o vínculo íntimo sem transformar Kori em ausência necessária.
+- Kori conta à mãe sobre Titãs, Refúgio, Corvin e Ravena;
+- circula livremente pela cidade acompanhada por guardas por protocolo, não prisão;
+- reencontra o povo e é recebida como princesa;
+- passa pela praça principal, espaço profundamente familiar;
+- primeira reunião política: declara que a Terra nunca a manteve prisioneira e que os Titãs são sua família;
+- o rei diz como pai que quer que fique, mas reconhece que como rei a questão é mais complexa;
+- Kori conta à mãe que ama Corvin e que percebeu uma dimensão romântica no amor por Ravena.
 
 ### Dia 3
 
-- construção obsessiva;
-- máquina fisicamente concluída;
-- ponto atual do Estado.
+- sucessão, casas nobres, tratados e segurança transformam o retorno em problema político real;
+- Kori responde que não sabe se pretende permanecer em Tamaran;
+- sai de reunião e voa livremente para pensar;
+- percebe que não está presa fisicamente, mas não possui meio interestelar próprio para simplesmente voltar;
+- pensa com força: **talvez eu não volte**;
+- a rainha admite que a estrutura antiga da própria casa ajudou a fazer Kori acreditar que fugir era a única forma de escolher;
+- o rei confirma que Kori deseja voltar a Corvin; Kori diz que sim, mas também quer ficar em Tamaran.
 
-### Dia 4 — ainda futuro
+### Dia 4 — linha de Kori já no ponto de sincronização
 
-- Corvin prepara a utilização;
-- Ravena continua com autonomia total sobre o próprio dia;
-- Titãs organizam a tentativa e o problema diplomático;
-- perto da noite, a intenção planejada é tentar a ativação.
+- o rei não proíbe Kori de partir, mas não enviará nave real à Terra antes de política de contato definida;
+- Kori chama a Terra de casa e responde que Tamaran também é;
+- a rainha afirma que não repetirão a lógica de escolher entre pertencer e ser livre;
+- Kori escolhe acompanhar a mãe a uma audiência porque reconhece que Tamaran também exige presença e responsabilidade;
+- o Anel Solar começa a reagir;
+- Kori reconhece a lógica de Caminhos;
+- a sensação se concentra na praça principal;
+- Kori corre e voa até lá;
+- mãe, guardas e população convergem;
+- nenhum portal completo foi narrado ainda;
+- Kori termina diante do espaço vazio dizendo: `[Estelar] — Eu estou aqui.`
 
-Depois de fechar o período Corvin/Ravena, a narrativa pode voltar no tempo e acompanhar **os quatro dias de Kori** desde o embarque até o mesmo instante, mostrando viagem, chegada, reencontro com a família e início do conflito em Tamaran sem inventar isso antes de ser jogado.
+**Não avançar Kori além desse instante antes de a linha de Corvin alcançar a ativação.**
+
+## O que prende Kori
+
+Preservar como eixo central:
+
+Kori não está numa cela.
+
+Ela consegue:
+
+- sair de reuniões;
+- andar pelo palácio e cidade;
+- voar para fora da capital;
+- discordar do pai;
+- escolher onde estar.
+
+O peso é:
+
+- mãe e pai que ama e que passaram anos procurando por ela;
+- povo que ainda a ama e a reconhece como princesa;
+- Sangue Real e sucessão;
+- responsabilidade real pelas consequências de uma nova partida;
+- Tamaran ser genuinamente casa;
+- a Terra, os Titãs, Ravena e Corvin também serem casa;
+- retorno interestelar depender de nave, rota ou outro meio real.
+
+A pergunta não é “quem vai libertá-la?”.
+
+A pergunta é **como Kori pode pertencer a mais de uma casa sem precisar destruir uma para conservar a outra**.
+
+## Mensagem e eixo Ravena–Kori
+
+Antes de embarcar, Kori disse a Ravena:
+
+> **“Eu gosto de você, Ravena. Não apenas como minha amiga.”**
+
+Depois, Ravena admitiu a Corvin:
+
+> **“Eu acho que gosto dela também.”**
+
+Preservar:
+
+- Kori ainda não sabe que Ravena correspondeu;
+- não existe relacionamento romântico formal Ravena–Kori ainda;
+- não existe beijo romântico estabelecido entre elas;
+- amizade/família anterior não vira retroativamente “romance escondido”;
+- não transformar em triângulo de ciúme;
+- os três já dividem cama, carinho, nudez cotidiana e vida doméstica naturalmente;
+- o elemento novo é descobrir se Ravena–Kori também terá dimensão romântica/sexual;
+- a conversa deve acontecer ao vivo, com autonomia das duas.
 
 ## Máquina para procurar Tamaran
 
-A máquina NÃO é rastreador e NÃO recebe uma coordenada secreta.
+A máquina NÃO é rastreador e NÃO usa uma coordenada secreta.
 
 Ela combina:
 
-- familiaridade incipiente de Caminhos com Tamaran, construída por memórias de Kori;
+- familiaridade incipiente de Caminhos com Tamaran pelas memórias de Kori;
 - associação pessoal de Corvin com Kori;
 - Anel Solar conhecido por Corvin e fisicamente com Kori;
-- caixa solar correspondente, agora no Refúgio;
-- assinatura e distorção do salto tamaraneano preservadas por Victor;
-- contenção física, mágica e técnica para impedir que a procura se disperse.
+- caixa solar correspondente incorporada no Refúgio;
+- assinatura e distorção do salto preservadas por Victor;
+- contenção física, mágica e técnica para impedir dispersão da busca.
 
 Formulação central:
 
 > **A máquina não encontra Tamaran. Ela impede Caminhos de se perder enquanto Corvin procura.**
 
-O funcionamento final, quando for usado, deve pagar tudo que a temporada construiu. Não é uma rolagem sortuda que “descobre o planeta”.
+A reação do Anel Solar no Capítulo 012 mostra o lado de Kori do ponto de sincronização, mas a ativação ainda precisa ser executada na linha de Corvin antes que o portal e a travessia sejam fatos consolidados.
+
+## Quarto dia — lado da Terra ainda futuro
+
+Próximo trecho deve voltar ao Refúgio pela manhã do quarto dia.
+
+Direção já declarada:
+
+- Corvin prepara a utilização;
+- Ravena continua com autonomia total sobre o próprio dia;
+- Titãs organizam a tentativa e o problema diplomático;
+- perto da noite, Corvin pretende ativar a máquina.
+
+Na noite anterior, Corvin confirmou que a máquina estava pronta, disse que precisava de descanso e de Ravena, brincou com ela sobre “Embaixada da Montanha”, “Umbra” e “Tamaran” e dormiu apenas buscando sua presença. Isso é canônico, mas não altera o custo ou o plano técnico.
 
 ## Custo planejado da ativação
 
 Corvin concluiu em privado que a máquina precisa ser alimentada pela mesma origem de Caminhos: o próprio ciclo natural dele.
 
-Custo planejado se a ativação realmente ocorrer:
+Se a ativação ocorrer como calculado:
 
-- forçar energia equivalente a **duas mudanças de estação de uma vez**;
-- cabelo verde-claro antes da ativação;
-- cabelo **branco** ao final da travessia, representando a chegada abrupta ao Inverno;
+- força energia equivalente a **duas mudanças de estação de uma vez**;
+- cabelo verde-claro antes do uso;
+- cabelo **branco** ao final da travessia, representando chegada abrupta ao Inverno;
 - esgotamento profundo da reserva sobrenatural;
-- em termos mecânicos de mestre, Corvin cai temporariamente de **Patamar 4 para Patamar 2** até o encerramento da Temporada 2, salvo mudança posterior legitimamente estabelecida em jogo;
-- Mana pode ser drenada pela ativação conforme a sentença concreta quando ocorrer, mas não registrar como gasto antes do uso.
+- em termos mecânicos de mestre, Corvin cai temporariamente de **Patamar 4 para Patamar 2** até o encerramento da Temporada 2, salvo mudança posterior legitimamente estabelecida;
+- Mana só deve ser drenada conforme a sentença concreta da ativação; não gastar antes.
 
 Corvin NÃO contou a Ravena o custo completo.
 
-Ele não precisa mentir; apenas não oferece espontaneamente toda a conta.
+Ravena sabe que ele está dentro do circuito e que seu Ciclo da Vida é a fonte primária.
 
-A Natureza Não Mente continua válida. Se Ravena perguntar diretamente algo cuja resposta exija revelar o custo, Corvin não pode deliberadamente mentir.
+Victor também entende que Corvin está dentro do circuito, mas não conhece a conta completa.
+
+A Natureza Não Mente continua válida. Se perguntado diretamente, Corvin não pode deliberadamente mentir.
 
 ## Ordem planejada da travessia
 
 Se a máquina funcionar:
 
-- a passagem é aberta;
+- a passagem é aberta na praça já estabelecida em Tamaran;
 - Ravena e os Titãs atravessam primeiro;
 - Corvin permanece sustentando o sistema;
 - Corvin atravessa por último;
-- só depois da travessia Ravena percebe visual e empaticamente o tamanho real do preço, especialmente pelo cabelo branco e pela queda brutal da presença de poder que conhece nele.
+- só depois Ravena percebe visual e empaticamente o tamanho real do preço, especialmente pelo cabelo branco e pela queda brutal da presença de poder que conhece nele.
 
-Isso ainda é FUTURO. Não narrar antes da ativação real.
+Isso ainda é FUTURO na linha de Corvin.
 
-## Tensão íntima Corvin–Kori
+Não narrar travessia antes da ativação real.
 
-A relação Corvin–Kori mantém forte tensão sexual durante a temporada sem precisar consumá-la antes de Tamaran.
+## Chegada à praça
 
-Kori continua podendo ser:
+A praça é agora o ponto de chegada canônico preparado pelo Capítulo 012.
 
-- corporal;
-- sensual;
-- confortável com nudez;
-- aberta a beijos, toque, proximidade e provocação;
-- muito consciente da atração de Corvin;
-- capaz de provocar e desejar sem vergonha.
+Quando as linhas sincronizarem:
 
-Ao mesmo tempo, Kori nunca teve uma relação sexual completa.
+- Kori já está no centro da praça;
+- o Anel Solar reage;
+- a rainha está convergindo para o local;
+- guardas começam a organizar a área sem saber ainda o que ocorre;
+- cidadãos estão presentes e se afastando;
+- o rei pode ser avisado e chegar conforme a cena desenvolver legitimamente;
+- não tratar os guardas automaticamente como aliados nem como inimigos; sua função inicial é proteger família real, ordem pública e soberania tamaraneana.
 
-Isso não nasce de pudor, pureza ou repressão. Tamaran não precisa tratar sexo como tabu.
+Imagem desejada, se a situação permitir:
 
-A razão está ligada ao eixo central de Kori: **escolha**.
+> **Kori corre até Corvin e o abraça quando o vê.**
 
-Durante grande parte da vida dela, casamento, linhagem, função política e futuro reprodutivo foram tratados por outros como assuntos de Estado. Kori preservou essa última fronteira como algo que ninguém escolheria por ela.
+Esse abraço não resolve o conflito.
 
-A ideia central é:
+Depois dele Kori ainda precisa encarar:
 
-> **Kori nunca teve vergonha do próprio corpo. Ela apenas nunca permitiu que alguém confundisse seu desejo com o direito de decidir por ela.**
+- pai;
+- mãe;
+- guardas;
+- povo;
+- Tamaran;
+- Corvin;
+- Ravena;
+- Titãs;
+- e a pergunta “e agora?”.
 
-Não revelar isso antecipadamente por exposição do narrador. Deve surgir organicamente em cena quando houver confiança e contexto.
-
-O pagamento planejado continua sendo a noite de núpcias depois de um casamento escolhido em Tamaran, adulta, íntima e não gráfica.
+O abraço significa que alguém de sua outra casa conseguiu chegar até ela, não que ela rejeitou Tamaran.
 
 ## Tamaran — escala de poder
 
-Nem todo tamaraneano possui o poder de Estelar.
-
 - Tamaraneanos comuns: Patamar 0; fisiologia tamaraneana e voo natural.
 - Guardas/soldados: Patamar 1; treinamento militar e voo de combate.
-- Elite/campeões/guarda real: Patamar 2.
-- Família de Sangue Real: Patamar 3 por natureza da linhagem, não apenas por título político.
+- Elite/campeões/Guarda Real: Patamar 2.
+- Família de Sangue Real: Patamar 3 por natureza da linhagem.
 - Rei de Tamaran: Patamar 4.
 
 A monarquia existe historicamente em parte porque o Sangue Real é uma linhagem realmente excepcional. Casamentos políticos possuem importância dinástica porque preservam ou combinam essa linhagem.
@@ -235,104 +281,48 @@ O problema para eles é:
 - vida curta aparente de um humano;
 - responsabilidade de uma princesa diante do reino.
 
-## Kori volta para casa
-
-A chegada de Kori a Tamaran deve começar com **casa**, não tribunal.
-
-Mostrar antes da política:
-
-- pais;
-- família;
-- calor;
-- comida;
-- cheiros;
-- paisagens familiares;
-- lugares que ela descreveu a Corvin;
-- pequenas memórias pessoais;
-- saudade verdadeira.
-
-Ela fugiu do futuro imposto, não do amor por Tamaran.
-
-O retorno voluntário precisa tornar isso evidente.
-
-Só depois vem o conflito sobre a vida que ela construiu na Terra, Corvin, Ravena e o que pretende fazer agora.
-
-## Chegada de Corvin, Ravena e Titãs
-
-Se a máquina funcionar, a chegada não deve ser tratada como invasão heroica simplista.
-
-Eles entram em:
-
-- planeta soberano;
-- sociedade inteira;
-- guarda real;
-- família governante;
-- leis;
-- tradição;
-- diplomacia.
-
-Dick deve levar a sério a diferença entre ir atrás de uma amiga e invadir um reino alienígena.
-
-Quando Kori vê Corvin, a imagem planejada continua simples:
-
-> **Kori corre e o abraça.**
-
-Antes das explicações longas.
-
-Antes do conflito formal.
-
-Esse abraço não significa que ela rejeitou Tamaran. Significa que alguém de sua outra casa conseguiu chegar até ela.
-
-Ravena e Kori também precisam ter espaço real para a conversa que agora ambas desejam, sem o narrador resolver antecipadamente se haverá beijo, quando ou de que forma.
-
-## Objeção da família real
-
-A família considera a relação Corvin–Kori impossível porque Kori é Sangue Real e Corvin parece apenas um mortal.
-
-Kori pode tentar explicar que estão errados sobre ele, mas a família não precisa acreditar apenas porque ela afirma.
-
-O conflito coloca duas partes verdadeiras de Kori frente a frente:
-
-- mulher que escolheu o próprio amor e a própria vida;
-- princesa que entende por que o Sangue Real importa para seu povo.
-
-Ela não precisa deixar de ser princesa para ser livre.
-
 ## Lei antiga / desafio
 
 O rei pode invocar uma antiga tradição que permite testar um consorte escolhido contra a objeção da Coroa.
 
 A luta **não decide quem fica com Kori**.
 
-Kori já escolheu quem ama.
+Kori já escolhe quem ama.
 
 O desafio testa a objeção dinástica e a capacidade aparente de um consorte permanecer ao lado do Sangue Real.
 
 Não transformar o ritual em propriedade sobre Kori.
 
-## Corvin contra o Rei — condição atualizada
+## Corvin contra o Rei
 
 O Rei é Patamar 4.
 
-Corvin é naturalmente Patamar 4, mas, se a travessia ocorrer com o custo planejado, chegará a Tamaran **temporariamente reduzido a Patamar 2 em capacidade disponível**.
+Corvin é naturalmente Patamar 4, mas, se a travessia ocorrer com o custo planejado, chega a Tamaran **temporariamente com capacidade disponível de Patamar 2**.
 
-Não restaurar silenciosamente Corvin a P4 só para facilitar a cena.
+Não restaurar silenciosamente Corvin a P4 para facilitar a cena.
 
-O desafio deve respeitar o custo que tornou possível chegar até Kori.
+O desafio deve respeitar o custo da viagem.
 
-Ao mesmo tempo, a revelação cinematográfica continua podendo explorar a natureza real de Corvin:
+Ao mesmo tempo, Fúria da Terra pode revelar sua natureza por meio da própria natureza alienígena de Tamaran:
 
-- ele não é apenas um lutador;
-- Fúria da Terra pode fazer a natureza alienígena de Tamaran responder;
-- o planeta pode revelar a dimensão do que ele é mesmo quando sua reserva pessoal está profundamente drenada;
-- isso não significa recuperar automaticamente o poder gasto;
-- a consequência exata e o vencedor continuam sendo resolvidos ao vivo.
+- pedra;
+- solo;
+- magma;
+- vento;
+- tempestade;
+- relâmpagos;
+- relevo;
+- vida/ecologia.
 
-A luta pode ser cinematográfica e ritual em vez de golpe a golpe, mas **o resultado não deve ser predeterminado**.
+Tamaran é alienígena, mas continua sendo natureza.
 
-Não é necessário nocaute ou morte. Reconhecimento ritual pode encerrar o confronto quando fizer sentido.
+Isso pode revelar a dimensão do que Corvin é sem restaurar automaticamente a reserva que gastou.
 
-## Frase temática
+Resultado e vencedor permanecem ao vivo e mecânicos.
+
+Não é obrigatório nocaute ou morte; reconhecimento ritual pode encerrar o confronto se os acontecimentos justificarem.
+
+## Frases temáticas
 
 O rei pode chegar a algo próximo de:
 
@@ -342,68 +332,45 @@ A resposta desejada de Corvin é:
 
 > **“Essa decisão não é sua.”**
 
-Mas essa fala NÃO deve ser colocada automaticamente na boca do Jogador Humano.
+Mas essa fala NÃO deve ser colocada automaticamente na boca do Jogador Humano. Só acontece se o usuário a disser ou autorizar explicitamente.
 
-Ela só acontece se o usuário escolher dizê-la ao vivo ou autorizar explicitamente a execução.
-
-O tema por trás dela continua central:
+O tema:
 
 - o rei não decide quem merece Kori;
 - Corvin também não;
 - a linhagem não;
 - Kori decide.
 
-## O rei deixa de lutar apenas contra um homem
-
-Se Corvin liberar a Fúria da Terra durante o desafio, a imagem desejada é o rei perceber que sua leitura inicial estava errada.
-
-Possíveis manifestações coerentes:
-
-- pedra;
-- solo rachando;
-- magma;
-- vento;
-- tempestade;
-- relâmpagos;
-- relevo;
-- vida e ecologia de Tamaran respondendo.
-
-Tamaran é alienígena, mas continua sendo natureza.
-
-A revelação temática é que Corvin não é um construtor que ocasionalmente destrói.
-
-Ele é uma força da natureza que **escolheu passar a maior parte da vida construindo**.
-
-Na reforma do Refúgio, pedia à montanha que se movesse centímetros sem quebrar.
-
-No desafio, pode existir a chance de Kori ver o outro extremo dessa mesma natureza.
-
-## Possível encerramento do desafio
-
-A frase seca desejada do Rei permanece:
+Possível encerramento seco do desafio:
 
 > **“Ok. Você passou.”**
 
-Mas ela depende de o desafio realmente chegar a um reconhecimento desse tipo em jogo.
+Somente se os acontecimentos reais justificarem. Não forçar.
 
-Não forçar se os acontecimentos produzirem outra resolução legítima.
+## Tensão íntima Corvin–Kori
 
-O significado, se ocorrer, não é “Corvin ganhou Kori”.
+Kori continua corporal, sensual, confortável com nudez, beijo, toque, proximidade e provocação.
 
-É:
+Ao mesmo tempo, nunca teve uma relação sexual completa.
 
-> **O rei reconheceu que a escolha da filha não é a escolha de alguém incapaz de compreender o próprio futuro.**
+Isso não nasce de pudor, pureza ou vergonha. A fronteira tem relação com escolha: durante grande parte da vida, casamento, linhagem, futuro reprodutivo e corpo foram tratados por terceiros como assuntos de Estado.
+
+Ideia central:
+
+> **Kori nunca teve vergonha do próprio corpo. Ela apenas nunca permitiu que alguém confundisse seu desejo com o direito de decidir por ela.**
+
+Não revelar isso por exposição antecipada. Deve surgir organicamente quando houver confiança e contexto.
 
 ## Casamento em Tamaran
 
-Depois do conflito e de reconhecimento suficiente, a direção desejada continua sendo um casamento tamaraneano entre Corvin e Kori.
+Direção desejada, se os acontecimentos levarem legitimamente até lá: casamento tamaraneano entre Corvin e Kori.
 
-O casamento é o espelho invertido daquele do qual ela fugiu.
+O casamento funciona como espelho invertido do casamento imposto do qual ela fugiu.
 
 Antes:
 
 - Tamaran escolhia o homem;
-- a linhagem definia o futuro;
+- linhagem definia o futuro;
 - Kori era tratada como peça dinástica.
 
 Agora:
@@ -413,17 +380,15 @@ Agora:
 - continua ligada ao Sangue Real;
 - mas escolhe publicamente com quem quer casar.
 
-Liberdade não exige destruir sua origem.
+Liberdade não exige destruir sua origem; exige poder decidir o que essa origem significa.
 
-Exige poder decidir o que essa origem significa em sua vida.
-
-A existência de Ravena e do possível romance Ravena–Kori não deve ser apagada pelo casamento Corvin–Kori. Os vínculos não precisam assumir a mesma forma jurídica ou cultural para serem reais.
+A existência de Ravena e do possível romance Ravena–Kori não é apagada pelo casamento Corvin–Kori. Os vínculos não precisam assumir a mesma forma jurídica ou cultural para serem reais.
 
 ## Noite de núpcias
 
-A noite de núpcias permanece o pagamento íntimo da tensão Corvin–Kori construída durante a temporada.
+Permanece como pagamento íntimo planejado da tensão Corvin–Kori, se o casamento realmente acontecer.
 
-É planejada como a primeira relação sexual completa de Kori.
+Seria a primeira relação sexual completa de Kori.
 
 A cena deve ser:
 
@@ -433,25 +398,17 @@ A cena deve ser:
 - sensual;
 - não gráfica.
 
-O significado é que ninguém escolheu:
+O significado é escolha, não “casamento permitindo sexo”.
 
-- o marido;
-- a hora;
-- o corpo;
-- o significado;
-- a decisão.
-
-Kori escolheu.
+Kori escolheu o parceiro, a hora, o corpo e o significado.
 
 ## Encerramento da Temporada 2
 
-Depois de Tamaran, do conflito familiar, do desafio, do casamento e dos desenvolvimentos relacionais que realmente acontecerem, a temporada deve voltar ao tema íntimo.
+Depois de Tamaran, do conflito familiar, do possível desafio, casamento e desenvolvimentos relacionais que realmente acontecerem, a temporada deve voltar ao tema íntimo.
 
 O Refúgio pode continuar incompleto.
 
-Biblioteca, solário, vitrais, encanamento, arquitetura, móveis e detalhes ainda podem esperar.
-
-Depois de atravessar estrelas e enfrentar uma crise dinástica, o encerramento desejado é o retorno às pessoas e às casas escolhidas.
+Biblioteca, solário, vitrais, encanamento, arquitetura, móveis e detalhes podem esperar.
 
 A grande vitória não é conquistar Tamaran.
 
@@ -468,26 +425,27 @@ E é todos poderem voltar para casa porque **escolheram voltar**.
 Preservar especialmente:
 
 - retorno voluntário de Kori; nunca reverter para captura;
-- amor de Kori pelos pais e Tamaran;
-- risco político para a Terra como motivo legítimo da escolha dela;
+- amor de Kori pelos pais, povo e Tamaran;
+- ausência de prisão física como eixo do conflito;
+- duas casas reais coexistindo;
 - mensagem de Kori;
-- atração Kori–Ravena agora explícita;
-- reciprocidade de Ravena ainda desconhecida por Kori;
+- atração Kori–Ravena explícita e reciprocidade de Ravena ainda desconhecida por Kori;
 - ausência de triângulo de ciúme automático;
-- máquina de Corvin como pagamento de toda a preparação de Caminhos;
-- custo de duas estações e esgotamento temporário P4 → P2 se a máquina for usada;
-- Ravena não sabendo o custo completo antes da ativação, salvo se o descobrir legitimamente;
-- ordem planejada de travessia: outros primeiro, Corvin por último;
+- máquina de Corvin como pagamento da preparação de Caminhos;
+- praça do Capítulo 012 como ponto de sincronização/chegada;
+- mãe e guardas podendo estar presentes na chegada sem serem automaticamente aliados ou inimigos;
+- custo de duas estações e P4 → P2 se a máquina for usada;
+- Ravena não sabendo o custo completo antes da ativação salvo descoberta legítima;
+- ordem planejada: outros primeiro, Corvin por último;
 - cabelo branco como revelação visual do preço;
-- chegada a Tamaran como visita a um mundo soberano, não dungeon de resgate;
-- reencontro familiar antes da política;
-- abraço de Kori quando Corvin chega, se a situação permitir;
-- conversa Ravena–Kori acontecendo ao vivo;
-- Aparência Inofensiva sustentando a leitura inicial de “mortal comum”;
+- chegada como contato com planeta soberano, não dungeon de resgate;
+- abraço de Kori em Corvin se a situação permitir, sem resolver o conflito;
+- conversa Ravena–Kori ao vivo;
+- Aparência Inofensiva sustentando leitura inicial de mortal comum;
 - conflito do Sangue Real sem transformar Kori em prêmio;
 - lei antiga como teste de objeção, não propriedade;
-- eventual frase “Essa decisão não é sua” somente se Corvin realmente a disser;
+- eventual fala de Corvin somente se o Jogador Humano realmente a escolher;
 - resultado do desafio não predeterminado;
-- casamento escolhido por Kori;
-- noite de núpcias como fechamento íntimo da escolha dela;
+- casamento apenas se legitimamente alcançado;
+- noite de núpcias como fechamento íntimo de uma escolha de Kori;
 - retorno à casa ainda em construção como imagem final desejada.
