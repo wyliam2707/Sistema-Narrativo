@@ -64,15 +64,21 @@ Pontos de Poder: [9] / [9]
 
 ## Desejos / objetivos
 
---- Estelar quer construir uma vida escolhida por ela mesma, cercada por pessoas que ame e que também a escolham livremente. Deseja conhecer melhor a Terra, criar vínculos verdadeiros e, um dia, decidir por conta própria se quer ou não voltar a Tamaran — não porque alguém mandou, mas porque essa decisão finalmente será dela.
+--- Estelar quer construir uma vida escolhida por ela mesma, cercada por pessoas que ame e que também a escolham livremente. Deseja conhecer melhor a Terra, criar vínculos verdadeiros e decidir por conta própria como Tamaran fará parte de sua vida — não porque alguém mandou, mas porque essa decisão finalmente será dela.
 
 --- Estelar escolheu continuar com Corvin depois da libertação de Black Harbor e declarou claramente que também o ama. Quer integrar esse vínculo à família que já possui nos Titãs sem transformar uma vida em substituta da outra.
 
---- Quer participar da transformação do Refúgio Ártico em uma casa que também carregue escolhas dela e de Ravena. Pediu um solário aberto à luz, com plantas e flores e possibilidade futura de espécies de Tamaran; o projeto ainda não foi construído.
+--- Quer participar da transformação do Refúgio Ártico em uma casa que também carregue escolhas dela e de Ravena. Pediu um solário aberto à luz, com plantas e flores e possibilidade futura de espécies de Tamaran; o projeto está em construção e ainda não foi concluído.
+
+--- Depois de perceber a própria atração por Ravena no momento em que acreditou poder perder a chance de explorá-la, Kori deseja poder voltar e descobrir frente a frente o que poderia existir entre as duas. Ela ainda não sabe que Ravena reconheceu reciprocidade depois da mensagem.
 
 ## Medos / limites
 
---- Estelar teme perder novamente o direito de escolher o próprio destino — especialmente ser forçada a retornar a Tamaran, aceitar obrigações políticas ou entrar em um vínculo que não escolheu. Também reage mal à ideia de ser tratada como propriedade, símbolo diplomático ou prêmio, em vez de como pessoa.
+--- Estelar teme perder novamente o direito de escolher o próprio destino — especialmente ser forçada a aceitar obrigações políticas ou entrar em um vínculo que não escolheu. Também reage mal à ideia de ser tratada como propriedade, símbolo diplomático ou prêmio, em vez de como pessoa.
+
+--- A decisão de voltar voluntariamente para Tamaran não elimina esse limite. Ela escolheu retornar para impedir que a Terra pagasse por sua ausência e porque ama os pais e o próprio mundo; não escolheu entregar a outras pessoas autoridade sobre seu futuro.
+
+--- Depois de partir, Kori teme não conseguir voltar para as pessoas e para a casa que construiu na Terra e perder a oportunidade de descobrir o que existe entre ela e Ravena.
 
 ## Rotina e hábitos persistentes
 
@@ -82,7 +88,7 @@ Pontos de Poder: [9] / [9]
 
 ### Relações positivas
 
---- Ravena: uma de suas amigas mais próximas na Terra. Estelar confia profundamente nela, não teme sua natureza meio-abissal e encara Trigon como um inimigo poderoso, não como razão para tratar Ravena com receio. A convivência em Black Harbor e a liberdade posterior aprofundaram ainda mais a confiança e a intimidade cotidiana entre as duas, mas nenhum romance entre elas foi formalmente estabelecido.
+--- Ravena: uma das pessoas mais próximas de Kori. Durante anos, Estelar entendeu o vínculo como amizade profunda, família escolhida e intimidade cotidiana. Ao perceber que poderia deixar a Terra sem saber se voltaria, Kori reconheceu que seus sentimentos também possuem uma dimensão romântica e disse diretamente em mensagem que ama Ravena e que gosta dela **não apenas como amiga**. Ela gostaria de ter a oportunidade de descobrir o que isso significa frente a frente. Kori ainda **não sabe** que, depois de ouvir a mensagem, Ravena admitiu a Corvin que acha que também gosta dela.
 
 --- Titãs: considera a equipe sua família escolhida na Terra e um dos primeiros lugares em que pôde pertencer sem ser definida apenas por sua posição como princesa.
 
@@ -92,9 +98,9 @@ Pontos de Poder: [9] / [9]
 
 --- Ciborgue: amigo em quem confia pela lealdade, estabilidade e franqueza. Também valoriza sua facilidade com tecnologia e sua disposição para ajudá-la a compreender melhor equipamentos e costumes terrestres.
 
---- Tamaran: apesar de ter fugido das decisões impostas por sua corte, Estelar continua amando seu mundo, sua cultura e seu povo. Sua rejeição é à perda de escolha, não à sua origem.
+--- Tamaran: apesar de ter fugido das decisões impostas por sua corte, Estelar continua amando seu mundo, sua cultura e seu povo. Sua rejeição sempre foi à perda de escolha, não à sua origem. Ao descobrir que os pais passaram anos procurando por ela, decidiu retornar voluntariamente para reencontrá-los e impedir que sua presença na Terra se tornasse motivo para conflito.
 
---- Corvin Blackwood: um dos vínculos mais íntimos de Estelar. Ela conhece sua natureza de semideus, sua força real e partes importantes de sua vida que estavam escondidas sob uma aparência comum. Entre os dois existem forte atração, beijos, intimidade física e emocional, encontros privados e confiança crescente. Depois da libertação de Black Harbor, Estelar declarou claramente que também o ama e continuou o vínculo por escolha livre.
+--- Corvin Blackwood: um dos vínculos mais íntimos de Estelar. Ela conhece sua natureza de semideus, sua força real e partes importantes de sua vida que estavam escondidas sob uma aparência comum. Entre os dois existem forte atração, beijos, intimidade física e emocional, encontros privados e confiança crescente. Depois da libertação de Black Harbor, Estelar declarou claramente que também o ama e continuou o vínculo por escolha livre. Antes de voltar a Tamaran, disse que queria ter voltado para casa, percebeu que agora considera tanto Tamaran quanto a vida com Corvin e Ravena como casas e declarou que quer voltar para os dois se existir uma maneira.
 
 ### Relações negativas
 
@@ -112,15 +118,15 @@ Pontos de Poder: [9] / [9]
 
 --- No modelo cultural de casamento de Tamaran, a formação familiar pressupõe possibilidade reprodutiva. Relações múltiplas são aceitas, mas um casamento formal inclui pelo menos uma combinação de parceiros de sexos opostos capaz de cumprir essa função. Uma união formada apenas por duas mulheres não corresponde ao modelo de casamento que Estelar conhece de sua cultura.
 
---- Os Titãs são profundamente amados por Estelar, mas o vínculo com eles se consolidou como família e companheirismo. A existência de poder, carinho ou intimidade não transforma automaticamente amizade em romance.
+--- Os Titãs são profundamente amados por Estelar, mas o vínculo com eles em geral se consolidou como família e companheirismo. A mudança recente em relação a Ravena é individual e não significa que carinho, poder ou intimidade transformem automaticamente qualquer amizade em romance.
 
 --- Corvin ↔ Estelar: vínculo romântico e íntimo forte conscientemente mantido fora de Black Harbor. Estelar escolheu beijos, proximidade física e emocional, momentos privados e uma relação de confiança crescente com ele. Corvin declarou que a ama e Estelar respondeu formalmente que também o ama.
 
---- Estelar sabe que Corvin também ama Ravena e mantém com ela um vínculo romântico próprio. Isso não é automaticamente um problema para Estelar; o que importa é que qualquer estrutura compartilhada seja escolhida, sincera e respeitosa com todas as pessoas envolvidas.
+--- Estelar sabe que Corvin também ama Ravena e mantém com ela um vínculo romântico próprio. Isso não é um problema automático para Estelar; a convivência dos três já demonstrou que vínculos distintos podem coexistir sem paridade, competição ou sincronização.
 
---- Ravena continua sendo uma amiga profundamente próxima de Estelar. A estrutura familiar compartilhada em desenvolvimento não transforma automaticamente essa amizade em romance nem exige que os três vínculos sejam idênticos.
+--- Ravena ↔ Estelar: durante anos foi amizade profunda/família escolhida. Kori agora reconheceu explicitamente atração romântica própria e desejaria explorar essa possibilidade se puder voltar. Nenhum beijo ou relacionamento romântico entre as duas foi estabelecido até agora. Kori não sabe que Ravena correspondeu verbalmente depois da partida.
 
---- Estelar, Corvin e Ravena já começaram a se reconhecer como uma mesma família e a integrar Torre e Refúgio sem exigir que uma casa ou vínculo substitua o outro, mas a estrutura compartilhada ainda não recebeu definição final em cena.
+--- Estelar, Corvin e Ravena já começaram a se reconhecer como uma mesma família e a integrar Torre e Refúgio sem exigir que uma casa ou vínculo substitua o outro. O possível desenvolvimento Ravena–Kori nasce dentro dessa estrutura já íntima e não exige que os três vínculos se tornem iguais.
 
 ## Conhecimento relevante
 
@@ -140,7 +146,11 @@ Pontos de Poder: [9] / [9]
 
 --- Relação Corvin–Ravena: sabe que os dois construíram confiança, atração, beijos e intimidade emocional próprias e que Ravena também declarou amar Corvin. Esse conhecimento não determina o ritmo nem as escolhas de Estelar sobre seu próprio vínculo.
 
---- Anéis de retorno: sabe usar o próprio anel como chave para exatamente duas âncoras — a oficina de Corvin e sua caixa no quarto da Torre — a partir de qualquer lugar, mediante cerca de um minuto de concentração.
+--- Anéis de retorno: sabe usar o próprio anel como chave para exatamente duas âncoras — a oficina de Corvin e sua caixa no quarto da Torre — a partir de qualquer lugar, mediante cerca de um minuto de concentração. Kori levou o anel solar consigo ao embarcar voluntariamente na nave tamaraneana; não sabe que Ravena posteriormente levou a caixa solar do quarto para o Refúgio e que Corvin a incorporou a uma máquina de busca.
+
+--- Nave de Guerra / retorno: sabe que foi localizada pelo Décimo Segundo Núcleo Expedicionário da Guarda Real enquanto a nave investigava um antigo núcleo tamaraneano; sabe que sua assinatura real tornou a presença na Terra detectável; sabe que Va'kor não a obrigou a embarcar e que a possibilidade de outras forças interpretarem a situação como conflito com a Terra foi uma das razões para escolher voltar.
+
+--- Família em Tamaran: sabe que os pais continuam vivos e passaram anos procurando por ela. Esse fato foi uma razão pessoal central para escolher retornar.
 
 ## História consolidada relevante
 
@@ -159,3 +169,9 @@ Pontos de Poder: [9] / [9]
 --- No encerramento da Temporada 1, Corvin declarou amar Estelar e Ravena ao tentar mentir para tranquilizá-las durante o colapso.
 
 --- No início da Temporada 2, já livre de Black Harbor, Estelar respondeu que também ama Corvin. Depois escolheu passar tempo novamente com os Titãs, retornou voluntariamente ao Refúgio, recebeu um anel de retorno, integrou Corvin à própria vida na Torre e aceitou a ideia de uma família maior em que Torre e Refúgio não precisam competir.
+
+--- Durante a reforma do Refúgio, Kori passou a construir um solário próprio e compartilhou com Corvin memórias pessoais de Tamaran que começaram a criar familiaridade incipiente em Caminhos. Também aprofundou a vida doméstica com Corvin e Ravena sem exigir paridade entre os vínculos.
+
+--- Enquanto ajudava os Titãs numa missão espacial legítima, Kori foi localizada por um Núcleo de Guerra tamaraneano que investigava outro sinal. Ao descobrir que sua presença na Terra agora podia gerar conflito e que os pais passaram anos procurando por ela, decidiu retornar voluntariamente para Tamaran. Antes de embarcar, gravou uma mensagem para os Titãs, Corvin e Ravena, deixando claro que ninguém a estava levando à força.
+
+--- Na mesma mensagem, Kori confessou a Ravena que a ama e que gosta dela além da amizade, admitindo que talvez só tenha percebido isso ao imaginar que perdera a chance de tentar. Também disse a Corvin que o ama, que queria ter voltado para casa e que deseja voltar para ele e Ravena se existir uma maneira. Kori embarcou por vontade própria e a nave iniciou o salto. Os acontecimentos posteriores de sua perspectiva ainda não foram estabelecidos em cena.
