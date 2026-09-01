@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 Temporada ativa: 2
 Última temporada encerrada: 1
-Último capítulo fechado: `livro/temporada-2/006.md`
+Último capítulo fechado: `livro/temporada-2/008.md`
 Epílogo da Temporada 1: `livro/temporada-1/epilogo.md`
 Resumo da temporada anterior: `livro/temporada-1/resumo-da-temporada.md`
 Mapa de eventos da Temporada 1: `livro/temporada-1/mapa-de-eventos.md`
@@ -62,7 +62,9 @@ Capítulos fechados até agora:
 - `livro/temporada-2/003.md` — primeira visita de Dick, Mutano e Ciborgue ao Refúgio e integração inicial entre as duas famílias;
 - `livro/temporada-2/004.md` — rotina doméstica, compras e início do planejamento para transformar o Refúgio numa casa pensada para os três;
 - `livro/temporada-2/005.md` — primeiro dia da reforma: ampliação inicial da biblioteca, avanço privado de Corvin e Ravena, escolha do local do solário e nascimento do projeto do “castelo” de Kori;
-- `livro/temporada-2/006.md` — segundo dia da reforma: estrutura da biblioteca concluída, vida dos Titãs funcionando em paralelo, Kori começando a ocupar o Refúgio e conversa central sobre escolha e identidade.
+- `livro/temporada-2/006.md` — segundo dia da reforma: estrutura da biblioteca concluída, vida dos Titãs funcionando em paralelo, Kori começando a ocupar o Refúgio e conversa central sobre escolha e identidade;
+- `livro/temporada-2/007.md` — terceiro dia: base estrutural do solário concluída, Kori participa da construção e as memórias pessoais de Tamaran começam a produzir uma resposta pequena e repetível em Caminhos, ainda sem rota ou localização;
+- `livro/temporada-2/008.md` — quarto dia: compras e primeira parede de vidro do solário, projeto de levar luz natural à biblioteca por fibra e noite na câmara termal com proposta de ampliar a piscina existente e ligá-la ao ninho.
 
 O foco continua sendo:
 
@@ -80,14 +82,15 @@ A formação familiar compartilhada está avançando em cena, mas a temporada ai
 
 A continuação exata está em `estado/atual.md`.
 
-O Capítulo 006 terminou ao fim do **Dia 2 da reforma do Refúgio**.
+O Capítulo 008 terminou na **noite do Dia 4 da reforma do Refúgio**, durante um banho na câmara termal.
 
-- Corvin está no Refúgio Ártico com Kori; os dois dormiram juntos no ninho.
-- Ravena escolheu permanecer na Torre depois de patrulhar com Dick e dormiu no próprio quarto.
-- a biblioteca já possui expansão, teto, pilar e reforço estrutural concluídos; Ravena ainda precisa escolher/comprar móveis, concluir mezanino, iluminação e organização;
-- o futuro solário já tem local definido e clareira preparada; Corvin iniciou a moldagem estrutural e estima precisar de mais um dia para deixar a base pronta para receber carga;
-- torre, plataforma de voo, água aquecida, plantas, vidro, par de espelhos de passagem e outras partes do “castelo” continuam como projeto futuro e trabalho compartilhado;
-- Kori trouxe roupas, objetos pessoais, uma fotografia dos Titãs e provisões para o Refúgio, tornando concreta sua presença nas duas casas;
-- a conversa privada entre Corvin e Kori consolidou que ela não precisa escolher entre ser princesa, tamaraneana, Titã, Estelar ou Kori: todas essas partes coexistem, e Kori afirmou como princípio próprio que **ela decide por si mesma** quem ocupa lugar em sua vida.
+- Corvin, Ravena e Kori estão juntos na piscina termal;
+- Kori entrou nua com naturalidade, Corvin acompanhou esse tom e Ravena manteve seu jeito mais reservado;
+- o solário já possui fundação segura, estrutura inicial e primeiros grandes painéis de vidro instalados;
+- Kori participou diretamente das compras, escolhas de vidro e montagem;
+- Ravena avançou no projeto da biblioteca com Victor e propôs levar luz natural até ela;
+- a solução discutida para a biblioteca é captar luz no solário/superfície e conduzi-la por fibra óptica, mantendo ventilação separada por filtros e exaustão;
+- Corvin e Kori passaram parte do Dia 3 explorando memórias de Tamaran como referências para Caminhos; existe apenas uma resposta pequena e repetível, ainda sem rota, coordenada ou portal;
+- Corvin propôs ampliar moderadamente a piscina termal existente, aprofundar uma parte e criar uma ligação com o ninho com uma porta “anti-Mutano”; isso ainda é projeto, não obra executada.
 
-A próxima cena começa no **Dia 3**, sem decidir automaticamente qualquer nova ação voluntária de Corvin.
+A próxima cena continua **no mesmo banho**, sem decidir automaticamente qualquer nova ação voluntária de Corvin.
