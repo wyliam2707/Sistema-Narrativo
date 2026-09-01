@@ -3,295 +3,192 @@
 STATUS: TEMPORADA 2 ATIVA
 TEMPORADA ATIVA: 2
 ROTEIRO: `mestre/roteiro.md`
-ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/006.md`
+ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/008.md`
 
-MOMENTO: **fim da noite do Dia 2 da reforma do Refúgio Ártico; a próxima cena começa no Dia 3 antes de qualquer nova ação voluntária de Corvin**.
+MOMENTO: **noite do Dia 4 da reforma do Refúgio Ártico, durante um banho na câmara termal. A conversa sobre ampliar o banheiro/piscina acabou de ocorrer; Corvin ainda não declarou a próxima ação voluntária.**
 
 ## Localização atual das cadeiras
 
-- **Corvin Blackwood:** Refúgio Ártico, no ninho.
-- **Estelar / Kori:** Refúgio Ártico, dormindo com Corvin no ninho por escolha própria.
-- **Ravena / Elara Voss:** Torre dos Titãs, dormindo no próprio quarto por escolha própria depois de patrulhar com Dick.
+- **Corvin Blackwood:** Refúgio Ártico, na piscina termal com Ravena e Kori.
+- **Estelar / Kori:** Refúgio Ártico, na piscina termal com Corvin e Ravena.
+- **Ravena / Elara Voss:** Refúgio Ártico, na piscina termal com Corvin e Kori; veio da Torre no fim do Dia 4 usando o anel.
 - **Dick Grayson, Mutano e Ciborgue:** Torre dos Titãs, seguindo suas próprias rotinas.
 
-A separação espacial atual não representa afastamento relacional. A Torre continua sendo casa/família para Ravena e Estelar, e o Refúgio também está sendo transformado em casa escolhida.
+## Relação e casas
 
-## Situação geral
+Corvin mantém vínculos românticos distintos com Ravena e Estelar. Ravena e Estelar permanecem amigas/família profundamente íntimas, sem romance formal estabelecido entre elas.
 
-A Temporada 2 está ativa e os capítulos `001.md` a `006.md` foram consolidados.
+Já está consolidado que:
 
-Corvin, Ravena e Estelar estão livres de Black Harbor. Os Caminhos de Corvin alcançam destinos externos normalmente.
+- os três se reconhecem como uma família em formação, ainda sem rótulo final para a estrutura compartilhada;
+- Torre e Refúgio coexistem como casas e não competem entre si;
+- momentos privados em pares são normais e não exigem paridade nem sincronização;
+- Kori ficou genuinamente feliz ao saber que o momento íntimo de Ravena com Corvin foi bom para ela;
+- Corvin não trata intimidade de uma relação como obrigação de equivalência na outra.
 
-Corvin está fisicamente recuperado dos ferimentos do colapso. Nenhuma condição de dano, Vida, Mente ou Mana precisa ser acompanhada neste ponto.
+O ninho continua sendo a área claramente privada do Refúgio quando há visitas. A piscina/câmara termal é uma área social que já foi usada por Garfield e visitada pelos Titãs.
 
-Os três preservam vínculos distintos:
+## Refúgio — geografia relevante
 
-```text
-CORVIN ↔ RAVENA
-CORVIN ↔ ESTELAR
-RAVENA ↔ ESTELAR
-```
-
-- Corvin mantém vínculo romântico e íntimo com Ravena.
-- Corvin mantém vínculo romântico e íntimo com Estelar.
-- Ravena e Estelar permanecem amigas/família profundamente íntimas; nenhum romance entre elas foi formalmente estabelecido.
-- A estrutura compartilhada ainda não recebeu um rótulo final em cena.
-- Já está estabelecido que vínculo compartilhado não exige presença conjunta, paridade automática nem sincronização de intimidade.
-
-## Integração com os Titãs
-
-Dick Grayson, Mutano e Ciborgue conhecem Corvin e sabem da existência dos vínculos românticos dele com Ravena e Estelar.
-
-Eles sabem que:
-
-- Corvin ajudou Ravena e Estelar a escapar de Black Harbor;
-- os sentimentos de Ravena e Estelar continuaram reais depois da libertação;
-- Corvin não consegue mentir deliberadamente pela fala devido à sua natureza;
-- sua percepção natural reconhece natureza essencial, origem, linhagem e autoridade herdada de seres vivos, sem revelar memórias ou intenções;
-- Corvin tem 62 anos e aparenta muito menos;
-- seu corpo passa por um Ciclo da Vida de 30 dias;
-- uma morte prematura permite retorno no amanhecer seguinte e interrompe visualmente o ciclo.
-
-Corvin **não revelou aos Titãs** que uma segunda morte prematura dentro do mesmo ciclo interrompido pode ser definitiva.
-
-Mutano recebeu de Corvin, como interpretação pessoal e poética, o apelido `Avatar da Vida`; isso não é um status cósmico objetivo.
-
-Ciborgue possui os projetos dos anéis/âncoras e continua estudando sua lógica. Ele compreende parte da engenharia, mas a reprodução integral ainda depende de substituir funções ligadas à Forja Primordial e à magia de Corvin.
-
-### Vida paralela confirmada no Capítulo 006
-
-Ravena e Estelar voltaram à Torre durante o Dia 2 por motivos independentes.
-
-- Ravena aceitou uma patrulha simples com Dick no fim da tarde e depois escolheu permanecer na Torre durante a noite.
-- Estelar voltou para rever Gar e Victor e buscar coisas pessoais; não estava escalada para patrulha e depois escolheu retornar ao Refúgio.
-- Dick conversou com Ravena sobre como ela parecia mais ela mesma e sobre a reforma do Refúgio.
-- Mutano brincou com Estelar sobre uma “mudança parcial”, mas Kori deixou claro que não está trocando a Torre pelo Refúgio.
-- Ciborgue deu sugestões úteis para o futuro mezanino/iluminação da biblioteca e continua interessado nos anéis.
-
-Esses fatos reforçam que Torre e Refúgio coexistem. Nenhuma das duas precisa pedir autorização a Corvin para sair, voltar ou permanecer na Torre.
-
-## Anéis e pontos de retorno
-
-Ravena e Estelar possuem anéis criados por Corvin.
-
-Cada anel abre passagem física para exatamente duas âncoras:
-
-1. oficina de Corvin no Refúgio Ártico;
-2. caixa correspondente guardada no quarto da usuária na Torre.
-
-Regras consolidadas:
-
-- podem usar o anel a partir de qualquer lugar;
-- não escolhem destino arbitrário além das duas âncoras;
-- abertura leva aproximadamente um minuto de concentração;
-- enquanto aberta, outras pessoas podem atravessar;
-- se a caixa for destruída, perde-se apenas esse destino;
-- a âncora da oficina permanece válida.
-
-Caixa de Ravena: quarto de Ravena na Torre.
-Caixa de Estelar: quarto de Estelar na Torre.
-
-## Refúgio Ártico — estado após dois dias de reforma
-
-O Refúgio é uma grande caverna dentro de uma montanha no Ártico. Corvin consegue atravessar/nadar pela própria pedra usando sua Dádiva da Terra e moldar grandes massas rochosas com cuidado estrutural.
-
-Áreas antigas conhecidas:
+Áreas antigas principais:
 
 1. **forja / alquimia / materiais**;
 2. **biblioteca / arquivo**;
-3. **cozinha + ninho**;
-4. **câmara termal inferior** com piscina e banheira.
+3. **cozinha + ninho**, com a cozinha imediatamente próxima do espaço íntimo;
+4. **banheiro / câmara termal inferior**, alimentada por fonte natural, com uma piscina grande moldada na pedra e uma banheira menor.
 
-As runas de iluminação acompanham gradualmente o horário do dia.
+A piscina recebe renovação constante de água pela corrente subterrânea. Ela já comporta várias pessoas, mas Corvin agora considera ampliá-la um pouco para uma casa/família maior e para visitas.
 
-### Biblioteca — estrutura concluída
+## Biblioteca
 
-Durante os Dias 1 e 2, Corvin e Ravena definiram e executaram a ampliação estrutural da biblioteca.
+A estrutura principal da ampliação está concluída desde o Dia 2:
 
-Estado atual:
+- fundo ampliado;
+- lateral moderadamente ampliada;
+- centro elevado;
+- pilar integrado à cúpula;
+- base para mezanino e escada;
+- estabilidade estrutural tratada por Corvin.
 
-- fundo ampliado significativamente;
-- uma lateral ampliada de forma moderada para preservar área mais íntima de leitura/estudo;
-- centro elevado para permitir segundo nível parcial/mezanino;
-- pilar estrutural integrado à cúpula e pensado para fazer parte do desenho da biblioteca;
-- teto e massas laterais reforçados;
-- estabilidade estrutural tratada por Corvin para longo prazo;
-- estrutura física principal da biblioteca concluída.
+Ravena avançou nos Dias 3 e 4 com Victor:
 
-Ainda falta:
+- estantes predominantemente de madeira escura;
+- áreas abertas e áreas protegidas;
+- escada contornando parte do pilar;
+- iluminação parcialmente escondida na estrutura;
+- área protegida no mezanino para textos que não devem ficar livremente acessíveis.
 
-- Ravena definir/comprar estantes e móveis;
-- construir/instalar o mezanino e a escada;
-- iluminação definitiva;
-- distribuição dos arquivos, grimórios e áreas de estudo;
-- acabamento estético.
+Garfield continua defendendo uma estante giratória secreta; Ravena não aprovou a ideia.
 
-Ravena considera a biblioteca um espaço que agora pode realmente transformar em algo dela e dos três, não apenas um arquivo de Corvin.
+### Luz natural e ventilação
 
-### Solário / “castelo” — construção iniciada
+No Dia 4, Ravena quis levar luz natural até a biblioteca.
 
-Corvin e Estelar escolheram juntos o local no topo da montanha.
+Corvin explicou que um poço direto até a superfície atravessaria rocha demais e tenderia a trazer água, neve e animais. A solução discutida foi:
 
-Critérios escolhidos por Kori:
+- captação de luz na superfície/solário;
+- condução por fibra óptica através de canais na rocha;
+- pontos de luz principal na biblioteca e possíveis pontos menores no mezanino/áreas de leitura;
+- ventilação tratada separadamente por captação, filtros e exaustão;
+- melhorar também a exaustão da oficina para não levar fumaça/cheiros à biblioteca ou ao solário.
 
-- sol direto pela manhã;
-- boa vista do pôr do sol;
-- espaço amplo para plantas e descanso;
-- saída confortável para voo;
-- não ficar colado a estruturas que roubem luz.
+Corvin pode atravessar a pedra para instalar os canais sem precisar escavar corredores convencionais, mas isso exigirá grande quantidade de fibra/cabo.
 
-Corvin limpou e plainou a clareira no Dia 1.
+## Solário / castelo de Kori
 
-No Dia 2 começou sozinho a moldagem estrutural delicada abaixo/ao redor da área.
+### Dia 3 — base estrutural concluída
 
-Estado atual:
+Corvin terminou a fundação geológica e a deixou segura para receber carga. Depois, ele e Kori trabalharam juntos:
 
-- local escolhido e facilmente reencontrável por Corvin;
-- clareira superior limpa e plana;
-- primeira etapa de estrutura interna iniciada;
-- Corvin estima **mais um dia de trabalho estrutural** antes de a base estar firme o suficiente para receber carga com segurança.
+- Corvin moldava bases/encaixes;
+- Kori posicionava peças por voo e força;
+- Corvin fundia e fixava à estrutura da montanha.
 
-O objetivo de cerca de **cinco dias** refere-se ao avanço estrutural principal, não à conclusão completa do castelo/solário. Acabamentos e sistemas levarão mais tempo.
+Ao fim do Dia 3 já existiam:
 
-### Elementos planejados, ainda não concluídos
+- fundação segura;
+- bases de carga;
+- pequena câmara técnica interna;
+- pontos principais de recebimento;
+- primeiros suportes;
+- zonas planejadas para vidro, cobertura e água.
 
-- solário protegido do frio;
-- grandes áreas de luz/vidro;
-- plantas terrestres e, futuramente, espécies de Tamaran se Kori obtiver sementes;
-- sistema para captar neve/gelo e produzir água;
-- possível água aquecida por alquimia, energia solar ou elementos térmicos;
-- plataforma de voo próxima, ampla e limpa;
-- torre de pedra de aproximadamente 20–30 m, preferência atual por cerca de 30 m, com aproximadamente 4 m de diâmetro e espaço de observação;
-- “coisa brilhante” incorporada ao projeto;
-- possível par de espelhos de passagem ligando o solário ao interior do Refúgio;
-- futura sala de jantar/área comum que pode receber o outro espelho;
-- possível ampliação do ninho/quarto compartilhado;
-- possíveis janelas/aberturas futuras, ainda apenas brincadeira/projeto e não fato construído.
+### Dia 4 — vidro e estrutura começaram
 
-Kori quer participar ativamente das etapas não estruturais e das partes que podem ser construídas junto com Corvin. Corvin prometeu não terminar escondido as partes que combinaram fazer em conjunto.
+Corvin e Kori passaram boa parte do dia comprando materiais. Caminhos foi usado para deslocamento e transporte.
 
-## Vida doméstica e presença de Estelar
+Foram adquiridos, entre outros:
 
-No Dia 2, Kori trouxe para o Refúgio:
+- painéis de vidro estrutural/laminado adequados a neve, vento e diferença térmica;
+- perfis metálicos resistentes mas visualmente mais finos;
+- vedações;
+- isolamento;
+- ferragens;
+- materiais e tubulações para etapas posteriores.
 
-- roupas;
-- objetos pessoais;
-- pequeno objeto tamaraneano;
-- fotografia dos Titãs;
-- provisões/comidas colocadas por Garfield na bagagem.
+Kori participou da seleção e rejeitou vidro que alterasse demais a cor do sol ou tornasse o ambiente excessivamente reflexivo.
 
-Parte dessas coisas já foi guardada ou colocada na área doméstica.
+Eles tomaram café e almoçaram fora durante as compras.
 
-A fotografia dos Titãs ficou visível no Refúgio, representando integração entre as duas casas, não substituição de uma pela outra.
+Na construção da tarde:
 
-Corvin disse que pode ampliar o quarto/ninho, mas não quer criar um segundo ninho ou quarto íntimo separado para Kori. Quartos de hóspedes podem existir.
+- a primeira parte da armação metálica foi erguida;
+- os primeiros grandes painéis de vidro foram instalados;
+- a parede oeste começou a definir fisicamente um “dentro” e um “fora” no solário;
+- Kori já conseguiu experimentar o espaço como um lugar real, não apenas projeto.
 
-Kori declarou que seu quarto na Torre continua disponível quando quiser ficar sozinha; quando escolher dormir no Refúgio, prefere o espaço compartilhado com Corvin e, quando Ravena também estiver ali e quiser, com ela.
+Ainda faltam grande parte da cobertura e paredes, controle térmico, água, plantas, plataforma de voo, torre, espelhos e acabamentos.
 
-Isso não impede espaço individual fora do ninho nem obriga qualquer uma a dormir ali.
+## Tamaran e Caminhos — avanço do Dia 3
 
-## Avanço Corvin ↔ Ravena no Capítulo 005
+Durante um banho privado com Kori no Dia 3, Corvin perguntou como Tamaran era para ela pessoalmente.
 
-Durante o primeiro dia da reforma, Ravena percebeu pela Empatia que a atração/desejo de Corvin por ela permanece frequentemente como um estado de fundo, mesmo enquanto ele trabalha ou conversa.
+Kori descreveu, entre outras lembranças:
 
-Corvin explicou que, especialmente em primeiros gestos íntimos, prefere não pedir certas coisas porque quer distinguir entre alguém aceitar um pedido e desejar espontaneamente iniciar algo.
+- clima quente;
+- pedra que retém calor depois do pôr do sol;
+- cores e luz intensas;
+- lugares altos e voo;
+- comida e mercados;
+- jardins;
+- uma varanda alta de pedra dourada/alaranjada;
+- flores azul-escuras/violetas com cheiro doce e depois picante;
+- vento quente e horizonte vermelho-dourado;
+- pequenos animais de quatro asas;
+- frutas e bebidas de Tamaran;
+- faixas de luz dourada, verde e vermelha no céu noturno;
+- festivais e formações rochosas reconhecíveis.
 
-Ravena compreendeu e tomou iniciativa própria.
+Corvin tentou inicialmente forçar Caminhos a alcançar Tamaran usando apenas a descrição e Kori como referência viva. A tentativa falhou por limite da capacidade: Caminhos não consegue selecionar um destino desconhecido apenas por descrição. A sobrecarga causou pressão e pequeno sangramento nasal, sem dano sobrenatural permanente; Corvin tratou o efeito com Dádiva da Terra.
 
-Os dois tiveram um momento privado e adulto na biblioteca, com participação e escolha ativa dos dois. Não houve recuo, medo ou coerção. Ravena deixou claro que queria continuar e pediu que a porta fosse fechada.
+Depois ele mudou de abordagem. Não tentou localizar ou abrir Tamaran. Enquanto Kori falava de lembranças genuínas de casa, deixou Caminhos apenas acompanhar padrões/referências.
 
-Esse avanço pertence ao vínculo Corvin–Ravena e não cria obrigação de equivalência imediata com Estelar.
+Resultado consolidado:
 
-Kori soube depois apenas o suficiente para entender que Ravena e Corvin tiveram um momento privado; perguntou a Ravena se foi bom para ela, sem exigir detalhes, e ficou genuinamente feliz quando Ravena respondeu que sim.
+- algumas lembranças produzem uma resposta pequena e repetível em Caminhos;
+- isso **não é rota, coordenada, localização nem portal**;
+- é apenas um reconhecimento de que certas referências parecem pertencer a um lugar real ainda desconhecido;
+- Kori sabe que Corvin está tentando compreender esse padrão;
+- ela aceitou continuar contando lembranças e colocou uma condição: se o uso voltar a machucá-lo, ele deve contar;
+- esse processo pode avançar ao longo de semanas/tempo de história e não deve ser reduzido a uma rolagem única.
 
-Ravena e Kori confirmaram entre si que momentos privados em pares são compatíveis com a estrutura compartilhada e que nem tudo precisa acontecer com os três presentes.
+## Câmara termal — ponto atual
 
-## Avanço Corvin ↔ Estelar no Capítulo 006
+No fim do Dia 4, depois de mais trabalho no solário, Corvin convidou Ravena e Kori para um banho.
 
-Na noite do Dia 2, Corvin e Kori tiveram uma conversa privada sobre quem ela é fora de qualquer tentativa de reduzi-la a um único papel.
+- Kori entrou nua com naturalidade.
+- Corvin acompanhou esse tom e também entrou nu.
+- Ravena entrou de forma mais reservada, preservando a própria privacidade.
+- a diferença de comportamento não gerou conflito.
+- a Empatia de Ravena percebe a atração/desejo de Corvin como um calor de fundo constante quando estão próximos, inclusive durante conversas técnicas; ela já sabe que isso não equivale automaticamente a pedido ou iniciativa sexual.
 
-Kori falou de:
+Durante o banho, Corvin propôs:
 
-- amar Tamaran apesar de ter fugido;
-- ter rejeitado um casamento político por falta de escolha, não por rejeição a relações múltiplas;
-- ter chegado à Terra depois da fuga;
-- valorizar escolhas pequenas e grandes porque sua vida havia sido muito decidida por outros;
-- amar os Titãs como família escolhida;
-- ainda estar descobrindo quem quer ser.
+- ampliar **a piscina existente**, não criar outra;
+- aumentar o tamanho apenas de forma moderada;
+- aprofundar uma parte da piscina sem transformá-la em lago;
+- adaptar melhor o banheiro/câmara termal para uma família/casa maior e para visitas;
+- criar uma ligação direta entre o banheiro e o ninho;
+- essa ligação teria uma porta, brincando que seria uma “porta anti-Mutano”, pois o ninho continua privado;
+- quando houver visitas usando a piscina, Corvin reconhece que precisará usar roupa nela.
 
-Corvin respondeu que não vê uma “Kori verdadeira” escondida sob princesa, tamaraneana, Titã ou Estelar. Todas essas partes são ela.
+Ravena e Kori consideraram a ampliação coerente com o uso social que a piscina já recebeu. A proposta ainda é **projeto**, não obra executada.
 
-Ao admitir que não sabia se seria digno do lugar que Kori podia lhe oferecer, ele deixou uma questão que apenas ela podia responder.
+## Anéis
 
-Kori respondeu:
+Ravena e Estelar continuam com seus anéis de retorno. Cada anel abre passagem física para exatamente duas âncoras:
 
-- Corvin não decide se é digno;
-- **ela decide** quem ocupa lugar em sua vida;
-- atravessou estrelas justamente para conquistar o direito de escolher;
-- escolhe Corvin agora por vontade própria.
+1. oficina de Corvin no Refúgio;
+2. caixa correspondente no quarto da usuária na Torre.
 
-Quando Corvin disse “então agora você tem sua resposta”, o significado consolidado é:
+Abertura leva aproximadamente um minuto de concentração e outras pessoas podem atravessar enquanto a passagem estiver aberta.
 
-> Kori acabou de demonstrar a própria resposta para “quem é Kori?”: alguém que reivindica o direito de decidir por si mesma.
+## Pendências imediatas
 
-Isso não apaga princesa, Tamaran, Titãs ou Estelar; integra tudo sob uma pessoa que escolhe a própria vida.
-
-## Tamaran — possibilidade futura
-
-Corvin levantou a hipótese de que, se Kori algum dia o levar a Tamaran, talvez ele consiga abrir um Caminho de volta à Terra.
-
-Isso **não foi testado** e não é garantia.
-
-Corvin nunca tentou ligar dois planetas com Caminhos.
-
-Kori gostou da possibilidade porque uma visita a Tamaran poderia, se funcionasse, deixar de ser uma escolha binária entre “voltar definitivamente” ou “não voltar nunca”. Ela quer testar algum dia, sem tratar a hipótese como promessa.
-
-Também surgiu a dúvida de como a ligação de Corvin com a natureza reagiria em Tamaran. Nenhum dos dois sabe. Qualquer teste futuro deverá começar pequeno.
-
-## Última situação estabelecida
-
-A noite do Dia 2 terminou.
-
-- Ravena está na Torre, no próprio quarto.
-- Estelar está no Refúgio com Corvin, no ninho.
-- Corvin e Kori encerraram a noite conversando, brincando e descansando.
-- Ravena comeu depois de Kori insistir por mensagem e permaneceu com os Titãs.
-- não houve novo acontecimento depois do encerramento da noite.
-
-## Pendências atuais
-
-- iniciar o Dia 3 sem decidir automaticamente nova ação voluntária de Corvin;
-- Corvin ainda precisa de cerca de um dia para concluir a base estrutural do solário a ponto de receber carga;
-- Ravena ainda precisa avançar em móveis, mezanino, iluminação e organização da biblioteca;
-- Estelar pretende ajudar na biblioteca e participar das etapas compartilhadas do solário/castelo;
-- continuar permitindo que Ravena e Estelar tenham Torre, amigos, patrulhas, compromissos e cenas próprias durante os dias de obra;
-- eventos importantes devem ser dramatizados em cena quando relevantes, não apenas resumidos como “conversou com X”;
-- continuar definindo com clareza o nome/forma do vínculo compartilhado antes do encerramento da Temporada 2;
-- decidir naturalmente o que mais precisa ser compartilhado com o círculo próximo e o que permanece privado;
-- Ridge Road, 18 continua existindo, mas sua função pós-Black Harbor ainda não foi redefinida.
-
-## Regra operacional ativa
-
-A Auditoria das Cadeiras permanece obrigatória.
-
-Corvin é controlado exclusivamente pelo Jogador Humano em decisões voluntárias.
-Ravena e Estelar são Jogadores IA independentes.
-Dick Grayson, Mutano e Ciborgue são Jogadores IA Eventuais.
-
-Durante janelas longas de obra:
-
-- Corvin pode manter intenção persistente, mas isso não autoriza salto automático até o fim do prazo;
-- Ravena e Estelar continuam próprias rotinas, amizades, compromissos, saídas e retornos;
-- uma não acompanha automaticamente a outra;
-- cenas Ravena↔Titãs, Estelar↔Titãs, Ravena↔Estelar e outras podem acontecer sem Corvin presente;
-- quando essas cenas forem relevantes, dramatizar a conversa em vez de apenas relatá-la depois;
-- parar no primeiro novo fato que crie uma decisão humana relevante para Corvin;
-- conversas em que Corvin esteja presente devem preservar janelas naturais para ele intervir;
-- nenhuma rolagem é criada apenas porque tempo passou;
-- resolução mecânica necessária deve ocorrer antes de a prosa declarar o resultado.
-
-### Próxima entrada
-
-A próxima narrativa começa no **Dia 3**.
-
-Não presumir automaticamente que Corvin acorda, cozinha, trabalha ou toma qualquer outra decisão. A primeira ação voluntária dele pertence ao Jogador Humano.
+- a cena continua na piscina termal na noite do Dia 4;
+- Corvin ainda não declarou sua próxima ação voluntária;
+- a ampliação da piscina/banheiro e ligação com o ninho são apenas propostas;
+- o solário continua em obra e ainda exige vários dias/etapas;
+- a biblioteca ainda precisa de mobiliário, mezanino, iluminação final, organização e eventual sistema de luz natural/fibra;
+- Ravena e Kori continuam com liberdade para permanecer no Refúgio, voltar à Torre ou seguir compromissos próprios sem sincronização automática;
+- o padrão de Caminhos ligado às memórias de Tamaran permanece um processo lento, ainda sem localização.
