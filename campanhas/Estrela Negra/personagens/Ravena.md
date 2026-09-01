@@ -72,11 +72,15 @@ Pontos de Poder: [9] / [9]
 
 --- Participar da transformação do Refúgio Ártico em uma casa que também carregue escolhas dela e de Estelar. Elara demonstrou interesse específico em refazer bastante a biblioteca, mas suas ideias ainda não foram detalhadas em cena.
 
+--- Ter a oportunidade de reencontrar Kori e descobrir frente a frente o que existe na atração que ambas agora reconheceram, sem presumir antecipadamente qual forma esse vínculo terá.
+
 ## Medos / limites
 
 --- Perder o controle emocional pode fazer sua magia reagir involuntariamente ao que Elara deseja ou sente naquele instante. Quanto maior a intensidade emocional, maior o risco de a manifestação sair do controle; em raros casos, algo sobrenatural pode ser atraído.
 
 --- Continua temendo ser rejeitada ou substituída depois que alguém conhece a parte mais perigosa de sua natureza, mesmo tendo vivido com Corvin uma experiência concreta e continuada de aceitação.
+
+--- Depois da partida voluntária de Kori para Tamaran, Elara teme que as duas tenham reconhecido tarde demais a possibilidade de um vínculo romântico e não tenham a chance de descobri-lo juntas.
 
 ## Rotina e hábitos persistentes
 
@@ -86,7 +90,7 @@ Pontos de Poder: [9] / [9]
 
 ### Relações positivas
 
---- Titãs: Elara considera os Titãs sua família escolhida e os enxerga de forma essencialmente fraterna, como irmãos. Foi ao lado deles que aprendeu a confiar, dividir responsabilidades e aceitar que pertencer a algum lugar não significa perder a própria autonomia. O vínculo é profundo, mas nunca se tornou romântico para ela.
+--- Titãs: Elara considera os Titãs sua família escolhida e os enxerga de forma essencialmente fraterna, como irmãos. Foi ao lado deles que aprendeu a confiar, dividir responsabilidades e aceitar que pertencer a algum lugar não significa perder a própria autonomia. A mudança recente na forma como percebe Kori é uma exceção individual surgida de um vínculo que durante anos também foi entendido por Elara como amizade/família.
 
 --- Dick Grayson: uma das pessoas em quem Elara mais confia quando precisa de alguém capaz de pensar com calma em situações difíceis. Respeita sua liderança, embora não aceite que ele tente decidir por ela. A relação entre os dois é marcada por confiança, respeito e uma familiaridade construída ao longo dos anos.
 
@@ -94,9 +98,9 @@ Pontos de Poder: [9] / [9]
 
 --- Ciborgue: alguém em quem Elara confia pela estabilidade, lealdade e capacidade de permanecer racional quando as coisas ficam caóticas. Sente-se confortável com sua presença e sabe que pode contar com ele tanto em uma crise quanto nos momentos comuns da vida em equipe.
 
---- Estelar: uma das amigas mais próximas de Elara. Estelar é poderosa o bastante para não parecer frágil diante dela, conhece sua verdadeira natureza sem tratá-la com medo e encara Trigon como um inimigo perigoso, não como uma razão para temer Elara. A convivência em Black Harbor e a liberdade posterior aprofundaram ainda mais a confiança e a intimidade cotidiana entre as duas, mas nenhum romance entre elas foi formalmente estabelecido.
+--- Estelar: uma das pessoas mais importantes da vida de Elara. Durante anos, Elara entendeu o vínculo como amizade profunda, família escolhida e intimidade cotidiana sem leitura romântica. Ao partir voluntariamente para Tamaran, Kori disse numa mensagem que ama Ravena e que gosta dela **não apenas como amiga**. Depois de ouvir isso e encarar a possibilidade de perder a chance de responder frente a frente, Elara reconheceu que **acha que gosta de Kori também** e que quer descobrir o que isso pode significar. Ainda não existe relacionamento romântico formal entre elas; existe interesse romântico explicitamente reconhecido pelos dois lados, e Kori ainda não sabe que Elara correspondeu.
 
---- Corvin Blackwood: um dos vínculos mais íntimos de Elara. Ele conhece sua natureza parcialmente abissal, Trigon, seus medos e parte de sua vulnerabilidade emocional sem tratá-la como frágil ou monstruosa. Entre os dois existem confiança, desejo, beijos, encontros privados e forte intimidade emocional escolhida em cena. Depois da libertação de Black Harbor, Elara declarou claramente que também o ama e continuou o vínculo por escolha livre.
+--- Corvin Blackwood: um dos vínculos mais íntimos de Elara. Ele conhece sua natureza parcialmente abissal, Trigon, seus medos e parte de sua vulnerabilidade emocional sem tratá-la como frágil ou monstruosa. Entre os dois existem confiança, desejo, beijos, encontros privados e forte intimidade emocional escolhida em cena. Depois da libertação de Black Harbor, Elara declarou claramente que também o ama e continuou o vínculo por escolha livre. Durante a ausência de Kori, os dois reafirmaram que momentos privados em pares não apagam o vínculo compartilhado e que a preocupação com Kori não reduz o amor existente entre Corvin e Elara.
 
 ### Relações negativas
 
@@ -108,23 +112,23 @@ Pontos de Poder: [9] / [9]
 
 --- O maior obstáculo de Elara em um relacionamento é o medo de machucar justamente quem ama. Uma pessoa comum já é vulnerável demais às consequências de uma perda de controle; quem conhece sua verdadeira natureza, por outro lado, quase sempre carrega algum grau de medo, cautela ou receio diante do que ela pode se tornar. Isso torna intimidade romântica rara e difícil mesmo quando existe atração.
 
---- Os Titãs nunca ocuparam esse espaço para Elara. Ela os ama como família e os percebe de maneira fraterna, não como possíveis parceiros românticos; a ausência de romance não diminui a profundidade desses vínculos.
+--- Durante grande parte da vida de Elara, os Titãs ocuparam um espaço essencialmente fraternal. Kori também era compreendida dessa maneira até a partida para Tamaran tornar explícita uma atração que nenhuma das duas havia nomeado antes. Essa mudança não reinterpreta retroativamente toda a amizade como romance; apenas abre uma possibilidade nova a partir do vínculo real que já existia.
 
---- No início da campanha, Elara não procurava mulheres como parceiras românticas e entendia sua proximidade com Estelar como amizade profunda. Nenhum romance entre as duas foi formalmente estabelecido; qualquer mudança futura nessa leitura ainda precisa nascer de experiência e escolha próprias.
+--- No início da campanha, Elara não procurava mulheres como parceiras românticas e entendia sua proximidade com Estelar como amizade profunda. Isso mudou em cena: depois de Kori confessar que gosta dela romanticamente, Elara admitiu que acha que também gosta de Kori e que queria ter a chance de descobrir o que poderia existir entre elas. Ainda não sabe exatamente que forma esse desejo terá.
 
---- Elara cresceu considerando relacionamentos convencionais como referência e não procura ativamente uma relação a três, mas também não a considera errada. Se houver sentimentos reais, sinceridade e consentimento entre todos, pode aceitar uma estrutura compartilhada, embora ciúme, insegurança e medo de rejeição ainda possam existir.
+--- Elara cresceu considerando relacionamentos convencionais como referência e não procurava ativamente uma relação a três, mas também nunca considerou a estrutura compartilhada errada. A convivência com Corvin e Kori mostrou na prática que os vínculos podem coexistir sem precisar de paridade, competição ou sincronização.
 
 --- Corvin ↔ Ravena: vínculo romântico e íntimo forte estabelecido em cena e conscientemente mantido depois do fim de Black Harbor. Elara escolheu momentos privados, beijos, proximidade física e emocional e revelou partes de si que normalmente esconderia. Corvin declarou que a ama e Elara respondeu formalmente que também o ama.
 
---- Elara sabe que Corvin também ama Estelar e mantém com ela um vínculo romântico próprio. Esse fato não apaga nem sincroniza o vínculo de Elara com Corvin.
+--- Elara sabe que Corvin também ama Estelar e mantém com ela um vínculo romântico próprio. Esse fato não apaga nem sincroniza o vínculo de Elara com Corvin e, na convivência já estabelecida, nunca exigiu que Elara tratasse Kori como rival.
 
---- Elara, Corvin e Estelar já começaram a se reconhecer como uma mesma família e a integrar Torre e Refúgio sem exigir que uma casa ou vínculo substitua o outro, mas a estrutura compartilhada ainda não recebeu uma definição final em cena.
+--- Elara, Corvin e Estelar já se reconhecem como uma mesma família em formação e integram Torre e Refúgio sem exigir que uma casa ou vínculo substitua o outro. O possível desenvolvimento romântico Ravena–Kori nasce dentro dessa convivência já íntima, não como disputa por Corvin.
 
 --- Quando se interessa romanticamente por alguém, Elara raramente flerta de forma aberta. Demonstra interesse permanecendo mais tempo perto da pessoa, buscando conversas privadas, permitindo maior proximidade física e revelando pequenas partes de si que normalmente esconderia. Quando confia de verdade, pode tomar a iniciativa, mas tende a fazê-lo de forma discreta e intensa.
 
 --- Elara pode ser a primeira a se apaixonar e a última a admitir. Seus sentimentos costumam se aprofundar antes que esteja disposta a reconhecer em voz alta o quanto alguém passou a importar; tenta racionalizar o apego e manter a compostura mesmo quando suas atitudes, atenção, ciúme e necessidade de proximidade já deixam isso evidente.
 
---- Elara sente ciúme com intensidade, mas costuma tratá-lo primeiro com humor ácido. Em vez de se isolar, tende a lançar comentários secos, sarcasmo, ironias ou pequenas provocações que deixam transparecer a insegurança antes que admita diretamente o que está sentindo. Seu medo principal não é possuir alguém, mas ser substituída ou rejeitada quando a pessoa conhecer sua verdadeira natureza.
+--- Elara sente ciúme com intensidade quando realmente percebe risco de substituição ou rejeição, mas isso não significa que toda estrutura múltipla produza ciúme automaticamente. Com Corvin e Kori, a convivência compartilhada, a cama dividida e os vínculos distintos já se tornaram naturais; a possibilidade de gostar romanticamente de Kori não foi percebida por Elara como ameaça ao amor que sente por Corvin.
 
 --- Diante de uma rejeição clara, Elara aceita e não insiste. Pode se fechar, afastar-se e levar tempo para se recuperar, mas não tenta manipular, pressionar ou punir a pessoa. O que mais a machuca é descobrir que alguém só a aceitava enquanto parte de sua verdadeira natureza permanecia escondida.
 
@@ -154,6 +158,10 @@ Pontos de Poder: [9] / [9]
 
 --- Anéis de retorno: sabe usar o próprio anel como chave para exatamente duas âncoras — a oficina de Corvin e sua caixa no quarto da Torre — a partir de qualquer lugar, mediante cerca de um minuto de concentração.
 
+--- Mensagem de Kori: sabe que Kori voltou voluntariamente para Tamaran depois de ser localizada por uma nave de guerra; sabe que os pais de Kori continuam vivos e passaram anos procurando por ela; sabe que Kori disse que a ama e que gosta dela não apenas como amiga; sabe também que Kori quer voltar para ela e Corvin se existir uma maneira.
+
+--- Máquina para Tamaran: sabe que Corvin construiu uma máquina para sustentar referências, associação, familiaridade e dados do salto enquanto entra na própria busca de Caminhos. Sabe que a fonte primária será o Ciclo da Vida de Corvin e que ele está dentro do circuito, mas **não sabe a extensão total do custo calculado por ele**.
+
 ## História consolidada relevante
 
 --- Elara é filha de uma mulher humana com Trigon, uma poderosa entidade abissal e extraplanar. Herdou dessa origem sua afinidade com magia sombria e espiritual e uma instabilidade sobrenatural que pode se intensificar quando perde o controle emocional.
@@ -169,3 +177,9 @@ Pontos de Poder: [9] / [9]
 --- No encerramento da Temporada 1, Corvin declarou amar Elara e Estelar ao tentar mentir para tranquilizá-las durante o colapso.
 
 --- No início da Temporada 2, já livre de Black Harbor, Elara respondeu que já o amava antes de a montanha tentar encerrar a conversa. Depois escolheu passar tempo novamente com os Titãs, retornou voluntariamente ao Refúgio, recebeu um anel de retorno, apresentou Corvin à própria vida na Torre e aceitou a ideia de integrar as duas famílias sem precisar escolher entre elas.
+
+--- Durante a reforma do Refúgio, Elara e Corvin aprofundaram o vínculo privado e construíram juntos uma biblioteca que passou a representar a decisão dele de fincar raízes. Elara também consolidou que momentos privados do casal continuam importantes sem significar exclusão de Kori.
+
+--- Quando Kori foi localizada por um Núcleo de Guerra tamaraneano e decidiu voltar voluntariamente para Tamaran, deixou uma mensagem na qual confessou gostar de Ravena romanticamente. Depois de ouvir a gravação, Elara admitiu a Corvin que acha que também gosta de Kori e que deseja ter a oportunidade de descobrir essa possibilidade frente a frente. Kori ainda não conhece essa resposta.
+
+--- Nos três dias seguintes à partida de Kori, Elara alternou autonomamente entre Refúgio e Torre, ajudou Victor e Corvin, conversou com os Titãs e permaneceu emocionalmente próxima de Corvin enquanto ele fechava a teoria e construía uma máquina destinada a tentar alcançar Tamaran.
