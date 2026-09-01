@@ -2,354 +2,284 @@
 
 Status: ATIVA
 
-A Temporada 1 foi encerrada e arquivada em:
+A Temporada 1 foi encerrada e arquivada em `mestre/temporadas/temporada-1.md`, com unidade histórica em `livro/temporada-1/`.
 
-`mestre/temporadas/temporada-1.md`
+A Temporada 2 continua ativa. O ponto de continuação exato fica em `estado/atual.md`.
 
-Sua unidade histórica está em:
+A direção detalhada do possível encerramento em Tamaran fica em:
 
-`livro/temporada-1/`
+`mestre/temporadas/temporada-2-possivel-final.md`
 
-A Temporada 2 está ativa. A Direção do Jogador, o problema da temporada e a Diretriz Fechada permanecem válidos; o ponto de continuação exato fica em `estado/atual.md`.
+Esse arquivo de final contém direção futura; somente `livro/`, fichas e `estado/atual.md` tornam acontecimentos canônicos.
 
 ## Direção do Jogador
 
-A Temporada 2 deve ser curta e íntima.
+A temporada nasceu como um arco íntimo de liberdade, escolha e integração de vidas depois de Black Harbor.
 
-Ela começou exatamente onde a Temporada 1 terminou: Corvin ainda no chão do jardim de Ridge Road, 18, ferido mas vivo, com Ravena e Estelar ao lado dele e a declaração de amor ainda sem resposta formal.
+Black Harbor obrigou Corvin, Ravena e Estelar a permanecerem juntos. A Temporada 2 pergunta o que acontece quando essa obrigação acaba e os três continuam podendo escolher uns aos outros sem abandonar vidas, famílias e casas que já existem.
 
-Os Titãs retomaram contato quase imediatamente depois desse ponto.
+A temporada explora:
 
-Agora Ravena e Estelar voltaram a ter acesso às próprias vidas, amigos, responsabilidades e escolhas fora de Black Harbor. Corvin também possui sua própria vida, seu Refúgio Ártico, seus interesses, viagens e independência.
-
-Corvin quer incluir Ravena e Estelar na vida dele sem absorvê-las ou exigir que abandonem a vida delas. Ravena e Estelar também não precisam abrir mão dos Titãs, de seus espaços, rotinas ou autonomia para continuar com Corvin.
-
-A temporada deve explorar:
-
-- a reação à declaração de Corvin;
-- a continuidade consciente dos vínculos fora de Black Harbor;
-- a definição de uma possível relação a três;
-- o significado concreto dessa relação sem sincronizar os três vínculos;
-- a integração entre a vida de Corvin e a vida de Ravena e Estelar;
+- continuidade consciente de Corvin–Ravena e Corvin–Estelar fora do confinamento;
+- autonomia real de Ravena e Estelar;
+- integração entre Refúgio e Torre;
+- Titãs como família de Ravena e Kori, não obstáculo à relação;
 - casa, visitas, convivência e espaço individual;
-- contar aos amigos;
-- decidir o que contar, para quem e quando;
-- revelar informações pessoais aos poucos, não como despejo expositivo;
-- pequenas missões, patrulhas ou problemas apenas como variação de ritmo;
-- chegar a uma definição relacional clara antes do encerramento.
+- vínculos em pares coexistindo sem paridade obrigatória;
+- construção gradual de uma família compartilhada;
+- possível dimensão romântica Ravena–Kori surgindo somente da experiência vivida;
+- Tamaran como parte real da identidade e da casa de Kori;
+- aventura e conflito apenas quando surgem organicamente das escolhas já feitas.
 
-A tendência emocional já estabelecida torna a formação de um trio uma evolução bastante plausível, mas o roteiro não predetermina essa decisão.
+## Problema central atual
 
-## Problema da Temporada
-
-Black Harbor colocou Corvin, Ravena e Estelar juntos sob uma condição externa que impedia a saída.
-
-Agora essa condição terminou.
-
-A questão central da Temporada 2 é:
+A pergunta inicial era:
 
 > **Se os três realmente quiserem continuar juntos agora que são livres, que forma esse relacionamento terá dentro das três vidas que já existem?**
 
-O problema não é descobrir se os sentimentos anteriores eram falsos. Eles já foram estabelecidos em cena e não devem ser reabertos artificialmente como dúvida genérica.
+Grande parte dessa pergunta já foi respondida na prática.
+
+Corvin, Ravena e Kori se reconhecem como uma família compartilhada, mantêm vínculos próprios e não exigem presença, tempo, intimidade ou residência sincronizados.
+
+O problema atual é uma evolução direta:
+
+> **Como continuar escolhendo uns aos outros quando “casa” agora inclui Refúgio, Torre, Titãs e Tamaran — e quando Kori descobre que ser livre não elimina o peso das pessoas e do povo que ama?**
 
-O problema é transformar sentimentos e vínculos já existentes em escolhas conscientes, integrá-los às vidas independentes dos três e decidir o que será assumido ou compartilhado com pessoas próximas.
+O arco de Tamaran não substitui o foco íntimo. Ele é a consequência maior desse foco.
+
+## Verdades já consolidadas
+
+### Corvin–Ravena
+
+- vínculo romântico e íntimo escolhido conscientemente fora de Black Harbor;
+- Ravena declarou amar Corvin;
+- os dois possuem momentos privados próprios e isso não significa excluir Kori;
+- Ravena pode iniciar conversa, carinho, beijo, intimidade, distância ou atividade própria conforme sua ficha;
+- o vínculo não depende de Kori estar presente.
 
-## Situação inicial histórica
+### Corvin–Kori
 
-A cena inicial partiu exatamente do ponto final de `livro/temporada-1/020.md`:
+- vínculo romântico forte escolhido conscientemente;
+- Kori declarou amar Corvin;
+- Kori considera o Refúgio e a vida com Corvin/Ravena uma casa;
+- antes de partir para Tamaran, disse que quer voltar para eles se existir uma maneira;
+- forte tensão física e afetiva existe sem obrigação de consumação sexual imediata.
 
-- Corvin estava no chão do jardim de Ridge Road, 18;
-- estava ferido, vivo e iniciando recuperação pela Dádiva da Terra;
-- Kori estava ao lado dele;
-- Ravena estava ajoelhada do outro lado;
-- Corvin havia declarado que ama as duas ao tentar mentir para tranquilizá-las;
-- nenhuma resposta formal de Ravena ou Estelar havia sido estabelecida;
-- a antiga fronteira ainda não tinha sido testada em cena após a destruição.
+### Ravena–Kori
 
-Esse estado foi superado pelos acontecimentos já consolidados em `livro/temporada-2/001.md` a `006.md`.
+A situação antiga de “somente amizade/família, sem atração estabelecida” foi superada pela ficção.
 
-## Foco aplicado
+Agora é canônico:
 
-A temporada preserva o foco permanente da campanha em romance, convivência, comédia e aventura eventual.
+- amizade profunda e família escolhida continuam sendo a base histórica real;
+- Kori reconheceu recentemente uma dimensão romântica em seus sentimentos;
+- em mensagem, disse a Ravena que a ama e que gosta dela **não apenas como amiga**;
+- depois de ouvir a mensagem, Ravena disse a Corvin: **`Eu acho que gosto dela também.`**
+- Ravena ainda não sabe exatamente que forma deseja dar a isso;
+- Kori ainda NÃO sabe que Ravena correspondeu;
+- não houve beijo romântico entre as duas;
+- não existe relacionamento romântico formal entre elas ainda;
+- a amizade/família anterior não deve ser reescrita retroativamente como “romance reprimido”;
+- qualquer próximo avanço deve acontecer ao vivo pela autonomia das duas.
 
-Ela serve como arco de liberdade, escolha, definição e integração de vidas.
+### Estrutura compartilhada
 
-Estrutura temática:
+- não existe triângulo de ciúme automático;
+- os três já dividem cama, carinho, proximidade e vida doméstica com naturalidade;
+- momentos em pares são normais;
+- nenhuma relação precisa alcançar o mesmo estágio das outras;
+- Torre e Refúgio são casas coexistentes;
+- Tamaran agora também está explicitamente dentro da pergunta de casa.
 
-```text
-TEMPORADA 1
-→ formação sob confinamento.
+## Progressão consolidada até o Capítulo 012
 
-TEMPORADA 2
-→ escolha e definição em liberdade.
+### Capítulos 001–003 — liberdade e integração inicial
 
-TEMPORADA 3
-→ problemas externos maiores depois que a relação já tiver uma forma consciente.
-```
+- Ravena e Kori responderam que também amam Corvin;
+- os vínculos continuaram depois que todos podiam sair;
+- Ravena e Kori retomaram contato com os Titãs;
+- Dick, Victor e Garfield conheceram Corvin;
+- Refúgio e Torre começaram a se integrar sem exigir escolha exclusiva;
+- anéis de retorno criaram mobilidade independente para Ravena e Kori.
 
-Nenhum conflito externo da Temporada 2 pode crescer a ponto de substituir definição relacional e integração das três vidas como problema principal.
+### Capítulos 004–009 — construção de casa
 
-## Prazo e processos
+- Corvin ofereceu o Refúgio como espaço a ser transformado pelos três;
+- biblioteca de Ravena avançou estruturalmente;
+- solário de Kori começou a ser construído;
+- Kori deixou objetos pessoais no Refúgio sem abandonar seu quarto na Torre;
+- Ravena e Kori viveram rotinas independentes entre Torre e Refúgio;
+- os três consolidaram que intimidade em pares não exige equivalência imediata;
+- memórias genuínas de Kori sobre Tamaran começaram a criar familiaridade incipiente em Caminhos;
+- Caminhos mostrou que associação pode refinar familiaridade já existente, mas não substituir familiaridade ausente;
+- jantar, dança e convivência reforçaram uma família que já funciona sem fronteiras artificiais entre as casas.
 
-Não existe prazo apocalíptico ou antagonista estrutural principal nesta temporada.
+### Capítulo 010 — partida voluntária
 
-Dois movimentos independentes existem:
+- Kori saiu para missão espacial legítima dos Titãs;
+- foi localizada pelo Décimo Segundo Núcleo Expedicionário da Guarda Real tamaraneana;
+- não houve captura;
+- Va'kor explicou o risco político para a Terra e que os pais de Kori passaram anos procurando por ela;
+- Kori escolheu voltar voluntariamente;
+- fala central: `[Estelar] — Eles não estão me levando. Eu estou indo.`
+- antes de partir, gravou mensagem para Titãs, Corvin e Ravena;
+- confessou atração romântica por Ravena;
+- disse a Corvin que o ama e que queria ter voltado para casa;
+- percebeu que Tamaran também é casa;
+- disse que quer voltar para Corvin e Ravena se existir uma maneira;
+- Ravena ouviu a mensagem e reconheceu reciprocidade própria.
 
-1. **Os Titãs retomaram contato.** A vida de Ravena e Estelar não ficou congelada enquanto estavam em Black Harbor.
-2. **Responsabilidades normais retornaram.** Ravena e Estelar possuem vida com os Titãs; Corvin possui sua própria vida, Refúgio, interesses e tendência nômade.
+### Capítulo 011 — a máquina impossível
 
-Esses processos fornecem pressão natural para que o vínculo saia do estado de exceção e encontre uma forma praticável.
+- Corvin iniciou pesquisa obsessiva para alcançar Kori sem tratar sua escolha de voltar como sequestro;
+- Victor forneceu telemetria e módulos;
+- Ravena trouxe a caixa solar para o Refúgio;
+- teoria fechada: a máquina não encontra Tamaran, ela impede Caminhos de se perder enquanto Corvin procura;
+- Corvin descobriu em privado que o próprio Ciclo da Vida precisará alimentar a tentativa;
+- custo estimado: duas mudanças de estação, chegada ao Inverno e esgotamento profundo;
+- Ravena sabe que Corvin está no circuito, mas não sabe a extensão completa do custo;
+- máquina foi construída e permanece sem ativação na linha de Corvin.
 
-## O que precisa ser resolvido
+### Entre 011 e 012 — noite de descanso
 
-1. Como Ravena e Estelar reagem à declaração de Corvin?
-2. Os vínculos Corvin–Ravena e Corvin–Estelar continuam conscientemente quando todos podem partir?
-3. Existe uma estrutura compartilhada que os três desejam reconhecer como relacionamento, e o que “trio” significa concretamente?
-4. Que limites e liberdades permanecem individuais mesmo dentro de uma relação compartilhada?
-5. Como casa, visitas e convivência funcionam sem exigir que alguém abandone a própria vida?
-6. Como Ravena e Estelar entram na vida pessoal de Corvin fora de Black Harbor?
-7. Como Corvin entra nas vidas que Ravena e Estelar já possuem com os Titãs?
-8. O que os três desejam contar aos Titãs sobre Corvin e sobre os relacionamentos, e em que ritmo?
-9. Como Dick Grayson, Mutano e Ciborgue reagem quando conhecem Corvin e percebem a natureza dos vínculos?
-10. Que informações pessoais mais sensíveis cada protagonista escolhe ou não compartilhar com esse círculo?
-11. Como pequenas responsabilidades, missões ou separações temporárias afetam uma relação ainda em definição?
-12. Que definição clara precisa existir para que a Temporada 2 termine?
+Depois da construção:
 
-## Progresso consolidado até o Capítulo 006
+- Corvin confirmou que a máquina estava pronta e que seria usada no dia seguinte;
+- disse que precisava de café, descanso e de Ravena;
+- Corvin e Ravena fizeram uma brincadeira prolongada de “diplomacia” usando Embaixada da Montanha, Umbra e Tamaran como metáfora da família;
+- a brincadeira consolidou humoristicamente algo já real: Ravena e Kori possuem decisões próprias entre elas, e Corvin não precisa funcionar como fronteira ou autoridade entre as duas;
+- Corvin foi dormir querendo apenas Ravena perto;
+- Ravena escolheu a mesma proximidade, sem sexo naquela noite.
 
-Já resolvido ou fortemente estabelecido em cena:
+### Capítulo 012 — O Mundo Que Ainda Era Casa
 
-- Ravena e Estelar responderam formalmente que também amam Corvin;
-- os vínculos Corvin–Ravena e Corvin–Estelar continuaram conscientemente depois da libertação;
-- Ravena e Estelar passaram dois dias na Torre por escolha e depois voltaram ao Refúgio também por escolha;
-- Dick, Mutano e Ciborgue conheceram Corvin e sabem da existência dos vínculos românticos com as duas;
-- os Titãs conheceram o Refúgio e foram integrados inicialmente à vida pessoal de Corvin;
-- Corvin explicitou que não quer obrigar Ravena e Estelar a escolher entre a família dos Titãs e a relação com ele;
-- Ravena e Estelar aceitaram a ideia de uma família maior em vez de duas vidas concorrentes;
-- a Torre continua sendo casa para Ravena e Estelar e o Refúgio passou a ser tratado também como casa escolhida;
-- Ravena e Estelar receberam anéis/chaves com duas âncoras de retorno, tornando a circulação entre suas vidas uma escolha prática, não uma dependência de Corvin;
-- Corvin ofereceu o Refúgio como espaço a ser transformado pelos três, não apenas como sua casa onde elas são visitantes;
-- a estrutura física principal da nova biblioteca de Ravena foi concluída em dois dias; mobiliário, mezanino, iluminação e organização continuam pendentes;
-- o local do solário de Kori foi escolhido e sua construção estrutural começou; Kori quer construir as etapas compartilháveis com Corvin em vez de receber tudo pronto;
-- Kori trouxe roupas, objetos pessoais e uma fotografia dos Titãs para o Refúgio sem abandonar o próprio quarto na Torre;
-- Ravena voltou a patrulhar com Dick e dormiu na Torre enquanto Kori voltou ao Refúgio, demonstrando na prática que presença e ausência não precisam ser sincronizadas;
-- Ravena e Kori conversaram diretamente e aceitaram que momentos íntimos ou privados em pares não exigem presença ou equivalência imediata da terceira pessoa;
-- Kori reafirmou como eixo pessoal que ela própria decide quem ocupa lugar em sua vida; isso conecta sua fuga de Tamaran, sua identidade múltipla e a escolha atual por Corvin sem apagar princesa, tamaraneana, Titã ou Estelar.
+A narrativa voltou no tempo e acompanhou os quatro dias de Kori em Tamaran.
 
-Ainda aberto para a condição final da temporada:
+**Dia 1:** viagem rápida, chegada, reencontro privado com pai e mãe, casa antes da política.
 
-- um nome/definição suficientemente clara para o vínculo compartilhado dos três;
-- limites, ritmos e liberdades que ainda precisem ser verbalizados em cena além do que já foi demonstrado na prática;
-- decidir se há algo mais que o círculo próximo precisa saber neste momento e o que permanece privado;
-- consolidar a integração doméstica sem transformar projetos ainda em obra em fatos concluídos.
+**Dia 2:** cidade, povo, primeira reunião, Kori declara que a Terra nunca a prendeu e que os Titãs são sua família; conta à mãe sobre Corvin e sobre o sentimento novo por Ravena.
 
-## Diretriz Fechada
+**Dia 3:** sucessão, política e responsabilidade; Kori percebe que pode andar e voar livremente, mas talvez não consiga simplesmente voltar sem abandonar família, povo e posição que também ama. Diz ao pai que quer voltar para Corvin e também quer ficar em Tamaran.
 
-### 1. Reação à declaração
+**Dia 4:** o rei não proíbe sua saída, mas não enviará nave real à Terra antes de política de contato; Kori chama Terra e Tamaran de casa; o Anel Solar começa a reagir como se Caminhos estivesse procurando por ela; Kori corre e voa até a praça principal.
 
-**Verdade:** Ravena e Estelar já possuem vínculos românticos fortes com Corvin. A questão não começa do zero.
+Fato final:
 
-Estelar é emocionalmente aberta e tende a expressar carinho e atração diretamente.
+`[Estelar] — Eu estou aqui.`
 
-Ravena sente intensamente, mas tende a admitir sentimentos com mais dificuldade. Sua ficha permite que aceite uma relação a três quando houver sentimento real, sinceridade e consentimento, embora ciúme, insegurança e medo de rejeição possam tornar isso emocionalmente difícil.
+Nenhum portal completo ou reencontro foi narrado ainda.
 
-**Resolução em andamento:** as duas já disseram claramente que amam Corvin. Isso resolve a reação à declaração, mas não define sozinho a estrutura compartilhada final.
+## Ponto operacional atual
 
-**Limites:**
-- nenhuma resposta foi predeterminada;
-- a resposta de uma não obrigou a resposta da outra;
-- não existe teste para decidir sentimento voluntário.
+As perspectivas estão propositalmente dessincronizadas:
 
-### 2. Continuidade fora de Black Harbor
+- **linha de Kori:** já está no ponto de sincronização do quarto dia, no centro da praça de Tamaran;
+- **linha de Corvin/Ravena:** deve abrir na manhã do quarto dia no Refúgio e ainda precisa chegar à ativação.
 
-**Verdade:** Corvin–Ravena e Corvin–Estelar já ultrapassaram atração circunstancial. Houve intimidade, confiança, beijos, tempo privado escolhido e revelações pessoais.
+Seguir `estado/atual.md`.
 
-A Temporada 1 estabeleceu que a influência de Black Harbor amplificava vínculos reais em vez de fabricar sentimentos do nada.
+Não avançar Kori além da praça até a linha da Terra alcançar o mesmo instante.
 
-**Resolução consolidada:** os vínculos continuaram conscientemente porque as personagens escolheram agir sobre aquilo que já existia depois que podiam partir.
+## Máquina e travessia
 
-**Limite:** não reabrir artificialmente a pergunta “será que tudo era falso?” apenas para produzir drama.
+A máquina usa:
 
-### 3. Significado de “nós três”
+- memórias/familiaridade de Tamaran;
+- associação de Corvin com Kori;
+- Anel Solar com Kori;
+- caixa solar no Refúgio;
+- telemetria e assinatura de salto de Victor;
+- contenção para manter a busca de Caminhos coerente.
 
-**Verdade:** os três vínculos permanecem distintos.
+O anel não virou rastreador.
 
-```text
-CORVIN ↔ RAVENA
-CORVIN ↔ ESTELAR
-RAVENA ↔ ESTELAR
-```
+A caixa não contém coordenada secreta.
 
-Corvin ama Ravena e Estelar romanticamente.
+A reação do anel no Capítulo 012 é o lado de Kori do ponto em que a busca consegue tocar uma referência reconhecível.
 
-Ravena e Estelar possuem amizade/família profundamente íntima, mas nenhum romance entre elas foi estabelecido.
+Na linha da Terra, a ativação ainda precisa ser jogada.
 
-**Resolução possível:** pode existir uma estrutura afetiva a três em que Corvin mantenha relação romântica com ambas e Ravena–Estelar permaneça uma relação íntima de amizade/família; isso ainda pode ser reconhecido pelos três como uma família ou relacionamento compartilhado.
+## Custo reservado de Corvin
 
-Se algo romântico surgir entre Ravena e Estelar, deve nascer de decisões delas em jogo.
+Se a ativação acontecer conforme calculado:
 
-**Limite:** “trio” não exige três relações românticas idênticas.
+- força duas mudanças de estação;
+- cabelo verde-claro chega ao branco do Inverno;
+- esgotamento sobrenatural profundo;
+- regra de mestre planejada: P4 → P2 temporariamente até o fim da temporada, salvo mudança legítima posterior;
+- Mana deve ser resolvida apenas na sentença concreta da ativação.
 
-### 4. Limites e liberdades
+Não atualizar a ficha de Corvin antes da ativação.
 
-**Verdade:** nenhuma das fichas sustenta posse ou imposição.
+Ravena não conhece o custo completo.
 
-Corvin só considera válido um relacionamento múltiplo quando todos sabem no que estão entrando e podem aceitar ou rejeitar isso livremente.
+Natureza Não Mente permanece válida se ela perguntar diretamente.
 
-Estelar considera relacionamentos múltiplos compatíveis com sua cultura quando existe escolha, afeto e respeito.
+## Tamaran — função do conflito
 
-Ravena pode sentir ciúme e insegurança, mas não considera isso direito de controlar outra pessoa.
+O arco não é “prisão e resgate”.
 
-**Progresso consolidado:** no Capítulo 005, Ravena e Estelar reconheceram explicitamente entre si que cada vínculo pode ter tempo privado, intimidade e ritmo próprios. Kori ficou genuinamente feliz ao saber que o momento privado de Ravena com Corvin foi bom para ela, sem pedir detalhes nem exigir equivalência.
+Kori está livre para andar, sair de reuniões, voar e discordar.
 
-**Resolução possível:** continuar estabelecendo organicamente espaço privado, tempo individual, intimidade separada, maneiras de lidar com ciúme e expectativas recíprocas.
+O que a prende é:
 
-**Limites:**
-- não existe obrigação de paridade;
-- não equalizar automaticamente atenção, tempo ou intimidade;
-- nenhuma personagem deve ser contida para “esperar” outra alcançar o mesmo estágio.
+- família;
+- povo;
+- amor por Tamaran;
+- condição de princesa;
+- consequências políticas;
+- necessidade de meio interestelar;
+- desejo de não abandonar nenhuma das duas casas.
 
-### 5. Casa e convivência
+Os pais podem amar Kori sinceramente e ainda discordar de escolhas dela.
 
-**Verdade atual:** Corvin possui o Refúgio Ártico. Ravena e Estelar possuem vida e acesso aos Titãs. Ridge Road, 18 continua existindo, mas seu significado pós-libertação ainda não foi decidido.
+A rainha já afirmou que não quer repetir a estrutura que fez Kori acreditar que precisava fugir para ser livre.
 
-A Torre e o Refúgio já foram aceitos em cena como casas que não precisam competir. Os anéis criados por Corvin reforçam essa integração prática ao permitir retorno para a oficina ou para as caixas guardadas nos quartos das duas na Torre.
+O rei já afirmou que Kori é livre para escolher sua vida, mas que escolhas continuam tendo consequências.
 
-**Progresso consolidado:** a casa começou a ser fisicamente remodelada. A biblioteca de Ravena já possui nova estrutura; o solário de Kori está em construção; Kori começou a deixar roupas e objetos pessoais no Refúgio. No fim do Capítulo 006, Ravena dormiu na Torre e Kori no Refúgio, ambas por escolha própria, sem que nenhuma decisão fosse interpretada como afastamento.
+## Chegada futura
 
-**Limite:** estar juntos não significa escolher uma única residência nem abandonar casas anteriores.
+Quando a linha de Corvin alcançar a ativação e a passagem realmente abrir:
 
-### 6. Ravena e Estelar na vida de Corvin
+- o destino já preparado é a praça do Capítulo 012;
+- a rainha e guardas podem estar próximos;
+- guardas não são automaticamente aliados nem inimigos;
+- Dick deve tratar a chegada como entrada em planeta soberano;
+- plano declarado: Ravena e Titãs atravessam antes; Corvin sustenta e atravessa por último;
+- Ravena só então pode perceber plenamente o preço pago por Corvin.
 
-**Verdade:** antes delas, Corvin era essencialmente solitário e nômade. O Refúgio Ártico, suas viagens, forja, alquimia e Ciclo da Vida são partes profundas da existência dele.
+A imagem desejada, se a situação permitir, é Kori correr e abraçar Corvin.
 
-Durante a Temporada 1, Corvin passou a pensar em pessoas como razões para querer voltar para casa.
+Esse abraço não resolve a situação. Depois dele, ela ainda precisa encarar família, povo, Ravena, Titãs e o que fará com as duas casas.
 
-**Progresso consolidado:** Ravena e Estelar já conheceram o Refúgio, dormiram ali por escolha e participam diretamente de sua transformação. Ravena definiu a nova biblioteca junto com Corvin e sua estrutura principal foi concluída. Kori escolheu com Corvin o local do solário e participa do projeto de torre, plataforma, água, espelhos e demais etapas futuras. Kori também começou a deixar pertences no Refúgio. A reforma permanece um processo, não fato completo.
+## Direção do final
 
-**Limite:** quando convidar, o que mostrar e que espaço oferecer continuam sendo escolhas de Corvin controladas pelo Jogador Humano.
+A direção planejada detalhada está em `mestre/temporadas/temporada-2-possivel-final.md`.
 
-### 7. Corvin na vida dos Titãs
+Preservar especialmente:
 
-**Verdade:** os Titãs são família escolhida de Ravena e Estelar. Elas não devem simplesmente desaparecer dessa vida por causa de Corvin.
-
-**Progresso consolidado:** Corvin conheceu Dick, Mutano e Ciborgue, visitou a Torre, recebeu os três no Refúgio e declarou que prefere integrar as famílias a criar uma escolha entre elas. No Capítulo 006, Ravena retomou patrulha com Dick e Estelar voltou espontaneamente para rever Gar e Victor; a vida dos Titãs continuou funcionando em paralelo à reforma.
-
-**Limites:**
-- namoro não equivale a recrutamento;
-- Corvin não se torna Titã automaticamente;
-- Ravena e Estelar não precisam escolher entre Corvin e sua família escolhida.
-
-### 8. O que contar e quando
-
-**Verdade:** não existe obrigação de revelar tudo em uma única conversa.
-
-Corvin não consegue mentir deliberadamente, mas isso não o obriga a oferecer espontaneamente todos os próprios segredos.
-
-Ravena tende à privacidade; Estelar tende à franqueza.
-
-**Progresso consolidado:** os Titãs já sabem da relação, idade de Corvin, parte do Ciclo da Vida, natureza de sua percepção e incapacidade de mentir, além de terem conhecido o Refúgio. A vulnerabilidade definitiva de uma segunda morte prematura no mesmo ciclo não foi revelada a eles.
-
-**Limites:**
-- não usar A Natureza Não Mente como máquina de exposição automática;
-- perguntas diretas podem produzir respostas constrangedoramente honestas quando Corvin tentar mentir, mas não obrigam exposição voluntária total.
-
-### 9. Reação de Dick, Mutano e Ciborgue
-
-**Verdade:** eles são família de Ravena e Estelar e naturalmente tiveram interesse no desaparecimento, retorno e na pessoa nova que entrou profundamente na vida das duas.
-
-As fichas de Dick Grayson, Mutano e Ciborgue continuam sendo a fonte operacional para suas decisões e reações.
-
-**Progresso consolidado:** os três reagiram sem intolerância artificial, respeitaram a autonomia das duas e já conheceram Corvin e o Refúgio. Victor estabeleceu forte interesse técnico e começou a contribuir com sugestões de engenharia; Garfield responde à integração doméstica com curiosidade, humor e afeto; Dick observa a integração, conversa diretamente com Ravena e respeita as escolhas das duas sem transformar cada mudança em crise.
-
-### 10. Informações pessoais sensíveis
-
-**Verdade:** os Titãs já conhecem muito de Ravena e Estelar, mas Corvin ainda é relativamente novo para eles.
-
-**Limite atual:** não promover automaticamente a conhecimento deles o segredo da segunda morte prematura definitiva nem qualquer informação pessoal que Corvin ainda não tenha escolhido compartilhar.
-
-### 11. Vida normal como teste
-
-**Verdade:** Ravena e Estelar possuem responsabilidades com os Titãs. Corvin possui interesses, viagens e uma vida independente.
-
-**Progresso consolidado:** os dois dias separados, a volta voluntária ao Refúgio, a visita dos Titãs, compras, comida, sono e planejamento doméstico já mostraram a relação funcionando fora do estado de exceção de Black Harbor. O Capítulo 006 avançou esse teste: durante uma mesma janela de reforma, Ravena patrulhou e dormiu na Torre, Kori reviu amigos e voltou ao Refúgio, e Corvin continuou trabalhando sozinho sem que as vidas fossem congeladas ou sincronizadas.
-
-**Limites:**
-- pequenas aventuras são variação de ritmo, não arco secreto;
-- nenhum incidente pode crescer para conspiração mundial, guerra, invasão, Trigon como problema estrutural, crise tamaraneana central ou ameaça que substitua o foco relacional;
-- problemas externos maiores ficam para a Temporada 3 ou posterior, salvo mudança deliberada da Direção do Jogador.
-
-### 12. Condição de definição
-
-A Temporada 2 precisa terminar com definição suficientemente clara em três eixos:
-
-```text
-RELAÇÃO
-→ cada um sabe o que é para os outros.
-
-INTEGRAÇÃO
-→ existe uma forma escolhida de conciliar suas vidas sem exigir abandono de identidade.
-
-EXPOSIÇÃO
-→ eles decidiram o que o círculo próximo precisa saber naquele momento e o que permanece privado.
-```
-
-Não é obrigatório:
-
-- escolher uma única residência definitiva;
-- revelar todos os segredos;
-- decidir casamento;
-- resolver todo futuro possível;
-- transformar Ravena–Estelar em romance;
-- terminar em um resultado específico apenas porque parece provável.
-
-Mas a temporada não pode terminar novamente em “não sabemos o que somos”.
-
-## Tendência provável sem predeterminação
-
-Com base nos sentimentos e comportamentos já estabelecidos:
-
-- Corvin ama as duas e aceita relacionamentos múltiplos apenas com conhecimento e liberdade de todos;
-- Ravena ama Corvin, possui desejo, confiança e vínculo forte com ele e sua ficha permite uma relação a três quando houver sinceridade, consentimento e sentimento real;
-- Estelar ama Corvin e considera relações múltiplas compatíveis com sua cultura quando escolhidas livremente;
-- Ravena e Estelar possuem amizade profunda e confiança mútua.
-
-Portanto, uma estrutura de trio continua **muito plausível e provavelmente natural** se as decisões durante a temporada seguirem coerentes com o desenvolvimento atual.
-
-Isso é tendência narrativa baseada no estado atual, não resultado obrigatório.
-
-## Miniquests / variações previstas
-
-Podem surgir, quando naturais:
-
-- pequenas patrulhas ou missões;
-- treino;
-- cozinhar, descansar, viajar e reorganizar rotina;
-- situações sociais em que amigos percebam gradualmente novos aspectos dos vínculos;
-- momentos individuais entre cada par;
-- momentos compartilhados que testem o significado de “nós três”.
-
-Já aconteceram e não precisam ser repetidos como obrigação:
-
-- confirmação prática de que a antiga fronteira deixou de funcionar;
-- retorno dos Titãs ao contato;
-- apresentação de Corvin;
-- primeira visita ao Refúgio Ártico.
-
-Nenhuma variação é cena obrigatória nem deve substituir decisões emergentes das personagens.
+- Tamaran como sociedade e casa, não dungeon;
+- pais de Kori como pessoas capazes de amor real e conflito real;
+- Aparência Inofensiva fazendo Corvin parecer um mortal terrestre comum à família real;
+- objeção dinástica baseada em Sangue Real, sucessão e mortalidade aparente, não em posse sexual de Kori;
+- possível tradição/desafio nunca decidir “quem fica com Kori”; ela decide isso;
+- resultado de qualquer desafio ao vivo e não predeterminado;
+- Fúria da Terra podendo revelar a natureza real de Corvin por meio da própria natureza alienígena de Tamaran sem restaurar automaticamente o poder gasto;
+- qualquer fala importante de Corvin depende do Jogador Humano;
+- conversa Ravena–Kori deve acontecer ao vivo;
+- nenhuma obrigação de beijo;
+- possível casamento Corvin–Kori apenas se legitimamente alcançado, como escolha de Kori e espelho do casamento imposto do qual fugiu;
+- possível noite de núpcias adulta, sensual e não gráfica, com significado de escolha e não pureza;
+- retorno final ao Refúgio ainda em construção como imagem temática desejada.
 
 ## Condição de encerramento
 
-A Temporada 2 termina quando Corvin, Ravena e Estelar tiverem chegado, por decisões livres em jogo, a uma definição clara do que são um para o outro e de como esse vínculo convive com suas vidas independentes, e quando tiverem decidido suficientemente o que desejam tornar conhecido ao círculo próximo naquele momento.
+A Temporada 2 pode terminar quando a ficção tiver produzido uma definição suficientemente clara e vivida para:
 
-A temporada pode então encerrar com a relação preparada para enfrentar problemas externos maiores em uma Temporada 3.
+1. Kori continuar possuindo escolha real sobre Tamaran e a Terra;
+2. a família compartilhada Corvin–Ravena–Kori ter forma consciente, mesmo que os três vínculos continuem diferentes;
+3. a questão Ravena–Kori ter avançado até o ponto que as duas realmente escolherem ao vivo, sem obrigação de resultado específico;
+4. Tamaran deixar de ser uma ameaça abstrata e encontrar um lugar real na vida de Kori;
+5. o arco atual permitir um retorno voluntário a casa — seja qual for a forma concreta que os acontecimentos legitimamente criarem.
 
-## Estado operacional atual
-
-A temporada permanece **ATIVA**.
-
-O ponto de continuação, presentes, conhecimentos atuais, pendências e último fato estabelecido estão em:
-
-`estado/atual.md`
-
-Não executar novamente START e não retornar à situação inicial. Continuar somente depois da reancoragem operacional do fechamento de capítulo.
+Quando essa condição for realmente alcançada, fechar a temporada conforme as regras de registro. Não criar automaticamente a Temporada 3 antes de perguntar **“E agora?”**.
