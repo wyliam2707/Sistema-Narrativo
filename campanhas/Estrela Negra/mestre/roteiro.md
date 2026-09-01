@@ -66,7 +66,7 @@ A cena inicial partiu exatamente do ponto final de `livro/temporada-1/020.md`:
 - nenhuma resposta formal de Ravena ou Estelar havia sido estabelecida;
 - a antiga fronteira ainda não tinha sido testada em cena após a destruição.
 
-Esse estado foi superado pelos acontecimentos já consolidados em `livro/temporada-2/001.md` a `004.md`.
+Esse estado foi superado pelos acontecimentos já consolidados em `livro/temporada-2/001.md` a `005.md`.
 
 ## Foco aplicado
 
@@ -115,7 +115,7 @@ Esses processos fornecem pressão natural para que o vínculo saia do estado de 
 11. Como pequenas responsabilidades, missões ou separações temporárias afetam uma relação ainda em definição?
 12. Que definição clara precisa existir para que a Temporada 2 termine?
 
-## Progresso consolidado até o Capítulo 004
+## Progresso consolidado até o Capítulo 005
 
 Já resolvido ou fortemente estabelecido em cena:
 
@@ -128,14 +128,20 @@ Já resolvido ou fortemente estabelecido em cena:
 - Ravena e Estelar aceitaram a ideia de uma família maior em vez de duas vidas concorrentes;
 - a Torre continua sendo casa para Ravena e Estelar e o Refúgio passou a ser tratado também como casa escolhida;
 - Ravena e Estelar receberam anéis/chaves com duas âncoras de retorno, tornando a circulação entre suas vidas uma escolha prática, não uma dependência de Corvin;
-- Corvin começou a oferecer o Refúgio como espaço a ser transformado pelos três, não apenas como sua casa onde elas são visitantes.
+- Corvin ofereceu o Refúgio como espaço a ser transformado pelos três, não apenas como sua casa onde elas são visitantes;
+- a estrutura física principal da nova biblioteca de Ravena foi concluída em dois dias; mobiliário, mezanino, iluminação e organização continuam pendentes;
+- o local do solário de Kori foi escolhido e sua construção estrutural começou; Kori quer construir as etapas compartilháveis com Corvin em vez de receber tudo pronto;
+- Kori trouxe roupas, objetos pessoais e uma fotografia dos Titãs para o Refúgio sem abandonar o próprio quarto na Torre;
+- Ravena voltou a patrulhar com Dick e dormiu na Torre enquanto Kori voltou ao Refúgio, demonstrando na prática que presença e ausência não precisam ser sincronizadas;
+- Ravena e Kori conversaram diretamente e aceitaram que momentos íntimos ou privados em pares não exigem presença ou equivalência imediata da terceira pessoa;
+- Kori reafirmou como eixo pessoal que ela própria decide quem ocupa lugar em sua vida; isso conecta sua fuga de Tamaran, sua identidade múltipla e a escolha atual por Corvin sem apagar princesa, tamaraneana, Titã ou Estelar.
 
 Ainda aberto para a condição final da temporada:
 
 - um nome/definição suficientemente clara para o vínculo compartilhado dos três;
-- limites, ritmos e liberdades que ainda precisem ser verbalizados em cena;
+- limites, ritmos e liberdades que ainda precisem ser verbalizados em cena além do que já foi demonstrado na prática;
 - decidir se há algo mais que o círculo próximo precisa saber neste momento e o que permanece privado;
-- consolidar a integração doméstica sem transformar projeto futuro em fato já executado.
+- consolidar a integração doméstica sem transformar projetos ainda em obra em fatos concluídos.
 
 ## Diretriz Fechada
 
@@ -194,7 +200,9 @@ Estelar considera relacionamentos múltiplos compatíveis com sua cultura quando
 
 Ravena pode sentir ciúme e insegurança, mas não considera isso direito de controlar outra pessoa.
 
-**Resolução possível:** estabelecer organicamente espaço privado, tempo individual, intimidade separada, maneiras de lidar com ciúme e expectativas recíprocas.
+**Progresso consolidado:** no Capítulo 005, Ravena e Estelar reconheceram explicitamente entre si que cada vínculo pode ter tempo privado, intimidade e ritmo próprios. Kori ficou genuinamente feliz ao saber que o momento privado de Ravena com Corvin foi bom para ela, sem pedir detalhes nem exigir equivalência.
+
+**Resolução possível:** continuar estabelecendo organicamente espaço privado, tempo individual, intimidade separada, maneiras de lidar com ciúme e expectativas recíprocas.
 
 **Limites:**
 - não existe obrigação de paridade;
@@ -207,6 +215,8 @@ Ravena pode sentir ciúme e insegurança, mas não considera isso direito de con
 
 A Torre e o Refúgio já foram aceitos em cena como casas que não precisam competir. Os anéis criados por Corvin reforçam essa integração prática ao permitir retorno para a oficina ou para as caixas guardadas nos quartos das duas na Torre.
 
+**Progresso consolidado:** a casa começou a ser fisicamente remodelada. A biblioteca de Ravena já possui nova estrutura; o solário de Kori está em construção; Kori começou a deixar roupas e objetos pessoais no Refúgio. No fim do Capítulo 005, Ravena dormiu na Torre e Kori no Refúgio, ambas por escolha própria, sem que nenhuma decisão fosse interpretada como afastamento.
+
 **Limite:** estar juntos não significa escolher uma única residência nem abandonar casas anteriores.
 
 ### 6. Ravena e Estelar na vida de Corvin
@@ -215,7 +225,7 @@ A Torre e o Refúgio já foram aceitos em cena como casas que não precisam comp
 
 Durante a Temporada 1, Corvin passou a pensar em pessoas como razões para querer voltar para casa.
 
-**Progresso consolidado:** Ravena e Estelar já conheceram o Refúgio, dormiram ali por escolha e começaram a participar de sua transformação. Kori propôs um solário; Ravena quer refazer a biblioteca. Nenhuma obra futura está concluída ainda.
+**Progresso consolidado:** Ravena e Estelar já conheceram o Refúgio, dormiram ali por escolha e participam diretamente de sua transformação. Ravena definiu a nova biblioteca junto com Corvin e sua estrutura principal foi concluída. Kori escolheu com Corvin o local do solário e participa do projeto de torre, plataforma, água, espelhos e demais etapas futuras. Kori também começou a deixar pertences no Refúgio. A reforma permanece um processo, não fato completo.
 
 **Limite:** quando convidar, o que mostrar e que espaço oferecer continuam sendo escolhas de Corvin controladas pelo Jogador Humano.
 
@@ -223,7 +233,7 @@ Durante a Temporada 1, Corvin passou a pensar em pessoas como razões para quere
 
 **Verdade:** os Titãs são família escolhida de Ravena e Estelar. Elas não devem simplesmente desaparecer dessa vida por causa de Corvin.
 
-**Progresso consolidado:** Corvin conheceu Dick, Mutano e Ciborgue, visitou a Torre, recebeu os três no Refúgio e declarou que prefere integrar as famílias a criar uma escolha entre elas.
+**Progresso consolidado:** Corvin conheceu Dick, Mutano e Ciborgue, visitou a Torre, recebeu os três no Refúgio e declarou que prefere integrar as famílias a criar uma escolha entre elas. No Capítulo 005, Ravena retomou patrulha com Dick e Estelar voltou espontaneamente para rever Gar e Victor; a vida dos Titãs continuou funcionando em paralelo à reforma.
 
 **Limites:**
 - namoro não equivale a recrutamento;
@@ -250,7 +260,7 @@ Ravena tende à privacidade; Estelar tende à franqueza.
 
 As fichas de Dick Grayson, Mutano e Ciborgue continuam sendo a fonte operacional para suas decisões e reações.
 
-**Progresso consolidado:** os três reagiram sem intolerância artificial, respeitaram a autonomia das duas, conheceram Corvin e passaram um dia no Refúgio. Victor estabeleceu forte interesse técnico; Garfield respondeu com curiosidade e humor; Dick observou a integração e respeitou as escolhas das duas.
+**Progresso consolidado:** os três reagiram sem intolerância artificial, respeitaram a autonomia das duas e já conheceram Corvin e o Refúgio. Victor estabeleceu forte interesse técnico e começou a contribuir com sugestões de engenharia; Garfield responde à integração doméstica com curiosidade, humor e afeto; Dick observa a integração, conversa diretamente com Ravena e respeita as escolhas das duas sem transformar cada mudança em crise.
 
 ### 10. Informações pessoais sensíveis
 
@@ -262,7 +272,7 @@ As fichas de Dick Grayson, Mutano e Ciborgue continuam sendo a fonte operacional
 
 **Verdade:** Ravena e Estelar possuem responsabilidades com os Titãs. Corvin possui interesses, viagens e uma vida independente.
 
-**Progresso consolidado:** os dois dias separados, a volta voluntária ao Refúgio, a visita dos Titãs, compras, comida, sono e planejamento doméstico já mostraram a relação funcionando fora do estado de exceção de Black Harbor.
+**Progresso consolidado:** os dois dias separados, a volta voluntária ao Refúgio, a visita dos Titãs, compras, comida, sono e planejamento doméstico já mostraram a relação funcionando fora do estado de exceção de Black Harbor. O Capítulo 005 avançou esse teste: durante uma mesma janela de reforma, Ravena patrulhou e dormiu na Torre, Kori reviu amigos e voltou ao Refúgio, e Corvin continuou trabalhando sozinho sem que as vidas fossem congeladas ou sincronizadas.
 
 **Limites:**
 - pequenas aventuras são variação de ritmo, não arco secreto;
