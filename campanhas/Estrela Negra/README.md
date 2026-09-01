@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 Temporada ativa: 2
 Última temporada encerrada: 1
-Último capítulo fechado: `livro/temporada-2/004.md`
+Último capítulo fechado: `livro/temporada-2/005.md`
 Epílogo da Temporada 1: `livro/temporada-1/epilogo.md`
 Resumo da temporada anterior: `livro/temporada-1/resumo-da-temporada.md`
 Mapa de eventos da Temporada 1: `livro/temporada-1/mapa-de-eventos.md`
@@ -60,7 +60,8 @@ Capítulos fechados até agora:
 - `livro/temporada-2/001.md` — liberdade confirmada, respostas à declaração de amor e reencontro com os Titãs;
 - `livro/temporada-2/002.md` — dois dias separados, criação dos anéis e estabelecimento das duas âncoras de retorno;
 - `livro/temporada-2/003.md` — primeira visita de Dick, Mutano e Ciborgue ao Refúgio e integração inicial entre as duas famílias;
-- `livro/temporada-2/004.md` — rotina doméstica, compras e início do planejamento para transformar o Refúgio numa casa pensada para os três.
+- `livro/temporada-2/004.md` — rotina doméstica, compras e início do planejamento para transformar o Refúgio numa casa pensada para os três;
+- `livro/temporada-2/005.md` — dois primeiros dias da reforma: biblioteca estruturalmente ampliada, projeto do solário iniciado, vidas da Torre funcionando em paralelo e aprofundamento individual dos vínculos de Corvin com Ravena e Kori.
 
 O foco continua sendo:
 
@@ -78,6 +79,14 @@ A formação familiar compartilhada está avançando em cena, mas a temporada ai
 
 A continuação exata está em `estado/atual.md`.
 
-Corvin, Ravena e Estelar estão no Refúgio Ártico. A conversa parou quando Ravena afirmou que gostaria de mexer bastante na biblioteca e disse que tem algumas ideias para o espaço, depois de Corvin oferecer liberdade para que a casa adquira cada vez mais uma identidade dos três.
+O Capítulo 005 terminou ao fim do **Dia 2 da reforma do Refúgio**.
 
-Nenhuma ideia de Ravena foi detalhada ou executada depois desse ponto.
+- Corvin está no Refúgio Ártico com Kori; os dois dormiram juntos no ninho.
+- Ravena escolheu permanecer na Torre depois de patrulhar com Dick e dormiu no próprio quarto.
+- a biblioteca já possui expansão, teto, pilar e reforço estrutural concluídos; Ravena ainda precisa escolher/comprar móveis, concluir mezanino, iluminação e organização;
+- o futuro solário já tem local definido e clareira preparada; Corvin iniciou a moldagem estrutural e estima precisar de mais um dia para deixar a base pronta para receber carga;
+- torre, plataforma de voo, água aquecida, plantas, vidro, par de espelhos de passagem e outras partes do “castelo” continuam como projeto futuro e trabalho compartilhado;
+- Kori trouxe roupas, objetos pessoais, uma fotografia dos Titãs e provisões para o Refúgio, tornando concreta sua presença nas duas casas;
+- a conversa privada entre Corvin e Kori consolidou que ela não precisa escolher entre ser princesa, tamaraneana, Titã, Estelar ou Kori: todas essas partes coexistem, e Kori afirmou como princípio próprio que **ela decide por si mesma** quem ocupa lugar em sua vida.
+
+A próxima cena começa no **Dia 3**, sem decidir automaticamente qualquer nova ação voluntária de Corvin.
