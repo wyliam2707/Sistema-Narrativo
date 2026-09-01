@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 Temporada ativa: 2
 Última temporada encerrada: 1
-Último capítulo fechado: `livro/temporada-2/009.md`
+Último capítulo fechado: `livro/temporada-2/011.md`
 Epílogo da Temporada 1: `livro/temporada-1/epilogo.md`
 Resumo da temporada anterior: `livro/temporada-1/resumo-da-temporada.md`
 Mapa de eventos da Temporada 1: `livro/temporada-1/mapa-de-eventos.md`
@@ -53,7 +53,7 @@ Capítulos e epílogo preservam o cânone detalhado. Resumo e mapa são derivado
 
 ## Temporada 2 — ativa
 
-A Temporada 2 começou exatamente após o final da Temporada 1 e permanece curta e íntima, focada em liberdade, escolha, definição relacional e integração de vidas.
+A Temporada 2 começou exatamente após o final da Temporada 1 e permanece focada em liberdade, escolha, definição relacional e integração de vidas. O arco íntimo agora convergiu para Tamaran sem abandonar esses temas: a crise nasceu justamente da liberdade de Kori, das casas que ela escolheu e dos vínculos que construiu.
 
 Capítulos fechados até agora:
 
@@ -65,34 +65,39 @@ Capítulos fechados até agora:
 - `livro/temporada-2/006.md` — segundo dia da reforma: estrutura da biblioteca concluída, vida dos Titãs funcionando em paralelo, Kori começando a ocupar o Refúgio e conversa central sobre escolha e identidade;
 - `livro/temporada-2/007.md` — terceiro dia: base estrutural do solário concluída, Kori participa da construção e as memórias pessoais de Tamaran começam a produzir uma resposta pequena e repetível em Caminhos, ainda sem rota ou localização;
 - `livro/temporada-2/008.md` — quarto dia: compras e primeira parede de vidro do solário, projeto de levar luz natural à biblioteca por fibra e noite na câmara termal com proposta de ampliar a piscina existente e ligá-la ao ninho;
-- `livro/temporada-2/009.md` — fim do quarto e quinto dia: jantar e conversa pessoal entre Kori, Elara e Corvin, avanço conceitual de Caminhos sobre familiaridade e associação, novas etapas da biblioteca e do solário e uma noite de jantar, dança no chão e no ar escolhida por Ravena e Kori.
+- `livro/temporada-2/009.md` — fim do quarto e quinto dia: conversa pessoal entre Kori, Elara e Corvin, avanço conceitual de Caminhos sobre familiaridade e associação, novas etapas da biblioteca e do solário e uma noite de jantar e dança conduzida por Ravena e Kori;
+- `livro/temporada-2/010.md` — Kori parte para uma missão espacial, é localizada por um Núcleo de Guerra tamaraneano e escolhe voltar para Tamaran; sua mensagem revela que quer voltar para Corvin e Ravena e admite atração romântica por Ravena, que depois reconhece reciprocidade; Corvin inicia a tentativa obsessiva de encontrar um caminho;
+- `livro/temporada-2/011.md` — três dias de pesquisa, autonomia de Ravena, apoio dos Titãs, fechamento da teoria, descoberta do custo ligado ao Ciclo da Vida e construção física da máquina destinada a sustentar Corvin dentro da busca de Caminhos por Tamaran.
 
 O foco continua sendo:
 
+- liberdade e escolha de Kori mesmo quando retorna voluntariamente a Tamaran;
 - continuidade consciente dos vínculos fora de Black Harbor;
-- definição da forma compartilhada da relação sem sincronizar os três vínculos;
-- integração entre a vida de Corvin e a vida de Ravena e Estelar com os Titãs;
+- definição da forma compartilhada da relação sem exigir que todos os vínculos sejam idênticos;
+- novo interesse romântico recíproco Ravena–Kori ainda não explorado frente a frente;
+- integração entre Refúgio, Torre, Titãs e Tamaran sem substituir uma casa pela outra;
 - casa, convivência e espaço individual;
-- o que tornar conhecido ao círculo próximo e o que manter privado;
-- pequenas aventuras apenas como variação de ritmo;
-- definição relacional clara antes do encerramento da temporada.
+- Corvin tentando chegar a Kori sem transformar a escolha dela em sequestro a ser desfeito;
+- resolução do arco de Tamaran como consequência dos temas íntimos da temporada.
 
-A formação familiar compartilhada está avançando em cena, mas a temporada ainda não foi encerrada: falta uma definição suficientemente clara do que os três são um para o outro e das escolhas de exposição que ainda importam.
+A formação familiar compartilhada avançou muito, mas a temporada ainda não terminou. Kori ainda precisa enfrentar o que significa voltar por escolha própria; Ravena e Kori ainda não tiveram a conversa que agora desejam ter frente a frente; e a tentativa de Corvin de alcançar Tamaran ainda não foi executada.
 
 ## Ponto atual
 
 A continuação exata está em `estado/atual.md`.
 
-O Capítulo 009 terminou no **fim da noite do Dia 5 da reforma do Refúgio**.
+O Capítulo 011 terminou no **fim do terceiro dia completo após a partida voluntária de Kori**.
 
-- Corvin, Ravena e Kori estão dormindo juntos no ninho depois de uma noite fora;
-- Corvin passou a expressar o Refúgio como lugar onde está fincando raízes, não apenas onde guarda suas coisas entre viagens;
-- a biblioteca avançou com escada curva funcional, parte do mezanino e primeiras estantes;
-- o solário ganhou mais estrutura e vidro, especialmente na parede oeste, e os três viram juntos o pôr do sol atravessando o espaço;
-- começou a preparação física das rotas para futura condução de luz natural da superfície/solário até a biblioteca, mas o sistema óptico ainda não está pronto;
-- a ampliação da piscina termal existente e a porta “anti-Mutano” para o ninho continuam apenas como projeto;
-- Caminhos continua incapaz de alcançar Tamaran, mas Corvin confirmou que associação pode ajudar a selecionar um ponto quando já existe familiaridade suficiente com o local ou contexto; isso não substitui familiaridade;
-- as memórias de Kori continuam construindo apenas uma familiaridade incipiente com Tamaran, sem rota, coordenada ou portal;
-- Ravena e Kori conduziram a noite do Dia 5, com jantar, caminhada, dança e beijos em ritmos próprios, sem paridade forçada entre os vínculos.
+- Kori embarcou voluntariamente num Núcleo de Guerra tamaraneano e o salto em direção a Tamaran começou; os dias seguintes de sua perspectiva ainda serão dramatizados separadamente;
+- a mensagem de Kori tornou explícita sua atração romântica por Ravena, além do amor familiar já existente;
+- Ravena respondeu depois, na presença de Corvin, que acha que gosta de Kori também e queria ter a oportunidade de descobrir isso olhando para ela;
+- Kori ainda não sabe que Ravena correspondeu;
+- Corvin entrou em foco técnico obsessivo e, com dados de Victor, a caixa solar, o anel que Kori carrega, as memórias de Tamaran e Caminhos, desenvolveu uma teoria de busca por reconhecimento em vez de rastreamento por coordenadas;
+- a máquina está fisicamente pronta, mas nunca foi ativada;
+- Corvin concluiu em privado que a ativação exigiria forçar duas mudanças de seu Ciclo da Vida e o deixaria profundamente esgotado; Ravena sabe que ele alimentará a máquina, mas não conhece a extensão total do custo;
+- Ravena continua com seu anel lunar; a caixa solar está no Refúgio integrada como referência da máquina;
+- Dick, Victor e Garfield sabem da situação; Victor forneceu telemetria e módulos, e Dick começou a pensar no problema diplomático de uma eventual chegada a Tamaran;
+- Ravena acabou de perguntar a Corvin, diante da máquina concluída: `[Ravena] — Pronta?`;
+- Corvin ainda não respondeu.
 
-A próxima continuação parte do fim dessa noite, sem decidir automaticamente qualquer nova ação voluntária de Corvin.
+A intenção futura declarada é preparar a utilização no dia seguinte e tentar a travessia perto da noite, mas isso ainda não aconteceu.
