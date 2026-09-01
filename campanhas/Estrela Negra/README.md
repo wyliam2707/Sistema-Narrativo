@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 Temporada ativa: 2
 Última temporada encerrada: 1
-Último capítulo fechado: `livro/temporada-2/005.md`
+Último capítulo fechado: `livro/temporada-2/006.md`
 Epílogo da Temporada 1: `livro/temporada-1/epilogo.md`
 Resumo da temporada anterior: `livro/temporada-1/resumo-da-temporada.md`
 Mapa de eventos da Temporada 1: `livro/temporada-1/mapa-de-eventos.md`
@@ -61,7 +61,8 @@ Capítulos fechados até agora:
 - `livro/temporada-2/002.md` — dois dias separados, criação dos anéis e estabelecimento das duas âncoras de retorno;
 - `livro/temporada-2/003.md` — primeira visita de Dick, Mutano e Ciborgue ao Refúgio e integração inicial entre as duas famílias;
 - `livro/temporada-2/004.md` — rotina doméstica, compras e início do planejamento para transformar o Refúgio numa casa pensada para os três;
-- `livro/temporada-2/005.md` — dois primeiros dias da reforma: biblioteca estruturalmente ampliada, projeto do solário iniciado, vidas da Torre funcionando em paralelo e aprofundamento individual dos vínculos de Corvin com Ravena e Kori.
+- `livro/temporada-2/005.md` — primeiro dia da reforma: ampliação inicial da biblioteca, avanço privado de Corvin e Ravena, escolha do local do solário e nascimento do projeto do “castelo” de Kori;
+- `livro/temporada-2/006.md` — segundo dia da reforma: estrutura da biblioteca concluída, vida dos Titãs funcionando em paralelo, Kori começando a ocupar o Refúgio e conversa central sobre escolha e identidade.
 
 O foco continua sendo:
 
@@ -79,7 +80,7 @@ A formação familiar compartilhada está avançando em cena, mas a temporada ai
 
 A continuação exata está em `estado/atual.md`.
 
-O Capítulo 005 terminou ao fim do **Dia 2 da reforma do Refúgio**.
+O Capítulo 006 terminou ao fim do **Dia 2 da reforma do Refúgio**.
 
 - Corvin está no Refúgio Ártico com Kori; os dois dormiram juntos no ninho.
 - Ravena escolheu permanecer na Torre depois de patrulhar com Dick e dormiu no próprio quarto.
