@@ -3,148 +3,227 @@
 STATUS: TEMPORADA 2 ATIVA
 TEMPORADA ATIVA: 2
 ROTEIRO: `mestre/roteiro.md`
-ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/009.md`
+ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/011.md`
 
-MOMENTO: **fim da noite do Dia 5 da reforma do Refúgio Ártico. Corvin, Ravena e Kori voltaram de uma noite de jantar, caminhada e dança no chão e no ar; os três adormeceram juntos no ninho. Nenhuma nova ação voluntária de Corvin foi declarada depois disso.**
+MOMENTO: **fim do terceiro dia completo após a partida voluntária de Kori para Tamaran. Corvin terminou fisicamente a máquina construída para tentar encontrar Tamaran por Caminhos, mas ainda não a ativou. Ravena acabou de caminhar ao redor da estrutura e perguntar `[Ravena] — Pronta?`. Corvin ainda não respondeu.**
 
 ## Localização atual das cadeiras
 
-- **Corvin Blackwood:** Refúgio Ártico, dormindo no ninho com Ravena e Kori.
-- **Estelar / Kori:** Refúgio Ártico, dormindo no ninho com Corvin e Ravena.
-- **Ravena / Elara Voss:** Refúgio Ártico, dormindo no ninho com Corvin e Kori.
-- **Dick Grayson, Mutano e Ciborgue:** Torre dos Titãs, seguindo suas próprias rotinas.
+- **Corvin Blackwood:** laboratório/oficina do Refúgio Ártico, diante da máquina recém-concluída.
+- **Ravena / Elara Voss:** laboratório/oficina do Refúgio Ártico, diante da máquina; acabou de perguntar se ela está pronta.
+- **Estelar / Kori:** fora da cena atual. Último fato diretamente estabelecido de sua perspectiva: embarcou voluntariamente num Núcleo de Guerra tamaraneano e a nave iniciou o salto em direção a Tamaran. Os dias transcorridos depois disso ainda não foram dramatizados e não devem ser presumidos.
+- **Dick Grayson, Mutano e Ciborgue:** Torre dos Titãs, cientes da partida de Kori e da tentativa de Corvin; Victor forneceu telemetria e módulos técnicos, e Dick começou a pensar em como uma eventual chegada a Tamaran não deve parecer uma invasão.
 
-## Relação e casas
+## Sequência desde o Capítulo 009
 
-Corvin mantém vínculos românticos distintos com Ravena e Estelar. Ravena e Estelar permanecem amigas/família profundamente íntimas, sem romance formal estabelecido entre elas.
+### Dia 6 da reforma — missão de Kori e partida
 
-Continua consolidado que:
+Corvin, Ravena e Kori continuaram a rotina de obras do Refúgio até Kori ser chamada pelos Titãs para ajudar numa missão espacial legítima: uma nave civil alienígena danificada perto da Terra precisava de suporte que envolvia operação no vácuo, força e voo.
 
-- os três se reconhecem como uma família em formação, ainda sem rótulo final para a estrutura compartilhada;
-- Torre e Refúgio coexistem como casas e não competem entre si;
-- momentos privados em pares são normais e não exigem paridade nem sincronização;
-- Kori fica genuinamente feliz com avanços próprios de Ravena e Corvin;
-- Corvin não trata intimidade de uma relação como obrigação de equivalência na outra;
-- o ninho continua sendo a área privada do Refúgio quando há visitas;
-- a piscina/câmara termal continua sendo uma área social.
+A expectativa inicial era de aproximadamente dois dias fora.
 
-No Dia 5, Corvin verbalizou com clareza uma mudança pessoal importante: antes o Refúgio era principalmente onde guardava suas coisas entre viagens; agora o percebe como o lugar onde está fincando raízes. Ele identificou o início dessa mudança quando começou a abrir espaço para uma biblioteca pensada com Ravena.
+Depois da saída de Kori, Corvin e Ravena continuaram juntos no Refúgio, trabalharam na biblioteca e passaram uma noite privada e sexualmente íntima no ninho. A cena consolidou que momentos em pares continuam naturais: Ravena gosta do vínculo Corvin–Elara por si mesmo e não interpreta uma noite privada como desejo de excluir Kori.
 
-## Refúgio — projetos em andamento
+Durante a missão, Kori foi localizada por um **Núcleo de Guerra tamaraneano**, comandado pelo **Comandante Va'kor**, do Décimo Segundo Núcleo Expedicionário da Guarda Real. A nave investigava a ativação de um antigo núcleo tamaraneano na região e reconheceu a assinatura biológica de Sangue Real de Kori.
 
-### Biblioteca
+Não houve combate nem captura.
 
-A estrutura principal já estava consolidada antes do Dia 5. Durante o quinto dia, Corvin e Ravena avançaram a montagem:
+Va'kor informou que:
 
-- a escada curva em torno do pilar ganhou forma funcional;
-- parte do mezanino deixou de ser apenas base e começou a se tornar espaço utilizável;
-- primeiras estantes de madeira escura foram instaladas;
-- áreas abertas e áreas destinadas a material protegido continuam separadas;
-- Ravena segue definindo circulação, posição de leitura e iluminação.
+- a localização de Kori na Terra agora poderia se tornar conhecida por outras forças tamaraneanas;
+- a situação poderia ser interpretada por terceiros como retenção/proteção de uma herdeira real e gerar conflito com a Terra;
+- ele pessoalmente não atacaria a Terra caso Kori recusasse ir, mas não podia garantir o comportamento de outras forças;
+- os pais de Kori continuam vivos e passaram anos procurando por ela, inclusive com a mãe revisando muitos relatórios falsos.
 
-A biblioteca está cada vez menos parecida com o arquivo antigo de Corvin apenas ampliado e mais com um espaço criado pelos dois.
+Kori decidiu retornar voluntariamente.
 
-### Luz natural e ventilação
+Fala consolidada:
 
-No Dia 5 começou a preparação física para a futura condução de luz natural:
+`[Estelar] — Eles não estão me levando. Eu estou indo.`
 
-- Corvin abriu/preparou rotas estreitas na rocha para futuros conduítes e guias de luz, sem criar um poço convencional;
-- Ravena definiu pontos principais onde quer receber luz;
-- Kori ajudou a escolher posições de captação no alto que não transformem o solário em instalação técnica.
+A motivação junta três identidades sem apagar nenhuma:
 
-O sistema óptico completo ainda **não foi instalado**. Ventilação independente, filtros e exaustão continuam em projeto.
+- **princesa:** não permitir que a Terra e os Titãs paguem pela liberdade que ela própria escolheu;
+- **filha:** reencontrar pais e família que nunca deixou de amar;
+- **Kori:** continuar sendo a pessoa que decide o próprio futuro.
 
-### Solário / castelo de Kori
+### Mensagem de Kori
 
-A fundação continua segura e a armação iniciada nos Dias 3 e 4 avançou no Dia 5.
+Antes de embarcar, Kori gravou uma mensagem para Ravena, Corvin e os Titãs.
 
-Estado atual:
+Elementos consolidados:
 
-- mais perfis metálicos foram instalados;
-- novos grandes painéis de vidro foram posicionados e fixados;
-- a parede oeste ganhou continuidade suficiente para definir fortemente o interior e receber o pôr do sol;
-- o primeiro efeito visual pleno do sol poente atravessando a parede oeste foi compartilhado pelos três.
+- explicou o risco político e que estava voltando por escolha própria;
+- disse que sente falta dos pais, família e Tamaran e que fugir do casamento imposto nunca significou deixar de amá-los;
+- não sabe se conseguirá voltar, quanto tempo ficará ou se poderá enviar outra mensagem;
+- reafirmou Dick, Victor e Garfield como família;
+- disse a Ravena que a ama e que **gosta dela não apenas como amiga**;
+- admitiu que talvez só tenha reconhecido a atração quando percebeu que podia perder a chance de descobrir o que existiria entre as duas;
+- disse a Corvin que o ama, que queria vê-lo, terminar o solário, reclamar do café preto e que **queria ter voltado para casa**;
+- percebeu ao dizer isso que também estava indo para casa e que talvez agora possua mais de uma;
+- encerrou dizendo que ama Ravena e Corvin e que, se existir alguma maneira, quer voltar para eles.
 
-Ainda faltam partes da cobertura e fechamento, controle térmico, água, plantas, plataforma de voo, torre, espelhos e acabamentos.
+Kori então embarcou voluntariamente e a nave iniciou o salto.
 
-## Câmara termal — projeto não executado
+## Ravena — mudança relacional com Kori
 
-A proposta do fim do Dia 4 continua apenas como projeto:
+Ravena recebeu a mensagem durante a madrugada enquanto Corvin dormia ao lado dela.
 
-- ampliar moderadamente **a piscina existente**;
-- aprofundar uma parte;
-- adaptar melhor o banheiro/câmara termal para família maior e visitas;
-- criar ligação direta entre banheiro e ninho;
-- essa ligação teria uma porta “anti-Mutano”, pois o ninho permanece privado.
+Ela acordou Corvin e explicou a partida antes de tocar a gravação completa para ele.
 
-Não existe segunda piscina privada. A obra ainda não começou.
+Depois que Corvin perguntou o que ela sentia, Ravena consolidou uma mudança importante:
 
-## Caminhos — familiaridade, associação e Tamaran
+- já amava Kori como família e uma das pessoas mais importantes da própria vida;
+- a confissão de Kori mudou a forma como precisa olhar para esse vínculo;
+- Ravena disse explicitamente: **`Eu acho que gosto dela também.`**
+- não sabe ainda exatamente que forma esse desejo teria nem até onde iria;
+- percebeu que queria ter a oportunidade de descobrir isso olhando para Kori frente a frente;
+- tem medo de que as duas tenham percebido tarde demais.
 
-O processo ligado a Tamaran continua lento e sem rota pronta.
+Não existe ainda relacionamento romântico formal Ravena–Kori.
 
-No fim do Dia 4, durante jantar e conversa posterior, Kori voltou a falar de memórias pessoais de Tamaran. Algumas referências — pedra quente, varanda alta, flores violetas, vento, luzes do céu, mercado e formações rochosas — voltaram a produzir uma resposta pequena e coerente em Caminhos.
+Existe **atração/interesse romântico explicitamente declarado pelos dois lados**, mas Kori ainda **não sabe** que Ravena respondeu reciprocamente depois que a mensagem chegou.
 
-Corvin percebeu que existe agora uma **familiaridade incipiente**: diferentes lembranças genuínas de Kori começam a parecer pertencer à mesma origem. Isso ainda **não é coordenada, rota, localização nem portal**.
+Corvin não tratou essa possibilidade como competição. Ele declarou que quer garantir que as duas tenham a chance de conversar olhando uma para a outra.
 
-Depois, Ravena descreveu um terraço específico pouco usado na Torre, importante para ela. Como Corvin já conhecia a Torre, ele testou se a associação de Elara com aquele ponto poderia ajudar Caminhos a selecionar uma parte específica dentro de um lugar já familiar.
+Durante os dias seguintes, Corvin e Ravena também conversaram com humor sobre a possibilidade de Ravena e Kori se beijarem no futuro. Ficou claro em cena que a estrutura já existente nunca funcionou como triângulo de ciúme: os três dividem cama, carinho e vida doméstica há muito tempo, e o elemento novo é apenas descobrir se o vínculo Ravena–Kori também se tornará romântico.
 
-O teste funcionou.
+## A tentativa de alcançar Tamaran
 
-Conclusão consolidada:
+Depois de ouvir a mensagem, Corvin entrou num estado de foco técnico quase obsessivo e começou a trabalhar para criar uma maneira de alcançar Kori.
 
-- **associação não substitui familiaridade**;
-- uma associação pode ajudar Caminhos a distinguir/encontrar um ponto quando já existe familiaridade suficiente com o lugar ou com o contexto ao redor;
-- no caso da Torre, Corvin já conhecia o local maior e a associação de Ravena refinou o destino;
-- no caso de Tamaran, a etapa ainda é construir familiaridade suficiente; as associações de Kori podem ajudar depois, mas não solucionam sozinhas o problema;
-- isso é uma ideia que se provou possível, não uma solução automática para alcançar Tamaran;
-- o processo continua dependente de tempo, experiências e referências reais, não de uma única rolagem.
+A intenção não é “resgatá-la da decisão dela”. Kori voltou por vontade própria.
 
-## Conversa pessoal do Dia 4
+A finalidade declarada por Corvin é **chegar até ela e garantir que exista uma chance real de escolha e de conversa frente a frente**, especialmente entre Kori e Ravena.
 
-Corvin, Kori e Elara transformaram a noite num momento de se conhecerem como pessoas, não apenas por títulos, poderes ou traumas.
+### Base conceitual
 
-Entre os fatos consolidados:
+A pesquisa parte das descobertas anteriores de Caminhos:
 
-- Corvin explicou que antes passava normalmente apenas um ou dois dias no Refúgio antes de viajar novamente;
-- agora associa o Refúgio a fincar raízes;
-- identificou a biblioteca de Ravena como o momento em que percebeu essa mudança;
-- comentou que nunca se casou, nunca construiu um solário, nunca construiu uma biblioteca de verdade e nunca tinha tomado banho nu com alguém presente antes delas;
-- reconheceu que teve muitas primeiras experiências desde que conheceu Ravena e Kori.
+- associação não substitui familiaridade;
+- associação pode refinar algo já suficientemente familiar;
+- memórias genuínas de Kori criaram familiaridade incipiente e coerente com Tamaran, mas não rota ou coordenada.
 
-Na manhã seguinte, uma brincadeira com café reforçou a conversa anterior sobre identidade de Kori: Corvin observou que café não precisa deixar de ser café para ser apreciado de formas diferentes — Kori podia gostar doce com chocolate, açúcar e creme, enquanto ele preferia puro. Kori reconheceu a comparação com ser simultaneamente princesa, tamaraneana, Titã, Estelar e Kori sem precisar apagar nenhuma dessas partes.
+A nova crise acrescentou referências concretas:
 
-## Noite do Dia 5
+- Kori carrega o **Anel Solar de Retorno**, criado e profundamente conhecido por Corvin;
+- a **caixa solar correspondente** permaneceu na Torre e Ravena a buscou;
+- Victor preservou a **telemetria da nave tamaraneana**, incluindo assinatura dos motores, distorção do salto e dados residuais do instante de desaparecimento;
+- Corvin possui associação pessoal intensa com Kori e memórias repetidas de Tamaran já reconhecidas por Caminhos.
 
-Depois do trabalho, Kori levou Corvin e Ravena ao solário para ver o pôr do sol atravessando a nova parede oeste.
+Conclusão teórica consolidada:
 
-Corvin perguntou a Ravena onde ela queria ir. Ravena escolheu uma noite simples fora da obra: comer, caminhar e voltar tarde.
+- a caixa solar **não é rastreador**;
+- o anel solar **não transmite uma coordenada interestelar conhecida**;
+- a telemetria **não é mapa para Tamaran**;
+- as memórias **não são localização suficiente**;
+- a máquina foi projetada para manter referências, associação, familiaridade e assinatura física estáveis enquanto **Corvin entra na própria busca de Caminhos**;
+- a função central da máquina é impedir que a busca se disperse entre possibilidades antes de encontrar um destino que Caminhos consiga reconhecer como coerente com todas as referências.
 
-Corvin propôs dançar e deixou que as duas conduzissem a noite.
+Formulação operacional da teoria:
 
-- Ravena escolheu o começo: jantar, caminhada e música;
-- Ravena chamou Corvin para dançar no chão e o beijou por iniciativa própria;
-- Kori depois dançou com Corvin e também o beijou;
-- Kori levou a dança para o ar;
-- Ravena aceitou dançar no ar novamente;
-- em determinado momento Kori tomou a mão de Ravena e os três dançaram juntos no ar;
-- a noite terminou com carinho e intimidade não gráfica no ninho, sem paridade forçada entre os vínculos;
-- os três adormeceram juntos.
+`A máquina não encontra Tamaran. Ela impede Caminhos de se perder enquanto Corvin procura.`
+
+## Máquina — estado físico
+
+Ao longo de três dias depois da partida de Kori:
+
+1. **primeiro dia:** Corvin reuniu telemetria, caixa solar, hipóteses, referências e falhas úteis;
+2. **segundo dia:** fechou a teoria completa;
+3. **terceiro dia:** construiu fisicamente a máquina.
+
+A máquina agora está **construída, mas nunca ativada**.
+
+Ela combina:
+
+- estrutura de metal/Forja Primordial;
+- pedra e cristais de sustentação;
+- círculos de contenção;
+- módulo de associação;
+- receptáculo da caixa solar, posicionado como referência e não como destino;
+- módulos técnicos derivados da telemetria de Victor;
+- proteções mágicas e contenção de busca;
+- posição central destinada a Corvin;
+- alimentação ligada ao próprio Ciclo da Vida de Corvin.
+
+Não existe ainda resultado de funcionamento.
+
+Nenhum portal foi aberto.
+
+Nenhuma passagem para Tamaran foi estabelecida.
+
+## Custo conhecido apenas por Corvin
+
+Durante o fechamento da teoria, Corvin concluiu que uma fonte externa não substitui a origem de Caminhos.
+
+Pela teoria, a ativação exigirá que ele alimente a máquina com o próprio Ciclo da Vida.
+
+Estimativa de Corvin:
+
+- a exigência equivale a **forçar duas mudanças de estação de uma só vez**;
+- o cabelo atualmente verde-claro chegaria ao **Inverno** se a ativação ocorrer como calculado;
+- a ligação com a natureza e os poderes permaneceriam, mas Corvin espera ficar profundamente esgotado e capaz de sustentar apenas uma fração de sua força normal por algum tempo.
+
+Corvin **não contou espontaneamente a Ravena a extensão total do custo**.
+
+Ravena sabe apenas que:
+
+- Corvin está dentro do circuito;
+- a fonte primária é o próprio ciclo natural dele;
+- a máquina depende diretamente de sua energia.
+
+Victor também percebeu que Corvin se colocou dentro do circuito, mas não conhece a conta completa estabelecida por Corvin.
+
+A Natureza Não Mente continua válida: Corvin não pode deliberadamente mentir se for questionado de forma direta sobre o custo.
 
 ## Anéis
 
-Ravena e Estelar continuam com seus anéis de retorno. Cada anel abre passagem física para exatamente duas âncoras:
+- **Ravena:** continua portando o Anel Lunar de Retorno e o usa normalmente para ir e voltar entre Refúgio e sua caixa na Torre.
+- **Kori:** levou consigo o Anel Solar de Retorno quando embarcou voluntariamente na nave tamaraneana.
+- **Caixa Lunar:** permanece no quarto de Ravena na Torre.
+- **Caixa Solar:** Ravena retirou do quarto de Kori e levou ao Refúgio; está incorporada como referência física da máquina, sem funcionar como rastreador.
 
-1. oficina de Corvin no Refúgio;
-2. caixa correspondente no quarto da usuária na Torre.
+Cada anel continua abrindo passagem apenas para suas duas âncoras previamente estabelecidas. Nada do que foi pesquisado altera automaticamente essa função.
 
-A abertura leva aproximadamente um minuto de concentração e outras pessoas podem atravessar enquanto a passagem estiver aberta.
+## Titãs
+
+Dick, Victor e Garfield conhecem:
+
+- a partida voluntária de Kori;
+- o risco político descrito na mensagem;
+- a possibilidade de ela não conseguir retornar;
+- a tentativa de Corvin de construir uma forma de chegar a Tamaran.
+
+Victor forneceu dados e módulos técnicos para a máquina.
+
+Dick começou a preparar o problema diplomático: se uma passagem realmente funcionar, aparecer sem convite em Tamaran pode ser interpretado como uma invasão; isso ainda não foi resolvido em cena.
+
+Garfield conversou com Ravena sobre a confissão de Kori e reconheceu que talvez não haja como definir o que existe entre as duas enquanto Kori não estiver presente.
+
+## Refúgio — projetos anteriores
+
+Biblioteca, solário, luz natural, ventilação e a possível reforma da câmara termal continuam como já estavam estabelecidos antes da crise.
+
+No Dia 6 houve continuidade geral das obras antes da missão de Kori, mas nenhum novo marco estrutural específico foi estabelecido em cena que substitua o estado detalhado do Capítulo 009.
+
+Desde a mensagem, o foco de Corvin mudou quase integralmente para a máquina.
 
 ## Continuidade imediata
 
-- último fato real: Corvin, Ravena e Kori adormeceram juntos no ninho ao fim do Dia 5;
-- nenhuma nova ação voluntária de Corvin foi declarada depois disso;
-- a próxima continuação pode abrir a partir desse ponto, sem presumir automaticamente uma decisão humana;
-- biblioteca e solário continuam em obra;
-- ampliação da piscina continua apenas planejada;
-- Tamaran permanece inalcançável por Caminhos, embora a familiaridade incipiente e a função das associações estejam mais bem compreendidas.
+Último fato real:
+
+- fim do terceiro dia completo após a partida de Kori;
+- máquina fisicamente concluída e ainda não ativada;
+- Ravena está no laboratório com Corvin;
+- ela acabou de perguntar: **`[Ravena] — Pronta?`**
+- Corvin ainda não respondeu.
+
+Intenção futura já declarada pelo Jogador Humano, mas **ainda não executada**:
+
+- no dia seguinte, Corvin pretende preparar a utilização da máquina;
+- a tentativa de travessia está planejada para perto da noite;
+- Ravena continua com autonomia sobre como usa o próprio tempo durante esse dia;
+- se a passagem for realmente aberta, o plano declarado é que Ravena e os Titãs atravessem antes e Corvin passe por último;
+- a consequência real da ativação ainda não aconteceu e deve ser narrada/julgada somente quando a máquina for usada.
+
+O período de Kori depois do salto ainda será dramatizado separadamente. Não preencher retroativamente esses dias antes de jogá-los.
