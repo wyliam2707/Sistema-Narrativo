@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 TEMPORADA ATIVA: 2
 ROTEIRO: `mestre/roteiro.md`
-ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/005.md`
+ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/006.md`
 
 MOMENTO: **fim da noite do Dia 2 da reforma do Refúgio Ártico; a próxima cena começa no Dia 3 antes de qualquer nova ação voluntária de Corvin**.
 
@@ -18,7 +18,7 @@ A separação espacial atual não representa afastamento relacional. A Torre con
 
 ## Situação geral
 
-A Temporada 2 está ativa e os capítulos `001.md` a `005.md` foram consolidados.
+A Temporada 2 está ativa e os capítulos `001.md` a `006.md` foram consolidados.
 
 Corvin, Ravena e Estelar estão livres de Black Harbor. Os Caminhos de Corvin alcançam destinos externos normalmente.
 
@@ -58,7 +58,7 @@ Mutano recebeu de Corvin, como interpretação pessoal e poética, o apelido `Av
 
 Ciborgue possui os projetos dos anéis/âncoras e continua estudando sua lógica. Ele compreende parte da engenharia, mas a reprodução integral ainda depende de substituir funções ligadas à Forja Primordial e à magia de Corvin.
 
-### Vida paralela confirmada no Capítulo 005
+### Vida paralela confirmada no Capítulo 006
 
 Ravena e Estelar voltaram à Torre durante o Dia 2 por motivos independentes.
 
@@ -206,7 +206,7 @@ Kori soube depois apenas o suficiente para entender que Ravena e Corvin tiveram 
 
 Ravena e Kori confirmaram entre si que momentos privados em pares são compatíveis com a estrutura compartilhada e que nem tudo precisa acontecer com os três presentes.
 
-## Avanço Corvin ↔ Estelar no Capítulo 005
+## Avanço Corvin ↔ Estelar no Capítulo 006
 
 Na noite do Dia 2, Corvin e Kori tiveram uma conversa privada sobre quem ela é fora de qualquer tentativa de reduzi-la a um único papel.
 
