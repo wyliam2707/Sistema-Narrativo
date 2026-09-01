@@ -3,229 +3,251 @@
 STATUS: TEMPORADA 2 ATIVA
 TEMPORADA ATIVA: 2
 ROTEIRO: `mestre/roteiro.md`
-ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/012.md`
+ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/013.md`
 
-MOMENTO OPERACIONAL: **a narrativa está em linhas paralelas deliberadamente dessincronizadas. O lado de Kori já foi dramatizado até o ponto de sincronização do quarto dia em Tamaran; o lado de Corvin e Ravena ainda deve viver o quarto dia no Refúgio antes de alcançar esse mesmo instante. Não avançar Kori além da praça até a ativação da máquina ser jogada do lado da Terra.**
+MOMENTO OPERACIONAL: **as linhas paralelas foram sincronizadas. Corvin ativou a máquina no Refúgio, abriu uma passagem até a praça de Tamaran onde Kori esperava, sustentou a travessia de Dick, Garfield, Victor e Ravena e cruzou por último. A passagem se fechou. Corvin chegou com os cabelos brancos após forçar duas estações do próprio Ciclo da Vida, disse `[Corvin] — Viu? Sabia que funcionaria.`, deu mais um passo e desmaiou. Kori o aparou antes que sua cabeça atingisse a pedra e agora o segura nos braços.**
 
-## Ponto de continuação recomendado
+## Ponto exato de continuação
 
-A continuação retorna ao **Refúgio Ártico, manhã do quarto dia após a partida de Kori**.
+Local: **praça principal de Tamaran**, próxima ao palácio e aos primeiros bairros da cidade.
 
-Na noite anterior:
+Presentes e perceptivelmente envolvidos:
 
-- Corvin confirmou a Ravena que a máquina está pronta;
-- declarou que a ativação fica para o dia seguinte;
-- disse que precisava de café, descanso e de Ravena naquela noite, sem especificar inicialmente de que modo;
-- Corvin e Ravena brincaram com uma metáfora diplomática sobre a “Embaixada da Montanha”, “Umbra” e “Tamaran”, tratando a integração dos três como algo que em grande parte já existe na prática e não exige fronteiras artificiais;
-- Corvin disse que as duas “rainhas” podem discutir entre si as questões delas e que ele prefere ficar segurando as ferramentas;
-- Corvin abraçou Ravena e foi dormir querendo apenas a presença dela, sem buscar sexo;
-- Ravena escolheu acompanhar essa necessidade de proximidade e descanso;
-- os dois dormiram juntos no ninho.
+- Corvin Blackwood, inconsciente nos braços de Kori;
+- Estelar / Kori;
+- Ravena / Elara;
+- Dick Grayson;
+- Ciborgue / Victor;
+- Mutano / Garfield;
+- Rei de Tamaran;
+- Rainha de Tamaran;
+- Guarda Real e civis nos arredores da praça.
 
-Nenhuma ativação aconteceu ainda do ponto de vista de Corvin.
+A passagem para o Refúgio **já se fechou**. Nenhum novo portal está aberto neste momento.
 
-## Linhas atuais das cadeiras
+Último quadro real:
 
-### Corvin Blackwood
+- Kori continua segurando Corvin e não o largou;
+- Ravena está ajoelhada junto deles;
+- Victor fez uma leitura superficial e estabeleceu que Corvin está vivo, estável e em exaustão energética extrema;
+- o Rei e a Rainha observam o grupo;
+- a Guarda Real mantém a praça sob controle sem ter iniciado ataque;
+- Dick percebeu que a parte simples da chegada terminou;
+- as duas casas de Kori estão fisicamente no mesmo lugar pela primeira vez.
 
-- Local: Refúgio Ártico.
-- Linha temporal ainda não dramatizada: início do quarto dia após a partida de Kori.
-- A máquina está fisicamente concluída e nunca foi ativada em sua linha narrativa.
-- Corvin pretende preparar a utilização durante o dia e tentar a travessia perto da noite.
-- O plano declarado, se a passagem abrir, é que Ravena e os Titãs atravessem primeiro e Corvin passe por último enquanto sustenta o sistema.
-- O custo completo da ativação continua conhecido apenas por Corvin.
+Nenhuma resposta formal do Rei, da Rainha ou da Guarda à presença do grupo foi ainda estabelecida além da contenção inicial da praça.
 
-### Ravena / Elara Voss
+Nenhuma conversa Ravena–Kori sobre a confissão romântica começou ainda.
 
-- Local: Refúgio Ártico com Corvin na abertura do próximo trecho.
-- Sabe que Corvin está dentro do circuito e que o próprio Ciclo da Vida é a fonte primária da máquina.
-- Não conhece a extensão completa do custo calculado por ele.
-- Continua com autonomia integral sobre o quarto dia: pode permanecer com Corvin, ir à Torre, conversar com os Titãs, preparar a travessia ou agir de outra forma coerente com sua ficha.
-- Continua desejando uma conversa frente a frente com Kori sobre a confissão romântica recebida.
+## Corvin Blackwood — condição atual
 
-### Estelar / Kori
+### Estado físico
 
-A linha de Kori foi dramatizada em `livro/temporada-2/012.md` até o ponto em que deve aguardar a linha da Terra.
+- inconsciente;
+- vivo;
+- estável segundo a leitura superficial de Victor;
+- exaustão energética extrema;
+- cabelos agora **brancos**, correspondendo ao Inverno forçado do Ciclo da Vida;
+- roupa de exploração, praticamente a mesma que usava na cidade onde conheceu Ravena e Kori.
 
-Ela está em **Tamaran, no centro de uma grande praça de pedra clara próxima ao palácio e aos primeiros bairros da cidade**.
+### Custo da máquina — agora ocorrido
 
-O Anel Solar começou a reagir de forma inédita e progressiva. Kori reconheceu na sensação a lógica de Caminhos e do vínculo dos anéis, não como se ela própria estivesse abrindo uma passagem, mas como se **Caminhos estivesse procurando por ela do outro lado**.
+A ativação consumiu energia equivalente a **duas mudanças de estação de uma só vez**.
 
-Ela correu e voou até a praça, que se tornou o ponto onde sente a aproximação com maior clareza.
+A mudança deixou de ser previsão e agora é fato.
 
-Fato final do Capítulo 012:
+Em termos mecânicos de mestre:
 
-`[Estelar] — Eu estou aqui.`
+- Corvin continua sendo naturalmente uma personagem de **Patamar 4**;
+- sua **capacidade disponível atual é Patamar 2** devido ao esgotamento provocado pela travessia;
+- essa redução é temporária e permanece até o encerramento da Temporada 2, salvo mudança posterior legitimamente estabelecida em jogo;
+- não restaurar silenciosamente a capacidade P4 em cenas futuras;
+- nenhum valor numérico específico de Mana foi estabelecido durante a ativação, portanto não inventar gasto retroativo.
 
-O ar à frente pareceu tremer muito levemente, mas **nenhum portal completo, travessia ou chegada de Corvin/Ravena/Titãs foi narrado ainda**.
+A Natureza Não Mente continua válida quando Corvin recuperar a consciência.
 
-A mãe de Kori e guardas estão convergindo para a praça. Pessoas começaram a se afastar e guardas passam a organizar a área sem compreender ainda o fenômeno.
+### Conhecimento dos outros sobre o custo
 
-Não avançar essa linha até o lado de Corvin alcançar a ativação.
+Ravena:
 
-## Quatro dias de Kori em Tamaran — fatos consolidados
+- viu o cabelo de Corvin mudar até o branco;
+- sentiu pela Empatia a queda brutal da presença sobrenatural dele enquanto a máquina drenava o Ciclo da Vida;
+- sabe agora que Corvin omitiu a extensão real do preço;
+- não recebeu ainda uma explicação técnica completa nem conhece o marcador mecânico P4 → P2.
 
-### Dia 1 — viagem e retorno
+Victor:
 
-- O Núcleo de Guerra de Va'kor levou Kori a Tamaran em menos de cinco horas terrestres.
-- A viagem confirmou que a busca da família nunca foi realmente abandonada; a rainha insistiu em continuar procurando e o rei autorizou os recursos necessários.
-- Va'kor deixou claro que a família sabe que Kori voltou por escolha própria e que não foi capturada pela Guarda Real.
-- Ele não pôde garantir que todas as casas, comandantes ou membros do Conselho interpretarão a Terra da mesma maneira.
-- O primeiro reencontro foi privado, sem multidão ou cerimônia pública.
-- A rainha correu para abraçar Kori; o rei também a recebeu como filha antes de agir como soberano.
-- O primeiro jantar foi preservado da política por decisão do rei.
-- Kori reconheceu corredores, quarto, varanda, comida e o calor de Tamaran como coisas genuinamente familiares.
-- Ao dormir no antigo quarto, percebeu com clareza que voltar para Tamaran não apagava a casa que construiu na Terra.
+- viu a máquina esgotar a parte externa da alimentação;
+- percebeu que Corvin tornou-se a fonte restante;
+- confirmou depois da chegada exaustão energética extrema, mas estabilidade;
+- não conhece o detalhe interno de duas estações/P4 → P2 como metainformação.
 
-### Dia 2 — família, povo e política inicial
+Kori:
 
-- Kori contou à mãe sobre os Titãs, o Refúgio, Ravena e Corvin.
-- A rainha percebeu que Kori é feliz na Terra e considerou importante que ela ainda assim tenha escolhido voltar.
-- Kori saiu livremente do palácio e circulou pela cidade; guardas a acompanharam por protocolo de princesa, não como carcereiros.
-- O povo a reconheceu com afeto. Uma cidadã idosa chorou ao vê-la e crianças se aproximaram.
-- Kori passou pela praça principal e demonstrou familiaridade profunda com suas saídas, escadarias, arcadas e plataforma cerimonial.
-- Na primeira reunião política, declarou que a Terra nunca a manteve prisioneira, que vive lá voluntariamente e que os Titãs são sua família assim como sua família tamaraneana.
-- O rei disse como pai que quer que ela fique; como rei, reconheceu que a resposta é mais complicada.
-- À noite, Kori contou à mãe que ama Corvin e explicou que percebeu uma dimensão diferente no amor que sente por Ravena. A mãe sabe que Kori confessou isso e partiu antes de receber resposta.
+- viu Corvin atravessar por último com os cabelos brancos;
+- viu-o desmaiar imediatamente depois da frase confiante;
+- sabe apenas pelo que presenciou e pelas falas de Ravena/Victor que ele pagou um custo grande e está extremamente exausto;
+- ainda não conhece a conta completa.
 
-### Dia 3 — a realidade de ser princesa
+## Máquina e Caminhos — resultado consolidado
 
-- Kori enfrentou documentos e reuniões sobre sucessão, casas nobres, tratados, facções, segurança, a Terra e a posição da herdeira.
-- Quando perguntada se pretende permanecer em Tamaran, respondeu honestamente que não sabe.
-- Saiu de uma reunião para pensar e voou livremente para fora da cidade.
-- Percebeu que sua dificuldade não é uma cela: ela pode andar, voar e sair de salas. O problema é que voltar à Terra exige nave, rota e infraestrutura tamaraneana, todas carregadas de consequência política.
-- Pensou pela primeira vez com força que talvez não volte, e imediatamente reafirmou que deseja voltar.
-- A rainha contou que, durante os anos de desaparecimento, sentiu raiva de todos porque a própria casa havia feito a filha acreditar que fugir era a única forma de escolher a própria vida.
-- A rainha afirmou que procurou sua filha, não uma peça sucessória, mas lembrou que Kori também é princesa e que essa dimensão não desaparece porque a ama.
-- O rei confirmou que Kori deseja retornar a Corvin. Kori respondeu que sim, mas também admitiu que quer ficar em Tamaran. Ele reconheceu que esse é o problema real.
-- À noite, Kori ouviu novamente a própria mensagem e entendeu que “quero voltar para vocês” agora coexistia com a vontade genuína de continuar pertencendo a Tamaran.
+A teoria funcionou como projetada.
 
-### Dia 4 — duas casas e o primeiro contato
+A máquina não rastreou uma coordenada secreta. Ela manteve juntas as referências enquanto Corvin procurava por Caminhos:
 
-- Kori discutiu com o pai porque ele não proibiu seu retorno, mas informou que nenhuma nave real partiria para a Terra antes de existir uma política de contato definida pelo Conselho.
-- O rei explicou que não enviará uma nave de guerra através de sistemas estrangeiros sem saber como será recebida.
-- Kori chamou a Terra de sua casa; quando o pai perguntou o que Tamaran é, respondeu: `Também.`
-- A rainha afirmou que não permitirá que repitam a situação em que Kori acreditava precisar escolher entre pertencer a Tamaran e ser livre.
-- O rei reconheceu explicitamente que Kori é livre para escolher a própria vida, mas lembrou que algumas escolhas continuam produzindo consequências depois de feitas.
-- Kori decidiu acompanhar a mãe a uma audiência porque reconheceu que, se Tamaran continua sendo casa, ela também precisa encarar as responsabilidades dessa casa.
-- No caminho, o Anel Solar começou a aquecer e pulsar com uma reação que não vinha da energia solar de Kori.
-- Kori associou a sensação a espaço sendo tocado e à lógica de Caminhos.
-- A reação indicou para ela não uma coordenada abstrata, mas um lugar familiar: a praça principal.
-- Kori correu e voou para a praça.
-- Ela entende a sensação como estar do outro lado enquanto Caminhos procura por ela.
-- O fenômeno ainda não foi resolvido.
+- familiaridade incipiente com Tamaran construída pelas memórias de Kori;
+- associação pessoal Corvin–Kori;
+- Anel Solar com Kori;
+- caixa solar incorporada à máquina no Refúgio;
+- assinatura e distorção do salto preservadas por Victor;
+- contenção física, mágica e técnica da busca.
 
-## Família real — estado consolidado
-
-Os pais de Kori a amam sinceramente.
-
-Nenhum deles a tratou como prisioneira nos quatro dias dramatizados.
-
-### Rainha
-
-- correu para reencontrar a filha;
-- procurou Kori durante anos e se culpa por a antiga estrutura da casa ter contribuído para sua fuga;
-- sabe que Kori ama Corvin;
-- sabe que Kori percebeu atração romântica por Ravena e confessou isso antes de partir;
-- reconhece a Terra como parte real da vida da filha;
-- afirmou que não pretende repetir a lógica de obrigar Kori a escolher entre pertencer e ser livre.
-
-### Rei
-
-- recebeu Kori como pai antes de agir como soberano;
-- quer que ela fique em Tamaran, mas não declarou que ela está proibida de partir;
-- reconhece que Kori é livre para escolher sua vida;
-- considera que sua condição de princesa, a segurança planetária e a relação com a Terra produzem consequências que não podem ser ignoradas;
-- sabe que Corvin é o companheiro terrestre de Kori e que ela pretende voltar para ele;
-- ainda não teve contato direto com Corvin.
-
-## O que prende Kori
-
-A tensão de Kori em Tamaran **não é prisão física**.
-
-Ela permanece capaz de:
-
-- sair de reuniões;
-- caminhar pela cidade;
-- voar para fora do palácio;
-- discordar do rei;
-- circular sem autorização prévia.
-
-O que a prende emocional e politicamente é:
-
-- mãe e pai que ama e que passaram anos procurando por ela;
-- o povo que ainda a reconhece como princesa;
-- sua identidade de Sangue Real;
-- consequências reais de sua ausência e de uma nova partida;
-- o fato de Tamaran continuar sendo casa;
-- a necessidade de uma nave/rota interestelar para retornar à Terra;
-- o desejo simultâneo de voltar para Corvin, Ravena e os Titãs sem simplesmente abandonar novamente tudo que ama em Tamaran.
-
-A pergunta central deixou de ser “eles vão deixá-la sair?” e passou a ser **“como Kori pode pertencer às duas casas sem destruir uma para preservar a outra?”**
-
-## Máquina — estado na linha de Corvin
-
-A máquina permanece fisicamente pronta e ainda não ativada no ponto de vista que será jogado a seguir.
-
-Ela combina:
-
-- estrutura de metal e Forja Primordial;
-- pedra e cristais de sustentação;
-- círculos de contenção;
-- módulo de associação;
-- caixa solar incorporada como referência, não rastreador;
-- módulos técnicos derivados da telemetria de Victor;
-- proteções mágicas e contenção de busca;
-- posição central destinada a Corvin;
-- alimentação ligada ao próprio Ciclo da Vida de Corvin.
-
-Formulação operacional preservada:
+Formulação confirmada pelo acontecimento:
 
 `A máquina não encontra Tamaran. Ela impede Caminhos de se perder enquanto Corvin procura.`
 
-A reação do anel de Kori no Capítulo 012 confirma apenas que, no ponto de sincronização do quarto dia, **a busca alcança uma referência reconhecível em Tamaran**. A ativação e seu custo ainda precisam ser narrados do lado de Corvin antes que qualquer travessia seja consolidada.
+Durante a ativação:
 
-## Custo conhecido apenas por Corvin
+- Caminhos mostrou possibilidades instáveis antes de reconhecer Tamaran;
+- a caixa solar respondeu à correspondência com o anel de Kori;
+- uma fissura surgiu entre Refúgio e praça de Tamaran;
+- o portal abriu e estabilizou apenas depois que Corvin alimentou a máquina com duas mudanças de estação;
+- Dick, Garfield, Victor e Ravena atravessaram primeiro;
+- Corvin atravessou por último;
+- a passagem se fechou atrás dele.
 
-Se a ativação ocorrer conforme calculado:
+No Refúgio ficaram a estrutura da máquina e seus componentes. Durante a ativação, módulos se apagaram, cristais saturaram e pelo menos um cristal trincou. O estado técnico completo do equipamento depois do uso ainda não foi inspecionado em cena.
 
-- exigirá energia equivalente a duas mudanças de estação de uma só vez;
-- o cabelo verde-claro deve chegar ao branco do Inverno;
-- Corvin espera ficar profundamente esgotado e capaz de sustentar apenas uma fração de sua força normal por algum tempo.
+## Estelar / Kori — estado atual
 
-Ravena não conhece a conta completa.
+Kori está na praça de Tamaran segurando Corvin inconsciente.
 
-Victor sabe que Corvin está dentro do circuito, mas também não conhece a extensão total calculada.
+Ela:
 
-A Natureza Não Mente continua válida.
+- correu até ele quando percebeu que cairia;
+- o aparou antes do impacto da cabeça;
+- chamou por ele e tocou seu rosto;
+- ouviu Ravena confirmar que está vivo;
+- ouviu Victor confirmar exaustão extrema, mas estabilidade;
+- abraçou Corvin e disse em voz baixa: `[Estelar] — Você veio.` e `[Estelar] — Você realmente veio.`
+
+O reencontro não apagou Tamaran.
+
+Ao erguer os olhos, Kori viu simultaneamente:
+
+- Ravena;
+- Dick, Victor e Garfield;
+- pai e mãe;
+- Guarda Real;
+- povo e praça;
+- Corvin em seus braços.
+
+O conflito central permanece: **as duas casas existem ao mesmo tempo**.
+
+Kori continua sem saber que Ravena, depois de ouvir sua mensagem, admitiu a Corvin que também acha que gosta dela romanticamente.
+
+## Ravena / Elara — estado atual
+
+Ravena atravessou antes de Corvin conforme a ordem dele.
+
+Antes de cruzar, ao perceber o preço aumentando, disse:
+
+`[Ravena] — Você e eu vamos ter uma conversa sobre isso.`
+
+Ela está agora ajoelhada junto de Kori e Corvin.
+
+Ravena:
+
+- viu Kori novamente pela primeira vez desde a mensagem;
+- ouviu Kori dizer seu nome através do portal;
+- ainda não iniciou a conversa sobre a reciprocidade romântica;
+- sabe que Corvin escondeu uma parte importante do custo da máquina;
+- não sabe ainda a explicação completa;
+- pela Empatia, percebeu que a natureza de Corvin permanece presente, mas drasticamente drenada.
+
+Nenhum beijo ou relacionamento romântico Ravena–Kori foi estabelecido.
+
+## Titãs — estado atual em Tamaran
+
+### Dick Grayson
+
+- atravessou primeiro;
+- deliberadamente não adotou postura ofensiva;
+- sabe que entrou num planeta soberano e que o objetivo é contato e apoio a Kori, não resgate forçado;
+- percebeu imediatamente que, com o portal fechado, a situação agora exige diplomacia real.
+
+### Garfield / Mutano
+
+- atravessou logo depois de Dick;
+- está na praça;
+- depois do colapso de Corvin comentou que atravessar estrelas, fazer uma piada e desmaiar era muito a cara dele.
+
+### Victor / Ciborgue
+
+- acompanhou as leituras da máquina até o limite antes de atravessar;
+- verificou Corvin superficialmente após a queda;
+- estabeleceu: **exaustão energética extrema, mas estável**.
+
+## Família Real e Guarda — estado atual
+
+### Rainha
+
+- chegou à praça enquanto o fenômeno ainda se formava;
+- viu o Anel Solar de Kori reagir;
+- ouviu Kori identificar o fenômeno como vindo de Corvin;
+- ordenou que os guardas esperassem quando a passagem começou a abrir;
+- viu Ravena, Dick, Garfield, Victor e Corvin atravessarem;
+- viu Kori correr para aparar e abraçar Corvin;
+- ainda não iniciou uma conversa formal com o grupo depois do fechamento do portal.
+
+### Rei
+
+- chegou enquanto a passagem ainda estava abrindo;
+- viu uma janela real para o Refúgio em outro mundo;
+- ouviu Kori dizer `[Estelar] — Eles vieram.`;
+- viu o grupo atravessar;
+- sua primeira impressão direta de Corvin é a de um terrestre aparentemente comum, vestido para exploração, que sustentou uma passagem impossível, chegou com cabelos brancos, fez uma piada e desmaiou;
+- ainda não conhece a natureza de semideus de Corvin nem possui razão estabelecida para acreditar nisso;
+- nenhuma decisão formal dele sobre Corvin, os Titãs ou a relação de Kori foi tomada em cena.
+
+### Guarda Real
+
+- isolou o centro da praça e afastou civis;
+- ergueu armas quando a fissura desconhecida começou a abrir;
+- não disparou após ordem da Rainha;
+- acompanhou a travessia do grupo;
+- permanece como força de segurança de Tamaran, não automaticamente aliada nem inimiga.
 
 ## Anéis
 
 - Ravena continua com o Anel Lunar de Retorno.
-- Kori continua com o Anel Solar de Retorno em Tamaran.
+- Kori continua com o Anel Solar de Retorno.
 - A caixa lunar permanece na Torre.
-- A caixa solar permanece incorporada à máquina no Refúgio.
-- A reação nova do Anel Solar no quarto dia está ligada à tentativa de busca por Caminhos; ela **não substitui nem redefine automaticamente sua função normal de duas âncoras**.
+- A caixa solar permanece incorporada à máquina no Refúgio, salvo dano não estabelecido; nenhum dano específico à caixa foi narrado.
+- A reação extraordinária do Anel Solar durante a busca foi consequência da máquina/Caminhos e **não redefiniu automaticamente a função normal do anel**.
 
-## Titãs
+## Continuidade temática em Tamaran
 
-Dick, Victor e Garfield continuam na Terra e conhecem:
+Preservar:
 
-- a partida voluntária de Kori;
-- o risco político;
-- a tentativa de Corvin de alcançar Tamaran;
-- a necessidade de tratar eventual chegada como contato com um planeta soberano, não como invasão.
-
-Victor forneceu telemetria e módulos à máquina.
-
-Dick já começou a pensar no problema diplomático de uma travessia para Tamaran.
+- Kori não foi resgatada de uma prisão; ela voltou voluntariamente a Tamaran e continua amando família, povo e planeta;
+- Corvin e os Titãs chegaram para alcançá-la e estar ao lado dela, não para anular sua escolha;
+- a presença de Rei, Rainha e Guarda deve ser tratada como soberania, família e responsabilidade, não como dungeon hostil;
+- o abraço de Kori em Corvin já aconteceu, mas não resolveu o conflito;
+- Ravena e Kori agora estão frente a frente pela primeira vez depois da confissão, mas a conversa ainda está aberta;
+- a família real ainda lê Corvin inicialmente através de sua Aparência Inofensiva; nenhuma revelação de sua natureza real ocorreu;
+- qualquer conflito dinástico, lei antiga, desafio, reconhecimento, casamento ou desenvolvimento íntimo posterior continua FUTURO e deve acontecer ao vivo.
 
 ## Próxima abertura
 
-Abrir no **quarto dia do lado de Corvin e Ravena**, no Refúgio.
+Continuar **exatamente na praça**, sem salto de tempo.
 
-Não repetir os quatro dias de Kori.
+Corvin está inconsciente e não possui nova decisão voluntária disponível até recuperar a consciência.
 
-Não narrar Kori além de `[Estelar] — Eu estou aqui.` até a linha da Terra alcançar o mesmo instante.
+Kori o segura.
 
-Quando a máquina for ativada legitimamente, sincronizar as duas linhas na praça já estabelecida como ponto de chegada e então continuar ao vivo.
+Ravena está junto dos dois.
+
+Rei, Rainha, Guarda e Titãs estão presentes.
+
+A próxima iniciativa pode nascer das cadeiras IA/Eventuais e do estado imediato da praça; não inventar fala ou decisão de Corvin enquanto ele estiver inconsciente.
