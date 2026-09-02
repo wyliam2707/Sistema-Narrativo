@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 Temporada ativa: 2
 Última temporada encerrada: 1
-Último capítulo fechado: `livro/temporada-2/013.md`
+Último capítulo fechado: `livro/temporada-2/014.md`
 Epílogo da Temporada 1: `livro/temporada-1/epilogo.md`
 Resumo da temporada anterior: `livro/temporada-1/resumo-da-temporada.md`
 Mapa de eventos da Temporada 1: `livro/temporada-1/mapa-de-eventos.md`
@@ -24,7 +24,7 @@ O ponto operacional mais recente está em `estado/atual.md`.
 
 ## Elenco protagonista
 
-- `personagens/Corvin Blackwood.md` — protagonista / Jogador Humano / Patamar 4 natural; condição temporária atual detalhada em `estado/atual.md`.
+- `personagens/Corvin Blackwood.md` — protagonista / Jogador Humano / Patamar 4 natural; condição atual detalhada em `estado/atual.md`.
 - `personagens/Ravena.md` — protagonista / Jogador IA / Patamar 3.
 - `personagens/Estelar.md` — protagonista / Jogador IA / Patamar 3.
 
@@ -34,7 +34,7 @@ O ponto operacional mais recente está em `estado/atual.md`.
 - `personagens/Mutano.md` — coadjuvante / Jogador IA Eventual / Patamar 2.
 - `personagens/Ciborgue.md` — coadjuvante / Jogador IA Eventual / Patamar 2.
 
-As seis fichas são fontes operacionais aprovadas. Mudanças permanentes futuras continuam sujeitas às regras de canonização e salvamento.
+As seis fichas são fontes operacionais aprovadas. Mudanças permanentes posteriores aos textos de ficha que ainda não tenham sido consolidadas nelas devem ser lidas a partir de `estado/atual.md` e dos capítulos fechados.
 
 ## Arquivo da Temporada 1
 
@@ -53,7 +53,7 @@ Capítulos e epílogo preservam o cânone detalhado. Resumo e mapa são derivado
 
 ## Temporada 2 — ativa
 
-A Temporada 2 começou exatamente após o final da Temporada 1 e permanece focada em liberdade, escolha, definição relacional e integração de vidas. O arco íntimo convergiu para Tamaran sem abandonar esses temas: a crise nasceu justamente da liberdade de Kori, das casas que ela escolheu e dos vínculos que construiu.
+A Temporada 2 começou exatamente após o final da Temporada 1 e permanece focada em liberdade, escolha, definição relacional e integração de vidas. O arco de Tamaran avançou de uma crise de distância e pertencimento para a construção concreta de duas casas conectadas, sem encerrar ainda as consequências políticas e familiares.
 
 Capítulos fechados até agora:
 
@@ -69,39 +69,41 @@ Capítulos fechados até agora:
 - `livro/temporada-2/010.md` — Kori parte para uma missão espacial, é localizada por um Núcleo de Guerra tamaraneano e escolhe voltar para Tamaran; sua mensagem revela que quer voltar para Corvin e Ravena e admite atração romântica por Ravena, que depois reconhece reciprocidade; Corvin inicia a tentativa obsessiva de encontrar um caminho;
 - `livro/temporada-2/011.md` — três dias de pesquisa, autonomia de Ravena, apoio dos Titãs, fechamento da teoria, descoberta do custo ligado ao Ciclo da Vida e construção física da máquina destinada a sustentar Corvin dentro da busca de Caminhos por Tamaran;
 - `livro/temporada-2/012.md` — quatro dias de Kori em Tamaran: viagem e reencontro familiar, retorno ao povo e à condição de princesa, surgimento do conflito entre suas duas casas e, no quarto dia, reação inédita do Anel Solar que a leva à praça onde Caminhos parece procurá-la do outro lado;
-- `livro/temporada-2/013.md` — o quarto dia do lado da Terra alcança o mesmo instante: Corvin ativa a máquina, Caminhos reconhece a praça de Tamaran, Dick, Garfield, Victor e Ravena atravessam primeiro, Corvin paga duas estações do próprio Ciclo da Vida e cruza por último; chega de cabelos brancos, faz uma piada, desmaia e é aparado e abraçado por Kori diante da família real e da Guarda.
+- `livro/temporada-2/013.md` — o quarto dia do lado da Terra alcança o mesmo instante: Corvin ativa a máquina, Caminhos reconhece a praça de Tamaran, Dick, Garfield, Victor e Ravena atravessam primeiro, Corvin paga duas estações do próprio Ciclo da Vida e cruza por último; chega de cabelos brancos, faz uma piada, desmaia e é aparado e abraçado por Kori diante da família real e da Guarda;
+- `livro/temporada-2/014.md` — Ravena e Kori finalmente conversam frente a frente e reconhecem reciprocidade romântica sem apressar rótulos; o Conselho questiona a dignidade de Corvin como possível consorte, levando ao Desafio da Coroa Ardente; Corvin desfaz o próprio corpo e manifesta sua natureza através de Tamaran, Kori e Ravena o trazem de volta, o Rei reconhece que ele passou e retira a objeção de indignidade; Kori prova que consegue abrir sozinha a rota Tamaran–Refúgio com seu Anel Solar e a caixa solar em Tamaran; Corvin pede Kori e Ravena em casamento, Kori aceita e Ravena responde “ainda não”; Luand'r conhece o noivado, conversa com Corvin como mãe, vê a vida terrestre da filha e entende que Kori agora pode pertencer às duas casas; o capítulo termina depois de um dia com os Titãs em Tamaran, com Corvin, Kori e Ravena juntos no palácio.
 
 O foco continua sendo:
 
-- liberdade e escolha de Kori depois de retornar voluntariamente a Tamaran;
-- amor real de Kori por seus pais, seu povo e Tamaran, sem apagar a Terra como casa;
-- continuidade consciente dos vínculos fora de Black Harbor;
-- definição da forma compartilhada da relação sem exigir que todos os vínculos sejam idênticos;
-- novo interesse romântico recíproco Ravena–Kori ainda não explorado frente a frente;
+- liberdade real de Kori para escolher quando estar em Tamaran, no Refúgio e com os Titãs;
+- consequências políticas de uma princesa noiva de Corvin sem transformar a Coroa em proprietária da decisão;
+- noivado Corvin–Kori e construção futura de uma família interplanetária;
+- resposta aberta de Ravena ao casamento, sem prazo e sem promessa automática de “sim”;
+- descoberta gradual do vínculo romântico Ravena–Kori, agora reciprocamente reconhecido, ainda sem beijo ou rótulo formal;
+- segurança e localização permanente da caixa solar em Tamaran;
+- eventual criação de novas âncoras/anéis para a Torre e para Luand'r, ainda apenas projetos;
 - integração entre Refúgio, Torre, Titãs e Tamaran sem substituir uma casa pela outra;
-- a presença de Corvin e dos Titãs em Tamaran como contato com um planeta soberano, não invasão ou resgate de uma prisão;
-- resolução do arco de Tamaran como consequência dos temas íntimos da temporada.
+- consequências do corpo reconstruído de Corvin, cabelos cinza e risco de morte definitiva antes do próximo reinício do Ciclo da Vida;
+- continuidade do Conselho, sucessão, títulos e demais efeitos institucionais que o Desafio da Coroa não resolveu.
 
-A formação familiar compartilhada avançou muito, mas a temporada ainda não terminou. Kori reencontrou a família e descobriu que o que a prende em Tamaran não é uma cela, mas vínculos, povo, responsabilidade e amor. Agora as duas casas estão literalmente no mesmo lugar: Corvin, Ravena e os Titãs chegaram à praça de Tamaran, enquanto Rei, Rainha e Guarda estão diante deles. Ravena e Kori ainda não tiveram a conversa que desejam ter frente a frente, e o conflito dinástico/familiar ainda não foi resolvido.
+A formação familiar compartilhada avançou muito, mas a temporada ainda não terminou. Kori não precisa mais escolher entre Tamaran e a Terra como se uma casa exigisse a perda da outra. A distância deixou de ser uma prisão prática para ela, mas ainda existem decisões sobre segurança, política, rotina, casamento e futuro.
 
 ## Ponto atual
 
 A continuação exata está em `estado/atual.md`.
 
-O Capítulo 013 encerrou a dessincronização entre as duas linhas:
+O Capítulo 014 terminou com:
 
-- Corvin preparou a tentativa e instruiu o grupo a atravessar quando avisasse, deixando a si mesmo por último;
-- a máquina confirmou a teoria de busca por reconhecimento: não encontrou uma coordenada secreta, mas impediu Caminhos de se perder enquanto Corvin procurava;
-- o Anel Solar e a caixa correspondente reagiram como duas partes da mesma referência;
-- a passagem abriu na praça onde Kori já esperava;
-- Dick, Garfield, Victor e Ravena atravessaram primeiro;
-- Corvin forçou duas mudanças do Ciclo da Vida para sustentar a abertura;
-- seus cabelos ficaram brancos e sua capacidade sobrenatural disponível caiu drasticamente;
-- Corvin atravessou por último, disse `[Corvin] — Viu? Sabia que funcionaria.`, deu um passo e desmaiou;
-- Kori o aparou antes do impacto, confirmou com Ravena e Victor que ele está vivo e estável e o abraçou dizendo que ele realmente veio;
-- a passagem se fechou;
-- Rei, Rainha, Guarda Real, Kori, Ravena, Dick, Victor, Garfield e Corvin estão agora na mesma praça;
-- nenhuma resposta formal da Coroa à chegada foi ainda estabelecida;
-- Corvin permanece inconsciente nos braços de Kori.
+- Corvin vivo e reconstruído após ter encerrado o corpo humano durante o Desafio;
+- cabelos de Corvin agora cinza; segundo sua própria explicação, uma nova morte antes do reinício do ciclo seria definitiva;
+- Coroa reconhecendo que Corvin passou no Desafio e retirando a objeção de indignidade baseada em nascimento/condição/presumida inferioridade;
+- Kori noiva de Corvin;
+- Ravena permanecendo namorada de Corvin e parte da família, mas ainda não pronta para casamento;
+- Ravena e Kori reconhecendo interesse/afeto romântico mútuo, sem beijo e sem rótulo formal entre elas;
+- caixa solar levada para Tamaran e teste bem-sucedido de Kori abrindo sozinha uma passagem para o Refúgio;
+- localização permanente/segurança da caixa ainda não decidida;
+- Luand'r sabendo do noivado e da nova rota, com um futuro anel pessoal prometido por Corvin, ainda não fabricado;
+- Rei sabendo que Kori pode ir e voltar por escolha própria;
+- Dick, Victor e Garfield ainda hospedados em Tamaran;
+- Corvin, Kori e Ravena passando a noite juntos em um quarto do palácio.
 
-A próxima cena começa exatamente desse ponto, sem salto de tempo.
+A próxima cena começa a partir da manhã seguinte ou do próximo evento significativo, preservando a agência de Corvin e sem encerrar automaticamente a Temporada 2.
