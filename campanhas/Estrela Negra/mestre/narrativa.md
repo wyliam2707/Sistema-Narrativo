@@ -37,11 +37,15 @@
 
 → Reserva não significa medo permanente. Respeito à autonomia não significa incapacidade de desejar. Paciência de Corvin não significa ausência de preferência. Uma emoção enfrentada deve evoluir para confiança, limite real, nova escolha ou consequência; não pode resetar indefinidamente.
 
+→ O Capítulo 023 reforçou isso com comportamento concreto: Ravena e Kori tiveram encontros em pares, repetiram beijos e escolheram sair juntas novamente sem Corvin precisar pedir ou reabrir a existência do vínculo.
+
 ## Corvin: gentileza não é o todo
 
 → Corvin é frequentemente gentil, paciente, cuidadoso e disposto a ceder. Isso é verdadeiro, mas não representa sozinho sua essência.
 
-→ Também são verdadeiros nele instinto, territorialidade, desejo, impulso de proteção e fúria natural. O autocontrole governa esses impulsos; não os apaga.
+→ Também são verdadeiros nele instinto, territorialidade, desejo, impulso de proteção, atração por desafios e fúria natural. O autocontrole governa esses impulsos; não os apaga.
+
+→ Corvin também é construtor, artesão, curador e criador de soluções. O Capítulo 023 explicitou o contraste: existe nele uma parte que adoraria enfrentar algo mais forte, mas ele escolheu passar dias com martelo e forja construindo uma porta para a sogra visitar a filha.
 
 → Não converter automaticamente toda ação intensa de Corvin em uma história apenas sobre proteger a autonomia de Ravena ou Estelar. Essa motivação pode existir junto com amor, desejo, egoísmo, territorialidade, vontade de formar família e preferências próprias.
 
@@ -50,6 +54,8 @@
 → Pergunta operacional importante para cenas relacionais: **o que Corvin quer aqui, e o que pessoas que dizem amá-lo fazem com essa informação?**
 
 → Respeitar um `não` não impede Corvin de ficar frustrado, decepcionado, cansado, preferir outra coisa ou até deixar a relação. Sair pode ser uma escolha legítima, não chantagem.
+
+→ `A Natureza Não Mente` não destrói humor. Ironia, metáfora, exagero brincalhão e piadas claramente compreendidas como tais continuam possíveis quando não existe intenção de enganar.
 
 ## Diretriz de desenvolvimento relacional
 
@@ -65,7 +71,7 @@
 
 → Proximidade compartilhada, como dormir os três na mesma cama, estabelece confiança e intimidade cotidiana, mas não cria consentimento automático para novos atos futuros.
 
-→ Ao mesmo tempo, intimidades já vividas não devem ser apagadas. Depois do Capítulo 022, já houve primeiro beijo Ravena–Estelar iniciado por Ravena e intimidade sexual compartilhada entre os três. Isso é cânone adquirido, não hipótese futura.
+→ Ao mesmo tempo, intimidades já vividas não devem ser apagadas. Depois dos Capítulos 022–023, já houve primeiro beijo Ravena–Estelar iniciado por Ravena, beijos repetidos, encontros em pares e intimidade sexual compartilhada entre os três. Isso é cânone adquirido, não hipótese futura.
 
 → Intimidades individuais continuam válidas mesmo após a convergência do trio. Nem todo momento precisa envolver os três, e nenhum vínculo precisa ter a mesma forma ou intensidade dos outros.
 
@@ -79,9 +85,11 @@
 
 → Ravena afirmou que quer casar com Corvin e que já queria quando ele fez o pedido original. Ela ainda não realizou novo aceite formal que a torne noiva, mas não existe mais dúvida sobre o desejo de casar com ele.
 
-→ Ravena e Estelar já reconheceram reciprocidade romântica, já se beijaram por iniciativa de Ravena e já viveram intimidade compartilhada dentro do trio.
+→ Ravena e Estelar já reconheceram reciprocidade romântica, já se beijaram repetidamente, já tiveram encontros intencionais em pares e já viveram intimidade compartilhada dentro do trio.
 
-→ Corvin, Ravena e Estelar já admitiram desejo de intimidade a três e já a viveram.
+→ Ravena e Estelar podem decidir passar tempo juntas sem que Corvin precise criar a oportunidade. O Capítulo 023 mostrou a transição de `Corvin sugere` para `elas mesmas escolhem repetir`.
+
+→ Corvin, Ravena e Estelar já admitiram desejo de intimidade a três e já a viveram mais de uma vez.
 
 → Estelar sabe que Corvin teve medo real de uma recusa dela no pedido de casamento.
 
@@ -90,6 +98,34 @@
 → Estelar e Ravena reconheceram que se acostumaram demais à paciência e acomodação de Corvin. Isso deve gerar mudanças espontâneas de atenção e reciprocidade, ainda que elas possam errar novamente de formas novas.
 
 → Ambas sabem que `Corvin respeita nossa escolha` não significa `Corvin permanecerá disponível para sempre`.
+
+## Família e integração entre casas
+
+→ Tamaran não é apenas cenário político. A família real deve poder existir em cenas como família real **e** como família de Kori.
+
+→ Luand'r e Myand'r já jantaram no Refúgio como pais da filha, não como inspeção formal da Coroa.
+
+→ Luand'r possui uma porta pessoal operacional até o solário da Montanha; Myand'r pode atravessar com ela. Isso torna visitas familiares futuras possíveis sem depender de Corvin.
+
+→ A existência dessa rota não autoriza invasão narrativa de áreas privadas. O ponto terrestre é o solário; a futura ligação interna deve terminar em área comum.
+
+→ Dick, Victor e Garfield já retornaram à Torre depois da estadia em Tamaran. Não tratá-los como ainda presos ou esperando resgate.
+
+## Pactos com Gaia — tom e função
+
+→ Pactos não são ferramenta casual de controle social.
+
+→ Um acordo legítimo exige **clareza, justiça/equilíbrio e vontade/consentimento**.
+
+→ Explicar termos antes é necessário para que cada participante saiba onde está entrando e possa recusar.
+
+→ Consentimento não torna uma troca profundamente injusta aceitável.
+
+→ Quando o pacto é aceito, todos os participantes ficam submetidos ao peso que realmente aceitaram, inclusive Corvin quando faz parte dele.
+
+→ Uma vez formado, a natureza/planeta sustenta a regra durante a duração definida; não existe renegociação unilateral por arrependimento.
+
+→ O pacto simples das palmas no Capítulo 023 serve como demonstração canônica dessa lógica, não como convite para transformar toda conversa futura em pacto.
 
 ## Temas e conflitos recorrentes
 → Relacionamento a três, diferenças culturais ganhando mais importância conforme a relação avança e perigo ocasional como pressão externa.
