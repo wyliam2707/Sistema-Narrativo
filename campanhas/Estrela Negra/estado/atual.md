@@ -3,251 +3,315 @@
 STATUS: TEMPORADA 2 ATIVA
 TEMPORADA ATIVA: 2
 ROTEIRO: `mestre/roteiro.md`
-ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/013.md`
+ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/014.md`
 
-MOMENTO OPERACIONAL: **as linhas paralelas foram sincronizadas. Corvin ativou a máquina no Refúgio, abriu uma passagem até a praça de Tamaran onde Kori esperava, sustentou a travessia de Dick, Garfield, Victor e Ravena e cruzou por último. A passagem se fechou. Corvin chegou com os cabelos brancos após forçar duas estações do próprio Ciclo da Vida, disse `[Corvin] — Viu? Sabia que funcionaria.`, deu mais um passo e desmaiou. Kori o aparou antes que sua cabeça atingisse a pedra e agora o segura nos braços.**
+MOMENTO OPERACIONAL: **fim da noite em Tamaran. Corvin, Kori e Ravena estão juntos em uma grande cama de hóspedes no palácio depois de um dia que resolveu o Desafio da Coroa, estabeleceu o noivado Corvin–Kori, confirmou reciprocidade romântica inicial entre Ravena e Kori e demonstrou uma rota independente de Kori entre Tamaran e o Refúgio. Dick, Victor e Garfield estão em aposentos de hóspedes próximos. A Temporada 2 continua ativa.**
 
 ## Ponto exato de continuação
 
-Local: **praça principal de Tamaran**, próxima ao palácio e aos primeiros bairros da cidade.
-
-Presentes e perceptivelmente envolvidos:
-
-- Corvin Blackwood, inconsciente nos braços de Kori;
-- Estelar / Kori;
-- Ravena / Elara;
-- Dick Grayson;
-- Ciborgue / Victor;
-- Mutano / Garfield;
-- Rei de Tamaran;
-- Rainha de Tamaran;
-- Guarda Real e civis nos arredores da praça.
-
-A passagem para o Refúgio **já se fechou**. Nenhum novo portal está aberto neste momento.
+Local: **palácio real de Tamaran, quarto de hóspedes destinado ao trio**.
 
 Último quadro real:
 
-- Kori continua segurando Corvin e não o largou;
-- Ravena está ajoelhada junto deles;
-- Victor fez uma leitura superficial e estabeleceu que Corvin está vivo, estável e em exaustão energética extrema;
-- o Rei e a Rainha observam o grupo;
-- a Guarda Real mantém a praça sob controle sem ter iniciado ataque;
-- Dick percebeu que a parte simples da chegada terminou;
-- as duas casas de Kori estão fisicamente no mesmo lugar pela primeira vez.
+- Corvin está deitado entre Kori e Ravena;
+- Kori está próxima de Corvin e segura a mão de Ravena sobre ele;
+- Ravena também está próxima e aceitou permanecer ali;
+- Corvin disse que estava com saudade de ter as duas junto dele;
+- Kori respondeu que também;
+- Ravena disse que foi estranho ficar sem ele e depois corrigiu para `sem vocês`;
+- nenhuma decisão adicional de Corvin foi tomada depois disso;
+- a noite não encerrou a Temporada 2.
 
-Nenhuma resposta formal do Rei, da Rainha ou da Guarda à presença do grupo foi ainda estabelecida além da contenção inicial da praça.
-
-Nenhuma conversa Ravena–Kori sobre a confissão romântica começou ainda.
+Dick, Victor e Garfield permanecem em Tamaran, instalados em aposentos próximos depois de passarem parte do dia explorando a cidade com Kori, Corvin e Ravena.
 
 ## Corvin Blackwood — condição atual
 
-### Estado físico
+### Natureza e corpo
 
-- inconsciente;
-- vivo;
-- estável segundo a leitura superficial de Victor;
-- exaustão energética extrema;
-- cabelos agora **brancos**, correspondendo ao Inverno forçado do Ciclo da Vida;
-- roupa de exploração, praticamente a mesma que usava na cidade onde conheceu Ravena e Kori.
+Corvin continua naturalmente **Patamar 4**.
 
-### Custo da máquina — agora ocorrido
+No Desafio da Coroa Ardente ele deliberadamente encerrou/desfez o corpo humano fora do ciclo para retirar o recipiente humano da luta e deixar sua natureza divina manifestar-se diretamente através de Tamaran.
 
-A ativação consumiu energia equivalente a **duas mudanças de estação de uma só vez**.
+O corpo humano:
 
-A mudança deixou de ser previsão e agora é fato.
+- desintegrou-se em matéria natural;
+- deixou de existir durante a manifestação;
+- foi posteriormente reconstruído pela própria natureza quando Kori e Ravena fizeram a manifestação parar;
+- retornou anatomicamente inteiro, porém em estado de recuperação;
+- está agora com cabelos **cinza**.
 
-Em termos mecânicos de mestre:
+Corvin explicou em cena a Luand'r:
 
-- Corvin continua sendo naturalmente uma personagem de **Patamar 4**;
-- sua **capacidade disponível atual é Patamar 2** devido ao esgotamento provocado pela travessia;
-- essa redução é temporária e permanece até o encerramento da Temporada 2, salvo mudança posterior legitimamente estabelecida em jogo;
-- não restaurar silenciosamente a capacidade P4 em cenas futuras;
-- nenhum valor numérico específico de Mana foi estabelecido durante a ativação, portanto não inventar gasto retroativo.
+- seu corpo percorre um Ciclo da Vida de aproximadamente 30 dias pelas quatro estações;
+- no fim do ciclo ele morre e renasce, reiniciando com cabelos verdes;
+- morte e renascimento regulares fazem parte de sua natureza;
+- uma morte fora do ciclo pode ser revertida, como ocorreu no Desafio;
+- depois dessa morte fora do ciclo, enquanto está com os cabelos cinza, **uma nova morte seria definitiva**;
+- por isso ele não pretende lutar novamente com o Rei nem usar morte como estratégia até o ciclo reiniciar;
+- ele afirmou explicitamente que não pretende abandonar Kori ou Ravena por irresponsabilidade.
 
-A Natureza Não Mente continua válida quando Corvin recuperar a consciência.
+A Natureza Não Mente continua válida.
 
-### Conhecimento dos outros sobre o custo
+### Capacidade disponível
 
-Ravena:
+Antes do Desafio, a ativação da máquina havia reduzido drasticamente a capacidade disponível de Corvin e o estado anterior registrava P4 natural / P2 disponível até o fim da temporada.
 
-- viu o cabelo de Corvin mudar até o branco;
-- sentiu pela Empatia a queda brutal da presença sobrenatural dele enquanto a máquina drenava o Ciclo da Vida;
-- sabe agora que Corvin omitiu a extensão real do preço;
-- não recebeu ainda uma explicação técnica completa nem conhece o marcador mecânico P4 → P2.
+A morte fora do ciclo e reconstrução posterior mudaram radicalmente o corpo, mas **nenhum teste ou declaração mecânica posterior estabeleceu se a redução P2 foi restaurada, mantida ou alterada**.
 
-Victor:
+Portanto:
 
-- viu a máquina esgotar a parte externa da alimentação;
-- percebeu que Corvin tornou-se a fonte restante;
-- confirmou depois da chegada exaustão energética extrema, mas estabilidade;
-- não conhece o detalhe interno de duas estações/P4 → P2 como metainformação.
+- não restaurar silenciosamente P4 disponível;
+- não afirmar silenciosamente que P2 continua exatamente igual;
+- a capacidade disponível pós-reconstrução está **mecanicamente não reavaliada** e deve ser estabelecida apenas quando a ficção ou uma checagem legítima exigir isso;
+- o fato seguro é que Corvin está vivo, recém-reconstruído e ainda em recuperação.
 
-Kori:
+## Desafio da Coroa Ardente — resolvido
 
-- viu Corvin atravessar por último com os cabelos brancos;
-- viu-o desmaiar imediatamente depois da frase confiante;
-- sabe apenas pelo que presenciou e pelas falas de Ravena/Victor que ele pagou um custo grande e está extremamente exausto;
-- ainda não conhece a conta completa.
+O Conselho levantou objeções à possível condição de Corvin como consorte real com base em aparência mortal, origem desconhecida, duração de vida, linhagem e dignidade da Casa.
 
-## Máquina e Caminhos — resultado consolidado
+Corvin revelou que compreendia tamaraneano e pediu ao Rei uma solução segundo as leis de Tamaran.
 
-A teoria funcionou como projetada.
+Foi invocado o Desafio da Coroa Ardente.
 
-A máquina não rastreou uma coordenada secreta. Ela manteve juntas as referências enquanto Corvin procurava por Caminhos:
+Condições estabelecidas:
 
-- familiaridade incipiente com Tamaran construída pelas memórias de Kori;
-- associação pessoal Corvin–Kori;
-- Anel Solar com Kori;
-- caixa solar incorporada à máquina no Refúgio;
-- assinatura e distorção do salto preservadas por Victor;
-- contenção física, mágica e técnica da busca.
+- o soberano representa a objeção da Coroa;
+- vencer ou passar no desafio não dá posse sobre Kori;
+- não cria casamento automaticamente;
+- não decide por Kori;
+- serve apenas para retirar da Coroa/Grandes Casas o direito de declarar o pretendente indigno por condição, nascimento ou presumida inferioridade;
+- todo o Conselho testemunhou, conforme pedido de Corvin;
+- o combate ocorreu em área remota, longe de inocentes.
 
-Formulação confirmada pelo acontecimento:
+Durante o combate:
 
-`A máquina não encontra Tamaran. Ela impede Caminhos de se perder enquanto Corvin procura.`
+- o Rei mostrou superioridade clara de técnica, experiência e poder sustentável;
+- Corvin lutou ativamente e de forma criativa, usando relâmpagos, terreno, raízes, água, vento e defesas naturais;
+- Corvin conseguiu ferir o Rei e forçá-lo a recuar em momentos pontuais, pagando proporcionalmente mais energia;
+- o Rei provocou Corvin sobre ser fraco e afirmou que Kori não estaria segura ao lado dele;
+- Corvin respondeu `[Corvin] — Essa decisão não é sua.`;
+- Corvin então encerrou deliberadamente o corpo humano;
+- sua natureza manifestou-se como um avatar colossal formado pelo próprio Tamaran: pedra, água, raízes locais, magma, vento, tempestade e relâmpagos;
+- destruir partes da forma não produzia anatomia fixa para matar, pois o planeta reconstruía a manifestação com matéria local;
+- Ravena percebeu pela Empatia que a individualidade de Corvin começava a se dispersar dentro da manifestação;
+- Kori entrou no caminho e disse `[Estelar] — Eu estou segura.`;
+- Ravena tocou a manifestação e disse `[Ravena] — Volta.`;
+- a natureza parou e reconstruiu o corpo humano.
 
-Durante a ativação:
+Depois disso, o Rei encerrou o desafio diante das testemunhas e declarou que Corvin **passou**.
 
-- Caminhos mostrou possibilidades instáveis antes de reconhecer Tamaran;
-- a caixa solar respondeu à correspondência com o anel de Kori;
-- uma fissura surgiu entre Refúgio e praça de Tamaran;
-- o portal abriu e estabilizou apenas depois que Corvin alimentou a máquina com duas mudanças de estação;
-- Dick, Garfield, Victor e Ravena atravessaram primeiro;
-- Corvin atravessou por último;
-- a passagem se fechou atrás dele.
+Resultado político exato:
 
-No Refúgio ficaram a estrutura da máquina e seus componentes. Durante a ativação, módulos se apagaram, cristais saturaram e pelo menos um cristal trincou. O estado técnico completo do equipamento depois do uso ainda não foi inspecionado em cena.
+- a Coroa retirou a objeção de indignidade baseada em nascimento, origem, aparência mortal ou presumida inferioridade;
+- isso NÃO resolveu automaticamente sucessão, títulos, residência, cerimônia, protocolo ou demais consequências políticas de eventual casamento real;
+- o Rei posteriormente admitiu diretamente que não cabia a ele determinar se Kori estaria segura ao lado de Corvin porque Kori já havia feito sua escolha.
 
 ## Estelar / Kori — estado atual
 
-Kori está na praça de Tamaran segurando Corvin inconsciente.
+Kori está em Tamaran por escolha e agora possui uma forma prática de manter **Tamaran e Terra como duas casas reais**.
 
-Ela:
+### Relação com Corvin
 
-- correu até ele quando percebeu que cairia;
-- o aparou antes do impacto da cabeça;
-- chamou por ele e tocou seu rosto;
-- ouviu Ravena confirmar que está vivo;
-- ouviu Victor confirmar exaustão extrema, mas estabilidade;
-- abraçou Corvin e disse em voz baixa: `[Estelar] — Você veio.` e `[Estelar] — Você realmente veio.`
+Corvin pediu Kori em casamento diretamente.
 
-O reencontro não apagou Tamaran.
+Kori respondeu **sim**.
 
-Ao erguer os olhos, Kori viu simultaneamente:
+Estado atual:
 
-- Ravena;
-- Dick, Victor e Garfield;
-- pai e mãe;
-- Guarda Real;
-- povo e praça;
-- Corvin em seus braços.
+- Kori é noiva de Corvin;
+- Corvin é noivo de Kori;
+- Kori quer uma família grande e interplanetária;
+- quer filhos algum dia por escolha própria, não como obrigação de princesa/herdeira;
+- quer continuar pertencendo a Tamaran, à Terra, ao Refúgio e aos Titãs.
 
-O conflito central permanece: **as duas casas existem ao mesmo tempo**.
+A Rainha/Luand'r já sabe do noivado e confirmou com Kori que ela aceitou porque quis.
 
-Kori continua sem saber que Ravena, depois de ouvir sua mensagem, admitiu a Corvin que também acha que gosta dela romanticamente.
+O Rei já chamou Corvin de `futuro genro` em tom bem-humorado após o Desafio.
+
+Nenhum casamento ocorreu ainda.
+
+### Relação com Ravena
+
+A conversa Ravena–Kori que estava pendente aconteceu frente a frente.
+
+Ravena disse explicitamente:
+
+`[Ravena] — Eu acho que gosto de você também.`
+
+Depois, durante a proposta de casamento de Corvin, Ravena afirmou que está começando a aceitar que talvez também esteja se apaixonando por Kori.
+
+Estado exato:
+
+- a atração/afeto romântico entre Kori e Ravena é agora **mutuamente conhecido**;
+- elas não reescreveram retroativamente os anos de amizade como romance secreto;
+- querem descobrir o que existe entre elas no ritmo de Ravena;
+- ainda não houve beijo Ravena–Kori;
+- ainda não existe rótulo formal de namoro entre as duas;
+- aproximações, mãos dadas, encostar-se e intimidade cotidiana são naturais e já aconteceram;
+- Kori respeita o ritmo de Ravena.
+
+### Anel Solar e rota independente
+
+Depois que Corvin chegou pessoalmente a Tamaran, Caminhos passou a poder abrir portais para locais de Tamaran que ele realmente conhece; a máquina de busca não é mais necessária para esses destinos conhecidos.
+
+Corvin abriu um portal para o Refúgio e apontou a caixa solar vermelha ligada ao Anel Solar de Kori.
+
+Kori:
+
+- atravessou até o Refúgio;
+- pegou a caixa solar;
+- trouxe a caixa para Tamaran;
+- depois que Corvin fechou seu próprio portal, usou o Anel Solar sem ajuda dele;
+- abriu uma passagem estável entre Tamaran e o Refúgio;
+- atravessou e voltou sozinha;
+- declarou `[Estelar] — Eu fiz isso. Sozinha.`
+
+Consequência confirmada:
+
+- enquanto a caixa solar permanecer segura em Tamaran e a âncora do Refúgio existir, Kori pode abrir passagem por conta própria entre os dois mundos;
+- outras pessoas podem atravessar enquanto Kori mantiver a passagem aberta;
+- Kori controla a abertura com seu anel;
+- a localização permanente e o protocolo de segurança da caixa em Tamaran ainda NÃO foram definidos;
+- isso não cria infraestrutura interplanetária genérica nem dá à Coroa uma rota militar automática.
+
+Corvin também teve a ideia de criar no futuro outro anel/âncora para que Kori possa acessar diretamente a Torre dos Titãs e continuar trabalhando com a equipe sem depender dele para o deslocamento.
 
 ## Ravena / Elara — estado atual
 
-Ravena atravessou antes de Corvin conforme a ordem dele.
+Ravena continua:
 
-Antes de cruzar, ao perceber o preço aumentando, disse:
+- namorada de Corvin;
+- companheira de quarto;
+- parte da família dos três;
+- brincando com o título de `arquiteta da biblioteca`.
 
-`[Ravena] — Você e eu vamos ter uma conversa sobre isso.`
+Quando Corvin pediu casamento às duas:
 
-Ela está agora ajoelhada junto de Kori e Corvin.
+- Ravena afirmou que ama Corvin;
+- quer a família grande que estão construindo;
+- quer Kori nessa família;
+- reconheceu que pode estar se apaixonando por Kori;
+- **não está pronta hoje para dizer sim ao casamento**.
 
-Ravena:
+A resposta de Ravena é `ainda não`, não rejeição e não promessa de futuro `sim`.
 
-- viu Kori novamente pela primeira vez desde a mensagem;
-- ouviu Kori dizer seu nome através do portal;
-- ainda não iniciou a conversa sobre a reciprocidade romântica;
-- sabe que Corvin escondeu uma parte importante do custo da máquina;
-- não sabe ainda a explicação completa;
-- pela Empatia, percebeu que a natureza de Corvin permanece presente, mas drasticamente drenada.
+Corvin aceitou sem prazo e disse que, se algum dia ela quiser a mesma coisa ou tiver uma resposta diferente, basta contar quando quiser.
 
-Nenhum beijo ou relacionamento romântico Ravena–Kori foi estabelecido.
+Ravena permanece livre para chegar ou não ao casamento no próprio ritmo.
 
-## Titãs — estado atual em Tamaran
+## Modelo relacional/casamento de Tamaran — esclarecido
 
-### Dick Grayson
+Kori explicou em cena:
 
-- atravessou primeiro;
-- deliberadamente não adotou postura ofensiva;
-- sabe que entrou num planeta soberano e que o objetivo é contato e apoio a Kori, não resgate forçado;
-- percebeu imediatamente que, com o portal fechado, a situação agora exige diplomacia real.
+- relações múltiplas não são problema por si mesmas em Tamaran quando há escolha, afeto e respeito;
+- casamento plural é uma **única união familiar plural**, não uma coleção de casamentos separados por pares;
+- cada integrante precisa escolher entrar;
+- os vínculos emocionais entre cada dupla não precisam ser idênticos ou igualmente desenvolvidos;
+- Ravena e Kori podem continuar descobrindo o próprio vínculo sem precisar sincronizá-lo com os vínculos Corvin–Kori ou Corvin–Ravena;
+- para Sangue Real, casamento formal ainda implica registro, títulos, sucessão e protocolo da Coroa;
+- a Coroa não escolhe o parceiro por Kori.
 
-### Garfield / Mutano
+Ravena deixou explícito que Trigon não possui voto ou autoridade sobre eventual casamento dela.
 
-- atravessou logo depois de Dick;
-- está na praça;
-- depois do colapso de Corvin comentou que atravessar estrelas, fazer uma piada e desmaiar era muito a cara dele.
+## Luand'r — Rainha e mãe de Kori
 
-### Victor / Ciborgue
+O nome pessoal da Rainha foi estabelecido em cena como **Luand'r**.
 
-- acompanhou as leituras da máquina até o limite antes de atravessar;
-- verificou Corvin superficialmente após a queda;
-- estabeleceu: **exaustão energética extrema, mas estável**.
+Corvin pediu explicitamente para falar com `Luand'r, mãe de Kori`, e não com a Rainha.
 
-## Família Real e Guarda — estado atual
+A conversa resultou em:
 
-### Rainha
+- Luand'r compreendeu melhor o Ciclo da Vida e a diferença entre morte regular, morte estratégica reversível e morte definitiva de Corvin;
+- Corvin afirmou que, se houver um funeral entre ele, Kori e Ravena, pretende que seja o dele, não o de nenhuma delas;
+- Luand'r pediu que, quando houver uma forma de todos voltarem para casa, Corvin escolha essa antes do sacrifício;
+- Corvin mostrou a ela o Refúgio, o solário em construção, o projeto de torre e pista de pouso;
+- abriu portais também para o Saara e para uma cidade francesa diante de uma confeitaria/restaurante cujos doces Kori adora;
+- Luand'r percebeu que Corvin conhece não apenas grandes necessidades de Kori, mas pequenas preferências pessoais;
+- Kori explicou pessoalmente à mãe a nova rota independente do Anel Solar;
+- Luand'r entendeu que a filha agora pode partir sem transformar a partida em nova perda definitiva.
 
-- chegou à praça enquanto o fenômeno ainda se formava;
-- viu o Anel Solar de Kori reagir;
-- ouviu Kori identificar o fenômeno como vindo de Corvin;
-- ordenou que os guardas esperassem quando a passagem começou a abrir;
-- viu Ravena, Dick, Garfield, Victor e Corvin atravessarem;
-- viu Kori correr para aparar e abraçar Corvin;
-- ainda não iniciou uma conversa formal com o grupo depois do fechamento do portal.
+Corvin ofereceu criar um anel pessoal para Luand'r visitar Kori na Terra.
 
-### Rei
+Condições estabelecidas por Corvin:
 
-- chegou enquanto a passagem ainda estava abrindo;
-- viu uma janela real para o Refúgio em outro mundo;
-- ouviu Kori dizer `[Estelar] — Eles vieram.`;
-- viu o grupo atravessar;
-- sua primeira impressão direta de Corvin é a de um terrestre aparentemente comum, vestido para exploração, que sustentou uma passagem impossível, chegou com cabelos brancos, fez uma piada e desmaiou;
-- ainda não conhece a natureza de semideus de Corvin nem possui razão estabelecida para acreditar nisso;
-- nenhuma decisão formal dele sobre Corvin, os Titãs ou a relação de Kori foi tomada em cena.
+- o anel será para **Luand'r**, não para a Rainha/Coroa;
+- sem uso militar;
+- não deve ser tratado como propriedade estatal;
+- o ponto de chegada terrestre será o **solário no topo da Montanha**, não o interior privado da casa;
+- o anel ainda NÃO foi fabricado;
+- Corvin estimou cerca de dois dias para produzi-lo quando decidir fazê-lo.
 
-### Guarda Real
+A conversa terminou com Corvin chamando Luand'r de `sogra` e Luand'r respondendo com `futuro genro`.
 
-- isolou o centro da praça e afastou civis;
-- ergueu armas quando a fissura desconhecida começou a abrir;
-- não disparou após ordem da Rainha;
-- acompanhou a travessia do grupo;
-- permanece como força de segurança de Tamaran, não automaticamente aliada nem inimiga.
+## Rei de Tamaran — estado atual
 
-## Anéis
+O Rei:
 
-- Ravena continua com o Anel Lunar de Retorno.
-- Kori continua com o Anel Solar de Retorno.
-- A caixa lunar permanece na Torre.
-- A caixa solar permanece incorporada à máquina no Refúgio, salvo dano não estabelecido; nenhum dano específico à caixa foi narrado.
-- A reação extraordinária do Anel Solar durante a busca foi consequência da máquina/Caminhos e **não redefiniu automaticamente a função normal do anel**.
+- reconheceu que Corvin passou no Desafio;
+- retirou a objeção de indignidade da Coroa;
+- sabe que Corvin é um meio-deus da natureza e testemunhou a manifestação colossal;
+- considera a decisão de Corvin de encerrar o corpo humano uma escolha terrível/insana quando provocado;
+- reconheceu que decidir se Kori permanece ao lado de Corvin não cabe a ele;
+- viu a rota independente do Anel Solar funcionar;
+- aceitou que Kori pode escolher quando ir e voltar, embora como Rei ainda precise lidar com consequências políticas;
+- demonstrou curiosidade real sobre visitar o Refúgio para tomar café, mas essa visita ainda NÃO ocorreu.
 
-## Continuidade temática em Tamaran
+## Titãs em Tamaran
+
+Dick, Victor e Garfield continuam em Tamaran.
+
+Depois do Desafio e das conversas políticas, passaram parte do dia com Kori, Corvin e Ravena conhecendo a cidade, comida, mercados e aspectos cotidianos do planeta.
+
+O passeio consolidou que:
+
+- os Titãs continuam sendo família escolhida de Kori;
+- Kori quer continuar trabalhando com eles;
+- Tamaran não substituiu a Torre nem a equipe;
+- a presença dos Titãs no planeta não é resgate ou ocupação.
+
+No fim da noite:
+
+- Dick, Victor e Garfield retornaram aos aposentos de hóspedes;
+- permanecem disponíveis em Tamaran no início do próximo capítulo.
+
+## Refúgio / obras
+
+O Refúgio continua sendo uma das casas de Kori, Ravena e Corvin.
+
+Estado das obras preservado:
+
+- biblioteca ampliada, ainda com detalhes/projeto em andamento;
+- solário no topo da Montanha ainda NÃO concluído;
+- torre/estrutura externa ainda em construção;
+- pista de pouso/acesso externo planejada/em preparação;
+- proposta de ampliar a única piscina/câmara termal e criar ligação direta ninho→banho continua projeto, não obra concluída;
+- não existe segunda piscina privada.
+
+Luand'r viu o solário e parte da obra através de Caminhos.
+
+## Continuidade temática
 
 Preservar:
 
-- Kori não foi resgatada de uma prisão; ela voltou voluntariamente a Tamaran e continua amando família, povo e planeta;
-- Corvin e os Titãs chegaram para alcançá-la e estar ao lado dela, não para anular sua escolha;
-- a presença de Rei, Rainha e Guarda deve ser tratada como soberania, família e responsabilidade, não como dungeon hostil;
-- o abraço de Kori em Corvin já aconteceu, mas não resolveu o conflito;
-- Ravena e Kori agora estão frente a frente pela primeira vez depois da confissão, mas a conversa ainda está aberta;
-- a família real ainda lê Corvin inicialmente através de sua Aparência Inofensiva; nenhuma revelação de sua natureza real ocorreu;
-- qualquer conflito dinástico, lei antiga, desafio, reconhecimento, casamento ou desenvolvimento íntimo posterior continua FUTURO e deve acontecer ao vivo.
+- Kori não está presa em Tamaran; o que a mantém ligada ao planeta são família, povo, responsabilidade e amor;
+- agora ela possui também liberdade prática de transitar por conta própria entre Tamaran e o Refúgio;
+- Tamaran e Terra são duas casas reais, não opções mutuamente excludentes;
+- Corvin não decide por Kori; Rei e Coroa também não;
+- Ravena não precisa sincronizar suas respostas com Kori;
+- Kori e Ravena têm reciprocidade romântica reconhecida, mas ainda estão descobrindo o vínculo;
+- Kori e Corvin estão noivos;
+- Ravena não está noiva;
+- nenhum casamento ocorreu;
+- o Desafio resolveu apenas a objeção de indignidade, não toda a política real;
+- a caixa solar está em Tamaran, mas ainda precisa de localização segura/permanente;
+- o anel prometido a Luand'r e o futuro acesso direto de Kori à Torre ainda são projetos;
+- Corvin está com cabelos cinza e uma nova morte antes do reinício do ciclo seria definitiva segundo sua própria explicação;
+- não assumir restauração mecânica silenciosa após a reconstrução.
 
 ## Próxima abertura
 
-Continuar **exatamente na praça**, sem salto de tempo.
+Continuar **na manhã seguinte ou no primeiro evento significativo após a noite**, sem inventar decisões de Corvin durante o sono.
 
-Corvin está inconsciente e não possui nova decisão voluntária disponível até recuperar a consciência.
+O trio passou a noite no palácio porque escolheu ficar em Tamaran naquela noite, não como declaração de residência definitiva.
 
-Kori o segura.
-
-Ravena está junto dos dois.
-
-Rei, Rainha, Guarda e Titãs estão presentes.
-
-A próxima iniciativa pode nascer das cadeiras IA/Eventuais e do estado imediato da praça; não inventar fala ou decisão de Corvin enquanto ele estiver inconsciente.
+A próxima cena pode nascer da rotina da manhã, dos Titãs, da família real, das consequências políticas ainda abertas, da segurança da caixa solar ou das escolhas pessoais do trio.
