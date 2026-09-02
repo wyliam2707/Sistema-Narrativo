@@ -3,26 +3,25 @@
 STATUS: TEMPORADA 2 ATIVA
 TEMPORADA ATIVA: 2
 ROTEIRO: `mestre/roteiro.md`
-ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/022.md`
+ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/023.md`
 
-MOMENTO OPERACIONAL: **fim da noite no Refúgio. Corvin, Kori e Ravena dormem juntos no ninho depois de uma tarde de pacto por Gaia, revelações relacionais e primeira intimidade realmente compartilhada do trio. O pacto terminou com a chegada da noite. Dick, Victor e Garfield permanecem em Tamaran. O trio declarou que voltará a Tamaran no dia seguinte. A Temporada 2 continua ativa.**
+MOMENTO OPERACIONAL: **manhã no Refúgio, imediatamente após o Capítulo 023. Corvin acordou cedo, arrumou a mesa usada no jantar familiar e preparou café. Kori e Ravena já acordaram e estão com ele. Luand'r e Myand'r voltaram juntos a Tamaran pela porta pessoal de Luand'r. A Temporada 2 continua ativa.**
 
 ## Ponto exato de continuação
 
-Local: **Refúgio / ninho**.
+Local: **Refúgio / oficina-área da mesa, manhã**.
 
 Último quadro real:
 
-- Corvin está deitado entre Kori e Ravena;
-- Kori permanece próxima e alcança também Ravena com o braço;
-- Ravena está do outro lado de Corvin;
-- Kori e Ravena mantêm contato físico natural depois do primeiro beijo e da intimidade compartilhada;
-- Kori disse que no dia seguinte voltariam para Tamaran;
-- Ravena concordou;
-- nenhuma nova decisão de Corvin foi tomada depois disso;
-- a próxima abertura deve ocorrer na manhã seguinte ou no primeiro evento significativo, sem inventar decisões de Corvin durante o sono.
+- Corvin acordou cedo depois da noite compartilhada com Kori e Ravena;
+- arrumou a mesa grande comprada para o jantar com os sogros;
+- preparou café;
+- Kori apareceu primeiro, atraída pelo cheiro;
+- Ravena apareceu logo depois;
+- ambas disseram bom dia;
+- nenhuma nova decisão de Corvin foi tomada depois disso.
 
-Dick, Victor e Garfield permanecem em Tamaran, em aposentos de hóspedes ou sob a hospitalidade da família real, e não voltaram ao Refúgio com o trio nessa noite.
+Próxima abertura: continuar dessa manhã ou do primeiro evento significativo subsequente, sem inventar ação voluntária nova de Corvin.
 
 ## Corvin Blackwood — condição atual
 
@@ -32,419 +31,458 @@ Corvin continua naturalmente **Patamar 4**.
 
 No Desafio da Coroa Ardente ele deliberadamente encerrou/desfez o corpo humano fora do ciclo para retirar o recipiente humano da luta e deixar sua natureza divina manifestar-se diretamente através de Tamaran.
 
-O corpo humano:
+O corpo foi reconstruído pela própria natureza quando Kori e Ravena fizeram a manifestação parar.
 
-- desintegrou-se em matéria natural;
-- deixou de existir durante a manifestação;
-- foi posteriormente reconstruído pela própria natureza quando Kori e Ravena fizeram a manifestação parar;
-- retornou anatomicamente inteiro, porém em estado de recuperação;
-- está agora com cabelos **cinza**.
+Estado atual:
 
-Corvin explicou:
-
-- seu corpo percorre um Ciclo da Vida de aproximadamente 30 dias pelas quatro estações;
-- no fim do ciclo ele morre e renasce, reiniciando com cabelos verdes;
-- morte e renascimento regulares fazem parte de sua natureza;
-- uma morte fora do ciclo pode ser revertida, como ocorreu no Desafio;
-- depois dessa morte fora do ciclo, enquanto está com os cabelos cinza, **uma nova morte seria definitiva**;
-- ele não pretende lutar novamente com o Rei nem usar morte como estratégia até o ciclo reiniciar;
-- ele afirmou explicitamente que não é suicida.
-
-A condição cinza também foi esclarecida em cena:
-
+- corpo anatomicamente inteiro;
+- cabelos **cinza**;
 - as quatro estações estão misturadas e fora de ordem ao mesmo tempo;
-- a parte divina/instintiva está particularmente difícil de regular;
-- emoções podem subir muito rápido, como tempestade;
-- isso não remove responsabilidade nem transforma impulso em ação automática;
-- os limites escolhidos por Corvin são o que impedem sua natureza de se tornar destrutiva.
+- a parte instintiva/divina está mais próxima da superfície;
+- emoções podem escalar muito rápido;
+- isso NÃO remove responsabilidade ou agência;
+- nova morte enquanto permanecer cinza seria definitiva;
+- Corvin não pretende lutar seriamente de novo com Myand'r antes de o ciclo reiniciar no verde.
 
-A Natureza Não Mente continua válida como traço permanente.
+O ciclo regular dura aproximadamente 30 dias e termina em morte/renascimento natural, reiniciando com cabelos verdes.
+
+A morte fora do ciclo ocorrida em Tamaran foi reversível uma vez; nova morte antes do reinício regular não seria.
+
+Corvin afirmou explicitamente que não é suicida.
 
 ### Capacidade disponível
 
-Antes do Desafio, a ativação da máquina havia reduzido drasticamente a capacidade disponível de Corvin e o estado anterior registrava P4 natural / P2 disponível até o fim da temporada.
+Antes do Desafio, a máquina usada para encontrar Tamaran reduziu drasticamente a capacidade disponível de Corvin.
 
-A morte fora do ciclo e reconstrução posterior mudaram radicalmente o corpo, mas **nenhum teste ou declaração mecânica posterior estabeleceu se a redução P2 foi restaurada, mantida ou alterada**.
+A morte fora do ciclo e a reconstrução posterior mudaram radicalmente o corpo, mas **nenhum teste ou declaração mecânica posterior reavaliou o Patamar disponível**.
 
 Portanto:
 
 - não restaurar silenciosamente P4 disponível;
 - não afirmar silenciosamente que P2 continua exatamente igual;
-- a capacidade disponível pós-reconstrução está **mecanicamente não reavaliada**;
-- o fato seguro é que Corvin está vivo, reconstruído, cinza e ainda em recuperação.
+- capacidade disponível pós-reconstrução permanece mecanicamente não reavaliada.
 
-### Natureza relacional revelada nos capítulos 020–022
+### Natureza inteira — não reduzir à gentileza
 
-Corvin deixou explícito que o homem gentil, paciente, cuidadoso e frequentemente disposto a ceder é **uma parte verdadeira dele, mas não o todo**.
+Corvin deixou claro nos capítulos 020–023 que o homem gentil, cuidadoso, paciente e frequentemente disposto a ceder é parte verdadeira dele, mas não o todo.
 
-O todo também inclui:
+Também existem:
 
 - instinto;
-- territorialidade;
+- territorialidade emocional;
 - fome/desejo;
 - impulso de proteção;
 - fúria natural;
-- vontade de possuir emocionalmente aquilo que ama sem transformar isso em autoridade absoluta sobre outra pessoa.
+- atração por desafios e por enfrentar algo maior/mais forte;
+- prazer em construir, forjar, curar e criar coisas úteis.
 
-Uma condição real capaz de fazê-lo abandonar a relação é Kori e Ravena tratarem sua gentileza como infraestrutura obrigatória ou como se ele lhes devesse paciência, concessão e autocontrole infinitos.
+O autocontrole governa esses impulsos; não os apaga.
 
-Corvin também deixou claro que respeitar uma escolha delas **não significa permanecer disponível para qualquer configuração**.
+Corvin explicitou no Capítulo 023 que poderia seguir o impulso de procurar algo mais forte para enfrentar, mas escolheu passar dois dias com martelo e forja construindo um anel para que sua sogra pudesse ver a filha.
 
-Se Kori e Ravena escolhessem ficar apenas uma com a outra e excluí-lo da relação, ele respeitaria e iria embora; não manteria a relação como espera indefinida.
+Não reduzir novamente Corvin a altruísmo abstrato ou ao parceiro que sempre cede.
 
-### Desejos e preferências já conhecidos
+### A Natureza Não Mente
 
-Corvin afirmou que:
+Traço permanente.
 
-- quer Kori e Ravena intensamente;
-- sempre quis as duas;
-- sua versão mais primitiva desse desejo envolve sexo, acasalamento e filhos com as duas;
-- queria intimidade sexual compartilhada com as duas e nunca pediu porque queria que partisse delas;
-- procurou Kori e enfrentou o Rei também por motivos pessoais, românticos, territoriais e egoístas, não apenas para proteger a escolha dela;
-- sobre Kori, disse: `[Corvin] — Porque eu quero você. E nenhum rei de merda vai ficar com o que é meu.`;
-- isso coexistiu com a disposição real de abrir o portal e partir se Kori escolhesse outro caminho.
+Impede mentira deliberada, inclusive autoengano usado como mentira.
 
-Preferências domésticas reveladas:
+NÃO impede:
 
-- gostaria de uma **sala de jantar**, porque gostou de ter uma na outra casa;
-- talvez queira um **quarto maior**, principalmente para Kori e Ravena terem espaço adequado para organizar roupas;
-- essas preferências são conhecidas, mas NÃO autorizam construção automática sem nova iniciativa humana.
+- humor;
+- ironia;
+- metáfora;
+- exagero claramente brincalhão;
+- provocação que todos entendem como piada.
 
-## Desafio da Coroa Ardente — resolvido
+A referência ao `Duelo de Helena` durante o jantar foi explicitamente brincadeira, não proposta séria.
 
-O Conselho levantou objeções à possível condição de Corvin como consorte real com base em aparência mortal, origem desconhecida, duração de vida, linhagem e dignidade da Casa.
+### Percepção de raça e linhagem
 
-Foi invocado o Desafio da Coroa Ardente.
+Corvin possui percepção natural de **espécie/raça e linhagem** em criaturas vivas.
 
-Condições estabelecidas:
+Isso não fornece:
 
-- o soberano representa a objeção da Coroa;
-- passar no desafio não dá posse sobre Kori;
-- não cria casamento automaticamente;
-- não decide por Kori;
-- serve apenas para retirar da Coroa/Grandes Casas o direito de declarar o pretendente indigno por condição, nascimento ou presumida inferioridade;
-- todo o Conselho testemunhou;
-- o combate ocorreu longe de inocentes.
+- biografia;
+- cultura;
+- pensamentos;
+- memória;
+- conhecimento histórico automático.
 
-Durante o combate:
+Mas permite reconhecer o que uma criatura é e vínculos/linhagens naturais relevantes.
 
-- o Rei mostrou superioridade clara de técnica, experiência e poder sustentável;
-- Corvin lutou ativamente com relâmpagos, terreno, raízes, água, vento e defesas naturais;
-- Corvin conseguiu ferir o Rei e forçá-lo a recuar em momentos pontuais, pagando proporcionalmente mais energia;
-- o Rei afirmou que Kori não estaria segura ao lado dele;
-- Corvin respondeu `[Corvin] — Essa decisão não é sua.`;
-- Corvin encerrou deliberadamente o corpo humano;
-- Tamaran manifestou um avatar colossal de natureza;
-- Ravena percebeu pela Empatia que a individualidade de Corvin começava a se dispersar;
-- Kori disse `[Estelar] — Eu estou segura.`;
-- Ravena disse `[Ravena] — Volta.`;
-- a natureza parou e reconstruiu o corpo humano.
+No jantar do Capítulo 023, Corvin descreveu:
 
-Depois disso, o Rei declarou que Corvin **passou**.
+- Myand'r como a maior assinatura tamaraneana de energia/calor que já percebeu até agora, metaforicamente `o maior sol`;
+- Luand'r como igualmente intensa, porém muito mais controlada/administrada, como Kori sob décadas de Coroa e decisões;
+- Kori como manifestação mais móvel e espontânea dessa mesma natureza/linhagem.
 
-Resultado político exato:
-
-- a Coroa retirou a objeção de indignidade baseada em nascimento, origem, aparência mortal ou presumida inferioridade;
-- isso NÃO resolveu automaticamente sucessão, títulos, residência, cerimônia, protocolo ou demais consequências políticas de eventual casamento real;
-- o Rei posteriormente admitiu que decidir se Kori permanece ao lado de Corvin não cabe a ele.
-
-### Nova leitura motivacional consolidada
-
-A interpretação `Corvin fez tudo para proteger a escolha de Kori` é verdadeira, porém incompleta.
-
-Capítulo 021 consolidou que também havia:
-
-- amor;
-- desejo de ter Kori na própria vida;
-- desejo de formar a família que ele queria;
-- territorialidade contra a interferência do Rei/Coroa;
-- vontade pessoal de obter um resultado, ainda que respeitasse um eventual `não` de Kori.
-
-Não reduzir novamente as ações de Corvin a altruísmo abstrato.
-
-## Estelar / Kori — estado atual
-
-Kori continua tendo **Tamaran e Terra como duas casas reais**.
-
-### Relação com Corvin
+## Relação Corvin–Kori
 
 Estado atual:
 
+- Kori ama Corvin;
 - Kori é noiva de Corvin;
 - Corvin é noivo de Kori;
-- Kori quer uma família grande e interplanetária;
-- quer filhos algum dia por escolha própria;
-- quer continuar pertencendo a Tamaran, à Terra, ao Refúgio e aos Titãs.
+- Kori possui Tamaran e Terra como duas casas reais;
+- Kori quer uma família grande e interplanetária algum dia por escolha própria;
+- casamento não apaga sua condição de Titã, princesa, tamaraneana ou indivíduo.
 
-Novos conhecimentos persistentes:
+Conhecimentos persistentes:
 
-- Kori descobriu que Corvin tinha **medo real de que ela dissesse não** ao pedido de casamento;
-- ele perguntou às duas ao mesmo tempo em parte porque desejava a família plural e em parte porque não queria enfrentar sozinho uma possível recusa de Kori;
-- quando perguntou o que ele imaginava caso ela não quisesse casamento, Corvin respondeu que nunca teve coragem de pensar sobre isso;
-- se Kori tivesse dito não ao casamento, Corvin afirmou que ainda continuaria com ela;
-- Kori agora entende que desenhou fronteiras com tanta competência que Corvin muitas vezes sabia o que não podia presumir, mas não sabia claramente o que existia dentro delas;
-- Kori reconheceu que frequentemente verificava se a própria escolha continuava protegida quando Corvin ficava intenso, relaxava quando ele confirmava, e quase nunca verificava se **ele** relaxava;
-- Kori reconheceu que passou a usar a paciência de Corvin como infraestrutura mental: `ele vai entender`, `ele vai esperar`, `ele vai aceitar`;
-- Kori agora sabe que constância não significa disponibilidade ilimitada.
+- Kori sabe que Corvin teve medo real de ela recusar o pedido de casamento;
+- sabe que ele perguntou às duas juntas em parte por desejo de família plural e em parte por medo de enfrentar uma possível recusa dela sozinho;
+- sabe que, se dissesse não ao casamento, Corvin teria continuado com ela;
+- sabe também que constância não significa disponibilidade ilimitada;
+- Kori reconheceu que frequentemente tratava `ele vai entender/esperar/aceitar` como infraestrutura garantida;
+- deve carregar esse aprendizado espontaneamente, sem voltar a tratar toda intensidade de Corvin como ameaça automática à própria autonomia.
 
-### Banho antigo — interpretação corrigida
+### Contracepção / filhos
 
-A maior frustração anterior de Corvin com Kori foi o banho a dois do Capítulo 007.
+No começo do Capítulo 023, Corvin recomendou prevenção prática porque filhos são desejo futuro, não plano acidental imediato.
 
-Corvin explicou:
+- Ravena afirmou que cuidaria do próprio lado;
+- Kori afirmou que Tamaran possui métodos adequados para a biologia dela;
+- prevenção foi reconhecida como responsabilidade adulta compartilhada;
+- isso NÃO define quando haverá filhos;
+- desejo futuro de filhos com as duas permanece, sem gravidez atual estabelecida.
 
-- entrou na banheira nu porque queria Kori e esperava que ela percebesse;
-- não exigia que ela correspondesse fisicamente;
-- ela poderia ter recusado, dito que queria esperar ou dado qualquer resposta clara;
-- a frustração foi **ela não notar o desejo**, não ela deixar de satisfazê-lo.
+## Relação Corvin–Ravena
 
-Kori agora entende que perceber/considerar desejo não equivale a obrigação de atendê-lo.
+Estado atual:
 
-### Anel Solar e rota independente
-
-Depois que Corvin conheceu pessoalmente Tamaran, Caminhos pode abrir portais para locais tamaraneanos já conhecidos por ele; a máquina de busca não é mais necessária para esses destinos.
-
-Kori testou com sucesso o Anel Solar e a caixa vermelha em Tamaran.
-
-Consequência confirmada:
-
-- enquanto a caixa solar permanecer segura em Tamaran e a âncora do Refúgio existir, Kori pode abrir passagem por conta própria entre os dois mundos;
-- outras pessoas podem atravessar enquanto Kori mantiver a passagem aberta;
-- Kori controla a abertura com seu anel;
-- a localização permanente e o protocolo de segurança da caixa ainda NÃO foram definidos;
-- isso não cria infraestrutura interplanetária genérica nem dá à Coroa uma rota militar automática.
-
-Corvin também teve a ideia de criar no futuro outro anel/âncora para acesso direto de Kori à Torre dos Titãs.
-
-## Ravena / Elara — estado atual
-
-Ravena continua:
-
-- namorada de Corvin;
-- companheira de quarto;
-- parte da família dos três;
-- `arquiteta da biblioteca` em tom doméstico.
-
-### Casamento com Corvin — estado atualizado
-
-O antigo registro `Ravena não sabe se quer casar` NÃO é mais válido.
-
-Sob o pacto de verdade, Ravena afirmou:
-
-- ela **quer casar com Corvin**;
-- **já queria quando ele fez o pedido original**;
-- teve vontade de dizer sim naquela ocasião;
-- recuou porque Kori acabara de aceitar, Ravena acabara de reconhecer possível amor por Kori, estavam em outro planeta, Corvin havia acabado de morrer/reconstruir e casamento/família/futuro se tornaram reais de uma vez;
-- quando tudo se torna emocionalmente rápido demais, Ravena tende a frear;
-- depois que Corvin aceitou o `ainda não` sem pressão, prazo ou decepção visível, ela se acomodou naquele espaço e não precisou descobrir quanto tempo realmente queria.
-
-Ravena disse explicitamente:
-
-`[Ravena] — Eu quero casar com você. Já queria quando você perguntou.`
-
-Estado formal exato:
-
+- Ravena ama Corvin;
+- mantém vínculo romântico, íntimo e doméstico com ele;
 - Ravena **sabe que quer casar com Corvin**;
-- ainda não houve um novo aceite formal explícito do pedido original que a torne noiva em registro social;
-- portanto não resetar para dúvida sobre querer o casamento, mas também não inventar noivado formal sem nova ação/declaração correspondente.
+- afirmou que já queria quando ele fez o pedido original;
+- o antigo `ainda não` ocorreu por sobrecarga/velocidade emocional e depois virou zona confortável porque Corvin aceitou sem pressionar;
+- ainda NÃO houve novo aceite formal explícito que transforme Ravena em noiva registrada/socialmente.
 
-Ravena também descobriu que:
+Não resetar Ravena para dúvida sobre querer casamento.
 
-- Corvin considerava **ela** a certeza do pedido;
-- ele tinha dúvidas sobre Kori, mas não sobre Ravena;
-- o `ainda não` fez Corvin se perguntar se havia entendido errado a relação dos dois;
-- para Corvin, o pedido não era uma mudança súbita: casa, biblioteca, rotina e intimidade já constituíam uma vida compartilhada.
+Ravena também sabe:
 
-### Natureza de Corvin vista pela Empatia
+- Corvin a considerava a certeza no momento do pedido;
+- ele tinha dúvidas sobre Kori, mas não sobre ela;
+- o `ainda não` fez Corvin questionar se havia entendido a relação dos dois;
+- autocontrole de Corvin não significa ausência de desejo ou impulso.
 
-Ravena reconheceu que frequentemente sentia em Corvin:
+Reservada não significa medrosa nem sexualmente inexperiente dentro desse vínculo.
 
-- desejo intenso;
-- impulso;
-- instinto;
-- enorme autocontrole.
+## Relação Ravena–Kori — estado avançado
 
-Ela percebeu que vinha cometendo um erro conceitual: tratava o autocontrole como se anulasse o impulso.
+O estado `talvez exista algo` foi superado.
 
-Agora entende que ele apenas o governa.
+Cânone consolidado:
 
-Não voltar a transformar `Ravena reservada` em `Ravena tem medo recorrente da intensidade de Corvin` sem consequência ou desenvolvimento.
-
-## Ravena ↔ Kori — estado atual
-
-O estado `reciprocidade romântica sem beijo` foi superado.
-
-Consolidado nos capítulos 020–022:
-
-- ambas já sabiam que existia atração/afeto romântico;
-- Kori admitiu que já havia pensado em intimidade com os três;
-- Ravena respondeu diretamente que também queria;
-- no banho após o pacto, Ravena tomou a iniciativa do **primeiro beijo Ravena–Kori**;
+- amizade profunda e família escolhida continuam como base histórica real;
+- reciprocidade romântica já foi reconhecida;
+- primeiro beijo Ravena–Kori foi iniciado por Ravena no Capítulo 022;
 - Kori correspondeu;
-- houve segundo beijo e continuidade espontânea;
-- as duas participaram da primeira intimidade sexual realmente compartilhada do trio no ninho;
-- não existe necessidade de definir imediatamente um rótulo formal de namoro entre elas;
-- porém o vínculo NÃO pode voltar a ser narrado como `talvez exista algo`, `ainda sem beijo` ou hipótese abstrata;
-- a amizade anterior continua verdadeira e não é reescrita como romance secreto desde sempre;
-- o romance nasceu da experiência vivida e agora já possui ações concretas próprias.
+- ambas participaram de intimidade compartilhada com Corvin;
+- no Capítulo 023 tiveram **primeiro encontro intencional em par**;
+- Ravena chamou explicitamente de encontro;
+- almoçaram, caminharam, foram a uma livraria e tiveram conversa e beijos;
+- Kori presenteou Ravena com uma edição melhor de um livro que ela evitava comprar;
+- no dia seguinte, Kori e Ravena escolheram sair juntas novamente sem Corvin precisar sugerir;
+- houve mãos dadas e beijos repetidos;
+- Ravena decidiu não usar `preciso de tempo` automaticamente quando já sabe que quer algo;
+- Kori decidiu não tratar toda intensidade/possibilidade como problema antes de haver problema real.
 
-Não usar ciúme significativo como motor automático entre Kori, Ravena e Corvin. O trio tem longa intimidade doméstica compartilhada; o desenvolvimento atual deve partir de confiança, desejo, descoberta e escolhas novas, não de resets artificiais.
+Ainda não há necessidade de rótulo formal imediato, mas o vínculo é **romântico ativo e praticado**, não hipótese.
 
-## Intimidade compartilhada do trio — estado atual
+Não usar ciúme significativo como motor automático entre Corvin, Ravena e Kori.
 
-Capítulo 022 estabeleceu a primeira intimidade sexual realmente compartilhada entre Corvin, Kori e Ravena.
+## Intimidade compartilhada do trio
 
-Fatos canônicos:
+Capítulo 022 estabeleceu primeira intimidade sexual realmente compartilhada dos três.
 
-- Corvin admitiu que queria sexo com as duas juntas e nunca havia pedido porque desejava que isso partisse delas;
-- Ravena respondeu que queria;
-- Kori respondeu que queria;
-- Corvin propôs que não acontecesse na montanha, mas depois, no ninho;
-- as duas aceitaram;
-- depois do banho, os três levaram a intimidade ao ninho;
-- a cena foi fechada narrativamente sem necessidade de detalhamento gráfico;
-- mais tarde Kori e Ravena disseram espontaneamente que gostaram.
+Capítulo 023 confirmou que isso não foi evento único abstrato:
 
-Isso não cria consentimento automático futuro nem obrigação de repetição, mas elimina qualquer retorno narrativo ao estado `os três ainda nunca viveram isso`.
+- depois do jantar com Luand'r e Myand'r, Kori e Ravena brincaram com Corvin sobre sua `sentença` por tê-las chamado de `duas vezes mais problema`;
+- Corvin aceitou ir para o ninho no meio das duas e propôs `trabalho voluntário` com intenção sexual 18+;
+- Kori e Ravena entenderam e aceitaram;
+- houve nova noite íntima compartilhada, fechada narrativamente sem detalhamento gráfico.
 
-## Pacto por Gaia — encerrado
+Isso não cria consentimento automático futuro, mas confirma que intimidade a três é parte real e repetível da relação.
 
-Na Montanha, os três juraram por Gaia responder perguntas de forma direta, objetiva e com a verdade mais nua e crua possível até o começo da noite.
+## Pacto por Gaia — princípios canônicos
 
-Regras do pacto em cena:
+O pacto de verdade dos capítulos 020–022 já terminou.
 
-- obrigava **respostas**, não perguntas;
-- ninguém era forçado a ter curiosidade ou iniciar assunto;
-- `não sei` era válido quando verdadeiro;
-- acabou quando a noite começou.
+No Capítulo 023, Corvin explicou de forma canônica como acordos com Gaia funcionam.
 
-O pacto NÃO está ativo agora.
+### Três fundamentos
 
-O que permanece são os conhecimentos e mudanças produzidos por ele.
+A natureza reconhece:
 
-## Luand'r — conversa da manhã consolidada
+1. **clareza**;
+2. **justiça / equilíbrio**;
+3. **vontade / consentimento**.
 
-Enquanto Corvin estava sozinho na Montanha, Kori e Ravena conversaram longamente com Luand'r.
+Um acordo precisa ser justo ou pelo menos equilibrado **por natureza**.
 
-Luand'r não funcionou como terapeuta ou oráculo, mas como mãe e mulher casada experiente.
+Consentimento não torna uma troca injusta legítima.
 
-Pontos persistentes:
+Exemplo de Corvin: mesmo que Luand'r e Myand'r aceitassem livremente entregar o reino em troca de um jantar, não haveria equilíbrio suficiente para sustentar o pacto.
 
-- percorreu com as duas a história desde Black Harbor, anéis, Refúgio, biblioteca, busca de Tamaran, máquina, Desafio e rota independente;
-- perguntou o que Corvin havia exigido em troca dessas escolhas;
-- destacou que ele fez escolhas por elas, mas não as transformou em dívidas;
-- apontou que Kori e Ravena sabiam muito sobre aquilo que Corvin **aceita**, menos sobre aquilo que ele **prefere**;
-- estabeleceu a distinção `eu aceito esperar` ≠ `eu quero esperar`;
-- disse que liberdade real não remove responsabilidade relacional;
-- afirmou que Kori não está casando com o próprio direito de escolher — esse direito já é dela — mas com uma pessoa;
-- percebeu que as duas haviam ficado `mal-acostumadas` à acomodação de Corvin;
-- recomendou que permitissem a Corvin raiva, frustração ou decepção sem exigir que ele encerrasse tudo consolando-as;
-- não sugeriu checklist ou interrogatório; o aprendizado deve aparecer em atenção cotidiana e reciprocidade.
+Os termos precisam ser explicados antes porque:
 
-Essa conversa mudou o modelo mental das duas, mas não as transformou instantaneamente em pessoas perfeitas.
+- quem ficará preso à regra precisa saber exatamente onde está entrando;
+- precisa poder avaliar se o acordo é justo/equilibrado;
+- precisa ter opção real de dizer não;
+- enganar alguém para obter um `sim` não produz vontade/consentimento legítimo.
 
-## Modelo relacional/casamento de Tamaran
+Uma vez aceito, durante o prazo acordado, não existe renegociação unilateral por arrependimento.
+
+### Demonstração das palmas
+
+Corvin, Luand'r e Myand'r fizeram um acordo simples por um minuto:
+
+- quando um dos três estalasse os dedos, os outros dois bateriam palmas rápida e involuntariamente;
+- mesma obrigação para os três;
+- mesmo efeito e responsabilidade;
+- duração exata de um minuto.
+
+Luand'r e Myand'r aceitaram depois de compreender os termos.
+
+O efeito funcionou para os três.
+
+Quando o minuto acabou, Corvin estalou os dedos e nada aconteceu.
+
+Interpretação canônica:
+
+- Corvin não sustenta pessoalmente uma compulsão arbitrária;
+- os participantes colocam uma regra clara, justa e escolhida diante de Gaia;
+- o próprio planeta/natureza sob os pés transforma essa regra em lei temporária;
+- a natureza não mente nem para si mesma;
+- Corvin também fica preso à regra quando é participante.
+
+Luand'r declarou que essa demonstração retirou algumas dúvidas importantes sobre o alcance e os limites desse poder.
+
+## Luand'r — estado atual
+
+Luand'r é Rainha de Tamaran e mãe de Kori, mas cenas familiares devem permitir que ela funcione como pessoa/mãe/esposa, não apenas cargo.
+
+Ela conhece:
+
+- o Ciclo da Vida de Corvin;
+- risco de morte definitiva enquanto cinza;
+- rota independente de Kori;
+- principais revelações do pacto de verdade;
+- desenvolvimento Ravena–Kori;
+- princípios dos acordos com Gaia.
+
+### Anel pessoal de Luand'r — CONCLUÍDO E OPERACIONAL
+
+O projeto prometido no Capítulo 018 foi concluído no Capítulo 023.
+
+Características:
+
+- anel pessoal de Luand'r;
+- design final: pequeno **sol estilizado**;
+- não é instrumento da Coroa;
+- não possui função militar;
+- destino terrestre: **solário no topo da Montanha**;
+- Corvin entregou primeiro o anel a Myand'r para que ele o entregasse à esposa, por cautela com simbolismo terrestre de anéis;
+- existe uma pequena **caixa-âncora** para o lado tamaraneano;
+- a caixa deve permanecer nos aposentos privados de Luand'r e Myand'r em Tamaran;
+- o anel abre uma **porta**, não teleporte individual;
+- qualquer pessoa pode atravessar enquanto a passagem estiver aberta;
+- portanto Luand'r e Myand'r podem viajar juntos.
+
+Treinamento concluído:
+
+1. Luand'r encontrou Myand'r como referência íntima/móvel a poucos metros e abriu passagem até ele;
+2. Corvin levou o casal ao solário e ensinou Luand'r a memorizar sensação/familiaridade, não coordenadas;
+3. de Tamaran, Luand'r abriu passagem até o solário com sucesso;
+4. depois, do solário, abriu passagem de volta para Myand'r/Tamaran;
+5. no fim do Capítulo 023, Luand'r e Myand'r usaram a rota por conta própria para voltar a Tamaran depois do jantar.
+
+Se Luand'r não conseguir reconhecer/encontrar o destino, Corvin pode trazê-la de volta; porém ela já demonstrou domínio funcional da rota prevista.
+
+## Myand'r — estado atual
+
+Nome canônico do Rei/pai de Kori: **Myand'r**.
+
+Estado:
+
+- Rei de Tamaran;
+- marido de Luand'r;
+- pai de Kori;
+- reconheceu que Corvin passou no Desafio da Coroa;
+- reconhece que Kori decide por si;
+- viu a rota independente de Kori funcionar;
+- recebeu de Corvin o anel de Luand'r e o entregou à esposa;
+- conhece a lógica da caixa-âncora;
+- visitou o Refúgio no Capítulo 023;
+- conheceu oficina, laboratório e biblioteca;
+- participou da demonstração do pacto com Gaia;
+- entende melhor a natureza dual de Corvin como destruição/construção;
+- Corvin percebe Myand'r como a maior assinatura tamaraneana de energia/calor que encontrou.
+
+### Revanche futura / `caça em família`
+
+Corvin e Myand'r transformaram em brincadeira recorrente a ideia de uma revanche recreativa.
+
+Cânone real por trás da piada:
+
+- somente depois de Corvin voltar ao **verde**;
+- sem valor político;
+- não repete o Desafio da Coroa;
+- lugar desabitado/controlado;
+- Corvin pretende levar poções de cura;
+- sem avatar colossal/gigante de pedra;
+- luta entre os dois;
+- Kori, Ravena e Luand'r consideram a ideia ruim, mas todas admitiram que provavelmente assistirão;
+- o nome `caça em família` é humor familiar, não tradição jurídica tamaraneana.
+
+A brincadeira sobre `Duelo de Helena` foi explicitamente hipotética/piada e não acrescenta regra ou plano sério.
+
+## Titãs — estado atual
+
+Dick, Victor e Garfield **não estão mais presos em Tamaran**.
+
+No Capítulo 023:
+
+- Kori e Ravena voltaram a Tamaran;
+- encontraram Victor com engenheiros, Dick mantendo a diplomacia e Garfield explorando comida;
+- Kori usou o Anel Solar para levar o grupo ao Refúgio;
+- depois retornaram à Torre pelos meios normais;
+- Dick agradeceu;
+- Kori reconheceu que os três tinham sido esquecidos na noite anterior, embora estivessem seguros.
+
+Estado atual: Dick, Victor e Garfield estão de volta à vida normal/Torre, salvo nova cena que altere isso.
+
+## Refúgio / obras — estado atualizado
+
+### Biblioteca
+
+Estrutura principal já consolidada:
+
+- espaço ampliado;
+- teto alto;
+- pilar integrado;
+- futuro mezanino previsto.
+
+Ideias discutidas no Capítulo 023, ainda NÃO automaticamente construídas:
+
+- mezanino parcial no fundo e numa lateral;
+- mesa grande de pesquisa;
+- organização por uso, não só assunto;
+- estantes altas nas paredes/mezanino e mais baixas na área de leitura;
+- nicho/área de leitura com sofá/poltrona e luz mais baixa;
+- iluminação por zonas;
+- runas discretas de iluminação;
+- espaço vazio para livros futuros de Corvin, Ravena e Kori;
+- uma rede desejada por Kori e aceita com resistência bem-humorada por Ravena.
+
+### Solário
+
+Ainda em construção.
+
+Ideias atuais:
+
+- área aberta para sol e voo;
+- plantas terrestres e tamaraneanas;
+- considerar ciclos de luz/necessidades próprias das plantas de Tamaran;
+- água rasa/corrente integrada às plantas, não segunda piscina;
+- torre de aproximadamente 30 m continua no projeto de Kori;
+- plataforma de voo continua associada ao projeto;
+- Luand'r chega pelo solário quando visita a Terra.
+
+### Ligação solário ↔ casa
+
+Ainda NÃO construída.
+
+Corvin planeja usar **dois espelhos vinculados**, não túnel físico.
+
+Conceito técnico declarado:
+
+- molduras geometricamente equivalentes;
+- prata como malha condutora principal;
+- ouro nos canais externos;
+- platina em nós de estabilização;
+- matrizes rúnicas invertidas;
+- as superfícies compartilham uma fronteira espacial quando ativadas;
+- desligado = espelho;
+- ligado = porta;
+- não é teleporte nem Caminhos;
+- os dois espelhos conhecem apenas um ao outro;
+- passagem bidirecional fixa entre dois pontos conhecidos;
+- deve possuir falha fechada se superfície/matriz for danificada;
+- destino interno deverá ser **área comum**, não ninho/quarto privado.
+
+Enquanto essa ligação não existe, quem chega ao solário precisa usar a entrada atual da Montanha.
+
+### Mesa / sala de jantar
+
+Corvin comprou uma mesa maior para receber Luand'r e Myand'r.
+
+Ela foi colocada temporariamente na oficina, que foi reorganizada para o jantar.
+
+Corvin continua tendo preferência já conhecida por uma sala de jantar dedicada.
+
+A sala ainda não foi construída automaticamente.
+
+### Piscina / ninho
 
 Continua válido:
 
-- relações múltiplas não são problema por si mesmas em Tamaran quando há escolha, afeto e respeito;
-- casamento plural é uma **única união familiar plural**, não uma coleção obrigatória de casamentos separados por pares;
-- cada integrante precisa escolher entrar;
-- os vínculos emocionais entre cada dupla não precisam ser idênticos;
-- para Sangue Real, casamento formal ainda implica registro, títulos, sucessão e protocolo da Coroa;
-- a Coroa não escolhe o parceiro por Kori.
-
-Ravena deixou explícito anteriormente que Trigon não possui voto ou autoridade sobre eventual casamento dela.
-
-## Luand'r — Rainha e mãe de Kori
-
-O nome pessoal da Rainha é **Luand'r**.
-
-Antes dos capítulos atuais, Corvin já havia pedido explicitamente para falar com `Luand'r, mãe de Kori`, não com a Rainha.
-
-Também permanece válido:
-
-- Luand'r conhece o Ciclo da Vida e o risco atual de morte definitiva;
-- pediu que Corvin escolha voltar para casa quando houver essa possibilidade antes de recorrer ao sacrifício;
-- viu o Refúgio, solário e projetos através de Caminhos;
-- conheceu pequenas preferências terrestres de Kori;
-- sabe que Kori possui rota independente pelo Anel Solar;
-- entendeu que a filha pode partir sem transformar partida em perda definitiva;
-- Corvin prometeu criar no futuro um anel pessoal para Luand'r visitar Kori na Terra;
-- o anel será de Luand'r, não da Coroa, sem uso militar;
-- destino terrestre planejado: solário no topo da Montanha;
-- o anel ainda NÃO foi fabricado.
-
-## Rei de Tamaran — estado atual
-
-O Rei:
-
-- reconheceu que Corvin passou no Desafio;
-- retirou a objeção de indignidade da Coroa;
-- sabe que Corvin é um meio-deus da natureza;
-- testemunhou a manifestação colossal;
-- reconheceu que decidir se Kori permanece ao lado de Corvin não cabe a ele;
-- viu a rota independente do Anel Solar funcionar;
-- sabe que Kori pode ir e voltar por escolha própria;
-- ainda precisa lidar com consequências políticas de sucessão, títulos e protocolo;
-- demonstrou curiosidade sobre visitar o Refúgio para tomar café, mas essa visita ainda NÃO ocorreu.
-
-## Titãs em Tamaran
-
-Dick, Victor e Garfield continuam em Tamaran.
-
-Eles permanecem família escolhida de Kori e não foram substituídos pela família real.
-
-O trio Corvin/Kori/Ravena voltou ao Refúgio durante os eventos dos capítulos 020–022; Dick, Victor e Garfield não foram narrados retornando com eles.
-
-A volta planejada do trio para Tamaran no dia seguinte pode reuni-los novamente.
-
-## Refúgio / obras
-
-O Refúgio continua sendo uma das casas de Kori, Ravena e Corvin.
-
-Estado das obras preservado:
-
-- biblioteca ampliada, ainda com detalhes/projeto em andamento;
-- solário no topo da Montanha ainda NÃO concluído;
-- torre/estrutura externa ainda em construção;
-- pista de pouso/acesso externo planejada/em preparação;
-- proposta de ampliar a única piscina/câmara termal e criar ligação direta ninho→banho continua projeto, não obra concluída;
+- existe uma única piscina/câmara termal;
+- proposta de ampliação e ligação ninho→banho continua projeto, não obra concluída;
 - não existe segunda piscina privada;
-- sala de jantar e quarto maior são agora preferências conhecidas de Corvin, mas ainda não projetos autorizados automaticamente.
+- Corvin dorme num `ninho` por preferência estética e funcional, não por significado oculto obrigatório.
+
+## Relação com Luand'r e Myand'r / jantar familiar
+
+Capítulo 023 estabeleceu primeira visita real dos pais de Kori ao Refúgio como convidados familiares.
+
+Eles:
+
+- chegaram por conta própria ao solário;
+- usaram a entrada normal da Montanha;
+- conheceram oficina, laboratório e biblioteca;
+- jantaram com Corvin, Kori e Ravena;
+- conversaram sobre Tamaran, Terra, natureza de Corvin, arquitetura e pactos;
+- voltaram juntos a Tamaran usando o anel de Luand'r.
+
+Importante: a visita foi tratada como **pais de Kori jantando na casa da filha**, não inspeção oficial de Rei/Rainha.
+
+Luand'r e Myand'r sabem que Corvin prefere ponto de chegada externo/comum porque sogros aparecendo diretamente em quarto/ninho seria invasivo.
 
 ## Continuidade temática obrigatória
 
 Preservar:
 
-- Kori não está presa em Tamaran; o que a liga ao planeta são família, povo, responsabilidade e amor;
-- Tamaran e Terra são duas casas reais, não opções mutuamente excludentes;
-- Corvin não decide por Kori; Rei e Coroa também não;
-- autonomia não deve ser usada como escudo narrativo automático contra todo desejo, frustração ou preferência de Corvin;
-- `Corvin respeita um não` não significa `Corvin quer esperar`, `Corvin não se frustra` ou `Corvin permanecerá para sempre`;
-- Ravena sabe que quer casar com Corvin; não resetar para dúvida sobre esse desejo;
-- Ravena ainda não formalizou novo `sim` ao pedido, portanto não inventar noivado formal;
-- Kori e Ravena já se beijaram e viveram intimidade sexual compartilhada; não resetar para `ainda sem beijo` ou mera hipótese romântica;
-- a intimidade dos três já aconteceu; não tratá-la como marco futuro ainda pendente;
-- gentileza de Corvin é escolha e parte real dele, não toda a essência nem serviço devido;
-- Kori e Ravena aprenderam algo real sobre suas próprias acomodações; isso deve alterar comportamento futuro espontaneamente, ainda que possam errar de novas formas;
-- personagens IA devem carregar desenvolvimento adiante sem esperar Corvin pedir que lembrem;
-- desejo pode ser reconhecido sem ser satisfeito; reconhecer não cria obrigação;
-- Corvin quer suas próprias preferências consideradas, não apenas sua capacidade de aceitar as preferências alheias;
-- a caixa solar em Tamaran ainda precisa de localização segura/permanente;
-- o anel prometido a Luand'r e o futuro acesso direto de Kori à Torre ainda são projetos;
-- Corvin continua cinza e uma nova morte antes do reinício do ciclo seria definitiva;
-- não assumir restauração mecânica silenciosa após reconstrução;
-- o Desafio resolveu apenas a objeção de indignidade, não toda a política real.
+- Kori não está presa em Tamaran; família, povo, responsabilidade e amor a ligam ao planeta;
+- Terra e Tamaran são duas casas reais;
+- autonomia não é escudo narrativo contra todo desejo ou frustração de Corvin;
+- `Corvin aceita esperar` ≠ `Corvin quer esperar`;
+- Kori e Ravena carregam o aprendizado dos capítulos 020–023 sem precisar que Corvin peça;
+- Ravena sabe que quer casar com Corvin; não resetar essa certeza;
+- Ravena ainda não formalizou novo `sim` ao pedido;
+- Ravena–Kori já possui encontros e beijos próprios; não resetar para hipótese;
+- intimidade dos três já aconteceu mais de uma vez; não tratar como marco futuro pendente;
+- gentileza de Corvin é escolha e parte verdadeira dele, não toda a essência;
+- humor de Corvin não viola `A Natureza Não Mente` quando claramente não há intenção de enganar;
+- Luand'r já tem porta pessoal operacional até o solário;
+- Dick, Victor e Garfield já voltaram à Torre;
+- espelho solário↔área comum é projeto, não obra pronta;
+- caixa solar de Kori ainda precisa de localização/protocolo permanente claramente definido;
+- eventual acesso direto de Kori à Torre por novo anel continua projeto;
+- Corvin continua cinza e nova morte antes do reinício seria definitiva;
+- Desafio da Coroa resolveu indignidade, não sucessão, títulos ou restante da política real;
+- AI characters must advance themselves from what they now know instead of resetting.
 
 ## Próxima abertura
 
-Continuar **na manhã seguinte no Refúgio ou no primeiro evento significativo imediatamente ligado à volta para Tamaran**.
+Continuar na **manhã no Refúgio**, imediatamente após:
 
-Plano já declarado em cena:
+- Corvin ter acordado cedo;
+- arrumado a mesa;
+- preparado café;
+- Kori e Ravena terem acordado e se juntado a ele.
 
-- Kori disse que no dia seguinte voltariam para Tamaran;
-- Ravena concordou;
-- não inventar detalhes adicionais da manhã ou da execução do retorno em nome de Corvin antes de nova declaração humana, salvo ações rotineiras involuntárias/sem escolha relevante permitidas pelas regras.
-
-O próximo capítulo deve partir do novo estado relacional conquistado, não reabrir como dúvida aquilo que os capítulos 020–022 já resolveram.
+Não inventar nova ação, fala ou decisão voluntária de Corvin antes da próxima declaração humana.
