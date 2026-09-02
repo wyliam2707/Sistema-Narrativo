@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 TEMPORADA ATIVA: 2
 ROTEIRO: `mestre/roteiro.md`
-ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/014.md`
+ÚLTIMO CAPÍTULO FECHADO: `livro/temporada-2/019.md`
 
 MOMENTO OPERACIONAL: **fim da noite em Tamaran. Corvin, Kori e Ravena estão juntos em uma grande cama de hóspedes no palácio depois de um dia que resolveu o Desafio da Coroa, estabeleceu o noivado Corvin–Kori, confirmou reciprocidade romântica inicial entre Ravena e Kori e demonstrou uma rota independente de Kori entre Tamaran e o Refúgio. Dick, Victor e Garfield estão em aposentos de hóspedes próximos. A Temporada 2 continua ativa.**
 
