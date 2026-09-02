@@ -27,8 +27,9 @@ A temporada explora:
 - casa, visitas, convivência e espaço individual;
 - vínculos em pares coexistindo sem paridade obrigatória;
 - família compartilhada já concretamente formada;
-- romance Ravena–Kori surgido da experiência vivida e agora já expresso em beijo e intimidade;
+- romance Ravena–Kori surgido da experiência vivida e agora já expresso em encontros, beijos repetidos e intimidade;
 - Tamaran como parte real da identidade e da casa de Kori;
+- família real capaz de aparecer como família de Kori, não apenas instituição política;
 - aventura e conflito quando surgem organicamente das escolhas já feitas.
 
 ## Problema central atual
@@ -43,11 +44,19 @@ Corvin, Ravena e Kori se reconhecem como uma família compartilhada, mantêm ví
 
 O arco de Tamaran respondeu outra parte importante: Kori pode manter duas casas e possui rota independente entre Tamaran e o Refúgio.
 
-Os Capítulos 020–022 trouxeram uma nova pergunta:
+Os Capítulos 020–022 trouxeram outra pergunta:
 
 > **Como os três continuam juntos quando deixam de esconder desejos atrás de verdades parciais — e quando a gentileza de Corvin deixa de ser tratada como infraestrutura automática?**
 
-O arco de Tamaran continua ativo porque ainda existem família real, Conselho, títulos, sucessão, segurança da âncora, novos anéis e integração prática entre as duas casas.
+O Capítulo 023 começou a responder pela prática:
+
+- Kori e Ravena passaram a criar tempo juntas por iniciativa própria;
+- Luand'r ganhou rota pessoal independente até a Montanha;
+- Myand'r e Luand'r jantaram no Refúgio como família;
+- o trio repetiu intimidade compartilhada sem tratá-la como novo marco extraordinário;
+- projetos domésticos avançaram de `meu espaço` para `nossa casa`.
+
+O arco de Tamaran continua ativo porque ainda existem Conselho, títulos, sucessão, segurança da âncora de Kori e integração prática de longo prazo entre as duas casas.
 
 ## Verdades já consolidadas
 
@@ -72,7 +81,8 @@ O arco de Tamaran continua ativo porque ainda existem família real, Conselho, t
 - Kori descobriu que Corvin tinha medo real de uma recusa dela ao casamento;
 - Corvin afirmou que, se Kori dissesse não ao casamento, ainda continuaria com ela;
 - Corvin também deixou claro que respeitar uma escolha dela não significa aceitar qualquer configuração de relação para sempre;
-- Kori reconheceu que vinha tratando a compreensão/paciência de Corvin como algo garantido demais.
+- Kori reconheceu que vinha tratando a compreensão/paciência de Corvin como algo garantido demais;
+- Kori decidiu parar de tratar toda intensidade de Corvin como problema antes de existir problema real.
 
 ### Ravena–Kori
 
@@ -82,22 +92,24 @@ Agora é canônico:
 
 - amizade profunda e família escolhida continuam sendo a base histórica real;
 - Kori e Ravena reconheceram reciprocidade romântica;
-- Kori admitiu que já havia pensado nos três juntos;
-- Ravena admitiu que também queria;
-- Ravena tomou a iniciativa do **primeiro beijo Ravena–Kori** no Capítulo 022;
-- Kori correspondeu e houve continuidade espontânea;
-- as duas participaram de intimidade sexual compartilhada com Corvin;
-- ainda não existe necessidade de rótulo formal imediato para a relação das duas;
+- Ravena tomou a iniciativa do primeiro beijo no Capítulo 022;
+- Kori correspondeu;
+- as duas participaram de intimidade compartilhada com Corvin;
+- no Capítulo 023 tiveram primeiro encontro intencional em par;
+- houve almoço, caminhada, livraria, presente de Kori para Ravena e beijos;
+- no dia seguinte elas mesmas escolheram sair juntas novamente;
+- houve mãos dadas e novos beijos;
+- Ravena decidiu não usar `preciso de tempo` automaticamente quando já sabe que quer algo;
 - o vínculo NÃO deve voltar a ser tratado como hipótese abstrata, `talvez exista algo` ou `ainda sem beijo`;
-- a amizade anterior não deve ser reescrita retroativamente como romance reprimido desde sempre.
+- ainda não existe necessidade de rótulo formal imediato.
 
 ### Estrutura compartilhada
 
 - não existe triângulo de ciúme automático;
-- os três já dividem cama, carinho, proximidade, nudez, rotina doméstica e agora intimidade sexual compartilhada;
+- os três já dividem cama, carinho, proximidade, nudez, rotina doméstica e intimidade sexual compartilhada;
 - momentos em pares são normais;
 - nenhuma relação precisa ter a mesma forma ou intensidade das outras;
-- intimidade compartilhada já aconteceu e não deve ser tratada como marco futuro pendente;
+- intimidade compartilhada já aconteceu mais de uma vez e não deve ser tratada como marco futuro pendente;
 - Torre, Refúgio e Tamaran são partes coexistentes da vida do núcleo protagonista;
 - novas escolhas devem partir desse estado avançado, não recriar inseguranças antigas por conveniência dramática.
 
@@ -149,8 +161,7 @@ Agora é canônico:
 - Luand'r soube do noivado;
 - conversou com Corvin como mãe, não apenas como Rainha;
 - conheceu o Refúgio, a vida terrestre de Kori e a nova rota independente;
-- Corvin prometeu um futuro anel pessoal para Luand'r, sem uso militar e com destino ao solário da Montanha;
-- o anel ainda não foi fabricado.
+- Corvin prometeu um futuro anel pessoal para Luand'r, sem uso militar e com destino ao solário da Montanha.
 
 ### 019 — As Duas Casas
 
@@ -203,10 +214,40 @@ O pacto revelou:
 - o trio voltou ao Refúgio para banho e ninho;
 - Ravena iniciou o primeiro beijo com Kori;
 - houve primeira intimidade sexual realmente compartilhada do trio;
-- Kori e Ravena disseram espontaneamente que gostaram;
-- a noite terminou com plano de voltar a Tamaran no dia seguinte.
+- Kori e Ravena disseram espontaneamente que gostaram.
 
-## Regra temática nova: autonomia não é escudo
+## Desenvolvimento recente — Capítulo 023
+
+### 023 — Uma Mesa Maior
+
+- Corvin recomendou contracepção prática para Kori e Ravena porque filhos são desejo futuro, não plano acidental imediato;
+- Corvin passou aproximadamente dois dias forjando o anel pessoal prometido a Luand'r;
+- Kori e Ravena conversaram de novo com Luand'r sobre o pacto de verdade e mudanças que pretendem carregar adiante;
+- Kori e Ravena devolveram Dick, Victor e Garfield à Torre;
+- Kori e Ravena tiveram primeiro encontro intencional em par e depois escolheram repetir por conta própria;
+- houve beijos repetidos, mãos dadas e presente de Kori para Ravena;
+- o anel de Luand'r foi concluído com design de pequeno sol;
+- Corvin entregou o anel primeiro a Myand'r para que o marido o entregasse à esposa, por simbolismo terrestre de anéis;
+- Luand'r aprendeu a abrir passagem Tamaran→solário e solário→Tamaran usando familiaridade/sensação, não distância;
+- a pequena caixa-âncora deverá permanecer nos aposentos privados de Luand'r e Myand'r;
+- a porta de Luand'r permite que Myand'r atravesse junto;
+- Luand'r e Myand'r visitaram oficina, laboratório e biblioteca do Refúgio;
+- Corvin e Myand'r criaram a brincadeira `caça em família` para uma futura revanche recreativa apenas quando Corvin voltar ao verde;
+- Corvin comprou uma mesa maior e recebeu Luand'r e Myand'r para jantar no Refúgio;
+- o jantar tratou os dois como pais de Kori, não como visita oficial da Coroa;
+- Corvin demonstrou um pacto simples com Gaia a Luand'r e Myand'r;
+- ficou canônico que um pacto exige clareza, justiça/equilíbrio e vontade/consentimento;
+- a natureza/planeta sustenta a regra aceita como lei temporária;
+- consentimento não torna uma troca profundamente injusta legítima;
+- Corvin explicou que `A Natureza Não Mente` não elimina humor ou metáfora quando não há intenção de enganar;
+- Corvin descreveu Myand'r como maior assinatura tamaraneana de energia/calor já percebida e Luand'r como intensidade mais controlada;
+- Kori e Ravena refinaram ideias de solário e biblioteca;
+- Corvin planeja ligar solário e área comum do Refúgio por dois espelhos vinculados de ouro, prata, platina e runas, sem túnel físico;
+- Luand'r e Myand'r voltaram sozinhos para Tamaran pela porta dela;
+- Corvin, Kori e Ravena tiveram nova noite íntima compartilhada;
+- na manhã seguinte Corvin arrumou a mesa, fez café e Kori/Ravena se juntaram a ele.
+
+## Regra temática: autonomia não é escudo
 
 Preservar rigorosamente:
 
@@ -229,7 +270,22 @@ Continua válido:
 - capacidade mecânica disponível pós-reconstrução ainda não foi reavaliada;
 - não restaurar silenciosamente P4 disponível;
 - não manter silenciosamente P2 exato sem nova checagem legítima;
-- emoções podem escalar rapidamente, mas ações continuam escolhas.
+- emoções podem escalar rapidamente, mas ações continuam escolhas;
+- o estado cinza pode amplificar a vontade de procurar desafio, mas não inventa desejos que desaparecerão quando voltar ao verde.
+
+## Pactos com Gaia — regra atual
+
+Os termos canônicos agora são claros:
+
+- **clareza**: todos precisam saber exatamente a regra;
+- **justiça/equilíbrio**: a troca não pode colocar todo o custo absurdo de um lado apenas porque alguém aceitou;
+- **vontade/consentimento**: cada participante precisa poder escolher livremente entrar ou recusar;
+- explicar os termos antes é parte necessária para que a escolha seja real;
+- uma vez aceito, o pacto não é renegociado unilateralmente durante sua duração;
+- Corvin fica submetido ao mesmo pacto quando é participante;
+- a natureza/planeta transforma a regra aceita em lei temporária.
+
+Não transformar isso em mecanismo casual para resolver todo conflito.
 
 ## Tamaran — função do conflito
 
@@ -251,38 +307,63 @@ Os pais podem amar Kori sinceramente e ainda discordar de escolhas dela.
 
 O Rei já reconheceu que Kori decide por si.
 
-Luand'r já reconheceu que a rota independente transforma partida em escolha, não perda definitiva.
+Luand'r já possui rota pessoal até a Montanha e a visita do Capítulo 023 mostrou que família tamaraneana pode integrar a vida terrestre sem substituir a Coroa ou o Refúgio.
+
+## Refúgio / integração doméstica
+
+Estado atual:
+
+- biblioteca ampliada e estruturalmente consolidada, detalhes ainda em projeto;
+- solário ainda não concluído;
+- torre/plataforma ainda em projeto/construção;
+- ligação solário↔Refúgio por espelhos vinculados ainda NÃO construída;
+- ponto interno planejado deve ser área comum;
+- mesa maior existe atualmente na oficina depois do jantar;
+- sala de jantar dedicada continua preferência conhecida de Corvin, não obra automática;
+- única piscina/câmara termal continua existente; não há segunda piscina privada;
+- proposta de ligação ninho→banho continua projeto;
+- Luand'r chega ao solário pela própria rota;
+- Myand'r pode atravessar com ela.
 
 ## Pendências reais
 
 Ainda estão abertas:
 
-- localização permanente e segurança da caixa solar em Tamaran;
-- fabricação do anel pessoal prometido a Luand'r;
+- localização permanente e protocolo de segurança da caixa solar de Kori em Tamaran;
 - eventual âncora/anel para acesso direto de Kori à Torre dos Titãs;
-- conclusão do solário e demais obras do Refúgio;
-- possível sala de jantar e quarto maior, agora conhecidos como preferências de Corvin, mas não autorizados automaticamente;
+- conclusão do solário, torre, biblioteca e demais obras do Refúgio;
+- construção efetiva dos espelhos vinculados solário↔área comum;
+- possível sala de jantar e quarto maior, conhecidos como preferências de Corvin mas não autorizados automaticamente;
 - sucessão, títulos, registro, cerimônia e protocolo ligados ao casamento real;
-- situação formal de Ravena: ela sabe que quer casar com Corvin, mas ainda não realizou novo aceite formal;
-- forma futura do vínculo Ravena–Kori, que já existe concretamente mas ainda não precisa de rótulo imediato;
+- situação formal de Ravena: sabe que quer casar com Corvin, mas ainda não realizou novo aceite formal;
+- forma futura do vínculo Ravena–Kori, já romântico e ativo, ainda sem necessidade de rótulo imediato;
 - recuperação/ciclo cinza de Corvin;
-- eventual visita do Rei ao Refúgio;
-- continuação da convivência entre Titãs e família real.
+- eventual revanche recreativa Corvin–Myand'r somente depois do retorno ao verde;
+- continuação natural da integração entre Titãs, família real e Refúgio.
+
+Itens que NÃO são mais pendência:
+
+- anel pessoal de Luand'r: **concluído e operacional**;
+- primeira visita de Myand'r ao Refúgio: **já ocorreu**;
+- retorno de Dick, Victor e Garfield à Terra/Torre: **já ocorreu**;
+- primeiro encontro Ravena–Kori em pares: **já ocorreu**.
 
 ## Ponto operacional atual
 
 Seguir `estado/atual.md`.
 
-Fim do Capítulo 022:
+Fim do Capítulo 023 / início da próxima manhã:
 
-- Corvin, Kori e Ravena dormem no ninho do Refúgio;
-- o pacto por Gaia já terminou;
-- Dick, Victor e Garfield permanecem em Tamaran;
-- Kori disse que no dia seguinte voltariam a Tamaran;
-- Ravena concordou;
-- nenhuma nova iniciativa de Corvin foi declarada depois disso.
+- Corvin está no Refúgio;
+- acordou cedo;
+- arrumou a mesa do jantar;
+- preparou café;
+- Kori e Ravena já acordaram e se juntaram a ele;
+- Luand'r e Myand'r estão em Tamaran e possuem rota funcional para retornar ao solário;
+- Dick, Victor e Garfield estão de volta à Torre;
+- nenhuma nova iniciativa de Corvin foi declarada depois do café.
 
-A próxima abertura deve acontecer na manhã seguinte no Refúgio ou no primeiro evento significativo ligado à volta para Tamaran.
+A próxima abertura deve acontecer nessa manhã ou no primeiro evento significativo subsequente.
 
 Não resetar desenvolvimento relacional conquistado.
 
@@ -293,14 +374,14 @@ A direção planejada detalhada está em `mestre/temporadas/temporada-2-possivel
 Preservar especialmente:
 
 - Tamaran como sociedade e casa, não dungeon;
-- pais de Kori como pessoas capazes de amor real e conflito real;
+- pais de Kori como pessoas capazes de amor real, humor, família e conflito real;
 - Aparência Inofensiva fazendo Corvin parecer um mortal terrestre comum quando relevante;
 - objeções dinásticas baseadas em Sangue Real, sucessão, protocolo e consequências institucionais, não em posse sexual de Kori;
 - qualquer tradição/desafio nunca decidir `quem fica com Kori`; ela decide isso;
 - qualquer resultado incerto importante deve ser jogado ao vivo e não predeterminado;
 - Fúria da Terra pode revelar a natureza real de Corvin por meio da natureza alienígena de Tamaran sem restaurar automaticamente poder gasto;
 - qualquer fala ou nova escolha importante de Corvin depende do Jogador Humano;
-- romance Ravena–Kori já avançou: não reabrir a pergunta de existência, mas permitir novas escolhas reais a partir do que já aconteceu;
+- romance Ravena–Kori já avançou para encontros próprios e beijos repetidos: não reabrir a pergunta de existência;
 - possível casamento só ocorre por escolhas legitimamente feitas ao vivo;
 - retorno ao Refúgio continua imagem temática importante, mas já não precisa significar abandono de Tamaran.
 
