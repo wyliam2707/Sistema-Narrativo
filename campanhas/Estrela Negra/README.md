@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 Temporada ativa: 2
 Última temporada encerrada: 1
-Último capítulo fechado: `livro/temporada-2/022.md`
+Último capítulo fechado: `livro/temporada-2/023.md`
 Epílogo da Temporada 1: `livro/temporada-1/epilogo.md`
 Resumo da temporada anterior: `livro/temporada-1/resumo-da-temporada.md`
 Mapa de eventos da Temporada 1: `livro/temporada-1/mapa-de-eventos.md`
@@ -78,7 +78,8 @@ Capítulos fechados até agora:
 - `livro/temporada-2/019.md` — **As Duas Casas**: Kori leva Corvin, Ravena e os Titãs para conhecer comida, mercados, céu e cotidiano de Tamaran; o dia termina com as duas famílias dela no mesmo planeta e, à noite, Corvin, Kori e Ravena escolhem dormir juntos no palácio sem transformar a escolha em vitória de uma casa sobre a outra;
 - `livro/temporada-2/020.md` — **O Preço de Esperar**: a manhã expõe a diferença entre Corvin aceitar esperar e querer esperar; Kori e Ravena conversam longamente com Luand'r, percebem que se acostumaram a tratar a paciência de Corvin como infraestrutura, voltam ao Refúgio e o encontram descarregando horas de tempestade antes de os três firmarem um pacto de verdade até o anoitecer;
 - `livro/temporada-2/021.md` — **A Verdade Até a Noite**: o pacto revela a decepção de Corvin pela demora, antigas frustrações, preferências domésticas, o fato de Ravena já querer casar com ele quando recebeu o pedido, as dúvidas de Corvin sobre Kori e os limites reais de sua disponibilidade; Corvin também expõe que sua gentileza é apenas parte de uma natureza que inclui desejo, territorialidade e fúria, e admite que procurou Kori e enfrentou o Rei não apenas para proteger a escolha dela, mas porque a queria;
-- `livro/temporada-2/022.md` — **Sem Mentir para Nós Mesmos**: o pacto força a versão mais primitiva dos desejos de Corvin para as duas; Ravena e Kori admitem que também desejam intimidade compartilhada, os três reconhecem o hábito de usar verdades parciais como esconderijo, voltam ao Refúgio, Ravena inicia o primeiro beijo com Kori e a noite termina com a primeira intimidade realmente compartilhada do trio no ninho.
+- `livro/temporada-2/022.md` — **Sem Mentir para Nós Mesmos**: o pacto força a versão mais primitiva dos desejos de Corvin para as duas; Ravena e Kori admitem que também desejam intimidade compartilhada, os três reconhecem o hábito de usar verdades parciais como esconderijo, voltam ao Refúgio, Ravena inicia o primeiro beijo com Kori e a noite termina com a primeira intimidade realmente compartilhada do trio no ninho;
+- `livro/temporada-2/023.md` — **Uma Mesa Maior**: Kori e Ravena começam a sair juntas por vontade própria e repetem beijos sem resetar o vínculo; Corvin conclui o anel pessoal de Luand'r, ensina a Rainha a abrir e fechar sozinha a rota Tamaran–solário e estabelece a caixa-âncora nos aposentos do casal; Luand'r e Myand'r visitam o Refúgio para jantar, conhecem oficina, laboratório e biblioteca, testam um pacto simples com Gaia e integram-se à vida doméstica terrestre de Kori; a noite termina novamente com intimidade escolhida do trio e a manhã seguinte abre com café no Refúgio.
 
 O foco continua sendo:
 
@@ -86,13 +87,15 @@ O foco continua sendo:
 - consequências políticas de uma princesa noiva de Corvin sem transformar a Coroa em proprietária da decisão;
 - noivado Corvin–Kori e construção futura de uma família interplanetária;
 - Ravena agora sabe e afirmou que **quer casar com Corvin e já queria quando ele perguntou**, embora ainda não tenha convertido formalmente o antigo `ainda não` em um novo `sim` ao pedido;
-- vínculo Ravena–Kori já ultrapassou a hipótese: houve primeiro beijo iniciado por Ravena e intimidade escolhida entre elas, ainda sem necessidade de rótulo formal imediato;
-- intimidade compartilhada entre os três agora faz parte do cânone e não deve ser tratada como possibilidade futura ainda não vivida;
+- vínculo Ravena–Kori já ultrapassou a hipótese e agora possui encontros próprios, beijos repetidos e iniciativa espontânea das duas;
+- intimidade compartilhada entre os três agora faz parte do cotidiano possível do vínculo e não deve ser tratada como possibilidade futura ainda não vivida;
 - aprendizado persistente de Kori e Ravena de que respeito à autonomia não apaga desejos, preferências, frustrações ou limites de Corvin;
 - Corvin não deve ser reduzido ao homem que sempre cede: gentileza e autocontrole são partes verdadeiras dele, assim como intensidade, territorialidade, desejo e fúria natural;
-- segurança e localização permanente da caixa solar em Tamaran;
-- eventual criação de novas âncoras/anéis para a Torre e para Luand'r, ainda apenas projetos;
+- segurança e localização permanente da caixa solar de Kori em Tamaran;
+- eventual criação de nova âncora/anel para acesso direto de Kori à Torre dos Titãs;
+- anel pessoal de Luand'r agora concluído e operacional, com destino terrestre no solário e caixa-âncora nos aposentos privados de Luand'r e Myand'r;
 - integração entre Refúgio, Torre, Titãs e Tamaran sem substituir uma casa pela outra;
+- conclusão do solário, da biblioteca e da futura ligação por espelhos entre o solário e uma área comum do Refúgio;
 - consequências do corpo reconstruído de Corvin, cabelos cinza e risco de morte definitiva antes do próximo reinício do Ciclo da Vida;
 - continuidade do Conselho, sucessão, títulos e demais efeitos institucionais que o Desafio da Coroa não resolveu.
 
@@ -102,19 +105,20 @@ A formação familiar compartilhada avançou de modo concreto. O problema atual 
 
 A continuação exata está em `estado/atual.md`.
 
-O Capítulo 022 terminou com:
+O Capítulo 023 terminou com:
 
-- Corvin, Kori e Ravena de volta ao Refúgio;
-- pacto por Gaia encerrado com a chegada da noite;
-- Kori e Ravena conscientes de que se acostumaram demais a organizar escolhas ao redor da paciência de Corvin;
-- Ravena afirmando que quer casar com Corvin e que já queria no momento da proposta original, embora não tenha feito um novo aceite formal;
-- Kori sabendo que Corvin tinha medo real de que ela recusasse o casamento;
-- Corvin deixando claro que respeitar uma escolha das duas não significa permanecer disponível para qualquer configuração de relação;
-- Kori e Ravena compreendendo que a motivação de Corvin para Tamaran também era pessoal, romântica, territorial e egoísta, não apenas defesa abstrata de autonomia;
-- primeiro beijo Ravena–Kori iniciado por Ravena;
-- primeira intimidade compartilhada dos três no ninho;
-- Corvin ainda com cabelos cinza e em recuperação;
-- Dick, Victor e Garfield permanecendo em Tamaran;
-- plano declarado para o trio voltar a Tamaran no dia seguinte.
+- Luand'r e Myand'r já capazes de visitar o solário da Montanha por conta própria e retornar juntos a Tamaran;
+- caixa-âncora de Luand'r planejada para permanecer nos aposentos privados do casal em Tamaran;
+- Luand'r tendo um anel pessoal solar, sem função militar ou da Coroa;
+- Dick, Victor e Garfield já devolvidos à Torre pelos caminhos normais depois da estadia em Tamaran;
+- Kori e Ravena tendo vivido pelo menos dois dias/encontros intencionais em pares, com beijos repetidos e iniciativa própria;
+- Kori e Ravena compreendendo que o vínculo entre elas não precisa ser redescoberto a cada gesto;
+- primeiro jantar de Luand'r e Myand'r no Refúgio concluído, com os dois conhecendo oficina, laboratório e biblioteca;
+- demonstração canônica de pacto por Gaia: clareza, justiça/equilíbrio e vontade/consentimento são requisitos; uma vez aceito, o planeta sustenta a regra durante o prazo acordado;
+- plano futuro de revanche recreativa Corvin–Myand'r somente quando Corvin voltar ao verde, sem valor político e sem avatar colossal;
+- espelhos vinculados planejados para ligar o solário a uma área comum do Refúgio sem túnel físico;
+- ideias novas para biblioteca e solário já discutidas, ainda não automaticamente construídas;
+- Corvin ainda de cabelos cinza e com risco de morte definitiva até o reinício do ciclo;
+- na manhã seguinte ao jantar, Corvin acordou cedo, arrumou a mesa e fez café; Kori e Ravena já estão acordadas com ele no Refúgio.
 
-A próxima cena começa na manhã seguinte no Refúgio, antes ou durante a volta para Tamaran, preservando a agência de Corvin e todos os desenvolvimentos conquistados nos capítulos 020–022.
+A próxima cena começa nessa manhã no Refúgio, com o trio reunido junto ao café, preservando a agência de Corvin e todos os desenvolvimentos conquistados até o Capítulo 023.
