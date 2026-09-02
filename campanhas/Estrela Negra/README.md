@@ -3,7 +3,7 @@
 STATUS: TEMPORADA 2 ATIVA
 Temporada ativa: 2
 Última temporada encerrada: 1
-Último capítulo fechado: `livro/temporada-2/014.md`
+Último capítulo fechado: `livro/temporada-2/019.md`
 Epílogo da Temporada 1: `livro/temporada-1/epilogo.md`
 Resumo da temporada anterior: `livro/temporada-1/resumo-da-temporada.md`
 Mapa de eventos da Temporada 1: `livro/temporada-1/mapa-de-eventos.md`
@@ -70,14 +70,19 @@ Capítulos fechados até agora:
 - `livro/temporada-2/011.md` — três dias de pesquisa, autonomia de Ravena, apoio dos Titãs, fechamento da teoria, descoberta do custo ligado ao Ciclo da Vida e construção física da máquina destinada a sustentar Corvin dentro da busca de Caminhos por Tamaran;
 - `livro/temporada-2/012.md` — quatro dias de Kori em Tamaran: viagem e reencontro familiar, retorno ao povo e à condição de princesa, surgimento do conflito entre suas duas casas e, no quarto dia, reação inédita do Anel Solar que a leva à praça onde Caminhos parece procurá-la do outro lado;
 - `livro/temporada-2/013.md` — o quarto dia do lado da Terra alcança o mesmo instante: Corvin ativa a máquina, Caminhos reconhece a praça de Tamaran, Dick, Garfield, Victor e Ravena atravessam primeiro, Corvin paga duas estações do próprio Ciclo da Vida e cruza por último; chega de cabelos brancos, faz uma piada, desmaia e é aparado e abraçado por Kori diante da família real e da Guarda;
-- `livro/temporada-2/014.md` — Ravena e Kori finalmente conversam frente a frente e reconhecem reciprocidade romântica sem apressar rótulos; o Conselho questiona a dignidade de Corvin como possível consorte, levando ao Desafio da Coroa Ardente; Corvin desfaz o próprio corpo e manifesta sua natureza através de Tamaran, Kori e Ravena o trazem de volta, o Rei reconhece que ele passou e retira a objeção de indignidade; Kori prova que consegue abrir sozinha a rota Tamaran–Refúgio com seu Anel Solar e a caixa solar em Tamaran; Corvin pede Kori e Ravena em casamento, Kori aceita e Ravena responde “ainda não”; Luand'r conhece o noivado, conversa com Corvin como mãe, vê a vida terrestre da filha e entende que Kori agora pode pertencer às duas casas; o capítulo termina depois de um dia com os Titãs em Tamaran, com Corvin, Kori e Ravena juntos no palácio.
+- `livro/temporada-2/014.md` — **O Que Ficou Entre Elas**: Kori e Ravena finalmente conversam frente a frente sobre a mensagem; Ravena reconhece que também gosta de Kori, sem reescrever a amizade nem apressar rótulos, e Corvin desperta para descobrir que as duas casas e a família dos três continuam existindo ao mesmo tempo;
+- `livro/temporada-2/015.md` — **O Desafio da Coroa Ardente**: o Conselho questiona a dignidade de Corvin como possível consorte, Corvin aceita o antigo desafio, luta contra o Rei, encerra deliberadamente o corpo humano e manifesta sua natureza através de Tamaran; Kori e Ravena o trazem de volta e o Rei declara que ele passou;
+- `livro/temporada-2/016.md` — **A Porta Que Era Dela**: após o Desafio, o Rei admite que a escolha sobre Kori nunca foi dele; Corvin demonstra que agora conhece Tamaran, Kori leva a caixa solar para o planeta e prova que consegue abrir sozinha uma passagem estável entre Tamaran e o Refúgio;
+- `livro/temporada-2/017.md` — **Um Sim e um Ainda Não**: Kori explica a estrutura tamaraneana de casamento plural, Corvin pede Kori e Ravena em casamento, Kori aceita e Ravena afirma que quer a família e pode estar se apaixonando por Kori, mas ainda não está pronta para casamento;
+- `livro/temporada-2/018.md` — **A Mãe da Princesa**: Luand'r recebe a notícia do noivado, pergunta por que Corvin ama Kori, vê a filha dançar, voar e literalmente nadar pela terra com ele, conversa com Corvin como mãe e conhece a vida terrestre de Kori, sua rota independente e a promessa de um futuro anel pessoal para visitá-la;
+- `livro/temporada-2/019.md` — **As Duas Casas**: Kori leva Corvin, Ravena e os Titãs para conhecer comida, mercados, céu e cotidiano de Tamaran; o dia termina com as duas famílias dela no mesmo planeta e, à noite, Corvin, Kori e Ravena escolhem dormir juntos no palácio sem transformar a escolha em vitória de uma casa sobre a outra.
 
 O foco continua sendo:
 
 - liberdade real de Kori para escolher quando estar em Tamaran, no Refúgio e com os Titãs;
 - consequências políticas de uma princesa noiva de Corvin sem transformar a Coroa em proprietária da decisão;
 - noivado Corvin–Kori e construção futura de uma família interplanetária;
-- resposta aberta de Ravena ao casamento, sem prazo e sem promessa automática de “sim”;
+- resposta aberta de Ravena ao casamento, sem prazo e sem promessa automática de `sim`;
 - descoberta gradual do vínculo romântico Ravena–Kori, agora reciprocamente reconhecido, ainda sem beijo ou rótulo formal;
 - segurança e localização permanente da caixa solar em Tamaran;
 - eventual criação de novas âncoras/anéis para a Torre e para Luand'r, ainda apenas projetos;
@@ -91,7 +96,7 @@ A formação familiar compartilhada avançou muito, mas a temporada ainda não t
 
 A continuação exata está em `estado/atual.md`.
 
-O Capítulo 014 terminou com:
+O Capítulo 019 terminou com:
 
 - Corvin vivo e reconstruído após ter encerrado o corpo humano durante o Desafio;
 - cabelos de Corvin agora cinza; segundo sua própria explicação, uma nova morte antes do reinício do ciclo seria definitiva;
